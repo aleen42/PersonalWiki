@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 ## About
 
 In order to organize all the knowledges I have learnt, I wrote this wiki for me to revise all the knowledges.
