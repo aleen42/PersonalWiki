@@ -10,4 +10,4 @@ In order to organize all the knowledges I have learnt, I wrote this wiki for me 
  * Thanks to [July](github.com/julycoding) for how to build a wiki.
  
 ## About me
-![github logo] ./pic/tail.gif (http://aleen42.github.io/)
+<a href="http://aleen42.github.io/" target="_blank"><img src="./pic/tail.gif"></a>
