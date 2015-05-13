@@ -1,0 +1,34 @@
+class week
+{
+	public enum Weekday
+	{
+		Sun,Mon,Tue,Wed,Thu,Fri,Sat
+	}
+	
+	public static void Main()
+	{
+		Weekday w1=Weekday.Mon;
+		Weekday w2=Weekday.Fri;
+		Console.WriteLine("每周有{0}个工作日",w2-w1+1);
+		Console.WrtieLine("Mon之后是{0}",Nextday(w1));
+	}
+
+	public static Weekday Nextday(Weekday day)
+	{
+		Weekday wdnext;
+		if(day==Weekday.Sat)
+			return wdnext=Weekday.Sun;
+		else
+			return wdnext=day++;				
+	}
+	
+	foreach(string s in Weekday.Getname(typeof(Weekday)))
+	{
+		Console.WriteLine(s+' ');	
+	}
+	
+	Console.Write("就今天是星期几:");
+	Weekday today=(Weekday)Weekday.Parse(typeof(Weekday),Console.ReadLine());
+	Console.WrtieLine("明天是星期{0}"),Nextday(wd3);
+	
+}
