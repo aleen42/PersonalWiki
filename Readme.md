@@ -1,5 +1,4 @@
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-<div class="c">
 ## About
 
 In order to organize all the knowledges I have learnt, I wrote this wiki for me to revise all the knowledges.
@@ -14,4 +13,3 @@ In order to organize all the knowledges I have learnt, I wrote this wiki for me 
  
 ## About me
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
-</div>
