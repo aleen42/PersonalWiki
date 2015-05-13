@@ -3,7 +3,7 @@
 In order to organize all the knowledges I have learnt, I wrote this wiki for me to revise all the knowledges.
 
 ## Start Reading
- * [Enter](Programming/Programming Menu.md)
+ * [Enter](Programming/Programming%20Menu.md)
 
 
 ## Supported
