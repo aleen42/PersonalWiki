@@ -1,5 +1,5 @@
-## OOP
-**When use them in practical, you'll know them.**
+##OOP
+*When use them in practical, you'll know them.*
 =================================
 #1.SRP(Single Responsibility Principle) 
 **一个对象对应一个职责**
