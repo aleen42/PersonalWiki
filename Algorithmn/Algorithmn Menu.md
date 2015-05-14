@@ -1,5 +1,5 @@
 ## Algorithmn Menu	[Back](./../Readme.md)
-* [Sort](./Sort/Sort.md)(Object-oriented Programming)
+* [Sort](./Sort/Sort.md)
 
 
 =====

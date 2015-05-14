@@ -1,5 +1,6 @@
 ##Bubble Sort [Back](./../Sort.md)
-'#include<stdio.h>
+```c
+#include<stdio.h>
 void main()
 {
 	int num[64]
@@ -23,7 +24,8 @@ void main()
 		else
 			printf("%d", num[i]);
 	}
-}'
+}
+```
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
