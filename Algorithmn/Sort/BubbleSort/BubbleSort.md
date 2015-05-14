@@ -4,7 +4,7 @@
 void main()
 {
 	int num[64]
-		int i, j, a = 0, temp;
+	int i, j, a = 0, temp;
 	/* Load Data */
 	while ((scanf("%d", &num[a]) != EOF)
 	{
