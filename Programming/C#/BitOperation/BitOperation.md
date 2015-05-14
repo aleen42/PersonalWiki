@@ -1,4 +1,4 @@
-## BitOperation [Back](./../C%23%20Menu.md)
+## BitOperation [Back](./../../C%23/C%23%20Menu.md)
 
 - 位運算: &, |, ^, ~, >>, <<
 
