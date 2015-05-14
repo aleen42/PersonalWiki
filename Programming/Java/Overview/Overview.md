@@ -1,4 +1,4 @@
-## Java OverView [Back](./Java.md)
+## Java OverView [Back](./../Java.md)
 # Three main properties of Object-oriented Programming
 - Inheritance(繼承)
 - Encapsulation(封裝)
@@ -19,4 +19,4 @@
 - 可移植性(平臺無關性)
 
 =====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
+<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
