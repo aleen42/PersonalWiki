@@ -1,3 +1,8 @@
+## Args [Back](./../C%23%20Menu.md)
+
+- 命令行參數: Main函數開始時接受的參數
+
+```C#
 using System;
 
 class listArg0
@@ -10,5 +15,7 @@ class listArg0
 		Console.Read();
 	}
 }
+```
 
-
+=====
+<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

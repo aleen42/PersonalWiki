@@ -1,3 +1,8 @@
+## Enum [Back](./../C%23%20Menu.md)
+
+- 枚舉操作: GetNames(), CompareTo()...
+
+```C#
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -80,3 +85,7 @@ namespace ConsoleApplication1
         }
     }
 }
+```
+
+=====
+<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
