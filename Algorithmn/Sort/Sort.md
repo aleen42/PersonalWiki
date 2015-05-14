@@ -1,4 +1,4 @@
-## Sort Menu	[Back](./../Algorithmn%20Menu.md.md)
+## Sort Menu	[Back](./../Algorithmn%20Menu.md)
 * [BubbleSort](./BubbleSort/BubbleSort.md)
 
 
