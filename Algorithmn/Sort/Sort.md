@@ -1,5 +1,6 @@
 ## Sort Menu	[Back](./../Algorithmn%20Menu.md)
 * [BubbleSort](./BubbleSort/BubbleSort.md)
+* [MergeSort](./MergeSort/MergeSort.md)
 
 
 =====
