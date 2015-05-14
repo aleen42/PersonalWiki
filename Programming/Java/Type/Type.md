@@ -1,7 +1,7 @@
 ## Type [Back](./../Java.md)
 
 # Value Type & Reference Type
-```java
+```Java
 int a = 3;	//基本類型(堆棧), 基本類型只有作為類的屬性時才有默認值
 Integer a = new Integer(3);	//對象(堆) 
 ```
