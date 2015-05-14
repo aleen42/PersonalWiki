@@ -1,2 +1,2 @@
 ## Thought Menu
-* [OOP](./OOP/OOP.md)(Object-oriented Principle)
+* [OOP](./OOP/OOP.md)(Object-oriented Programming)
