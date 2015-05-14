@@ -1,4 +1,4 @@
-##OOP
+##OOP		[Back](./../Thought%20Menu.md)
 **When use them in practical, you'll know them.**
 #1.SRP(Single Responsibility Principle) 
 **一个对象对应一个职责**
@@ -28,7 +28,7 @@ eg. 高层模块不应该依赖于底层模块，这样会导致高层模块的�
 - 1.Don't call us until we call you.
 - 2.底层模块只是实现在高层模块的声明并为高层模块提供接口，高层模块并不涉及底层细节的实现
 
-#4.ISP(Interface Segregation Principle)
+#5.ISP(Interface Segregation Principle)
 **不强迫依赖于不需要的方法**
 
 - 1.使用多个专门的接口比使用单一的总接口要好
