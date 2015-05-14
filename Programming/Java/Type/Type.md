@@ -7,15 +7,15 @@ Integer a = new Integer(3);	//對象(堆)
 ```
 
 # Object Reference & Pointer
-```java
+```Java
 C q = new C();	//q is an Object Reference
 ```
-```c++
+```cpp
 C *q = new C();	//q is an Pointer
 ```
 
 # Array
-```java
+```Java
 int[] a = new int[10];
 int[] b = a;
 b[1] = 1;	//a[1] = 1
@@ -29,7 +29,7 @@ emArray[1] = nwe Employee();
 ```
 
 # Equals() & ==
-```java
+```Java
 String s1 = "abc";
 String s2 = "abc";
 String s3 = new String("abc");
