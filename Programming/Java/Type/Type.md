@@ -1,12 +1,12 @@
 ## Type [Back](./../Java.md)
 
-# Value Type & Reference Type
+### Value Type & Reference Type
 ```Java
 int a = 3;	//基本類型(堆棧), 基本類型只有作為類的屬性時才有默認值
 Integer a = new Integer(3);	//對象(堆) 
 ```
 
-# Object Reference & Pointer
+### Object Reference & Pointer
 ```Java
 C q = new C();	//q is an Object Reference
 ```
@@ -14,7 +14,7 @@ C q = new C();	//q is an Object Reference
 C *q = new C();	//q is an Pointer
 ```
 
-# Array
+### Array
 ```Java
 int[] a = new int[10];
 int[] b = a;
@@ -28,7 +28,7 @@ emArray[1] = nwe Employee();
 //arraycopy(from, fromindex, to, toindex, num);
 ```
 
-# Equals() & ==
+### Equals() & ==
 ```Java
 String s1 = "abc";
 String s2 = "abc";
