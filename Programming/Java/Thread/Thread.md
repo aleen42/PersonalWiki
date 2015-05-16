@@ -7,25 +7,24 @@
 - 互斥: 指多個進程將要讀取同一區域(關鍵區)的數據時,將只能允許一個進程進入. (Mutex)
 
 ###States of a Thread
-
-<!-- lang:Java -->
-	class MyThread extends Thread implements Runnable
+```Java
+class MyThread extends Thread implements Runnable
+{
+	//Attributes
+	MyThread()
 	{
-		//Attributes
-		MyThread()
-		{
-			//Constructor
-		}
+		//Constructor
+	}
 	
-		@SuppressWarnings("deprecation")
-		public void run()
-		{
-			//What you want this thread to do
-			Thread.sleep(100);	//Blocked State
-			wait();			//Blocked State (need other threads to call notify() or notifyall())
-		}
-	}	
-
+	@SuppressWarnings("deprecation")
+	public void run()
+	{
+		//What you want this thread to do
+		Thread.sleep(100);	//Blocked State
+		wait();			//Blocked State (need other threads to call notify() or notifyall())
+	}
+}	
+```
 ```Java
 Thread t = new MyThread()	//Initialize
 t.start();	//Run State
