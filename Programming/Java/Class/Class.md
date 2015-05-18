@@ -20,6 +20,10 @@ Override|對繼承的方法進行重寫
 Overload|重載函數,接受不同的參數調用不同的方法
 
 ### Polymorphism
+- 多態的理解: 指不同對象處理同一事件的方式並不同
+
+eg.貓與狗同屬於動物類, 動物有叫的方法. 但是對於貓和狗來說, 叫的方式不同.
+
 - 多態的本質: Dynamic Binding(動態綁定)
 - Upcast: Base_Class p = new Derived_Class();
 
@@ -30,8 +34,7 @@ Override|```public override void method(){}```
 Upcast|```Base_Class p = new Derived_Class();```
 Call Child's Method|```p.method();```
 
-
-### Abstract Class & Interface
+### Inheritance
 - 抽象類與接口都不能實例化
 - 一個類只能繼承一個抽象類,原因菱形多重繼承存在二義性
 - 一個類可以實現多個接口(間接實現多重繼承)
@@ -81,7 +84,11 @@ Private|成員訪問性只控制在類內
 Public|所有包都可訪問該類(在一個Java源文件必須有且僅有一個)
 Omitted(缺省)|只能在該包內訪問該類(可有多個或沒有)
 
-
+###How to get the type of an instance
+```Java
+Student me = new Student("PuiMan Cheui", "13121215");
+System.out.println(me.getClass().getName());
+```
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
