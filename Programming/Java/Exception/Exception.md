@@ -1,4 +1,23 @@
 ## Exception [Back](./../Java.md)
+
+###Exception & Error
+
+####Exception
+- Exception是可控或不可控的
+- Exception通常是由于程序员的错误所导致的
+- Exception应该应用级别就要处理
+
+####Error
+- Error总是不可控的
+- Error通常是由于系统的错误所导致的
+- Error应该在系统级别处理
+
+###Checked Exception & Unchecked Exception
+- Checked Exception: 指可以通過代碼處理的異常
+- Unchecked Exception: 指並不能通過代碼處理的異常(通常指RuntimeException)
+
+###Syntax
+
 ```Java
 try
 {
@@ -14,6 +33,7 @@ catch(IOException e)	//Smaller Exception must be before the bigger one
 catch(Exception e)
 {
 	e.printStackTrace();
+	throw e;	//throw this exception to upper level 
 }
 finally
 {
