@@ -53,7 +53,8 @@ t.join();	//Wait for this thread to die
 - yield()
 
 ```java
-t.yield();	//Causes the currently executing thread object to temporarily pause and allow other threads to execute.
+t.yield();	//Causes the currently executing thread object to temporarily pause 
+		//and allow other threads to execute.
 ```
 
 - setPriority(int newPriority)
