@@ -44,7 +44,7 @@ public class Sandwich extends PortableLunch {
   }
 } ///:~
 
-/*������
+/*Output
 Meal()
 Lunch()
 PortableLunch()
