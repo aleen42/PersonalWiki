@@ -1,4 +1,0 @@
-foreach(char s in str)
-{
-	
-}
