@@ -4,6 +4,16 @@
 - Huffman編碼: 為了解決字符因不同權值編碼時, 不能出現前綴碼問題
 
 	```A: 00; B: 001;	//B出現前綴碼A```
+
+- 字符權值表
+
+<img src="./example.gif">
+
+- **Huffman樹**不唯一
+
+<img src="./huffmantree.gif">
+
+- 需要事先知道字符權值, (**Adaptive Huffman Coding**解決這個問題)
 - 廣泛應用於壓縮技術
 - 採用**自底向上**的編碼方式
 

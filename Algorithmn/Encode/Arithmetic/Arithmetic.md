@@ -6,6 +6,8 @@
 - 用比例縮放來解決溢出問題
 - 廣泛應用於圖像數據編碼
 
+<img src="./example.gif">
+
 #### 數據結構
 ```cpp
 weight[4];	//weight[0] for "00", weight[1] for "01"
