@@ -4,8 +4,10 @@
 - Huffman編碼: 為了解決字符因不同權值編碼時, 不能出現前綴碼問題
 
 	```A: 00; B: 001;	//B出現前綴碼A```
-- 數據結構:
-	
+- 廣泛應用於壓縮技術
+- 採用**自底向上**的編碼方式
+
+####數據結構	
 ```cpp
 class coded_char
 {
@@ -29,8 +31,7 @@ class coded_char
 };
 ```
 
-- 算法實現:
-
+####算法實現
 ```cpp
 /* Create a Hufman Tree */
 void HUFFMAN_CODE_CREATE(coded_char* data[])
