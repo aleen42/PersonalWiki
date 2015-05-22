@@ -14,7 +14,7 @@
 		- strings
 		- ...
 
-```javascript
+```js
 var x;
 x = 0;
 x	//=>0
@@ -32,7 +32,7 @@ x = undefined;	//like null
 ###Arithmetic
 - a set of functions and constants are defined as properties of the **Math** object.
 
-```javascript
+```js
 Math.pow(2,53)	//=>2^53
 Math.round(.6)	//=>1.0
 ...
@@ -43,7 +43,7 @@ Math.round(.6)	//=>1.0
 - JavaScript predefines global variables **Infinity** to distinguished from **NaN**.
 - Infinity is **read/write** in **ECMAScript3**, while **read/only** in **ECMAScript5**.
 
-```javascript
+```js
 //Positive Infinity
 Infinity	
 Number.POSITIVE_INFINITY	
@@ -68,7 +68,7 @@ isFinite(x);	//return true when x is other than NaN, Positive or Negative Infini
 ###Precision
 - JavaScrpit numbers also have the same problem of c++, and can approximate 0.1 very closely. But the fact that this number cannot be represented exactly can lead to problems.
 
-```javascript
+```js
 var x = .3 - .2;
 var y = .2 - .1;
 x == y;		//false: the two values are not the same!
@@ -77,7 +77,7 @@ y == 0.1;	//true
 ```
 
 ###Date and Times
-```javascript
+```js
 var later = new Date(2010, 0, 1, 17, 10, 30);	//5:10:30pm, local time
 var then = new Date(2010, 0, 1);	//Jan 1st, 2010
 

@@ -18,7 +18,7 @@
 - see on [**documents**](http://interactjs.io/api/) of the offical website.
 
 ###Code
-```javascript
+```html
 `<script src="js/interact-1.2.4.min.js"></script>`
 ```
 ###Download

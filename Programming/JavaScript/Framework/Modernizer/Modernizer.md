@@ -7,7 +7,7 @@
 - 由於Modernizer內置**html5shiv**類庫, 因此我們必須在`<body>`加載之前引用Modernizer.js
 
 ###Code
-```javascript
+```html
 `<script src="js/modernizr.custom.js"></script>`
 ```
 ###Download
