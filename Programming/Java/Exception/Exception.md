@@ -1,6 +1,12 @@
 ## Exception [Back](./../Java.md)
 
 ###Exception & Error
+- The **Throwable** class is the superclass of all errors and exceptions in the Java language.
+
+>Throwable
+>>Exception
+
+>>Error
 
 ####Exception
 - Exception是可控或不可控的
