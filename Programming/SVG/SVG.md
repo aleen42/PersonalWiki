@@ -210,7 +210,10 @@ if (animate) {
 ```
 
 ### Appendix
-- Bezier Curve(貝塞爾曲線)
+- ####Bezier Curve(貝塞爾曲線)
+
+`calcMode="spline"`
+`calcMode="linear"` 
 
 <img src="interpSpline01.png">
 `keySplines="0 0 1 1"`
@@ -220,6 +223,13 @@ if (animate) {
 `keySplines="0 .75 .25 1"`
 <img src="interpSpline04.png">
 `keySplines="1 0 .25 .25"`
+
+- ####accumulate & additive
+	- `accumulate`是累積的意思. 支持參數有：`none` | `sum`. 默認值是`none`. 如果值是`sum`表示動畫結束時候的位置作為下次動畫的起始位置.
+	- `additive`控制動畫是否附加. 支持參數有：`replace` | `sum`. 默認值是`replace`. 如果值是`sum`表示動畫的基礎屬性會附加到其低優先級的動畫上
+
+- ####restart
+支持的參數有：`always` | `whenNotActive` | `never`, 默認值是`always`, 用於動畫開始後點擊事件對動畫的影響
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
