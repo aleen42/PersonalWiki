@@ -92,7 +92,7 @@
 	**Show**
 
 	[**Click to show**](./example.svg)
-	<img src="./example.svg">
+	<img src="./example.svg" height="250">
 
 	- ###x/y with opacity
 	
@@ -129,6 +129,63 @@
 	[**Click to show**](./example1.svg)
 	<img src="./example1.svg" height="250">
 
+
+	- ### path(with auto rotate)
+	
+	**Code**
+
+	```svg
+<use x="0" y="0" opcity="0" xlink:href="#github">
+		<animateMotion
+			attributeName="x"
+			dur="2s"
+			keyTimes="0; 0.138; 1"
+			path="M10,80 q100,120 120,20 q140,-50 160,0"
+			repeatCount="indefinite"
+			/>
+		<animate
+			attributeName="opacity"
+			dur="2s"
+			values="0; 1; 0"
+			keyTimes="0; 0.138; 1"
+			repeatCount="indefinite"
+			/>
+</use>
+```
+	
+	**Show**
+
+	[**Click to show**](./example2.svg)
+	<img src="./example2.svg" height="250">
+
+	- ### path(without auto rotate)
+	
+	**Code**
+
+	```svg
+<use x="0" y="0" opcity="0" xlink:href="#github">
+		<animateMotion
+			attributeName="x"
+			dur="2s"
+			keyTimes="0; 0.138; 1"
+			path="M10,80 q100,120 120,20 q140,-50 160,0"
+			repeatCount="indefinite"
+			rotate="auto"
+			/>
+		<animate
+			attributeName="opacity"
+			dur="2s"
+			values="0; 1; 0"
+			keyTimes="0; 0.138; 1"
+			repeatCount="indefinite"
+			/>
+</use>
+```
+	
+	**Show**
+
+	[**Click to show**](./example3.svg)
+	<img src="./example3.svg" height="250">
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
