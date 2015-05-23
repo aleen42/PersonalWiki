@@ -1,5 +1,5 @@
 ## Interact [Back](./../Framework.md)
-<img style="background:#000;" src="./logo.svg">
+<img src="./logo.png">
 
 - [**Interact.js**](http://interactjs.io/docs/) is a JavaScript module for **drag** and **drop**, **resizing** and **multi-touch** gestures with inertia and snapping for modern browsers (and also IE8+).
 
