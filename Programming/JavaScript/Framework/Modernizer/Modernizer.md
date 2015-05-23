@@ -11,7 +11,7 @@
 `<script src="js/modernizr.custom.js"></script>`
 ```
 ###Download
-- Just Click [here](http://modernizr.com/download/#-csstransitions-shiv-cssclasses-prefixed-testprop-testallprops-domprefixes-load) to download.
+- Just Click [**here**](http://modernizr.com/download/#-csstransitions-shiv-cssclasses-prefixed-testprop-testallprops-domprefixes-load) to download.
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
