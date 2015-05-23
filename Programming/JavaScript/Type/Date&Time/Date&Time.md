@@ -1,5 +1,5 @@
 ## Dates & Times [Back](./../Type.md)
-- Create objects that represent dates and times with `Date()`.
+- create objects that represent dates and times with `Date()`.
 
 ```js
 var later = new Date(2010, 0, 1, 17, 10, 30);	//5:10:30pm, local time
