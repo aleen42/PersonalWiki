@@ -91,7 +91,7 @@
 	**Show**
 
 	[**Click to show**](./example.svg)
-
+	<img src="./example.svg">
 
 
 =====
