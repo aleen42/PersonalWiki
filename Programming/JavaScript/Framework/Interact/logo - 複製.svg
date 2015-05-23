@@ -8,46 +8,7 @@
 
   <use xlink:href="#a-delta" transform="translate(255.81,65.6775)" height="123" width="512">
   </use>
-  <use x="0" y="0" transform="translate(255.81,65.6775)" opacity="0" xlink:href="#a-delta">
-    <animateTransform attributeName="transform"
-        attributeType="XML"
-        type="scale"
-        values="1; 25"
-        dur="10s"
-        additive="sum"
-        repeatCount="1"/>
-    <animate attributeName="opacity"
-       values="1; 0"
-       dur="10s"
-       repeatCount="2"/>
-  </use>
-  <use x="0" y="0" transform="translate(255.81,65.6775)" opacity="0" xlink:href="#a-delta">
-    <animateTransform attributeName="transform"
-        attributeType="XML"
-        type="scale"
-        values="0; 15"
-        dur="7s"
-        additive="sum"
-        begin="2s"
-        repeatCount="1"/>
-    <animate attributeName="opacity"
-        values="1; 0"
-        dur="7s"
-        repeatCount="1"/>
-  </use>
-  <use x="0" y="0" transform="translate(255.81,65.6775)" opacity="0" xlink:href="#a-delta">
-    <animateTransform attributeName="transform"
-        attributeType="XML"
-        type="scale"
-        values="15; 1"
-        dur="13s"
-        additive="sum"
-        repeatCount="1"/>
-    <animate attributeName="opacity"
-        values="0; 1; 0.5; 0"
-        dur="11s"
-        repeatCount="1"/>
-  </use>
+  
   <g fill="#000">
     <path d="M0,13.433358,0,0.0000037116619h11.681184v13.43335429zm0,81.703387,0-68.918983,11.681184,0,0,68.918983z"/>
     <path d="m22.991206,95.136745,0-68.918983,10.513066,0,0,9.799209c5.061821-7.571059,12.37337-11.356626,21.934677-11.3567,4.153273,0.000074,7.971272,0.746378,11.454035,2.238893,3.48267,1.492662,6.089287,3.450348,7.819907,5.873038,1.730472,2.422819,2.941854,5.299863,3.634146,8.631095,0.432572,2.163246,0.648894,5.948813,0.64895,11.356718v42.37673h-11.681193v-41.922469c-0.000055-4.758955-0.454317-8.317381-1.362803-10.675298-0.908578-2.357825-2.520136-4.239791-4.834692-5.645917-2.314649-1.405997-5.029437-2.109033-8.144382-2.109088-4.975359,0.000055-9.26927,1.579181-12.881756,4.737357-3.612536,3.158306-5.418792,9.150314-5.418772,17.976042v37.639373z"/>
