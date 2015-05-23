@@ -89,7 +89,8 @@
 ```
 	
 	**Show**
-	<img src="./example.svg" height="20px" width="100%">
+
+	[**Click to show**](./example.svg)
 
 
 
