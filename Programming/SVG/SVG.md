@@ -73,14 +73,15 @@
 			attributeName="transform"
 			attributeType="XML"
 			type="scale"
-			dur="5.8s"
+			dur="1s"
 			values="1; 1.06; 1"
-			keyTimes="0; 0.138; 1" <!--time: 0.138 * 5.8, to be 1.06.-->
+			keyTimes="0; 0.138; 1" <!--time: 0.138 * 1, to be 1.06.-->
 			additive="sum" <!--This attribute controls whether or not the animation is additive.-->
 			repeatCount="Indefinite" <!--forever-->
 			/>
 		<animate
 			attributeName="opacity"
+			dur="1s"
 			values="0; 0.6; 0"
 			keyTimes="0; 0.138; 1"
 			repeatCount="Indefinite"
@@ -92,6 +93,41 @@
 
 	[**Click to show**](./example.svg)
 	<img src="./example.svg">
+
+	- ###x/y with opacity
+	
+	**Code**
+
+	```svg
+<use x="0" y="0" opcity="0" xlink:href="#github">
+		<animate
+			attributeName="x"
+			dur="2s"
+			values="0; 100; 200; 100; 0; -100; -200; -100; 0"
+			keyTimes="0; 0.125; 0.25; 0.375; 0.5; 0.625; 0.75; 0.875; 1"
+			repeatCount="indefinite"
+			/>
+		<animate
+			attributeName="y"
+			dur="2s"
+			values="0; 100; 200; 100; 0; -100; -200; -100; 0"
+			keyTimes="0; 0.125; 0.25; 0.375; 0.5; 0.625; 0.75; 0.875; 1"
+			repeatCount="indefinite"
+			/>
+		<animate
+			attributeName="opacity"
+			dur="2s"
+			values="0; 1; 0"
+			keyTimes="0; 0.5; 1"
+			repeatCount="indefinite"
+			/>
+</use>
+```
+	
+	**Show**
+
+	[**Click to show**](./example1.svg)
+	<img src="./example1.svg" height="250">
 
 
 =====
