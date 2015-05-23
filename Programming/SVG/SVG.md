@@ -89,7 +89,7 @@
 ```
 	
 	**Show**
-	<img src="./example.svg" width="100%">
+	<img src="https://github.com/aleen42/PersonalWiki/blob/master/Programming/SVG/example.svg" height="20px" width="100%">
 
 
 
