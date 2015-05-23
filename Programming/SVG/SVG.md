@@ -71,7 +71,7 @@
 <use x="0" y="0" opcity="0" xlink:href="#github">
 		<animateTransform
 			attributeName="transform"
-			attributeType="XML"
+			attributeType="XML" <!--this can be CSS/XML/auto, x, y and transform belong to XML-->
 			type="scale"
 			dur="1s"
 			values="1; 1.06; 1"
@@ -186,6 +186,40 @@
 
 	[**Click to show**](./example3.svg)
 	<img src="./example3.svg" height="250">
+
+##### Step 4
+- what we can also do is to add event for **SVG** with **JavaScript**.
+
+	- JavaScript 
+
+	```js
+var animate = document.getElementsByTagName("animate")[0];
+if (animate) {
+    document.getElementById("svg").onclick = function() {
+        animate.beginElement();
+    };
+}
+```
+
+	- SVG
+	
+	```svg
+<svg id="svg">
+	<!--relization-->
+</svg>
+```
+
+### Appendix
+- Bezier Curve(貝塞爾曲線)
+
+<img src="interpSpline01.png">
+`keySplines="0 0 1 1"`
+<img src="interpSpline02.png">
+`keySplines="0.5 0 .5 1"`
+<img src="interpSpline03.png">
+`keySplines="0 .75 .25 1"`
+<img src="interpSpline04.png">
+`keySplines="1 0 .25 .25"`
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
