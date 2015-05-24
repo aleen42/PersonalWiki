@@ -13,6 +13,19 @@ Step|Description|Code
 6|獲取結果|```while(rs.next()){String result = rs.getString("Column_name")}```
 7|釋放資源|<empty>
 
+###Statement
+- ####PreparedStatement
+使用傳參的方式執行SQL
+
+	```java
+PreparedStatement p_stat = con.preparedStatement("update table set m = ? where x = ?;");
+p_stat.setLong(1, 123456789);
+p_stat.setLong(2, 100000);
+p_stat.executeUpdate();
+```
+- ####CallableStatement
+用於執行SQL存儲過程
+
 ###Transaction
 ```Java
 boolean reserve = con.getAutoCommit();
