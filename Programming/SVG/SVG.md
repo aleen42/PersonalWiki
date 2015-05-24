@@ -4,6 +4,7 @@
 
 - **Scalable Vector Graphics (SVG)** is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.
 - It's not supported by **IE** kernel.
+- There is no **semicolon** (`;`) behind each statement.
 
 #### Animation
 ##### Step 1
