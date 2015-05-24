@@ -16,5 +16,18 @@ background:url(../pic/background.png);
 	- ####`background-image`
 	设置背景图片
 
+	```css
+background-image:url(../pic/background.png);
+```
+
+	- ####`background-color`
+	设置背景顏色
+
+	```css
+background-color:#000;
+background-color:transparent;
+background-color:rgba(0, 0, 0, 0.8);
+```
+
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
