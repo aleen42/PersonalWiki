@@ -11,7 +11,34 @@
 字節(Byte)|InputStream, OutputStream
 字符(Character)|Reader, Writer
 
-###Code(decorate the core)
+>InputStream
+>>FileInputStream(文件)
+
+>>ByteArrayInputStream(內存)
+
+>>StringBufferInputStream
+
+>>PipedInputStream(管道)
+
+>>ObjectInputStream(對象)
+
+>>SequenceInputStream(序列)
+
+>>AudioInputStream(聲音)
+
+>OutputStream
+
+>>FileOutputStream
+
+>>ByteArrayOutputStream
+
+>>PipedOutputStream
+
+>>ObjectOutputStream
+
+
+
+###Socket
 ```Java
 /* Initialization */
 //InputStreamReader(Change Byte-oriented to Character-oriented)
@@ -22,6 +49,18 @@ PrintWriter write = new PrintWriter(socket.getOutputStream)
 read.readLine();
 write.println("something");
 write.flush();
+```
+
+###File
+```java
+BufferedReader read = new BufferedReader(new FileReader(String path));
+PrintWriter write = new PrintWriter(new BufferedWriter(new FileWriter(String path)));
+```
+
+###Standard IO
+```java
+BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
+PrintWriter write = new PrintWriter(System.out, true);
 ```
 
 =====
