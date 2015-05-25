@@ -231,6 +231,7 @@ if (animate) {
 	- `additive`控制動畫是否附加. 支持參數有：`replace` | `sum`. 默認值是`replace`. 如果值是`sum`表示動畫的基礎屬性會附加到其低優先級的動畫上
 
 - **restart**
+
 支持的參數有：`always` | `whenNotActive` | `never`, 默認值是`always`, 用於動畫開始後點擊事件對動畫的影響
 
 =====
