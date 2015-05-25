@@ -7,32 +7,14 @@
 ### Website
 
 * [**Zcool**](http://www.zcool.com.cn/)
-
-<img src="./zcool.png">
-
 * [**Behance**](http://behance.net/)
-
-<img src="./behance.png">
-
 * [**Codrops**](http://tympanus.net/codrops/)
-
-<img src="./codrops.png">
-
 * [**Smashing Magazine**](http://www.smashingmagazine.com/)
-
-<img src="./smasshing_magazine.png">
-
 * [**ICC**(Institute of Creative Communications)](http://www.iccworld.org/)
-
-<img src="./ICC.png">
-
 * [**theDesignInspirations**](http://thedesigninspiration.com/)
-
-<img src="./thedesigninspiration.png">
-
 * [**聚*創意公社 La Camomille**](http://www.lacamomille.net/zh/)
-
-<img src="./la_camomille.png">
+* [**佛山設計中心 FoshanDesign Center**](http://fsvi.cn/)
+* [**NodePlus**](http://www.nodeplus.cn/)
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
