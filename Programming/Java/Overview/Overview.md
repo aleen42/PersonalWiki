@@ -32,7 +32,7 @@ JVM(Java Virtual Machine): 屏蔽底層接口為上層提供統一接口, 從而
 
 - **JIT**(just in time)及時編譯技術
 
-及時編譯技術指在編寫java時, IDE可以及時給你編譯源程序
+及時編譯技術指編譯時先把字節碼轉換成用戶機器的機器碼, 再執行該代碼指令.
 
 ### Properties of Java
 - 多線程性
