@@ -64,7 +64,8 @@
 
 ##### Step 3
 - use `<use>` to add `<animateTransform >` or `<animate>`.
-	- ###Scale with opacity
+	
+	- **Scale with opacity**
 	
 	**Code**
 
@@ -95,7 +96,7 @@
 	[**Click to show**](./example.svg)
 	<img src="./example.svg" height="250">
 
-	- ###x/y with opacity
+	- **x/y with opacity**
 	
 	**Code**
 
@@ -131,7 +132,7 @@
 	<img src="./example1.svg" height="250">
 
 
-	- ### path(with auto rotate)
+	- **path(with auto rotate)**
 	
 	**Code**
 
@@ -159,7 +160,7 @@
 	[**Click to show**](./example2.svg)
 	<img src="./example2.svg" height="250">
 
-	- ### path(without auto rotate)
+	- **path(without auto rotate)**
 	
 	**Code**
 
@@ -211,7 +212,7 @@ if (animate) {
 ```
 
 ### Appendix
-- ####Bezier Curve(貝塞爾曲線)
+- **Bezier Curve(貝塞爾曲線)**
 
 `calcMode="spline"`
 `calcMode="linear"` 
@@ -225,11 +226,11 @@ if (animate) {
 <img src="interpSpline04.png">
 `keySplines="1 0 .25 .25"`
 
-- ####accumulate & additive
+- **accumulate & additive**
 	- `accumulate`是累積的意思. 支持參數有：`none` | `sum`. 默認值是`none`. 如果值是`sum`表示動畫結束時候的位置作為下次動畫的起始位置.
 	- `additive`控制動畫是否附加. 支持參數有：`replace` | `sum`. 默認值是`replace`. 如果值是`sum`表示動畫的基礎屬性會附加到其低優先級的動畫上
 
-- ####restart
+- **restart**
 支持的參數有：`always` | `whenNotActive` | `never`, 默認值是`always`, 用於動畫開始後點擊事件對動畫的影響
 
 =====
