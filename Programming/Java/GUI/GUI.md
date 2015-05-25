@@ -22,27 +22,41 @@
 ### Four "top-level" Containers of Swing
 4個容器都可以通過`getContentPane()`來獲取對應的Container, 然後添加對應的顯示組件
 
-- ####JFrame
+- **JFrame**
+
 主要用於創建複雜Desktop App
-- ####JApplet
+
+-  **JApplet**
+
 主要創建Browser App
-- ####JDialog
+
+- **JDialog**
+
 主要創建彈出的Dialog(消息框)
-- ####JWindow
+
+- **JWindow**
+
 輕量級JFrame, 沒有標題欄和窗口按鈕
 
 ### Middle-level Containers
+
 - ####JPanel
+
 - ####JScrollPane
+
 - ####JSplitPane
+
 - ####JTabbedPane
+
 - ####JToolBar
 
 ### Event Handler
 eg. 以關閉按鈕為例
 
 ##### Method 1
+
 - ####確定事件類型以及事件對應的接口
+
 - ####實現接口裏的方法
 
 	```java
