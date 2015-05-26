@@ -45,9 +45,15 @@ Call Child's Method|```p.method();```
 
 #### Abstract Class:
 ```Java
+class Abstract_Class
+{
+	public abstract void method();
+}
+
 class Derived_Class extends Abstract_Class
 {
 	//(override)...
+	public void method(){//...} //子類重寫的函數訪問級別不能比父類低
 }
 ```
 #### Interface:
