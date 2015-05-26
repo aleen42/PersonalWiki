@@ -34,6 +34,7 @@ class MyThread implements Runnable
 	MyThread()
 	{
 		t = new Thread(this);
+		t.start()；
 	}
 
 	//Implements
