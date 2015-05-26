@@ -23,6 +23,7 @@ p_stat.setLong(1, 123456789);
 p_stat.setLong(2, 100000);
 p_stat.executeUpdate();
 ```
+
 - ####CallableStatement
 用於執行SQL存儲過程
 
