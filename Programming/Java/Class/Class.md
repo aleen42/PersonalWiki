@@ -42,10 +42,29 @@ Call Child's Method|```p.method();```
 - 接口中的所有成員均為public
 - 先extends, 後implements
 
+#### Super Class:
+```java
+class Super_Class
+{
+	protected void method()
+	{
+		//method of superclass
+	}
+}
+
+class Sub_Class
+{
+	@Override
+	public void method()
+	{
+		//method of subclass
+	}
+}
+```
 
 #### Abstract Class:
 ```Java
-class Abstract_Class
+abstract class Abstract_Class
 {
 	public abstract void method();
 }
