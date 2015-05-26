@@ -45,7 +45,7 @@ Call Child's Method|```p.method();```
 
 #### Abstract Class:
 ```Java
-class Derived_Class extedns Abstract_Class
+class Derived_Class extends Abstract_Class
 {
 	//(override)...
 }
