@@ -55,6 +55,7 @@ class Super_Class
 class Sub_Class
 {
 	@Override
+	//@Override起到斷言作用，檢測所重寫的方法是否拼寫正確，否則報錯。若無該句，編譯器會認為這是新方法
 	public void method()
 	{
 		//method of subclass
