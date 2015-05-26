@@ -72,7 +72,7 @@ JVM(Java Virtual Machine): 屏蔽底層接口為上層提供統一接口, 從而
 		```cs
 		// in c#
 		foreach(int element in a)
-			Console. WriteLine(element)；	
+			Console.WriteLine(element)；	
 		```
 		```java
 		for(int element = 0; element < a.size(); element++)
