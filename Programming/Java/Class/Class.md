@@ -29,9 +29,9 @@ eg.貓與狗同屬於動物類, 動物有叫的方法. 但是對於貓和狗來�
 
 多態的實現| Code
 :----:|------
-Inheritance|```class Derived_Cass extends Base_Cass{}```
+Inheritance|```class Sub_Cass extends Super_Cass{}```
 Override|```public void method(){}```
-Upcast|```Base_Class p = new Derived_Class();```
+Upcast|```Super_Class p = new Sub_Class();```
 Call Child's Method|```p.method();```
 
 ### Inheritance
