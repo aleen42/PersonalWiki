@@ -8,9 +8,11 @@ Integer a = new Integer(3);	//對象(堆)
 
 ### Object Reference & Pointer
 ```Java
+//in java
 C q = new C();	//q is an Object Reference
 ```
 ```cpp
+//in cpp
 C *q = new C();	//q is an Pointer
 ```
 
