@@ -15,7 +15,7 @@ class SimpArray
 	}
 }
 
-class My_Threawd extends Thread
+class My_Thread extends Thread
 {
 	private static SimpArray<Object> array = new SimpArray<Object>();
 	
