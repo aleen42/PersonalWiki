@@ -17,7 +17,7 @@ class SimpArray
 
 class My_Thread extends Thread
 {
-	private static SimpArray<Object> array = new SimpArray<Object>();
+	private static SimpArray array = new SimpArray();
 	
 	public void run()
 	{
@@ -26,6 +26,7 @@ class My_Thread extends Thread
 	
 	public synchronized void doing_with_array()		//do with sharing area
 	{
+		array.add(3);
 		//...
 	}
 }
