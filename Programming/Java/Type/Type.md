@@ -23,7 +23,7 @@ b[1] = 1;	//a[1] = 1
 Employee[] emArray =  new Employee[1];	//an array which stores object
 										//references point to nothing.
 emArray[0] = new Employee();
-emArray[1] = nwe Employee();
+emArray[1] = new Employee();
 
 //arraycopy(from, fromindex, to, toindex, num);
 ```
