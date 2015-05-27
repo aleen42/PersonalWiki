@@ -13,14 +13,14 @@ Attribute|Description
 	```css
 background:url(../pic/background.png);
 ```
-	- ####`background-image`
+	- `background-image`
 	设置背景图片
 
 	```css
 background-image:url(../pic/background.png);
 ```
 
-	- ####`background-color`
+	- `background-color`
 	设置背景顏色
 
 	```css
