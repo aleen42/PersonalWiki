@@ -28,7 +28,7 @@ class MyThread extends Thread
 - implements Runnable interface
 	- with **this**
 
-	```java
+```java
 class MyThread implements Runnable
 {
 	Thread t;
@@ -47,7 +47,7 @@ class MyThread implements Runnable
 ```
 	- with **unnamed inner class**
 
-	```java
+```java
 Thread MyThread = new Thread(
 new Runnable()
 {
