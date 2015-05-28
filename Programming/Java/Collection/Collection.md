@@ -1,4 +1,5 @@
 ## Collection [Back](./../Java.md)
+
 <img src="./Containers(JDK1.4).gif">
 
 - 集合都用泛型設計(與C++中的模版相像)
