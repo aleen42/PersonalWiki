@@ -1,9 +1,11 @@
 ##Bubble Sort [Back](./../Sort.md)
 - 冒泡排序 :每趟都把最大的沉到后。
-- 时间复杂度：T(n) = O(n^2)
+- 时间复杂度：T(n) = O(<img src="http://www.mathtran.org/cgi-bin/mathtran?D=5;tex=n%5E2">)
 - 空間複雜度: S(n) = O(1)
 - 稳定性 :稳定
 - 适用情况 :数据,初始序列基本有初
+
+
 
 ```c
 #include<stdio.h>
