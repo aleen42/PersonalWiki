@@ -3,8 +3,8 @@
 - Divide: pivot(可隨機選定)
 - Conquer: 直到只有一個的時候合併
 - Combination: None
-- 时间复杂度: T(n) = O(nlgn) (最好,平均) T(n) = O(n^2) (最壞情況)
-- 空間複雜度: S(n) = O(n)
+- 时间复杂度: <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=T(n)%3DO(nlgn)"> (最好,平均) <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=T(n)%3DO(n%5E2)"> (最壞情況)
+- 空間複雜度: <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=S(n)%20%3D%20O(n)">
 - 稳定性: 不稳定
 - 适用情况: 数据多的且無序
 
