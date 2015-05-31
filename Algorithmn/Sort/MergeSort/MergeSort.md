@@ -3,8 +3,8 @@
 - Divide: 二分
 - Conquer: 直到只有一個的時候合併
 - Combination: 每次比較隊頭,較小的先放進隊列
-- 时间复杂度: T(n) = O(nlgn) (最好,平均,最壞情況)
-- 空間複雜度: S(n) = O(n)
+- 时间复杂度: <img src="http://www.mathtran.org/cgi-bin/mathtran?D=3;tex=T(n)%3DO(nlgn)"> (最好,平均,最壞情況)
+- 空間複雜度: <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=S(n)%20%3D%20O(n)">
 - 稳定性: 稳定
 - 适用情况: 額外空間可以接受的情況下
 
