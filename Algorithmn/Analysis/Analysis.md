@@ -41,6 +41,8 @@
 - Subtitution: 猜想 (通常通過畫Recursive Tree來給出猜想) 並證明
 	- guess
 	- verify
+
+		<img src="./example1.png">
 	- solve
 - Recursive Tree: 通過畫出遞歸樹來求解開銷
 
