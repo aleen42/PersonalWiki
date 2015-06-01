@@ -44,7 +44,7 @@
 	- solve
 - Recursive Tree: 通過畫出遞歸樹來求解開銷
 
-<img src="./recursive_tree.png">
+<img src="./recursive_tree.png" width="80%">
 
 <img src="./recursive_expression.png">
 
