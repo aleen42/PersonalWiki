@@ -25,7 +25,7 @@
 - **Three** notations of **time**
 	- ***θ*** 
 
-	<img src="./theta.png"> (drop **low-order** terms, ignore **leading** constants)
+	<img src="./theta.png"> (drop **low-order** terms, and ignore **leading** constants)
 
 	<img src="./example.png">
 	
@@ -38,13 +38,19 @@
 	<img src="O.png">
 
 ### Recursive Algorithmn
-- Subtitution: 猜想並證明
+- Subtitution: 猜想 (通常通過畫Recursive Tree來給出猜想) 並證明
 	- guess
 	- verify
 	- solve
 - Recursive Tree: 通過畫出遞歸樹來求解開銷
-- Master: <img src="./master.png">
 
+<img src="./recursive_tree.png">
+
+<img src="./recursive_expression.png">
+
+- Master: 
+
+	<img src="./master.png">
 	- <img src="./master1.png">
 
 	- <img src="./master2.png">
