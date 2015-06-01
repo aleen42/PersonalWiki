@@ -3,7 +3,7 @@
 ###Overview
 - Sometimes, the **perfomance** of an algorithmn matters so much, when the size of a problem **n** is so big.
 
-<img src="./overhead.png">
+<img src="./overhead.png" width="75%">
 
 - But it's not always true for high perfomance, while an algorithmn depends on what is more important.
 	- modularity(模塊性)
