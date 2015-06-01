@@ -5,7 +5,7 @@
 
 <img src="./overhead.png" width="75%">
 
-- But it's not always true for high perfomance, while an algorithmn depends on what is more important.
+- But it's not always true for high perfomance, when an algorithmn depends on what is more important like the following items:
 	- modularity(模塊性)
 	- correctness(正確性)
 	- maintainabillity(可維護性)
