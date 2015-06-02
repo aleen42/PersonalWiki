@@ -43,6 +43,8 @@
 	- verify
 
 		<img src="./example1.png">
+		=====
+		<img src="./example2.png">
 	- solve
 - Recursive Tree: 通過畫出遞歸樹來求解開銷
 
