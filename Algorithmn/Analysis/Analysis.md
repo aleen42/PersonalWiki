@@ -65,7 +65,6 @@
 - Master: 
 
 	<img src="./master.png">
-
 	=====
 	- <img src="./master1.png">
 
