@@ -3,70 +3,14 @@
 - Divide: pivot(可隨機選定)
 - Conquer: 直到只有一個的時候合併
 - Combination: None
-- 时间复杂度: <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=T(n)%3DO(nlgn)"> (最好,平均) <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=T(n)%3DO(n%5E2)"> (最壞情況)
-- 空間複雜度: <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=S(n)%20%3D%20O(n)">
+- 时间复杂度: 
+	- <img src="./onlgn.png"> (最好平均情況) 
+	- <img src="./on2.png"> (最壞情況)
+- 空間複雜度: <img src="./on.png">
 - 稳定性: 不稳定
 - 适用情况: 数据多的且無序
 
 ```c
-#include <stdio.h>
-#define MAXSIZE 10000
-
-void QUICKSORT(int A[], int p, int q);
-int PARTITION(int A[], int p, int q);
-void exchange(int A[], int q, int p);
-void printf_array(int A[], int array_size);
-void data_Initilize(int n);
-
-int data[] = { 3, 6, 7, 1, 2, 5, 8, 4 };
-int array_size = sizeof(data) / sizeof(int);
-
-int max_data[] = { 3, 6, 7, 1, 2, 5, 8, 4 };
-int max_array_size = sizeof(max_data) / sizeof(int);
-int min_data[] = { 1, 1, 1, 1, 1, 1, 1, 1 };
-int min_array_size = sizeof(min_data) / sizeof(int);
-
-int count;
-
-
-int main()
-{
-	//int n = 1;
-	printf("%-4s compares\n\n", "n");
-	//for (; n <= 100; n++)
-	//{
-	//	data_Initilize(n);
-	//	count = 0;
-	//	QUICKSORT(data, 0, n - 1);
-	//	printf("%-4d %d\n", n, count);
-	//}
-
-	count = 0;
-	QUICKSORT(max_data, 0, max_array_size - 1);
-	printf("%-4d %d\n", max_array_size, count);
-
-	count = 0;
-	QUICKSORT(min_data, 0, min_array_size - 1);
-	printf("%-4d %d\n", min_array_size, count);
-
-	//QUICKSORT(data, 0, array_size - 1);
-
-
-	int m = PARTITION(data, 0, array_size - 1);
-	PARTITION(data, 0, m - 1);
-	PARTITION(data, m + 1, array_size - 1);
-	printf_array(data, array_size);
-
-	system("pause");
-	return 0;
-}
-
-void data_Initilize(int n)
-{
-	for (int i = 0; i < n; i++)
-		data[i] = 1;				//n same elements
-}
-
 void QUICKSORT(int A[], int p, int q)
 {
 	if (p < q)
@@ -92,20 +36,6 @@ int PARTITION(int A[], int p, int q)
 	}
 	exchange(A, i + 1, q);
 	return i + 1;
-}
-
-void exchange(int A[], int q, int p)
-{
-	int temp = A[q];
-	A[q] = A[p];
-	A[p] = temp;
-}
-
-void printf_array(int A[], int array_size)
-{
-	for (int i = 0; i < array_size; i++)
-		printf("%-4d", A[i]);
-	printf("\n");
 }
 ```
 

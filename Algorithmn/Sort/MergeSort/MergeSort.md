@@ -3,44 +3,12 @@
 - Divide: 二分
 - Conquer: 直到只有一個的時候合併
 - Combination: 每次比較隊頭,較小的先放進隊列
-- 时间复杂度: <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=T(n)%3DO(nlgn)"> (最好,平均,最壞情況)
-- 空間複雜度: <img src="http://www.mathtran.org/cgi-bin/mathtran?D=2;tex=S(n)%20%3D%20O(n)">
+- 时间复杂度: <img src="./onlgn.png"> (最好,平均,最壞情況)
+- 空間複雜度: <img src="./on.png">
 - 稳定性: 稳定
 - 适用情况: 額外空間可以接受的情況下
 
 ```c
-#include <stdio.h>
-#define MAXSIZE 1000
-#define INFINITY 99999999
-
-int data[] = { 6, 20, 4, 6, 12, 7, 2, 1, 4, 7 };
-
-void printf_array(int a[]);
-void Merge(int A[], int p, int m, int q);
-void MergeSort(int A[], int p, int q);
-
-int main()
-{
-
-	printf_array(data);
-	MergeSort(data, 0, sizeof(data) / sizeof(int) - 1);
-	printf_array(data);
-
-	system("pause");
-	return 0;
-}
-
-void printf_array(int a[])
-{
-	int* p = a;
-	while (*p++ == 0)
-		printf("%-3d", *(p - 1));
-	p--;
-	while (*p++ != 0)
-		printf("%-3d", *(p - 1));
-	printf("\n");
-}
-
 void Merge(int A[], int p, int m, int q)
 {
 	int n1 = m - p + 1;
