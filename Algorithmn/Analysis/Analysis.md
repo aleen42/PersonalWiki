@@ -1,6 +1,16 @@
 ## How to analyse an algorithmn	[Back](./../Algorithmn%20Menu.md)
 
 ###Overview
+- Main **thought** of designing algorithmns
+
+	- [**DC**](./DC/DC.md)
+	- [**DP**](./DP/DP.md)
+	- [**Greedy**](./Greedy/Greedy.md)
+	- [**Search**](./Search/Search.md)
+	- [**Random**](./Random/Random.md)
+
+<img src="./thoughts.png">
+
 - Sometimes, the **perfomance** of an algorithmn matters so much, when the size of a problem **n** is so big.
 
 <img src="./overhead.png" width="75%">
@@ -55,6 +65,7 @@
 - Master: 
 
 	<img src="./master.png">
+
 	=====
 	- <img src="./master1.png">
 
