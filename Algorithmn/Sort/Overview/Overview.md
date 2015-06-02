@@ -4,13 +4,13 @@
 
 ###Decision Tree
 
-<img src="./decision_tree.png" width="70%">
+<img src="./decision_tree.png" width="60%">
 
 <img src="./decision_expression.png">
 
 ###Comparison between sort algorithmns
 
-<img src="./comparison.png" width="75%">
+<img src="./comparison.png" width="100%">
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
