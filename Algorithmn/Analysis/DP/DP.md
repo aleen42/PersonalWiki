@@ -10,10 +10,16 @@
 
 ### 典型問題及算法
 
-- **Assembly-line Scheduling**
-- **Matrix-chain Multiplication**
-- **Longest Common Subsequence**
-- **Max Sum**
+- **Assembly-line Scheduling Problem**
+- **Matrix-chain Multiplication Problem**
+- **Longest Common Subsequence Problem**
+- **Max Sum Problem**
+- **Fractional Knapsack Problem**
+- **Single-source Shortest Path Problem**
+	- **Bellman-Ford Algorithmn**
+- **All-Pairs Shortest Path Problem**
+	- **DP Algorithmn**
+	- **Floyd-Warshall Algorithmn**
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
