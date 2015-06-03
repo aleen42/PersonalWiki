@@ -1,4 +1,4 @@
-## Search(查詢)	[Back](./../Algorithmn%20Menu.md)
+## Search(查詢)	[Back](./../Analysis.md)
 
 
 

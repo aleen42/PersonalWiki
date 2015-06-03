@@ -1,7 +1,7 @@
 ## How to analyse an algorithmn	[Back](./../Algorithmn%20Menu.md)
 
 ###Overview
-- Main **thought** of designing algorithmns
+- Main **thoughts** of designing algorithmns
 
 	- [**DC**](./DC/DC.md)
 	- [**DP**](./DP/DP.md)

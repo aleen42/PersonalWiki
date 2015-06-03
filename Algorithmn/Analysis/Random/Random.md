@@ -1,4 +1,4 @@
-## Random(隨機)	[Back](./../Algorithmn%20Menu.md)
+## Random(隨機)	[Back](./../Analysis.md)
 
 
 
