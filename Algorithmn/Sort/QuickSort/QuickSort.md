@@ -1,4 +1,5 @@
 ##Quick Sort [Back](./../Sort.md)
+### Overview
 - 快速排序: 分治思想(Divide, Conquer and Combination)
 - Divide: pivot(可隨機選定)
 - Conquer: 直到只有一個的時候合併
@@ -10,6 +11,11 @@
 - 稳定性: 不稳定
 - 适用情况: 数据多的且無序
 - 最壞情況下的比較次數: <img src="./compare.png">
+
+### Example
+<img src="./example.png">
+
+### Code
 
 ```c
 void QUICKSORT(int A[], int p, int q)

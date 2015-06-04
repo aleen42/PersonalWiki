@@ -1,4 +1,5 @@
 ##Insert Sort [Back](./../Sort.md)
+### Overview
 - 插入排序 :每趟都把該元素往適當的位置插入
 - 时间复杂度：
 	- <img src="./on2.png"> (最壞平均情況) 
@@ -7,6 +8,10 @@
 - 稳定性 :稳定
 - 适用情况 :数据少, 初始序列基本有初
 
+### Example
+<img src="./example.png">
+
+### Code
 ```c
 void INSERTSORT(int A[], int array_size)
 {

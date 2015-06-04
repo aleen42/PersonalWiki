@@ -1,4 +1,5 @@
 ##Heap Sort [Back](./../Sort.md)
+### Overview
 - 堆排序: 利用大頂堆或小頂堆的特性, 每趟取出樹根結點並調整堆, 直到所有數被取出.
 	- 大頂堆: <img src="./max_heap.png">
 	- 小頂堆: <img src="./min_heap.png">
@@ -9,6 +10,17 @@
 - **BUILD_MAX_HEAP:** <img src="./on1.png"> 
 - **MAX_HEAPIFY:** <img src="./olgn.png">
 
+### Example
+##### 1. BUILD_MAX_HEAP
+<img src="./example.png">
+
+##### 2. MAX_HEAPIFY
+<img src="./example1.png">
+
+##### 3. HEAP_SORT
+<img src="./example2.png">
+
+### Code
 ```c
 void MAX_HEAPIFY(int A[], int heap_size, int i)
 {
