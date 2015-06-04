@@ -9,6 +9,7 @@
 - 空間複雜度: <img src="./on.png">
 - 稳定性: 不稳定
 - 适用情况: 数据多的且無序
+- 最壞情況下的比較次數: <img src="./compare.png">
 
 ```c
 void QUICKSORT(int A[], int p, int q)

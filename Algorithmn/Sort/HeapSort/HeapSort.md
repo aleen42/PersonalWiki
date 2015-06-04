@@ -6,6 +6,8 @@
 - 空間複雜度: <img src="./on.png">
 - 稳定性: 不稳定
 - 适用情况: 實時應用, 快速取出最大或最小值
+- **BUILD_MAX_HEAP:** <img src="./on1.png"> 
+- **MAX_HEAPIFY:** <img src="./olgn.png">
 
 ```c
 void MAX_HEAPIFY(int A[], int heap_size, int i)

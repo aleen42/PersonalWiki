@@ -7,6 +7,7 @@
 - Interator(迭代器用於實現遍曆)
 - Enumeration(用於Vector的遍曆)
 - Comparable(用於實現排序)
+- 注意: Collection, List, Set, Map等都是**接口**
 
 > Collection
 >> Set(不可重複)
