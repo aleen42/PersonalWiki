@@ -13,7 +13,7 @@
 - **Assembly-line Scheduling Problem** [[**details**](./Assembly/Assembly.md)]
 - **Matrix-chain Multiplication Problem** [[**details**](./Matrix/Matrix.md)]
 - **Longest Common Subsequence Problem** [[**details**](./LCS/LCS.md)]
-- **Max Sum Problem**
+- **Max Sum Problem** [[**details**](./MaxSum/MaxSum.md)]
 - **Fractional Knapsack Problem**
 - **Single-source Shortest Path Problem**
 	- **Bellman-Ford Algorithmn**
