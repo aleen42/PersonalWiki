@@ -9,7 +9,7 @@
 - <img src="./pi.png">: 第i個矩陣的兩個維數
 
 ### Optimal Substructure
-- 當我們知道<img src="./mik.png">和<img src="./mkj.png">都是所乘次數最少的, 那麼<img src="./mij.png">的值一定是這兩個矩陣相加後, 再加上<img src="./ppp.png">.
+- 當我們知道<img src="./mik.png">和<img src="./mkj.png">都是所乘次數最少的, 那麼<img src="./mij.png">的值一定是這兩個值相加後, 再加上<img src="./ppp.png">.
 
 ### Recursive Expression
 <img src="./recursive_expression.png">
