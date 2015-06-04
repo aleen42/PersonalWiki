@@ -1,7 +1,7 @@
 ## Dynamic Programming(動態規劃)	[Back](./../Analysis.md)
 
 - 當我們把分治的思想運用到優化問題上時, 我們稱之為**動態規劃** (Dynamic Programming)
-- 當一個問題符合最優子結構(問題的求解可以推給子問題, 且子問題間互相獨立)時, 我們就可以通過遞歸來解決問題
+- 當一個問題符合**最優子結構** (問題的最優解求解可以推給子問題的最優解, 且子問題最優解間互相獨立)時, 我們就可以通過動態規劃來解決問題
 - 解決思路:
 	- characterize the structure of the optimal solution. (**important**)
 	- recursively define expressions.
@@ -10,8 +10,8 @@
 
 ### 典型問題及算法
 
-- **Assembly-line Scheduling Problem**
-- **Matrix-chain Multiplication Problem**
+- **Assembly-line Scheduling Problem** [[**details**](./Assembly/Assembly.md)]
+- **Matrix-chain Multiplication Problem** [[**details**](./Matrix/Matrix.md)]
 - **Longest Common Subsequence Problem**
 - **Max Sum Problem**
 - **Fractional Knapsack Problem**
