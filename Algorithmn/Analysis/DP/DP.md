@@ -14,7 +14,7 @@
 - **Matrix-chain Multiplication Problem** [[**details**](./Matrix/Matrix.md)]
 - **Longest Common Subsequence Problem** [[**details**](./LCS/LCS.md)]
 - **Max Sum Problem** [[**details**](./MaxSum/MaxSum.md)]
-- **Fractional Knapsack Problem**
+- **0-1 Knapsack Problem** [[**details**](./Knapsack/Knapsack.md)]
 - **Single-source Shortest Path Problem**
 	- **Bellman-Ford Algorithmn**
 - **All-Pairs Shortest Path Problem**

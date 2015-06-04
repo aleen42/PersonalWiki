@@ -4,7 +4,7 @@
 
 ### 典型問題及算法
 - **Activity-Selection Problem**
-- **0/1 Knapsack Problem**
+- **Fractional Knapsack Problem**
 - **Single-source Shortest Path Problem**
 	- **Dijkstra Algorithmn**
 
