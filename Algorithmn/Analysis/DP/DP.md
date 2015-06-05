@@ -16,7 +16,7 @@
 - **Max Sum Problem** [[**details**](./MaxSum/MaxSum.md)]
 - **0-1 Knapsack Problem** [[**details**](./Knapsack/Knapsack.md)]
 - **Single-source Shortest Path Problem**
-	- **Bellman-Ford Algorithmn**
+	- **Bellman-Ford Algorithmn** [[**details**](./Bellman/Bellman.md)]
 - **All-Pairs Shortest Path Problem**
 	- **DP Algorithmn**
 	- **Floyd-Warshall Algorithmn**
