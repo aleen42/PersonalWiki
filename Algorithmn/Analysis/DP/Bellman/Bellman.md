@@ -8,18 +8,7 @@
 - Bellman-Ford是在Dijkstra的基礎上鬆弛所有的節點**V-1**次, 第**V**次若能鬆弛, 則該圖存在負循環, 返回錯誤. 
 
 ### Relax(鬆弛)
-- 
-
-### Recursive Expression
-<img src="./recursive_expression.png">
-	
-
-### Solution
-- 最優解: 通過求解時指針指向i和j來找到最優解.
-- 最優解的值: <img src="./bn.png">
-
-
-
+- 若存在更短的路徑, 則更新為該更短的路徑.
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
