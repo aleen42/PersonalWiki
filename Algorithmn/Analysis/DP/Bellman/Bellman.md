@@ -1,7 +1,7 @@
 ## Bellman-Ford Algorithmn for Single-source Shortest Path Problem	[Back](./../DP.md)
 
 ### Overview
-<img src="./overview.png">
+<img src="./overview.png" width="60%">
 
 - 單源點最短路徑問題中路徑存在負值的情況, 不能使用貪心策略的[**Dijkstra**]()算法, 而要使用Bellman-Ford.
 - Dijkstra算法每次都會選出離源節點最短的節點, 然後鬆弛其他節點.
