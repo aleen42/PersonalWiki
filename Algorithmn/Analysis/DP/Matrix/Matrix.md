@@ -4,6 +4,9 @@
 <img src="./overview.png">
 
 - 求出乘次數最少的順序
+- 主程序時間複雜度: <img src="./on3.png">
+- 添加括號時間複雜度: <img src="./on2.png">
+- 子問題個數(m數組的填寫): <img src="./sum.png">
 - <img src="./mij.png">: 第i個矩陣到第j個矩陣次數的最少值 (用於記錄最優解的值)
 - <img src="./sij.png">: 第i個矩陣到第j個矩陣相乘時, 應該先乘前<img src="./sij.png">個 (用於記錄最優解)
 - <img src="./pi.png">: 第i個矩陣的兩個維數
