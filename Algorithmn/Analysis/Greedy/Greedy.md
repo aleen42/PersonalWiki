@@ -3,8 +3,8 @@
 - Sometimes loose, sometimes win
 
 ### 典型問題及算法
-- **Activity-Selection Problem**
-- **Fractional Knapsack Problem**
+- **Activity-Selection Problem** [[**details**](./Activity/Activity.md)]
+- **Fractional Knapsack Problem** [[**details**](./Knapsack/Knapsack.md)]
 - **Single-source Shortest Path Problem**
 	- **Dijkstra Algorithmn**
 
