@@ -4,6 +4,8 @@
 <img src="./overview.png">
 
 - 求出最短裝配時間
+- 主程序的時間複雜度: <img src="./omn.png">
+- 追溯最優解的時間複雜度: <img src="./omn1.png">
 - <img src="./cij.png">: S1序列取前i個, S2序列取前j個時的最長公共子序列長度值. (用於求最優解的值)
 - <img src="./bij.png">: S1序列取前i個, S2序列取前j個時, <img src="./cij.png">是如何求得. (用於求最優解)
 
