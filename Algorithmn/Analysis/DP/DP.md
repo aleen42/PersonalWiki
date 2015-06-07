@@ -18,7 +18,7 @@
 - **Single-source Shortest Path Problem**
 	- **Bellman-Ford Algorithmn** [[**details**](./Bellman/Bellman.md)]
 - **All-Pairs Shortest Path Problem**
-	- **DP Algorithmn**
+	- **DP Algorithmn** [[**details**](./DP/DP.md)]
 	- **Floyd-Warshall Algorithmn**
 
 =====
