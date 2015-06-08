@@ -11,6 +11,7 @@
 ### Search Solution
 - 為了找出可行解, 我們使用一種比窮舉要好但並不高效的算法 (**回溯**).
 - 類似**DFS Algorithmn** (深度優先搜索)
+
 #### State_tree
 
 <img src="./state_tree.png">
