@@ -6,7 +6,7 @@
 - **Activity-Selection Problem** [[**details**](./Activity/Activity.md)]
 - **Fractional Knapsack Problem** [[**details**](./Knapsack/Knapsack.md)]
 - **Single-source Shortest Path Problem**
-	- **Dijkstra Algorithmn**
+	- **Dijkstra Algorithmn** [[**details**](./Dijkstra/Dijkstra.md)]
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

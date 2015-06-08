@@ -10,7 +10,7 @@
 
 ### 典型問題及算法
 - **Back-Tracking**
-	- **N-Queen Problem**
+	- **N-Queen Problem** [[**details**](./NQueen/NQueen.md)]
 - **Branch & Bound**
 	- **15-Puzzle Problem**
 
