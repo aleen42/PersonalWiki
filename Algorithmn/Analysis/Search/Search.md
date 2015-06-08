@@ -2,7 +2,14 @@
 - 當一個問題它的解是分量, 且只需求出可行解, 但我們沒有有效的算法時, 往往只能窮舉.
 - 查詢策略只是在窮舉的基礎上, 給出一些約束條件. 其分為:
 	- **Back-Tracking Search**
+		- DFS(Depth-first Search)
 	- **Branch & Bound Search**
+		- BFS(Breadth-first Search): 靠左生成
+			- 通過**Queue**實現(**FIFO**)
+		- D-Search: 靠右生成
+			- 通過**Stack**實現(**LIFO**)
+		- LC-Search: 根據權值智能生成
+
 - **約束條件**
 	- 顯式約束: 分量的取值約束
 	- 隱式約束: 分量之間的約束
