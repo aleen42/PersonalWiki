@@ -10,9 +10,20 @@
 	- NP: 有多項式級別的判定算法
 	- P: 有多項式級別的求解算法
 	- EXP: 有指數式級別的求解算法
-	- NPC: 有多項式級別轉化成NP問題的算法
+	- NP-Complete(NPC): 有多項式級別轉化成NP問題的算法(如果能有效地解決該類問題, 則所有NP都能有效解決)
+		- **3-Color Problem**
+		- **TSP**
+		- **Circuit-SAT**
 
 <img src="./problem.png">
+
+###Reduction
+
+- Reduction is a general technique for showing that one problem is harder (easier) than another.
+- Reduction of **NPC**
+
+<img src="./NPC.png">
+
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
