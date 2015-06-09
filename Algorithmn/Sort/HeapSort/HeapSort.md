@@ -18,7 +18,7 @@
 <img src="./example1.png" width="60%">
 
 ##### 3. HEAP_SORT
-<img src="./example2.png">
+<img src="./example2.png" width="80%">
 
 ### Code
 ```c
