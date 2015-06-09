@@ -12,10 +12,10 @@
 
 ### Example
 ##### 1. BUILD_MAX_HEAP
-<img src="./example.png">
+<img src="./example.png" width="60%">
 
 ##### 2. MAX_HEAPIFY
-<img src="./example1.png">
+<img src="./example1.png" width="60%">
 
 ##### 3. HEAP_SORT
 <img src="./example2.png">
