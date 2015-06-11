@@ -1,4 +1,4 @@
-## N-Queen Problem(N皇后問題)	[Back](./../Search.md)
+## 15-Puzzle Problem(15智力問題)	[Back](./../Search.md)
 
 ### Overview
 <img src="./overview.png">
