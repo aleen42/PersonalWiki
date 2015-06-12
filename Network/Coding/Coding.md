@@ -66,7 +66,23 @@ inet_aton("219.245.78.159", &addr.sin_addr);
 cout << inet_ntoa(addr.sin_addr) << endl;
 ```
 
-### Connect to the server
+### Connect
+#### Connect to the server
+##### method
+
+```c
+int connect(int sockfd, struct sockaddr *servaddr, int addrlen)
+```
+
+##### parameters
+- sockfd: socket描述符
+- servaddr: 服務器地址
+- addrlen: 地址長度
+
+##### return value
+- 0: success
+- -1: failure
+- errno: wrong code
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
