@@ -1,12 +1,12 @@
 ## How to code for network [Back](./../Network.md)
 
-### Socket
+### 1. Socket
 - supports different protocols
 	- UNIX
 	- INET
 	- IPX
 
-#### 1. Create a socket
+#### 1.1 Create a socket
 ##### method
 ```c
 int socket(int family, int type, int protocol)
@@ -26,7 +26,7 @@ int socket(int family, int type, int protocol)
 - -1: failure
 - errno: wrong code 
 
-#### 2. Socket address
+#### 1.2 Socket address
 ##### data structure
 ```c
 /* common format */
@@ -57,7 +57,9 @@ struct in_addr
 	}S_un;
 }
 ```
-#### method to convert addr between string and network format
+
+##### method to convert addr between string and network format
+
 ```c
 struct sockaddr_in addr;
 /* convert string to network format */
@@ -66,8 +68,8 @@ inet_aton("219.245.78.159", &addr.sin_addr);
 cout << inet_ntoa(addr.sin_addr) << endl;
 ```
 
-### Connect
-#### Connect to the server
+### 2. Connect
+#### 2.1 Connect to the server
 ##### method
 
 ```c
