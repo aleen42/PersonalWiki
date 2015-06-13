@@ -64,7 +64,7 @@ void MATRIX_CHAIN_ORDER(int m[][MAXSIZE], int s[][MAXSIZE], int p[], int p_array
 {
 	int n = p_array_size - 1;
 	for (int i = 1; i <= n; i++)
-		m[i][i] = 0;				//¾ØÕó±¾ÉíÏà³Ë²¢Ã»ÓÐ¼ÆËã´ÎÊý
+		m[i][i] = 0;				//çŸ©é˜µæœ¬èº«ç›¸ä¹˜å¹¶æ²¡æœ‰è®¡ç®—æ¬¡æ•°
 	for (int l = 2; l <= n; l++)
 	{
 		for (int i = 1; i <= n - l + 1; i++)
