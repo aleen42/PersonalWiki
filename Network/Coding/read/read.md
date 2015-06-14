@@ -76,5 +76,11 @@ int recv(int sockfd, void buf, int len, int flags)
 - -1: failure
 - errno: wrong code
 
+### 3. readv()
+- 讀多個非連續緩衝區, 稱為**散佈讀**
+
+### 4. recvmsg()
+- 類似recv(), 但功能更強大
+
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

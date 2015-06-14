@@ -46,5 +46,12 @@ int send(int sockfd, void buf, int len, int flags)
 - -1: failure
 - errno: wrong code
 
+### 3. writev()
+- 寫多個非連續緩衝區, 稱為**聚集寫**
+
+### 4. sendmsg()
+- 類似於send, 但功能更強大
+
+
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

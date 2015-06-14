@@ -68,5 +68,10 @@ inet_aton("219.245.78.159", &addr.sin_addr);
 cout << inet_ntoa(addr.sin_addr) << endl;
 ```
 
+##### method to get socket address and port
+- ```getsockname()```
+- ```getpeername()```
+
+
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
