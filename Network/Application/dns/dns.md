@@ -2,7 +2,7 @@
 - 作用: IP地址的別名, 便於記憶
 - 結構: 域名層次樹
 
-<img src="./dn_tree.png">
+<img src="./dn_tree.png" width="40%">
 
 - 存放: 域名服務器
 	- 存放域名和IP的對應記錄
