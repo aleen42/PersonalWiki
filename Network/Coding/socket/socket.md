@@ -1,5 +1,6 @@
 ## Socket [Back](./../Coding.md)
 
+- **socket** represents the end of a channel, which is used to communicate. Thus, each end like the server or a client should have its own socket
 - supports different protocols
 	- UNIX
 	- INET
