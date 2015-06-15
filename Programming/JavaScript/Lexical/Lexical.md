@@ -8,5 +8,6 @@
 	- 除了_, $, ￥以外, 必須是英文字母或數字
 	- 不能是關鍵詞(Key Words)
 
+<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

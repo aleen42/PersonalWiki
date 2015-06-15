@@ -34,5 +34,6 @@ eg. 高层模块不应该依赖于底层模块，这样会导致高层模块的�
 - 1.使用多个专门的接口比使用单一的总接口要好
 - 2.当一个客户程序的接口需要修改，并不应该影响到其他客户程序的接口(按照客户需求制定接口)
 
+<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

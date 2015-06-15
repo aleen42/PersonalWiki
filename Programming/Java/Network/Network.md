@@ -14,5 +14,6 @@ Step|Server|Client
 
 - Stream, Socket等聲明需放在try外. 因為若放try內, 作用於只在try範圍內
 
+<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

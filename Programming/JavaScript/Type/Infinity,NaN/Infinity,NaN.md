@@ -27,5 +27,6 @@ isNaN(x);	//return true when x is NaN
 isFinite(x);	//return true when x is other than NaN, Positive or Negative Infinity
 ```
 
+<a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
