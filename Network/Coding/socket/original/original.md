@@ -39,4 +39,7 @@ setsockopt(sockfd, IPPROTO_IP, IP_HDRINCL, &on, sizeof(on));
 ### 4. Send or Receive
 
 =====
+<a style="_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop)||0)-(parseInt(this.currentStyle.marginBottom)||0)-10));"><font style="font-size:40px;">Go Top</font></a>
+
+=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
