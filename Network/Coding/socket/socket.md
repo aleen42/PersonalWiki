@@ -6,7 +6,7 @@
 	- INET
 	- IPX
 
-#### 1.1 Create a socket
+### 1. Create a socket
 ##### method
 ```c
 int socket(int family, int type, int protocol)
@@ -26,7 +26,7 @@ int socket(int family, int type, int protocol)
 - -1: failure
 - errno: wrong code 
 
-#### 1.2 Socket address
+### 2. Socket address
 ##### data structure
 ```c
 /* common format */
@@ -72,6 +72,59 @@ cout << inet_ntoa(addr.sin_addr) << endl;
 - ```getsockname()```
 - ```getpeername()```
 
+### 3. Socket options
+##### method
+```c
+/* get options of sockets */
+int getsockopt(int sockfd, int level, int optname, void* optval, sock_len *optlen)
+/* set options of sockets */
+int setsockopt(int sockfd, int level, int optname, void* optval, sock_len optlen)
+/* set socket to blocked/non-blocked mode, set/get owners of the socket */
+int fcntl(int fd, int cmd, ...)
+```
+
+##### parameters
+- sockfd: socket描述符
+- level: 選項級別
+	- SOL_SOCKET: 通用socket選項
+		- SO_KEEPALIVE: 2小時內若無數據交換, TCP協議將自動發送探測數據包來檢測網絡連接
+		- SO_RCVBUF/SO_SNDBUF: 設置發送或接受緩衝區大小
+		- SO_RCVTIMEO/SO_SNDTIMEO: 設置發送或接受函數的時間閾值上界
+		- SO_REUSEADDR: 
+			- 重用處於TIME_WAIT狀態, 具有相同本地地址和端口的socket; 
+			- 允許同一個端口啟動同一個服務器多個實例(多個進程), 但IP不能相同; 
+			= 允許單個進程綁定相同的端口到多個socket上, 但IP不能相同; 
+			- 允許完全相同的地址和端口重複綁定, 只用於UDP的多播, 而不用於TCP;
+	- IPPROTO_IP: IP選項
+		- IP_HDRINCL: 是否自己建立IP數據包頭
+	- IPPROTO_TCP: TCP選項
+		- TCP_MAXSEG: TCP協議最大數據段長度
+		- TCP_NODELAY: 小數據包是否延遲發送
+- optname: 選項名字
+- optval: 選項值
+- optlen: 选项值長度(存放選項值長度的指針)
+
+- fd: 文件(socket)描述符
+- cmd: 執行的操作
+	- F_GETFL: 獲得描述符標誌
+	- F_SETFL: 參數O_NONBLOCK, 設置socket為非阻塞模式
+
+	```c
+/* set to non-blocked mode */
+flags = fcntl(fd, F_GETFL, 0);
+flags |= O_NONBLOCK;
+fcntl(fd, F_SETFL, flags);
+/* set to non-blocked mode */
+flags = fcntl(fd, F_GETFL, 0);
+flags &= ^O_NONBLOCK;
+fcntl(fd, F_SETFL, flags);
+	```
+	- F_GETOWN: 參數int*, 獲得socket的擁有者
+	- F_SETOWN: 參數int, 設置socket的擁有者
+
+##### return value
+- 0: success
+- -1: failure
 
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
