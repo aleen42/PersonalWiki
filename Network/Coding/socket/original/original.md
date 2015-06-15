@@ -37,7 +37,7 @@ setsockopt(sockfd, IPPROTO_IP, IP_HDRINCL, &on, sizeof(on));
 - opposite bind: ```connect()```
 
 ### 4. Send or Receive
-<img src="./../../../../pic/pending.gif">
+<img src="./../../../../pic/pending.gif" onClick="return false;">
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/gotop.png"></a>
 
 =====
