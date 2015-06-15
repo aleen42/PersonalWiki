@@ -82,5 +82,6 @@ int recv(int sockfd, void buf, int len, int flags)
 ### 4. recvmsg()
 - 類似recv(), 但功能更強大
 
+<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

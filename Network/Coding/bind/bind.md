@@ -33,7 +33,6 @@ srvaddr.sin_addr.s_addr = htonl(INADDR_ANY);
 	- 服務器主動關閉, 導致鏈接錯誤(被關閉鏈接處於TIME_WAIT狀態)
 	- 客戶端主動關閉, 導致綁定錯誤(被關閉鏈接處於TIME_WAIT狀態)
 
-
-
+<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
