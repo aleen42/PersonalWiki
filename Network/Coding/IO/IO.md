@@ -17,7 +17,7 @@ int ioctl(int fd, int req, ...)
 	- FIONBIO: 參數int*, 設置socket狀態(阻塞/非阻塞)
 	
 	```c
-int on = 1;
+int on = 1;	//non-blocked mode
 ioctl(sockfd, FIONBIO, &on);
 	```
 
