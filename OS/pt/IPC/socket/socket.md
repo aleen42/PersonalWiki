@@ -27,7 +27,7 @@ struct socketaddr_un
 - 通信前不需要進行鏈接
 - socket是**全雙工**的
 
-<img src="./socketpair.png">
+<img src="./socketpair.png" width="40%">
 
 #####method
 ```c
