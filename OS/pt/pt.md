@@ -16,6 +16,7 @@
 - [**Create Processes**](./create/create.md)
 - [**Signal**](./Signal/Signal.md)
 - [**Kill processes**](./kill/kill.md)
+- [**Interprocesses Communication(IPC)**](./IPC/IPC.md)
 
 ###Thread
 - **Thread**: 指程序中的片段, 這些片段能夠並行執行
