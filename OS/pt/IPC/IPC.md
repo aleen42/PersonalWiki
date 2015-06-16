@@ -5,7 +5,7 @@
 	- signal
 	- shared memory & memory mapped file
 	- semaphore
-	- UNIX socket
+	- [**UNIX socket**](./socket/socket.md)
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
