@@ -1,4 +1,4 @@
-## Kill Processes [Back](./../Network.md)
+## Kill Processes [Back](./../pt.md)
 - call ```exit()``` to kill processes
 	- if the process is the group leader of a processes group, then send **SIGHUP** to all processes in this group
 	- close all **socket** opened by this process

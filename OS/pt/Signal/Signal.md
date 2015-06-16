@@ -1,4 +1,4 @@
-## Signal [Back](./../Network.md)
+## Signal [Back](./../pt.md)
 - Linux中信號是對中斷的軟件模擬
 - 進程收到信號, 如同CPU收到了中斷請求
 - 信號是**異步**的
