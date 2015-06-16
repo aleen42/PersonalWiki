@@ -11,9 +11,8 @@
 			- 併發服務器(等待狀態字段為**nowait**)
 			- 循環服務器(等待狀態字段為**wait**)
 		- 配置文件: /etc/inetd.conf
-		
-	<img src="./inetd_list.png" width="50%">
-		<img src="./create_with_inetd.png" width="50%">
+		<img src="./inetd_list.png">
+		<img src="./create_with_inetd.png">
 	- **定時任務進程** cron可以週期性啟動守護進程
 	- 終端用戶啟動守護進程
 

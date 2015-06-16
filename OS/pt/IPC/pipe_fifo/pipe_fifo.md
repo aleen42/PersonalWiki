@@ -24,8 +24,7 @@ int pipe(int fd[2])
 - fd: 用於通信的一對文件描述符
 	- fd[0]: **讀**
 	- fd[1]: **寫**
-	
-	<img src="./pipe.png" width="40%">
+	<img src="./pipe.png">
 
 #####return value
 - 0: success
