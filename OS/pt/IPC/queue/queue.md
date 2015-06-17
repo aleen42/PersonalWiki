@@ -1,4 +1,4 @@
-## Unix Socket(Unix域套接字) [Back](./../IPC.md)
+## Message Queue(消息隊列) [Back](./../IPC.md)
 - Unix域Socket不是真正的網絡協議
 - 既提供分佈式進程間通信, 也提供同一台機器的進程間通信
 - **雙向**通道

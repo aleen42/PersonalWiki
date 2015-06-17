@@ -37,7 +37,21 @@ setsockopt(sockfd, IPPROTO_IP, IP_HDRINCL, &on, sizeof(on));
 - opposite bind: ```connect()```
 
 ### 4. Send or Receive
+##### send
+- if you has not called ```connect()``` to bind, you must use ```sento()``` or ```sendmsg()```  to send data
+- if you has called, then ```write()``` or ```send()``` is allowed to use
 
+##### receive
+- data from **UDP** and **TCP** won't be sent to original socket
+- receive data from **ICMP**
+	- **echo** response
+	- **timestamp** response
+	- **mask** response
+	- ...
+	<img src="./ICMP.png">
+- receive data from other types of protocols
+- receive data which cannot be recognized by the **Kernel**
+	
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>

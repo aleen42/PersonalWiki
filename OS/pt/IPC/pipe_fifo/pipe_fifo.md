@@ -1,4 +1,4 @@
-## pipe & fifo [Back](./../IPC.md)
+## pipe & fifo(管道) [Back](./../IPC.md)
 - 讀寫規則 (從空pipe或空fifo中讀寫):
 	- Read:
 		- pipe或fifo已經被只寫打開: 返回**EAGAIN**錯誤
