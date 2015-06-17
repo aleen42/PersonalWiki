@@ -12,7 +12,7 @@
 	- do not need to set the address of the server when sending datagram
 	- can only receive datagrams from the specifical server.
 - **Server** of UDP:
-	- do not accept, but listen to the port
+	- do not accept, but bind to the port
 	- **loop** for handling datagrams from different clients.
 - **Client** of UDP:
 	- do not connect, but choose a port when firstly calls ```sendto()```
