@@ -68,7 +68,7 @@
 	- 感知
 	- 處理
 
-<img src="./research.png">
+<img src="./research.png" width="40%">
 
 - MIDI(Musical Instrument Digital Interfaces): 用於音樂合成, 樂器和計算機之間交換音樂信息的一種標準協議
 - MIDI信息以**MIDI MESSAGE**來傳輸, 是控制設備執行某個動作從而產生聲音的指令
@@ -92,6 +92,20 @@
 
 
 ### Chapter3: Basics of Color and Image
+
+- 顏色僅是視覺系統的一種屬性(或腦物質的一種屬性), 並不是光的屬性. 光僅僅具有波長與頻率這種物理性質, 並不具有顏色性質
+- 條件等色: 光譜分佈不同但看上去相同的顏色
+- 顏色三要素:
+	- 色調: 反映顏色的類別(對應光譜中的主波長)
+	- 飽和度: 彩色光所呈現顏色的深淺或純潔程度(100%飽和度指沒有混入白光的純色光)
+	- 亮度: 光波振幅, 即光能量(人眼對**亮度**非常敏感)
+- 顏色模版(Color Models): 精確標定和生成各種顏色的一套規則和定義
+	- HSL: 色調, 飽和度和亮度(對於人)
+	- RGB: 紅, 綠, 藍磷光體(對於顯示設備)
+	- CMYK: 青色, 品紅, 黃色和黑色(對於打印設備)
+	<img src="./transfer.png">
+	
+
 
 ### Chapter4: Fundamental Concepts in Video
 
