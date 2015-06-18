@@ -103,11 +103,134 @@
 	- HSL: 色調, 飽和度和亮度(對於人)
 	- RGB: 紅, 綠, 藍磷光體(對於顯示設備)
 	- CMYK: 青色, 品紅, 黃色和黑色(對於打印設備)
-	<img src="./transfer.png">
-	
+	<img src="./CMYK_transfer.png">
+	- L\*a\*b: 光亮度分量, 綠到紅分量, 藍到黃分量
+- 視頻顏色空間模型:
+	- YIQ: 亮度, 兩個彩色分量(NTSC彩色電視制式)
+	<img src="./YIQ_transfer.png">
+	- YUV: 亮度, 兩個彩色分量(PAL, SECAM彩色電視制式)
+	<img src="./YUV_transfer.png">
+	- YCbCr: JPEG,MPEG 壓縮, 高質量彩色視頻
+- YIQ/YUV利用人眼對亮度較敏感的特性, 降低數字彩色圖像的存儲容量
+- γ校正: 由於光電轉換的非線性特性, 因此引入γ校正來改善圖片效果
+- 圖
+	- 矢量圖像(Graphics)
+	- 位圖圖像(Image)
+		- 屬性
+			- 分辨率(resolution):
+				- 顯示分辨率: 顯示設備的分辨率
+					- 圖像分辨率: 圖像的像素密度
+					- 打印/掃描分辨率: 打印/掃描像素密度(dpi: dots per inch)
+			- 像素深度(pixel depth): 存儲所用位數(或灰度圖像的灰度級數)
+			- 調色板(顏色查找表): 通過調色板的索引降低存儲量, 用於只包含24位RGB彩色的N個離散點(偽彩色圖)
+- 位圖圖像類型
+	- 真彩色: 每個像素的顏色直接由基色分量RGB決定
+	- 偽彩色: 每個像素的顏色要通過調色板來查找RGB決定
+	- 直彩色: 每個像素的顏色通過查找基色強度, 然後變換得到的RGB決定
+- 抖動顯示(dithering): 通過半色調點(Halftone Spots)模擬產生灰度色調
+<img src="./dithering.png">
+- 流行的圖片文件格式
+	- **BMP**: the major system standard graphics file format for Microsoft Windows, used in Microsoft Paint and other programs. Many sub-variants within the BMP standard.
+		- Windows採用的圖像文件存儲格式
+		- 4 components
+			- 位圖文件頭(bitmap-file header)
+			- 位圖信息頭(bitmap-information header)
+			- 彩色表(color table)
+			- 定義位圖的字節陣列
+	- **8-bit GIF**: one of the most important format because of its historical connection to the WWW and HTML markup language as the first image type recognized by net browsers.
+		- **LZW**無損壓縮存儲圖像
+		- 允許背景透明
+		- 可在文件中存放多夫彩色圖像並製作出幻燈片或動畫效果
+		- 支持圖片交叉存儲(縮略圖)
+		- 可在圖像中加入文本
+		- 以塊存儲
+		- GIF數據流組成:
+			- GIF文件頭
+			- 數據塊, 數據子塊: 表示圖形/圖像
+			- 控制信息塊: 顯示圖形/圖像
+			- GIF文件結束塊
+	- **PNG**: standing for Portable Network Graphics, meant to supersede the GIF standard, and extends it in important ways.
+		- 灰度圖像深度可達16位, 彩色圖像深度可達48位
+		- 從**LZ77**派生的無損壓縮算法
+		- PNG數據流組成:
+			- 8 bits PNG文件署名域(PNG file signature)
+			- 三個以上數據塊
+	- **JPEG**: currently the most important common le format.
+		- 是一種連續色調, 多級灰度, 靜止圖像的數字圖像壓縮編碼方法
+		- 基於離散余弦變換編碼
+		- 每個像素每個分量量化為255級, 用8 bits表示
+	- **TIFF**: stands for Tagged Image File Format.
+	- **EXIF** (Exchange Image File): an image format for digital cameras, Compressed EXIF files use the baseline JPEG format.
 
 
 ### Chapter4: Fundamental Concepts in Video
+
+- 彩色電視系統採用亮度色度信號混合傳送的方式
+- 全球彩色電視標準制式
+	- NTSC(**N**ational **T**elevision **S**ystems **C**ommittee)
+		- 525行/幀, 30幀/秒
+		- 高寬比: 4:3(電視) 3:2(電影) 16:9(高清晰度電視)
+		- 隔行掃描, 2場/幀, 262.5行/場
+		- 每場開始部分保留20掃描線作為控制信息, 485條線作為可視數據(Laser disc約420, S-VHS約320)
+		- 彩色空間: YIQ
+		- 信道帶寬: 6MHz, 亮度: 4.2MHz, 色度I:1.6MHz, Q: 0.6MHz, 色度副載頻3.58MHz
+		- 美國, 加拿大, 日本, 韓國, 菲律賓和中國台灣等採用
+	- PAL(**P**hase-**A**lternative **L**ine)
+		- 625行/幀, 25幀/秒
+		- 高寬比: 4:3
+		- 隔行掃描, 2場/幀, 312.5行/場
+		- 彩色空間: YUV
+		- 信道帶寬: 8MHz, 亮度: 5.5MHz, 色度U, V: 各1.8MHz, 色度副載頻4.43MHz
+		- 逐行倒相: 每行的色度信號與上一行倒相
+		- 西歐, 中國, 印度和朝鮮等採用
+		- 相對於NTSC的優勢
+			- 逐行倒相可以盡可能減少相位錯誤
+			- NTSC沒有顏色校正
+	- SECAM(**Sé**quential **C**ouleur **A**vec **M**émoire)
+		- 625行/幀, 25幀/秒
+		- 高寬比: 4:3
+		- 隔行掃描, 2場/幀, 312.5行/場
+		- 彩色空間: YUV
+		- 信道帶寬: 8MHz, 亮度: 5.5MHz, 色度U, V(交替行發送): 4.25MHz, 色度副載頻4.41MHz
+- 保持兼容性
+	- Three RGB signals are converted into Luminance Y, and color difference signals using simple mathematical relation.
+	- Retain the same signal timings of BW(黑白電視).
+- 大面積著色及高頻混合原理
+	- 彩色細節失明: 人眼對黑白圖像的細節有較高的分辨力, 而對彩色圖像的細節分辨力較低.
+	- 大面積著色原理: 對著色面積大的各種顏色, 對細節部分不需要顯示色度的區別.
+	- 高頻混合原理: 顏色的細節部分(對應於信號的高頻部分), 可以用亮度信號取代.
+- 掃描方式
+	- 逐行掃描
+	- 隔行掃描
+- 模擬視頻傳輸信號分類
+	- 分量視頻: 採用三根信號線連接視頻設備傳送信號
+	- 複合視頻: 只需要一根信號線來傳送信號(亮度信號與色度信號混合)
+	- S-Video: 採用稱為S端子的四芯連接器
+
+<img src="./analog_signal.png">
+- 顏色子採樣: 對顏色信號使用的採樣頻率低於對亮度信号的採樣頻率
+- 數字電視分類
+	- 按圖像清晰度分類
+		- HDTV
+			- 垂直方向720條掃描線或更多
+			- 常用: (**p**: progressive scan, **i**: interlaced scan)
+				- 720p: 1280\*720p
+				- 1080p: 1920\*1080p
+				- 1080i: 1920\*1080i
+			- 寬高比: 16:9
+		- SDTV
+		- LDTV
+	- 按信號傳輸方式分類
+		- 地面數字電視
+		- 衛星數字電視
+		- 有線數字電視
+	- 按產品類型分類
+		- 數字電視顯示器
+		- 數字電視機頂盒
+		- 一體化數字電視接收機
+	- 按顯示屏幕幅型比分類
+		- 4:3
+		- 16:9
 
 ### Chapter5: Lossless Compression Algorithmns
 
