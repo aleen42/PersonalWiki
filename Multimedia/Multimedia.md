@@ -68,7 +68,7 @@
 	- 感知
 	- 處理
 
-<img src="./research.png" width="40%">
+<img src="./research.png">
 
 - MIDI(Musical Instrument Digital Interfaces): 用於音樂合成, 樂器和計算機之間交換音樂信息的一種標準協議
 - MIDI信息以**MIDI MESSAGE**來傳輸, 是控制設備執行某個動作從而產生聲音的指令
