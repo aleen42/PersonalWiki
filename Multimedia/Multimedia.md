@@ -251,11 +251,62 @@
 	- LZ78
 	- LZW[[**more details**](./../Algorithmn/Encode/LZW/LZW.md)]
 
-<img src="./1.gif">
-
-<img src="./2.gif">
+<img src="./1.gif"><img src="./2.gif">
 
 ### Chapter6: Lossy Compression Algorithmns
+
+- 有損主要產生於**量化**過程
+- Quantization(量化)
+	- Digitization(數字化): 在AD轉換過程, 對信號幅度量化
+	- Coding(編碼): 在熵編碼前, 對正交系數, 差值或預測誤差量化
+- 量化器(Quantizer)設計標準 (兩標準有限制, 需要權衡)
+	- 給定量化分級層數, 滿足量化誤差最小
+	- 限定量化誤差, 滿足以儘量小的平均比特數, 表示量化輸出
+- 量化分類:
+	- 標量量化
+		- 均勻標量量化 (Uniform Scalar Quantization)
+		- 非均勻標量量化 (Non-uniform Scalar Quantization)
+		- 自适应标量量化 (Adaptive Scalar Quantization)
+	- 矢量量化
+- Predictive Coding(預測編碼): 根據相關性特點考慮, 利用一個已經出現的信號對下一個信號進行預測, 得到一個預測值. 然後對實際值和預測值求差, 對這個差值信號進行編碼. (預測編碼是否有損由是否使用量化器決定)
+- Predictive Coding of digital image
+	- 預測類型: 
+		- 一維預測(行內預測): 利用同一行上相鄰的樣值進行預測
+		- 二維預測(幀內預測): 利用同一行和前面幾行的數據進行預測
+		- 三維預測(幀間預測): 利用相鄰幀的樣值進行預測
+	- 幀間預測編碼中視頻信號的冗餘度主要體現在空間相關性(幀內), 時間相關性(幀間)和色度相關性
+	- 幀間預測編碼被廣泛應用到MPEG系列視頻壓縮標準
+	- 活動補償帧間預測步驟
+		- 圖像分割: 把圖像劃分為靜止的背景和若干運動的物體, 由於構成同一物體的所有像素位移相同
+		- 運動矢量估值: 考察前後兩個動畫, 利用運動估值算法得到兩個物體的位移矢量
+		- 運動補償: 用運動矢量補償物體的運動效果, 再進行預測
+		- 編碼: 除了差值編碼外, 對位移矢量以及區域分割信息進行編碼
+- Differential PCM(DPCM): 量化表需要設計
+- Adaptive Differential PCM(ADPCM): 預測系數自適應調正, 量化器參數自適應調整
+	- 優勢
+		- 有效降低信號失真
+			- 斜率過載
+			- 顆粒噪聲
+			- 假輪廓噪聲
+			- 邊沿繁忙
+- Transform Coding(變換編碼): 將原始信號經過數學上的正交變換後, 對變化系數進行量化, 編碼和傳輸
+	- (Karhunen-Loève Transform)K-L變換: 可逆線性變換(去相關性好)
+	- DCT(離散余弦變換): 用DCT的變換矩陣求解代替K-L的特徵向量求解, 可以節省大量計算, 廣泛應用於圖像壓縮編碼. IDCT用於重構信號
+	- DFT(離散傅立葉變換)
+	- FFT(快速傅立葉變換)
+	- 小波變換
+
+- 1D Discrete Consine Transform(DCT):
+
+<img src="./1d_dct.png">
+
+- 2D Discrete Consine Transform(DCT):
+
+<img src="./2d_dct.png">
+
+- 3D Discrete Consine Transform(DCT):
+
+<img src="./3d_dct.png">
 
 ### Chapter7: Image Compression Algorithmns
 
