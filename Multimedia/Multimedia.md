@@ -30,11 +30,11 @@
 
 - size of 1 minute digital audio
 
-<img src="./audio.png">
+<img src="./audio.png" width="50%">
 
 - size of 1 minute digital vedio
 
-<img src="./video.png">
+<img src="./video.png" width="50%">
 
 ### Chapter2: Basic of Digital Audio
 
@@ -50,7 +50,7 @@
 - 噪音: 泛音是基音的**非整數**倍
 - 信噪比(SNR): <img src="./SNR.png">
 - 信號量化噪聲比(SQNR): <img src="./SQNR.png">
-- 聲音等級(dB):  <img src="./sound_level.png">
+- 聲音等級(dB):  <img src="./sound_level.png" width="50%">
 - 雙耳定位: 通過雙耳判斷聲源的方向和遠近
 - HRTF(Head-Related Transfer Function): 聲波從自由場傳到鼓膜處的變換函數[[**more details**](http://sound.media.mit.edu/resources/KEMAR.html)]
 - SRS(Sound Retrieval System): 利用兩個揚聲器獲得環繞立體聲的3D立體聲系統
