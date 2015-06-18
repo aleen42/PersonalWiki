@@ -54,8 +54,37 @@
 - 雙耳定位: 通過雙耳判斷聲源的方向和遠近
 - HRTF(Head-Related Transfer Function): 聲波從自由場傳到鼓膜處的變換函數[[**more details**](http://sound.media.mit.edu/resources/KEMAR.html)]
 - SRS(Sound Retrieval System): 利用兩個揚聲器獲得環繞立體聲的3D立體聲系統
+- 數據量計算: 數據量(Byte)=採樣頻率(Hz)*(採樣位數/8)*聲道數*時間(s)
+- 音樂基本組成部分
+	- pitch(音高): 基音的頻率決定
+	- loudness(響度): 聲波的振幅決定
+	- timbre(音色): 基音與泛音的比例決定
+	- time(時值): 震動的持續時間
+- 計算機音樂研究
+	- 合成
+		- FM Synthesis(頻率調製合成)
+		- Wavetable Synthesis(波表合成)
+	- 檢索
+	- 感知
+	- 處理
 
+<img src="./research.png" width="40%">
 
+- MIDI(Musical Instrument Digital Interfaces): 用於音樂合成, 樂器和計算機之間交換音樂信息的一種標準協議
+- MIDI信息以**MIDI MESSAGE**來傳輸, 是控制設備執行某個動作從而產生聲音的指令
+
+> MIDI messages
+>> channel messages
+>>> voice messages: 攜帶演奏數據
+>>> mode messages: 表示合成響應MIDI數據的方式
+
+>> system messages
+>>> common messages: 標識系統中的所有接收器
+>>> real-time messages: MIDI部件之間同步
+>>> exclusive messages: 廠商的標識代碼
+
+- MIDI數據流是單向異步, 每字節10bits(8bits **data**+1bit **start**+1bit **end**). 數據率為31.25kbps
+- MIDI串行接口<img src="./MIDI_interface.png" width="70%">
 
 
 

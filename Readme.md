@@ -15,6 +15,9 @@ In order to organize all the knowledges I have learnt, I wrote this wiki for me 
 ### Design
  * [**Creativity**](./Creativity/Creativity.md)
 
+### Book
+ * [**Gates Notes**](http://www.gatesnotes.com/books)
+
 ## Supported
  * Thanks to [July](https://www.github.com/julycoding) for how to build a wiki.
 
