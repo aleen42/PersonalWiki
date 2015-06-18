@@ -234,6 +234,27 @@
 
 ### Chapter5: Lossless Compression Algorithmns
 
+- 無損編碼: 指使用壓縮後的數據進程數據重構(解壓縮), 得到的數據與原始數據完全相同
+- 有損編碼: 重構後得到的數據與原始數據不同, 但不影響人對原始數據表達的信息造成誤解
+- 壓縮比: 壓縮前數據大小/壓縮後數據大小
+- 信息量: <img src="./information_size.png">, <img src="./pi.png">為第i個事件的概率
+- 熵(Entropy): <img src="./Entropy.png">, 表示信息源S中的信息量屬性, 也表示最小平均編碼位數
+- 熵編碼:
+	- Huffman Coding[[**more details**](./../Algorithmn/Encode/Huffman/Huffman.md)]
+		- Adaptive Huffman Coding: 隨著頻率增大, 符號重新編碼
+	- Arithmetic Coding[[**more details**](./../Algorithmn/Encode/Arithmetic/Arithmetic.md)]
+- Run-Length Coding(RLC): 行程編碼(適用於編碼出現連續片段的信息)
+	- 00000000111100000000 => 8**0**4**1**8**0**
+- Dictionary-based Coding
+	- LZ77
+	- LZSS
+	- LZ78
+	- LZW[[**more details**](./../Algorithmn/Encode/LZW/LZW.md)]
+
+<img src="./1.gif">
+
+<img src="./2.gif">
+
 ### Chapter6: Lossy Compression Algorithmns
 
 ### Chapter7: Image Compression Algorithmns
