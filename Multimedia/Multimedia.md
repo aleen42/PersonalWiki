@@ -319,7 +319,6 @@
 	<img src="./dpcm.png">
 	<img src="./3neighbourhood2dimention.png">
 	- Sequential Mode: 基於DCT的有損順序編碼模式, 壓縮比可達10:1
-
 <img src="./Sequential_jpeg.png">
 
 		- 核心壓縮編碼步驟:
