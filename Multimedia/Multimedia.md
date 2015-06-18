@@ -319,9 +319,19 @@
 	<img src="./dpcm.png">
 	<img src="./3neighbourhood2dimention.png">
 	- Sequential Mode: 基於DCT的有損順序編碼模式, 壓縮比可達10:1
-	<img src="./Sequential_jpeg.png">
+
+<img src="./Sequential_jpeg.png">
+
+		- 核心壓縮編碼步驟:
+			- 使用FDCT(Forward Discrete Cosine Transform)正向離散余弦變換把空間域表示的圖變成頻率域表示的圖.
+			- 使用加權函數對DCT系數進行量化. (加權函數對於人的視覺是最佳的)
+			- 對直流系數採用DPCM, 對交流系數採用RLE, 然後用Huffman或者Arithmetic進行熵編碼.
+		- 量化: JPEG採用均勻量化器進行量化, 由於人眼對亮度信號比對色差信號更敏感, 因此採用兩種根據心理學視覺加權函數得到的量化表
+			- 亮度量化值
+			- 色差量化值
 	- Progressive Mode: 基於DCT的遞增編碼模式
 	- Hierarchical Mode: 基於DCT的分層編碼模式
+
 
 ### Chapter8: Basic Audio Compression Techniques
 
