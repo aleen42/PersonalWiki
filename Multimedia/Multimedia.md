@@ -76,11 +76,14 @@
 > MIDI messages
 >> channel messages
 >>> voice messages: 攜帶演奏數據
+
 >>> mode messages: 表示合成響應MIDI數據的方式
 
 >> system messages
 >>> common messages: 標識系統中的所有接收器
+
 >>> real-time messages: MIDI部件之間同步
+
 >>> exclusive messages: 廠商的標識代碼
 
 - MIDI數據流是單向異步, 每字節10bits(8bits **data**+1bit **start**+1bit **end**). 數據率為31.25kbps
