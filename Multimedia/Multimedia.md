@@ -329,8 +329,17 @@
 			- 亮度量化值
 			- 色差量化值
 	- Progressive Mode: 基於DCT的遞增編碼模式
+		- 模式與Sequential Mode相似, 不同之處在於編碼要經過多次掃描, 每次掃描的粗糙程度不一樣
+		- 分類:
+			- Spectral Selection: 按頻段遞增
+			- Successive Approximation: 按位遞增
 	- Hierarchical Mode: 基於DCT的分層編碼模式
-
+		- 步驟:
+			1. 降低原始圖像的空間分辨率
+			2. 對已降低分辨率的圖像按照順序編碼進行壓縮存儲
+			3. 對低分辨率圖像解碼, 用**插值法**提高圖像分辨率
+			4. 對高分辨率圖像, 把原圖像的預測值跟原圖像進行差值運算, 然後基於DCT編碼
+			5. 反復3, 4
 
 ### Chapter8: Basic Audio Compression Techniques
 
