@@ -294,7 +294,7 @@
 	- DCT(離散余弦變換): 用DCT的變換矩陣求解代替K-L的特徵向量求解, 可以節省大量計算, 廣泛應用於圖像壓縮編碼. IDCT用於重構信號
 	- DFT(離散傅立葉變換)
 	- FFT(快速傅立葉變換)
-	- 小波變換
+	- 小波(wavelet)變換
 
 - 1D Discrete Consine Transform(DCT):
 
@@ -334,13 +334,25 @@
 			- Spectral Selection: 按頻段遞增
 			- Successive Approximation: 按位遞增
 	- Hierarchical Mode: 基於DCT的分層編碼模式
+	<img src="./Hierarchical_jpeg.png">
 		- 步驟:
 			1. 降低原始圖像的空間分辨率
 			2. 對已降低分辨率的圖像按照順序編碼進行壓縮存儲
 			3. 對低分辨率圖像解碼, 用**插值法**提高圖像分辨率
 			4. 對高分辨率圖像, 把原圖像的預測值跟原圖像進行差值運算, 然後基於DCT編碼
 			5. 反復c, d
-<img src="./Hierarchical_jpeg.png">
+- JPEG2000 Standard
+	- 編碼方式
+		- DCT-based
+		- wavelet-based
+	- JPEG2000可以處理多達256個通道的信息, 而JPEG只能處理三個顏色通道
+- JPEG-LS Standard
+	- 該標準主要特點是減低複雜度
+- JBIG(Joint Bi-level Image Processing Group)
+	- 該標準為了允許用電子錶處理文檔
+	- 無損壓縮
+	- JBIG-2提出了基於模型的編碼方式
+
 
 ### Chapter8: Basic Audio Compression Techniques
 
