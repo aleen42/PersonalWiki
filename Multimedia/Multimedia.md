@@ -340,6 +340,7 @@
 			3. 對低分辨率圖像解碼, 用**插值法**提高圖像分辨率
 			4. 對高分辨率圖像, 把原圖像的預測值跟原圖像進行差值運算, 然後基於DCT編碼
 			5. 反復c, d
+<img src="./Hierarchical_jpeg.png">
 
 ### Chapter8: Basic Audio Compression Techniques
 
