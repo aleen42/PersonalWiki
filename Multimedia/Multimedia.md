@@ -419,7 +419,7 @@
 			- Layer3: 使用臨界頻帶濾波器, 把聲音頻帶分成非等寬帶的子帶, 心理聲學模型除了使用頻域掩蔽特性和時間掩蔽特性外, 還考慮到立體聲數據的冗餘, 編碼方面使用到Huffman Coding.
 			- 層數越高, 心理声学模型應用更複雜
 			- 層數越高, 壓縮質量更好
-			- MP3壓縮性能
+			- MP3壓縮性能:
 			<img src="./MP3_compression_performance.png">
 	- MPEG-2
 		- BC Audo標準與MPEG-1標準相同
