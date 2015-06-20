@@ -447,10 +447,70 @@
 	- ...
 - GSM(Global System for Moble communications, 全球數字移動通信系統)音頻編碼, 用於數字蜂窩電話通信協議.
 
-
-		
-
 ### Chapter9: Basic Video Compression Techniques
+
+- 視頻是由時間上連續的一系列幀(圖像)組成
+- 解決視頻壓縮的可行方法: 基於前面的幀進行預測編碼, 首先按順序提取圖像, 然後進行預測, 最後對差值進行編碼
+- 運動補償: 由於幀間圖像差別由攝像頭或物體運動造成, 因此可以通過在這些幀裏探測相應像素或區域的移動, 並測量其差值來進行運動補償
+	- 運動估計(查找運動矢量)
+	- 基於運動補償的預測
+	- 預測誤差生成
+- 宏塊: 每幀圖像分成大小為N*N的宏塊
+- 運動矢量: 參考宏塊到目標宏塊的位移
+	- 其求解是一個**匹配**問題, 即相關性判定問題
+	- 由於矢量搜索計算複雜度較高, 因此限制在一個較小的相鄰區域內進行
+	- 獲取一個宏塊的運動矢量複雜度為: <img src="./time_for_searching_mvs.png">
+	- 2D Logarithmic Search(二維對數搜索)複雜度為 <img src="./time_for_2dlog.png">
+- 基於運動補償的壓縮編碼, 只需要對運動矢量和差值宏塊編碼
+- 數字視(音)頻編解碼標準
+	- H.26x系列 (ITU標準)
+		- H.261
+			- 冗餘降低策略:
+				- 利用二維DCT減少圖像的空間域冗餘度
+				- 利用運動補償預測減少圖像的時間域冗餘度
+				- 利用視覺加權量化減少圖像的"感知域"冗餘度
+				- 利用熵編碼來減少圖像的"統計域"冗餘度
+			- 信源編碼算法:
+				- 將預測誤差或輸入圖像劃分為8\*8的像素塊, 然後將四個亮度像素塊和兩個在空間位置上與之重疊的色差像素塊符合成一個16\*16的宏塊
+				- 對於幀序列的第一副圖像, 採用幀內變換編碼
+				- 幀間預測採用混合方法
+			- 定義了兩種類型的幀
+				- **I**幀
+				<img src="./i_frame_coding.png">
+				- **P**幀
+				<img src="./p_frame_coding.png">
+	- MPEG系列 (ISO/IEC標準)
+		- MPEG-1: 低於1.5Mb/s的數字化運動圖像及伴音編碼(1992)
+			- MPEG-1標準只支持非交錯式視頻
+			- MPEG-1系統: 規定電視圖像數據, 聲音數據及其他相關數據的同步
+			- MPEG-1視頻: 規定電視數據的編碼和解碼
+			- MPEG-1音頻: 規定聲音數據的編碼的解碼
+			- MPEG-1一致性測試: 說明如何測試比特數據流和幾碼是否滿足MPEG-1規定
+			- MPEG-1軟件模擬
+			- **I**幀: 內幀
+			<img src="./i_frame_coding1.png">
+			- **P**幀: 單向預測幀
+			<img src="./p_frame_coding1.png">
+			- **B**幀: 雙向預測幀
+			<img src="./b_frame_coding1.png">
+		- MPEG-2: 運動圖像及伴音通用編碼(1994)
+			- MPEG-3: 合併到HDTV(1992)
+		- MPEG-4: 甚低速率音視頻編碼(1999)
+		- MPEG-7: 多媒體內容描述接口標準(2001)
+		- MPEG-21: 多媒體應用框架標準(2003)
+			- 規定大範圍的網絡及設備中的多媒體定義, 標識, 描述, 管理及保護等.
+		- MPEG-A: A suite of standards specifying application formats that involve multiple MPEG and, where required, non MPEG standards(2007)
+		- MPEG-B: MPEG systems technologies. (ISO/IEC 23001) (e.g., Binary MPEG format for XML, Fragment Request Units, BSDL and others)(2006)
+		- MPEG-C: MPEG video technologies. (ISO/IEC 23002) (e.g., Accuracy requirements for implementation of integer-output 8x8 inverse discrete cosine transform and others)(2006)
+		- MPEG-D: MPEG audio technologies. (ISO/IEC 23003) (e.g., MPEG Surround, SAOC-Spatial Audio Object Coding and USAC-Unified Speech and Audio Coding)(2007)
+		- MPEG-E: Multimedia Middleware. (ISO/IEC 23004) (a.k.a. M3W) (e.g., Architecture, Multimedia application programming interface (API), Component model and others)(2007)
+		- MPEG-V: Media context and control. (ISO/IEC 23005) (a.k.a. Information exchange with Virtual Worlds) (e.g., Avatar characteristics, Sensor information, Architecture and others)(2011)
+		- MPEG-M: MPEG eXtensible Middleware (MXM). (ISO/IEC 23006) (e.g., MXM architecture and technologies, API, MPEG extensible middleware (MXM) protocols)(2010)
+		- MPEG-U: Rich media user interfaces. (ISO/IEC 23007) (e.g., Widgets)(2010)
+		- MPEG-H: High Efficiency Coding and Media Delivery in Heterogeneous Environments. (ISO/IEC 23008) Part 1 – MPEG Media Transport; Part 2 – High Efficiency Video Coding; Part 3 – 3D Audio.(2013)
+		- MPEG-DASH: Information technology – Dynamic adaptive streaming over HTTP (DASH). (ISO/IEC 23009) Part 1 – Media presentation description and segment formats(2012)
+	- AVS (中國標準)
+	<img src="./Video_standard.png">
 
 ### Chapter10: Visual Coding in MPEG-4, Other MPEG Standards
 
