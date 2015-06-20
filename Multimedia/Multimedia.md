@@ -356,6 +356,100 @@
 
 ### Chapter8: Basic Audio Compression Techniques
 
+- 聲音編碼方式
+	- Waveform Coding: 基於音頻數據的統計特性進行編碼, 直接對波形信號進行採樣和量化
+		- 脈衝編碼調製(PCM)
+		- 增量調製(DM)
+		- 自適應脈衝編碼調製(APCM)
+		- 差分脈衝編碼調製(DPCM)
+		- 自適應差分脉冲編碼調製(ADPCM)
+	- Source Coding: 基於話音的聲學參數進行編碼, 提取話音生成模型的參數, 進行編碼
+	- Hybrid Coding: 綜合上述兩種編碼技術
+	- Perceptual Coding: 基於人的聽覺特性進行編碼
+- 兩種基於對數關係的非均勻量化方法
+	- μ律壓擴法: <img src="./mu-law.png"> , μ一般取值100或255
+	- A律壓擴法: <img src="./A-law.png"> , A一般取值87.6
+- DM(ΔM), 增量調製: 是一種預測編碼技術, 當Δ>0時, 上升; 當Δ<0時, 下降.
+- ADM, 自適應增量調製: 自動調整量化階Δ的大小
+	- 調整方法:
+		- 前向自適應: 根據量化樣本值的均方根來估計
+		- 後向自適應: 根據過去樣本, 提取量化階信息
+	- APCM(自適應脈衝編碼調製): 根據輸入信號的幅度大小來調整量化階
+	- DPCM(差分脈衝編碼調製): 根據過去的樣本去估算下一個樣本信號的幅度大小
+	- ADPCM: 綜合了APCM和DPCM
+- 話音(Voice)的形成: 肺中空氣受到擠壓形成氣流, 通過聲帶沿著聲道釋放出去, 從而形成**話音**
+	- 濁音: 聲道打開, 聲帶再先打開後關閉, 氣流經過使聲帶發生張弛振動, 變為准週期震動氣流 (其激勵源可等效為准周期的脈衝信號)
+	- 清音: 聲帶不振動, 而在某處保持收縮, 氣流在聲道裏收縮後告訴通過產生湍流, 再經過主聲道的調整形成 (其激勵源可等效為一種白噪聲信號)
+	- 爆破音: 聲道關閉之後產生壓縮空氣, 然後突然打開聲道形成
+- 相位不敏感特性: 只要能量頻譜分佈正確, 無須擔心波形的確切形式
+- 聲音質量:
+	- 廣播質量: 帶寬為7000Hz的中等質量話音
+	- 長途電話質量: 帶寬為3400Hz, 信噪比為30db, 有失真
+	- 通信質量: 完全可以聽懂, 但與長途電話質量相比有明顯失真
+	- 合成質量: 80%~90%的可懂度, 聽起來像機器聲音, 失去講話者的特徵
+- 聲音冗餘:
+	- 幅度非均勻分佈
+	- 樣本之間相關性
+	- 週期之間相關性
+	- 基音之間相關性
+	- 靜止系數(話音間隙)
+	- 長期相關性
+- 通道聲音合成器(Channel Vocodor): 使用一組濾波器將信號分解為不同的頻率分量, 同時進行分析, 以決定音調和語音的激勵源. 它產生一個描述聲音模型的激勵參數向量.
+- 共振峰聲碼器(Format Vocodor): 語音中部分頻率強度較大, 稱為重要頻率(共振峰).
+- 線性預測編碼(LPC): 通過分析話音波形來產生聲道激勵和轉移函數的參數, 然後對參數進行編碼.
+- 碼激勵線性預測(CELP): 試圖通過複雜的激勵描述機制來彌補簡單的LPC模型在語音質量上的缺陷. 首先使用一個完整的激勵向量集合, 即一個碼本, 和真實語音匹配, 然後把最佳匹配項序號發送出去.
+- 混合激勵合成器(Hybrid Excitation Vocoder)
+	- MBE(Multi-Band Excitation)
+	- MELP(Multi-Band Excitation Linear Predictive)
+- MPEG音頻壓縮: 沿用心理測量(Psychoacoustics)模型的優點, 構建一個大的多維查找表, 用很少的位數來傳送掩蔽的頻率部分
+	- Auditory Masking(聲音掩蔽效應): 一部分聲音阻礙聽覺系統感受另一部分聲音的現象
+	- Psychoacoustics
+		- (Equal-Loudness Relations)等響度關係
+		- (Frequency Masking)頻率掩蔽效應
+		- (Temporal Masking)時間掩蔽效應
+	- MPEG-1: 先對輸入應用一個濾波器組, 把輸入分解得到頻率成分, 同時對數據應用心理聲學模型, 用於位分配塊; 使用被分配的位數, 量化從濾波器組得到的信息.
+		- 採用**感知子帶**編碼: 
+			- 將音頻信號用濾波器分成32個子帶
+			- 用FFT將子帶變換到頻率域
+			- 根據心理聲學模型估計各個子帶的感知閾值
+			- 根據對感知閾值的估計, 對各個子帶進行比特分配和量化
+		- MPEG-1音頻使用3個向下兼容的音頻壓縮層
+			- Layer1: 子帶是頻帶相等的子帶, 其心理聲學模型僅使用頻域掩蔽特性. 主要用於小型數字盒式磁帶(digital compact cassette, DCC), 採用192kbps.
+			- Layer2: 除了使用頻域掩蔽特性, 還利用時間掩蔽特性, 並且在低, 中和高頻段對比特分配作了一些限制. 其應用包括數字廣播聲音(digital broadcast audio, DBA), CD-I(compact disc-interactive), 數字音樂和VCD(video compact disc)等.
+			- Layer3: 使用臨界頻帶濾波器, 把聲音頻帶分成非等寬帶的子帶, 心理聲學模型除了使用頻域掩蔽特性和時間掩蔽特性外, 還考慮到立體聲數據的冗餘, 編碼方面使用到Huffman Coding.
+			- 層數越高, 心理声学模型應用更複雜
+			- 層數越高, 壓縮質量更好
+			- MP3壓縮性能
+			<img src="./MP3_compression_performance.png">
+	- MPEG-2
+		- BC Audo標準與MPEG-1標準相同
+		- 三層壓縮層與MPEG-1標準相同
+		- 擴充部分:
+			- 增加了16kHz, 22.05kHz和24kHz的採樣頻率
+			- 擴展了編碼器的輸出速率範圍, 由32~328kbps到8~640kbps		
+			- 增加了聲道數, 支持5.1聲道和7.1聲道的環繞聲
+			- 支持Liner PCM和Dolby AC-3編碼
+		- AAC(Advanced Audio Coding)標準
+	- MPEG-4
+		- 將多種不同音頻成分整合成一種標準: 語音壓縮, 基於感知的編碼器, 文語轉換, MIDI.
+		- 可集成從話音到高質量的多通道聲音, 從自然聲音到合成聲音, 編碼方式還包括參數編碼(parametric coding), 碼激勵線性預測(code excited linear predictive)編碼, 時間/頻率編碼, 結構化聲音(structed audio)編碼和文本-語音TTS(text-to-speech)系統的合成聲音等
+- 音頻壓縮標準(Audio Compression Standards)
+	- G711: Pulse Code Modulation (PCM) of Voice Frequencies
+	- G722: 7 kHz Audio Coding within 64 kbit/s 
+	- G723.1: Dual Rate Speech Coder for Multimedia TelecommunicationTransmitting at 5.3 & 6.3 kbit/s 
+	- G725: System Aspect for the Use of the 7 kHz Audio Codec within 64 kbit/s 
+	- G726: 40, 32, 24, 16 kbit/s adaptive differential pulse code modulation (ADPCM) 
+	- G727: 5-,4-,3-,and 2-bits/sample embedded adaptive differential pulse code modulation 
+	- G728: Coding of Speech at 16 kbit/s Using Low-Delay Code Excited Linear Prediction (LD-CELP) 
+	- G729: Coding of Speech at 8kbit/s using Conjugate-Structure Algebraic-Code-Excited Linear Prediction(CS-ACELP) 
+	- G764: Voice Packetization - Packetized Voice Protocol 
+	- MPEG Audio
+	- ...
+- GSM(Global System for Moble communications, 全球數字移動通信系統)音頻編碼, 用於數字蜂窩電話通信協議.
+
+
+		
+
 ### Chapter9: Basic Video Compression Techniques
 
 ### Chapter10: Visual Coding in MPEG-4, Other MPEG Standards
