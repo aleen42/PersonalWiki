@@ -486,9 +486,16 @@
 			- 運動向量不僅從當前宏塊產生, 水平分量和垂直分量分別由**左上**, **上方**和**右上**的宏塊預測得出
 			- 應用: 通用電話交換網, 局域網視頻通信
 		- H.264(MPEG4 part10/AVC)
+			- 基於VLC的熵編碼: UVLC, CAVLC
+			- 運動補償: 分割成4*4的精準運動補償
+			- 幀內預測: H263+更為複雜的預測方式
+			- 轉換, 掃描和量化: 整數精確4*4DCT, 非線性量化步長
+			- 含有環路去塊效應濾波器
+			- 增加了差錯恢復能力
 			- 應用: 視頻廣播, 視頻通信和存儲媒體
 	- MPEG系列 (ISO/IEC標準)
 		- MPEG-1: 低於1.5Mb/s的數字化運動圖像及伴音編碼(1992)
+			- 基於幀的壓縮算法  
 			- MPEG-1標準只支持非交錯式視頻
 			- MPEG-1系統: 規定電視圖像數據, 聲音數據及其他相關數據的同步
 			- MPEG-1視頻: 規定電視數據的編碼和解碼
@@ -503,6 +510,7 @@
 			<img src="./b_frame_coding1.png">
 			- 應用: VCD, MP3, 局域網視頻傳輸
 		- MPEG-2: 運動圖像及伴音通用編碼(1994)
+			- 基於塊的壓縮算法, 使用**圖層**的方法
 			- 可以說是MPEG-1的一個擴充, 相比MPEG-1新添加的功能:
 				- 能夠在很寬的範圍內對不同分辨率和不同輸出比特率的圖像信號有效的進行壓縮
 				- 處理隔行掃描的視頻信號能力
@@ -514,10 +522,35 @@
 			- 應用: DVD, DVB, HDTV
 			- MPEG-3: 合併到HDTV(1992)
 		- MPEG-4: 甚低速率音視頻編碼(1999)
+			- 基於面向對象的編碼
+			- 碼率覆蓋: 5kbps~10Mbps
 			- 目的是為視聽(audio-visual)數據編碼和交互播放開發算法和工具
-			- 算法核心是基於內容的編碼和解碼, 即抽取單獨的物理對象
-			- 應用: 多用於因特網視頻傳輸, 流媒體應用
+			- 基本碼流: **視聽對象**, **場景描述信息**, **對象描述子等**
+			- **合成**: 將目標放置在同一顯示空間的行為
+			- **重現**: 將來自同一顯示空間的對象傳輸到專門的播放設備的行為
+			- 場景描述語言: BIFS(Binary Format for Scenes)
+				- BIFS使用的是參數方法, 場景描述由一些帶有屬性和其他信息(包括事件源和目標)的節點構成的編碼層次(樹)組成
+				- 樹中節點表示特定AV對象(媒體對象)
+			- 算法核心是基於內容的編碼和解碼, 即抽取單獨的物理對象, **VO (Video Object)**
+				- Texture Coding: 用於編碼VOP中灰度(或色度)的變化及樣式
+				- Shape Coding: 用於編碼VOP的形狀
+				- Sprite Coding: 用於區分前景物體和背景
+				- 2D Mesh Geometry Coding: 將圖形分成若干網格 
+				- 3D Model-Based Coding:
+					- Face Object Coding and Animation
+					- Body Object Coding and Animation
+			<img src="./layer_of_video_object.png">
+			- 基於運動補償的VOP編碼步驟:
+				- 運動估計
+				- 基於運動補償的預測
+				- 預測誤差的編碼
+			- 宏塊分類:
+				- 內部宏塊: 完全處於VOP內的宏塊
+				- 邊界宏塊: 跨越了邊界的宏塊
+				- 外部宏塊: 完全處於VOP外的宏塊
+			- 應用: 多用於因特網視頻傳輸, 流媒體應用, 交互式視聽服務及遠程控制等
 		- MPEG-7: 多媒體內容描述接口標準(2001)
+			- 使用MPEG-7描述工具生成的描述與數據本身結合在一起, 從而允許對數據進行快速有效的搜索, 過濾以得到用戶感興趣的信息
 		- MPEG-21: 多媒體應用框架標準(2003)
 			- 規定大範圍的網絡及設備中的多媒體定義, 標識, 描述, 管理及保護等.
 		- MPEG-A: A suite of standards specifying application formats that involve multiple MPEG and, where required, non MPEG standards(2007)
@@ -536,6 +569,66 @@
 ### Chapter10: Visual Coding in MPEG-4, Other MPEG Standards
 
 ### Chapter11: Computer and Multimedia Networks
+
+- OSI和TCP/IP的層次協議:
+
+<img src="./network_layer.png">
+- TCP(Transmission Control Protocol)
+	- 基於有鏈接的
+	- 只適用於包交換網絡
+	- 依賴於IP層來把消息傳送到指定IP地址的電腦
+	- 提供消息報文分組, 錯誤檢測, 重傳, 包重新序列化和複用的功能
+- UDP(User Datagram Protocol)
+	- 面向無連接的, 數據通過一個數據報來傳遞
+	- 只提供服用和錯誤檢測功能(Checksum)
+	- 源端端口是一個可選項, 因為沒有ACK
+	- 比TCP要快得多, 但是並不可靠
+		- 適用於實時多媒體應用
+		- 要自己實現流量控制, 擁塞避免
+- IP(Internet Protocol)
+	- 兩個主要服務
+		- 包的尋址(Packet Addressing)
+		- 包的分片(Packet Fragmentation)
+	- 版本:
+		- IPV4: 32 bit numbers
+		- IPV6: 128 bit numbers
+- Multiplexing
+	- FDM(Frequency Division Multiplexing)
+		- 多個通道是通過頻率來區分的
+		- 模擬信號必須得調製, 使得信號攜帶單一頻率的通道
+		- 主要調製技術:
+			- AM(Amplitude Modulation)
+			- FM(Frequency Modulation)
+			- PM(Phase Modulaton)
+			- QAM(Quadrature Amplitude Modulation)
+	- WDM(Wavelength Division Multiplexing)
+		- 通過波長來區分
+		- WDM的容量非常巨大, 數據率可達到每秒兆位級別
+		- 三種WDM:
+			- CWDM(Coarse WDM): Multiplexor can put up to 8 Fiber channel connections, uses 1200~1700 nm, interval >20nm.
+			- DWDM(Dense WDM): Employs densely spaced wavelengths so as to allow a larger number of channels than WDM.
+			- WWDM(Wideband WDM): Allows the transmission of color lights with a wider range of wavelengths.
+	- TDM(Time Division Multiplexing)
+		- 通過時間片來區分
+		- 如果源數據是模擬信號, 必須先數字化後然後轉換成PCM(Pulse Code Modulation, 脈衝編碼調製)
+		- 兩種TDM:
+			- Synchronous TDM: 每個信道都分配時間, 不管有沒有數據
+			- Asynchronous TDM: 只分配給有數據的信道
+		- TDM載波標準:
+			- T1: a Synchronous TDM for 24 voice channels(23 for data, 1 for synchronization)
+			- E1: ITU-T標準
+		<img src="./TDM_Carrier_Standards.png">
+- ISDN(Integrated Services Digital Network)
+	- ITU-T制定(1980s)
+	- 默認情況下, ISDN指(Narrowband ISDN)窄帶ISDN, 另外還有一個(Broadband ISDN)寬帶ISDN. 默認的包轉換技術是ATM(Asynchronous Transfer Mode)
+	- 全雙工通道類型:
+		- B(Bearer) channel: 64kbps, 用於數據傳送, 大部分情況用於電路交換網絡
+		- D(Delta) channel: 16kbps or 64kbps, 用於搭建, 控制和維護網絡
+	- ISDN採用Synchronous TDM來進行複用
+	- 可用的兩種介面:
+		- Basic Rate Interface
+		- Primary Rate Interface
+		
 
 ### Chapter12: Multimedia Communication
 
