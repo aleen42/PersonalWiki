@@ -628,7 +628,118 @@
 	- 可用的兩種介面:
 		- Basic Rate Interface
 		- Primary Rate Interface
-		
+- SONET(Synchronous Optical NETwork)
+	- Bellcore指定, 一個光釺標準
+	- SONET採用Synchronous TDM來進行複用
+- SONET-SDH(Synchronous Digital Hierarchy)
+	- ITU-T指定的與SONET相似的標準
+- ADSL(Asymmetric Digital Subscriber Line, 非對稱用戶線路)
+	- 採用離散多音頻技術, 將電話線路0~1.1MHz頻段劃分成256個頻寬為4.3kHz的子頻帶(採用頻分複用FDM, 可以避免相信道之間相互的干擾)
+		- 4kHz以下的頻段用於傳送POTS(傳統電話業務)
+		- 20kHz~138kHz的頻段用於傳送上行信號
+		- 138kHz到1.1MHz的頻段用於傳送下行信號
+	- 非對稱指的是上行帶寬和下行帶寬的不對稱
+- LAN(Local Area Network)
+	- 局域網指局限於一個地理位置的網絡, 通常是相關的幾個基站之間
+	- LAN的數據鏈路層含有兩子層
+		- MAC(Medium Access Control) Layer
+			- 綁定IP地址和物理地址
+		- LLC(Logical Link Control) Layer
+			- 流量和差錯控制
+	- Ethernet:
+		- 包交換網絡, 一種著名的局域網
+		- CSMA/CD(Carrier Sense Multiple Access with Collision Detection, 載波偵聽多路訪問帶衝突檢測) 解決了MAC的問題
+			- 當多站同時發消息到信道時則會產生衝突
+			- 通過監聽等待沒有站發消息時才發消息, 從而解決衝突問題
+- WAN(Wide Area Network)
+	- 廣域網指穿越國家或城市的網絡
+	- 使用到的包交換技術:
+		- Circuit Switching(電路交換)
+			- 端到端的電路
+			- 通過採用FDM或Synchronous TDM來解決多用戶或不同數據率的問題
+		- Packet Switching(包交換)
+			- 數據被分成包傳遞
+			- 兩種交換和定位包的方式:
+				- datagram(數據報)
+				- virtual circuit(虛電路)
+- MAN(Metropolitan Area Network)
+	- 城域網有時指介於局域網和廣域網之間的網絡
+- Access Network
+	- 指的是終端用戶連接到核心網絡之間的部分
+	- Hybrid Fiber-Coax(HFC) Cabel Network
+		- 通過Optical Network Units(ONU)來連接到核心網絡
+		- 通過銅軸電纜服務終端用戶
+		- 潛在問題在於銅軸電纜部分的噪音干涉, 而且上行信道存在隱私和安全問題
+	- Fiber To The Crub(FTTC)
+		- 通過雙絞線或銅軸電纜服務終端用戶
+	- Fiber To The Home(FTTH)
+		- 直接連接到核心網絡, 提供有高帶寬
+		- 存在成本較高的問題
+	- Terrestrial Distribution
+	- Satellite Distribution
+- 多媒體應用的分佈式要求:
+	- 公共信息服務的要求
+	- 各種網絡綜合統一化
+	- 娛樂事業的發展
+	- 全球信息共享與協同工作
+- 多媒體的網絡要求:
+	- 帶寬: 數據量大, 數據率變化大
+		- 多媒體信息必須以壓縮形式傳送
+		- 帶寬需: 64kbps~2Mbps
+		- 多媒體通信量在上行和下行兩個方向可能是非對稱的
+	- 對連續媒體流的支持能力
+		- 面向連續比特流的通信
+			- 時基媒體與連續比特流CBO(Continuous Bit Straeam Oriented)
+			- 恒定比特率CBR(Constant Bit Rate)媒體流
+			- 變比特率VBR(Variable Bit Rate)媒體流
+			- 基於延遲的通信類型
+				- 異步: 對報文分組的傳輸延遲沒有限制
+				- 同步: 對報文分組的傳輸延遲有一定限制
+				- 等時: 每個報文分組具有恒定的傳輸延遲
+	- 具有很強的實時性
+	- 具有很強的交互能力
+	- 多媒體的時空約束性
+- QoS(Quality of Service)的決定因素:
+	- Data rate(數據率)
+	- Latency(延遲)
+	- Packet loss or error(包延遲/包錯誤)
+	- Jitter(抖動)
+	- Sync skew(同步扭曲)
+- Multimedia over IP
+	- 傳播方式
+		- Multicast 組播(多播): 傳遞給特定的多個人
+			- 用TTL(time-to-live)來解決包長時間在網絡上流動的問題
+			- 組播生成樹: 用於描述服務器和接收機之間構成的播放與接收關係
+			- 組播步驟:
+				- 組播源把數據或組播通知發送給所有路由
+				- 不想參加組播的終端逆向發一個刪除消息
+				- 刪除沒有成員的分支和不在最短路徑樹上的分支
+				- 使用聯結和刪除功能改變成員之間關係
+		- Broadcast 廣播: 傳遞給其他所有人
+		- Unicast 單波: 傳遞給特定的一個人
+	- RTP(Real-time Transport Protocol, 實時傳輸協議)
+		- 提供端對端傳輸服務的實時傳輸協議
+		- 用於支持在單播和組播網絡服務中傳輸實時數據
+		- 通常運用於**UDP**上, 通過創建時間戳和排序機制來保證數據有序性
+		- 組成:
+			- 有效載荷類型域
+			- 順序號域
+			- 時間戳域
+			- 同步源標識符域
+			- 其它
+	- RTCP(Real-time Control Protocol, 實時傳輸控制協議)
+		- 用於監視服務質量和傳輸有關與會者的信息
+		- 通過向服務器發送數據傳輸質量的反饋來監控QoS變化
+	- **RTP**和**RTCP**結合用
+	- RTP和RTCP數據包通過不同端口發送到相同的IP地址
+	- RSVP(Resource Reservation Protocol, 資源保留協議)
+		- 允許應用程序保留因特網上的資源
+	- RTSP(Real-time Streaming Prtocol, 實時流協議)
+		- 為單播和組播上的流式多媒体应用提供播放性能
+		- 支持不同廠家提供的客戶機和服務器之間的協同工作能力
+	- **RTSP**和**RSVP**結合用
+
+	
 
 ### Chapter12: Multimedia Communication
 
