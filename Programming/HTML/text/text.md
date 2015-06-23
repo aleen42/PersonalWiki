@@ -16,6 +16,7 @@
 - ```<strong>``` is used to emphasize something important like using ```<b>```.
 - ```<em>``` is used to emphasize that subtly changes the meaning of a sentence like using ```<i>```.
 - ```<blockquote>``` is used for longer quotes that take up an entire paragraph.
+	- <blockquote>It's never too late to learn</blockquote>
 - ```<q>``` is used for shorter one.
 	- ```Some one said, <q>Hello, man!</q>```
 	- Some one said, <q>Hello, man!</q>
