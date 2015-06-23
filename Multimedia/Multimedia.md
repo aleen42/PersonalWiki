@@ -573,6 +573,7 @@
 - OSI和TCP/IP的層次協議:
 
 <img src="./network_layer.png">
+
 - TCP(Transmission Control Protocol)
 	- 基於有鏈接的
 	- 只適用於包交換網絡
