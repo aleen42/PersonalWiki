@@ -17,6 +17,7 @@ In order to organize all the knowledges I have learnt, I wrote this wiki for me 
 
 ### Book
  * [**Gates Notes**](http://www.gatesnotes.com/books)
+ * [**Front-End**](./frontend/frontend.md)
 
 ## Supported
  * Thanks to [July](https://www.github.com/julycoding) for how to build a wiki.
