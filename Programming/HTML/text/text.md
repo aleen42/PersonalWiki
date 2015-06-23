@@ -18,10 +18,13 @@
 - ```<blockquote>``` is used for longer quotes that take up an entire paragraph.
 - ```<q>``` is used for shorter one.
 	- ```Some one said, <q>Hello, man!</q>```
+	- Some one said, <q>Hello, man!</q>
 - ```<abbr>``` is used for specify some abbreviations or acronyms(縮寫).
 	- ```<abbr title = "Professor">Prof</abbr>```
+	- <abbr title = "Professor">Prof</abbr>
 - ```<cite>``` is used for referencing a piece of work such as a **book**, **film** or **research paper**.
 	- ```<cite>A Brief History of Time</cite>```
+	- <cite>A Brief History of Time</cite>
 - ```<dfn>``` is used for explaining some new terminology(學術用語).
 - ```<address>``` is used to contain **contact details** for the author of the page.
 - ```<ins>``` is used for <ins>underline</ins>, ```<del>``` is used for ~~delete~~.
