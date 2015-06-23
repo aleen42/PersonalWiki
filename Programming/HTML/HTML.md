@@ -2,7 +2,8 @@
 
 - [**Structure**](./structure/structure.md)
 - [**Text**](./text/text.md)
-
+- [**List**](./list/list.md)
+- [**Links**](./link/link.md)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====

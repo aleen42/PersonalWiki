@@ -1,7 +1,6 @@
 ## Text [Back](./../HTML.md)
 
-### Text
-#### 1. Structural Markup
+### 1. Structural Markup
 - **six** levels of heading:  ```<h1>``` to ```<h6>```
 - ```<p>``` is used for creating a paragraph.
 - ```<b>``` is used for **bold** text.
@@ -12,23 +11,22 @@
 - ```<br />``` is line breaks(**single** one).
 - ```<hr />``` is used to create a break(horizonal rules) between themes(**single one).
 
-#### 2. Semantic Markup
+### 2. Semantic Markup
 - ```<strong>``` is used to emphasize something important like using ```<b>```.
 - ```<em>``` is used to emphasize that subtly changes the meaning of a sentence like using ```<i>```.
 - ```<blockquote>``` is used for longer quotes that take up an entire paragraph.
-	- <blockquote>It's never too late to learn</blockquote>
 - ```<q>``` is used for shorter one.
 	- ```Some one said, <q>Hello, man!</q>```
-	- Some one said, <q>Hello, man!</q>
 - ```<abbr>``` is used for specify some abbreviations or acronyms(縮寫).
 	- ```<abbr title = "Professor">Prof</abbr>```
-	- <abbr title = "Professor">Prof</abbr>
 - ```<cite>``` is used for referencing a piece of work such as a **book**, **film** or **research paper**.
 	- ```<cite>A Brief History of Time</cite>```
-	- <cite>A Brief History of Time</cite>
 - ```<dfn>``` is used for explaining some new terminology(學術用語).
 - ```<address>``` is used to contain **contact details** for the author of the page.
 - ```<ins>``` is used for <ins>underline</ins>, ```<del>``` is used for ~~delete~~.
+- ```<s>``` indicates something that is no longer accurate or relevant(but that should note be deleted).
+	- ```<p><s>was $995</s></p>```
+	- ```<p>now only $375</p>```
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====

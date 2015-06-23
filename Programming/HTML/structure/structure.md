@@ -1,6 +1,5 @@
 ## Structure [Back](./../HTML.md)
 
-### Structure
 - **HTML**(Hypertext Markup Language) is a **publishing** format, Markdown is a **writing** format.
 - HTML pages are text documents. 
 - HTML uses **tags** to give the information they surround special meaning.
