@@ -4,6 +4,7 @@
 - [**Text**](./text/text.md)
 - [**List**](./list/list.md)
 - [**Links**](./link/link.md)
+- [**Image**](./image/image.md)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
