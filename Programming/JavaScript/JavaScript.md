@@ -2,7 +2,7 @@
 - JavaScript is the programming language of the Web, well-suited to object-oriented and functional programming style.
 - Input and output is the responsibility of the "host environment", usually means the web browser.
 
-* [JavaScript Framework](./Framework/Framework.md)
+* [**JavaScript Framework**](./Framework/Framework.md)
 
 Languages|Description
 :----:|-----
