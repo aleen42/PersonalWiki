@@ -15,6 +15,11 @@ In order to organize all the knowledges I have learnt, I wrote this wiki for me 
 ### Design
  * [**Creativity**](./Creativity/Creativity.md)
 
+### Idols
+ * [**Sara Soueidan**](http://sarasoueidan.com/)
+ * [**Chris Gannon**](http://blog.gannon.tv/)
+
+
 ### Book
  * [**Gates Notes**](http://www.gatesnotes.com/books)
  * [**Front-End**](./frontend/frontend.md)
