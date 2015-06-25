@@ -230,6 +230,24 @@ if (animate) {
 	- `accumulate`是累積的意思. 支持參數有：`none` | `sum`. 默認值是`none`. 如果值是`sum`表示動畫結束時候的位置作為下次動畫的起始位置.
 	- `additive`控制動畫是否附加. 支持參數有：`replace` | `sum`. 默認值是`replace`. 如果值是`sum`表示動畫的基礎屬性會附加到其低優先級的動畫上
 
+- **stroke**
+	- `stroke` 表示描邊**顏色**
+	- `stroke-width` 表示描邊**粗細**
+	- `stroke-linecap` 表示描邊**端點**的表示方法
+		- butt
+		- round
+		- square
+		- inherit
+		- <img src="./linecap.png">
+	- `stroke-linejoin` 表示描邊**轉角**的表示方式
+		- miter
+		- round
+		- bevel
+		- <img src="./linejoin.png">
+	- `stroke-dasharray` 表示虛線描邊
+	- `stroke-dashoffset` 表示虛線的起始位置
+	- `stroke-opacity` 表示描邊透明度
+	
 - **restart**
 
 支持的參數有：`always` | `whenNotActive` | `never`, 默認值是`always`, 用於動畫開始後點擊事件對動畫的影響
