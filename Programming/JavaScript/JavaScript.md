@@ -3,6 +3,7 @@
 - Input and output is the responsibility of the "host environment", usually means the web browser.
 
 * [**JavaScript Framework**](./Framework/Framework.md)
+* [**Easing Function**](./easing/easing.md)
 
 Languages|Description
 :----:|-----

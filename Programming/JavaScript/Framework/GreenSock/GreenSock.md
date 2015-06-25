@@ -1,6 +1,6 @@
 ## GreenSock [Back](./../Framework.md)
 
-- **GreenSock** 
+- **GSAP(GreenSock Animation Platform)** 
 	- [**DrawSVGPlugin**](http://greensock.com/drawSVG) allows you to progressively reveal (or hide) the stroke of an SVG ```<path>```, ```<line>```, ```<polyline>```, ```<polygon>```, ```<rect>```, or ```<ellipse>``` and you can even animate outward from the center of the stroke (or any position/segment). It does this by controlling the ```stroke-dashoffset``` and ```stroke-dasharray``` CSS properties.
 
 ###Code
@@ -62,8 +62,10 @@ t1.set([jump], {
 
 
 ###Download
+- DSAP
+	- Just Click [**here**](https://github.com/aleen42/PersonalWiki/raw/master/Programming/JavaScript/Framework/GreenSock/greensock-js.zip) to download.(not support plugin)
 - DrawSVGPlugin
-	- Just Click [**here**](https://github.com/aleen42/PersonalWiki/raw/master/Programming/JavaScript/Framework/GreenSock/DrawSVGPlugin.rar) to download.
+	- Just Click [**here**](https://github.com/aleen42/PersonalWiki/raw/master/Programming/JavaScript/Framework/GreenSock/DrawSVGPlugin.zip) to download.(just for demo)
 
 
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
