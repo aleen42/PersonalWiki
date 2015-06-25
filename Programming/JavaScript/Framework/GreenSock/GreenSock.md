@@ -2,7 +2,7 @@
 
 - **GreenSock** 
 	- [**DrawSVGPlugin**](http://greensock.com/drawSVG) allows you to progressively reveal (or hide) the stroke of an SVG ```<path>```, ```<line>```, ```<polyline>```, ```<polygon>```, ```<rect>```, or ```<ellipse>``` and you can even animate outward from the center of the stroke (or any position/segment). It does this by controlling the ```stroke-dashoffset``` and ```stroke-dasharray``` CSS properties.
-	- [Example](./example.html)
+	- [Example](http://aleen42.github.io/example/Greensock/example.html)
 
 ###Code
 - DrawSVGPlugin
