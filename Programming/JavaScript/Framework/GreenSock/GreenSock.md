@@ -1,71 +1,166 @@
 ## GreenSock [Back](./../Framework.md)
 
-- **GSAP(GreenSock Animation Platform)** 
+- **GreenSock** 
 	- [**DrawSVGPlugin**](http://greensock.com/drawSVG) allows you to progressively reveal (or hide) the stroke of an SVG ```<path>```, ```<line>```, ```<polyline>```, ```<polygon>```, ```<rect>```, or ```<ellipse>``` and you can even animate outward from the center of the stroke (or any position/segment). It does this by controlling the ```stroke-dashoffset``` and ```stroke-dasharray``` CSS properties.
 
 ###Code
-- DrawSVGPlugin
+- SVG
+
+<svg version="1.1" id="loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="background:#a10000;" width="100%" height="50%" viewBox="0 -45 400 250" xml:space="preserve">
+<path id="path1" style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M200.198,34.273c-15.919,0-30.338,6.227-41.5,16.227H187.5v17H180
+	h-35.196c-3.067,5-5.355,11-6.711,17H187.5v18h-50.736c0.279,4,1.152,10,2.551,15H200h60.646c1.399-5,2.272-10,2.551-15H209.5v-18
+	h52.368c-1.356-6-3.643-12-6.711-17h-35.196H209.5v-17h31.764c-11.163-10-25.562-15.977-41.481-15.977"/>
+<path id="path2" style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M209.5,160.134c18-2.905,33.225-12.634,42.771-26.634H208h-13
+	h-48.63c9.419,14,24.13,23.463,41.13,26.515v14.44c-38-5.712-67.083-38.587-67.083-78.288c0-43.723,35.569-79.167,79.292-79.167
+	s78.979,35.444,78.979,79.167c0,40.278-30.188,73.53-69.188,78.52V160.134z"/>
+		
+</svg>
+
+- DrawSVG
+	- DrawSVGPlugin.min.js
+	- TweenMax.min.js
 
 ```js
-var loader = document.getElementById('loader');	// loader is the id of the SVG
-var container = document.getElementById('container');	// a container containing the SVG
-var circle = document.getElementById('circle');	// a circle
+(function(){
+	var container = document.getElementById('container');
+	var loader = document.getElementById('loader');
+	var path1 = document.getElementById('path1');
+	var path2 = document.getElementById('path2');
+	
+	var t = new TimelineMax({
+		repeat: -1,				// -1: indefinite, n: n+1 if n>=0
+		yoyo: false				// false: A-B-A-B, true: A-B-B-A
+	});
+	
+	t.timeScale(1.2);				// speed
+	t.set([path1, path2], {
+		drawSVG: '0% 0%'
+	}, '-=2');					// previous 2/speed (s)
+	
+	t.to([path1, path2], 3, {			// 3/speed (s)
+		drawSVG: '0% 100%'			// 'start, length'
+	});
+	
+	t.to([path1, path2], 3, {
+		drawSVG: '0% 0%'
+	}, '+=2');					// delay 2/speed (s)
+				
+})();
+```
 
-// put SVG in the middle of the container by setting attributes
-TweenMax.set([loader, container], {
-	position: 'absolute',
-	top: '50%',
-	yPercent: -50,
-	left: '50%',
-	xPercent: -50
-})
+- Alpha [[**Example**](http://aleen42.github.io/example/Greensock/Alpha.html)]
+	- TweenMax.min.js
 
-// create a object of TimelineMax(like a storyboard)
-var tl = new TimelineMax({
-	repeat: -1,		// indefinite for -1, n+1 times for n(n>=0)
-	yoyo: false		// true: A-B-B-A
-				// false: A-B-A-B
-});
+```js
+(function(){
+	var container = document.getElementById('container');
+	var loader = document.getElementById('loader');
+	var path1 = document.getElementById('path1');
+	var path2 = document.getElementById('path2');
+	
+	var t = new TweenlineMax({
+		repeat: -1,
+		yoyo: true
+	});
+	
+	t.timeScale(5);
+	t.set([path1, path2], {
+		alpha: 0.0,					// alpha
+		ease: Power1.easeInOut
+	}, '-=2');
+	
+	t.to([path1, path2], 3, {
+		alpha: 0.8,
+		ease: Power1.easeInOut
+	});
+				
+	t.to([path1, path2], 3, {
+		alpha: 1.0,
+		ease: Power1.easeInOut
+	}, '+=2');
+})();
+```
 
-// speed
-t1.timeScale(3);
+- Scale [[**Example**](http://aleen42.github.io/example/Greensock/Scale.html)]
 
-// initialize
-t1.set([jump], {
-	drawSVG: '0% 0%'	// 'start length'
-})
-  .set([circle], {
-	attr: {			// set attributes of a element of SVG		
-		rx: 0,
-		ry: 0,
-	}
-})
+```js
+(function(){
+	var container = document.getElementById('container');
+	var loader = document.getElementById('loader');
+	var outer = document.getElementById('outer');
+	
+	var t = new TimelineMax({
+		repeat: -1,
+		yoyo: false
+	});
+	
+	t.timeScale(5);
+	t.set(outer, {
+		scale: 1.0,
+		transformOrigin: '50% 50%',
+		ease: Power1.easeInOut
+	}, '-=2');
+	
+	t.to(outer, 3, {
+		scale: 1.1,				// scale
+		transformOrigin: '50% 50%',		// the centeral point
+		ease: Power1.easeInOut
+	});
+	
+	t.to(outer, 3, {
+		scale: 1.0,
+		transformOrigin: '50% 50%',
+		ease: Power1.easeInOut
+	}, '+=2');		
+})();
+```
 
-// write a timeline(storyboard)
-  .to([jump], 0.4, {		// 0.4: Number - Amount of delay in seconds (or frames for frames-based tweens) before the animation should begin.
-	drawSVG: '0% 30%',
-	ease: Liner.easeNone	// ease: Ease (or Function or String) - You can choose from various eases to control the rate of change during the animation, giving it a specific "feel".
-}, '+=0.3')
+- Rotation and Move [[**Example**](http://aleen42.github.io/example/Greensock/RotationandMove.html)]
 
-  .to([circl] 2, {
-	attr: {
-		rx: '+=30',
-		ry: '+=10'
-	},
-	alpha: 0,
-	ease: Power1.easeOut
-}, '-=0.1')	// previous by 0.5
+```js
+(function(){
+	var rectangle = document.getElementById('rectangle');
+	
+	var t = new TimelineMax({
+		repeat: -1,
+		yoyo: true
+	});
+	
+	t.timeScale(2);
+	
+	var width = rectangle.width;
+	var num = 1;
+	
+	t.set(rectangle, {
+		transformOrigin: '100% 100%',
+	});
+	
+	t.to(rectangle, 3, {
+		rotation: '+=90',
+		ease: Power1.easeInOut
+	});
+	
+	t.set(rectangle, {
+		transformOrigin: '100% 100%',
+		x: '+=100',			// move
+		rotation: 0
+	});
+	
+	t.to(rectangle, 3, {
+		rotation: '+=90',		// rotation
+		ease: Power1.easeInOut
+	});
+	
+	t.to(rectangle, 2, {
+						// delay for 2/speed (s)
+	});	
+})();
 
 ```
 
-<img src="./api.png">
-
-
 ###Download
-- DSAP
-	- Just Click [**here**](https://github.com/aleen42/PersonalWiki/raw/master/Programming/JavaScript/Framework/GreenSock/greensock-js.zip) to download.(not support plugin)
 - DrawSVGPlugin
-	- Just Click [**here**](https://github.com/aleen42/PersonalWiki/raw/master/Programming/JavaScript/Framework/GreenSock/DrawSVGPlugin.zip) to download.(just for demo)
+	- Just Click [**here**](https://github.com/aleen42/PersonalWiki/raw/master/Programming/JavaScript/Framework/GreenSock/DrawSVGPlugin.rar) to download.
 
 
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
