@@ -246,9 +246,9 @@ var add = function(num){
 add(80);
 ```
 - Leaves [[**Example**](http://aleen42.github.io/example/Greensock/Leaves.html)]
-	- near
-
+	
 ```js
+// near
 var leave = document.getElementById('leave');
 var leave_child = document.getElementById('leave_child');
 var container = document.getElementById('container');
@@ -322,8 +322,9 @@ var add = function(num){
 add(7);
 ```
 
-	- middle
+
 ```js
+// middle
 var leave = document.getElementById('leave');
 var leave_child = document.getElementById('leave_child');
 var container = document.getElementById('container');
@@ -397,9 +398,8 @@ var add = function(num){
 add(14);
 ```
 
-	- far
-
 ```js
+// far
 var remote_leave = document.getElementById('remote_leave');
 var remote_leave_child = document.getElementById('remote_leave_child');
 var container = document.getElementById('container');
