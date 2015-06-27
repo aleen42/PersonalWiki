@@ -268,7 +268,7 @@ var animation = function(leave, leave_child){
 	var time = 10 + Math.random() * 15;
 	var height = 100 + Math.floor(Math.random() * 800);
 	var distance = 1800 + Math.random() * 500;
-	var rota = Math.random() * 700;
+	var rota = 300 + Math.random() * 700;
 	var sc = 2 + Math.random() * 2;
 	
 	t.set(leave, {
@@ -344,7 +344,7 @@ var animation = function(leave, leave_child){
 	var time = 10 + Math.random() * 15;
 	var height = 100 + Math.floor(Math.random() * 800);
 	var distance = 1800 + Math.random() * 500;
-	var rota = Math.random() * 700;
+	var rota = 300 + Math.random() * 700;
 	var sc = 0.3 + Math.random() * 1.5;
 	
 	t.set(leave, {
@@ -419,7 +419,7 @@ var animation = function(remote_leave, remote_leave_child){
 	var time = 10 + Math.random() * 15;
 	var height = 100 - Math.floor(Math.random() * 800);
 	var distance = 1800 + Math.random() * 500;
-	var rota = Math.random() * 700;
+	var rota = 300 + Math.random() * 700;
 	var sc = 1.2 - Math.random();
 	
 	t.set(remote_leave, {
