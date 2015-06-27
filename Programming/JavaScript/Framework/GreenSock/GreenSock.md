@@ -252,7 +252,6 @@ add(80);
 var leave = document.getElementById('leave');
 var leave_child = document.getElementById('leave_child');
 var container = document.getElementById('container');
-leave.innerHTML = "<style>#leave{-webkit-transform-origin:center;-webkit-animation: rotate_Y 2s;-webkit-animation-iteration-count:infinite;}@-webkit-keyframes rotate_Y{from {-webkit-transform: rotateY(0deg);}to {-webkit-transform: rotateY(360deg);}}</style>";
 var le = [leave];
 var lc = [leave_child];
 
@@ -304,7 +303,6 @@ var animation = function(leave, leave_child){
 };
 
 var add = function(num){
-	animation(le[0], lc[0]);
 	for(i = 1; i < num; i++)
 	{
 		le[i] = leave.cloneNode();
