@@ -6,6 +6,15 @@
 - 組件: 處理數據過程
 - 連接件: 數據
 
+> Batch Sequential
+
+> Pipe-Filter
+
+> Procedure Control
+>> Open Loop Control
+
+>> Close Loop Control
+
 ### 1. Batch Sequential(批處理)
 - 批處理指數據整體傳遞
 - 優點: 對數據的整體訪問是可行的
