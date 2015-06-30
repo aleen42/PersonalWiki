@@ -10,6 +10,7 @@ In order to organize all the knowledges I have learnt, I wrote this wiki for me 
  * [**Database**](./Database/Database.md)
  * [**Network**](./Network/Network.md)
  * [**OS**](./OS/OS.md)
+ * [**Software Architect**](./Architecture/Architecture.md)
  * [**Multimedia**](./Multimedia/Multimedia.md)
 
 ### Design
