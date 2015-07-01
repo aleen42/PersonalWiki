@@ -12,6 +12,9 @@
 
 - [Dataflow](./dataflow/dataflow.md)
 - [Call/Return](./callandreturn/callandreturn.md)
+- [Data centric/Shared data](./centric/centric.md)
+- [Virtual Machine](./virtualmachine/virtualmachine.md)
+- [Independent Components](./independent/independent.md)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
