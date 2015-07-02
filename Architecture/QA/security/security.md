@@ -28,13 +28,14 @@
 - Limit exposure: 限制暴露 (關閉端口, 關閉服務, 關閉無線SSID等)
 - Limit access: 限制訪問 (防火牆, MAC地址過濾)
 
-### 2. Support User Initiative
-- Cancel: 系統提供取消操作功能
-- Undo: 系統提供撤銷操作功能
-- Aggregate
+### 2. Detecting Attacks(抵抗攻擊)
+- Intrusion Detection: 入侵抵抗
+	- Intrusion Detection System(IDS): traffic pattern
 
-### 3. Separate User Interface(Design-time)
-- 業務邏輯與介面設計分開 (MVC)
+### 3. Recovering from Attacks(從攻擊中恢復)
+- Restoring state: 修復狀態
+- Attacker identification: 識別攻擊者的身份
+	- audit trail = copy of transaction + identifying information
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
