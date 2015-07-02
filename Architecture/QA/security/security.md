@@ -28,8 +28,8 @@
 - Limit exposure: 限制暴露 (關閉端口, 關閉服務, 關閉無線SSID等)
 - Limit access: 限制訪問 (防火牆, MAC地址過濾)
 
-### 2. Detecting Attacks(抵抗攻擊)
-- Intrusion Detection: 入侵抵抗
+### 2. Detecting Attacks(檢測攻擊)
+- Intrusion Detection: 入侵檢測
 	- Intrusion Detection System(IDS): traffic pattern
 
 ### 3. Recovering from Attacks(從攻擊中恢復)

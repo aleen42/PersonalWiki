@@ -3,7 +3,7 @@
 - 重點討論**六個**質量屬性(U-STAMP)
 	- [**Usability(易用性)**](./usability/usability.md)
 	- [**Security(安全性)**](./security/security.md)
-	- Availability(可用性)
+	- [**Availability(可用性)**](./availability/availability.md)
 	- Modifiability(可修改性)
 	- Performance(性能)
 - 考點:
