@@ -41,7 +41,8 @@
 ##### Reintroduction
 
 - Shadow Operation: 上線前先進行測試
-- Static Resynchronization
+- Static Resynchronization: 狀態重新進行恢復
+- Checkpoint/rollback: 設置檢查點以便回滾到某一狀態
 
 ### 3. Fault Prevention(錯誤防止)
 - Removal from Service: 惹不起躲得起, 避開攻擊
