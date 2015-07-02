@@ -1,4 +1,4 @@
-## Security	[Back](./../Style.md)
+## Security	[Back](./../QA.md)
 - Security(安全性)衡量一個系統抵抗非法使用的能力或該系統是否存在安全問題.
 - Attack(攻擊): 指嘗試違反系統安全的行為.
 - Nonrepudiation(不可否認性): 指一個事務不能被否認的性質
