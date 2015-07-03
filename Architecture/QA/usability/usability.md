@@ -19,7 +19,7 @@
 
 ### 1. Support System Initiative(Runtime)
 - Maintain a model of the user: 系統根據用戶度身定制 (調整滾輪速度)
-- Maintain a model of the system: 系統本身提高使用模型 (通過Loading來消除卡頓帶來的消極影響)
+- Maintain a model of the system: 系統本身提高可用性 (通過Loading來消除卡頓帶來的消極影響)
 - Maintain a model of the task: 系統猜測用戶要完成的任務 (自動設置頭字母大寫)
 
 ### 2. Support User Initiative
