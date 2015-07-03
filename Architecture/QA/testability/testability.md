@@ -17,12 +17,12 @@
 <img src="./testability_tactics.png">
 
 ### 1. Manage Input/Output
-- Record/Playback: 穿過介面的信息被記錄在一些倉庫內, 然後把該組件的輸出作為下一組件的輸入. (半自動化/自動化測試)
-- Separate interfae from implementation: 通過對接口分離, 從而對統一接口測試不同的實現代碼
-- Specialize access routes/interfaces: 提供專門的方法或接口用於測試
+- Record/Playback: 記錄下測試結果/重建測試的過程 (半自動化/自動化測試)
+- Separate interface from implementation: 通過對接口分離, 從而對統一接口測試不同的實現代碼
+- Specialize access routes/interfaces: 提供專門的方法或接口用於測試(如查看數據庫中的表)
 
 ### 2. Internal Monitoring
-- Built-in Monitors: 在IDE中設置斷電
+- Built-in Monitors: 在IDE中設置斷點
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
