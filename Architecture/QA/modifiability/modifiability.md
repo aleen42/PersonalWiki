@@ -20,7 +20,7 @@
 
 <img src="./modifiability_tactics.png">
 
-### 1.  Localize Change
+### 1. Localize Change
 - Semantic Coherence: 維持語義的一致性
 - Anticipate Expected Changes: 預測預期的修改
 - Generalize Module: 通用化模塊
