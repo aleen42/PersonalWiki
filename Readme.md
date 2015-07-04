@@ -4,12 +4,13 @@ In order to organize all the knowledges I have learnt, I wrote this wiki for me 
 
 ## Start Reading
 ### Code
- * [**Programming**](./Programming/Programming%20Menu.md)
+ * [**Programming Language**](./Programming/Programming%20Menu.md)
  * [**Algorithmn**](./Algorithmn/Algorithmn%20Menu.md)
  * [**Thought**](./Thought/Thought%20Menu.md)
  * [**Database**](./Database/Database.md)
  * [**Network**](./Network/Network.md)
  * [**OS**](./OS/OS.md)
+ * [**Embedded_System**](./Embedded_System/Embedded_System.md)
  * [**Software Architect**](./Architecture/Architecture.md)
  * [**Multimedia**](./Multimedia/Multimedia.md)
 
