@@ -5,7 +5,7 @@
 - Cache的訪問速度遠高於內存(Main Memory), 但是Cache的空間比內存要小.
 - 有效的Cache存放策略將減少CPU平均訪問數據的時間
 
-<img src="./cache.png">
+<img src="./Cache.png">
 
 - **命中**: 指CPU要訪問的數據儲存在Cache中
 - 數據的平均訪問時間(只有一個Cache的情況): 
