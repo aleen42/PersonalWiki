@@ -10,7 +10,7 @@
  * [**Network**](./Network/Network.md)
  * [**OS**](./OS/OS.md)
  * [**Embedded System**](./Embedded_System/Embedded_System.md)
- * [**Software Architect**](./Architecture/Architecture.md)
+ * [**Software Architecture**](./Architecture/Architecture.md)
  * [**Multimedia**](./Multimedia/Multimedia.md)
 
 ### Design
