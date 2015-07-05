@@ -1,5 +1,10 @@
 ## Thought Menu	[Back](./../Readme.md)
-* [OOP](./OOP/OOP.md)(Object-oriented Programming)
+
+### Programming
+* [**OOP**](./OOP/OOP.md)(Object-oriented Programming)
+
+### Life
+* [**Recruitment for startup companies**](./recruitment/recruitment.md)
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
