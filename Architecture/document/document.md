@@ -9,9 +9,22 @@
 - **Analyse**: decomposing a whole into parts
 - **Design**: deciding how the parts work together
 
-##Documenting Proccess
+##Architecture-based development proccess
 
 <img src="./Documenting_proccess.png">
+
+##Documenting
+
+- **7** principles:
+	- 1. Write from the point of view of the reader: 根據用戶的角度來寫文檔
+	- 2. Avoid unnecessary repetition: 避免文檔內容的重複
+		- 重複可能帶來二義性
+		- 不易於使用和修改
+	- 3. Avoid ambiguity: 避免文檔的二義性(可用字典**(key, description)**來解決問題)
+	- 4. Use a standard organization: 採用主流模版, 無需部分空著不寫
+	- 5. Record rationale: 提出理論基礎來保持文檔的合理性
+	- 6. Keep documentation current, but not too current: 不要頻繁更新文檔
+	- 7. Review documentation for fitness of purpose: 查看所寫文檔是否合乎初衷
 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
