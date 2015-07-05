@@ -19,7 +19,7 @@
 ### Idols
  * [**Sara Soueidan**](http://sarasoueidan.com/)
  * [**Chris Gannon**](http://blog.gannon.tv/)
- * [**原デザイン**Kenyahara](http://www.ndc.co.jp/hara/en/)
+ * [**原デザイン, 原研哉 **Kenyahara](http://www.ndc.co.jp/hara/en/)
 
 ### Book
  * [**Gates Notes**](http://www.gatesnotes.com/books)
