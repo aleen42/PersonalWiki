@@ -27,10 +27,10 @@
 	- 7. Review documentation for fitness of purpose: 查看所寫文檔是否合乎初衷
 - 從不同視角, 不同顆粒度看系統會看到不同的結構.
 - **4+1 View**: 用於從不同的視角去描述一個軟件系統(結合UML圖)
-	- Logic View: 系統的抽象描述([**Class Diagram**](./class/class.md), [**Object Diagram**](./object/object.md), **State Diagram**, **Interaction Diagram**)
-	- Process View: 系統的業務過程(**Activity Diagram**, **State Diagram**, **Communication Diagram**, [**Sequence Diagram**](./sequence/sequence.md), **Timing Diagram**, **Interaction Overview Diagram**)
-	- Development View: 系統的組織關係([**Package Diagram**](./package/package.md), **Component Diagram**)
-	- Physical View: 系統的部署(**Deployment Diagram**)
+	- Logic View: 系統的抽象描述([**Class Diagram**](./class/class.md), [**Object Diagram**](./object/object.md), [**State Diagram**](./state/state.md), **Interaction Diagram**)
+	- Process View: 系統的業務過程([**Activity Diagram**](./activity/activity.md), [**State Diagram**](./state/state.md), [**Communication Diagram**](./communication/communication.md), [**Sequence Diagram**](./sequence/sequence.md), [**Timing Diagram**](./timing/timing.md)), [**Interaction Overview Diagram**](./interaction/interaction.md))
+	- Development View: 系統的組織關係([**Package Diagram**](./package/package.md), [**Component Diagram**](./component/component.md))
+	- Physical View: 系統的部署([**Deployment Diagram**](./deployment/deployment.md))
 	- **Use-case View**: 系統的功能描述([**Use-case Diagram**](./usecase/usecase.md))
 - Responsibility for different people:
 
