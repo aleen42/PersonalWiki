@@ -1,5 +1,8 @@
 ## About
-- **Einstein** has said that 'Why should I memorize somthing I can easily can   easily get from **BOOK**'. For me, that book is your **NOTE** of your life. In order to organize all the knowledges I have learnt, I wrote this note for me to revise all the knowledges.
+
+<img src="./photo.png">
+
+- **Einstein** has said that 'Why should I memorize somthing I can so easily can   easily get from **BOOK**'. For me, that book is your **NOTE** of your life. In order to organize all the knowledges I have learnt, I wrote this note for me to revise all the knowledges.
 
 ## Start Reading
 ### Code
