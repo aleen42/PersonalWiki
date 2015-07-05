@@ -27,9 +27,9 @@
 	- 7. Review documentation for fitness of purpose: 查看所寫文檔是否合乎初衷
 - 從不同視角, 不同顆粒度看系統會看到不同的結構.
 - **4+1 View**: 用於從不同的視角去描述一個軟件系統(結合UML圖)
-	- Logic View: 系統的抽象描述([**Class Diagram**](./class/class.md), **Object Diagram**, **State Diagram**, **Interaction Diagram**)
-	- Process View: 系統的業務過程(**Activity Diagram**, **State Diagram**, **Communication Diagram**, **Sequence Diagram**, **Timing Diagram**, **Interaction Overview Diagram**)
-	- Development View: 系統的組織關係(**Package Diagram**, **Component Diagram**)
+	- Logic View: 系統的抽象描述([**Class Diagram**](./class/class.md), [**Object Diagram**](./object/object.md), **State Diagram**, **Interaction Diagram**)
+	- Process View: 系統的業務過程(**Activity Diagram**, **State Diagram**, **Communication Diagram**, [**Sequence Diagram**](./sequence/sequence.md), **Timing Diagram**, **Interaction Overview Diagram**)
+	- Development View: 系統的組織關係([**Package Diagram**](./package/package.md), **Component Diagram**)
 	- Physical View: 系統的部署(**Deployment Diagram**)
 	- **Use-case View**: 系統的功能描述([**Use-case Diagram**](./usecase/usecase.md))
 - Responsibility for different people:
