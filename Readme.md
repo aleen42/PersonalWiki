@@ -19,12 +19,11 @@
 ### Idols
  * [**Sara Soueidan**](http://sarasoueidan.com/)
  * [**Chris Gannon**](http://blog.gannon.tv/)
-
+ * [**原デザイン**Kenyahara](http://www.ndc.co.jp/hara/en/)
 
 ### Book
  * [**Gates Notes**](http://www.gatesnotes.com/books)
  * [**Front-End**](./frontend/frontend.md)
- * [**原デザイン**Kenyahara](http://www.ndc.co.jp/hara/en/)
 
 ## Supported
  * Thanks to [July](https://www.github.com/julycoding) for how to build a wiki.
