@@ -24,6 +24,7 @@
 ### Book
  * [**Gates Notes**](http://www.gatesnotes.com/books)
  * [**Front-End**](./frontend/frontend.md)
+ * [**原デザイン**Kenyahara](http://www.ndc.co.jp/hara/en/)
 
 ## Supported
  * Thanks to [July](https://www.github.com/julycoding) for how to build a wiki.
