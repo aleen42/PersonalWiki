@@ -3,7 +3,7 @@
 - 主要方式
 	- [**pipe & fifo**](./pipe_fifo/pipe_fifo.md)
 	- [**message queue**](./queue/queue.md)
-	- shared memory & memory mapped file
+	- [**shared memory & memory mapped file**](./mmap/mmap.md)
 	- semaphore
 	- [**UNIX socket**](./socket/socket.md)
 
