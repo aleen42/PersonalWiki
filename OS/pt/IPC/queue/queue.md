@@ -127,7 +127,7 @@ struct ipc_perm
 		- msg_perm.mode
 		- msg_qbytes
 		- 影響msg_ctime成員
-	- IPC_RMID: 刪除msqid標識的消息隊列		
+	- IPC_RMID: 刪除msqid標識的消息隊列
 
 #####return value
 - 0: success

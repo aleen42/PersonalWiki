@@ -1,4 +1,4 @@
-## Shared Memory & Memory Mapped File(共享內存 & 內存映射文件) [Back](./../IPC.md)
+## Shared Memory & Memory Mapped File [Back](./../IPC.md)
 
 - 共享內存機制: 進程間需要共享的數據被放在**IPC共享內存區域**, 若要訪問則把該共享區域映射到本進程的地址空間中.
 - 內存映射文件機制: 不同進程通過映射同一個普通文件實現共享內存, 進程可讀寫內存.
