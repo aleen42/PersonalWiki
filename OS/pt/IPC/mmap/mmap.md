@@ -16,8 +16,9 @@ int shmget(key_t key, int nbytes, int flags)
 
 #####parameters
 - key: 鍵值, 由```ftok()```獲取
-- flags: 標誌位
 	- IPC_PRIVATE: key由系統分配
+- flags: 標誌位
+	
 
 #####return value
 - >0: 共享段的描述字id

@@ -4,7 +4,7 @@
 	- [**pipe & fifo**](./pipe_fifo/pipe_fifo.md)
 	- [**message queue**](./queue/queue.md)
 	- [**shared memory & memory mapped file**](./mmap/mmap.md)
-	- semaphore
+	- [**semaphore**](./semaphore/semaphore.md)
 	- [**UNIX socket**](./socket/socket.md)
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
