@@ -1,6 +1,6 @@
 ## OS	[Back](./../Readme.md)
 
-* [Thread & Process](./pt/pt.md)
+* [**Thread & Process**](./pt/pt.md)
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====

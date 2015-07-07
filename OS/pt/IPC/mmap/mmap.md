@@ -1,10 +1,79 @@
 ## Shared Memory & Memory Mapped File(共享內存 & 內存映射文件) [Back](./../IPC.md)
+
+- 共享內存機制: 進程間需要共享的數據被放在**IPC共享內存區域**, 若要訪問則把該共享區域映射到本進程的地址空間中.
 - 內存映射文件機制: 不同進程通過映射同一個普通文件實現共享內存, 進程可讀寫內存.
 - 內存映射文件機制是共享內存的方式之一
 - 最高效的IPC機制之一
 
 ## Shared Memory
 
+### 1. Create a shared memory area
+
+#####method
+```c
+int shmget(key_t key, int nbytes, int flags)
+```
+
+#####parameters
+- key: 鍵值, 由```ftok()```獲取
+- flags: 標誌位
+	- IPC_PRIVATE: key由系統分配
+
+#####return value
+- >0: 共享段的描述字id
+- -1: failure
+
+### 2. Map
+
+- 把該共享區域映射到本進程的地址空間中.
+
+#####method
+```c
+char* shmat(int segid, char* addr, int flags)
+```
+
+#####parameters
+- segid: ```shmget()```返回的共享段描述字
+- addr: 映射目的地的地址, 若不關心則設置為0(有系統選擇可用地址)
+
+
+#####return value
+- 共享內存段在進程地址空間的首地址
+
+### 3. Unmap
+
+- 調用成功後內存段訪問計數減一
+
+#####method
+```c
+int shmdt(char* addr)
+```
+
+#####parameters
+- shmat: ```shmat()```返回的首地址
+
+#####return value
+- 0
+
+### 3. Control
+
+#####method
+```c
+int shmct(int segid, int cmd, struct shmid_ds* sbuf)
+```
+
+#####parameters
+- segid: ```shmget()```返回的共享段描述字
+- cmd: 命令
+	- SHM_LOCK: 共享段鎖定在內存, 禁止換出(Root用戶才有權限)
+	- SHM_UNLOCK: 與LOCK相反
+	- IPC_STAT: 獲取消息隊列信息, 返回的信息存儲在sbuf指向的shmid_ds結構體中
+	- IPC_SET: 設置消息隊列屬性, 要設計的屬性存儲在sbuf指向的shmid_ds結構體中
+	- IPC_RMID: 存儲段可釋放
+
+#####return value
+- 0: success
+- -1: failure
 
 ## Memory Mapped File
 
@@ -54,60 +123,6 @@ int msync(void* addr, size_t len, int flags)
 - addr: ```mmap()```最終映射的地址
 - len: 映射區的大小
 - flags: 同步標誌
-
-#####return value
-- 0: success
-- -1: failure
-
-### 4. Control a message queue
-
-#####method
-```c
-int msgctl(int msqid, int cmd, struct msqid_ds* buf)
-
-/* msqid_ds */
-struct msqid_ds
-{
-	struct ipc_perm msg_perm; 
-	struct msg *msg_first; /* first message on queue,unused */
-	struct msg *msg_last; /* last message in queue,unused */
-	__kernel_time_t msg_stime; /* last msgsnd time */ 
-	__kernel_time_t msg_rtime; /* last msgrcv time */ 
-	__kernel_time_t msg_ctime; /* last change time */ 
-	unsigned long msg_lcbytes; /* Reuse junk fields for 32 bit */ 
-	unsigned long msg_lqbytes; /* ditto */ 
-	unsigned short msg_cbytes; /* current number of bytes on queue */
-	unsigned short msg_qnum; /* number of messages in queue */
-	unsigned short msg_qbytes; /* max number of bytes on queue */
-	__kernel_ipc_pid_t msg_lspid; /* pid of last msgsnd */
-	__kernel_ipc_pid_t msg_lrpid; /* last receive pid */
-}
-
-/* ipc_perm */
-struct ipc_perm 
-{ 
-	key_t key; 
-	ushort uid; /* owner euid and egid */ 
-	ushort gid; 
-	ushort cuid; /* creator euid and egid */ 
-	ushort cgid; 
-	ushort mode; /* access */ 
-	ushort seq; /* slot usage sequence number */ 
-};
-
-```
-
-#####parameters
-- msqid: 消息隊列描述字
-- cmd: 命令標誌
-	- IPC_STAT: 獲取消息隊列信息, 返回的信息存儲在buf指向的msqid_ds結構體中
-	- IPC_SET: 設置消息隊列屬性, 要設計的屬性存儲在buf指向的msqid_ds結構體中
-		- msg_perm.uid
-		- msg_perm.gid
-		- msg_perm.mode
-		- msg_qbytes
-		- 影響msg_ctime成員
-	- IPC_RMID: 刪除msqid標識的消息隊列		
 
 #####return value
 - 0: success
