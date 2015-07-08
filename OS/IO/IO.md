@@ -158,7 +158,7 @@
 	```c
 	int sockfd;
 	int on = 1;
-	signal(SIGIO, sigio_handler)
+	signal(SIGIO, sigio_handler);
 	```
 	
 	- 2. 設置socket描述符所有者
