@@ -8,8 +8,8 @@
 
 ### 1. 阻塞式IO
 
-- 結構簡單, 容易同步
-- 阻塞導致CPU資源浪費
+- 優點: 結構簡單, 容易同步
+- 缺點: 阻塞導致CPU資源浪費
 - 通過調用```alarm()```來進行超時控制
 	- 超時到達時產生SIGALARM信號中斷阻塞
 	- 多次調用時則無法區分SIGALARM信號是哪一次超時引發, 從而導致無法實現超時控制
@@ -66,6 +66,9 @@
 
 ### 2. 非阻塞式IO
 
+- 優點: 效率提高, 不會產生阻塞
+- 缺點: 長期佔用CPU
+
 <img src="./disblocking_io.png">
 
 - 設置socket為非阻塞方式
@@ -81,6 +84,41 @@
 	```c
 	int on = 1;
 	ioctl(sockfd, FIONBIO, &on);
+	```
+- return **ERROR**
+	- ```read()```: EWOULDBLOCK
+	- ```write()```: EWOULDBLOCK(無空間), 空間不夠則返回實際拷貝字節
+	- ```connect()```: EINPROGRESS(啟動三次握手後立即返回), 同一主機上鏈接則立即返回成功
+	- ```accept()```: EWOULDBLOCK(沒有鏈接立即返回)
+
+- 檢查操作是否完成
+	- 輪詢
+
+	```c
+	for(;;)
+	{
+		if(read(sockfd, buf, nbytes) < 0)
+		{
+			if(errno == EWOULDBLOCK) continue;
+			else
+			{
+				printf("read error\n");
+				break;
+			}
+		}
+		else
+			break;	//read complete
+	}
+	```	
+
+	- ```select()```
+	
+	```c
+	// set the descriptors set for monitoring
+	//...
+	select(reset, wrset, exset, ...)
+	//read, write ...
+	//...
 	```
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
