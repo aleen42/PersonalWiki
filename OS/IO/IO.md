@@ -66,6 +66,22 @@
 
 ### 2. 非阻塞式IO
 
+<img src="./disblocking_io.png">
+
+- 設置socket為非阻塞方式
+	- ```fcntl()```
+	
+	```c
+	int flags;
+	flag = fcntl(sockfd, F_GETFL, 0);
+	fcntl(sockfd, F_SETFL, flat| O_NONBLOCK);
+	```
+	- ```ioctl```
+	
+	```c
+	int on = 1;
+	ioctl(sockfd, FIONBIO, &on);
+	```
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
