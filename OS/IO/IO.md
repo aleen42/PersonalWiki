@@ -121,6 +121,58 @@
 	//...
 	```
 
+### 3. 多路服用IO
+
+- 只檢查一個socket描述符時和阻塞式IO模型類似, 效率低於阻塞式.
+- 檢查多個socket描述符效率則高於阻塞式IO.
+
+<img src="./select_io.png">
+
+- socket描述符就緒的條件:
+	- 讀就緒條件:
+		- 接收緩衝區中數據量大於等於接受最低限度(默認接受最低限度是1: TCP為1個字節;UDP為1個數據報. 可通過SO_RCVLOWAT修改)
+		- 讀通道被關閉, 收到FIN字段
+		- 偵聽socket的完成鏈接隊列不為空
+		- 非阻塞式socket的connect操作過程出現錯誤
+	- 寫就緒條件:
+		- 發送緩衝區可用空間大於等於發送最低限度(TCP默認發送最低限度是2048字節, UDP沒有實際的發送緩衝區, 因此總是写就绪. 可通過SO_SNDLOWAT修改)
+	- 異常就緒條件(用於帶外數據)
+
+### 4. 信號驅動IO
+
+- 非阻塞等待IO
+- 程序結構簡單, 更適用於UDP協議, 因為TCP在**很多環節**會產生SIGIO信號, 從而產生混淆, 而UDP只在**收到數據報或錯誤**時產生SIGIO信號.
+
+<img src="./signal_driven_io.png">
+
+- 設置步驟:
+	- 1. 設置SIGIO
+	
+	```c
+	void sigio_handler(int signo)
+	{
+		//...
+	}
+	```
+
+	```c
+	int sockfd;
+	int on = 1;
+	signal(SIGIO, sigio_handler)
+	```
+	
+	- 2. 設置socket描述符所有者
+
+	```c
+	fcntl(sockfd, F_SETOWN, getpid());
+	```
+
+	- 3. 允許socket進行信號驅動IO
+
+	```c
+	ioctl(sockfd, FIOASYNC, &on);
+	```
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
