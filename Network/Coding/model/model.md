@@ -10,6 +10,8 @@
 ### 循環服務器
 
 - 每次循環執行一次客戶端請求
+- 當請求未處理完的情況下, 將會阻塞其他客戶端的請求
+- 
 
 ##### TCP
 
@@ -23,12 +25,14 @@
 
 ##### UDP
 
-###### Model 1
+###### Model 1: one datagram of requests
 
 <img src="./parallel_server_udp.png">
 
 - 用於**客戶請求需要較長處理時間**且**客戶發送時間大於服務器處理速度**的情況
 - 避免因接收緩衝區滿而導致數據報丟失
+
+###### Model 2: more than one datagram of requests
 
 
 
