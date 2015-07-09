@@ -4,7 +4,7 @@
 	- UDP(User Datagram Protocol): more effort, connectionless
 
 - 傳輸協議的選擇不僅要依靠其特性來選擇, 而且要根據工程的具體情況來分析.
-
+- Out of band(OOB, 帶外數據)[[**details**](./OOB/OOB.md)]
 
 ### TCP
 <img src="./tcp_header.gif">
