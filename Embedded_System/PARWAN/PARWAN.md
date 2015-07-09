@@ -27,6 +27,17 @@
 
 <a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/Control_Section.png" target="_blank" alt="STATE_MACHINE_OF_CONTROL_SECTION" title="點擊原圖"><img src="./Control_Section.png"></a>
 
+- **9** States
+	- S1<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S1.png" target="_blank" alt="PARWAN_S1" title="點擊原圖"><img src="./S1.png"></a>
+	- S2<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S2.png" target="_blank" alt="PARWAN_S2" title="點擊原圖"><img src="./S2.png"></a>
+	- S3<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S3.png" target="_blank" alt="PARWAN_S3" title="點擊原圖"><img src="./S3.png"></a>
+	- S4<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S4.png" target="_blank" alt="PARWAN_S4" title="點擊原圖"><img src="./S4.png"></a>
+	- S5<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S5.png" target="_blank" alt="PARWAN_S5" title="點擊原圖"><img src="./S5.png"></a>
+	- S6<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S6.png" target="_blank" alt="PARWAN_S6" title="點擊原圖"><img src="./S6.png"></a>
+	- S7<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S7.png" target="_blank" alt="PARWAN_S7" title="點擊原圖"><img src="./S7.png"></a>
+	- S8<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S8.png" target="_blank" alt="PARWAN_S8" title="點擊原圖"><img src="./S8.png"></a>
+	- S9<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S9.png" target="_blank" alt="PARWAN_S9" title="點擊原圖"><img src="./S9.png"></a>
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
