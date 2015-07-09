@@ -15,6 +15,7 @@
 - [Bind](./bind/bind.md)
 - [Listen](./listen/listen.md)
 - [Accept](./accept/accept.md)
+- [Model of Sever](./model/model.md)
 
 ### Client
 - [Connect](./connect/connect.md)
