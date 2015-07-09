@@ -27,14 +27,14 @@
 
 ###### Model 1: one datagram of requests
 
-<img src="./parallel_server_udp.png">
+<img src="./parallel_server_udp_model1.png">
 
 - 用於**客戶請求需要較長處理時間**且**客戶發送時間大於服務器處理速度**的情況
 - 避免因接收緩衝區滿而導致數據報丟失
 
 ###### Model 2: more than one datagram of requests
 
-
+<img src="./parallel_server_udp_model2.png">
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
