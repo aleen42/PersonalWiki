@@ -7,6 +7,30 @@
 		- UDP: 採用**循环服务器**模型
 		- TCP: 採用**併發服務器**模型
 
+### 循環服務器
+
+- 每次循環執行一次客戶端請求
+
+##### TCP
+
+<img src="./loop_server_tcp.png">
+
+##### UDP
+
+<img src="./loop_server_udp.png">
+
+### 併發服務器
+
+##### UDP
+
+###### Model 1
+
+<img src="./parallel_server_udp.png">
+
+- 用於**客戶請求需要較長處理時間**且**客戶發送時間大於服務器處理速度**的情況
+- 避免因接收緩衝區滿而導致數據報丟失
+
+
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
