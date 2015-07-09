@@ -28,14 +28,59 @@
 
 ###### 2.1.1 Model 1: one datagram of requests
 
-<img src="./parallel_server_udp_model1.png">
-
 - 用於**客戶請求需要較長處理時間**且**客戶發送時間大於服務器處理速度**的情況
 - 避免因接收緩衝區滿而導致數據報丟失
+
+<img src="./parallel_server_udp_model1.png">
 
 ###### 2.1.2 Model 2: more than one datagram of requests
 
 <img src="./parallel_server_udp_model2.png">
+
+##### 2.2 TCP
+
+###### 2.2.1 Model 1: one child process for one client
+
+- 一個子進程對應一個客戶端, 而父進程負責監聽並創建子進程
+- 創建子進程開銷較大, 適合處理時間長的客戶請求. 如FTP傳輸
+- 客戶端多, 請求處理時間短時會降低該模型效率. 如HTTP服務器
+
+<img src="./parallel_server_tcp_model1.png">
+
+###### 2.2.2 Model 2: defer create processes
+
+- 讓父進程先處理客戶端請求, 若父進程處理完則繼續處理, 若未處理完則新建子進程來另外處理.
+- 循環服務器與併發服務器混合模型
+- 動態創建進程以減少創建開銷
+	- 建立進程表項的開銷
+	- 創建數據段和堆棧段的開銷
+
+<img src="./parallel_server_tcp_model2.png">
+
+###### 2.2.3 Model 3: precreate processes (fixed number)
+
+- 通過預先創建進程來提高用戶體驗度, 即對於客戶端而言, 請求時減少了新建進程的時間等待.
+- 子進程進行accept, 無連接則睡眠
+- 優點: 響應時間快
+- 缺點: 需要預先估計創建進程的數量, 若多了則浪費系統資源, 少了則導致客戶端等待.
+
+<img src="./parallel_server_tcp_model3.png">
+
+###### 2.2.4 Model 4: precreate processes (fixed number and transmit socket)
+
+- 父進程進行accept, 並把socket傳遞給子進程
+
+<img src="./parallel_server_tcp_model4.png">
+
+###### 2.2.5 Model 5: precreate processes (adapted number)
+
+- 由於固定數量存在估計缺點, 那麼通過設置**軟閾值**來控制進程數便可自適應調節.
+
+<img src="./parallel_server_tcp_model5.png">
+
+###### 2.2.6 Model 6: multiplex
+
+- 通過多路複用IO來完成併發
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
