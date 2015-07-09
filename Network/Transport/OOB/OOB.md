@@ -35,8 +35,10 @@ send(sockfd, "ABC", 3, MSG_OOB);	//'C' is the urgent data
 	- 設置: 帶外數據保存在正常的數據流中
 		- 普通的```read()```可以讀出, 並且不能設置```MSG_OOB```標誌, 否則返回錯誤
 		- 讀之前應判斷下一字節是否含有帶外數據
+		- 新到來的帶外數據不會覆蓋未處理的帶外數據, 但未處理的帶外數據將變成普通數據
 	- 未設置: 帶外數據拷貝到**帶外數據緩衝區**中
 		- 只能調用設置了```MSG_OOB```標誌的```recv()```, ```recvfrom```或```recvmsg()```
+		- 新到來的帶外數據將會覆蓋未處理的帶外數據
 		
 		```c
 		int sockfd;
@@ -48,6 +50,7 @@ send(sockfd, "ABC", 3, MSG_OOB);	//'C' is the urgent data
 - 接受緊急數據段時, 通知應用程序的方法:
 	- 若設置了socket所有者(```fcntl()```), 則發送信號SIGURG給所有者
 	- 若進程調用select等到socket描述符的異常情況, 則返回且對應的socket設置為**異常就緒**
+		- 無論SO_OOBINLINE是否設置: 若進程還沒讀到帶外數據, 異常就緒條件總是滿足
 - 接艘帶外數據可能出現的錯誤:
 	- 設置了MSG_OOB標誌的```recv()```讀取帶外數據時, 對方沒有發送帶外數據. errno = EINVAL
 	- 如果進程收到帶外數據通知, 但帶外數據沒有真正到達. errno = EWOULDBLOCK
@@ -58,8 +61,22 @@ send(sockfd, "ABC", 3, MSG_OOB);	//'C' is the urgent data
 		- socket中有一字段記錄從接受緩衝區開始到帶外數據位置的**偏移量**
 		- 收到帶外數據通知後, 偏移量有效
 		- 正常数据讀取後將修改該偏移量
-	
+	- 當帶外數據標誌有效時, 正常數據讀取將在帶外數據標誌前停止
+		- 如oob mask = 2, read(fd, buf, 5), 則返回值為2
+		- 可通過```ioctl()```檢測讀指針是否到達帶外數據位置
 
+		```c
+		int sock_at_mark(int fd)	//return 1 for arrival, 0 for non-arrival, -1 for failure
+		{
+			int flag;
+			if(ioctl(fd, SIOCATMARK, &flag) < 0)
+				return -1;
+			return flag != 0? 1: 0;
+		}
+		```
+		- 無論SO_OOBINLINE是否設置, ```sock_at_mark()```總能檢測到讀指針是否到達帶外數據
+		- 若SO_OOBINLINE設置: ```sock_at_mark()```返回1時, ```read()```讀取的數據將包含帶外數據
+		- 若SO_OOBINLINE未設置: ```sock_at_mark()```返回1時, ```read()```讀取的數據將跳過帶外數據
 
 
 
