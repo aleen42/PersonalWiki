@@ -8,6 +8,10 @@
 
 <a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/PARWAN_DESIGN.png" target="_blank" alt="PARWAN_DOWN_DESIGN" title="點擊原圖"><img src="./PARWAN_DESIGN.png"></a>
 
+	- ALU(Arithmetic Logic Unit)
+	
+<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/ALU.png" target="_blank" alt="PARWAN_ALU" title="點擊原圖"><img src="./ALU.png"></a>
+
 - **STATE MACHINE** of **Control Section**[[**Orginal View**](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/Control_Section.png)]
 
 <a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/Control_Section.png" target="_blank" alt="STATE_MACHINE_OF_CONTROL_SECTION" title="點擊原圖"><img src="./Control_Section.png"></a>
