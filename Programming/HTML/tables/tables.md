@@ -7,18 +7,8 @@
 - ```<table>```is used to create a table
 - ```<tr>```represents each row
 - ```<td>```represents each element in this row
-	- ```<table>```
-	- ```<tr>```
-	- ```<td>15</td>```
-	- ```<td>20</td>```
-	- ```</tr>```
-	- ```<tr>```
-	- ```<td>25</td>```
-	- ```<td>30</td>```
-	- ```</tr>```
-	- ```</table>```
-
-```html
+	
+	```html
 <table>
 	<tr>
 		<td>15</td>
@@ -30,6 +20,18 @@
 	</tr>
 </table>
 ```
+	<table>
+	<tr>
+		<td>15</td>
+		<td>20</td>
+	</tr>
+	<tr>
+		<td>25</td>
+		<td>30</td>
+	</tr>
+</table>
+
+
 
 ### 2. Headings
 - <th>
