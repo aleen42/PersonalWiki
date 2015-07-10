@@ -242,6 +242,15 @@
 	</tfoot>
 </table>
 
+### 5. Old Attributes
+- those attributes should be replaced by **CSS**.
+- ```width``` is used to indicate how wide the table shoud be.
+- ```cellpadding``` is used to set the padding inside each cell.
+- ```cellspacing``` is used to set the space between each cell.
+- ```border``` is used to set the border of the table
+- ```bgcolor``` is used to set the background color of each specific cell.
+
+
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
