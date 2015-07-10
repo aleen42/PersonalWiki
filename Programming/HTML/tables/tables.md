@@ -18,6 +18,7 @@
 	- ```</tr>```
 	- ```</table>```
 
+```html
 <table>
 	<tr>
 		<td>15</td>
@@ -28,6 +29,10 @@
 		<td>30</td>
 	</tr>
 </table>
+```
+
+### 2. Headings
+- <th>
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
