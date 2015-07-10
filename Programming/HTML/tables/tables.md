@@ -86,6 +86,8 @@
 
 ##### Panning Columns(合併列)
 
+- Attribute **colspan** is set to merge.
+
 ```html
 <table>
 	<tr>
@@ -131,6 +133,8 @@
 
 ##### Spanning Rows(合併行)
 
+- Attribute **rowspan** is set to merge.
+
 ```html
 <table>
 	<tr>
@@ -170,6 +174,72 @@
 		<td>Sport</td>
 		<td>Current Affairs</td>
 	</tr>
+</table>
+
+### 4. Long table
+
+- ```<thead>``` is used to be put inside all the headings of a long table. 
+- ```<tbody>``` is the body of the table.
+- ```<tfoot>``` is the foot of the table
+
+```html
+<table>
+	<thead>
+		<tr>
+			<th>Date</th>
+			<th>Income</th>
+			<th>Expenditure</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>1st January</th>
+			<td>250</td>
+			<td>36</td>
+		</tr>
+		<tr>
+			<th>2nd January</th>
+			<td>285</td>
+			<td>48</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td></td>
+			<td>535</td>
+			<td>84</td>
+		</tr>
+	</tfoot>
+</table>
+```
+
+<table>
+	<thead>
+		<tr>
+			<th>Date</th>
+			<th>Income</th>
+			<th>Expenditure</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>1st January</th>
+			<td>250</td>
+			<td>36</td>
+		</tr>
+		<tr>
+			<th>2nd January</th>
+			<td>285</td>
+			<td>48</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td></td>
+			<td>535</td>
+			<td>84</td>
+		</tr>
+	</tfoot>
 </table>
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
