@@ -25,8 +25,14 @@
 - ```<address>``` is used to contain **contact details** for the author of the page.
 - ```<ins>``` is used for <ins>underline</ins>, ```<del>``` is used for ~~delete~~.
 - ```<s>``` indicates something that is no longer accurate or relevant(but that should note be deleted).
-	- ```<p><s>was $995</s></p>```
-	- ```<p>now only $375</p>```
+
+```html
+<p><s>was $995</s></p>
+<p>now only $375</p>
+```
+
+<p><s>was $995</s></p>
+<p>now only $375</p>
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====

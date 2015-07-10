@@ -1,7 +1,7 @@
 ## Links [Back](./../HTML.md)
 
 - links are the defining feature of the web because they allow you to move from one web page to another.
-- ```<a>`` is used to create a link
+- ```<a>``` is used to create a link
 	- ```<a href="http:a//aleen42.github.io">ALEEN</a>```
 - **URL**
 	- **relative URL** is used for linking withing own website. It's effective.
