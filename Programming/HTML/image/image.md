@@ -28,7 +28,8 @@
 	- 3. use the correct **resolution(分辨率)**.
 - ```<figure>``` is used to containn images and their caption(題目). (supported by HTML5)
 - ```<figcaption>``` is used to contain the caption. (supported by HTML5)
-	- ```html
+
+```html
 <figure>
 	<img src="images/home.jpg" alt="a home" title="a home"/>
 	<br />
