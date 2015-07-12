@@ -4,8 +4,8 @@
 - Types:
 	- Adding Text: 
 		- <a href="#text_input">Text input(single-line)</a>
-		- Password input
-		- Text area(multi-line)
+		- <a href="#password">Password input</a>
+		- <a href="#text_area">Text area(multi-line)</a>
 	- Making Choices:
 		- Radio buttons
 		- Checkboxes
@@ -39,20 +39,51 @@ method="get">
 
 <h3 id="text_input"> 2. Text Input</h3>
 
+- ```<input>``` is used to create input box.
+- attribute ```type``` will create a single-line text input when is **text**.
+- attribute ```name``` is used to distinguish different input for the server.
+- attribute ```size``` (should not be used in new form)
+- attribute ``maxlength``` is used to limit input.
+
 ```html
 <form action="http://www.example.com/login.php">
 	<p>Username:
-	<input type="text" name="username" size="15" maxlength="30" />
+		<input type="text" name="username" size="15" maxlength="30" />
 	</p>
 </form>
 ```
 
+<img src="./text_input.png">
+
+<h3 id="password"> 2. Password</h3>
+
+- It cannot be used to send sensitive data such as credit card numbers.
+- attribute **type** is set as the value of 'password' resulting in that characters are blocked out and hidden.
+
+```html
 <form action="http://www.example.com/login.php">
-	<p>Username:
-	<input type="text" name="username" size="15" maxlength="30" />
-	<img src="./text_input.png">
+	<p>Password:
+		<input type="password" name="password" size="15" maxlength="30" />
 	</p>
 </form>
+```
+
+<img src="./password.png">
+
+<h3 id="text_area"> 3. Text Area</h3>
+
+- ```<textarea>``` is used to create a multi-line text input.
+- attribute ```cols``` and ```rows``` are used to indicate how big the text area should be.
+- we can use JavaScript to clear when information has been sent to the server.
+
+```html
+<form action="http://www.example.com/comments.php">
+	<p>What did you think of this gig?</p>
+	<textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+</form>
+```
+
+<img src="./text_area.png">
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
