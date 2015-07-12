@@ -50,6 +50,7 @@ method="get">
 <form action="http://www.example.com/login.php">
 	<p>Username:
 	<input type="text" name="username" size="15" maxlength="30" />
+	<img src="./text_input.png">
 	</p>
 </form>
 
