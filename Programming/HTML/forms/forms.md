@@ -7,14 +7,14 @@
 		- <a href="#password">Password input</a>
 		- <a href="#text_area">Text area(multi-line)</a>
 	- Making Choices:
-		- Radio buttons
-		- Checkboxes
-		- Drop-down boxes
+		- <a href="#radio_button">Radio buttons</a>
+		- <a href="#checkbox">Checkboxes</a>
+		- <a href="#drop_down_list_box">Drop-down boxes</a>
 	- Submitting Forms:
-		- Submit buttons
-		- Image buttons
+		- <a href="#submit_button">Submit buttons</a>
+		- <a href="#image_button">Image buttons</a>
 	- Uploading Files:
-		- File upload
+		- <a href="#file_input_box">File upload</a>
 
 - Process:
 	- 1. A user **fills** in a form and then presses a button to **submit** the information to the server.
@@ -84,6 +84,124 @@ method="get">
 ```
 
 <img src="./text_area.png">
+
+<h3 id="radio_button"> 5. Radio Buttons</h3>
+
+- attribute **type** is set as the value of 'radio' resulting in that user can just pick **only one of a number of options**.
+- attribute **value** indicates the value that is sent to the server for the selected option.
+- attribute **checked** indicates which option will be selected when the page loads.
+
+```html
+<form action="http://www.example.com/profile.php">
+	<p>Please select your favorite genre:
+	<br />
+	<input type="radio" name="genre" value="rock" /> Rock
+	<input type="radio" name="genre" value="pop" /> Pop
+	<input type="radio" name="genre" value="jazz" checked="checked" /> Jazz
+	</p>
+</form>
+```
+
+<img src="./radio_button.png">
+
+<h3 id="checkbox"> 6. Checkbox</h3>
+
+- attribute **type** is set as the value of 'radio' resulting in that user can pick **one or more than one options**.
+
+```html
+<form action="http://www.example.com/profile.php">
+	<p>Please select your favorite music service(s):
+	<br />
+	<input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+	<input type="checkbox" name="service" value="lastfm" checked="checked"/> Last.fm
+	<input type="checkbox" name="service" value="spotify" /> Spotify
+	</p>
+</form>
+```
+
+<img src="./checkbox.png">
+
+<h3 id="drop_down_list_box"> 7. Drop Down List Box</h3>
+
+- allows users to select one option from a drop down list.
+- ```<select>``` is used to create a drop down list box.
+- ```<option>``` is used to specify what options can be selected.
+- attribute **selected** indicates which option is selected when the page loads.
+- attribute **size** indicates how many options are shown at once.
+
+```html
+<form action="http://www.example.com/profile.php">
+	<p>What device do you listen to music on?</p>
+	<select name="devices">
+		<option value="ipod">iPod</option>
+		<option value="radio">Radio</option>
+		<option value="computer">Computer</option>
+	</select>
+</form>
+```
+
+<img src="./single_drop_down_list_box.png">
+
+- attribute **multiple** indicates that users can select one or more than one options.
+
+```html
+<form action="http://www.example.com/profile.php">
+	<p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+	<select name="instruments" size="3" multiple="multiple">
+		<option value="guitar" selected="selected">Guitar</option>
+		<option value="drums">Drums</option>
+		<option value="keyboard" selected="selected">Keyboard</option>
+		<option value="bass">Bass</option>
+	</select>
+</form>
+```
+
+<img src="./multiple_drop_down_list_box.png">
+
+<h3 id="file_input_box"> 8. File Upload</h3>
+
+- attribute **type** is set as the value of 'file' resulting in that user can upload a file by a **browse** button.
+
+```html
+<form action="http://www.example.com/upload.php"
+method="post">
+	<p>Upload your song in MP3 format:</p>
+	<input type="file" name="user-song" />
+	<br />
+	<input type="submit" value="Upload" />
+</form>
+```
+
+<img src="./upload_file.png">
+
+<h3 id="submit_button"> 9. Submit Button</h3>
+
+- attribute **type** is set as the value of 'submit' resulting in sending a form to the server.
+
+```html
+<form action="http://www.example.com/subscribe.php">
+	<p>Subscribe to our email list:</p>
+	<input type="text" name="email" />
+	<input type="submit" name="subscribe" value="Subscribe" />
+</form>
+```
+
+<img src="./submit_button.png">
+
+<h3 id="image_button"> 10. Image Button</h3>
+
+- attribute **type** is set as the value of 'image' resulting in that a button can be designed by an image.
+
+```html
+<form action="http://www.example.org/subscribe.php">
+	<p>Subscribe to our email list:</p>
+	<input type="text" name="email" />
+	<input type="image" src="./subscribe.png
+" width="100" height="20" />
+</form>
+```
+
+<img src="./image_button.png">
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
