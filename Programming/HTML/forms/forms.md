@@ -3,18 +3,18 @@
 - **Forms** has referred to a printed document that contains spaces for you to fill in information.
 - Types:
 	- Adding Text: 
-		- <a href="#text_input">Text input(single-line)</a>: <img src="./text(single-line).png">
-		- Password input: <img src="./password.png">
-		- Text area(multi-line): <img src="./text(multi-line).png">
+		- <a href="#text_input">Text input(single-line)</a>
+		- Password input
+		- Text area(multi-line)
 	- Making Choices:
-		- Radio buttons: <img src="./radio_buttons.png">
-		- Checkboxes: <img src="./checkboxes.png">
-		- Drop-down boxes: <img src="./drop_down_boxes.png">
+		- Radio buttons
+		- Checkboxes
+		- Drop-down boxes
 	- Submitting Forms:
-		- Submit buttons: <img src="./submit_buttons.png">
-		- Image buttons: <img src="./image_buttons.png">
+		- Submit buttons
+		- Image buttons
 	- Uploading Files:
-		- File upload: <img src="./file_upload.png">
+		- File upload
 
 - Process:
 	- 1. A user **fills** in a form and then presses a button to **submit** the information to the server.
@@ -38,6 +38,20 @@ method="get">
 ```
 
 <h3 id="text_input"> 2. Text Input</h3>
+
+```html
+<form action="http://www.example.com/login.php">
+	<p>Username:
+	<input type="text" name="username" size="15" maxlength="30" />
+	</p>
+</form>
+```
+
+<form action="http://www.example.com/login.php">
+	<p>Username:
+	<input type="text" name="username" size="15" maxlength="30" />
+	</p>
+</form>
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
