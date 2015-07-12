@@ -55,7 +55,7 @@ method="get">
 
 <img src="./text_input.png">
 
-<h3 id="password"> 2. Password</h3>
+<h3 id="password"> 3. Password</h3>
 
 - It cannot be used to send sensitive data such as credit card numbers.
 - attribute **type** is set as the value of 'password' resulting in that characters are blocked out and hidden.
@@ -70,7 +70,7 @@ method="get">
 
 <img src="./password.png">
 
-<h3 id="text_area"> 3. Text Area</h3>
+<h3 id="text_area"> 4. Text Area</h3>
 
 - ```<textarea>``` is used to create a multi-line text input.
 - attribute ```cols``` and ```rows``` are used to indicate how big the text area should be.
