@@ -127,7 +127,7 @@
 		<tr>
 			<td>&#60</td>
 			<td>Less-than sign</td>
-			<td><&>lt, ```&#60```</td>
+			<td><&lt>, ```&#60```</td>
 		</tr>
 	<tbody>
 </table>
