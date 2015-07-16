@@ -1,6 +1,7 @@
 ## Forms [Back](./../HTML.md)
 
 - **Forms** has referred to a printed document that contains spaces for you to fill in information.
+- Information from a form is sent in name/value pairs.
 - Types:
 	- Adding Text: 
 		- <a href="#text_input">Text input(single-line)</a>
@@ -271,6 +272,86 @@ method="post">
 </fieldset>
 ```
 <img src="./group_form_control.png">
+
+### 4. HTML5 properties
+
+##### 1. Form Validation
+
+- attributes **required** is set as 'required' to restrict that users should fill out this form control in **HTML5**. (**Form Validation(有效性)**)
+- generally Form Validation has been performed using JavaScript, but HTML5 has left this work to the browser.
+- Form Validation has ensured that the information users enter can be understood by the server.
+
+```html
+<form action="http://www.example.com/login/" method="post">
+	<label for="username">Username:</label>
+	<input type="text" name="username" required="required" />
+	<br />
+	<label for="password">Password:</label>
+	<input type="password" name="password" required="required" />
+	<input type="submit" value="Submit" />
+</form>
+```
+
+<img src="./form_validation.png">
+
+##### 2. Date
+
+- attribute **type** is set as the value of 'date', so that users can select a date with the special form in **HTML5**.
+
+```html
+<form action="http://www.example.com/bookings/" method="post">
+	<label for="username">Departure date:</label>
+	<input type="date" name="depart" />
+	<input type="submit" value="Submit" />
+</form>
+```
+
+<img src="./date_input.png">
+
+##### 3. Email
+
+- attribute **type** is set as the value of 'email', so that users can input an email address with the special form in **HTML5**.
+
+```html
+<form action="http://www.example.org/subscribe.php">
+	<p>Please enter your email address:</p>
+	<input type="email" name="email" />
+	<input type="submit" value="Submit" />
+</form>
+```
+
+<img src="./email_input.png">
+
+##### 4. URL
+
+- attribute **type** is set as the value of 'url', so that users can input a url address with the special form in **HTML5**.
+
+```html
+<form action="http://www.example.org/profile.php">
+	<p>Please enter your website address:</p>
+	<input type="url" name="website" />
+	<input type="submit" value="Submit" />
+</form>
+```
+
+<img src="./url_input.png">
+
+##### 5. Search
+
+- attribute **type** is set as the value of 'search', so that users can input search content with the special form in **HTML5**.
+- attribute **placeholder** is set as default to describe what users should enter.
+
+```html
+<form action="http://www.example.org/search.php">
+	<p>Search:</p>
+	<input type="search" name="search" placeholder="search..."/>
+	<input type="submit" value="Search" />
+</form>
+```
+
+<img src="./placeholder.png">
+
+<img src="./search_input.png">
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
