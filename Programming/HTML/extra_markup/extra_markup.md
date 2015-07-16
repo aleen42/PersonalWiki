@@ -127,7 +127,87 @@
 		<tr>
 			<td>&#60</td>
 			<td>Less-than sign</td>
-			<td><&lt>, ```&#60```</td>
+			<td><&>lt, <&>#60</td>
+		</tr>
+		<tr>
+			<td>&#62</td>
+			<td>Greater-than sign</td>
+			<td><&>gt, <&>#62</td>
+		</tr>
+		<tr>
+			<td>&#38</td>
+			<td>Ampersand</td>
+			<td><&>amp, <&>#38</td>
+		</tr>
+		<tr>
+			<td>&#34</td>
+			<td>Quotation mark</td>
+			<td><&>quot, <&>#34</td>
+		</tr>
+		<tr>
+			<td>&#162</td>
+			<td>Cent sign</td>
+			<td><&>cent, <&>#162</td>
+		</tr>
+		<tr>
+			<td>&#163</td>
+			<td>Pound sign</td>
+			<td><&>pound, <&>#163</td>
+		</tr>
+		<tr>
+			<td>&#165</td>
+			<td>Yen sign</td>
+			<td><&>yen, <&>#165</td>
+		</tr>
+		<tr>
+			<td>&#8364</td>
+			<td>Euro sign</td>
+			<td><&>euro, <&>#8364</td>
+		</tr>
+		<tr>
+			<td>&#169</td>
+			<td>Copyright symbol</td>
+			<td><&>copy, <&>#169</td>
+		</tr>
+		<tr>
+			<td>&#174</td>
+			<td>Registered trademark</td>
+			<td><&>reg, <&>#174</td>
+		</tr>
+		<tr>
+			<td>&#8482</td>
+			<td>Trademark</td>
+			<td><&>trade, <&>#8482</td>
+		</tr>
+		<tr>
+			<td>&#8216</td>
+			<td>Left single quote</td>
+			<td><&>lsquo, <&>#8216</td>
+		</tr>
+		<tr>
+			<td>&#8217</td>
+			<td>Right single quote</td>
+			<td><&>rsquo, <&>#8217</td>
+		</tr>
+		<tr>
+			<td>&#8220</td>
+			<td>Left double quotes</td>
+			<td><&>ldquo, <&>#8220</td>
+		</tr>
+		<tr>
+			<td>&#8221</td>
+			<td>Right double quotes</td>
+			<td><&>rdquo, <&>#8221</td>
+		</tr>
+		<tr>
+			<td>&#215</td>
+			<td>Multiplication sign</td>
+			<td><&>times, <&>#215</td>
+		</tr>
+		<tr>
+			<td>&#247</td>
+			<td>Division sign</td>
+			<td><&>divide, <&>#247</td>
 		</tr>
 	<tbody>
 </table>
