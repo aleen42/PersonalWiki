@@ -203,6 +203,75 @@ method="post">
 
 <img src="./image_button.png">
 
+## Different Form Controls
+
+### 1. Button & Hidden Controls
+
+- ```<button>``` allows other elements to appear inside the button.
+- attribute **type** is set as the value of 'hidden', so that developers can collect information while users cannot see the control.
+
+```html
+<form action="http://www.example.com/add.php">
+	<button><img src="images/add.gif" alt="add" width="10" height="10" /> Add</button>
+	<input type="hidden" name="bookmark" value="lyrics" />
+</form>
+```
+
+### 2. Labelling Form Controls
+
+- ```<label>``` can be used in two ways
+	- Wrap around(迴繞) both the **text description** and the **form input**.
+
+	```html
+<label>Age: <input type="text" name="age" /></label>
+```
+
+	- attributes ```for``` is used to sperate label from the form control, and indicate which form control the label is for.
+
+	```html
+<input id="female" type="radio" name="gender" value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender" value="m">
+<label for="male">Male</label>
+```
+
+- when ```<label>``` is used with a checkbox or radio buttion, users can click on either the **form control** or the **label** to select. 
+- best places to place labels on form controls:
+	- **ABOVE** OR **THE LEFT**
+		- Text inputs
+		- Text areas
+		- Select boxes
+		- File uploads
+	- **RIGHT**
+		- Individual checkboxes
+		- Individual radio butions
+
+<img src="./label_form_contro.png">
+
+### 3. Grouping Form Elements
+
+- ```<fieldset>``` can be used to **group** related form controls together, and most browsers will show it with a **line** around, whose appearence can be adjsted using **CSS**.
+
+- ```<legend>``` is used to describe the group
+
+```html
+<fieldset>
+	<legend>Contact details</legend>
+	<label>Email:<br />
+		<input type="text" name="email" />
+	</label>
+	<br />
+	<label>Mobile:<br />
+		<input type="text" name="mobile" />
+	</label>
+	<br />
+	<label>Telephone:<br />
+		<input type="text" name="telephone" />
+	</label>
+</fieldset>
+```
+<img src="./group_form_control.png">
+
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
