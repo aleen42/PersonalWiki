@@ -36,6 +36,12 @@
 	- EMIF(External Memory Interface, 外部存儲接口): 用於實現DSP與不同存儲器間的鏈接
 	- UART(Universal Asynchronous Receiver/Transmitter, 通用異步接受/發送器): 用於串行通信與並行通信間數據傳輸
 	- SPI(Serial Peripheral Interface, 串行外設接口): 是一種高速的, 全雙工的, 同步的通信總線
+- 板子调试步骤：
+	- 編譯: 生成目標文件(.o)
+	- 鏈接: 生成可執行文件(.elf)
+	- 調試: 通過JTAG接口來進行調試
+		- 測試芯片的電氣特性: 芯片是否可用
+		- Debug: 測試可執行文件是否可用
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====

@@ -4,6 +4,7 @@
 - Cache的出現是為了解決內存速度落後於CPU計算速度, 從而導致CPU資源浪費的問題.
 - Cache的訪問速度遠高於內存(Main Memory), 但是Cache的空間比內存要小.
 - 有效的Cache存放策略將減少CPU平均訪問數據的時間
+- Freeze模式(凍結): 指的是Cache數據凍結, 而不被訪問. CPU直接繞過它訪問下一級存儲器或DDR(Cache自動凍結時鐘)
 
 <img src="./Cache.png">
 
