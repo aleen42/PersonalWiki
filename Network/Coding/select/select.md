@@ -5,6 +5,7 @@
 	- WDM (波分複用): 按照頻率來區分各路信號
 	- TDM (時分複用): 按照時間片來區分各路信號
 - **select()** is to check several socket descriptors, and return when one is ready for multiplexing
+- 可用於監聽多個進程(多個文件描述符)
 
 ### 1. select()
 ##### method
