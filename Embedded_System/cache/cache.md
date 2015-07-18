@@ -73,6 +73,29 @@
 - 保持Cache一致性的兩種協議:
 	- 監聽總線協議
 	- 基於目錄協議
+- C64X+平臺:
+	- case1: 代碼在L1P 
+	- case2: 代碼在L2 (需軟件維護)
+	- case3: 代碼在DDR (需軟件維護)
+	- case4: 數據在L1D
+	- case5: 數據在L2
+	- case6: 數據在DDR (需軟件維護)
+
+### 1. 讀一致性問題
+
+<img src="./read_consistent.png">
+
+- 1. 外部master更新內存數據
+- 2. 數據更新到Cache中
+- 3. Core讀到更新的數據
+
+### 2. 寫一致性問題
+
+<img src="./write_consistent.png">
+
+- 1. CPU更新數據
+- 2. Cache寫回內存
+- 3. 外部master讀到更新的數據
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
