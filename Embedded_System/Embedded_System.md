@@ -6,6 +6,7 @@
 - [**Assembly Language**](./assembly/assembly.md)
 - [**DSP**](./dsp/dsp.md)
 - [**Autogen**](./autogen/autogen.md)
+- [**Store Resource**](./store/store.md)
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====

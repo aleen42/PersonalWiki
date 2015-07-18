@@ -1,5 +1,8 @@
 ##Concepts List		[Back](./../Embedded_System.md)
 
+- 處理器選型依賴因素:
+	- 系統核心功能模塊需求
+	- 系統外部需求
 - ARM三大系列的特點:
 	- Cortex-A: 高性能應用處理
 		- High-Performance Applications Processing for **Mobile** and **Enterprise Markets**.
@@ -31,7 +34,9 @@
 	- PLL(Phase Locked Loop, 鎖相環): 指電路中鎖定相位的環路
 	- EDMA(Enhanced Direct Memory Access, 增強型直接內存訪問): 用於DSP中的快速數據交換, 獨立於CPU的後臺數據傳輸處理
 - Bus(總線)
-	- I^2C(Inter-Intergrated Circuit, 內部集成電路): 兩線型串行總線
+	- I^2C(Inter-Intergrated Circuit, 內部集成電路): 雙向兩線型串行總線
+		- SDA: 串行數據線
+		- SCL: 串行時鐘線
 	- GPIO(General Purpose Input/Output, 通用目的輸入/輸出): 總線擴展器
 	- EMIF(External Memory Interface, 外部存儲接口): 用於實現DSP與不同存儲器間的鏈接
 	- UART(Universal Asynchronous Receiver/Transmitter, 通用異步接受/發送器): 用於串行通信與並行通信間數據傳輸

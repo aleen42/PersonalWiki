@@ -1,5 +1,38 @@
 ##Autogen	[Back](./../Embedded_System.md)
 
+- Autogen
+	- **.def** Files: 定義存儲性參數文件
+	- **.tpl** Files: 模板文件
+
+```def
+para_manage = {
+	var_type = load_complete;
+	sendto_dest = "\" (1 << UNIX_DATA_RECV | (1 << UNIX_THREEG_SEND | 1 << UNIX_PPPOE)) \"";
+	sendto_block = "0";
+	cmd_descript = "process para manage send load parameter complete cmd to other process.";
+};
+
+category = {
+	cat_name = para_manage;
+	cat_descript = "para manager process";
+};
+category = {
+	cat_name = data_recv;
+	cat_descript = "data recv process";
+};
+category = {
+	cat_name = threeg_send;
+	cat_descript = "threeg send process";
+};
+category = {
+	cat_name = para_recv;
+	cat_descript = "para recv process";
+category = {
+	cat_name = pppoe;
+	cat_descript = "pppoe process";
+};
+```
+
 - AutoFSM(Automated Finite State Machine, 自動有限狀態機)
 	- Input: **.fsm** Files
 	- Output: **.h**, **.c** Files
