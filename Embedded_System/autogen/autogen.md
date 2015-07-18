@@ -7,7 +7,7 @@
 - Event: for every valid event that can cause a state transition, you must specify an event name.
 - Prefix: external value prefix. This will keep the generated external values disambiguated(不會混淆的). If you do not specify this, it will default to the base name of the definitions file. 
 - Cookie: each of these must contain C-type plus a name suitable for use in an ANSI procedure definition. It is used to pass whatever arguments you need to the transition handling code.
-- <evt-name>: for any event types that you would like to display in an alternate format, specify the display form with a definition of this type.
+- \<evt-name\>: for any event types that you would like to display in an alternate format, specify the display form with a definition of this type.
 - Transition: transition entries specify which transitions are valid, based on the original state and the transition event. It may specify an advisory destination state, but if it does not, then the transition defaults to an unchanged result state. Conflicting transition specifications will silently override each other. This makes specifying all state or all event type transitions useful. 
 	- Every transition must specify one or more initial state attributes (tst) and one or more transition events (tev). 
 	- tst: Transition initial state(轉移初始狀態). You may specify a list of states, as in \`tst = first, second, another;', or you may specify all states with an asterisk, as in: \`tst = "*";'
