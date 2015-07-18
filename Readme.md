@@ -5,7 +5,7 @@
 - **Einstein** has said that "Why should I memorize somthing I can so easily get from **BOOK**". For me, that book is your **NOTE** of your life. In order to organize all the knowledges I have learnt, I wrote this note for me to revise all the knowledges.
 
 ## Start Reading
-### Code
+### Coder
  * [**Programming Language**](./Programming/Programming%20Menu.md)
  * [**Algorithmn**](./Algorithmn/Algorithmn%20Menu.md)
  * [**Thought**](./Thought/Thought%20Menu.md)
@@ -16,7 +16,7 @@
  * [**Software Architecture**](./Architecture/Architecture.md)
  * [**Multimedia**](./Multimedia/Multimedia.md)
 
-### Design
+### Designer
  * [**Creativity**](./Creativity/Creativity.md)
 
 ### Idols
