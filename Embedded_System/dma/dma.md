@@ -19,13 +19,8 @@
 <img src="./EDMA3_transfer.png">
 
 - EDMA3數據傳輸方式
-	- A-Synchronized Transfers: 每個事件包只傳遞一個Array的傳輸信息(需要BCNT * CCNT個事件包)
-
-<img src="./A_synchronized.png">
-
-	- AB-Synchronized Transfers: 每個事件包傳遞一個Frame(BCNT Arrays)的傳輸信息(需要CCNT個事件包)
-
-<img src="./AB_synchronized.png">
+	- A-Synchronized Transfers: 每個事件包只傳遞一個Array的傳輸信息(需要BCNT * CCNT個事件包) <img src="./A_synchronized.png">
+	- AB-Synchronized Transfers: 每個事件包傳遞一個Frame(BCNT Arrays)的傳輸信息(需要CCNT個事件包) <img src="./AB_synchronized.png">
 
 - 參數配置:
 	- ACNT: Count for 1st Dimension
