@@ -13,7 +13,11 @@
 	- fork twice so that child process will be controled by init process.
 
 #####method
+
+```c
 pid_t waitpid(pid_t pid, int* status, int option)
+```
+
 #####parameters
 - pid: 進程id
 	- \>0: 只等待進程號為pid的子進程退出
