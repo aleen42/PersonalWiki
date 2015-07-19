@@ -9,7 +9,7 @@
 ##### method
 
 ```c
-int accept(int sockfd, struct sockaddr* clientaddr, int addrlen)
+int accept(int sockfd, struct sockaddr* clientaddr, int* addrlen)
 ```
 
 ##### parameters

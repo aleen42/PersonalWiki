@@ -24,7 +24,7 @@ struct timval
 ```
 
 ##### parameters
-- maxfd: 需要測試的描述符其數量的最大值, 實際是測試[0, maxfd-1]
+- maxfd: 需要測試的描述符集合中的最大值 + 1, 實際是測試[0, maxfd-1]
 - rdset: 需要測試是否可讀的描述符集合(包括處於listen狀態的socket接收到鏈接請求)
 - wrset: 需要測試是否可寫的描述符集合(包括以非阻塞方式調用connect是否成功)
 - exset: 需要測試是否異常的描述符集合(包括接受帶外數據的socket有带外数据到達)

@@ -77,7 +77,7 @@
 	```c
 	int flags;
 	flag = fcntl(sockfd, F_GETFL, 0);
-	fcntl(sockfd, F_SETFL, flat| O_NONBLOCK);
+	fcntl(sockfd, F_SETFL, flag| O_NONBLOCK);
 	```
 	- ```ioctl```
 	
