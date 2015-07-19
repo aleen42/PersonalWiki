@@ -14,7 +14,7 @@
 	- SIGQUIT: 退出信號(Ctrl+Backspace)
 	- SIGURG: 緊急信號(帶外數據到達)
 
-### 1. Send a signal to other processes
+### 1. Send a signal to itself
 #####method
 ```c
 /* send sig */
@@ -26,7 +26,7 @@ void abort()
 ```
 
 
-### 2. Send a signal to itself
+### 2. Send a signal to other processes
 #####method
 ```c
 int kill(pid_t pid, int sig)
