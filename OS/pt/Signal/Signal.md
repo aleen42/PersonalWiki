@@ -96,6 +96,7 @@ typedef void(*sighandler_t)(int) sighandler_t;
 - Signal Omit(信號忽略): 信號被進程忽略並丟棄
 
 ### 7. Change current mask set
+
 #####method
 ```c
 int sigprocmask(int how, sigset_t* set, sigset_t* oldset)
@@ -110,7 +111,9 @@ int sigprocmask(int how, sigset_t* set, sigset_t* oldset)
 - oldset: 存儲舊的信號集
 
 ### 8. Check current mask set
+
 - ```sigsuspend()```可用於實現進程同步
+
 #####method
 ```c
 int sigpending(sigset_t* set)
