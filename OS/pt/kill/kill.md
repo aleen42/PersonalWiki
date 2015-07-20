@@ -7,7 +7,7 @@
 - **Zombie(僵屍) Process** will be created when SIGCHLD is not handled by its parent
 	- Zombies will occupy a **Process Table Entry(進程表項)** in the system
 - ways to kill Zomebie Process
-	- ignore SIGCHLD using **SIG_IGN**, and system will clear their Process Table Entries.
+	- ignore SIGCHLD using **SIGIGN**, and system will clear their Process Table Entries.
 	- use ```wait()``` or ```waitpid()``` to wait for killing child processes.
 	- use ```waitpid()``` to handler more than one killing child process by setting **WNOHANG**, prevented to be blocked, rather than ```wait()```.
 	- fork twice so that child process will be controled by init process.
