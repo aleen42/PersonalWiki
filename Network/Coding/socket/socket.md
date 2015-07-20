@@ -95,7 +95,7 @@ int fcntl(int fd, int cmd, ...)
 		- SO_REUSEADDR: 
 			- 重用處於TIME_WAIT狀態, 具有相同本地地址和端口的socket; 
 			- 允許同一個端口啟動同一個服務器多個實例(多個進程), 但IP不能相同; 
-			= 允許單個進程綁定相同的端口到多個socket上, 但IP不能相同; 
+			- 允許單個進程綁定相同的端口到多個socket上, 但IP不能相同; 
 			- 允許完全相同的地址和端口重複綁定, 只用於UDP的多播, 而不用於TCP;
 	- IPPROTO_IP: IP選項
 		- IP_HDRINCL: 是否自己建立IP數據包頭
