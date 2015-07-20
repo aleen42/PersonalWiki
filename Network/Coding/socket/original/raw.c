@@ -16,7 +16,7 @@ int main(int argc,char *argv[])
         perror("socket");
         exit(-1);
       }
-      if(setsockopt(sockd,IPPROTO_IP,IP_HDRINCL,(char *)&on,sizeof(on)) < 0)  {
+      if(setsockopt(sockd, IPPROTO_IP, IP_HDRINCL,(char *)&on,sizeof(on)) < 0)  {
         perror("setsockopt");
         exit(-1);
       }

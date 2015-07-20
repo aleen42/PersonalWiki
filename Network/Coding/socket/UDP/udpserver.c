@@ -57,8 +57,7 @@ int main(int argc, char **argv) {
    * Eliminates "ERROR on binding: Address already in use" error. 
    */
   optval = 1;
-  setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, 
-	     (const void *)&optval , sizeof(int));
+  setsockopt(sockfd, SOL_SOCKET, SO_REUSEADDR, (const void *)&optval , sizeof(int));
 
   /*
    * build the server's Internet address
