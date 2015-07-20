@@ -25,11 +25,12 @@
  * [**原デザインKenya Hara**, **原研哉**](http://www.ndc.co.jp/hara/en/)
 
 ### Book
-	- Coder
- 		- [**Gates Notes**](http://www.gatesnotes.com/books)
- 		- [**Front-End**](./frontend/frontend.md)
-	- Designer
-		- **Kenya Hara**
+
+- Coder
+ 	- [**Gates Notes**](http://www.gatesnotes.com/books)
+ 	- [**Front-End**](./frontend/frontend.md)
+- Designer
+	- **Kenya Hara**
 
 ## Supported
  * Thanks to [July](https://www.github.com/julycoding) for how to build a wiki.
