@@ -51,7 +51,7 @@ int shmdt(char* addr)
 ```
 
 #####parameters
-- shmat: ```shmat()```返回的首地址
+- addr: ```shmat()```返回的首地址
 
 #####return value
 - 0
