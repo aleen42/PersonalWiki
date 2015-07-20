@@ -116,7 +116,7 @@ int fcntl(int fd, int cmd, ...)
 flags = fcntl(fd, F_GETFL, 0);
 flags |= O_NONBLOCK;
 fcntl(fd, F_SETFL, flags);
-/* set to non-blocked mode */
+/* set to blocked mode */
 flags = fcntl(fd, F_GETFL, 0);
 flags &= ^O_NONBLOCK;
 fcntl(fd, F_SETFL, flags);
