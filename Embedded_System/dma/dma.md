@@ -27,7 +27,7 @@
 	- BCNT: Count for 2nd Dimension
 	- CCNT: Counf for 3rd Dimension
 	- SRCBIDX: 原來跳一個Array需要多少位
-	- DSTBIDX: 現在挑一個Array需要多少位
+	- DSTBIDX: 現在跳一個Array需要多少位
 	- SRCCIDX: 原來跳一個Frame需要多少位
 	- DSTCIDX: 現在跳一個Frame需要多少位
 
