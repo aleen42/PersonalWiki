@@ -4,7 +4,7 @@
 	- ALU單元
 		- Register Bank(寄存器組)
 			- Register Bank A
-			- Register Bank A
+			- Register Bank B
 		- Unit
 			- Unit L: 進行**運算**的ALU單元
 			- Unit D: **讀取**內存數據到寄存器
