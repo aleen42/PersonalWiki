@@ -28,6 +28,7 @@
 	- little-endian(小端): 低地址放低位
 	- big-endian(大端): 低地址放高位
 - Neon協處理器
+	- **SIMD**(單指令多數據) 引擎
 	- 協處理器設計的目的是為了減輕主處理器的計算負擔
 
 - Peripherals(外設)

@@ -20,7 +20,7 @@ struct pollfd
 
 ##### parameters
 - pollfd: 設置監聽的文件描述符和期待的事件
-- nfds: 文件描述符的個數
+- nfds: 文件描述符的個數 - 1
 - timeout: 指定測試時間閾值上界
 	- NULL: forever
 	- \>0: time
