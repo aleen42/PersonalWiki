@@ -5,8 +5,8 @@
 - PROM: 可編程ROM
 - EPROM: 可擦除可編程ROM
 - EEPROM: 電可擦除可編程ROM
-- **Nor Flash**: 可執行閃存, 程序直接在Flash內執行而不需要讀到RAM
-- **Nand Flash**: 不可執行閃存, 每次讀取一塊數據
+- **Nor Flash**: 可執行閃存, 程序直接在Flash內執行而不需要讀到RAM, 且**讀取速度快** (Intel)
+- **Nand Flash**: 不可執行閃存, 每次讀取一塊數據, 且**寫入速度較快**, **存儲容量大** (Toshiba)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
