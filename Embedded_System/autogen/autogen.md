@@ -1,8 +1,14 @@
 ##Autogen	[Back](./../Embedded_System.md)
 
 - Autogen
+	- **AutoGen** is a tool designed to simplify the creation and maintenance of programs that contain large amounts of repetitious text. It is especially valuable in programs that have several blocks of text that must be kept synchronized.
 	- **.def** Files: 定義存儲性參數文件
 	- **.tpl** Files: 模板文件
+
+- 基於模塊化軟件設計的基本原則:
+	- 1. 進行模塊化設計
+	- 2. 進行模塊件命令交互設計
+	- 3. 進行模塊所管理的參數設計
 
 ```def
 para_manage = {
