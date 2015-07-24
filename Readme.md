@@ -31,7 +31,7 @@
  	- [**Gates Notes**](http://www.gatesnotes.com/books)
  	- [**Front-End**](./frontend/frontend.md)
 - Designer
-	- **Kenya Hara**
+	- [**Kenya Hara**](./kenyahara/kenyahara.md)
 
 ## Supported
  * Thanks to [July](https://www.github.com/julycoding) for how to build a wiki.
