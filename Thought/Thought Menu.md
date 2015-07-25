@@ -4,7 +4,8 @@
 * [**OOP**](./OOP/OOP.md)(Object-oriented Programming)
 
 ### Designer
-* [**雅致法則**](./elegant/elegant.md)
+* [**The laws of Elegance**](./elegant/elegant.md)
+* **The laws of Simplicity**
 
 ### Life
 * [**Recruitment for startup companies**](./recruitment/recruitment.md)
