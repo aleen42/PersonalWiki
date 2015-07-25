@@ -1,7 +1,10 @@
 ## Thought Menu	[Back](./../Readme.md)
 
-### Programming
+### Coder
 * [**OOP**](./OOP/OOP.md)(Object-oriented Programming)
+
+### Designer
+* [**雅致法則**](./elegant/elegant.md)
 
 ### Life
 * [**Recruitment for startup companies**](./recruitment/recruitment.md)
