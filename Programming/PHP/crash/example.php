@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<?php
-	ini_set('display_errors','On');
-	error_reporting = E_ALL;
-?>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Bob's Auto Parts - Order Results</title>
@@ -12,7 +8,8 @@
 <body>
 	<h1>Bob's Auto Parts</h1>
 	<?php
-		echo "Hello world!";
+		$str = '<p> Hello world! </p>';
+		echo $str;
 	?>
 </body>
 </html>
