@@ -39,8 +39,11 @@
 
 <html>
 <body>
+
 <?php echo 'hello     ' . 'world' ?>
-<?php ecoo 'hello ' . 'world' ?>
+
+<?php echo 'hello ' . 'world' ?>
+
 </body>
 </html>
 
