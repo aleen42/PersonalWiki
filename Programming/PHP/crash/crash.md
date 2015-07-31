@@ -37,8 +37,15 @@
 <?php ecoo 'hello ' . 'world' ?>
 ```
 
+<html>
+<body>
 <?php echo 'hello     ' . 'world' ?>
 <?php ecoo 'hello ' . 'world' ?>
+</body>
+</html>
+
+##### 2.2 Comments
+
 
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
