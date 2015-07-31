@@ -40,7 +40,7 @@
 <html>
 <body>
 
-<?php echo 'hello     ' . 'world' ?>
+<script language='php'> echo 'hello     ' . 'world' </script>
 
 <?php echo 'hello ' . 'world' ?>
 
