@@ -1,4 +1,4 @@
-## Crash Course of PHP [Back](./../JavaScript.md)
+## Crash Course of PHP [Back](./../PHP.md)
 
 ### 1. Embedding PHP in HTML
 
@@ -76,6 +76,14 @@
 $var				// short style
 $_POST['var']			// medium style
 $HTTP_POST_VARS['var']		// long style
+```
+```php
+<?php
+// create short variable names
+$tireqty = $_POST['tireqty'];
+$oilqty = $_POST['oilqty'];
+$sparkqty = $_POST['sparkqty'];
+?>
 ```
 
 
