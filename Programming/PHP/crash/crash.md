@@ -2,6 +2,12 @@
 
 ### 1. Embedding PHP in HTML
 
+- PHP tags: 
+	- **XML** Style: ```<?php echo '<p>Order processed.</p>'; ?>```
+	- **Short** Style: ```<? echo '<p>Order processed.</p>'; ?>```
+	- **SCRIPT** Style: ```<script language='php'> echo '<p>Order processed.</p>'; </script>```
+	- **ASP** Style: ```<% echo '<p>Order processed.</p>'; %>```
+
 ```html
 <html>
 <head>
@@ -22,6 +28,18 @@
 </body>
 </html>
 ```
+
+### 2. PHP Statements
+##### 2.1 Whitespace
+
+```php
+<?php echo 'hello     ' . 'world' ?>
+<?php ecoo 'hello ' . 'world' ?>
+```
+
+<?php echo 'hello     ' . 'world' ?>
+<?php ecoo 'hello ' . 'world' ?>
+
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
