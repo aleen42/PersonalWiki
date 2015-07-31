@@ -34,22 +34,21 @@
 
 ```php
 <?php echo 'hello     ' . 'world' ?>
-<?php ecoo 'hello ' . 'world' ?>
-```
-
-<html>
-<body>
-
-<script language='php'> echo 'hello     ' . 'world' </script>
-
 <?php echo 'hello ' . 'world' ?>
-
-</body>
-</html>
+```
 
 ##### 2.2 Comments
 
+```php
+<?php 
+	echo ‘<p>Order processed.</p>’; // Start printing order
+?>
+<?php 
+	echo ‘<p>Order processed.</p>’; 
+# Start printing order
+?>
 
+```
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
