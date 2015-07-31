@@ -7,15 +7,21 @@
 ### HTML
 
 ### CSS
-- **CSS:The Definitive Guide(3th version)**
+- **CSS:The Definitive Guide(3th edition)**
 	- Page: **0**/**538**
 	- Author: **Eric A.Meyer**
 
 ### JavaScript
 
-- **JavaScript：The Definitive Guide(6th version)**
+- **JavaScript：The Definitive Guide(6th edition)**
 	- Page: **60**/**1098**
 	- Author: **David Flanagan**
+
+### PHP
+
+- **PHP and MySQL Web Development(4th edtion)**
+	- Page: **50**/**1009**
+	- Author: **Luke Welling**, **Laura Thomson**
 
 ### Responsive Web Design
 - **Smashing Book #5: Real-Life Responsive Web Design**
