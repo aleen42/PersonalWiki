@@ -15,6 +15,7 @@
  * [**Embedded System**](./Embedded_System/Embedded_System.md)
  * [**Software Architecture**](./Architecture/Architecture.md)
  * [**Multimedia**](./Multimedia/Multimedia.md)
+ * [**Git**](./git/git.md)
 
 ### Designer
  * [**Creativity**](./Creativity/Creativity.md)
