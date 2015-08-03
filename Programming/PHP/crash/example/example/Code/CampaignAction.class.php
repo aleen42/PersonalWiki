@@ -132,11 +132,12 @@ class CampaignAction extends AdminCommonAction
             }   /* 檢測是否重複提交 */
             for ($i = 0; $i < count($this->keys); $i++) {
                 if ($_POST[$this->keys[$i]] == '')
-                    die($this->keys[$i].' 数据有错');
+                    die($this->keys[$i].' 数据有错');   //相當於exit()
             }   /* 檢測是否數據為空 */
             $gModel = D($this->ModelName);  //相當於new一個對象出來
             $id = 0;
             if($gModel->addCampaign($id, $_POST)){
+                
                 $this->assign('jumpUrl', '?g='.GROUP_NAME.'&m='.MODULE_NAME);
                 $this->success('添加成功.');
             }else{

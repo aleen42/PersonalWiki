@@ -16,6 +16,11 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Code\AdminCommonAction.class.php" />
+    <Compile Include="Code\CampaignAction.class.php" />
     <Compile Include="index.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code\" />
   </ItemGroup>
 </Project>
