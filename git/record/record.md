@@ -1,4 +1,4 @@
-## Record updates (檢測更新)	[Back](./../summary.md)
+## Record updates (檢測更新)	[Back](./../git.md)
 
 ### 1. Files' Status
 

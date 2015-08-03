@@ -1,4 +1,4 @@
-## Get projects from the repository (獲取項目)	[Back](./../summary.md)
+## Get projects from the repository (獲取項目)	[Back](./../git.md)
 
 ### 1. Create a new project
 - Initialize a project
