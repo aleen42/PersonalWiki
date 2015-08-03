@@ -8,11 +8,12 @@
 
 ```git
 $ git status
-
+```
 ```
 On branch master
 nothing to commit, working directory clean
 ```
+
 - 當前分支: master
 - 沒有文件需要提交
 
