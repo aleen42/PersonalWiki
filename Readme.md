@@ -33,6 +33,9 @@
 - Designer
 	- [**Kenya Hara**](./kenyahara/kenyahara.md)
 
+### Job
+- [**Summary**](./summary/summary.md)
+
 ## Supported
  * Thanks to [July](https://www.github.com/julycoding) for how to build a wiki.
 
