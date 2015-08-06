@@ -1,151 +1,56 @@
-<?php
-
-setlocale(LC_ALL, 'en_US.UTF-8');
-/**
- * Created by PhpStorm.
- * User: Peter
- * Date: 15/7/24
- * Time: 10:10
- */
-
-class CampaignAction extends AdminCommonAction
-{
-    private $ModelName = 'CampaignAction';
-    private $keys = array(
-        //'id',
-        'img',
-        'url',
-        'msg',
-        'title',
-        'type',
-        'period_from',
-        'period_to',
-        );
-
-    public function index()
-    {
-        // No datas, so just use below for test.
-        $campaigns = array(
-            array(
-                'id'        => 1,
-                'title'     => 'title',
-                'msg'       => 'msg',
-                'img'       => 'Public/Images/Home/logo.jpg',
-                'type'      => '3',
-                'period_from'   => '2015/07/10',
-                'period_to'     => '2015/07/29',
-            ),
-        );
-        $page = isset($_REQUEST['page']) && $_REQUEST['page'] >= 1 ? $_REQUEST['page'] : 1;
-        $pageLimit = 10;
-        $page_url = "?g=".GROUP_NAME."&m=".MODULE_NAME."&a=".ACTION_NAME."&page=[page]";
-
-        $p=new Page($page,
-            $pageLimit,
-            1,
-            $page_url,
-            5,
-            5);
-        $pagelink=$p->showStyle(2);
-        $this->assign('pagelink', $pagelink);
-        $this->assign('campaigns', $campaigns);
-        $this->assign('_hash_', buildFormToken());
-        $this->assign('ur_href', '活动 &gt; 活动列表');
-        $this->display();
-    }
-
-
-    /**
-     * 删除
-     *
-     */
-    public function del()
-    {
-        if(IS_AJAX){
-            if(C('TOKEN_ON') && ! checkFormToken($_REQUEST)){
-                die('hack attemp.');
-            }
-            $id = intval($_REQUEST['id']);
-            if(true){
-                $this->ajaxReturn('',buildFormToken(),1);
-            }else{
-                $this->ajaxReturn('','',0);
-            }
+<script>
+    //FX获取文件路径方法 
+    function readFileFirefox(fileBrowser) {
+        try {
+            netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
         }
-    }
-
-
-    /**
-     * 编辑
-     *
-     */
-    public function edit()
-    {
-        $id = intval($_REQUEST['id']);
-        if(IS_POST){
-            if(C('TOKEN_ON') && ! checkFormToken($_POST)){
-                die('hack attemp.');
-            }
-            /*
-            for ($i = 0; $i < count($this->keys); $i++) {
-                if ($_POST[$this->keys[$i]] == '')
-                    die($this->keys[$i].'  数据有错');
-            }
-            unset($_POST['id']);
-            $mModel = D($this->ModelName);
-            if($mModel->editCampaign($id, $_POST)){
-                $this->assign('jumpUrl', '?g='.GROUP_NAME.'&m='.MODULE_NAME);
-                $this->success('编辑成功.');
-            }else{
-                $this->error('编辑失败');
-            }
-            */
-            $this->assign('jumpUrl', '?g='.GROUP_NAME.'&m='.MODULE_NAME);
-            $this->success('编辑成功.');
+        catch (e) {
+            alert('无法访问本地文件，由于浏览器安全设置。为了克服这一点，请按照下列步骤操作：(1)在地址栏输入"about:config";(2) 右键点击并选择 New->Boolean; (3) 输入"signed.applets.codebase_principal_support" （不含引号）作为一个新的首选项的名称;(4) 点击OK并试着重新加载文件');
+            return;
         }
-        $mModel = D($this->ModelName);
-
-        $campaign = array(
-                'id'        => 1,
-                'title'     => 'title',
-                'msg'       => 'msg',
-                'img'       => 'Public/Images/Home/logo.jpg',
-                'type'      => '3',
-                'period_from'   => '2015/07/10',
-                'period_to'     => '2015/07/29',
-        );
-        $this->assign('campaign', $campaign);
-        $this->assign('ur_href', ' &gt; 编辑商品');
-        $this->assign('_hash_', buildFormToken());
-        $this->display('post');
-    }
-
-    /**
-     * 添加
-     *
-     */
-    public function add()
-    {
-        if(IS_POST){
-            if(C('TOKEN_ON') && ! checkFormToken($_POST)){
-                die('hack attemp.');
-            }   /* 檢測是否重複提交 */
-            for ($i = 0; $i < count($this->keys); $i++) {
-                if ($_POST[$this->keys[$i]] == '')
-                    die($this->keys[$i].' 数据有错');   //相當於exit()
-            }   /* 檢測是否數據為空 */
-            $gModel = D($this->ModelName);  //相當於new一個對象出來
-            $id = 0;
-            if($gModel->addCampaign($id, $_POST)){
-                
-                $this->assign('jumpUrl', '?g='.GROUP_NAME.'&m='.MODULE_NAME);
-                $this->success('添加成功.');
-            }else{
-                $this->error('添加失败');
-            }
+        var fileName = fileBrowser.value; //这一步就能得到客户端完整路径。下面的是否判断的太复杂，还有下面得到ie的也很复杂。 
+        var file = Components.classes["@mozilla.org/file/local;1"].createInstance(Components.interfaces.nsILocalFile);
+        try {
+            // Back slashes for windows 
+            file.initWithPath(fileName.replace(/\//g, "\\\\"));
         }
-        $this->assign('ur_href', '商品 &gt; 添加商品');
-        $this->assign('_hash_', buildFormToken());
-        $this->display('post');
+        catch (e) {
+            if (e.result != Components.results.NS_ERROR_FILE_UNRECOGNIZED_PATH) throw e;
+            alert("File '" + fileName + "' cannot be loaded: relative paths are not allowed. Please provide an absolute path to this file.");
+            return;
+        }
+        if (file.exists() == false) {
+            alert("File '" + fileName + "' not found.");
+            return;
+        }
+        return file.path;
     }
-}
+    //根据不同浏览器获取路径 
+    function getvl() {
+        //判断浏览器 
+        var Sys = {};
+        var ua = navigator.userAgent.toLowerCase();
+        var s;
+        (s = ua.match(/msie ([\d.]+)/)) ? Sys.ie = s[1] :
+        (s = ua.match(/firefox\/([\d.]+)/)) ? Sys.firefox = s[1] :
+        (s = ua.match(/chrome\/([\d.]+)/)) ? Sys.chrome = s[1] :
+        (s = ua.match(/opera.([\d.]+)/)) ? Sys.opera = s[1] :
+        (s = ua.match(/version\/([\d.]+).*safari/)) ? Sys.safari = s[1] : 0;
+        var file_url = "";
+        if (Sys.ie <= "6.0") {
+            //ie5.5,ie6.0 
+            file_url = document.getElementById("file").value;
+        } else if (Sys.ie >= "7.0") {
+            //ie7,ie8 
+            var file = document.getElementById("file");
+            file.select();
+            file_url = document.selection.createRange().text;
+        } else if (Sys.firefox) {
+            //fx 
+            //file_url = document.getElementById("file").files[0].getAsDataURL();//获取的路径为FF识别的加密字符串 
+            file_url = readFileFirefox(document.getElementById("file"));
+        }
+        //alert(file_url); 
+        document.getElementById("text").innerHTML = "获取文件域完整路径为：" + file_url;
+    }
+</script>
