@@ -7,6 +7,7 @@
 ## Note
 
 * [**ffmpeg**](./ffmpeg/ffmpeg.md)
+* [**Server**](./server/server.md)
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
