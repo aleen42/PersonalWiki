@@ -3,8 +3,11 @@
 ### Admin, game
 
 - 121.40.175.85
-- **username**: root
-- **password**: 
+
+### Video
+
+- 121.41.16.147
+
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
