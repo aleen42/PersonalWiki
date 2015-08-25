@@ -17,6 +17,7 @@
 
 ### 3. DOM
 
+- [**About DOM**](./DOM/DOM.md)
 - [**DOM structure**](./DOMstructure/DOMstructure.md)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
