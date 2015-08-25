@@ -19,6 +19,18 @@
 var objHtml = this.document.documentElement;
 ```
 
+- access `<head/>` or `<body/>`
+
+```js
+var objHead = objHtml.firstChild;
+var objBody = objHtml.lastChild;
+```
+
+```js
+var objHead = objHtml.childNodes.item(0);	// objHtml.childNodes[0]
+var objBody = objHtml.childNodes.item(0);	// objHtml.childNodes[1]
+```
+
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
