@@ -15,6 +15,10 @@
 - [**Extra Markup**](./extra_markup/extra_markup.md)
 - [**Flash, Video and Audio**](./flash_video_audio/flash_video_audio.md)
 
+### 3. DOM
+
+- [**DOM structure**](./DOMstructure/DOMstructure.md)
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
