@@ -22,8 +22,8 @@ nodeName|String|the name of the node
 nodeValue|String|the value of the node
 nodeType|Number|the type of the node
 ownerDocument|Document|the owner document of the node
-firstChild|Node|the first node in the childNodes
-lastChild|Node|the last node in the childNodes
+firstChild|Node|the first node in the list - **childNodes**
+lastChild|Node|the last node in the list - **childNodes**
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
