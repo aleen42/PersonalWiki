@@ -15,6 +15,8 @@
 	- **Notation**: symbols in Document Type Definition(DTD).
 
 - **Properties** or **Methods** of nodes:
+	- **NodeList**: a list of child nodes
+	- **NamedNodeMap**: a map of paired keys with **attributes** and **values**
 
 Properties/Methods|Types/Returned types|Descriptions
 ------------------|--------------------|------------
@@ -24,6 +26,15 @@ nodeType|Number|the type of the node
 ownerDocument|Document|the owner document of the node
 firstChild|Node|the first node in the list - **childNodes**
 lastChild|Node|the last node in the list - **childNodes**
+childNodes|NodeList|a list of all the child nodes
+previousSibling|Node|the previous brother node
+nextSibling|Node|the next brother node
+attributes|NamedNodeMap|conclude the Attr which can represent the properties of this node
+hasChildNodes()|Boolean|return true when there is a child node
+appendChild(Node)|Node|add a node into the list - **childNodes**
+removeChild(Node)|Node|remove a node from the list - **childNodes**
+replaceChild(newnode, oldnode)|Node|replace an oldnode from the list - **childNodes** with the newnode
+insertBefore(newnode, refnode)|Node|add a newnode into the list - **childNodes** before the refnode
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
