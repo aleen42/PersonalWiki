@@ -19,7 +19,8 @@
 
 - [**About DOM**](./DOM/DOM.md)
 - [**DOM Structure**](./DOMstructure/DOMstructure.md)
-- [**DOM Access**](./access/access.md)
+- [**Layers of Nodes**](./node/node.md)
+- [**Access Relative Nodes**](./access/access.md)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====

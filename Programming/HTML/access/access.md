@@ -1,4 +1,4 @@
-## DOM access with JavaScript [Back](./../HTML.md)
+## Access Relative Nodes [Back](./../HTML.md)
 
 ```html
 <html>
