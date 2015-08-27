@@ -21,6 +21,36 @@ Schema::create('cache', function($table){
 });
 ```
 
+##### Memcached
+
+- Using the Memcached cache requires the [**Memcached PECL package**](http://pecl.php.net/package/memcached) to be installed.
+- The default configuration uses TCP/IP based on Memcached::addServer.
+
+```php
+'memcached' => [
+    [
+        'host' => '127.0.0.1',
+        'port' => 11211,
+        'weight' => 100
+    ],
+],
+```
+
+- You may also set the host option to a UNIX socket path. If you do this, the port option should be set to **0**.
+
+```php
+`memcached` => [
+	[
+		'host' => '/var/run/memcached/memcached.sock',
+		'port' => 0,
+		'weight' => 100
+	],
+],
+```
+
+##### Redis
+
+- Before using a Redis cache with Laravel, you will need to install the **predis/predis** package (~1.0) via Composer.
 
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
 =====
