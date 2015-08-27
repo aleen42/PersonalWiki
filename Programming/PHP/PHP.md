@@ -2,6 +2,7 @@
 
 - **PHP** is a server-side **scripting** language designed specifically for the Web.
 - [**Crash Course**](./crash/crash.md)
+- [**Laravel**](./laravel/laravel.md)
 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
