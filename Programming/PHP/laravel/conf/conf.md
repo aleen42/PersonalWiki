@@ -1,4 +1,4 @@
-## Configuration [Back](./../PHP.md)
+## Configuration [Back](./../laravel.md)
 
 - All the configurations files have been put into **./config**.
 - Web server should have the privileges to write **./storage** and **./bootstrap/cache**

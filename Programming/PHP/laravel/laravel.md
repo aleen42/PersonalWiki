@@ -10,6 +10,7 @@
 ### Document
 
 - [**Configurations**](./conf/conf.md)
+- [**Cache**](./cache/cache.md)
 
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
