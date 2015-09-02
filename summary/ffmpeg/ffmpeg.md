@@ -1,8 +1,10 @@
 ## ffmpeg	[Back](./../summary.md)
 
 ### 1. Install
+----
 
 #### 1.1 Configure
+---
 
 ##### Ubuntu 14.04 LTS 
 
@@ -51,6 +53,11 @@
 ##### 2.2.2 Synthesize the video with sounds
 
 - `ffmpeg -y -i input.mp4 -i input.wav -filter_complex amix=inputs=2:duration=first:dropout_transition=2 -ar 44100 -strict -2 output.mp4` 
+
+##### 2.2.3 Problem
+
+- Problem: Sampling will result in distortion of images when not enable **libx264**.
+- Solution: Configure the ffmpeg again, and enable libx264.
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
