@@ -1,6 +1,8 @@
 ## ffmpeg	[Back](./../summary.md)
 
-### Install
+### 1. Install
+
+#### 1.1 Configure
 
 ##### Ubuntu 14.04 LTS 
 
@@ -10,13 +12,25 @@
 
 - `./configure --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libass --enable-libbluray --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libx264 --enable-version3`
 
+#### 1.2 Make
+
 - `make`
+
+#### 1.3 Make Install
+
 - `make install`
 
-### Command
+### 2. Command of generating codes
 
-- ffmpeg -f concat -i Mic.txt -c copy Mic.wav
-- ffmpeg -i Mic_video.mp4 -i mic.wav -filter_complex amix=inputs=2:duration=first:dropout_transition=2 dsgl_new.mp4
+#### 2.1 Concat
+
+##### 2.1.1 Convert .mp4 to .ts 
+
+- `ffmpeg -i input.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb output.ts`
+
+##### 2.1.2 Concat
+
+- `ffmpeg -i "concat:input1.ts|input2.ts" -acodec copy -vcodec copy -absf aac_adtstoasc output.mp4`
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
