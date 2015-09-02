@@ -1,10 +1,10 @@
 ## ffmpeg	[Back](./../summary.md)
 
 ### 1. Install
-----
+===
 
 #### 1.1 Configure
----
+===
 
 ##### Ubuntu 14.04 LTS 
 
