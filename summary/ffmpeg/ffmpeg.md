@@ -47,7 +47,7 @@
 - Solution: Change the resolution ratio of two videos.
 	- `ffmpeg -y -i input.mp4 -s 1280x720 -ar 44100 -strict -2 output.mp4`
 
-### 2.2 Synthesis(合成)
+#### 2.2 Synthesis(合成)
 
 ##### 2.2.1 Sampling sounds to 44100Hz
 
