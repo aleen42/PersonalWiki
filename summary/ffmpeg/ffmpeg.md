@@ -4,7 +4,7 @@
 ===
 
 #### 1.1 Configure
-===
+
 
 ##### Ubuntu 14.04 LTS 
 
@@ -21,6 +21,8 @@
 #### 1.3 Make Install
 
 - `make install`
+
+====
 
 ### 2. Command of generating codes
 
