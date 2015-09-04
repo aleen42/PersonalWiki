@@ -17,6 +17,20 @@ $ sudo apt-get update
 $ sdo apt-get install wget
 ```
 
+- iii. Get the latest Docker package.
+	- The system prompts you for your sudo password. Then, it downloads and installs Docker and its dependencies.
+	```bash
+$ wget -q0- https://get.docker.com/ | sh
+```
+	- **Note:** If your company is behind a filtering proxy, you may find that the apt-key command fails for the Docker repo during installation. To work around this, add the key directly using the following:
+	```bash
+$ wget -qO- https://get.docker.com/gpg | sudo apt-key add -
+```
+
+
+
+
+
 
 
 

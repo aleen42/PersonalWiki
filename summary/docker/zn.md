@@ -2,7 +2,7 @@
 
 - [**英文**](./en.md)
 
-### 1. Install
+### 1. 安裝
 ===
 
 - i. 在超級管理員權限下登錄Ubuntu, 或者用`sudo`執行命令
@@ -17,6 +17,11 @@ $ sudo apt-get update
 $ sdo apt-get install wget
 ```
 
+- iii. 獲取最新的docker安裝包.
+
+	```bash
+$ wget -q0- https://get.docker.com/ | sh
+```
 
 ====
 
