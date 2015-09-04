@@ -80,6 +80,37 @@ $ docker run -it ubuntu bash
 - A Docker image, though, is capable of much more. An image can start software as complex as a database, wait for you (or someone else) to add data, store the data for later use, and then wait for the next person.
 - Who built the `hello-world` software image though? In this case, Docker did but anyone can. Docker lets people (or companies) create and share software through Docker images. Using Docker, you don’t have to worry about whether your computer can run the software in a Docker image — a Docker container can always run it.
 
+### 3. About finding the whalesay image
+===
+
+- People all over the world create Docker images. You can find these images by browsing the Docker Hub.
+
+##### Step1: Locate the whalesay image
+
+- i. Open your browser and browse to [**the Docker Hub**](https://hub.docker.com/?utm_source=getting_started_guide&utm_medium=embedded_Linux&utm_campaign=find_whalesay).
+	- The Docker Hub contains images from individuals like you and official images
+from organizations like RedHat, IBM, Google, and a whole lot more.
+- ii. Click Browser & Search.
+- iii. Enter the word `whalesay` in the search bar.
+- iv. Click on the `docker/whalesay` image in the results.
+	- Each image repository contains **information** about an image. It should include information such as **what kind of software the image contains** and **how to use it**. You may notice that the whalesay image is based on a Linux distribution called Ubuntu. In the next step, you run the whalesay image on your machine.
+
+##### Step2: Run the Whalesay image
+
+- i. Call the following comand in the terminal:
+	- The first time you run a software image, the `docker` command looks for it on your local system. If the image isn't there, then `docker` gets it from the hub.
+	```bash 
+$ docker run docker/whalesay cowsay boo
+```
+- ii. Find what images you have by calling the following command:
+	- When you run an image in a container, Docker downloads the image to your computer. This local copy of the image saves you time. Docker only downloads the image again if the image’s source changes on the hub. You can, of course, delete the image yourself. (You’ll learn more about that later)
+	```bash 
+$ docker images
+REPOSITORY           TAG         IMAGE ID            CREATED            VIRTUAL SIZE
+docker/whalesay      latest      fb434121fc77        3 hours ago        247 MB
+hello-world          latest      91c95931e552        5 weeks ago        910 B
+```
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
