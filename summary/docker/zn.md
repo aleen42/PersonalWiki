@@ -62,9 +62,6 @@ $ docker run -it ubuntu bash
 	- 通過一個免費的Docker Hub帳號, 分享鏡像, 自動化工作流或其他東西: [https://hub.docker.com](https://hub.docker.com)
 	- 更多例子和想法, 請瀏覽: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
 
-
-====
-
 ### 2. 關於鏡像和容器
 
 ===

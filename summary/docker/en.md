@@ -13,29 +13,29 @@
 - ii. Verify that you have `wget` installed.
 	- Check
 	```bash
-which wget
+$ which wget
 ```
 	- If `wget` isn’t installed, install it after updating your manager:
 	```bash
-sudo apt-get update
-sudo apt-get install wget
+$ sudo apt-get update
+$ sdo apt-get install wget
 ```
 
 - iii. Get the latest Docker package.
 	- The system prompts you for your `sudo` password. Then, it downloads and installs Docker and its dependencies.
 	```bash
-wget -q0- https://get.docker.com/ | sh
+$ wget -q0- https://get.docker.com/ | sh
 ```
 	- **Note1:** If your company is behind a filtering proxy, you may find that the `apt-key` command fails for the Docker repo during installation. To work around this, add the key directly using the following:
 	```bash
-wget -qO- https://get.docker.com/gpg | sudo apt-key add -
+$ wget -qO- https://get.docker.com/gpg | sudo apt-key add -
 ```
 	- **Note2:** Docker currently only supports 64bit platforms.
 
 - iv: Verify `docker` is installed correctly:
 
 	```bash
-docker run hello-world
+$ docker run hello-world
 ```
 	```
 	Unable to find image 'hello-world:latest' locally
@@ -46,7 +46,7 @@ Digest: sha256:a68868bfe696c00866942e8f5ca39e3e31b79c1e50feaee4ce5e28df2f051d5c
 Status: Downloaded newer image for hello-world:latest
 ```
 	- The following message shows that your installation appears to be working correctly.
-	```
+	```bash
 Hello from Docker.
 ```
 	- To generate this message, Docker took the following steps:
@@ -57,32 +57,14 @@ Hello from Docker.
 
 	- To try something more ambitious, you can run an Ubuntu container with:
 	```bash 
-docker run -it ubuntu bash
+$ docker run -it ubuntu bash
 ```
 	- Share images, automate workflows, and more with a free Docker Hub account: [https://hub.docker.com](https://hub.docker.com)
 	- For more examples and ideas, visit: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
 
 
-====
-
 ### 2. About images & containers
-
 ===
-
-- As the last step in your installation, you ran the docker run `docker run hello-world` command. With this one command, you completed the core tasks to using Docker. The command you ran had three parts:
-
-<img src="./container_explainer.png" alt="docker_explainer">
-
-- A **container**: a stripped-to-basics version of a Linux operating system.
-- An **image**: software you load into a container.
-- When you ran the command, the Docker software:
-	- checked to see if you had the `hello-world` software image
-	- downloaded the image from the Docker Hub (more about the hub later)
-	- loaded the image into the container and “ran” it
-- Depending on how it was built, an image might run a simple, single command and then exit. This is what `hello-world` did.
-- A Docker image, though, is capable of much more. An image can start software as complex as a database, wait for you (or someone else) to add data, store the data for later use, and then wait for the next person.
-- Who built the `hello-world` software image though? In this case, Docker did but anyone can. Docker lets people (or companies) create and share software through Docker images. Using Docker, you don’t have to worry about whether your computer can run the software in a Docker image — a Docker container can always run it.
-
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
