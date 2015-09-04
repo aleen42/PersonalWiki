@@ -13,7 +13,7 @@
 - [**3. 關於從Docker Hub找到鏡像**](#3)
 - [**4. 關於創建鏡像**](#4)
 - [**5. 關於建立倉庫**](#5)
-
+- [**6. 標記, 推送, 回拉鏡像**](#6)
 <h3 id="1"> 1. 安裝</h3>
 ===
 
@@ -256,6 +256,86 @@ $ docker run docker-whale
 ===
 
 ##### Step 1: 在Docker Hub上註冊一個帳號
+##### Step 2: 驗證郵件並建立倉庫
+
+<h3 id="6"> 6. 標記, 推送, 回拉鏡像</h3>
+===
+
+#### Step 1: 標記和推送鏡像
+
+- i. 列出你現在本機有的鏡像:
+
+	```bash
+$ docker images
+REPOSITORY           TAG          IMAGE ID            CREATED             VIRTUAL SIZE
+docker-whale         latest       7d9495d03763        38 minutes ago      273.7 MB
+<none>               <none>       5dac217f722c        45 minutes ago      273.7 MB
+docker/whalesay      latest       fb434121fc77        4 hours ago         247 MB
+hello-world          latest       91c95931e552        5 weeks ago         910 B
+```
+
+- ii. 查找docker-whale`鏡像對應的`IMAGE ID`.
+	- 在這例子中, id為`7d9495d03763`.
+	- 你會發現當前`REPOSITORY`字段顯示了`docker-whale`鏡像的repository, 但沒有顯示namespace. 你需要通過namespace來關聯帳戶.  `namespace`跟你的帳戶名相同.
+- iii. 通過用`IMAGE ID`和執行`docker tag`命令來標記`docker-whale`鏡像.
+
+<img src="./tagger.png">
+
+- iii. 輸入`docker images`命令去查看新標記的鏡像.
+
+	```bash
+$ docker images
+REPOSITORY                  TAG       IMAGE ID        CREATED          VIRTUAL SIZE
+maryatdocker/docker-whale   latest    7d9495d03763    5 minutes ago    273.7 MB
+docker-whale                latest    7d9495d03763    2 hours ago      273.7 MB
+<none>                      <none>    5dac217f722c    5 hours ago      273.7 MB
+docker/whalesay             latest    fb434121fc77    5 hours ago      247 MB
+hello-world                 latest    91c95931e552    5 weeks ago      910 B
+```
+
+- iv. 輸入`docker login`命令去登錄Docker Hub.
+
+	```bash
+docker login --username=yourhubusername --password=yourpassword --email=youremail@company.com
+```
+
+- v. 輸入`docker push`命令去推送鏡像到倉庫.
+
+	```bash
+$ docker push maryatdocker/docker-whale
+The push refers to a repository [maryatdocker/docker-whale] (len: 1)
+7d9495d03763: Image already exists
+c81071adeeb5: Image successfully pushed
+eb06e47a01d2: Image successfully pushed
+fb434121fc77: Image successfully pushed
+5d5bd9951e26: Image successfully pushed
+99da72cfe067: Image successfully pushed
+1722f41ddcb5: Image successfully pushed
+5b74edbcaa5b: Image successfully pushed
+676c4a1897e6: Image successfully pushed
+07f8e8c5e660: Image successfully pushed
+37bea4ee0c81: Image successfully pushed
+a82efea989f9: Image successfully pushed
+e9e06b06e14c: Image successfully pushed
+Digest: sha256:ad89e88beb7dc73bf55d456e2c600e0a39dd6c9500d7cd8d1025626c4b985011
+```
+
+#### Step 2: 回拉一個新的鏡像
+
+- 回拉鏡像之前一定要刪除原來在本地存在的鏡像. 如果不刪除, Docker Hub將不會下載新的鏡像到本地 — 為什麼呢? 因為兩個鏡像是相同的.
+- i. 使用命令`docker rmi`去刪除鏡像`maryatdocker/docker-whale`和`docker-whale`.
+	- 你可以用鏡像的ID或名字去刪除一個本地的鏡像.
+	```bash
+$ docker rmi -f 7d9495d03763
+$ docker rmi -f docker-whale
+```
+
+- ii. 使用`docker pull`的回拉鏡像.
+	- 命令中一定要含有在Docker Hub上的用戶名
+	```bash
+$ docker pull yourusername/docker-whale
+```
+
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====

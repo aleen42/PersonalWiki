@@ -13,6 +13,7 @@
 - [**3. About finding the whalesay image**](#3)
 - [**4. About building an image**](#4)
 - [**5. About creating a repository**](#5)
+- [**6. Tag, push and pull images**](#6)
 
 <h3 id="1"> 1. Install</h3>
 ===
@@ -257,6 +258,85 @@ $ docker run docker-whale
 ===
 
 ##### Step 1: Sign up an acount on Docker Hub
+##### Step 2: Verify your email and add a repository
+
+<h3 id="6"> 6. Tag, push and pull images</h3>
+===
+
+#### Step 1: Tag and push the image
+
+- i. List the images you currently have:
+
+	```bash
+$ docker images
+REPOSITORY           TAG          IMAGE ID            CREATED             VIRTUAL SIZE
+docker-whale         latest       7d9495d03763        38 minutes ago      273.7 MB
+<none>               <none>       5dac217f722c        45 minutes ago      273.7 MB
+docker/whalesay      latest       fb434121fc77        4 hours ago         247 MB
+hello-world          latest       91c95931e552        5 weeks ago         910 B
+```
+
+- ii. Find the `IMAGE ID` for your `docker-whale` image.
+	- In this case, the id is `7d9495d03763`.
+	- You'll notice that currently, the `REPOSITORY` shows the repository but not the namespace for `docker-whale`. You need to include the `namespace` for Docker Hub to associate it with your account.  The `namespace` is the same as your account name.
+- iii. Use `IMAGE ID` and the `docker tag` command to tag your `docker-whale` image.
+
+<img src="./tagger.png">
+
+- iii. Type the `docker images` command again to see your newly tagged image.
+
+	```bash
+$ docker images
+REPOSITORY                  TAG       IMAGE ID        CREATED          VIRTUAL SIZE
+maryatdocker/docker-whale   latest    7d9495d03763    5 minutes ago    273.7 MB
+docker-whale                latest    7d9495d03763    2 hours ago      273.7 MB
+<none>                      <none>    5dac217f722c    5 hours ago      273.7 MB
+docker/whalesay             latest    fb434121fc77    5 hours ago      247 MB
+hello-world                 latest    91c95931e552    5 weeks ago      910 B
+```
+
+- iv. Use the `docker login` command to log into the Docker Hub from the command line.
+
+	```bash
+docker login --username=yourhubusername --password=yourpassword --email=youremail@company.com
+```
+
+- v. Type the `docker push` command to push your image to your new repository.
+
+	```bash
+$ docker push maryatdocker/docker-whale
+The push refers to a repository [maryatdocker/docker-whale] (len: 1)
+7d9495d03763: Image already exists
+c81071adeeb5: Image successfully pushed
+eb06e47a01d2: Image successfully pushed
+fb434121fc77: Image successfully pushed
+5d5bd9951e26: Image successfully pushed
+99da72cfe067: Image successfully pushed
+1722f41ddcb5: Image successfully pushed
+5b74edbcaa5b: Image successfully pushed
+676c4a1897e6: Image successfully pushed
+07f8e8c5e660: Image successfully pushed
+37bea4ee0c81: Image successfully pushed
+a82efea989f9: Image successfully pushed
+e9e06b06e14c: Image successfully pushed
+Digest: sha256:ad89e88beb7dc73bf55d456e2c600e0a39dd6c9500d7cd8d1025626c4b985011
+```
+
+#### Step 2: Pull a new image
+
+- In this last section, you’ll pull the image you just pushed to hub. Before you do that though, you’ll need to remove the original image from your local machine. If you left the original image on your machine. Docker would not pull from the hub — why would it? The two images are identical.
+- i. Use the `docker rmi` to remove the `maryatdocker/docker-whale` and `docker-whale` images.
+	- You can use an ID or the name to remove an image.
+	```bash
+$ docker rmi -f 7d9495d03763
+$ docker rmi -f docker-whale
+```
+
+- ii. Pull a new image from your repository using the `docker pull` command.
+	- The command you type should include your username from Docker Hub.
+	```bash
+$ docker pull yourusername/docker-whale
+```
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
