@@ -69,7 +69,7 @@ $ docker run -it ubuntu bash
 
 ===
 
-- 在上一部安裝中過程中, 你通過用Docke執行的hello-word指令, 其實已經完成了Docker的核心任務. 該條指令分為了三個部分:
+- 在上一部安裝中過程中, 你用Docke執行了`docker run hello-world`的指令. 其實這一過程已經完成了Docker的核心任務. 該條指令分為了三個部分:
 
 <img src="./container_explainer_zn.png" alt="docker_explainer">
 

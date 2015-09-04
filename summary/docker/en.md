@@ -69,7 +69,7 @@ $ docker run -it ubuntu bash
 
 ===
 
-- As the last step in your installation, you ran the docker run hello-world command. With this one command, you completed the core tasks to using Docker. The command you ran had three parts:
+- As the last step in your installation, you ran the docker run `docker run hello-world` command. With this one command, you completed the core tasks to using Docker. The command you ran had three parts:
 
 <img src="./container_explainer.png" alt="docker_explainer">
 
