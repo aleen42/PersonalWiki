@@ -118,9 +118,11 @@ hello-world          latest      91c95931e552        5 weeks ago        910 B
 ##### Step1: Write a Dockerfile
 
 - i. Make a new directory:
+
 	```bash
 $ mkdir mydocker build
 ```
+
 - ii. Create a text file called `Dockerfile` in te new directory:
 	- A Dockerfile describes the software that is “baked” into an image. It isn’t just ingredients tho, it can tell the software what environment to use or what commands to run. Your recipe is going to be very short.
 	```bash
