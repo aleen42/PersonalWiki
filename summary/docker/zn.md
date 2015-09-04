@@ -32,50 +32,36 @@ $ wget -qO- https://get.docker.com/gpg | sudo apt-key add -
 
 	```bash
 $ docker run hello-world
-Unable to find image 'hello-world:latest' locally
+```
+	```
+	Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 535020c3e8ad: Pull complete
 af340544ed62: Pull complete
 Digest: sha256:a68868bfe696c00866942e8f5ca39e3e31b79c1e50feaee4ce5e28df2f051d5c
 Status: Downloaded newer image for hello-world:latest
-
-
-Hello from Docker.
-This message shows that your installation appears to be working correctly.
-
-
-To generate this message, Docker took the following steps:
- 1. The Docker client contacted the Docker daemon.
- 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
- 3. The Docker daemon created a new container from that image which runs the
-    executable that produces the output you are currently reading.
- 4. The Docker daemon streamed that output to the Docker client, which sent it
-    to your terminal.
-
-
-To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
-
-
-Share images, automate workflows, and more with a free Docker Hub account:
- https://hub.docker.com
-
-
-For more examples and ideas, visit:
- https://docs.docker.com/userguide/
-
-
-To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
-
-
-For more examples and ideas, visit:
- https://docs.docker.com/userguide/
 ```
+	- 下面這條消息表示你已經成功安裝`Docker`.
+	```bash
+Hello from Docker.
+```
+	- `Docker`通過了下面的步驟來顯示這條信息
+ 		- 1. Docker客戶端連接了Docker虛擬機.
+ 		- 2. Docker虛擬機從Docker Hub上拉"hello-world"的鏡像到本地.
+ 		- 3. Docker虛擬機通過這個鏡像創建一個新的容器, 並通過這個容器運行可執行文件從而產生數據流.
+ 		- 4. Docker虛擬機把消息數據流發送到Docker客戶端, 然後由客戶端把消息顯示在終端上.
+
+	- 如果想嘗試更野心的東西, 你可以通過下面的指令來運行一個Ubuntu容器
+	```bash 
+$ docker run -it ubuntu bash
+```
+	- 通過一個免費的Docker Hub帳號, 分享鏡像, 自動化工作流或其他東西: [https://hub.docker.com](https://hub.docker.com)
+	- 更多例子和想法, 請瀏覽: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
+
 
 ====
 
-### 2. Command of generating codes
+### 2. 關於鏡像和容器
 ===
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>

@@ -41,7 +41,7 @@ af340544ed62: Pull complete
 Digest: sha256:a68868bfe696c00866942e8f5ca39e3e31b79c1e50feaee4ce5e28df2f051d5c
 Status: Downloaded newer image for hello-world:latest
 ```
-	- This message shows that your installation appears to be working correctly.
+	- The following message shows that your installation appears to be working correctly.
 	```bash
 Hello from Docker.
 ```
@@ -57,16 +57,10 @@ $ docker run -it ubuntu bash
 ```
 	- Share images, automate workflows, and more with a free Docker Hub account: [https://hub.docker.com](https://hub.docker.com)
 	- For more examples and ideas, visit: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
-	- To try something more ambitious, you can run an Ubuntu container with:
-	```bash
-$ docker run -it ubuntu bash
-```
-	- For more examples and ideas, visit: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
-
 
 ====
 
-### 2. Command of generating codes
+### 2. About images & containers
 ===
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
