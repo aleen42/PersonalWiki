@@ -6,7 +6,11 @@
 
 - [**Chinese**](./zn.md)
 
-### 1. Install
+### Category
+
+- [**1. Install**](#1)
+
+<h3 id="1"> 1. Install</h3>
 ===
 
 - i. Log into your Ubuntu installation as a user with `sudo` privileges.
@@ -63,7 +67,7 @@ $ docker run -it ubuntu bash
 	- For more examples and ideas, visit: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
 
 
-### 2. About images & containers
+<h3 id="2"> 2. About images & containers</h3>
 ===
 
 - As the last step in your installation, you ran the docker run `hello-world` command. With this one command, you completed the core tasks to using Docker. The command you ran had three parts.
@@ -80,7 +84,7 @@ $ docker run -it ubuntu bash
 - A Docker image, though, is capable of much more. An image can start software as complex as a database, wait for you (or someone else) to add data, store the data for later use, and then wait for the next person.
 - Who built the `hello-world` software image though? In this case, Docker did but anyone can. Docker lets people (or companies) create and share software through Docker images. Using Docker, you don’t have to worry about whether your computer can run the software in a Docker image — a Docker container can always run it.
 
-### 3. About finding the whalesay image
+<h3 id="3"> 3. About finding the whalesay image</h3>
 ===
 
 - People all over the world create Docker images. You can find these images by browsing the Docker Hub.
@@ -111,7 +115,7 @@ docker/whalesay      latest      fb434121fc77        3 hours ago        247 MB
 hello-world          latest      91c95931e552        5 weeks ago        910 B
 ```
 
-### 4. About building an image
+<h3 id="4"> 4. About building an image</h3>
 ===
 
 
@@ -243,6 +247,12 @@ hello-world          latest       91c95931e552      5 weeks ago         910 B
 	```bash
 $ docker run docker-whale
 ```
+
+
+<h3 id="5"> 5. About creating a repository</h3>
+===
+
+##### Step 1: Sign up an acount on Docker Hub
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====

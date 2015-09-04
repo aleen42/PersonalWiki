@@ -6,7 +6,7 @@
 
 - [**英文**](./en.md)
 
-### 1. 安裝
+<h3 id="1"> 1. 安裝</h3>
 ===
 
 - i. 在超級管理員權限下登錄Ubuntu, 或者用`sudo`執行命令
@@ -62,7 +62,7 @@ $ docker run -it ubuntu bash
 	- 通過一個免費的Docker Hub帳號, 分享鏡像, 自動化工作流或其他東西: [https://hub.docker.com](https://hub.docker.com)
 	- 更多例子和想法, 請瀏覽: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
 
-### 2. 關於鏡像和容器
+<h3 id="2"> 2. 關於鏡像和容器</h3>
 
 ===
 
@@ -80,7 +80,7 @@ $ docker run -it ubuntu bash
 - 然而, 一個Docker鏡像可以承載更多的東西. 如一個鏡像可以啟動像數據庫一樣複雜的軟件, 然後進行操作數據並等待下一個人去操作數據.
 - 那麼是誰創建了`hello-word`鏡像呢? 在這個例子中, 是Docker創建的, 而且我們也可以自己創建自己的鏡像. 如果使用Docker, 你就能運行所有Docker鏡像中能運行的軟件.
 
-### 3. 關於從Docker Hub找到鏡像
+<h3 id="3"> 3. 關於從Docker Hub找到鏡像</h3>
 ===
 
 - 來自四面八方的人都在創建鏡像, 而你可以通過Docker Hub來找到這些鏡像.
@@ -111,7 +111,7 @@ hello-world          latest      91c95931e552        5 weeks ago        910 B
 ```
 
 
-### 4. 關於創建鏡像
+<h3 id="4"> 4. 關於創建鏡像</h3>
 ===
 
 
@@ -243,6 +243,11 @@ hello-world          latest       91c95931e552      5 weeks ago         910 B
 	```bash
 $ docker run docker-whale
 ```
+
+<h3 id="5"> 5. 關於建立倉庫</h3>
+===
+
+##### Step 1: 在Docker Hub上註冊一個帳號
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
