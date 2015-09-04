@@ -6,8 +6,9 @@
 
 - 1. Log into your Ubuntu installation as a user with `sudo` privileges.
 - 2. Verify that you have `wget` installed.
-
-```bash
+	- Check
+	
+	```bash
 $ which wget
 ```
 	- If `wget` isn’t installed, install it after updating your manager:
