@@ -110,6 +110,126 @@ docker/whalesay      latest      fb434121fc77        3 hours ago        247 MB
 hello-world          latest      91c95931e552        5 weeks ago        910 B
 ```
 
+
+### 4. 關於創建鏡像
+===
+
+
+##### Step1: 寫一個Dockerfile
+
+- i. 創建一個新的文件夾:
+	```bash
+$ mkdir mydocker build
+```
+- ii. 在該文件夾新建一個文本文件叫`Dockerfile`:
+	- 一個`Dockfile`用於描述備份在一個鏡像中的軟件, 可並不只是集成軟件. 它還可以繼承環境和命令, 且使得你的"烹飪菜單"也將會變得非常地簡短.
+	```bash
+$ cd mkdocker
+$ vim Dockerfile
+```
+- iii. 在文本文件中添加一行文本:
+	- `FROM`關鍵字是告訴Docker這個軟件是基於哪個鏡像的. 由於Whalesay輕量且已經含有`cowsay`程序, 所以我們將從它開始.
+	```txt
+FROM docker/whalesay:latest
+```
+- iv. 添加`fortunes`程序到鏡像中:
+	- `fortunes`程序中有一條命令用於輸出. 因此, 我們先安裝該程序.
+	```bash
+RUN apt-get -y update && apt-get install -y fortunes
+```
+- v. 當鏡像含有它需要的軟件時, 就可以指示鏡像加載時執行該程序:
+	- 這一行命令是告訴`fortune`去傳遞一段名言到`cowsay`程序中.
+	```bash
+CMD /usr/games/fortune -a | cowsay
+```
+- vi. 保存並退出該文本文件.
+- 此時, 你已經把所有的軟件集成和行為描述放在`Dockfile`中.
+
+##### Step2: 通過Dockfile來創建鏡像
+
+- 現在, 通過在終端執行`docker build -t docker-whale .`命令來創建鏡像(不要忘記 . ). (這命令需要一定的時間來輸出結果)
+	```
+Sending build context to Docker daemon 158.8 MB
+...snip...
+Removing intermediate container a8e6faa88df3
+Successfully built 7d9495d03763
+```
+
+##### Step3: 瞭解創建的過程
+
+- 命令`docker build -t docker-whale .`會在當前文件夾獲取`Dockerfile`, 然後在本機創建一個叫`docker-whale`的鏡像. 該命令需要一點時間來輸出, 而且輸出結果較長且複雜. 下面, 我們將會瞭解每一條信息, 它們的含義是什麼.
+- 首先, Docker會保證所有需要的文件都配置好
+	```
+Sending build context to Docker daemon 158.8 MB
+```
+- 然後, Docker會加載`whalesay`鏡像. 由於之前已經下載過該鏡像, 因此Docker將不會重新下載.
+	```
+Step 0 : FROM docker/whalesay:latest
+ ---> fb434121fc77
+```
+- Docker下面會更新`apt-get`安裝包管理器. 由於輸出結果較長, 這裡將不顯示所有的結果.
+	```
+Step 1 : RUN apt-get -y update && apt-get install -y fortunes
+ ---> Running in 27d224dfa5b2
+Ign http://archive.ubuntu.com trusty InRelease
+Ign http://archive.ubuntu.com trusty-updates InRelease
+Ign http://archive.ubuntu.com trusty-security InRelease
+Hit http://archive.ubuntu.com trusty Release.gpg
+....snip...
+Get:15 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]
+Get:16 http://archive.ubuntu.com trusty-security/universe amd64 Packages [134 kB]
+Reading package lists...
+---> eb06e47a01d2
+```
+- 更新完安裝包管理器後, 將會安裝`fortunes`程序.
+	```
+Removing intermediate container e2a84b5f390f
+Step 2 : RUN apt-get install -y fortunes
+ ---> Running in 23aa52c1897c
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  fortune-mod fortunes-min librecode0
+Suggested packages:
+  x11-utils bsdmainutils
+The following NEW packages will be installed:
+  fortune-mod fortunes fortunes-min librecode0
+0 upgraded, 4 newly installed, 0 to remove and 3 not upgraded.
+Need to get 1961 kB of archives.
+After this operation, 4817 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu/ trusty/main librecode0 amd64 3.6-21 [771 kB]
+...snip......
+Setting up fortunes (1:1.99.1-7) ...
+Processing triggers for libc-bin (2.19-0ubuntu6.6) ...
+ ---> c81071adeeb5
+Removing intermediate container 23aa52c1897c
+```
+- 最後, Docker完成創建並輸出結果
+	``` bash
+Step 3 : CMD /usr/games/fortune -a | cowsay
+ ---> Running in a8e6faa88df3
+ ---> 7d9495d03763
+Removing intermediate container a8e6faa88df3
+Successfully built 7d9495d03763
+```
+
+##### Step 4: 執行新的鏡像 - docker-whale
+
+- i. 查看所創建的新鏡像:
+	```bash
+$ docker images
+REPOSITORY           TAG          IMAGE ID          CREATED             VIRTUAL SIZE
+docker-whale         latest       7d9495d03763      4 minutes ago       273.7 MB
+docker/whalesay      latest       fb434121fc77      4 hours ago         247 MB
+hello-world          latest       91c95931e552      5 weeks ago         910 B
+```
+
+- ii. 通過輸入命令`docker run docker-whale`來執行新的鏡像:
+	```bash
+$ docker run docker-whale
+```
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
