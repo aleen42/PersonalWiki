@@ -4,15 +4,13 @@
 ### 1. Install
 ===
 
-- 1. Log into your Ubuntu installation as a user with `sudo` privileges.
-- 2. Verify that you have `wget` installed.
+- i. Log into your Ubuntu installation as a user with `sudo` privileges.
+- ii. Verify that you have `wget` installed.
 	- Check
-	
 	```bash
 $ which wget
 ```
 	- If `wget` isn’t installed, install it after updating your manager:
-
 	```bash
 $ sudo apt-get update
 $ sdo apt-get install wget
