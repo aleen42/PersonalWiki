@@ -62,10 +62,27 @@ $ docker run -it ubuntu bash
 	- Share images, automate workflows, and more with a free Docker Hub account: [https://hub.docker.com](https://hub.docker.com)
 	- For more examples and ideas, visit: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
 
+
 ====
 
 ### 2. About images & containers
+
 ===
+
+- As the last step in your installation, you ran the docker run hello-world command. With this one command, you completed the core tasks to using Docker. The command you ran had three parts:
+
+<img src="./container_explainer.png" alt="docker_explainer">
+
+- A **container**: a stripped-to-basics version of a Linux operating system.
+- An **image**: software you load into a container.
+- When you ran the command, the Docker software:
+	- checked to see if you had the `hello-world` software image
+	- downloaded the image from the Docker Hub (more about the hub later)
+	- loaded the image into the container and “ran” it
+- Depending on how it was built, an image might run a simple, single command and then exit. This is what `hello-world` did.
+- A Docker image, though, is capable of much more. An image can start software as complex as a database, wait for you (or someone else) to add data, store the data for later use, and then wait for the next person.
+- Who built the `hello-world` software image though? In this case, Docker did but anyone can. Docker lets people (or companies) create and share software through Docker images. Using Docker, you don’t have to worry about whether your computer can run the software in a Docker image — a Docker container can always run it.
+
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
