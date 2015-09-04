@@ -6,9 +6,13 @@
 
 - [**Chinese**](./zn.md)
 
-### Category
+### Menu
 
 - [**1. Install**](#1)
+- [**2. About images & containers**](#2)
+- [**3. About finding the whalesay image**](#3)
+- [**4. About building an image**](#4)
+- [**5. About creating a repository**](#5)
 
 <h3 id="1"> 1. Install</h3>
 ===
