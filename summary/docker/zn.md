@@ -87,7 +87,7 @@ $ docker run -it ubuntu bash
 
 ##### 步驟1: 定位你想要找的鏡像
 
-- i. 打開瀏覽器並瀏覽[** Docker Hub**](https://hub.docker.com/?utm_source=getting_started_guide&utm_medium=embedded_Linux&utm_campaign=find_whalesay).
+- i. 打開瀏覽器並瀏覽[**Docker Hub**](https://hub.docker.com/?utm_source=getting_started_guide&utm_medium=embedded_Linux&utm_campaign=find_whalesay).
 	- Docker Hub 包含私人鏡像以及像RedHat, IBM, Google或其他的.
 - ii. 點擊搜索框`Browser & Search`.
 - iii. 在搜索框輸入單詞 `whalesay`.
