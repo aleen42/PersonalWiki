@@ -118,6 +118,7 @@ hello-world          latest      91c95931e552        5 weeks ago        910 B
 ##### Step1: 寫一個Dockerfile
 
 - i. 創建一個新的文件夾:
+
 	```bash
 $ mkdir mydocker build
 ```
@@ -127,6 +128,7 @@ $ mkdir mydocker build
 $ cd mkdocker
 $ vim Dockerfile
 ```
+
 - iii. 在文本文件中添加一行文本:
 	- `FROM`關鍵字是告訴Docker這個軟件是基於哪個鏡像的. 由於Whalesay輕量且已經含有`cowsay`程序, 所以我們將從它開始.
 	```txt
@@ -148,6 +150,7 @@ CMD /usr/games/fortune -a | cowsay
 ##### Step2: 通過Dockfile來創建鏡像
 
 - 現在, 通過在終端執行`docker build -t docker-whale .`命令來創建鏡像(不要忘記 . ). (這命令需要一定的時間來輸出結果)
+
 	```
 Sending build context to Docker daemon 158.8 MB
 ...snip...
@@ -159,15 +162,20 @@ Successfully built 7d9495d03763
 
 - 命令`docker build -t docker-whale .`會在當前文件夾獲取`Dockerfile`, 然後在本機創建一個叫`docker-whale`的鏡像. 該命令需要一點時間來輸出, 而且輸出結果較長且複雜. 下面, 我們將會瞭解每一條信息, 它們的含義是什麼.
 - 首先, Docker會保證所有需要的文件都配置好
+
 	```
 Sending build context to Docker daemon 158.8 MB
 ```
+
 - 然後, Docker會加載`whalesay`鏡像. 由於之前已經下載過該鏡像, 因此Docker將不會重新下載.
+	
 	```
 Step 0 : FROM docker/whalesay:latest
  ---> fb434121fc77
 ```
+
 - Docker下面會更新`apt-get`安裝包管理器. 由於輸出結果較長, 這裡將不顯示所有的結果.
+	
 	```
 Step 1 : RUN apt-get -y update && apt-get install -y fortunes
  ---> Running in 27d224dfa5b2
@@ -181,7 +189,9 @@ Get:16 http://archive.ubuntu.com trusty-security/universe amd64 Packages [134 kB
 Reading package lists...
 ---> eb06e47a01d2
 ```
+
 - 更新完安裝包管理器後, 將會安裝`fortunes`程序.
+	
 	```
 Removing intermediate container e2a84b5f390f
 Step 2 : RUN apt-get install -y fortunes
@@ -205,7 +215,9 @@ Processing triggers for libc-bin (2.19-0ubuntu6.6) ...
  ---> c81071adeeb5
 Removing intermediate container 23aa52c1897c
 ```
+
 - 最後, Docker完成創建並輸出結果
+	
 	``` bash
 Step 3 : CMD /usr/games/fortune -a | cowsay
  ---> Running in a8e6faa88df3
@@ -217,6 +229,7 @@ Successfully built 7d9495d03763
 ##### Step 4: 執行新的鏡像 - docker-whale
 
 - i. 查看所創建的新鏡像:
+	
 	```bash
 $ docker images
 REPOSITORY           TAG          IMAGE ID          CREATED             VIRTUAL SIZE
@@ -226,6 +239,7 @@ hello-world          latest       91c95931e552      5 weeks ago         910 B
 ```
 
 - ii. 通過輸入命令`docker run docker-whale`來執行新的鏡像:
+	
 	```bash
 $ docker run docker-whale
 ```
