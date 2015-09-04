@@ -280,7 +280,7 @@ hello-world          latest       91c95931e552        5 weeks ago         910 B
 	- 你會發現當前`REPOSITORY`字段顯示了`docker-whale`鏡像的repository, 但沒有顯示namespace. 你需要通過namespace來關聯帳戶.  `namespace`跟你的帳戶名相同.
 - iii. 通過用`IMAGE ID`和執行`docker tag`命令來標記`docker-whale`鏡像.
 
-<img src="./tagger.png">
+<img src="./tagger_zn.png">
 
 - iii. 輸入`docker images`命令去查看新標記的鏡像.
 
