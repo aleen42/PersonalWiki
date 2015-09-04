@@ -12,8 +12,10 @@
 - i. Log into your Ubuntu installation as a user with `sudo` privileges.
 - ii. Verify that you have `wget` installed.
 	- Check
-	```bash
-$ which wget
+	```sh
+#!/usr/bin/env bash
+#Author Aleen
+which wget
 ```
 	- If `wget` isn’t installed, install it after updating your manager:
 	```bash
