@@ -1,6 +1,8 @@
 ## Docker	[Back](./../summary.md)
 
-### Othere Languages&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./logo.png" title="Docker" alt="Docker" >
+<img src="./logo.png" title="Docker" alt="Docker" >
+
+### Othere Languages
 
 - [**Chinese**](./zn.md)
 
