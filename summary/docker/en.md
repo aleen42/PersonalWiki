@@ -263,7 +263,7 @@ $ docker run docker-whale
 <h3 id="6"> 6. Tag, push and pull images</h3>
 ===
 
-#### Step 1: Tag and push the image
+##### Step 1: Tag and push the image
 
 - i. List the images you currently have:
 
@@ -322,7 +322,7 @@ e9e06b06e14c: Image successfully pushed
 Digest: sha256:ad89e88beb7dc73bf55d456e2c600e0a39dd6c9500d7cd8d1025626c4b985011
 ```
 
-#### Step 2: Pull a new image
+##### Step 2: Pull a new image
 
 - In this last section, you’ll pull the image you just pushed to hub. Before you do that though, you’ll need to remove the original image from your local machine. If you left the original image on your machine. Docker would not pull from the hub — why would it? The two images are identical.
 - i. Use the `docker rmi` to remove the `maryatdocker/docker-whale` and `docker-whale` images.

@@ -262,7 +262,7 @@ $ docker run docker-whale
 <h3 id="6"> 6. 標記, 推送, 回拉鏡像</h3>
 ===
 
-#### Step 1: 標記和推送鏡像
+##### Step 1: 標記和推送鏡像
 
 - i. 列出你現在本機有的鏡像:
 
@@ -321,7 +321,7 @@ e9e06b06e14c: Image successfully pushed
 Digest: sha256:ad89e88beb7dc73bf55d456e2c600e0a39dd6c9500d7cd8d1025626c4b985011
 ```
 
-#### Step 2: 回拉一個新的鏡像
+##### Step 2: 回拉一個新的鏡像
 
 - 回拉鏡像之前一定要刪除原來在本地存在的鏡像. 如果不刪除, Docker Hub將不會下載新的鏡像到本地 — 為什麼呢? 因為兩個鏡像是相同的.
 - i. 使用命令`docker rmi`去刪除鏡像`maryatdocker/docker-whale`和`docker-whale`.
