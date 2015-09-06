@@ -5,6 +5,7 @@
 * [**(Week 3) August 17th**](./1/3.md)
 * [**(Week 4) August 24th**](./1/4.md)
 * [**(Week 5) August 31st**](./2/1.md)
+* [**(Week 6) September 7th**](./2/2.md)
 
 ## Note
 
