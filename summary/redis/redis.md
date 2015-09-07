@@ -21,7 +21,7 @@
 
 #### 2.1 Key
 
-##### 2.1.1 EXISTS
+##### 2.1.1 EXISTS key [key ...]
 
 - Description: To search whether multiple keys are existed.
 - Return:
@@ -45,7 +45,7 @@ redis>
 ```
 
 
-##### 2.1.2 APPEND
+##### 2.1.2 APPEND key value
 
 - Description: If key already exists and is a string, this command appends the value at the end of the string. If **key** does not exist it is created and set as an empty string.
 - Return: The length of the value.
@@ -65,7 +65,7 @@ redis> GET mykey
 redis>
 ```
 
-##### 2.1.3 DEL
+##### 2.1.3 DEL key [key ...]
 
 - Description: To delete keys.
 - Return: The number of keys that were removed.
@@ -81,7 +81,7 @@ redis> DEL key1 key2 key3
 redis> 
 ```
 
-##### 2.1.4 SET
+##### 2.1.4 SET key value [EX seconds] [PX milliseconds] [NX|XX]
 
 - Description: Set key to hold the string value. If key already holds a value, it is overwritten, regardless of its type.
 - Options:
@@ -103,7 +103,7 @@ redis>
 ```
 
 
-##### 2.1.5 GET
+##### 2.1.5 GET key
 
 - Description: Get the value of key.
 - Return: 
@@ -118,7 +118,29 @@ redis> SET mykey "Hello"
 OK
 redis> GET mykey
 "Hello"
-redis>   
+redis>
+```
+
+##### 2.1.6 KEYS pattern
+
+- Description: Returns all keys matching pattern.
+- Options: pattern (Use `\` to escape special characters if you want to match them verbatim.)
+	- **h?llo**: matches **hello**, **hallo** and **hxllo**.
+	- **h\*llo**: matches **hllo**, **hxxxxxxxxxllo**.
+	- **h[ae]llo**: matches **hello** and **hallo**, but not **hillo**.
+	- **h[^e]llo**: matches **hallo**, **hbllo**, ... but not **hello**.
+	- **h[a-c]llo**: matches **hallo**, **hbllo** and **hcllo**.
+- Return: list of keys matching pattern.
+- Example:
+
+	```redis
+redis> GET nonexisting
+(nil)
+redis> SET mykey "Hello"
+OK
+redis> GET mykey
+"Hello"
+redis>
 ```
 
 
