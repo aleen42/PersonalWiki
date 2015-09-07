@@ -21,7 +21,7 @@
 	- 5. allkeys-random: 從數據集(`server.db[i].dict`)中任意選擇數據淘汰.
 	- 6. no-enviction(驅逐): 禁止驅逐數據.
 
-<h3 id="2"> ### 2. Commands</h3>
+<h3 id="2"> 2. Commands</h3>
 ===
 
 ##### 2.1 EXISTS key [key ...]
