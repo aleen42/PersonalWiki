@@ -18,10 +18,7 @@
 ### 2. Command
 ===
 
-
-#### 2.1 Key
-
-##### 2.1.1 EXISTS key [key ...]
+##### 2.1 EXISTS key [key ...]
 
 - Description: To search whether multiple keys are existed.
 - Return:
@@ -45,7 +42,7 @@ redis>
 ```
 
 
-##### 2.1.2 APPEND key value
+##### 2.2 APPEND key value
 
 - Description: If key already exists and is a string, this command appends the value at the end of the string. If **key** does not exist it is created and set as an empty string.
 - Return: The length of the value.
@@ -65,7 +62,7 @@ redis> GET mykey
 redis>
 ```
 
-##### 2.1.3 DEL key [key ...]
+##### 2.3 DEL key [key ...]
 
 - Description: To delete keys.
 - Return: The number of keys that were removed.
@@ -81,7 +78,7 @@ redis> DEL key1 key2 key3
 redis> 
 ```
 
-##### 2.1.4 SET key value [EX seconds] [PX milliseconds] [NX|XX]
+##### 2.4 SET key value [EX seconds] [PX milliseconds] [NX|XX]
 
 - Description: Set key to hold the string value. If key already holds a value, it is overwritten, regardless of its type.
 - Options:
@@ -103,7 +100,7 @@ redis>
 ```
 
 
-##### 2.1.5 GET key
+##### 2.5 GET key
 
 - Description: Get the value of key.
 - Return: 
@@ -121,7 +118,7 @@ redis> GET mykey
 redis>
 ```
 
-##### 2.1.6 KEYS pattern
+##### 2.6 KEYS pattern
 
 - Description: Returns all keys matching pattern.
 - Options: pattern (Use `\` to escape special characters if you want to match them verbatim.)
@@ -142,6 +139,28 @@ redis> GET mykey
 "Hello"
 redis>
 ```
+
+##### [More](http://redis.io/commands)
+
+### 3. Usage
+===
+
+##### 3.1 Connect
+
+- Description: Connect to a **redis**.
+- Return: 
+	- **true**: success
+	- **false**: failure
+- Example:
+
+	```php
+<?php  
+$redis = new redis();  
+$result = $redis->connect('127.0.0.1', 6379);  
+var_dump($result);  
+?>  
+```
+
 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
