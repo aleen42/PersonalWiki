@@ -13,12 +13,7 @@
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 
 ## Note
 
@@ -26,6 +21,13 @@
 * [**Server**](./server/server.md)
 * [**Docker**](./docker/docker.md)
 * [**Redis**](./redis/redis.md)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
