@@ -126,7 +126,7 @@ redis>
 - Description: Returns all keys matching pattern.
 - Options: pattern (Use `\` to escape special characters if you want to match them verbatim.)
 	- **h?llo**: matches **hello**, **hallo** and **hxllo**.
-	- **h\*llo**: matches **hllo**, **hxxxxxxxxxllo**.
+	- **h****\*****llo**: matches **hllo**, **hxxxxxxxxxllo**.
 	- **h[ae]llo**: matches **hello** and **hallo**, but not **hillo**.
 	- **h[^e]llo**: matches **hallo**, **hbllo**, ... but not **hello**.
 	- **h[a-c]llo**: matches **hallo**, **hbllo** and **hcllo**.
