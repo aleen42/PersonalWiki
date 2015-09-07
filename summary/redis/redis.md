@@ -6,7 +6,7 @@
 
 - [**1. Introduction**](#1)
 - [**2. Commands**](#2)
-- [**3. Usage in PHP**](#3)
+- [**3. Usages in PHP**](#3)
 
 <br />
 <br />
@@ -160,7 +160,73 @@ redis> GET mykey
 redis>
 ```
 
-<h5> 2.7 <a href="http://redis.io/commands" target="_blank"><strong>More Commands</strong></a></h5>
+##### 2.7 INCR key
+
+- Description: Increments the number stored at key by one.
+- **Note**: This is a string operation because Redis does not have a dedicated integer type. The string stored at the key is interpreted as a base-10 **64 bit signed integer** to execute the operation.
+- Return: the value of key after the increment.
+- Example:
+
+	```redis
+redis> SET mykey "10"
+OK
+redis> INCR mykey
+(integer) 11
+redis> GET mykey
+"11"
+redis> 
+```
+
+##### 2.8 DECR key
+
+- Description: Decrements the number stored at key by one.
+- **Note**: This operation is limited to **64 bit signed integers**.
+- Return: the value of key after the decrement.
+- Example:
+
+	```redis
+redis> SET mykey "10"
+OK
+redis> DECR mykey
+(integer) 9
+redis> SET mykey "234293482390480948029348230948"
+OK
+redis> DECR mykey
+ERR value is not an integer or out of range
+redis>  
+```
+
+##### 2.9 INCRBY key increment
+
+- Description: Increments the number stored at key by increment.
+- **Note**: An error is returned if the key contains a value of the wrong type or contains a string that can not be represented as integer.
+- Return: the value of key after the increment.
+- Example:
+
+	```redis
+redis> SET mykey "10"
+OK
+redis> INCRBY mykey 5
+(integer) 15
+redis> 
+```
+
+##### 2.10 DECRBY key decrement
+
+- Description: Decrements the number stored at key by decrement.
+- **Note**: An error is returned if the key contains a value of the wrong type or contains a string that can not be represented as integer.
+- Return: the value of key after the decrement.
+- Example:
+
+	```redis
+redis> SET mykey "10"
+OK
+redis> DECRBY mykey 3
+(integer) 7
+redis> 
+```
+
+<h5> 2.11 <a href="http://redis.io/commands" target="_blank"><strong>More Commands</strong></a></h5>
 
 <br />
 <br />
@@ -169,7 +235,7 @@ redis>
 <br />
 <br />
 
-<h3 id="3"> 3. Usage in PHP</h3>
+<h3 id="3"> 3. Usages in PHP</h3>
 ===
 
 ##### 3.1 Connect
@@ -184,11 +250,134 @@ redis>
 <?php  
 $redis = new redis();  
 $result = $redis->connect('127.0.0.1', 6379);  
-var_dump($result);  
+var_dump($result);	// bool(true)  
 ?>  
 ```
 
+##### 3.2 Set
 
+- Description: set the **value** of a key.
+- Return: 
+	- **true**: success
+	- **false**: failure
+- Example:
+
+	```php
+<?php  
+$redis = new redis();  
+$redis->connect('127.0.0.1', 6379);  
+$result = $redis->set('test',"11111111111");  
+var_dump($result);	// bool(true)
+?>  
+```
+
+##### 3.3 Get
+
+- Description: get the **value** of a key.
+- Return: 
+	- **value**: the value of the specific key
+	- **false**: key does not exist
+- Example:
+
+	```php
+<?php  
+$redis = new redis();  
+$redis->connect('127.0.0.1', 6379);  
+$result = $redis->set('test',"11111111111");  
+var_dump($result);	// string(11) "11111111111"
+?>  
+```
+
+##### 3.4 Delete
+
+- Description: to delete the key.
+- Options: an array of keys
+- Return: 
+	- **value**: the number of deleted keys
+- Example:
+
+	```php
+<?php  
+$redis = new redis();  
+$redis->connect('127.0.0.1', 6379);  
+$redis->set('test',"1111111111111");  
+echo $redis->get('test');   // 1111111111111  
+$redis->delete('test');  
+var_dump($redis->get('test'));  // bool(false)  
+?>   
+```
+
+##### 3.5 Set, Setnx, Setxx
+
+- Description: to set the value of a key
+- Return: 
+	- **true**: success
+	- **false**: failure
+- Example:
+
+	```php
+<?php  
+$redis = new redis();  
+$redis->connect('127.0.0.1', 6379);  
+$redis->set('test',"1111111111111");  
+$redis->setnx('test',"22222222");  
+echo $redis->get('test');  // 1111111111111  
+$redis->delete('test');  
+$redis->setnx('test',"22222222");  
+echo $redis->get('test');  // 22222222  
+?>  
+```
+
+##### 3.6 Exists
+
+- Description: to whether a key is existed
+- Return: 
+	- **true**: success
+	- **false**: failure
+- Example:
+
+	```php
+<?php  
+$redis = new redis();  
+$redis->connect('127.0.0.1', 6379);  
+$redis->set('test',"1111111111111");  
+var_dump($redis->exists('test'));  // bool(true)  
+?> 
+```
+
+##### 3.7 Incr
+
+- Description: to increase the value of a key by one.
+- Return: the new value after the increment
+- Example:
+
+	```php
+<?php  
+$redis = new redis();  
+$redis->connect('127.0.0.1', 6379);  
+$redis->set('test',"123");  
+var_dump($redis->incr("test"));  // int(124)  
+var_dump($redis->incr("test"));  // int(125)  
+?> 
+```
+
+##### 3.8 Decr
+
+- Description: to decrease the value of a key by one.
+- Return: the new value after the decrement
+- Example:
+
+	```php
+<?php  
+$redis = new redis();  
+$redis->connect('127.0.0.1', 6379);  
+$redis->set('test',"123");  
+var_dump($redis->decr("test"));  // int(122)  
+var_dump($redis->decr("test"));  // int(121)  
+?>
+```
+
+<h5> 3.9 <a href="http://www.jb51.net/article/51884.htm" target="_blank"><strong>More Usages</strong></a></h5>
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
