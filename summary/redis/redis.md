@@ -140,7 +140,7 @@ redis> GET mykey
 redis>
 ```
 
-##### [More](http://redis.io/commands)
+##### 2.7 [More](http://redis.io/commands)
 
 ### 3. Usage
 ===
