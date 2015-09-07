@@ -2,7 +2,13 @@
 
 <img src="./logo.png">
 
-### 1. Introduction
+### Menu
+
+- [**1. Introduction**](#1)
+- [**2. Commands**](#2)
+- [**3. Usage in PHP**](#3)
+
+<h3 id="1"> 1. Introduction</h3>
 ===
 
 - Redis is an open source (BSD licensed), in-memory **data structure store**, used as database, cache and message broker.
@@ -15,7 +21,7 @@
 	- 5. allkeys-random: 從數據集(`server.db[i].dict`)中任意選擇數據淘汰.
 	- 6. no-enviction(驅逐): 禁止驅逐數據.
 
-### 2. Command
+<h3 id="2"> ### 2. Commands</h3>
 ===
 
 ##### 2.1 EXISTS key [key ...]
@@ -142,7 +148,7 @@ redis>
 
 <h5> 2.7 <a href="http://redis.io/commands" target="_blank"><strong>More Commands</strong></a></h5>
 
-### 3. Usage
+<h3 id="3"> 3. Usage in PHP</h3>
 ===
 
 ##### 3.1 Connect
