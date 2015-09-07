@@ -15,6 +15,13 @@
 - [**5. 關於建立倉庫**](#5)
 - [**6. 標記, 推送, 回拉鏡像**](#6)
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 <h3 id="1"> 1. 安裝</h3>
 ===
 
@@ -71,6 +78,13 @@ $ docker run -it ubuntu bash
 	- 通過一個免費的Docker Hub帳號, 分享鏡像, 自動化工作流或其他東西: [https://hub.docker.com](https://hub.docker.com)
 	- 更多例子和想法, 請瀏覽: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 <h3 id="2"> 2. 關於鏡像和容器</h3>
 
 ===
@@ -88,6 +102,13 @@ $ docker run -it ubuntu bash
 - 實際當中, 一個Docker鏡像可能只是像`hello-word`鏡像一樣執行一條簡單的, 單一的指令, 然後退出.
 - 然而, 一個Docker鏡像可以承載更多的東西. 如一個鏡像可以啟動像數據庫一樣複雜的軟件, 然後進行操作數據並等待下一個人去操作數據.
 - 那麼是誰創建了`hello-word`鏡像呢? 在這個例子中, 是Docker創建的, 而且我們也可以自己創建自己的鏡像. 如果使用Docker, 你就能運行所有Docker鏡像中能運行的軟件.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="3"> 3. 關於從Docker Hub找到鏡像</h3>
 ===
@@ -119,6 +140,12 @@ docker/whalesay      latest      fb434121fc77        3 hours ago        247 MB
 hello-world          latest      91c95931e552        5 weeks ago        910 B
 ```
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="4"> 4. 關於創建鏡像</h3>
 ===
@@ -253,11 +280,25 @@ hello-world          latest       91c95931e552      5 weeks ago         910 B
 $ docker run docker-whale
 ```
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 <h3 id="5"> 5. 關於建立倉庫</h3>
 ===
 
 ##### Step 1: 在Docker Hub上註冊一個帳號
 ##### Step 2: 驗證郵件並建立倉庫
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="6"> 6. 標記, 推送, 回拉鏡像</h3>
 ===

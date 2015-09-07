@@ -15,6 +15,13 @@
 - [**5. About creating a repository**](#5)
 - [**6. Tag, push and pull images**](#6)
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 <h3 id="1"> 1. Install</h3>
 ===
 
@@ -71,6 +78,12 @@ $ docker run -it ubuntu bash
 	- Share images, automate workflows, and more with a free Docker Hub account: [https://hub.docker.com](https://hub.docker.com)
 	- For more examples and ideas, visit: [https://docs.docker.com/userguide/](https://docs.docker.com/userguide/)
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="2"> 2. About images & containers</h3>
 ===
@@ -88,6 +101,13 @@ $ docker run -it ubuntu bash
 - Depending on how it was built, an image might run a simple, single command and then exit. This is what `hello-world` did.
 - A Docker image, though, is capable of much more. An image can start software as complex as a database, wait for you (or someone else) to add data, store the data for later use, and then wait for the next person.
 - Who built the `hello-world` software image though? In this case, Docker did but anyone can. Docker lets people (or companies) create and share software through Docker images. Using Docker, you don’t have to worry about whether your computer can run the software in a Docker image — a Docker container can always run it.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="3"> 3. About finding the whalesay image</h3>
 ===
@@ -119,6 +139,13 @@ REPOSITORY           TAG         IMAGE ID            CREATED            VIRTUAL 
 docker/whalesay      latest      fb434121fc77        3 hours ago        247 MB
 hello-world          latest      91c95931e552        5 weeks ago        910 B
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="4"> 4. About building an image</h3>
 ===
@@ -253,12 +280,25 @@ hello-world          latest       91c95931e552      5 weeks ago         910 B
 $ docker run docker-whale
 ```
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="5"> 5. About creating a repository</h3>
 ===
 
 ##### Step 1: Sign up an acount on Docker Hub
 ##### Step 2: Verify your email and add a repository
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="6"> 6. Tag, push and pull images</h3>
 ===

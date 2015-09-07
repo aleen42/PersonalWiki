@@ -14,8 +14,6 @@
 <br />
 <br />
 <br />
-<br />
-<br />
 
 <h3 id="1"> 1. Introduction</h3>
 ===
@@ -29,6 +27,13 @@
 	- 4. allkeys-lru: 從數據集(`server.db[i].dict`)中挑選最近最少使用的數據淘汰.
 	- 5. allkeys-random: 從數據集(`server.db[i].dict`)中任意選擇數據淘汰.
 	- 6. no-enviction(驅逐): 禁止驅逐數據.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="2"> 2. Commands</h3>
 ===
@@ -156,6 +161,13 @@ redis>
 ```
 
 <h5> 2.7 <a href="http://redis.io/commands" target="_blank"><strong>More Commands</strong></a></h5>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <h3 id="3"> 3. Usage in PHP</h3>
 ===
