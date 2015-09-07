@@ -140,7 +140,7 @@ redis> GET mykey
 redis>
 ```
 
-##### 2.7 [More Commands](http://redis.io/commands){:target="_blank"}
+<h5> 2.7 <a href="http://redis.io/commands" target="_blank"><strong>More Commands</strong></a></h5>
 
 ### 3. Usage
 ===
