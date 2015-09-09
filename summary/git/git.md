@@ -34,12 +34,29 @@ $ git branch dev
 $ git checkout dev
 ```
 
-- **②**. 功能開發**主導人**針對一個功能從dev分支新建一條Function分支進行開發. (注: 以**Function_name**命名)
+- **②**. **項目負責人**在服務器上基於基於dev分支在服務器上新建一條Function分支進行開發, **主導人**把Function分支拉到本地. (注: 以**Function_name**命名)
+
+```bash
+$ git checkout -b Function_name
+```
+
 - **③**. 針對開發情況:
 	- 單人開發該功能: 只需要該條Function分支即可
-	- 多人開發該功能: 需要建立多條Function_xxx分支來開發. (注: 以**Function_name**+**Developer_name**命名, 各開發人員只需要拉屬於自己的分支下來本地進行開發, 並用該分支進行代碼上傳即可)
-- **④**. 功能開發完成後, **主導人**把幾個人協同開發的代碼合併到一條分支後, 統一合併到Function分支並進行相應的衝突處理, 然後debug該Function分支.
-- **⑤**. 當Function分支可運行並完成功能後, **主導人**提交並合併到dev分支, 進行debug和衝突處理.
+	- 多人開發該功能: 需要在服務器上建立多條Function_xxx分支來開發. (注: 以**Function_name**+**Developer_name**命名, 各開發人員只需要拉屬於自己的分支下來本地進行開發, 並用該分支進行代碼上傳即可)
+	```bash
+	$ git checkout -b Function_name_xxx
+```
+
+- **④**. 功能開發完成後, **主導人**把幾個人協同開發的代碼合併到一條分支後, 統一推送到Function分支, 由**項目負責人**合併Function分支到dev分支.
+
+```bash
+$ git checkout Function_name
+$ git merge Function_name_xxx
+$ git pull origin Function_name					// origin: 通過 $ git remote 查看
+$ git push origin Function_name:Function_name			// 冒號左邊為本地分支, 冒號右邊為遠程分支
+```
+
+- **⑤**. 當Function分支可運行並完成功能後, **主導人**提交並推送到Function分支的最終代碼, 然後由**項目負責人**進行合併操作.
 	- Function分支的提交格式:
 	```
 Title:
