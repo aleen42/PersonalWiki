@@ -21,7 +21,19 @@
 
 ### Developing Process(開發過程)
 
-- **①**. 新版本**項目負責人**新建一條dev分支
+- **①**. 新版本**項目負責人**在服務器上新建一條dev分支
+
+```bash
+$ git checkout -b dev
+```
+
+或
+
+```bash
+$ git branch dev
+$ git checkout dev
+```
+
 - **②**. 功能開發**主導人**針對一個功能從dev分支新建一條Function分支進行開發. (注: 以**Function_name**命名)
 - **③**. 針對開發情況:
 	- 單人開發該功能: 只需要該條Function分支即可
