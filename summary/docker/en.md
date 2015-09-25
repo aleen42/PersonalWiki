@@ -4,7 +4,7 @@
 
 ### Othere Languages
 
-- [**Chinese**](./zn.md)
+- [**Chinese**](./zh.md)
 
 ### Menu
 

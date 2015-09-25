@@ -1,7 +1,7 @@
 ## Docker	[Back](./../summary.md)
 
 - [**English**](./en.md)
-- [**中文**](./zn.md)
+- [**中文**](./zh.md)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
