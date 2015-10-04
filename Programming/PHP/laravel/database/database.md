@@ -213,7 +213,7 @@ DB::commit();
 
 ###### Retrieving All Rows From A Table
 
-	```php
+```php
 $users = DB::table('users')->get();
 
 return view('user.index', ['users' => $users]);
