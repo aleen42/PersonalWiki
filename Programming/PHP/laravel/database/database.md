@@ -39,17 +39,17 @@ use App\Http\Controllers\Controller;
 
 class UserController extends Controller
 {
-    /**
-     * Show a list of all of the application's users.
-     *
-     * @return Response
-     */
-    public function index()
-    {
-        $users = DB::select('select * from users where active = ?', [1]);
+	/**
+	* Show a list of all of the application's users.
+	*
+     	* @return Response
+     	*/
+    	public function index()
+    	{
+        	$users = DB::select('select * from users where active = ?', [1]);
 
-        return view('user.index', ['users' => $users]);
-    }
+        	return view('user.index', ['users' => $users]);
+    	}
 }
 ```
 
