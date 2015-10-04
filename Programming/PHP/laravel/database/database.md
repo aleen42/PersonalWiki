@@ -9,19 +9,19 @@
 - Note that two keys have been added to the configuration array: `read` and `write`. Both of these keys have array values containing a single key: `host`. The rest of the database options for the `read` and `write` connections will be merged from the main `mysql` array.
 	```php
 'mysql' => [
-    'read' => [
-        'host' => '192.168.1.1',
-    ],
-    'write' => [
-        'host' => '196.168.1.2'
-    ],
-    'driver'    => 'mysql',
-    'database'  => 'database',
-    'username'  => 'root',
-    'password'  => '',
-    'charset'   => 'utf8',
-    'collation' => 'utf8_unicode_ci',
-    'prefix'    => '',
+	'read' => [
+		'host' => '192.168.1.1',
+	],
+	'write' => [
+		'host' => '196.168.1.2'
+    	],
+    	'driver'    => 'mysql',
+    	'database'  => 'database',
+    	'username'  => 'root',
+    	'password'  => '',
+    	'charset'   => 'utf8',
+    	'collation' => 'utf8_unicode_ci',
+    	'prefix'    => '',
 ],
 ```
 
@@ -53,6 +53,7 @@ class UserController extends Controller
 ```
 
 - The first argument passed to the `select` method is the raw SQL query, while the second argument is any parameter bindings that need to be bound to the query. Typically, these are the values of the `where` clause constraints. Parameter binding provides protection against SQL injection.
+
 - The `select` method will always return an `array` of results. Each result within the array will be a PHP `StdClass` object, allowing you to access the values of the results:
 	```php
 foreach ($users as $user) {
