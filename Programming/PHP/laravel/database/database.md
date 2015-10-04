@@ -4,6 +4,26 @@
 
 - The database configuration file is located in **./conf/database.php**.
 
+### Menu
+
+- <a href="#1"><strong>Raw SQL Queries</strong></a>
+- <a href="#2"><strong>Query Builder</strong></a>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<h1 id="1"> Raw SQL Queries</h1>
+
 ### Running Raw SQL Queries
 
 ##### Read / Write Connections
@@ -175,6 +195,9 @@ DB::rollBack();
 	```php
 DB::commit();
 ```
+
+<h1 id="2"> Query Builder</h1>
+
 
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
 =====
