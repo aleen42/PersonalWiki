@@ -7,6 +7,7 @@
 ##### Read / Write Connections
 
 - Note that two keys have been added to the configuration array: `read` and `write`. Both of these keys have array values containing a single key: `host`. The rest of the database options for the `read` and `write` connections will be merged from the main `mysql` array.
+
 	```php
 'mysql' => [
 	'read' => [
