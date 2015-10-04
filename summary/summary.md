@@ -26,6 +26,7 @@
 * [**Redis**](./redis/redis.md)
 * [**Jpush**](./jpush/jpush.md)
 * [**Git**](./git/git.md)
+* [**Laravel**](./../Programming/PHP/laravel/laravel.md)
 
 <br />
 <br />
