@@ -67,6 +67,7 @@ foreach ($users as $user) {
 ###### Using Named Bindings
 
 - Instead of using `?` to represent your parameter bindings, you may execute a query using named bindings:
+	
 	```php
 $results = DB::select('select * from users where id = :id', ['id' => 1]);
 ```
@@ -74,6 +75,7 @@ $results = DB::select('select * from users where id = :id', ['id' => 1]);
 ###### Running An Insert Statement
 
 - To execute an `insert` statement, you may use the `insert` method on the `DB` facade. Like `select`, this method takes the raw SQL query as its first argument, and bindings as the second argument:
+	
 	```php
 DB::insert('insert into users (id, name) values (?, ?)', [1, 'Dayle']);
 ```
@@ -81,6 +83,7 @@ DB::insert('insert into users (id, name) values (?, ?)', [1, 'Dayle']);
 ###### Running An Update Statement
 
 - The `update` method should be used to update existing records in the database. The number of rows affected by the statement will be returned by the method:
+	
 	```php
 $affected = DB::update('update users set votes = 100 where name = ?', ['John']);
 ```
@@ -88,6 +91,7 @@ $affected = DB::update('update users set votes = 100 where name = ?', ['John']);
 ###### Running A Delete Statement
 
 - The `delete` method should be used to delete records from the database. Like `update`, the number of rows deleted will be returned:
+	
 	```php
 $deleted = DB::delete('delete from users');
 ```
@@ -95,6 +99,7 @@ $deleted = DB::delete('delete from users');
 ###### Running A General Statement
 
 - Some database statements should not return any value. For these types of operations, you may use the `statement` method on the `DB` facade:
+	
 	```php
 DB::statement('drop table users');
 ```
