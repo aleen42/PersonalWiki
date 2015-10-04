@@ -219,6 +219,18 @@ $users = DB::table('users')->get();
 return view('user.index', ['users' => $users]);
 ```
 
+##### Retrieving A Single Row / Column From A Table
+
+```php
+$user = DB::table('users')->where('name', 'John')->first();
+
+echo $user->name;
+```
+
+```php
+$email = DB::table('users')->where('name', 'John')->value('email');
+```
+
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
