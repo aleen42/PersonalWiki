@@ -219,7 +219,7 @@ $users = DB::table('users')->get();
 return view('user.index', ['users' => $users]);
 ```
 
-##### Retrieving A Single Row / Column From A Table
+###### Retrieving A Single Row / Column From A Table
 
 ```php
 $user = DB::table('users')->where('name', 'John')->first();
@@ -230,6 +230,64 @@ echo $user->name;
 ```php
 $email = DB::table('users')->where('name', 'John')->value('email');
 ```
+
+###### Chunking(大塊) Results From A Table
+
+```php
+DB::table('users')->chunk(100, function($users) {
+	// Process the records...
+
+	return false;
+});
+```
+
+###### Retrieving A List Of Column Values (custom key)
+
+```php
+$roles = DB::table('roles')->lists('title', 'name');
+
+foreach ($roles as $name => $title) {
+	echo $title;
+}
+```
+
+###### Aggregates(集合)
+
+- `count`, `sum`, `avg`, `max` and `min`.
+
+```php
+$users = DB::table('users')->count();
+
+$price = DB::table('orders')->max('price');
+```
+
+### Selects
+
+###### Specifying A Select Clause
+
+```php
+$users = DB::table('users')->select('name', 'email as user_email')->get();
+```
+
+```php
+$users = DB::table('users')->distinct()->get();
+```
+
+```php
+$query = DB::table('users')->select('name');
+
+$users = $query->addSelect('age')->get();
+```
+
+```php
+$users = DB::table('users')
+                     ->select(DB::raw('count(*) as user_count, status'))
+                     ->where('status', '<>', 1)
+                     ->groupBy('status')
+                     ->get();
+```
+
+
 
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
 =====
