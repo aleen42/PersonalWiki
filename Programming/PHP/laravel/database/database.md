@@ -28,6 +28,8 @@
 
 ##### Running Raw SQL Queries
 
+###### Running A Select Query
+
 - Once you have configured your database connection, you may run queries using the `DB` facade. The `DB` facade provides methods for each type of query: `select`, `update`, `insert`, `delete`, and `statement`.
 	```php
 <?php
@@ -59,6 +61,79 @@ class UserController extends Controller
 	```php
 foreach ($users as $user) {
     echo $user->name;
+}
+```
+
+###### Using Named Bindings
+
+- Instead of using `?` to represent your parameter bindings, you may execute a query using named bindings:
+	```php
+$results = DB::select('select * from users where id = :id', ['id' => 1]);
+```
+
+###### Running An Insert Statement
+
+- To execute an `insert` statement, you may use the `insert` method on the `DB` facade. Like `select`, this method takes the raw SQL query as its first argument, and bindings as the second argument:
+	```php
+DB::insert('insert into users (id, name) values (?, ?)', [1, 'Dayle']);
+```
+
+###### Running An Update Statement
+
+- The `update` method should be used to update existing records in the database. The number of rows affected by the statement will be returned by the method:
+	```php
+$affected = DB::update('update users set votes = 100 where name = ?', ['John']);
+```
+
+###### Running A Delete Statement
+
+- The `delete` method should be used to delete records from the database. Like `update`, the number of rows deleted will be returned:
+	```php
+$deleted = DB::delete('delete from users');
+```
+
+###### Running A General Statement
+
+- Some database statements should not return any value. For these types of operations, you may use the `statement` method on the `DB` facade:
+	```php
+DB::statement('drop table users');
+```
+
+##### Listening For Query Events
+
+- If you would like to receive each SQL query executed by your application, you may use the `listen` method. This method is useful for logging queries or debugging.
+
+	```php
+<?php
+
+namespace App\Providers;
+
+use DB;
+use Illuminate\Support\ServiceProvider;
+
+class AppServiceProvider extends ServiceProvider
+{
+	/**
+     	* Bootstrap any application services.
+     	*
+     	* @return void
+     	*/
+    	public function boot()
+    	{
+        	DB::listen(function($sql, $bindings, $time) {
+            	//
+        	});
+    	}
+
+    	/**
+     	* Register the service provider.
+     	*
+     	* @return void
+     	*/
+    	public function register()
+    	{
+        	//
+    	}
 }
 ```
 
