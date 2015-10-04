@@ -4,6 +4,8 @@
 
 - The database configuration file is located in **./conf/database.php**.
 
+### Running Raw SQL Queries
+
 ##### Read / Write Connections
 
 - Note that two keys have been added to the configuration array: `read` and `write`. Both of these keys have array values containing a single key: `host`. The rest of the database options for the `read` and `write` connections will be merged from the main `mysql` array.
@@ -140,6 +142,38 @@ class AppServiceProvider extends ServiceProvider
         	//
     	}
 }
+```
+
+### Database Transactions
+
+- To run a set of operations within a database transaction, you may use the `transaction` method on the `DB` facade. If an exception is thrown within the transaction `Closure`, the transaction will automatically be rolled back. If the `Closure` executes successfully, the transaction will automatically be committed. You don't need to worry about manually rolling back or committing while using the `transaction` method:
+
+	```php
+DB::transaction(function () {
+	DB::table('users')->update(['votes' => 1]);
+
+	DB::table('posts')->delete();
+});
+```
+
+##### Manually Using Transactions
+
+- If you would like to begin a transaction manually and have complete control over rollbacks and commits, you may use the `beginTransaction` method on the `DB` facade:
+
+	```php
+DB::beginTransaction();
+```
+
+- You can rollback the transaction via the `rollBack` method:
+
+	```php
+DB::rollBack();
+```
+
+- Lastly, you can commit a transaction via the `commit` method:
+
+	```php
+DB::commit();
 ```
 
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
