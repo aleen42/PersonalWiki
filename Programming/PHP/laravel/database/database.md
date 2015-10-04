@@ -196,8 +196,28 @@ DB::rollBack();
 DB::commit();
 ```
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 <h1 id="2"> Query Builder</h1>
 
+### Introduction
+
+- The database **query builder** provides a **convenient**, **fluent** interface to creating and running database queries.
+
+### Retrieving Results
+
+###### Retrieving All Rows From A Table
+
+	```php
+$users = DB::table('users')->get();
+
+return view('user.index', ['users' => $users]);
+```
 
 <a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
 =====
