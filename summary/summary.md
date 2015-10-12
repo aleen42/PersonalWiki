@@ -9,6 +9,7 @@
 * [**(Week 7) September 14th**](./2/3.md)
 * [**(Week 8) September 21st**](./2/4.md)
 * [**(Week 9) October 4th**](./3/1.md)
+* [**(Week 10) October 12nd**](./3/2.md)
 
 <br />
 <br />
