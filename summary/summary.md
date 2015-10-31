@@ -11,6 +11,7 @@
 * [**(Week 9) October 4th**](./3/1.md)
 * [**(Week 10) October 12nd**](./3/2.md)
 * [**(Week 11) October 19th**](./3/3.md)
+* [**(Week 12) October 26th**](./3/4.md)
 
 <br />
 <br />
