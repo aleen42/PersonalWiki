@@ -1,4 +1,4 @@
-## JavaScript Framework [Back](./../JavaScript.md)
+## JavaScript Framework | Library [Back](./../JavaScript.md)
 * [**Modernizer**](./Modernizer/Modernizer.md)
 * [**Interact**](./Interact/Interact.md)
 * [**Classie**](./Classie/Classie.md)
