@@ -16,6 +16,7 @@
  * [**Software Architecture**](./Architecture/Architecture.md)
  * [**Multimedia**](./Multimedia/Multimedia.md)
  * [**Git**](./git/git.md)
+ * [**Video & Image**](./vi/vi.md)
 
 ### Designer
  * [**Creativity**](./Creativity/Creativity.md)
