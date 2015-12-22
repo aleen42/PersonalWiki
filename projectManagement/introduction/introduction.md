@@ -1,6 +1,6 @@
 ## Introduction	[Back](./../projectManagement.md)
 
-### Importance of project management
+### 1. Importance of project management
 
 - A 1995 Standish Group study (CHAOS) found that only 16.2% of IT projects were successful in meeting scope, time, and cost goals; over 31% of IT projects were canceled before completion.
 - A PricewaterhouseCoopers study found that overall half of all projects fail and only 2.5% of corporations consistently meet their targets for scope, time, and cost goals for all types of project.
@@ -15,7 +15,7 @@
 	- Better internal coordination
 	- Higher worker morale(士氣)
 
-### Definitons
+### 2. Definitons
 
 - **Projects**: 
 	- operations(業務) is work done to sustain(支撐) the business.
@@ -33,7 +33,7 @@
 	- suppliers
 	- opponents(競爭對手) to the project
 
-### The triple constraint
+### 3. The triple constraint
 
 <img src="./triple_constraint.jpg">
 
@@ -54,7 +54,7 @@
 		- Who can approve changes to the schedule?
 - **quadruple constraint** includes **quality** as well.
 
-### The frameswork of project management
+### 4. The frameswork of project integration management
 
 <img src="./framework.jpg">
 
