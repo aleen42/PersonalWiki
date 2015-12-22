@@ -15,6 +15,23 @@
 	- Better internal coordination
 	- Higher worker morale(士氣)
 
+### Definiton of a project
+
+- operations(業務) is work done to sustain(支撐) the business.
+- end when: 
+	- their objectives have been reached
+	- the project has been terminated.
+- can be large or small, and take a long or short time to complete.
+
+### The triple constraint
+
+<img src="./triple_constraint.jpg>
+
+- there is a triple constraint of project management:
+	- Scope:
+	- Cost:
+	- Time:
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
