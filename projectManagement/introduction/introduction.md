@@ -25,7 +25,7 @@
 
 ### The triple constraint
 
-<img src="./triple_constraint.jpg>
+<img src="./triple_constraint.jpg">
 
 - there is a triple constraint of project management:
 	- Scope:
