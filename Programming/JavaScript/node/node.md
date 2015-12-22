@@ -1,6 +1,6 @@
 ## NodeJs [Back](./../JavaScript.md)
 
-###Update
+### Update the version of `Node`
 
 - check the version
 
@@ -18,6 +18,27 @@ sudo npm install -g n
 
 ```sh
 sudo n stable
+```
+
+### Require models
+
+- install models
+
+```sh
+# install it in the local directory
+npm install <model_name>
+```
+or
+
+```sh
+# install it in the global environment
+sudo npm install -g <model_name>
+```
+
+- use the models (eg. **request**)
+
+```js
+var request = require('request');
 ```
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
