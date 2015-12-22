@@ -15,22 +15,48 @@
 	- Better internal coordination
 	- Higher worker morale(士氣)
 
-### Definiton of a project
+### Definitons
 
-- operations(業務) is work done to sustain(支撐) the business.
-- end when: 
-	- their objectives have been reached
-	- the project has been terminated.
-- can be large or small, and take a long or short time to complete.
+- **Projects**: 
+	- operations(業務) is work done to sustain(支撐) the business.
+	- end when: 
+		- their objectives have been reached
+		- the project has been terminated.
+	- can be large or small, and take a long or short time to complete.
+- **Stakeholders**: the people involved in of affected by project activities.
+	- the project sponsor
+	- the project manager
+	- the project team
+	- support staff
+	- customers
+	- users
+	- suppliers
+	- opponents(競爭對手) to the project
 
 ### The triple constraint
 
 <img src="./triple_constraint.jpg">
 
-- there is a triple constraint of project management:
+- there is a **triple constraint** of project management:
 	- Scope:
+		- What work will be done as part of the project?
+		- What unique product, service or result does the  customer or sponsor expect from the project?
+		- How will the scope verified(證實)?
 	- Cost:
+		- What should it cost to complete the project?
+		- What is the project's budget?
+		- How will costs be tracked?
+		- Who can authorize changes to the budget?
 	- Time:
+		- How long it take to complete the project?
+		- What is the project’s schedule?
+		- How will the team track actual schedule performance?
+		- Who can approve changes to the schedule?
+- **quadruple constraint** includes **quality** as well.
+
+### The frameswork of project management
+
+<img src="./framework.jpg">
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
