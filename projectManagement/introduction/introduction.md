@@ -58,6 +58,31 @@
 
 <img src="./framework.jpg">
 
+- Knowledge Areas(KA):
+	- **Stakeholders(有權益關係者) Management**: Helps you identify and manage relationship with people who can impact(衝擊) or who get impacted by the project.
+	- **Procurement(採購) Management**: If at all some part of yor project work is to be done by an expert seller, this KA has all the know-how(專業知識) of how to deal with it.
+	- **Risk Management**: There will be plenty of threats as well as opportunities. Identify them. Analyze them. Prepare for them. When they do happen, address and control them!
+	- **Communication Management**: Helps you keep all stakeholders in the know. Distribute right information to the right people at the right time.
+	- **Human Resources Management**: People, People, People! A crucial(至關重要的) element of success for any project. And, most challenging for the Project Manager. Why? Because dealing with people needs great deal of interpersonal(人際) skills!
+	- **Integration Management**(the start point): integrating processes covers from Initiating to Closing of the project or phase.
+	- **Scope Management**: Helps you understand stakeholders' expectations out of the project. (very crucial)
+	- **Time Management**: You will be able to identify project activities, identify dependencies, estimate ther resource and durations are estimated, and create project schedure right here!
+	- **Cost Management**: Address all type of costs - *direct & indirect costs*, related to quality, resources, risks and procurement.
+	- **Quality Management**: Figure out what is needed to ensure that project produces PSR(*product*/*service*/*result*) that is in line with stakeholders' expectations - not more, not less!
+
+### 5. Factors to help projects succeed
+
+- User involvement
+- Executive support(行政支持)
+- Clear business objectives
+- Emotional maturity(情感成熟度)
+- Optimizing scope(樂觀領域)
+- Agile process
+- Project mangement expertice(專業知識)
+- Skilled resources
+- Execution
+- Tools and infrastructure(基礎設施)
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
