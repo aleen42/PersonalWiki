@@ -14,6 +14,7 @@
  * [**OS**](./OS/OS.md)
  * [**Embedded System**](./Embedded_System/Embedded_System.md)
  * [**Software Architecture**](./Architecture/Architecture.md)
+ * [**Project Management**](./projectManagement/projectManagement.md)
  * [**Multimedia**](./Multimedia/Multimedia.md)
  * [**Git**](./git/git.md)
  * [**Video & Image**](./vi/vi.md)
