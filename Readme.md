@@ -23,6 +23,10 @@
  * [**Creativity**](./Creativity/Creativity.md)
  * [**WeByDo**](http://www.webydo.com/)
 
+### Questions & Answer
+
+* [**Q&A**](./qa/qa.md)
+
 ### Idols
  * [**Sara Soueidan**](http://sarasoueidan.com/)
  * [**Chris Gannon**](http://blog.gannon.tv/)
