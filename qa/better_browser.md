@@ -10,7 +10,7 @@
 
 #### Adjust settings
 
--1. disable third-party cookies.
+- 1. disable third-party cookies.
 	- Third-party cookies are tracking identifiers used by advertising networks to track your behavior as you browse from website to website. They are an abomination(憎惡) and serve no legitimate(合法使用的) purpose.
 		- Firefox: **Preferences** > **Privacy** > **Accept third-party cookies** > **Never**.
 		- Chrome: **Settings** > **Show advanced settings…** > **Content settings** > **Block third-party cookies and site data**.
