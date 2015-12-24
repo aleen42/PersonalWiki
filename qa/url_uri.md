@@ -1,4 +1,4 @@
-## Differences between URL and URI [Back](./../qa.md)
+## Differences between URL and URI [Back](./qa.md)
 
 - 概念常見於**Java**
 - **URI**(Uniform Resource Identifier): 統一資源標識符, 用來唯一識別一個資源. (URI只是語義上的抽象概念, 可是絕對路徑或相對路徑)
@@ -7,6 +7,6 @@
 	- URL一般格式: ```scheme://host:port/path?```
 - **URN**(Uniform Resource Name): 统一资源命名, 通過名字來標識資源. 如: ```mailto:java-net@java.sun.com```
 
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
+<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
+<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
