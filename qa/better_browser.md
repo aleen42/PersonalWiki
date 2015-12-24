@@ -32,12 +32,14 @@
 ##### Essential extensions
 
 - These are absolutely essential browser extensions that everyone should be using all the time. They are stable, open source, and rarely cause websites to break.
+
+------
 - <img src="./better_browser_icon1.png"> [**uBlock**](https://github.com/gorhill/uBlock) prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
 
-======
+------
 - <img src="./better_browser_icon2.png"> [**HTTPS Everywhere**](https://www.eff.org/https-everywhere) will automatically switch to secure TLS connections whenever the website supports it. This helps to protect against surveillance of the content of your web browsing, although it does not hide which websites you are visiting (unless you also run [Tor](https://help.riseup.net/en/security/network-security/tor) or a [VPN](https://help.riseup.net/en/vpn)).
 
-======
+------
 - <img src="./better_browser_icon3.png"> [**Privacy Badger**](https://www.eff.org/privacybadger) dynamically detects attempts to track your browsing behavior and blocks content from these trackers. Privacy Badger is not designed to stop ads, so it is not a replacement for uBlock, but it includes some security features that uBlock does not have.
 
 ##### Advanced extensions
