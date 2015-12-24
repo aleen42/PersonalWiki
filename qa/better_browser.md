@@ -34,7 +34,9 @@
 - These are absolutely essential browser extensions that everyone should be using all the time. They are stable, open source, and rarely cause websites to break.
 
 ======
-<img src="./better_browser_icon1.png"> - uBlock prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
+
+- <img src="./better_browser_icon1.png"> uBlock prevents most advertisements and tracking networks. It is similar to Adblock Plus or Disconnect but works better and is much faster.
+
 ======
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
