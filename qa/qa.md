@@ -2,6 +2,7 @@
 
 - **Q&A** is a small branch of wiki to collect different small knowledges according to questions which we always meet.
 - [**How to use browser better**](./better_browser.md)
+- [**How PGP encryption work**](./pgp/pgp.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
