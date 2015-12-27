@@ -8,7 +8,7 @@
 	- Face Detection
 	- ...
 
-- With the reason that the [**document**] about how to compile is too old to use for the Visual Studio 2013, here I have written a document to describe how can we setup Dlib in the version 2013 without CMake.
+- With the reason that the [**document**](http://dlib.net/compile.html) about how to compile is too old to use for the Visual Studio 2013, here I have written a document to describe how can we setup Dlib in the version 2013 without CMake.
 
 ### Proccess
 
