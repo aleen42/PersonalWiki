@@ -15,7 +15,7 @@
 - Version: Visual Studio 2013 (with update 4)
 - The most important things to do before the follow steps is to get your **Visual Studio 2013**
 
-##### 1. Properties
+##### 1. Set up the properties
 
 - In this step, you'll need to find out the Property Manager. Here you can see the screen shot of both English Version and Chinese one.
 	- en: <img src="./dlib_2.png">
@@ -26,8 +26,33 @@
 - Open the project, you'll see two directory named **Debug|Win32** and **Release|Win32**. So in the next step, you should click each with right button of your mouse to **Add New Project Property Sheet**.
 	- en: <img src="./dlib_6.png">
 	- zh: <img src="./dlib_5.png">
+- Here, you can see that I have created sheets for each directory, **dlib_debug** and **dlib_release**. What you should do is to find out **Common Properties** > **VC++ Directories**, and setup two properties, **Include Directories** and **Library Directories**.
+	- en: <img src="./dlib_8.png">
+	- zh: <img src="./dlib_7.png">
+- The path you should set for your own is shown as follows(the path of dlib source files for me is *F:\School\Programing\C++ Programing\OpenCV\Dlib\Lib\dlib*):
+	- en: <img src="./dlib_10.png"> <img src="./dlib_12.png">
+	- zh: <img src="./dlib_9.png"> <img src="./dlib_11.png">
+- In additionally, you should set up the preprocessor globaly for all the projects using Dlib.
+	- en: <img src="./dlib_14.png">
+	- zh: <img src="./dlib_13.png">
+- *Notice that **dlib_release** should be setup like **dlib_debug**.*
 
+##### 2. Include source.cpp
 
+- For all projects using Dlib, the things you should do before is to include the source.cpp. Without it, Visual Studio will have given out some errors like *cannot parse the external link*.
+	- en: <img src="./dlib_16.png">
+	- zh: <img src="./dlib_15.png">
+
+##### 3. Import all the external src files
+
+- The last thing to do is to import all the external file from *dlib\external*. For clear structures, you can create some directories to distinguish them as what I did.
+- Firstly, add existed items to the Source File Directory of your project.
+	- en: <img src="./dlib_18.png">
+	- zh: <img src="./dlib_17.png">
+- And then choose all the files from *dlib\external* to add.
+	- en: <img src="./dlib_20.png">
+	- zh: <img src="./dlib_19.png">
+- Finally, the dlib can be used after all those things have been done.
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
