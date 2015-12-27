@@ -20,6 +20,12 @@
 - In this step, you'll need to find out the Property Manager. Here you can see the screen shot of both English Version and Chinese one.
 	- en: <img src="./dlib_2.png">
 	- zh: <img src="./dlib_1.png">
+- And then, you'll see that the manager will appear in your right bars, maybe when it's not for you, you can find it in other bars.
+	- en: <img src="./dlib_4.png">
+	- zh: <img src="./dlib_3.png">
+- Open the project, you'll see two directory named **Debug|Win32** and **Release|Win32**. So in the next step, you should click each with right button of your mouse to **Add New Project Property Sheet**.
+	- en: <img src="./dlib_6.png">
+	- zh: <img src="./dlib_5.png">
 
 
 
