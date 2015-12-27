@@ -13,7 +13,7 @@
 ### Proccess
 
 - Version: Visual Studio 2013 (with update 4)
-- The most important things to do before the follow steps is to get your **Visual Studio 2013**
+- The most important things to do before the follow steps is to get your own **Visual Studio 2013** first.
 
 ##### 1. Set up the properties
 
