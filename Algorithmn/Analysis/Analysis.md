@@ -11,11 +11,11 @@
 
 <img src="./thoughts.png">
 
-- Sometimes, the **perfomance** of an algorithmn matters so much, when the size of a problem **n** is so big.
+- Sometimes, the **performance** of an algorithm matters so much, when the size of a problem **n** is so big.
 
 <img src="./overhead.png" width="75%">
 
-- But it's not always true for high perfomance, when an algorithmn depends on what is more important like the following items:
+- But it's not always true for high performance, when an algorithm depends on what is more important like the following items:
 	- modularity(模塊性)
 	- correctness(正確性)
 	- maintainabillity(可維護性)
