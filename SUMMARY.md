@@ -85,4 +85,10 @@
         * Awards
     * [WeByDo](http://www.webydo.com/)
 - Questions & Answer
-    * [**Q&A**](./qa/qa.md)
+    * [Q&A](./qa/qa.md)
+        * [How to use browser better](./better_browser.md)
+        * [How PGP encryption works](./pgp.md)
+        * [How to setup Dlib in the Visual Studio 2013](./dlib.md)
+        * [What is ETag](./etag.md)
+        * [What is Gist](./gist.md)
+        - [**Differences between URL, URI and URN**](./url_uri.md)
