@@ -10,7 +10,7 @@
 - 局部極小: 是一種利用貪心和领域函数去尋找更優解的思想
 
 ### 典型問題及算法
-- **Genetic Algorithmn**
-- **Simulated Annealing Algorithmn**
+- **Genetic Algorithm**
+- **Simulated Annealing Algorithm**
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
