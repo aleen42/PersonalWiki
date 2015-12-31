@@ -99,7 +99,7 @@
 - Books
     * Coder
     	* [Antirez's news](./antirez/antirez.md)
-     	* [Gates Notes**](http://www.gatesnotes.com/books)
-     	* [**Front-End**](./frontend/frontend.md)
+     	* [Gates Notes](http://www.gatesnotes.com/books)
+     	* [Front-End](./frontend/frontend.md)
     * Designer
-    	* [**Kenya Hara**](./kenyahara/kenyahara.md)
+    	* [Kenya Hara](./kenyahara/kenyahara.md)
