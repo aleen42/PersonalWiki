@@ -1,4 +1,4 @@
-## Encode Menu	[Back](./../Algorithmn%20Menu.md)
+## Encode Menu	[Back](./../AlgorithmnMenu.md)
 
 * [Huffman Coding](./Huffman/Huffman.md)
 * [Arithmetic Coding](./Arithmetic/Arithmetic.md)

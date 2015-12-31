@@ -1,4 +1,4 @@
-## Computability	[Back](./../Algorithmn%20Menu.md)
+## Computability	[Back](./../AlgorithmnMenu.md)
 - 探索一個問題的Computability主要從兩個方面討論
 	- In Theory
 		- 並不是所有的數學問題都是理論上可解決的.
