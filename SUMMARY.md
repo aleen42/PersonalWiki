@@ -101,6 +101,10 @@
                 * Single-source Shortest Path Problem
                 	* [Dijkstra Algorithmn](./Algorithmn/Analysis/Greedy/Dijkstra/Dijkstra.md)
         	* [Search](./Algorithmn/Analysis/Search/Search.md)
+        	    * Back-Tracking
+                	- [N-Queen Problem](./Algorithmn/Analysis/Search/NQueen/NQueen.md)
+                * Branch & Bound
+                	* [15-Puzzle Problem](./Algorithmn/Analysis/Search/15Puzzle/15Puzzle.md)
         	* [Random](./Algorithmn/Analysis/Random/Random.md)
         * [Sort](./Algorithmn/Sort/Sort.md)
         * [Encode](./Algorithmn/Encode/Encode.md)
