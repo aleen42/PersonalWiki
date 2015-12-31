@@ -132,7 +132,7 @@
         * Life
             * [Recruitment for start-up companies](./recruitment/recruitment.md)
     * [Database](./Database/Database.md)
-    * 
+    
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
