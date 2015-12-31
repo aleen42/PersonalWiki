@@ -43,9 +43,6 @@
 ### Job
 - [**Summary**](./summary/summary.md)
 
-## Supported
- * Thanks to [July](https://www.github.com/julycoding) for how to build a wiki.
-
 ## Thank you
 
 <img src="./Thank_you.png">
