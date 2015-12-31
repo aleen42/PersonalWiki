@@ -25,5 +25,4 @@
 
 <img src="./state_tree_lc_search.png">
 
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
