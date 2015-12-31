@@ -1,8 +1,8 @@
 ## C# Menu [Back](./../ProgrammingMenu.md)
-* [Args](./../C%23/Args/Args.md)
-* [BitOperation](./../C%23/BitOperation/BitOperation.md)
-* [File](./../C%23/File/File.md)
-* [Enum](./../C%23/Enum/Enum.md)
+* [Args](./../CSharp/Args/Args.md)
+* [BitOperation](./../CSharp/BitOperation/BitOperation.md)
+* [File](./../CSharp/File/File.md)
+* [Enum](./../CSharp/Enum/Enum.md)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
