@@ -158,9 +158,9 @@
                 * [RPC](./Network/Application/rpc/rpc.md) (Remote Porcedure Call)
             * [Transport Layer](./Network/Transport/Transport.md)
                 * [Out of band(OOB, 帶外數據)](./Network/Transport/OOB/OOB.md)
-            * [Network Layer](./Network/Network/Network.md)
-            * [DataLink Layer](./Network/DataLink/DataLink.md)
-            * [Physical Layer](./Network/Physical/Physical.md)  
+            * Network Layer
+            * DataLink Layer]
+            * Physical Layer]
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
