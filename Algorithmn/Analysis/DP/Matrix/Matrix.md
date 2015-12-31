@@ -22,7 +22,4 @@
 - 最優解的值: <img src="./m1n.png">
 
 
-
-
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
