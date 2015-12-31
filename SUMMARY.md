@@ -213,6 +213,7 @@
         	* [Deployment Diagram](./Architecture/document/deployment/deployment.md)
 	        * [Use-case Diagram](./Architecture/document/usecase/usecase.md)
         * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
+    * [Project Management](./projectManagement/projectManagement.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
