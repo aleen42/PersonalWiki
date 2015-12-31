@@ -1,4 +1,4 @@
 # Summary
 
 * [**Coder**](Readme.md#coder)
-* [**Desginer**](Readme.md#designer)
+* [**Designer**](Readme.md#designer)
