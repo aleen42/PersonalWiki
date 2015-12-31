@@ -84,7 +84,6 @@
             * [DC](./Algorithmn/Analysis/DC/DC.md)
                 * [MergeSort](./Algorithmn/Sort/MergeSort/MergeSort.md)
                 * [QuickSort](./Algorithmn/Sort/QuickSort/QuickSort.md)
-
         	* [DP](./Algorithmn/Analysis/DP/DP.md)
         	* [Greedy](./Algorithmn/Analysis/Greedy/Greedy.md)
         	* [Search](./Algorithmn/Analysis/Search/Search.md)
