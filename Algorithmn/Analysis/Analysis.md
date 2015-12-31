@@ -1,4 +1,4 @@
-## How to analyse an algorithmn	[Back](./../AlgorithmnMenu.md)
+## How to analyse an algorithm	[Back](./../AlgorithmnMenu.md)
 
 ###Overview
 - Main **thoughts** of designing algorithms
