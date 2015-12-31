@@ -85,7 +85,7 @@
                 * [MergeSort](./Algorithmn/Sort/MergeSort/MergeSort.md)
                 * [QuickSort](./Algorithmn/Sort/QuickSort/QuickSort.md)
         	* [DP](./Algorithmn/Analysis/DP/DP.md)
-                * [Assembly-line Scheduling Problem] (./Algorithmn/Analysis/DP/Assembly/Assembly.md)
+                * [Assembly-line Scheduling Problem](./Algorithmn/Analysis/DP/Assembly/Assembly.md)
                 * **Matrix-chain Multiplication Problem** [[**details**](./Matrix/Matrix.md)]
                 * **Longest Common Subsequence Problem** [[**details**](./LCS/LCS.md)]
                 * **Max Sum Problem** [[**details**](./MaxSum/MaxSum.md)]
