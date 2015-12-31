@@ -101,6 +101,9 @@
     	* [Antirez's news](./antirez/antirez.md)
      	* [Gates Notes](http://www.gatesnotes.com/books)
      	* [Front-End](./frontend/frontend.md)
+     	    * HTML
+     	    * PHP
+     	    * JAVASCRIPT
     * Designer
     	* [Kenya Hara](./kenyahara/kenyahara.md)
     	    * THE RIDDLE OF THE MACARONI HOLE
