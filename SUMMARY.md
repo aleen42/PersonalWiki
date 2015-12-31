@@ -96,3 +96,4 @@
     * [Sara Soueidan](http://sarasoueidan.com/)
     * [Chris Gannon](http://blog.gannon.tv/)
     * [原デザインKenya Hara, 原研哉](http://www.ndc.co.jp/hara/en/)
+- Books
