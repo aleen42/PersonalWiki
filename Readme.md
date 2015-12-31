@@ -33,7 +33,6 @@
  * [**原デザインKenya Hara**, **原研哉**](http://www.ndc.co.jp/hara/en/)
 
 ### Books
-
 - Coder
 	- [**Antirez's news**](./antirez/antirez.md)
  	- [**Gates Notes**](http://www.gatesnotes.com/books)
