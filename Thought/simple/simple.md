@@ -1,4 +1,4 @@
-##The laws of Simplicity (簡單法則) [Back](./../Thought%20Menu.md)
+##The laws of Simplicity (簡單法則) [Back](./../ThoughtMenu.md)
 
 - 
 

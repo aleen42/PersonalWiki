@@ -1,4 +1,4 @@
-##Recruitment for startup companies [Back](./../Thought%20Menu.md)
+##Recruitment for startup companies [Back](./../ThoughtMenu.md)
 
 - 創業三大**技能** (3 must-have startup skills)
 	- 開發符合市場需求的好產品 (Build a Product that has great **Product/Market Fit**)
