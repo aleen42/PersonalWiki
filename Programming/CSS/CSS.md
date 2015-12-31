@@ -9,7 +9,7 @@
 * [**CSS Framework**](./Framework/Framework.md)
 * [**Attribute**](./Attribute/Attribute.md)
 
-### Catalogues
+### Categories
 
 - [**External CSS**](./external/external.md)
 - [**Internal CSS**](./internal/internal.md)
