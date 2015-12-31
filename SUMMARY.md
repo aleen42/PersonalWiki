@@ -80,7 +80,10 @@
                     * [Configurations](./Programming/PHP/laravel/conf/conf.md)
                     * [Cache](./Programming/PHP/laravel/cache/cache.md) 
     * [Algorithmn](./Algorithmn/AlgorithmnMenu.md)
-        
+        * [Analysis](./Algorithmn/Analysis/Analysis.md)
+        * [Sort](./Algorithmn/Sort/Sort.md)
+        * [Encode](./Algorithmn/Encode/Encode.md)
+        * [Computability](./Algorithmn/Computability/Computability.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
