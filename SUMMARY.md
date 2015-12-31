@@ -57,13 +57,13 @@
                 * [Selector](./Programming/CSS/selector/selector.md)    
         - [HTML](./Programming/HTML/HTML.md)
             * Categories
-                * [Structure](./structure/structure.md)
-                * [Text](./text/text.md)
-                * [List](./list/list.md)
-                * [Links](./link/link.md)
-                * [Image](./image/image.md)
-                * [Tables](./tables/tables.md)
-                * [Forms](./forms/forms.md)
+                * [Structure](./Programming/HTML/structure/structure.md)
+                * [Text](./Programming/HTML/text/text.md)
+                * [List](./Programming/HTML/list/list.md)
+                * [Links](./Programming/HTML/link/link.md)
+                * [Image](./Programming/HTML/image/image.md)
+                * [Tables](./Programming/HTML/tables/tables.md)
+                * [Forms](./Programming/HTML/forms/forms.md)
             * Extra
             * DOM
         - [PHP](./Programming/PHP/PHP.md)
