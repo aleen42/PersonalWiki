@@ -1,6 +1,6 @@
 ## HTML [Back](./../ProgrammingMenu.md)
 
-### 1. Catalogues
+### 1. Categories
 
 - [**Structure**](./structure/structure.md)
 - [**Text**](./text/text.md)
