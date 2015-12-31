@@ -163,6 +163,7 @@
             * Physical Layer
     * [OS](./OS/OS.md)
         * [Thread & Process](./OS/pt/pt.md)
+            * [守護進程](./OS/pt/daemon/daemon.md)
             * [Create Processes](./OS/pt/create/create.md)
             * [Signal](./OS/pt/Signal/Signal.md)
             * [Kill processes](./OS/pt/kill/kill.md)
