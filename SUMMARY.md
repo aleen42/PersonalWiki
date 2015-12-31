@@ -89,7 +89,7 @@
                 * [Matrix-chain Multiplication Problem](./Algorithmn/Analysis/DP/Matrix/Matrix.md)
                 * [Longest Common Subsequence Problem](./Algorithmn/Analysis/DP/LCS/LCS.md)
                 * [Max Sum Problem](./Algorithmn/Analysis/DP/MaxSum/MaxSum.md)
-                * **0-1 Knapsack Problem** [[**details**](./Knapsack/Knapsack.md)]
+                * [0-1 Knapsack Problem](./Algorithmn/Analysis/DP/Knapsack/Knapsack.md)
                 * **Single-source Shortest Path Problem**
                 	* **Bellman-Ford Algorithmn** [[**details**](./Bellman/Bellman.md)]
                 * **All-Pairs Shortest Path Problem**
