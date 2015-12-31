@@ -95,4 +95,7 @@
             	* [Activation-Group](http://www.activation-group.com/)
             * [TerritoryStudio](http://www.territorystudio.com/)
         * Awards
+            * [AWWWARDS](http://www.awwwards.com/)
+            * [FWA](http://www.thefwa.com/)
+            * [CSS DESIGN WARDS](http://www.cssdesignawards.com/)
     * [WeByDo](http://www.webydo.com/)
