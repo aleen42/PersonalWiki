@@ -12,6 +12,8 @@ HTML|To specify the content of web pages.
 CSS|To specify the presentation of web pages.
 JavaScript|To specify the behavior of web pages.
 
+### Categories
+
 * [Lexical Structure](./Lexical/Lexical.md)
 * [Types, Values, and Variables](./Type/Type.md)
 
