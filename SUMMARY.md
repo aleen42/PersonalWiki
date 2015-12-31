@@ -148,6 +148,8 @@
             * Client
                 * [Connect](./Network/Coding/connect/connect.md)
             * Multiplex
+                * [Select](./select/select.md)
+                * [Poll](./poll/poll.md)
             * IO
         * 5 Layers - the structure of  Network
             * [Application Layer](./Network/Application/Application.md)
