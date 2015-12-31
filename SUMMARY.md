@@ -162,8 +162,8 @@
             * DataLink Layer
             * Physical Layer
     * [OS](./OS/OS.md)
-        * [**Thread & Process**](./OS/pt/pt.md)
-        * [**IO**](./OS/IO/IO.md)
+        * [Thread & Process](./OS/pt/pt.md)
+        * [IO](./OS/IO/IO.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
