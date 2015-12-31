@@ -96,6 +96,10 @@
                 	* [DP Algorithmn](./Algorithmn/Analysis/DP/DP/DP.md)
                 	* [Floyd-Warshall Algorithmn](./Algorithmn/Analysis/DP/Floyd/Floyd.md)
         	* [Greedy](./Algorithmn/Analysis/Greedy/Greedy.md)
+        	    * **Activity-Selection Problem** [[**details**](./Activity/Activity.md)]
+                * **Fractional Knapsack Problem** [[**details**](./Knapsack/Knapsack.md)]
+                * Single-source Shortest Path Problem
+                	* [Dijkstra Algorithmn](./Algorithmn/Analysis/Greedy/Dijkstra/Dijkstra.md)
         	* [Search](./Algorithmn/Analysis/Search/Search.md)
         	* [Random](./Algorithmn/Analysis/Random/Random.md)
         * [Sort](./Algorithmn/Sort/Sort.md)
