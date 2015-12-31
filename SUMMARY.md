@@ -208,9 +208,10 @@
 	        * [Sequence Diagram](./Architecture/document/sequence/sequence.md)
 	        * [Timing Diagram](./Architecture/document/timing/timing.md)
 	        * [Interaction Overview Diagram](./Architecture/document/interaction/interaction.md)
-	- Development View: 系統的組織關係([**Package Diagram**](./package/package.md), [**Component Diagram**](./component/component.md))
-	- Physical View: 系統的部署([**Deployment Diagram**](./deployment/deployment.md))
-	- **Use-case View**: 系統的功能描述([**Use-case Diagram**](./usecase/usecase.md))
+        	* [Package Diagram](./Architecture/document/package/package.md)
+        	* [Component Diagram](./Architecture/document/component/component.md))
+        	* [Deployment Diagram](./Architecture/document/deployment/deployment.md))
+	        * [Use-case Diagram](./Architecture/document/usecase/usecase.md))
         * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
