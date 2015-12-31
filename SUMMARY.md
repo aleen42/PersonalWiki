@@ -198,6 +198,12 @@
             * [Modifiability(可修改性)](./Architecture/QA/modifiability/modifiability.md)
             * [Performance(性能)](./Architecture/QA/performance/performance.md)
         * [Modeling and Documenting](./Architecture/document/document.md)
+            * [Class Diagram](./Architecture/document/class/class.md)
+            * [Object Diagram](./Architecture/document/object/object.md), [**State Diagram**](./state/state.md), **Interaction Diagram**)
+	- Process View: 系統的業務過程([**Activity Diagram**](./activity/activity.md), [**State Diagram**](./state/state.md), [**Communication Diagram**](./communication/communication.md), [**Sequence Diagram**](./sequence/sequence.md), [**Timing Diagram**](./timing/timing.md), [**Interaction Overview Diagram**](./interaction/interaction.md))
+	- Development View: 系統的組織關係([**Package Diagram**](./package/package.md), [**Component Diagram**](./component/component.md))
+	- Physical View: 系統的部署([**Deployment Diagram**](./deployment/deployment.md))
+	- **Use-case View**: 系統的功能描述([**Use-case Diagram**](./usecase/usecase.md))
         * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
