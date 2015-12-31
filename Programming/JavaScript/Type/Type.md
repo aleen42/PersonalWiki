@@ -29,17 +29,12 @@ x = null;	//no value
 x = undefined;	//like null
 ```
 
-- ###[Arithmetic](./Arithmetic/Arithmetic.md)
-
-- ###[Infinity & NaN](./Infinity,NaN/Infinity,NaN.md)
-
-- ###[Precision](./Precision/Precision.md)
-
-- ###[Date and Times](./Date&Time/Date&Time.md)
-
-- ###[Text](./Text/Text.md)
-
-- ###[Wrapper Object(包裝對象)](./Wrapper/Wrapper.md)
+- [Arithmetic](./Arithmetic/Arithmetic.md)
+- [Infinity & NaN](./Infinity,NaN/Infinity,NaN.md)
+- [Precision](./Precision/Precision.md)
+- [Date and Times](./Date&Time/Date&Time.md)
+- [Text](./Text/Text.md)
+- [Wrapper Object(包裝對象)](./Wrapper/Wrapper.md)
 
 <a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
 =====
