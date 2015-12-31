@@ -29,7 +29,7 @@
 - Here, you can see that I have created sheets for each directory, **dlib_debug** and **dlib_release**. What you should do is to find out **Common Properties** > **VC++ Directories**, and setup two properties, **Include Directories** and **Library Directories**.
 	- en: <br /> <img src="./dlib_8.png">
 	- zh: <br /> <img src="./dlib_7.png">
-- The path you should set for your own is shown as follows(the path of dlib source files for me is *F:\School\Programing\C++ Programing\OpenCV\Dlib\Lib\dlib*):
+- The path you should set for your own is shown as follows(the path of dlib source files for me is *F:\School\Programing\C++ Programing\OpenCV\Dlib\Lib\dlib*, and of course you can use relative path):
 	- en: <br /> <img src="./dlib_10.png"> <img src="./dlib_12.png">
 	- zh: <br /> <img src="./dlib_9.png"> <img src="./dlib_11.png">
 - In additionally, you should set up the preprocessor globaly for all the projects using Dlib.
