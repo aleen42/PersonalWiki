@@ -1,4 +1,4 @@
-## External CSS [Back](./../css.md)
+## External CSS [Back](./../CSS.md)
 
 - ```<link>``` element can be used to find external CSS fils.
 - attribute **href** is to specify the path to the CSS file.
