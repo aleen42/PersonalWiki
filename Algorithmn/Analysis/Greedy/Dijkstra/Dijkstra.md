@@ -10,5 +10,4 @@
 - 根據S集合的節點來鬆弛非S集合的節點
 - 每次選擇該趟中最小路徑值的非S集合節點並把其加入到S集合
 
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
