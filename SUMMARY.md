@@ -69,8 +69,8 @@
                 * [Flash, Video and Audio](./Programming/HTML/flash_video_audio/flash_video_audio.md)
                 * [Quirks, Standard(Strict) Mode](./Programming/HTML/mode/mode.md)
             * DOM
-                * [About DOM](./DOM/DOM.md)
-                * [DOM Structure](./DOMstructure/DOMstructure.md)
-                * [Layers of Nodes](./node/node.md)
-                * [Access Relative Nodes](./access/access.md)
+                * [About DOM](./Programming/HTML/DOM/DOM.md)
+                * [DOM Structure](./Programming/HTML/DOMstructure/DOMstructure.md)
+                * [Layers of Nodes](./Programming/HTML/node/node.md)
+                * [Access Relative Nodes](./Programming/HTML/access/access.md)
         - [PHP](./Programming/PHP/PHP.md)
