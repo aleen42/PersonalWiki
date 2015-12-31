@@ -28,6 +28,7 @@ x = true;	//boolean
 x = null;	//no value
 x = undefined;	//like null
 ```
+
 - [Arithmetic](./Arithmetic/Arithmetic.md)
 - [Infinity & NaN](./Infinity,NaN/Infinity,NaN.md)
 - [Precision](./Precision/Precision.md)
