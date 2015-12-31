@@ -215,6 +215,7 @@
         * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
     * [Project Management](./projectManagement/projectManagement.md)
         * [Introduction](./projectManagement/introduction/introduction.md)
+    * [Multimedia](./Multimedia/Multimedia.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
