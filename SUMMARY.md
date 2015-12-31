@@ -183,6 +183,7 @@
         * [DSP](./Embedded_System/dsp/dsp.md)
         * [Autogen](./Embedded_System/autogen/autogen.md)
         * [Store Resource](./Embedded_System/store/store.md)
+    * [Software Architecture](./Architecture/Architecture.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
