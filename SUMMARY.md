@@ -163,6 +163,10 @@
             * Physical Layer
     * [OS](./OS/OS.md)
         * [Thread & Process](./OS/pt/pt.md)
+            * [Create Processes](./OS/pt/create/create.md)
+            * [Signal](./OS/pt/Signal/Signal.md)
+            * [Kill processes](./OS/pt/kill/kill.md)
+            * [Interprocesses Communication(IPC)](./OS/pt/IPC/IPC.md)
         * [IO](./OS/IO/IO.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
