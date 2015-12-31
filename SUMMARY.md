@@ -104,4 +104,4 @@
     * Designer
     	* [Kenya Hara](./kenyahara/kenyahara.md)
 - Job
-    * [**Summary**](./summary/summary.md)
+    * [Summary](./summary/summary.md)
