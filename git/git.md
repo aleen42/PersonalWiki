@@ -5,7 +5,7 @@
 - [**Get projects** from the repository](./get/get.md)
 - [**Record updates**](./record/record.md)
 - [**Patch**](./patch/patch.md)
-- [**A successful Git branching model**](./itmodel.m‫gitmodel/‫gd)
+- [**A successful Git branching model**](./model/model.md)
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
