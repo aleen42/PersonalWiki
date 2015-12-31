@@ -123,7 +123,7 @@
             * [Arithmetic Coding](./Algorithmn/Encode/Arithmetic/Arithmetic.md)
             * [LZW Coding](./Algorithmn/Encode/LZW/LZW.md)
         * [Computability](./Algorithmn/Computability/Computability.md)
-    * [**Thought**](./Thought/ThoughtMenu.md)
+    * [Thought](./Thought/ThoughtMenu.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
