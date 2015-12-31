@@ -120,3 +120,11 @@
             * [(Week 12) October 26th](./summary/3/4.md)
             * ...
         * Note
+            * [Ffmpeg](./ffmpeg/ffmpeg.md)
+            * [Server](./server/server.md)
+            * [Docker](./docker/docker.md)
+            * [Redis](./redis/redis.md)
+            * [Jpush](./jpush/jpush.md)
+            * [Git](./git/git.md)
+            * [Laravel](./../Programming/PHP/laravel/laravel.md)
+            * [M3U8](./m3u8/m3u8.md)
