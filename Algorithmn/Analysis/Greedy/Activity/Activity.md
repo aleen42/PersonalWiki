@@ -9,7 +9,4 @@
 - 每次我們都選擇剩下最快完成的事件
 - 上面情況的最優解: 1, 4, 8, 11
 
-
-
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
