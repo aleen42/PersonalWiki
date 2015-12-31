@@ -8,7 +8,7 @@
 * **The laws of Simplicity**
 
 ### Life
-* [**Recruitment for startup companies**](./recruitment/recruitment.md)
+* [**Recruitment for start-up companies**](./recruitment/recruitment.md)
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
