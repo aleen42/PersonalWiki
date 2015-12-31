@@ -217,6 +217,10 @@
         * [Introduction](./projectManagement/introduction/introduction.md)
     * [Multimedia](./Multimedia/Multimedia.md)
     * [Git](./git/git.md)
+        * [Get projects from the repository](./get/get.md)
+        * [Record updates](./record/record.md)
+        * [Patch](./patch/patch.md)
+        * [A successful Git branching model**](./1‫gitmodel/‫gitmodel.md
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
