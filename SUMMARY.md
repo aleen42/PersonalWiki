@@ -119,6 +119,9 @@
             * [RadixSort](./Algorithmn/Sort/RadixSort/RadixSort.md)
             * [BucketSort](./Algorithmn/Sort/BucketSort/BucketSort.md)
         * [Encode](./Algorithmn/Encode/Encode.md)
+            * [Huffman Coding](./Algorithmn/Encode/Huffman/Huffman.md)
+            * [Arithmetic Coding](./Algorithmn/Encode/Arithmetic/Arithmetic.md)
+            * [LZW Coding](./Algorithmn/Encode/LZW/LZW.md)
         * [Computability](./Algorithmn/Computability/Computability.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
