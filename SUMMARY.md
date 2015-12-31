@@ -38,8 +38,9 @@
                 * [JQuery](./Programming/JavaScript/Framework/jquery/jquery.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [NodeJs](./Programming/JavaScript/node/node.md)
-            * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
-            * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
+            * Categories            
+                * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
+                * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
                 * [Arithmetic](./Programming/JavaScript/Type/Arithmetic/Arithmetic.md)
                 * [Infinity & NaN](./Programming/JavaScript/Type/Infinity,NaN/Infinity,NaN.md)
                 * [Precision](./Programming/JavaScript/Type/Precision/Precision.md)
