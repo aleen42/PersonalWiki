@@ -1,4 +1,4 @@
-## Longest Common Subsequence Problem(最長公共子序列)	[Back](./../DP.md)
+## Longest Common Sub-sequence Problem(最長公共子序列)	[Back](./../DP.md)
 
 ### Overview
 <img src="./overview.png">
