@@ -97,7 +97,7 @@
                 	* [Floyd-Warshall Algorithmn](./Algorithmn/Analysis/DP/Floyd/Floyd.md)
         	* [Greedy](./Algorithmn/Analysis/Greedy/Greedy.md)
         	    * [Activity-Selection Problem](./Algorithmn/Analysis/Greedy/Activity/Activity.md)
-                * [Fractional Knapsack Problem](./Algorithmn/Analysis/Greedy/Knapsack/Knapsack.md)]
+                * [Fractional Knapsack Problem](./Algorithmn/Analysis/Greedy/Knapsack/Knapsack.md)
                 * Single-source Shortest Path Problem
                 	* [Dijkstra Algorithmn](./Algorithmn/Analysis/Greedy/Dijkstra/Dijkstra.md)
         	* [Search](./Algorithmn/Analysis/Search/Search.md)
