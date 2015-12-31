@@ -87,7 +87,7 @@
         	* [DP](./Algorithmn/Analysis/DP/DP.md)
                 * [Assembly-line Scheduling Problem](./Algorithmn/Analysis/DP/Assembly/Assembly.md)
                 * [Matrix-chain Multiplication Problem](./Algorithmn/Analysis/DP/Matrix/Matrix.md)
-                * [Longest Common Subsequence Problem](/LCS/LCS.md)
+                * [Longest Common Subsequence Problem](./Algorithmn/Analysis/DP/LCS/LCS.md)
                 * **Max Sum Problem** [[**details**](./MaxSum/MaxSum.md)]
                 * **0-1 Knapsack Problem** [[**details**](./Knapsack/Knapsack.md)]
                 * **Single-source Shortest Path Problem**
