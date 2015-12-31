@@ -154,8 +154,8 @@
                 * [IO](./Network/Coding/IO/IO.md)
         * 5 Layers - the structure of  Network
             * [Application Layer](./Network/Application/Application.md)
-                * [DNS](./dns/dns.md) (Domain Name System)
-                * [RPC](./rpc/rpc.md) (Remote Porcedure Call)
+                * [DNS](./Network/Application/dns/dns.md) (Domain Name System)
+                * [RPC](./Network/Application/rpc/rpc.md) (Remote Porcedure Call)
             * [Transport Layer](./Network/Transport/Transport.md)
             * [Network Layer](./Network/Network/Network.md)
             * [DataLink Layer](./Network/DataLink/DataLink.md)
