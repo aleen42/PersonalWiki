@@ -1,4 +1,4 @@
-## Args [Back](./../../C%23/C%23%20Menu.md)
+## Args [Back](./../../CSharp/CSharpMenu.md)
 
 - 命令行參數: Main函數開始時接受的參數
 

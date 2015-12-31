@@ -1,4 +1,4 @@
-## Enum [Back](./../../C%23/C%23%20Menu.md)
+## Enum [Back](./../../CSharp/CSharpMenu.md)
 
 - 枚舉操作: GetNames(), CompareTo()...
 
