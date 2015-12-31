@@ -50,9 +50,8 @@
         - [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
-            * Categories
-                * [External CSS](./Programming/CSS/external/external.md)
-                * [Internal CSS](./Programming/CSS/internal/internal.md)
-                * [Selector](./Programming/CSS/selector/selector.md)
+            * [External CSS](./Programming/CSS/external/external.md)
+            * [Internal CSS](./Programming/CSS/internal/internal.md)
+            * [Selector](./Programming/CSS/selector/selector.md)    
         - [HTML](./Programming/HTML/HTML.md)
         - [PHP](./Programming/PHP/PHP.md)
