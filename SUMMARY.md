@@ -175,6 +175,14 @@
                 * [UNIX socket](./OS/pt/IPC/socket/socket.md)
         * [IO](./OS/IO/IO.md)
     * [Embedded System](./Embedded_System/Embedded_System.md)
+        * [Concepts](./concept/concept.md)
+        * [Interruption](./interruption/interruption.md)
+        * [Cache](./cache/cache.md)
+        * [DMA](./dma/dma.md)
+        * [Assembly Language](./assembly/assembly.md)
+        * [DSP](./dsp/dsp.md)
+        * [Autogen](./autogen/autogen.md)
+        * [Store Resource](./store/store.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
