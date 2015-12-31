@@ -216,6 +216,7 @@
     * [Project Management](./projectManagement/projectManagement.md)
         * [Introduction](./projectManagement/introduction/introduction.md)
     * [Multimedia](./Multimedia/Multimedia.md)
+    * [Git](./git/git.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
