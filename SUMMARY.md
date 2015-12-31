@@ -93,6 +93,6 @@
         * [What is Gist](./qa/gist.md)
         * [Differences between URL, URI and URN](./qa/url_uri.md)
 - Idols
-     * [**Sara Soueidan**](http://sarasoueidan.com/)
-     * [**Chris Gannon**](http://blog.gannon.tv/)
-     * [**原デザインKenya Hara**, **原研哉**](http://www.ndc.co.jp/hara/en/)
+    * [Sara Soueidan](http://sarasoueidan.com/)
+    * [Chris Gannon](http://blog.gannon.tv/)
+    * [原デザインKenya Hara, 原研哉](http://www.ndc.co.jp/hara/en/)
