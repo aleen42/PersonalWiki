@@ -76,3 +76,6 @@
         - [PHP](./Programming/PHP/PHP.md)
             * [Crash Course](./Programming/PHP/crash/crash.md)
             * [Laravel](./Programming/PHP/laravel/laravel.md)
+                * Documents
+                    * [Configurations](./Programming/PHP/laravel/conf/conf.md)
+                    * [Cache](./Programming/PHP/laravel/cache/cache.md) 
