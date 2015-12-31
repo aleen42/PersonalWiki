@@ -191,6 +191,12 @@
             * [Virtual Machine](./Architecture/Style/virtualmachine/virtualmachine.md)
             * [Independent Components](./Architecture/Style/independent/independent.md)
         * [Quality Attributes](./Architecture/QA/QA.md)
+            * [Usability(易用性)](./Architecture/QA/usability/usability.md)
+            * [Security(安全性)](./Architecture/QA/security/security.md)
+            * [Testability(可測試性)](./Architecture/QA/testability/testability.md)
+            * [Availability(可用性)](./Architecture/QA/availability/availability.md)
+            * [Modifiability(可修改性)](./Architecture/QA/modifiability/modifiability.md)
+            * [Performance(性能)](./Architecture/QA/performance/performance.md)
         * [Modeling and Documenting](./Architecture/document/document.md)
         * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
 - Designer
