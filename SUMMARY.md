@@ -220,7 +220,7 @@
         * [Get projects from the repository](./get/get.md)
         * [Record updates](./record/record.md)
         * [Patch](./patch/patch.md)
-        * [A successful Git branching mode](./git/gitmodel/gitmodel.‫m)d
+        * [A successful Git branching mode](./git/gitmodel/gitmodel.‫d
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
