@@ -17,8 +17,4 @@
 - 最優解: 通過求解時指針指向i和j來找到最優解.
 - 最優解的值: <img src="./bn.png">
 
-
-
-
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
