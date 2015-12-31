@@ -104,7 +104,7 @@
     * Designer
     	* [Kenya Hara](./kenyahara/kenyahara.md)
     	    * THE RIDDLE OF THE MACARONI HOLE
-    	    * 
+    	    * WHITE
 - Job
     * [Summary](./summary/summary.md)
         * Summary of Jobs
