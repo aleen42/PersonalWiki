@@ -106,6 +106,8 @@
                 * Branch & Bound
                 	* [15-Puzzle Problem](./Algorithmn/Analysis/Search/15Puzzle/15Puzzle.md)
         	* [Random](./Algorithmn/Analysis/Random/Random.md)
+        	    * Genetic Algorithmn
+                * Simulated Annealing Algorithmn
         * [Sort](./Algorithmn/Sort/Sort.md)
         * [Encode](./Algorithmn/Encode/Encode.md)
         * [Computability](./Algorithmn/Computability/Computability.md)
