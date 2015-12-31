@@ -157,7 +157,7 @@
                 * [DNS](./Network/Application/dns/dns.md) (Domain Name System)
                 * [RPC](./Network/Application/rpc/rpc.md) (Remote Porcedure Call)
             * [Transport Layer](./Network/Transport/Transport.md)
-                * Out of band(OOB, 帶外數據)[[**details**](./OOB/OOB.md)]
+                * [Out of band(OOB, 帶外數據)](./OOB/OOB.md)
             * [Network Layer](./Network/Network/Network.md)
             * [DataLink Layer](./Network/DataLink/DataLink.md)
             * [Physical Layer](./Network/Physical/Physical.md)  
