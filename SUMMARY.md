@@ -37,6 +37,8 @@
                 * [JQuery](./Programming/JavaScript/Framework/jquery/jquery.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [NodeJs](./Programming/JavaScript/node/node.md)
+            * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
+            * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
         - [SVG](./Programming/SVG/SVG.md)
         - [CSS](./Programming/CSS/CSS.md)
         - [HTML](./Programming/HTML/HTML.md)
