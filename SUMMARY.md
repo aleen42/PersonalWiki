@@ -174,6 +174,7 @@
                 * [semaphore](./OS/pt/IPC/semaphore/semaphore.md)
                 * [UNIX socket](./OS/pt/IPC/socket/socket.md)
         * [IO](./OS/IO/IO.md)
+    * [Embedded System](./Embedded_System/Embedded_System.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
