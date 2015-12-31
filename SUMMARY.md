@@ -221,6 +221,7 @@
         * [Record updates](./git/record/record.md)
         * [Patch](./git/patch/patch.md)
         * [A successful Git branching model](./git/model/model.md)
+    * [Video & Image](./vi/vi.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
