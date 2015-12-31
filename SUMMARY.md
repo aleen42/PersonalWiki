@@ -79,7 +79,7 @@
                 * Documents
                     * [Configurations](./Programming/PHP/laravel/conf/conf.md)
                     * [Cache](./Programming/PHP/laravel/cache/cache.md) 
-    * [Algorithmn](./Algorithmn/AlgorithmnMenu.md)
+    * [Algorithm](./Algorithmn/AlgorithmnMenu.md)
         * [Analysis](./Algorithmn/Analysis/Analysis.md)
             * [DC](./Algorithmn/Analysis/DC/DC.md)
                 * [MergeSort](./Algorithmn/Sort/MergeSort/MergeSort.md)
