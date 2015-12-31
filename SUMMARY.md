@@ -184,10 +184,10 @@
         * [Autogen](./Embedded_System/autogen/autogen.md)
         * [Store Resource](./Embedded_System/store/store.md)
     * [Software Architecture](./Architecture/Architecture.md)
-        * [Style](./Style/Style.md)
-        * [Quality Attributes](./QA/QA.md)
-        * [Modeling and Documenting](./document/document.md)
-        * [Architecture Tradeoff Analyse Method](./ATAM/ATAM.md)
+        * [Style](./Architecture/Style/Style.md)
+        * [Quality Attributes](./Architecture/QA/QA.md)
+        * [Modeling and Documenting](./Architecture/document/document.md)
+        * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
