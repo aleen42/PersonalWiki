@@ -88,11 +88,11 @@ int select(int maxfd, fd_set* rdset, fd_set* wrset, fd_et* exset, struct timeval
 - 在測試可寫描述符集合wrset中, 同時包含已連接socket
 - 通過多路複用IO來完成併發, 要求所有的socket描述符都設置為非阻塞方式.
 - 過程:
-	- 1. 設置讀寫描述符集合, 其中讀描述符集合包括偵聽socket
-	- 2. 調用select測試socket描述符是否就緒
-	- 3. 偵聽socket就緒則接受新連接
-	- 4. 其他socket就緒則執行讀寫操作
-	- 5. 重複前四個步驟
+	1. 設置讀寫描述符集合, 其中讀描述符集合包括偵聽socket
+	2. 調用select測試socket描述符是否就緒
+	3. 偵聽socket就緒則接受新連接
+	4. 其他socket就緒則執行讀寫操作
+	5. 重複前四個步驟
 - 優點: 只需要一個進程處理所有客戶端的請求, 而沒有創建和管理進程的開銷
 - 缺點: 服務器必須依次處理所有請求, 編程較為複雜
 - 適用於請求多但處理時間短的服務器
