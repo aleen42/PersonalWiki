@@ -125,7 +125,7 @@
         * [Computability](./Algorithmn/Computability/Computability.md)
     * [Thought](./Thought/ThoughtMenu.md)
         * Coder
-            * [**OOP**](./OOP/OOP.md)(Object-oriented Programming)
+            * [OOP](./Thought/OOP/OOP.md)(Object-oriented Programming)
         * Designer
         * Life
 - Designer
