@@ -94,9 +94,9 @@
 
 <img src="./write_consistent.png">
 
-- 1. CPU更新數據
-- 2. Cache寫回內存
-- 3. 外部master讀到更新的數據
+1. CPU更新數據
+2. Cache寫回內存
+3. 外部master讀到更新的數據
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
