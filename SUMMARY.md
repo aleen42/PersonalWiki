@@ -90,8 +90,8 @@
                 * [Longest Common Subsequence Problem](./Algorithmn/Analysis/DP/LCS/LCS.md)
                 * [Max Sum Problem](./Algorithmn/Analysis/DP/MaxSum/MaxSum.md)
                 * [0-1 Knapsack Problem](./Algorithmn/Analysis/DP/Knapsack/Knapsack.md)
-                * **Single-source Shortest Path Problem**
-                	* **Bellman-Ford Algorithmn** [[**details**](./Bellman/Bellman.md)]
+                * Single-source Shortest Path Problem
+                	* [Bellman-Ford Algorithmn](./Algorithmn/Analysis/DP/Bellman/Bellman.md)
                 * **All-Pairs Shortest Path Problem**
                 	* **DP Algorithmn** [[**details**](./DP/DP.md)]
                 	* **Floyd-Warshall Algorithmn** [[**details**](./Floyd/Floyd.md)]
