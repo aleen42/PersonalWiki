@@ -65,8 +65,8 @@
                 * [Tables](./Programming/HTML/tables/tables.md)
                 * [Forms](./Programming/HTML/forms/forms.md)
             * Extra
-                * [Extra Markup](./extra_markup/extra_markup.md)
-                * [Flash, Video and Audio](./flash_video_audio/flash_video_audio.md)
-                * [Quirks, Standard(Strict) Mode](./mode/mode.md)
+                * [Extra Markup](./Programming/HTML/extra_markup/extra_markup.md)
+                * [Flash, Video and Audio](./Programming/HTML/flash_video_audio/flash_video_audio.md)
+                * [Quirks, Standard(Strict) Mode](./Programming/HTML/mode/mode.md)
             * DOM
         - [PHP](./Programming/PHP/PHP.md)
