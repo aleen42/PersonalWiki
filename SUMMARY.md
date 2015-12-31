@@ -209,9 +209,9 @@
 	        * [Timing Diagram](./Architecture/document/timing/timing.md)
 	        * [Interaction Overview Diagram](./Architecture/document/interaction/interaction.md)
         	* [Package Diagram](./Architecture/document/package/package.md)
-        	* [Component Diagram](./Architecture/document/component/component.md))
-        	* [Deployment Diagram](./Architecture/document/deployment/deployment.md))
-	        * [Use-case Diagram](./Architecture/document/usecase/usecase.md))
+        	* [Component Diagram](./Architecture/document/component/component.md)
+        	* [Deployment Diagram](./Architecture/document/deployment/deployment.md)
+	        * [Use-case Diagram](./Architecture/document/usecase/usecase.md)
         * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
