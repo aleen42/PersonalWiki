@@ -19,6 +19,6 @@
 	- **Bellman-Ford Algorithm** [[**details**](./Bellman/Bellman.md)]
 - **All-Pairs Shortest Path Problem**
 	- **DP Algorithm** [[**details**](./DP/DP.md)]
-	- **Floyd-Warshall Algorithmn** [[**details**](./Floyd/Floyd.md)]
+	- **Floyd-Warshall Algorithm** [[**details**](./Floyd/Floyd.md)]
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
