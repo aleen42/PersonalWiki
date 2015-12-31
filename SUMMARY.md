@@ -75,4 +75,4 @@
                 * [Access Relative Nodes](./Programming/HTML/access/access.md)
         - [PHP](./Programming/PHP/PHP.md)
             * [Crash Course](./Programming/HTML/crash/crash.md)
-            * [**Laravel**](./laravel/laravel.md)
+            * [Laravel](./Programming/HTML/laravel/laravel.md)
