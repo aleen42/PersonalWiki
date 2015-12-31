@@ -94,7 +94,7 @@
                 	* [Bellman-Ford Algorithmn](./Algorithmn/Analysis/DP/Bellman/Bellman.md)
                 * All-Pairs Shortest Path Problem
                 	* [DP Algorithmn](./Algorithmn/Analysis/DP/DP/DP.md)
-                	* **Floyd-Warshall Algorithmn** [[**details**](./Floyd/Floyd.md)]
+                	* [Floyd-Warshall Algorithmn](./Algorithmn/Analysis/DP/Floyd/Floyd.md)
         	* [Greedy](./Algorithmn/Analysis/Greedy/Greedy.md)
         	* [Search](./Algorithmn/Analysis/Search/Search.md)
         	* [Random](./Algorithmn/Analysis/Random/Random.md)
