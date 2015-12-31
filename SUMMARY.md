@@ -125,6 +125,7 @@
         * [Computability](./Algorithmn/Computability/Computability.md)
     * [Thought](./Thought/ThoughtMenu.md)
         * Coder
+            
         * Designer
         * Life
 - Designer
