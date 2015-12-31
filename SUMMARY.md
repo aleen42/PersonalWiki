@@ -92,8 +92,8 @@
                 * [0-1 Knapsack Problem](./Algorithmn/Analysis/DP/Knapsack/Knapsack.md)
                 * Single-source Shortest Path Problem
                 	* [Bellman-Ford Algorithmn](./Algorithmn/Analysis/DP/Bellman/Bellman.md)
-                * **All-Pairs Shortest Path Problem**
-                	* **DP Algorithmn** [[**details**](./DP/DP.md)]
+                * All-Pairs Shortest Path Problem
+                	* [DP Algorithmn](./Algorithmn/Analysis/DP/DP/DP.md)
                 	* **Floyd-Warshall Algorithmn** [[**details**](./Floyd/Floyd.md)]
         	* [Greedy](./Algorithmn/Analysis/Greedy/Greedy.md)
         	* [Search](./Algorithmn/Analysis/Search/Search.md)
