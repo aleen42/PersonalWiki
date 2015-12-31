@@ -126,5 +126,5 @@
             * [Redis](./summary/redis/redis.md)
             * [Jpush](./summary/jpush/jpush.md)
             * [Git](./summary/git/git.md)
-            * [Laravel](./../Programming/PHP/laravel/laravel.md)
+            * [Laravel](./Programming/PHP/laravel/laravel.md)
             * [M3U8](./summary/m3u8/m3u8.md)
