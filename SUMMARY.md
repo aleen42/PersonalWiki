@@ -168,6 +168,11 @@
             * [Signal](./OS/pt/Signal/Signal.md)
             * [Kill processes](./OS/pt/kill/kill.md)
             * [Interprocesses Communication(IPC)](./OS/pt/IPC/IPC.md)
+                * [pipe & fifo](./OS/pt/IPC/pipe_fifo/pipe_fifo.md)
+                * [message queue](./OS/pt/IPC/queue/queue.md)
+                * [shared memory & memory mapped file](./OS/pt/IPC/mmap/mmap.md)
+                * [semaphore](./OS/pt/IPC/semaphore/semaphore.md)
+                * [UNIX socket](./OS/pt/IPC/socket/socket.md)
         * [IO](./OS/IO/IO.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
