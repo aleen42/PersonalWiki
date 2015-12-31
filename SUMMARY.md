@@ -141,6 +141,10 @@
             * [Write](./Network/Coding/write/write.md)
             * [Close](./Network/Coding/close/close.md)
             * Server
+                * [Bind](./bind/bind.md)
+                * [Listen](./listen/listen.md)
+                * [Accept](./accept/accept.md)
+                * [Model of Sever](./model/model.md)
             * Client
             * Multiplex
             * IO
