@@ -146,7 +146,7 @@
                 * [Accept](./Network/Coding/accept/accept.md)
                 * [Model of Sever](./Network/Coding/model/model.md)
             * Client
-                - [Connect](./connect/connect.md)
+                * [Connect](./connect/connect.md)
             * Multiplex
             * IO
         * 5 Layers - the structure of  Network
