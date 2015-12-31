@@ -109,6 +109,15 @@
         	    * Genetic Algorithmn
                 * Simulated Annealing Algorithmn
         * [Sort](./Algorithmn/Sort/Sort.md)
+            * [Overview](./Overview/Overview.md)
+            * [InsertSort](./InsertSort/InsertSort.md)
+            * [BubbleSort](./BubbleSort/BubbleSort.md)
+            * [MergeSort](./MergeSort/MergeSort.md)
+            * [HeapSort](./HeapSort/HeapSort.md)
+            * [QuickSort](./QuickSort/QuickSort.md)
+            * [CountSort](./CountingSort/CountingSort.md)
+            * [RadixSort](./RadixSort/RadixSort.md)
+            * [BucketSort](./BucketSort/BucketSort.md)
         * [Encode](./Algorithmn/Encode/Encode.md)
         * [Computability](./Algorithmn/Computability/Computability.md)
 - Designer
