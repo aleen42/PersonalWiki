@@ -48,7 +48,7 @@
 	<img src="O.png">
 
 ### Recursive Algorithmn
-- Subtitution: 猜想 (通常通過畫Recursive Tree來給出猜想) 並證明
+- Substitution: 猜想 (通常通過畫Recursive Tree來給出猜想) 並證明
 	- guess
 	- verify
 
