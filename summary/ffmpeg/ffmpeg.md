@@ -1,7 +1,6 @@
 ## ffmpeg	[Back](./../summary.md)
 
 ### 1. Install
-===
 
 #### 1.1 Configure
 
@@ -22,10 +21,7 @@
 
 - `make install`
 
-====
-
 ### 2. Command of generating codes
-===
 
 #### 2.1 Concat
 
