@@ -130,6 +130,7 @@
             * [The laws of Elegance](./Thought/elegant/elegant.md)
             * The laws of Simplicity
         * Life
+            * [Recruitment for start-up companies](./recruitment/recruitment.md)
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
