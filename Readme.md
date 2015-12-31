@@ -1,3 +1,5 @@
+<img src="./cover_read.png">
+
 ## About
 
 <img src="./photo.png">
