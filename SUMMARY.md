@@ -124,6 +124,9 @@
             * [LZW Coding](./Algorithmn/Encode/LZW/LZW.md)
         * [Computability](./Algorithmn/Computability/Computability.md)
     * [Thought](./Thought/ThoughtMenu.md)
+        * Coder
+        * Designer
+        * Life
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
