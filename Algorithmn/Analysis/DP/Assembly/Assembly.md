@@ -19,8 +19,4 @@
 - 最優解: 通過反向遍曆<img src="./sij_array.png">, 找到最優解.
 - 最優解的值: <img src="./optimal_value.png">
 
-
-
-
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
