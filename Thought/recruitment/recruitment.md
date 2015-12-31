@@ -1,6 +1,6 @@
 ##Recruitment for start-up companies [Back](./../ThoughtMenu.md)
 
-- 創業三大**技能** (3 must-have startup skills)
+- 創業三大**技能** (3 must-have start-up skills)
 	- 開發符合市場需求的好產品 (Build a Product that has great **Product/Market Fit**)
 	- 建立銷售和營銷體系 (Build a **Sales & Marketing** Machine)
 	- 招兵買馬 (Build a **Recruiting** Machine)
