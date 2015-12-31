@@ -159,8 +159,8 @@
             * [Transport Layer](./Network/Transport/Transport.md)
                 * [Out of band(OOB, 帶外數據)](./Network/Transport/OOB/OOB.md)
             * Network Layer
-            * DataLink Layer]
-            * Physical Layer]
+            * DataLink Layer
+            * Physical Layer
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
