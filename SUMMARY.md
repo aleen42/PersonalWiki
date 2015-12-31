@@ -127,6 +127,8 @@
         * Coder
             * [OOP](./Thought/OOP/OOP.md)(Object-oriented Programming)
         * Designer
+            * [The laws of Elegance](./Thought/elegant/elegant.md)
+            * **The laws of Simplicity**
         * Life
 - Designer
     * [Creativity](./Creativity/Creativity.md)
