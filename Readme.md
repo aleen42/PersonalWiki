@@ -7,7 +7,7 @@
 ## Start Reading
 ### Coder
  * [**Programming Language**](./Programming/ProgrammingMenu.md)
- * [**Algorithmn**](./Algorithmn/Algorithmn%20Menu.md)
+ * [**Algorithmn**](./Algorithmn/AlgorithmnMenu.md)
  * [**Thought**](./Thought/Thought%20Menu.md)
  * [**Database**](./Database/Database.md)
  * [**Network**](./Network/Network.md)
