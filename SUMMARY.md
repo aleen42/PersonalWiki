@@ -85,6 +85,16 @@
                 * [MergeSort](./Algorithmn/Sort/MergeSort/MergeSort.md)
                 * [QuickSort](./Algorithmn/Sort/QuickSort/QuickSort.md)
         	* [DP](./Algorithmn/Analysis/DP/DP.md)
+                * Assembly-line Scheduling Problem (./Algorithmn/Analysis/DP/Assembly/Assembly.md)
+                * **Matrix-chain Multiplication Problem** [[**details**](./Matrix/Matrix.md)]
+                * **Longest Common Subsequence Problem** [[**details**](./LCS/LCS.md)]
+                * **Max Sum Problem** [[**details**](./MaxSum/MaxSum.md)]
+                * **0-1 Knapsack Problem** [[**details**](./Knapsack/Knapsack.md)]
+                * **Single-source Shortest Path Problem**
+                	* **Bellman-Ford Algorithmn** [[**details**](./Bellman/Bellman.md)]
+                * **All-Pairs Shortest Path Problem**
+                	* **DP Algorithmn** [[**details**](./DP/DP.md)]
+                	* **Floyd-Warshall Algorithmn** [[**details**](./Floyd/Floyd.md)]
         	* [Greedy](./Algorithmn/Analysis/Greedy/Greedy.md)
         	* [Search](./Algorithmn/Analysis/Search/Search.md)
         	* [Random](./Algorithmn/Analysis/Random/Random.md)
