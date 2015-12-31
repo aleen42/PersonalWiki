@@ -57,7 +57,13 @@
                 * [Selector](./Programming/CSS/selector/selector.md)    
         - [HTML](./Programming/HTML/HTML.md)
             * Categories
-                
+                * [Structure](./structure/structure.md)
+                * [Text](./text/text.md)
+                * [List](./list/list.md)
+                * [Links](./link/link.md)
+                * [Image](./image/image.md)
+                * [Tables](./tables/tables.md)
+                * [Forms](./forms/forms.md)
             * Extra
             * DOM
         - [PHP](./Programming/PHP/PHP.md)
