@@ -1,6 +1,6 @@
 ## Git	[Back](./../Readme.md)
 
-### Category
+### Categories
 
 - [**Get projects** from the repository](./get/get.md)
 - [**Record updates**](./record/record.md)
