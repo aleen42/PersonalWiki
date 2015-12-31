@@ -8,7 +8,7 @@
 ### Coder
  * [**Programming Language**](./Programming/ProgrammingMenu.md)
  * [**Algorithm**](./Algorithmn/AlgorithmnMenu.md)
- * [**Thought**](./Thought/Thought%20Menu.md)
+ * [**Thought**](./Thought/ThoughtMenu.md)
  * [**Database**](./Database/Database.md)
  * [**Network**](./Network/Network.md)
  * [**OS**](./OS/OS.md)
