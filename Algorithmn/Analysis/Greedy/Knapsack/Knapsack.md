@@ -10,6 +10,4 @@
 - 每次選擇**value/weight**最大的物品放入包裏直到無法完全放入, 最後分割物品填滿包則會得到最優解
 - 上面情況的最優解: 取item1 10, item2 20 和 item3 20則會得到最大價值240.
 
-
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
