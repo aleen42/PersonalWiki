@@ -82,20 +82,5 @@
 - Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
-            * [Zcool](http://www.zcool.com.cn/)
-            * [1001FreeDownloads](http://www.1001freedownloads.com/)
-            * [Behance](http://behance.net/)
-            * [Codrops](http://tympanus.net/codrops/)
-            * [Smashing Magazine](http://www.smashingmagazine.com/)
-            * [ICC(Institute of Creative Communications)](http://www.iccworld.org/)
-            * [theDesignInspirations](http://thedesigninspiration.com/)
-            * [聚*創意公社 La Camomille](http://www.lacamomille.net/zh/)
-            * [佛山設計中心 FoshanDesign Center](http://fsvi.cn/)
-            * [NodePlus](http://www.nodeplus.cn/)
-            	* [Activation-Group](http://www.activation-group.com/)
-            * [TerritoryStudio](http://www.territorystudio.com/)
         * Awards
-            * [AWWWARDS](http://www.awwwards.com/)
-            * [FWA](http://www.thefwa.com/)
-            * [CSS DESIGN WARDS](http://www.cssdesignawards.com/)
     * [WeByDo](http://www.webydo.com/)
