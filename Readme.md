@@ -1,4 +1,4 @@
-<img src="./cover_read.png">
+<img src="./cover_read.jpg">
 
 ## About
 
