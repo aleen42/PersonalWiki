@@ -7,8 +7,10 @@
 
 #### The purpose of using Gitbook
 
-- With **Gitbook**, you can generate your books with the follow formats: **PDF**, **ePub**, **mobi** or just a **website**.
-- 
+- You can generate your books with the follow formats: **PDF**, **ePub**, **mobi** or just a **website**.
+- You can use **Markdown** to make your works beautiful with formal layout.
+- You can use **TeX** to add mathematical expressions with **MathJax** or **KaTeX**. (*Notice that: MathJax supports the entire TeX syntax, but the output is not perfect on ebooks (PDF, ePub and Mobi). KaTeX renders perfectly on all formats (web and ebooks), but doesn't yet support all the syntax.*)
+- Because Gitbook can be used to connect to Github repositories, it's convenient to use Gitbook to documenting your projects.
 
 <a href="#how-to-use-gitbook-to-write-something" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
