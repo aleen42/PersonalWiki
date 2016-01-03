@@ -4,6 +4,7 @@
 - [**How to use browser better**](./better_browser.md)
 - [**How PGP encryption works**](./pgp.md)
 - [**How to setup Dlib in the Visual Studio 2013**](./dlib.md)
+- [**How to use Gitbook to write something**](./gitbook.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
