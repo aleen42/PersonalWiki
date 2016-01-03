@@ -2,7 +2,7 @@
 
 #### Introduction
 
-- Firstly, you must know what **Gitbook** is. To put it simple, Gitbook is like a tool based on [**Git**](./../git/git.md)
+- Firstly, you must know what **Gitbook** is. To put it simple, Gitbook is like a tool based on [**Git**](./../git/git.md). Anyway, you can see as a cloud to store your writing works, and contorl the books' version by commands.
 
 <a href="#how-to-use-gitbook-to-write-something" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
