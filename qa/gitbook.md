@@ -2,7 +2,7 @@
 
 #### Introduction
 
-- Firstly, you must know what **Gitbook** is. To put it simple, Gitbook is used as a repository based on [**Git**](./../git/git.md) like Github. Anyway, you can see as a cloud to store your writing works, and contorl the books' version by commands. For more details, you can look at the official [**documents**]().
+- Firstly, you must know what **Gitbook** is. To put it simple, Gitbook is used as a repository based on [**Git**](./../git/git.md) like Github. The difference point is that Gitbook is usally used for wrting some document or you can also write a boo. Anyway, you can see as a cloud to store your writing works, and contorl the books' version by commands. For more details, you can look at the official [**documents**]().
 
 <a href="#how-to-use-gitbook-to-write-something" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
