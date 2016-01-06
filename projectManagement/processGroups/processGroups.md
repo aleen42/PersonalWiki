@@ -16,7 +16,9 @@
 
 - Alpha project managers will spend more time on **Planning**.
 
-### 2. 
+### 2. Process Groups and Knowledge Area Mapping
+
+<img src="./map.png">
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
