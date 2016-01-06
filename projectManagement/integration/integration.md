@@ -24,8 +24,9 @@
 
 - Resource Allocation:
     - Methods for selecting projects:
-        - focusing on board organizational needs
-        - 
+        - focusing on board organizational needs.
+        - categorizing(分類) information technology projects.
+        - performing net present value or other financial analysis.
 
 
 
