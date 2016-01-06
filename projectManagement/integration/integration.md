@@ -6,6 +6,12 @@
 
 1. Developing the project charter(憲章)
     - a document that formally recognizes(承認) the existence of a project and provides direction(指導) on the project's objectives and management.
+    - you should have the follow things as input:
+        - a project statement of work
+        - a business case
+        - agreements
+        - enterprice environmental factors
+        - organiazational process assets.
 2. Developing the project management plan.
     - **Common elements**:
         - introduction or overview of the project
