@@ -44,6 +44,7 @@
             - **Return on Investment(ROI)** analysis
                 - 投資回報率
             - **Payback** analysis
+                - 回本
         - using a weighted scoring model
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
