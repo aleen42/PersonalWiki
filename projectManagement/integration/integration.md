@@ -44,6 +44,7 @@
                 - `NPV = Benifits - Costs`
             - **Return on Investment(ROI)** analysis
                 - 投資回報率
+                - `ROI = (Benifits - Costs) / Costs`
             - **Payback** analysis
                 - 回本
         - using a weighted scoring model
