@@ -41,6 +41,7 @@
         - performing net present value or other financial analysis.
             - **Net Present Value(NPV)** analysis
                 - 淨現值
+                - `NPV = Benifits - Costs`
             - **Return on Investment(ROI)** analysis
                 - 投資回報率
             - **Payback** analysis
