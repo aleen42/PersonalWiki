@@ -22,6 +22,8 @@
 
 <img src="./organiazational_structures.png">
 
+- Functional: **functional managers** -> **CEO**
+- 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
