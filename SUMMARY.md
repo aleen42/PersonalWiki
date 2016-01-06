@@ -216,6 +216,7 @@
     * [Project Management](./projectManagement/projectManagement.md)
         * [Introduction](./projectManagement/introduction/introduction.md)
         * [IT Context](./projectManagement/context/context.md)
+        * [Process Groups](./projectManagement/processGroups/processGroups.md)
     * [Multimedia](./Multimedia/Multimedia.md)
     * [Git](./git/git.md)
         * [Get projects from the repository](./git/get/get.md)
