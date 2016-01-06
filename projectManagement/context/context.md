@@ -34,6 +34,12 @@
     - **Risk tolerance**
     - **Group emphasis**
     - **Reward criteria**
+    - People focus
+    - **Conflict tolerance**
+    - **Unit integration**
+    - Means-ends orientation(導向)
+    - Control
+    - **Open-systems focus**
     
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
