@@ -5,7 +5,7 @@
 <img src="./processes.png">
 
 1. Developing the project charter(憲章)
-    - a document that formally recognizes(承認) the existence of a project and provides direction(指導) on the project's objectives and management
+    - a document that formally recognizes(承認) the existence of a project and provides direction(指導) on the project's objectives and management.
 2. Developing the project management plan.
     - **Common elements**:
         - introduction or overview of the project
