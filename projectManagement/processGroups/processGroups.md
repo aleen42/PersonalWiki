@@ -20,7 +20,7 @@
 
 <img src="./map.png">
 
-### 3. Methodloty
+### 3. Methodlogy
 
 
 
