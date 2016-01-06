@@ -2,7 +2,7 @@
 
 ### 1. Systems view
 
-- Project managers need to use **systems thinking**
+- Project managers need to use **systems thinking**: to take a holistic(整體的) view of carrying out projects within the context of the organiaztion
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
