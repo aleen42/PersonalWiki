@@ -48,7 +48,9 @@
 
 <img src="./tranditional_phases.png">
 
-- a **Systems Development Life Cycle(ADLC)** is a framework for describing the phases involved in developing and maintaining information systems.
+- a **Systems Development Life Cycle(ADLC)** is a framework for describing the phases involved in developing and maintaining information systems. A system development project can follow:
+    - Predictive life cycle: the scope of the project can be clearly articulated (清楚說明的) and the schedule and cost can be predicted
+    - Adaptive software development life cycle
 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
