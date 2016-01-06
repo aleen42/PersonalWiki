@@ -27,6 +27,7 @@
     - Collecting measuring
     - Disseminating(宣傳)
 5. Performing integrated change control
+    - Influencing the factors that create changes to ensure that changes are beneficial
 6. Closing the project or phase
 
 ### 2. SWOT analysis
