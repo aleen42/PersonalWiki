@@ -31,8 +31,9 @@
         - Initiating a project
         - Directing a project
         - Controlling a project
-        - Managing prduct delivery
-        - Managing sta
+        - Managing product delivery
+        - Managing stage boundaries
+        - Closing a project
 
 
 
