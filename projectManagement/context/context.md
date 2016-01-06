@@ -54,6 +54,7 @@
         - **Spiral Model**: shows that software is developed using an iterative(迭代) or spiral(螺旋) approach rather than a linear approach.
         - **Incremental Build Model**: provides for progressive(漸進的) development of operational software.
         - **Prototyping(原型) Model**: used for developing prototypes to clarify user requirements.
+        - **Rapid Application Development(RAD) Model**: used to produce systems quickly without sacrificing(犧牲) quality.
     - **Adaptive software development life cycle**: requirements cannot be clearly expressed, projects are mission driven and component based, using time-based cycles to meet target dates.
 
 
