@@ -29,10 +29,9 @@
         - project files
         - lessons-learned(經驗教訓) reports <img src="./lesson_learned_reports.png">
         - part of organizational process assets(資產)
+- Alpha project managers will spend more time on **Planning**.
 
 <img src="./time.png">
-
-- Alpha project managers will spend more time on **Planning**.
 
 ### 2. Process Groups and Knowledge Area Mapping
 
