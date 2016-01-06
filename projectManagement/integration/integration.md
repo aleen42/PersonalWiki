@@ -25,6 +25,7 @@
 - Resource Allocation:
     - Methods for selecting projects:
         - focusing on board organizational needs
+        - 
 
 
 
