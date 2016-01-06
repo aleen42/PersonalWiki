@@ -20,7 +20,7 @@
 
 <img src="./map.png">
 
-### 3. Methodlogy
+### 3. Methodology
 
 
 
