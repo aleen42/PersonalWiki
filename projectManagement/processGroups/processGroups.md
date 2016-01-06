@@ -11,6 +11,12 @@
     - identifying stakeholders: <img src="./stakeholder_register.png">
     - starting a kick-off meeting(啟動會議): <img src="./kick_off_agenda.png">
 - **Planning Processes**: to plan how to complete the project
+    - key ouputs:
+        - a team contract(合同)
+        - a projec scope statement
+        - a Work Breakdown Structure(WBS)
+        - a project schedule(Gantt Chart)
+        - a list or prioritized risks
 - **Executing Processes**: to execute the plan
 - **Monitoring and Controlling Processes**: to monitor and control the whole processes
 - **Closing Processes**: to close the project
