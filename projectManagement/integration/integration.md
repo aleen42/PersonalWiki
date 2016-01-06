@@ -32,7 +32,7 @@
         - Determining that a change has occured
         - Managing actual changes as they occur
     - Change control:
-        - a **change control system** describes when and how offical project documents and work may be changed and that 
+        - a **change control system** describes when and how offical project documents and work may be changed and describes who is authorized to make changes and hot to make it 
 6. Closing the project or phase
 
 ### 2. SWOT analysis
