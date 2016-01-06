@@ -44,7 +44,10 @@
 ### 5. Project Life Cycle
 
 - a **project life cycle**: a collection of project phases. (from the projects' start point to the end point)
--
+- phases of a traditional project life cycle.
+
+<img src="./tranditional_phases.png">
+
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
