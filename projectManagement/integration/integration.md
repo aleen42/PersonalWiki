@@ -28,7 +28,7 @@
             - 3 criterias:
                 - there is a **need** for the project
                 - there are **funds(儲備)** available
-                - there is a strong **will** to make it succeed.
+                - there is a strong **will** to make it succeed
         - categorizing(分類) information technology projects.
         - performing net present value or other financial analysis.
         - using a weighted scoring model
