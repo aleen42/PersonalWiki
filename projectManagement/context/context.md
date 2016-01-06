@@ -2,7 +2,7 @@
 
 ### 1. Definition
 
-
+- a **project life cycle**: a collection of project phases
 
 ### 2. Systems view
 
