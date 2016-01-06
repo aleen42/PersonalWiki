@@ -28,7 +28,7 @@
 
 ### 4. Organiazational Culture
 
-
+- a set of shared assumptions, values and behaviors that characterize the functoning of an organiaztion.
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
