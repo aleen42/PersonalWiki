@@ -4,6 +4,8 @@
 
 ### 1. Five processes
 
+<img src="./5processes.png">
+
 - **Initiating Processes**
 - **Planning Processes**
 - **Executing Processes**
