@@ -20,6 +20,10 @@
 - **Executing Processes**: to execute the plan
     - a milestone report can be helpful: <img src="./milestone_report.png">
 - **Monitoring and Controlling Processes**: to monitor and control the whole processes
+    - outputs:
+        - performance reports
+        - change requests
+        - updates o various plans
 - **Closing Processes**: to close the project
 
 <img src="./time.png">
