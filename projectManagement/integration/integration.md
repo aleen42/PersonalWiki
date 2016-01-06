@@ -23,7 +23,7 @@
 <img src="./planning_stages.png">
 
 - Resource Allocation:
-    - Methods for selecting projets:
+    - Methods for selecting projecsts:
         - focusing on board organizational needs
 
 
