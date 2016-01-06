@@ -7,7 +7,7 @@
 <img src="./5processes.png">
 
 - **Initiating Processes**: to initiate a project
-- **Planning Processes**: to plan how to complete a project
+- **Planning Processes**: to plan how to complete the project
 - **Executing Processes**: to execute the plan
 - **Monitoring and Controlling Processes**: to monitor and control the whole processes
 - **Closing Processes**: to close the project
