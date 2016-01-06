@@ -48,6 +48,8 @@
 
 <img src="./tranditional_phases.png">
 
+- a **Systems Development Life Cycle(ADLC)** is a framework for describing the phases involved in developing and maintaing information systems.
+
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
