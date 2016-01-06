@@ -7,6 +7,8 @@
 <img src="./5processes.png">
 
 - **Initiating Processes**: to initiate a project
+    - developing project charter
+    - identifying stakeholders: <img src="./stakeholder_register.png">
 - **Planning Processes**: to plan how to complete the project
 - **Executing Processes**: to execute the plan
 - **Monitoring and Controlling Processes**: to monitor and control the whole processes
