@@ -18,5 +18,9 @@
 - Opportunities(機遇)
 - Threats(威脅)
 
+### 3. Planning Stages
+
+<img src="./planning_stages.png">
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
