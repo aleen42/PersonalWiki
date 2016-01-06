@@ -10,7 +10,7 @@
 
 ### 2. Three Sphere(領域) Model of Systems management
 
-
+<img src="./threeSphereModel.jpg">
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
