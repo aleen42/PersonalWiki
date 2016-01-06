@@ -51,7 +51,7 @@
 - a **Systems Development Life Cycle(ADLC)** is a framework for describing the phases involved in developing and maintaining information systems. A system development project can follow:
     - **Predictive life cycle**: the scope of the project can be clearly articulated(清楚說明的) and the schedule and cost can be predicted.
         - **Waterfall Models**: has well-defined, linear stages of systems development and support.
-        - **Spiral Models**: shows that software is developed using an iterative(迭代) or spiral(螺旋) approach rather than a linear approach
+        - **Spiral Models**: shows that software is developed using an iterative(迭代) or spiral(螺旋) approach rather than a linear approach.
     - **Adaptive software development life cycle**: requirements cannot be clearly expressed, projects are mission driven and component based, using time-based cycles to meet target dates.
 
 
