@@ -24,6 +24,8 @@
         - Meetings
         - Project management information systems
 4. Monitoring and controlling project work.
+    - Collecting measuring
+    - Disseminating(宣傳)
 5. Performing integrated change control
 6. Closing the project or phase
 
