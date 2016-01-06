@@ -11,7 +11,7 @@
         - a business case
         - agreements
         - enterprice environmental factors
-        - organiazational process assets.
+        - organiazational process assets
 2. Developing the project management plan.
     - **Common elements**:
         - introduction or overview of the project
