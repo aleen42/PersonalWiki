@@ -33,7 +33,9 @@
         - Managing actual changes as they occur
     - Change control:
         - a **Change Control System** describes when and how offical project documents and work may be changed and describes who is authorized to make changes and how to make it.
-        - a **Change Control Board(CCB)** is a formal group of people responsible for approving or rejecting changes on a project
+        - a **Change Control Bord(CCB)** is a formal group of people responsible for approving or rejecting changes on a project.
+    - Making timely(及時的) changes:
+        - 48-hour policy
 6. Closing the project or phase
 
 ### 2. SWOT analysis
