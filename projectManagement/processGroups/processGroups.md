@@ -18,7 +18,7 @@
         - a project schedule(Gantt Chart)
         - a list or prioritized risks
 - **Executing Processes**: to execute the plan
-    - a milestone report can be helpful: <img src="./milestone_report.png"  width="75%">
+    - a milestone report can be helpful: <img src="./milestone_report.png" width="75%">
 - **Monitoring and Controlling Processes**: to monitor and control the whole processes
     - outputs:
         - performance reports
