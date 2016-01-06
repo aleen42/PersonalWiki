@@ -29,7 +29,7 @@
 ### 4. Organiazational Culture
 
 - a set of shared assumptions, values and behaviors that characterize the functioning of an organiaztion.
-- characteristics of organizational culture (**bold** means more important):
+- characteristics of organizational culture (**bold** means it's more important):
     - **Member identify**
     - **Risk tolerance**
     - **Group emphasis**
