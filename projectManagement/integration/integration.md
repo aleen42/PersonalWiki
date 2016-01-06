@@ -11,4 +11,6 @@
 5. Performing integrated change control
 6. Closing the project or phase
 
+### 2. SWOT analysis
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
