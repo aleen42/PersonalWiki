@@ -10,7 +10,7 @@
         - a project statement of work
         - a business case
         - agreements
-        - enterprice environmental factors
+        - enterprise environmental factors
         - organiazational process assets
 2. Developing the project management plan.
     - **Common elements**:
