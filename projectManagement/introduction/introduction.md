@@ -18,6 +18,7 @@
 ### 2. Definitons
 
 - **Projects**: 
+    - projects are **unique**.
 	- operations(業務) is work done to sustain(支撐) the business.
 	- end when: 
 		- their objectives have been reached
