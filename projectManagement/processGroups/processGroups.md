@@ -7,7 +7,7 @@
 <img src="./5processes.png">
 
 - **Initiating Processes**: to initiate a project
-    - developing project charter
+    - developing project charter(憲章)
     - identifying stakeholders: <img src="./stakeholder_register.png">
 - **Planning Processes**: to plan how to complete the project
 - **Executing Processes**: to execute the plan
