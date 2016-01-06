@@ -18,6 +18,7 @@
         - a project schedule(Gantt Chart)
         - a list or prioritized risks
 - **Executing Processes**: to execute the plan
+    - a milestone report can be helpful
 - **Monitoring and Controlling Processes**: to monitor and control the whole processes
 - **Closing Processes**: to close the project
 
