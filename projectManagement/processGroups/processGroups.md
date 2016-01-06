@@ -46,4 +46,6 @@
 
 ### 4. Business Case(商業論證)
 
+- a **business case** is to capture the reasoning for initiating a project or task.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
