@@ -22,5 +22,10 @@
 
 <img src="./planning_stages.png">
 
+- Resource Allocation:
+    - Methods for selecting projets:
+        - focusing on board organizational needs
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
