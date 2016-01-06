@@ -22,6 +22,9 @@
 
 ### 3. Methodology
 
+- a **methodology**: to describe how things should be done.
+- a **standard**: to describe what should be done
+
 
 
 
