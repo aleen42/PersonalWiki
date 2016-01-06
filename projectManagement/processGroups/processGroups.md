@@ -9,7 +9,7 @@
 - **Initiating Processes**: to initiate a project
     - developing a project charter(憲章) which includes key project information and stakeholder signatures(署名): <img src="./project_charter1.png"> <img src="./project_charter2.png">
     - identifying stakeholders, and having the stakeholders registers: <img src="./stakeholder_register.png" width="75%">
-    - starting a kick-off meeting(啟動會議), and the agenda is shown as : <img src="./kick_off_agenda.png" width="75%">
+    - starting a kick-off meeting(啟動會議), and the agenda is shown as follow: <img src="./kick_off_agenda.png" width="75%">
 - **Planning Processes**: to plan how to complete the project
     - key ouputs:
         - a team contract(合同)
