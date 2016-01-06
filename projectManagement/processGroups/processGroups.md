@@ -46,6 +46,17 @@
 
 ### 4. Business Case(商業論證)
 
-- a **business case** is to capture the reasoning for initiating a project or task.
+- a **business case** is to capture the reasoning for initiating a project or task. It should include information as follow:
+    - Introduction/background
+    - Business objective
+    - Current situation and problem/opportunity statement
+    - Critical assumptions and constraints
+    - Analysis of options and recommendation
+    - Preliminary(初步的) project requirements
+    - Budget estimate and financial analysis
+    - Schedule estimate
+    - Potential risks
+    - Exhibits
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
