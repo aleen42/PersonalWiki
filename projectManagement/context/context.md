@@ -24,7 +24,7 @@
 
 - Functional: **functional managers** -> **CEO**
 - Project: **program managers** -> **CEO**
-- Matrix: **personnel** -> **two or more bosses**
+- Matrix: **personnel** -> **two or more bosses** (between functional and project structures)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
