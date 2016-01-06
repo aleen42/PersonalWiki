@@ -52,7 +52,8 @@
     - **Predictive life cycle**: the scope of the project can be clearly articulated(清楚說明的) and the schedule and cost can be predicted.
         - **Waterfall Model**: has well-defined, linear stages of systems development and support.
         - **Spiral Model**: shows that software is developed using an iterative(迭代) or spiral(螺旋) approach rather than a linear approach.
-        - **Incremental Build Model**: provides for progressive(漸進的) development of operational software
+        - **Incremental Build Model**: provides for progressive(漸進的) development of operational software.
+        - **Prototyping(原型) Model**: used for developing prototypes to clarify user requirements.
     - **Adaptive software development life cycle**: requirements cannot be clearly expressed, projects are mission driven and component based, using time-based cycles to meet target dates.
 
 
