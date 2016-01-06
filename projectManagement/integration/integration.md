@@ -2,6 +2,8 @@
 
 ### 1. Processes
 
+<img src="./processes.png">
+
 1. Developing the project charter(憲章)
 2. Developing the project management plan.
 3. Directing and managing project work.
