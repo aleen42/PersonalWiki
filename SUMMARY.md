@@ -215,6 +215,7 @@
         * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
     * [Project Management](./projectManagement/projectManagement.md)
         * [Introduction](./projectManagement/introduction/introduction.md)
+        * [IT Context](./context/context.md)
     * [Multimedia](./Multimedia/Multimedia.md)
     * [Git](./git/git.md)
         * [Get projects from the repository](./git/get/get.md)
