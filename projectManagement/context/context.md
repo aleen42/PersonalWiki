@@ -67,7 +67,7 @@
 
 ### 7. Scrum Framework
 
-- **Scrum Framework**
+- **Scrum Framework** is a leading agile development method.
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
