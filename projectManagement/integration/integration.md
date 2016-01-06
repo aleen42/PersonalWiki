@@ -6,7 +6,7 @@
 
 1. Developing the project charter(憲章)
 2. Developing the project management plan.
-    - common elements:
+    - **Common elements**:
         - introduction or overview of the project
         - description of how the project is organized
         - management and technical processes used on the project
