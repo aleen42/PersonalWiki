@@ -80,5 +80,7 @@
 
 - roles:
     - **Product Owner**
+    - **ScrumMaster(PM)**
+    - **Scrum Team or Develoment Team**
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
