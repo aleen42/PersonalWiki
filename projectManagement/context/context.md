@@ -65,6 +65,10 @@
     - **Offshoring(離岸外包)**: to describe outsourcing from another countries.
 - **Virtual teams**: a group of individuals working across time and space using communiation technologies.
 
+### 7. Scrum Framework
+
+- **Scrum Framework**
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
