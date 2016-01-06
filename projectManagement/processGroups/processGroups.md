@@ -24,7 +24,7 @@
 
 - a **methodology**: to describe how things should be done
 - a **standard**: to describe what should be done
-
+- **PRINCE2**, **Agile**, **RUP**, and **Six Sigma** provide different project management methodologies
 
 
 
