@@ -60,8 +60,10 @@
 
 ### 6. Definitives
 
-- Globalization: software has been completed by people all around the world in many companies.
-- Outsourcing(外包): an organization acquires goods and/or sources from an outside source.
+- **Globalization**: software has been completed by people all around the world in many companies.
+- **Outsourcing(外包)**: an organization acquires goods and/or sources from an outside source.
+    - **Offshoring(離岸外包)**: to describe outsourcing from another countries.
+- **Virtual teams**: 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
