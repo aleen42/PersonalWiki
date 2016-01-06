@@ -13,9 +13,10 @@
 
 ### 2. SWOT analysis
 
-- Strengths
-- Weaknesses
-- Opportunities
-- Threats
+- Strengths(優勢)
+- Weaknesses(劣勢)
+- Opportunities(機遇)
+- Threats(威脅)
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
