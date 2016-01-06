@@ -10,7 +10,7 @@
         - introduction or overview of the project
         - description of how the project is organized
         - management and technical processes used on the project
-        - work to be done, schedule and budge information
+        - work to be done, schedule and budget information
 3. Directing and managing project work.
 4. Monitoring and controlling project work.
 5. Performing integrated change control
