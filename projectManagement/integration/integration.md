@@ -27,9 +27,12 @@
     - Collecting measuring
     - Disseminating(宣傳)
 5. Performing integrated change control
-    - Influencing the factors that create changes to ensure that changes are beneficial
-    - Determining that a change has occured
-    - Managing actual changes as they occur
+    - 3 main objectives:
+        - Influencing the factors that create changes to ensure that changes are beneficial
+        - Determining that a change has occured
+        - Managing actual changes as they occur
+    - Change control:
+        - a **change control system** describes when and how offical project documents and work may be changed and that 
 6. Closing the project or phase
 
 ### 2. SWOT analysis
