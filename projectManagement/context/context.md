@@ -56,8 +56,12 @@
         - **Prototyping(原型) Model**: used for developing prototypes to clarify user requirements.
         - **Rapid Application Development(RAD) Model**: used to produce systems quickly without sacrificing(犧牲) quality.
     - **Adaptive software development life cycle**: requirements cannot be clearly expressed, projects are mission driven and component based, using time-based cycles to meet target dates.
-        - **Agile Model** 
+        - **Agile Development Model** 
 
+### 6. Definitives
+
+- Globalization: software has been completed by people all around the world in many companies.
+- 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
