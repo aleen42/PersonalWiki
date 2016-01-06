@@ -49,6 +49,6 @@
                 - 回本
                 - **Payback Period**: the amount of time to recoup(收回)
                 <img src="./payback_period.png">
-        - using a weighted scoring model <img src="./weighted_scoring_model.png"
+        - using a weighted scoring model <img src="./weighted_scoring_model.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
