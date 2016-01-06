@@ -18,6 +18,8 @@
     - **Political frame**: Coalitions(並集) composed of varied individuals and interest groups. Conflicts and power are key issues.
     - **symbolic frame**: Symbols and meanings related to events. Culture, language, traditions and image are all parts of this frame.
 
+### 3. Organizational Structures
+
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
