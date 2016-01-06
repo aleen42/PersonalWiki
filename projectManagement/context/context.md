@@ -1,6 +1,8 @@
 ## Information Technology Context	[Back](./../projectManagement.md)
 
-### 1. Systems view
+### 1. Definition
+
+### 2. Systems view
 
 - Project managers need to use **systems thinking**: to take a holistic(整體的) view of carrying out projects within the context of the organization.
 - a **systems approach** includes:
@@ -8,7 +10,7 @@
     - **Systems analysis**
     - **Systems management**
 
-### 2. Three Sphere(領域) Model of Systems Management
+### 3. Three Sphere(領域) Model of Systems Management
 
 <img src="./threeSphereModel.jpg">
 
@@ -18,7 +20,7 @@
     - **Political frame**: Coalitions(並集) composed of varied individuals and interest groups. Conflicts and power are key issues.
     - **symbolic frame**: Symbols and meanings related to events. Culture, language, traditions and image are all parts of this frame.
 
-### 3. Organizational Structures
+### 4. Organizational Structures
 
 <img src="./organiazational_structures.png">
 
@@ -26,7 +28,7 @@
 - Project: **program managers** -> **CEO**
 - Matrix: **personnel** -> **two or more bosses** (between functional and project structures)
 
-### 4. Organiazational Culture
+### 5. Organiazational Culture
 
 - a set of shared assumptions, values and behaviors that characterize the functioning of an organiaztion.
 - characteristics of organizational culture (**bold** means it's more important):
