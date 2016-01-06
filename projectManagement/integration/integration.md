@@ -30,6 +30,9 @@
                 - there are **funds(儲備)** available
                 - there is a strong **will** to make it succeed
         - categorizing(分類) information technology projects.
+            - a problem
+            - an opportunity
+            - a directive(指令)
         - performing net present value or other financial analysis.
         - using a weighted scoring model
 
