@@ -83,8 +83,8 @@
     - **ScrumMaster(PM)**
     - **Scrum Team or Develoment Team**
 - artifacts
-    - **Product Backlog**
-    - **Sprint Backlog**
-    - **Burndown Chart(竣工情況圖)**
+    - **Product Backlog**: a list of features prioritized by business value.
+    - **Sprint Backlog**: the highest-priority items from the product backlog to be completed within a sprint.
+    - **Burndown Chart(竣工情況圖)**: a chart to show the work situation within in a sprint on a day-by-day basis.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
