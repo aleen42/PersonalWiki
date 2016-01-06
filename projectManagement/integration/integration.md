@@ -22,33 +22,32 @@
 
 <img src="./planning_stages.png">
 
-- Resource Allocation:
-    - Methods for selecting projects:
-        - focusing on board organizational needs.
-            - 3 criterias:
-                - there is a **need** for the project
-                - there are **funds(儲備)** available
-                - there is a strong **will** to make it succeed
-        - categorizing(分類) information technology projects.
-            - focus on addressing:
-                - a problem
-                - an opportunity
-                - a directive(指令)
-            - focus on time
-                - how long it takes
-                - when it's needed
-            - focus on the priority
-        - performing net present value or other financial analysis.
-            - **Net Present Value(NPV)** analysis
-                - 淨現值
-                - `NPV = Benifits - Costs`
-            - **Return on Investment(ROI)** analysis
-                - 投資回報率
-                - `ROI = (Benifits - Costs) / Costs`
-            - **Payback** analysis
-                - 回本
-                - **Payback Period**: the amount of time to recoup(收回)
-                <img src="./payback_period.png">
-        - using a weighted scoring model <img src="./weighted_scoring_model.png">
+- Methods for selecting projects:
+    - focusing on board organizational needs.
+        - 3 criterias:
+            - there is a **need** for the project
+            - there are **funds(儲備)** available
+            - there is a strong **will** to make it succeed
+    - categorizing(分類) information technology projects.
+        - focus on addressing:
+            - a problem
+            - an opportunity
+            - a directive(指令)
+        - focus on time
+            - how long it takes
+            - when it's needed
+        - focus on the priority
+    - performing net present value or other financial analysis.
+        - **Net Present Value(NPV)** analysis
+            - 淨現值
+            - `NPV = Benifits - Costs`
+        - **Return on Investment(ROI)** analysis
+            - 投資回報率
+            - `ROI = (Benifits - Costs) / Costs`
+        - **Payback** analysis
+            - 回本
+            - **Payback Period**: the amount of time to recoup(收回)
+            <img src="./payback_period.png">
+    - using a weighted scoring model <img src="./weighted_scoring_model.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
