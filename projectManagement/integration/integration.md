@@ -40,7 +40,9 @@
             - focus on the priority
         - performing net present value or other financial analysis.
             - **Net Present Value(NPV)** analysis
+                - 淨現值
             - **Return on Investment(ROI)** analysis
+                - 投資回報率
             - **Payback** analysis
         - using a weighted scoring model
 
