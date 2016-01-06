@@ -12,6 +12,8 @@
 
 <img src="./threeSphereModel.jpg">
 
+- Organizations:
+    - **Structural frame**: Roles and responsibilities, coordination and control.  (Organizational charts help describe the frame)
 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
