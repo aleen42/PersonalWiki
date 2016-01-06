@@ -27,6 +27,7 @@
         - focusing on board organizational needs.
         - categorizing(分類) information technology projects.
         - performing net present value or other financial analysis.
+        - using a weighted scoring model
 
 
 
