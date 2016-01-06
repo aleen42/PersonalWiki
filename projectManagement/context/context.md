@@ -2,8 +2,6 @@
 
 ### 1. Definition
 
-- a **project life cycle**: a collection of project phases. (from the projects' start point to the end point)
-- 
 
 ### 2. Systems view
 
@@ -45,7 +43,10 @@
     - Means-ends orientation(導向)
     - Control
     - **Open-systems focus**
-    
+
+### 5. Project Life Cycle
+
+- a **project life cycle**: a collection of project phases. (from the projects' start point to the end point)
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
