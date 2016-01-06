@@ -82,5 +82,9 @@
     - **Product Owner**
     - **ScrumMaster(PM)**
     - **Scrum Team or Develoment Team**
+- artifacts
+    - **Product Backlog**
+    - **Sprint Backlog**
+    - **Burndown Chart(竣工情況圖)**
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
