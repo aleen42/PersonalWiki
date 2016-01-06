@@ -34,7 +34,13 @@
         - Managing product delivery
         - Managing stage boundaries
         - Closing a project
-
+    - **Rational Unified Process(RUP)**:
+        - Business Modelling
+        - Requirements
+        - Analysis & Design
+        - Implementation
+        - Test
+        - Deployment
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
