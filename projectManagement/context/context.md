@@ -14,6 +14,9 @@
 
 - Organizations:
     - **Structural frame**: Roles and responsibilities, coordination and control.  (Organizational charts help describe the frame)
+    - **Human resources frame**: Providing harmony between needs of the organization and needs of people.
+    - **Political frame**: Coalitions(並集) composed of varied individuals and interest groups. Conflicts and power are key issues.
+    - **symbolic frame**: Symbols and meanings related to events. Culture, language, traditions and image are all parts of this frame.
 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
