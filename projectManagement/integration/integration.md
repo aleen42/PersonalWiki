@@ -47,7 +47,7 @@
                 - `ROI = (Benifits - Costs) / Costs`
             - **Payback** analysis
                 - 回本
-                - **Payback Period**: the time took to recoup(收回)
+                - **Payback Period**: the amount of time took to recoup(收回)
         - using a weighted scoring model
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
