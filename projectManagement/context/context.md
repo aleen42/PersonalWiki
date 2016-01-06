@@ -2,7 +2,8 @@
 
 ### 1. Definition
 
-- a **project life cycle**: a collection of project phases. (from the prject start point to the end point)
+- a **project life cycle**: a collection of project phases. (from the projects' start point to the end point)
+- 
 
 ### 2. Systems view
 
