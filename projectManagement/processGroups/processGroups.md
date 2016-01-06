@@ -8,5 +8,6 @@
 - **Planning Processes**
 - **Executing Processes**
 - **Monitoring and Controlling Processes**
+- **Closing Processes**
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
