@@ -19,6 +19,10 @@
         - management and technical processes used on the project
         - work to be done, schedule and budget information
 3. Directing and managing project work.
+    - Execution tools:
+        - Expert judgment
+        - Meetings
+        - Project management information systems
 4. Monitoring and controlling project work.
 5. Performing integrated change control
 6. Closing the project or phase
