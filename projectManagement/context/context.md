@@ -8,7 +8,7 @@
     - **Systems analysis**
     - **Systems management**
 
-### 2. Three Sphere(領域) Model of Systems management
+### 2. Three Sphere(領域) Model of Systems Management
 
 <img src="./threeSphereModel.jpg">
 
