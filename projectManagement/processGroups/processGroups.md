@@ -22,6 +22,8 @@
 
 ### 3. Methodology
 
+<img src="./methodology.png">
+
 - a **methodology**: to describe how things should be done
 - a **standard**: to describe what should be done
 - **PRINCE2**, **Agile**, **RUP** and **Six Sigma** provide different project management methodologies.
@@ -42,5 +44,6 @@
         - Test
         - Deployment
 
+### 4. Business Case(商業論證)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
