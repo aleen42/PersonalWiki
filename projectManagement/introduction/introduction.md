@@ -84,6 +84,4 @@
 - Execution
 - Tools and infrastructure(基礎設施)
 
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
