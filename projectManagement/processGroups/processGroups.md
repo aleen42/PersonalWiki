@@ -25,6 +25,10 @@
         - change requests
         - updates o various plans
 - **Closing Processes**: to close the project
+    - outputs:
+        - project files
+        - lessons-learned(經驗教訓) reports
+        - part of organizational process assets(資產)
 
 <img src="./time.png">
 
