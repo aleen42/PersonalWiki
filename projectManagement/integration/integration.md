@@ -40,6 +40,8 @@
             - focus on the priority
         - performing net present value or other financial analysis.
             - **Net Present Value(NPV)** analysis
+            - **Return on Investment(ROI)** analysis
+            - **Payback** analysis
         - using a weighted scoring model
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
