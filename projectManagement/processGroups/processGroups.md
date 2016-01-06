@@ -76,5 +76,9 @@
     - Potential risks
     - Exhibits
 
+### 5. Scrume Documenting
+
+- roles:
+    - **Product Owner**
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
