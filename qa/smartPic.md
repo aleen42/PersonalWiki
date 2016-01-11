@@ -12,7 +12,7 @@
             <div class="link-btn"></div>
         </div>
     </a>
-    <!-- set the picture path -->
+    <!-- set the picture src -->
     <div class="shop" style="background-image: url();"></div>
 </div>
 ```
