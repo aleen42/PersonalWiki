@@ -6,6 +6,7 @@
 
 ```html
 <div class="pic-container">
+    <!-- the link of the picture you want to jump into -->
     <a href="">
         <div class="over">
             <div class="link-btn"></div>
