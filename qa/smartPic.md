@@ -2,7 +2,9 @@
 
 - Here is a smart way to show a picture in a html web page. Only with some **CSS**, the picture will be displayed in a different way like the [**example**]().
 
+```html
 
+```
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
