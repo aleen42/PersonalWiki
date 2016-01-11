@@ -12,6 +12,7 @@
             <div class="link-btn"></div>
         </div>
     </a>
+    <!-- the picture pat -->
     <div class="shop" style="background-image: url();"></div>
 </div>
 ```
