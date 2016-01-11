@@ -2,6 +2,7 @@
 
 - Here is a smart way to show a picture in a html web page. Only with some **CSS**, the picture will be displayed in a different way like the [**example**]().
 
+#### 1. have the html files
 ```html
 
 ```
