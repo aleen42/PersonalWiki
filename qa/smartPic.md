@@ -62,7 +62,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 50%;
-    background-image: url(./../images/link-btn.png);
     z-index: 3;
 }
 
