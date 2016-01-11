@@ -9,7 +9,7 @@
     <!-- the link of the picture you want to jump into -->
     <a href="">
         <div class="over">
-            <!-- set the over picture -->
+            <!-- set the over picture icon -->
             <div class="link-btn" style="background-image: url();"></div>
         </div>
     </a>
