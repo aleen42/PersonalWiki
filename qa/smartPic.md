@@ -6,7 +6,7 @@
 
 ```html
 <div class="pic-container">
-    <a href="productInfo?pid=${ product.productId }">
+    <a href="">
         <div class="over">
             <div class="link-btn"></div>
         </div>
