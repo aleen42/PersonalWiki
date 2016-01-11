@@ -5,7 +5,16 @@
 #### 1. have the html files
 
 ```html
-
+<div class="pic-container">
+    <a href="productInfo?pid=${ product.productId }">
+        <div class="over">
+            <div class="link-btn"></div>
+            <div class="product-name">${ product.name }</div>
+            <div class="product-price">$${ product.discountPrice }</div>
+        </div>
+    </a>
+	    <div class="shop" style="background-image: url('${ product.picture }');"></div>
+	</div>
 ```
 
 #### 2. set the css
