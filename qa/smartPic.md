@@ -13,8 +13,8 @@
             <div class="product-price">$${ product.discountPrice }</div>
         </div>
     </a>
-	    <div class="shop" style="background-image: url('${ product.picture }');"></div>
-	</div>
+    <div class="shop" style="background-image: url();"></div>
+</div>
 ```
 
 #### 2. set the css
