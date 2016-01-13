@@ -436,9 +436,9 @@
 
 - When deciding what projects to invest in or continue, one should include sunk(沉沒的) costs.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: sunk cost is money that has been spent in the past, which should not be included*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- It is important for project managers to focus on indirect costs because they can be easily controlled.
 
 > *<strong>wrong reason</strong>: the project management software can *
 
