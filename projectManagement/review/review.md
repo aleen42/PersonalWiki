@@ -423,7 +423,7 @@
 
 - Overrun is the additional percentage amount by which estimates exceed actual costs.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: it is the additional percentage or dollar amount by which actual costs exceed estimates. *
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
