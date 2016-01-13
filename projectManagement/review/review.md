@@ -580,7 +580,7 @@
 
 > *<strong>wrong reason</strong>: you can also use it to define general roles and responsibilities on projects*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- In the Social Styles Profile team building activity, drivers are reactive and people-oriented.
 
 > *<strong>wrong reason</strong>: no correlations*
 
