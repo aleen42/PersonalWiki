@@ -191,10 +191,10 @@
     - *<strong>wrong reason</strong>: a work package is a task at the lowest level of the WBS. It represents the level of work that the project manager monitors and controls*
 - A work package must always represent less than 80 hours of work.
     - *<strong>wrong reason</strong>: it depends on the schedule of the whole project*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
+- The tasks in a WBS must be developed as a sequential list of steps.
+    - *<strong>wrong reason</strong>: do not need to*
+- The executing tasks of the WBS remain constant from project to project.
+    - *<strong>wrong reason</strong>: similar but not constant*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
     - *<strong>wrong reason</strong>: it's reversed*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
