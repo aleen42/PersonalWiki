@@ -64,9 +64,9 @@
 #### False
 
 - A difference between operations and projects is that operations end when their objectives have been reached, whereas projects do not.
-    - *<strong>wrong reason</strong>: projects also end when objectives have been reached*
+> *<strong>wrong reason</strong>: projects also end when objectives have been reached*
 - A project manager's primary role is to provide the funding for a project.
-    - *<strong>wrong reason</strong>: it's the project sponsors to provide*
+> *<strong>wrong reason</strong>: it's the project sponsors to provide*
 - Questions about how a team will track schedule performance is related to a project's scope.
     - *<strong>wrong reason</strong>: it's the project's time*
 - In order to be realistic, a project manager should always set discrete(互不相連的) goals instead of a range of objectives.
