@@ -387,9 +387,9 @@
 
 > *<strong>wrong reason</strong>: a black diamond(◆) symbol represents a milestone*
 
-- A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
+- A disadvantage of using Gantt charts is that they do not provide a standard format for displaying planned project schedule information.
 
-> *<strong>wrong reason</strong>: using this method avoids the need to use dummy activities is an advantage*
+> *<strong>wrong reason</strong>: this is a main advantage*
 
 - A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
 
