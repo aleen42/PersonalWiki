@@ -218,7 +218,7 @@
         * [IT Context](./projectManagement/context/context.md)
         * [Process Groups](./projectManagement/processGroups/processGroups.md)
         * [Project Integration Management](./projectManagement/integration/integration.md)
-        * [Review](./projectManagement/integration/review.md)
+        * [Review](./projectManagement/review/review.md)
     * [Multimedia](./Multimedia/Multimedia.md)
     * [Git](./git/git.md)
         * [Get projects from the repository](./git/get/get.md)
