@@ -121,7 +121,7 @@
 - A milestone list is an output associated with the Project Scope Management knowledge area.
     - *<strong>wrong reason</strong>: it's the Project Time Management but not the Project Scope Management*
 - Project initiation involves taking the actions necessary to ensure that activities in the project plan are completed.
-    - *<strong>wrong reason</strong>: it's not initation but execution*
+    - *<strong>wrong reason</strong>: it's not initiation but execution*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
