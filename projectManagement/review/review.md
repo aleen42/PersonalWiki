@@ -77,6 +77,7 @@
 - Supporting details for an estimate include the ground rules and assumptions used in creating the estimate.
 - In a bottom-up estimate, the size of the individual work items is one of the factors that drives the accuracy of the estimates.
 - Parametric models are reliable when the models are flexible in terms of the project’s size.
+- One of the reasons why project cost estimates are inaccurate is because human beings are biased toward underestimation.
 
 #### False
 
