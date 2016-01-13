@@ -628,52 +628,12 @@
 
 > *<strong>wrong reason</strong>: it not appropriate for assessing commitment, building consensus, mediating a conflict, resolving a misunderstanding, making an ironic statement, conveying a reference document, reinforcing one’s authority, or maintaining confidentiality*
 
-- Microsoft Project 2010 does not lend itself to project human resource management.
+- The project summary report is a summary of all the lessons-learned reports.
 
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
+> *<strong>wrong reason</strong>: the project manager often combines information from all of the lessons-learned reports into a project summary report.*
 
-- Microsoft Project 2010 does not lend itself to project human resource management.
+- Improving an organization’s ability to communication is an easy process.
 
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
-
-- Microsoft Project 2010 does not lend itself to project human resource management.
-
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
+> *<strong>wrong reason</strong>: it's obviously not*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
