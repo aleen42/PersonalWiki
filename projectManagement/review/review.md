@@ -85,7 +85,7 @@
 - Spreadsheets are a common tool for cost estimating, cost budgeting, and cost control.
 - The quality assurance process involves taking responsibility for quality throughout the project’s life cycle.
 - Project managers are ultimately responsible for quality management on their projects.
-- Products that are accepted by project stakeholders are considered to be validated(有效) deliverables.
+- Products that are accepted by project stakeholders are considered to be validated(有效的) deliverables.
 
 #### False
 
@@ -513,9 +513,9 @@
 
 > *<strong>wrong reason</strong>: both in-house auditors or third parties with expertise in specific areas can do this*
 
-- In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
+- A run chart is a bar graph that depicts(描述) data points and their order of occurrence.
 
-> *<strong>wrong reason</strong>: it indicates that costs are equal ore more than planned*
+> *<strong>wrong reason</strong>: it's a line chart but not a bar graph*
 
 - In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
 
