@@ -370,9 +370,9 @@
 
 > *<strong>wrong reason</strong>: a merge occurs when two or more nodes precede a single node, and this is the situation of separating*
 
-- The format of the WBS dictionary is essentially the same for all projects.
+- Start-to-finish relationships are the most frequently used dependencies between activities.
 
-> *<strong>wrong reason</strong>: it can be various*
+> *<strong>wrong reason</strong>: it's rarely used, in four types of relationships: start-to-satrt, start-to-end, end-to-start and end-to-end*
 
 - The format of the WBS dictionary is essentially the same for all projects.
 
