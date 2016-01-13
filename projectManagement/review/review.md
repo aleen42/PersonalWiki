@@ -399,6 +399,6 @@
 
 - A backward pass through the network diagram determines the early start and early finish dates for each activity.
 
-> *<strong>wrong reason</strong>: it's the longest path*
+> *<strong>wrong reason</strong>: it determines the late start and late finish dates  *
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
