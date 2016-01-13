@@ -6,6 +6,7 @@
 - [**How to setup Dlib in the Visual Studio 2013**](./dlib.md)
 - [**How to use Gitbook to write something**](./gitbook.md)
 - [**How to make a smart picture showing with css **](./smartPic.md)
+- [**How to see logs of crontab in Ubuntu**](./crontablog.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
