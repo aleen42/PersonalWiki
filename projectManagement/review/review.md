@@ -41,6 +41,8 @@
     - *<strong>wrong reason</strong>: it's primarily used in cost management*
 - Responsibility assignment matrices and project organizational charts are examples of tools used in procurement management.
     - *<strong>wrong reason</strong>: it's primarily used in human resource management*
+- Responsibility assignment matrices and project organizational charts are examples of tools used in procurement management.
+    - *<strong>wrong reason</strong>: it's primarily used in human resource management*    
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
