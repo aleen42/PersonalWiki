@@ -86,6 +86,7 @@
 - The quality assurance process involves taking responsibility for quality throughout the project’s life cycle.
 - Project managers are ultimately responsible for quality management on their projects.
 - Products that are accepted by project stakeholders are considered to be validated(有效的) deliverables.
+- Using Six Sigma principles is an organization-wide commitment and all employees must embrace its principles.
 
 #### False
 
