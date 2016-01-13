@@ -46,6 +46,7 @@
     - *<strong>wrong reason</strong>: obviously they won't do that*
 - Effective program managers recognize that managing a project is much more complex than managing a program.
     - *<strong>wrong reason</strong>: it's reversed*
-
+- Individual projects always address strategic goals whereas portfolio management addresses tactical goals.
+    - *<strong>wrong reason</strong>: tactical goals are short-term while strategic goals are long-term*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
