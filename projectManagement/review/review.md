@@ -72,138 +72,271 @@
 > *<strong>wrong reason</strong>: it's the project sponsors to provide*
 
 - Questions about how a team will track schedule performance is related to a project's scope.
-    - *<strong>wrong reason</strong>: it's the project's time*
+
+> *<strong>wrong reason</strong>: it's the project's time*
+
 - In order to be realistic, a project manager should always set discrete(互不相連的) goals instead of a range of objectives.
-    - *<strong>wrong reason</strong>: projects involve uncertainty and limited resources. Thus they rarely finish according to their original scope, time, and cost goals*
+
+> *<strong>wrong reason</strong>: projects involve uncertainty and limited resources. Thus they rarely finish according to their original scope, time, and cost goals*
+
 - Managing the triple constraint primarily involves making trade-offs between resources and quality.
-    - *<strong>wrong reason</strong>: should be between scope, time and cost*
+
+> *<strong>wrong reason</strong>: should be between scope, time and cost*
+
 - The only responsibility of a project manager is to meet the specific scope, time, and cost goals of a project.
-    - *<strong>wrong reason</strong>: he/she should also facilitate(促进) the entire process to meet the needs and expectations of stakeholders*
+
+> *<strong>wrong reason</strong>: he/she should also facilitate(促进) the entire process to meet the needs and expectations of stakeholders*
+
 - Opponents of a project do not belong to the category of stakeholders.
-    - *<strong>wrong reason</strong>: stakeholders are the people involved in or affected by project activities, and include the project sponsor, project team, support staff, customers, users, suppliers, and even opponents of a project*
+
+> *<strong>wrong reason</strong>: stakeholders are the people involved in or affected by project activities, and include the project sponsor, project team, support staff, customers, users, suppliers, and even opponents of a project*
+
 - The importance of stakeholders' needs and expectations is limited to the beginning of a project.
-    - *<strong>wrong reason</strong>: through the whole life cycle of projects*
+
+> *<strong>wrong reason</strong>: through the whole life cycle of projects*
+
 - Project procurement management primarily involves identifying stakeholder needs while managing their engagement throughout the life of the project.
-    - *<strong>wrong reason</strong>: procurement management involves acquiring or procuring goods and services for a project from outside the performing organization*
+
+> *<strong>wrong reason</strong>: procurement management involves acquiring or procuring goods and services for a project from outside the performing organization*
+
 - The primary role of project stakeholder management is to ensure that the project will satisfy the stated needs for which it was undertaken. 
-    - *<strong>wrong reason</strong>: stakeholder management  includes identifying and analyzing stakeholder needs while managing and controlling their engagement throughout the life of the product*
+
+> *<strong>wrong reason</strong>: stakeholder management  includes identifying and analyzing stakeholder needs while managing and controlling their engagement throughout the life of the product*
+
 - Earned value management is a tool primarily used in human resource management.
-    - *<strong>wrong reason</strong>: it's primarily used in cost management*
+
+> *<strong>wrong reason</strong>: it's primarily used in cost management*
+
 - Responsibility assignment matrices and project organizational charts are examples of tools used in procurement management.
-    - *<strong>wrong reason</strong>: it's primarily used in human resource management*
+
+> *<strong>wrong reason</strong>: it's primarily used in human resource management*
+
 - Good project managers assume that their definition of success is the same as the sponsors.
-    - *<strong>wrong reason</strong>: obviously they won't do that*
+
+> *<strong>wrong reason</strong>: obviously they won't do that*
+
 - Effective program managers recognize that managing a project is much more complex than managing a program.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - Individual projects always address strategic goals whereas portfolio management addresses tactical goals.
-    - *<strong>wrong reason</strong>: tactical goals are short-term while strategic goals are long-term*
+
+> *<strong>wrong reason</strong>: tactical goals are short-term while strategic goals are long-term*
+
 - It is mandatory(強制的) for project managers working on large information technology projects to be experts in the field of information technology.
-    - *<strong>wrong reason</strong>: it's not mandatory*
+
+> *<strong>wrong reason</strong>: it's not mandatory*
+
 - To be a successful manager, the only skills an IT project manager needs to possess is excellent technical skills.
-    - *<strong>wrong reason</strong>: it's business and soft skills which should be needed to possess*
+
+> *<strong>wrong reason</strong>: it's business and soft skills which should be needed to possess*
+
 - The enterprise project management software, which aids project and portfolio management, is a low-end tool.
-    - *<strong>wrong reason</strong>: it's a high-end one*
+
+> *<strong>wrong reason</strong>: it's a high-end one*
+
 - Project managers should lead projects in isolation in order to truly serve the needs of the organization.
-    - *<strong>wrong reason</strong>: the project can't be run in isolation*
+
+> *<strong>wrong reason</strong>: the project can't be run in isolation*
+
 - Systems analysis addresses the business, technological, and organizational issues associated with creating, maintaining, and modifying a system.
-    - *<strong>wrong reason</strong>: it's system management which does it*
+
+> *<strong>wrong reason</strong>: it's system management which does it*
+
 - When you separate business and organizational issues from project management planning, you do a better job of ensuring project success.
-    - *<strong>wrong reason</strong>: they should not be separated*
+
+> *<strong>wrong reason</strong>: they should not be separated*
+
 - Most people believe that the underlying causes of many companies’ problems can be traced to its organizational structure.
-    - *<strong>wrong reason</strong>: it's the organizational culture, but not the structure*
+
+> *<strong>wrong reason</strong>: it's the organizational culture, but not the structure*
+
 - Project work is most successful in an organizational culture where activities are organized around individuals.
-    - *<strong>wrong reason</strong>: it's groups or teams, but not individuals*
+
+> *<strong>wrong reason</strong>: it's groups or teams, but not individuals*
+
 - An organizational culture with strong unit integration makes the project manager's job more difficult.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - Internal stakeholders include groups affected by the project such as government officials or concerned citizens.
-    - *<strong>wrong reason</strong>: they're external stakeholders(outside the organization)*
+
+> *<strong>wrong reason</strong>: they're external stakeholders(outside the organization)*
+
 - The best way to sustain a project is to withhold the required money, human resources, and visibility for the project.
-    - *<strong>wrong reason</strong>: it's the worst way*
+
+> *<strong>wrong reason</strong>: it's the worst way*
+
 - It is much more expensive to make major changes to a project during the earlier phases.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - The last phase of the traditional project life cycle is the implementation phase.
-    - *<strong>wrong reason</strong>: it's close-out phase*
+
+> *<strong>wrong reason</strong>: it's close-out phase*
+
 - The nature of hardware development projects is more diverse than software-oriented projects.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - The team members of a virtual team are all of the same nationality.
-    - *<strong>wrong reason</strong>: a virtual team is a group of people who work together despite time and space boundaries using communication technologies, thus they can be from different nationalities*
+
+> *<strong>wrong reason</strong>: a virtual team is a group of people who work together despite time and space boundaries using communication technologies, thus they can be from different nationalities*
+
 - Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
+
+> *<strong>wrong reason</strong>: of course it has*
+
 - Decisions and actions taken in one knowledge area at a certain time rarely affect other knowledge areas.
-    - *<strong>wrong reason</strong>: it usally affects*
+
+> *<strong>wrong reason</strong>: it usally affects*
+
 - Initiating processes are not required to end a project.
-    - *<strong>wrong reason</strong>: they are also required to end a project. Someone must initiate activities to ensure that the project team completes all the work, documents lessons learned, assigns project resources, and that the customer accepts the work*
+
+> *<strong>wrong reason</strong>: they are also required to end a project. Someone must initiate activities to ensure that the project team completes all the work, documents lessons learned, assigns project resources, and that the customer accepts the work*
+
 - Initiating and closing tasks are usually the longest and require the most amount of resources and time.
-    - *<strong>wrong reason</strong>: they are usally the shortest*
+
+> *<strong>wrong reason</strong>: they are usally the shortest*
+
 - Key outcomes of the executing process group are formal acceptance of the work and creation of closing documents.
-    - *<strong>wrong reason</strong>: they're key outcomes of closing process*
+
+> *<strong>wrong reason</strong>: they're key outcomes of closing process*
+
 - Agile methods comprise of 45 subprocesses which are organized into eight process groups.
-    - *<strong>wrong reason</strong>: it's PRINCE2 standard*
+
+> *<strong>wrong reason</strong>: it's PRINCE2 standard*
+
 - The Rational Unified Process (RUP) framework is incompatible with the PMBOK process.
-    - *<strong>wrong reason</strong>: it's compatible*
+
+> *<strong>wrong reason</strong>: it's compatible*
+
 - An organization's project management plan expresses the vision, mission, goals, objectives, and strategies of the organization.
-    - *<strong>wrong reason</strong>: it's the organization's strategic plan*
+
+> *<strong>wrong reason</strong>: it's the organization's strategic plan*
+
 - The output of the stakeholder management strategy results is a project charter.
-    - *<strong>wrong reason</strong>: the output is a stakeholder register*
+
+> *<strong>wrong reason</strong>: the output is a stakeholder register*
+
 - The kick-off meeting is always held before the business case and project charter are completed.
-    - *<strong>wrong reason</strong>: it's always held after but not before*
+
+> *<strong>wrong reason</strong>: it's always held after but not before*
+
 - A milestone list is an output associated with the Project Scope Management knowledge area.
-    - *<strong>wrong reason</strong>: it's the Project Time Management but not the Project Scope Management*
+
+> *<strong>wrong reason</strong>: it's the Project Time Management but not the Project Scope Management*
+
 - Project initiation involves taking the actions necessary to ensure that activities in the project plan are completed.
-    - *<strong>wrong reason</strong>: it's not initiation but execution*
+
+> *<strong>wrong reason</strong>: it's not initiation but execution*
+
 - The pre-initiation phase of a project using the Scrum method does not involve project charters, stakeholder management strategy, and kick-off meetings.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - Interface management involves identifying and managing the points of interaction between various elements of a project.
-    - *<strong>wrong reason</strong>: it does not invole and it's project integration management which involves*
+
+> *<strong>wrong reason</strong>: it does not invole and it's project integration management which involves*
+
 - The number of interfaces in a single project is limited, and does not depend on the number of people involved in the project.
-    - *<strong>wrong reason</strong>: the number of interfaces can increase exponentially(指數) as the number of people involved in a project increases*
+
+> *<strong>wrong reason</strong>: the number of interfaces can increase exponentially(指數) as the number of people involved in a project increases*
+
 - Project integration management must occur just within the context of a particular project.
-    - *<strong>wrong reason</strong>: it must occur within the entire organization but not a particular project*
+
+> *<strong>wrong reason</strong>: it must occur within the entire organization but not a particular project*
+
 - A SWOT analysis, being a linear process, cannot be performed using the nonlinear mind mapping technique.
-    - *<strong>wrong reason</strong>: of course it can*
+
+> *<strong>wrong reason</strong>: of course it can*
+
 - An organization’s information technology project selection process should guide the strategic plan.
-    - *<strong>wrong reason</strong>: it's reversed that an organization’s strategic plan should guide the IT project selection process*
+
+> *<strong>wrong reason</strong>: it's reversed that an organization’s strategic plan should guide the IT project selection process*
+
 - Projects that address broad organizational needs are likely to fail.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - Opportunities and directives are essentially the same thing.
-    - *<strong>wrong reason</strong>: opportunities are chances to improve the organization, while directives are new requirements imposed(推行) by management, government, or some external influence*
+
+> *<strong>wrong reason</strong>: opportunities are chances to improve the organization, while directives are new requirements imposed(推行) by management, government, or some external influence*
+
 - The organization should complete low-priority projects before high-priority ones, if the low-priority ones take less time.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - An organization should consider only projects with a negative NPV if financial value is a key criterion for project selection.
-    - *<strong>wrong reason</strong>: with a positive NPV but not a negative one*
+
+> *<strong>wrong reason</strong>: with a positive NPV but not a negative one*
+
 - The ROI is always positive.
-    - *<strong>wrong reason</strong>: it can be negative*
+
+> *<strong>wrong reason</strong>: it can be negative*
+
 - A project charter typically does not authorize the project manager to use organizational resources to complete the project.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - The introduction or overview of a project must only include a list of definitions and acronyms(縮寫詞).
-    - *<strong>wrong reason</strong>: it should includes the following information: the project name, a brief description of the project and the need it addresses, the sponsor’s name, the names of the project manager and key team members, deliverables of the project, a list of important reference materials and a list of definitions and acronyms*
+
+> *<strong>wrong reason</strong>: it should includes the following information: the project name, a brief description of the project and the need it addresses, the sponsor’s name, the names of the project manager and key team members, deliverables of the project, a list of important reference materials and a list of definitions and acronyms*
+
 - A Gantt chart is the same as a project management plan.
-    - *<strong>wrong reason</strong>: obviously, they are not the same*
+
+> *<strong>wrong reason</strong>: obviously, they are not the same*
+
 - It is necessary that IT project managers have prior technical experience in creating and managing IT products.
-    - *<strong>wrong reason</strong>: it's helpful but it's not necessary*
+
+> *<strong>wrong reason</strong>: it's helpful but it's not necessary*
+
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
+
+> *<strong>wrong reason</strong>: it's reversed*
+
 - Deliverables are only product-related, such as a piece of hardware or software.
-    - *<strong>wrong reason</strong>: deliverables can be product-related, such as a piece of hardware or software, or process-related, such as a planning document or meeting minutes*
+
+> *<strong>wrong reason</strong>: deliverables can be product-related, such as a piece of hardware or software, or process-related, such as a planning document or meeting minutes*
+
 - The project’s size, complexity, importance, and other factors do not affect how much effort is spent on collecting requirements for scope planning.
-    - *<strong>wrong reason</strong>: it affects*
+
+> *<strong>wrong reason</strong>: it affects*
+
 - Project scope statements must include the project boundaries, constraints, and assumptions.
-    - *<strong>wrong reason</strong>: project scope statements should include at least a product scope description, product user acceptance criteria(標準), and detailed information on all project deliverables, but the project boundaries, constraints and assumptions are just helpful but not neccessary*
+
+> *<strong>wrong reason</strong>: project scope statements should include at least a product scope description, product user acceptance criteria(標準), and detailed information on all project deliverables, but the project boundaries, constraints and assumptions are just helpful but not neccessary*
+
 - The scope of a project is clear and specific from the start.
-    - *<strong>wrong reason</strong>: as time progresses, the scope of a project should become more clear and specific*
+
+> *<strong>wrong reason</strong>: as time progresses, the scope of a project should become more clear and specific*
+
 - The scope baseline in a WBS consists of the requirements documentation and enterprise environmental factors.
-    - *<strong>wrong reason</strong>: the scope baseline includes the approved project scope statement and its associated WBS and WBS dictionary*
+
+> *<strong>wrong reason</strong>: the scope baseline includes the approved project scope statement and its associated WBS and WBS dictionary*
+
 - The WBS is organized solely(只) around project phases.
-    - *<strong>wrong reason</strong>: obviously, it's not. It can be around project products, project phases, or the project management process groups*
+
+> *<strong>wrong reason</strong>: obviously, it's not. It can be around project products, project phases, or the project management process groups*
+
 - A work package represents one component of the product that the project aims to deliver.
-    - *<strong>wrong reason</strong>: a work package is a task at the lowest level of the WBS. It represents the level of work that the project manager monitors and controls*
+
+> *<strong>wrong reason</strong>: a work package is a task at the lowest level of the WBS. It represents the level of work that the project manager monitors and controls*
+
 - A work package must always represent less than 80 hours of work.
-    - *<strong>wrong reason</strong>: it depends on the schedule of the whole project*
+
+> *<strong>wrong reason</strong>: it depends on the schedule of the whole project*
+
 - The tasks in a WBS must be developed as a sequential list of steps.
-    - *<strong>wrong reason</strong>: do not need to*
+
+> *<strong>wrong reason</strong>: do not need to*
+
 - The executing tasks of the WBS remain constant from project to project.
-    - *<strong>wrong reason</strong>: similar but not constant*
+
+> *<strong>wrong reason</strong>: similar but not constant*
+
 - The format of the WBS dictionary is essentially the same for all projects.
-    - *<strong>wrong reason</strong>: it can be various*
+
+> *<strong>wrong reason</strong>: it can be various*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
