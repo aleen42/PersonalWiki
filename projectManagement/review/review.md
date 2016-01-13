@@ -80,7 +80,7 @@
 - Internal stakeholders include groups affected by the project such as government officials or concerned citizens.
     - *<strong>wrong reason</strong>: they're external stakeholders(outside the orgainization).*
 - The best way to sustain a project is to withhold the required money, human resources, and visibility for the project.
-    - *<strong>wrong reason</strong>: it's the wors way.*
+    - *<strong>wrong reason</strong>: it's the worst way.*
 - It is much more expensive to make major changes to a project during the earlier phases.
     - *<strong>wrong reason</strong>: it's reversed.*
 
