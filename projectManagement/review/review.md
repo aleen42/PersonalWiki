@@ -685,5 +685,7 @@
 - <ins>**Project management process groups**</ins> progress from initiation activities to planning activities, executing activities, monitoring and controlling activities, and closing activities.
 - The ideal outcome of the <ins>**monitoring and controlling**</ins> process group is to complete a project successfully by delivering the agreed-upon project scope within time, cost, and quality constraints.
 - A(n) <ins>**methodology**</ins> describes how things should be done.
+- <ins>**PRINCE2**</ins> is a project management methodology that defines 45 separate subprocesses and organizes these into eight process groups.
+- 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
