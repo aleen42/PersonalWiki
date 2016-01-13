@@ -39,7 +39,7 @@
 - In the Scrum method, team members work as a self-directed group coached by the ScrumMaster.
 - The two main items for monitoring and controlling in the Scrum framework are the daily Scrum and the sprint retrospectives(回顧).
 - Details of kick-off meetings and the stakeholder details are usually recorded in a Word document.
-
+- In project integration management, directing and managing project execution involves carrying out the project management plan by performing the activities included in it.
 
 #### False
 
@@ -129,9 +129,9 @@
     - *<strong>wrong reason</strong>: it's not initiation but execution*
 - The pre-initiation phase of a project using the Scrum method does not involve project charters, stakeholder management strategy, and kick-off meetings.
     - *<strong>wrong reason</strong>: it's reversed*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
+- Interface management involves identifying and managing the points of interaction between various elements of a project.
+    - *<strong>wrong reason</strong>: it does not invole and it's project integration management which involves*
+- The number of interfaces in a single project is limited, and does not depend on the number of people involved in the project.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
