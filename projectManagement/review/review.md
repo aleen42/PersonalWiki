@@ -683,6 +683,7 @@
 - <ins>**Outsourcing**</ins> is an organization's acquisition of goods and services from an outside source.
 - A(n) <ins>**process**</ins> is a series of actions directed toward a particular result.
 - <ins>**Project management process groups**</ins> progress from initiation activities to planning activities, executing activities, monitoring and controlling activities, and closing activities.
-- The ideal outcome of the <ins>**monitoring and controllin**</ins> process group is to complete a project successfully by delivering the agreed-upon project scope within time, cost, and quality constraints.
+- The ideal outcome of the <ins>**monitoring and controlling**</ins> process group is to complete a project successfully by delivering the agreed-upon project scope within time, cost, and quality constraints.
+- A(n) <ins>**methodology**</ins> describes how things should be done.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
