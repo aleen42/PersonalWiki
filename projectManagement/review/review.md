@@ -73,6 +73,7 @@
 - If an important supplier goes out of business, management reserves can be set aside to cover the resulting costs.
 - A cost management plan can include organizational procedures links, control thresholds(臨界值) and process descriptions.
 - Definitive estimates are made one year or less prior to project completion.
+- Estimates should become more accurate as time progresses.
 
 #### False
 
