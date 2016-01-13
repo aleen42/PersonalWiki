@@ -405,7 +405,7 @@
 
 > *<strong>wrong reason</strong>: this is the main advantage*
 
-- A backward pass through the network diagram determines the early start and early finish dates for each activity.
+- Critical chain scheduling assumes that resources multitask and maximizes multitasking.
 
 > *<strong>wrong reason</strong>: it determines the late start and late finish dates, but not the early one*
 
