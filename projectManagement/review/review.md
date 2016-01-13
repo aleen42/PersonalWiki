@@ -201,7 +201,5 @@
     - *<strong>wrong reason</strong>: similar but not constant*
 - The format of the WBS dictionary is essentially the same for all projects.
     - *<strong>wrong reason</strong>: it can be various*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
