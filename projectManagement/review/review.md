@@ -42,7 +42,7 @@
 - Responsibility assignment matrices and project organizational charts are examples of tools used in procurement management.
     - *<strong>wrong reason</strong>: it's primarily used in human resource management*
 - Good project managers assume that their definition of success is the same as the sponsors.
-    - *<strong>wrong reason</strong>: obviously they won't*    
+    - *<strong>wrong reason</strong>: obviously they won't do that*    
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
