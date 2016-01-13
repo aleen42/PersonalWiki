@@ -639,5 +639,6 @@
 #### 2. Blank
 
 - Until the 1980s, project management primarily focused on providing <ins>**schedule**</ins> and resource data to top management in the military, computer, and construction industries.
+- A(n) <ins>**project**</ins> is a temporary endeavor undertaken to create a unique product, service, or result.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
