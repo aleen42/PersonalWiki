@@ -52,6 +52,7 @@
 - Scope refers to all the work involved in creating the products of the project and the processes used to create them.
 - Project scope management includes the processes involved in defining and controlling what is or is not included in a project.
 - The scope management plan can be informal and broad or formal and detailed, based on the needs of the project.
+- Information from the project charter provides a basis for further defining the project scope.
 
 #### False
 
@@ -175,8 +176,8 @@
     - *<strong>wrong reason</strong>: deliverables can be product-related, such as a piece of hardware or software, or process-related, such as a planning document or meeting minutes*
 - The project’s size, complexity, importance, and other factors do not affect how much effort is spent on collecting requirements for scope planning.
     - *<strong>wrong reason</strong>: it affects*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
+- Project scope statements must include the project boundaries, constraints, and assumptions.
+    - *<strong>wrong reason</strong>: project scope statements should include at least a product scope description, product user acceptance criteria(標準), and detailed information on all project deliverables, but the project boundaries, constraints and assumptions are just helpful but not neccessary*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
     - *<strong>wrong reason</strong>: it's reversed*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
