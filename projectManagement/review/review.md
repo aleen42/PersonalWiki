@@ -70,7 +70,7 @@
 - A Tracking Gantt chart is based on the percentage of work completed for project tasks or the actual start and finish dates.
 - The critical path on a project can change as the project progresses.
 - IT project managers must be able to present and discuss project information both in financial and technical terms.
-- Project managers must conduct cash flow analysis to determine net present value.
+- 
 
 #### False
 
@@ -418,7 +418,7 @@
 
 > *<strong>wrong reason</strong>: the final one is controlling the schedule*
 
-- Intangible(不易度量的) costs can be easily measured in monetary terms.
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
 > *<strong>wrong reason</strong>: the project management software can determine thecritical paths for a project*
 
