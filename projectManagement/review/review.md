@@ -40,6 +40,15 @@
 - The two main items for monitoring and controlling in the Scrum framework are the daily Scrum and the sprint retrospectives(回顧).
 - Details of kick-off meetings and the stakeholder details are usually recorded in a Word document.
 - In project integration management, directing and managing project execution involves carrying out the project management plan by performing the activities included in it.
+- Information systems can help an organization support a strategy of being a low-cost producer.
+- As projects progress, the organization must reevaluate the need, funding, and will for each project to determine if the project should be continued, redefined, or terminated.
+- Projects that arise as a result of problems and directives must be resolved quickly to avoid hurting an organization’s business.	
+- NPV analysis is a method for making equal comparisons between cash flows for multi-year projects.
+- An annual discount factor is a multiplier for each year based on the discount rate and year.
+- Payback period is the amount of time it will take to recoup, in the form of net cash inflows, the total dollars invested in a project.
+- Some organizations initiate projects using a contract in place of a project charter.
+- Change requests are always made in writing.
+- Organizational process asset updates are an important output of the closing process of a project.	
 
 #### False
 
@@ -132,27 +141,32 @@
 - Interface management involves identifying and managing the points of interaction between various elements of a project.
     - *<strong>wrong reason</strong>: it does not invole and it's project integration management which involves*
 - The number of interfaces in a single project is limited, and does not depend on the number of people involved in the project.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-
+    - *<strong>wrong reason</strong>: the number of interfaces can increase exponentially(指數) as the number of people involved in a project increases*
+- Project integration management must occur just within the context of a particular project.
+    - *<strong>wrong reason</strong>: it must occur within the entire organization but not a particular project*
+- A SWOT analysis, being a linear process, cannot be performed using the nonlinear mind mapping technique.
+    - *<strong>wrong reason</strong>: of course it can*
+- An organization’s information technology project selection process should guide the strategic plan.
+    - *<strong>wrong reason</strong>: it's reversed that an organization’s strategic plan should guide the IT project selection process*
+- Projects that address broad organizational needs are likely to fail.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Opportunities and directives are essentially the same thing.
+    - *<strong>wrong reason</strong>: opportunities are chances to improve the organization, while directives are new requirements imposed(推行) by management, government, or some external influence*
+- The organization should complete low-priority projects before high-priority ones, if the low-priority ones take less time.
+    - *<strong>wrong reason</strong>: it's reversed*
+- An organization should consider only projects with a negative NPV if financial value is a key criterion for project selection.
+    - *<strong>wrong reason</strong>: with a positive NPV but not a negative one*
+- The ROI is always positive.
+    - *<strong>wrong reason</strong>: it can be negative*
+- A project charter typically does not authorize the project manager to use organizational resources to complete the project.
+    - *<strong>wrong reason</strong>: it's reversed*
+- The introduction or overview of a project must only include a list of definitions and acronyms(縮寫詞).
+    - *<strong>wrong reason</strong>: it should includes the following information: the project name, a brief description of the project and the need it addresses, the sponsor’s name, the names of the project manager and key team members, deliverables of the project, a list of important reference materials and a list of definitions and acronyms*
+- A Gantt chart is the same as a project management plan.
+    - *<strong>wrong reason</strong>: obviously, they are not the same*
+- It is necessary that IT project managers have prior technical experience in creating and managing IT products.
+    - *<strong>wrong reason</strong>: it's helpful but it's not necessary*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
