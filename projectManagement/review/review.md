@@ -415,6 +415,6 @@
 
 - The final process in project time management is developing the schedule.
 
-> *<strong>wrong reason</strong>: the final one is controlling the schedue*
+> *<strong>wrong reason</strong>: the final one is controlling the schedule*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
