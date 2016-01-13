@@ -80,7 +80,7 @@
 - An organizational culture with strong unit integration makes the project manager's job more difficult.
     - *<strong>wrong reason</strong>: it's reversed.*
 - Internal stakeholders include groups affected by the project such as government officials or concerned citizens.
-    - *<strong>wrong reason</strong>: they're external stakeholders(outside the orgainization).*
+    - *<strong>wrong reason</strong>: they're external stakeholders(outside the organization).*
 - The best way to sustain a project is to withhold the required money, human resources, and visibility for the project.
     - *<strong>wrong reason</strong>: it's the worst way.*
 - It is much more expensive to make major changes to a project during the earlier phases.
