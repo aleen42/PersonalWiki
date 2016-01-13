@@ -493,7 +493,7 @@
 
 - Validated changes and validated deliverables are the outputs of the quality assurance process.
 
-> *<strong>wrong reason</strong>: it indicates that costs are equal ore more than planned*
+> *<strong>wrong reason</strong>: validated changes and validated deliverables are the outputs of the quality control process.*
 
 - In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
 
