@@ -37,8 +37,8 @@
 - The WBS provides a basis for creating the project schedule and performing earned value management for measuring and forecasting project performance.
 - A sprint review is a meeting in which the team demonstrates to the product owner what it has completed during the sprint.
 - In the Scrum method, team members work as a self-directed group coached by the ScrumMaster.
-- The two main items for monitoring and controlling in the Scrum framework are the daily
-Scrum and the sprint retrospectives(回顧).
+- The two main items for monitoring and controlling in the Scrum framework are the daily Scrum and the sprint retrospectives(回顧).
+- Details of kick-off meetings and the stakeholder details are usually recorded in a Word document.
 
 
 #### False
