@@ -667,5 +667,6 @@
 - <ins>**Systems**</ins> are sets of interacting components working within an environment to fulfill some purpose.
 - <ins>**System management**</ins> addresses the business, technological, and organizational issues associated with creating, maintaining, and making a change to a system.
 - The three spheres of systems management are business, organization, and <ins>**technology**</ins>.
+- The <ins>**structural**</ins> frame of the organization is the one that is usually depicted in an organizational chart.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
