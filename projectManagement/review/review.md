@@ -572,9 +572,9 @@
 
 > *<strong>wrong reason</strong>: WBS describes the work of the project, and OBS describes the people responsible for performing the work*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- A RAM is used only to assign detailed work activities.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: you can also use it to define general roles and responsibilities on projects*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
