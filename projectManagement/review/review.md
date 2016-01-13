@@ -67,6 +67,7 @@
 - It is important for the activity list and activity attributes to be in agreement with the work breakdown structure.
 - A dependency pertains(屬於) to the sequencing of project activities or tasks.
 - Network diagrams are the preferred technique for showing activity sequencing.
+- A Tracking Gantt chart is based on the percentage of work completed for project tasks or the actual start and finish dates.
 
 #### False
 
