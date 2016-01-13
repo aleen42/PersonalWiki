@@ -537,4 +537,68 @@
 
 > *<strong>wrong reason</strong>: no correlations*
 
+- Extrinsic motivation causes people to participate in an activity for their own enjoyment.
+
+> *<strong>wrong reason</strong>: extrinsic motivation causes people to do something for a reward or to avoid a penalty*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlations*
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
