@@ -74,6 +74,7 @@
 - A cost management plan can include organizational procedures links, control thresholds(臨界值) and process descriptions.
 - Definitive estimates are made one year or less prior to project completion.
 - Estimates should become more accurate as time progresses.
+- Supporting details for an estimate include the ground rules and assumptions used in creating the estimate.
 
 #### False
 
@@ -457,7 +458,7 @@
 
 > *<strong>wrong reason</strong>: budgetary estimates are made one to two years prior to project completion*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- Analogous estimates are called activity-based costing.
 
 > *<strong>wrong reason</strong>: the project management software can *
 
