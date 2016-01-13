@@ -53,5 +53,7 @@
     - *<strong>wrong reason</strong>: it's not mandatory*
 - To be a successful manager, the only skills an IT project manager needs to possess is excellent technical skills.
     - *<strong>wrong reason</strong>: it's business and soft skills which should be needed to possess*
+- The enterprise project management software, which aids project and portfolio management, is a low-end tool.
+    - *<strong>wrong reason</strong>: it's a high-end one*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
