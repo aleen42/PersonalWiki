@@ -74,21 +74,23 @@
 - When you separate business and organizational issues from project management planning, you do a better job of ensuring project success.
     - *<strong>wrong reason</strong>: they should not be separated*
 - Most people believe that the underlying causes of many companies’ problems can be traced to its organizational structure.
-    - *<strong>wrong reason</strong>: it's the organizational culture, but not the structure.*
+    - *<strong>wrong reason</strong>: it's the organizational culture, but not the structure*
 - Project work is most successful in an organizational culture where activities are organized around individuals.
-    - *<strong>wrong reason</strong>: it's groups or teams, but not individuals.*
+    - *<strong>wrong reason</strong>: it's groups or teams, but not individuals*
 - An organizational culture with strong unit integration makes the project manager's job more difficult.
-    - *<strong>wrong reason</strong>: it's reversed.*
+    - *<strong>wrong reason</strong>: it's reversed*
 - Internal stakeholders include groups affected by the project such as government officials or concerned citizens.
-    - *<strong>wrong reason</strong>: they're external stakeholders(outside the organization).*
+    - *<strong>wrong reason</strong>: they're external stakeholders(outside the organization)*
 - The best way to sustain a project is to withhold the required money, human resources, and visibility for the project.
-    - *<strong>wrong reason</strong>: it's the worst way.*
+    - *<strong>wrong reason</strong>: it's the worst way*
 - It is much more expensive to make major changes to a project during the earlier phases.
-    - *<strong>wrong reason</strong>: it's reversed.*
+    - *<strong>wrong reason</strong>: it's reversed*
 - The last phase of the traditional project life cycle is the implementation phase.
-    - *<strong>wrong reason</strong>: it's close-out phase.*
+    - *<strong>wrong reason</strong>: it's close-out phase*
 - The nature of hardware development projects is more diverse than software-oriented projects.
-    - *<strong>wrong reason</strong>: it's reversed.*
+    - *<strong>wrong reason</strong>: it's reversed*
+- The team members of a virtual team are all of the same nationality.
+    - *<strong>wrong reason</strong>: a virtual team is a group of people who work together despite time and space boundaries using communication technologies, thus they can be from different nationality*
 
 
 
