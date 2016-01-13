@@ -419,6 +419,54 @@
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
-> *<strong>wrong reason</strong>: the project management software can determine the critical path for a project*
+> *<strong>wrong reason</strong>: the project management software can *
+
+- Overrun is the additional percentage amount by which estimates exceed actual costs.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
+
+- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+
+> *<strong>wrong reason</strong>: the project management software can *
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
