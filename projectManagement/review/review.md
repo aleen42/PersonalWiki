@@ -189,8 +189,8 @@
     - *<strong>wrong reason</strong>: obviously, it's not. It can be around project products, project phases, or the project management process groups*
 - A work package represents one component of the product that the project aims to deliver.
     - *<strong>wrong reason</strong>: a work package is a task at the lowest level of the WBS. It represents the level of work that the project manager monitors and controls*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
+- A work package must always represent less than 80 hours of work.
+    - *<strong>wrong reason</strong>: it depends on the schedule of the whole project*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
     - *<strong>wrong reason</strong>: it's reversed*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
