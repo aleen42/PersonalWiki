@@ -362,9 +362,9 @@
 
 > *<strong>wrong reason</strong>: it represents the activity sequencing or relationships between tasks*
 
-- The format of the WBS dictionary is essentially the same for all projects.
+- In a network diagram, it is mandatory for every item on the WBS to be shown instead of only those activities with dependencies.
 
-> *<strong>wrong reason</strong>: it can be various*
+> *<strong>wrong reason</strong>: not every item should be, and only activities with dependencies need to be shown*
 
 - The format of the WBS dictionary is essentially the same for all projects.
 
