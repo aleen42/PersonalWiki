@@ -104,9 +104,9 @@
 - Initiating and closing tasks are usually the longest and require the most amount of resources and time.
     - *<strong>wrong reason</strong>: they are usally the shortest*
 - Key outcomes of the executing process group are formal acceptance of the work and creation of closing documents.
-    - *<strong>wrong reason</strong>: they're key outcomes of close-up procuess*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
+    - *<strong>wrong reason</strong>: they're key outcomes of closing process*
+- Agile methods comprise of 45 subprocesses which are organized into eight process groups.
+    - *<strong>wrong reason</strong>: it's PRINCE standard*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
