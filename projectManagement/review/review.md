@@ -413,8 +413,8 @@
 
 > *<strong>wrong reason</strong>: PERT’s main disadvantages are that it involves more work than CPM because it requires several duration estimates*
 
-- A backward pass through the network diagram determines the early start and early finish dates for each activity.
+- The final process in project time management is developing the schedule.
 
-> *<strong>wrong reason</strong>: it determines the late start and late finish dates, but not the early one*
+> *<strong>wrong reason</strong>: the final one is controlling the schedue*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
