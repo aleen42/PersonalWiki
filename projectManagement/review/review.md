@@ -592,7 +592,7 @@
 
 > *<strong>wrong reason</strong>: project managers must also realize that not all conflict is bad*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- Microsoft Project 2010 does not lend itself to project human resource management.
 
 > *<strong>wrong reason</strong>: no correlations*
 
