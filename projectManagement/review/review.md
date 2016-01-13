@@ -560,7 +560,7 @@
 
 > *<strong>wrong reason</strong>: they are not automatically available*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- Legitimate(正当合理的) power involves using personal knowledge and expertise to get people to change their behavior.
 
 > *<strong>wrong reason</strong>: no correlations*
 
