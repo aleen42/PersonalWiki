@@ -97,6 +97,7 @@
 - Resource leveling results in fewer problems for project personnel(職員) and accounting departments.
 - In the Tuckman model, storming occurs when team members have different opinions for how the team should operate.
 - The first dimension of psychological(心理上的) type in the MBTI signifies(表示) whether people draw their energy from other people (extroverts(性格外向的人)) or from inside themselves (introverts(性格内向的人)).
+- Adding more people to a project that is falling behind schedule often causes more setbacks because of the increased complexity of communications.
 
 #### False
 
@@ -598,7 +599,7 @@
 
 - Project members should either have strong technical skills or soft skills.
 
-> *<strong>wrong reason</strong>: should have both two skill*
+> *<strong>wrong reason</strong>: should have both two skills*
 
 - Microsoft Project 2010 does not lend itself to project human resource management.
 
