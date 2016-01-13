@@ -23,6 +23,7 @@
 - An organization that uses a project organizational structure earns their revenue primarily from performing projects for other groups under contract.
 - Project managers in matrix organizations have staff from various functional areas working on their projects.
 - The same organization can have different subcultures.
+- Project managers must take adequat(足夠的) time to identify, understand, and manage relationships with all project stakeholders.   
 
 #### False
 
@@ -76,6 +77,9 @@
     - *<strong>wrong reason</strong>: it's reversed.*
 - Internal stakeholders include groups affected by the project such as government officials or concerned citizens.
     - *<strong>wrong reason</strong>: they're external stakeholders(outside the orgainization).*
+- Internal stakeholders include groups affected by the project such as government officials or concerned citizens.
+    - *<strong>wrong reason</strong>: they're external stakeholders(outside the orgainization).*
+
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
