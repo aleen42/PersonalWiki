@@ -238,7 +238,7 @@
         * [How to setup Dlib in the Visual Studio 2013](./qa/dlib.md)
         * [How to use Gitbook to write something](./qa/gitbook.md)
         * [How to make a smart picture showing with css ](./qa/smartPic.md)
-        * [How to see logs of crontab in Ubuntu](./crontablog.md)
+        * [How to see logs of crontab in Ubuntu](./qa/crontablog.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
         * [Differences between URL, URI and URN](./qa/url_uri.md)
