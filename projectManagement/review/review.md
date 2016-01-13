@@ -548,7 +548,7 @@
 
 - According to Herzberg, hygiene factors such as larger salaries, more supervision, or a more attractive work environment would motivate workers to do more if present..
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: they're motivators but not  hygiene factors*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
