@@ -106,7 +106,7 @@
 - Most WBSs include a section for project communications to ensure that reporting key information is a project deliverable.
 - Project managers must assess the needs of the organization, the project, and individuals in determining which communication medium to use, and when.
 - Status reports can take various formats depending on the stakeholders' needs.
-- A facilitator(促进…的事物) can help the team solve any communication problems.
+- A facilitator(促進…的事物) can help the team solve any communication problems.
 
 #### False
 
