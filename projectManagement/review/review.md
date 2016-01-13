@@ -372,7 +372,7 @@
 
 - Start-to-finish relationships are the most frequently used dependencies between activities.
 
-> *<strong>wrong reason</strong>: it's rarely used, in four types of relationships: start-to-satrt, start-to-end, end-to-start and end-to-end*
+> *<strong>wrong reason</strong>: it's rarely used, in four types of relationships: start-to-satrt, start-to-finish, finish-to-start and finish-to-finish*
 
 - The format of the WBS dictionary is essentially the same for all projects.
 
