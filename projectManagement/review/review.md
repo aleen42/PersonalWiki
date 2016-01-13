@@ -88,6 +88,7 @@
 - Products that are accepted by project stakeholders are considered to be validated(有效的) deliverables.
 - Using Six Sigma principles is an organization-wide commitment and all employees must embrace its principles.
 - The Six Sigma approach works best for a project where a quality problem is identified between the current and desired performance.
+- In TQC, product quality is more  important than production rates, and workers are allowed to stop production whenever a quality problem occurs.
 
 #### False
 
