@@ -15,6 +15,12 @@ cron.*              /var/log/cron.log
 sudo  service rsyslog  restart
 ```
 
+#### 2. see the logs
+
+```sh
+/var/log/cron.log 
+```
+
 <a href="#how-to-use-gitbook-to-write-something" style="left:200px;"><img src="./../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
