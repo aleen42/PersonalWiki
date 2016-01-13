@@ -106,7 +106,7 @@
 - Key outcomes of the executing process group are formal acceptance of the work and creation of closing documents.
     - *<strong>wrong reason</strong>: they're key outcomes of closing process*
 - Agile methods comprise of 45 subprocesses which are organized into eight process groups.
-    - *<strong>wrong reason</strong>: it's PRINCE standard*
+    - *<strong>wrong reason</strong>: it's PRINCE2 standard*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
