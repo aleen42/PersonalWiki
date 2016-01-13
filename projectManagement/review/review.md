@@ -92,6 +92,7 @@
 - Gantt charts cannot be used to aid project quality management.
 - Maslow’s hierarchy of needs states that people’s behaviors are guided or motivated by a sequence of needs.
 - People who need institutional power or social power want to organize others to further the goals of the organization.
+- Thamhain and Wilemon found that when project managers used work challenge and expertise to influence people, projects were more likely to succeed.
 
 #### False
 
@@ -557,7 +558,7 @@
 
 - Assignment, budget, promotion, money, and penalty influence bases are automatically available to project managers as part of their position.
 
-> *<strong>wrong reason</strong>: they are not automatically availa*
+> *<strong>wrong reason</strong>: they are not automatically available*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
