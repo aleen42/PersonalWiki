@@ -17,6 +17,7 @@
 - Program managers are change agents.
 - The introduction of new software makes basic tools, such as Gantt charts and network diagrams, inexpensive and easy to create.
 - Using a systems approach is critical to successful project management. 
+- Project managers and their teams must keep in mind the effects of any project on the interests and needs of the entire system or organization instead of focusing on the immediate concerns of the project.
 
 #### False
 
@@ -60,5 +61,7 @@
     - *<strong>wrong reason</strong>: the project can't be run in isolation*
 - Systems analysis addresses the business, technological, and organizational issues associated with creating, maintaining, and modifying a system.
     - *<strong>wrong reason</strong>: it's system management which does it*
+- When you separate business and organizational issues from project management planning, you do a better job of ensuring project success.
+    - *<strong>wrong reason</strong>: they should not be separated*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
