@@ -588,9 +588,9 @@
 
 > *<strong>wrong reason</strong>: this is the smoothing mode*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- Project managers must try to avoid conflict at all costs as all conflict within groups is bad.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: project managers must also realize that not all conflict is bad*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
