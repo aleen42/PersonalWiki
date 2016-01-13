@@ -665,5 +665,6 @@
 - High-end tools are generally licensed on a(n) <ins>**per-user**</ins> basis.
 - A(n) <ins>**system philosophy**</ins> is an overall model for thinking about things as sets of interacting components working within an environment to fulfill some purpose.
 - <ins>**Systems**</ins> are sets of interacting components working within an environment to fulfill some purpose.
+- <ins>**System managemen**</ins> addresses the business, technological, and organizational issues associated with creating, maintaining, and making a change to a system.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
