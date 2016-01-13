@@ -669,6 +669,7 @@
 - The three spheres of systems management are business, organization, and <ins>**technology**</ins>.
 - The <ins>**structural**</ins> frame of the organization is the one that is usually depicted in an organizational chart.
 - The <ins>**symbolic**</ins> frame of an organization relates to the company’s culture.
-- Three general classifications of organizational structures are <ins>**functio**</ins>, project, and matrix.
+- Three general classifications of organizational structures are <ins>**functional**</ins>, project, and matrix.
+- In a(n) <ins>**functional**</ins> organizational structure, project managers have little or no authority.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
