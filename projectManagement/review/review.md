@@ -18,6 +18,10 @@
 - The introduction of new software makes basic tools, such as Gantt charts and network diagrams, inexpensive and easy to create.
 - Using a systems approach is critical to successful project management. 
 - Project managers and their teams must keep in mind the effects of any project on the interests and needs of the entire system or organization instead of focusing on the immediate concerns of the project.
+- According to the symbolic frame, the most important aspect of any event in an organization is not what actually happened, but what it means.
+- Most colleges and universities have very strong functional organizations.
+- An organization that uses a project organizational structure earns their revenue primarily from performing projects for other groups under contract.
+- Project managers in matrix organizations have staff from various functional areas working on their projects.
 
 #### False
 
@@ -63,5 +67,7 @@
     - *<strong>wrong reason</strong>: it's system management which does it*
 - When you separate business and organizational issues from project management planning, you do a better job of ensuring project success.
     - *<strong>wrong reason</strong>: they should not be separated*
+- Most people believe that the underlying causes of many companies’ problems can be traced to its organizational structure.
+    - *<strong>wrong reason</strong>: it's the organizational culture, but not the structure.*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
