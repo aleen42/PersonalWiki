@@ -9,6 +9,6 @@
 
 #### False
 
-- 
+- A difference between operations and projects is that operations end when their objectives have been reached, whereas projects do not. (*projects also end when objectives have been reached*)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
