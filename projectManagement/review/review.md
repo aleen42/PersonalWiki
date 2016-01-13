@@ -22,6 +22,7 @@
 - Most colleges and universities have very strong functional organizations.
 - An organization that uses a project organizational structure earns their revenue primarily from performing projects for other groups under contract.
 - Project managers in matrix organizations have staff from various functional areas working on their projects.
+- The same organization can have different subcultures.
 
 #### False
 
@@ -69,5 +70,7 @@
     - *<strong>wrong reason</strong>: they should not be separated*
 - Most people believe that the underlying causes of many companies’ problems can be traced to its organizational structure.
     - *<strong>wrong reason</strong>: it's the organizational culture, but not the structure.*
+- Project work is most successful in an organizational culture where activities are organized around individuals.
+    - *<strong>wrong reason</strong>: it's groups or teams, but not individuals.*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
