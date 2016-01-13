@@ -696,6 +696,7 @@
 - A(n) <ins>**sprint**</ins> is a set period of time, normally two to four weeks, during which specific work must be completed and made ready for review when using Scrum methods.
 - A(n) <ins>**ScrumMaster**</ins> is the person who ensures that the team is productive, facilitates the daily Scrum, enables close cooperation across all roles and functions, and removes barriers that prevent the team from being effective.
 - A(n) <ins>**Scrum team**</ins> is a cross-functional team of five to nine people who organize themselves and the work to produce the desired results for each sprint.
-- In Scrum, a(n) <ins>**artifac**</ins> is a useful object created by people.
+- In Scrum, a(n) <ins>**artifact**</ins> is a useful object created by people.
+- A(n) <ins>**sprint backlog**</ins> is a Scrum artifact and consists of the highest-priority items from the product backlog to be completed in a sprint.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
