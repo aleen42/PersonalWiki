@@ -72,7 +72,10 @@
     - *<strong>wrong reason</strong>: it's the organizational culture, but not the structure.*
 - Project work is most successful in an organizational culture where activities are organized around individuals.
     - *<strong>wrong reason</strong>: it's groups or teams, but not individuals.*
-- An organizational culture with strong unit integration makes the project manager’s job more difficult.
+- An organizational culture with strong unit integration makes the project manager's job more difficult.
     - *<strong>wrong reason</strong>: it's reversed.*
+- Internal stakeholders include groups affected by the project such as government officials or concerned citizens.
+    - *<strong>wrong reason</strong>: they're external stakeholders(outside the orgainization).*
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
