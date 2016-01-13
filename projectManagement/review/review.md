@@ -678,5 +678,6 @@
 - A(n) <ins>**deliverable**</ins> refers to a product or service, such as a report, a training session, a piece of hardware, or a segment of software code, produced or provided as part of a project.
 - In the <ins>**close-out**</ins> phase of the project life cycle, the work is completed, and customers should accept the entire project.
 - A(n) <ins>**systems development life cycle**</ins> is a framework for describing the phases involved in developing information systems.
+- <ins>**Predictive**</ins> life cycle models of systems development assume that the scope of the project can be articulated clearly and the schedule and cost can be predicted accurately.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
