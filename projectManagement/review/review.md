@@ -682,6 +682,6 @@
 - The term <ins>**agile software developme**</ins> describes new approaches that focus on close collaboration between programming teams and business experts.
 - <ins>**Outsourcing**</ins> is an organization's acquisition of goods and services from an outside source.
 - A(n) <ins>**process**</ins> is a series of actions directed toward a particular result.
-- 
+- <ins>**Project management process groups**</ins> progress from initiation activities to planning activities, executing activities, monitoring and controlling activities, and closing activities.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
