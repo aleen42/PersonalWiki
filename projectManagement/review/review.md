@@ -83,6 +83,7 @@
 - The project management plan and project funding requirements are inputs of the process of controlling costs.
 - The formulas for variances and indexes start with EV, the earned value.
 - Spreadsheets are a common tool for cost estimating, cost budgeting, and cost control.
+- The quality assurance process involves taking responsibility for quality throughout the project’s life cycle.
 
 #### False
 
