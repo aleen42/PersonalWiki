@@ -24,6 +24,8 @@
 - Project managers in matrix organizations have staff from various functional areas working on their projects.
 - The same organization can have different subcultures.
 - Project managers must take adequate(足夠的) time to identify, understand, and manage relationships with all project stakeholders.   
+- Project managers must have cooperation from people in other parts of the organization.
+- Standards and guidelines to follow when performing project management must be devised by top management.
 
 #### False
 
@@ -78,8 +80,9 @@
 - Internal stakeholders include groups affected by the project such as government officials or concerned citizens.
     - *<strong>wrong reason</strong>: they're external stakeholders(outside the orgainization).*
 - The best way to sustain a project is to withhold the required money, human resources, and visibility for the project.
-    - *<strong>wrong reason</strong>: it's the wrost way.*
-
+    - *<strong>wrong reason</strong>: it's the wors way.*
+- It is much more expensive to make major changes to a project during the earlier phases.
+    - *<strong>wrong reason</strong>: it's reversed.*
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
