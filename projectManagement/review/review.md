@@ -82,6 +82,7 @@
 - Determining the budget involves allocating the project cost estimate to individual work items over time.
 - The project management plan and project funding requirements are inputs of the process of controlling costs.
 - The formulas for variances and indexes start with EV, the earned value.
+- Spreadsheets are a common tool for cost estimating, cost budgeting, and cost control.
 
 #### False
 
