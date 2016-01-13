@@ -90,6 +90,7 @@
 - The Six Sigma approach works best for a project where a quality problem is identified between the current and desired performance.
 - In TQC, product quality is more important than production rates, and workers are allowed to stop production whenever a quality problem occurs.
 - Gantt charts cannot be used to aid project quality management.
+- Maslow’s hierarchy of needs states that people’s behaviors are guided or motivated by a sequence of needs.
 
 #### False
 
