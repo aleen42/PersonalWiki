@@ -236,7 +236,9 @@
         * [How to use browser better](./qa/better_browser.md)
         * [How PGP encryption works](./qa/pgp.md)
         * [How to setup Dlib in the Visual Studio 2013](./qa/dlib.md)
-        * 
+        * [How to use Gitbook to write something](./gitbook.md)
+        * [How to make a smart picture showing with css ](./smartPic.md)
+        * [How to see logs of crontab in Ubuntu](./crontablog.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
         * [Differences between URL, URI and URN](./qa/url_uri.md)
