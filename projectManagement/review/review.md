@@ -527,4 +527,8 @@
 
 > *<strong>wrong reason</strong>: testing should be done almostly through the whole life cycle*
 
+- Integration testing involves testing of each individual component to ensure that it is as defect-free as possible.
+
+> *<strong>wrong reason</strong>: this i*
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
