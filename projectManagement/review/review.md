@@ -418,7 +418,7 @@
 
 > *<strong>wrong reason</strong>: the final one is controlling the schedule*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- Intangible(不易度量的) costs can be easily measured in monetary terms.
 
 > *<strong>wrong reason</strong>: the project management software can determine thecritical paths for a project*
 
