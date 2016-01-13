@@ -87,6 +87,7 @@
 - Project managers are ultimately responsible for quality management on their projects.
 - Products that are accepted by project stakeholders are considered to be validated(有效的) deliverables.
 - Using Six Sigma principles is an organization-wide commitment and all employees must embrace its principles.
+- The Six Sigma approach works best for a project where a quality problem is identified between the current and desired performance.
 
 #### False
 
