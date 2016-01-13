@@ -61,6 +61,8 @@
 - A unit of work should appear at only one place in the WBS.
 - Scope creep(慢行) if not managed well can lead to the failure of information technology projects.
 - An activity is an element of work that has an expected duration, cost, and resource requirements.
+- Project schedules grow out of basic documents such as the project charter.
+- A schedule management plan includes information which describes the format and frequency of schedule reports required for the project.
 
 #### False
 
