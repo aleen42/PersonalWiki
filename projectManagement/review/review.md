@@ -679,5 +679,6 @@
 - In the <ins>**close-out**</ins> phase of the project life cycle, the work is completed, and customers should accept the entire project.
 - A(n) <ins>**systems development life cycle**</ins> is a framework for describing the phases involved in developing information systems.
 - <ins>**Predictive**</ins> life cycle models of systems development assume that the scope of the project can be articulated clearly and the schedule and cost can be predicted accurately.
+- The term <ins>**agile software developme**</ins> describes new approaches that focus on close collaboration between programming teams and business experts.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
