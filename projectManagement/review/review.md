@@ -460,7 +460,7 @@
 
 - Analogous estimates are called activity-based costing.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: they are called top-down estimates.*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
