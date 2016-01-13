@@ -551,9 +551,9 @@
 
 > *<strong>wrong reason</strong>: they're motivators but not  hygiene factors*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- Managers who believe in Theory Y assume that workers dislike and avoid work if possible, so managers must use coercion, threats, and various control schemes to get workers to make adequate efforts to meet objectives.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: it's Theory Y but n*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
