@@ -662,5 +662,6 @@
 - Ethics is a set of principles that guides decision making based on <ins>**personal values**</ins> of what is considered right and wrong.
 - <ins>**Midrange**</ins> tools, a step up from low-end tools, are designed to handle larger projects, multiple users, and multiple projects.
 - High-end tools in project management software have enterprise and <ins>**portfolio management**</ins> functions that summarize and combine individual project information to provide an enterprise view of all projects.
+- High-end tools are generally licensed on a(n) <ins>**per-user**</ins> basis.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
