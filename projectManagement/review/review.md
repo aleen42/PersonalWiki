@@ -444,7 +444,7 @@
 
 - Contingency(偶然事件) reserves are also known as unknown unknowns.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: they are known as known unknowns*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
