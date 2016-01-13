@@ -693,5 +693,6 @@
 - The <ins>**WBS**</ins> is a very important tool in project management because it provides the basis for deciding how to do the work.
 - <ins>**Executing**</ins> the project includes work required to introduce any new hardware, software, and procedures into normal operations.
 - A(n) <ins>**product owner**</ins> is the person responsible for the business value of the project and for deciding what work to do and in what order when using a Scrum method.
+- A(n) <ins>**sprin**</ins> is a set period of time, normally two to four weeks, during which specific work must be completed and made ready for review when using Scrum methods.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
