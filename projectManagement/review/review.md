@@ -16,6 +16,7 @@
 - Project managers work with the project sponsors to define success for particular projects.
 - Program managers are change agents.
 - The introduction of new software makes basic tools, such as Gantt charts and network diagrams, inexpensive and easy to create.
+- Using a systems approach is critical to successful project management. 
 
 #### False
 
@@ -57,5 +58,7 @@
     - *<strong>wrong reason</strong>: it's a high-end one*
 - Project managers should lead projects in isolation in order to truly serve the needs of the organization.
     - *<strong>wrong reason</strong>: the project can't be run in isolation*
+- Systems analysis addresses the business, technological, and organizational issues associated with creating, maintaining, and modifying a system.
+    - *<strong>wrong reason</strong>: it's system management which does it*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
