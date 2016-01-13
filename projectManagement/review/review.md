@@ -442,7 +442,7 @@
 
 > *<strong>wrong reason</strong>: it's the direct costs which can be easily controlled*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- Contingency(偶然事件) reserves are also known as unknown unknowns.
 
 > *<strong>wrong reason</strong>: the project management software can *
 
