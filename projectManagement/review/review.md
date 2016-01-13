@@ -178,8 +178,8 @@
     - *<strong>wrong reason</strong>: it affects*
 - Project scope statements must include the project boundaries, constraints, and assumptions.
     - *<strong>wrong reason</strong>: project scope statements should include at least a product scope description, product user acceptance criteria(標準), and detailed information on all project deliverables, but the project boundaries, constraints and assumptions are just helpful but not neccessary*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
+- The scope of a project is clear and specific from the start.
+    - *<strong>wrong reason</strong>: as time progresses, the scope of a project should become more clear and specific*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
     - *<strong>wrong reason</strong>: it's reversed*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
