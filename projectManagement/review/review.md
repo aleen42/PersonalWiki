@@ -384,7 +384,7 @@
 
 - In a Gantt chart, thick black bars represent milestones achieved in a project.
 
-> *<strong>wrong reason</strong>: a black diamond symbol represents a milestone*
+> *<strong>wrong reason</strong>: a black diamond(菱形) symbol represents a milestone*
 
 - A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
 
