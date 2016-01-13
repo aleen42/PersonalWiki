@@ -65,7 +65,7 @@
 - A schedule management plan includes information which describes the format and frequency of schedule reports required for the project.
 - To define activities, the project team should start with reviewing the schedule management plan, scope baseline, enterprise environmental factors, and organizational processes.
 - It is important for the activity list and activity attributes to be in agreement with the work breakdown structure.
-- A dependency pertains to the sequencing of project activities or tasks.
+- A dependency pertains(屬於) to the sequencing of project activities or tasks.
 
 #### False
 
