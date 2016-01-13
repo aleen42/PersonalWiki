@@ -63,6 +63,8 @@
 - An activity is an element of work that has an expected duration, cost, and resource requirements.
 - Project schedules grow out of basic documents such as the project charter.
 - A schedule management plan includes information which describes the format and frequency of schedule reports required for the project.
+- To define activities, the project team should start with reviewing the schedule management plan, scope baseline, enterprise environmental factors, and organizational processes.
+- It is important for the activity list and activity attributes to be in agreement with the work breakdown structure.
 
 #### False
 
