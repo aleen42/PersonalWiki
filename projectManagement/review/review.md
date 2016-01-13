@@ -69,7 +69,7 @@
 - Network diagrams are the preferred technique for showing activity sequencing.
 - A Tracking Gantt chart is based on the percentage of work completed for project tasks or the actual start and finish dates.
 - The critical path on a project can change as the project progresses.
-- 
+- IT project managers must be able to present and discuss project information both in financial and technical terms.
 
 #### False
 
@@ -427,7 +427,7 @@
 
 - The primary output of the planning cost management process is a change request.
 
-> *<strong>wrong reason</strong>: the primary output is a cost manage*
+> *<strong>wrong reason</strong>: the primary output is a cost management plan*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
