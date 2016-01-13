@@ -60,6 +60,7 @@
 - Mind mapping allows people to write and even draw pictures of ideas in a nonlinear format.
 - A unit of work should appear at only one place in the WBS.
 - Scope creep(慢行) if not managed well can lead to the failure of information technology projects.
+- An activity is an element of work that has an expected duration, cost, and resource requirements.
 
 #### False
 
@@ -334,6 +335,38 @@
 - The executing tasks of the WBS remain constant from project to project.
 
 > *<strong>wrong reason</strong>: similar but not constant*
+
+- In project time management, the primary output of defining activities is a schedule management plan.
+
+> *<strong>wrong reason</strong>: Intead, outputs should be an activity list, activity attributes, a milestone list, and project management plan updates*
+
+- The format of the WBS dictionary is essentially the same for all projects.
+
+> *<strong>wrong reason</strong>: it can be various*
+
+- The format of the WBS dictionary is essentially the same for all projects.
+
+> *<strong>wrong reason</strong>: it can be various*
+
+- The format of the WBS dictionary is essentially the same for all projects.
+
+> *<strong>wrong reason</strong>: it can be various*
+
+- The format of the WBS dictionary is essentially the same for all projects.
+
+> *<strong>wrong reason</strong>: it can be various*
+
+- The format of the WBS dictionary is essentially the same for all projects.
+
+> *<strong>wrong reason</strong>: it can be various*
+
+- The format of the WBS dictionary is essentially the same for all projects.
+
+> *<strong>wrong reason</strong>: it can be various*
+
+- The format of the WBS dictionary is essentially the same for all projects.
+
+> *<strong>wrong reason</strong>: it can be various*
 
 - The format of the WBS dictionary is essentially the same for all projects.
 
