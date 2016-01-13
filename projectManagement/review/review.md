@@ -93,6 +93,8 @@
 - Maslow’s hierarchy of needs states that people’s behaviors are guided or motivated by a sequence of needs.
 - People who need institutional power or social power want to organize others to further the goals of the organization.
 - Thamhain and Wilemon found that when project managers used work challenge and expertise to influence people, projects were more likely to succeed.
+- A staffing management plan describes when and how people will be added to and taken off the project team.
+- Resource leveling results in fewer problems for project personnel(職員) and accounting departments.
 
 #### False
 
