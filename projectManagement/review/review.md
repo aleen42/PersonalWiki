@@ -508,7 +508,7 @@
 
 > *<strong>wrong reason</strong>: under normal conditions but not deviant ones*
 
-- In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
+- Only in-house auditors can perform quality audits.
 
 > *<strong>wrong reason</strong>: it indicates that costs are equal ore more than planned*
 
