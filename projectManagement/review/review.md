@@ -68,6 +68,8 @@
 - A dependency pertains(屬於) to the sequencing of project activities or tasks.
 - Network diagrams are the preferred technique for showing activity sequencing.
 - A Tracking Gantt chart is based on the percentage of work completed for project tasks or the actual start and finish dates.
+- The critical path on a project can change as the project progresses.
+- Knowing the amount of float allows project managers to know whether a project schedule is flexible.
 
 #### False
 
@@ -390,6 +392,10 @@
 - A disadvantage of using Gantt charts is that they do not provide a standard format for displaying planned project schedule information.
 
 > *<strong>wrong reason</strong>: this is a main advantage*
+
+- In a critical path analysis, the shortest path is what drives the completion date for the project.
+
+> *<strong>wrong reason</strong>: it's the longest path*
 
 - In a critical path analysis, the shortest path is what drives the completion date for the project.
 
