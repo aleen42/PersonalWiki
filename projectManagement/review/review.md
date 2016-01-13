@@ -37,5 +37,8 @@
     - *<strong>wrong reason</strong>: stakeholder management  includes identifying and analyzing stakeholder needs while managing and controlling their engagement throughout the life of the product*
 - Earned value management is a tool primarily used in human resource management.
     - *<strong>wrong reason</strong>: it's primarily used in cost management*
+- Responsibility assignment matrices and project organizational charts are examples of tools used in procurement management.
+    - *<strong>wrong reason</strong>: it's primarily used in human resource management*
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
