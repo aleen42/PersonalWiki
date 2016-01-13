@@ -50,5 +50,7 @@
     - *<strong>wrong reason</strong>: tactical goals are short-term while strategic goals are long-term*
 - It is mandatory(強制的) for project managers working on large information technology projects to be experts in the field of information technology.
     - *<strong>wrong reason</strong>: it's not mandatory*
+- To be a successful manager, the only skills an IT project manager needs to possess is excellent technical skills.
+    - *<strong>wrong reason</strong>: it's business and soft skills which should be needed to possess*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
