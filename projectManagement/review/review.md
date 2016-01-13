@@ -582,7 +582,7 @@
 
 - In the Social Styles Profile team building activity, drivers are reactive and people-oriented.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: drivers are proactive(積極向上的) and task-oriented*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
