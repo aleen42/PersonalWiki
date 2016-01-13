@@ -403,7 +403,7 @@
 
 - The main disadvantage of crashing is that it lengthens the time needed to finish a project.
 
-> *<strong>wrong reason</strong>: this is the main advanta*
+> *<strong>wrong reason</strong>: this is the main advantage*
 
 - A backward pass through the network diagram determines the early start and early finish dates for each activity.
 
