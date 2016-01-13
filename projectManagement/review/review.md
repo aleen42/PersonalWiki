@@ -686,6 +686,6 @@
 - The ideal outcome of the <ins>**monitoring and controlling**</ins> process group is to complete a project successfully by delivering the agreed-upon project scope within time, cost, and quality constraints.
 - A(n) <ins>**methodology**</ins> describes how things should be done.
 - <ins>**PRINCE2**</ins> is a project management methodology that defines 45 separate subprocesses and organizes these into eight process groups.
-- 
+- <ins>**Stakeholders**</ins> are people involved in or affected by project activities and include the project sponsor, project team, support staff, customers, users, suppliers, and even opponents to the project.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
