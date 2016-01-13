@@ -28,6 +28,7 @@
 - Standards and guidelines to follow when performing project management must be devised by top management.
 - The Adaptive Software Development (ASD) life cycle model assumes that software development follows an adaptive approach because the requirements cannot be clearly expressed early in the life cycle.
 - An organization usually commits more money as a project continues, therefore a management review should occur after each phase to evaluate progress, potential success, and continued compatibility with organizational goals.
+- Initiating processes take place during each phase of a project.
 
 #### False
 
@@ -95,8 +96,8 @@
     - *<strong>wrong reason</strong>: of course it has*
 - Decisions and actions taken in one knowledge area at a certain time rarely affect other knowledge areas.
     - *<strong>wrong reason</strong>: it usally affects*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
+- Initiating processes are not required to end a project.
+    - *<strong>wrong reason</strong>: they are also required to end a project. Someone must initiate activities to ensure that the project team completes all the work, documents lessons learned, assigns project resources, and that the customer accepts the work*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
