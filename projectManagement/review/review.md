@@ -90,8 +90,9 @@
 - The nature of hardware development projects is more diverse than software-oriented projects.
     - *<strong>wrong reason</strong>: it's reversed*
 - The team members of a virtual team are all of the same nationality.
-    - *<strong>wrong reason</strong>: a virtual team is a group of people who work together despite time and space boundaries using communication technologies, thus they can be from different nationality*
-
+    - *<strong>wrong reason</strong>: a virtual team is a group of people who work together despite time and space boundaries using communication technologies, thus they can be from different nationalities*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
