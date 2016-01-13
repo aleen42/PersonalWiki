@@ -18,7 +18,7 @@ sudo  service rsyslog  restart
 #### 2. see the logs
 
 ```sh
-/var/log/cron.log 
+vim /var/log/cron.log 
 ```
 
 <a href="#how-to-use-gitbook-to-write-something" style="left:200px;"><img src="./../pic/gotop.png"></a>
