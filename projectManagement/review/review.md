@@ -510,7 +510,7 @@
 
 - Only in-house auditors can perform quality audits.
 
-> *<strong>wrong reason</strong>: it indicates that costs are equal ore more than planned*
+> *<strong>wrong reason</strong>: both in-house auditors or third parties with expertise in specific areas can do this*
 
 - In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
 
