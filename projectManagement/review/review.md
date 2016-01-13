@@ -99,6 +99,7 @@
 - The first dimension of psychological(心理上的) type in the MBTI signifies(表示) whether people draw their energy from other people (extroverts(性格外向的人)) or from inside themselves (introverts(性格内向的人)).
 - Adding more people to a project that is falling behind schedule often causes more setbacks(逆流) because of the increased complexity of communications.
 - People have different personality traits(特徵) that often affect their communication preferences.
+- Rarely does the receiver interpret a message exactly as the sender intended.
 
 #### False
 
