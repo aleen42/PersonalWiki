@@ -93,6 +93,54 @@
     - *<strong>wrong reason</strong>: a virtual team is a group of people who work together despite time and space boundaries using communication technologies, thus they can be from different nationalities*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
+- Decisions and actions taken in one knowledge area at a certain time rarely affect other knowledge areas.
+    - *<strong>wrong reason</strong>: it usally affects*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
+- Leadership style has no impact on the success of virtual teams.
+    - *<strong>wrong reason</strong>: of course it has*
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
