@@ -55,5 +55,7 @@
     - *<strong>wrong reason</strong>: it's business and soft skills which should be needed to possess*
 - The enterprise project management software, which aids project and portfolio management, is a low-end tool.
     - *<strong>wrong reason</strong>: it's a high-end one*
+- Project managers should lead projects in isolation in order to truly serve the needs of the organization.
+    - *<strong>wrong reason</strong>: the project can't be run in isolation*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
