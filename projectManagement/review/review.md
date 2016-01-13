@@ -644,9 +644,9 @@
 - <ins>**Resources**</ins> include people, hardware, software, or other assets.
 - A project’s sponsor is also known as a(n) <ins>**primary customers**</ins>.
 - In project management, the three limitations of scope, time, and cost are referred to as the <ins>**triple constraint**</ins>.
-- The question, “What unique product does the customer expect from the project?” is an example of a(n) <ins>**scope**</ins> constraint.
-- The question, “What is the project’s schedule?” is an example of a(n) <ins>**time**</ins> constraint.
-- “What is the project’s budget?” This is an example of a project’s <ins>**cost**</ins> constraint.
+- The question, "What unique product does the customer expect from the project?" is an example of a(n) <ins>**scope**</ins> constraint.
+- The question, "What is the project's schedule?" is an example of a(n) <ins>**time**</ins> constraint.
+- "What is the project's budget?" This is an example of a project's <ins>**cost**</ins> constraint.
 - The <ins>**quadruple constraint**</ins> of project management includes quality, scope, time, and cost constraints.
 - <ins>**Prject management**</ins> is "the application of knowledge, skills, tools, and techniques to project activities to meet project requirements."
 - Project management <ins>**knowledge area**</ins> describe the key competencies that project managers must develop.
