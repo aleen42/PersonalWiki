@@ -691,5 +691,6 @@
 - A(n) <ins>**kick-off meeting**</ins>  is a meeting held at the beginning of a project so that stakeholders can meet each other, review the goals of the project, and discuss future plans.
 - A risk register is the output of <ins>**risk identification planning**</ins>.
 - The <ins>**WBS**</ins> is a very important tool in project management because it provides the basis for deciding how to do the work.
+- <ins>**Executin**</ins> the project includes work required to introduce any new hardware, software, and procedures into normal operations.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
