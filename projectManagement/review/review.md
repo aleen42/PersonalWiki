@@ -30,6 +30,8 @@
 - An organization usually commits more money as a project continues, therefore a management review should occur after each phase to evaluate progress, potential success, and continued compatibility with organizational goals.
 - Initiating processes take place during each phase of a project.
 - The level of activity and length of each process group varies for every project.
+- The executing process group generally requires the most resources.
+- Monitoring and controlling processes overlap all of the other project management process groups.
 
 #### False
 
@@ -100,9 +102,9 @@
 - Initiating processes are not required to end a project.
     - *<strong>wrong reason</strong>: they are also required to end a project. Someone must initiate activities to ensure that the project team completes all the work, documents lessons learned, assigns project resources, and that the customer accepts the work*
 - Initiating and closing tasks are usually the longest and require the most amount of resources and time.
-    - *<strong>wrong reason</strong>: they are usally the shortes*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
+    - *<strong>wrong reason</strong>: they are usally the shortest*
+- Key outcomes of the executing process group are formal acceptance of the work and creation of closing documents.
+    - *<strong>wrong reason</strong>: they're key outcomes of close-up procuess*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
