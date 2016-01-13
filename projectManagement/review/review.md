@@ -411,7 +411,7 @@
 
 - One of PERT’s main disadvantages is that it does not address the risk associated with duration estimates.
 
-> *<strong>wrong reason</strong>: it determines the late start and late finish dates, but not the early one*
+> *<strong>wrong reason</strong>: PERT’s main disadvantages are that it involves more work than CPM because it requires several duration estimates*
 
 - A backward pass through the network diagram determines the early start and early finish dates for each activity.
 
