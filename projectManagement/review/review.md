@@ -6,7 +6,8 @@
 
 - Until the 1980s, project management primarily focused on providing schedule and resource data to top management in the military, computer, and construction industries.
 - Every project should have a well-defined objective.
-- Projects should be developed in increments
+- Projects should be developed in increments.
+- 
 
 #### False
 
