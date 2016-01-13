@@ -35,6 +35,11 @@
 - The DMAIC (Define, Measure, Analyze, Improve, and Control) methodology of the Six Sigma projects, is used to improve an existing business process.
 - Identifying the project sponsor is a pre-initiation task.
 - The WBS provides a basis for creating the project schedule and performing earned value management for measuring and forecasting project performance.
+- A sprint review is a meeting in which the team demonstrates to the product owner what it has completed during the sprint.
+- In the Scrum method, team members work as a self-directed group coached by the ScrumMaster.
+- The two main items for monitoring and controlling in the Scrum framework are the daily
+Scrum and the sprint retrospectives(回顧).
+
 
 #### False
 
@@ -122,8 +127,8 @@
     - *<strong>wrong reason</strong>: it's the Project Time Management but not the Project Scope Management*
 - Project initiation involves taking the actions necessary to ensure that activities in the project plan are completed.
     - *<strong>wrong reason</strong>: it's not initiation but execution*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
+- The pre-initiation phase of a project using the Scrum method does not involve project charters, stakeholder management strategy, and kick-off meetings.
+    - *<strong>wrong reason</strong>: it's reversed*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
