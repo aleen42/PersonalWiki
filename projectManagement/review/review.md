@@ -66,6 +66,7 @@
 - To define activities, the project team should start with reviewing the schedule management plan, scope baseline, enterprise environmental factors, and organizational processes.
 - It is important for the activity list and activity attributes to be in agreement with the work breakdown structure.
 - A dependency pertains(屬於) to the sequencing of project activities or tasks.
+- Network diagrams are the preferred technique for showing activity sequencing.
 
 #### False
 
