@@ -560,9 +560,9 @@
 
 > *<strong>wrong reason</strong>: they are not automatically available*
 
-- Legitimate(正当合理的) power involves using personal knowledge and expertise to get people to change their behavior.
+- Legitimate(正當合理的) power involves using personal knowledge and expertise to get people to change their behavior.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: to get people to do things based on a position of authority but not to change their behavior*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
