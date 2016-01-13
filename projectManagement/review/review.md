@@ -564,9 +564,9 @@
 
 > *<strong>wrong reason</strong>: to get people to do things based on a position of authority but not to change their behavior*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- According to Covey, project managers must use a win/lose approach in making decisions.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: roject managers should strive to use a win/win approach in making decisions, but in competitive situations they sometimes must use a win/lose paradigm*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
