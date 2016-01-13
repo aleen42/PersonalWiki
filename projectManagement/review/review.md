@@ -432,7 +432,7 @@
 
 - Intangible(不可度量的) costs can be easily measured in monetary terms.
 
-> *<strong>wrong reason</strong>: it's difficult to mesa*
+> *<strong>wrong reason</strong>: it's difficult to measure*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
