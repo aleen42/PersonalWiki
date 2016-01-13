@@ -440,7 +440,7 @@
 
 - It is important for project managers to focus on indirect costs because they can be easily controlled.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: it's the direct costs which can be easily controll*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
