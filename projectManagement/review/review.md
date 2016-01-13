@@ -568,9 +568,9 @@
 
 > *<strong>wrong reason</strong>: project managers should strive(力争) to use a win/win approach in making decisions, but in competitive situations they sometimes must use a win/lose paradigm*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- A responsibility assignment matrix (RAM) is a matrix that maps the work of the project as described in the OBS to the people responsible for performing the work as described in the WBS.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: WBS describes the work of the project, and OBS describes the people responsible for performing the work*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
