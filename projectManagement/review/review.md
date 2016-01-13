@@ -532,4 +532,8 @@
 
 > *<strong>wrong reason</strong>: this is unit test*
 
+- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+
+> *<strong>wrong reason</strong>: no correlati*
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
