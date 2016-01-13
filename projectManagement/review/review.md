@@ -610,7 +610,7 @@
 
 - Communication becomes simpler when you increase the number of team members.
 
-> *<strong>wrong reason</strong>: it's just a mythology*
+> *<strong>wrong reason</strong>: it's just a myth*
 
 - Microsoft Project 2010 does not lend itself to project human resource management.
 
