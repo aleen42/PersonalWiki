@@ -529,6 +529,6 @@
 
 - Integration testing involves testing of each individual component to ensure that it is as defect-free as possible.
 
-> *<strong>wrong reason</strong>: this i*
+> *<strong>wrong reason</strong>: this is unit test*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
