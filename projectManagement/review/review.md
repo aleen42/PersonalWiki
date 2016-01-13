@@ -584,9 +584,9 @@
 
 > *<strong>wrong reason</strong>: drivers are proactive(積極向上的) and task-oriented*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- The forcing mode is one in which the project manager deemphasizes or avoids areas of differences and emphasizes areas of agreement.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: this is the smoothing mode*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
