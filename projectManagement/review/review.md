@@ -56,6 +56,7 @@
 - Many information technology projects also require detailed functional and design specifications for developing software, which also should be referenced in the detailed scope statement.
 - The project scope statement should reference supporting documents, such as product specifications that will affect what products are produced or purchased, or corporate policies, which might affect how products or services are produced.
 - The project scope statement, stakeholder requirements documentation, and organizational process assets are the primary inputs for creating a WBS.
+- Many organizations provide different guidelines and templates for developing WBSs.
 
 #### False
 
