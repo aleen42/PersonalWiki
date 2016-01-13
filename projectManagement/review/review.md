@@ -694,6 +694,7 @@
 - <ins>**Executing**</ins> the project includes work required to introduce any new hardware, software, and procedures into normal operations.
 - A(n) <ins>**product owner**</ins> is the person responsible for the business value of the project and for deciding what work to do and in what order when using a Scrum method.
 - A(n) <ins>**sprint**</ins> is a set period of time, normally two to four weeks, during which specific work must be completed and made ready for review when using Scrum methods.
-- A(n) <ins>**ScrumMas**</ins> is the person who ensures that the team is productive, facilitates the daily Scrum, enables close cooperation across all roles and functions, and removes barriers that prevent the team from being effective.
+- A(n) <ins>**ScrumMaster**</ins> is the person who ensures that the team is productive, facilitates the daily Scrum, enables close cooperation across all roles and functions, and removes barriers that prevent the team from being effective.
+- A(n) <ins>**Scrum team**</ins> is a cross-functional team of five to nine people who organize themselves and the work to produce the desired results for each sprint.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
