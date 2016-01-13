@@ -26,6 +26,8 @@
 - Project managers must take adequate(足夠的) time to identify, understand, and manage relationships with all project stakeholders.   
 - Project managers must have cooperation from people in other parts of the organization.
 - Standards and guidelines to follow when performing project management must be devised by top management.
+- The Adaptive Software Development (ASD) life cycle model assumes that software development follows an adaptive approach because the requirements cannot be clearly expressed early in the life cycle.
+- An organization usually commits more money as a project continues, therefore a management review should occur after each phase to evaluate progress, potential success, and continued compatibility with organizational goals.
 
 #### False
 
@@ -85,6 +87,9 @@
     - *<strong>wrong reason</strong>: it's reversed.*
 - The last phase of the traditional project life cycle is the implementation phase.
     - *<strong>wrong reason</strong>: it's close-out phase.*
+- The nature of hardware development projects is more diverse than software-oriented projects.
+    - *<strong>wrong reason</strong>: it's reversed.*
+
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
