@@ -503,9 +503,9 @@
 
 > *<strong>wrong reason</strong>: it is important to describe key factors that directly contribute to meeting the customer’s requirements*
 
-- Reliability is the ability of a product or service to perform as expected under deviant(異常的 conditions.
+- Reliability is the ability of a product or service to perform as expected under deviant(異常的) conditions.
 
-> *<strong>wrong reason</strong>: it indicates that costs are equal ore more than planned*
+> *<strong>wrong reason</strong>: under normal condition*
 
 - In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
 
