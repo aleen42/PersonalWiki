@@ -83,6 +83,8 @@
     - *<strong>wrong reason</strong>: it's the worst way.*
 - It is much more expensive to make major changes to a project during the earlier phases.
     - *<strong>wrong reason</strong>: it's reversed.*
+- The last phase of the traditional project life cycle is the implementation phase.
+    - *<strong>wrong reason</strong>: it's close-out phase.*
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
