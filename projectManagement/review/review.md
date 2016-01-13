@@ -596,16 +596,4 @@
 
 > *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
-
-> *<strong>wrong reason</strong>: no correlations*
-
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
-
-> *<strong>wrong reason</strong>: no correlations*
-
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
-
-> *<strong>wrong reason</strong>: no correlations*
-
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
