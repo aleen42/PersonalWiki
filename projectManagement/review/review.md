@@ -434,7 +434,7 @@
 
 > *<strong>wrong reason</strong>: it's difficult to measure*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- When deciding what projects to invest in or continue, one should include sunk(沉沒的) costs.
 
 > *<strong>wrong reason</strong>: the project management software can *
 
