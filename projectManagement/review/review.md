@@ -523,8 +523,8 @@
 
 > *<strong>wrong reason</strong>: it means standard deviation(偏差數)*
 
-- In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
+- Testing as a stage is important only at the end of an information technology product development.
 
-> *<strong>wrong reason</strong>: it indicates that costs are equal ore more than planned*
+> *<strong>wrong reason</strong>: testing should be done almostly through the whole life cycle*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
