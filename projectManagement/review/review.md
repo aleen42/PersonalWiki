@@ -348,13 +348,13 @@
 
 > *<strong>wrong reason</strong>: the next step should be estimating activity resources*
 
-- The format of the WBS dictionary is essentially the same for all projects.
+- Milestones are easy to achieve and are always achieved through one main activity.
 
-> *<strong>wrong reason</strong>: it can be various*
+> *<strong>wrong reason</strong>: it often takes several activities and a lot of work to complete a milestone, but the milestone itself is like a marker to help in identifying necessary activities*
 
-- The format of the WBS dictionary is essentially the same for all projects.
+- After defining project activities, the next step in project time management is developing the schedule.
 
-> *<strong>wrong reason</strong>: it can be various*
+> *<strong>wrong reason</strong>: the next step in project time management is sequencing them or determining their dependencies*
 
 - The format of the WBS dictionary is essentially the same for all projects.
 
