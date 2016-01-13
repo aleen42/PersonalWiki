@@ -447,9 +447,9 @@
 
 > *<strong>wrong reason</strong>: they are known as known unknowns*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- A budgetary estimate is the most accurate of the three types of estimates.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: it's the definitive estimate but not the budgetary estimate*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
