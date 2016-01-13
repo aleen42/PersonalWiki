@@ -676,6 +676,7 @@
 - Some projects have a senior manager called a(n) <ins>**champion**</ins> who acts as a key proponent for a project.
 - A major element of good practice concerns <ins>**IT governance**</ins>, which addresses the authority and control for key IT activities in organizations, including IT infrastructure, IT use, and project management.
 - A(n) <ins>**deliverable**</ins> refers to a product or service, such as a report, a training session, a piece of hardware, or a segment of software code, produced or provided as part of a project.
-- In the <ins>**clo**</ins> phase of the project life cycle, the work is completed, and customers should accept the entire project.
+- In the <ins>**close-out**</ins> phase of the project life cycle, the work is completed, and customers should accept the entire project.
+- A(n) <ins>**system development life cyclee**</ins> is a framework for describing the phases involved in developing information systems.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
