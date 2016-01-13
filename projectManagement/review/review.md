@@ -553,11 +553,11 @@
 
 - Managers who believe in Theory Y assume that workers dislike and avoid work if possible, so managers must use coercion, threats, and various control schemes to get workers to make adequate efforts to meet objectives.
 
-> *<strong>wrong reason</strong>: it's Theory Y but n*
+> *<strong>wrong reason</strong>: it's Theory Y but not X*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- Assignment, budget, promotion, money, and penalty influence bases are automatically available to project managers as part of their position.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: they are not automatically availa*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
