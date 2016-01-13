@@ -36,6 +36,6 @@
 - The primary role of project stakeholder management is to ensure that the project will satisfy the stated needs for which it was undertaken. 
     - *<strong>wrong reason</strong>: stakeholder management  includes identifying and analyzing stakeholder needs while managing and controlling their engagement throughout the life of the product*
 - Earned value management is a tool primarily used in human resource management.
-    - *<strong>wrong reason</strong>: it's primarily used in cost managements*
+    - *<strong>wrong reason</strong>: it's primarily used in cost management*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
