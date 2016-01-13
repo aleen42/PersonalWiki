@@ -664,5 +664,6 @@
 - High-end tools in project management software have enterprise and <ins>**portfolio management**</ins> functions that summarize and combine individual project information to provide an enterprise view of all projects.
 - High-end tools are generally licensed on a(n) <ins>**per-user**</ins> basis.
 - A(n) <ins>**system philosophy**</ins> is an overall model for thinking about things as sets of interacting components working within an environment to fulfill some purpose.
+- <ins>**Systems**</ins> are sets of interacting components working within an environment to fulfill some purpose.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
