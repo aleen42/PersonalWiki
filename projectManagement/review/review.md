@@ -542,9 +542,9 @@
 
 > *<strong>wrong reason</strong>: extrinsic motivation causes people to do something for a reward or to avoid a penalty*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- Maslow suggests that each level of the hierarchy of needs is not necessarily a prerequisite for the levels above.
 
-> *<strong>wrong reason</strong>: no correlations*
+> *<strong>wrong reason</strong>: it's necessarily a prerequis*
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
