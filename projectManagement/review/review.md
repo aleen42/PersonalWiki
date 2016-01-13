@@ -358,9 +358,9 @@
 
 > *<strong>wrong reason</strong>: the next step in project time management is sequencing them or determining their dependencies*
 
-- The format of the WBS dictionary is essentially the same for all projects.
+- The arrows in a network diagram represent missed milestones in a project.
 
-> *<strong>wrong reason</strong>: it can be various*
+> *<strong>wrong reason</strong>: it represents the activity sequencing or relationships between tasks*
 
 - The format of the WBS dictionary is essentially the same for all projects.
 
