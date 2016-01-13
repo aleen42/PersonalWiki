@@ -622,11 +622,11 @@
 
 - Minutes must be a comprehensive report of the meeting that was scheduled.
 
-> *<strong>wrong reason</strong>: minutes should be short and focus on the crucial decisions and action items from the meeting.*
+> *<strong>wrong reason</strong>: minutes should be short and focus on the crucial decisions and action items from the meeting*
 
-- Microsoft Project 2010 does not lend itself to project human resource management.
+- The email is the most appropriate medium for all types of communications.
 
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
+> *<strong>wrong reason</strong>: it not appropriate for assessing commitment, building consensus, mediating a conflict, resolving a misunderstanding, making an ironic statement, conveying a reference document, reinforcing one’s authority, or maintaining confidentiality*
 
 - Microsoft Project 2010 does not lend itself to project human resource management.
 
