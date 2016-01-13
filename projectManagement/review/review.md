@@ -366,9 +366,9 @@
 
 > *<strong>wrong reason</strong>: not every item should be, and only activities with dependencies need to be shown*
 
-- The format of the WBS dictionary is essentially the same for all projects.
+- A merge occurs when one node precedes(在...前面) mutiple nodes.
 
-> *<strong>wrong reason</strong>: it can be various*
+> *<strong>wrong reason</strong>: a merge occurs when two or more nodes precede a single node, and this is the situation of separating*
 
 - The format of the WBS dictionary is essentially the same for all projects.
 
