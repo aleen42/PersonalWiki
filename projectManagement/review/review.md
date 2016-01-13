@@ -57,6 +57,9 @@
 - The project scope statement should reference supporting documents, such as product specifications that will affect what products are produced or purchased, or corporate policies, which might affect how products or services are produced.
 - The project scope statement, stakeholder requirements documentation, and organizational process assets are the primary inputs for creating a WBS.
 - Many organizations provide different guidelines and templates for developing WBSs.
+- Mind mapping allows people to write and even draw pictures of ideas in a nonlinear format.
+- A unit of work should appear at only one place in the WBS.
+- Scope creep(慢行) if not managed well can lead to the failure of information technology projects.
 
 #### False
 
@@ -196,8 +199,8 @@
     - *<strong>wrong reason</strong>: do not need to*
 - The executing tasks of the WBS remain constant from project to project.
     - *<strong>wrong reason</strong>: similar but not constant*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
+- The format of the WBS dictionary is essentially the same for all projects.
+    - *<strong>wrong reason</strong>: it can be various*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
     - *<strong>wrong reason</strong>: it's reversed*
 
