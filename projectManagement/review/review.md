@@ -407,7 +407,7 @@
 
 - Critical chain scheduling assumes that resources multitask and maximizes multitasking.
 
-> *<strong>wrong reason</strong>: it determines the late start and late finish dates, but not the early one*
+> *<strong>wrong reason</strong>: it's rever*
 
 - A backward pass through the network diagram determines the early start and early finish dates for each activity.
 
