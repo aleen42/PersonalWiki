@@ -96,7 +96,7 @@
 - A staffing management plan describes when and how people will be added to and taken off the project team.
 - Resource leveling results in fewer problems for project personnel(職員) and accounting departments.
 - In the Tuckman model, storming occurs when team members have different opinions for how the team should operate.
-- The first dimension of psychological(心理上的) type in the MBTI signifies(表示) whether people draw their energy from other people (extroverts) or from inside themselves (introverts).
+- The first dimension of psychological(心理上的) type in the MBTI signifies(表示) whether people draw their energy from other people (extroverts(性格外向的人)) or from inside themselves (introverts(性格内向的人)).
 
 #### False
 
