@@ -78,6 +78,10 @@
 - In a bottom-up estimate, the size of the individual work items is one of the factors that drives the accuracy of the estimates.
 - Parametric models are reliable when the models are flexible in terms of the project’s size.
 - One of the reasons why project cost estimates are inaccurate is because human beings are biased(偏向於) toward underestimation(低估).
+- It is important for project managers to understand that every cost estimate is unique.
+- Determining the budget involves allocating the project cost estimate to individual work items over time.
+- The project management plan and project funding requirements are inputs of the process of controlling costs.
+- The formulas for variances and indexes start with EV, the earned value.
 
 #### False
 
