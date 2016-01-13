@@ -391,8 +391,8 @@
 
 > *<strong>wrong reason</strong>: this is a main advantage*
 
-- A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
+- In a critical path analysis, the shortest path is what drives the completion date for the project.
 
-> *<strong>wrong reason</strong>: using this method avoids the need to use dummy activities is an advantage*
+> *<strong>wrong reason</strong>: it's the longest path*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
