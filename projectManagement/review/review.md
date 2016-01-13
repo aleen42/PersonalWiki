@@ -376,6 +376,22 @@
 
 - A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
 
-> *<strong>wrong reason</strong>: using this method avoids the need to use dummy activities is an advanta*
+> *<strong>wrong reason</strong>: using this method avoids the need to use dummy activities is an advantage*
+
+- In project time management, one should control the scheule before estimating the duration for each activity.
+
+> *<strong>wrong reason</strong>: before one can estimate the duration for each activity, one must have a good idea of the quantity and type of resources*
+
+- A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
+
+> *<strong>wrong reason</strong>: using this method avoids the need to use dummy activities is an advantage*
+
+- A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
+
+> *<strong>wrong reason</strong>: using this method avoids the need to use dummy activities is an advantage*
+
+- A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
+
+> *<strong>wrong reason</strong>: using this method avoids the need to use dummy activities is an advantage*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
