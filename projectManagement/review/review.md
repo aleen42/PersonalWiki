@@ -15,6 +15,7 @@
 - Maturity models, statistical methods, and test plans are examples of tools used in quality management.
 - Project managers work with the project sponsors to define success for particular projects.
 - Program managers are change agents.
+- The introduction of new software makes basic tools, such as Gantt charts and network diagrams, inexpensive and easy to create.
 
 #### False
 
