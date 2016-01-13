@@ -603,9 +603,9 @@
 
 > *<strong>wrong reason</strong>: should have both two skills*
 
-- Microsoft Project 2010 does not lend itself to project human resource management.
+- Geographic location and cultural background have no impact on communications.
 
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
+> *<strong>wrong reason</strong>: it's obviously not*
 
 - Microsoft Project 2010 does not lend itself to project human resource management.
 
