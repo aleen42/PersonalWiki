@@ -185,10 +185,10 @@
     - *<strong>wrong reason</strong>: as time progresses, the scope of a project should become more clear and specific*
 - The scope baseline in a WBS consists of the requirements documentation and enterprise environmental factors.
     - *<strong>wrong reason</strong>: the scope baseline includes the approved project scope statement and its associated WBS and WBS dictionary*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
+- The WBS is organized solely(只) around project phases.
+    - *<strong>wrong reason</strong>: obviously, it's not. It can be around project products, project phases, or the project management process groups*
+- A work package represents one component of the product that the project aims to deliver.
+    - *<strong>wrong reason</strong>: a work package is a task at the lowest level of the WBS. It represents the level of work that the project manager monitors and controls*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
     - *<strong>wrong reason</strong>: it's reversed*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
