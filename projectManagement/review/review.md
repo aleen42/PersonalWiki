@@ -11,6 +11,7 @@
 - One of the main reasons why project management is challenging is because of the factor of uncertainty.
 - A project’s stakeholders consist of its customers, users, and suppliers.
 - Project human resource management is concerned with making effective use of the people involved with a project.
+- Stakeholder analyses, work requests, and project charters are tools used in integration management.
 
 #### False
 
