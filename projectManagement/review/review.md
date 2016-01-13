@@ -497,11 +497,11 @@
 
 - The design of experiments technique cannot be applied to project management issues such as cost and schedule trade-offs.
 
-> *<strong>wrong reason</strong>: it can ap*
+> *<strong>wrong reason</strong>: it can apply to*
 
-- In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
+- Customer requirements are an important aspect of the quality planning process.
 
-> *<strong>wrong reason</strong>: it indicates that costs are equal ore more than planned*
+> *<strong>wrong reason</strong>:  it is important to describe key factors that directly contribute to meeting the customer’s requirements*
 
 - In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
 
