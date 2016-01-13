@@ -382,9 +382,9 @@
 
 > *<strong>wrong reason</strong>: before one can estimate the duration for each activity, one must have a good idea of the quantity and type of resources*
 
-- A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
+- In a Gantt chart, thick black bars represent milestones achieved in a project.
 
-> *<strong>wrong reason</strong>: using this method avoids the need to use dummy activities is an advantage*
+> *<strong>wrong reason</strong>: a black diamond symbol represents a milestone*
 
 - A drawback of the precedence diagramming method is that it cannot be used unless dummy(假的) activities are employed.
 
