@@ -21,5 +21,6 @@
 - The only responsibility of a project manager is to meet the specific scope, time, and cost goals of a project. (*<strong>wrong reason</strong>: he/she should also facilitate(促进) the entire process to meet the needs and expectations of stakeholders*)
 - Opponents of a project do not belong to the category of stakeholders. (*<strong>wrong reason</strong>: stakeholders are the people involved in or affected by project activities, and include the project sponsor, project team, support staff, customers, users, suppliers, and even opponents of a project*)
 - The importance of stakeholders' needs and expectations is limited to the beginning of a project. (*<strong>wrong reason</strong>: through the whole life cycle of projects*)
+- Project procurement management primarily involves identifying stakeholder needs while managing their engagement throughout the life of the project. (*<strong>wrong reason</strong>: procurement management involves acquiring or procuring goods and services for a project from outside the performing organization.*)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
