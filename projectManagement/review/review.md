@@ -107,6 +107,8 @@
 - Project managers must assess the needs of the organization, the project, and individuals in determining which communication medium to use, and when.
 - Status reports can take various formats depending on the stakeholders' needs.
 - A facilitator(促進…的事物) can help the team solve any communication problems.
+- Good information technology project managers must have strong technical and communication skills. 
+- Do not have a meeting if there is a better way of achieving the objective at hand.
 
 #### False
 
@@ -618,9 +620,9 @@
 
 > *<strong>wrong reason</strong>: it's just a myth*
 
-- Microsoft Project 2010 does not lend itself to project human resource management.
+- Minutes must be a comprehensive report of the meeting that was scheduled.
 
-> *<strong>wrong reason</strong>: it provides a variety of human resource management tools, some of which include assigning and tracking resources, resource leveling, resource usage reports, overallocated resource reports and to-do lists*
+> *<strong>wrong reason</strong>: minutes should be short and focus on the crucial decisions and action items from the meeting.*
 
 - Microsoft Project 2010 does not lend itself to project human resource management.
 
