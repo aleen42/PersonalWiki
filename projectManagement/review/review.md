@@ -70,6 +70,7 @@
 - A Tracking Gantt chart is based on the percentage of work completed for project tasks or the actual start and finish dates.
 - The critical path on a project can change as the project progresses.
 - IT project managers must be able to present and discuss project information both in financial and technical terms.
+- Project managers must conduct cash flow analysis to determine net present value.
 
 #### False
 
