@@ -14,6 +14,7 @@
 - Stakeholder analyses, work requests, and project charters are tools used in integration management.
 - Maturity models, statistical methods, and test plans are examples of tools used in quality management.
 - Project managers work with the project sponsors to define success for particular projects.
+- Program managers are change agents.
 
 #### False
 
