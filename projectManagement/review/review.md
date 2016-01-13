@@ -668,5 +668,6 @@
 - <ins>**System management**</ins> addresses the business, technological, and organizational issues associated with creating, maintaining, and making a change to a system.
 - The three spheres of systems management are business, organization, and <ins>**technology**</ins>.
 - The <ins>**structural**</ins> frame of the organization is the one that is usually depicted in an organizational chart.
+- The <ins>**symbo**</ins> frame of an organization relates to the company’s culture.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
