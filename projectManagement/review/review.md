@@ -33,6 +33,8 @@
 - The executing process group generally requires the most resources.
 - Monitoring and controlling processes overlap all of the other project management process groups.
 - The DMAIC (Define, Measure, Analyze, Improve, and Control) methodology of the Six Sigma projects, is used to improve an existing business process.
+- Identifying the project sponsor is a pre-initiation task.
+- The WBS provides a basis for creating the project schedule and performing earned value management for measuring and forecasting project performance.
 
 #### False
 
@@ -112,14 +114,14 @@
     - *<strong>wrong reason</strong>: it's compatible*
 - An organization's project management plan expresses the vision, mission, goals, objectives, and strategies of the organization.
     - *<strong>wrong reason</strong>: it's the organization's strategic plan*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
+- The output of the stakeholder management strategy results is a project charter.
+    - *<strong>wrong reason</strong>: the output is a stakeholder register*
+- The kick-off meeting is always held before the business case and project charter are completed.
+    - *<strong>wrong reason</strong>: it's always held after but not before*
+- A milestone list is an output associated with the Project Scope Management knowledge area.
+    - *<strong>wrong reason</strong>: it's the Project Time Management but not the Project Scope Management*
+- Project initiation involves taking the actions necessary to ensure that activities in the project plan are completed.
+    - *<strong>wrong reason</strong>: it's not initation but execution*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
