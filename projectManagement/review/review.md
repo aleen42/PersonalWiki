@@ -102,6 +102,7 @@
 - Rarely does the receiver interpret a message exactly as the sender intended.
 - It is extremely important to document any changes in technical specifications that might affect product performance.
 - In a project, communicating badly exponentially increases the possibility of making mistakes.
+- The communications management plan varies with the needs of the project.
 
 #### False
 
