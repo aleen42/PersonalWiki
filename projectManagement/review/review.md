@@ -427,7 +427,7 @@
 
 - The primary output of the planning cost management process is a change request.
 
-> *<strong>wrong reason</strong>: the *
+> *<strong>wrong reason</strong>: the primary output is a cost manage*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
