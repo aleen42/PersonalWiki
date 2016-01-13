@@ -671,5 +671,6 @@
 - The <ins>**symbolic**</ins> frame of an organization relates to the company’s culture.
 - Three general classifications of organizational structures are <ins>**functional**</ins>, project, and matrix.
 - In a(n) <ins>**functional**</ins> organizational structure, project managers have little or no authority.
+- <ins>**Contro**</ins> refers to the degree to which rules, policies, and direct supervision are used to oversee employee behavior.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
