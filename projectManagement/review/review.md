@@ -85,6 +85,7 @@
 - Spreadsheets are a common tool for cost estimating, cost budgeting, and cost control.
 - The quality assurance process involves taking responsibility for quality throughout the project’s life cycle.
 - Project managers are ultimately responsible for quality management on their projects.
+- Products that are accepted by project stakeholders are considered to be validated deliverables.
 
 #### False
 
