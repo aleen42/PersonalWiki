@@ -655,6 +655,7 @@
 - A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
 - <ins>**Project portfolio management**</ins> refers to the process in which organizations group and manage projects and programs as a cluster of investments that contribute to the entire enterprise's success.
 - The <ins>**portfolio project management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
-- Soft skills are also known as <ins>**human relatio**</ins> skills.
+- Soft skills are also known as <ins>**human relations**</ins> skills.
+- The critical path is the <ins>**longest**</ins> path through a network diagram that determines the earliest completion of a project.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
