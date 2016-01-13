@@ -48,7 +48,10 @@
 - Payback period is the amount of time it will take to recoup, in the form of net cash inflows, the total dollars invested in a project.
 - Some organizations initiate projects using a contract in place of a project charter.
 - Change requests are always made in writing.
-- Organizational process asset updates are an important output of the closing process of a project.	
+- Organizational process asset updates are an important output of the closing process of a project.
+- Scope refers to all the work involved in creating the products of the project and the processes used to create them.
+- Project scope management includes the processes involved in defining and controlling what is or is not included in a project.
+- The scope management plan can be informal and broad or formal and detailed, based on the needs of the project.
 
 #### False
 
@@ -166,6 +169,30 @@
     - *<strong>wrong reason</strong>: obviously, they are not the same*
 - It is necessary that IT project managers have prior technical experience in creating and managing IT products.
     - *<strong>wrong reason</strong>: it's helpful but it's not necessary*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Deliverables are only product-related, such as a piece of hardware or software.
+    - *<strong>wrong reason</strong>: deliverables can be product-related, such as a piece of hardware or software, or process-related, such as a planning document or meeting minutes*
+- The project’s size, complexity, importance, and other factors do not affect how much effort is spent on collecting requirements for scope planning.
+    - *<strong>wrong reason</strong>: it affects*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
+- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
+    - *<strong>wrong reason</strong>: it's reversed*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
     - *<strong>wrong reason</strong>: it's reversed*
 
