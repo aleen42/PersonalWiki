@@ -5,6 +5,8 @@
 ```sh
 # sudo vim /etc/rsyslog.d/50-default.conf
 # remove the '#' before cron.*  /var/log/cron.log
+
+cron.*              /var/log/cron.log
 ```
 
 <a href="#how-to-use-gitbook-to-write-something" style="left:200px;"><img src="./../pic/gotop.png"></a>
