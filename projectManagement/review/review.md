@@ -95,6 +95,8 @@
 - Thamhain and Wilemon found that when project managers used work challenge and expertise to influence people, projects were more likely to succeed.
 - A staffing management plan describes when and how people will be added to and taken off the project team.
 - Resource leveling results in fewer problems for project personnel(職員) and accounting departments.
+- In the Tuckman model, storming occurs when team members have different opinions for how the team should operate.
+- The first dimension of psychological(心理上的) type in the MBTI signifies(表示) whether people draw their energy from other people (extroverts) or from inside themselves (introverts).
 
 #### False
 
