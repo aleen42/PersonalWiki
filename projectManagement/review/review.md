@@ -546,7 +546,7 @@
 
 > *<strong>wrong reason</strong>: it's necessarily a prerequisite*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- According to Herzberg, hygiene factors such as larger salaries, more supervision, or a more attractive work environment would motivate workers to do more if present..
 
 > *<strong>wrong reason</strong>: no correlations*
 
