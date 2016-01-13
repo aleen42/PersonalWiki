@@ -674,5 +674,6 @@
 - <ins>**Control**</ins> refers to the degree to which rules, policies, and direct supervision are used to oversee employee behavior.
 - <ins>**Group emphasis**</ins> refers to the degree to which work activities are organized around teams, rather than individuals.
 - Some projects have a senior manager called a(n) <ins>**champion**</ins> who acts as a key proponent for a project.
+- A major element of good practice concerns <ins>**IT governance**</ins> , which addresses the authority and control for key IT activities in organizations, including IT infrastructure, IT use, and project management.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
