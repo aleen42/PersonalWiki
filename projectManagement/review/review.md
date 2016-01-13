@@ -71,7 +71,7 @@
 - The critical path on a project can change as the project progresses.
 - IT project managers must be able to present and discuss project information both in financial and technical terms.
 - If an important supplier goes out of business, management reserves can be set aside to cover the resulting costs.
-- A cost management plan can include organizational procedures links, control thresholds(臨界值), and process descriptions.
+- A cost management plan can include organizational procedures links, control thresholds(臨界值) and process descriptions.
 
 #### False
 
