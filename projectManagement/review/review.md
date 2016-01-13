@@ -407,9 +407,9 @@
 
 - Critical chain scheduling assumes that resources multitask and maximizes multitasking.
 
-> *<strong>wrong reason</strong>: it's rever*
+> *<strong>wrong reason</strong>: it's reversed*
 
-- A backward pass through the network diagram determines the early start and early finish dates for each activity.
+- One of PERT’s main disadvantages is that it does not address the risk associated with duration estimates.
 
 > *<strong>wrong reason</strong>: it determines the late start and late finish dates, but not the early one*
 
