@@ -16,7 +16,7 @@
 - A difference between operations and projects is that operations end when their objectives have been reached, whereas projects do not. (*wrong reason: projects also end when objectives have been reached*)
 - A project manager's primary role is to provide the funding for a project. (*wrong reason: it's the project sponsors to provide*)
 - Questions about how a team will track schedule performance is related to a project's scope. (*wrong reason: it's the project's time*)
-- In order to be realistic, a project manager should always set discrete(互不相連的) goals instead of a range of objectives. (*wrong reason: projects involve uncertainty and limited resources. Thus they rarely finish according to their original scope, time, and cost goals.*)
+- In order to be realistic, a project manager should always set discrete(互不相連的) goals instead of a range of objectives. (***wrong reason**: projects involve uncertainty and limited resources. Thus they rarely finish according to their original scope, time, and cost goals.*)
 - Managing the triple constraint primarily involves making trade-offs between resources and quality. (*wrong reason: should be between scope, time and cost*)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
