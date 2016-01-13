@@ -69,7 +69,7 @@
 - Network diagrams are the preferred technique for showing activity sequencing.
 - A Tracking Gantt chart is based on the percentage of work completed for project tasks or the actual start and finish dates.
 - The critical path on a project can change as the project progresses.
-- Knowing the amount of float allows project managers to know whether a project schedule is flexible.
+- 
 
 #### False
 
@@ -397,7 +397,7 @@
 
 > *<strong>wrong reason</strong>: it's the longest path*
 
-- In a critical path analysis, the shortest path is what drives the completion date for the project.
+- A backward pass through the network diagram determines the early start and early finish dates for each activity.
 
 > *<strong>wrong reason</strong>: it's the longest path*
 
