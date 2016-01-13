@@ -32,6 +32,7 @@
 - The level of activity and length of each process group varies for every project.
 - The executing process group generally requires the most resources.
 - Monitoring and controlling processes overlap all of the other project management process groups.
+- The DMAIC (Define, Measure, Analyze, Improve, and Control) methodology of the Six Sigma projects, is used to improve an existing business process.
 
 #### False
 
@@ -109,8 +110,8 @@
     - *<strong>wrong reason</strong>: it's PRINCE2 standard*
 - The Rational Unified Process (RUP) framework is incompatible with the PMBOK process.
     - *<strong>wrong reason</strong>: it's compatible*
-- Leadership style has no impact on the success of virtual teams.
-    - *<strong>wrong reason</strong>: of course it has*
+- An organization's project management plan expresses the vision, mission, goals, objectives, and strategies of the organization.
+    - *<strong>wrong reason</strong>: it's the organization's strategic plan*
 - Leadership style has no impact on the success of virtual teams.
     - *<strong>wrong reason</strong>: of course it has*
 - Leadership style has no impact on the success of virtual teams.
