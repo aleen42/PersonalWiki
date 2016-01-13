@@ -75,6 +75,8 @@
 - Definitive estimates are made one year or less prior to project completion.
 - Estimates should become more accurate as time progresses.
 - Supporting details for an estimate include the ground rules and assumptions used in creating the estimate.
+- In a bottom-up estimate, the size of the individual work items is one of the factors that drives the accuracy of the estimates.
+- Parametric models are reliable when the models are flexible in terms of the project’s size.
 
 #### False
 
