@@ -653,6 +653,6 @@
 - Project <ins>**time**</ins> management includes estimating how long it will take to complete work, develop an acceptable project schedule, and ensure timely completion of a project.
 - Project <ins>**cost**</ins> management consists of preparing and managing the budget for a project.
 - A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
-- <ins>**Project portfolio man**</ins> refers to the process in which organizations group and manage projects and programs as a cluster of investments that contribute to the entire enterprise’s success.
+- <ins>**Project portfolio management**</ins> refers to the process in which organizations group and manage projects and programs as a cluster of investments that contribute to the entire enterprise’s success.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
