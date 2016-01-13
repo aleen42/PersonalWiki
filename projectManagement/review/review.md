@@ -642,5 +642,7 @@
 - A(n) <ins>**project**</ins> is a temporary endeavor undertaken to create a unique product, service, or result.
 - <ins>**Operations**</ins> refers to work done in organizations to sustain the business.
 - <ins>**Resources**</ins> include people, hardware, software, or other assets.
+- A project’s sponsor is also known as a(n) <ins>**primary customers**</ins>.
+- In project management, the three limitations of scope, time, and cost are referred to as the <ins>**triple constraint**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
