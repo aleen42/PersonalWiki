@@ -519,9 +519,9 @@
 
 > *<strong>wrong reason</strong>: it's a line chart but not a bar graph*
 
-- The term sigma means median.
+- The term sigma means median(中值).
 
-> *<strong>wrong reason</strong>: it means standard deviation*
+> *<strong>wrong reason</strong>: it means standard deviation(偏差書)*
 
 - In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
 
