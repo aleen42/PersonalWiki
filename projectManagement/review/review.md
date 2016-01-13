@@ -654,6 +654,7 @@
 - Project <ins>**cost**</ins> management consists of preparing and managing the budget for a project.
 - A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
 - <ins>**Project portfolio management**</ins> refers to the process in which organizations group and manage projects and programs as a cluster of investments that contribute to the entire enterprise's success.
-- The <ins>**portfolio proje management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
+- The <ins>**portfolio project management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
+- Soft skills are also known as <ins>**human relatio**</ins> skills.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
