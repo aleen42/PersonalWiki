@@ -338,7 +338,7 @@
 
 - In project time management, the primary output of defining activities is a schedule management plan.
 
-> *<strong>wrong reason</strong>: Intead, outputs should be an activity list, activity attributes, a milestone list, and project management plan updates*
+> *<strong>wrong reason</strong>: Instead, outputs should be an activity list, activity attributes, a milestone list, and project management plan updates*
 
 - The format of the WBS dictionary is essentially the same for all projects.
 
