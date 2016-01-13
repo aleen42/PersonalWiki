@@ -698,5 +698,7 @@
 - A(n) <ins>**Scrum team**</ins> is a cross-functional team of five to nine people who organize themselves and the work to produce the desired results for each sprint.
 - In Scrum, a(n) <ins>**artifact**</ins> is a useful object created by people.
 - A(n) <ins>**sprint backlog**</ins> is a Scrum artifact and consists of the highest-priority items from the product backlog to be completed in a sprint.
+- <ins>**User story**</ins> are short descriptions written by customers of what they need a Scrum system to do for them.
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
