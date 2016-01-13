@@ -487,14 +487,4 @@
 
 - In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
 
-> *<strong>wrong reason</strong>: it indicates that costs are equal ore more than planned*
-
-- A negative schedule variance means that it took lesser than planned to perform the work.
-
-> *<strong>wrong reason</strong>: it means that it to*
-
-- A negative schedule variance means that it took lesser than planned to perform the work.
-
-> *<strong>wrong reason</strong>: it means that it to*
-
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
