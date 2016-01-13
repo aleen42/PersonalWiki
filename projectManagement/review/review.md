@@ -673,5 +673,6 @@
 - In a(n) <ins>**functional**</ins> organizational structure, project managers have little or no authority.
 - <ins>**Control**</ins> refers to the degree to which rules, policies, and direct supervision are used to oversee employee behavior.
 - <ins>**Group emphasis**</ins> refers to the degree to which work activities are organized around teams, rather than individuals.
+- Some projects have a senior manager called a(n) <ins>**champion**</ins> who acts as a key proponent for a project.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
