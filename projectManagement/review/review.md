@@ -12,6 +12,7 @@
 - A project’s stakeholders consist of its customers, users, and suppliers.
 - Project human resource management is concerned with making effective use of the people involved with a project.
 - Stakeholder analyses, work requests, and project charters are tools used in integration management.
+- Maturity models, statistical methods, and test plans are examples of tools used in quality management.
 
 #### False
 
