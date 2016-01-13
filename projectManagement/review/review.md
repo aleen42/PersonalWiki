@@ -479,6 +479,22 @@
 
 - A negative schedule variance means that it took lesser than planned to perform the work.
 
+> *<strong>wrong reason</strong>: it means that it took longer*
+
+- If the cost performance index (CPI) is less than 100 percent, the project is under budget.
+
+> *<strong>wrong reason</strong>: it's over budget*
+
+- A negative schedule variance means that it took lesser than planned to perform the work.
+
+> *<strong>wrong reason</strong>: it means that it to*
+
+- A negative schedule variance means that it took lesser than planned to perform the work.
+
+> *<strong>wrong reason</strong>: it means that it to*
+
+- A negative schedule variance means that it took lesser than planned to perform the work.
+
 > *<strong>wrong reason</strong>: it means that it to*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
