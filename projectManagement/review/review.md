@@ -22,6 +22,7 @@
 - Opponents of a project do not belong to the category of stakeholders. (*<strong>wrong reason</strong>: stakeholders are the people involved in or affected by project activities, and include the project sponsor, project team, support staff, customers, users, suppliers, and even opponents of a project*)
 - The importance of stakeholders' needs and expectations is limited to the beginning of a project. (*<strong>wrong reason</strong>: through the whole life cycle of projects*)
 - Project procurement management primarily involves identifying stakeholder needs while managing their engagement throughout the life of the project. (*<strong>wrong reason</strong>: procurement management involves acquiring or procuring goods and services for a project from outside the performing organization*)
-- The primary role of project stakeholder management is to ensure that the project will satisfy the stated needs for which it was undertaken. (*<strong>wrong reason</strong>: stakeholder management  includes identifying and analyzing stakeholder needs while managing and controlling their engagement throughout the life of the product*)
+- The primary role of project stakeholder management is to ensure that the project will satisfy the stated needs for which it was undertaken. 
+    - *<strong>wrong reason</strong>: stakeholder management  includes identifying and analyzing stakeholder needs while managing and controlling their engagement throughout the life of the product*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
