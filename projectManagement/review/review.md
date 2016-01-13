@@ -451,9 +451,9 @@
 
 > *<strong>wrong reason</strong>: it's the definitive estimate but not the budgetary estimate*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- Budgetary estimates are made even before a project is officially started.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: budgetary estimates are made one to two years prior to project completion*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
