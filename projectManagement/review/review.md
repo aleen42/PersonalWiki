@@ -473,12 +473,12 @@
 
 > *<strong>wrong reason</strong>:it's the definitive estimate*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- If cost variance is a positive number, it means that performing the work costs more than planned.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: it means that perfoming the work costs less than planned*
 
-- A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
+- A negative schedule variance means that it took lesser than planned to perform the work.
 
-> *<strong>wrong reason</strong>: the project management software can *
+> *<strong>wrong reason</strong>: it means that it to*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
