@@ -374,7 +374,7 @@
 
 > *<strong>wrong reason</strong>: it's rarely used, in four types of relationships: start-to-satrt, start-to-finish, finish-to-start and finish-to-finish*
 
-- The format of the WBS dictionary is essentially the same for all projects.
+- A drawback of the precedence diagramming method is that it cannot be used unless dummy(假) activities are employed.
 
 > *<strong>wrong reason</strong>: it can be various*
 
