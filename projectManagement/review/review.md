@@ -10,6 +10,7 @@
 - Resources in a project should be used effectively because they are limited.
 - One of the main reasons why project management is challenging is because of the factor of uncertainty.
 - A project’s stakeholders consist of its customers, users, and suppliers.
+- Project human resource management is concerned with making effective use of the people involved with a project.
 
 #### False
 
@@ -33,5 +34,6 @@
     - *<strong>wrong reason</strong>: procurement management involves acquiring or procuring goods and services for a project from outside the performing organization*
 - The primary role of project stakeholder management is to ensure that the project will satisfy the stated needs for which it was undertaken. 
     - *<strong>wrong reason</strong>: stakeholder management  includes identifying and analyzing stakeholder needs while managing and controlling their engagement throughout the life of the product*
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
