@@ -657,5 +657,6 @@
 - The <ins>**portfolio project management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
 - Soft skills are also known as <ins>**human relations**</ins> skills.
 - The critical path is the <ins>**longest**</ins> path through a network diagram that determines the earliest completion of a project.
+- The  <ins>**longest**</ins> is an international professional society for project managers founded in 1969.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
