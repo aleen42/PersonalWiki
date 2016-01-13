@@ -644,5 +644,8 @@
 - <ins>**Resources**</ins> include people, hardware, software, or other assets.
 - A project’s sponsor is also known as a(n) <ins>**primary customers**</ins>.
 - In project management, the three limitations of scope, time, and cost are referred to as the <ins>**triple constraint**</ins>.
+- The question, “What unique product does the customer expect from the project?” is an example of a(n) <ins>**scope**</ins> constraint.
+- The question, “What is the project’s schedule?” is an example of a(n) <ins>**time**</ins> constraint.
+- “What is the project’s budget?” This is an example of a project’s <ins>**cost**</ins> constraint.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
