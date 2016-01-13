@@ -53,6 +53,9 @@
 - Project scope management includes the processes involved in defining and controlling what is or is not included in a project.
 - The scope management plan can be informal and broad or formal and detailed, based on the needs of the project.
 - Information from the project charter provides a basis for further defining the project scope.
+- Many information technology projects also require detailed functional and design specifications for developing software, which also should be referenced in the detailed scope statement.
+- The project scope statement should reference supporting documents, such as product specifications that will affect what products are produced or purchased, or corporate policies, which might affect how products or services are produced.
+- The project scope statement, stakeholder requirements documentation, and organizational process assets are the primary inputs for creating a WBS.
 
 #### False
 
@@ -180,8 +183,8 @@
     - *<strong>wrong reason</strong>: project scope statements should include at least a product scope description, product user acceptance criteria(標準), and detailed information on all project deliverables, but the project boundaries, constraints and assumptions are just helpful but not neccessary*
 - The scope of a project is clear and specific from the start.
     - *<strong>wrong reason</strong>: as time progresses, the scope of a project should become more clear and specific*
-- Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
-    - *<strong>wrong reason</strong>: it's reversed*
+- The scope baseline in a WBS consists of the requirements documentation and enterprise environmental factors.
+    - *<strong>wrong reason</strong>: the scope baseline includes the approved project scope statement and its associated WBS and WBS dictionary*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
     - *<strong>wrong reason</strong>: it's reversed*
 - Corrective actions reduce the probability of negative consequences associated with project risks, while preventive actions should result in improvements in project performance.
