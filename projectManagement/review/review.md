@@ -84,6 +84,7 @@
 - The formulas for variances and indexes start with EV, the earned value.
 - Spreadsheets are a common tool for cost estimating, cost budgeting, and cost control.
 - The quality assurance process involves taking responsibility for quality throughout the project’s life cycle.
+- Project managers are ultimately responsible for quality management on their projects.
 
 #### False
 
@@ -505,7 +506,7 @@
 
 - Reliability is the ability of a product or service to perform as expected under deviant(異常的) conditions.
 
-> *<strong>wrong reason</strong>: under normal condition*
+> *<strong>wrong reason</strong>: under normal conditions but not deviant ones*
 
 - In an earned value chart, when the actual cost line is right on or above the earned value line, it indicates that costs are less than planned.
 
