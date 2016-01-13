@@ -70,7 +70,7 @@
 - A Tracking Gantt chart is based on the percentage of work completed for project tasks or the actual start and finish dates.
 - The critical path on a project can change as the project progresses.
 - IT project managers must be able to present and discuss project information both in financial and technical terms.
-- 
+- If an important supplier goes out of business, management reserves can be set aside to cover the resulting costs.
 
 #### False
 
@@ -440,7 +440,7 @@
 
 - It is important for project managers to focus on indirect costs because they can be easily controlled.
 
-> *<strong>wrong reason</strong>: it's the direct costs which can be easily controll*
+> *<strong>wrong reason</strong>: it's the direct costs which can be easily controlled*
 
 - A drawback of the project management software is that it does not have the capacity to calculate the critical path(s) for a project.
 
