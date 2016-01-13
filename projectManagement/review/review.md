@@ -18,5 +18,6 @@
 - Questions about how a team will track schedule performance is related to a project's scope. (*<strong>wrong reason</strong>: it's the project's time*)
 - In order to be realistic, a project manager should always set discrete(互不相連的) goals instead of a range of objectives. (*<strong>wrong reason</strong>: projects involve uncertainty and limited resources. Thus they rarely finish according to their original scope, time, and cost goals.*)
 - Managing the triple constraint primarily involves making trade-offs between resources and quality. (*<strong>wrong reason</strong>: should be between scope, time and cost*)
+- The only responsibility of a project manager is to meet the specific scope, time, and cost goals of a project. (*<strong>wrong reason</strong>: he/she should also facilitate the entire process to meet the needs and expectations of stakeholders*)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
