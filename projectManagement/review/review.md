@@ -100,6 +100,7 @@
 - Adding more people to a project that is falling behind schedule often causes more setbacks(逆流) because of the increased complexity of communications.
 - People have different personality traits(特徵) that often affect their communication preferences.
 - Rarely does the receiver interpret a message exactly as the sender intended.
+- It is extremely important to document any changes in technical specifications that might affect product performance.
 
 #### False
 
