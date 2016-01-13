@@ -89,6 +89,7 @@
 - Using Six Sigma principles is an organization-wide commitment and all employees must embrace its principles.
 - The Six Sigma approach works best for a project where a quality problem is identified between the current and desired performance.
 - In TQC, product quality is more important than production rates, and workers are allowed to stop production whenever a quality problem occurs.
+- Gantt charts cannot be used to aid project quality management.
 
 #### False
 
@@ -534,6 +535,6 @@
 
 - DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
-> *<strong>wrong reason</strong>: no correlati*
+> *<strong>wrong reason</strong>: no correlations*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
