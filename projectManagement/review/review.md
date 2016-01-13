@@ -458,7 +458,7 @@
 
 > *<strong>wrong reason</strong>: budgetary estimates are made one to two years prior to project completion*
 
-- Analogous estimates are called activity-based costing.
+- Analogous(相似的) estimates are called activity-based costing.
 
 > *<strong>wrong reason</strong>: they are called top-down estimates.*
 
