@@ -842,5 +842,6 @@
 - The outputs of the <ins>**planning coummunication management**</ins> process are communications management plan and project documents updates.
 - <ins>**Controlling communications**</ins> monitoring and controlling project communications to ensure that stakeholder communication needs are met.
 - <ins>**Language barriers**</ins> can create communication problems; words may have different meanings in different languages.
+- Project managers should try to <ins>**limi**</ins> the size of teams or sub teams to avoid making communications too complex.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
