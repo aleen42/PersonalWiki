@@ -838,6 +838,7 @@
 - In the Tuckman model, <ins>**adjourning(散會)**</ins> involves the break-up of the team after it successfully reaches its goals and completes the work.
 - In the DISC profile, the letter "S" represents <ins>**steadiness(始終不一)**</ins>.
 - According to Blake and Mouton, project managers who use the <ins>**withdrawal**</ins> mode retreat(撤退) from an actual or potential disagreement.
-- Many experts agree that the greatest threat to the success of any project, especially information technology projects, is a failure to <ins>**communicat**</ins>.
+- Many experts agree that the greatest threat to the success of any project, especially information technology projects, is a failure to <ins>**communicate**</ins>.
+- The outputs of the <ins>**planning coummunication **</ins> process are communications management plan and project documents updates.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
