@@ -735,6 +735,7 @@
 - A work package is a task at the <ins>**lowest**</ins> level of the WBS.
 - Some organizations prescribe the form and content for WBSs for particular projects. These are known as <ins>**guidelines**</ins>.
 - In the <ins>**bottom-up**</ins> approach to creating a WBS, team members first identify as many specific tasks related to the project as possible.
-- <ins>**Mind **</ins> is a technique that uses branches radiating out from a core idea to structure thoughts and ideas when creating a WBS.
+- <ins>**Mind mapping**</ins> is a technique that uses branches radiating out from a core idea to structure thoughts and ideas when creating a WBS.
+- A(n) <ins>**WBS dictiona**</ins> is a document that describes detailed information about each WBS item.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
