@@ -816,7 +816,8 @@
 - Genichi Taguchi's <ins>**Robust Design**</ins> methods focus on eliminating(消除) defects by substituting scientific inquiry(追究) for trial-and-error methods.
 - The <ins>**cost of nonconforman**</ins> means taking responsibility for failures or not meeting quality expectations.
 - The <ins>**Software Quality Function Deployment(SQFD)**</ins> model focuses on defining user requirements and planning software projects.
-- <ins>**Psychosocial**</ins> issues that affect how people work and how well they work include motivation, influence and power, and effectiveness.
-- <ins>**Extrinsic motivatio**</ins> causes people to do something for a reward or to avoid a penalty.
+- <ins>**Psychosocial(社會心理)**</ins> issues that affect how people work and how well they work include motivation, influence and power, and effectiveness.
+- <ins>**Extrinsic motivation**</ins> causes people to do something for a reward or to avoid a penalty.
+- According to Maslow, only after meeting _____ needs can individuals act upon growth needs.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
