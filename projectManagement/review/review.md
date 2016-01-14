@@ -761,6 +761,7 @@
 - A(n) <ins>**tracking**</ins> Gantt chart compares planned and actual project schedule information.
 - A white diamond on a Tracking Gantt chart represents a(n) <ins>**slipped milestone**</ins>.
 - A(n) <ins>**critical path**</ins> for a project is the series of activities that determine the earliest time by which the project can be completed.
-- A(n) <ins>**forward pa**</ins> determines the early start and early finish dates for each activity in a project.
+- A(n) <ins>**forward pass**</ins> determines the early start and early finish dates for each activity in a project.
+- The <ins>**Theory of Constraints**</ins> is based on the fact that any complex system at any point in time often has only one aspect or constraint that limits its ability to achieve more of its goal.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
