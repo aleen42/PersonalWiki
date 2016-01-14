@@ -709,5 +709,6 @@
 - <ins>**Directives**</ins> are new requirements imposed by management, government, or some external influence.
 - <ins>**Net Present Value**</ins> analysis is a method of calculating the expected net monetary gain or loss from a project by discounting all expected future cash inflows and outflows to the present point in time.
 - A positive NPV means the return from a project exceeds the <ins>**cost**</ins>, the return available by investing the capital elsewhere.
+- <ins>**ROI**</ins> is the result of subtracting the project costs from the benefits and then dividing by the costs.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
