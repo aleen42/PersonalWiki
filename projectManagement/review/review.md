@@ -715,5 +715,6 @@
 - A(n) <ins>**balanced scorecard**</ins>  is a methodology that converts value drivers, such as customer service, innovation, operational efficiency, and financial performance, to a series of defined metrics.
 - <ins>**Enterprise environmental**</ins> factors include relevant government or industry standards, the organization’s infrastructure, and marketplace conditions.
 - <ins>**Organizational process assets**</ins> include formal and informal plans, policies, procedures, guidelines, information systems, financial systems, management systems, lessons learned, and historical information that can be used to influence a project’s success.
+- <ins>**Monito**</ins> project work includes collecting, measuring, and disseminating performance information.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
