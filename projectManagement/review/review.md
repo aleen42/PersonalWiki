@@ -802,6 +802,7 @@
 - <ins>**System outputs**</ins> are the screens and reports the system generates.
 - <ins>**Reality**</ins> is the ability of a product or service to perform as expected under normal conditions.
 - A(n) <ins>**quality audit(審計)**</ins> is a structured review of specific quality management activities that help identify lessons learned that could improve performance on current or future projects.
-- <ins>**Process adjustm**</ins> correct or prevent further quality problems based on quality control measurements.
+- <ins>**Process adjustment**</ins> correct or prevent further quality problems based on quality control measurements.
+- <ins>**Fishbo**</ins> diagrams trace complaints about quality problems back to the responsible production operations.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
