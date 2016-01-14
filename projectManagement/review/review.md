@@ -42,7 +42,7 @@
 - In project integration management, directing and managing project execution involves carrying out the project management plan by performing the activities included in it.
 - Information systems can help an organization support a strategy of being a low-cost producer.
 - As projects progress, the organization must reevaluate the need, funding, and will for each project to determine if the project should be continued, redefined, or terminated.
-- Projects that arise as a result of problems and directives must be resolved quickly to avoid hurting an organization’s business.	
+- Projects that arise as a result of problems and directives must be resolved quickly to avoid hurting an organization's business.	
 - NPV analysis is a method for making equal comparisons between cash flows for multi-year projects.
 - An annual discount factor is a multiplier for each year based on the discount rate and year.
 - Payback period is the amount of time it will take to recoup, in the form of net cash inflows, the total dollars invested in a project.
@@ -83,7 +83,7 @@
 - The project management plan and project funding requirements are inputs of the process of controlling costs.
 - The formulas for variances and indexes start with EV, the earned value.
 - Spreadsheets are a common tool for cost estimating, cost budgeting, and cost control.
-- The quality assurance process involves taking responsibility for quality throughout the project’s life cycle.
+- The quality assurance process involves taking responsibility for quality throughout the project's life cycle.
 - Project managers are ultimately responsible for quality management on their projects.
 - Products that are accepted by project stakeholders are considered to be validated(有效的) deliverables.
 - Using Six Sigma principles is an organization-wide commitment and all employees must embrace its principles.
@@ -632,7 +632,7 @@
 
 > *<strong>wrong reason</strong>: the project manager often combines information from all of the lessons-learned reports into a project summary report.*
 
-- Improving an organization’s ability to communication is an easy process.
+- Improving an organization's ability to communication is an easy process.
 
 > *<strong>wrong reason</strong>: it's obviously not*
 
@@ -714,7 +714,7 @@
 - A(n) <ins>**weighted scoring model**</ins> is a tool that provides a systematic process for selecting projects based on many criteria.
 - A(n) <ins>**balanced scorecard**</ins>  is a methodology that converts value drivers, such as customer service, innovation, operational efficiency, and financial performance, to a series of defined metrics.
 - <ins>**Enterprise environmental**</ins> factors include relevant government or industry standards, the organization's infrastructure, and marketplace conditions.
-- <ins>**Organizational process assets**</ins> include formal and informal plans, policies, procedures, guidelines, information systems, financial systems, management systems, lessons learned, and historical information that can be used to influence a project’s success.
+- <ins>**Organizational process assets**</ins> include formal and informal plans, policies, procedures, guidelines, information systems, financial systems, management systems, lessons learned, and historical information that can be used to influence a project's success.
 - <ins>**Monitoring**</ins> project work includes collecting, measuring, and disseminating performance information.
 - A(n) <ins>**baseline**</ins> is the approved project management plan plus approved changes.
 - <ins>**Integrated change control**</ins> involves identifying, evaluating, and managing changes throughout the project life cycle.
