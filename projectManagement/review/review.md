@@ -718,5 +718,6 @@
 - <ins>**Monitoring**</ins> project work includes collecting, measuring, and disseminating performance information.
 - A(n) <ins>**baseline**</ins> is the approved project management plan plus approved changes.
 - <ins>**Integrated change control**</ins> involves identifying, evaluating, and managing changes throughout the project life cycle.
+- A(n) <ins>**Change Control Bo**</ins> is a formal group of people responsible for approving or rejecting changes to a project.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
