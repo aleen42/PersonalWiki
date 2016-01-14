@@ -749,5 +749,6 @@
 - After reviewing the project management plan, project charter, enterprise environmental factors, and organizational process assets, the project team uses expert judgment, analytical techniques, and meetings to develop the <ins>**schedule management plan**</ins>.
 - The <ins>**activity list**</ins> is a tabulation(表格) of activities to be included on a project schedule.
 - The activity list should include the <ins>**activity name**</ins>, an activity identifier, and a brief description of the activity.
+- In the activity defining process, the project team should review the <ins>**activity list**</ins> and activity attributes with project stakeholders before moving on to the next step in project time management.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
