@@ -806,6 +806,6 @@
 - <ins>**Fishbone**</ins> diagrams trace complaints about quality problems back to the responsible production operations.
 - In a <ins>**scatter diagram(散落圖)**</ins>, the closer data points are to a diagonal line, the more closely the two variables are related.
 - <ins>**Statistical diagram(統計圖)**</ins> involves choosing part of a population of interest for inspection.
-- Complete the formula: sample size = 0.25 \* ( <ins>**certainty factor(確信度因子)**</ins> /acceptable error)<sup>2</sup>
+- Complete the formula: sample size = 0.25 \* ( <ins>**certainty factor(確信度因子)**</ins> / acceptable error)<sup>2</sup>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
