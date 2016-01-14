@@ -705,6 +705,6 @@
 - A(n) <ins>**SWOT analysis**</ins> involves analyzing a company’s strengths, weaknesses, opportunities, and threats, and is used to aid in strategic planning.
 - <ins>**Mind mapping**</ins>  is a technique that uses branches radiating from a core idea to structure thoughts and ideas.
 - <ins>**Problems**</ins> refer to undesirable situations that prevent an organization from achieving its goals.
-- <ins>****</ins> refer to chances to improve the organization.
+- <ins>**Opportunities**</ins> refer to chances to improve the organization.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
