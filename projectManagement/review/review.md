@@ -797,5 +797,6 @@
 - The term <ins>**fitness for use**</ins> means a product can be used as it was intended.
 - The purpose of <ins>**project quality management**</ins> is to ensure that the project will satisfy the needs for which it was undertaken.
 - Performing <ins>**quality assurance**</ins> involves periodically evaluating overall project performance to ensure that the project will satisfy the relevant quality standards.
+- Performing <ins>**quality control**</ins> involves monitoring specific project results to ensure that they comply with the relevant quality standards while identifying ways to improve overall quality.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
