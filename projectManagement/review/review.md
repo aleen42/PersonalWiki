@@ -731,7 +731,8 @@
 - subdividing the project deliverables into smaller pieces is known as <ins>**decomposition**</ins>.
 - The <ins>**scope baseline**</ins> includes the approved project scope statement and its associated WBS and WBS dictionary.
 - Tasks in a WBS that are decomposed into smaller tasks are called <ins>**summary**</ins> tasks.
-- PMI uses the term "<ins>**tasks**</ins>" to describe each level of work in the WBS.
+- PMI uses the term "<ins>**task**</ins>" to describe each level of work in the WBS.
 - A work package is a task at the <ins>**lowest**</ins> level of the WBS.
+- Some organizations prescribe the form and content for WBSs for particular projects. These are known as <ins>**guidel**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
