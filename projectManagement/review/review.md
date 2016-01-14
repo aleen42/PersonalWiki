@@ -760,5 +760,6 @@
 - The ultimate goal of developing a realistic project schedule is to provide a basis for monitoring project progress for the <ins>**time**</ins> dimension of the project.
 - A(n) <ins>**tracking**</ins> Gantt chart compares planned and actual project schedule information.
 - A white diamond on a Tracking Gantt chart represents a(n) <ins>**slipped milestone**</ins>.
+- A(n) <ins>**critical**</ins> for a project is the series of activities that determine the earliest time by which the project can be completed.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
