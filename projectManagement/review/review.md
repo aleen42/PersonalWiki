@@ -707,6 +707,6 @@
 - <ins>**Problems**</ins> refer to undesirable situations that prevent an organization from achieving its goals.
 - <ins>**Opportunities**</ins> refer to chances to improve the organization.
 - <ins>**Directives**</ins> are new requirements imposed by management, government, or some external influence.
-- <ins>**Net Present V**</ins>  analysis is a method of calculating the expected net monetary gain or loss from a project by discounting all expected future cash inflows and outflows to the present point in time.
+- <ins>**Net Present Value**</ins>  analysis is a method of calculating the expected net monetary gain or loss from a project by discounting all expected future cash inflows and outflows to the present point in time.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
