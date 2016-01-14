@@ -727,5 +727,7 @@
 - <ins>**Requirements**</ins> refer to "conditions or capabilities that must be met by the project or present in the product, service, or result to satisfy an agreement or other formally imposed specification."
 - A(n) <ins>**requirements traceability matrix**</ins> is a table that lists requirements, their various attributes, and the status of the requirements to ensure that all are addressed.
 - The main outputs of scope definition are the <ins>**project scope statement**</ins> and project document updates.
+- A(n) <ins>**WBS**</ins> is a deliverable-oriented grouping of the work involved in a project that defines its total scope.
+- subdividing the project deliverables into smaller pieces is known as <ins>**decompositio**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
