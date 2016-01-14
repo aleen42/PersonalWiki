@@ -713,6 +713,6 @@
 - The <ins>**internal rateof return**</ins> is the discount rate that results in an NPV of zero for a project.
 - A(n) <ins>**weighted scoring model**</ins> is a tool that provides a systematic process for selecting projects based on many criteria.
 - A(n) <ins>**balanced scorecard**</ins>  is a methodology that converts value drivers, such as customer service, innovation, operational efficiency, and financial performance, to a series of defined metrics.
-- <ins>**Enterprice environmental**</ins> factors include relevant government or industry standards, the organization’s infrastructure, and marketplace conditions.
+- <ins>**Enterprise environmental**</ins> factors include relevant government or industry standards, the organization’s infrastructure, and marketplace conditions.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
