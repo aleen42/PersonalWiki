@@ -775,5 +775,6 @@
 - <ins>**Profits**</ins> are revenues(總收入) minus expenditures(開銷).
 - <ins>**Life cycle**</ins> costing helps to see a big-picture view of the cost of a project throughout its life cycle.
 - <ins>**Life cycle**</ins> costing considers the total cost of ownership, or development plus support costs, for a project.
+- Project managers must conduct cash flow analysis to determine <ins>**Net Precent Value**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
