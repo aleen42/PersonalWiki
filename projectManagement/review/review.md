@@ -841,6 +841,6 @@
 - Many experts agree that the greatest threat to the success of any project, especially information technology projects, is a failure to <ins>**communicate**</ins>.
 - The outputs of the <ins>**planning coummunication management**</ins> process are communications management plan and project documents updates.
 - <ins>**Controlling communications**</ins> monitoring and controlling project communications to ensure that stakeholder communication needs are met.
-- <ins>**Language barr**</ins> can create communication problems; words may have different meanings in different languages.
+- <ins>**Language barriers**</ins> can create communication problems; words may have different meanings in different languages.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
