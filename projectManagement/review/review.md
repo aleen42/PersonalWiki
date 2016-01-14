@@ -824,5 +824,6 @@
 - The <ins>**Thematic Apperception Test(TAT, 主题统觉测验)**</ins> is a tool to measure the individual needs of different people using McClelland’s categories.
 - Managers who believe in McGregor’s <ins>**Theory Y**</ins> assume that individuals do not inherently dislike work, but consider it as natural as play or rest.
 - <ins>**Power**</ins> is the potential ability to influence behavior to get people to do things they would not otherwise do.
+- <ins>**Legatim**</ins> power is getting people to do things based on a position of authority.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
