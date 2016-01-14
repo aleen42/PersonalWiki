@@ -787,6 +787,7 @@
 - A cost management plan is a subsidiary of the <ins>**project management**</ins> plan.
 - <ins>**Earned Value Management**</ins> is a project performance measurement technique that integrates scope, time, and cost data.
 - A(n) <ins>**baseline**</ins> is the original project plan plus approved changes.
-- The ratio of actual work completed to the percentage of work planned to have been completed at any given time during the life of the project or activity is known as the <ins>**rate of performance**</ins>.
+- The ratio of actual work completed to the percentage of work planned to have been completed at any given time during the life of the project or activity is known as the <ins>**rate of performance(RP)**</ins>.
+- The _____ is the portion of the approved total cost estimate planned to be spent on an activity during a given period.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
