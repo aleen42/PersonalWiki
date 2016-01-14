@@ -791,6 +791,7 @@
 - The <ins>**planned value(PV)**</ins> is the portion of the approved total cost estimate planned to be spent on an activity during a given period.
 - The total direct and indirect costs incurred in accomplishing work on an activity during a given period is known as the <ins>**actual cost(AC)**</ins>.
 - The <ins>**earned value(EV)**</ins> is based on the original planned costs for the project or activity and the rate at which the team is completing work on the project or activity to date.
-- The <ins>**schedule performa**</ins> index is the ratio of earned value to planned value.
+- The <ins>**schedule performance**</ins> index is the ratio of earned value to planned value.
+- The cost performance index can be used to calculate the <ins>**estimate at completion(EAC)**</ins> which gives an approximate cost of completing a project based on performance to date.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
