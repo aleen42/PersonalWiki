@@ -849,5 +849,6 @@
 - The <ins>**stakeholder communications**</ins> analysis includes information such as the contact person for the information, when the information is due, and the preferred format for the information.
 - <ins>**Interactive**</ins> communication happens when two or more people to exchange information via meetings, phone calls, or video conferencing.
 - While trying to assess commitment of project stakeholders, a(n) <ins>**face-to-face**</ins> meeting or a Web conference might be the most appropriate medium to use.
+- <ins>**Performance reports**</ins> are normally provided as status reports or progress reports.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
