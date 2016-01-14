@@ -820,5 +820,6 @@
 - <ins>**Extrinsic motivation**</ins> causes people to do something for a reward or to avoid a penalty.
 - According to Maslow, only after meeting <ins>**deficiency(缺陷)**</ins> needs can individuals act upon growth needs.
 - Herzberg called factors that cause job satisfaction <ins>**motivators**</ins>.
+- <ins>**Achievers**</ins> should receive frequent performance feedback, and although money is not an important motivator to them, it is an effective form of feedback.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
