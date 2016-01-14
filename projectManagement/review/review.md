@@ -729,6 +729,7 @@
 - The main outputs of scope definition are the <ins>**project scope statement**</ins> and project document updates.
 - A(n) <ins>**WBS**</ins> is a deliverable-oriented grouping of the work involved in a project that defines its total scope.
 - subdividing the project deliverables into smaller pieces is known as <ins>**decomposition**</ins>.
-- The <ins>**scope basel**</ins> includes the approved project scope statement and its associated WBS and WBS dictionary.
+- The <ins>**scope baseline**</ins> includes the approved project scope statement and its associated WBS and WBS dictionary.
+- Tasks in a WBS that are decomposed into smaller tasks are called <ins>**summ**</ins> tasks.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
