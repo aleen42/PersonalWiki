@@ -821,6 +821,6 @@
 - According to Maslow, only after meeting <ins>**deficiency(缺陷)**</ins> needs can individuals act upon growth needs.
 - Herzberg called factors that cause job satisfaction <ins>**motivators**</ins>.
 - <ins>**Achievers**</ins> should receive frequent performance feedback, and although money is not an important motivator to them, it is an effective form of feedback.
-- The <ins>**Thematic Apperception Test(TAT)**</ins> is a tool to measure the individual needs of different people using McClelland’s categories.
+- The <ins>**Thematic Apperception Test(TAT, 主题统觉测验)**</ins> is a tool to measure the individual needs of different people using McClelland’s categories.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
