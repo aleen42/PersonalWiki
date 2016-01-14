@@ -809,6 +809,6 @@
 - Complete the formula: sample size = 0.25 \* ( <ins>**certainty factor(確信度因子)**</ins> / acceptable error)<sup>2</sup>
 - In the DMAIC process, the letter “C” stands for <ins>**control**</ins>.
 - <ins>**Standard deviation**</ins> measures how much variation exists in a distribution of data.
-- The <ins>**yiel**</ins> represents the number of units handled correctly through the process steps.
+- The <ins>**yield**</ins> represents the number of units handled correctly through the process steps.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
