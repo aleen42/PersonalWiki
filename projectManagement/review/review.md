@@ -799,6 +799,7 @@
 - Performing <ins>**quality assurance**</ins> involves periodically evaluating overall project performance to ensure that the project will satisfy the relevant quality standards.
 - Performing <ins>**quality control**</ins> involves monitoring specific project results to ensure that they comply with the relevant quality standards while identifying ways to improve overall quality.
 - <ins>**Design of experiments**</ins> is a quality planning technique that helps identify which variables have the most influence on the overall outcome of a process.
-- <ins>**System outpus**</ins> are the screens and reports the system generates.
+- <ins>**System outputs**</ins> are the screens and reports the system generates.
+- <ins>**Reality**</ins> is the ability of a product or service to perform as expected under normal conditions.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
