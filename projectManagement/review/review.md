@@ -780,5 +780,6 @@
 - Project costs, like project schedules, grow out of the basic documents that initiate a project, like the <ins>**project charter**</ins>.
 - A(n) <ins>**rough order of magnititude**</ins> estimate is done very early in a project or even before a project is officially started.
 - The timeframe for a(n) <ins>**rough order of magnititude**</ins> estimate is often three or more years prior to project completion.
+- In practice, many people find that using a combination or hybrid approach involving analogous, bottom up, and/or parametric modeling provides the best <ins>**cost est**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
