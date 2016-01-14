@@ -755,6 +755,6 @@
 - In a(n) <ins>**start-to-finish**</ins> relationship, the "from" activity must start before the "to" activity can be finished.
 - <ins>**Dummy activities**</ins> have no duration and no resources but are occasionally needed on AOA network diagrams to show logical relationships between activities.
 - A hierarchical structure that identifies the project’s resources by category and type is known as a(n) <ins>**Resources Breakdown Structure**</ins>.
-- <ins>**Effo**</ins> is the number of workdays or work hours required to complete a task.
+- <ins>**Effort**</ins> is the number of workdays or work hours required to complete a task.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
