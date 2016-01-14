@@ -711,5 +711,6 @@
 - A positive NPV means the return from a project exceeds the <ins>**cost**</ins>, the return available by investing the capital elsewhere.
 - <ins>**ROI**</ins> is the result of subtracting the project costs from the benefits and then dividing by the costs.
 - The <ins>**internal rateof return**</ins> is the discount rate that results in an NPV of zero for a project.
+- A(n) <ins>**weighted scoring model**</ins> is a tool that provides a systematic process for selecting projects based on many criteria.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
