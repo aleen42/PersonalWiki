@@ -767,5 +767,6 @@
 - <ins>**Murphy's Law**</ins> states that if something can go wrong, it will.
 - The main outputs of <ins>**schedule control**</ins> include work performance measurements, organizational process assets updates, and project document updates.
 - One of the first reality checks on scheduling that a project manager should make is to review the <ins>**draft schedule**</ins>.
+- A drawback of using <ins>**templates**</ins> or sample files is that managers and their teams might rely heavily on them and ignore unique concerns for their particular projects.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
