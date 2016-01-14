@@ -710,5 +710,6 @@
 - <ins>**Net Present Value**</ins> analysis is a method of calculating the expected net monetary gain or loss from a project by discounting all expected future cash inflows and outflows to the present point in time.
 - A positive NPV means the return from a project exceeds the <ins>**cost**</ins>, the return available by investing the capital elsewhere.
 - <ins>**ROI**</ins> is the result of subtracting the project costs from the benefits and then dividing by the costs.
+- The <ins>**internal rateof retu**</ins> is the discount rate that results in an NPV of zero for a project.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
