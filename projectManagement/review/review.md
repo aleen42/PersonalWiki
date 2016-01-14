@@ -752,6 +752,7 @@
 - In the activity defining process, the project team should review the <ins>**activity list**</ins> and activity attributes with project stakeholders before moving on to the next step in project time management.
 - A(n) <ins>**network diagram**</ins> is a schematic display of the logical relationships among project activities and their sequencing.
 - In a network diagram, a(n) <ins>**node**</ins> is the starting and ending point of an activity.
-- In a(n) <ins>**start-t**</ins> relationship, the "from" activity must start before the "to" activity can be finished.
+- In a(n) <ins>**start-to-finish**</ins> relationship, the "from" activity must start before the "to" activity can be finished.
+- <ins>**Dummy activi**</ins> have no duration and no resources but are occasionally needed on AOA network diagrams to show logical relationships between activities.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
