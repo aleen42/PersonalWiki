@@ -801,6 +801,6 @@
 - <ins>**Design of experiments**</ins> is a quality planning technique that helps identify which variables have the most influence on the overall outcome of a process.
 - <ins>**System outputs**</ins> are the screens and reports the system generates.
 - <ins>**Reality**</ins> is the ability of a product or service to perform as expected under normal conditions.
-- A(n) <ins>**quality audit**</ins> is a structured review of specific quality management activities that help identify lessons learned that could improve performance on current or future projects.
+- A(n) <ins>**quality audit(審計)**</ins> is a structured review of specific quality management activities that help identify lessons learned that could improve performance on current or future projects.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
