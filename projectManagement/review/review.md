@@ -844,6 +844,7 @@
 - <ins>**Language barriers**</ins> can create communication problems; words may have different meanings in different languages.
 - Project managers should try to <ins>**limit**</ins> the size of teams or sub teams to avoid making communications too complex.
 - Many information technology professionals work on <ins>**virtual**</ins> projects where they never meet their project sponsors, other team members, or other project stakeholders.
-- A(n) <ins>**communication manage**</ins> is a document that guides project communications.
+- A(n) <ins>**communications management plan**</ins> is a document that guides project communications.
+- A(n) <ins>**communications management plan**</ins> must include suggested methods or technologies for conveying the information.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
