@@ -819,5 +819,6 @@
 - <ins>**Psychosocial(社會心理)**</ins> issues that affect how people work and how well they work include motivation, influence and power, and effectiveness.
 - <ins>**Extrinsic motivation**</ins> causes people to do something for a reward or to avoid a penalty.
 - According to Maslow, only after meeting <ins>**deficiency(缺陷)**</ins> needs can individuals act upon growth needs.
+- Herzberg called factors that cause job satisfaction <ins>**motivators**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
