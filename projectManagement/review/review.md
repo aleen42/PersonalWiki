@@ -851,6 +851,7 @@
 - While trying to assess commitment of project stakeholders, a(n) <ins>**face-to-face**</ins> meeting or a Web conference might be the most appropriate medium to use.
 - <ins>**Performance reports**</ins> are normally provided as status reports or progress reports.
 - <ins>**Team leaders**</ins> often create consolidated(加固的) progress reports based on the information received from team members.
-- An important technique for <ins>**performance report**</ins> is the status review meeting.
+- An important technique for <ins>**performance reporting**</ins> is the status review meeting.
+- The main goal of controlling communications is to ensure the optimal flow of information throughout the entire <ins>**proj**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
