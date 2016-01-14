@@ -847,6 +847,6 @@
 - A(n) <ins>**communications management plan**</ins> is a document that guides project communications.
 - A(n) <ins>**communications management plan**</ins> must include suggested methods or technologies for conveying the information.
 - The <ins>**stakeholder communications**</ins> analysis includes information such as the contact person for the information, when the information is due, and the preferred format for the information.
-- <ins>**Interacti**</ins> communication happens when two or more people to exchange information via meetings, phone calls, or video conferencing.
+- <ins>**Interactive**</ins> communication happens when two or more people to exchange information via meetings, phone calls, or video conferencing.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
