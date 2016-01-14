@@ -813,5 +813,6 @@
 - <ins>**Six 9s of quality**</ins> is a measure of quality control equal to 1 fault in 1 million opportunities.
 - Watts S. Humphrey defines a(n) <ins>**software defect(缺陷)**</ins> as anything that must be changed before delivery of the program.
 - <ins>**Quality circles**</ins> are groups of non-supervisors and work leaders in a single company department who volunteer to conduct group studies on how to improve the effectiveness of work in their department.
+- Genichi Taguchi’s _____ methods focus on eliminating(消除) defects by substituting scientific inquiry for trial-and-error methods.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
