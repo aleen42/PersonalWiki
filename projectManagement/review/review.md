@@ -784,5 +784,6 @@
 - Project cost estimates are allocated to work items which are based on the activities in the <ins>**WBS**</ins> for the project.
 - A(n) <ins>**cost baseline**</ins> is a time-phased budget that project managers use to measure and monitor cost performance.
 - In addition to providing input for budgetary estimates, the process of <ins>**cost budgeting**</ins> provides a cost baseline.
+- A cost management plan is a subsidiary of the <ins>**project manage**</ins> plan.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
