@@ -733,6 +733,7 @@
 - Tasks in a WBS that are decomposed into smaller tasks are called <ins>**summary**</ins> tasks.
 - PMI uses the term "<ins>**task**</ins>" to describe each level of work in the WBS.
 - A work package is a task at the <ins>**lowest**</ins> level of the WBS.
-- Some organizations prescribe the form and content for WBSs for particular projects. These are known as <ins>**guidel**</ins>.
+- Some organizations prescribe the form and content for WBSs for particular projects. These are known as <ins>**guidelines**</ins>.
+- In the <ins>**bottom-u**</ins> approach to creating a WBS, team members first identify as many specific tasks related to the project as possible.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
