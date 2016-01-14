@@ -739,6 +739,7 @@
 - A(n) <ins>**WBS dictionary**</ins> is a document that describes detailed information about each WBS item.
 - <ins>**Scope creep**</ins> is the tendency for project scope to keep getting bigger and bigger.
 - The main tool for performing scope validation is <ins>**inspection**</ins> and group decision making techniques.
-- <ins>**Scope contro**</ins> involves controlling changes to the project scope while keeping project goals and business strategy in mind.
+- <ins>**Scope control**</ins> involves controlling changes to the project scope while keeping project goals and business strategy in mind.
+- <ins>**Varience**</ins> is the difference between planned and actual performance.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
