@@ -699,7 +699,8 @@
 - In Scrum, a(n) <ins>**artifact**</ins> is a useful object created by people.
 - A(n) <ins>**sprint backlog**</ins> is a Scrum artifact and consists of the highest-priority items from the product backlog to be completed in a sprint.
 - <ins>**User stories**</ins> are short descriptions written by customers of what they need a Scrum system to do for them.
-- <ins>**Project integration managem**</ins> involves coordinating all of the other project management knowledge areas throughout a project’s life cycle.
+- <ins>**Project integration management**</ins> involves coordinating all of the other project management knowledge areas throughout a project’s life cycle.
+- <ins>**Interface management**</ins> involves identifying and managing the points of interaction between various elements of the project.
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
