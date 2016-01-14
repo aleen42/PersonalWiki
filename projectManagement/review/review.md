@@ -745,6 +745,6 @@
 - <ins>**Use case modeling**</ins> is a process for identifying and modeling business events, who initiated them, and how the system should respond to them.
 - In a project schedule, the variable that has the least amount of flexibility is <ins>**time**</ins>.
 - <ins>**Project time management**</ins> involves the processes required to ensure timely completion of a project.
-- In project time management, the process of <ins>**estimating activitie**</ins> involves deciding how many people, equipment, and materials a project team should use to perform project activities.
+- In project time management, the process of <ins>**estimating activity resources**</ins> involves deciding how many people, equipment, and materials a project team should use to perform project activities.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
