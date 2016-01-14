@@ -756,6 +756,7 @@
 - <ins>**Dummy activities**</ins> have no duration and no resources but are occasionally needed on AOA network diagrams to show logical relationships between activities.
 - A hierarchical structure that identifies the project’s resources by category and type is known as a(n) <ins>**Resources Breakdown Structure**</ins>.
 - <ins>**Effort**</ins> is the number of workdays or work hours required to complete a task.
-- Duration estimates can be provided as a discrete number, a range, or as a(n) <ins>**three-poi**</ins>.
+- Duration estimates can be provided as a discrete number, a range, or as a(n) <ins>**three-point estimate**</ins>.
+- The ultimate goal of developing a realistic project schedule is to provide a basis for monitoring project progress for the <ins>**time**</ins> dimension of the project.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
