@@ -822,6 +822,7 @@
 - Herzberg called factors that cause job satisfaction <ins>**motivators**</ins>.
 - <ins>**Achievers**</ins> should receive frequent performance feedback, and although money is not an important motivator to them, it is an effective form of feedback.
 - The <ins>**Thematic Apperception Test(TAT, 主题统觉测验)**</ins> is a tool to measure the individual needs of different people using McClelland’s categories.
-- Managers who believe in McGregor’s <ins>**Theory**</ins> assume that individuals do not inherently dislike work, but consider it as natural as play or rest.
+- Managers who believe in McGregor’s <ins>**Theory Y**</ins> assume that individuals do not inherently dislike work, but consider it as natural as play or rest.
+- <ins>**Power**</ins> is the potential ability to influence behavior to get people to do things they would not otherwise do.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
