@@ -779,5 +779,6 @@
 - The <ins>**learning curve(曲線)**</ins> theory states that when many items are produced repetitively(多次重複地), the unit cost of those items decreases in a regular pattern as more units are produced.
 - Project costs, like project schedules, grow out of the basic documents that initiate a project, like the <ins>**project charter**</ins>.
 - A(n) <ins>**rough order of magnititude**</ins> estimate is done very early in a project or even before a project is officially started.
+- The timeframe for a(n) <ins>**rough order of magnititude**</ins> estimate is often three or more years prior to project completion.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
