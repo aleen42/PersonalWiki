@@ -741,5 +741,6 @@
 - The main tool for performing scope validation is <ins>**inspection**</ins> and group decision making techniques.
 - <ins>**Scope control**</ins> involves controlling changes to the project scope while keeping project goals and business strategy in mind.
 - <ins>**Variance**</ins> is the difference between planned and actual performance.
+- <ins>**Prototy**</ins> involves developing a working replica of the system or some aspect of the system.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
