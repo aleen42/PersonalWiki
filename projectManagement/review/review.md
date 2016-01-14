@@ -836,6 +836,6 @@
 - <ins>**Overallocation(資源過度分配)**</ins> means more resources than are available are assigned to perform work at a given time.
 - Resource <ins>**leveling**</ins> aims to minimize period-by-period variations in resource loading by shifting tasks within their slack(鬆懈的) allowances.
 - In the Tuckman model, <ins>**adjourning(散會)**</ins> involves the break-up of the team after it successfully reaches its goals and completes the work.
-- In the DISC profile, the letter "S" represents <ins>**steadin(散會)**</ins>.
+- In the DISC profile, the letter "S" represents <ins>**steadiness(始終不一)**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
