@@ -758,6 +758,7 @@
 - <ins>**Effort**</ins> is the number of workdays or work hours required to complete a task.
 - Duration estimates can be provided as a discrete number, a range, or as a(n) <ins>**three-point estimate**</ins>.
 - The ultimate goal of developing a realistic project schedule is to provide a basis for monitoring project progress for the <ins>**time**</ins> dimension of the project.
-- A(n) <ins>**tra**</ins> Gantt chart compares planned and actual project schedule information.
+- A(n) <ins>**tracking**</ins> Gantt chart compares planned and actual project schedule information.
+- 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
