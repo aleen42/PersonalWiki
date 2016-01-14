@@ -828,6 +828,6 @@
 - <ins>**Synergy(協同作用)**</ins> is the concept that the whole is equal to more than the sum of its parts.
 - Covey, like Maslow, believes that people have the ability to be <ins>**proactive(積極主動的)**</ins> and choose their responses to different situations.
 - <ins>**Empathic(神入的) listening**</ins> is listening with the intent to understand.
-- <ins>**Rapport**</ins> is a relation of harmony, conformity, accord, or affinity and is important for communication.
+- <ins>**Rapport(融洽)**</ins> is a relation of harmony, conformity, accord, or affinity and is important for communication.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
