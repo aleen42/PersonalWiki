@@ -855,6 +855,6 @@
 - The main goal of controlling communications is to ensure the optimal flow of information throughout the entire <ins>**project life cycle**</ins>.
 - A(n) <ins>**well-run meeting**</ins> can be a vehicle for fostering(鼓勵) team building and reinforcing(加固) expectations, roles, relationships, and commitment to the project.
 - All meetings must have a(n) <ins>**purpose**</ins> and intended outcome.
-- A(n) <ins>****</ins> forces meeting organizers to plan the meeting and gives potential participants the chance to decide whether they need to attend.
+- A(n) <ins>**agenda**</ins> forces meeting organizers to plan the meeting and gives potential participants the chance to decide whether they need to attend.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
