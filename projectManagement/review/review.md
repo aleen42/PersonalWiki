@@ -773,6 +773,7 @@
 - The main outputs of the <ins>**cost estimating**</ins> process are activity cost estimates, basis of estimates, and project document updates.
 - The main outputs of the <ins>**cost budgeting**</ins> process are a cost performance baseline, project funding requirements, and project document updates.
 - <ins>**Profits**</ins> are revenues(總收入) minus expenditures(開銷).
-- <ins>**Lif**</ins> costing helps to see a big-picture view of the cost of a project throughout its life cycle.
+- <ins>**Life cycle**</ins> costing helps to see a big-picture view of the cost of a project throughout its life cycle.
+- <ins>**Life cycle**</ins> costing considers the total cost of ownership, or development plus support costs, for a project.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
