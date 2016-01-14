@@ -747,6 +747,7 @@
 - <ins>**Project time management**</ins> involves the processes required to ensure timely completion of a project.
 - In project time management, the process of <ins>**estimating activity resources**</ins> involves deciding how many people, equipment, and materials a project team should use to perform project activities.
 - After reviewing the project management plan, project charter, enterprise environmental factors, and organizational process assets, the project team uses expert judgment, analytical techniques, and meetings to develop the <ins>**schedule management plan**</ins>.
-- The <ins>**schedule management plan**</ins> is a tabulation(表格) of activities to be included on a project schedule.
+- The <ins>**activity list**</ins> is a tabulation(表格) of activities to be included on a project schedule.
+- The activity list should include the <ins>**activity name**</ins>, an activity identifier, and a brief description of the activity.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
