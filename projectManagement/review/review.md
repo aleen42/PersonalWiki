@@ -789,5 +789,6 @@
 - A(n) <ins>**baseline**</ins> is the original project plan plus approved changes.
 - The ratio of actual work completed to the percentage of work planned to have been completed at any given time during the life of the project or activity is known as the <ins>**rate of performance(RP)**</ins>.
 - The <ins>**planned value(PV)**</ins> is the portion of the approved total cost estimate planned to be spent on an activity during a given period.
+- The total direct and indirect costs incurred in accomplishing work on an activity during a given period is known as the <ins>**actual cost(AC)**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
