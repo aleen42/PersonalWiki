@@ -76,7 +76,7 @@
 - Estimates should become more accurate as time progresses.
 - Supporting details for an estimate include the ground rules and assumptions used in creating the estimate.
 - In a bottom-up estimate, the size of the individual work items is one of the factors that drives the accuracy of the estimates.
-- Parametric models are reliable when the models are flexible in terms of the project’s size.
+- Parametric models are reliable when the models are flexible in terms of the project's size.
 - One of the reasons why project cost estimates are inaccurate is because human beings are biased(偏向於) toward underestimation(低估).
 - It is important for project managers to understand that every cost estimate is unique.
 - Determining the budget involves allocating the project cost estimate to individual work items over time.
@@ -90,7 +90,7 @@
 - The Six Sigma approach works best for a project where a quality problem is identified between the current and desired performance.
 - In TQC, product quality is more important than production rates, and workers are allowed to stop production whenever a quality problem occurs.
 - Gantt charts cannot be used to aid project quality management.
-- Maslow’s hierarchy of needs states that people’s behaviors are guided or motivated by a sequence of needs.
+- Maslow's hierarchy of needs states that people's behaviors are guided or motivated by a sequence of needs.
 - People who need institutional power or social power want to organize others to further the goals of the organization.
 - Thamhain and Wilemon found that when project managers used work challenge and expertise to influence people, projects were more likely to succeed.
 - A staffing management plan describes when and how people will be added to and taken off the project team.
@@ -196,7 +196,7 @@
 
 > *<strong>wrong reason</strong>: they should not be separated*
 
-- Most people believe that the underlying causes of many companies’ problems can be traced to its organizational structure.
+- Most people believe that the underlying causes of many companies' problems can be traced to its organizational structure.
 
 > *<strong>wrong reason</strong>: it's the organizational culture, but not the structure*
 
@@ -300,9 +300,9 @@
 
 > *<strong>wrong reason</strong>: of course it can*
 
-- An organization’s information technology project selection process should guide the strategic plan.
+- An organization's information technology project selection process should guide the strategic plan.
 
-> *<strong>wrong reason</strong>: it's reversed that an organization’s strategic plan should guide the IT project selection process*
+> *<strong>wrong reason</strong>: it's reversed that an organization's strategic plan should guide the IT project selection process*
 
 - Projects that address broad organizational needs are likely to fail.
 
@@ -450,7 +450,7 @@
 
 - One of PERT’s main disadvantages is that it does not address the risk associated with duration estimates.
 
-> *<strong>wrong reason</strong>: PERT’s main disadvantages are that it involves more work than CPM because it requires several duration estimates*
+> *<strong>wrong reason</strong>: PERT's main disadvantages are that it involves more work than CPM because it requires several duration estimates*
 
 - The final process in project time management is developing the schedule.
 
@@ -526,7 +526,7 @@
 
 - Customer requirements are an important aspect of the quality planning process.
 
-> *<strong>wrong reason</strong>: it is important to describe key factors that directly contribute to meeting the customer’s requirements*
+> *<strong>wrong reason</strong>: it is important to describe key factors that directly contribute to meeting the customer's requirements*
 
 - Reliability is the ability of a product or service to perform as expected under deviant(異常的) conditions.
 
@@ -552,7 +552,7 @@
 
 > *<strong>wrong reason</strong>: this is unit test*
 
-- DeMarco and Lister’s study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
+- DeMarco and Lister's study on organizations and productivity found direct correlations between productivity and programming language, years of experience, and salary.
 
 > *<strong>wrong reason</strong>: no correlations*
 
@@ -699,7 +699,7 @@
 - In Scrum, a(n) <ins>**artifact**</ins> is a useful object created by people.
 - A(n) <ins>**sprint backlog**</ins> is a Scrum artifact and consists of the highest-priority items from the product backlog to be completed in a sprint.
 - <ins>**User stories**</ins> are short descriptions written by customers of what they need a Scrum system to do for them.
-- <ins>**Project integration management**</ins> involves coordinating all of the other project management knowledge areas throughout a project’s life cycle.
+- <ins>**Project integration management**</ins> involves coordinating all of the other project management knowledge areas throughout a project's life cycle.
 - <ins>**Interface management**</ins> involves identifying and managing the points of interaction between various elements of the project.
 - <ins>**Strategic planning**</ins> involves determining long-term objectives by analyzing the strengths and weaknesses, studying opportunities and threats, predicting future trends, and projecting the need for new products and services.
 - A(n) <ins>**SWOT analysis**</ins> involves analyzing a company’s strengths, weaknesses, opportunities, and threats, and is used to aid in strategic planning.
@@ -713,7 +713,7 @@
 - The <ins>**internal rateof return**</ins> is the discount rate that results in an NPV of zero for a project.
 - A(n) <ins>**weighted scoring model**</ins> is a tool that provides a systematic process for selecting projects based on many criteria.
 - A(n) <ins>**balanced scorecard**</ins>  is a methodology that converts value drivers, such as customer service, innovation, operational efficiency, and financial performance, to a series of defined metrics.
-- <ins>**Enterprise environmental**</ins> factors include relevant government or industry standards, the organization’s infrastructure, and marketplace conditions.
+- <ins>**Enterprise environmental**</ins> factors include relevant government or industry standards, the organization's infrastructure, and marketplace conditions.
 - <ins>**Organizational process assets**</ins> include formal and informal plans, policies, procedures, guidelines, information systems, financial systems, management systems, lessons learned, and historical information that can be used to influence a project’s success.
 - <ins>**Monitoring**</ins> project work includes collecting, measuring, and disseminating performance information.
 - A(n) <ins>**baseline**</ins> is the approved project management plan plus approved changes.
@@ -724,5 +724,6 @@
 - <ins>**Scope**</ins> refers to all the work involved in creating the products of the project and the processes used to create them.
 - The main outputs of <ins>**scope definition**</ins> are the project scope statement and updates to project documents.
 - Creating the <ins>**WBS**</ins> involves subdividing the major project deliverables into smaller, more manageable components.
+- <ins>**Requirements**</ins> refer to "conditions or capabilities that must be met by the project or present in the product, service, or result to satisfy an agreement or other formally imposed specification."
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
