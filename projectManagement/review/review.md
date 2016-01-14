@@ -330,7 +330,7 @@
 
 - The introduction or overview of a project must only include a list of definitions and acronyms(縮寫詞).
 
-> *<strong>wrong reason</strong>: it should includes the following information: the project name, a brief description of the project and the need it addresses, the sponsor’s name, the names of the project manager and key team members, deliverables of the project, a list of important reference materials and a list of definitions and acronyms*
+> *<strong>wrong reason</strong>: it should includes the following information: the project name, a brief description of the project and the need it addresses, the sponsor's name, the names of the project manager and key team members, deliverables of the project, a list of important reference materials and a list of definitions and acronyms*
 
 - A Gantt chart is the same as a project management plan.
 
@@ -348,7 +348,7 @@
 
 > *<strong>wrong reason</strong>: deliverables can be product-related, such as a piece of hardware or software, or process-related, such as a planning document or meeting minutes*
 
-- The project’s size, complexity, importance, and other factors do not affect how much effort is spent on collecting requirements for scope planning.
+- The project's size, complexity, importance, and other factors do not affect how much effort is spent on collecting requirements for scope planning.
 
 > *<strong>wrong reason</strong>: it affects*
 
@@ -448,7 +448,7 @@
 
 > *<strong>wrong reason</strong>: it's reversed*
 
-- One of PERT’s main disadvantages is that it does not address the risk associated with duration estimates.
+- One of PERT's main disadvantages is that it does not address the risk associated with duration estimates.
 
 > *<strong>wrong reason</strong>: PERT's main disadvantages are that it involves more work than CPM because it requires several duration estimates*
 
@@ -626,7 +626,7 @@
 
 - The email is the most appropriate medium for all types of communications.
 
-> *<strong>wrong reason</strong>: it not appropriate for assessing commitment, building consensus, mediating a conflict, resolving a misunderstanding, making an ironic statement, conveying a reference document, reinforcing one’s authority, or maintaining confidentiality*
+> *<strong>wrong reason</strong>: it not appropriate for assessing commitment, building consensus, mediating a conflict, resolving a misunderstanding, making an ironic statement, conveying a reference document, reinforcing one's authority, or maintaining confidentiality*
 
 - The project summary report is a summary of all the lessons-learned reports.
 
@@ -642,7 +642,7 @@
 - A(n) <ins>**project**</ins> is a temporary endeavor undertaken to create a unique product, service, or result.
 - <ins>**Operations**</ins> refers to work done in organizations to sustain the business.
 - <ins>**Resources**</ins> include people, hardware, software, or other assets.
-- A project’s sponsor is also known as a(n) <ins>**primary customers**</ins>.
+- A project's sponsor is also known as a(n) <ins>**primary customers**</ins>.
 - In project management, the three limitations of scope, time, and cost are referred to as the <ins>**triple constraint**</ins>.
 - The question, "What unique product does the customer expect from the project?" is an example of a(n) <ins>**scope**</ins> constraint.
 - The question, "What is the project's schedule?" is an example of a(n) <ins>**time**</ins> constraint.
@@ -668,7 +668,7 @@
 - <ins>**System management**</ins> addresses the business, technological, and organizational issues associated with creating, maintaining, and making a change to a system.
 - The three spheres of systems management are business, organization, and <ins>**technology**</ins>.
 - The <ins>**structural**</ins> frame of the organization is the one that is usually depicted in an organizational chart.
-- The <ins>**symbolic**</ins> frame of an organization relates to the company’s culture.
+- The <ins>**symbolic**</ins> frame of an organization relates to the company's culture.
 - Three general classifications of organizational structures are <ins>**functional**</ins>, project, and matrix.
 - In a(n) <ins>**functional**</ins> organizational structure, project managers have little or no authority.
 - <ins>**Control**</ins> refers to the degree to which rules, policies, and direct supervision are used to oversee employee behavior.
@@ -702,7 +702,7 @@
 - <ins>**Project integration management**</ins> involves coordinating all of the other project management knowledge areas throughout a project's life cycle.
 - <ins>**Interface management**</ins> involves identifying and managing the points of interaction between various elements of the project.
 - <ins>**Strategic planning**</ins> involves determining long-term objectives by analyzing the strengths and weaknesses, studying opportunities and threats, predicting future trends, and projecting the need for new products and services.
-- A(n) <ins>**SWOT analysis**</ins> involves analyzing a company’s strengths, weaknesses, opportunities, and threats, and is used to aid in strategic planning.
+- A(n) <ins>**SWOT analysis**</ins> involves analyzing a company's strengths, weaknesses, opportunities, and threats, and is used to aid in strategic planning.
 - <ins>**Mind mapping**</ins>  is a technique that uses branches radiating from a core idea to structure thoughts and ideas.
 - <ins>**Problems**</ins> refer to undesirable situations that prevent an organization from achieving its goals.
 - <ins>**Opportunities**</ins> refer to chances to improve the organization.
