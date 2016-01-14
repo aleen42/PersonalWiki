@@ -763,6 +763,7 @@
 - A(n) <ins>**critical path**</ins> for a project is the series of activities that determine the earliest time by which the project can be completed.
 - A(n) <ins>**forward pass**</ins> determines the early start and early finish dates for each activity in a project.
 - The <ins>**Theory of Constraints**</ins> is based on the fact that any complex system at any point in time often has only one aspect or constraint that limits its ability to achieve more of its goal.
-- <ins>**Multitaski**</ins> occurs when a resource works on more than one task at a time.
+- <ins>**Multitasking**</ins> occurs when a resource works on more than one task at a time.
+- <ins>**Murphy Theori**</ins> states that if something can go wrong, it will.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
