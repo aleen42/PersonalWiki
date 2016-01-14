@@ -701,6 +701,7 @@
 - <ins>**User stories**</ins> are short descriptions written by customers of what they need a Scrum system to do for them.
 - <ins>**Project integration management**</ins> involves coordinating all of the other project management knowledge areas throughout a project’s life cycle.
 - <ins>**Interface management**</ins> involves identifying and managing the points of interaction between various elements of the project.
+- <ins>**Strategic planning**</ins> involves determining long-term objectives by analyzing the strengths and weaknesses, studying opportunities and threats, predicting future trends, and projecting the need for new products and services.
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
