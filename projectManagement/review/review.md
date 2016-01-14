@@ -765,5 +765,6 @@
 - The <ins>**Theory of Constraints**</ins> is based on the fact that any complex system at any point in time often has only one aspect or constraint that limits its ability to achieve more of its goal.
 - <ins>**Multitasking**</ins> occurs when a resource works on more than one task at a time.
 - <ins>**Murphy's Law**</ins> states that if something can go wrong, it will.
+- The main outputs of <ins>**schedule contro**</ins> include work performance measurements, organizational process assets updates, and project document updates.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
