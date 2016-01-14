@@ -771,6 +771,6 @@
 - The additional percentage or dollar amount by which actual costs exceed estimates is known as a(n) <ins>**overrun**</ins>.
 - The main output of the planning cost management process is a(n) <ins>**cost management plan**</ins>.
 - The main outputs of the <ins>**cost estimating**</ins> process are activity cost estimates, basis of estimates, and project document updates.
-- The main outputs of the <ins>**cost budgetti**</ins> process are a cost performance baseline, project funding requirements, and project document updates.
+- The main outputs of the <ins>**cost budgeting**</ins> process are a cost performance baseline, project funding requirements, and project document updates.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
