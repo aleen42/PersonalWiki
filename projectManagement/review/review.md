@@ -846,5 +846,6 @@
 - Many information technology professionals work on <ins>**virtual**</ins> projects where they never meet their project sponsors, other team members, or other project stakeholders.
 - A(n) <ins>**communications management plan**</ins> is a document that guides project communications.
 - A(n) <ins>**communications management plan**</ins> must include suggested methods or technologies for conveying the information.
+- The <ins>**stakeholder communications**</ins> analysis includes information such as the contact person for the information, when the information is due, and the preferred format for the information.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
