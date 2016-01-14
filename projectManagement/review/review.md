@@ -829,5 +829,6 @@
 - Covey, like Maslow, believes that people have the ability to be <ins>**proactive(積極主動的)**</ins> and choose their responses to different situations.
 - <ins>**Empathic(神入的) listening**</ins> is listening with the intent to understand.
 - <ins>**Rapport(融洽)**</ins> is a relation of harmony, conformity(遵從), accord(一致), or affinity(喜好) and is important for communication.
+- <ins>**Deputy(副) project managers**</ins> fill in for project managers in their absence(缺席) and assist them as needed.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
