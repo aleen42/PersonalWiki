@@ -834,6 +834,7 @@
 - The <ins>**responsibility assignment matrix(RAM)**</ins> allocates work to responsible and performing organizations, teams, or individuals, depending on the desired level of detail.
 - A(n) <ins>**Organization Breakdown Structure(OBS)**</ins> is a specific type of organizational chart that shows which organizational units are responsible for which work items.
 - <ins>**Overallocation(資源過度分配)**</ins> means more resources than are available are assigned to perform work at a given time.
-- Resource <ins>**leveling**</ins> aims to minimize period-by-period variations in resource loading by shifting tasks within their slack allowances.
+- Resource <ins>**leveling**</ins> aims to minimize period-by-period variations in resource loading by shifting tasks within their slack(鬆懈的) allowances.
+- 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
