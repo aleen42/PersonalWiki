@@ -751,6 +751,7 @@
 - The activity list should include the <ins>**activity name**</ins>, an activity identifier, and a brief description of the activity.
 - In the activity defining process, the project team should review the <ins>**activity list**</ins> and activity attributes with project stakeholders before moving on to the next step in project time management.
 - A(n) <ins>**network diagram**</ins> is a schematic display of the logical relationships among project activities and their sequencing.
-- In a network diagram, a(n) <ins>**nod**</ins> is the starting and ending point of an activity.
+- In a network diagram, a(n) <ins>**node**</ins> is the starting and ending point of an activity.
+- In a(n) <ins>**start-t**</ins> relationship, the "from" activity must start before the "to" activity can be finished.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
