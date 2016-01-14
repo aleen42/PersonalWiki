@@ -794,5 +794,6 @@
 - The <ins>**schedule performance**</ins> index is the ratio of earned value to planned value.
 - The cost performance index can be used to calculate the <ins>**estimate at completion(EAC)**</ins> which gives an approximate cost of completing a project based on performance to date.
 - The International Organization for Standardization (ISO) defines <ins>**quality**</ins> as "the totality of characteristics of an entity that bear on its ability to satisfy stated or implied needs."
+- The term <ins>**fitness **</ins> means a product can be used as it was intended.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
