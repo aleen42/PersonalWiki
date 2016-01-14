@@ -742,6 +742,7 @@
 - <ins>**Scope control**</ins> involves controlling changes to the project scope while keeping project goals and business strategy in mind.
 - <ins>**Variance**</ins> is the difference between planned and actual performance.
 - <ins>**Prototyping**</ins> involves developing a working replica(仿製品) of the system or some aspect of the system.
-- <ins>**Use case modeling**</ins> is a process for identifying and modeling business events, who initiated them, and how the system should respond to them.	
+- <ins>**Use case modeling**</ins> is a process for identifying and modeling business events, who initiated them, and how the system should respond to them.
+- In a project schedule, the variable that has the least amount of flexibility is <ins>**time**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
