@@ -759,6 +759,6 @@
 - Duration estimates can be provided as a discrete number, a range, or as a(n) <ins>**three-point estimate**</ins>.
 - The ultimate goal of developing a realistic project schedule is to provide a basis for monitoring project progress for the <ins>**time**</ins> dimension of the project.
 - A(n) <ins>**tracking**</ins> Gantt chart compares planned and actual project schedule information.
-- 
+- A white diamond on a Tracking Gantt chart represents a(n) <ins>**slipped milestone**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
