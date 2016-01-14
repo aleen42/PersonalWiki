@@ -766,6 +766,6 @@
 - <ins>**Multitasking**</ins> occurs when a resource works on more than one task at a time.
 - <ins>**Murphy's Law**</ins> states that if something can go wrong, it will.
 - The main outputs of <ins>**schedule control**</ins> include work performance measurements, organizational process assets updates, and project document updates.
-- One of the first reality checks on scheduling that a project manager should make is to review the <ins>**draftschedule**</ins>.
+- One of the first reality checks on scheduling that a project manager should make is to review the <ins>**draft schedule**</ins>.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
