@@ -808,6 +808,6 @@
 - <ins>**Statistical diagram(統計圖)**</ins> involves choosing part of a population of interest for inspection.
 - Complete the formula: sample size = 0.25 \* ( <ins>**certainty factor(確信度因子)**</ins> / acceptable error)<sup>2</sup>
 - In the DMAIC process, the letter “C” stands for <ins>**control**</ins>.
-- <ins>**Standard deviaion**</ins> measures how much variation exists in a distribution of data.
+- <ins>**Standard deviation**</ins> measures how much variation exists in a distribution of data.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
