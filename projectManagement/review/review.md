@@ -815,6 +815,6 @@
 - <ins>**Quality circles**</ins> are groups of non-supervisors and work leaders in a single company department who volunteer to conduct group studies on how to improve the effectiveness of work in their department.
 - Genichi Taguchi's <ins>**Robust Design**</ins> methods focus on eliminating(消除) defects by substituting scientific inquiry(追究) for trial-and-error methods.
 - The <ins>**cost of nonconforman**</ins> means taking responsibility for failures or not meeting quality expectations.
-- The <ins>**Software Quality Function Deployment(SQF)**</ins>  model focuses on defining user requirements and planning software projects.
+- The <ins>**Software Quality Function D**</ins>  model focuses on defining user requirements and planning software projects.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
