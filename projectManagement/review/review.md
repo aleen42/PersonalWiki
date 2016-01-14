@@ -750,6 +750,7 @@
 - The <ins>**activity list**</ins> is a tabulation(表格) of activities to be included on a project schedule.
 - The activity list should include the <ins>**activity name**</ins>, an activity identifier, and a brief description of the activity.
 - In the activity defining process, the project team should review the <ins>**activity list**</ins> and activity attributes with project stakeholders before moving on to the next step in project time management.
-- A(n) <ins>**network diagra**</ins> is a schematic display of the logical relationships among project activities and their sequencing.
+- A(n) <ins>**network diagram**</ins> is a schematic display of the logical relationships among project activities and their sequencing.
+- In a network diagram, a(n) <ins>**nod**</ins> is the starting and ending point of an activity.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
