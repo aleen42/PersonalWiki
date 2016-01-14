@@ -811,6 +811,6 @@
 - <ins>**Standard deviation**</ins> measures how much variation exists in a distribution of data.
 - The <ins>**yield(產量)**</ins> represents the number of units handled correctly through the process steps.
 - <ins>**Six 9s of quality**</ins> is a measure of quality control equal to 1 fault in 1 million opportunities.
-- Watts S. Humphrey defines a(n) <ins>**software de**</ins> as anything that must be changed before delivery of the program.
+- Watts S. Humphrey defines a(n) <ins>**software defect(缺陷)**</ins> as anything that must be changed before delivery of the program.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
