@@ -720,6 +720,8 @@
 - <ins>**Integrated change control**</ins> involves identifying, evaluating, and managing changes throughout the project life cycle.
 - A(n) <ins>**Change Control Board**</ins> is a formal group of people responsible for approving or rejecting changes to a project.
 - A category of software that can help align projects with business strategy is called <ins>**Business Service Management**</ins> tools.
-- <ins>**Project scope manageme**</ins> includes the processes involved in defining and controlling what work is or is not included in a project.
+- <ins>**Project scope management**</ins> includes the processes involved in defining and controlling what work is or is not included in a project.
+- <ins>**Scope**</ins> refers to all the work involved in creating the products of the project and the processes used to create them.
+- 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
