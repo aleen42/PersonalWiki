@@ -786,5 +786,6 @@
 - In addition to providing input for budgetary estimates, the process of <ins>**cost budgeting**</ins> provides a cost baseline.
 - A cost management plan is a subsidiary of the <ins>**project management**</ins> plan.
 - <ins>**Earned Value Management**</ins> is a project performance measurement technique that integrates scope, time, and cost data.
+- A(n) <ins>****</ins> is the original project plan plus approved changes.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
