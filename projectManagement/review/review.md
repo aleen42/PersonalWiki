@@ -827,6 +827,6 @@
 - <ins>**Legatimate**</ins> power is getting people to do things based on a position of authority.
 - <ins>**Synergy(協同作用)**</ins> is the concept that the whole is equal to more than the sum of its parts.
 - Covey, like Maslow, believes that people have the ability to be <ins>**proactive(積極主動的)**</ins> and choose their responses to different situations.
-- <ins>**Empathic listennin**</ins> is listening with the intent to understand.
+- <ins>**Empathic listening**</ins> is listening with the intent to understand.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
