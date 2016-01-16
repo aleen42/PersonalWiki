@@ -43,5 +43,5 @@
 - A **network diagram** is a schematic(圖解的) display of the logical relationships among, or sequencing of, project activities.
     - **Arrow Diagramming Method(ADM)**: also called activity-on-arrow(AOA) network diagrams.
         - **Bursts(分開)** occur when a single node is followed by two or more activities.
-        - A merge(匯合) occurs when two or more nodes precede(在...前面) a single node.
+        - A **merge(匯合)** occurs when two or more nodes precede(在...前面) a single node.
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
