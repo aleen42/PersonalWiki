@@ -21,8 +21,11 @@
 
 ### 3. Definitions
 
-- Tangible(有形的) costs or benefits are those costs or benefits that an organization can easily measure in dollars.
-- Intangible costs or benefits are costs or benefits that are difficult to measure in monetary(貨幣的) terms.
-- 
+- **Tangible(有形的) costs** or benefits are those costs or benefits that an organization can easily measure in dollars.
+- **Intangible costs** or benefits are costs or benefits that are difficult to measure in monetary(貨幣的) terms.
+
+
+- **Direct costs** are costs that can be directly related to producing the products and services of the project.
+- **Indirect costs** are costs that are not directly related to the products or services of the project, but are indirectly related to performing the project.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
