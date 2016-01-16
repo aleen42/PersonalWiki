@@ -55,6 +55,11 @@
 - A **histogram** is a bar graph of a distribution of variables.
 - Each bar represents an attribute or characteristic of a problem or situation, and the height of the bar represents its frequency.
 
+### 7. Pareto Charts
+
+- A **Pareto chart** is a histogram that can help you identify and prioritize problem areas.
+- **Pareto analysis** is also called the 80-20 rule, meaning that 80 percent of problems are often due to 20 percent of the causes.
+
 <img src="./histograms.png">
  
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
