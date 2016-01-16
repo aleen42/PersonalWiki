@@ -89,4 +89,7 @@
 - **forward pass**: determines early start and finish dates.
 - **backward pass**: determines late start and finish dates.
 
+<img src="./cpm.png">
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
