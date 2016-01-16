@@ -19,6 +19,7 @@
         - Maintainability
     - Project managers are ultimately(最終) responsible for quality management on their projects.
 2. Performing quality assurance
+    - **Quality assurance** includes all the activities related to satisfying the relevant quality standards for a project。
 3. Performing quality control
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
