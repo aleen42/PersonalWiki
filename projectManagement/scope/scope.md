@@ -14,6 +14,7 @@
     - To use **expert judgment** to develop the scope management plan.
 2. Collect requirements
     - To use **expert judgment** to develop the requirements management plan.
+    - For some IT projects, it is helpful to divide requirements development into categories called elicitation(抽出), analysis, specification, and validation.
 3. Define scope
 4. Create WBS
 5. Validate scope
