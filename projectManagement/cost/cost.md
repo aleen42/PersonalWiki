@@ -18,6 +18,7 @@
 - **Profit margin(利润率)** is the ratio of revenues to profits.
 - **Life cycle costing** considers the total cost of ownership, or development plus support costs, for a project.
 - **Cash flow analysis** determines the estimated annual costs and benefits for a project and the resulting annual cash flow.
+- **Learning curve theory** states that when many items are produced repetitively, the unit cost of those items decreases in a regular pattern as more units are produced.
 
 ### 3. Definitions
 
