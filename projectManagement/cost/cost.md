@@ -19,4 +19,9 @@
 - **Life cycle costing** considers the total cost of ownership, or development plus support costs, for a project.
 - **Cash flow analysis** determines the estimated annual costs and benefits for a project and the resulting annual cash flow.
 
+### 3. Definitions
+
+- Tangible(有形的) costs or benefits are those costs or benefits that an organization can easily measure in dollars.
+- 
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
