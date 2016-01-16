@@ -15,7 +15,7 @@
         - Frequency of communication
         - Escalation(升級) procedures for resolving issues
         - Revision procedures for updating the communications management plan
-        - A glossary(詞匯表 of common terminology(術語)
+        - A glossary(詞匯表) of common terminology(術語)
 2. Managing communications
     - Determining the number of communications channels:
         - channels = n(n-1) / 2
