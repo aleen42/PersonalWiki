@@ -31,4 +31,8 @@
 
 <img src="./correct.png">
 
+### 3. Approaches to develope WBS
+
+- **analog approach(類比法)**: Review WBSs of similar projects and tailor to(適應) your project
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
