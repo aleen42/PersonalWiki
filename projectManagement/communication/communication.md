@@ -12,6 +12,9 @@
 
 ### 2. Understanding Group and Individual Communication Needs
 
-- As illustrated in Brooks’ book The Mythical Man-Month(人月神話), you cannot assume that a task originally scheduled to take two months of one person’s time can be done in one month by two people
+- As illustrated in Brooks’ book The Mythical Man-Month(人月神話), you cannot assume that a task originally scheduled to take two months of one person’s time can be done in one month by two people.
+- Nine women cannot produce a baby in one month!
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
