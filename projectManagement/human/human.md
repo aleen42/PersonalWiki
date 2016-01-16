@@ -18,6 +18,9 @@
 
 <img src="./maslow_hierarchy.png">
 
-- 
+### 4. Herzberg's Motivational and Hygiene Factors
+
+- **motivational factors**: achievement, recognition, the work itself, responsibility, advancement, and growth, which produce job satisfaction.
+- **hygiene(健康) factors**: cause dissatisfaction if not present, but do not motivate workers to do more.  Examples include larger salaries, more supervision, and a more attractive work environment.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
