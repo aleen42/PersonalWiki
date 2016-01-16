@@ -18,7 +18,9 @@
 3. Sequencing activities
     - A **dependency** or **relationship** is the sequencing of project activities or tasks.
     - 3 types of dependencies:
-        - **Mandatory dependencies(強制性依賴關係)**: inherent(固有的) in the nature of the work being performed on a project, sometimes referred to as hard logic
+        - **Mandatory dependencies(強制性依賴關係)**: inherent(固有的) in the nature of the work being performed on a project, sometimes referred to as hard logic.
+        - **Discretionary dependencies(自由依賴關係)**: defined by the project team,  sometimes referred to as soft logic and should be used with care since they may limit later scheduling options.
+        - **External dependencies**: involve relationships between project and non-project activities
 4. Estimating activity resources
 5. Estimating activity duration
 6. Developing the schedule
