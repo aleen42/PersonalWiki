@@ -10,7 +10,7 @@
         - Contents include:
             - project organizational charts
             - staffing management plan
-            - responsibility assignment matrixes
+            - responsibility assignment matrixes(RAM)
             - resource histograms
 2. Acquiring the project team
     - **Empathic(神入的) listening** is listening with the intent to understand.
