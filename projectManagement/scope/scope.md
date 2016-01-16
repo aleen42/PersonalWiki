@@ -1,4 +1,4 @@
-## Project Integration Management	[Back](./../projectManagement.md)
+## Project Scope Management	[Back](./../projectManagement.md)
 
 ### 1. Processes
 
