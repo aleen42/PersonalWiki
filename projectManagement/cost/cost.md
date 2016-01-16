@@ -10,8 +10,12 @@
 1. Planning cost management
     - To use expert judgment, analytical techniques, and meetings to develop the cost management plan.
 2. Estimating costs
-    - 
+    - types
+        - **Rough Order of Magnitude(ROM)**: often **3~5 years** before.
+        - **Budgetary**: often **1~2 years** before.
+        - **Definitive**: often less than **1 year**.
 3. Determining the budget
+    
 4. Controlling costs
 
 ### 2. Basic Principles of Cost Management
