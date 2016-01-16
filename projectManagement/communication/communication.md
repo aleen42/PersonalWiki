@@ -30,8 +30,15 @@
 - As illustrated in Brooks’ book The Mythical Man-Month(人月神話), you cannot assume that a task originally scheduled to take two months of one person’s time can be done in one month by two people.
 - Nine women cannot produce a baby in one month!
 
+### 3. Running Effective Meetings
 
-
-
+- Determine if a meeting can be avoided
+- Define the purpose and intended outcome of the meeting
+- Determine who should attend the meeting
+- Provide an **agenda(議程)** to participants before the meeting
+- Prepare handout(會議文字資料) and visual aids, and make logistical arrangements(後勤安排) ahead of time
+- Run the meeting professionally
+- Set the ground rules(基本原則) for the meeting
+- Build relationships
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
