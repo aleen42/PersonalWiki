@@ -7,6 +7,7 @@
 * [**Project Scope Management**](./scope/scope.md)
 * [**Project Time Management**](./time/time.md)
 * [**Project Cost Management**](./cost/cost.md)
+* [**Project Quality Management**](./quality/quality.md)
 * [**Review**](./review/review.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
