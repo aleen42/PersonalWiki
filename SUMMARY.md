@@ -222,6 +222,7 @@
         * [Project Time Management](./projectManagement/time/time.md)
         * [Project Cost Management](./projectManagement/cost/cost.md)
         * [Project Quality Management](./projectManagement/quality/quality.md)
+        * [Project Human Resource Management](./projectManagement/human/human.md)
         * [Review](./projectManagement/review/review.md)
     * [Multimedia](./Multimedia/Multimedia.md)
     * [Git](./git/git.md)
