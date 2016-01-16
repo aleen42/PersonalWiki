@@ -21,6 +21,8 @@
     - **Project scope statements** should include at least a product scope description, product user acceptance criteria(用戶接受標準), and detailed information on all project deliverables.  <img src="./project_scope_statements.png">
 4. Create WBS
     - A **Work breakdown structure(WBS)** is a deliverable-oriented grouping of the work involved in a project that defines the total scope of the project.
+    - **Decomposition(分解)** is subdividing(細分) project deliverables into smaller pieces.
+    - A **work package(工作包)** is a task at the lowest level of the WBS.
 5. Validate scope
 6. Control scope
 
