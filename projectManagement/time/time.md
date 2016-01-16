@@ -27,6 +27,7 @@
 5. Estimating activity duration
     - **Duration** includes the actual amount of time worked on an activity plus elapsed(流逝的) time.
     - **Effort** is the number of workdays or work hours required to complete a task.
+    - **Three-point estimates** are needed for PERT and Monte Carlo simulations(蒙特卡洛模擬).
 6. Developing the schedule
 7. Controlling the schedule
 
