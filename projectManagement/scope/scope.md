@@ -15,6 +15,7 @@
 2. Collect requirements
     - To use **expert judgment** to develop the requirements management plan.
     - For some IT projects, it is helpful to divide requirements development into categories called elicitation(抽出), analysis, specification, and validation.
+    - It is important to use an iterative(迭代的) approach to defining requirements since they are often unclear early in a project.
 3. Define scope
 4. Create WBS
 5. Validate scope
