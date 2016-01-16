@@ -26,6 +26,15 @@
 
 ### 2. Cause-and-Effect Diagrams
 
-- **Cause-and-effect diagrams** trace complaints about quality problems back to the responsible production operations. (Also called **fisbone diagrams** or **Ishikawa diagrams**)
+- **Cause-and-effect diagrams** trace complaints about quality problems back to the responsible production operations. (Also called **fishbone diagrams** or **Ishikawa diagrams**)
+
+<img src="./cause_and_effect_diagrams.png">
+
+### 3. Quality Control Charts
+
+- A **control chart** is a graphic display of data that illustrates the results of a process over time.
+- The main purpose of using control charts is to prevet defects(缺陷) rather than to detect or reject them.
+
+<img src="./quality_control_charts.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
