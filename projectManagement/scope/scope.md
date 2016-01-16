@@ -33,6 +33,8 @@
 
 ### 3. Approaches to develope WBS
 
-- **analog approach(類比法)**: Review WBSs of similar projects and tailor to(適應) your project
+- **analog approach(類比法)**: Review WBSs of similar projects and tailor to(適應) your project.
+- **top-down approach(自上而下法)**: Start with the largest items of the project and break them down.
+- **bottom-up approach(自底向上法)**: Start with the specific tasks and roll them up.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
