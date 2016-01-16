@@ -1,5 +1,7 @@
 ## Project Communication Management	[Back](./../projectManagement.md)
 
+<img src="./communication_today.png">
+
 ### 1. Processes
 
 <img src="./processes.png">
