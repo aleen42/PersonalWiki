@@ -5,6 +5,14 @@
 <img src="./processes.png">
 
 1. Planning schedule management
+    - A schedule management plan includes:
+        - Project schedule model development
+        - The scheduling methodology
+        - Level of Accuracy and units of measure
+        - Control thresholds(臨界值)
+        - Rules of performance measurement
+        - Reporting formats
+        - Process descriptions
 2. Defining activities
 3. Sequencing activities
 4. Estimating activity resources
