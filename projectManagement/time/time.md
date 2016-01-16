@@ -103,6 +103,13 @@
 - a **project buffer** or additional time added before the project's due date.
 - **feeding buffers** or additional time added before tasks on the critical path.
 
+### 10. Program Evaluation and Review Technique(PERT)
+
+- **PERT** is a network analysis technique used to estimate project duration when there is a high degree of uncertainty about the individual activity duration estimates.
+- PERT weighted average:
+    - PERT weighted average = (optimistic time + 4 * most likely time + pessimistic time) / 6
+
+
 <img src="./critical_chain.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
