@@ -43,6 +43,9 @@
 - **Direct costs** are costs that can be directly related to producing the products and services of the project.
 - **Indirect costs** are costs that are not directly related to the products or services of the project, but are indirectly related to performing the project.
 
+
+- **Sunk cost(沉沒成本)** is money that has been spent in the past. (When deciding what projects to invest in or continue, you should not include sunk costs)
+
 ### 4. Measured Values
 
 - **Earned Value Management(EVM)** is a project performance measurement technique that integrates scope, time, and cost data.
@@ -51,6 +54,6 @@
 - **Earned value(EV)**, formerly called the budgeted cost of work performed(BCWP), is an estimate of the value of the physical work actually completed.
 
 
-- **Sunk cost(沉沒成本)** is money that has been spent in the past. (When deciding what projects to invest in or continue, you should not include sunk costs)
+- **Rate of performance(RP)** is the ratio of actual work completed to the percentage of work planned to have been completed at any given time during the life of the project or activity.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
