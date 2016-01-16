@@ -17,7 +17,7 @@
     - Tools:
         - **Analogous** or **top-down estimates**: use the actual cost of a previous, similar project as the basis for estimating the cost of the current project.
         - **Bottom-up estimates**: involve estimating individual work items or activities and summing them to get a project total.
-        - **Parametric modeling(參數化建模)** uses project characteristics (parameters) in a mathematical model to estimate project costs 
+        - **Parametric modeling(參數化建模)** uses project characteristics (parameters) in a mathematical model to estimate project costs. 
 3. Determining the budget
     
 4. Controlling costs
