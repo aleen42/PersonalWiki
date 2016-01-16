@@ -64,6 +64,10 @@
 
 <img src="./pareto_charts.png">
 
+### 8. Flowcharts
 
+- **Flowcharts** are graphic displays of the logic and flow of processes that help you analyze how problems occur and how processes can be improved.
+
+<img src="./flowcharts.png">
  
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
