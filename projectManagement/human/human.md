@@ -9,4 +9,9 @@
 3. Developing the project team
 4. Managing the project team
 
+### 2. Intrinsic and Extrinsic Motivation
+
+- **Intrinsic(內在的) motivation** causes people to participate in an activity for their own enjoyment.
+- 
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
