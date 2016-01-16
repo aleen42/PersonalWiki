@@ -6,6 +6,8 @@
 
 1. Planning human resource management
 2. Acquiring the project team
+    - **Empathic(神入的) listening** is listening with the intent to understand.
+    - **Rapport** is a relation of harmony, conformity(遵從), accord(一致), or affinity(喜好) and is important for communication.
 3. Developing the project team
 4. Managing the project team
 
