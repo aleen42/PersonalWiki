@@ -44,4 +44,13 @@
     - **Arrow Diagramming Method(ADM)**: also called activity-on-arrow(AOA) network diagrams.
         - **Bursts(分開)** occur when a single node is followed by two or more activities.
         - A **merge(匯合)** occurs when two or more nodes precede(在...前面) a single node.
+    - **Precedence Diagramming Method(PDM)**: activities are represented by boxes while relationships are represented by arrows.
+
+### 5. Task Dependency Types
+
+- **finish-to-start**(A finish-to-start B): B cannot start until A finishes.
+- **start-to-start**(A start-to-start B): B cannot start until A starts
+- **finsh-to-finish**(A finsh-to-finish B): B cannot finish until A finishes.
+- **start-to-finish**(A start-to-finish B): B cannot finish until A starts.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
