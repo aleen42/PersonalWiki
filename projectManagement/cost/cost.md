@@ -59,6 +59,6 @@
 <img src="./ev_formulas.jpg">
 
 - rules:
-    - CPI(EV/AC) and SPI(EV/PV) less than 100% indicate problems.
+    - CPI(EV/AC) and SPI(EV/PV) less than 100% indicate problems. (Problems mean the project is costing more than planned (**over budget**) or taking longer than planned (**behind schedule**)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
