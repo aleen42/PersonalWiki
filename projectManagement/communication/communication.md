@@ -41,4 +41,8 @@
 - Set the ground rules(基本原則) for the meeting
 - Build relationships
 
+### 4. Lessons Learned(經驗總結) Reports
+
+- The project manager and project team members should each prepare a **lessons-learned report**.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
