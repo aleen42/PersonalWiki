@@ -5,6 +5,13 @@
 <img src="./processes.png">
 
 1. Planning human resource management
+    - Developing the Human Resource Plan
+        - Involves identifying and documenting project roles, responsibilities, and reporting relationships.
+        - Contents include:
+            - project organizational charts
+            - staffing management plan
+            - responsibility assignment matrixes
+            - resource histograms
 2. Acquiring the project team
     - **Empathic(神入的) listening** is listening with the intent to understand.
     - **Rapport** is a relation of harmony, conformity(遵從), accord(一致), or affinity(喜好) and is important for communication.
