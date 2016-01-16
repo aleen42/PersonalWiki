@@ -17,6 +17,6 @@
 - **Profits** are revenues(收入) minus expenditures(支出).
 - **Profit margin(利润率)** is the ratio of revenues to profits.
 - **Life cycle costing** considers the total cost of ownership, or development plus support costs, for a project.
-- 
+- **Cash flow analysis** determines the estimated annual costs and benefits for a project and the resulting annual cash flow.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
