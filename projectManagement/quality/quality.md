@@ -20,6 +20,8 @@
     - Project managers are ultimately(最終) responsible for quality management on their projects.
 2. Performing quality assurance
     - **Quality assurance** includes all the activities related to satisfying the relevant quality standards for a project.
+    - **Benchmarking(基準)** generates ideas for quality improvements by comparing specific project practices or product characteristics to those of other projects or products within or outside the performing organization.
+    - A **quality audit** is a structured review of specific quality management activities that help identify lessons learned that could improve performance on current or future projects.
 3. Performing quality control
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
