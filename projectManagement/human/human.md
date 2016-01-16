@@ -35,5 +35,6 @@
 
 - **Theory X**: assumes workers dislike and avoid work, so managers must use coercion(脅迫), threats and various control schemes to get workers to meet objectives.
 - **Theory Y**: assumes individuals consider work as natural as play or rest and enjoy the satisfaction of esteem(尊重) and self-actualization needs.
+- **Theory Z**: introduced in 1981 by William Ouchi and is based on the Japanese approach to motivating workers, emphasizing trust, quality, collective decision making, and cultural values.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
