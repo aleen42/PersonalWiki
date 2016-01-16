@@ -85,4 +85,7 @@
 - **System testing** tests the entire system as one entity.
 - **User acceptance testing** is an independent test performed by end users prior to accepting the delivered system.
 
+
+- Watts S. Humphrey, a renowned expert on software quality, defines a **software defect** as anything that must be changed before delivery of the program.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
