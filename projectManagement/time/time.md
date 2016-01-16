@@ -16,6 +16,7 @@
 2. Defining activities
     - An **activity** or **task** is an element of work normally found on the work breakdown structure (WBS) that has an expected duration, a cost, and resource requirements
 3. Sequencing activities
+    - A **dependency** or **relationship** is the sequencing of project activities or tasks.
 4. Estimating activity resources
 5. Estimating activity duration
 6. Developing the schedule
