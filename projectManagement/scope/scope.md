@@ -36,6 +36,8 @@
 - **Analog approach(類比法)**: Review WBSs of similar projects and tailor to(適應) your project.
 - **Top-down approach(自上而下法)**: Start with the largest items of the project and break them down.
 - **Bottom-up approach(自底向上法)**: Start with the specific tasks and roll them up.
-- **Mind-mapping approach**: a technique that uses branches radiating out(分流) from a core idea to structure thoughts and ideas
+- **Mind-mapping approach**: a technique that uses branches radiating out(分流) from a core idea to structure thoughts and ideas.
+
+### 4. 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
