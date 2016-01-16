@@ -20,6 +20,8 @@
 
 ### 4. Herzberg's Motivational and Hygiene Factors
 
+<img src="./herzberg.png">
+
 - **motivational factors**: achievement, recognition, the work itself, responsibility, advancement, and growth, which produce job satisfaction.
 - **hygiene(健康) factors**: cause dissatisfaction if not present, but do not motivate workers to do more.  Examples include larger salaries, more supervision, and a more attractive work environment.
 
