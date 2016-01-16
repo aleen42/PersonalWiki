@@ -23,7 +23,7 @@
 
 ### 2. Activity Lists and Attributes
 
-- An activity list is a tabulation(表格) of activities to be included on a project schedule that includes:
+- An **activity list** is a tabulation(表格) of activities to be included on a project schedule that includes:
     - the activity name
     - an activity identifier or number
     - a brief description of the activity
