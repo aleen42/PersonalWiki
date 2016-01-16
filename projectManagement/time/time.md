@@ -47,6 +47,12 @@
 ### 3. Milestones
 
 - A **milestone** is a significant event that normally has no duration.
+- Milestones should be 'SMART':
+    - Specific
+    - Mesuarable
+    - Assignable
+    - Realistic
+    - Time-framed(時間有限的)
 
 ### 4. Network Diagrams
 
