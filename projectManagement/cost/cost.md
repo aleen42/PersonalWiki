@@ -1,4 +1,4 @@
-## Project Scope Management	[Back](./../projectManagement.md)
+## Project Cost Management	[Back](./../projectManagement.md)
 
 ### 1. 
 
