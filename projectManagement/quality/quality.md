@@ -74,6 +74,10 @@
 
 - A **run chart** displays the history and pattern of variation of a process over time. 
 
-<img src="./
+<img src="./run_charts.png">
+
+### 10. Testing
+
+<img src="./testing.jpg">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
