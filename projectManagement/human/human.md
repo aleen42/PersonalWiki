@@ -33,6 +33,7 @@
 
 ### 6. McGregor's Theory X and Y
 
-
+- **Theory X**: assumes workers dislike and avoid work, so managers must use coercion(脅迫), threats and various control schemes to get workers to meet objectives.
+- **Theory Y**: assumes individuals consider work as natural as play or rest and enjoy the satisfaction of esteem(尊重) and self-actualization needs.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
