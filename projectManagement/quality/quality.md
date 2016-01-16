@@ -33,8 +33,14 @@
 ### 3. Quality Control Charts
 
 - A **control chart** is a graphic display of data that illustrates the results of a process over time.
-- The main purpose of using control charts is to prevet defects(缺陷) rather than to detect or reject them.
+- The main purpose of using control charts is to prevent defects(缺陷) rather than to detect or reject them.
 
 <img src="./quality_control_charts.png">
+
+### 4. Checksheet
+
+- A **checksheet** is used to collect and analyze data. (Also called **tally sheet** or **checklist**)
+
+<img src="./checksheet.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
