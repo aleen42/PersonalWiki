@@ -65,8 +65,4 @@
     
 <img src="./evc.png">
 
-### 5. Portfolio Management
-
-
-
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
