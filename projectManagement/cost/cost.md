@@ -14,6 +14,7 @@
 
 ### 2. Basic Principles of Cost Management
 
-- **Profits** are revenues(收入) minus expenditures(支出)
+- **Profits** are revenues(收入) minus expenditures(支出).
+- **Profit margin(利润率)** is the ratio of revenues to profi
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
