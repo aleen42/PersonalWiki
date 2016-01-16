@@ -11,7 +11,7 @@
             - project organizational charts
             - staffing management plan
             - responsibility assignment matrixes(RAM)
-                - A **responsibility assignment matrix (RAM)** is a matrix that maps the work of the project as described in the **WBS** to the people responsible for performing the work as described in the **OBS**. 
+                - A **responsibility assignment matrix (RAM)** is a matrix that maps the work of the project as described in the **WBS** to the people responsible for performing the work as described in the **OBS**. <img src="./ram.png">
             - resource histograms
 2. Acquiring the project team
     - **Empathic(神入的) listening** is listening with the intent to understand.
