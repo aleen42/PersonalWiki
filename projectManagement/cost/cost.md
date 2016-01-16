@@ -15,6 +15,8 @@
 ### 2. Basic Principles of Cost Management
 
 - **Profits** are revenues(收入) minus expenditures(支出).
-- **Profit margin(利润率)** is the ratio of revenues to profi
+- **Profit margin(利润率)** is the ratio of revenues to profits.
+- **Life cycle costing** considers the total cost of ownership, or development plus support costs, for a project.
+- 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
