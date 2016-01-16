@@ -39,6 +39,8 @@
 
 ### 7. Thamhain and Wilemon's Influence and Power
 
-<img src="./influce_and_power.png"
+<img src="./influce_and_power.png">
+
+### 8. Convey's 7 habits
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
