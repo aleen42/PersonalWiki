@@ -17,6 +17,7 @@
         - Performance
         - Reliability
         - Maintainability
+    - Project managers are ultimately(最終) responsible for quality management on their projects.
 2. Performing quality assurance
 3. Performing quality control
 
