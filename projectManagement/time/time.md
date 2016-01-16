@@ -22,6 +22,8 @@
         - **Discretionary dependencies(自由依賴關係)**: defined by the project team,  sometimes referred to as soft logic and should be used with care since they may limit later scheduling options.
         - **External dependencies**: involve relationships between project and non-project activities.
 4. Estimating activity resources
+    - **resources**: people, equipment, and materials.
+    - A **resource breakdown structure** is a hierarchical(分層的) structure that identifies the project's resources by category and type
 5. Estimating activity duration
 6. Developing the schedule
 7. Controlling the schedule
