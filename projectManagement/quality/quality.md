@@ -10,6 +10,13 @@
 <img src="./processes.png">
 
 1. Planning quality management
+    - Scope Aspects of IT Projects:
+        - Functionality
+        - Features
+        - System outputs
+        - Performance
+        - Reliability
+        - Maintainability
 2. Performing quality assurance
 3. Performing quality control
 
