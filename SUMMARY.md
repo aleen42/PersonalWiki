@@ -219,6 +219,7 @@
         * [Process Groups](./projectManagement/processGroups/processGroups.md)
         * [Project Integration Management](./projectManagement/integration/integration.md)
         * [Project Scope Management](./projectManagement/scope/scope.md)
+        * [Project Time Management](./projectManagement/time/time.md)
         * [Review](./projectManagement/review/review.md)
     * [Multimedia](./Multimedia/Multimedia.md)
     * [Git](./git/git.md)
