@@ -70,6 +70,11 @@
 
 <img src="./conflict_handling_model.png">
 
-
+- **Confrontation(對抗)**: Directly face a conflict using a problem-solving approach
+- **Compromise(妥協)**: Use a give-and-take approach
+- **Smoothing**: De-emphasize areas of difference and emphasize areas of agreement
+- **Forcing**: The win-lose approach
+- **Withdrawal**: Retreat or withdraw from an actual or potential disagreement
+- **Collaborating**: Decision makers incorporate different  viewpoints and insights to develop consensus and commitment
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
