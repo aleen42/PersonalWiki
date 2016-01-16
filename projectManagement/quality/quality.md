@@ -7,6 +7,10 @@
 
 ### 1. Processes
 
+<img src="./processes.png">
 
+1. Planning quality management
+2. Performing quality assurance
+3. Performing quality control
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
