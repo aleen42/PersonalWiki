@@ -45,7 +45,7 @@
 
 ### 4. Measured Values
 
-- **Earned Value Management(EVM)** is a project performance measurement technique that integrates scope, time, and cost data
+- **Earned Value Management(EVM)** is a project performance measurement technique that integrates scope, time, and cost data.
 
 
 - **Sunk cost(沉沒成本)** is money that has been spent in the past. (When deciding what projects to invest in or continue, you should not include sunk costs)
