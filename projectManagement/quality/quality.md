@@ -80,4 +80,9 @@
 
 <img src="./testing.jpg">
 
+- **Unit testing** tests each individual component (often a program) to ensure it is as defect-free as possible.
+- **Integration testing** occurs between unit and system testing to test functionally grouped components.
+- **System testing** tests the entire system as one entity.
+- **User acceptance testing** is an independent test performed by end users prior to accepting the delivered system.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
