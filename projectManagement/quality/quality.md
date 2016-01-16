@@ -24,4 +24,8 @@
     - A **quality audit** is a structured review of specific quality management activities that help identify lessons learned that could improve performance on current or future projects.
 3. Performing quality control
 
+### 2. Cause-and-Effect Diagrams
+
+- **Cause-and-effect diagrams** trace complaints about quality problems back to the responsible production operations. (Also called **fisbone diagrams** or **Ishikawa diagrams**)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
