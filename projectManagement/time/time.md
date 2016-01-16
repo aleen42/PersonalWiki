@@ -21,4 +21,12 @@
 6. Developing the schedule
 7. Controlling the schedule
 
+### 2. Activity Lists and Attributes
+
+- An activity list is a tabulation(表格) of activities to be included on a project schedule that includes:
+    - the activity name
+    - an activity identifier or number
+    - a brief description of the activity
+- **Activity attributes** provide more information such as predecessors(前人), successors(繼承人), logical relationships, leads and lags(落後時間), resource requirements, constraints, imposed(強制的) dates, and assumptions related to the activity
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
