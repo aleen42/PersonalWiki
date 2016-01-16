@@ -63,4 +63,8 @@
 - **finsh-to-finish**(A finsh-to-finish B): B cannot finish until A finishes.
 - **start-to-finish**(A start-to-finish B): B cannot finish until A starts.
 
+### 6. Gantt Charts
+
+- **Gantt charts** provide a standard format for displaying project schedule information by listing project activities and their corresponding start and finish dates in a calendar format.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
