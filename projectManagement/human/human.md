@@ -28,6 +28,11 @@
 ### 5. McClelland's Acquired-Needs Theory
 
 - **Achievement(nAch)**: Achievers like challenging projects with achievable goals and lots of feedback.
-- Affiliation(nAff, 加入):  People with high nAff desire harmonious（和谐的） relationships and need to feel accepted by others, so managers should try to create a cooperative work environment for them.
+- **Affiliation(nAff, 加入)**: People with high nAff desire harmonious relationships and need to feel accepted by others, so managers should try to create a cooperative work environment for them.
+- **Power(nPow)**: People with a need for power desire either personal power (not good) or institutional(機構的) power (good for the organization).  Provide institutional power seekers with management opportunities.
+
+### 6. McGregor's Theory X and Y
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
