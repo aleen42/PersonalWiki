@@ -23,6 +23,7 @@
     - A **Work breakdown structure(WBS)** is a deliverable-oriented grouping of the work involved in a project that defines the total scope of the project.
     - **Decomposition(分解)** is subdividing(細分) project deliverables into smaller pieces.
     - A **work package(工作包)** is a task at the lowest level of the WBS.
+    - The **scope baseline** includes the approved project scope statement and its associated WBS and WBS dictionary.
 5. Validate scope
 6. Control scope
 
