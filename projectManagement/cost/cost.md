@@ -48,7 +48,7 @@
 - **Earned Value Management(EVM)** is a project performance measurement technique that integrates scope, time, and cost data.
 - **Planned value(PV)**, formerly called the budgeted cost of work scheduled(BCWS), also called the budget, is that portion of the approved total cost estimate planned to be spent on an activity during a given period.
 - **Actual cost(AC)**, formerly called actual cost of work performed(ACWP), is the total of direct and indirect costs incurred in accomplishing work on an activity during a given period.
-- **Earned value(EV)**, formerly called the budgeted cost of work performed(BCWP), is an estimate of the value of the physical work actually completed
+- **Earned value(EV)**, formerly called the budgeted cost of work performed(BCWP), is an estimate of the value of the physical work actually completed.
 
 
 - **Sunk cost(沉沒成本)** is money that has been spent in the past. (When deciding what projects to invest in or continue, you should not include sunk costs)
