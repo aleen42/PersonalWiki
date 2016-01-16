@@ -12,6 +12,12 @@
 ### 2. Intrinsic and Extrinsic Motivation
 
 - **Intrinsic(內在的) motivation** causes people to participate in an activity for their own enjoyment.
-- **Extrinsic(外在 ) motivation** causes people to do something for a reward or to avoid a penalty.
+- **Extrinsic(外在的) motivation** causes people to do something for a reward or to avoid a penalty.
+
+### 3. Maslow's Hierarchy of Needs
+
+<img src="./maslow_hierarchy.png">
+
+- 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
