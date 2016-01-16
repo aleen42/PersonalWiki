@@ -10,6 +10,11 @@
 
 <img src="./processes.png">
 
-
+1. Plan scope management
+2. Collect requirements
+3. Define scope
+4. Create WBS
+5. Validate scope
+6. Control scope
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
