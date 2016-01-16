@@ -38,8 +38,12 @@
 - **Bottom-up approach(自底向上法)**: Start with the specific tasks and roll them up.
 - **Mind-mapping approach**: a technique that uses branches radiating out(分流) from a core idea to structure thoughts and ideas.
 
-### 4. WBS Dictionary and Scope Baseline
+### 4. WBS Dictionary
 
 - A **WBS dictionary** is a document that describes detailed information about each WBS item.
+
+<img src="./wbs_dictionary.jpg">
+
+- 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
