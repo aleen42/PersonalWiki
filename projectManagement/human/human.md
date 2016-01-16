@@ -13,7 +13,7 @@
             - responsibility assignment matrixes(RAM)
                 - A **responsibility assignment matrix (RAM)** is a matrix that maps the work of the project as described in the **WBS** to the people responsible for performing the work as described in the **OBS**. <img src="./ram.png">
             - resource histograms
-            - RACI charts <img src="./raci.png">
+            - RACI charts <img src=". <img src="./raci.png">
                 - R: responsibility
                 - A: accountability(責任)
                 - C: consultation(諮詢)
