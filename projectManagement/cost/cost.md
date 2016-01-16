@@ -8,7 +8,9 @@
 <img src="./processes.png">
 
 1. Planning cost management
+    - To use expert judgment, analytical techniques, and meetings to develop the cost management plan.
 2. Estimating costs
+    - 
 3. Determining the budget
 4. Controlling costs
 
