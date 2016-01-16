@@ -45,4 +45,8 @@
 
 - The project manager and project team members should each prepare a **lessons-learned report**.
 
+### 5. Project Archives(檔案)
+
+- **Project archives** are a complete set of organized project records that provide an accurate history of the project.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
