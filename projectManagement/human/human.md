@@ -75,6 +75,6 @@
 - **Smoothing**: De-emphasize areas of difference and emphasize areas of agreement
 - **Forcing**: The win-lose approach
 - **Withdrawal**: Retreat or withdraw from an actual or potential disagreement
-- **Collaborating**: Decision makers incorporate different  viewpoints and insights to develop consensus and commitment
+- **Collaborating**: Decision makers incorporate different  viewpoints and insights to develop consensus( 共識) and commitment
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
