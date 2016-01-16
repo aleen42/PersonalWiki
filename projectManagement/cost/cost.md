@@ -10,10 +10,14 @@
 1. Planning cost management
     - To use expert judgment, analytical techniques, and meetings to develop the cost management plan.
 2. Estimating costs
-    - types
+    - Types:
         - **Rough Order of Magnitude(ROM)**: often **3~5 years** before.
         - **Budgetary**: often **1~2 years** before.
         - **Definitive**: often less than **1 year**.
+    - Tools:
+        - **Analogous** or **top-down estimates**: use the actual cost of a previous, similar project as the basis for estimating the cost of the current project.
+        - **Bottom-up estimates**: involve estimating individual work items or activities and summing them to get a project total.
+        - **Parametric modeling(參數化建模)** uses project characteristics (parameters) in a mathematical model to estimate project costs 
 3. Determining the budget
     
 4. Controlling costs
