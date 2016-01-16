@@ -25,6 +25,7 @@
     - A **work package(工作包)** is a task at the lowest level of the WBS.
     - The **scope baseline** includes the approved project scope statement and its associated WBS and WBS dictionary.
 5. Validate scope
+    - **Scope validation** involves formal acceptance of the completed project deliverables. (Acceptance is often achieved by a customer inspection and then sign-off on key deliverables)
 6. Control scope
 
 ### 2. Cost of correcting
