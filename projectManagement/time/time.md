@@ -97,4 +97,12 @@
 - **Multitasking** occurs when a resource works on more than one task at a time.
 - **Murphy's Law** states that if something can go wrong, it will.
 
+### 9. ritical Chain
+
+- a method of scheduling that considers limited resources when creating a project schedule and includes buffers to protect the project completion date.
+- a **project buffer** or additional time added before the project's due date.
+- **feeding buffers** or additional time added before tasks on the critical path.
+
+<img src="./critical_chain.png">
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
