@@ -41,6 +41,8 @@
 
 <img src="./influce_and_power.png">
 
-### 8. Convey's 7 habits
+### 8. Convey's 7 Habits
+
+<img src="./convery_7_habits.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
