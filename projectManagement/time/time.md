@@ -40,6 +40,6 @@
 
 ### 4. Network Diagrams
 
-- A **network diagram** is a schematic(圖解的) display of the logical relationships among, or sequencing of, project activities
+- A **network diagram** is a schematic(圖解的) display of the logical relationships among, or sequencing of, project activities.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
