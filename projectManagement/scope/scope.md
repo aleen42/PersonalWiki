@@ -11,7 +11,9 @@
 <img src="./processes.png">
 
 1. Plan scope management
+    - To use **expert judgment** to develop the scope management plan.
 2. Collect requirements
+    - To use **expert judgment** to develop the requirements management plan.
 3. Define scope
 4. Create WBS
 5. Validate scope
