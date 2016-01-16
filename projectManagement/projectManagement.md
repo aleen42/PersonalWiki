@@ -6,6 +6,7 @@
 * [**Project Integration Management**](./integration/integration.md)
 * [**Project Scope Management**](./scope/scope.md)
 * [**Project Time Management**](./time/time.md)
+* [**Project Cost Management**](./cost/cost.md)
 * [**Review**](./review/review.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
