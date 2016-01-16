@@ -18,7 +18,7 @@
     - It is important to use an iterative(迭代的) approach to defining requirements since they are often unclear early in a project.
     - A **requirements traceability matrix (RTM, 需求追溯模型)** is a table that lists requirements, various attributes of each requirement, and the status of the requirements to ensure that all requirements are addressed. <img src="./rtm.png">
 3. Define scope
-    - **Project scope statements** should include at least a product scope description, product user acceptance criteria(用戶接受標準), and detailed information on all project deliverables. 
+    - **Project scope statements** should include at least a product scope description, product user acceptance criteria(用戶接受標準), and detailed information on all project deliverables.  <img src="./project_scope_statements.png">
 4. Create WBS
 5. Validate scope
 6. Control scope
