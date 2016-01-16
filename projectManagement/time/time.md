@@ -85,5 +85,6 @@
 ### 7. Critical Path Method(CPM)
 
 - **CPM** is a network diagramming technique used to predict total project duration. A **critical path** for a project is the series of activities that determines the **earliest** time by which the project can be. completed.
+- **Slack(鬆弛)** or **float** is the amount of time an activity may be delayed without delaying a succeeding activity or the project finish date
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
