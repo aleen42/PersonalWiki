@@ -9,7 +9,7 @@
 
 1. Planning cost management
     - To use expert judgment, analytical techniques, and meetings to develop the cost management plan.
-2. Estimating costs
+2. Estimating costs <img src="./cost_estimate.png"> <img src="./software_development_estimate.png">
     - Types:
         - **Rough Order of Magnitude(ROM)**: often **3~5 years** before.
         - **Budgetary**: often **1~2 years** before.
