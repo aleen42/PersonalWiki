@@ -17,6 +17,8 @@
     - An **activity** or **task** is an element of work normally found on the work breakdown structure (WBS) that has an expected duration, a cost, and resource requirements
 3. Sequencing activities
     - A **dependency** or **relationship** is the sequencing of project activities or tasks.
+    - 3 types of dependencies:
+        - **Mandatory dependencies(強制性依賴關係)**: inherent(固有的) in the nature of the work being performed on a project, sometimes referred to as hard logic
 4. Estimating activity resources
 5. Estimating activity duration
 6. Developing the schedule
