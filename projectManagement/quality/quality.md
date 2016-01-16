@@ -92,6 +92,16 @@
 
 - **Maturity models** are frameworks for helping organizations improve their processes and systems.
     - The **Software Quality Function Deployment Model** focuses on defining user requirements and planning software projects.
-    - The Software Engineering Institute's **Capability Maturity Model Integration** is a process improvement approach that provides organizations with the essential elements of effective processes
+    - The Software Engineering Institute's **Capability Maturity Model Integration** is a process improvement approach that provides organizations with the essential elements of effective processes.
+
+### 12. CMMI Levels
+
+- **CMMI Levels** is a formal standard to identify the quality of a software companies.
+    - 0: Incomplete
+    - 1: Performed
+    - 2: Maged
+    - 3: Defined
+    - 4: Quantitatively Managed
+    - 5: Optimizing
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
