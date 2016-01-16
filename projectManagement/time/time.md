@@ -107,7 +107,7 @@
 
 - **PERT** is a network analysis technique used to estimate project duration when there is a high degree of uncertainty about the individual activity duration estimates.
 - PERT weighted average:
-    - PERT weighted average = (optimistic time + 4 * most likely time + pessimistic time) / 6
+    - PERT weighted average = (**optimistic time** + 4 * **most likely time** + **pessimistic time**) / 6
 
 
 <img src="./critical_chain.png">
