@@ -62,5 +62,7 @@
     - CPI(EV/AC) and SPI(EV/PV) less than 100% indicate problems. (Problems mean the project is costing more than planned (**over budget**) or taking longer than planned (**behind schedule**)
     - the **Estimate At Completion(EAC)** is an estimate of what it will cost to complete the project based on performance to date.
     - the **Budget At Completion(BAC)** is the original total budget for the project.
+    
+<img src="./evc.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
