@@ -1,4 +1,4 @@
-## Project Cost Management	[Back](./../projectManagement.md)
+## Project Quality Management	[Back](./../projectManagement.md)
 
 ### 1. Processes
 
