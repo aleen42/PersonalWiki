@@ -27,6 +27,8 @@
 5. Validate scope
     - **Scope validation** involves formal acceptance of the completed project deliverables. (Acceptance is often achieved by a customer inspection and then sign-off on key deliverables)
 6. Control scope
+    - Scope control involves controlling changes to the project scope.
+    - **Variance** is the difference between planned and actual performance.
 
 ### 2. Cost of correcting
 
