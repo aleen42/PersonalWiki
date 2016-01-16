@@ -71,11 +71,15 @@
 
 ### 6. Gantt Charts
 
-- **Gantt charts** provide a standard format for displaying project schedule information by listing project activities and their corresponding start and finish dates in a calendar format.
+- **Gantt Charts** provide a standard format for displaying project schedule information by listing project activities and their corresponding start and finish dates in a calendar format.
 - Symbols:
     - a black diamond(◆): a milestone
     - a thick black bar: a summary task
     - a lighter horizontal bar: durations of tasks
     - an arrow: dependencies between tasks
+- Symbols of **Tracking Gantt Charts**
+    - a black horizontal bar: actual dates.
+    - a lighter horizontal bar: planned dates.
+    - a hollow(空心) diamond(◇): a slipped milesto
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
