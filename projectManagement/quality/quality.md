@@ -48,5 +48,6 @@
 - A **scatter diagram** helps to show if there is a relationship between two variables.
 - The closer data points are to a diagonal line(对角线), the more closely the two variables are related.
 
+<img src="./scatter_diagrams.png">
  
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
