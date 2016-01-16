@@ -8,6 +8,10 @@
 
 1. Planning communications management
 2. Managing communications
-3. Controlling communicatio
+3. Controlling communications
+
+### 2. Understanding Group and Individual Communication Needs
+
+- As illustrated in Brooks’ book The Mythical Man-Month(人月神話), you cannot assume that a task originally scheduled to take two months of one person’s time can be done in one month by two people
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
