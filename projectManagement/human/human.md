@@ -13,11 +13,11 @@
             - responsibility assignment matrixes(RAM)
                 - A **responsibility assignment matrix (RAM)** is a matrix that maps the work of the project as described in the **WBS** to the people responsible for performing the work as described in the **OBS**. <img src="./ram.png">
             - resource histograms
-            - RACI charts <img src=". <img src="./raci.png">
+            - RACI charts <img src="./raci_charts.png"> <img src="./raci.png">
                 - R: responsibility
                 - A: accountability(責任)
                 - C: consultation(諮詢)
-                - I: informed()
+                - I: informed
 2. Acquiring the project team
     - **Empathic(神入的) listening** is listening with the intent to understand.
     - **Rapport** is a relation of harmony, conformity(遵從), accord(一致), or affinity(喜好) and is important for communication.
