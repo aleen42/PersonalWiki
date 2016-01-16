@@ -49,5 +49,12 @@
 - The closer data points are to a diagonal line(对角线), the more closely the two variables are related.
 
 <img src="./scatter_diagrams.png">
+
+### 6. Histograms
+
+- A **histogram** is a bar graph of a distribution of variables.
+- Each bar represents an attribute or characteristic of a problem or situation, and the height of the bar represents its frequency.
+
+<img src="./histograms.png">
  
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
