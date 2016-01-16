@@ -28,4 +28,7 @@
 - **Direct costs** are costs that can be directly related to producing the products and services of the project.
 - **Indirect costs** are costs that are not directly related to the products or services of the project, but are indirectly related to performing the project.
 
+
+- **Sunk cost(沉沒成本)** is money that has been spent in the past. (When deciding what projects to invest in or continue, you should not include sunk costs)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
