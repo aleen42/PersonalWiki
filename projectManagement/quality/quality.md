@@ -90,6 +90,8 @@
 
 ### 11. Maturity Models
 
-- **Maturity models** are frameworks for helping organizations improve their processes and systems
+- **Maturity models** are frameworks for helping organizations improve their processes and systems.
+    - The **Software Quality Function Deployment Model** focuses on defining user requirements and planning software projects.
+    - The Software Engineering Institute's **Capability Maturity Model Integration** is a process improvement approach that provides organizations with the essential elements of effective processes
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
