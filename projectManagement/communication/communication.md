@@ -19,6 +19,10 @@
 2. Managing communications
     - Determining the number of communications channels:
         - channels = n(n-1) / 2
+    - Classifications for communication methods:
+        - Interactive communication
+        - Push communication
+        - Pull communication
 3. Controlling communications
 
 ### 2. Understanding Group and Individual Communication Needs
