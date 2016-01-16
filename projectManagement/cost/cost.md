@@ -65,4 +65,13 @@
     
 <img src="./evc.png">
 
+### 5. Portfolio Management
+
+- Five levels for project portfolio management:
+    - Put all your projects in one database
+    - Prioritize the projects in your database
+    - Divide your projects into two or three budgets based on type of investment
+    - Automate the repository
+    - Apply modern portfolio theory, including risk-return tools that map project risk on a curve(曲線)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
