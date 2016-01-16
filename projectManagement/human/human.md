@@ -25,4 +25,9 @@
 - **motivational factors**: achievement, recognition, the work itself, responsibility, advancement, and growth, which produce job satisfaction.
 - **hygiene(健康) factors**: cause dissatisfaction if not present, but do not motivate workers to do more.  Examples include larger salaries, more supervision, and a more attractive work environment.
 
+### 5. McClelland's Acquired-Needs Theory
+
+- **Achievement(nAch)**: Achievers like challenging projects with achievable goals and lots of feedback.
+- Affiliation(nAff, 加入):  People with high nAff desire harmonious（和谐的） relationships and need to feel accepted by others, so managers should try to create a cooperative work environment for them.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
