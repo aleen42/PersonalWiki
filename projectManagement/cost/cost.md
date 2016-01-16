@@ -19,7 +19,8 @@
         - **Bottom-up estimates**: involve estimating individual work items or activities and summing them to get a project total.
         - **Parametric modeling(參數化建模)** uses project characteristics (parameters) in a mathematical model to estimate project costs. 
 3. Determining the budget
-    
+    - Cost budgeting involves allocating the project cost estimate to individual work items over time.
+    - The **WBS** is a required input to the cost budgeting process since it defines the work items to produce a **cost baseline**. <img src="./cost_baseline.png">
 4. Controlling costs
 
 ### 2. Basic Principles of Cost Management
