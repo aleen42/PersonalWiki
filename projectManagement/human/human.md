@@ -26,7 +26,7 @@
 2. Acquiring the project team
     - **Resource loading** refers to the amount of individual resources an existing schedule requires during specific time periods.
     - **Overallocation** means more resources than are available are assigned to perform work at a given time.
-    - **Resource leveling** is a technique for resolving resource conflicts by delaying tasks.
+    - **Resource leveling** is a technique for resolving resource conflicts by delaying tasks. <img src="./resource_leveling.png">
 3. Developing the project team
 4. Managing the project team
 
