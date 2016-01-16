@@ -41,5 +41,6 @@
 ### 4. Network Diagrams
 
 - A **network diagram** is a schematic(圖解的) display of the logical relationships among, or sequencing of, project activities.
-
+    - **Arrow Diagramming Method(ADM)**: also called activity-on-arrow(AOA) network diagrams.
+        - **Bursts(分開)** occur when a single node is followed by two or more activities.
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
