@@ -10,6 +10,10 @@
 1. Planning cost management
 2. Estimating costs
 3. Determining the budget
-4. Controlling cost
+4. Controlling costs
+
+### 2. Basic Principles of Cost Management
+
+- **Profits** are revenues(收入) minus expenditures(支出)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
