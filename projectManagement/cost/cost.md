@@ -7,4 +7,9 @@
 
 <img src="./processes.png">
 
+1. Planning cost management
+2. Estimating costs
+3. Determining the budget
+4. Controlling cost
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
