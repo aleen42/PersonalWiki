@@ -10,7 +10,7 @@
         - Contents include:
             - project organizational charts
             - staffing management plan
-                - A **staffing management plan** describes when and how people will be added to and taken off the project team
+                - A **staffing management plan** describes when and how people will be added to and taken off the project team.
             - responsibility assignment matrixes(RAM)
                 - A **responsibility assignment matrix (RAM)** is a matrix that maps the work of the project as described in the **WBS** to the people responsible for performing the work as described in the **OBS**. <img src="./ram.png">
             - resource histograms
