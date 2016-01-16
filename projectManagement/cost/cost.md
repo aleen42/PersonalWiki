@@ -56,4 +56,6 @@
 
 - **Rate of performance(RP)** is the ratio of actual work completed to the percentage of work planned to have been completed at any given time during the life of the project or activity.
 
+<img src="./ev_formulas.jpg">
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
