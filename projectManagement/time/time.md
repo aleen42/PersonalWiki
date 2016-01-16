@@ -86,10 +86,15 @@
 
 - **CPM** is a network diagramming technique used to predict total project duration. A **critical path** for a project is the series of activities that determines the **earliest** time by which the project can be. completed.
 - **Slack(鬆弛)** or **float** is the amount of time an activity may be delayed without delaying a succeeding activity or the project finish date.
-- **forward pass**: determines early start and finish dates.
-- **backward pass**: determines late start and finish dates.
+- **Forward pass**: determines early start and finish dates.
+- **Backward pass**: determines late start and finish dates.
 
 <img src="./cpm.png">
 
+### 8. Definities
+
+- The **Theory of Constraints** is based on the fact that any complex system at any point in time often has only one aspect or constraint that limits its ability to achieve more of its goal.
+- **Multitasking** occurs when a resource works on more than one task at a time.
+- **Murphy's Law** states that if something can go wrong, it will.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
