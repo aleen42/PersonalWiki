@@ -100,7 +100,7 @@
     - 0: Incomplete
     - 1: Performed
     - 2: Maged
-    - 3: Defined
+    - 3: Defined (**government projects baseline**)
     - 4: Quantitatively Managed
     - 5: Optimizing
 
