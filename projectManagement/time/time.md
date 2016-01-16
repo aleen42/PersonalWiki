@@ -29,6 +29,11 @@
     - **Effort** is the number of workdays or work hours required to complete a task.
     - **Three-point estimates** are needed for PERT and Monte Carlo simulations(蒙特卡洛模擬).
 6. Developing the schedule
+    - tools:
+        - **Gantt Charts**
+        - **Critical Path Analysis**
+        - **Critical Chain Scheduling**
+        - **PERT Analysis**
 7. Controlling the schedule
 
 ### 2. Activity Lists and Attributes
