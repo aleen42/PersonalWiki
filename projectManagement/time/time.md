@@ -26,6 +26,7 @@
     - A **resource breakdown structure** is a hierarchical(分層的) structure that identifies the project's resources by category and type.
 5. Estimating activity duration
     - **Duration** includes the actual amount of time worked on an activity plus elapsed(流逝的) time.
+    - **Effort** is the number of workdays or work hours required to complete a task.
 6. Developing the schedule
 7. Controlling the schedule
 
