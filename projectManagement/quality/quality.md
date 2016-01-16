@@ -69,5 +69,11 @@
 - **Flowcharts** are graphic displays of the logic and flow of processes that help you analyze how problems occur and how processes can be improved.
 
 <img src="./flowcharts.png">
- 
+
+### 9. Run Charts
+
+- A **run chart** displays the history and pattern of variation of a process over time. 
+
+<img src="./
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
