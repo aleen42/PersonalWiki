@@ -571,7 +571,7 @@
 - Managers who believe in Theory Y assume that workers dislike and avoid work if possible, so managers must use coercion, threats, and various control schemes to get workers to make adequate efforts to meet objectives.
 
 > *<strong>wrong reason</strong>: it's Theory X but not Y*
-Y·
+
 - Assignment, budget, promotion, money, and penalty influence bases are automatically available to project managers as part of their position.
 
 > *<strong>wrong reason</strong>: they are not automatically available*
