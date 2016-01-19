@@ -98,4 +98,10 @@
 
 > answer: <strong>*Yes.*</strong>
 
+- Which of the following tools can best hep in efficient communication management?
+    - Kick-off meetings
+    - Requests for quotes
+    - Impact matrices
+    - Fast tracking
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
