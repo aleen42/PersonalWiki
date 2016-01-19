@@ -131,10 +131,10 @@
 > answer: <strong>*PMI.*</strong>
 
 - Which of the following refers to a set of principles that guides decision making based on personal values of what is considered right and wrong?
-    - PMS
-    - PMI
-    - PMC
-    - PMP
+    - Ethics
+    - Civics
+    - Laws
+    - Politics
 
 > answer: <strong>*PMI.*</strong>
 
