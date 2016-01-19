@@ -90,7 +90,6 @@
 
 > answer: <strong>*Projects are temporary endeavors whereas an organization's operations are ongoing in nature.*</strong>
 
-
 - Which project management knowledge areas is an overarching function that affects and is affected by the different knowledge areas?
 
 > answer: <strong>*Project Integration Management*</strong>
