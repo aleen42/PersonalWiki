@@ -118,4 +118,8 @@
 
 > answer: <strong>*Project environment knowledge.*</strong>
 
+- Which is the organizational group responsible for coordinating the project management function throughout an organization?
+
+> answer: <strong>*Project Management Office.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
