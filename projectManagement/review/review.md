@@ -859,10 +859,4 @@
 - A(n) <ins>**SharePoint portal(企業內部溝通平臺)**</ins> allows users to create custom Web sites to access documents and applications stored on shared devices.
 - Microsoft Office Enterprise Project Management Solution has a(n) <ins>**portfolio management**</ins> tool that provides a centralized and consolidated view of programs and projects.
 
-#### 3. Options
-
-- Which of the following is a difference between projects and operations?
-
-> **Answer:** *Porojects are temporary endeavors whereas an organization's operations a ongoing in n*
-
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
