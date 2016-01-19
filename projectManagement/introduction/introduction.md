@@ -110,4 +110,11 @@
 
 > answer: <strong>*Project management addresses specific short-term goals whereas portfolio management focuses on long-term goals.*</strong>
 
+- Martha works as a project manager at a bank. Due to certain changes in external factors, Martha needs to make a few alterations in the tactical goals of her project. In such a scenario, which of the following will best help Martha cope with the change?
+    - Negotiation
+    - Project environment knowledge
+    - Motivation
+    - Soft skills 
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
