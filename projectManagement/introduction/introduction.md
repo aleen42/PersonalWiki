@@ -94,4 +94,8 @@
 
 > answer: <strong>*Project Integration Management*</strong>
 
+- Is checklist a tool used in quality management?
+
+> answer: <strong>*Yes.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
