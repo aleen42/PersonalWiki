@@ -114,7 +114,8 @@
     - Negotiation
     - Project environment knowledge
     - Motivation
-    - Soft skills 
+    - Soft skills
 
+> answer: <strong>*Project environment knowledge.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
