@@ -130,7 +130,7 @@
 
 > answer: <strong>*PMI.*</strong>
 
-- Which of the following provides certification as a Project Management Professional?
+- Which of the following refers to a set of principles that guides decision making based on personal values of what is considered right and wrong?
     - PMS
     - PMI
     - PMC
