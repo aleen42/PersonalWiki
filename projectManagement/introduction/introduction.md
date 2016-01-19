@@ -84,4 +84,10 @@
 - Execution
 - Tools and infrastructure(基礎設施)
 
+### 6. Q&A
+
+- Which of the following is a difference between projects and operations?
+
+> answer: *Projects are temporary endeavors whereas an organization's operations are ongoing in nature.*
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
