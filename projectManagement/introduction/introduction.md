@@ -88,11 +88,11 @@
 
 - What is the difference between projects and operations?
 
-> answer: *Projects are temporary endeavors whereas an organization's operations are ongoing in nature.*
+> answer: <strong>*Projects are temporary endeavors whereas an organization's operations are ongoing in nature.*</strong>
 
 
 - Which project management knowledge areas is an overarching function that affects and is affected by the different knowledge areas?
 
-> answer: *Project Integration Management*
+> answer: <strong>*Project Integration Management*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
