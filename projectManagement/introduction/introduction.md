@@ -122,4 +122,12 @@
 
 > answer: <strong>*Project Management Office.*</strong>
 
+- Which of the following provides certification as a Project Management Professional?
+    - PMS
+    - PMI
+    - PMC
+    - PMP
+
+> answer: <strong>*PMI.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
