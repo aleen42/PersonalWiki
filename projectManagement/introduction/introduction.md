@@ -106,4 +106,8 @@
 
 > answer: <strong>*Kick-off meetings.*</strong>
 
+- What is the difference between project management and portfolio management?
+
+> answer: <strong>*Project management addresses specific short-term goals whereas portfolio management focuses on long-term goals.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
