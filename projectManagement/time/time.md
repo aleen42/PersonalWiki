@@ -130,4 +130,12 @@
 
 > answer: <strong>*Defining activities.*</strong>
 
+- Which of the following documents is most likely to include planned project start and end dates which serve as the starting points for a detailed schedule?
+    - Resource breakdown structure
+    - Organizational process assets update
+    - Milestones list
+    - Project charter
+
+> answer: <strong>*Defining activities.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
