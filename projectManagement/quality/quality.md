@@ -106,11 +106,11 @@
 
 ### 13. Q&A
 
-- Which of the following is an input of the process of controlling costs?
-    - Cost forecasts
-    - Change requests
-    - Work performance data
-    - Scope baseline
+- What is a standard of measurement in quality management.
+    - milestone
+    - merge
+    - metric
+    - matrix
 
 > answer: <strong>*Work performance data.*</strong>
 
