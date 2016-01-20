@@ -754,7 +754,7 @@
 - In a network diagram, a(n) <ins>**node**</ins> is the starting and ending point of an activity.
 - In a(n) <ins>**start-to-finish**</ins> relationship, the "from" activity must start before the "to" activity can be finished.
 - <ins>**Dummy activities**</ins> have no duration and no resources but are occasionally needed on AOA network diagrams to show logical relationships between activities.
-- A hierarchical structure that identifies the project's resources by category and type is known as a(n) <ins>**Resources Breakdown Structure**</ins>.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>A hierarchical structure that identifies the project's resources by category and type is known as a(n) <ins>**Resources Breakdown Structure**</ins>.
 - <ins>**Effort**</ins> is the number of workdays or work hours required to complete a task.
 - Duration estimates can be provided as a discrete number, a range, or as a(n) <ins>**three-point estimate**</ins>.
 - The ultimate goal of developing a realistic project schedule is to provide a basis for monitoring project progress for the <ins>**time**</ins> dimension of the project.
