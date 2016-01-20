@@ -806,7 +806,7 @@
 - <ins>**Fishbone**</ins> diagrams trace complaints about quality problems back to the responsible production operations.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>In a <ins>**scatter diagram(散落圖)**</ins>, the closer data points are to a diagonal line, the more closely the two variables are related.
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Statistical diagram(統計圖)**</ins> involves choosing part of a population of interest for inspection.
-- Complete the formula: sample size = 0.25 \* ( <ins>**certainty factor(確信度因子)**</ins> / acceptable error)<sup>2</sup>
+- <font style="color: #a10000;"><strong>(marked)</strong></font>Complete the formula: sample size = 0.25 \* ( <ins>**certainty factor(確信度因子)**</ins> / acceptable error)<sup>2</sup>
 - In the DMAIC process, the letter “C” stands for <ins>**control**</ins>.
 - <ins>**Standard deviation**</ins> measures how much variation exists in a distribution of data.
 - The <ins>**yield(產量)**</ins> represents the number of units handled correctly through the process steps.
