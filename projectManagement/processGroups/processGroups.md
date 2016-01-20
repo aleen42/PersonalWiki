@@ -105,4 +105,12 @@
 
 > answer: <strong>*initiating.*</strong>
 
+- The project integration management knowledge area maps to the which process group through the activities of developing project charters?
+    - initiating
+    - executing
+    - planning
+    - monitoring and controlling
+
+> answer: <strong>*initiating.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
