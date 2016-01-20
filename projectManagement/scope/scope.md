@@ -49,12 +49,13 @@
 
 ### 5 Q&A
 
-- What involves identifying and controlling the functional and physical design characteristics of products and their support documentation, and ensures that the descriptions of the project's products are correct and complete.
-    - NPV analysis
-    - Configuration management
-    - Project management information systems
-    - Project time management
+- What involves defining and documenting the features and functions of the products produced during the project as well as the processes used for creating them?
+    - Collecting requirements
+    - Controlling scope
+    - Defining scope
+    - Validating scope
 
-> answer: <strong>*Configuration management.*</strong>
+
+> answer: <strong>*Collecting requirements.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
