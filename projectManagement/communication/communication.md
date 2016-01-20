@@ -59,4 +59,12 @@
 
 > answer: <strong>*executing.*</strong>
 
+- As a manager, you want to praise a team member, Phil, for doing a good job on a particular project. However, you know that Phil tends to be an introvert. Which of the following communication methods would Phil be most comfortable with?
+    - Call Phil in for a private meeting to appreciate his work.
+    - Announce Phil's accomplishment on the company Web site.
+    - Call a team meeting to praise Phil for his work on the project.
+    - Have top management and the other teams in the company award Phil.
+
+> answer: <strong>*Call Phil in for a private meeting to appreciate his work.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
