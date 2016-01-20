@@ -141,6 +141,14 @@
     - achievement
     - self-actualization
     
+> answer: <strong>*authority.*</strong>
+
+- According to Thamhain and Wilemon, what is the ability to improve a worker's position?
+    - penalty
+    - expertise
+    - assignment
+    - promotion
+    
 > answer: <strong>*authorit.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
