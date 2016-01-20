@@ -202,4 +202,12 @@
 
 > answer: <strong>*normal distribution*</strong>
 
+- What is a measure of quality control equal to 1 fault in 1 million opportunities problems.
+    - ISO 9000
+    - seven run rule
+    - six 9s of quality rule
+    - Six Sigma rule
+
+> answer: <strong>*six 9s of quality rule*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
