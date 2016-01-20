@@ -218,4 +218,12 @@
 
 > answer: <strong>*Eliminate the annual rating or merit system.*</strong>
 
+- One of Juran’s ten steps to quality improvement states that:
+    - an organization should minimize top management involvement in the achievement of individual employee goals.
+    - an organization should build awareness of the need and opportunity for improvement.
+    - an organization should entrust improvement to individual employees rather than appointing teams or facilitators.
+    - an organization should avoid “keeping score” in order to achieve an overall atmosphere of quality improvement.
+
+> answer: <strong>*Eliminate the annual rating or merit system.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
