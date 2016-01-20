@@ -88,13 +88,14 @@
 
 ### 6. Q&A
 
-- Which of the following is a disadvantage of virtual teams as compared to traditional teams?
-    - Increased costs for office space and support
-    - Limited flexibility in team working hours
-    - Reduced opportunities for informal transfer of information
-    - Reduced dependence on technology and processes for accomplishing work
+- Which processes include devising and maintaining a workable scheme to ensure that the project addresses the organization's needs?
+    - Initiating
+    - Executing
+    - Planning
+    - Monitoring and controlling
 
-> answer: <strong>*Reduced opportunities for informal transfer of information.*</strong>
+
+> answer: <strong>*Planning.*</strong>
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
