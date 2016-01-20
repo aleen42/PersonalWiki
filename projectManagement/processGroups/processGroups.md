@@ -121,12 +121,12 @@
 
 > answer: <strong>*RUP.*</strong>
 
-- What is an iterative software development process that focuses on team productivity and delivers software best practices to all team members?
-    - Agile Unified Process
-    - Rational Unified Process
-    - Dynamic Systems Development Method
-    - Six Sigma
+- One of the main outputs of the initiation process is what?
+    - creating the work breakdown structure
+    - developing the project charter
+    - selecting the project manager
+    - identifying the project sponsor
 
-> answer: <strong>*RUP.*</strong>
+> answer: <strong>*developing the project charter.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
