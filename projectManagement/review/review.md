@@ -771,7 +771,7 @@
 - The additional percentage or dollar amount by which actual costs exceed estimates is known as a(n) <ins>**overrun**</ins>.
 - The main output of the planning cost management process is a(n) <ins>**cost management plan**</ins>.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>The main outputs of the <ins>**cost estimating**</ins> process are activity cost estimates, basis of estimates, and project document updates.
-- The main outputs of the <ins>**cost budgeting**</ins> process are a cost performance baseline, project funding requirements, and project document updates.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The main outputs of the <ins>**cost budgeting**</ins> process are a cost performance baseline, project funding requirements, and project document updates.
 - <ins>**Profits**</ins> are revenues(總收入) minus expenditures(開銷).
 - <ins>**Life cycle**</ins> costing helps to see a big-picture view of the cost of a project throughout its life cycle.
 - <ins>**Life cycle**</ins> costing considers the total cost of ownership, or development plus support costs, for a project.
