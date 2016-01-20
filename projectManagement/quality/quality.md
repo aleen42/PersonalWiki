@@ -242,4 +242,12 @@
 
 > answer: <strong>*Appraisal cost.*</strong>
 
+- What is a cost that relates to all errors not detected and not corrected before delivery to the customer?
+    - Prevention cost
+    - Internal failure cost
+    - Appraisal cost
+    - External failure cost
+
+> answer: <strong>*External failure cost.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
