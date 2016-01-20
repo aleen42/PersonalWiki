@@ -105,12 +105,12 @@
 
 > answer: <strong>*initiating.*</strong>
 
-- The project cost management knowledge area maps to the which process group through the activities of estimating costs and budget determination?
-    - initiating
-    - executing
-    - planning
-    - monitoring and controlling
+- What is an iterative software development process that focuses on team productivity and delivers software best practices to all team members?
+    - Agile Unified Process
+    - Rational Unified Process
+    - Dynamic Systems Development Method
+    - Six Sigma
 
-> answer: <strong>*planni.*</strong>
+> answer: <strong>*RUP.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
