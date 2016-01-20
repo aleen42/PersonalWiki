@@ -77,4 +77,14 @@
             <img src="./payback_period.png">
     - using a weighted scoring model <img src="./weighted_scoring_model.png">
 
+### 4. Q&A
+
+- The improvement of  the product and process in the Scrum method is discussed at the what?
+    - sprint reflection meeting
+    - kick-off meeting
+    - sprint review meeting
+    - daily Scrum meeting
+
+> answer: <strong>*sprint reflection meeting.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
