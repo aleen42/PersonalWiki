@@ -90,4 +90,12 @@
 
 > answer: <strong>*scope statement.*</strong>
 
+- What refers to the process of developing a working replica of the system or some aspect of the system?
+    - Prototyping
+    - Decomposition
+    - Variance
+    - Use case modeling
+
+> answer: <strong>*Prototyping.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
