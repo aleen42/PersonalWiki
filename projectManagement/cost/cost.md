@@ -106,6 +106,6 @@
     - They are also known as parametric estimating.
     - They are time-intensive and expensive to develop.
 
-> answer: <strong>*They allow for future situations that can be partially planned for.*</strong>
+> answer: <strong>*They are time-intensive and expensive to develop.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
