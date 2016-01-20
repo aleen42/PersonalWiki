@@ -170,4 +170,12 @@
 
 > answer: <strong>*Project documents update.*</strong>
 
+- Which of the following is one of the main outputs of estimating activity resources process?
+    - Project documents update
+    - Work breakdown structure
+    - Milestone list
+    - Activity duration estimate
+
+> answer: <strong>*Project documents update.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
