@@ -657,7 +657,7 @@
 - The <ins>**portfolio project management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
 - (marked) Soft skills are also known as <ins>**human relations**</ins> skills.
 - The critical path is the <ins>**longest**</ins> path through a network diagram that determines the earliest completion of a project.
-- The  <ins>**Project Management Insititude**</ins> is an international professional society for project managers founded in 1969. > (marked)
+- (marked) The  <ins>**Project Management Insititude**</ins> is an international professional society for project managers founded in 1969.
 - Passing the CPA exam is a standard for accountants. Similarly, passing the PMP exam is becoming a standard for <ins>**project managers**</ins>.
 - (marked) Ethics is a set of principles that guides decision making based on <ins>**personal values**</ins> of what is considered right and wrong.
 - (marked) <ins>**Midrange**</ins> tools, a step up from low-end tools, are designed to handle larger projects, multiple users, and multiple projects.
