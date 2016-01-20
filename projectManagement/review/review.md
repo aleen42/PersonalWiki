@@ -712,7 +712,7 @@
 - <ins>**ROI**</ins> is the result of subtracting the project costs from the benefits and then dividing by the costs.
 - The <ins>**internal rateof return**</ins> is the discount rate that results in an NPV of zero for a project.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**weighted scoring model**</ins> is a tool that provides a systematic process for selecting projects based on many criteria.
-- A(n) <ins>**balanced scorecard**</ins>  is a methodology that converts value drivers, such as customer service, innovation, operational efficiency, and financial performance, to a series of defined metrics.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**balanced scorecard**</ins>  is a methodology that converts value drivers, such as customer service, innovation, operational efficiency, and financial performance, to a series of defined metrics.
 - <ins>**Enterprise environmental**</ins> factors include relevant government or industry standards, the organization's infrastructure, and marketplace conditions.
 - <ins>**Organizational process assets**</ins> include formal and informal plans, policies, procedures, guidelines, information systems, financial systems, management systems, lessons learned, and historical information that can be used to influence a project's success.
 - <ins>**Monitoring**</ins> project work includes collecting, measuring, and disseminating performance information.
