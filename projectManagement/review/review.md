@@ -839,7 +839,7 @@
 - In the DISC profile, the letter "S" represents <ins>**steadiness(始終不一)**</ins>.
 - According to Blake and Mouton, project managers who use the <ins>**withdrawal**</ins> mode retreat(撤退) from an actual or potential disagreement.
 - Many experts agree that the greatest threat to the success of any project, especially information technology projects, is a failure to <ins>**communicate**</ins>.
-- The outputs of the <ins>**planning coummunication management**</ins> process are communications management plan and project documents updates.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The outputs of the <ins>**planning coummunication management**</ins> process are communications management plan and project documents updates.
 - <ins>**Controlling communications**</ins> monitoring and controlling project communications to ensure that stakeholder communication needs are met.
 - <ins>**Language barriers**</ins> can create communication problems; words may have different meanings in different languages.
 - Project managers should try to <ins>**limit**</ins> the size of teams or sub teams to avoid making communications too complex.
