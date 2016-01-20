@@ -67,4 +67,12 @@
 
 > answer: <strong>*Call Phil in for a private meeting to appreciate his work.*</strong>
 
+- Which of the following communication methods would be most appropriate for assessing the commitment of project stakeholders?
+    - Wikis
+    - Web sites
+    - E-mail
+    - Meetings
+    
+> answer: <strong>*Call Phil in for a private meeting to appreciate his work.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
