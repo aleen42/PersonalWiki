@@ -168,6 +168,6 @@
     - Pareto charts
     - Tracking Gantt charts
 
-> answer: <strong>*control chart.*</strong>
+> answer: <strong>*Control charts.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
