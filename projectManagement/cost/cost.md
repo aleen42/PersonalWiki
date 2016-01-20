@@ -74,4 +74,14 @@
     - Automate the repository
     - Apply modern portfolio theory, including risk-return tools that map project risk on a curve(曲線)
 
+### 6. Q&A
+
+- Work performance information and cost forecasts are main outputs of the which process?
+    - cost budgeting
+    - cost control
+    - cost estimating
+    - cost pricing
+
+> answer: <strong>*cost control.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
