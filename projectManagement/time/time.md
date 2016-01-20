@@ -138,4 +138,12 @@
 
 > answer: <strong>*Project charter.*</strong>
 
+- In project time management, the main goal of what is to ensure that the project team has complete understanding of all the work they must do as part of the project scope so they can start scheduling the work.
+    - defining activities
+    - estimating activity resources
+    - estimating activity durations
+    - controlling the schedule
+
+> answer: <strong>*defining activities.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
