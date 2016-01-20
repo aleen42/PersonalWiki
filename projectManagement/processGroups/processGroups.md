@@ -86,4 +86,15 @@
     - **Sprint Backlog**: the highest-priority items from the product backlog to be completed within a sprint. <img src="./sprint_backlog.png">
     - **Burndown Chart(竣工情況圖)**: a chart to show the work situation within in a sprint on a day-by-day basis. <img src="./burndown_chart.jpg">
 
+### 6. Q&A
+
+- Which of the following is a disadvantage of virtual teams as compared to traditional teams?
+    - Increased costs for office space and support
+    - Limited flexibility in team working hours
+    - Reduced opportunities for informal transfer of information
+    - Reduced dependence on technology and processes for accomplishing work
+
+> answer: <strong>*Reduced opportunities for informal transfer of information.*</strong>
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
