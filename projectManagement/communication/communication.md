@@ -75,4 +75,12 @@
     
 > answer: <strong>*Meetings.*</strong>
 
+- According to the guidelines provided by Practical Communications, Inc., what is a medium that is "excellent" for encouraging creative thinking?
+    - phone call
+    - meeting
+    - e-mail
+    - Web Site
+    
+> answer: <strong>*e-mail.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
