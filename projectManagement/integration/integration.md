@@ -127,4 +127,12 @@
 
 > answer: <strong>*the project objective, high-level requirements, and time and cost goals.*</strong>
 
+- Which of the following is a proactive process undertaken to reduce the probability of negative consequences associated with project risks?
+    - Performance reports
+    - Defect repairs
+    - Preventive actions
+    - Corrective actions
+
+> answer: <strong>*Preventive action.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
