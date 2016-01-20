@@ -149,7 +149,6 @@
     - Project management information systems
     - Project time management
 
-
-> answer: <strong>*a corrective action.*</strong>
+> answer: <strong>*Configuration management.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
