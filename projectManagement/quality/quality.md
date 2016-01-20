@@ -130,4 +130,13 @@
 
 > answer: <strong>*Features.*</strong>
 
+- What generates ideas for quality improvements by comparing specific project practices or product characteristics to those of other projects or products within or outside the performing organization?
+    - Prototyping
+    - Mind mapping
+    - Systems thinking
+    - Benchmarking
+
+> answer: <strong>*Benchmarking.*</strong>
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
