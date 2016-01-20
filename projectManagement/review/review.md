@@ -829,8 +829,8 @@
 - Covey, like Maslow, believes that people have the ability to be <ins>**proactive(積極主動的)**</ins> and choose their responses to different situations.
 - <ins>**Empathic(神入的) listening**</ins> is listening with the intent to understand.
 - <ins>**Rapport(融洽)**</ins> is a relation of harmony, conformity(遵從), accord(一致), or affinity(喜好) and is important for communication.
-- <ins>**Deputy(副) project managers**</ins> fill in for project managers in their absence(缺席) and assist them as needed.
-- A(n) <ins>**request for proposal**</ins> or draft contract often provides the basis for defining and finalizing work requirements.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Deputy(副) project managers**</ins> fill in for project managers in their absence(缺席) and assist them as needed.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**request for proposal**</ins> or draft contract often provides the basis for defining and finalizing work requirements.
 - The <ins>**responsibility assignment matrix(RAM)**</ins> allocates work to responsible and performing organizations, teams, or individuals, depending on the desired level of detail.
 - A(n) <ins>**Organization Breakdown Structure(OBS)**</ins> is a specific type of organizational chart that shows which organizational units are responsible for which work items.
 - <ins>**Overallocation(資源過度分配)**</ins> means more resources than are available are assigned to perform work at a given time.
