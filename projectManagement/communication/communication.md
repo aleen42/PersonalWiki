@@ -49,4 +49,14 @@
 
 - **Project archives** are a complete set of organized project records that provide an accurate history of the project.
 
+### 6. Q&A
+
+- Managing communications is part of the which process of the project communication management?
+    - closing
+    - planning
+    - executing
+    - monitoring and controlling
+
+> answer: <strong>*executing.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
