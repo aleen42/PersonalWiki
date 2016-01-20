@@ -95,4 +95,12 @@
 
 > answer: <strong>*acquiring the project team.*</strong>
 
+- Recognizing an employee as the "Star Performer of the Month" would be satisfying which need of the Maslow's hierarchy of needs.
+    - esteem
+    - physiological
+    - self-actualization
+    - safety
+
+> answer: <strong>*esteem.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
