@@ -157,6 +157,6 @@
     - Coercive power
     - Referent power
     
-> answer: <strong>*Referent power.*</strong>
+> answer: <strong>*Reward power.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
