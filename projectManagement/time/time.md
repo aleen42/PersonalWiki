@@ -210,4 +210,12 @@
 
 > answer: <strong>*Fast tracking.*</strong>
 
+- A similarity between the crashing technique and the fast tracking technique is what?
+    - both spread out tasks over a long period of time to ensure the quality of work is maintained.
+    - both can shorten the time needed to finish a project.
+    - both invariably result in increases in total project costs.
+    - both are network diagramming techniques used primarily to predict total project duration.
+
+> answer: <strong>*both can shorten the time needed to finish a project.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
