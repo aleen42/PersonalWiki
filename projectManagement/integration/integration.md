@@ -95,12 +95,12 @@
     
 > answer: <strong>*resource allocation.*</strong>
 
-- Benefits minus costs is known as what?
-    - cost of capital
-    - discount factor
-    - cash flow
-    - opportunity cost of capital
-
-> answer: <strong>*cash flow.*</strong>
+- Which of the following is true of return on investment or ROI?
+    - It is always a percentage.
+    - It is the result of adding the project costs to the profits.
+    - It is always a positive number.
+    - The lower it is, the better.
+    
+> answer: <strong>*It is always a percentage.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
