@@ -191,4 +191,12 @@
 
 > answer: <strong>*Resource leveling.*</strong>
 
+- In the MBTI, which dimension relates to the manner in which you gather information?
+    - Extrovert/Introvert
+    - Judgment/Perception
+    - Thinking/Feeling
+    - Sensation/Intuition
+
+> answer: <strong>*Resource leveling.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
