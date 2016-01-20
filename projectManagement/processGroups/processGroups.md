@@ -137,4 +137,12 @@
 
 > answer: <strong>*WBS.*</strong>
 
+- Which are an output of the executing process of project integration management.
+    - Deliverables
+    - Resource calendars
+    - Issue logs
+    - Enterprise environmental factor updates
+    
+> answer: <strong>*Deliverable.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
