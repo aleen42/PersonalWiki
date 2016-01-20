@@ -82,12 +82,12 @@
 
 > answer: <strong>*WBS.*</strong>
 
-- Which is a deliverable-oriented grouping of the work involved in a project that defines the total scope of the project?
+- Which should list and describe all of the deliverables required for the project?
     - project charter
-    - project scope statement
-    - business case
-    - work breakdown structure
+    - WBS
+    - scope statement
+    - Gantt chart
 
-> answer: <strong>*WBS.*</strong>
+> answer: <strong>*scope statement.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
