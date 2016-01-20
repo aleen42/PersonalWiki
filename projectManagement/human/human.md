@@ -103,4 +103,12 @@
     
 > answer: <strong>*esteem.*</strong>
 
+- The bottom four needs in Maslow's structure are referred to as which needs?
+    - self-actualization
+    - safety
+    - deficiency
+    - growth
+    
+> answer: <strong>*deficiency.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
