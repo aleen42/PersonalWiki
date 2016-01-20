@@ -111,4 +111,12 @@
     
 > answer: <strong>*deficiency.*</strong>
 
+- People with a high need for which seek to excel and tend to avoid both low-risk and high-risk situations to improve their chances for achieving something worthwhile?
+    - affiliation
+    - power
+    - security
+    - achievement
+    
+> answer: <strong>*achievement.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
