@@ -186,4 +186,13 @@
 
 > answer: <strong>*Critical path analysis.*</strong>
 
+- What is the amount of time an activity can be delayed from its early start without delaying the planned project finish date.
+    - Total slack
+    - Backward pass
+    - Free float
+    - Forward pass
+
+> answer: <strong>*Total slack.*</strong>
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
