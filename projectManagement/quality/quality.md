@@ -146,5 +146,12 @@
 
 > answer: <strong>*Rework.*</strong>
 
+- What correct(s) or prevent(s) further quality problems based on quality control measurements?
+    - Process adjustments
+    - Acceptance decisions
+    - Rework
+    - Decomposition
+
+> answer: <strong>*Process adjustments.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
