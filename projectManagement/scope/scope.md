@@ -66,4 +66,12 @@
 
 > answer: <strong>*requirements management plan.*</strong>
 
+- Generating ideas by comparing specific project practices or product characteristics to those of other projects or products inside or outside the performing organization is known as what?
+    - variance
+    - prototyping
+    - benchmarking
+    - decomposition
+
+> answer: <strong>*benchmarking.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
