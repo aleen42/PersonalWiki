@@ -58,4 +58,12 @@
 
 > answer: <strong>*Collecting requirements.*</strong>
 
+- What documents how project needs will be analyzed, documented, and managed.
+    - requirements traceability matrix
+    - WBS
+    - requirements management plan
+    - project scope statement
+
+> answer: <strong>*requirements management plan.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
