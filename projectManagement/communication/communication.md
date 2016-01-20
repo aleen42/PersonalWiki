@@ -97,6 +97,6 @@
     - Status reports
     - Lessons-learned reports
 
-> answer: <strong>*meeting.*</strong>
+> answer: <strong>*Progress reports.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
