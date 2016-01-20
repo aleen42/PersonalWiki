@@ -197,6 +197,6 @@
     - Thinking/Feeling
     - Sensation/Intuition
 
-> answer: <strong>*Resource leveling.*</strong>
+> answer: <strong>*Sensation/Intuition.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
