@@ -105,6 +105,14 @@
 
 > answer: <strong>*initiating.*</strong>
 
+- The project integration management knowledge area maps to the which process group through the activities of developing project charters?
+    - initiating
+    - executing
+    - planning
+    - monitoring and controlling
+
+> answer: <strong>*initiating.*</strong>
+
 - What is an iterative software development process that focuses on team productivity and delivers software best practices to all team members?
     - Agile Unified Process
     - Rational Unified Process
