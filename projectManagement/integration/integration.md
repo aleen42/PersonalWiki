@@ -133,6 +133,14 @@
     - Preventive actions
     - Corrective actions
 
-> answer: <strong>*Preventive action.*</strong>
+> answer: <strong>*Preventive actions.*</strong>
+
+- An IT company revises its process parameters in response to complaints from vendors that products were not ready on time. This would be an example of what?
+    - cost forecasting
+    - defect repairs
+    - a preventive action
+    - a corrective action
+
+> answer: <strong>*a corrective action.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
