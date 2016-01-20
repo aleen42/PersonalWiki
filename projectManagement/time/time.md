@@ -128,6 +128,6 @@
     - Estimating activity durations
 
 
-> answer: <strong>*Resource estimating activities.*</strong>
+> answer: <strong>*Defining activities.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
