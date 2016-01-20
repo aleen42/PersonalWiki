@@ -83,4 +83,12 @@
     
 > answer: <strong>*e-mail.*</strong>
 
+- According to the guidelines provided by Practical Communications, Inc., what is the most inappropriate medium for addressing negative behavior?
+    - voice mail
+    - meeting
+    - e-mail
+    - Web Site
+
+> answer: <strong>*e-mail.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
