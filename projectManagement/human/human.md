@@ -199,4 +199,12 @@
 
 > answer: <strong>*Sensation/Intuition.*</strong>
 
+- Psychologist David Merril describes what as reactive and task-oriented?
+    - "Expressives"
+    - "Analyticals"
+    - "Drivers"
+    - "Amiables"
+
+> answer: <strong>*"Analyticals".*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
