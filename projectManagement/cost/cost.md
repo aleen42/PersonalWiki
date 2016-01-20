@@ -116,4 +116,12 @@
 
 > answer: <strong>*People lack estimating experience.*</strong>
 
+- Which of the following is an output of the process of controlling costs?
+    - Cost forecasts
+    - Basis of estimates
+    - Project funding requirements
+    - Scope baselines
+
+> answer: <strong>*Cost forecasts.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
