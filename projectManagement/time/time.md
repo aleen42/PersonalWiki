@@ -178,4 +178,12 @@
 
 > answer: <strong>*estimate the duration of activities.*</strong>
 
+- Which of the following is a network diagramming technique used primarily to predict total project duration?
+    - Gantt chart
+    - Resource breakdown structure
+    - Critical path analysis
+    - Arrow diagramming method
+
+> answer: <strong>*Critical path analysis.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
