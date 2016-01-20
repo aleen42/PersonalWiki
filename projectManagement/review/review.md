@@ -821,7 +821,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font>According to Maslow, only after meeting <ins>**deficiency(缺陷)**</ins> needs can individuals act upon growth needs.
 - Herzberg called factors that cause job satisfaction <ins>**motivators**</ins>.
 - <ins>**Achievers**</ins> should receive frequent performance feedback, and although money is not an important motivator to them, it is an effective form of feedback.
-- The <ins>**Thematic Apperception Test(TAT, 主题统觉测验)**</ins> is a tool to measure the individual needs of different people using McClelland's categories.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The <ins>**Thematic Apperception Test(TAT, 主题统觉测验)**</ins> is a tool to measure the individual needs of different people using McClelland's categories.
 - Managers who believe in McGregor's <ins>**Theory Y**</ins> assume that individuals do not inherently dislike work, but consider it as natural as play or rest.
 - <ins>**Power**</ins> is the potential ability to influence behavior to get people to do things they would not otherwise do.
 - <ins>**Legatimate**</ins> power is getting people to do things based on a position of authority.
