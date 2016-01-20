@@ -146,4 +146,12 @@
 
 > answer: <strong>*defining activities.*</strong>
 
+- Which dependencies are sometimes referred to as soft logic and should be used with care because they may limit later scheduling options?
+    - Mandatory
+    - External
+    - Discretionary
+    - Inherent
+
+> answer: <strong>*Discretionary.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
