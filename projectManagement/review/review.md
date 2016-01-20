@@ -652,12 +652,12 @@
 - Project management <ins>**knowledge area**</ins> describe the key competencies that project managers must develop.
 - Project <ins>**time**</ins> management includes estimating how long it will take to complete work, develop an acceptable project schedule, and ensure timely completion of a project.
 - Project <ins>**cost**</ins> management consists of preparing and managing the budget for a project.
-- (mark)A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
+- (marked) A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
 - <ins>**Project portfolio management**</ins> refers to the process in which organizations group and manage projects and programs as a cluster of investments that contribute to the entire enterprise's success.
 - The <ins>**portfolio project management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
-- Soft skills are also known as <ins>**human relations**</ins> skills.
+- (marked) Soft skills are also known as <ins>**human relations**</ins> skills.
 - The critical path is the <ins>**longest**</ins> path through a network diagram that determines the earliest completion of a project.
-- The  <ins>**Project Management Insititude**</ins> is an international professional society for project managers founded in 1969.
+- (marked) The  <ins>**Project Management Insititude**</ins> is an international professional society for project managers founded in 1969.
 - Passing the CPA exam is a standard for accountants. Similarly, passing the PMP exam is becoming a standard for <ins>**project managers**</ins>.
 - Ethics is a set of principles that guides decision making based on <ins>**personal values**</ins> of what is considered right and wrong.
 - <ins>**Midrange**</ins> tools, a step up from low-end tools, are designed to handle larger projects, multiple users, and multiple projects.
