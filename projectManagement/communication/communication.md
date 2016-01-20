@@ -107,4 +107,12 @@
 
 > answer: <strong>*Status reports.*</strong>
 
+- What describe what the project team has accomplished during a certain period?
+    - Progress reports
+    - Forecasts
+    - Status reports
+    - Lessons-learned reports
+
+> answer: <strong>*Progress reports.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
