@@ -109,7 +109,16 @@
 - PERT weighted average:
     - PERT weighted average = (**optimistic time** + 4 * **most likely time** + **pessimistic time**) / 6
 
-
 <img src="./critical_chain.png">
+
+### 11. Q&A
+
+- What refers to the process of developing a working replica of the system or some aspect of the system?
+    - Prototyping
+    - Decomposition
+    - Variance
+    - Use case modeling
+
+> answer: <strong>*Prototyping.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
