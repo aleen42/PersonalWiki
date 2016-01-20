@@ -105,12 +105,12 @@
 
 > answer: <strong>*initiating.*</strong>
 
-- The project integration management knowledge area maps to the which process group through the activities of developing project charters?
+- The project cost management knowledge area maps to the which process group through the activities of estimating costs and budget determination?
     - initiating
     - executing
     - planning
     - monitoring and controlling
 
-> answer: <strong>*initiating.*</strong>
+> answer: <strong>*planni.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
