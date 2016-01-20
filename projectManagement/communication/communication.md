@@ -147,4 +147,12 @@
 
 > answer: <strong>*subject.*</strong>
 
+- Which of the following is a guideline that project managers should follow when communicating with their teams through e-mail?
+    - Always reply to all the people to whom the initial message was sent.
+    - If the entire message can fit in the subject line, put it there.
+    - Minimize the total number of e-mails by including as many subjects as possible in a single e-mail.
+    - Continue replying to e-mail messages without changing the subject line to maintain continuity.
+
+> answer: <strong>*If the entire message can fit in the subject line, put it there.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
