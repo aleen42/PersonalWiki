@@ -121,4 +121,13 @@
 
 > answer: <strong>*Defining activities.*</strong>
 
+- In project time management, which of the following processes generate the main outputs of an activity list, activity attributes, and a milestone list?
+    - Sequencing activities
+    - Resource estimating activities
+    - Defining activities
+    - Estimating activity durations
+
+
+> answer: <strong>*Defining activities.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
