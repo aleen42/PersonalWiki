@@ -143,6 +143,14 @@
     - Issue logs
     - Enterprise environmental factor updates
     
-> answer: <strong>*Deliverable.*</strong>
+> answer: <strong>*Deliverables.*</strong>
+
+- Which of the following project parameters would be compatible with the use of the agile approach? 
+    - Projects with inexperienced and dispersed teams
+    - Projects with clear-up front requirements
+    - Projects that have a fairly rigid completion date
+    - Projects that have more flexible scheduling
+    
+> answer: <strong>*Projects that have more flexible scheduling.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
