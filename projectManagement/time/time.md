@@ -170,12 +170,12 @@
 
 > answer: <strong>*Project documents update.*</strong>
 
-- Which of the following is one of the main outputs of estimating activity resources process?
-    - Project documents update
-    - Work breakdown structure
-    - Milestone list
-    - Activity duration estimate
+- After working with key stakeholders to define activities and calculate their resources, the next process in project time management is to:
+    - develop the schedule.
+    - determine their dependencies.
+    - control the schedule.
+    - estimate the duration of activities.
 
-> answer: <strong>*Project documents update.*</strong>
+> answer: <strong>*estimate the duration of activities.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
