@@ -115,4 +115,12 @@
 
 > answer: <strong>*Progress reports.*</strong>
 
+- What predict future project status and progress based on past information and trends?
+    - Progress reports
+    - Forecasts
+    - Status reports
+    - Project updates
+    
+> answer: <strong>*Forecasts.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
