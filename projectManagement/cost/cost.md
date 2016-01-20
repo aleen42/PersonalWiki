@@ -90,6 +90,6 @@
     - Salary paid to factory workers
     - Cost of leather used to manufacture shoes
 
-> answer: <strong>*cost control.*</strong>
+> answer: <strong>*Electricity used to run its factories.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
