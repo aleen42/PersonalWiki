@@ -688,7 +688,7 @@
 - <ins>**PRINCE2**</ins> is a project management methodology that defines 45 separate subprocesses and organizes these into eight process groups.
 - <ins>**Stakeholders**</ins> are people involved in or affected by project activities and include the project sponsor, project team, support staff, customers, users, suppliers, and even opponents to the project.
 - A(n) <ins>**stakeholder register**</ins> is a document that includes stakeholders' roles, names, organizations, and contact information.
-- A(n) <ins>**kick-off meeting**</ins>  is a meeting held at the beginning of a project so that stakeholders can meet each other, review the goals of the project, and discuss future plans.
+- A(n) <ins>**kick-off meeting**</ins>  is a     meeting held at the beginning of a project so that stakeholders can meet each other, review the goals of the project, and discuss future plans.
 - A risk register is the output of <ins>**risk identification planning**</ins>.
 - The <ins>**WBS**</ins> is a very important tool in project management because it provides the basis for deciding how to do the work.
 - <ins>**Executing**</ins> the project includes work required to introduce any new hardware, software, and procedures into normal operations.
