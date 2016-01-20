@@ -766,7 +766,7 @@
 - <ins>**Multitasking**</ins> occurs when a resource works on more than one task at a time.
 - <ins>**Murphy's Law**</ins> states that if something can go wrong, it will.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>The main outputs of <ins>**schedule control**</ins> include work performance measurements, organizational process assets updates, and project document updates.
-- One of the first reality checks on scheduling that a project manager should make is to review the <ins>**draft schedule**</ins>.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>One of the first reality checks on scheduling that a project manager should make is to review the <ins>**draft schedule**</ins>.
 - A drawback of using <ins>**templates**</ins> or sample files is that managers and their teams might rely heavily on them and ignore unique concerns for their particular projects.
 - The additional percentage or dollar amount by which actual costs exceed estimates is known as a(n) <ins>**overrun**</ins>.
 - The main output of the planning cost management process is a(n) <ins>**cost management plan**</ins>.
