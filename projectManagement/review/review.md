@@ -722,7 +722,7 @@
 - A category of software that can help align projects with business strategy is called <ins>**Business Service Management**</ins> tools.
 - <ins>**Project scope management**</ins> includes the processes involved in defining and controlling what work is or is not included in a project.
 - <ins>**Scope**</ins> refers to all the work involved in creating the products of the project and the processes used to create them.
-- The main outputs of <ins>**scope definition**</ins> are the project scope statement and updates to project documents.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The main outputs of <ins>**scope definition**</ins> are the project scope statement and updates to project documents.
 - Creating the <ins>**WBS**</ins> involves subdividing the major project deliverables into smaller, more manageable components.
 - <ins>**Requirements**</ins> refer to "conditions or capabilities that must be met by the project or present in the product, service, or result to satisfy an agreement or other formally imposed specification."
 - A(n) <ins>**requirements traceability matrix**</ins> is a table that lists requirements, their various attributes, and the status of the requirements to ensure that all are addressed.
