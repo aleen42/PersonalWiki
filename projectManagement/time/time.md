@@ -154,4 +154,12 @@
 
 > answer: <strong>*Discretionary.*</strong>
 
+- Which of the following is true of dummy activities?
+    - They have long durations.
+    - They have a large range of resources.
+    - They show logical relationships between activities
+    - They have limited time periods.
+
+> answer: <strong>*They show logical relationships between activities.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
