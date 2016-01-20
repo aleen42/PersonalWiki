@@ -100,4 +100,12 @@
 
 > answer: <strong>*They allow for future situations that can be partially planned for.*</strong>
 
+- Which of the following is true of bottom-up estimates?
+    - They are based on the actual cost of a previous, similar project.
+    - They are most accurate when they involve large, extensive work items.
+    - They are also known as parametric estimating.
+    - They are time-intensive and expensive to develop.
+
+> answer: <strong>*They allow for future situations that can be partially planned for.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
