@@ -207,4 +207,12 @@
 
 > answer: <strong>*"Analyticals".*</strong>
 
+- According to Blake and Mouton, project managers who use which method use a give-and take-approach to resolving conflicts?
+    - smoothing
+    - confrontation
+    - forcing
+    - compromise
+
+> answer: <strong>*compromise.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
