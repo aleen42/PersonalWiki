@@ -186,4 +186,12 @@
 
 > answer: <strong>*3.4.*</strong>
 
+- Important tools used in which phase of the DMAIC process include a project charter, a description of customer requirements, process maps, and Voice of the Customer(VOC) data.
+    - define
+    - analyze
+    - measure
+    - improve
+
+> answer: <strong>*define*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
