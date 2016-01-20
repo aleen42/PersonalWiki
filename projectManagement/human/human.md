@@ -175,4 +175,12 @@
 
 > answer: <strong>*resource histogram.*</strong>
 
+- What refers to the amount of individual resources an existing schedule requires during specific time periods?
+    - Resource loading
+    - Resource histogram
+    - Resource leveling
+    - Resource logs
+
+> answer: <strong>*resource histogram.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
