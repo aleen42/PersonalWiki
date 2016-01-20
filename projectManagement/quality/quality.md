@@ -106,12 +106,20 @@
 
 ### 13. Q&A
 
-- What is a standard of measurement in quality management.
+- What is a standard of measurement in quality management?
     - milestone
     - merge
     - metric
     - matrix
 
 > answer: <strong>*metric.*</strong>
+
+- What is the degree to which a system performs its intended function?
+    - Reliability
+    - Maintainability
+    - Validity
+    - Functionality
+
+> answer: <strong>*Functionality.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
