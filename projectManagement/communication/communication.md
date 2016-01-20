@@ -139,4 +139,12 @@
     
 > answer: <strong>*communicating routine information.*</strong>
 
+- Which line for any e-mail messages you write should clearly state the intention of the e-mail?
+    - to
+    - subject
+    - from
+    - cc
+
+> answer: <strong>*subject.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
