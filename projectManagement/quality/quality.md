@@ -154,4 +154,12 @@
 
 > answer: <strong>*Process adjustments.*</strong>
 
+- What is a graphic display of data that illustrates the results of a process over time?
+    - statistical sampling chart
+    - Six Sigma chart
+    - Pareto chart
+    - control chart
+
+> answer: <strong>*control chart.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
