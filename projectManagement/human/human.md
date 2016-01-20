@@ -87,4 +87,12 @@
 
 > answer: <strong>*Acquiring the project team.*</strong>
 
+- Key outputs of which process are project staff assignments, resource calendars, and project management plan updates?
+    - managing the project team
+    - developing the project team
+    - acquiring the project team
+    - planning the human resource plan
+
+> answer: <strong>*acquiring the project team.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
