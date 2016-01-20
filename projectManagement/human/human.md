@@ -151,4 +151,12 @@
     
 > answer: <strong>*promotion.*</strong>
 
+- What involves using incentives to induce people to do things.
+    - Legitimate power
+    - Reward power
+    - Coercive power
+    - Referent power
+    
+> answer: <strong>*promotion.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
