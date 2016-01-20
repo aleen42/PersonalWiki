@@ -792,7 +792,7 @@
 - The total direct and indirect costs incurred in accomplishing work on an activity during a given period is known as the <ins>**actual cost(AC)**</ins>.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>The <ins>**earned value(EV)**</ins> is based on the original planned costs for the project or activity and the rate at which the team is completing work on the project or activity to date.
 - The <ins>**schedule performance**</ins> index is the ratio of earned value to planned value.
-- The cost performance index can be used to calculate the <ins>**estimate at completion(EAC)**</ins> which gives an approximate cost of completing a project based on performance to date.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The cost performance index can be used to calculate the <ins>**estimate at completion(EAC)**</ins> which gives an approximate cost of completing a project based on performance to date.
 - The International Organization for Standardization (ISO) defines <ins>**quality**</ins> as "the totality of characteristics of an entity that bear on its ability to satisfy stated or implied needs."
 - <font style="color: #a10000;"><strong>(marked)</strong></font>The term <ins>**fitness for use**</ins> means a product can be used as it was intended.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>The purpose of <ins>**project quality management**</ins> is to ensure that the project will satisfy the needs for which it was undertaken.
