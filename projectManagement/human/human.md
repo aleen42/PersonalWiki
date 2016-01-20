@@ -133,6 +133,6 @@
     - Theory X
     - Theory Z
     
-> answer: <strong>*Theory Y.*</strong>
+> answer: <strong>*Theory Z.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
