@@ -250,4 +250,12 @@
 
 > answer: <strong>*External failure cost.*</strong>
 
+- What helps integrate traditionally separate organizational functions, set process improvement goals and priorities, provide guidance for quality processes, and provide a point of reference for appraising current processes?
+    - SQFD
+    - OPM3
+    - MTBI
+    - CMMI
+
+> answer: <strong>*CMMI.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
