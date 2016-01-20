@@ -89,6 +89,6 @@
     - e-mail
     - Web Site
 
-> answer: <strong>*e-mail.*</strong>
+> answer: <strong>*meeting.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
