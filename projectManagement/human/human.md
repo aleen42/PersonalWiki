@@ -77,4 +77,15 @@
 - **Withdrawal**: Retreat or withdraw from an actual or potential disagreement
 - **Collaborating**: Decision makers incorporate different  viewpoints and insights to develop consensus( 共識) and commitment
 
+### 10. Q&A
+
+- What involves assigning the needed personnel to work on the project?
+    - Planning human resource management
+    - Acquiring the project team
+    - Developing the project team
+    - Managing the project team
+
+
+> answer: <strong>*CMMI.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
