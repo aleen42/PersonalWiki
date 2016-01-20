@@ -162,4 +162,12 @@
 
 > answer: <strong>*control chart.*</strong>
 
+- What help users to identify the vital few contributors that account for most quality problems in a system?
+    - Gantt charts
+    - Control charts
+    - Pareto charts
+    - Tracking Gantt charts
+
+> answer: <strong>*control chart.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
