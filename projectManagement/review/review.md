@@ -733,7 +733,7 @@
 - Tasks in a WBS that are decomposed into smaller tasks are called <ins>**summary**</ins> tasks.
 - PMI uses the term "<ins>**task**</ins>" to describe each level of work in the WBS.
 - A work package is a task at the <ins>**lowest**</ins> level of the WBS.
-- Some organizations prescribe the form and content for WBSs for particular projects. These are known as <ins>**guidelines**</ins>.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>Some organizations prescribe the form and content for WBSs for particular projects. These are known as <ins>**guidelines**</ins>.
 - In the <ins>**bottom-up**</ins> approach to creating a WBS, team members first identify as many specific tasks related to the project as possible.
 - <ins>**Mind mapping**</ins> is a technique that uses branches radiating out from a core idea to structure thoughts and ideas when creating a WBS.
 - A(n) <ins>**WBS dictionary**</ins> is a document that describes detailed information about each WBS item.
