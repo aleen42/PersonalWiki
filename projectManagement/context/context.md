@@ -71,4 +71,51 @@
 
 <img src="./scrume_framework.png">
 
+
+### 8. Q&A
+
+- In what organizational structure, program managers, rather than functional managers or vice presidents, report to the CEO. Their staffs have a variety of skills needed to complete all required tasks within their programs.
+
+> answer: <strong>*Project.*</strong>
+
+- Which of the following is true of a matrix organizational structure?
+    - In a matrix organizational structure, employees are organized into departments according to their skills, and there is little interaction between employees from different departments.
+    - Project managers in matrix organizations have staff from only a single functional area working on their projects.
+    - In a strong matrix organizational structure, the project manager controls the project budget and has moderate to high authority.
+    - A matrix organizational structure is hierarchical, but instead of functional managers reporting to the CEO, program managers report to the CEO.
+
+> answer: <strong>*In a strong matrix organizational structure, the project manager controls the project budget and has moderate to high authority.*</strong>
+
+- Which characteristic of organizational culture describes the degree to which management's decisions take into account the effect of outcomes on people within the organization?
+
+> answer: <strong>*people focus.*</strong>
+
+- What refers to the degree to employees identify with the organization as a whole, rather than with their types of job or profession?
+
+> answer: <strong>*Member identity.*</strong>
+
+- What refers to the degree to which departments within an organization are encouraged to coordinate with each other?
+
+> answer: <strong>*Not group emphasis, but unit integration.*</strong>
+
+- What refers to the degree to which the organization monitors and responds to changes in the external environment?
+
+> answer: <strong>*Open-systems focus.*</strong>
+
+- The first two traditional project phases (concept and development) focus on planning, and are often referred to as what?
+
+> answer: <strong>*project feasibility.*</strong>
+
+- In what phase, the project team creates a definitive or very accurate cost estimate, delivers the required work, and provides performance reports to stakeholders?
+
+> answer: <strong>*implementation.*</strong>
+
+- Which of the following is a disadvantage of virtual teams as compared to traditional teams?
+    - Increased costs for office space and support
+    - Limited flexibility in team working hours
+    - Reduced opportunities for informal transfer of information
+    - Reduced dependence on technology and processes for accomplishing work
+
+> answer: <strong>*Reduced opportunities for informal transfer of information.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
