@@ -655,7 +655,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font> A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
 - <ins>**Project portfolio management**</ins> refers to the process in which organizations group and manage projects and programs as a cluster of investments that contribute to the entire enterprise's success.
 - The <ins>**portfolio project management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
-- <font style="color: #a10000;">(marked)</font> Soft skills are also known as <ins>**human relations**</ins> skills.
+- <font style="color: #a10000;"><strong>(marked)</strong></font> Soft skills are also known as <ins>**human relations**</ins> skills.
 - The critical path is the <ins>**longest**</ins> path through a network diagram that determines the earliest completion of a project.
 - <font style="color: #a10000;"><strong>(marked)</strong></font> The  <ins>**Project Management Insititude**</ins> is an international professional society for project managers founded in 1969.
 - Passing the CPA exam is a standard for accountants. Similarly, passing the PMP exam is becoming a standard for <ins>**project managers**</ins>.
