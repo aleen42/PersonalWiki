@@ -131,4 +131,14 @@
     
 > answer: <strong>*How much more money will be needed to complete the project?*</strong>
 
+- E-mail communication is most suited for:
+    - assessing commitment to a project.
+    - mediating a conflict between multiple parties.
+    - building consensus among disputing parties.
+    - communicating routine information.
+    
+> answer: <strong>*communicating routine information.*</strong>
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
