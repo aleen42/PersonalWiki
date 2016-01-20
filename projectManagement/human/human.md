@@ -183,4 +183,12 @@
 
 > answer: <strong>*Resource loading.*</strong>
 
+- What is a technique for resolving resource conflicts by delaying tasks?
+    - Resource loading
+    - Resource allocation
+    - Resource leveling
+    - Resource histogram
+
+> answer: <strong>*Resource leveling.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
