@@ -103,7 +103,7 @@
     
 > answer: <strong>*It is always a percentage.*</strong>
 
-- A project's internal rate of return can be determined by finding what discount rate results in an NPV of _____ for the project.
+- A project's internal rate of return can be determined by finding what discount rate results in an NPV of _____ for the project?
     - zero
     - a hundred percent
     - one
@@ -111,12 +111,19 @@
 
 > answer: <strong>*zero.*</strong>
 
-- Which is a document that recognizes the existence of a project and provides direction on the project's objectives and management.
+- Which is a document that recognizes the existence of a project and provides direction on the project's objectives and management?
     - stakeholder register
     - directive
     - risk register
     - project charter
     
 > answer: <strong>*project charter.*</strong>
+
+- The business case includes information on what?
+    - the business need for the project
+    - the project objective, high-level requirements, and time and cost goals
+    - relevant government or industry standards
+    - policies, procedures, guidelines, and systems that influence a project's success
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
