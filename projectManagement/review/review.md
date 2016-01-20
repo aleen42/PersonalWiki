@@ -652,7 +652,7 @@
 - Project management <ins>**knowledge area**</ins> describe the key competencies that project managers must develop.
 - Project <ins>**time**</ins> management includes estimating how long it will take to complete work, develop an acceptable project schedule, and ensure timely completion of a project.
 - Project <ins>**cost**</ins> management consists of preparing and managing the budget for a project.
-- A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
+- (mark)A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
 - <ins>**Project portfolio management**</ins> refers to the process in which organizations group and manage projects and programs as a cluster of investments that contribute to the entire enterprise's success.
 - The <ins>**portfolio project management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
 - Soft skills are also known as <ins>**human relations**</ins> skills.
