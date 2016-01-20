@@ -226,4 +226,13 @@
 
 > answer: <strong>*an organization should build awareness of the need and opportunity for improvement.*</strong>
 
+- Who wrote Quality Is Free in 1979 and is best known for suggesting that organizations strive for zero defects?
+    - Juran
+    - Crosby
+    - Ishikawa
+    - Deming
+
+
+> answer: <strong>*Crosby.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
