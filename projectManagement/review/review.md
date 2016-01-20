@@ -832,7 +832,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Deputy(副) project managers**</ins> fill in for project managers in their absence(缺席) and assist them as needed.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**request for proposal**</ins> or draft contract often provides the basis for defining and finalizing work requirements.
 - The <ins>**responsibility assignment matrix(RAM)**</ins> allocates work to responsible and performing organizations, teams, or individuals, depending on the desired level of detail.
-- A(n) <ins>**Organization Breakdown Structure(OBS)**</ins> is a specific type of organizational chart that shows which organizational units are responsible for which work items.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**Organization Breakdown Structure(OBS)**</ins> is a specific type of organizational chart that shows which organizational units are responsible for which work items.
 - <ins>**Overallocation(資源過度分配)**</ins> means more resources than are available are assigned to perform work at a given time.
 - Resource <ins>**leveling**</ins> aims to minimize period-by-period variations in resource loading by shifting tasks within their slack(鬆懈的) allowances.
 - In the Tuckman model, <ins>**adjourning(散會)**</ins> involves the break-up of the team after it successfully reaches its goals and completes the work.
