@@ -835,7 +835,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**Organization Breakdown Structure(OBS)**</ins> is a specific type of organizational chart that shows which organizational units are responsible for which work items.
 - <ins>**Overallocation(資源過度分配)**</ins> means more resources than are available are assigned to perform work at a given time.
 - Resource <ins>**leveling**</ins> aims to minimize period-by-period variations in resource loading by shifting tasks within their slack(鬆懈的) allowances.
-- In the Tuckman model, <ins>**adjourning(散會)**</ins> involves the break-up of the team after it successfully reaches its goals and completes the work.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>In the Tuckman model, <ins>**adjourning(散會)**</ins> involves the break-up of the team after it successfully reaches its goals and completes the work.
 - In the DISC profile, the letter "S" represents <ins>**steadiness(始終不一)**</ins>.
 - According to Blake and Mouton, project managers who use the <ins>**withdrawal**</ins> mode retreat(撤退) from an actual or potential disagreement.
 - Many experts agree that the greatest threat to the success of any project, especially information technology projects, is a failure to <ins>**communicate**</ins>.
