@@ -119,4 +119,12 @@
     
 > answer: <strong>*achievement.*</strong>
 
+- What presents subjects with a series of ambiguous pictures and asks them to develop a spontaneous story for each picture, assuming they will project their own needs into the story?
+    - RAM
+    - TAT
+    - MBTI
+    - RACI
+
+> answer: <strong>*TAT.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
