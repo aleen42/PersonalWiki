@@ -648,7 +648,7 @@
 - The question, "What is the project's schedule?" is an example of a(n) <ins>**time**</ins> constraint.
 - "What is the project's budget?" This is an example of a project's <ins>**cost**</ins> constraint.
 - The <ins>**quadruple constraint**</ins> of project management includes quality, scope, time, and cost constraints.
-- <ins>**Project management**</ins> is "the application of knowledge, skills, tools, and techniques to project activities to meet project requirements."
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Project management**</ins> is "the application of knowledge, skills, tools, and techniques to project activities to meet project requirements."
 - Project management <ins>**knowledge area**</ins> describe the key competencies that project managers must develop.
 - Project <ins>**time**</ins> management includes estimating how long it will take to complete work, develop an acceptable project schedule, and ensure timely completion of a project.
 - Project <ins>**cost**</ins> management consists of preparing and managing the budget for a project.
