@@ -813,7 +813,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Six 9s of quality**</ins> is a measure of quality control equal to 1 fault in 1 million opportunities.
 - Watts S. Humphrey defines a(n) <ins>**software defect(缺陷)**</ins> as anything that must be changed before delivery of the program.
 - <ins>**Quality circles**</ins> are groups of non-supervisors and work leaders in a single company department who volunteer to conduct group studies on how to improve the effectiveness of work in their department.
-- Genichi Taguchi's <ins>**Robust Design**</ins> methods focus on eliminating(消除) defects by substituting scientific inquiry(追究) for trial-and-error methods.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>Genichi Taguchi's <ins>**Robust Design**</ins> methods focus on eliminating(消除) defects by substituting scientific inquiry(追究) for trial-and-error methods.
 - The <ins>**cost of nonconforman**</ins> means taking responsibility for failures or not meeting quality expectations.
 - The <ins>**Software Quality Function Deployment(SQFD)**</ins> model focuses on defining user requirements and planning software projects.
 - <ins>**Psychosocial(社會心理)**</ins> issues that affect how people work and how well they work include motivation, influence and power, and effectiveness.
