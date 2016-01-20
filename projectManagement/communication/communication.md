@@ -123,4 +123,12 @@
     
 > answer: <strong>*Forecasts.*</strong>
 
+- Which of the following questions is typically addressed by a project forecast?
+    - How much more money will be needed to complete the project?
+    - Are our clients satisfied with the speed and quality of work on this project?
+    - Does the quality of output match our goals?
+    - How comfortable are employees with the software and technology being used on the project?
+    
+> answer: <strong>*How much more money will be needed to complete the project?*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
