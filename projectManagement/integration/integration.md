@@ -79,12 +79,12 @@
 
 ### 4. Q&A
 
-- The improvement of  the product and process in the Scrum method is discussed at the what?
-    - sprint reflection meeting
-    - kick-off meeting
-    - sprint review meeting
-    - daily Scrum meeting
-
-> answer: <strong>*sprint reflection meeting.*</strong>
+- What stage of information technology planning outlines business processes that are central to achieving strategic goals and helps determine which ones could most benefit from information technology.
+    - project planning
+    - business area analysis
+    - resource allocation
+    - information technology strategy planning
+    
+> answer: <strong>*business area analysis.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
