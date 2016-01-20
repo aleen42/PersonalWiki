@@ -215,4 +215,14 @@
 
 > answer: <strong>*compromise.*</strong>
 
+- According to Lencioni, which of the following qualities is present in organizations that succeed?
+    - Commitment
+    - Accountability
+    - Autonomy
+    - Teamwork
+
+> answer: <strong>*Teamwork.*</strong>
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
