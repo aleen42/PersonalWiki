@@ -652,15 +652,15 @@
 - Project management <ins>**knowledge area**</ins> describe the key competencies that project managers must develop.
 - Project <ins>**time**</ins> management includes estimating how long it will take to complete work, develop an acceptable project schedule, and ensure timely completion of a project.
 - Project <ins>**cost**</ins> management consists of preparing and managing the budget for a project.
-- (marked) A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
+- <font style="color: #a10000;"><strong>(marked)</strong></font> A(n) <ins>**program**</ins> is "a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually."
 - <ins>**Project portfolio management**</ins> refers to the process in which organizations group and manage projects and programs as a cluster of investments that contribute to the entire enterprise's success.
 - The <ins>**portfolio project management**</ins> software integrates information from multiple projects to show the status of active, approved, and future projects across an entire organization.
 - <font style="color: #a10000;">(marked)</font> Soft skills are also known as <ins>**human relations**</ins> skills.
 - The critical path is the <ins>**longest**</ins> path through a network diagram that determines the earliest completion of a project.
-- (marked) The  <ins>**Project Management Insititude**</ins> is an international professional society for project managers founded in 1969.
+- <font style="color: #a10000;"><strong>(marked)</strong></font> The  <ins>**Project Management Insititude**</ins> is an international professional society for project managers founded in 1969.
 - Passing the CPA exam is a standard for accountants. Similarly, passing the PMP exam is becoming a standard for <ins>**project managers**</ins>.
-- (marked) Ethics is a set of principles that guides decision making based on <ins>**personal values**</ins> of what is considered right and wrong.
-- (marked) <ins>**Midrange**</ins> tools, a step up from low-end tools, are designed to handle larger projects, multiple users, and multiple projects.
+- <font style="color: #a10000;"><strong>(marked)</strong></font> Ethics is a set of principles that guides decision making based on <ins>**personal values**</ins> of what is considered right and wrong.
+- <font style="color: #a10000;"><strong>(marked)</strong></font> <ins>**Midrange**</ins> tools, a step up from low-end tools, are designed to handle larger projects, multiple users, and multiple projects.
 - High-end tools in project management software have enterprise and <ins>**portfolio management**</ins> functions that summarize and combine individual project information to provide an enterprise view of all projects.
 - High-end tools are generally licensed on a(n) <ins>**per-user**</ins> basis.
 - A(n) <ins>**system philosophy**</ins> is an overall model for thinking about things as sets of interacting components working within an environment to fulfill some purpose.
