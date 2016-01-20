@@ -210,4 +210,12 @@
 
 > answer: <strong>*six 9s of quality rule*</strong>
 
+- Which of the following is one of Deming‘s 14 Points for Management?
+    - An organization should increase dependence on inspection to achieve quality.
+    - Minimize total cost by working with multiple suppliers rather than a single supplier.
+    - Award business based on price tag alone rather than on other considerations.
+    - Eliminate the annual rating or merit system.
+
+> answer: <strong>*six 9s of quality rule*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
