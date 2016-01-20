@@ -638,7 +638,7 @@
 
 #### 2. Blank
 
-- Until the 1980s, project management primarily focused on providing <ins>**schedule**</ins> and resource data to top management in the military, computer, and construction industries.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>Until the 1980s, project management primarily focused on providing <ins>**schedule**</ins> and resource data to top management in the military, computer, and construction industries.
 - A(n) <ins>**project**</ins> is a temporary endeavor undertaken to create a unique product, service, or result.
 - <ins>**Operations**</ins> refers to work done in organizations to sustain the business.
 - <ins>**Resources**</ins> include people, hardware, software, or other assets.
