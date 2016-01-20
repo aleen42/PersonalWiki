@@ -170,7 +170,7 @@
 
 > answer: <strong>*Project documents update.*</strong>
 
-- After working with key stakeholders to define activities and calculate their resources, the next process in project time management is to:
+- After working with key stakeholders to define activities and calculate their resources, the next process in project time management is to what?
     - develop the schedule.
     - determine their dependencies.
     - control the schedule.
@@ -186,7 +186,7 @@
 
 > answer: <strong>*Critical path analysis.*</strong>
 
-- What is the amount of time an activity can be delayed from its early start without delaying the planned project finish date.
+- What is the amount of time an activity can be delayed from its early start without delaying the planned project finish date?
     - Total slack
     - Backward pass
     - Free float
@@ -194,5 +194,12 @@
 
 > answer: <strong>*Total slack.*</strong>
 
+- The technique for making cost and schedule trade-offs to obtain the greatest amount of schedule compression for the least incremental cost is known as what?
+    - dependency
+    - critical chain scheduling
+    - crashing
+    - feeding buffers
+
+> answer: <strong>*crashing.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
