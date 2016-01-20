@@ -178,4 +178,12 @@
 
 > answer: <strong>*Statistical sampling.*</strong>
 
+- Six Sigma's target for perfection is the achievement of no more than how many defects, errors, or mistakes per million opportunities?
+    - 1.34
+    - 34
+    - 3.4
+    - 13.4
+
+> answer: <strong>*3.4.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
