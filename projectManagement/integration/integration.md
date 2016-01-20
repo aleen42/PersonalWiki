@@ -101,6 +101,6 @@
     - cash flow
     - opportunity cost of capital
 
-> answer: <strong>*resource allocation.*</strong>
+> answer: <strong>*cash flow.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
