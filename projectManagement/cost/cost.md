@@ -92,4 +92,12 @@
 
 > answer: <strong>*Electricity used to run its factories.*</strong>
 
+- Which of the following is true of contingency reserves?
+    - They allow for future situations that can be partially planned for.
+    - They are not included in a cost baseline.
+    - They are also known as unknown unknowns.
+    - They allow for dollar amounts to be used to cover existing, fixed costs.
+
+> answer: <strong>*They allow for future situations that can be partially planned for.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
