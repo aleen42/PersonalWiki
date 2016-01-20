@@ -665,13 +665,13 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font>High-end tools are generally licensed on a(n) <ins>**per-user**</ins> basis.
 - A(n) <ins>**system philosophy**</ins> is an overall model for thinking about things as sets of interacting components working within an environment to fulfill some purpose.
 - <ins>**Systems**</ins> are sets of interacting components working within an environment to fulfill some purpose.
-- <ins>**System management**</ins> addresses the business, technological, and organizational issues associated with creating, maintaining, and making a change to a system.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**System management**</ins> addresses the business, technological, and organizational issues associated with creating, maintaining, and making a change to a system.
 - The three spheres of systems management are business, organization, and <ins>**technology**</ins>.
 - The <ins>**structural**</ins> frame of the organization is the one that is usually depicted in an organizational chart.
-- The <ins>**symbolic**</ins> frame of an organization relates to the company's culture.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The <ins>**symbolic**</ins> frame of an organization relates to the company's culture.
 - Three general classifications of organizational structures are <ins>**functional**</ins>, project, and matrix.
 - In a(n) <ins>**functional**</ins> organizational structure, project managers have little or no authority.
-- <ins>**Control**</ins> refers to the degree to which rules, policies, and direct supervision are used to oversee employee behavior.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Control**</ins> refers to the degree to which rules, policies, and direct supervision are used to oversee employee behavior.
 - <ins>**Group emphasis**</ins> refers to the degree to which work activities are organized around teams, rather than individuals.
 - Some projects have a senior manager called a(n) <ins>**champion**</ins> who acts as a key proponent for a project.
 - A major element of good practice concerns <ins>**IT governance**</ins>, which addresses the authority and control for key IT activities in organizations, including IT infrastructure, IT use, and project management.
