@@ -129,4 +129,12 @@
 
 > answer: <strong>*developing the project charter.*</strong>
 
+- Which provides a basis for creating the project schedule and performing earned value management for measuring and forecasting project performance?
+    - scope statement
+    - work breakdown structure
+    - cost management plan
+    - project charter
+
+> answer: <strong>*WBS.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
