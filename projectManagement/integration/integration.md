@@ -87,12 +87,12 @@
     
 > answer: <strong>*business area analysis.*</strong>
 
-- What stage of information technology planning outlines business processes that are central to achieving strategic goals and helps determine which ones could most benefit from information technology.
+- In what stage of selecting information technology projects, organizations select information technology projects.
     - project planning
     - business area analysis
     - resource allocation
     - information technology strategy planning
     
-> answer: <strong>*business area analysis.*</strong>
+> answer: <strong>*resource allocation.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
