@@ -85,6 +85,6 @@
     - Developing the project team
     - Managing the project team
 
-> answer: <strong>*Developing the project team.*</strong>
+> answer: <strong>*Acquiring the project team.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
