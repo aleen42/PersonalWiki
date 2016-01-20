@@ -856,7 +856,7 @@
 - A(n) <ins>**well-run meeting**</ins> can be a vehicle for fostering(鼓勵) team building and reinforcing(加固) expectations, roles, relationships, and commitment to the project.
 - All meetings must have a(n) <ins>**purpose**</ins> and intended outcome.
 - A(n) <ins>**agenda**</ins> forces meeting organizers to plan the meeting and gives potential participants the chance to decide whether they need to attend.
-- A(n) <ins>**SharePoint portal(企業內部溝通平臺)**</ins> allows users to create custom Web sites to access documents and applications stored on shared devices.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**SharePoint portal(企業內部溝通平臺)**</ins> allows users to create custom Web sites to access documents and applications stored on shared devices.
 - Microsoft Office Enterprise Project Management Solution has a(n) <ins>**portfolio management**</ins> tool that provides a centralized and consolidated view of programs and projects.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
