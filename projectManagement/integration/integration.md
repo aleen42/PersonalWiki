@@ -143,4 +143,13 @@
 
 > answer: <strong>*a corrective action.*</strong>
 
+- 30. What involves identifying and controlling the functional and physical design characteristics of products and their support documentation, and ensures that the descriptions of the project's products are correct and complete.
+    - NPV analysis
+    - Configuration management
+    - Project management information systems
+    - Project time management
+
+
+> answer: <strong>*a corrective action.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
