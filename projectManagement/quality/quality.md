@@ -104,4 +104,14 @@
     - 4: Quantitatively Managed
     - 5: Optimizing
 
+### 13. Q&A
+
+- Which of the following is an input of the process of controlling costs?
+    - Cost forecasts
+    - Change requests
+    - Work performance data
+    - Scope baseline
+
+> answer: <strong>*Work performance data.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
