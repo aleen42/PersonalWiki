@@ -113,11 +113,11 @@
 
 ### 11. Q&A
 
-- What refers to the process of developing a working replica of the system or some aspect of the system?
-    - Prototyping
-    - Decomposition
-    - Variance
-    - Use case modeling
+- Which of the following processes in project time management involves identifying the specific tasks that the project team members and stakeholders must perform to produce the project deliverables?
+    - Defining activities
+    - Developing the schedule
+    - Sequencing activities
+    - Estimating activity durations
 
 > answer: <strong>*Prototyping.*</strong>
 
