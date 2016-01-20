@@ -111,7 +111,7 @@
     - planning
     - monitoring and controlling
 
-> answer: <strong>*initiating.*</strong>
+> answer: <strong>*planning.*</strong>
 
 - What is an iterative software development process that focuses on team productivity and delivers software best practices to all team members?
     - Agile Unified Process
