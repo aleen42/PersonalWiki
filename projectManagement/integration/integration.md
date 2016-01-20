@@ -103,4 +103,12 @@
     
 > answer: <strong>*It is always a percentage.*</strong>
 
+- A project’s internal rate of return can be determined by finding what discount rate results in an NPV of _____ for the project.
+    - zero
+    - a hundred percent
+    - one
+    - fifty percent
+
+> answer: <strong>*zero.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
