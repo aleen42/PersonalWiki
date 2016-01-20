@@ -216,6 +216,6 @@
     - Award business based on price tag alone rather than on other considerations.
     - Eliminate the annual rating or merit system.
 
-> answer: <strong>*six 9s of quality rule*</strong>
+> answer: <strong>*Eliminate the annual rating or merit system.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
