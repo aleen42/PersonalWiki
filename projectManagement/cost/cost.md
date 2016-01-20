@@ -108,4 +108,12 @@
 
 > answer: <strong>*They are time-intensive and expensive to develop.*</strong>
 
+- Which of the following is most likely to be a reason for inaccuracies in information technology cost estimates?
+    - Estimates take a long time to be worked out.
+    - Human beings are biased toward overestimation.
+    - People lack estimating experience.
+    - Only software development provides the scope for estimates to be accurate.
+
+> answer: <strong>*People lack estimating experience.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
