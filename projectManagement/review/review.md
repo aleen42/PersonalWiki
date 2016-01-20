@@ -794,7 +794,7 @@
 - The <ins>**schedule performance**</ins> index is the ratio of earned value to planned value.
 - The cost performance index can be used to calculate the <ins>**estimate at completion(EAC)**</ins> which gives an approximate cost of completing a project based on performance to date.
 - The International Organization for Standardization (ISO) defines <ins>**quality**</ins> as "the totality of characteristics of an entity that bear on its ability to satisfy stated or implied needs."
-- The term <ins>**fitness for use**</ins> means a product can be used as it was intended.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The term <ins>**fitness for use**</ins> means a product can be used as it was intended.
 - The purpose of <ins>**project quality management**</ins> is to ensure that the project will satisfy the needs for which it was undertaken.
 - Performing <ins>**quality assurance**</ins> involves periodically evaluating overall project performance to ensure that the project will satisfy the relevant quality standards.
 - Performing <ins>**quality control**</ins> involves monitoring specific project results to ensure that they comply with the relevant quality standards while identifying ways to improve overall quality.
