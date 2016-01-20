@@ -159,4 +159,13 @@
     
 > answer: <strong>*Reward power.*</strong>
 
+- The first step in the framework for defining and assigning work is what?
+    - defining how the work will be accomplished
+    - breaking down the work into manageable elements
+    - finalizing the project requirements
+    - assigning work responsibilities
+
+    
+> answer: <strong>*Reward power.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
