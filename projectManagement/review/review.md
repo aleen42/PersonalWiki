@@ -780,7 +780,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font>Project costs, like project schedules, grow out of the basic documents that initiate a project, like the <ins>**project charter**</ins>.
 - A(n) <ins>**rough order of magnititude**</ins> estimate is done very early in a project or even before a project is officially started.
 - The timeframe for a(n) <ins>**rough order of magnititude**</ins> estimate is often three or more years prior to project completion.
-- In practice, many people find that using a combination or hybrid approach involving analogous, bottom up, and/or parametric modeling provides the best <ins>**cost estimate**</ins>.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>In practice, many people find that using a combination or hybrid approach involving analogous, bottom up, and/or parametric modeling provides the best <ins>**cost estimate**</ins>.
 - Project cost estimates are allocated to work items which are based on the activities in the <ins>**WBS**</ins> for the project.
 - A(n) <ins>**cost baseline**</ins> is a time-phased budget that project managers use to measure and monitor cost performance.
 - In addition to providing input for budgetary estimates, the process of <ins>**cost budgeting**</ins> provides a cost baseline.
