@@ -775,7 +775,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Profits**</ins> are revenues(總收入) minus expenditures(開銷).
 - <ins>**Life cycle**</ins> costing helps to see a big-picture view of the cost of a project throughout its life cycle.
 - <ins>**Life cycle**</ins> costing considers the total cost of ownership, or development plus support costs, for a project.
-- Project managers must conduct cash flow analysis to determine <ins>**Net Precent Value**</ins>.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>Project managers must conduct cash flow analysis to determine <ins>**Net Precent Value**</ins>.
 - The <ins>**learning curve(曲線)**</ins> theory states that when many items are produced repetitively(多次重複地), the unit cost of those items decreases in a regular pattern as more units are produced.
 - Project costs, like project schedules, grow out of the basic documents that initiate a project, like the <ins>**project charter**</ins>.
 - A(n) <ins>**rough order of magnititude**</ins> estimate is done very early in a project or even before a project is officially started.
