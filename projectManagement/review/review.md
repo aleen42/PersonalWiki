@@ -717,7 +717,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Organizational process assets**</ins> include formal and informal plans, policies, procedures, guidelines, information systems, financial systems, management systems, lessons learned, and historical information that can be used to influence a project's success.
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Monitoring**</ins> project work includes collecting, measuring, and disseminating performance information.
 - A(n) <ins>**baseline**</ins> is the approved project management plan plus approved changes.
-- <ins>**Integrated change control**</ins> involves identifying, evaluating, and managing changes throughout the project life cycle.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Integrated change control**</ins> involves identifying, evaluating, and managing changes throughout the project life cycle.
 - A(n) <ins>**Change Control Board**</ins> is a formal group of people responsible for approving or rejecting changes to a project.
 - A category of software that can help align projects with business strategy is called <ins>**Business Service Management**</ins> tools.
 - <ins>**Project scope management**</ins> includes the processes involved in defining and controlling what work is or is not included in a project.
