@@ -777,7 +777,7 @@
 - <ins>**Life cycle**</ins> costing considers the total cost of ownership, or development plus support costs, for a project.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>Project managers must conduct cash flow analysis to determine <ins>**Net Precent Value**</ins>.
 - The <ins>**learning curve(曲線)**</ins> theory states that when many items are produced repetitively(多次重複地), the unit cost of those items decreases in a regular pattern as more units are produced.
-- Project costs, like project schedules, grow out of the basic documents that initiate a project, like the <ins>**project charter**</ins>.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>Project costs, like project schedules, grow out of the basic documents that initiate a project, like the <ins>**project charter**</ins>.
 - A(n) <ins>**rough order of magnititude**</ins> estimate is done very early in a project or even before a project is officially started.
 - The timeframe for a(n) <ins>**rough order of magnititude**</ins> estimate is often three or more years prior to project completion.
 - In practice, many people find that using a combination or hybrid approach involving analogous, bottom up, and/or parametric modeling provides the best <ins>**cost estimate**</ins>.
