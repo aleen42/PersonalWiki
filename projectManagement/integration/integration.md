@@ -117,6 +117,7 @@
     - risk register
     - project charter
     
-> answer: <strong>*zero.*</strong>
+> answer: <strong>*
+    .*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
