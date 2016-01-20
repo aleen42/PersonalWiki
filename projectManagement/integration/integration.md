@@ -79,7 +79,7 @@
 
 ### 4. Q&A
 
-- What stage of information technology planning outlines business processes that are central to achieving strategic goals and helps determine which ones could most benefit from information technology.
+- What stage of information technology planning outlines business processes that are central to achieving strategic goals and helps determine which ones could most benefit from information technology?
     - project planning
     - business area analysis
     - resource allocation
@@ -87,12 +87,20 @@
     
 > answer: <strong>*business area analysis.*</strong>
 
-- In what stage of selecting information technology projects, organizations select information technology projects.
+- In what stage of selecting information technology projects, organizations select information technology projects?
     - project planning
     - business area analysis
     - resource allocation
     - information technology strategy planning
     
+> answer: <strong>*resource allocation.*</strong>
+
+- Benefits minus costs is known as what?
+    - cost of capital
+    - discount factor
+    - cash flow
+    - opportunity cost of capital
+
 > answer: <strong>*resource allocation.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
