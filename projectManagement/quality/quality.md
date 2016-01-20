@@ -138,5 +138,13 @@
 
 > answer: <strong>*Benchmarking.*</strong>
 
+- What refers to action taken to bring rejected items into compliance with product requirements or specifications or other stakeholder expectations?
+    - A process adjustment
+    - An acceptance decision
+    - Rework
+    - Validation
+
+> answer: <strong>*Rework.*</strong>
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
