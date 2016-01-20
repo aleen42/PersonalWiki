@@ -186,12 +186,20 @@
 
 > answer: <strong>*3.4.*</strong>
 
-- Important tools used in which phase of the DMAIC process include a project charter, a description of customer requirements, process maps, and Voice of the Customer(VOC) data.
+- Important tools used in which phase of the DMAIC process include a project charter, a description of customer requirements, process maps, and Voice of the Customer(VOC) data?
     - define
     - analyze
     - measure
     - improve
 
 > answer: <strong>*define*</strong>
+
+- What is a bell-shaped curve that is symmetrical regarding the average value of the population (the data being analyzed)?
+    - skewed distribution
+    - bimodal distribution
+    - normal distribution
+    - degenerate distribution
+
+> answer: <strong>*normal distribution*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
