@@ -808,7 +808,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Statistical diagram(統計圖)**</ins> involves choosing part of a population of interest for inspection.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>Complete the formula: sample size = 0.25 \* ( <ins>**certainty factor(確信度因子)**</ins> / acceptable error)<sup>2</sup>
 - In the DMAIC process, the letter “C” stands for <ins>**control**</ins>.
-- <ins>**Standard deviation**</ins> measures how much variation exists in a distribution of data.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Standard deviation**</ins> measures how much variation exists in a distribution of data.
 - The <ins>**yield(產量)**</ins> represents the number of units handled correctly through the process steps.
 - <ins>**Six 9s of quality**</ins> is a measure of quality control equal to 1 fault in 1 million opportunities.
 - Watts S. Humphrey defines a(n) <ins>**software defect(缺陷)**</ins> as anything that must be changed before delivery of the program.
