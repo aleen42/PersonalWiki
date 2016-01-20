@@ -73,6 +73,6 @@
     - E-mail
     - Meetings
     
-> answer: <strong>*Call Phil in for a private meeting to appreciate his work.*</strong>
+> answer: <strong>*Meetings.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
