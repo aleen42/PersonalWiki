@@ -818,7 +818,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font>The <ins>**Software Quality Function Deployment(SQFD)**</ins> model focuses on defining user requirements and planning software projects.
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Psychosocial(社會心理)**</ins> issues that affect how people work and how well they work include motivation, influence and power, and effectiveness.
 - <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Extrinsic motivation**</ins> causes people to do something for a reward or to avoid a penalty.
-- According to Maslow, only after meeting <ins>**deficiency(缺陷)**</ins> needs can individuals act upon growth needs.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>According to Maslow, only after meeting <ins>**deficiency(缺陷)**</ins> needs can individuals act upon growth needs.
 - Herzberg called factors that cause job satisfaction <ins>**motivators**</ins>.
 - <ins>**Achievers**</ins> should receive frequent performance feedback, and although money is not an important motivator to them, it is an effective form of feedback.
 - The <ins>**Thematic Apperception Test(TAT, 主题统觉测验)**</ins> is a tool to measure the individual needs of different people using McClelland's categories.
