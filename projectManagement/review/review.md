@@ -684,7 +684,7 @@
 - A(n) <ins>**process**</ins> is a series of actions directed toward a particular result.
 - <ins>**Project management process groups**</ins> progress from initiation activities to planning activities, executing activities, monitoring and controlling activities, and closing activities.
 - The ideal outcome of the <ins>**monitoring and controlling**</ins> process group is to complete a project successfully by delivering the agreed-upon project scope within time, cost, and quality constraints.
-- A(n) <ins>**methodology**</ins> describes how things should be done.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**methodology**</ins> describes how things should be done.
 - <ins>**PRINCE2**</ins> is a project management methodology that defines 45 separate subprocesses and organizes these into eight process groups.
 - <ins>**Stakeholders**</ins> are people involved in or affected by project activities and include the project sponsor, project team, support staff, customers, users, suppliers, and even opponents to the project.
 - A(n) <ins>**stakeholder register**</ins> is a document that includes stakeholders' roles, names, organizations, and contact information.
@@ -692,13 +692,13 @@
 - A risk register is the output of <ins>**risk identification planning**</ins>.
 - The <ins>**WBS**</ins> is a very important tool in project management because it provides the basis for deciding how to do the work.
 - <ins>**Executing**</ins> the project includes work required to introduce any new hardware, software, and procedures into normal operations.
-- A(n) <ins>**product owner**</ins> is the person responsible for the business value of the project and for deciding what work to do and in what order when using a Scrum method.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**product owner**</ins> is the person responsible for the business value of the project and for deciding what work to do and in what order when using a Scrum method.
 - A(n) <ins>**sprint**</ins> is a set period of time, normally two to four weeks, during which specific work must be completed and made ready for review when using Scrum methods.
 - A(n) <ins>**ScrumMaster**</ins> is the person who ensures that the team is productive, facilitates the daily Scrum, enables close cooperation across all roles and functions, and removes barriers that prevent the team from being effective.
 - A(n) <ins>**Scrum team**</ins> is a cross-functional team of five to nine people who organize themselves and the work to produce the desired results for each sprint.
 - In Scrum, a(n) <ins>**artifact**</ins> is a useful object created by people.
 - A(n) <ins>**sprint backlog**</ins> is a Scrum artifact and consists of the highest-priority items from the product backlog to be completed in a sprint.
-- <ins>**User stories**</ins> are short descriptions written by customers of what they need a Scrum system to do for them.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**User stories**</ins> are short descriptions written by customers of what they need a Scrum system to do for them.
 - <ins>**Project integration management**</ins> involves coordinating all of the other project management knowledge areas throughout a project's life cycle.
 - <ins>**Interface management**</ins> involves identifying and managing the points of interaction between various elements of the project.
 - <ins>**Strategic planning**</ins> involves determining long-term objectives by analyzing the strengths and weaknesses, studying opportunities and threats, predicting future trends, and projecting the need for new products and services.
