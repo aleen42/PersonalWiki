@@ -202,4 +202,12 @@
 
 > answer: <strong>*crashing.*</strong>
 
+- Which of the following techniques involve doing activities in parallel that one would normally do in sequence?
+    - Critical chain scheduling
+    - Fast tracking
+    - Crashing
+    - PERT analysis
+
+> answer: <strong>*Fast tracking.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
