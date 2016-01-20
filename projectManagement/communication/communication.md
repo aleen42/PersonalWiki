@@ -91,4 +91,12 @@
 
 > answer: <strong>*meeting.*</strong>
 
+- According to the guidelines provided by Practical Co, which address where the project stands in terms of meeting scope, time, and cost goals?
+    - Technical reports
+    - Progress reports
+    - Status reports
+    - Lessons-learned reports
+
+> answer: <strong>*meeting.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
