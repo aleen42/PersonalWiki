@@ -125,5 +125,6 @@
     - relevant government or industry standards
     - policies, procedures, guidelines, and systems that influence a project's success
 
+> answer: <strong>*the project objective, high-level requirements, and time and cost goals.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
