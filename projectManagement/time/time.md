@@ -218,4 +218,12 @@
 
 > answer: <strong>*both can shorten the time needed to finish a project.*</strong>
 
+- What states that work expands to fill the time allowed.
+    - Murphy's Law
+    - Parkinson's Law
+    - Miller's Law
+    - Einstein's Law
+
+> answer: <strong>*Parkinson's Law.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
