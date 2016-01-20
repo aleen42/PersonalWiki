@@ -122,4 +122,12 @@
 
 > answer: <strong>*Functionality.*</strong>
 
+- What are the system's special characteristics that appeal to users.
+    - Features
+    - Yields
+    - Outputs
+    - Metrics
+
+> answer: <strong>*Features.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
