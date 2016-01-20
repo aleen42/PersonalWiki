@@ -84,4 +84,12 @@
 
 > answer: <strong>*cost control.*</strong>
 
+- Soles is a footwear company which has recently set up its store in Ambrosia. To manufacture its products, Soles incurs a range of different costs. Which of the following would be an example of an indirect cost?
+    - Cost of machines to produce shoes
+    - Electricity used to run its factories
+    - Salary paid to factory workers
+    - Cost of leather used to manufacture shoes
+
+> answer: <strong>*cost control.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
