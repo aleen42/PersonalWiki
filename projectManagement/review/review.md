@@ -726,7 +726,7 @@
 - Creating the <ins>**WBS**</ins> involves subdividing the major project deliverables into smaller, more manageable components.
 - <ins>**Requirements**</ins> refer to "conditions or capabilities that must be met by the project or present in the product, service, or result to satisfy an agreement or other formally imposed specification."
 - <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**requirements traceability matrix**</ins> is a table that lists requirements, their various attributes, and the status of the requirements to ensure that all are addressed.
-- The main outputs of scope definition are the <ins>**project scope statement**</ins> and project document updates.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The main outputs of scope definition are the <ins>**project scope statement**</ins> and project document updates.
 - A(n) <ins>**WBS**</ins> is a deliverable-oriented grouping of the work involved in a project that defines its total scope.
 - subdividing the project deliverables into smaller pieces is known as <ins>**decomposition**</ins>.
 - The <ins>**scope baseline**</ins> includes the approved project scope statement and its associated WBS and WBS dictionary.
