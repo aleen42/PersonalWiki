@@ -783,9 +783,9 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font>In practice, many people find that using a combination or hybrid approach involving analogous, bottom up, and/or parametric modeling provides the best <ins>**cost estimate**</ins>.
 - Project cost estimates are allocated to work items which are based on the activities in the <ins>**WBS**</ins> for the project.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**cost baseline**</ins> is a time-phased budget that project managers use to measure and monitor cost performance.
-- <font style="color: #a10000;"><strong>(marked)</strong></font>In addition to providing input for budgetary estimates, the process of <ins>**cost budgeting**</ins> provides a cost baseline.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><font style="color: #a10000;"><strong>(marked)</strong></font>In addition to providing input for budgetary estimates, the process of <ins>**cost budgeting**</ins> provides a cost baseline.
 - A cost management plan is a subsidiary of the <ins>**project management**</ins> plan.
-- <ins>**Earned Value Management**</ins> is a project performance measurement technique that integrates scope, time, and cost data.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Earned Value Management**</ins> is a project performance measurement technique that integrates scope, time, and cost data.
 - A(n) <ins>**baseline**</ins> is the original project plan plus approved changes.
 - The ratio of actual work completed to the percentage of work planned to have been completed at any given time during the life of the project or activity is known as the <ins>**rate of performance(RP)**</ins>.
 - The <ins>**planned value(PV)**</ins> is the portion of the approved total cost estimate planned to be spent on an activity during a given period.
