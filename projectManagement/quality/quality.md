@@ -232,6 +232,13 @@
     - Ishikawa
     - Deming
 
+> answer: <strong>*Crosby.*</strong>
+
+- What is the cost of evaluating processes and their outputs to ensure that a project is error-free or within an acceptable error range?
+    - Prevention cost
+    - Internal failure cost
+    - Appraisal cost
+    - External failure cost
 
 > answer: <strong>*Crosby.*</strong>
 
