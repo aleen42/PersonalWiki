@@ -135,4 +135,12 @@
     
 > answer: <strong>*Theory Z.*</strong>
 
+- According to Thamhain and Wilemon, what is the legitimate hierarchical right to issue orders?
+    - authority
+    - expertise
+    - achievement
+    - self-actualization
+    
+> answer: <strong>*authorit.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
