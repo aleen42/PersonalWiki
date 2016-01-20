@@ -170,4 +170,12 @@
 
 > answer: <strong>*Pareto charts.*</strong>
 
+- What involves choosing part of a population of interest for inspection?
+    - Statistical sampling
+    - System testing
+    - Conformance
+    - Fitness for use
+
+> answer: <strong>*Statistical sampling.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
