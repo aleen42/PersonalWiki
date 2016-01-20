@@ -167,4 +167,12 @@
 
 > answer: <strong>*finalizing the project requirements.*</strong>
 
+- What is a column chart that shows the number of resources assigned to a project over time?
+    - responsibility assignment matrix
+    - RACI charts
+    - resource histogram
+    - organizational breakdown structure
+
+> answer: <strong>*resource histogram.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
