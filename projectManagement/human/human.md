@@ -165,6 +165,6 @@
     - finalizing the project requirements
     - assigning work responsibilities
 
-> answer: <strong>*Reward power.*</strong>
+> answer: <strong>*finalizing the project requirements.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
