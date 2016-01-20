@@ -714,7 +714,7 @@
 - <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**weighted scoring model**</ins> is a tool that provides a systematic process for selecting projects based on many criteria.
 - <font style="color: #a10000;"><strong>(marked)</strong></font>A(n) <ins>**balanced scorecard**</ins>  is a methodology that converts value drivers, such as customer service, innovation, operational efficiency, and financial performance, to a series of defined metrics.
 - <ins>**Enterprise environmental**</ins> factors include relevant government or industry standards, the organization's infrastructure, and marketplace conditions.
-- <ins>**Organizational process assets**</ins> include formal and informal plans, policies, procedures, guidelines, information systems, financial systems, management systems, lessons learned, and historical information that can be used to influence a project's success.
+- <font style="color: #a10000;"><strong>(marked)</strong></font><ins>**Organizational process assets**</ins> include formal and informal plans, policies, procedures, guidelines, information systems, financial systems, management systems, lessons learned, and historical information that can be used to influence a project's success.
 - <ins>**Monitoring**</ins> project work includes collecting, measuring, and disseminating performance information.
 - A(n) <ins>**baseline**</ins> is the approved project management plan plus approved changes.
 - <ins>**Integrated change control**</ins> involves identifying, evaluating, and managing changes throughout the project life cycle.
