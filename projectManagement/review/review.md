@@ -660,7 +660,7 @@
 - (marked) The  <ins>**Project Management Insititude**</ins> is an international professional society for project managers founded in 1969.
 - Passing the CPA exam is a standard for accountants. Similarly, passing the PMP exam is becoming a standard for <ins>**project managers**</ins>.
 - (marked) Ethics is a set of principles that guides decision making based on <ins>**personal values**</ins> of what is considered right and wrong.
-- <ins>**Midrange**</ins> tools, a step up from low-end tools, are designed to handle larger projects, multiple users, and multiple projects.
+- (marked) <ins>**Midrange**</ins> tools, a step up from low-end tools, are designed to handle larger projects, multiple users, and multiple projects.
 - High-end tools in project management software have enterprise and <ins>**portfolio management**</ins> functions that summarize and combine individual project information to provide an enterprise view of all projects.
 - High-end tools are generally licensed on a(n) <ins>**per-user**</ins> basis.
 - A(n) <ins>**system philosophy**</ins> is an overall model for thinking about things as sets of interacting components working within an environment to fulfill some purpose.
