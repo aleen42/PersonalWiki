@@ -80,6 +80,14 @@
     - business case
     - work breakdown structure
 
-> answer: <strong>*wbs.*</strong>
+> answer: <strong>*WBS.*</strong>
+
+- Which is a deliverable-oriented grouping of the work involved in a project that defines the total scope of the project?
+    - project charter
+    - project scope statement
+    - business case
+    - work breakdown structure
+
+> answer: <strong>*WBS.*</strong>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
