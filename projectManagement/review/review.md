@@ -738,7 +738,7 @@
 - <ins>**Mind mapping**</ins> is a technique that uses branches radiating out from a core idea to structure thoughts and ideas when creating a WBS.
 - A(n) <ins>**WBS dictionary**</ins> is a document that describes detailed information about each WBS item.
 - <ins>**Scope creep**</ins> is the tendency for project scope to keep getting bigger and bigger.
-- The main tool for performing scope validation is <ins>**inspection**</ins> and group decision making techniques.
+- <font style="color: #a10000;"><strong>(marked)</strong></font>The main tool for performing scope validation is <ins>**inspection**</ins> and group decision making techniques.
 - <ins>**Scope control**</ins> involves controlling changes to the project scope while keeping project goals and business strategy in mind.
 - <ins>**Variance**</ins> is the difference between planned and actual performance.
 - <ins>**Prototyping**</ins> involves developing a working replica(仿製品) of the system or some aspect of the system.
