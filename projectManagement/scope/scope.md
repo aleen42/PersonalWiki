@@ -47,4 +47,14 @@
 
 <img src="./wbs_dictionary.jpg">
 
+### 5 Q&A
+
+- What involves identifying and controlling the functional and physical design characteristics of products and their support documentation, and ensures that the descriptions of the project's products are correct and complete.
+    - NPV analysis
+    - Configuration management
+    - Project management information systems
+    - Project time management
+
+> answer: <strong>*Configuration management.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
