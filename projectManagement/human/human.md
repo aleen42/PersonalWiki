@@ -127,4 +127,11 @@
 
 > answer: <strong>*TAT.*</strong>
 
+- What emphasizes things such as job rotation, broadening of skills, generalization versus specialization, and the need for continuous training of workers?
+    - Theory W
+    - Theory Y
+    - Theory X
+    - Theory Z
+> answer: <strong>*TAT.*</strong>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
