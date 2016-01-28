@@ -60,6 +60,10 @@
 - Problem: Sampling will result in distortion of images when not enable **libx264**.
 - Solution: Configure the ffmpeg again, and enable libx264.
 
+### 3. Usage
+
+#### 3.1 trim a video
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
