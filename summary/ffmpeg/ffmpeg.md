@@ -62,7 +62,7 @@
 
 ### 3. Usage
 
-#### 3.1 trim a video
+#### 3.1 crop a video
 
 
 
