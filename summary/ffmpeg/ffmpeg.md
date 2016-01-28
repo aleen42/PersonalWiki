@@ -66,9 +66,12 @@
 
 `ffmpeg -i input.mp4 "crop=w:h:x:y" output.mp4`
 
+- **w**: width
+- **h**: height
+
 #### 3.2 cut a video
 
-`ffmpeg -ss [start] -i intput.mp4`
+`ffmpeg -ss [start] -i intput.mp4 -t [duration] -c:v copy`
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
