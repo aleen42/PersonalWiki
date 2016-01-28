@@ -68,7 +68,7 @@
 
 #### 3.2 cut a video
 
-
+`ffmpeg -ss [start] -i intput.mp4`
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
