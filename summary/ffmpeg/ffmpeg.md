@@ -68,6 +68,7 @@
 
 - **w**: width
 - **h**: height
+- **x, y**: crop from the start point (x, y)
 
 #### 3.2 cut a video
 
