@@ -76,7 +76,7 @@
 
 - **-ss**: to specify the start time
 - **-t**: to specify the duration
-- 
+- **-c:v copy** and **-c:a copy**: to copy the video and audio stream without any re-encoding actions.
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
