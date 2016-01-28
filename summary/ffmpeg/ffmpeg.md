@@ -74,7 +74,8 @@
 
 `ffmpeg -ss [start] -i intput.mp4 -t [duration] -c:v copy`
 
-- **-ss**
+- **-ss**: to specify the start time
+- 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
