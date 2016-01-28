@@ -64,6 +64,7 @@
 
 #### 3.1 crop a video
 
+- `ffmpeg -i input.mp4 "crop=w:h:x:y" output.mp4`
 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
