@@ -29,15 +29,15 @@
 
 ##### 2.1.1 Convert .mp4 to .ts 
 
-- `ffmpeg -y -i input.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb output.ts`
+`ffmpeg -y -i input.mp4 -vcodec copy -acodec copy -vbsf h264_mp4toannexb output.ts`
 
 ##### 2.1.2 Concat two videos
 
-- `ffmpeg -y -i "concat:input1.ts|input2.ts" -acodec copy -vcodec copy -absf aac_adtstoasc output.mp4`
+`ffmpeg -y -i "concat:input1.ts|input2.ts" -acodec copy -vcodec copy -absf aac_adtstoasc output.mp4`
 
 ##### 2.1.3 Concat sounds with a .txt file
 
-- `ffmpeg -y -f concat -i input.txt -c copy output.wav`
+`ffmpeg -y -f concat -i input.txt -c copy output.wav`
 
 ##### 2.1.4 Problem
 
@@ -49,11 +49,11 @@
 
 ##### 2.2.1 Sampling sounds to 44100Hz
 
-- `ffmpeg -y -i input.mp4 -ar 44100 -strict -2 output.mp4`
+`ffmpeg -y -i input.mp4 -ar 44100 -strict -2 output.mp4`
 
 ##### 2.2.2 Synthesize the video with sounds
 
-- `ffmpeg -y -i input.mp4 -i input.wav -filter_complex amix=inputs=2:duration=first:dropout_transition=2 -ar 44100 -strict -2 output.mp4` 
+`ffmpeg -y -i input.mp4 -i input.wav -filter_complex amix=inputs=2:duration=first:dropout_transition=2 -ar 44100 -strict -2 output.mp4` 
 
 ##### 2.2.3 Problem
 
@@ -64,7 +64,10 @@
 
 #### 3.1 crop a video
 
-- `ffmpeg -i input.mp4 "crop=w:h:x:y" output.mp4`
+`ffmpeg -i input.mp4 "crop=w:h:x:y" output.mp4`
+
+#### 3.2 cut a video
+
 
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
