@@ -2,7 +2,7 @@
 
 ### 1. Install
 
-- System version: Ubuntu 14.04
+- System version: **Ubuntu 14.04**
 - Update local package
 
 ```sh
