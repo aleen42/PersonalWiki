@@ -1,4 +1,4 @@
-## ffmpeg	[Back](./../summary.md)
+## Gimp	[Back](./../summary.md)
 
 <img src="./logo.png">
 
