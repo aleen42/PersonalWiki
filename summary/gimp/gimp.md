@@ -26,10 +26,10 @@ sudo apt-get install imagemagick
 ```sh
 convert input.png -matte -virtual-pixel transparent\
 -distort Perspective\
-'from[A].x, from[A] to[A].x, to[B].y\
- from[B].x, from[B] to[B].x, to[B].y\
- from[C].x, from[C] to[C].x, to[C].y\
- from[D].x, from[D] to[D].x, to[D].y' output.png
+'from[A].x, from[A].y to[A].x, to[B].y\
+ from[B].x, from[B].y to[B].x, to[B].y\
+ from[C].x, from[C].y to[C].x, to[C].y\
+ from[D].x, from[D].y to[D].x, to[D].y' output.png
 ```
 
 - example:
