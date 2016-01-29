@@ -9,7 +9,7 @@
 sudo apt-get upgrade
 ```
 
-- Install the software
+- Install the softw
 
 ```sh
 sudo apt-get install imagemagick
