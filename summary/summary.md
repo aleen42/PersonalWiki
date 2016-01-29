@@ -1,7 +1,7 @@
 ## Note
 
 * [**Ffmpeg**](./ffmpeg/ffmpeg.md)
-* [**Ffmpeg**](./ffmpeg/gimp.md)
+* [**Gimp**](./gimp/gimp.md)
 * [**Server**](./server/server.md)
 * [**Docker**](./docker/docker.md)
 * [**Redis**](./redis/redis.md)
