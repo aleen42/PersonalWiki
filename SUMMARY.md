@@ -264,7 +264,7 @@
     * [Summary](./summary/summary.md)
         * Note
             * [Ffmpeg](./summary/ffmpeg/ffmpeg.md)
-            * [ImageMag](./summary/imagemagick/imagemagick.md)
+            * [ImageMagick](./summary/imagemagick/imagemagick.md)
             * [Server](./summary/server/server.md)
             * [Docker](./summary/docker/docker.md)
             * [Redis](./summary/redis/redis.md)
