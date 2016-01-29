@@ -21,7 +21,7 @@ sudo apt-get install imagemagick
 
 #### 2.1 generate perspective image
 
-- to generate images from 4 differents point
+- to generate images from 4 differents points(A, B, C, D)
 
 ```sh
 convert input.png -matte -virtual-pixel transparent\
