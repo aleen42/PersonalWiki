@@ -21,6 +21,12 @@ sudo apt-get install imagemagick
 
 #### 2.1 generate perspective image
 
+- to generate images from 4 differents point
 
+```sh
+convert input.png -matte -virtual-pixel transparent\
+-distort Perspective\
+'from[A].x, from[A]'
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
