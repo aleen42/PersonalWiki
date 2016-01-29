@@ -10,13 +10,4 @@
 * [**Laravel**](./../Programming/PHP/laravel/laravel.md)
 * [**M3U8**](./m3u8/m3u8.md)
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
