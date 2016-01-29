@@ -11,5 +11,8 @@ sudo apt-get upgrade
 
 - Install 
 
+```sh
+sudo apt-get install imagemagick
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
