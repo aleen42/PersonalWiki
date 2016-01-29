@@ -32,6 +32,7 @@ convert input.png -matte -virtual-pixel transparent\
  from[D].x, from[D] to[D].x, to[D].y' output.png
 ```
 
-
+- input: <img src="./input1.png">
+- output: <img src="./output1.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
