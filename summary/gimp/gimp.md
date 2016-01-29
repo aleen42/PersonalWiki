@@ -34,5 +34,4 @@ convert input.png -matte -virtual-pixel transparent\
 
 
 
-
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
