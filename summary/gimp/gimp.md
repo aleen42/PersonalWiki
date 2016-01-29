@@ -27,9 +27,9 @@ sudo apt-get install imagemagick
 convert input.png -matte -virtual-pixel transparent\
 -distort Perspective\
 'from[A].x, from[A] to[A].x, to[B].y\
- from[A].x, from[A] to[A].x, to[B].y\
- from[A].x, from[A] to[A].x, to[B].y\
- from[A].x, from[A] to[A].x, to[B].y' output.png
+ from[B].x, from[B] to[B].x, to[B].y\
+ from[C].x, from[C] to[C].x, to[C].y\
+ from[D].x, from[D] to[D].x, to[D].y' output.png
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
