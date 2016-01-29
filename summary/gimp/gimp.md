@@ -9,10 +9,14 @@
 sudo apt-get upgrade
 ```
 
-- Install the softw
+- Install the software
 
 ```sh
 sudo apt-get install imagemagick
 ```
+
+### 2. Usage
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
