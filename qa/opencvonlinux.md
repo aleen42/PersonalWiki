@@ -10,5 +10,6 @@
 
 `upzip opencv-3.1.0.zip`
 
+#### 3. build
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
