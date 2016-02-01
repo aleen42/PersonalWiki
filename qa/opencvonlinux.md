@@ -27,6 +27,9 @@
 
 `make -j2`
 
+- Problem: **libbluray.so undefined reference to `xmlNodeGetContent@LIBXML2_2.4.30`**
+- Solution: install the `qt` dependence (`sudo apt-get install qt4-qmake libqt4-dev`)
+
 - *Note: this will take some time to complete. *
 
 #### 3.4 install
