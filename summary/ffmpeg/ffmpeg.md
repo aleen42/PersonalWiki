@@ -80,7 +80,7 @@
 
 #### 3.3 change frame rate
 
-
+- firstly, what you should do is to export all the frames of the videos
 
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
