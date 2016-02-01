@@ -25,4 +25,6 @@
 
 ##### 3.3 make j2
 
+`make -j2`
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
