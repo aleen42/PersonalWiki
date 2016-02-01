@@ -28,4 +28,6 @@
 `make -j2`
 
 #### 3.4 install
+
+`sudo make install`
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
