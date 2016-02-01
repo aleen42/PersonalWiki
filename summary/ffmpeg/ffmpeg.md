@@ -78,6 +78,10 @@
 - **-t**: to specify the duration
 - **-c:v copy** and **-c:a copy**: to copy the video and audio stream without any re-encoding actions.
 
+#### 3.3 change frame rate
+
+
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
