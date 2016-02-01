@@ -1,5 +1,7 @@
 ## How to build up Opencv in Linux [Back](./qa.md)
 
+- **Ubuntu 14.04** + **OpenCV 3.1.0**
+
 #### 1. be sure to install cmake
 
 `sudo apt-get install cmake`
