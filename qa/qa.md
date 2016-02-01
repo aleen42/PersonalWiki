@@ -5,7 +5,7 @@
 - [**How PGP encryption works**](./pgp.md)
 - [**How to setup Dlib in the Visual Studio 2013**](./dlib.md)
 - [**How to use Gitbook to write something**](./gitbook.md)
-- [**How to build up Opencv on Linux**](./gitbook.md)
+- [**How to build up Opencv on Linux**](./opencvonlinux.md)
 - [**How to make a smart picture showing with css**](./smartPic.md)
 - [**How to see logs of crontab in Ubuntu**](./crontablog.md)
 - [**What is ETag**](./etag.md)
