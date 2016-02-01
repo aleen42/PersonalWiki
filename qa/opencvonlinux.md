@@ -4,6 +4,8 @@
 
 `sudo apt-get install cmake`
 
+#### 2. download and extract opencv
+
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
