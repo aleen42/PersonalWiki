@@ -25,7 +25,7 @@
 - Problem: **qmake: could not exec '/usr/lib/i386-linux-gnu/qt4/bin/qmake': No such file or directory**
 - Solution: install the `qt` dependence (`sudo apt-get install qt4-qmake libqt4-dev`)
 
-##### 3.3 make j2
+##### 3.3 make
 
 `make -j2`
 
