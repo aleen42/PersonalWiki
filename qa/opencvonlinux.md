@@ -27,7 +27,7 @@
 
 `make -j2`
 
-- *Note: this will take some time to complete *
+- *Note: this will take some time to complete. *
 
 #### 3.4 install
 
