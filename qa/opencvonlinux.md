@@ -34,7 +34,7 @@
 
 - *Note: this will take some time to complete. *
 
-#### 3.4 install
+#### 3.4 make install
 
 `sudo make install`
 
