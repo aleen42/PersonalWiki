@@ -84,6 +84,11 @@
 
 `ffmpeg -i input.mp4 -r "[origin-rate]" "frame/f_%1d.png`
 
+- the next step to do is to generate a new video with all the frames:
+
+`ffmpeg -r "[new-rate]" "frame/f_%1d.png" output.mp4` 
+
+
 <a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
 =====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
