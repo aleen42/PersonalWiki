@@ -10,10 +10,7 @@
 ### Document
 
 - [**Configurations**](./conf/conf.md)
-- [**Installation**](./install/in.md)
+- [**Installation**](./install/install.md)
 - [**Cache**](./cache/cache.md)
 
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
