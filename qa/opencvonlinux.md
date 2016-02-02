@@ -30,6 +30,8 @@
 `sudo make -j2`
 
 - *Note: this will take some time to complete. *
+- Problem: **undefined link to reference LibXML2**
+- Solution: you should cmake without ffmpeg. Otherwise, it will have come out with this problem.
 
 ##### 3.4 make install
 
