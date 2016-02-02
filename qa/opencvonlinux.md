@@ -62,6 +62,6 @@ target_link_libraries( [projectName] ${OpenCV_LIBS} )
 
 `make`
 
-`./[projectName[`
+`./[projectName]`
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
