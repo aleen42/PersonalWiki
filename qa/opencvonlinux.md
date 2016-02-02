@@ -31,7 +31,7 @@
 
 - *Note: this will take some time to complete. *
 
-#### 3.4 make install
+##### 3.4 make install
 
 `sudo make install`
 
@@ -45,6 +45,15 @@
 
 #### 6. Create a project and run it
 
+##### 6.1 Create CMakeLists.txt
 
+`vim CMakeLists.txt`
+```
+cmake_minimum_required(VERSION 2.8)
+project( test )
+find_package( OpenCV REQUIRED )
+add_executable( test test.cpp )
+target_link_libraries( test ${OpenCV_LIBS} )
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
