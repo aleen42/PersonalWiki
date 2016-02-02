@@ -53,7 +53,7 @@ cmake_minimum_required(VERSION 2.8)
 project( [projectName] )
 find_package( OpenCV REQUIRED )
 add_executable( [projectName] [projectName].cpp )
-target_link_libraries( test ${OpenCV_LIBS} )
+target_link_libraries( [projectName] ${OpenCV_LIBS} )
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
