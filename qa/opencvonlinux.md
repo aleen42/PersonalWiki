@@ -43,4 +43,8 @@
 
 #### 5. Reboot the computer
 
+#### 6. Create a project and run it
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
