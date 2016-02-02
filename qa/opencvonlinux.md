@@ -31,7 +31,7 @@
 
 - *Note: this will take some time to complete. *
 - Problem: **undefined link to reference LibXML2**
-- Solution: you should cmake without ffmpeg. Otherwise, it will have come out with this problem.
+- Solution: you should check the lib when installing ffmpeg.
 
 ##### 3.4 make install
 
