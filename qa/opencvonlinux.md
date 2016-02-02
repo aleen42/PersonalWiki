@@ -39,4 +39,6 @@
 
 `sudo sh -c 'echo "/usr/local/lib" > /etc/ld.so.conf.d/opencv.conf'`
 
+`sudo ldconfig`
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
