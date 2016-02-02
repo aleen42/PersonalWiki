@@ -29,9 +29,6 @@
 
 `make -j2`
 
-- Problem: **libbluray.so undefined reference to xmlNodeGetContent@LIBXML2_2.4.30**
-- Solution: install the `libxml2`. (`sudo apt-get install libxml2-dev`)
-
 - *Note: this will take some time to complete. *
 
 #### 3.4 make install
