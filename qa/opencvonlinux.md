@@ -31,7 +31,7 @@
 
 - *Note: this will take some time to complete. *
 - Problem: **some lib*.so have undefined link to reference LibXML2**
-- Solution: you should check the r lib when installing ffmpeg.
+- Solution: you should check the lib when installing ffmpeg.
 
 ##### 3.4 make install
 
