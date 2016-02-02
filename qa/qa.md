@@ -12,6 +12,4 @@
 - [**What is Gist**](./gist.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
 
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
