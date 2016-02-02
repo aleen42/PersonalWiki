@@ -27,7 +27,7 @@
 
 ##### 3.3 make
 
-`make -j2`
+`sudo make -j2`
 
 - *Note: this will take some time to complete. *
 
