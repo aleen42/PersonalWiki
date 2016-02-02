@@ -4,6 +4,7 @@
 
 `composer create-project --prefer-dist laravel/laravel [dirName]`
 
-#### Via Laravel
+#### Via Laravel Installer
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
