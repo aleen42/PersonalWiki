@@ -30,7 +30,7 @@
 `sudo make -j2`
 
 - *Note: this will take some time to complete. *
-- Problem: **some lib*.so undefined link to reference LibXML2**
+- Problem: **some lib*.so have undefined link to reference LibXML2**
 - Solution: you should check the lib when installing ffmpeg.
 
 ##### 3.4 make install
