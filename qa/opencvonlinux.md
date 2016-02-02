@@ -31,7 +31,7 @@
 
 - *Note: this will take some time to complete. *
 - Problem: **some lib*.so have undefined link to reference LibXML2**
-- Solution: you should check the lib when installing ffmpeg.
+- Solution: you should check the lib when installing ffmpeg. (eg. enable `libbluray` in ffmpeg will cause problem in ubuntu 14.04 when building opencv)
 
 ##### 3.4 make install
 
