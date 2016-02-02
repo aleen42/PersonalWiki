@@ -78,7 +78,8 @@
             * [Laravel](./Programming/PHP/laravel/laravel.md)
                 * Documents
                     * [Configurations](./Programming/PHP/laravel/conf/conf.md)
-                    * [Cache](./Programming/PHP/laravel/cache/cache.md) 
+                    * [Installation](./Programming/PHP/laravel/install/install.md)
+                    * [Cache](./Programming/PHP/laravel/cache/cache.md)
     * [Algorithm](./Algorithmn/AlgorithmnMenu.md)
         * [Analysis](./Algorithmn/Analysis/Analysis.md)
             * [DC](./Algorithmn/Analysis/DC/DC.md)
