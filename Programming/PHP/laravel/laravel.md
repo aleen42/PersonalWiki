@@ -10,7 +10,7 @@
 ### Document
 
 - [**Configurations**](./conf/conf.md)
-- [**Installati**](./conf/conf.md)
+- [**Installation**](./install/in.md)
 - [**Cache**](./cache/cache.md)
 
 
