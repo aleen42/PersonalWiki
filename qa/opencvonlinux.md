@@ -56,4 +56,12 @@ add_executable( [projectName] [projectName].cpp )
 target_link_libraries( [projectName] ${OpenCV_LIBS} )
 ```
 
+##### 6.2 Run the project
+
+`cmake .`
+
+`make`
+
+`./[projectName[`
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
