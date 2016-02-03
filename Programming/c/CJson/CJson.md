@@ -39,10 +39,12 @@ cJSON_AddNumberToObject(jobj, "numName", 42);
 cJSON_AddItemToArray(jarr, jobj);
 ```
 
-#### 3. Convert Json to a string
+#### 3. Convert Json Object to a string
 
 ```c
 char* jsonStr = cJSON_Print(jobj);
 ```
+
+#### 4. Parse a string to Json Object
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
