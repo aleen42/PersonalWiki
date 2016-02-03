@@ -4,7 +4,7 @@
 
 #### Useage
 
-
+- **Image** Class has provided the method *detectSquare*, and print the image when giving a boolean value **true**.
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
