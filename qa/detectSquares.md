@@ -7,14 +7,15 @@
 - **Image** Class has provided the method *detectSquare*, and print the image when giving a boolean value **true**.
 
 ```cpp
+/* new an instance for Image */
 Image img = Image();
 
-	img.readImage(imagePath);
+img.readImage(imagePath);
 
-	img.detectSquare(DEBUG);
+img.detectSquare(DEBUG);
 
-	img.showImage();
-}
+img.showImage();
+
 ```
 
 
