@@ -9,6 +9,7 @@
 ## Start Reading
 
 - Read on [**GitBook**](https://www.gitbook.com/read/book/aleen42/personalwiki)
+- Downloads: [**PDF**](https://www.gitbook.com/download/pdf/book/aleen42/personalwiki), [**ePub**](https://www.gitbook.com/download/epub/book/aleen42/personalwiki), [**mobi**](https://www.gitbook.com/download/mobi/book/aleen42/personalwiki)
 
 ### Coder
  * [**Programming Language**](./Programming/ProgrammingMenu.md)
