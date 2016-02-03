@@ -4,7 +4,7 @@
 
 #### Useage
 
-- **Image** Class has provided the method *detectSquare*, and print the image when giving a boolean value **true**.
+- **Image** Class has provided the method *detectSquare*, and print the line on the image when giving a boolean value **true**.
 
 ```cpp
 /* new an instance for Image */
@@ -15,6 +15,7 @@ img.readImage(imagePath);
 
 /* DEBUG is an marco parameter */
 img.detectSquare(DEBUG);
+
 
 img.showImage();
 
