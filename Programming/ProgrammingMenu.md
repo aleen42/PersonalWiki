@@ -1,4 +1,6 @@
 ## Programming Languages	[Back](./../Readme.md)
+
+* [**C/C++**](./c/c.md)
 * [**C#**](./CSharp/CSharpMenu.md)
 * [**Java**](./Java/Java.md)
 * [**JavaScript**](./JavaScript/JavaScript.md)
