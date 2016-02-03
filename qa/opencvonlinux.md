@@ -1,4 +1,4 @@
-## How to build up Opencv in Linux [Back](./qa.md)
+## How to build up OpenCV in Linux [Back](./qa.md)
 
 - **Ubuntu 14.04** + **OpenCV 3.1.0**
 
