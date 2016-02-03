@@ -22,6 +22,7 @@ cJSON* jarr = cJSON_CreateArray();
 cJSON_AddItemToObject(jobj, "arrName", jarr);
 
 /** add string to obj */
+cJSON_AddStringToObject(jobj, "strName", "string");
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
