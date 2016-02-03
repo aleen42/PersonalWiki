@@ -18,7 +18,9 @@ cJSON* jarr = cJSON_CreateArray();
 #### 2. Add items
 
 ```c
+/** add item to obj */
 cJSON_AddItemToObject(jobj, "arrName", jarr);
+
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
