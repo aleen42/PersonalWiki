@@ -11,7 +11,7 @@
 #### Create Json Object/Array
 
 ```c
-cJSON* jobj = 
+cJSON* jobj = cJSON_CreateObject();
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
