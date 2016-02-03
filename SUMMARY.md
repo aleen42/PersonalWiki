@@ -250,6 +250,7 @@
         * [How to build up Opencv on Linux](./qa/opencvonlinux.md)
         * [How to make a smart picture showing with css ](./qa/smartPic.md)
         * [How to see logs of crontab in Ubuntu](./qa/crontablog.md)
+        * [How to detect squares in an image with OpenCV](./qa/detectSquares.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
         * [Differences between URL, URI and URN](./qa/url_uri.md)
