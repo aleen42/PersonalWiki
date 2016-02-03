@@ -47,7 +47,6 @@ char* jsonStr = cJSON_Print(jobj);
 
 - *Note: remember to free after using*
     ```c
-/** remember to free the string return */
 free(jsonStr);
     ```
 
