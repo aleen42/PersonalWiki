@@ -6,5 +6,16 @@
 
 - **Image** Class has provided the method *detectSquare*, and print the image when giving a boolean value **true**.
 
+```cpp
+Image img = Image();
+
+	img.readImage(imagePath);
+
+	img.detectSquare(DEBUG);
+
+	img.showImage();
+}
+```
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
