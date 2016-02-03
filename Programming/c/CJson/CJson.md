@@ -65,7 +65,7 @@ cJSON* pobj = cJSON_GetObjectItem(proot, "arrName");
  * Array
  */
  
-/** get array item */
+/** get array item i */
 cJSON* parr = cJSON_GetArrayItem(jarr, i);
 ```
 
