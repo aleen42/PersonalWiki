@@ -1,6 +1,6 @@
-## CJson [Back](./../c.md)
+## cJSON [Back](./../c.md)
 
-- CJson is a c/c++ lib for **creating** json or **parsing** json.
+- cJSON is a c/c++ lib for **creating** json or **parsing** json.
 
 #### Include lib
 
