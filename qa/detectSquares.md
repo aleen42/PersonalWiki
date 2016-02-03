@@ -10,6 +10,7 @@
 /* new an instance for Image */
 Image img = Image();
 
+/* read the image which is to be detected by giving the path */
 img.readImage(imagePath);
 
 img.detectSquare(DEBUG);
