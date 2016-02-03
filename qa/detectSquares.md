@@ -16,7 +16,7 @@ img.readImage(imagePath);
 /* DEBUG is an marco parameter */
 img.detectSquare(DEBUG);
 
-
+/* show the image */
 img.showImage();
 
 ```
