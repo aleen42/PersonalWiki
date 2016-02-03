@@ -60,6 +60,8 @@ cJSON* proot = cJSON_Parse(jsonStr);
  
 /** get object item */
 cJSON* pobj = cJSON_GetObjectItem(proot, "arrName");
+string strValue = cJSON_GetObjectItem(jobj, "strName")->valuestring;
+int numValue = cJSON_GetObjectItem(jobj, "numName")->valueint;
 
 /**
  * Array
