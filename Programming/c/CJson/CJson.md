@@ -73,6 +73,7 @@ cJSON* proot = cJSON_Parse(jsonStr);
 cJSON* pobj = cJSON_GetObjectItem(proot, "arrName");
 string strValue = cJSON_GetObjectItem(jobj, "strName")->valuestring;
 int numValue = cJSON_GetObjectItem(jobj, "numName")->valueint;
+double floatValue = cJSON_GetObjectItem(jobj, "numName")->valuedouble;
 
 /**
  * Array
