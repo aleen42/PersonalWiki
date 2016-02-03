@@ -22,13 +22,13 @@ cJSON* jarr = cJSON_CreateArray();
  * Object
  */
  
-/** add item to obj */
+/** add item to an obj */
 cJSON_AddItemToObject(jobj, "arrName", jarr);
 
-/** add string to obj */
+/** add string to an obj */
 cJSON_AddStringToObject(jobj, "strName", "string");
 
-/** add number to obj */
+/** add number to an obj */
 cJSON_AddNumberToObject(jobj, "numName", 42);
 
 /**
