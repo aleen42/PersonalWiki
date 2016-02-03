@@ -13,6 +13,7 @@ Image img = Image();
 /* read the image which is to be detected by giving the path */
 img.readImage(imagePath);
 
+/* DEBUG is an marco parameter */
 img.detectSquare(DEBUG);
 
 img.showImage();
