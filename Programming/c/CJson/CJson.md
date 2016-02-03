@@ -66,7 +66,7 @@ cJSON* pobj = cJSON_GetObjectItem(proot, "arrName");
  */
  
 /** get array item */
-cJSON* p
+cJSON* parr = cJSON_GetArrayItem(jarr, i);
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
