@@ -43,6 +43,9 @@ cJSON_AddItemToArray(jarr, jobj);
 
 ```c
 char* jsonStr = cJSON_Print(jobj);
+
+/** remember to free the string return */
+free(jsonStr);
 ```
 
 #### 4. Parse a string to Json Object
