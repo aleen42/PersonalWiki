@@ -25,7 +25,7 @@ cJSON_AddItemToObject(jobj, "arrName", jarr);
 cJSON_AddStringToObject(jobj, "strName", "string");
 
 /** add number to obj */
-
+cJSON_AddNumberToObject(jobj, "numName", 42);
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
