@@ -50,6 +50,6 @@
 	- [**Kenya Hara**](./kenyahara/kenyahara.md)
 
 ### Job
-- [**Note**](./summary/summary.md)
+- [**Summary**](./summary/summary.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
