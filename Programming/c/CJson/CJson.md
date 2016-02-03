@@ -39,6 +39,12 @@ cJSON_AddNumberToObject(jobj, "numName", 42);
 cJSON_AddItemToArray(jarr, jobj);
 ```
 
+- *Note: remember to delete after using*
+    ```c
+    cJSON_Delete(jobj);
+    cJSON_Delete(jarr);
+    ```
+
 #### 3. Convert Json Object to a string
 
 ```c
