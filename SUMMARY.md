@@ -247,7 +247,7 @@
         * [How PGP encryption works](./qa/pgp.md)
         * [How to setup Dlib in the Visual Studio 2013](./qa/dlib.md)
         * [How to use Gitbook to write something](./qa/gitbook.md)
-        * [How to build up Opencv on Linux](./qa/opencvonlinux.md)
+        * [How to build up OpenCV on Linux](./qa/opencvonlinux.md)
         * [How to make a smart picture showing with css ](./qa/smartPic.md)
         * [How to see logs of crontab in Ubuntu](./qa/crontablog.md)
         * [How to detect squares in an image with OpenCV](./qa/detectSquares.md)
