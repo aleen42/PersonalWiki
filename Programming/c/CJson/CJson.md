@@ -2,7 +2,7 @@
 
 - CJson is a c/c++ lib for **creating** json or **parsing** json.
 
-#### Create Json Object
+#### Create Json Object/Array
 
 
 
