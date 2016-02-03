@@ -47,4 +47,8 @@ char* jsonStr = cJSON_Print(jobj);
 
 #### 4. Parse a string to Json Object
 
+```c
+cJSON* proot = cJSON_Parse(jsonStr);
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
