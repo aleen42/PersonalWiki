@@ -67,6 +67,9 @@ cJSON* pobj = cJSON_GetObjectItem(proot, "arrName");
  
 /** get array item i */
 cJSON* parr = cJSON_GetArrayItem(jarr, i);
+
+/** get array size */
+int arrSize = cJSON_GetArraySize(jarr);
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
