@@ -31,10 +31,6 @@ cJSON_AddStringToObject(jobj, "strName", "string");
 /** add number to an obj */
 cJSON_AddNumberToObject(jobj, "numName", 42);
 
-/** add bool to an obj */
-/** true for 1*/
-cJSON_AddBoolToObject(jobj, "boolName", 1);
-
 /**
  * Array
  */
