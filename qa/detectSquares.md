@@ -18,7 +18,6 @@ img.detectSquare(DEBUG);
 
 /* show the image */
 img.showImage();
-
 ```
 
 
