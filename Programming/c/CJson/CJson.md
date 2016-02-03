@@ -34,6 +34,8 @@ cJSON_AddNumberToObject(jobj, "numName", 42);
 /**
  * Array
  */
+ 
+/** add obj to an array */
 cJSON_AddItemToArray(jarr, jobj);
 ```
 
