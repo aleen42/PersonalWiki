@@ -59,7 +59,14 @@ cJSON* proot = cJSON_Parse(jsonStr);
  */
  
 /** get object item */
-cJSON* parr = cJSON_GetObjectItem(proot, "arrName");
+cJSON* pobj = cJSON_GetObjectItem(proot, "arrName");
+
+/**
+ * Array
+ */
+ 
+/** get array item */
+cJSON* p
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
