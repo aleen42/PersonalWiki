@@ -85,6 +85,7 @@
 #### Bloom Filter
 
 - Bloom Filter is a random data structure, saving huge space by sacrificing precision. (This structure cannot be applied to applications which are sensitive to accuracy.)
+- In Cassandra, each key-value pair will use one byte to complete Bloom Filt
 - Read more details in [Wikipedia](https://en.wikipedia.org/wiki/Bloom_filter)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
