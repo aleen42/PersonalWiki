@@ -65,7 +65,7 @@
         - AsciiType
         - Column name
 
-#### Partition Strategics
+#### Partition Strategies
 
 - In Cassandra, **Token** is the key point for partitions, and there is a unique token for each node, describing the range of data in which. All the tokens will be stored as a ring, and use hash value to calculate.
 - There are 3 strategics for partitions in Cassandra:
@@ -85,7 +85,12 @@
 #### Bloom Filter
 
 - Bloom Filter is a random data structure, saving huge space by sacrificing precision. (This structure cannot be applied to applications which are sensitive to accuracy.)
-- In Cassandra, each key-value pair will use one byte to complete Bloom Filt
+- In Cassandra, each key-value pair will use one byte to complete Bloom Filter.
 - Read more details in [Wikipedia](https://en.wikipedia.org/wiki/Bloom_filter)
+
+#### Storage Strategies
+
+- In Cassandra, data willl be stored in the local file system of each node with 3 strategic to copy data:
+    - Simple Strategy() 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
