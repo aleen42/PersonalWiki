@@ -101,8 +101,9 @@
     - SSTable: it's read-only and one CF will be corresponding with several SSTable. Bloom Filter will be used to justify which SSTable the key belongs to.
         - Compaction used in Cassandra:
             - Garbage Collect: delete the data which is really signed.
-            - 
-
+            - Merge SSTable in the same CF.
+            - Generate a Merkle Tree.
+- Read more details in [IBM documents](http://www.ibm.com/developerworks/cn/opensource/os-cn-cassandraxu2)
 
 #### Sniffing(嗅探)
 
