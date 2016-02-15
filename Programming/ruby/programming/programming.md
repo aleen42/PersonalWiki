@@ -52,6 +52,10 @@ puts '5 * 5' # => 5 * 5
 ```rb
 let = 'variables'
 puts let
+
+# variables can point to any kind of object
+let = 5 * (1 + 2)
+puts let
 ```
 
 
