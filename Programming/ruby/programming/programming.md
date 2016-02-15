@@ -142,7 +142,11 @@ else
 end
 
 # Looping
-
+commands = gets.chomp
+whild commands != 'exit'
+    puts commands
+    command = gets.chomp
+end
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
