@@ -23,6 +23,7 @@ iii. Downloads latest stable version:
 - Configure your installation by typing  `./configure --prefix=$HOME`). Next type `make`, which will build your Ruby interpreter. This might take a few minutes. After that is done, type  `make install` to install it.
 - *Notice: it takes some time to complete make process.*
 
+<img src="cost.png">
 
 #### Windows Installation
 
