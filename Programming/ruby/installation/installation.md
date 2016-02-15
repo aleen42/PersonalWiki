@@ -19,6 +19,7 @@ sudo apt-get install ruby
 iii. Downloads latest stable version:
 
 - **Ruby** [downloads](https://www.ruby-lang.org/en/downloads/)
+- Use `tar -zxvf` to uncompress the package.
 - Configure your installation by typing  `./configure --prefix=$HOME`). Next type `make`, which will build your Ruby interpreter. This might take a few minutes. After that is done, type  `make install` to install it.
 
 
