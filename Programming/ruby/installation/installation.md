@@ -4,13 +4,13 @@
 
 1. To see whether you have installed before:
 
-```
+```sh
 ruby
 ```
 
 2. Install by apt-get when it notify to install:
 
-```
+```sh
 sudo apt-get install ruby
 ```
 
