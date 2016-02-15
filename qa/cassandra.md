@@ -71,5 +71,6 @@
 - There are 3 strategics for partitions in Cassandra:
     - Random Partitioner:
         - Token will be a BitInteger(0 ~ 2<sup>127</sup>), mapped with hash. (In Cassandra, it will take a 128 bits MD5 absolute value, which contains a sign bit)
+        - In a in-extreme(極端的) situation, 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
