@@ -83,4 +83,15 @@ puts '15'.to_f # => 15.0
 puts '99.99'.to_i # => 99
 ```
 
+#### Methods
+
+```rb
+# In Ruby, operators like +, * is just a shortcut way of .+, .*.
+puts 'What\'s ' + 'up'
+puts 'What\'s '.+ 'up'
+
+puts `pig` * 5
+# Ruby cannot run puts 5 * `pigs`, because 5 cannot identify to copy 'pig' for 5 times.
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
