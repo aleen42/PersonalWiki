@@ -42,8 +42,11 @@
 {
     /** this is a SuperColumn */
     name: "addresses"
-    value: "aleen42@vip.qq.com"
-    timestamp: 1455517240
+    value: {
+        street: { name: "street", value: "xxx xxx xxx Road", timestamp: 1455517515 },
+        city: { name: "city", value: "Foshan", timestamp: 1455517515 },
+        zip: { name: "zip", value: "528031", timestamp: 1455517515 }
+    }
 }
 ```
 
