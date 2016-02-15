@@ -95,4 +95,8 @@
     - OldNetwork Topology Strategy(RackAware Strategy): one copy will be saved in a different node, while other **N - 2** copies will be saved in other machines in the same node.
     - Network Topology Strategy: M copies will be saved in different nodes, while **N - M - 1** copies will be saved in different machines of the same node.
 
+#### Sniffing(嗅探)
+
+- 
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
