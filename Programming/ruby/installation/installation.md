@@ -36,6 +36,10 @@ sudo vim ~/.bashrc
 export PATH=${HOME}/bin:$PATH
 ```
 
+- *Notice: log out and login again to check*
+
+v
+
 #### Windows Installation
 
 - To download [**Ruby**](https://www.ruby-lang.org/en/downloads/). 
