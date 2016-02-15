@@ -57,5 +57,12 @@
     - Configurable:
         - Set `CompareWith` Attribute (Column Family)
         - Set CompareSubColumnsWith (SuperColumn Family)
+    - Value for configuration:
+        - BytesType
+        - UTF8Type
+        - LexicalUUIDType
+        - TimeUUIDType
+        - AsciiType
+        - Column name
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
