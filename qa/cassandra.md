@@ -109,4 +109,6 @@ are both configured in the configuration file, **cassandra-topology.properties**
 
 <img src="./cassandra_consistency.png">
 
+- *Notice: the level of consistenc depends on the number of copies instead of the number of nodes.*
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
