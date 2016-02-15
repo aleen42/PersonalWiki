@@ -11,6 +11,7 @@
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
+- [**What is Cassandra**](./cassandra.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
