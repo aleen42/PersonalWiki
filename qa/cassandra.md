@@ -97,6 +97,6 @@
 
 #### Sniffing(嗅探)
 
-- 
+- Sniffin is mainly used to calculate the distance between different host to tell Cassandra what the topology looks like.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
