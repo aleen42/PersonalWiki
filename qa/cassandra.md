@@ -98,6 +98,7 @@
 #### Sniffing(嗅探)
 
 - Sniffin is mainly used to calculate the distance between different host to tell Cassandra what the topology looks like. There are 3 strategies to configurate:
-    - org.apache.cassandra.locator.SimpleSnitch：logical distance(the difference between Cassandra Ring)
+    - org.apache.cassandra.locator.SimpleSnitch: logical distance(the difference between Cassandra Ring)
+    - org.apache.cassandra.locator.RackInferringSnitch: the distance depends on rack(the third 8 bits in IP) and data center(the second 8 bits in IP) 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
