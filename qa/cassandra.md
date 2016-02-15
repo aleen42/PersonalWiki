@@ -118,7 +118,7 @@ are both configured in the configuration file, **cassandra-topology.properties**
 - R: means the minimum of nodes which is successful to read once
 - W: means the minimum of nodes which is successful to write once
 - In Quorum, consistency will be strong when **W + R > N**, but availability will be low.
-- In Quorum, consistency will be weak when **W + R <= N**, but availability will be high. (This will be used in generally when eventual consistency is guaranteed)
+- In Quorum, consistency will be weak when **W + R <= N**, but availability will be high. (This will be used generally when eventual consistency is guaranteed)
 
 - In Cassandra, 
 
