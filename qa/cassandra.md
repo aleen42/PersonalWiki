@@ -80,7 +80,7 @@
     - Collating Order Preserving Partitioner(ordered):
         - Token will be a byte.
         - Configurable sorting in different languages(**en_US** by default)
-- Partition strategics and Token(including Initial Token) can be set in the file **storage-conf.xml**.
+- Partition strategies and Token(including Initial Token) can be set in the file **storage-conf.xml**.
 
 #### Bloom Filter
 
