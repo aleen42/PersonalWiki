@@ -129,4 +129,10 @@ puts Math.cos(Math::PI / 3) # => 0.5000000000000001
 
 #### Flow Control
 
+```rb
+# Comparision Method
+puts 1 > 2 # => false
+puts 1 < 2 # => true
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
