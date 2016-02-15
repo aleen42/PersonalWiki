@@ -102,7 +102,10 @@ let1 = 'stop'
 puts let1.reverse # => pots
 
 let2 = 'Aleen'
-puts 'There're ' + let2.length.to_s + ' characters in ' + let2
+puts 'There\'re ' + let2.length.to_s + ' characters in ' + let2
+
+letters = 'aAbBcCdDeE'
+puts letters.upcase # => AABBCCDDEE
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
