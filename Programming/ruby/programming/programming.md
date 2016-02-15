@@ -1,14 +1,18 @@
 ## Programming [Back](./../ruby.md)
 
-#### IO prints
+#### IO Operations
 
-- to use `puts` to simply writes onto the screen whatever comes after it.
+- To use `puts` to simply writes onto the screen whatever comes after it.
+- To use `gets` to get words form the keyboard.
 
 ```rb
 puts 1 + 2 
 
 # same as the above one
 puts 3
+
+# output what input
+puts gets
 ```
 
 #### Integers and Float
