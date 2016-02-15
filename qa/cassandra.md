@@ -123,6 +123,6 @@ are both configured in the configuration file, **cassandra-topology.properties**
 - In Cassandra, there are 4 methodologies to ensure eventual consistency:
     - Anti-Entropy(逆熵): the mothod used to check consistency called [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree).
     - Read Repair: repair in the case that finding it's not consistent when reading data from key A and all the copies of key A.
-    - 
+        - ONE: return a recent copy immediatly, and repair in the background. (The first data you read will not be the newest one)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
