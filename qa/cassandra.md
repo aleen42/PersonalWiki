@@ -77,5 +77,8 @@
         - Token will be a string.
         - It depends on the key to certain which nodes to be choosen
         - *Notice: without InitialToken, system will take a 16 bits random strings which contain numbers and alphabets as the token.*
+    - Collating Order Preserving Partitioner(ordered):
+        - Token will be a byte.
+        - Configurable sorting in different languages(**en_US** by default)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
