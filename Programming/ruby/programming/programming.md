@@ -147,6 +147,11 @@ whild commands != 'exit'
     puts commands
     command = gets.chomp
 end
+
+# Logicial Operations
+puts true and false
+puts true or false
+puts not true
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
