@@ -22,4 +22,17 @@
             - Unmodifiable SSTable files
         - Integrated **Hadoop**
 
+#### Data Model
+
+- Column: the minimum components of a data, and it's composed of **Name**, **Value**, and **Timestamp**.
+
+```json
+{
+    /** this is a column */
+    name: "email"
+    value: "aleen42@vip.qq.com"
+    timestamp: 1455517240
+}
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
