@@ -97,6 +97,7 @@
     - Network Topology Strategy: M copies will be saved in different nodes, while **N - M - 1** copies will be saved in different machines of the same node.
 - Storage mechanisms:
     - Commit Log: Cassandra will log records when writing data like HBase.
+    - Memtable: 
 
 
 #### Sniffing(嗅探)
