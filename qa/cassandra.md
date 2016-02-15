@@ -7,6 +7,6 @@
     - Dynamo:
         - 對稱P2P架構
             - 無特殊節點(無單點失效缺陷)
-        - 
+        - 基於Gossip的分佈式管理
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
