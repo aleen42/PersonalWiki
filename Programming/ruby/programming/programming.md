@@ -49,4 +49,10 @@ puts '5 * 5' # => 5 * 5
 
 #### Variables and Assignments
 
+```rb
+let = 'variables'
+puts let
+```
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
