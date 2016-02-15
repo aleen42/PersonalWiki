@@ -30,9 +30,9 @@
 
 ```json
 {
-    name: "email",
-    value: "aleen42@vip.qq.com",
-    timestamp: 1455517240
+    "name": "email",
+    "value": "aleen42@vip.qq.com",
+    "timestamp": 1455517240
 }
 ```
 
