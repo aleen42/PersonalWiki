@@ -109,6 +109,10 @@ puts letters.upcase # => AABBCCDDEE
 puts letters.downcase # => aabbccddee
 puts letters.swapcase # => AaBbCcDdEe
 puts letters.capitalize # => Aabbccddee
+
+let3 = 'Alien'
+lineWidth = 50
+puts let3.center(lineWidth)
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
