@@ -65,4 +65,8 @@
         - AsciiType
         - Column name
 
+#### Partition Strategics
+
+- In Cassandra, **Token** is the key point for partitions, and there is a unique token for each node, describing the range of data in which.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
