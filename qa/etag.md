@@ -10,6 +10,4 @@
 	- 弱校驗: 只要求兩個資源語義上相同(如服務器動態生成的內容) ```W/"123456789"```
 - ETag可用於檢測: 因為ETag由瀏覽器保存, 切訪問統一資源時返回. 追蹤服務器可重複設定任何從瀏覽器返回的ETag, 以保持ETag不變, 相當於Cookie. [**Help**](http://www.arctic.org/~dean/tracking-without-cookies.html)
 
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
