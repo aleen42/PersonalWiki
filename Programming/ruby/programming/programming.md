@@ -96,6 +96,10 @@ self.puts 'What?'
 
 puts `pig` * 5
 # Ruby cannot run puts 5 * `pigs`, because 5 cannot identify to copy 'pig' for 5 times.
+
+# Some string methods
+let1 = 'stop'
+puts let1.reverse
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
