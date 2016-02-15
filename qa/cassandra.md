@@ -5,7 +5,7 @@
 - **Cassandra** is a ideal database used for social network. It combines **Dynamo** of *Amazon* with **BitTable** of *Google*, which is based on Column Family(列簇).
 - Some characteristics from:
     - Dynamo:
-        - 對稱P2P架構
+        - symmetric(對稱的) P2P framework
             - 無特殊節點(無單點失效缺陷)
         - 基於Gossip的分佈式管理
 
