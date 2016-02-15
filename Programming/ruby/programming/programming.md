@@ -133,6 +133,13 @@ puts Math.cos(Math::PI / 3) # => 0.5000000000000001
 # Comparision Method
 puts 1 > 2 # => false
 puts 1 < 2 # => true
+
+# Branching
+if name == 'Aleen'
+    puts 'Hello, ' + name + '!'
+else
+    puts 'Who are you, ' + name + '?'
+end
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
