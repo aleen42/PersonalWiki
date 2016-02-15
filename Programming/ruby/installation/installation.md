@@ -5,7 +5,13 @@
 1. To see whether you have installed before:
 
 ```
-which ruby
+ruby
+```
+
+2. Install by apt-get when it notify to install:
+
+```
+sudo apt-get install ruby
 ```
 
 #### Windows Installation
