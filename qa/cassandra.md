@@ -67,7 +67,7 @@
 
 #### Partition Strategics
 
-- In Cassandra, **Token** is the key point for partitions, and there is a unique token for each node, describing the range of data in which.
+- In Cassandra, **Token** is the key point for partitions, and there is a unique token for each node, describing the range of data in which. All the tokens will be stored as a ring, and use hash value to calculate.
 - There are 3 strategics for partitions in Cassandra:
     - Random Partitioner
 
