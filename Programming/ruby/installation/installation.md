@@ -16,6 +16,10 @@ sudo apt-get install ruby
 
 *Notice: you should upgrade when its version is older than the latest stable version.*
 
+iii. Downloads latest stable version:
+
+- **Ruby** [downloads](https://www.ruby-lang.org/en/downloads/)
+
 
 
 #### Windows Installation
