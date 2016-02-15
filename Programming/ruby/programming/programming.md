@@ -124,7 +124,7 @@ puts srand(1776) # => 24
 # Math Object
 puts Math::PI
 puts Math::E
-puts Math.cos(Math::PI / 3) => 0.5000000000000001
+puts Math.cos(Math::PI / 3) # => 0.5000000000000001
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
