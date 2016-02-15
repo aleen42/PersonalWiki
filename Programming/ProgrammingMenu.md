@@ -7,6 +7,7 @@
 * [**SVG**](./SVG/SVG.md)
 * [**CSS**](./CSS/CSS.md)
 * [**HTML**](./HTML/HTML.md)
+* [**Ruby**](./ruby/ruby.md)
 * [**PHP**](./PHP/PHP.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
