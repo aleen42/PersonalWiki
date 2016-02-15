@@ -87,8 +87,8 @@ puts '99.99'.to_i # => 99
 
 ```rb
 # In Ruby, operators like +, * is just a shortcut way of .+, .*.
-puts 'What\'s ' + 'up'
-puts 'What\'s '.+ 'up'
+puts 'What\'s ' + 'up?'
+puts 'What\'s '.+ 'up?'
 
 # puts is really also a shortcut way
 puts 'What?'
