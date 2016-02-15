@@ -31,4 +31,16 @@ puts 3
 0.0
 ```
 
+#### Letter
+
+```rb
+puts 'Hello, Aleen!'
+```
+
+- String Arithmetic
+
+```rb
+puts 'Hello, ' + 'Aleen!'
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
