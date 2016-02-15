@@ -140,6 +140,9 @@ if name == 'Aleen'
 else
     puts 'Who are you, ' + name + '?'
 end
+
+# Looping
+
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
