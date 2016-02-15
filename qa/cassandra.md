@@ -96,8 +96,8 @@
     - OldNetwork Topology Strategy(RackAware Strategy): one copy will be saved in a different node, while other **N - 2** copies will be saved in other machines in the same node.
     - Network Topology Strategy: M copies will be saved in different nodes, while **N - M - 1** copies will be saved in different machines of the same node.
 - Storage mechanisms:
-    - Commit Log: Cassandra will log records when writing data like HBase. After logging, data will be written into memtable and flushed into the SSTable, which is read only once written into.
-    - Memtable: 
+    - Commit Log: Cassandra will log records when writing data like HBase. After logging, data will be written into memtable and flushed into the SSTable, which is read only once written into. (*In Cassandra, there is no random write*)
+    - Memtable: when data has reached the size of a block, it will be flushed into the disk, and stored as SSTable.
 
 
 #### Sniffing(嗅探)
