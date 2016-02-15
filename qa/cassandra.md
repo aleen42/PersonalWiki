@@ -24,7 +24,7 @@
 
 #### Data Model
 
-- Column: the minimum components of a data, and it's composed of **Name**, **Value**, and **Timestamp**.
+- **Column**: the minimum components of a data, and it's composed of **Name**, **Value**, and **Timestamp**.
 - *Notice: name and value should be byte[], which a string of any length.*
 
 ```json
@@ -36,7 +36,7 @@
 }
 ```
 
-- SuperColumn: the name is same as Column, while the value is a set of columns. In additionally, they don't have timestamps.
+- **SuperColumn**: the name is same as Column, while the value is a set of columns. In additionally, they don't have timestamps.
 
 ```json
 {
@@ -50,5 +50,7 @@
     }
 }
 ```
+
+- Both **SuperColumn Family** and **Column Family** describe a set of SuperColumn and Column.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
