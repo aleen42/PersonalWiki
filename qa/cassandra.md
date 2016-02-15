@@ -19,7 +19,7 @@
             - configurable, 2-levels maps, super column family
         - SSTable
             - Append-only commit log
-            - Mentable(buffer and sort)
+            - Memtable(buffer and sort)
             - Unmodifiable SSTable files
         - Integrated **Hadoop**
 
