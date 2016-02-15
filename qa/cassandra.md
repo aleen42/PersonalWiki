@@ -55,7 +55,7 @@
 - Sorting:
     - *Notice: in Cassandra, data is sorted by Column name by default.*
     - Configurable:
-        - Set `CompareWith` Attribute (Column)
-        - Set CompareSubColumnsWith (SuperColumn)
+        - Set `CompareWith` Attribute (Column Family)
+        - Set CompareSubColumnsWith (SuperColumn Family)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
