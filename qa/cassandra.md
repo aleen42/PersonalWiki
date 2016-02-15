@@ -105,7 +105,7 @@ are both configured in the configuration file, **cassandra-topology.properties**
 
 #### Consistency
 
-- Eventual Consistency is used in Cassandra.
+- Eventual Consistency is used in Cassandra. Users can choose different level of consistency to use.
 
 <img src="./cassandra_consistency.png">
 
