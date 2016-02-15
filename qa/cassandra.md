@@ -11,7 +11,7 @@
         - Store data with distributed hash tables.
             - pluggable partition(可插拔分區)
             - pluggable topologies(可插拔拓撲)
-            - pluggable store strategics(可插拔存放策略)
+            - pluggable store strategies(可插拔存放策略)
         - Configurable(consistency)
     - **BigTable**:
         - Column Family Data Model
