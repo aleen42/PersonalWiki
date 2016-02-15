@@ -106,6 +106,9 @@ puts 'There\'re ' + let2.length.to_s + ' characters in ' + let2
 
 letters = 'aAbBcCdDeE'
 puts letters.upcase # => AABBCCDDEE
+puts letters.downcase # => aabbccddee
+puts letters.swapcase # => AaBbCcDdEe
+puts letters.capitalize # => Aabbccddee
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
