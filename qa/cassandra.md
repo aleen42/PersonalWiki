@@ -12,7 +12,7 @@
             - pluggable partition(可插拔分區)
             - pluggable topologies(可插拔拓撲)
             - pluggable store strategies(可插拔存放策略)
-        - Configurable(consistency)
+        - Configurable(eventual consistency)
     - **BigTable**:
         - Column Family Data Model
             - configurable, 2-levels maps, super column family
@@ -102,5 +102,11 @@
     - org.apache.cassandra.locator.RackInferringSnitch: the distance depends on rack(the third 8 bits in IP) and data center(the second 8 bits in IP)
     - org.apache.cassandra.locator.PropertyFileSnitch: the distance depends on rack and data center, which
 are both configured in the configuration file, **cassandra-topology.properties**.
+
+#### Consistency
+
+- Eventual Consistency is used in Cassandra.
+
+<img src="./cassandra_consistency.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
