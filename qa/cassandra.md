@@ -113,8 +113,8 @@ are both configured in the configuration file, **cassandra-topology.properties**
 
 ###### Quorum NRW
 
-- N: means the number of copies
-- R: means the minimun of nodes which is successful to read
-- W: means the minimun of nodes which is successful to write
+- N: means the number of copies once
+- R: means the minimum of nodes which is successful to read once
+- W: means the minimum of nodes which is successful to write once
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
