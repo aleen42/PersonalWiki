@@ -99,7 +99,10 @@ puts `pig` * 5
 
 # Some string methods
 let1 = 'stop'
-puts let1.reverse
+puts let1.reverse # => pots
+
+let2 = 'Aleen'
+puts 'There're ' + let2.length.to_s + ' characters in ' + let2
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
