@@ -40,7 +40,7 @@
 
 ```json
 {
-    "name": "addresses"
+    "name": "addresses",
     "value": {
         "street": { "name": "street", "value": "xxx xxx xxx Road", "timestamp": 1455517515 },
         "city": { "name": "city", "value": "Foshan", "timestamp": 1455517515 },
