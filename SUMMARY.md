@@ -256,6 +256,7 @@
         * [How to detect squares in an image with OpenCV](./qa/detectSquares.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
+        * [What is Cassandra](./qa/cassandra.md)
         * [Differences between URL, URI and URN](./qa/url_uri.md)
 - Idols
     * [Sara Soueidan](http://sarasoueidan.com/)
