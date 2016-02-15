@@ -1,1 +1,0 @@
-[Installation](./Programming/ruby/installation/installation.md)
