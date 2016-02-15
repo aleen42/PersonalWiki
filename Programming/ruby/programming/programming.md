@@ -4,6 +4,7 @@
 
 - To use `puts` to simply writes onto the screen whatever comes after it.
 - To use `gets` to get words form the keyboard.
+- To use `chomp` to take off the line break.
 
 ```rb
 puts 1 + 2 
@@ -13,6 +14,13 @@ puts 3
 
 # output what input
 puts gets
+
+# comparition with chmop
+let name = gets
+puts 'Hello, ' + name + ', is that OK?'
+
+let name = gets.chomp
+puts 'Hello, ' + name + ', is that OK?'
 ```
 
 #### Integers and Float
