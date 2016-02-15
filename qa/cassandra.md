@@ -113,7 +113,7 @@ are both configured in the configuration file, **cassandra-topology.properties**
 
 ###### Quorum NRW
 
-- N: means the number of copies once(In generally, **N > 3** in a distributed system to ensure error tolerance)
+- N: means the number of copies once(In generally, **N > 3** in a distributed system to ensure fault-tolerance)
 - R: means the minimum of nodes which is successful to read once
 - W: means the minimum of nodes which is successful to write once
 - In Quorum, consistency will be strong when **W + R > N**, but availability will be low.
