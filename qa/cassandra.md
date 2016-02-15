@@ -6,7 +6,7 @@
 - Some characteristics from:
     - Dynamo:
         - symmetric(對稱的) P2P framework
-            - 無特殊節點(無單點失效缺陷)
+            - Without special node(solving the problem of SPOF(單點失效))
         - 基於Gossip的分佈式管理
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
