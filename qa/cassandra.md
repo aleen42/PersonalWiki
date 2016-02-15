@@ -1,5 +1,7 @@
 ## What is Cassandra [Back](./qa.md)
 
+<img src="./cassandra_logo.png">
+
 <img src="./cassandra_banner.jpg">
 
 - **Cassandra** is a ideal database used for social network. It combines **Dynamo** of *Amazon* with **BitTable** of *Google*, which is based on Column Family(列簇).
