@@ -69,6 +69,7 @@
 
 - In Cassandra, **Token** is the key point for partitions, and there is a unique token for each node, describing the range of data in which. All the tokens will be stored as a ring, and use hash value to calculate.
 - There are 3 strategics for partitions in Cassandra:
-    - Random Partitioner
+    - Random Partitioner:
+        - Token will be a BitInteger(0 ~ 2<sup>127</sup>), mapped with hash. (In Cassandra, it will take a 128 bits MD5 absolute value, which contains a sign bit)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
