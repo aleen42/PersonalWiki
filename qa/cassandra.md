@@ -18,7 +18,7 @@
             - configurable, 2-levels maps, super column family
         - SSTable
             - Append-only commit log
-            - Men-table(buffer and sort)
-            - 
+            - Mentable(buffer and sort)
+            - Unmodifiable SSTable files
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
