@@ -58,5 +58,16 @@ let = 5 * (1 + 2)
 puts let # => 15
 ```
 
+#### Conversion
+
+```rb
+let1 = 2
+let2 = '5'
+
+puts let1 + let2 # It will go wrong
+puts let1.to_s + let2 # => 25
+
+
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
