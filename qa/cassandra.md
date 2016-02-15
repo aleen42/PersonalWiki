@@ -12,5 +12,6 @@
             - pluggable partition(可插拔分區)
             - pluggable topologies(可插拔拓撲)
             - pluggable store strategics(可插拔存放策略)
+        - Configurable(consistency)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
