@@ -2,8 +2,6 @@
 
 <img src="./cassandra_logo.png">
 
-<img src="./cassandra_banner.jpg">
-
 - **Cassandra** is a ideal database used for social network. It combines **Dynamo** of *Amazon* with **BitTable** of *Google*, which is based on Column Family(列簇).
 - Official Suggestion: The Apache Cassandra database is the right choice when you need scalability(可擴展性) and high availability without compromising performance.
 - Some characteristics:
