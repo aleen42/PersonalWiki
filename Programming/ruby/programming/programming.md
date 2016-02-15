@@ -40,7 +40,13 @@ puts 'Hello, Aleen!'
 - String Arithmetic
 
 ```rb
-puts 'Hello, ' + 'Aleen!'
+puts 'Hello, ' + 'Aleen!' # => Hello, Aleen!
+
+puts 5 * 5 # => 20
+puts '5' * 5 # => 55555
+puts '5 * 5' # => 5 * 5
 ```
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
