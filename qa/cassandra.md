@@ -52,5 +52,10 @@
 ```
 
 - Both **SuperColumn Family** and **Column Family** describe a set of SuperColumn and Column.
+- Sorting:
+    - *Notice: in Cassandra, data is sorted by Column name by default.*
+    - Configurable:
+        - Set `CompareWith` Attribute (Column)
+        - Set CompareSubColumnsWith (SuperColumn)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
