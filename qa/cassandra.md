@@ -125,5 +125,6 @@ are both configured in the configuration file, **cassandra-topology.properties**
     - Read Repair: repair in the case that finding it's not consistent when reading data from key A and all the copies of key A.
         - ONE: return a recent copy immediately, and repair in the background. (The first data you read will not be the latest one)
         - QUORUM: return a copy when there is no problems after checking more than half of all copies, and check remain copies and repair if neccessary in the background.
+        - ALL: return a copy when there is no problems after checking all.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
