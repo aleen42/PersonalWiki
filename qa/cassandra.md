@@ -82,4 +82,8 @@
         - Configurable sorting in different languages(**en_US** by default)
 - Partition strategics and Token(including Initial Token) can be set in the file **storage-conf.xml**.
 
+#### Bloom Filter
+
+- Bloom Filter is a random data structure, saving huge space by sacrificing precision
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
