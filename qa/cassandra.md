@@ -42,6 +42,7 @@
 {
     /** this is a SuperColumn */
     name: "addresses"
+    /** the value can contains infinite Columns */
     value: {
         street: { name: "street", value: "xxx xxx xxx Road", timestamp: 1455517515 },
         city: { name: "city", value: "Foshan", timestamp: 1455517515 },
