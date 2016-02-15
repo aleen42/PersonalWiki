@@ -124,9 +124,9 @@ are both configured in the configuration file, **cassandra-topology.properties**
     - Anti-Entropy(逆熵): the mothod used to check consistency called [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree).
     - Read Repair: repair in the case that finding it's not consistent when reading data from key A and all the copies of key A.
         - ONE: return a recent copy immediately, and repair in the background. (The first data you read will not be the latest one)
-        - QUORUM: return a copy when there is no problems after checking more than half of all copies, and check remaining copies and repair if necessar in the background.
+        - QUORUM: return a copy when there is no problems after checking more than half of all copies, and check remaining copies and repair if necessary in the background.
         - ALL: return a copy when there is no problems after checking all.
     - Hinted Handoff(提示提交): write to a relay node when the target is offline, and the relay node will wait for the target to complete writing.
-    - Distributed Delete: Cassandra will sign a hint to the object which is deleted by other nodes
+    - Distributed Delete: Cassandra will sign a hint to the object which is deleted by other nodes, and this object will be collected when doing Garbage Collect at the fixed time.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
