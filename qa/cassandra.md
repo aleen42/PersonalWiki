@@ -36,4 +36,6 @@
 }
 ```
 
+- SuperColumn: the name is same as Column, while the value is a set of columns. In additionally, they don't have timestamps.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
