@@ -120,6 +120,6 @@ are both configured in the configuration file, **cassandra-topology.properties**
 - In Quorum, consistency will be strong when **W + R > N**, but availability will be low.
 - In Quorum, consistency will be weak when **W + R <= N**, but availability will be high. (This will be used generally when eventual consistency is guaranteed)
 
-- In Cassandra, 
+- In Cassandra, there are 4 methodologies to ensure eventual consistency:
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
