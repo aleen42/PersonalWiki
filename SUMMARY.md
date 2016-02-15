@@ -76,6 +76,7 @@
                 * [Layers of Nodes](./Programming/HTML/node/node.md)
                 * [Access Relative Nodes](./Programming/HTML/access/access.md)
         * [Ruby](./Programming/ruby/ruby.md)
+            * [Installation](./Programming/ruby/installati)
         * [PHP](./Programming/PHP/PHP.md)
             * [Crash Course](./Programming/PHP/crash/crash.md)
             * [Laravel](./Programming/PHP/laravel/laravel.md)
