@@ -126,6 +126,6 @@ are both configured in the configuration file, **cassandra-topology.properties**
         - ONE: return a recent copy immediately, and repair in the background. (The first data you read will not be the latest one)
         - QUORUM: return a copy when there is no problems after checking more than half of all copies, and check remaining copies and repair if neccessary in the background.
         - ALL: return a copy when there is no problems after checking all.
-    - Hinted Handoff(提示提交): write to a relay node when the target node is offline, and the raly node will wait for the destinate node to complete writing.
+    - Hinted Handoff(提示提交): write to a relay node when the target is offline, and the raly node will wait for the destinate node to complete writing.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
