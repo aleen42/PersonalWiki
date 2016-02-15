@@ -30,7 +30,6 @@
 
 ```json
 {
-    /* this is a Column */
     "name": "email",
     "value": "aleen42@vip.qq.com",
     "timestamp": 1455517240
@@ -41,13 +40,11 @@
 
 ```json
 {
-    /** this is a SuperColumn */
-    name: "addresses"
-    /** the value can contains infinite Columns */
-    value: {
-        street: { name: "street", value: "xxx xxx xxx Road", timestamp: 1455517515 },
-        city: { name: "city", value: "Foshan", timestamp: 1455517515 },
-        zip: { name: "zip", value: "528031", timestamp: 1455517515 }
+    "name": "addresses"
+    "value": {
+        "street": { "name": "street", "value": "xxx xxx xxx Road", "timestamp": 1455517515 },
+        "city": { "name": "city", "value": "Foshan", "timestamp": 1455517515 },
+        "zip": { "name": "zip", "value": "528031", "timestamp": 1455517515 }
     }
 }
 ```
