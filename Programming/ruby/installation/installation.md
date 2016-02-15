@@ -25,6 +25,17 @@ iii. Downloads latest stable version:
 
 <img src="./cost.png">
 
+iv. Add your path to `$HOME/bin`
+
+```sh
+sudo vim ~/.bashrc
+```
+
+```sh
+# add in the last line
+export PATH=${HOME}/bin:$PATH
+```
+
 #### Windows Installation
 
 - To download [**Ruby**](https://www.ruby-lang.org/en/downloads/). 
