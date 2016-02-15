@@ -118,6 +118,8 @@ puts let3.rjust(lineWidth)
 
 # Random Methods
 puts rand(101) # means to random from 0 to 100
+puts srand(1776) # in the same rand serials => 24
+puts srand(1776) # => 24
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
