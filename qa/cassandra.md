@@ -84,6 +84,6 @@
 
 #### Bloom Filter
 
-- Bloom Filter is a random data structure, saving huge space by sacrificing precision. (Which cannot be applied to applications which are sensitive to accuracy.)
+- Bloom Filter is a random data structure, saving huge space by sacrificing precision. (This structure cannot be applied to applications which are sensitive to accuracy.)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
