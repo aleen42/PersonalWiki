@@ -120,6 +120,11 @@ puts let3.rjust(lineWidth)
 puts rand(101) # means to random from 0 to 100
 puts srand(1776) # in the same rand serials => 24
 puts srand(1776) # => 24
+
+# Math Object
+puts Math::PI
+puts Math::E
+puts Math.cos(Math::PI / 3)
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
