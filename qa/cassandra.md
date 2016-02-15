@@ -13,5 +13,12 @@
             - pluggable topologies(可插拔拓撲)
             - pluggable store strategics(可插拔存放策略)
         - Configurable(consistency)
+    - BigTable:
+        - Column Family Data Model
+            - configurable, 2-levels maps, super column family
+        - SSTable
+            - Append-only commit log
+            - Men-table(buffer and sort)
+            - 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
