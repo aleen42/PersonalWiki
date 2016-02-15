@@ -90,6 +90,10 @@ puts '99.99'.to_i # => 99
 puts 'What\'s ' + 'up'
 puts 'What\'s '.+ 'up'
 
+# puts is really also a shortcut way
+puts 'What?'
+self.puts 'What?'
+
 puts `pig` * 5
 # Ruby cannot run puts 5 * `pigs`, because 5 cannot identify to copy 'pig' for 5 times.
 ```
