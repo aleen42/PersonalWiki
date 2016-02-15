@@ -1,6 +1,6 @@
 ## Installation [Back](./../ruby.md)
 
-#### Linux Installation
+#### Ubuntu Installation
 
 1. To see whether you have installed before:
 
