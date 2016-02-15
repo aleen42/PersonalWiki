@@ -25,6 +25,7 @@
 #### Data Model
 
 - Column: the minimum components of a data, and it's composed of **Name**, **Value**, and **Timestamp**.
+- *Notice: name and value should be byte[], which a string of any length.*
 
 ```json
 {
