@@ -98,7 +98,7 @@
 - Storage mechanisms:
     - Commit Log: Cassandra will log records when writing data like HBase. After logging, data will be written into memtable and flushed into the SSTable, which is read-only once written into. (*In Cassandra, there is no random write*)
     - Memtable: when data has reached the size of a block, it will be flushed into the disk, and stored as SSTable.
-    - SSTable: it's read-only and one CF will be corresponding with sevelral SSTables.
+    - SSTable: it's read-only and one CF will be corresponding with several SSTables.
 
 
 #### Sniffing(嗅探)
