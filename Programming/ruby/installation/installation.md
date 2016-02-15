@@ -38,7 +38,13 @@ export PATH=${HOME}/bin:$PATH
 
 - *Notice: log out and login again to check*
 
-v
+v. Check the version of Ruby
+
+```sh
+ruby -v
+```
+
+<img src="./version.png">
 
 #### Windows Installation
 
