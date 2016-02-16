@@ -15,6 +15,10 @@
 
 - *Note: `--enable-libbluray` will cause problems when building opencv*
 - *Note: if you found that the libraries have not been installed, you can use `apt-get install` to install the related libraries. (always you can use `tab` key to find the `dev` edition to install)*
+- *Note: libsoxr cannot be installed by apt-get, so you should download three package and install them by ordered*
+    1. libsoxr0
+    2. libsoxr-lsr0
+    3. libsoxr-dev
 
 #### 1.2 Make
 
