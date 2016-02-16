@@ -8,11 +8,11 @@
 - [**How to build up OpenCV on Linux**](./opencvonlinux.md)
 - [**How to make a smart picture showing with css**](./smartPic.md)
 - [**How to see logs of crontab in Ubuntu**](./crontablog.md)
-- [**How to detect squares in an image with OpenCV**](./detectSquares.md)
+- [**How to detect squares in an image with OpenCV**](./detectSquares.md
+- [**How to solve the lib problem when using xampp to shell_exec c++ files**](./xamppcpp.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
-- [**How to solve the lib problem when using xampp to shell_exec c++ files**](./xamppcpp.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
