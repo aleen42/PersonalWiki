@@ -11,7 +11,7 @@
 
 ##### Ubuntu 12.04
 
-- `./configure --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libass --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libschroedinger  --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libx264 --enable-version3`
+- `./configure --extra-version=tessus --enable-avisynth --enable-fontconfig --enable-gpl --enable-libass --enable-libfreetype --enable-libgsm --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libschroedinger  --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libx264 --enable-version3 --enable-static --enable-pic --enable-shared`
 
 - *Note: `--enable-libbluray` will cause problems when building opencv*
 - *Note: if you found that the libraries have not been installed, you can use `apt-get install` to install the related libraries. (always you can use `tab` key to find the `dev` edition to install)*
@@ -19,7 +19,7 @@
     1. [libsoxr0](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr0)
     2. [libsoxr-lsr0](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr-lsr0)
     3. [libsoxr-dev](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr-dev)
-- *Note: in Ubuntu 12.04, you should recompile libx264 and ffmpeg with `--enable-static`, `--enable-pic`, and `--enable-shared`.(Be sure that you have completely uninstall ffmpeg before recompile libx264)*.
+- *Note: in Ubuntu 12.04, you should recompile libx264 and ffmpeg with `--enable-static`, `--enable-pic`, and `--enable-shared`.(Be sure that you have completely uninstall ffmpeg before recompile libx264, more details)*.
 
 #### 1.2 Make
 
