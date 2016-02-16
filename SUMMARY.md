@@ -236,6 +236,7 @@
         * [Get projects from the repository](./git/get/get.md)
         * [Record updates](./git/record/record.md)
         * [Patch](./git/patch/patch.md)
+        * [Submodule](./git/submodule/submodule.md)
         * [A successful Git branching model](./git/model/model.md)
     * [Video & Image](./vi/vi.md)
         * [OpenCV](./vi/opencv/opencv.md)
