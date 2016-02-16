@@ -10,6 +10,7 @@
 - [**How to see logs of crontab in Ubuntu**](./crontablog.md)
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 - [**How to solve the lib problem when using xampp to shell_exec c++ files**](./xamppcpp.md)
+- [**How to solve the problem of dpkg sub-process throwing a error in Ubuntu**](./dpkg.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
