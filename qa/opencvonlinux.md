@@ -60,7 +60,6 @@ find_package( OpenCV REQUIRED )
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "lib/")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "lib/")
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "bin/")
-
 add_executable( [projectName] [projectName].cpp )
 target_link_libraries( [projectName] ${OpenCV_LIBS} )
 ```
