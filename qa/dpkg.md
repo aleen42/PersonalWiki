@@ -6,22 +6,13 @@
 E: Sub-process /usr/bin/dpkg returned an error code (1)
 ```
 
-#### Useage
+- **Solution**:
 
-- **Image** Class has provided the method *detectSquare*, and print the detected line on the image when giving a boolean value **true**.
+```bash
+# backup the info directory
+sudo mv /var/lib/dpkg/info /var/lib/dpkg/info.bak
 
-```cpp
-/* new an instance for Image */
-Image img = Image();
 
-/* read the image which is to be detected by giving the path */
-img.readImage(imagePath);
-
-/* DEBUG is an marco parameter */
-img.detectSquare(DEBUG);
-
-/* show the image */
-img.showImage();
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
