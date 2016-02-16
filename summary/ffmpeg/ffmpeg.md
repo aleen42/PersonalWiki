@@ -19,7 +19,7 @@
     1. [libsoxr0](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr0)
     2. [libsoxr-lsr0](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr-lsr0)
     3. [libsoxr-dev](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr-dev)
-- *Note: in Ubuntu 12.04, you should recompile libx264 and ffmpeg with `--enable-static`, `--enable-pic`, and `--enable-shared`.(Be sure that you have completely uninstall ffmpeg before recompile libx264, more details)*.
+- *Note: in Ubuntu 12.04, you should recompile libx264 and ffmpeg with `--enable-static`, `--enable-pic`, and `--enable-shared`.(Be sure that you have completely uninstall ffmpeg before recompile libx264, more [details](http://www.ozbotz.org/opencv-installation/))*.
 
 #### 1.2 Make
 
