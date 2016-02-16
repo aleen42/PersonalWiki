@@ -24,7 +24,11 @@ apt-get -f install xxx
 # mv all the files under the new directory to the old backup
 sudo mv /var/lib/dpkg/info/* /var/lib/dpkg/info.bak
 
+# remove the new directory
+sudo rm -rf /var/lib/dpkg/info
 
+# rename the backup info
+sudo mv /var/lib/dpkg/info.bak /var/lib/dpkg/info
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
