@@ -20,7 +20,7 @@
     2. [libsoxr-lsr0](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr-lsr0)
     3. [libsoxr-dev](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr-dev)
 - *Note: in Ubuntu 12.04, you should recompile libx264 and ffmpeg with `--enable-pic` and `--enable-shared`.(Be sure that you have completely uninstall ffmpeg before recompile libx264, more [details](http://www.ozbotz.org/opencv-installation/) in step 7 and 8)*.
-- *Remember to type `make distclean` before you configure agai*.
+- *Remember to type `make distclean` before you configure again*.
 
 #### 1.2 Make
 
