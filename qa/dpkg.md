@@ -15,7 +15,14 @@ sudo mv /var/lib/dpkg/info /var/lib/dpkg/info.bak
 # create a new directory
 sudo mkdir /var/lib/dpkg/info
 
+# update apt-get
+sudo apt-get update
 
+# install what you want to install
+apt-get -f install xxx
+
+# mv all the files under the new directory to the old backup
+sudo mv /var/lib/dpkg/info/* /var/lib/dpkg/info.bak
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
