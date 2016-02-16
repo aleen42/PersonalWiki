@@ -6,4 +6,10 @@
 git submodule add <git url> [name]
 ```
 
+- If a project have a submodule, you should clone this project by using the following command:
+
+```bash
+git clone --recursive <git url>
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
