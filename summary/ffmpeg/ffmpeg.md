@@ -21,6 +21,13 @@
     3. [libsoxr-dev](http://www.ubuntuupdates.org/package/webupd8/precise/main/base/libsoxr-dev)
 - *Note: in Ubuntu 12.04, you should recompile libx264 and ffmpeg with `--enable-pic` and `--enable-shared`.(Be sure that you have completely uninstall ffmpeg before recompile libx264, more [details](http://www.ozbotz.org/opencv-installation/) in step 7 and 8)*.
 - *Remember to type `make distclean` before you configure again*.
+- Problem: **ffmpeg: error while loading shared libraries: libavdevice.so.55: cannot open shared object file: No such file or directory**.
+- Solution:
+
+```bash
+# vim /etc/ld.so.conf and add this line
+/usr/local/ffmpeg/lib
+```
 
 #### 1.2 Make
 
