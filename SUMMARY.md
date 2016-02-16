@@ -254,7 +254,7 @@
         * [How to make a smart picture showing with css ](./qa/smartPic.md)
         * [How to see logs of crontab in Ubuntu](./qa/crontablog.md)
         * [How to detect squares in an image with OpenCV](./qa/detectSquares.md)
-        * [How to solve the lib problem when using xampp to shell_exec c++ files](./q/xamppcpp.md)
+        * [How to solve the lib problem when using xampp to shell_exec c++ files](./qa/xamppcpp.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
         * [What is Cassandra](./qa/cassandra.md)
