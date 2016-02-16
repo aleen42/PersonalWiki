@@ -2,6 +2,6 @@
 
 - When designing API with PHP to shell exec c++ binary files to use OpenCV, you will found that there is a problem about libstdc++
 - **Reason**: there's something wrong about /opt/lampp/lib/libstdc++.so.6
-- **Solution**
+- **Solution**: just backup the lib of libstdc++, and solve it.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
