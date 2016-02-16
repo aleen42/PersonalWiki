@@ -1,4 +1,4 @@
-## How to detect squares in an image with OpenCV [Back](./qa.md)
+## How to solve the problem of dpkg sub-process throwing a error in Ubuntu [Back](./qa.md)
 
 - use the algorithm provided by *karlphillip*, which has been integrated in [**LightOpenCV**](https://github.com/aleen42/LightOpenCV)
 
