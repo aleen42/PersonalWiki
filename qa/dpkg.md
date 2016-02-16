@@ -12,6 +12,9 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 # backup the info directory
 sudo mv /var/lib/dpkg/info /var/lib/dpkg/info.bak
 
+# create a new directory
+sudo mkdir /var/lib/dpkg/info
+
 
 ```
 
