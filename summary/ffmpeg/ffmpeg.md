@@ -27,6 +27,8 @@
 ```bash
 # vim /etc/ld.so.conf and add this line
 /usr/local/ffmpeg/lib
+
+# then type ldconfig to load config
 ```
 
 #### 1.2 Make
