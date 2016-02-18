@@ -10,7 +10,7 @@
 
 ```js
 $.ajax({
-	url: 'path to pass',
+	url: 'path to post',
 	type: 'POST',
 	dataType: 'json',
 	data: formData,
