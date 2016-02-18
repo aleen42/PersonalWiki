@@ -1,4 +1,4 @@
-## How to see the version of Ubuntu [Back](./qa.md)
+## How to upload files and data with ajax [Back](./qa.md)
 
 - There are 2 ways to see the version of Ubuntu
 
