@@ -9,6 +9,8 @@
 ```
 
 ```js
+const formData = new FormData($('#form-data')[0]);
+
 $.ajax({
 	url: 'path to post',
 	type: 'POST',
