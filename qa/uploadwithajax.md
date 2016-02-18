@@ -9,7 +9,21 @@
 ```
 
 ```js
-
+$.ajax({
+	url: 'path to pass',
+	type: 'POST',
+	dataType: 'json',
+	data: formData,
+	cache: false,
+	contentType: false,
+	processData: false
+})
+.done(function(data) {
+	console.log(data);
+})
+.fail(function() {
+	console.log("detect error");
+});
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
