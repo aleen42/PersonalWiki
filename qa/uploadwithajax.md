@@ -1,13 +1,11 @@
 ## How to upload files and data with ajax [Back](./qa.md)
 
-- There are 2 ways to see the version of Ubuntu
-
-```bash
-cat /etc/issue
-```
-
-```bash
-sudo lsb_release -a
+```html
+<form action="" method="post" id="form-data" enctype="multipart/form-data">
+    <input type="file" name="file" id="postFile">
+    <input type="text" name="text" value="abc">
+    <input type="number" name="number" value="12">
+</form>
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
