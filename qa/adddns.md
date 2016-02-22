@@ -1,6 +1,9 @@
 ## How to add dns for a server [Back](./qa.md)
 
 1. Use [**DNSPod**](www.dnspod.cn)
-2. 
+2. Have a config file for your serer:
+
+    - Nginx:
+        
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
