@@ -28,7 +28,7 @@ server {
     # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
     #
     location ~ \.php$ {
-        root           /var/www/video_store/api/soundcreate/public;
+        root           /var/www/xxx;
         #fastcgi_pass   127.0.0.1:9000;
         fastcgi_pass   unix:/var/run/php5-fpm.sock;
         fastcgi_index  index.php;
