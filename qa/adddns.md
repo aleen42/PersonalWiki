@@ -1,4 +1,4 @@
-## How to upload files and data with ajax [Back](./qa.md)
+## How to add dns for a server [Back](./qa.md)
 
 ```html
 <form action="" method="post" id="form-data" enctype="multipart/form-data">
