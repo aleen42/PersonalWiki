@@ -259,7 +259,7 @@
         * [How to solve the problem of dpkg sub-process throwing a error in Ubuntu](./qa/dpkg.md)
         * [How to see the version of Ubuntu](./qa/ubuntuversion.md)
         * [How to upload files and data with ajax](./qa/uploadwithajax.md)
-        * [How to add dns for a server](./adddns.md)
+        * [How to add dns for a server](./qa/adddns.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
         * [What is Cassandra](./qa/cassandra.md)
