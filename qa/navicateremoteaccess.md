@@ -16,4 +16,10 @@
 # skip-networking
 ```
 
+2. Store and restart the service
+
+```bash
+service mysql restart
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
