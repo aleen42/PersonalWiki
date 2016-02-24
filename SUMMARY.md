@@ -260,7 +260,7 @@
         * [How to see the version of Ubuntu](./qa/ubuntuversion.md)
         * [How to upload files and data with ajax](./qa/uploadwithajax.md)
         * [How to add dns for a server](./qa/adddns.md)
-        * [Hot to enable Navic with remote accessing database](./qa/navicateremoteaccess.md)
+        * [Hot to enable navicate with remote accessing database](./qa/navicateremoteaccess.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
         * [What is Cassandra](./qa/cassandra.md)
