@@ -4,7 +4,7 @@
 
 #### Solution
 
-1. Configure the mysql of your server
+i. Configure the mysql of your server
 
 ```bash
 # vim /etc/mysql/my.cnf
@@ -16,7 +16,7 @@
 # skip-networking
 ```
 
-2. Store and restart the service
+ii. Store and restart the service
 
 ```bash
 service mysql restart
