@@ -2,6 +2,8 @@
 
 - By default, server will only allow local accessing mysql server, which will cause the problem of Navicat connection.
 
+#### Solution
+
 1. Configure the mysql of your server
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
