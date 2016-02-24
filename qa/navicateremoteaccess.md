@@ -1,4 +1,4 @@
-## Hot to enable navicat with remote accessing database [Back](./qa.md)
+## Hot to enable Navicat with remote accessing database [Back](./qa.md)
 
 - By default, server will only allow local accessing mysql server, which will cause the problem of Navicat connection.
 
