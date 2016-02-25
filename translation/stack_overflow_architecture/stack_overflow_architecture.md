@@ -27,4 +27,15 @@
 
 &#160; &#160; &#160; &#160;那么，到底过去的两年发生了什么呢？除了更换部分的服务器和网络装置，没有其它。这里有一份现在还在运行的顶层硬件列表（并且指明了与2013年时的差别）：
 
+- 4 Microsoft SQL Servers (new hardware for 2 of them)
+- 11 IIS Web Servers (new hardware)
+- 2 Redis Servers (new hardware)
+- 3 Tag Engine servers (new hardware for 2 of the 3)
+- 3 Elasticsearch servers (same)
+- 4 HAProxy Load Balancers (added 2 to support CloudFlare)
+- 2 Networks (each a Nexus 5596 Core + 2232TM Fabric Extenders, upgraded to 10Gbps everywhere)
+- 2 Fortinet 800C Firewalls (replaced Cisco 5525-X ASAs)
+- 2 Cisco ASR-1001 Routers (replaced Cisco 3945 Routers)
+- 2 Cisco ASR-1001-x Routers (new!)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
