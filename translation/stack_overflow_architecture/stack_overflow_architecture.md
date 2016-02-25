@@ -28,8 +28,8 @@
 &#160; &#160; &#160; &#160;那么，到底过去的两年发生了什么呢？除了更换部分的服务器和网络装置，没有其它。这里有一份现在还在运行的顶层硬件列表（并且指明了与2013年时的差别）：
 
 - 4台使用Microsoft SQL Server的服务器（其中两部是新设备）
-- 11 IIS Web Servers (new hardware)
-- 2 Redis Servers (new hardware)
+- 11台使用IIS Web Server的服务器（新设备）
+- 2台使用Redis的服务器（新设备）
 - 3 Tag Engine servers (new hardware for 2 of the 3)
 - 3 Elasticsearch servers (same)
 - 4 HAProxy Load Balancers (added 2 to support CloudFlare)
