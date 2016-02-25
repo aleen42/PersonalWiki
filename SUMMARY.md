@@ -278,6 +278,9 @@
     	* [Kenya Hara](./kenyahara/kenyahara.md)
 - Translation
     * [Translation Works](./translation/translation.md)
+        * Translate
+            * [Distributing React components](./translation/distributing_react_components/distributing_react_components.md)
+        * Proofread
 - Job
     * [Summary](./summary/summary.md)
         * Note
