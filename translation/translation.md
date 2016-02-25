@@ -2,7 +2,7 @@
 
 #### Translate
 
-- [**Distributing React components**](./distributing_react_components.md)
+- [**Distributing React components**](./distributing_react_components/distributing_react_components.md)
 
 #### Proofread(校對)
 
