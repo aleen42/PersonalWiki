@@ -46,4 +46,6 @@
 
 <img src="./TEb0jiPh.jpg">
 
+……如果你要深入这种东西，[这里有这周的全部256张图的图集](http://imgur.com/a/X1HoY)。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
