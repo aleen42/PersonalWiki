@@ -33,7 +33,7 @@
 - 3台使用Tag Engine的服务器（其中三分之二是新设备）
 - 3台使用Elasticsearch的服务器（没改变）
 - 4台使用HAProxy的负载均衡器（其中新添置两台用于服务CloudFlare公司）
-- 2 Networks (each a Nexus 5596 Core + 2232TM Fabric Extenders, upgraded to 10Gbps everywhere)
+- 2个网络（每一个都使用Nexus 5596 Core + 2232TM Fabric Extenders，并且每处的宽度速率都提升到10Gbps）
 - 2 Fortinet 800C Firewalls (replaced Cisco 5525-X ASAs)
 - 2 Cisco ASR-1001 Routers (replaced Cisco 3945 Routers)
 - 2 Cisco ASR-1001-x Routers (new!)
