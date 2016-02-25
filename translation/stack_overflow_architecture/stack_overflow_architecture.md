@@ -36,6 +36,6 @@
 - 2个网络（每一个都使用Nexus 5596 Core + 2232TM Fabric Extenders，并且每处的宽度速率都提升到10Gbps）
 - 2台使用Fortinet 800C的防火墙（替换了原来的Cisco 5525-X ASAs）
 - 2台使用Cisco ASR-1001的路由器（替换了原来的Cisco 3945路由器）
-- 2台使用Cisco ASR-1001-x的Routers（新设本）
+- 2台使用Cisco ASR-1001-x的Routers（新设备！）
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
