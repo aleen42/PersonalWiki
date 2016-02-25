@@ -276,6 +276,8 @@
      	* [Front-End](./frontend/frontend.md)
     * Designer
     	* [Kenya Hara](./kenyahara/kenyahara.md)
+- Translation
+    * [Translation Works](./translation/translation.md)
 - Job
     * [Summary](./summary/summary.md)
         * Note
