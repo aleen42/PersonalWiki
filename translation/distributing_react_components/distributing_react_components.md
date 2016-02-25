@@ -1,4 +1,4 @@
-## Distributing React components - 如何發佈一個React組件 [**Back**](./../Readme.md)
+## Distributing React components - 如何發佈一個React組件 [**Back**](./../translation.md)
 
 > * 原文链接 : [Distributing React components](http://krasimirtsonev.com/blog/article/distributing-react-components-babel-browserify-webpack-uglifyjs)
 * 原文作者 : [Krasimir ](http://krasimirtsonev.com/blog/)
