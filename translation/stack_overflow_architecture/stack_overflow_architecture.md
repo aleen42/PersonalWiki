@@ -50,4 +50,8 @@
 
 <img src="./layout.png">
 
+### 基本法则
+
+&#160; &#160; &#160; &#160;这里有一些为人熟知的法则，因此我就不一一去重复它们：
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
