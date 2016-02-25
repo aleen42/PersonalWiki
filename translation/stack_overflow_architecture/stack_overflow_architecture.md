@@ -38,4 +38,6 @@
 - 2台使用Cisco ASR-1001的路由器（替换了原来的Cisco 3945路由器）
 - 2台使用Cisco ASR-1001-x的Routers（新设备！）
 
+&#160; &#160; &#160; &#160;现在我们**需要**什么去运行Stack Overflow呢？这个与2013年相比并没有改变得太多，但归咎于性能的优化和上述的设备，我们至少还**需要**一台Web服务器。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
