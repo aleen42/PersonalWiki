@@ -3,6 +3,7 @@
 #### Translate
 
 - [**Distributing React components**](./distributing_react_components/distributing_react_components.md)
+- [**Stack Overflow: The Architecture - 2016**](./stack_overflow_architecture/stack_overflow_architecture.md)
 
 #### Proofread
 
