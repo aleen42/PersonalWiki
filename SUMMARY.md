@@ -283,6 +283,7 @@
         * Proofread
             * [Things I Wish I Were Told About React Native](./translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
             * [Making React Native apps accessible](./translation/making_react_native_apps_accessible/making_react_native_apps_accessible.md)
+            * [How we "CSS" at BigCommerce](./translation/how_we_css_at_bigcommerce/how_we_css_at_bigcommerce.md)
 - Job
     * [Summary](./summary/summary.md)
         * Note
