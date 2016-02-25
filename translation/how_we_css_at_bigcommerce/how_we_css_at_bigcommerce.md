@@ -1,7 +1,5 @@
 ## How we "CSS" at BigCommerce - 在BigCommerce我們如何編寫CSS [**Back**](./../translation.md)
 
-# 在BigCommerce我们如何编写CSS
-
 * 原文链接 : [How we "CSS" at BigCommerce](http://www.bigeng.io/how-we-css-at-bigcommerce/)
 * 原文作者 : [Simon Taggart](http://www.bigeng.io/author/simon-taggart/)
 * 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
