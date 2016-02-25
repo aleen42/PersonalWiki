@@ -6,4 +6,6 @@
 
 #### Proofread
 
+- [**Things I Wish I Were Told About React Native**](./things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
