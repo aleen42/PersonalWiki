@@ -7,5 +7,4 @@
 * 校对者: [Void Main](https://github.com/void-main)  [aleen42](https://github.com/aleen42) 
 * 状态 :  翻译结束
 
-
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
