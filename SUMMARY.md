@@ -281,6 +281,7 @@
         * Translate
             * [Distributing React components](./translation/distributing_react_components/distributing_react_components.md)
         * Proofread
+            * [Things I Wish I Were Told About React Native](./translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
 - Job
     * [Summary](./summary/summary.md)
         * Note
