@@ -44,4 +44,6 @@
 
 &#160; &#160; &#160; &#160;为了能让你看看如今设备都是怎么样，这里有A架在2015年2月份更新期间的一些照片（它有一个对应的B架）
 
+<img src="./TEb0jiPh.jpg">
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
