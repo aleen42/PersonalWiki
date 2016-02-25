@@ -31,8 +31,8 @@
 - 11台使用IIS Web Server的服务器（新设备）
 - 2台使用Redis的服务器（新设备）
 - 3台使用Tag Engine的服务器（其中三分之二是新设备）
-- 3台使用Elasticsearch的服务器（）
-- 4 HAProxy Load Balancers (added 2 to support CloudFlare)
+- 3台使用Elasticsearch的服务器（没改变）
+- 4台使用HAProxy的负载均衡器（其中新添置两台用于CloudFlare）
 - 2 Networks (each a Nexus 5596 Core + 2232TM Fabric Extenders, upgraded to 10Gbps everywhere)
 - 2 Fortinet 800C Firewalls (replaced Cisco 5525-X ASAs)
 - 2 Cisco ASR-1001 Routers (replaced Cisco 3945 Routers)
