@@ -48,7 +48,6 @@ body {
     background-color: #000;
     position: absolute;
 	bottom: 0;
-	z-index: -1;
 }
 ```
 
