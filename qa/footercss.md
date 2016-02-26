@@ -1,5 +1,12 @@
 ## How to write footer with CSS [Back](./qa.md)
 
+```html
+<body>
+    <div class="container"></div>
+    <div id="footer"></div>
+</body>
+```
+
 ```css
 /**
  * html
