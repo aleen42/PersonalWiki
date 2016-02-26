@@ -63,6 +63,6 @@
 
 ### 因特网
 
-&#160; &#160; &#160; &#160;首先你不需要找到我们——就是通过[DNS](https://en.wikipedia.org/wiki/Domain_Name_System)。为了让你能快速地找到我们，我们（目前）把该业务外包给[CloudFlare](https://www.cloudflare.com/)公司，这是因为他们在全世界分布着覆盖几乎每一个人的DNS服务器。
+&#160; &#160; &#160; &#160;首先你不需要找到我们——就是通过[DNS](https://en.wikipedia.org/wiki/Domain_Name_System)。为了让你能快速地找到我们，我们（目前）把该业务外包给[CloudFlare](https://www.cloudflare.com/)公司，这是因为他们在全世界分布着覆盖几乎每一个人的DNS服务器。我们只需要通过API去更新我们的DNS记录，而DNS的host查询则交给他们。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
