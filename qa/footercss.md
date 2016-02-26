@@ -40,6 +40,8 @@ body {
  */
 #footer {
     height: 97px;
+    width: 100%;
+    background-color: #000;
 }
 ```
 
