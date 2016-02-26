@@ -56,5 +56,6 @@
 
 - 世间万物都是冗余的
 - 所有服务器及网络设备都起码需要2 x 20Gbps的连接能力
+- 所有服务器都需要两个电力供应点，而每个供应点都需要配额有两个UPS单元，而这些UPS单元都需要两个发电机和两个辅助设备供应。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
