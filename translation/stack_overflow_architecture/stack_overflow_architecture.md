@@ -65,4 +65,6 @@
 
 &#160; &#160; &#160; &#160;首先你不需要找到我们——就是通过[DNS](https://en.wikipedia.org/wiki/Domain_Name_System)。为了让你能快速地找到我们，我们（目前）把该业务外包给[CloudFlare](https://www.cloudflare.com/)公司，这是因为他们在全世界分布着覆盖几乎每一个人的DNS服务器。我们只需要通过API去更新我们的DNS记录，而DNS的host查询则交给他们。然而，由于我们被根深蒂固的诚信问题所拉扯着，我们还是会有着属于自己的DNS服务器。末日将至（或许由GPL、[Punyon](https://twitter.com/JasonPunyon)或高速缓冲存储器导致），人类仍想着程序能脱离人类有着自己独立的思考，因此我们要推翻这种思想。
 
+&#160; &#160; &#160; &#160;当你发现我们的秘密所在后，HTTP流量会通过我们四台因特网服务提供者（ISP）中的其中一台（Level3、Zayo、Cogent和在纽约的Lighttowe）
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
