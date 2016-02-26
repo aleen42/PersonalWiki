@@ -10,6 +10,10 @@
 ```
 
 ```css
+* {
+	margin: 0;
+}
+
 /**
  * html
  */
@@ -42,6 +46,9 @@ body {
     height: 97px;
     width: 100%;
     background-color: #000;
+    position: absolute;
+	bottom: 0;
+	z-index: -1;
 }
 ```
 
