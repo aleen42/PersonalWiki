@@ -34,6 +34,13 @@ body {
 .container {
     padding-bottom: 97px;
 }
+
+/**
+ * footer
+ */
+#footer {
+    height: 97px;
+}
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
