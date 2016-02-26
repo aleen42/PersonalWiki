@@ -1,5 +1,7 @@
 ## How to write footer with CSS [Back](./qa.md)
 
+- here is an example of writing footer whose height is **97px**.
+
 ```html
 <body>
     <div class="container"></div>
