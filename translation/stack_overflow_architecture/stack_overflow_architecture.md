@@ -61,4 +61,8 @@
 - 所有服务器都要备份多一个数据中心（Colorado）
 - 所有的东西都需要备份！
 
+### 因特网
+
+&#160; &#160; &#160; &#160;首先你不需要找到我们——就是通过[DNS](https://en.wikipedia.org/wiki/Domain_Name_System)。为了让你能快速地找到我们，我们（目前）把该业务外包给CloudFlare公司，这是因为他们在全世界分布着覆盖几乎每一个人的DNS服务器。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
