@@ -1,4 +1,4 @@
-## How to write footer with Css [Back](./qa.md)
+## How to write footer with CSS [Back](./qa.md)
 
 - By default, server will only allow local accessing mysql server, which will cause the problem of Navicat connection.
 
