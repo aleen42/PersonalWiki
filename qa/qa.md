@@ -15,6 +15,7 @@
 - [**How to upload files and data with ajax**](./uploadwithajax.md)
 - [**How to add dns for a server**](./adddns.md)
 - [**Hot to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
+- [**Hot to write footer with CSS**](./footer.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
