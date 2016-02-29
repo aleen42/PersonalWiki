@@ -175,5 +175,17 @@ tag: id ... ...
 article_tag: article_id tag_id
 ```
 
+- the model will be:
+
+```php
+class Tag extends Eloquent {
+    protected $table = 'tags';
+    
+    public function belongsToManyArticle()
+    {
+        return $this->belongsToMany('Article', 'article_tag', 'tag_id', 'article_id');
+    }
+}
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
