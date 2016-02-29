@@ -130,7 +130,7 @@ user: id ... ...
 pay: id ... ... user_id
 ```
 
-- the Model of User should be:
+- the model of User should be:
 
 ```php
 <?php
@@ -144,5 +144,7 @@ class User extends Eloquent {
     }
 }
 ```
+
+- and the model of Pay should be as follow:
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
