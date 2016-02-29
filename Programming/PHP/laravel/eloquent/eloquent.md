@@ -163,6 +163,7 @@ class Pay extends Eloquent {
 - then we can query like this:
 
 ```php
+/** SQL: select * from pays where user_id = 10; */
 $accounts = User::find(10)->hasManyPays()->get();
 ```
 
