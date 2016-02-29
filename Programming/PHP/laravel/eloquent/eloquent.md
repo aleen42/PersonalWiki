@@ -79,4 +79,11 @@ Article::where('id', 1)
     - One to Many
     - Many to Many
 
+#### One to One
+
+```
+user: id ... ... account_id
+account: id ... ... user_id
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
