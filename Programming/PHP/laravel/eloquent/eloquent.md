@@ -91,7 +91,7 @@ account: id ... ... user_id
 ```php
 <? php
 
-class User extedns Eloquent {
+class User extends Eloquent {
     protected $table = 'users';
     
     public function hasOneAccount()
@@ -106,6 +106,19 @@ class User extedns Eloquent {
 ```php
 /** SQL: select * from account where user_id = 10; */
 $account = User::find(10)->hasOneAccount;
+```
+
+- the related model of Account should be as follow:
+
+```php
+class Account extends Eloquent {
+    protected $table = 'accounts';
+    
+    public function belongsToUser()
+    {
+        return $this->belongsTo('User', 'user_id', 'id');
+    }
+}
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
