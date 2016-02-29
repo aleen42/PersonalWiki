@@ -63,7 +63,7 @@ foreach ($articles as $key) {
 
 ### 2. Builder
 
-- Builder is used to complete the function of channing operation:
+- **Builder** is used to complete the function of chaining operation:
 
 ```php
 /** the follow sentence will return a builder which can continue to add conditions */
@@ -71,5 +71,9 @@ Article::where('id', 1)
 ```
 
 - the path of builder is in `Illuminate\Database\Eloquent\Builder`
+
+### 3. Relationships
+
+- **Relationships** mean the relationships between two models.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
