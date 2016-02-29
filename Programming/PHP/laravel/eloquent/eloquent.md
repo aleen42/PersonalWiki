@@ -39,4 +39,6 @@ foreach ($articles as $key) {
 }
 ```
 
+#### Case4: print out titles of articles which id is between 10 and 20
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
