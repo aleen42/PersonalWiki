@@ -92,7 +92,12 @@ account: id ... ... user_id
 <? php
 
 class User extedns Eloquent {
-
+    protected $table = 'users';
+    
+    public function hasOneAccount()
+    {
+        return $this->hasOne('Account', 'user_id', 'id');
+    }
 }
 ```
 
