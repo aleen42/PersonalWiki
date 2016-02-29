@@ -63,6 +63,13 @@ foreach ($articles as $key) {
 
 ### 2. Builder
 
+- Builder is used to complete the function of channing operation:
+
+```php
+/** the follow sentence will return a builder which can continue to add condition */
+Article::where('id', 1)
+```
+
 - the path of builder is in `Illuminate\Database\Eloquent\Builder`
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
