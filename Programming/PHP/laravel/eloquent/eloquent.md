@@ -160,4 +160,10 @@ class Pay extends Eloquent {
 }
 ```
 
+- then we can query like this:
+
+```php
+$accounts = User::find(10)->hasManyPays()->get();
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
