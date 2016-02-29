@@ -104,6 +104,7 @@ class User extedns Eloquent {
 - and then, we can query the account which user id is 10:
 
 ```php
+/** SQL: select * from account where user_id = 10; */
 $account = User::find(10)->hasOneAccount;
 ```
 
