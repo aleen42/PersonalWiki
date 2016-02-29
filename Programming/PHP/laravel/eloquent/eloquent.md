@@ -66,7 +66,7 @@ foreach ($articles as $key) {
 - Builder is used to complete the function of channing operation:
 
 ```php
-/** the follow sentence will return a builder which can continue to add condition */
+/** the follow sentence will return a builder which can continue to add conditions */
 Article::where('id', 1)
 ```
 
