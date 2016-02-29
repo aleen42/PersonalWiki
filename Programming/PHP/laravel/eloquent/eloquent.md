@@ -49,4 +49,10 @@ foreach ($articles as $key) {
 }
 ```
 
+#### Case3: print out titles of all articles under the order of ‘update_at'
+
+```php
+$articles = Article::orderBy('update_at', 'desc')->get();
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
