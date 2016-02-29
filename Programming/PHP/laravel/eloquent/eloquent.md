@@ -101,4 +101,10 @@ class User extedns Eloquent {
 }
 ```
 
+- and then, we can query the account which user id is 10:
+
+```php
+$account = User::find(10)->hasOneAccount;
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
