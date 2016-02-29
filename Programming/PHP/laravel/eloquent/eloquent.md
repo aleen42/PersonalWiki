@@ -135,6 +135,14 @@ pay: id ... ... user_id
 ```php
 <?php
 
+class User extends Eloquent {
+    protected $table = 'users';
+    
+    public function hasManyPays()
+    {
+        return $this->hasMany('Pay', 'user_id', 'id');
+    }
+}
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
