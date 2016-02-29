@@ -89,7 +89,7 @@ account: id ... ... user_id
 - If we want to query related info in the table Account, we will have the following model of User:
 
 ```php
-<? php
+<?php
 
 class User extends Eloquent {
     protected $table = 'users';
