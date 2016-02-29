@@ -169,6 +169,11 @@ $accounts = User::find(10)->hasManyPays()->get();
 
 #### Many to Many
 
+```
+article: id ... ...
+tag: id ... ...
+article_tag: article_id tag_id
+```
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
