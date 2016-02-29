@@ -13,4 +13,8 @@
 - [**Installation**](./install/install.md)
 - [**Cache**](./cache/cache.md)
 
+### Note
+
+- [**Eloquent**](./eloquent/eloquent.md)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
