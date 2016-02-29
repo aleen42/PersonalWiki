@@ -111,6 +111,8 @@ $account = User::find(10)->hasOneAccount;
 - the related model of Account should be as follow:
 
 ```php
+<?php
+
 class Account extends Eloquent {
     protected $table = 'accounts';
     
@@ -126,6 +128,13 @@ class Account extends Eloquent {
 ```
 user: id ... ...
 pay: id ... ... user_id
+```
+
+- the Model of User should be:
+
+```php
+<?php
+
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
