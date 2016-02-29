@@ -10,6 +10,8 @@ class Article extends \Eloquent {
 }
 ```
 
+### Base Operation
+
 - When extending the class Eloquent, we can use many methods to handle data like `first()`, `find()`, `where()` or `orderBy()`.
 - There is somd case to know how to use Eloquent to handle data:
 
