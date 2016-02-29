@@ -29,4 +29,10 @@ $article = Article::where('title', 'hello')->first();
 echo $article->id;
 ```
 
+#### Case3: print out titles of all articles
+
+```php
+$articles = Article::all();
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
