@@ -167,4 +167,8 @@ class Pay extends Eloquent {
 $accounts = User::find(10)->hasManyPays()->get();
 ```
 
+#### Many to Many
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
