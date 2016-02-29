@@ -188,4 +188,10 @@ class Tag extends Eloquent {
 }
 ```
 
+- the query will be:
+
+```php
+$tagsWithArticles = Tag::take(10)->get()->belongsToManyArticle()->get();
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
