@@ -53,6 +53,10 @@ foreach ($articles as $key) {
 
 ```php
 $articles = Article::orderBy('update_at', 'desc')->get();
+
+foreach ($articles as $key) {
+    echo $key->title;
+}
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
