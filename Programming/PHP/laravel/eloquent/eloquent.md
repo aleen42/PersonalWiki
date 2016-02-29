@@ -13,7 +13,7 @@ class Article extends Eloquent {
 ### 1. Base Operation
 
 - When extending the class Eloquent, we can use many methods to handle data like `first()`, `find()`, `where()` or `orderBy()`.
-- There is somd case to know how to use Eloquent to handle data:
+- There is some case to know how to use Eloquent to handle data:
 
 #### Case1: find the article which id is 2 and print out its title
 
