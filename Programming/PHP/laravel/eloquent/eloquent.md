@@ -10,4 +10,6 @@ class Article extends \Eloquent {
 }
 ```
 
+- When extending the class Eloquent, we can use many methods to handle data like `first()`, `find()`, `where()` or `orderBy()`.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
