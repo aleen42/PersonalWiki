@@ -21,4 +21,12 @@ $article = Article::find(2);
 echo $article->title;
 ```
 
+#### Case2: find out the article which title is 'hello' and print out its id
+
+```php
+$article = Article::where('title', 'hello')->first();
+
+echo $article->id;
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
