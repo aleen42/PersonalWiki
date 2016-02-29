@@ -147,4 +147,17 @@ class User extends Eloquent {
 
 - and the model of Pay should be as follow:
 
+```php
+<?php
+
+class Pay extends Eloquent {
+    protected $table = 'pays';
+    
+    public function belongsToUser()
+    {
+        return $this->belongsTo('User', 'user_id', 'id');   
+    }
+}
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
