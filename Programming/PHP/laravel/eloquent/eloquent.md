@@ -5,7 +5,7 @@
 ```php
 <?php
 
-class Article extends \Eloquent {
+class Article extends Eloquent {
     protected $fillable = [];
 }
 ```
@@ -84,6 +84,16 @@ Article::where('id', 1)
 ```
 user: id ... ... account_id
 account: id ... ... user_id
+```
+
+- If we want to query related info in the table Account, we will have the fllowing model of User:
+
+```php
+<? php
+
+class User extedns Eloquent {
+
+}
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
