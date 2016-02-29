@@ -63,4 +63,6 @@ foreach ($articles as $key) {
 
 ### 2. Builder
 
+- the path of builder is in `Illuminate\Database\Eloquent\Builder`
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
