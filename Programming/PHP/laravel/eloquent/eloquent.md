@@ -75,5 +75,8 @@ Article::where('id', 1)
 ### 3. Relationships
 
 - **Relationships** mean the relationships between two models.
+    - One to One
+    - One to Many
+    - Many to Many
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
