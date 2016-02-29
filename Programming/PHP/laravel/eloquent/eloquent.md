@@ -33,6 +33,10 @@ echo $article->id;
 
 ```php
 $articles = Article::all();
+
+foreach ($articles as $key) {
+    echo $key->title;
+}
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
