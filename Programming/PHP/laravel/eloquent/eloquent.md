@@ -196,7 +196,7 @@ $tagsWithArticles = Tag::take(10)->get()->belongsToManyArticle()->get();
 
 ### 4. Eager Loading
 
-- You'll find that if you want to query 10 users with info in the table, Account, you are in need to use **1 + 10** SQL sentences. Nevertheless, you'll only use **1 + 1** instead when using **Eager Loading**.
+- You'll find that if you want to query 10 users with info in the table, Account, you are in need to use **1 + 10** SQL sentences. Nevertheless, you'll only use **1 + 1** instead when using **Eager Loading**. More details about Eager Loading in [http://laravel-china.org/docs/eloquent#eager-loading](http://laravel-china.org/docs/eloquent#eager-loading)
 
 ```php
 /** SQL: select * from account wher id in (1, 2, 3, ...) */
