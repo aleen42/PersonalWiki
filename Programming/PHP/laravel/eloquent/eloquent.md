@@ -194,4 +194,7 @@ class Tag extends Eloquent {
 $tagsWithArticles = Tag::take(10)->get()->belongsToManyArticle()->get();
 ```
 
+### 4. Eager Loading
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
