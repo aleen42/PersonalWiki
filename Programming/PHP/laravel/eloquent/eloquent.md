@@ -196,6 +196,6 @@ $tagsWithArticles = Tag::take(10)->get()->belongsToManyArticle()->get();
 
 ### 4. Eager Loading
 
-- you'll find that if you want to query 10 users with info in the table, Account, you are in need to use **1 + 10** SQL sentences. Nevertheless, you'll only use **1 + 1** instead when using Eager Loading
+- you'll find that if you want to query 10 users with info in the table, Account, you are in need to use **1 + 10** SQL sentences. Nevertheless, you'll only use **1 + 1** instead when using **Eager Loading**.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
