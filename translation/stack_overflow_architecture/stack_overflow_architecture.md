@@ -67,6 +67,6 @@
 
 &#160; &#160; &#160; &#160;当你发现我们的秘密所在后，就会发现HTTP流量是会通过我们四台因特网服务提供者（ISP）中的其中一台（Level3、Zayo、Cogent和在纽约的Lightower）并经过我们四台边缘路由器的其中一台。对应着ISP，我们会使用[BGP](https://en.wikipedia.org/wiki/Border_Gateway_Protocol)（相当标准）。目的是为了控制访问流并提供几种访问途径使得你们可以有效地把我们搜索出来。[ASR-1001](http://www.cisco.com/c/en/us/products/routers/asr-1001-router/index.html)和[ASR-1001-X](http://www.cisco.com/c/en/us/products/routers/asr-1001-x-router/index.html)路由器都是采用对的形式，而且每一对都以active/active的形式服务于两个ISP——这就是我们的备份所在。虽然这两种路由器都是处于同样的10Gbps速率的网络当中，但是外部的访问都是分配在连接着负载均衡器的外部[VLAN](https://en.wikipedia.org/wiki/Virtual_LAN)当中。当经过路由器后，我们就会看到一个负载均衡器。
 
-&#160; &#160; &#160; &#160;我认为是时候要告诉你们的是我们已经在两个数据中心之间建立了带有10Gbps能力的[MPLS](https://en.wikipedia.org/wiki/Multiprotocol_Label_Switching)，但它并不是直接用于。
+&#160; &#160; &#160; &#160;我认为是时候要告诉你们的是我们已经在两个数据中心之间建立了带有10Gbps能力的[MPLS](https://en.wikipedia.org/wiki/Multiprotocol_Label_Switching)，但它并不是直接用于服务。在我们遇到突发事件的情况下，我们会使用它来进行数据的拷贝和快速的恢复。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
