@@ -72,6 +72,7 @@
 ### 负载均衡器（[HAProxy](http://www.haproxy.org/）
 
 &#160; &#160; &#160; &#160;负载均衡器是在[CentOS 7](https://www.centos.org/)上运行[HAProxy](http://www.haproxy.org/)的1.5.15版本，因为CentOS 7是我们较为喜欢的Linux版本。至于TLS（SSL）的流量，最终也会停留在HAProxy上。后面，我们将期待Haroxy的1.7版本中支持HTTP/2的新特性。
-1.
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
