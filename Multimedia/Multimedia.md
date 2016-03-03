@@ -1,4 +1,4 @@
-## Multimedia	[Back](./../Readme.md)
+## Multimedia	[Back](./../README.md)
 
 ### Chapter1: Introduction
 - 多媒體是融合兩種以上媒體的人機交互式信息交流和傳播媒體
