@@ -43,7 +43,7 @@
 
 ### Books
 - Coder
-	- [**Antirez's news**](./antirez/antirez.md)
+  - [**Antirez's news**](./antirez/antirez.md)
  	- [**Gates Notes**](http://www.gatesnotes.com/books)
  	- [**Front-End**](./frontend/frontend.md)
 - Designer
