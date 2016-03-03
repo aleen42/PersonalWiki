@@ -73,6 +73,8 @@
 
 &#160; &#160; &#160; &#160;负载均衡器是在[CentOS 7](https://www.centos.org/)上运行[HAProxy](http://www.haproxy.org/)的1.5.15版本，因为CentOS 7是我们较为喜欢的Linux版本。至于TLS（SSL）的流量，最终也会停留在HAProxy上。后面，我们将期待Haroxy的1.7版本中支持HTTP/2的新特性。
 
-&#160; &#160; &#160; &#160;与其他那些带有双10Gbps LACP网络连接的服务器不同的是，每一个负载均衡器都有两对的10Gbps网络接口：一个用于外部网络连接，而另一个则用于与DMZ的连接。
+&#160; &#160; &#160; &#160;与其他那些带有双10Gbps LACP网络连接的服务器不同的是，每一个负载均衡器都有两对的10Gbps网络接口：一个用于外部网络连接，而另一个则用于与隔离（DMZ)的连接。
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
