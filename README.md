@@ -4,7 +4,7 @@
 
 <img src="./photo.png">
 
-- **Einstein** has said that "Why should I memorize somthing I can so easily get from **BOOK**". In fact, Einstein claimed never to memorize anything which could be looked up in less than **two minutes**. Therefore, that book is your **NOTE** of your life. In order to organize all the knowledges I have learnt, I wrote this note for me to revise all the knowledges.
+  - **Einstein** has said that "Why should I memorize somthing I can so easily get from **BOOK**". In fact, Einstein claimed never to memorize anything which could be looked up in less than **two minutes**. Therefore, that book is your **NOTE** of your life. In order to organize all the knowledges I have learnt, I wrote this note for me to revise al the knowledges.
 
 ## Start Reading
 
@@ -47,7 +47,7 @@
  	- [**Gates Notes**](http://www.gatesnotes.com/books)
  	- [**Front-End**](./frontend/frontend.md)
 - Designer
-	- [**Kenya Hara**](./kenyahara/kenyahara.md)
+  - [**Kenya Hara**](./kenyahara/kenyahara.md)
 
 ### Translation
 - [**Translation Works**](./translation/translation.md)
