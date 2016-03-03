@@ -71,6 +71,6 @@
 
 ### 负载均衡器（[HAProxy](http://www.haproxy.org/）
 
-&#160; &#160; &#160; &#160;负载均衡器是在CentOS 7上运行HAProxy的1
+&#160; &#160; &#160; &#160;负载均衡器是在CentOS 7上运行HAProxy的1.5.15版本
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
