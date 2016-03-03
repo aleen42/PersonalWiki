@@ -1,4 +1,4 @@
-## Questions & Answers	[Back](./../Readme.md)
+## Questions & Answers	[Back](./../README.md)
 
 - **Q&A** is a small branch of wiki to collect different small knowledges according to questions which we always meet.
 - [**How to use browser better**](./better_browser.md)
