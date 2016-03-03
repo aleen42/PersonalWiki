@@ -1,4 +1,4 @@
-## Algorithm Menu	[Back](./../Readme.md)
+## Algorithm Menu	[Back](./../.md)
 
 - an algorithm is actually a **Turning Machine** (圖靈機) 
 - [Analysis](./Analysis/Analysis.md)
