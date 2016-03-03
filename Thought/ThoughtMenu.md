@@ -1,4 +1,4 @@
-## Thought Menu	[Back](./../Readme.md)
+## Thought Menu	[Back](./../README.md)
 
 ### Coder
 * [**OOP**](./OOP/OOP.md)(Object-oriented Programming)
