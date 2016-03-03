@@ -1,4 +1,4 @@
-## Embedded System	[Back](./../Readme.md)
+## Embedded System	[Back](./../README.md)
 - [**Concepts**](./concept/concept.md)
 - [**Interruption**](./interruption/interruption.md)
 - [**Cache**](./cache/cache.md)
@@ -7,8 +7,5 @@
 - [**DSP**](./dsp/dsp.md)
 - [**Autogen**](./autogen/autogen.md)
 - [**Store Resource**](./store/store.md)
-
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
