@@ -1,4 +1,4 @@
-## Project Management(項目管理)	[Back](./../Readme.md)
+## Project Management(項目管理)	[Back](./../README.md)
 
 * [**Introduction**](./introduction/introduction.md)
 * [**IT Context**](./context/context.md)
