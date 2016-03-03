@@ -69,7 +69,7 @@
 
 &#160; &#160; &#160; &#160;我认为是时候要告诉你们的是我们已经在两个数据中心之间建立了带有10Gbps能力的[MPLS](https://en.wikipedia.org/wiki/Multiprotocol_Label_Switching)，但它并不是直接用于服务。在我们遇到突发事件的情况下，我们会使用它来进行数据的拷贝和快速的恢复。或许，你会说“Nick，这并不是数据备份”。在技术上来说，你的观点是正确的（[最佳的正确](https://www.youtube.com/watch?v=hou0lU8WMgo)），因为在这策略上存在着单点失效的严重问题。但是我需要补充的是，我们还维护着两台以上具有故障转移能力的[OSPF](https://en.wikipedia.org/wiki/Open_Shortest_Path_First)路由器（MPLS只是其中的一台）经过我们的ISP。上述所涉及的所有这些东西，它们每一个都连接着位于科罗拉多（Colorado）对应的集，并在故障转移的情况下，对流量进行负载均衡处理。我们可以做的就是把各组集都连接在一起，并形成四个路径，然而，这个工作仍在继续。
 
-### 负载均衡器（[HAProxy](http://www.haproxy.org/）
+### 负载均衡器（[HAProxy](http://www.haproxy.org/)）
 
 &#160; &#160; &#160; &#160;负载均衡器是在[CentOS 7](https://www.centos.org/)上运行[HAProxy](http://www.haproxy.org/)的1.5.15版本，因为CentOS 7是我们较为喜欢的Linux版本。至于TLS（SSL）的流量，最终也会停留在HAProxy上。后面，我们将期待Haroxy的1.7版本中支持HTTP/2的新特性。
 
