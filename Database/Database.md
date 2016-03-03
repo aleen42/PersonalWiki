@@ -1,4 +1,4 @@
-## Database	[Back](./../Readme.md)
+## Database	[Back](./../README.md)
 * [Optimistic Lock & Pessimistic Lock](./乐观锁与悲观锁/乐观锁与悲观锁.md)
 
 <a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
