@@ -123,4 +123,6 @@
 
 <img src="./SO-Architecture-Bosun-Websockets.png">
 
+&#160; &#160; &#160; &#160;
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
