@@ -117,4 +117,6 @@
 
 ### 网络套接字（[网络监控系统（NetGain）](https://github.com/StackExchange/NetGain)）
 
+&#160; &#160; &#160; &#160;我们使用网络套接字来推送实时更新的信息到用后手上，例如像顶栏的通知、票选统计、新导航统计、新答案和新评论，以及一些其他的do
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
