@@ -101,6 +101,6 @@
 
 ### 缓存 & 发布/订阅（[Redis](http://redis.io/)）
 
-&#160; &#160; &#160; &#160;在这里，我们使用[Redis](http://redis.io/)去完成一些事情。那是因为，Redis其坚如磐陀。尽管每个月需要处理1600亿的操作，但是每个Redis实体都只是占用了不到2%的CPU资源
+&#160; &#160; &#160; &#160;在这里，我们使用[Redis](http://redis.io/)去完成一些事情。那是因为，Redis其坚如磐陀。尽管每个月需要处理1600亿的操作，但是每个Redis实体都只是占用了不到2%的CPU资源。而且更多时候是比这个要少得多：
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
