@@ -111,6 +111,6 @@
 
 &#160; &#160; &#160; &#160;除了两台主要Redis服务器（master/slave）用于运行所有的页面之外，我们还有一个机器学习的实体，在两台以上的专门设备间来回切换（主要是在内存区）。这个设备主要是为了使得首页的推荐问题算法其匹配度更高等。这个设备平台叫Providence，[由Kevin Montrose在这里介绍](http://kevinmontrose.com/2015/01/27/providence-machine-learning-at-stack-exchange/)。
 
-&#160; &#160; &#160; &#160;每个主要的Redis服务器都会有256GB的RAM（其中大约90GB是处于shi'yong）
+&#160; &#160; &#160; &#160;每个主要的Redis服务器都会有256GB的RAM（其中大约90GB是处于使用中），而Providence具有384GB的RAM(其中125GB是在使用中)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
