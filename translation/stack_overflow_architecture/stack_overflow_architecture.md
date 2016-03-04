@@ -105,6 +105,6 @@
 
 <img src="./SO-Architecture-Redis-Utilization.png">
 
-&#160; &#160; &#160; &#160;我们有一个配有Redis的L1/L2缓存系统。“L1"用于缓存网络服务器上的HTTP缓存，或者是任何一个正在运行的应用其缓存。”L2"则用于回落到Redis去取出所需要的值。我们的值是通过使用Marc Gravell发明的[protobuf-dot-net](https://github.com/mgravell/protobuf-net)组成[Protobuf格式](https://developers.google.com/protocol-buffers/)存储起来。对于客户端来说，我们会使用[StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)——内部编写并开源。
+&#160; &#160; &#160; &#160;我们有一个配有Redis的L1/L2缓存系统。“L1"用于缓存网络服务器上的HTTP缓存，或者是任何一个正在运行的应用其缓存。”L2"则用于回落到Redis去取出所需要的值。我们的值是通过使用Marc Gravell发明的[protobuf-dot-net](https://github.com/mgravell/protobuf-net)组成[Protobuf格式](https://developers.google.com/protocol-buffers/)存储起来。对于客户端来说，我们会使用[StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)——内部编写并开源。当一部网络服务器不能从L1和L2中获取到缓存时，它会从数据源（通过数据库查询、APIdia）取出所需要的值
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
