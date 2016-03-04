@@ -79,6 +79,6 @@
 
 ### 网络层（IIS 8.5、ASP.NET MVC 5.2.3和.Net 4.6.1）
 
-&#160; &#160; &#160; &#160;负载均衡器把流量分发到我们指定的9个初级服务器（01~09）和两个设备/元网络服务器（10~11， 我们搭建的环境）。初级服务主要运行的东西有Stack Overflow、
+&#160; &#160; &#160; &#160;负载均衡器把流量分发到我们指定的9个初级服务器（01~09）和两个设备/元网络服务器（10~11， 我们搭建的环境）。初级服务主要运行的东西有Stack Overflow、Careers和所有的Stack Exchange页面，除了[meta.stackoverflow.com](http://meta.stackoverflow.com/)和[meta.stackexchange.com](http://meta.stackexchange.com/)。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
