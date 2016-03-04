@@ -89,4 +89,6 @@
 
 ……还有一张是展示这些服务器的利用效率是怎样的：
 
+<img src="./SO-Architecture-Opserver-WebTier.png">
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
