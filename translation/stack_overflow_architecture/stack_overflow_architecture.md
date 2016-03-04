@@ -113,4 +113,6 @@
 
 &#160; &#160; &#160; &#160;每个主要的Redis服务器都会有256GB的RAM（其中大约90GB是处于使用中），而Providence具有384GB的RAM(其中125GB是在使用当中)。
 
+&#160; &#160; &#160; &#160;其实，Redis并不仅仅是用于huan
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
