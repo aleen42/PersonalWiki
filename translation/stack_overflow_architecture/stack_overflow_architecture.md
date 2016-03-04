@@ -117,6 +117,8 @@
 
 ### 网络套接字（[网络监控系统（NetGain）](https://github.com/StackExchange/NetGain)）
 
-&#160; &#160; &#160; &#160;我们使用网络套接字来推送实时更新的信息到手上，例如像顶栏的通知、票选统计、新导航统计、新答案和新评论，以及一些其他的东西。
+&#160; &#160; &#160; &#160;我们使用网络套接字来推送实时更新的信息到用户手上，例如像顶栏的通知、票选统计、新导航统计、新答案和新评论，以及一些其他的东西。
+
+&#160; &#160; &#160; &#160;socket服务器本身是采用运行在网络层的原生socket。它在我们的开源库上是一个非常轻量的应用：`[StackExchange.NetGain](https://github.com/StackExchange/NetGain)`
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
