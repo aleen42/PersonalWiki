@@ -91,4 +91,6 @@
 
 <img src="./SO-Architecture-Opserver-WebTier.png">
 
+
+&#160; &#160; &#160; &#160;后面的文章我会提及为什么我们会如此过度供应，但是目前最突出的东西应该是：滚动构建、净空值以及冗余度。
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
