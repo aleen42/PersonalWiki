@@ -79,6 +79,8 @@
 
 ### 网络层（IIS 8.5、ASP.NET MVC 5.2.3和.Net 4.6.1）
 
-&#160; &#160; &#160; &#160;负载均衡器把流量分发到我们指定的9台主要服务器（01~09）和两个设备/元网络服务器（10~11， 我们搭建的环境）。除了[meta.stackoverflow.com](http://meta.stackoverflow.com/)和[meta.stackexchange.com](http://meta.stackexchange.com/)这两个页面是运行在后面的两台网络服务器之外，像Stack Overflow、Careers和所有的Stack Exchange页面都是运行在我们的主要服务器上。至于主要的Q&A应用，它本身是一个多架构的应用。这就意味着一个独立的应用就能服务于所有来自Q&A页面的请求。换句话说，那就是我们能用一个仅仅配有一台服务器的应用去运行整个Q&A网络。而其他的运用，像Careers、API v2、Mobile API等，它们都是相互独立的。
+&#160; &#160; &#160; &#160;负载均衡器把流量分发到我们指定的9台主要服务器（01~09）和两个设备/元网络服务器（10~11， 我们搭建的环境）。除了[meta.stackoverflow.com](http://meta.stackoverflow.com/)和[meta.stackexchange.com](http://meta.stackexchange.com/)这两个页面是运行在后面的两台网络服务器之外，像Stack Overflow、Careers和所有的Stack Exchange页面都是运行在我们的主要服务器上。至于主要的Q&A应用，它本身是一个多架构的应用。这就意味着一个独立的应用就能服务于所有来自Q&A页面的请求。换句话说，那就是我们能用一个仅仅配有一台服务器的应用去运行整个Q&A网络。而其他的运用，像Careers、API v2、Mobile API等，它们都是相互独立的。下面的图片展示了在IIS上我们的主要层和设备层是怎么分布的：
+
+<img src="./SO-Architecture-IIS-NY-WEB01.png"><img src="./SO-Architecture-IIS-NY-WEB10.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
