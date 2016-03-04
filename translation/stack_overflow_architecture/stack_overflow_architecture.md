@@ -83,4 +83,6 @@
 
 <img src="./SO-Architecture-IIS-NY-WEB01.png"><img src="./SO-Architecture-IIS-NY-WEB10.png">
 
+&#160; &#160; &#160; &#160;这里还有一张是展示Stack Overflow如何把穿梭在网络层的服务器分布式存储在[Opserver](https://github.com/Opserver/Opserver)（我们的内部镜像mian'ban）
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
