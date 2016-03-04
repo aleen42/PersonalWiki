@@ -109,6 +109,6 @@
 
 &#160; &#160; &#160; &#160;由于我们还运行了许多的Q&A页面，因此每个页面都需要有自己的L1/L2缓存：在L1通过Key前缀查找；在L2/Redis通过数据库ID查找。这些我们会在[后面的文章](https://trello.com/c/OztwfkG7/16-caching-Redis)深入讨论。
 
-&#160; &#160; &#160; &#160;除了两台主要Redis服务器（master/slave）用于运行所有的页面之外，我们还有一个机器学习的实体，在两台以上的专门设备间来回切换（这归咎于内存）。这个设备主要是用于首页的推荐问题算法的匹配度更高等。
+&#160; &#160; &#160; &#160;除了两台主要Redis服务器（master/slave）用于运行所有的页面之外，我们还有一个机器学习的实体，在两台以上的专门设备间来回切换（这归咎于内存）。这个设备主要是用于首页的推荐问题算法的匹配度更高等。这个设备平台叫Providence，[由Kevin Montrose在这里介绍](http://kevinmontrose.com/2015/01/27/providence-machine-learning-at-stack-exchange/)。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
