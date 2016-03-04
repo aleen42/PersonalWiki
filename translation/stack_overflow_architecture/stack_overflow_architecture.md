@@ -107,6 +107,6 @@
 
 &#160; &#160; &#160; &#160;我们有一个配有Redis的L1/L2缓存系统。“L1"用于缓存网络服务器上的HTTP缓存，或者是任何一个正在运行的应用其缓存。”L2"则用于回落到Redis去取出所需要的值。我们的值是通过使用Marc Gravell发明的[protobuf-dot-net](https://github.com/mgravell/protobuf-net)组成[Protobuf格式](https://developers.google.com/protocol-buffers/)存储起来。对于客户端来说，我们会使用[StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)——内部编写并开源。当一部网络服务器不能从L1和L2中获取到缓存时，它会从数据源（通过数据库查询、API调用等）取出所需要的值，并把该值存储在本地缓存以及Redis中。这样的话，即使下一个服务器从L1中获取不到想要的值，也能从L2或者Redis中找到，并存下一条数据库查询或API调用的记录。
 
-&#160; &#160; &#160; &#160;由于我们还运行了许多的Q&A页面，因此每个页面都需要有自己的L1/L2缓存：在L1通过Key前缀查找；在L2通过数据库ID查找。
+&#160; &#160; &#160; &#160;由于我们还运行了许多的Q&A页面，因此每个页面都需要有自己的L1/L2缓存：在L1通过Key前缀查找；在L2/通过数据库ID查找。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
