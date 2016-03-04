@@ -77,4 +77,6 @@
 
 &#160; &#160; &#160; &#160;其实，负载均衡器本身就是一种非常简单的装置。我们监听着不同的IP地址（大部分是为了确保安全和DNS的管理）并在host头的基础上路由至不同的后端服务器。这是因为我们有一件事情需要完成。那就是进行流量控制和对部分被写入[HAProxy系统日志的信息](https://cbonte.github.io/haproxy-dconv/configuration-1.5.html#3.1-log)，其HTTP头部进行获取（从我们的网络层发出）。通过这样，我们就能记录每一条请求，它们的性能指标。具体的细节我们[在后面会谈及到](https://trello.com/c/1Oc9cC6u/11-monitoring)。
 
+### 网络层（IIS 8.5、ASP.NET MVC 5.2.3和.Net 4.6.1）
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
