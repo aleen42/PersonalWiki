@@ -71,7 +71,7 @@
 
 ### 负载均衡器（[HAProxy](http://www.haproxy.org/)）
 
-&#160; &#160; &#160; &#160;负载均衡器是在[CentOS 7](https://www.centos.org/)上运行[HAProxy](http://www.haproxy.org/)的1.5.15版本，因为CentOS 7是我们较为喜欢的Linux版本。至于TLS（SSL）的流量，最终也会停留在HAProxy上。后面，我们将期待Haroxy的1.7版本中支持HTTP/2的新特性。
+&#160; &#160; &#160; &#160;负载均衡器是在[CentOS 7](https://www.centos.org/)上运行[HAProxy](http://www.haproxy.org/)的1.5.15版本，因为CentOS 7是我们较为喜欢的Linux版本。至于TLS（SSL）的流量，最终也会停留在HAProxy上。而Haroxy的1.7版本中支持HTTP/2的新特性是我们最为期待的。
 
 &#160; &#160; &#160; &#160;与其他那些带有双10Gbps LACP网络连接的服务器不同的是，每一个负载均衡器都有两对的10Gbps网络接口：一个用于外部网络连接，而另一个则用于与隔离网络（DMZ）的连接。为了更有效地处理SSL协商，这些负载均衡器至少会使用64GB的内存。使用缓存时，越能命中更多内存中的TLS段去重用，我们在后面连接到同一个客户端时就越不需要再进行重新计算。这就意味着我们能更快更廉价地回到某一段中。只要RAM以美元计算足够的便宜，那么这就是一很好的方案。
 
@@ -91,6 +91,10 @@
 
 <img src="./SO-Architecture-Opserver-WebTier.png">
 
-
 &#160; &#160; &#160; &#160;后面的文章我会提及为什么我们会如此过度供应，但是目前最应该考虑的应该是：滚动构建、净空值以及冗余度。
+
+### 服务层（IIS、ASP.Net MVC 5.2.3、.Net 4.6.1和HTTP.SYS）
+
+&#160; &#160; &#160; &#160;在这些网络服务器后是一层十分相像的“服务层”。它也是运行在Windows 2012R2上的IIS 8.5版本。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
