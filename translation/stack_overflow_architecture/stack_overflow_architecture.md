@@ -158,8 +158,8 @@
 - MiniProfiler —— 我们使用在每一个页面的轻量级分析工具（还支持 Ruby、Go 和 Node）
 - Exceptional —— 用于 SQL、JSON、MySQL等的错误日志记录工具
 - Jil —— 高性能 JSON （反）串行器
-- Sigil —— 一个 .Net CIL 生成帮助工具（这是因为 C# 性能上还不足够快）
-- NetGain - High-performance websocket server
+- Sigil —— 一个 .Net CIL 生成帮助工具（使用这个是因为 C# 性能上还不足够快）
+- NetGain —— 高性能的网络套接字服务器
 - Opserver - Monitoring dashboard polling most systems directly and feeding from Orion, Bosun, or WMI as well.
 - Bosun - Backend monitoring system, written in Go
 
