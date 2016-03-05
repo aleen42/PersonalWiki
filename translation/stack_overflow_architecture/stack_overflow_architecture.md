@@ -156,7 +156,7 @@
 - Dapper（.Net 作为核心）—— 高性能 Micro-ORM 用于 ADO.Net
 - StackExchange.Redis —— 高性能 Redis 客户端
 - MiniProfiler —— 我们使用在每一个页面的轻量级分析工具（还支持 Ruby、Go 和 Node）
-Exceptional - Error logger for SQL, JSON, MySQL, etc.
+- Exceptional —— 用于 SQLJSON、MySQL等的错误日志记录工具
 Jil - High-performance JSON (de)serializer
 Sigil - A .Net CIL generation helper (for when C# isn’t fast enough)
 NetGain - High-performance websocket server
