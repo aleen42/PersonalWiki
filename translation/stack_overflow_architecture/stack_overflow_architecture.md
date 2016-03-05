@@ -161,6 +161,6 @@
 - Sigil —— 一个 .Net CIL 生成帮助工具（使用这个是因为 C# 性能上还不足够快）
 - NetGain —— 高性能的网络套接字服务器
 - Opserver —— 用于直接轮询大部分系统的监控面板。并且，它能从 Orion、Bosun 或者 WMI 导出数据
-- Bosun —— Backend monitoring system, written in Go
+- Bosun —— 后端监控系统。它是由 Go 编写的
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
