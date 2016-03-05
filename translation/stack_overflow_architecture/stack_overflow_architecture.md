@@ -163,4 +163,6 @@
 - Opserver —— 用于直接轮询大部分系统的监控面板。并且，它能从 Orion、Bosun 或者 WMI 导出数据
 - Bosun —— 后端监控系统。它是由 Go 编写的
 
+&#160; &#160; &#160; &#160;下一次博文的更新将会列出目前运行我们代码的硬件及其详情。其后，我们会沿着列表继续讲下去，请继续留意。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
