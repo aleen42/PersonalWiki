@@ -157,7 +157,7 @@
 - StackExchange.Redis —— 高性能 Redis 客户端
 - MiniProfiler —— 我们使用在每一个页面的轻量级分析工具（还支持 Ruby、Go 和 Node）
 - Exceptional —— 用于 SQL、JSON、MySQL等的错误日志记录工具
-Jil - High-performance JSON (de)serializer
+- Jil —— 高性能 JSON （反）串行器
 Sigil - A .Net CIL generation helper (for when C# isn’t fast enough)
 NetGain - High-performance websocket server
 Opserver - Monitoring dashboard polling most systems directly and feeding from Orion, Bosun, or WMI as well.
