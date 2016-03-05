@@ -147,6 +147,6 @@
 
 <img src="./SO-Architecture-Opserver-DBTier.png">
 
-&#160; &#160; &#160; &#160;我们对 SQL 的使用其实非常简单。简单才会快，这是铁一般。
+&#160; &#160; &#160; &#160;我们对 SQL 的使用其实非常简单。简单才会快，这是铁一般。即时有些查询看起来非常的复杂，但我们与 SQL 本身的交互间可是非常的优雅。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
