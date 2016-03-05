@@ -147,6 +147,6 @@
 
 <img src="./SO-Architecture-Opserver-DBTier.png">
 
-&#160; &#160; &#160; &#160;我们对 SQL 的使用其实非常简单。简单才会快，这是铁一般。即时有些查询看起来非常的复杂，但我们与 SQL 本身的交互间可是相当的优雅。我们有部分查询是遗留的 [Linq2Sql](https://msdn.microsoft.com/en-us/library/bb425822.aspx)，但所有目前的新开发，我们都会采用 [Dapper](https://github.com/StackExchange/dapper-dot-net) 以及我们那个使用了 POCO 的开源项目， Micro-ORM。
+&#160; &#160; &#160; &#160;我们对 SQL 的使用其实非常简单。简单才会快，这是铁一般。即时有些查询看起来非常的复杂，但我们与 SQL 本身的交互间可是相当的优雅。我们有部分查询是遗留的 [Linq2Sql](https://msdn.microsoft.com/en-us/library/bb425822.aspx)，但所有目前的新开发，我们都会采用 [Dapper](https://github.com/StackExchange/dapper-dot-net) 以及我们那个使用了 [POCO](https://en.wikipedia.org/wiki/Plain_Old_CLR_Object) 的开源项目，Micro-ORM。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
