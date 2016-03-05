@@ -153,8 +153,8 @@
 
 &#160; &#160; &#160; &#160;现在，我们把话题转向那些对你可能会更直接、更有用的的东西。其中一些，虽然我已经在上文有所提及，然而我还是会列出更多我们正在使用的开源 .Net 库以供参考。我们开源它们，是因为它没有任何的核心商业秘密，而且还能帮助许许多多的开发者。今天，我希望你能找到你需要的东西：
 
-- Dapper（.Net 作为核心）——高性能 Micro-ORM  ADO.Net
-StackExchange.Redis - High-performance Redis client
+- Dapper（.Net 作为核心）——高性能 Micro-ORM 用于 ADO.Net
+- StackExchange.Redis——高性能 Redis 
 MiniProfiler - Lightweight profiler we run on every page (also supports Ruby, Go, and Node)
 Exceptional - Error logger for SQL, JSON, MySQL, etc.
 Jil - High-performance JSON (de)serializer
