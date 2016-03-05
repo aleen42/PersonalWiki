@@ -137,6 +137,6 @@
 
 ### 数据库（SQL 服务）
 
-&#160; &#160; &#160; &#160;SQL 服务我们数据的单一真是源。所有在 Elastic 以及 React 的数据都是从 SQL 服务中获取。对
+&#160; &#160; &#160; &#160;SQL 服务是我们数据的单一真实源。所有在 Elastic 以及 React 的数据都是从 SQL 服务中获取。对
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
