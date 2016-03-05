@@ -153,15 +153,15 @@
 
 &#160; &#160; &#160; &#160;现在，我们把话题转向那些对你可能会更直接、更有用的的东西。其中一些，虽然我已经在上文有所提及，然而我还是会列出更多我们正在使用的开源 .Net 库以供参考。我们开源它们，是因为它没有任何的核心商业秘密，而且还能帮助许许多多的开发者。今天，我希望你能找到你需要的东西：
 
-- Dapper（.Net 作为核心）—— 高性能 Micro-ORM 用于 ADO.Net
-- StackExchange.Redis —— 高性能 Redis 客户端
-- MiniProfiler —— 我们使用在每一个页面的轻量级分析工具（还支持 Ruby、Go 和 Node）
-- Exceptional —— 用于 SQL、JSON、MySQL等的错误日志记录工具
-- Jil —— 高性能 JSON （反）串行器
-- Sigil —— 一个 .Net CIL 生成帮助工具（使用这个是因为 C# 性能上还不足够快）
-- NetGain —— 高性能的网络套接字服务器
-- Opserver —— 用于直接轮询大部分系统的监控面板。并且，它能从 Orion、Bosun 或者 WMI 导出数据
-- Bosun —— 后端监控系统。它是由 Go 编写的
+- [Dapper](https://github.com/StackExchange/dapper-dot-net)（.Net 作为核心）—— 高性能 Micro-ORM 用于 ADO.Net
+- [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) —— 高性能 Redis 客户端
+- [MiniProfiler](http://miniprofiler.com/) —— 我们使用在每一个页面的轻量级分析工具（还支持 Ruby、Go 和 Node）
+- [Exceptional](https://github.com/NickCraver/StackExchange.Exceptional) —— 用于 SQL、JSON、MySQL等的错误日志记录工具
+- [Jil](https://github.com/kevin-montrose/Jil) —— 高性能 JSON （反）串行器
+- [Sigil](https://github.com/kevin-montrose/sigil) —— 一个 .Net CIL 生成帮助工具（使用这个是因为 C# 性能上还不足够快）
+- [NetGain](https://github.com/StackExchange/NetGain) —— 高性能的网络套接字服务器
+- [Opserver](https://github.com/opserver/Opserver/tree/overhaul) —— 用于直接轮询大部分系统的监控面板。并且，它能从 Orion、Bosun 或者 WMI 导出数据
+- [Bosun](http://bosun.org/) —— 后端监控系统。它是由 Go 编写的
 
 &#160; &#160; &#160; &#160;下一次博文的更新将会列出目前运行我们代码的硬件及其详情。其后，我们会沿着列表继续讲下去，请继续留意。
 
