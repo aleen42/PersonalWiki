@@ -160,7 +160,7 @@
 - Jil —— 高性能 JSON （反）串行器
 - Sigil —— 一个 .Net CIL 生成帮助工具（使用这个是因为 C# 性能上还不足够快）
 - NetGain —— 高性能的网络套接字服务器
-- Opserver - Monitoring dashboard polling most systems directly and feeding from Orion, Bosun, or WMI as well.
+- Opserver —— 用于直接轮询大部分系统的操作面板 and feeding from Orion, Bosun, or WMI as well.
 - Bosun - Backend monitoring system, written in Go
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
