@@ -143,6 +143,6 @@
 
 &#160; &#160; &#160; &#160;第二个组件是一组 Dell R730xd 服务器，每一个服务器都带有768GB 的 RAM、6TB 的 PCIe SSD 空间和 2x8 个核。该组件负责运行其他的所有东西包括 [Careers](http://careers.stackoverflow.com/)、[Open ID](https://openid.stackexchange.com/)、[Chat](https://chat.stackoverflow.com/)、[我们的异常日志](https://github.com/NickCraver/StackExchange.Exceptional)和其他每一个 Q&A 网页（[Super User](http://superuser.com/) 和 [Server Fault](http://serverfault.com/)等）
 
-&#160; &#160; &#160; &#160;对于 CPU 在数据库层的利用率，我们会保持在很低的一个水平。
+&#160; &#160; &#160; &#160;对于 CPU 在数据库层的利用率，我们希望可以保持在很低的一个水平。然而，由于一些我们正在寻址的计划缓存问题，导致其利用率目前仍存在一个较高的
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
