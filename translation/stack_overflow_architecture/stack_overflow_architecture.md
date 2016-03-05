@@ -141,4 +141,6 @@
 
 &#160; &#160; &#160; &#160;第一个组件是一组 Dell R720xd 服务器，每一个服务器都带有384GB 的 RAM、4TB 的 PCIe SSD 空间和 2x12 个核。Stack Overflow、Sites（这是一个很烂的名字，稍后我会作出说明）、PRIZM和移动端数据库都是由该组组件提供服务。
 
+&#160; &#160; &#160; &#160;第二个组件是一组 Dell R730xd 服务器，每一个服务器都带有768GB 的 RAM、6TB 的 PCIe SSD 空间和 2x8 个核。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
