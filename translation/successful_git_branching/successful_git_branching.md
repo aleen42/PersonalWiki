@@ -1,4 +1,4 @@
-## Stack Overflow: The Architecture - Stack Overflow的系统架构 [**Back**](./../translation.md)
+## A successful Git branching model - 一个成功的Git分支模型 [**Back**](./../translation.md)
 
 > * 原文链接 : [Stack Overflow: The Architecture - 2016](http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
 * 原文作者 : [Nick Craver](https://github.com/NickCraver)
