@@ -18,4 +18,6 @@
 
 &#160; &#160; &#160; &#160;然而，自从有了 Git 后，这一切的动作都将变得如此简单和便捷。而且，这一动作也将成为你日常工作流中的重要环节之一。举个例子来说，在并发版本控制系统/子系统的[相关书籍](http://svnbook.red-bean.com/)中，分支和合并都只是在最后的章节作出首次的提及（对于需要高级操作的用户有用），然而在[每一个讲述 Git 的书籍](http://pragprog.com/titles/tsgit/pragmatic-version-control-using-git)中，这将会在第三个章节就会被提及到（作为基础部分）。
 
+&#160; &#160; &#160; &#160;作为简洁和自然重复的结果，
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
