@@ -1,7 +1,7 @@
 ## A successful Git branching model - 一个成功的Git分支模型 [**Back**](./../translation.md)
 
-> * 原文链接 : [Stack Overflow: The Architecture - 2016](http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
-* 原文作者 : [Nick Craver](https://github.com/NickCraver)
+> * 原文链接 : [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+* 原文作者 : [Vincent Driessen](http://nvie.com/about/)
 * 译者 : [aleen42](https://github.com/aleen42) 
 * 校对者: 暂无
 * 状态 :  待校对
