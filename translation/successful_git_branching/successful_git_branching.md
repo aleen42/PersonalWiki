@@ -4,7 +4,7 @@
 * 原文作者 : [Vincent Driessen](http://nvie.com/about/)
 * 译者 : [aleen42](https://github.com/aleen42) 
 * 校对者: 暂无
-* 状态 :  
+* 状态 :  翻译中
 
 &#160; &#160; &#160; &#160;
 
