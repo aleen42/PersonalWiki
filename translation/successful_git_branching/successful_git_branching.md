@@ -14,6 +14,6 @@
 
 ### 为什么选择 Git？
 
-&#160; &#160; &#160; &#160;因为我们通过集中几个源代码管理系统，就 Git 的优点以及缺点方面进行了彻底地讨论，详细可以[参考](http://whygitisbetterthanx.com/)我们的[网站](http://git.or.cz/gitwiki/GitSvnComparsion)。在这个问题上的斗争，可以说是非常的激烈。当今，作为一位开发人员，相比使用其他的工具，我更倾向于使用 Git。这是因为 Git 真正改变了开发人员对合并（merging）以及分支（branching）的思考。
+&#160; &#160; &#160; &#160;因为我们通过集中几个源代码管理系统，就 Git 的优点以及缺点方面进行了彻底地讨论，详细可以[参考](http://whygitisbetterthanx.com/)我们的[网站](http://git.or.cz/gitwiki/GitSvnComparsion)。在这个问题上的斗争，可以说是非常的激烈。当今，作为一位开发人员，相比使用其他的工具，我更倾向于使用 Git。这是因为 Git 真正改变了开发人员对合并（merging）以及分支（branching）的思考。从经典的并发版本控制（CVS）/子系统（Subversion）世界过来的我，总是认为
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
