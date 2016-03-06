@@ -14,6 +14,6 @@
 
 ### 为什么选择 Git？
 
-&#160; &#160; &#160; &#160;因为我们通过集中几个源代码管理系统，彻底地比较了一下 Git 的优点以及缺点，详细可以[参考](http://whygitisbetterthanx.com/)我们的[网站](http://git.or.cz/gitwiki/GitSvnComparsion)。
+&#160; &#160; &#160; &#160;因为我们通过集中几个源代码管理系统，就 Git 的优点以及缺点方面进行了彻底地讨论，详细可以[参考](http://whygitisbetterthanx.com/)我们的[网站](http://git.or.cz/gitwiki/GitSvnComparsion)。在这个问题上，我们
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
