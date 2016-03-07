@@ -41,6 +41,6 @@
 - 主分支（master）
 - 开发分支（develop）
 
-&#160; &#160; &#160; &#160;
+&#160; &#160; &#160; &#160;在原始仓库中，每一个 Git 用户对 master 分支应该都稍有了解。而与 master 分支平行的有一条分支，叫作 develop fen'zhi
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
