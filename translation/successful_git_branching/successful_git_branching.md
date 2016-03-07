@@ -59,5 +59,6 @@
 
 - 特征分支（Feature branches）
 - 发行分支（Release branches）
+- 热补丁分支（Hotfix branches）
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
