@@ -15,7 +15,7 @@
 - [**How to upload files and data with ajax**](./uploadwithajax.md)
 - [**How to add dns for a server**](./adddns.md)
 - [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
-- [**How to set the default window of the Terminal in Ubuntu**](./navicateremoteaccess.md)
+- [**How to set the default window size of the Terminal in Ubuntu**](./navicateremoteaccess.md)
 - [**How to write footer with CSS**](./footercss.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
