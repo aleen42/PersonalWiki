@@ -264,6 +264,7 @@
         * [How to add dns for a server](./qa/adddns.md)
         * [How to enable Navicat with remote accessing database](./qa/navicateremoteaccess.md)
         * [How to write footer with CSS](./qa/footercss.md)
+        * [How to set the default window size of the Terminal in Ubuntu](./qa/defaultwindowsize.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
         * [What is Cassandra](./qa/cassandra.md)
