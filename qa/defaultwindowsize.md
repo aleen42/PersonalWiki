@@ -1,4 +1,4 @@
-## How to write footer with CSS [Back](./qa.md)
+## How to set the default window size of the Terminal in Ubuntu [Back](./qa.md)
 
 - here is an example of writing footer whose height is **97px**:
 
