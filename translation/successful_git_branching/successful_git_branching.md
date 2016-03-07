@@ -87,11 +87,25 @@
 
 ```bash
 git checkout -b myfeature develop
-# Switched to a new branch "myfeature"
+# Switched to a new branch 'myfeature'
 ```
 
 ###### 合并一个已经完成的 Feature 分支到 develop 分支
 
 &#160; &#160; &#160; &#160;完成了的功能需要合并到 **develop** 分支，以确切把其添加到下一个要发行的版本中。
+
+```bash
+git checkout develop
+# Switched to branch 'develop'
+
+git merge --no-ff myfeature
+# Updating ea1b82a..05e9557
+# (Summary of changes)
+
+git branch -d myfeature
+# Deleted branch myfeature (was 05e9557).
+
+git push origin develop
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
