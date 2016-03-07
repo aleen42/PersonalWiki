@@ -58,5 +58,6 @@
 &#160; &#160; &#160; &#160;我们或许会使用不同类型的支承分支有：
 
 - 特征分支（Feature branches）
+- 发行分支（Release branches）
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
