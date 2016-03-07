@@ -28,6 +28,6 @@
 
 <img src="./centr-decentr@2x.png">
 
-
+&#160; &#160; &#160; &#160;每一个开发人员都需要从原始仓库下拉以及上推代码。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
