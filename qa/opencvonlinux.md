@@ -24,6 +24,8 @@
 
 - Problem: **qmake: could not exec '/usr/lib/i386-linux-gnu/qt4/bin/qmake': No such file or directory**
 - Solution: install the `qt` dependence (`sudo apt-get install qt4-qmake libqt4-dev`)
+- Problem: **qmake: could not exec '/usr/lib/i386-linux-gnu/qt4/bin/qmake': No such file or directory**
+- Solution: install the `qt` dependence (`sudo apt-get install qt4-qmake libqt4-dev`)
 
 ##### 3.3 make
 
@@ -33,7 +35,7 @@
 - *Note: without ffmpeg, opencv cannot read a video*
 - Problem: **some lib*.so have undefined link to reference LibXML2**
 - Solution: you should check the lib when installing ffmpeg. *(eg. enable `libbluray` in ffmpeg will cause problem in ubuntu 14.04 when building opencv)*
-- Problem: **/usr/bin/ld: /usr/local/lib/libavcodec.a(avpacket.o): relocation R_X86_64_32 against `.rodata.str1.1' can not be used when making a shared object; recompile with -fPIC**.
+- Problem: **cmake_cxx_compiler not set after enablelanguage**.
 - Solution: recompile libx264 with `--enable-pic` and `--enable-shared` because your system is 64-bit Ubuntu. (More [details](./../summary/ffmpeg/ffmpeg.md) about installing ffmpeg on Ubuntu 12.04)
 
 ##### 3.4 make install
