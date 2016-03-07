@@ -83,6 +83,11 @@
 
 ###### 创建一个 Feature 分支
 
-&#160; &#160; &#160; &#160;当开始开发一个新功能时，从 **develop** 分支
+&#160; &#160; &#160; &#160;当开始开发一个新功能时，从 **develop** 分支分离出来。
+
+```bash
+git checkout -b myfeature develop
+# Switched to a new branch "myfeature"
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
