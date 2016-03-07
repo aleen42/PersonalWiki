@@ -14,7 +14,5 @@ ii. then, open a terminal, and set the size with mouse. Type `xwininfo` to mark 
 
 iii. find the key `/desktop/gnome/applications/terminal/exec` with gconf-editor:
 
-```bash
-```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
