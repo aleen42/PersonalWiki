@@ -32,4 +32,8 @@
 
 &#160; &#160; &#160; &#160;技术上来说，这就意味着比起 Alice 去定义一个远程的 Git 项目并命名成 bob，然后指向 Bob 的仓库会来说，也没有太大的意义，反之亦是。
 
+### 主分支
+
+<img src="./main-branches@2x.png">
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
