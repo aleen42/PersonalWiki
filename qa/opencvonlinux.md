@@ -25,7 +25,7 @@
 - Problem: **qmake: could not exec '/usr/lib/i386-linux-gnu/qt4/bin/qmake': No such file or directory**
 - Solution: install the `qt` dependence (`sudo apt-get install qt4-qmake libqt4-dev`)
 - Problem: **cmake_cxx_compiler not set after enablelanguage**
-- Solution: install the `qt` dependence (`sudo apt-get install qt4-qmake libqt4-dev`)
+- Solution: install c++ compiler (`sudo apt-get install c++`)
 
 ##### 3.3 make
 
