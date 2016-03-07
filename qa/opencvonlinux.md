@@ -36,7 +36,7 @@
 - Problem: **some lib*.so have undefined link to reference LibXML2**
 - Solution: you should check the lib when installing ffmpeg. *(eg. enable `libbluray` in ffmpeg will cause problem in ubuntu 14.04 when building opencv)*
 - Problem: **cmake_cxx_compiler not set after enablelanguage**.
-- Solution: recompile libx264 with `--enable-pic` and `--enable-shared` because your system is 64-bit Ubuntu. (More [details](./../summary/ffmpeg/ffmpeg.md) about installing ffmpeg on Ubuntu 12.04)
+- Solution: you have to install c++ compiler with `apt-get instal c++`
 
 ##### 3.4 make install
 
