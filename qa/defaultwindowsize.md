@@ -8,4 +8,8 @@ apt-get install gconf-editor
 
 ii. then, open a terminal, and set the size with mouse. Type `xwininfo` to mark down the last value
 
+```
+How to set the default window size of the Terminal in Ubuntu
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
