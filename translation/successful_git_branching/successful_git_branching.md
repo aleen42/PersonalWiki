@@ -36,4 +36,6 @@
 
 <img src="./main-branches@2x.png">
 
+&#160; &#160; &#160; &#160;这开发模型的核心部分，其形成主要是受到上图所存在的模型所启发。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
