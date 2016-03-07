@@ -6,4 +6,6 @@ i. the first step is to install gconf-editor with `apt-get`
 apt-get install gconf-editor
 ```
 
+ii. then, open a terminal, and set the size with mouse. Type `xwininfo` to mark down the last value
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
