@@ -1,4 +1,4 @@
-## Differences between URL and URI [Back](./qa.md)
+## Sublime [Back](./qa.md)
 
 - 概念常見於**Java**
 - **URI**(Uniform Resource Identifier): 統一資源標識符, 用來唯一識別一個資源. (URI只是語義上的抽象概念, 可是絕對路徑或相對路徑)
