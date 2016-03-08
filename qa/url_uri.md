@@ -7,6 +7,4 @@
 	- URL一般格式: ```scheme://host:port/path?```
 - **URN**(Uniform Resource Name): 统一资源命名, 通過名字來標識資源. 如: ```mailto:java-net@java.sun.com```
 
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
