@@ -168,10 +168,10 @@ viii. Install pfff
 ```bash
 cd /opt/
 git clone --depth=1 https://github.com/facebook/pfff.git
-./configure
-make depend
-make
-make opt
+sudo ./configure
+sudo make depend
+sudo make
+sudomake opt
 ```
 
 vvi. setup for users to specify local path to the command above:
