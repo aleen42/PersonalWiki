@@ -14,4 +14,10 @@ ii. update libraries of software
 sudo apt-get update 
 ```
 
+iii. install
+
+```bash
+sudo apt-get install sublime-text-installer
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
