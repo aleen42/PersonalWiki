@@ -133,6 +133,16 @@ sudo pear channel-discover pear.pdepend.org
 sudo pear install pdepend/PHP_Depend
 ```
 
+iv. PHP Mess Detector (phpmd) Pear Package
+
+```bash
+pear channel-discover pear.phpmd.org
+pear install phpmd
+#after installation please check it with this code
+which phpmd
+# mine return /usr/bin/phpmd
+```
+
 - setup for users to specify local path to the command above:
 
 ```js
