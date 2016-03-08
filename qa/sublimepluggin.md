@@ -126,6 +126,13 @@ which phpcs
 # mine return /usr/bin/phpcs
 ```
 
+iii. PHP Depends Pear Package
+
+```bash
+pear channel-discover pear.pdepend.org
+pear install pdepend/PHP_Depend
+```
+
 - setup for users to specify local path to the command above:
 
 ```js
