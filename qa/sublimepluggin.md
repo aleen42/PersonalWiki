@@ -113,11 +113,11 @@ iii. type `ctrl + shift + p` to input `package contro install` and install plugi
 
 - install `phpcs`, `phpcbf`, `phpmd` , `php-cs-fixer` with the following steps:
 
-i. 
+i. PHP Pear
 
 `sudo apt-get install php-pear`
 
-ii. 
+ii. PHP Code Sniffer (phpcs) Pear Package
 
 ```bash
 pear install PHP_CodeSniffer
