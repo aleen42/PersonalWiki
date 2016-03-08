@@ -156,6 +156,12 @@ vi. Install ocaml language interpreter
 sudo apt-get install ocaml
 ```
 
+vii. Install zlib.h libraries. Somehow my zlib library has broken. You can skip this step.
+
+```bash
+apt-get install zlib1g-dev
+```
+
 - setup for users to specify local path to the command above:
 
 ```js
