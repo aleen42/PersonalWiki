@@ -159,7 +159,18 @@ sudo apt-get install ocaml
 vii. Install zlib.h libraries. Somehow my zlib library has broken. You can skip this step.
 
 ```bash
-sapt-get install zlib1g-dev
+sudo apt-get install zlib1g-dev
+```
+
+viii. Install pfff
+
+```bash
+cd /opt/
+git clone --depth=1 https://github.com/facebook/pfff.git
+./configure
+make depend
+make
+make opt
 ```
 
 - setup for users to specify local path to the command above:
