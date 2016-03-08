@@ -97,6 +97,8 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 iii. type `ctrl + shift + p` to input `package contro install` and install plugins you want
 
+###### All Autocomplete
+
 ###### Emmet
 
 ###### jQuery
