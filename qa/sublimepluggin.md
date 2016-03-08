@@ -114,7 +114,7 @@ iii. type `ctrl + shift + p` to input `package contro install` and install plugi
 - install `phpcs`, `phpcbf`, `phpmd` , `php-cs-fixer` with `apt-get`
 - setup for users to specify local path to the command above:
 
-```json
+```js
 {
     // Plugin settings
 
