@@ -111,7 +111,7 @@ iii. type `ctrl + shift + p` to input `package contro install` and install plugi
 
 ###### Phpcs
 
-- install `phpcs`, `phpcbf` , `php-cs-fixer` with `apt-get`
+- install `phpcs`, `phpcbf`, `phpmd` , `php-cs-fixer` with `apt-get`
 - setup for users:
 
 ```json
