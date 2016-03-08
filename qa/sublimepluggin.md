@@ -120,7 +120,7 @@ i. PHP Pear
 ii. PHP Code Sniffer (phpcs) Pear Package
 
 ```bash
-sudopear install PHP_CodeSniffer
+sudo pear install PHP_CodeSniffer
 #after installation please check it with this code
 which phpcs
 # mine return /usr/bin/phpcs
@@ -129,8 +129,8 @@ which phpcs
 iii. PHP Depends Pear Package
 
 ```bash
-pear channel-discover pear.pdepend.org
-pear install pdepend/PHP_Depend
+sudo pear channel-discover pear.pdepend.org
+sudo pear install pdepend/PHP_Depend
 ```
 
 - setup for users to specify local path to the command above:
