@@ -99,13 +99,15 @@ iii. type `ctrl + shift + p` to input `package contro install` and install plugi
 
 ###### All Autocomplete
 
+
+
 ###### Emmet
 
-###### jQuery
+###### GitGutter-Edge
 
 ###### HTML/CSS/JS Prettify
 
-###### GitGutter-Edge
+###### jQuery
 
 ###### Phpcs
 
