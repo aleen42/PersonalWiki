@@ -111,4 +111,6 @@ iii. type `ctrl + shift + p` to input `package contro install` and install plugi
 
 ###### Theme - Soda SolaraizedDark
 
+###### Terminal
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
