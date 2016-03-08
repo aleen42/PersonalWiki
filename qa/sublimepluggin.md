@@ -143,6 +143,13 @@ which phpmd
 # mine return /usr/bin/phpmd
 ```
 
+v. Install PHP CS-Fixer
+
+```bash
+curl http://get.sensiolabs.org/php-cs-fixer.phar -o /usr/local/bin/php-cs-fixer
+chmod a+x /usr/local/bin/php-cs-fixer
+```
+
 - setup for users to specify local path to the command above:
 
 ```js
