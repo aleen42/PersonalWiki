@@ -137,7 +137,8 @@ iv. PHP Mess Detector (phpmd) Pear Package
 
 ```bash
 sudo pear channel-discover pear.phpmd.org
-sudo pear install phpmd
+sudo pear remote-list -c phpmd
+sudo pear install phpmd/PHP_PMD 1
 #after installation please check it with this code
 which phpmd
 # mine return /usr/bin/phpmd
