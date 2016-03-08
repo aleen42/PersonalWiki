@@ -148,7 +148,7 @@ v. Install PHP CS-Fixer
 
 ```bash
 sudo curl http://get.sensiolabs.org/php-cs-fixer.phar -o /usr/local/bin/php-cs-fixer
-sudochmod a+x /usr/local/bin/php-cs-fixer
+sudo chmod a+x /usr/local/bin/php-cs-fixer
 ```
 
 vi. Install ocaml language interpreter
