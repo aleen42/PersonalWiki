@@ -173,7 +173,7 @@ make
 make opt
 ```
 
-- setup for users to specify local path to the command above:
+vvi. setup for users to specify local path to the command above:
 
 ```js
 {
