@@ -150,6 +150,12 @@ curl http://get.sensiolabs.org/php-cs-fixer.phar -o /usr/local/bin/php-cs-fixer
 chmod a+x /usr/local/bin/php-cs-fixer
 ```
 
+vi. Install ocaml language interpreter
+
+```bash
+sudo apt-get install ocaml
+```
+
 - setup for users to specify local path to the command above:
 
 ```js
