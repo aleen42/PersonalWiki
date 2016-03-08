@@ -85,6 +85,6 @@ E585BBA1 2538C270 E2E857C2 194283CA
 
 #### Plugins
 
-- 
+###### Package Contro
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
