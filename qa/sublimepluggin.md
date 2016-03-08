@@ -171,7 +171,7 @@ git clone --depth=1 https://github.com/facebook/pfff.git
 sudo ./configure
 sudo make depend
 sudo make
-sudomake opt
+sudo make opt
 ```
 
 vvi. setup for users to specify local path to the command above:
