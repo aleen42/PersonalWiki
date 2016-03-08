@@ -269,6 +269,7 @@
         * [What is Gist](./qa/gist.md)
         * [What is Cassandra](./qa/cassandra.md)
         * [Differences between URL, URI and URN](./qa/url_uri.md)
+        * [Sublime Pluggin](./qa/sublimepluggin.md)
 - Idols
     * [Sara Soueidan](http://sarasoueidan.com/)
     * [Chris Gannon](http://blog.gannon.tv/)
