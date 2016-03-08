@@ -21,6 +21,6 @@
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
-- [**Sublime Pluggin**](./sublime.md)
+- [**Sublime Pluggin**](./sublimepluggin.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
