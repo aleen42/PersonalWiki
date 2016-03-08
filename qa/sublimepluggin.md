@@ -99,7 +99,7 @@ iii. type `ctrl + shift + p` to input `package contro install` and install plugi
 
 ###### All Autocomplete
 
-
+###### DocBlockr
 
 ###### Emmet
 
