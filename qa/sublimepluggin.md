@@ -112,7 +112,7 @@ iii. type `ctrl + shift + p` to input `package contro install` and install plugi
 ###### Phpcs
 
 - install `phpcs`, `phpcbf`, `phpmd` , `php-cs-fixer` with the following steps:
-    - i.`sudo apt-get install php-pear`
+    - i. `sudo apt-get install php-pear`
     - 
 - setup for users to specify local path to the command above:
 
