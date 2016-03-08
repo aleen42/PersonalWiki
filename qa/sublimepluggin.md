@@ -85,6 +85,14 @@ E585BBA1 2538C270 E2E857C2 194283CA
 
 #### Plugins
 
-###### Package Contro
+###### Package Control
+
+i. type `ctrl + ~`
+
+ii. input the following code into the console:
+
+```
+import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
