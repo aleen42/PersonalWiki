@@ -22,7 +22,7 @@ sudo apt-get install sublime-text-installer
 
 #### Registration
 
-- for build **3103 **
+- here are some code for build **3103 **
 
 ```
 —– BEGIN LICENSE —–
