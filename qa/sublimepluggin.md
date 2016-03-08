@@ -120,7 +120,7 @@ i. PHP Pear
 ii. PHP Code Sniffer (phpcs) Pear Package
 
 ```bash
-pear install PHP_CodeSniffer
+sudopear install PHP_CodeSniffer
 #after installation please check it with this code
 which phpcs
 # mine return /usr/bin/phpcs
