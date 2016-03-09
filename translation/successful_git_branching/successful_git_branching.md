@@ -182,7 +182,7 @@ git checkout develop
 # Switched to ranch 'develop'
 git merge --no-ff release-1.2
 # Merge made by recursive
-# (Summary o
+# (Summary of change)
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
