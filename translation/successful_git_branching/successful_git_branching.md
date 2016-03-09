@@ -171,4 +171,8 @@ git tag -a 1.2
 
 &#160; &#160; &#160; &#160;此时，发行操作已然成功，并且标记上了可供以后查询的标记。
 
+```
+注意： 你可能会需要使用 -s 或者 -u <key> 去加密地签上biao'j
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
