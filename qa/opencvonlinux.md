@@ -29,7 +29,7 @@
 - Problem:
     - The first "expected" hash should be always same (for specific OpenCV code version).
 The second "actual" hash is a signature of received data. And this received data is just broken due some reasons (firewall policy restrictions / other network problems / other software problems, like legacy CMake (2.8.7+ works fine) ): you may try to open file in "mc" editor and check it, sometimes there are messages like "403 forbidden", "timeout", "connection lost".
-    - There are some discussion for the similar problem here (but about ffmpeg): #5546 #5895
+    - There are some discussion for the similar problem here (but about ffmpeg): [#5546](https://github.com/Itseez/opencv/issues/5546) [#5895](https://github.com/Itseez/opencv/issues/5895)
 
 - Soluton: 
     - disable this feature (-DWITH_IPP=OFF)
