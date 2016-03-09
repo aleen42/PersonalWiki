@@ -185,4 +185,6 @@ git merge --no-ff release-1.2
 # (Summary of change)
 ```
 
+&#160; &#160; &#160; &#160;这一步可能会导致有合并冲突的问题（或许，是因为我们改变了版本号的原因）
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
