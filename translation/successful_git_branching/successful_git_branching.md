@@ -166,7 +166,9 @@ git checkout master
 git merge --no-ff release-1.2
 # Merge made by recursive.
 # (Summary of changes)
-git tag
+git tag -a 1.2
 ```
+
+&#160; &#160; &#160; &#160;此时，发行操作已然成功，并且标记上了可供以后查询的标记。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
