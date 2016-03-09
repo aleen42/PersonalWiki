@@ -138,6 +138,6 @@ git push origin develop
 
 ###### 创建一个 Release 分支
 
-&#160; &#160; &#160; &#160;**Release** 分支是由 **develop** 分支分离出来。举个例子来说就是，
+&#160; &#160; &#160; &#160;**Release** 分支定义上是由 **develop** 分支分离出来的。举个例子来说就是，
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
