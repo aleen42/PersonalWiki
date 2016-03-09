@@ -223,8 +223,11 @@ git checkou -b hotfix-1.2.1 master
 # Switched to a new branch 'hotfix-1.2.1'
 
 ./bump-version.sh 1.2.1
-Files modified successfully, version bumped to 1.2.1.
+# Files modified successfully, version bumped to 1.2.1.
 
+git commit -a -m "Bumped version number to 1.2.1"
+# [hotfix-1.2.1 41e61bb] Bumped version number to 1.2.1
+# 1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
