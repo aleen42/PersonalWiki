@@ -158,4 +158,12 @@ git commit -a -m "Bumped version number to 1.2"
 
 &#160; &#160; &#160; &#160;当该 **Release** 分支到达能真正发行的状态时，我们就得进行接下来的部分操作。首先，**Release** 分支需要合并到 **master** 分支上（因为定义上，每一次在 **master** 分支的提交都代表着一次新的发行）。接下来，这次到 **master** 分支的提交必须简单地标记上这次版本号便于后面的查看。最后，在 **Release** 分支上所进行的改动都需要合并回 **develop** 分支，以保证以后的发行不会遗漏这些小漏洞的修复。
 
+&#160; &#160; &#160; &#160;前两步的 Git 命令如下所示：
+
+```bash
+git checkout master
+# Switched to branch 'master'
+git merge --no-ff release-1.2
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
