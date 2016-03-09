@@ -108,6 +108,6 @@ git branch -d myfeature
 git push origin develop
 ```
 
-&#160; &#160; &#160; &#160;标志位 --no-ff 表示每次合并分支时总要去生成一个新的提交对象，即使该合并表现为一个快进（fast-forward）状态。通过设置其就可以避免丢失一些信息，包括一个 Feature 分支的历史存在记录。而且还可以整合所有的关于这次功能添加的提交
+&#160; &#160; &#160; &#160;标志位 --no-ff 表示每次合并分支时总要去生成一个新的提交对象，即使该合并表现为一个快进（fast-forward）状态。通过设置其就可以避免丢失一些信息，包括一个 Feature 分支的历史存在记录。而且还可以整合所有的关于这次功能添加的提交记录。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
