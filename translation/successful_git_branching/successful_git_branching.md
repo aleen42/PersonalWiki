@@ -221,6 +221,10 @@ git branch -d release-1.2
 ```bash
 git checkou -b hotfix-1.2.1 master
 # Switched to a new branch 'hotfix-1.2.1'
+
+./bump-version.sh 1.2.1
+Files modified successfully, version bumped to 1.2.1.
+
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
