@@ -150,4 +150,6 @@ git commit -a -m "Bumped version number to 1.2"
 # 1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
+&#160; &#160; &#160; &#160;在创建新的分支并转到该分支后，我们会填入选定的版本号。在这里，**bump-version.sh** 是一个虚构的 shell 脚本。它用于修改代码备份中国的部分文件来显示信的版本。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
