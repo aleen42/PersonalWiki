@@ -164,6 +164,9 @@ git commit -a -m "Bumped version number to 1.2"
 git checkout master
 # Switched to branch 'master'
 git merge --no-ff release-1.2
+# Merge made by recursive.
+# (Summary of changes)
+git tag
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
