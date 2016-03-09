@@ -233,4 +233,10 @@ git commit -a -m "Bumped version number to 1.2.1"
 &#160; &#160; &#160; &#160;请不要忘记在分离分支后，要标上新的版本号。
 &#160; &#160; &#160; &#160;然后，就可以开始修复漏洞并一次或多次提交修复的代码。
 
+```bash
+git commit -m "Fixed severe production problem"
+# [hotfix-1.2.1 abbe5d6] Fixed severe production problem
+# 5 files changed, 32 insertions(+), 17 deletions(-)
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
