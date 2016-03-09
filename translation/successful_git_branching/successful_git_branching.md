@@ -128,6 +128,6 @@ git push origin develop
 
 &#160; &#160; &#160; &#160;该分支的命名规范：
 
-- release-*
+- **release-***
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
