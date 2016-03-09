@@ -265,6 +265,13 @@ git merge --no-ff hotfix-1.2.1
 # (Summary of changes)
 ```
 
-&#160; &#160; &#160; &#160;有一个需要再次说明一下的特例，那就是，当有一个 **Release** 分支存在时，**Hotfix** 分支应该合并到该 **Release** 分支，而不是 **develop** 分支。这是因为，把修复代码合并到 **Release** 分支后，最终当 **Release** 分支完成后，还是会把该代码合并到 **develop** 分支。（倘若，在 **develop** 分支上的代码继续该段修复代码，而不能等待 **Release** 分支的完成，那么你可以小心地把代码合并到 **develop** 分支上）
+&#160; &#160; &#160; &#160;有一个需要再次说明一下的特例，那就是，当有一个 **Release** 分支存在时，**Hotfix** 分支应该合并到该 **Release** 分支，而不是 **develop** 分支。这是因为，把修复代码合并到 **Release** 分支后，最终当 **Release** 分支完成后，还是会把该代码合并到 **develop** 分支。（倘若，在 **develop** 分支上的代码继续该段修复代码，而不能等待 **Release** 分支的完成，那么你也可以小心地把代码合并到 **develop** 分支上）
+
+&#160; &#160; &#160; &#160;最后，移除暂存的该条 **Hotfix** 分支：
+
+```bash
+git branch -d hotfix-1.2.1
+# Deleted branch hotfix-1.2.1 (was abbe5d6).
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
