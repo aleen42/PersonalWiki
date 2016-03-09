@@ -156,6 +156,7 @@ git commit -a -m "Bumped version number to 1.2"
 
 ###### 合并一个 Release 分支
 
-&#160; &#160; &#160; &#160;当该 **Release** 分支到达能真正发行的状态时，我们就得进行接下来的部分操作。
+&#160; &#160; &#160; &#160;当该 **Release** 分支到达能真正发行的状态时，我们就得进行接下来的部分操作。首先，**Release
+** 分支需要合并到 **master** 分支上。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
