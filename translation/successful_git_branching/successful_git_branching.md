@@ -181,6 +181,8 @@ git tag -a 1.2
 git checkout develop
 # Switched to ranch 'develop'
 git merge --no-ff release-1.2
+# Merge made by recursive
+# (Summary o
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
