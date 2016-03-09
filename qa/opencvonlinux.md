@@ -33,7 +33,7 @@ The second "actual" hash is a signature of received data. And this received data
 
 - Soluton: 
     - disable this feature (`-DWITH_IPP=OFF`)
-    - try to download these files manually and put on the right places. You can get these IPPICV files from here in the RAW mode. Script doesn't re-download file if it has right contents and it is located in the right place.
+    - try to download these files manually and put on the right places. You can get these IPPICV files from [here](https://github.com/Itseez/opencv_3rdparty/tree/ippicv/master_20151201/ippicv) in the RAW mode. Script doesn't re-download file if it has right contents and it is located in the right place.
 
 ##### 3.3 make
 
