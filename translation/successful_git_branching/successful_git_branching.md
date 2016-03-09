@@ -242,6 +242,6 @@ git commit -m "Fixed severe production problem"
 
 ##### 合并一条 Hotfix 分支
 
-&#160; &#160; &#160; &#160;当我们完成对漏洞的修复时，我们需要把修复的代码合并回 **master** 分支上，但同时也需要合并回 **develop** 分支。
+&#160; &#160; &#160; &#160;当我们完成对漏洞的修复时，我们需要把修复的代码合并回 **master** 分支上，但同时也要记得把其合并回 **develop** 分支。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
