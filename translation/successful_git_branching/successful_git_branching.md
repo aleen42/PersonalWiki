@@ -187,4 +187,11 @@ git merge --no-ff release-1.2
 
 &#160; &#160; &#160; &#160;这一步可能会导致有合并冲突的问题（或许，是因为我们改变了版本号的原因）。如果是这样，请修复并提交以解决冲突。
 
+&#160; &#160; &#160; &#160;现在，我们已经真正完成了发行，并可以删除 **Release** 分支。因为，我们不再需要该分支：
+
+```bash
+git branch -d release-1.2
+# Deleted branch release-1.2 (was ff452fe)
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
