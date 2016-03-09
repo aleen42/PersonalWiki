@@ -143,6 +143,11 @@ git push origin develop
 ```bash
 git checkout -b release-1.2 develop
 # Switched to a new branch "release-1.2"
+./bump-version.sh 1.2
+# Files modified successfully, version bumped to 1.2
+git commit -a -m "Bumped version number to 1.2"
+# [release-1.2 74d9424] Bumped version number to 1.2
+# 1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
