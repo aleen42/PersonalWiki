@@ -196,4 +196,16 @@ git branch -d release-1.2
 
 #### Hotfix 分支
 
+&#160; &#160; &#160; &#160;或许是从以下分支分离出来：
+
+- **develop**
+
+&#160; &#160; &#160; &#160;或许会合并到以下分支：
+
+- **develop** 和 **master**
+
+&#160; &#160; &#160; &#160;该分支的命名规范：
+
+- **release-***
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
