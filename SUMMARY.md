@@ -270,6 +270,7 @@
         * [What is Cassandra](./qa/cassandra.md)
         * [Differences between URL, URI and URN](./qa/url_uri.md)
         * [Sublime Text 3 Pluggin](./qa/sublimepluggin.md)
+        * [**Some commands of Linux**](./linuxcommands.md)
 - Idols
     * [Sara Soueidan](http://sarasoueidan.com/)
     * [Chris Gannon](http://blog.gannon.tv/)
