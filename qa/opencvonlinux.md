@@ -32,7 +32,7 @@ The second "actual" hash is a signature of received data. And this received data
     - There are some discussion for the similar problem here (but about ffmpeg): [#5546](https://github.com/Itseez/opencv/issues/5546) [#5895](https://github.com/Itseez/opencv/issues/5895)
 
 - Soluton: 
-    - disable this feature (-DWITH_IPP=OFF)
+    - disable this feature (`-DWITH_IPP=OFF`)
     - try to download these files manually and put on the right places. You can get these IPPICV files from here in the RAW mode. Script doesn't re-download file if it has right contents and it is located in the right place.
 
 ##### 3.3 make
