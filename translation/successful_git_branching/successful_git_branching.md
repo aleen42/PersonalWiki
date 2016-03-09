@@ -126,4 +126,8 @@ git push origin develop
 
 - **develop** 和 **master**
 
+&#160; &#160; &#160; &#160;该分支的命名规范：
+
+- release-
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
