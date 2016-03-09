@@ -179,7 +179,8 @@ git tag -a 1.2
 
 ```bash
 git checkout develop
-# Switched to ranch '
+# Switched to ranch 'develop'
+git merge --no-ff release-1.2
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
