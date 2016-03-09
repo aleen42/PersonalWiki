@@ -280,6 +280,6 @@ git branch -d hotfix-1.2.1
 
 &#160; &#160; &#160; &#160;关于这些图片的一个高质量 PDF 在这里可以找到。请继续观看，并把其放在随时能找到的地方。
 
-&#160; &#160; &#160; &#160;**更新**：任何想要的人可以看这里：这里是主图的 [gitflow-model.src.key](http://github.com/downloads/nvie/gitflow/Git-branching-model-src.key.zip) 
+&#160; &#160; &#160; &#160;**更新**：任何想要的人可以看这里：这里是主图的 [gitflow-model.src.key](http://github.com/downloads/nvie/gitflow/Git-branching-model-src.key.zip)（Apple Keynote）
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
