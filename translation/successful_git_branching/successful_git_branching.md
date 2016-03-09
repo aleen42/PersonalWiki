@@ -154,4 +154,6 @@ git commit -a -m "Bumped version number to 1.2"
 
 &#160; &#160; &#160; &#160;**Release** 分支会暂存一会，直到发行工作真正完成。在此段时间，部分漏洞的修改记录或许会记录在这条分支上（而不是在 **develop** 分支）。 倘若你想在此分支上添加新的大功能，那么这是会严格被禁止的。你所能做的只能在下一次大版本发行的时候，把该功能合并到 **develop** 分支。
 
+###### 一个 Release 分支
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
