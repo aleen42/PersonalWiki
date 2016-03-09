@@ -194,4 +194,6 @@ git branch -d release-1.2
 # Deleted branch release-1.2 (was ff452fe)
 ```
 
+#### Hotfix 分支
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
