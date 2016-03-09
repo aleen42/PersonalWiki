@@ -112,4 +112,6 @@ git push origin develop
 
 <img src="./merge-without-ff@2x.png">
 
+在后一种情况下，我们可能可以通过翻看到 Git 的历史纪录，知道哪些提交对象是共同用于完成一个功能的 —— 但你需要手动去读取所有的日志消息。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
