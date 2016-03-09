@@ -208,4 +208,6 @@ git branch -d release-1.2
 
 - **hotfix-***
 
+&#160; &#160; &#160; &#160;**Hotfix** 分支与 **Release** 分支非常相似的地方在于，其也是为了新版本的发行作准备。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
