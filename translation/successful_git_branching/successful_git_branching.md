@@ -276,6 +276,6 @@ git branch -d hotfix-1.2.1
 
 ### 总结
 
-&#160; &#160; &#160; &#160;
+&#160; &#160; &#160; &#160;尽管，这个开发模型并没有什么令人震惊的东西。但是，这篇文章一开始的几张“大图”
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
