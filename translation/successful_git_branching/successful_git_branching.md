@@ -116,4 +116,6 @@ git push origin develop
 
 &#160; &#160; &#160; &#160;没错，这种情况下会新增加一些（可能空的）提交对象。然而，这是一种利大于弊的做法。
 
+#### Release 分支
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
