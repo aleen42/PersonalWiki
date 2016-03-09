@@ -282,6 +282,6 @@ git branch -d hotfix-1.2.1
 
 &#160; &#160; &#160; &#160;**更新**：任何想要的人可以看这里：这里是主图的 [gitflow-model.src.key](http://github.com/downloads/nvie/gitflow/Git-branching-model-src.key.zip)（Apple Keynote）
 
-<a href="" target="_blank"><img src="./pdf@2x.png"></a>
+<a href="http://nvie.com/files/Git-branching-model.pdf" target="_blank"><img src="./pdf@2x.png"></a>
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
