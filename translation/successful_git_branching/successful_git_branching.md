@@ -130,4 +130,6 @@ git push origin develop
 
 - **release-***
 
+&#160; &#160; &#160; &#160;Release 用于为新产品的发行作准备。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
