@@ -173,7 +173,6 @@ git tag -a 1.2
 
 **注意**： 你可能会需要使用 `-s` 或者 `-u <key>` 去加密地签上标记
 
-
 &#160; &#160; &#160; &#160;为了保存在 **Release** 分支上修改的部分，我们需要把其合并回 **develop** 分支：
 
 ```bash
@@ -253,5 +252,7 @@ git merge --no-ff hotfix-1.2.1
 # (Summary of changes)
 git tag -a 1.2.1
 ```
+
+**注意**： 你可能会需要使用 `-s` 或者 `-u <key>` 去加密地签上标记
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
