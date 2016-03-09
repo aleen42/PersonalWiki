@@ -196,6 +196,8 @@ git branch -d release-1.2
 
 #### Hotfix 分支
 
+<img src="./hotfix-branches@2x.png"》
+
 &#160; &#160; &#160; &#160;从以下分支分离出来：
 
 - **master**
