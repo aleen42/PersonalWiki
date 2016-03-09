@@ -230,4 +230,6 @@ git commit -a -m "Bumped version number to 1.2.1"
 # 1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
+&#160; &#160; &#160; &#160;请不要忘记在分离分支后，要标上新的版本号。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
