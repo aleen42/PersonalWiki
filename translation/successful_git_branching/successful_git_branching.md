@@ -214,4 +214,6 @@ git branch -d release-1.2
 
 &#160; &#160; &#160; &#160;**Hotfix** 分支的精髓在于有一个成员去修复产品漏洞时，其他工作于 **develop** 分支的团队成员能继续其工作，而不互相产生影响。
 
+###### 创建一个 Hotfix 分支
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
