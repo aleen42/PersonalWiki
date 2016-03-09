@@ -118,6 +118,12 @@ git push origin develop
 
 #### Release 分支
 
+&#160; &#160; &#160; &#160;或许是从以下分支分离出来：
 
+- **develop**
+
+&#160; &#160; &#160; &#160;或许会合并到以下分支：
+
+- **develop** 和 **master**
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
