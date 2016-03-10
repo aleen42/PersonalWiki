@@ -104,4 +104,8 @@
 
 `ffmpeg -r "[new-rate]" -i "frame/f_%1d.png" -vcodec "libx264" -crf "0" output.mp4` 
 
+#### 3.4 extract a specific frame
+
+`fmpeg -i input.mp4 -ss [time] -vframes 1 output.jpg`
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
