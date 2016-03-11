@@ -18,9 +18,12 @@ du -h --max-depth=1
 #### 3. If you want to check the info of the space size in the physical memory
 
 ```bash
-total_mem=`free | sed -n "2, 1p" | awk '{print int($2)}'`
-used_mem=`free | sed -n "3, 1p" | awk '{print int($3)}'`
-Mem=$(awk 'BEGIN{print int('$used_mem'/'$total_mem'*100) }')
+# Total Mem
+free | sed -n "2, 1p" | awk '{print int($2)}'
+# Used
+free | sed -n "3, 1p" | awk '{print int($3)}'
+# Ratio of using
+awk 'BEGIN{print int('$used_mem'/'$total_mem'*100)
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
