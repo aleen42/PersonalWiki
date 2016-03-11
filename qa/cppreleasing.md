@@ -83,6 +83,14 @@ delete a;
         delete [] p;
     }
     ```
+    
+    - `delete` by itself is just to delete a single object, and `delete []` can free the whole array:
+    
+    ```cpp
+    char* one = new char;
+    
+    delete [] one;
+    ```
 
 
 
