@@ -14,6 +14,7 @@ public:
 }
 ```
 
-- after using **std::vector**, `clear()` is just used to clear data, but the space of memory will still a problem for you.
+- after using **std::vector**, `clear()` is just used to clear data, but the space of memory will still a problem for you. Therefore, remember to use `swap()` to release memory for each used vectors.
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
