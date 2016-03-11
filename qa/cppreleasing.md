@@ -64,6 +64,9 @@ delete a;
     char* str2 = new char [40];
     
     strcpy(str1, "memory leak");
+    
+    /* try not to do this, or you'll never free those 40 bytes of character */
+    str2 = str1
     ```
 
 
