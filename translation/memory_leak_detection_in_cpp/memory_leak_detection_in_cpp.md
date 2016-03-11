@@ -1,4 +1,4 @@
-## Memory Leak Detection in C++ - 一个成功的Git建立分支模型 [**Back**](./../translation.md)
+## Memory Leak Detection in C++ - 如何在 C++ 中检测出内存泄漏的 [**Back**](./../translation.md)
 
 > * 原文链接 : [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 * 原文作者 : [Vincent Driessen](http://nvie.com/about/)
