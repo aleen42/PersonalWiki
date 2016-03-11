@@ -23,6 +23,7 @@ v.clear();
 /* clear func just clears the data but not the space it takes */
 
 std::vector<T>(v).swap(v);
+/* by calling this func, space will be really released */
 
 ```
 
