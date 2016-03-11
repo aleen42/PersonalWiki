@@ -15,4 +15,6 @@ df -h
 du -h --max-depth=1
 ```
 
+#### 3. If you want to check the info of the space size in physical memory
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
