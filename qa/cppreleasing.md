@@ -60,8 +60,8 @@ delete a;
     - notice about pointers assignments:
     
     ```
-    char* str1 = new char[30];
-    char* str2 = new char[40;
+    char* str1 = new char [30];
+    char* str2 = new char [40];
     ```
 
 
