@@ -7,6 +7,7 @@ Class A {
 private:
 public:
     A() {}
+    A(int b) {}
     
     /* remember to create this as follow */
     ~A() {}
