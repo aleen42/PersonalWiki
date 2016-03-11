@@ -92,7 +92,9 @@ delete a;
     /* something wrong */
     delete [] one;
     
-    
+    char* many = new char [40];
+    /* something wrong */
+    delete many;
     ```
 
 
