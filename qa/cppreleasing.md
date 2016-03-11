@@ -24,7 +24,6 @@ v.clear();
 
 std::vector<T>(v).swap(v);
 /* by calling this func, space will be really released */
-
 ```
 
 
