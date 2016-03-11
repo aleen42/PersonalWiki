@@ -89,7 +89,10 @@ delete a;
     ```cpp
     char* one = new char;
     
+    /* something wrong */
     delete [] one;
+    
+    
     ```
 
 
