@@ -80,6 +80,7 @@ delete a;
         char* p = new cha [x];
         
         /* if you don't do show, oops, memory leak happens */
+        delete [] p;
     }
     ```
 
