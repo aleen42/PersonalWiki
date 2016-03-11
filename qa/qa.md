@@ -20,7 +20,7 @@
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
-- [**Why does the shell script always break down when running for statement**](./cassandra.md)
+- [**Why does the shell script always break down when running for statement**](./shellfor.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of Linux**](./linuxcommands.md)
