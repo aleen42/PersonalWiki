@@ -19,11 +19,11 @@ public:
 ```cpp
 std::vector<T> v;
 
-v.clear();
 /* clear func just clears the data but not the space it takes */
+v.clear();
 
-std::vector<T>(v).swap(v);
 /* by calling this func, space will be really released */
+std::vector<T>(v).swap(v);
 ```
 
 - when using `new` to create instances, please remember to release memory by using `delete`
@@ -35,5 +35,11 @@ A a = new A();
 delete a;
 ```
 
+- some attention points about char*
+
+```cpp
+/* allocate 
+char* str = new str[30];
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
