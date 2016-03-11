@@ -38,7 +38,7 @@ delete a;
 - some attention points about char*
 
 ```cpp
-/* allocate 
+/* allocate 30 bytes to house a string */
 char* str = new str[30];
 ```
 
