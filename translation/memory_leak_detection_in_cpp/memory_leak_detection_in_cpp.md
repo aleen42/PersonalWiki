@@ -23,4 +23,8 @@ dmalloc
 
 &#160; &#160; &#160; &#160;这是一款我曾经在2002年9月攥写的文章中提到的工具。该工具的作者表明其在 C++ 领域的知识是有限的，以至于对内存泄漏的检测也是有限的。为了在 C++ 及线程中使用 dmalloc，那么我们必须把该应用链接成静态。
 
+ccmalloc
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
