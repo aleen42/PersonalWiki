@@ -25,6 +25,6 @@ dmalloc
 
 ccmalloc
 
-&#160; &#160; &#160; &#160;ccmalloc 工具是有着一个简单使用模块的内存分析工具。
+&#160; &#160; &#160; &#160;ccmalloc 工具是有着一个简单使用模块的内存分析工具。该模块支持动态链接库，但不支持 dlopen 的使用。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
