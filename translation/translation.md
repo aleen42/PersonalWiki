@@ -5,7 +5,7 @@
 - [**Distributing React components**](./distributing_react_components/distributing_react_components.md)
 - [**Stack Overflow: The Architecture - 2016**](./stack_overflow_architecture/stack_overflow_architecture.md)
 - [**A successful Git branching model**](./successful_git_branching/successful_git_branching.md)
-- [**A successful Git branching model**](./successful_git_branching/successful_git_branching.md)
+- [**Memory Leak Detection in C++**](./successful_git_branching/successful_git_branching.md)
 
 #### Proofread
 
