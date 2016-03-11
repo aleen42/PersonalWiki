@@ -8,6 +8,6 @@
 
 &#160; &#160; &#160; &#160;谨记，千万不要延期修复内存泄漏的问题。而且，你可以使用一个或者多个的便捷检测工具，去作为你开发过程的一部分。
 
-&#160; &#160; &#160; &#160;在早期，有那么一篇叫《在嵌入式系统中检测内存泄漏问题》，由LJ于2002年9月编写，并可在[www.linuxjournal.com/article/6059](www.linuxjournal.com/article/6059)查看的文章。
+&#160; &#160; &#160; &#160;在早期，有那么一篇叫《在嵌入式系统中检测内存泄漏问题》，由LJ于2002年9月编写，并可在 [www.linuxjournal.com/article/6059](www.linuxjournal.com/article/6059) 查看的文章。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
