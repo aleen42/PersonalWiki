@@ -40,6 +40,9 @@ delete a;
 ```cpp
 /* allocate 30 bytes to house a string */
 char* str = new str[30];
+
+/* release */
+delete [] str;
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
