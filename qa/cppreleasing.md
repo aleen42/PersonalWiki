@@ -59,9 +59,11 @@ delete a;
     
     - notice about pointers assignments:
     
-    ```
+    ```cpp
     char* str1 = new char [30];
     char* str2 = new char [40];
+    
+    strcpy(str1, "memory leak");
     ```
 
 
