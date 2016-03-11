@@ -54,6 +54,7 @@ delete a;
     str = new char [60];
     
     /* this will only release the next 60 bytes, but not the 30 bytes before */
+    delete [] str;
     ```
 
 
