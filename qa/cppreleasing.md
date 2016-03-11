@@ -45,6 +45,12 @@ delete a;
     /* release */
     delete [] str;
     ```
+    
+    - remember to release when relocate a pointer to another one:
+    
+    ```cpp
+    
+    ```
 
 
 
