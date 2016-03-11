@@ -56,6 +56,13 @@ delete a;
     /* this will only release the next 60 bytes, but not the 30 bytes before */
     delete [] str;
     ```
+    
+    - notice about pointers assignments:
+    
+    ```
+    char* str1 = new char[30];
+    char* str2 = new char[40;
+    ```
 
 
 
