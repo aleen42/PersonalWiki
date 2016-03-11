@@ -23,7 +23,7 @@ free | sed -n "2, 1p" | awk '{print int($2)}'
 # Used
 free | sed -n "3, 1p" | awk '{print int($3)}'
 # Ratio of using
-Mem=$awk 'BEGIN{print int('$used_mem'/'$total_mem'*100) }'
+$awk 'BEGIN{print int('$used_mem'/'$total_mem'*100) }'
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
