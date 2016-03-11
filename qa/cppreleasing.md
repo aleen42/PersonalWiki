@@ -7,6 +7,7 @@ Class A {
 private:
 public:
     A() {}
+    
     /* remember to create this as follow */
     ~A() {}
 }
