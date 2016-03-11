@@ -72,6 +72,16 @@ delete a;
     /* a disater is comming, and access violation */
     delete [] str1;
     ```
+    
+    - block region will never collect memory after exiting the program:
+    
+    ```cpp
+    void Leak(int x) {
+        char* p = new cha [x];
+        
+        /* if you don't do show, oops, memory leak happens */
+    }
+    ```
 
 
 
