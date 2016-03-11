@@ -272,6 +272,7 @@
         * [Differences between URL, URI and URN](./qa/url_uri.md)
         * [Sublime Text 3 Pluggin](./qa/sublimepluggin.md)
         * [Some commands of Linux](./qa/linuxcommands.md)
+        * [Some problems of releasing memory in C++](./qa/cppreleasing.md)
 - Idols
     * [Sara Soueidan](http://sarasoueidan.com/)
     * [Chris Gannon](http://blog.gannon.tv/)
