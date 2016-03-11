@@ -19,7 +19,9 @@ public:
 ```cpp
 vector <T> v;
 
-/* it just clear the data but not the space it takes */
+v.clear();
+/* clear func just clear the data but not the space it takes */
+
 ```
 
 
