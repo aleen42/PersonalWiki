@@ -24,6 +24,6 @@
 - [**Differences between URL, URI and URN**](./url_uri.md)
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of Linux**](./linuxcommands.md)
-- [**Some releasing problems of C++**](./linuxcommands.md)
+- [**Some releasing problems of C++**](./cppreleasing.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
