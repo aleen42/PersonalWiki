@@ -46,7 +46,7 @@ The second "actual" hash is a signature of received data. And this received data
 - Problem: **/usr/bin/ld: /usr/local/lib/libavcodec.a(avpacket.o): relocation R_X86_64_32 against `.rodata.str1.1' can not be used when making a shared object; recompile with -fPIC**.
 - Solution: recompile libx264 with `--enable-pic` and `--enable-shared` because your system is 64-bit Ubuntu. (More [details](./../summary/ffmpeg/ffmpeg.md) about installing ffmpeg on Ubuntu 12.04)
 - Problem: **No rule to make target '/usr/lib/x86_64-linux-gnu/libGL.so'**
-- Solution: try to re-install libgl with `sudo apt-get install --reinstall libgl1-mesa-dev libgl1-mesa-glx`
+- Solution: try to re-install libgl with `sudo apt-get install libgl1-mesa-dev libgl1-mesa-glx`
 
 ##### 3.4 make install
 
