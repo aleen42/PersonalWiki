@@ -6,6 +6,6 @@
 * 校对者: 暂无
 * 状态 :  翻译中
 
-
+&#160; &#160; &#160; &#160;谨记，千万不要延期修复内存泄漏的问题。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
