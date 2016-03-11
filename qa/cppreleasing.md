@@ -67,6 +67,10 @@ delete a;
     
     /* try not to do this, or you'll never free those 40 bytes of character */
     str2 = str1
+    
+    delete [] str2;
+    /* a disater is comming, and access violation */
+    delete [] str1;
     ```
 
 
