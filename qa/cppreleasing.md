@@ -49,7 +49,7 @@ delete a;
     - remember to release when relocate a pointer to another one:
     
     ```cpp
-    
+    char* str = new char[30];
     ```
 
 
