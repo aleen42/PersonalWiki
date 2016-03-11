@@ -265,6 +265,7 @@
         * [How to enable Navicat with remote accessing database](./qa/navicateremoteaccess.md)
         * [How to write footer with CSS](./qa/footercss.md)
         * [How to set the default window size of the Terminal in Ubuntu](./qa/defaultwindowsize.md)
+        * [Why does the shell script always break down when running for statement](./shellfor.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
         * [What is Cassandra](./qa/cassandra.md)
