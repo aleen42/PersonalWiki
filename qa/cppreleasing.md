@@ -26,5 +26,14 @@ std::vector<T>(v).swap(v);
 /* by calling this func, space will be really released */
 ```
 
+- when using `new` to create instances, please remember to release memory by using `delete`
+
+```cpp
+A a = new A();
+
+/* release */
+delete a;
+```
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
