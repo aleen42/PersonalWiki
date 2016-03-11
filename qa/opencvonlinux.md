@@ -25,7 +25,7 @@
 - Problem: **qmake: could not exec '/usr/lib/i386-linux-gnu/qt4/bin/qmake': No such file or directory**
 - Solution: install the `qt` dependence (`sudo apt-get install qt4-qmake libqt4-dev`)
 - Problem: **cmake_cxx_compiler not set after enablelanguage**
-- Solution: install c++ compiler (`sudo apt-get install c++`)
+- Solution: install c++ compiler (`sudo apt-get install g++`)
 - Problem:
     - The first "expected" hash should be always same (for specific OpenCV code version).
 The second "actual" hash is a signature of received data. And this received data is just broken due some reasons (firewall policy restrictions / other network problems / other software problems, like legacy CMake (2.8.7+ works fine) ): you may try to open file in "mc" editor and check it, sometimes there are messages like "403 forbidden", "timeout", "connection lost".
