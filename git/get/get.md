@@ -24,7 +24,7 @@ git clone [url]
 ### 3. set remote and add it to Github
 
 ```bash
-
+git remote add origin [remote github url]
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
