@@ -10,7 +10,7 @@
 - It is also not language related, which is an opened extension of CGI, which is used to keep CGI running in the memory. It's well-known that loading of CGI has been the main reason of low performance.
 
 - the main process of running FastCGI:
-    1. Loading the Process Manager of FastCGI when a web serve has booted(IIS ISAPI or Apache Module)
-    - the Process Manager of FastCGI will initiate itself to create several CGI processes, which are used to wait for connecting of Web servers
+    1. Loading the Process Manager of FastCGI when a Web server has booted(IIS ISAPI or Apache Module)
+    - the Process Manager of FastCGI will initiate itself to create several CGI processes, which are used to wait for connecting of Web servers.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
