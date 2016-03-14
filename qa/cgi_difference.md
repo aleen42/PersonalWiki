@@ -6,6 +6,6 @@
 
 ### FastCGI
 
-- **FastCGI** is a kind of CGI which is long-live, which will always be running. With FastCGI, it'll take less time t fork.(which is a problem of fork-and-execute mode in CGI)
+- **FastCGI** is a kind of CGI which is long-live, which will always be running. With FastCGI, it'll take less time t fork(which is a problem of fork-and-execute mode in CGI). In addtional, FastCGI also supports for distr
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
