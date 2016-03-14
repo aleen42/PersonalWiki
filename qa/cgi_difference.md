@@ -52,7 +52,11 @@ php-cgi -b 127.0.0.1:9000
 # --quit:       smooth to kill a fastcgi process of php
 # --restart:    restart a fastcgi process of php
 # --reload:     smooth to reload php.ini
-# --logrotate:  enable log file
+# --logrotate:  enable log files again
 ```
+
+### Spawn-FCGI
+
+- **Spawn-FCGI** is a general kind of the Process Manager of FastCGI， which is one part of 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
