@@ -21,5 +21,7 @@
 - Because of multi-processes, FastCGI will cost more memory than CGI, whose each process(PHP-CGI) will cost about 7Mb to 25Mb memory.
 
 > - Data from the article: [Nginx 0.8x + PHP 5.2.13(FastCGI) is 10 times better than Apache(Edition 6)](http://blog.s135.com/nginx_php_v6/)
+- when 30k connection happens in parallel, 10 Nginx processes will only cost 150Mb Mem(15)
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
