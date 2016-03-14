@@ -9,21 +9,21 @@ $ git init
 
 - Add file into the project
 
-```git
-$ git add *
-$ git add README
+```bash
+git add *
+git add README
 ``` 
 
 ### 2. Clone a existed project
 - Clone a project
 
-```git
-$ git clone [url]
+```bash
+git clone [url]
 ```
 
 ### 3. set remote and add it to Github
 
-```basn
+```bash
 
 ```
 
