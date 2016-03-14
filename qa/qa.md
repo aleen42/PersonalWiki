@@ -22,6 +22,7 @@
 - [**What is Cassandra**](./cassandra.md)
 - [**Why does the shell script always break down when running for statement**](./shellfor.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
+- [**Differences between CGI, FastCGI, PHP-CGI, PHP-FPM, Spawn-FCGI**
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of Linux**](./linuxcommands.md)
 - [**Some problems of releasing memory in C++**](./cppreleasing.md)
