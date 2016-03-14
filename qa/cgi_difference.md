@@ -25,7 +25,7 @@
 
 ### PHP-CGI
 
-- **PHP-CGI** is one kind of the Process Manager of FastCGI, which is with php itself.
+- **PHP-CGI** is one kind of the Process Manager of FastCGI, which is within php itself.
 - The command to boot is as follow:
 
 ```bash
@@ -36,5 +36,9 @@ php-cgi -b 127.0.0.1:9000
 
 - After changing `php.ini`, you should reboot PHP-CGI to make the new `php.ini` work.
 - When a PHP-CGI process is killed, all the PHP code will cannot run.(PHP-FPM and Spawn-FCGI do not have the same problem)
+
+### PHP-FPM
+
+- **PHP-FPM** is another kind of the Process Manager of FastCGI, which can be downloaded [here](http://php-fpm.org/download). 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
