@@ -7,6 +7,6 @@
 ### FastCGI
 
 - **FastCGI** is a kind of CGI which is long-live, which will always be running. With FastCGI, it'll take less time t fork(which is a problem of fork-and-execute mode in CGI). In additional, FastCGI also supports for distributed computing.
-- **FastCGI** is not language related, which is an opened extension of CGI, which is used to keep CGI running in the memory. It's well-known that loading of CGI has been the main reason of low performan
+- It is also not language related, which is an opened extension of CGI, which is used to keep CGI running in the memory. It's well-known that loading of CGI has been the main reason of low performance.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
