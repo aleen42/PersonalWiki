@@ -4,4 +4,8 @@
 
 - **CGI**, Common Gateway Interface, is a tool for HTTP server to contact with programs on other servers, which can be used into any languages with standard input, standard output and environmental variables, such as PHP, Perl, or Tcl.
 
+### FastCGI
+
+- **FastCGI** is a kind of CGI which is long-live, which will always be running.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
