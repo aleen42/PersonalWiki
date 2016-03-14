@@ -28,7 +28,7 @@ git remote add origin [remote github url]
 # set the new remote
 
 git remote -v
-verifies the new remote URL
+# verifies the new remote URL
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
