@@ -270,6 +270,7 @@
         * [What is Gist](./qa/gist.md)
         * [What is Cassandra](./qa/cassandra.md)
         * [Differences between URL, URI and URN](./qa/url_uri.md)
+        * [Differences between CGI, FastCGI, PHP-CGI, PHP-FPM, Spawn-FCGI](.//cgi_difference.md)
         * [Sublime Text 3 Pluggin](./qa/sublimepluggin.md)
         * [Some commands of Linux](./qa/linuxcommands.md)
         * [Some problems of releasing memory in C++](./qa/cppreleasing.md)
