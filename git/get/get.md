@@ -23,6 +23,8 @@ $ git clone [url]
 
 ### 3. set remote and add it to Github
 
+```basn
 
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
