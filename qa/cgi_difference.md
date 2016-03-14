@@ -25,6 +25,11 @@
 
 ### PHP-CGI
 
-- **PHP-CGI** is one kind of the Process Manager of FastCGI, which is with php itself
+- **PHP-CGI** is one kind of the Process Manager of FastCGI, which is with php itself.
+- The command to boot is as follow:
+
+```bash
+php-cgi -b 127.0.0.1:9000
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
