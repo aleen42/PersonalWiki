@@ -16,4 +16,8 @@
     - This sub process will return standard output and error info to the Web server with the same connection. Requests will be finished when it closes the connection.
 - Therefore, FastCGI only set once for parsing `php.ini`, loading extensions and initiating all the data structures.
 
+#### shortcuts
+
+- Because of multi-processes, FastCGI will cost more memory than CGI, whose each process(PHP-CGI) will cost about 7Mb to 25Mb memory.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
