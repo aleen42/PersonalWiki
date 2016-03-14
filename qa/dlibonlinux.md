@@ -1,4 +1,4 @@
-## How to set up Dlib in the Visual Studio 2013 [Back](./qa.md)
+## How to compile Dlib(C++) on Linux [Back](./qa.md)
 
 ### Introduction
 
