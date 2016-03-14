@@ -35,6 +35,6 @@ php-cgi -b 127.0.0.1:9000
 #### shortcuts
 
 - After changing `php.ini`, you should reboot PHP-CGI to make the new `php.ini` work.
-- When a PHP-CGI process is killed, all the PHP code will cannot run.(PHP-FPM and Spawn-FCGI do not have the sam)
+- When a PHP-CGI process is killed, all the PHP code will cannot run.(PHP-FPM and Spawn-FCGI do not have the same problem)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
