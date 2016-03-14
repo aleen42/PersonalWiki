@@ -3,8 +3,8 @@
 ### 1. Create a new project
 - Initialize a project
 
-```git
-$ git init
+```bash
+git init
 ```
 
 - Add file into the project
