@@ -21,6 +21,6 @@ $ git add README
 $ git clone [url]
 ```
 
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
+### 3. set remote and add it to Github
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
