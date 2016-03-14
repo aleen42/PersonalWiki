@@ -47,10 +47,12 @@ php-cgi -b 127.0.0.1:9000
 /usr/local/php/sbin/php-fpm [options]
 
 # options
-# --start:  start a fastcgi process of php
-# --stop:   force to kill a fastcgi process of php
-# --quit:   smooth to kill a fastcgi process of php
-# --restart: restart a fastcgi process of php
+# --start:      start a fastcgi process of php
+# --stop:       force to kill a fastcgi process of php
+# --quit:       smooth to kill a fastcgi process of php
+# --restart:    restart a fastcgi process of php
+# --reload:     smooth to reload php.ini
+# --logrotate:  enable log file
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
