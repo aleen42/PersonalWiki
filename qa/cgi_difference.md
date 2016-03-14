@@ -23,5 +23,8 @@
 > - Data from the article: [Nginx 0.8x + PHP 5.2.13(FastCGI) is 10 times better than Apache(Edition 6)](http://blog.s135.com/nginx_php_v6/)
 - when 30k connection happens in parallel, 10 Nginx processes will only cost 150Mb Mem(15Mb * 10), and 64 PHP-CGI will only cost about 1280Mb(20Mb * 64).
 
+### PHP-CGI
+
+- **PHP-CGI** is one kind of the Process Manager of FastCGI, which is with php itself
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
