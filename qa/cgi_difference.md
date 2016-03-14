@@ -13,6 +13,6 @@
     1. Loading the Process Manager of FastCGI when a Web server has booted(IIS ISAPI or Apache Module)
     - The Process Manager of FastCGI will initiate itself to create several CGI processes, which are used to wait for connection of Web servers.
     - When requests from clients have reached the Web server, the Process Manager of FastCGI will select a CGI set up before to connect, whose environmental variables and standard input will be sent to the sub process `php-cgi` of FastCGI.
-    - This sub process will return standard output and error info to the Web server with the same connection. Requests will be finished when it closes the connect
+    - This sub process will return standard output and error info to the Web server with the same connection. Requests will be finished when it closes the connection.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
