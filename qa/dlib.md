@@ -1,4 +1,4 @@
-## How to setup Dlib in the Visual Studio 2013 [Back](./qa.md)
+## How to set up Dlib in the Visual Studio 2013 [Back](./qa.md)
 
 ### Introduction
 
