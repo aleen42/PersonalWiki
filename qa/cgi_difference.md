@@ -39,6 +39,7 @@ php-cgi -b 127.0.0.1:9000
 
 ### PHP-FPM
 
-- **PHP-FPM** is another kind of the Process Manager of FastCGI, which can be downloaded [here](http://php-fpm.org/download). 
+- **PHP-FPM** is another kind of the Process Manager of FastCGI, which can be downloaded [here](http://php-fpm.org/download).
+- It's actually a patch for PHP, which is used to integrate the Process Manager of FastCGI into PHP, which should be make into P before version 5.3.2.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
