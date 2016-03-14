@@ -4,7 +4,7 @@
 - [**How to use browser better**](./better_browser.md)
 - [**How PGP encryption works**](./pgp.md)
 - [**How to set up Dlib in the Visual Studio 2013**](./dlib.md)
-- [**How to compile Dlib on Linux**](./dlibonlinux.md)
+- [**How to compile Dlib(C++) on Linux**](./dlibonlinux.md)
 - [**How to use Gitbook to write something**](./gitbook.md)
 - [**How to build up OpenCV on Linux**](./opencvonlinux.md)
 - [**How to make a smart picture showing with css**](./smartPic.md)
