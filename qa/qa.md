@@ -18,6 +18,7 @@
 - [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
 - [**How to write footer with CSS**](./footercss.md)
 - [**How to set the default window size of the Terminal in Ubuntu**](./defaultwindowsize.md)
+- [**How to build up Node.js and npm on Windows**](./nodejsandnpmonwindows.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
