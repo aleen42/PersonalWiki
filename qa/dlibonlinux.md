@@ -46,7 +46,7 @@ if (DLIB_LINK_WITH_SQLITE3)
 endif ()
 ```
 
-iv. Running after as follow:
+iv. Running after as follow(this will take a while):
 
 ```bash
 cmake .
@@ -54,6 +54,14 @@ make
 ```
 
 *Notice: when you compile dlib on Linux, you may meet the problem that some types not found, and you should add dlib:: before them.*
+
+v. Finally, you'll get the structure like this:
+
+> - detectFace
+>> - lib
+>>> - dlib
+>> - detectFace.cpp
+>> - CMakeLists.txt
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
