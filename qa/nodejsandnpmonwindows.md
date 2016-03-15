@@ -1,4 +1,4 @@
-## How to set the default window size of the Terminal in Ubuntu [Back](./qa.md)
+## How to build up Node.js and npm on Windows [Back](./qa.md)
 
 i. the first step is to install gconf-editor with `apt-get`
 
