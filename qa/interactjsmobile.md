@@ -17,9 +17,9 @@ window.location.href = 'objc://' + 'getParam1:withParam2::/' + EncodeUtf8(status
 ```js
 /** utf8 encoding */
 function EncodeUtf8(s1) {
-    // escape函数用于对除英文字母外的字符进行编码。如“Visit W3School!”->"Visit%20W3School%21"
+    /** func escape is used to encode characters outside alphabet like "Visit W3School!" -> "Visit%20W3School%21" */
     var s = escape(s1);
-    var sa = s.split("%");//sa[1]=u6211
+    var sa = s.split("%"); /** sa[1] = u6211 */
     var retV = "";
     if (sa[0] != "") {
         retV = sa[0];
