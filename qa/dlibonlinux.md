@@ -1,7 +1,8 @@
 ## How to compile Dlib(C++) on Linux [Back](./qa.md)
 
-i. the first step is to download `.zip` files of Dlib [here(dlib 18.18)](https://github.com/aleen42/PersonalWiki/raw/master/qa/dlib-18.18.zip).
-ii. unzip the file you downloaded just now and place it wherever you want, which is a new `lib` in the same directory of the cpp source for me.
+**i.** the first step is to download `.zip` files of Dlib [here(dlib 18.18)](https://github.com/aleen42/PersonalWiki/raw/master/qa/dlib-18.18.zip).
+
+**ii.** unzip the file you downloaded just now and place it wherever you want, which is a new `lib` in the same directory of the cpp source for me.
 
 > - detectFace
 >> - lib
@@ -9,7 +10,7 @@ ii. unzip the file you downloaded just now and place it wherever you want, which
 >> - detectFace.cpp
 >> - CMakeLists.txt
 
-iii. then you can create your `CMakeLists.txt`
+**iii.** then you can create your `CMakeLists.txt`
 
 ```cmake
 #
@@ -46,7 +47,7 @@ if (DLIB_LINK_WITH_SQLITE3)
 endif ()
 ```
 
-iv. Running after as follow(this will take a while):
+**iv.** Running after as follow(this will take a while):
 
 ```bash
 cmake .
@@ -55,7 +56,7 @@ make
 
 *Notice: when you compile dlib on Linux, you may meet the problem that some types not found, and you should add dlib:: before them.*
 
-v. Finally, you'll get the structure like this:
+**v.** Finally, you'll get the structure like this:
 
 > - detectFace
 >> - bin
