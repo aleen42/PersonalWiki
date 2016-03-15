@@ -2,11 +2,13 @@
 
 i. the first step is to download `.zip` files of Dlib [here(dlib 18.18)](https://github.com/aleen42/PersonalWiki/raw/master/qa/dlib-18.18.zip).
 ii. unzip the file you downloaded just now and place it wherever you want, which is a new `lib` in the same directory of the cpp source for me.
+
 > - detectFace
 >> - lib
 >>> - dlib
 >> - detectFace.cpp
 >> - CMakeLists.txt
+
 iii. then you can create your `CMakeLists.txt`
 
 ```cmake
@@ -44,6 +46,14 @@ if (DLIB_LINK_WITH_SQLITE3)
 endif ()
 ```
 
-4. Running `cmake` after 
+iv. Running after as follow:
+
+```bash
+cmake .
+make
+```
+
+*Notice: when you compile dlib on Linux, you may meet the problem that some types not found, and you should add dlib:: before them.*
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
