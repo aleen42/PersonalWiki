@@ -84,23 +84,22 @@ function Hex2Utf8(s) {
     var tempS = "";
     var ss = "";
     if (s.length == 16) {
-            tempS = "1110" + s.substring(0, 4);
-            tempS += "10" + s.substring(4, 10);
-            tempS += "10" + s.substring(10, 16);
-            var sss = "0123456789ABCDEF";
-            for (var i = 0; i < 3; i++) {
-                retS += "%";
-                ss = tempS.substring(i * 8, (eval(i) + 1) * 8);
+        tempS = "1110" + s.substring(0, 4);
+        tempS += "10" + s.substring(4, 10);
+        tempS += "10" + s.substring(10, 16);
+        var sss = "0123456789ABCDEF";
+        for (var i = 0; i < 3; i++) {
+            retS += "%";
+            ss = tempS.substring(i * 8, (eval(i) + 1) * 8);
 
 
-                retS += sss.charAt(Dig2Dec(ss.substring(0, 4)));
-                retS += sss.charAt(Dig2Dec(ss.substring(4, 8)));
-            }
-            return retS;
+            retS += sss.charAt(Dig2Dec(ss.substring(0, 4)));
+            retS += sss.charAt(Dig2Dec(ss.substring(4, 8)));
         }
-        return "";
+        return retS;
     }
-
+    return "";
+}
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
