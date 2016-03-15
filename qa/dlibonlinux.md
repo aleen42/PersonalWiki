@@ -58,10 +58,14 @@ make
 v. Finally, you'll get the structure like this:
 
 > - detectFace
->> - lib
->>> - dlib
+>> - bin
+>>> - detectFace
+>> - dlib_build
 >> - detectFace.cpp
+>> - lib
+>> - CMakeCache.txt
 >> - CMakeLists.txt
-
+>> - Makefile
+>> - cmake_install.cmake
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
