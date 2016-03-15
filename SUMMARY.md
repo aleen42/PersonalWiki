@@ -267,6 +267,7 @@
         * [How to write footer with CSS](./qa/footercss.md)
         * [How to set the default window size of the Terminal in Ubuntu](./qa/defaultwindowsize.md)
         * [How to build up Node.js and npm on Windows](./qa/nodejsandnpmonwindows.md)
+        * [How to use JavaScript to interact with Android and IOS](./qa/interactjsmobile.md)
         * [Why does the shell script always break down when running for statement](./qa/shellfor.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
