@@ -7,6 +7,6 @@
 >>> - dlib
 >> - detectFace.cpp
 >> - CMakeLists.txt
-3. then you can make your `CMakeLists.txt`
+3. then you can create your `CMakeLists.txt`
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
