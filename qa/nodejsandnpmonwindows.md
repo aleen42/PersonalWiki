@@ -1,10 +1,7 @@
 ## How to build up Node.js and npm on Windows [Back](./qa.md)
 
-i. the first step is to install gconf-editor with `apt-get`
+i. download from the website: [http://nodejs.org/#download](http://nodejs.org/#download)
 
-```bash
-apt-get install gconf-editor
-```
 
 ii. then, open a terminal, and set the size with mouse. Type `xwininfo` to mark down the last value
 
