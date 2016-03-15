@@ -1,6 +1,6 @@
 ## How to build up Node.js and npm on Windows [Back](./qa.md)
 
-i. download from the website: [http://nodejs.org/#download](http://nodejs.org/#download), and install for windows
+i. download from the website: [http://nodejs.org/#download](http://nodejs.org/#download), and install for windows.
 
 
 ii. then, open a terminal, and set the size with mouse. Type `xwininfo` to mark down the last value
