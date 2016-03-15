@@ -9,7 +9,7 @@
 >> - CMakeLists.txt
 3. then you can create your `CMakeLists.txt`
 
-```txt
+```cmake
 #
 # This is a CMake makefile.  You can find the cmake utility and
 # information about it at http://www.cmake.org
@@ -42,7 +42,6 @@ endif ()
 if (DLIB_LINK_WITH_SQLITE3)
 	add_example(sqlite_ex)
 endif ()
-
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
