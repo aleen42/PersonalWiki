@@ -1,14 +1,12 @@
 ## How to use JavaScript to interact with Android and IOS [Back](./qa.md)
 
-### Call Android or IOS
-
-##### Android
+### Android
 
 ```js
 window.jsCallBack.func(status, msg);
 ```
 
-##### IOS
+### IOS
 
 ```js
 window.location.href = 'objc://' + 'getParam1:withParam2::/' + EncodeUtf8(status) + ':/' + EncodeUtf8(msg);
