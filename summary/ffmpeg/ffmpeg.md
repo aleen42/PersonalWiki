@@ -110,6 +110,12 @@
 
 #### 3.5 admix two audio, and put one audio in the specifc time
 
+1. create a blank video of the longest time:
 
+`ffmpeg -f lavfi -i anullsrc=r=44100:cl=mono -t <seconds> -q:a 9 -acodec libmp3lame <blank audio>`
+
+2. add the clip audio(the shorter one) to the blank audio in a specific time.
+
+`ffmpeg -i <blank audio> -i <shorter audio file> -filter_complex "aevalsrc=0:d= <time> [s1];[s1][1:a]concat=n=2:v=0:a=1[aout]" -c:v copy -map 0:v -map [aout] <output file>`
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
