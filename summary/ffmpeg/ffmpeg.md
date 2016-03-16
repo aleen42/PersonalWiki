@@ -120,6 +120,6 @@
 
 3. combine with the origin audio file:
 
-`ffmpeg -i <resreved file> -i <original longer audio file> -filter_complex "amix=inputs=2:duration=longest:dropout_transition=0, volume=2" <output audio file>`
+`ffmpeg -i <resreved file> -i <original longer audio file> -filter_complex "amix=inputs=2:duration=longest:dropout_transition=2, volume=2" <output audio file>`
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
