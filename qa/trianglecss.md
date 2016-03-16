@@ -1,7 +1,7 @@
 ## How to write triangles with CSS [Back](./qa.md)
 
 ```css
-/** top to bottom 6 * 6 */
+/** top to bottom 6x6 */
 .triangle {
     border: 3px solid transparent;
     border-top: 6px solid #000;
