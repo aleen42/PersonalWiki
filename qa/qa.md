@@ -17,6 +17,7 @@
 - [**How to add dns for a server**](./adddns.md)
 - [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
 - [**How to write footer with CSS**](./footercss.md)
+- [**How to write triangles with CSS**](./trianglecss.md)
 - [**How to set the default window size of the Terminal in Ubuntu**](./defaultwindowsize.md)
 - [**How to build up Node.js and npm on Windows**](./nodejsandnpmonwindows.md)
 - [**How to use JavaScript to interact with Android and IOS**](./interactjsmobile.md)
