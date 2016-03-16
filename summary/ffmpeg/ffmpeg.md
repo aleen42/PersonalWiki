@@ -108,4 +108,8 @@
 
 `fmpeg -i input.mp4 -ss [time] -vframes 1 output.jpg`
 
+#### 3.5 admix two audio, and put one audio in the specifc time
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
