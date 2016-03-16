@@ -46,8 +46,6 @@ body {
     height: 97px;
     width: 100%;
     background-color: #000;
-    position: absolute;
-	bottom: 0;
 }
 ```
 
