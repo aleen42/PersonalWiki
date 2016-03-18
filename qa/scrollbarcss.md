@@ -3,6 +3,7 @@
 ```css
 /** Webkit */
 ::-webkit-scrollbar {
+    /** if you want to style your own scroll bar, this pseudo should be written */
 }
 
 ```
