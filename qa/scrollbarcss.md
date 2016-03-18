@@ -43,6 +43,12 @@
 body {
     /** Part 1 */
     scrollbar-track-color: #000;
+    
+    /** Part 2 */
+    scrollbar-arrow-color: #000;
+    
+    /** Part 3 */
+    scrollbar-shadow-color: #eee;
 }
 ```
 
