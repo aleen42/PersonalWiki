@@ -4,6 +4,7 @@
 /** Webkit */
 ::-webkit-scrollbar {
     /** if you want to style your own scroll bar, this pseudo should be written */
+    /** 1 */
 }
 ::-webkit-scrollbar-button       { /* 2 */ }
 ::-webkit-scrollbar-track        { /* 3 */ }
