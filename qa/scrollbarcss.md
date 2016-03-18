@@ -8,7 +8,9 @@
     /** if you want to style your own scroll bar, this pseudo should be written */
     /** Part 1 */
 }
-::-webkit-scrollbar-button       { /* 2 */ }
+::-webkit-scrollbar-button {
+    /** Part 2 */
+}
 ::-webkit-scrollbar-track        { /* 3 */ }
 ::-webkit-scrollbar-track-piece  { /* 4 */ }
 ::-webkit-scrollbar-thumb        { /* 5 */ }
