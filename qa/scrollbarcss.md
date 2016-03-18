@@ -1,5 +1,7 @@
 ## How to write a new scroll bar with CSS [Back](./qa.md)
 
+#### Chrome
+
 ```css
 /** Webkit */
 ::-webkit-scrollbar {
