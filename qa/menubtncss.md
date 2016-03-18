@@ -7,12 +7,10 @@
 ```
 
 ```css
-/** top to bottom 6x6 */
-.triangle {
-    border: 3px solid transparent;
-    border-top: 6px solid #000;
-    height: 0;
-    width: 0;
+.menu-btn . inline {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
 }
 ```
 
