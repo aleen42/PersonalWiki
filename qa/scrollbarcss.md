@@ -2,7 +2,8 @@
 
 ```css
 /** Webkit */
-
+::-webkit-scrollbar {
+}
 
 ```
 
