@@ -36,4 +36,14 @@
 
 <img src="./scrollbarparts_thumb.png">
 
+#### IE
+
+```css
+/** ms */
+body {
+    /** Part 1 */
+    scrollbar-track-color: #000;
+}
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
