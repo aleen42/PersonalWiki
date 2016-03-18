@@ -18,4 +18,6 @@
 
 ### Content Lists
 
+- [https://astronautweb.co/snippet/font-awesome/](https://astronautweb.co/snippet/font-awesome/)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
