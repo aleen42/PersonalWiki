@@ -1,5 +1,11 @@
 ## How to write menu button with CSS [Back](./qa.md)
 
+```html
+<div class="menu-btn">
+    <div class="inline"></div>
+</div>
+```
+
 ```css
 /** top to bottom 6x6 */
 .triangle {
