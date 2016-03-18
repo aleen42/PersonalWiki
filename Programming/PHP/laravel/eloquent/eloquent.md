@@ -165,6 +165,11 @@ class Pay extends Eloquent {
 ```php
 /** SQL: select * from pays where user_id = 10; */
 $accounts = User::find(10)->hasManyPays()->get();
+
+/** If you want to show out all two tables */
+$accounts = User::where('id', 10)->with('hasManyPays')->first();
+/** then you can look fr the data of another table */
+var_dump($accounts->hasManyPays->pay_info);
 ```
 
 #### Many to Many
