@@ -49,6 +49,9 @@ body {
     
     /** Part 3 */
     scrollbar-shadow-color: #eee;
+    
+    /** Part 4 */
+    scrollbar-face-color: #a10000;
 }
 ```
 
