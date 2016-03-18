@@ -7,6 +7,15 @@
 ```
 
 ```css
+.menu-btn {
+    width: 25px;
+    height: 3px;
+    padding: 3px 0;
+    border-top: solid 3px #000;
+    border-bottom: solid 3px #000;
+    cursor: pointer;
+}
+
 .menu-btn . inline {
     width: 100%;
     height: 100%;
