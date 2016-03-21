@@ -35,6 +35,6 @@ NJAMD
 
 YAMD
 
-&#160; &#160; &#160; &#160;YAMD （也是另一个内存漏洞检测工具）
+&#160; &#160; &#160; &#160;YAMD （也是另一个内存漏洞检测工具）是另一个用于计算内存寻址块边界的软件包。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
