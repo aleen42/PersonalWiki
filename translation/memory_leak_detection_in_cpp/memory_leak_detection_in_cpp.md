@@ -45,6 +45,6 @@ YAMD
 
 Valgrind
 
-&#160; &#160; &#160; &#160;Valgrind 是用于 x86-GNU Linux 系统的一个相对较新的开源内存检测软件。它比起早期的一些工具，具有更多的功能。但是，它仅能运行于 X86 架构的主机上。当一个程序运行在 Valgrind 控制下，那么它所有内存的读写操作，包括调用 malloc、free、new 和 delete，都会被
+&#160; &#160; &#160; &#160;Valgrind 是用于 x86-GNU Linux 系统的一个相对较新的开源内存检测软件。它比起早期的一些工具，具有更多的功能。但是，它仅能运行于 X86 架构的主机上。当一个程序运行在 Valgrind 控制下，那么它所有内存的读写操作，包括调用 malloc、free、new 和 delete，都会被检测。Valgrind 可检测到未初始化的内存区域、内存泄漏、内存非初始化或不可读的传值操作、POSIX 线程产生的一些问题以及 malloc/free 和 new/dete的不匹配使用等问题
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
