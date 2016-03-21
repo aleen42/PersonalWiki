@@ -29,6 +29,6 @@ ccmalloc
 
 NJAMD
 
-&#160; &#160; &#160; &#160;NJAMD的作者声称：“NJAMD 不仅仅是另一个的 malloc 漏洞检测软件”。
+&#160; &#160; &#160; &#160;NJAMD的作者声称：“NJAMD 不仅仅是另一个的 malloc 漏洞检测软件”。与大部分内存定位漏洞检测软件相比，NJAMD 中使用了新的函数去替代标准的定位函数。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
