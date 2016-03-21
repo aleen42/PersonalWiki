@@ -29,6 +29,6 @@ ccmalloc
 
 NJAMD
 
-&#160; &#160; &#160; &#160;NJAMD的作者声称：“NJAMD 不仅仅是另一个的 malloc 漏洞检测软件”
+&#160; &#160; &#160; &#160;NJAMD的作者声称：“NJAMD 不仅仅是另一个的 malloc 漏洞检测软件”。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
