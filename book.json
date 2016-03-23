@@ -7,7 +7,8 @@
          "-search",
         "search-pro"，
         "advance-emoji",
-        "github"
+        "github",
+        "-sharing"
     ],
     "pluginsConfig": {
         "search-pro": {
@@ -16,6 +17,18 @@
         },
         "github": {
             "url": "https://github.com/aleen42"   
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                    "weibo", "instapaper"
+            ]
         }
     }
 }
