@@ -21,7 +21,7 @@ sudo mv composer.phar /usr/local/bin/composer
 - Check whether install successfully:
 
 ```bash
-composer --ve
+composer --version
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
