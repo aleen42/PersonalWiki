@@ -1,5 +1,9 @@
 {
     "structure": {
         "readme": "README.md"
-    }
+    },
+    "plugins": [
+        "disqus"
+    ],
+    "pluginsConfig": {}
 }
