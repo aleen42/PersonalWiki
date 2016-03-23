@@ -10,7 +10,8 @@
         "github",
         "-sharing"，
         "tbfed-pagefooter",
-        "toggle-chapters"
+        "toggle-chapters",
+        "ga",
     ],
     "pluginsConfig": {
         "search-pro": {
