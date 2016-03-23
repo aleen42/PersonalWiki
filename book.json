@@ -23,6 +23,18 @@
         "github": {
             "url": "https://github.com/aleen42"
         },
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                    "weibo", "instapaper"
+            ]
+        }
         "tbfed-pagefooter": {
             "copyright": "Copyright © aleen42",
             "modify_label": "Updated time: ",
