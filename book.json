@@ -13,7 +13,7 @@
     ],
     "pluginsConfig": {
         "disqus": {
-            "shortName": "personalwiki"
+            "shortName": "personal"
         },
         "search-pro": {
             "cutWordLib": "nodejieba",
