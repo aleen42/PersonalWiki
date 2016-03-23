@@ -14,7 +14,7 @@
     ],
     "pluginsConfig": {
         "disqus": {
-            "shortName": "PersonalWi"  
+            "shortName": "PersonalWiki"  
         },
         
         "search-pro": {
