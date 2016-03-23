@@ -18,9 +18,11 @@
             "cutWordLib": "nodejieba",
             "defineWord" : ["Gitbook Use"]
         },
+        
         "github": {
             "url": "https://github.com/aleen42"   
         },
+        
         "sharing": {
             "weibo": true,
             "facebook": true,
@@ -33,6 +35,7 @@
                     "weibo", "instapaper"
             ]
         },
+        
         "tbfed-pagefooter": {
             "copyright":"Copyright © Soundtooth.inc aleen42 2013-2016",
             "modify_label": "Updated time: ",
