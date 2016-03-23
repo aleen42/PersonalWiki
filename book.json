@@ -6,12 +6,16 @@
         "disqus",
          "-search",
         "search-pro"，
-        "advance-emoji"
+        "advance-emoji",
+        "github"
     ],
     "pluginsConfig": {
         "search-pro": {
             "cutWordLib": "nodejieba",
             "defineWord" : ["Gitbook Use"]
+        },
+        "github": {
+            "url": "https://github.com/aleen4"   
         }
     }
 }
