@@ -9,7 +9,8 @@
         "advance-emoji",
         "github",
         "-sharing"，
-        "tbfed-pagefooter"
+        "tbfed-pagefooter",
+        "toggle-chapters"
     ],
     "pluginsConfig": {
         "search-pro": {
