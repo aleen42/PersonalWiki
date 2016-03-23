@@ -40,6 +40,10 @@
             "copyright":"Copyright © Soundtooth.inc aleen42 2013-2016",
             "modify_label": "Updated time: ",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        
+        "ga": {
+            "token": "UA-XXXX-Y"
         }
     }
 }
