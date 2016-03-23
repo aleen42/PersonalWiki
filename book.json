@@ -3,7 +3,14 @@
         "readme": "README.md"
     },
     "plugins": [
-        "disqus"
+        "disqus",
+         "-search",
+        "search-pro"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["Gitbook Use"]
+        }
+    }
 }
