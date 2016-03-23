@@ -4,7 +4,7 @@
     },
     "plugins": [
         "disqus",
-         "-search",
+        "search",
         "search-pro",
         "github",
         "-sharing",
@@ -13,37 +13,22 @@
     ],
     "pluginsConfig": {
         "disqus": {
-            "shortName": "PersonalWiki"  
+            "shortName": "PersonalWiki"
         },
-        
         "search-pro": {
             "cutWordLib": "nodejieba",
-            "defineWord" : ["Gitbook Use"]
-        },
-        
-        "github": {
-            "url": "https://github.com/aleen42"   
-        },
-        
-        "sharing": {
-            "weibo": true,
-            "facebook": true,
-            "twitter": true,
-            "google": false,
-            "instapaper": false,
-            "vk": false,
-            "all": [
-                "facebook", "google", "twitter",
-                    "weibo", "instapaper"
+            "defineWord": [
+                "Gitbook Use"
             ]
         },
-        
+        "github": {
+            "url": "https://github.com/aleen42"
+        },
         "tbfed-pagefooter": {
-            "copyright":"Copyright © aleen42",
+            "copyright": "Copyright © aleen42",
             "modify_label": "Updated time: ",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
-        
         "ga": {
             "token": "UA-75457732-1"
         }
