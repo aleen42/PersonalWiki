@@ -5,7 +5,8 @@
     "plugins": [
         "disqus",
          "-search",
-        "search-pro"
+        "search-pro"，
+        "advance-emoji"
     ],
     "pluginsConfig": {
         "search-pro": {
