@@ -4,7 +4,7 @@
     },
     "plugins": [
         "disqus",
-        "search",
+        "-search",
         "search-pro",
         "github",
         "-sharing",
