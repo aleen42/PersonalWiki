@@ -71,4 +71,6 @@ Insure++
 
 &#160; &#160; &#160; &#160;由 Parasoft 开发的 Insure++ 并不是一款开源或免费的软件，但是，它和 mpatrol 类似的是，它是一个用于内存泄漏检测和代码覆盖的好工具。确实， Insure++ 在代码覆盖方面所做的工作比 mpatrol 要多。它提供了收集和展示数据的工具。该软件的试用版是可以下载于非 Linux 平台上使用一段时间。
 
+&#160; &#160; &#160; &#160;当然，该产品在 Linux 下安装也是很容易的。只不过会对安装的电脑产生节点锁（node-locked）
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
