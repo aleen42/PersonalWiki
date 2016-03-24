@@ -1,4 +1,8 @@
 /** CSS style for website */
+html {
+    font-family: Arial, '';
+}
+
 a {
     color: #a1000;
 }
@@ -10,3 +14,5 @@ a:focus {
 a:active {
     color: #a1000;
 }
+
+
