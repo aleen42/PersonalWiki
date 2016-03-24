@@ -4,15 +4,15 @@ html {
 }
 
 a {
-    color: #a1000;
+    color: #a10000;
 }
 
 a:focus {
-    color: #a1000;
+    color: #a10000;
 }
 
 a:active {
-    color: #a1000;
+    color: #a10000;
 }
 
 .footer-modification {
