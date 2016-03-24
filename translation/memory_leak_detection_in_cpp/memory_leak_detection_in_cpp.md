@@ -81,4 +81,6 @@ Insure++
 
 &#160; &#160; &#160; &#160;代码覆盖情况是可以通过另一个工具，TCA，去分析。随着含有 Insure ++ 的程序运行，数据可以被采集，并生成一张精准的图片，去显示哪段代码被执行过。TCA 有一个GUI 界面代码覆盖情况的显示。
 
+[资源](http://www.linuxjournal.com/files/linuxjournal.com/linuxjournal/articles/065/6556/6556s1.html)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
