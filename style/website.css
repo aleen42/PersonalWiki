@@ -1,1 +1,12 @@
 /** CSS style for website */
+a {
+    color: #a1000;
+}
+
+a:focus {
+    color: #a1000;
+}
+
+a:active {
+    color: #a1000;
+}
