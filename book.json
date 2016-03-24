@@ -3,11 +3,11 @@
         "readme": "README.md"
     },
     "styles": {
-        "website": "styles/website.css",
-        "ebook": "styles/ebook.css",
-        "pdf": "styles/pdf.css",
-        "mobi": "styles/mobi.css",
-        "epub": "styles/epub.css"
+        "website": "style/website.css",
+        "ebook": "style/ebook.css",
+        "pdf": "style/pdf.css",
+        "mobi": "style/mobi.css",
+        "epub": "style/epub.css"
     },
     "plugins": [
         "disqus",
