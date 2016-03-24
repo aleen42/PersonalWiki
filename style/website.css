@@ -1,22 +1,22 @@
 /** CSS style for website */
 body {
-    font-family: Arial, "微软雅黑";
+    font-family: Arial, "微软雅黑" !important;
 }
 
 a {
-    color: #a10000;
+    color: #a10000 !important;
 }
 
 a:focus {
-    color: #a10000;
+    color: #a10000 !important;
 }
 
 a:active {
-    color: #a10000;
+    color: #a10000 !important;
 }
 
 .footer-modification {
-    color: #a10000;
+    color: #a10000 !important;
 }
 
 
