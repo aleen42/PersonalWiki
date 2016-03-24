@@ -57,6 +57,6 @@ Valgrind
 
 mpatrol
 
-&#160; &#160; &#160; &#160;mpatrol 是一个代码库。它可链接于你的程序，去溯源与追踪内存的分配情况。该库是在不同的操作系统平台写编写且运行。它有一个明显的优点，那就是它已经被移植进许多不同的目标处理器，包括 MIPS、PowerPC、x86 和通过一些 MontaVista 的用户所完成的 StrongArm 目标处理器
+&#160; &#160; &#160; &#160;mpatrol 是一个代码库。它可链接于你的程序，去溯源与追踪内存的分配情况。该库是在不同的操作系统平台写编写且运行。它有一个明显的优点，那就是它已经被移植进许多不同的目标处理器，包括 MIPS、PowerPC、x86 和由一些 MontaVista 的用户所完成的 StrongArm 目标处理器。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
