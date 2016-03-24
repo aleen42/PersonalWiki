@@ -83,4 +83,8 @@ Insure++
 
 [资源](http://www.linuxjournal.com/files/linuxjournal.com/linuxjournal/articles/065/6556/6556s1.html)
 
+<img src="./author.jpg">
+
+Cal Erickson（cal_erickson@mvista.com）是 MontaVista 软件公司的一名高级 Linux 顾问。在加入 MotaVista 之前，他曾经是在 Mentor Graphics Embedded Software Division 工作的一个高级
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
