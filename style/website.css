@@ -4,18 +4,30 @@ body {
 }
 
 a {
+    color: #000 !important;
+}
+
+.page-wrapper a:focus {
     color: #a10000 !important;
 }
 
-a:focus {
+.page-wrapper a:active {
     color: #a10000 !important;
 }
 
-a:active {
+.page-wrapper a {
     color: #a10000 !important;
 }
 
-.footer-modification {
+.page-wrapper a:focus {
+    color: #a10000 !important;
+}
+
+.page-wrapper a:active {
+    color: #a10000 !important;
+}
+
+.page-wrapper .footer-modification {
     color: #a10000 !important;
 }
 
