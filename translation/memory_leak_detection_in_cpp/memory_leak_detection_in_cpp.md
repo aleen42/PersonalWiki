@@ -3,8 +3,8 @@
 > * 原文链接 : [Memory Leak Detection in C++](http://www.linuxjournal.com/article/6556?page=0,0)
 * 原文作者 : [Cal Erickson](http://www.linuxjournal.com/user/801087)
 * 译者 : [aleen42](https://github.com/aleen42) 
-* 校对者: 暂无
-* 状态 :  翻译中
+* 校对者：暂无
+* 状态 :  代校对
 * <img src="./cover110.small.jpg"> 来源问题：2013年7月第110号问题
 
 
