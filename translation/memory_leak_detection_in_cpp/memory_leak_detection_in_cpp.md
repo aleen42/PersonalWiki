@@ -4,7 +4,7 @@
 * 原文作者 : [Cal Erickson](http://www.linuxjournal.com/user/801087)
 * 译者 : [aleen42](https://github.com/aleen42) 
 * 校对者 : 暂无
-* 状态 : 代校对
+* 状态 : 校对
 * <img src="./cover110.small.jpg"> 来源问题 : 2013年7月第110号问题
 
 
