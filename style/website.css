@@ -65,7 +65,6 @@ a:active {
 
 .book .book-summary ul.summary::-webkit-scrollbar-thumb {
   /** Part 5 */
-  margin-right: 15px;
   background-color: rgba(0, 0, 0, 1);
   border-radius: 10px;
 }
