@@ -58,8 +58,12 @@ a:active {
 
 .book .book-summary ul.summary::-webkit-scrollbar-thumb {
   /** Part 5 */
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(161, 0, 0, 0.6);
   border-radius: 10px;
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-thumb {
+    background-color: rgba(161, 0, 0, 1);
 }
 
 .book .book-summary ul.summary::-webkit-scrollbar-corner {
