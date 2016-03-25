@@ -36,4 +36,37 @@ a:active {
     font-weight: bold;
 }
 
+/** Webkit */
+.container::-webkit-scrollbar {
+  /** if you want to style your own scroll bar, this pseudo should be written */
+  /** Part 1 */
+  width: 6px;
+}
+
+.container::-webkit-scrollbar-button {
+  /** Part 2 */
+  display: none;
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-track {
+  /** Part 3 */
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-track-piece {
+  /** Part 4 */
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-thumb {
+  /** Part 5 */
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-corner {
+  /** Part 6 */
+}
+
+.book .book-summary ul.summary::-webkit-resizer {
+  /** Part 7 */
+}
 
