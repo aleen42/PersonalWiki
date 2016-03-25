@@ -31,4 +31,8 @@ a:active {
     color: #a10000 !important;
 }
 
+.book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active > a {
+    color: #a10000 !important;
+}
+
 
