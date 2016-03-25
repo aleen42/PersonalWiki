@@ -124,6 +124,10 @@ a:active {
 }
 
 /** body scroll bar */
+.book .book-summary ul.summary {
+    : 10px;
+}
+
 .book .book-body .body-inner::-webkit-scrollbar {
   /** if you want to style your own scroll bar, this pseudo should be written */
   /** Part 1 */
