@@ -12,6 +12,6 @@
 
 #### WebGL 也可用于二维图像处理
 
-
+<img src="grotto-uv.png">
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
