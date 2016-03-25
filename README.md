@@ -1,6 +1,6 @@
 <a href="https://www.gitbook.com/read/book/aleen42/personalwiki" target="_blank"><img src="./cover_read.jpg"></a>
 
-## About
+## About [![Gitter](https://badges.gitter.im/aleen42/PersonalWiki.svg)](https://gitter.im/aleen42/PersonalWiki?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 <img src="./photo.png">
 
