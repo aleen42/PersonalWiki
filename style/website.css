@@ -16,17 +16,17 @@ a:active {
 }
 
 .page-wrapper a,
-.fa a {
+a.navigation {
     color: #a10000 !important;
 }
 
 .page-wrapper a:focus,
-.fa a:focus {
+a.navigation:focus {
     color: #a10000 !important;
 }
 
 .page-wrapper a:active,
-.fa a:active {
+a.navigation:active {
     color: #a10000 !important;
 }
 
