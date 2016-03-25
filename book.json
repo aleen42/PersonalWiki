@@ -34,7 +34,7 @@
             "weibo": true,
             "facebook": true,
             "twitter": true,
-            "google": false,
+            "google": true,
             "instapaper": false,
             "vk": false,
             "all": [
