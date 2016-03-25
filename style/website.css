@@ -37,13 +37,13 @@ a:active {
 }
 
 /** Webkit */
-.container::-webkit-scrollbar {
+.book .book-summary ul.summary::-webkit-scrollbar {
   /** if you want to style your own scroll bar, this pseudo should be written */
   /** Part 1 */
   width: 6px;
 }
 
-.container::-webkit-scrollbar-button {
+.book .book-summary ul.summary::-webkit-scrollbar-button {
   /** Part 2 */
   display: none;
 }
