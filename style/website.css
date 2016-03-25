@@ -32,7 +32,7 @@ a:active {
 }
 
 .book .book-summary ul.summary {
-    padding-ri
+    padding-right: 15px;
 }
 
 .book .book-summary ul.summary li a {
