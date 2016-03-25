@@ -15,15 +15,18 @@ a:active {
     color: #000 !important;
 }
 
-.page-wrapper a {
+.page-wrapper a,
+.fa a {
     color: #a10000 !important;
 }
 
-.page-wrapper a:focus {
+.page-wrapper a:focus,
+.fa a:focus {
     color: #a10000 !important;
 }
 
-.page-wrapper a:active {
+.page-wrapper a:active,
+.fa a:activ {
     color: #a10000 !important;
 }
 
