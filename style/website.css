@@ -124,8 +124,8 @@ a:active {
 }
 
 /** body scroll bar */
-.book .book-summary ul.summary {
-    : 10px;
+.book .book-body {
+    margin: 10p;
 }
 
 .book .book-body .body-inner::-webkit-scrollbar {
