@@ -36,7 +36,7 @@ a:active {
     font-weight: bold;
 }
 
-/** Webkit */
+/** menu scroll bar */
 .book .book-summary ul.summary::-webkit-scrollbar {
   /** if you want to style your own scroll bar, this pseudo should be written */
   /** Part 1 */
@@ -73,4 +73,43 @@ a:active {
 .book .book-summary ul.summary::-webkit-resizer {
   /** Part 7 */
 }
+
+/** demo scroll bar */
+#output pre, #output iframe::-webkit-scrollbar {
+  /** if you want to style your own scroll bar, this pseudo should be written */
+  /** Part 1 */
+  width: 6px;
+}
+
+#output pre, #output iframe::-webkit-scrollbar-button {
+  /** Part 2 */
+  display: none;
+}
+
+#output pre, #output iframe::-webkit-scrollbar-track {
+  /** Part 3 */
+}
+
+#output pre, #output iframe::-webkit-scrollbar-track-piece {
+  /** Part 4 */
+}
+
+#output pre, #output iframe::-webkit-scrollbar-thumb {
+  /** Part 5 */
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 10px;
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-thumb {
+    background-color: rgba(161, 0, 0, 1);
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-corner {
+  /** Part 6 */
+}
+
+.book .book-summary ul.summary::-webkit-resizer {
+  /** Part 7 */
+}
+
 
