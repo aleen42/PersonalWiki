@@ -6,6 +6,7 @@
 - [**Stack Overflow: The Architecture - 2016**](./stack_overflow_architecture/stack_overflow_architecture.md)
 - [**A successful Git branching model**](./successful_git_branching/successful_git_branching.md)
 - [**Memory Leak Detection in C++**](./memory_leak_detection_in_cpp/memory_leak_detection_in_cpp.md)
+- [**The WebGL potential**](./webgl_potential/webgl_potential.md)
 
 #### Proofread
 
