@@ -100,15 +100,15 @@ a:active {
   border-radius: 10px;
 }
 
-.book .book-summary ul.summary::-webkit-scrollbar-thumb {
+#output pre, #output iframe::-webkit-scrollbar-thumb {
     background-color: rgba(161, 0, 0, 1);
 }
 
-.book .book-summary ul.summary::-webkit-scrollbar-corner {
+#output pre, #output iframe::-webkit-scrollbar-corner {
   /** Part 6 */
 }
 
-.book .book-summary ul.summary::-webkit-resizer {
+#output pre, #output iframe::-webkit-resizer {
   /** Part 7 */
 }
 
