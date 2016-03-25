@@ -1,6 +1,14 @@
 /** CSS style for website */
 body {
-    font-family: Arial, "微软雅黑", "黑体" !important;
+    font-family: Arial, "微软雅黑" !important;
+}
+
+.book.font-family-0 {
+    font-family: Arial, "微软雅黑" !important;
+}
+
+.book.font-family-1 {
+    font-family: Arial, "微软雅黑" !important;
 }
 
 a {
