@@ -34,4 +34,10 @@ convert input.png -matte -virtual-pixel transparent\
 
 - example: <img src="./examp1.png">
 
+#### 2.2 create a complete transparent image
+
+```sh
+convert -size [w]x[h] xc:"rgba(0,0,0,0)" PNG32:output.png
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
