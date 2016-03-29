@@ -1,6 +1,6 @@
 ## Imagemagick	[Back](./../summary.md)
 
-<img src="./logo.png">
+<img src="./logo.jpg">
 
 ### 1. Install
 
