@@ -43,7 +43,7 @@ convert -size "[w]x[h]" xc:"rgba(0,0,0,0)" PNG32:output.png
 #### 2.3 add padding to a png file
 
 ```sh
-convert "input.png" -background transparent -gravity center -extend "[w]x[h]" output.png
+convert "input.png" -background transparent -gravity center -extent "[w]x[h]" output.png
 ```
 
 #### 2.4 get width and heigh of an image
