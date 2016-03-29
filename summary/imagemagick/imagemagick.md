@@ -46,4 +46,10 @@ convert -size "[w]x[h]" xc:"rgba(0,0,0,0)" PNG32:output.png
 convert "input.png" -background transparent -gravity center -extend "[w]x[h]" output.png
 ```
 
+#### 2.4 get width and heigh of an image
+
+```sh
+identify -format "%[fx:w]x%[fx:h]" input.png
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
