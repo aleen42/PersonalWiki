@@ -49,7 +49,7 @@ convert "input.png" -background transparent -gravity center -extend "[w]x[h]" ou
 #### 2.4 get width and heigh of an image
 
 ```sh
-identify -format "%[fx:w]x%[fx:h]" input.png
+identify -format "\"width\": %[fx:w], \"height\": %[fx:h]" input.png
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
