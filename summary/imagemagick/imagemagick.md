@@ -1,4 +1,4 @@
-## Gimp	[Back](./../summary.md)
+## Imagemagick	[Back](./../summary.md)
 
 <img src="./logo.png">
 
