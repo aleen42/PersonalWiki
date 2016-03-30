@@ -52,4 +52,10 @@ convert "input.png" -background transparent -gravity center -extent "[w]x[h]" ou
 identify -format "{\"width\": %[fx:w], \"height\": %[fx:h]}" input.png
 ```
 
+#### 2.5 genereate image with text
+
+```sh
+convert -size [width]x[height] -font "msyh.ttf" -pointsize 16 -fill "#000000" -background transparent -gravity center caption: '这是一串字符串' text.png
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
