@@ -61,7 +61,7 @@ convert -size [width]x[height]\
     -fill "#000000"\
     -background transparent\
     -gravity center\
-    caption: "这是一串字符串" text.png
+    caption:"这是一串字符串" text.png
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
