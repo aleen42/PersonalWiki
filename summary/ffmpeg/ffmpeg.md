@@ -126,7 +126,7 @@
 
 `ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 192k -f mp3 sample.mp3`
 
-#### 3.7 get video info
+#### 3.7 get video bitrate
 
 `ffprobe -v error -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 input.mp4 `
 
