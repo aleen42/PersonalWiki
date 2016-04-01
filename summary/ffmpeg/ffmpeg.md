@@ -122,7 +122,7 @@
 
 `ffmpeg -i <resreved file> -i <original longer audio file> -filter_complex "amix=inputs=2:duration=longest:dropout_transition=2, volume=2" <output audio file>`
 
-#### 3.6 sample audio stream with slow
+#### 3.6 sample audio stream with slow down filter
 
 `ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 192k -f mp3 -filter:a "atempo=0.5" sample.mp3`
 
