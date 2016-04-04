@@ -41,7 +41,7 @@
 			
 			# or 
 			
-			identify -format "{\"width\": %[fx:w], \"height\": %[fx:h]}" overlay.png
+			identify -format "{\"width\": %w, \"height\": %h}" overlay.png
 			```			
 
 			- Add padding to an image with Imagemagick:
