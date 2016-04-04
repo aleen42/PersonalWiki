@@ -86,7 +86,7 @@
 					- get size of `resize.png` (**resize_width**, **resize_height**)
 					
 					```bash
-					identify -format "\"width\": %[fx:w], \"height\": %[fx:h]" resize.png
+					identify -format "{\"width\": %[fx:w], \"height\": %[fx:h]}" resize.png
 					```
 			
 					- perspective:
