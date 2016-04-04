@@ -39,9 +39,7 @@
 
 			```bash
 			identify -format "{\"width\": %[fx:w], \"height\": %[fx:h]}" overlay.png
-			
 			# or 
-			
 			identify -format "{\"width\": %w, \"height\": %h}" overlay.png
 			```			
 
@@ -88,9 +86,7 @@
 					
 					```bash
 					identify -format "{\"width\": %[fx:w], \"height\": %[fx:h]}" resize.png
-					
 					# or 
-			
 			        identify -format "{\"width\": %w, \"height\": %h}" resize.png
 					```
 			
