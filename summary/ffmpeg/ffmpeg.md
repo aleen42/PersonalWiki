@@ -128,7 +128,7 @@
 
 `ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 192k -f mp3 -filter:a "atempo=0.5" sample.mp3`
 
-- atempo: it's used to slow down/speed up an audio file, which should be between **0.5~2**/
+- atempo: it's used to slow down/speed up an audio file, which should be between **0.5~2**.
 
 #### 3.7 get video bitrate
 
