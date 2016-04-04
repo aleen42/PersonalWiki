@@ -67,7 +67,7 @@
 					- perspective:
 			
 					```bash
-					convert "mask.png" -matte -mattecolor transparen -virtual-pixel transparent\
+					convert "mask.png" -matte -mattecolor transparent -virtual-pixel transparent\
 					-distort Perspective\
 					'0,0 point[0].x,point[0].y\
 					 0,overlay_pad_height point[1].x,point[1].y\
@@ -92,7 +92,7 @@
 					- perspective:
 					
 					```bash
-					convert "mask.png" -matte -virtual-pixel transparent\
+					convert "mask.png" -matte -mattecolor transparent -virtual-pixel transparent\
 					-distort Perspective\
 					'0,0 point[0].x,point[0].y\
 					 0,resize_height point[1].x,point[1].y\
