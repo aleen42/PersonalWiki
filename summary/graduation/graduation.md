@@ -37,7 +37,7 @@
 			- Get the image size with Imagemagick (**logo_width**, **logo_height**):
 
 			```bash
-			identify -format "\"width\": %[fx:w], \"height\": %[fx:h]" overlay.png 	
+			identify -format "\"width\": %[fx:w], \"height\": %[fx:h]" overlay.png
 			```			
 
 			- Add padding to an image with Imagemagick:
