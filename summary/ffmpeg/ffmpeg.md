@@ -104,6 +104,8 @@
 
 `ffmpeg -r "[new-rate]" -i "frame/f_%1d.png" -vcodec "libx264" -crf "0" -pix_fmt yuv420p output.mp4` 
 
+- *Notice: without **-pix_fmt yuv420p**, the video codec is not supported for iOS, Safari, and so on.*
+
 #### 3.4 extract a specific frame
 
 `ffmpeg -i input.mp4 -ss [time] -vframes 1 output.jpg`
