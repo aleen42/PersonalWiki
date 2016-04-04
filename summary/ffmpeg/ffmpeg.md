@@ -102,7 +102,7 @@
 
 - the next step to do is to generate a new video with all the frames:
 
-`ffmpeg -r "[new-rate]" -i "frame/f_%1d.png" -vcodec "libx264" -crf "0" output.mp4` 
+`ffmpeg -r "[new-rate]" -i "frame/f_%1d.png" -vcodec "libx264" -crf "0" -pix_fmt yuv420p output.mp4` 
 
 #### 3.4 extract a specific frame
 
