@@ -7,13 +7,13 @@
 #### Progress
 
 1. For **entities whose corners are easy to track** like quadrangles, we're going to use  LucasKanade Optical Flow Tracking to complete injection.
-	i. the first thing to do is to use **Feature Detection** to detect strong corners in the first frame of the video.
+	-  the first thing to do is to use **Feature Detection** to detect strong corners in the first frame of the video.
 	- then we can find out four corners of those entities to choose
 	- after chosing 4 points, we will continue to track these points in the videos, and output positions of these 4 points in the following frames.
 	- with data of those points, we can present an other layer of image above the video with CSS in HTML.
 
 2. For **entities whose have not any corners**, there are some problems to solute (we are going to detect the motion of the camera.)
-	i. how to detect whether the image of the video has changed suddenly
+	- how to detect whether the image of the video has changed suddenly
 		- Solution: use a feature point to track and monitoring the distance between the prev frame and the next frame. When the distance is more than **a specific value**.
 	- how to judge whether the camera is static.
 		- Testing: tracking all the points and find out two points which has not moved too much, then we will consider it to be static.
