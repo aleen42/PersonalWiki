@@ -87,6 +87,10 @@
 					
 					```bash
 					identify -format "{\"width\": %[fx:w], \"height\": %[fx:h]}" resize.png
+					
+					# or 
+			
+			        identify -format "{\"width\": %w, \"height\": %h}" resize.png
 					```
 			
 					- perspective:
