@@ -2,6 +2,7 @@
 
 > - Title: **Dynamical Content Injection of videos**(視頻動態植入內容)
 - Tools: OpenCV, [Ffmpeg](./../ffmpeg/ffmpeg.md), [Imagemagick](./../imagemagick/imagemagick.md)
+- Translation: [works](./../../translation/translation.md)
 
 #### Progress
 
