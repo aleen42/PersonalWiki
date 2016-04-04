@@ -1,6 +1,6 @@
 ## Graduation Thesis(畢業論文)	[Back](./../summary.md)
 
-> - Title: Dynamical content injection of video(視頻動態植入內容)
+> - Title: **Dynamical Content Injection of videos**(視頻動態植入內容)
 - Tools: OpenCV, [Ffmpeg](./../ffmpeg/ffmpeg.md), [Imagemagick](./../imagemagick/imagemagick.md)
 
 
