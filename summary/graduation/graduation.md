@@ -109,8 +109,8 @@
 		
 	```bash
 	convert \
-   		-size 165x70 \
-		xc:lightblue \
+   	    -size 165x70 \
+	    xc:lightblue \
 		-font Bookman-DemiItalic \
 		-pointsize 12 \
 		-fill blue \
