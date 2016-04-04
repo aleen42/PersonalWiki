@@ -1,4 +1,4 @@
-## Graduation Thesis(畢業設計)	[Back](./../summary.md)
+## Graduation Thesis(畢業論文)	[Back](./../summary.md)
 
 
 
