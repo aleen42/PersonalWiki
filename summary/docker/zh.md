@@ -65,10 +65,10 @@ Status: Downloaded newer image for hello-world:latest
 Hello from Docker.
 ```
 	- `Docker`通過了下面的步驟來顯示這條信息
- 		- 1. Docker客戶端連接了Docker虛擬機.
- 		- 2. Docker虛擬機從Docker Hub上拉"hello-world"的鏡像到本地.
- 		- 3. Docker虛擬機通過這個鏡像創建一個新的容器, 並通過這個容器運行可執行文件從而產生數據流.
- 		- 4. Docker虛擬機把消息數據流發送到Docker客戶端, 然後由客戶端把消息顯示在終端上.
+ 		1. Docker客戶端連接了Docker虛擬機.
+ 		2. Docker虛擬機從Docker Hub上拉"hello-world"的鏡像到本地.
+ 		3. Docker虛擬機通過這個鏡像創建一個新的容器, 並通過這個容器運行可執行文件從而產生數據流.
+ 		4. Docker虛擬機把消息數據流發送到Docker客戶端, 然後由客戶端把消息顯示在終端上.
 
 	- 如果想嘗試更野心的東西, 你可以通過下面的指令來運行一個Ubuntu容器
 	```bash 
