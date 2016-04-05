@@ -7,6 +7,7 @@
 - [**1. Introduction**](#1)
 - [**2. Commands**](#2)
 - [**3. Usages in PHP**](#3)
+- [**4. Usages in Laravel**](#4)
 
 <br />
 <br />
