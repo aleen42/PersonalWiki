@@ -23,7 +23,6 @@
 <br />
 
 <h3 id="1"> 1. Install</h3>
-===
 
 - i. Log into your Ubuntu installation as a user with `sudo` privileges.
 - ii. Verify that you have `wget` installed.
@@ -86,7 +85,6 @@ $ docker run -it ubuntu bash
 <br />
 
 <h3 id="2"> 2. About images & containers</h3>
-===
 
 - As the last step in your installation, you ran the docker run `hello-world` command. With this one command, you completed the core tasks to using Docker. The command you ran had three parts.
 
@@ -110,7 +108,6 @@ $ docker run -it ubuntu bash
 <br />
 
 <h3 id="3"> 3. About finding the whalesay image</h3>
-===
 
 - People all over the world create Docker images. You can find these images by browsing the Docker Hub.
 
@@ -148,8 +145,6 @@ hello-world          latest      91c95931e552        5 weeks ago        910 B
 <br />
 
 <h3 id="4"> 4. About building an image</h3>
-===
-
 
 ##### Step1: Write a Dockerfile
 
@@ -288,7 +283,6 @@ $ docker run docker-whale
 <br />
 
 <h3 id="5"> 5. About creating a repository</h3>
-===
 
 ##### Step 1: Sign up an acount on Docker Hub
 ##### Step 2: Verify your email and add a repository
@@ -301,7 +295,6 @@ $ docker run docker-whale
 <br />
 
 <h3 id="6"> 6. Tag, push and pull images</h3>
-===
 
 ##### Step 1: Tag and push the image
 
@@ -378,6 +371,4 @@ $ docker rmi -f docker-whale
 $ docker pull yourusername/docker-whale
 ```
 
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
