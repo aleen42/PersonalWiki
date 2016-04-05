@@ -23,7 +23,6 @@
 <br />
 
 <h3 id="1"> 1. 安裝</h3>
-===
 
 - i. 在超級管理員權限下登錄Ubuntu, 或者用`sudo`執行命令
 - ii. 保證你已經安裝`wget`
@@ -87,8 +86,6 @@ $ docker run -it ubuntu bash
 
 <h3 id="2"> 2. 關於鏡像和容器</h3>
 
-===
-
 - 在上一部安裝中過程中, 你用Docke執行了`docker run hello-world`的指令. 其實這一過程已經完成了Docker的核心任務. 該條指令分為了三個部分:
 
 <img src="./container_explainer_zn.png" alt="docker_explainer">
@@ -111,7 +108,6 @@ $ docker run -it ubuntu bash
 <br />
 
 <h3 id="3"> 3. 關於從Docker Hub找到鏡像</h3>
-===
 
 - 來自四面八方的人都在創建鏡像, 而你可以通過Docker Hub來找到這些鏡像.
 
@@ -148,8 +144,6 @@ hello-world          latest      91c95931e552        5 weeks ago        910 B
 <br />
 
 <h3 id="4"> 4. 關於創建鏡像</h3>
-===
-
 
 ##### Step1: 寫一個Dockerfile
 
@@ -288,7 +282,6 @@ $ docker run docker-whale
 <br />
 
 <h3 id="5"> 5. 關於建立倉庫</h3>
-===
 
 ##### Step 1: 在Docker Hub上註冊一個帳號
 ##### Step 2: 驗證郵件並建立倉庫
@@ -301,7 +294,6 @@ $ docker run docker-whale
 <br />
 
 <h3 id="6"> 6. 標記, 推送, 回拉鏡像</h3>
-===
 
 ##### Step 1: 標記和推送鏡像
 
@@ -378,7 +370,4 @@ $ docker rmi -f docker-whale
 $ docker pull yourusername/docker-whale
 ```
 
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
