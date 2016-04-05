@@ -311,6 +311,8 @@
             * [ImageMagick](./summary/imagemagick/imagemagick.md)
             * [Server](./summary/server/server.md)
             * [Docker](./summary/docker/docker.md)
+                * [English](./summary/docker/en.md)
+                * [中文](./summary/docker/zh.md) 
             * [Redis](./summary/redis/redis.md)
             * [Jpush](./summary/jpush/jpush.md)
             * [Git](./summary/git/git.md)
