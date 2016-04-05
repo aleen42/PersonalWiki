@@ -379,6 +379,14 @@ var_dump($redis->decr("test"));  // int(121)
 
 <h5> 3.9 <a href="http://www.jb51.net/article/51884.htm" target="_blank"><strong>More Usages</strong></a></h5>
 
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<h3 id="4"> 4. Usages in Laravel</h3>
+===
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
