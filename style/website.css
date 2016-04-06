@@ -26,23 +26,23 @@ a:active {
 .page-wrapper a,
 a.navigation,
 .thread-likes > a {
-    color: #a10000 !important;
+    color: #81511c !important;
 }
 
 .page-wrapper a:focus,
 a.navigation:focus,
 .thread-likes > a:focus  {
-    color: #a10000 !important;
+    color: #81511c !important;
 }
 
 .page-wrapper a:active,
 a.navigation:active,
 .thread-likes > a:active {
-    color: #a10000 !important;
+    color: #81511c !important;
 }
 
 .page-wrapper .footer-modification {
-    color: #a10000 !important;
+    color: #81511c !important;
 }
 
 .book .book-summary ul.summary {
@@ -60,7 +60,7 @@ a.navigation,
 }
 
 .book .book-summary ul.summary li a:hover, .book .book-summary ul.summary li.active > a {
-    color: #a10000 !important;
+    color: #81511c !important;
 }
 
 /** menu scroll bar */
@@ -90,7 +90,11 @@ a.navigation,
 }
 
 .book .book-summary ul.summary::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(161, 0, 0, 1);
+    background-color: rgba(129, 81, 28, 1);
+}
+
+.book .book-summary ul.summary::-webkit-scrollbar-thumb:active {
+    background-color: rgba(99, 23, 63, 1);
 }
 
 .book .book-summary ul.summary::-webkit-scrollbar-corner {
@@ -128,7 +132,11 @@ a.navigation,
 }
 
 #output pre, #output iframe::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(161, 0, 0, 1);
+    background-color: rgba(129, 81, 28, 1);
+}
+
+#output pre, #output iframe::-webkit-scrollbar-thumb:active {
+    background-color: rgba(99, 23, 63, 1);
 }
 
 #output pre, #output iframe::-webkit-scrollbar-corner {
@@ -170,7 +178,11 @@ a.navigation,
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(161, 0, 0, 1);
+    background-color: rgba(129, 81, 28, 1);
+}
+
+.book .book-body .body-inner::-webkit-scrollbar-thumb:active {
+    background-color: rgba(99, 23, 63, 1);
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-corner {
