@@ -102,7 +102,9 @@
 
 - the next step to do is to generate a new video with all the frames:
 
-`ffmpeg -r "[new-rate]" -i "frame/f_%1d.png" -vcodec "libx264" -crf "0" output.mp4` 
+`ffmpeg -r "[new-rate]" -i "frame/f_%1d.png" -vcodec "libx264" -crf "0" -pix_fmt yuv420p output.mp4` 
+
+- *Notice: without **-pix_fmt yuv420p**, the video codec is not supported for iOS, Safari, and so on.*
 
 #### 3.4 extract a specific frame
 
@@ -121,5 +123,15 @@
 **iii.** combine with the origin audio file:
 
 `ffmpeg -i <resreved file> -i <original longer audio file> -filter_complex "amix=inputs=2:duration=longest:dropout_transition=2, volume=2" <output audio file>`
+
+#### 3.6 sample audio stream with slow down filter
+
+`ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 192k -f mp3 -filter:a "atempo=0.5" sample.mp3`
+
+- atempo: it's used to slow down/speed up an audio file, which should be between **0.5~2**.
+
+#### 3.7 get video bitrate
+
+`ffprobe -v error -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 input.mp4 `
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

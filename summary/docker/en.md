@@ -23,7 +23,6 @@
 <br />
 
 <h3 id="1"> 1. Install</h3>
-===
 
 - i. Log into your Ubuntu installation as a user with `sudo` privileges.
 - ii. Verify that you have `wget` installed.
@@ -86,7 +85,6 @@ $ docker run -it ubuntu bash
 <br />
 
 <h3 id="2"> 2. About images & containers</h3>
-===
 
 - As the last step in your installation, you ran the docker run `hello-world` command. With this one command, you completed the core tasks to using Docker. The command you ran had three parts.
 
@@ -95,9 +93,9 @@ $ docker run -it ubuntu bash
 - A **container**: A container is a stripped-to-basics version of a Linux operating system.
 - An **image**: An image is software you load into a container.
 - When you ran the command, the Docker software:
-	- 1. checked to see if you had the `hello-word` software image
-	- 2. downloaded the image from the Docker Hub (more about the hub later)
-	- 3. loaded the image into the container and “ran” it
+	1. checked to see if you had the `hello-word` software image
+	2. downloaded the image from the Docker Hub (more about the hub later)
+    3. loaded the image into the container and “ran” it
 - Depending on how it was built, an image might run a simple, single command and then exit. This is what `hello-world` did.
 - A Docker image, though, is capable of much more. An image can start software as complex as a database, wait for you (or someone else) to add data, store the data for later use, and then wait for the next person.
 - Who built the `hello-world` software image though? In this case, Docker did but anyone can. Docker lets people (or companies) create and share software through Docker images. Using Docker, you don’t have to worry about whether your computer can run the software in a Docker image — a Docker container can always run it.
@@ -110,7 +108,6 @@ $ docker run -it ubuntu bash
 <br />
 
 <h3 id="3"> 3. About finding the whalesay image</h3>
-===
 
 - People all over the world create Docker images. You can find these images by browsing the Docker Hub.
 
@@ -148,8 +145,6 @@ hello-world          latest      91c95931e552        5 weeks ago        910 B
 <br />
 
 <h3 id="4"> 4. About building an image</h3>
-===
-
 
 ##### Step1: Write a Dockerfile
 
@@ -288,7 +283,6 @@ $ docker run docker-whale
 <br />
 
 <h3 id="5"> 5. About creating a repository</h3>
-===
 
 ##### Step 1: Sign up an acount on Docker Hub
 ##### Step 2: Verify your email and add a repository
@@ -301,7 +295,6 @@ $ docker run docker-whale
 <br />
 
 <h3 id="6"> 6. Tag, push and pull images</h3>
-===
 
 ##### Step 1: Tag and push the image
 
@@ -378,6 +371,4 @@ $ docker rmi -f docker-whale
 $ docker pull yourusername/docker-whale
 ```
 
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
