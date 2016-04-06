@@ -12,6 +12,8 @@
 
 #### WebGL 也可用于二维图像处理
 
-<img src="./grotto-uv.png">
+<img src="./grotto-uv.png"> 
+
+&#160; &#160; &#160; &#160;WebGL 基本上是一个对 OpenGL ES 2.0 功能集所开放的低级 JavaScript 接口
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
