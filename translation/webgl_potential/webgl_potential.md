@@ -50,8 +50,8 @@
 
 #### 推动 web 发展
 
-<img src="./Unreal-Engine-UDK-11-300x187.jpg"
+<img src="./Unreal-Engine-UDK-11-300x187.jpg">
 
-&#160; &#160; &#160; &#160;
+&#160; &#160; &#160; &#160;在 Flash 的 Stage3D 框架出现之前，主要的瓶颈位是图像通道的问题。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
