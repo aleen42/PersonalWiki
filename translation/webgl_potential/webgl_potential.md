@@ -52,6 +52,6 @@
 
 <img src="./Unreal-Engine-UDK-11-300x187.jpg">
 
-&#160; &#160; &#160; &#160;在 Flash 的 Stage3D 框架出现之前，主要的瓶颈位是图像通道的问题。ActionScript 3 是曾经能足够快地实现大部分的展示列表或依托 BitmapData 以位块去传输内容。但是，自从 Stage3D 的推出后，情况发生了改变。 ActionScript 3 对于开发者而言成为了一种限制。因此，开发者们开始开发高级框架，并把大量的昂贵代码移植出来。其中的这些代码传统上只是能基于原生的 ActionScript 3 运行的。除此之外，原来的这些像树的遍历，边界或矩阵计算的代码等都只是运行在 ActionScript 3 层上，这将给 VM 和 CPU 带来巨大的压力。
+&#160; &#160; &#160; &#160;在 Flash 的 Stage3D 框架出现之前，主要的瓶颈位是图像通道的问题。ActionScript 3 是曾经能足够快地实现大部分的展示列表或依托 BitmapData 以位块去传输内容。但是，自从 Stage3D 的推出后，情况发生了改变。 ActionScript 3 对于开发者而言成为了一种限制。因此，开发者们开始开发高级框架，并把大量的昂贵代码移植出来。其中的这些代码传统上只是能基于原生的 ActionScript 3 运行的。除此之外，原来的这些像树的遍历，边界或矩阵计算的代码等都只是运行在 ActionScript 3 层上。这些代码，给 VM 和 CPU 带来巨大的压力。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
