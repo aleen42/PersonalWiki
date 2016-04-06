@@ -16,6 +16,6 @@
 
 &#160; &#160; &#160; &#160;[WebGL](http://www.khronos.org/webgl/) 基本上是一个对 OpenGL ES 2.0 功能集所开放的低级 JavaScript 接口（在场景后使用了 OpenGL/ES 2.0 或 DirectX）。大家都误以为 WebGL 是仅仅用于三维图像处理，而事实上并非所然。通过利用低级的基元，我们不仅能像 [three.js](https://github.com/mrdoob/three.js/) 那样为三维图像处理重建出高级的结构，还能简化二维图像处理的基元，用于支持二维图像处理。我们都知道，两个三角形能够形成一个方形，且该方形能承接一个纹理。这就是为什么二维图形 GPU 加速能出现我们的眼前。大部分像 [Cocos2D-x](http://www.cocos2d-x.org/) 或 [Pixi.js](https://github.com/GoodBoyDigital/pixi.js) 等框架都是通过回退到 Canvas 去实现加速，这是因为 WebGL 无法做到的。你需要滤波、颗粒度效果吗？通过使用像 WebGL 提供的一个可编程管道（着色程序），我们也能实现图像的可再生化。
 
-&#160; &#160; &#160; &#160;在我们[为 Flash 开发 Stage3D 库时](http://www.youtube.com/watch?v=c0IwvN4IdH4)，我们就想着尽可能地揭露低级的基元，以使得人们可以在这基础上开发他们所需要的框架。特别是对于游戏开发者来说，他们迫切需要通过颗粒度等级来控制所有的一切事物，并获得超乎想象的高性能。
+&#160; &#160; &#160; &#160;在我们[为 Flash 开发 Stage3D 库时](http://www.youtube.com/watch?v=c0IwvN4IdH4)，我们就想着尽可能地揭露低级的基元，以使得人们可以在这基础上开发他们所需要的框架。特别是对于游戏开发者来说，他们迫切需要通过颗粒度等级来控制所有的一切事物，并获得超乎想象的高性能。另一方面，我们了解到大部分开发者会热衷于使用他们熟悉的高级别 API 分离基元，而不是低级别的 GPU 基元。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
