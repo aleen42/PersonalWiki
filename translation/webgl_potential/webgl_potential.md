@@ -18,6 +18,6 @@
 
 &#160; &#160; &#160; &#160;在我们[为 Flash 开发 Stage3D 库时](http://www.youtube.com/watch?v=c0IwvN4IdH4)，我们就想着尽可能地揭露低级的基元，以使得人们可以在这基础上开发他们所需要的框架。特别是对于游戏开发者来说，他们迫切需要通过颗粒度等级来控制所有的一切事物，并获得超乎想象的高性能。另一方面，我们了解到大部分开发者会热衷于使用他们熟悉的高级别 API 分离基元，而不是低级别的 GPU 基元。因此，我们创造出了 [Starling](http://gamua.com/starling)。它可以基于 Stage3D 之上，快速成为二维图像内容的框架。Rivio 通过使用该框架，把 [Angry Birds](https://apps.facebook.com/angrybirds/?fb_source=timeline) 装载于 Facebook 中。此外，Zynga 最近也通过该框架装载了 [Ruby Blast](https://apps.facebook.com/rubyblast/?fb_source=search&ref=ts&fref=ts)。
 
-&#160; &#160; &#160; &#160;除了帮助游戏开发之外， WebGL还能推动了交互的体验以及部分的数字化营销页面，像为人熟知多年的 thefwa.com 和传统通过 Flash 实现交互的交付物。
+&#160; &#160; &#160; &#160;除了帮助游戏开发之外， WebGL还能推动了交互的体验以及部分的数字化营销页面，像为人熟知多年的 [thefwa.com](http://www.thefwa.com/) 和传统通过 Flash 实现交互的交付物。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
