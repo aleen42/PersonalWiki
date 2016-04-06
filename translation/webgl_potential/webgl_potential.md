@@ -56,5 +56,7 @@
 
 &#160; &#160; &#160; &#160;为了获得最好的性能，你会希望 CPU 和 GPU 能互相平行地协同运行。因为如果碰巧 CPU 资源占满，且 GPU 不能及时地处理过剩的计算，那么性能将会变得缓慢。使用 WebGL，同样的压力问题也会在 JavaScript 上出现。这就是为什么一开始像 [asm.js](http://asmjs.org/) 的库是需要被引用，但能够支持像 [Unreal engine](http://www.youtube.com/watch?feature=player_embedded&v=XsyogXtyU9o) 的引擎。这一点我希望能最终推进 JavaScript 性能的发展。你可以选择喜欢或不喜欢 asm.js，但它会尝试去解决与下一代内容密切相关的问题。
 
+&#160; &#160; &#160; &#160;如果你对 asm.js 感兴趣，John Resig 刚为这写了一篇很好的[文章](http://ejohn.org/blog/asmjs-javascript-compile-target/)。
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
