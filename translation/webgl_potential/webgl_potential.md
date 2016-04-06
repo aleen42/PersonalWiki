@@ -24,4 +24,6 @@
 
 #### 隐式 vs 显式
 
+&#160; &#160; &#160; &#160;如今，为了在浏览器中获得更高的性能，各种技术都被构建成一种欺诈系统的技术。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
