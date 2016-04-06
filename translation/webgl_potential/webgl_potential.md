@@ -14,6 +14,6 @@
 
 <img src="./grotto-uv.png"> 
 
-&#160; &#160; &#160; &#160;WebGL 基本上是一个对 OpenGL ES 2.0 功能集所开放的低级 JavaScript 接口（在场景后使用了 OpenGL/ES 2.0 或 DirectX）。大家都误以为 WebGL 是仅仅用于三维图形处理，而事实上并非所然。通过利用低级的基元，我们不仅能像 three.js 那样为三维图形处理重建出高级的结构，还能简化二维图像处理的基元，用于支持二维
+&#160; &#160; &#160; &#160;WebGL 基本上是一个对 OpenGL ES 2.0 功能集所开放的低级 JavaScript 接口（在场景后使用了 OpenGL/ES 2.0 或 DirectX）。大家都误以为 WebGL 是仅仅用于三维图形处理，而事实上并非所然。通过利用低级的基元，我们不仅能像 three.js 那样为三维图形处理重建出高级的结构，还能简化二维图像处理的基元，用于支持二维图像处理。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
