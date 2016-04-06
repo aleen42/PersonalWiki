@@ -52,6 +52,6 @@
 
 <img src="./Unreal-Engine-UDK-11-300x187.jpg">
 
-&#160; &#160; &#160; &#160;在 Flash 的 Stage3D 框架出现之前，主要的瓶颈位是图像通道的问题。
+&#160; &#160; &#160; &#160;在 Flash 的 Stage3D 框架出现之前，主要的瓶颈位是图像通道的问题。ActionScript 3 是曾经能足够快地实现大部分的展示列表或依托 BitmapData 以位块去传输内容。但是，自从 Stage3D 的推出，情况发生了改变，而 ActionScript 3 成为了一个障碍
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
