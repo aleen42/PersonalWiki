@@ -14,6 +14,6 @@
 
 <img src="./grotto-uv.png"> 
 
-&#160; &#160; &#160; &#160;WebGL 基本上是一个对 OpenGL ES 2.0 功能集所开放的低级 JavaScript 接口
+&#160; &#160; &#160; &#160;WebGL 基本上是一个对 OpenGL ES 2.0 功能集所开放的低级 JavaScript 接口（在场景后使用了 OpenGL/ES 2.0 或 DirectX）。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
