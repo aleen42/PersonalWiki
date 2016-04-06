@@ -14,6 +14,6 @@
 
 <img src="./grotto-uv.png"> 
 
-&#160; &#160; &#160; &#160;[WebGL](http://www.khronos.org/webgl/) 基本上是一个对 OpenGL ES 2.0 功能集所开放的低级 JavaScript 接口（在场景后使用了 OpenGL/ES 2.0 或 DirectX）。大家都误以为 WebGL 是仅仅用于三维图形处理，而事实上并非所然。通过利用低级的基元，我们不仅能像 [three.js](https://github.com/mrdoob/three.js/) 那样为三维图形处理重建出高级的结构，还能简化二维图像处理的基元，用于支持二维图像处理。两个三角形能够形成一个方形，且该方形能承接一个纹理。这种原理使得二维图形 GPU 加速出现在我们的眼前。而这也是大部分像 [Cocos2D-x](http://www.cocos2d-x.org/) 或 [Pixi.js](https://github.com/GoodBoyDigital/pixi.js) 等框架所做的事情。
+&#160; &#160; &#160; &#160;[WebGL](http://www.khronos.org/webgl/) 基本上是一个对 OpenGL ES 2.0 功能集所开放的低级 JavaScript 接口（在场景后使用了 OpenGL/ES 2.0 或 DirectX）。大家都误以为 WebGL 是仅仅用于三维图形处理，而事实上并非所然。通过利用低级的基元，我们不仅能像 [three.js](https://github.com/mrdoob/three.js/) 那样为三维图形处理重建出高级的结构，还能简化二维图像处理的基元，用于支持二维图像处理。两个三角形能够形成一个方形，且该方形能承接一个纹理。这种原理使得二维图形 GPU 加速出现在我们的眼前。而这也是大部分像 [Cocos2D-x](http://www.cocos2d-x.org/) 或 [Pixi.js](https://github.com/GoodBoyDigital/pixi.js) 等框架通过回退到 Canvas 所做的事情，而这是 WebGL 无法做到的。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
