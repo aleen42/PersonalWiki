@@ -38,6 +38,6 @@
 
 <img src="./logo-300x1441.png">
 
-&#160; &#160; &#160; &#160;
+&#160; &#160; &#160; &#160;大部分开发者或许不会潜入 WebGL 中 GPU 编程的细节上。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
