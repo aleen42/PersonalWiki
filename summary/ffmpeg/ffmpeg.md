@@ -98,7 +98,7 @@
 
 - firstly, what you should do is to export all the frames of the videos with it's origin rate:
 
-`ffmpeg -i input.mp4 -r "[origin-rate]" "frame/f_%1d.png"`
+`ffmpeg -r "[origin-rate]" -i input.mp4 "frame/f_%1d.png"`
 
 - the next step to do is to generate a new video with all the frames:
 
