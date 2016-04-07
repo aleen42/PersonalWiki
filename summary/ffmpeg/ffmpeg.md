@@ -108,7 +108,7 @@
 
 #### 3.4 extract a specific frame
 
-`ffmpeg -i input.mp4 -ss [time] -vframes 1 output.jpg`
+`ffmpeg -ss [time] -i input.mp4 -vframes 1 output.jpg`
 
 #### 3.5 admix two audio, and put one audio in the specifc time
 
