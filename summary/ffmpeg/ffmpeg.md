@@ -80,7 +80,7 @@
 
 #### 3.1 crop a video
 
-`ffmpeg -i input.mp4 -filter:v "crop=w:h:x:y" -pix_fmt yuv420 output.mp4`
+`ffmpeg -i input.mp4 -filter:v "crop=w:h:x:y" -pix_fmt yuv420p output.mp4`
 
 - **w**: width
 - **h**: height
