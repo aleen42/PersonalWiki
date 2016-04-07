@@ -90,7 +90,7 @@
 
 `ffmpeg -ss [start] -i intput.mp4 -t [duration] -c:v copy -c:a copy output.mp4`
 
-- **-ss**: to specify the start time
+- **-ss**: to specify the start time (*Notice that the position of -ss will cause problem of durations of the video)*
 - **-t**: to specify the duration
 - **-c:v copy** and **-c:a copy**: to copy the video and audio stream without any re-encoding actions.
 
