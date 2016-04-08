@@ -168,8 +168,8 @@ git tag -a 1.2
 
 The release is now done, and tagged for future reference.
 
-```
+
 Edit: You might as well want to use the -s or -u <key> flags to sign your tag cryptographically.
-```
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
