@@ -210,6 +210,8 @@ Hotfix branches are very much like release branches in that they are also meant 
 
 The essence is that work of team members (on the **develop** branch) can continue, while another person is preparing a quick production fix.
 
-#### *Creating the hotfix branch *
+#### *Creating the hotfix branch*
+
+Hotfix branches are created from the master branch. For example, say version 1.2 is the current production release running live and causing troubles due to a severe bug. But changes on develop are yet unstable. We may then branch off a hotfix branch and start fixing the problem:
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
