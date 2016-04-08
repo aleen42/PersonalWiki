@@ -45,5 +45,6 @@ The **master** branch at **origin** should be familiar to every Git user. Parall
 
 We consider **origin/master** to be the main branch where the source code of **HEAD** always reflects a production-ready state.
 
+We consider **origin/develop** to be the main branch where the source code of **HEAD** always reflects a state with the latest delivered development changes for the next release. Some would call this the “integration branch”. This is where any automatic nightly builds are built from.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
