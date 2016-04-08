@@ -147,6 +147,8 @@ git commit -a -m "Bumped version number to 1.2"
 # 1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
-After creating a new branch and switching to it, we bump the version number. Here, **bump-version.sh** is a fictional shell script that changes some files in the working copy to reflect the new version. (This can of course be a manual change—the point being that some files change.) Then, the bumped version number is committed.
+After creating a new branch and switching to it, we bump the version number. Here, **bump-version.sh** is a fictional shell script that changes some files in the working copy to reflect the new version. (This can of course be a manual change-the point being that some files change.) Then, the bumped version number is committed.
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
