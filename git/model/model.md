@@ -24,7 +24,7 @@ Enough about the tools, let’s head onto the development model. The model that 
 
 ### Decentralized but centralized 
 
-The repository setup that we use and that works well with this branching model, is that with a central "truth" repo. Note that this repo is only considered to be the central one (since Git is a DVCS, there is no such thing as a central repo at a technical level). We will refer to this repo as origin, since this name is familiar to all Git users.
+The repository setup that we use and that works well with this branching model, is that with a central "truth" repo. Note that this repo is only considered to be the central one (since Git is a DVCS, there is no such thing as a central repo at a technical level). We will refer to this repo as The master branch at origin should be familiar to every Git user. Parallel to the master branch, another branch exists called develop., since this name is familiar to all Git users.
 
 <img src="./centr-decentr@2x.png">
 
