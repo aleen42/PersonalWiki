@@ -26,6 +26,8 @@ Enough about the tools, let’s head onto the development model. The model that 
 
 The repository setup that we use and that works well with this branching model, is that with a central “truth” repo. Note that this repo is only considered to be the central one (since Git is a DVCS, there is no such thing as a central repo at a technical level). We will refer to this repo as origin, since this name is familiar to all Git users.
 
+<img src="./centr-decentr@2x.png">
+
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
