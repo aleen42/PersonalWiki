@@ -171,5 +171,15 @@ The release is now done, and tagged for future reference.
 
 **Edit**: You might as well want to use the `-s` or `-u <key>` flags to sign your tag cryptographically.
 
+To keep the changes made in the release branch, we need to merge those back into develop, though. In Git:
+
+```bash
+git checkout develop
+# Switched to branch 'develop'
+git merge --no-ff release-1.2
+# Merge made by recursive.
+# (Summary of changes)
+```
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
