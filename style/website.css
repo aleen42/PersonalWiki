@@ -151,7 +151,7 @@ a.navigation,
 .book .book-summary {
     background-color: rgba(0, 0, 0, 0.75);
     background-image: url(./../pic/summary-background.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
