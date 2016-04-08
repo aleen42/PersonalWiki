@@ -234,4 +234,8 @@ git commit -m "Fixed severe production problem"
 # 5 files changed, 32 insertions(+), 17 deletions(-)
 ```
 
+#### Finishing a hotfix branch
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
