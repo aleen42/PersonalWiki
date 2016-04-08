@@ -73,10 +73,10 @@ May branch off from:
 
 Must merge back into:
 
-&nbsp; &nbsp; &nbsp; &nbsp;develop
+&nbsp; &nbsp; &nbsp; &nbsp;**develop**
 
 Branch naming convention:
 
-&nbsp; &nbsp; &nbsp; &nbsp;anything except master, develop, release-*, or hotfix-*
+&nbsp; &nbsp; &nbsp; &nbsp;anything except **master**, **develop**, **release-***, or **hotfix-***
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
