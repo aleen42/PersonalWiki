@@ -192,6 +192,8 @@ git branch -d release-1.2
 
 #### Hotfix branches
 
+<img src="./hotfix-branches@2x.png">
+
 May branch off from:
 
 &nbsp; &nbsp; &nbsp; &nbsp;**master**
