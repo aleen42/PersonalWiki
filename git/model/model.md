@@ -153,4 +153,6 @@ This new branch may exist there for a while, until the release may be rolled out
 
 #### *Finishing a release branch*
 
+When the state of the release branch is ready to become a real release, some actions need to be carried out. First, the release branch is merged into **master** (since every commit on **master** is a new release by definition, remember). Next, that commit on master must be tagged for easy future reference to this historical version. Finally, the changes made on the release branch need to be merged back into develop, so that future releases also contain these bug fixes.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
