@@ -276,4 +276,6 @@ While there is nothing really shocking new to this branching model, the “big p
 
 A high-quality PDF version of the figure is provided here. Go ahead and hang it on the wall for quick reference at any time.
 
+**Update:** And for anyone who requested it: here’s the [gitflow-model.src.key](http://github.com/downloads/nvie/gitflow/Git-branching-model-src.key.zip) of the main diagram image (Apple Keynote).
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
