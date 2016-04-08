@@ -161,6 +161,18 @@ a.navigation,
     box-shadow: -8px 0px 18px #000 inset;
 }
 
+.book .book-summary::before {
+    background-image: url('./../pic/icon-left.png');
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: -25px;
+}
+
 /** body scroll bar */
 .book .book-body {
     margin: 10px;
