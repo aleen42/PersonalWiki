@@ -43,5 +43,7 @@ At the core, the development model is greatly inspired by existing models out th
 
 The **master** branch at **origin** should be familiar to every Git user. Parallel to the master branch, another branch exists called **develop**.
 
+We consider **origin/master** to be the main branch where the source code of **HEAD** always reflects a production-ready state.
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
