@@ -63,6 +63,6 @@ The different types of branches we may use are:
 
 Each of these branches have a specific purpose and are bound to strict rules as to which branches may be their originating branch and which branches must be their merge targets. We will walk through them in a minute.
 
-By no means are these branches “special” from a technical perspective. The branch types are categorized by how we use them. They are of course plain old Git branches.
+By no means are these branches "special" from a technical perspective. The branch types are categorized by how we use them. They are of course plain old Git branches.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
