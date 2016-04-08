@@ -97,6 +97,14 @@ git checkout -b myfeature develop
 Finished features may be merged into the **develop** branch to definitely add them to the upcoming release:
 
 ```bash
+git checkout develop
+# Switched to branch 'develop'
+git merge --no-ff myfeature
+# Updating ea1b82a..05e9557
+# (Summary of changes)
+git branch -d myfeature
+# Deleted branch myfeature (was 05e9557).
+git push origin develop
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
