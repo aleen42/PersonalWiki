@@ -147,6 +147,11 @@ a.navigation,
   /** Part 7 */
 }
 
+/** book summary */
+.book .book-summary {
+    background-image: url(./../pic/summary.background.jpg);
+}
+
 /** body scroll bar */
 .book .book-body {
     margin: 10px;
