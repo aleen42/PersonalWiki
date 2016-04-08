@@ -68,12 +68,15 @@ By no means are these branches "special" from a technical perspective. The branc
 #### Feature branches
 
 May branch off from:
-    
+
 &nbsp; &nbsp; &nbsp; &nbsp;**develop**
 
 Must merge back into:
-develop
+
+&nbsp; &nbsp; &nbsp; &nbsp;develop
+
 Branch naming convention:
-anything except master, develop, release-*, or hotfix-*
+
+&nbsp; &nbsp; &nbsp; &nbsp;anything except master, develop, release-*, or hotfix-*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
