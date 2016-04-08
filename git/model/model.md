@@ -16,11 +16,11 @@ It focuses around Git as the tool for the versioning of all of our source code. 
 
 For a thorough discussion on the pros and cons of Git compared to centralized source code control systems, [see](http://whygitisbetterthanx.com/) the [web](http://git.or.cz/gitwiki/GitSvnComparsion). There are plenty of flame wars going on there. As a developer, I prefer Git above all other tools around today. Git really changed the way developers think of merging and branching. From the classic CVS/Subversion world I came from, merging/branching has always been considered a bit scary ("beware of merge conflicts, they bite you!") and something you only do every once in a while.
 
-But with Git, these actions are extremely cheap and simple, and they are considered one of the core parts of your daily workflow, really. For example, in CVS/Subversion [books](http://svnbook.red-bean.com/), branching and merging is first discussed in the later chapters (for advanced users), while in [every](http://book.git-scm.com/) [Git](http://pragprog.com/titles/tsgit/pragmatic-version-control-using-git) [book](http://github.com/progit/progit), it’s already covered in chapter 3 (basics).
+But with Git, these actions are extremely cheap and simple, and they are considered one of the core parts of your daily workflow, really. For example, in CVS/Subversion [books](http://svnbook.red-bean.com/), branching and merging is first discussed in the later chapters (for advanced users), while in [every](http://book.git-scm.com/) [Git](http://pragprog.com/titles/tsgit/pragmatic-version-control-using-git) [book](http://github.com/progit/progit), it's already covered in chapter 3 (basics).
 
 As a consequence of its simplicity and repetitive nature, branching and merging are no longer something to be afraid of. Version control tools are supposed to assist in branching/merging more than anything else.
 
-Enough about the tools, let’s head onto the development model. The model that I’m going to present here is essentially no more than a set of procedures that every team member has to follow in order to come to a managed software development process.
+Enough about the tools, let's head onto the development model. The model that I'm going to present here is essentially no more than a set of procedures that every team member has to follow in order to come to a managed software development process.
 
 ### Decentralized but centralized 
 
@@ -30,7 +30,7 @@ The repository setup that we use and that works well with this branching model, 
 
 Each developer pulls and pushes to origin. But besides the centralized push-pull relationships, each developer may also pull changes from other peers to form sub teams. For example, this might be useful to work together with two or more developers on a big new feature, before pushing the work in progress to origin prematurely. In the figure above, there are subteams of Alice and Bob, Alice and David, and Clair and David.
 
-Technically, this means nothing more than that Alice has defined a Git remote, named bob, pointing to Bob’s repository, and vice versa.
+Technically, this means nothing more than that Alice has defined a Git remote, named bob, pointing to Bob's repository, and vice versa.
 
 ### The main branches
 
@@ -45,7 +45,7 @@ The **master** branch at **origin** should be familiar to every Git user. Parall
 
 We consider **origin/master** to be the main branch where the source code of **HEAD** always reflects a production-ready state.
 
-We consider **origin/develop** to be the main branch where the source code of **HEAD** always reflects a state with the latest delivered development changes for the next release. Some would call this the “integration branch”. This is where any automatic nightly builds are built from.
+We consider **origin/develop** to be the main branch where the source code of **HEAD** always reflects a state with the latest delivered development changes for the next release. Some would call this the "integration branch". This is where any automatic nightly builds are built from.
 
 When the source code in the **develop** branch reaches a stable point and is ready to be released, all of the changes should be merged back into **master** somehow and then tagged with a release number. How this is done in detail will be discussed further on.
 
@@ -127,15 +127,15 @@ Branch naming convention:
 
 &nbsp; &nbsp; &nbsp; &nbsp;**release-***
 
-Release branches support preparation of a new production release. They allow for last-minute dotting of i’s and crossing t’s. Furthermore, they allow for minor bug fixes and preparing meta-data for a release (version number, build dates, etc.). By doing all of this work on a release branch, the **develop** branch is cleared to receive features for the next big release.
+Release branches support preparation of a new production release. They allow for last-minute dotting of i's and crossing t's. Furthermore, they allow for minor bug fixes and preparing meta-data for a release (version number, build dates, etc.). By doing all of this work on a release branch, the **develop** branch is cleared to receive features for the next big release.
 
 The key moment to branch off a new release branch from **develop** is when develop (almost) reflects the desired state of the new release. At least all features that are targeted for the release-to-be-built must be merged in to **develop** at this point in time. All features targeted at future releases may not—they must wait until after the release branch is branched off.
 
-It is exactly at the start of a release branch that the upcoming release gets assigned a version number—not any earlier. Up until that moment, the **develop** branch reflected changes for the “next release”, but it is unclear whether that “next release” will eventually become 0.3 or 1.0, until the release branch is started. That decision is made on the start of the release branch and is carried out by the project’s rules on version number bumping.
+It is exactly at the start of a release branch that the upcoming release gets assigned a version number—not any earlier. Up until that moment, the **develop** branch reflected changes for the "next release", but it is unclear whether that "next release" will eventually become 0.3 or 1.0, until the release branch is started. That decision is made on the start of the release branch and is carried out by the project's rules on version number bumping.
 
 #### *Creating a release branch*
 
-Release branches are created from the **develop** branch. For example, say version 1.1.5 is the current production release and we have a big release coming up. The state of **develop** is ready for the “next release” and we have decided that this will become version 1.2 (rather than 1.1.6 or 2.0). So we branch off and give the release branch a name reflecting the new version number:
+Release branches are created from the **develop** branch. For example, say version 1.1.5 is the current production release and we have a big release coming up. The state of **develop** is ready for the "next release" and we have decided that this will become version 1.2 (rather than 1.1.6 or 2.0). So we branch off and give the release branch a name reflecting the new version number:
 
 ```bash
 git checkout -b release-1.2 develop
@@ -183,7 +183,7 @@ git merge --no-ff release-1.2
 
 This step may well lead to a merge conflict (probably even, since we have changed the version number). If so, fix it and commit.
 
-Now we are really done and the release branch may be removed, since we don’t need it anymore:
+Now we are really done and the release branch may be removed, since we don't need it anymore:
 
 ```bash
 git branch -d release-1.2
@@ -224,7 +224,7 @@ git commit -a -m "Bumped version number to 1.2.1"
 # 1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
-Don’t forget to bump the version number after branching off!
+Don't forget to bump the version number after branching off!
 
 Then, fix the bug and commit the fix in one or more separate commits.
 
@@ -272,11 +272,11 @@ git branch -d hotfix-1.2.1
 
 ### Summary
 
-While there is nothing really shocking new to this branching model, the “big picture” figure that this post began with has turned out to be tremendously useful in our projects. It forms an elegant mental model that is easy to comprehend and allows team members to develop a shared understanding of the branching and releasing processes.
+While there is nothing really shocking new to this branching model, the "big picture" figure that this post began with has turned out to be tremendously useful in our projects. It forms an elegant mental model that is easy to comprehend and allows team members to develop a shared understanding of the branching and releasing processes.
 
 A high-quality PDF version of the figure is provided here. Go ahead and hang it on the wall for quick reference at any time.
 
-**Update:** And for anyone who requested it: here’s the [gitflow-model.src.key](http://github.com/downloads/nvie/gitflow/Git-branching-model-src.key.zip) of the main diagram image (Apple Keynote).
+**Update:** And for anyone who requested it: here's the [gitflow-model.src.key](http://github.com/downloads/nvie/gitflow/Git-branching-model-src.key.zip) of the main diagram image (Apple Keynote).
 
 <a href="http://nvie.com/files/Git-branching-model.pdf" target="_blank"><img src="./pdf@2x.png"></a>
 
