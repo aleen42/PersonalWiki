@@ -161,7 +161,7 @@ a.navigation,
 
 /** body scroll bar */
 .book .book-body {
-    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
 
 .book .book-body .body-inner::-webkit-scrollbar {
