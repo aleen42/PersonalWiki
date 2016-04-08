@@ -272,6 +272,8 @@ git branch -d hotfix-1.2.1
 
 ### Summary
 
+While there is nothing really shocking new to this branching model, the “big picture” figure that this post began with has turned out to be tremendously useful in our projects. It forms an elegant mental model that is easy to comprehend and allows team members to develop a shared understanding of the branching and releasing processes.
 
+A high-quality PDF version of the figure is provided here. Go ahead and hang it on the wall for quick reference at any time.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
