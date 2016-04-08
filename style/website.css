@@ -154,6 +154,7 @@ a.navigation,
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    border: none !important;
 }
 
 /** body scroll bar */
