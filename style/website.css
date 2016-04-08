@@ -161,7 +161,7 @@ a.navigation,
     box-shadow: -8px 0px 18px #000 inset;
 }
 
-.book .book-summary::before {
+.book .book-summary ul.summary::before {
     background-image: url('./../pic/icon-left.png');
     background-size: 50% auto;
     background-repeat: no-repeat;
