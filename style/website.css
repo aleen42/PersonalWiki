@@ -46,7 +46,8 @@ a.navigation:active,
 }
 
 .book .book-summary ul.summary {
-    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
 }
 
 .book .book-summary ul.summary li a,
