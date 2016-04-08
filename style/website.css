@@ -150,6 +150,8 @@ a.navigation,
 /** book summary */
 .book .book-summary {
     background-image: url(./../pic/summary.background.jpg);
+    backgound-size: center;
+    background-repeat: no-repeat;
 }
 
 /** body scroll bar */
