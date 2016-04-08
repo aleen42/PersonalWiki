@@ -65,4 +65,15 @@ Each of these branches have a specific purpose and are bound to strict rules as 
 
 By no means are these branches "special" from a technical perspective. The branch types are categorized by how we use them. They are of course plain old Git branches.
 
+#### Feature branches
+
+May branch off from:
+    
+&nbsp; &nbsp; &nbsp; &nbsp;**develop**
+
+Must merge back into:
+develop
+Branch naming convention:
+anything except master, develop, release-*, or hotfix-*
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
