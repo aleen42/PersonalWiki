@@ -115,4 +115,16 @@ Yes, it will create a few more (empty) commit objects, but the gain is much bigg
 
 #### Release branches
 
+May branch off from:
+
+&nbsp; &nbsp; &nbsp; &nbsp;develop
+
+Must merge back into:
+
+&nbsp; &nbsp; &nbsp; &nbsp;develop and master
+
+Branch naming convention:
+
+&nbsp; &nbsp; &nbsp; &nbsp;release-*
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
