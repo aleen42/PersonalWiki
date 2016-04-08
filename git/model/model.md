@@ -278,4 +278,6 @@ A high-quality PDF version of the figure is provided here. Go ahead and hang it 
 
 **Update:** And for anyone who requested it: here’s the [gitflow-model.src.key](http://github.com/downloads/nvie/gitflow/Git-branching-model-src.key.zip) of the main diagram image (Apple Keynote).
 
+<a href="http://nvie.com/files/Git-branching-model.pdf" target="_blank"><img src="./pdf@2x.png"></a>
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
