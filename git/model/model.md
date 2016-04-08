@@ -32,6 +32,8 @@ Each developer pulls and pushes to origin. But besides the centralized push-pull
 
 Technically, this means nothing more than that Alice has defined a Git remote, named bob, pointing to Bob’s repository, and vice versa.
 
+### The main branches
 
+At the core, the development model is greatly inspired by existing models out there. The central repo holds two main branches with an infinite lifetime:
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
