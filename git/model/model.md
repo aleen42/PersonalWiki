@@ -83,6 +83,6 @@ Feature branches (or sometimes called topic branches) are used to develop new fe
 
 Feature branches typically exist in developer repos only, not in **origin**.
 
-#### *Creating a feature brnch*
+#### *Creating a feature branc*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
