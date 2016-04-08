@@ -38,8 +38,8 @@ Technically, this means nothing more than that Alice has defined a Git remote, n
 
 At the core, the development model is greatly inspired by existing models out there. The central repo holds two main branches with an infinite lifetime:
 
-- master
-- develop
+- **master**
+- **develop**
 
 The **master** branch at **origin** should be familiar to every Git user. Parallel to the master branch, another branch exists called **develop**.
 
