@@ -181,5 +181,13 @@ git merge --no-ff release-1.2
 # (Summary of changes)
 ```
 
+This step may well lead to a merge conflict (probably even, since we have changed the version number). If so, fix it and commit.
+
+Now we are really done and the release branch may be removed, since we don’t need it anymore:
+
+```bash
+git branch -d release-1.2
+# Deleted branch release-1.2 (was ff452fe).
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
