@@ -151,4 +151,6 @@ After creating a new branch and switching to it, we bump the version number. Her
 
 This new branch may exist there for a while, until the release may be rolled out definitely. During that time, bug fixes may be applied in this branch (rather than on the **develop** branch). Adding large new features here is strictly prohibited. They must be merged into **develop**, and therefore, wait for the next big release.
 
+#### *Finishing a release branch*
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
