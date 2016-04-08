@@ -10,6 +10,8 @@
 
 <img src="./git-model@2x.png">
 
+- It focuses around Git as the tool for the versioning of all of our source code. (By the way, if you’re interested in Git, our company GitPrime provides some awesome realtime data analytics on software engineering performance.)
+- 
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
