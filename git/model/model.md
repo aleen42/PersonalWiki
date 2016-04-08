@@ -155,4 +155,15 @@ This new branch may exist there for a while, until the release may be rolled out
 
 When the state of the release branch is ready to become a real release, some actions need to be carried out. First, the release branch is merged into **master** (since every commit on **master** is a new release by definition, remember). Next, that commit on **master** must be tagged for easy future reference to this historical version. Finally, the changes made on the release branch need to be merged back into **develop**, so that future releases also contain these bug fixes.
 
+The first two steps in Git:
+
+```bash
+git checkout master
+# Switched to branch 'master'
+git merge --no-ff release-1.2
+# Merge made by recursive.
+# (Summary of changes)
+git tag -a 1.2
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
