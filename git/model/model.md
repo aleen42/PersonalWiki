@@ -133,4 +133,13 @@ The key moment to branch off a new release branch from **develop** is when devel
 
 It is exactly at the start of a release branch that the upcoming release gets assigned a version number—not any earlier. Up until that moment, the **develop** branch reflected changes for the “next release”, but it is unclear whether that “next release” will eventually become 0.3 or 1.0, until the release branch is started. That decision is made on the start of the release branch and is carried out by the project’s rules on version number bumping.
 
+#### *Creating a feature branch*
+
+Release branches are created from the **develop** branch. For example, say version 1.1.5 is the current production release and we have a big release coming up. The state of **develop** is ready for the “next release” and we have decided that this will become version 1.2 (rather than 1.1.6 or 2.0). So we branch off and give the release branch a name reflecting the new version number:
+
+```bash
+git checkout -b myfeature develop
+# Switched to a new branch "myfeature"
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
