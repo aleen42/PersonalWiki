@@ -251,4 +251,14 @@ git tag -a 1.2.1
 
 **Edit:** You might as well want to use the `-s` or `-u <key>` flags to sign your tag cryptographically.
 
+Next, include the bugfix in develop, too:
+
+```bash
+git checkout develop
+# Switched to branch 'develop'
+git merge --no-ff hotfix-1.2.1
+# Merge made by recursive.
+# (Summary of changes)
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
