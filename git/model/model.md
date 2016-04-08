@@ -224,4 +224,14 @@ git commit -a -m "Bumped version number to 1.2.1"
 # 1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
+Don’t forget to bump the version number after branching off!
+
+Then, fix the bug and commit the fix in one or more separate commits.
+
+```bash
+git commit -m "Fixed severe production problem"
+# [hotfix-1.2.1 abbe5d6] Fixed severe production problem
+# 5 files changed, 32 insertions(+), 17 deletions(-)
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
