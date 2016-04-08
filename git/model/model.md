@@ -236,6 +236,6 @@ git commit -m "Fixed severe production problem"
 
 #### Finishing a hotfix branch
 
-
+When finished, the bugfix needs to be merged back into **master**, but also needs to be merged back into **develop**, in order to safeguard that the bugfix is included in the next release as well. This is completely similar to how release branches are finished.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
