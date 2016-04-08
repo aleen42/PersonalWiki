@@ -87,9 +87,9 @@ Feature branches typically exist in developer repos only, not in **origin**.
 
 When starting work on a new feature, branch off from the develop branch.
 
-```cmd
-$ git checkout -b myfeature develop
-Switched to a new branch "myfeature"
+```bash
+git checkout -b myfeature develop
+# Switched to a new branch "myfeature"
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
