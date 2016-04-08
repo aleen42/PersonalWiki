@@ -92,6 +92,11 @@ git checkout -b myfeature develop
 # Switched to a new branch "myfeature"
 ```
 
-#### *Incorporating a finished feature on develop ¶*
+#### *Incorporating a finished feature on develop*
+
+Finished features may be merged into the **develop** branch to definitely add them to the upcoming release:
+
+```bash
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
