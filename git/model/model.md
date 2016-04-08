@@ -34,6 +34,14 @@ Technically, this means nothing more than that Alice has defined a Git remote, n
 
 ### The main branches
 
+<img src="./main-branches@2x.png">
+
 At the core, the development model is greatly inspired by existing models out there. The central repo holds two main branches with an infinite lifetime:
+
+- master
+- develop
+
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
