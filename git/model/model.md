@@ -111,4 +111,6 @@ The **--no-ff** flag causes the merge to always create a new commit object, even
 
 <img src="./merge-without-ff@2x.png">
 
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
