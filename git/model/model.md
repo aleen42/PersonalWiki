@@ -138,8 +138,13 @@ It is exactly at the start of a release branch that the upcoming release gets as
 Release branches are created from the **develop** branch. For example, say version 1.1.5 is the current production release and we have a big release coming up. The state of **develop** is ready for the “next release” and we have decided that this will become version 1.2 (rather than 1.1.6 or 2.0). So we branch off and give the release branch a name reflecting the new version number:
 
 ```bash
-git checkout -b myfeature develop
-# Switched to a new branch "myfeature"
+git checkout -b release-1.2 develop
+# Switched to a new branch "release-1.2"
+./bump-version.sh 1.2
+# Files modified successfully, version bumped to 1.2.
+git commit -a -m "Bumped version number to 1.2"
+# [release-1.2 74d9424] Bumped version number to 1.2
+# 1 files changed, 1 insertions(+), 1 deletions(-)
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
