@@ -249,4 +249,6 @@ git merge --no-ff hotfix-1.2.1
 git tag -a 1.2.1
 ```
 
+**Edit:** You might as well want to use the `-s` or `-u <key>` flags to sign your tag cryptographically.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
