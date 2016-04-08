@@ -210,4 +210,6 @@ Hotfix branches are very much like release branches in that they are also meant 
 
 The essence is that work of team members (on the **develop** branch) can continue, while another person is preparing a quick production fix.
 
+#### *Creating the hotfix branch *
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
