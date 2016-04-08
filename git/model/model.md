@@ -61,4 +61,6 @@ The different types of branches we may use are:
 - Release branches
 - Hotfix branches
 
+Each of these branches have a specific purpose and are bound to strict rules as to which branches may be their originating branch and which branches must be their merge targets. We will walk through them in a minute.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
