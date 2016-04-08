@@ -157,6 +157,7 @@ a.navigation,
     background-repeat: no-repeat;
     background-position: center;
     border: none !important;
+    box-shadow: -8px 0px 18px #000 inset;
 }
 
 /** body scroll bar */
