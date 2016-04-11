@@ -188,6 +188,10 @@ a.navigation,
     -webkit-transition: all 0.8s;
 }
 
+#overlay-icon {
+    background-image: url(http://aleen42.gitbooks.io/personalwiki/content/pic/icon-left.png);
+}
+
 /** body scroll bar */
 .book .book-body {
     margin: 10px;
