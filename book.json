@@ -58,7 +58,6 @@
         },
         "customtheme": {
             "js": [
-                "src/jquety-2.1.4.min.js",
                 "src/index.js"
             ]
         }
