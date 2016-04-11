@@ -13,3 +13,7 @@ window.onload = function () {
     getScript('src/jquery-2.1.4.min.js');
     getScript('src/application.js');
 };
+
+$(document).ready(function () {
+    $('.book').append('<div id="particles-js"></div>');
+});
