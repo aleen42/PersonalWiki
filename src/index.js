@@ -6,6 +6,9 @@ function getScript(src) {
 }
 
 window.onload = function () {
+    /**
+     * animation background
+     */
     var div = document.createElement('div');
     div.id = 'particles-js';
     document.getElementsByClassName('book')[0].appendChild(div);
