@@ -6,7 +6,7 @@ function getScript(src) {
 }
 
 window.onload = function () {
-    var div = document.createElemet('div');
+    var div = document.createElement('div');
     div.id = 'particles-js';
     document.getElementByClassName('book').appendChild(div);
 
