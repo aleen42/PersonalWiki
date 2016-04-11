@@ -196,7 +196,7 @@ a.navigation,
     height: 50px;
     position: fixed;
     top: 50%;
-    left: -25px;
+    left: -11px;
     transform: translateY(-25px);
     -webkit-transform: translateY(-25px);
 }
