@@ -6,7 +6,6 @@ function getScript(src) {
 }
 
 window.onload = function () {
-    
     getScript('src/jquety-2.1.4.min.js');
     getScript('src/application.js');
 };
