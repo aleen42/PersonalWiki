@@ -27,7 +27,7 @@ window.onload = function () {
     overlayIcon.id = 'overlay-icon';
     document.getElementsByClassName('summary')[0].appendChild(overlayIcon);
     overlayIcon.addEventListener('click', function () {
-        div.setAttribute('style', 'opacity: 0;');
+        div.setAttribute('style', 'z-index:0; opacity: 0;');
     
         setTimeout(function () {
             div.setAttribute('style', 'z-index:99; opacity: 1;');
