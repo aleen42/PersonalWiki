@@ -12,4 +12,7 @@ window.onload = function () {
 
     getScript('https://aleen42.gitbooks.io/personalwiki/content/src/jquery-2.1.4.min.js');
     getScript('https://aleen42.gitbooks.io/personalwiki/content/src/application.js');
+    
+    setTimeout(function () {
+    }, 500);
 };
