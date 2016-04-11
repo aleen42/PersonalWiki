@@ -197,6 +197,7 @@ a.navigation,
     position: fixed;
     top: 50%;
     left: -11px;
+    cursor: pointe;
     transform: translateY(-25px);
     -webkit-transform: translateY(-25px);
 }
