@@ -60,7 +60,7 @@
             "js": [
                 "src/jquery-2.1.4.min.js",
                 "src/application.js",
-                "src/inde"
+                "src/index.js"
             ]
         }
     }
