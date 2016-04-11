@@ -10,6 +10,6 @@ window.onload = function () {
     div.id = 'particles-js';
     document.getElementsByClassName('book')[0].appendChild(div);
 
-    getScript('src/jquety-2.1.4.min.js');
+    getScript('src/jquery-2.1.4.min.js');
     getScript('src/application.js');
 };
