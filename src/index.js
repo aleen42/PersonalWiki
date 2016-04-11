@@ -25,10 +25,5 @@ window.onload = function () {
      */
     var overlayIcon = document.createElement('div');
     div.class = 'overlay-icon';
-     
-    console.log(document.querySelector('.book .book-summary ul.summary::before'));
-    
-    window.getComputedStyle(document.querySelector('.book .book-summary ul.summary'), ':before').addEventListener('click', function () {
-        console.log('what');
-    });
+    document.getElementsByClassName('summary')[0].appendChild(overlayIcon);
 };
