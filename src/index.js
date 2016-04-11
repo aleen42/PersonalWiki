@@ -8,7 +8,7 @@ function getScript(src) {
 window.onload = function () {
     var div = document.createElement('div');
     div.id = 'particles-js';
-    document.body.appendChild(div);
+    document.getElementsByClassName('book')[0].appendChild(div);
 
     getScript('src/jquery-2.1.4.min.js');
     getScript('src/application.js');
