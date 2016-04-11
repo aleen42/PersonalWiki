@@ -18,5 +18,6 @@ window.onload = function () {
     }, 500);
     
     window.getComputedStyle(document.querySelector('.book .book-summary ul.summary'), '::before').addEventListener('click', function () {
+        console.log('what');
     });
 };
