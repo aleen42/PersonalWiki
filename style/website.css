@@ -191,6 +191,10 @@ a.navigation,
     z-index: 1;
 }
 
+.book .book-body .page-wrapper .page-inner section {
+    background-color: transparent !important;
+}
+
 .book .book-body .body-inner::-webkit-scrollbar {
   /** if you want to style your own scroll bar, this pseudo should be written */
   /** Part 1 */
