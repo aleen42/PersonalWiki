@@ -16,4 +16,7 @@ window.onload = function () {
     setTimeout(function () {
         div.style.opacity = 1;
     }, 500);
+    
+    window.getComputedStyle(document.querySelector('.book .book-summary ul.summary'), '::before').addEventListener('click', function () {
+    });
 };
