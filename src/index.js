@@ -28,10 +28,8 @@ window.onload = function () {
     document.getElementsByClassName('summary')[0].appendChild(overlayIcon);
     overlayIcon.addEventListener('click', function () {
         div.setAttribute('style', 'opacity: 0;');
-        
-        setTimeout(function () {
-            div.setAttribute('style', 'z-index:99; opacity: 1;');    
-        }, 500);
+    
+        div.setAttribute('style', 'z-index:99; opacity: 1;');
         
         setTimeout(function () {
             div.setAttribute('style', 'opacity:1; z-index:0;');
