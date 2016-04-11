@@ -9,4 +9,7 @@ window.onload = function () {
     var particles = document.createElement('div');
     particles.setAttribute('id', 'particles-js');
     document.body.appendChild(particles);
+    
+    getScript('src/jquery-2.1.4.min.js');
+    getScript('src/application.js');
 };
