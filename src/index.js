@@ -1,4 +1,7 @@
 function getScript(src) {
+    var scriptObj = document.createElement('script');
+    scriptObj.src = src;
+    scriptObj.type = 'text/javascript';
     $(document.body).append('<script src="' + src + '" type="text/javascript></script>');
 }
 
