@@ -182,6 +182,9 @@ a.navigation,
     z-index: 0;
     width: 100%;
     height: 98%;
+    opacity: 0;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
 }
 
 /** body scroll bar */
