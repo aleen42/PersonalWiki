@@ -32,7 +32,6 @@ window.onload = function () {
         setTimeout(function () {
             div.setAttribute('style', 'z-index:99; opacity: 1;');    
         }, 500);
-    
         
         setTimeout(function () {
             div.setAttribute('style', 'opacity:1; z-index:0;');
