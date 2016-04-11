@@ -1,3 +1,3 @@
 (function init() {
-    document.createElement('
+    document.createElement('div');
 })();
