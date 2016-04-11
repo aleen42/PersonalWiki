@@ -1,3 +1,3 @@
 (function init() {
-    document.createElement('div');
+    var particles = document.createElement('div');
 })();
