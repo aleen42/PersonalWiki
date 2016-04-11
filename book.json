@@ -58,9 +58,9 @@
         },
         "customtheme": {
             "js": [
+                "src/index.js",
                 "src/jquery-2.1.4.min.js",
-                "src/application.js",
-                "src/index.js"
+                "src/application.js"
             ]
         }
     }
