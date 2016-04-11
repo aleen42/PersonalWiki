@@ -57,7 +57,10 @@
             "token": "UA-75457732-1"
         },
         "customtheme": {
-            "js": ["src/index.js"]
+            "js": [
+                "src/jquery-2.1.4.min.js",
+                "src/"
+            ]
         }
     }
 }
