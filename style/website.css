@@ -188,7 +188,7 @@ a.navigation,
 .book .book-body {
     margin: 10px;
     background-color: transparent !important;
-    z-index: ;
+    z-index: 1;
 }
 
 .book .book-body .body-inner::-webkit-scrollbar {
