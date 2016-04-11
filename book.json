@@ -20,7 +20,8 @@
         "github",
         "sharing",
         "tbfed-pagefooter",
-        "ga"
+        "ga",
+        "customtheme"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -54,6 +55,9 @@
         },
         "ga": {
             "token": "UA-75457732-1"
+        },
+        "customtheme": {
+            "js": ['src/index.js']
         }
     }
 }
