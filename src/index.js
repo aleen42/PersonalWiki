@@ -10,11 +10,6 @@ window.onload = function () {
     particles.setAttribute('id', 'particles-js');
     document.body.appendChild(particles);
     
-    particles.addEventListener('mouseover', function (e) {
-        e.handle = false;
-        return false;
-    });
-    
     getScript('src/jquery-2.1.4.min.js');
     getScript('src/application.js');
 };
