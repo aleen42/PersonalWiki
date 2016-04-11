@@ -171,6 +171,7 @@ a.navigation,
     position: fixed;
     top: 50%;
     left: -25px;
+    cursor: point;
 }
 
 /**
