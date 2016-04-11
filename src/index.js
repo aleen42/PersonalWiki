@@ -17,7 +17,7 @@ window.onload = function () {
     getScript('https://aleen42.gitbooks.io/personalwiki/content/src/application.js');
     
     setTimeout(function () {
-        div.style.opacity = 1;
+        div.setAttribute('style', 'opacity:1;');
     }, 500);
     
     /**
