@@ -29,6 +29,8 @@ window.onload = function () {
     overlayIcon.addEventListener('click', function () {
         div.setAttribute('style', 'opacity: 0;');
     
+        setTimeout(function () {
+        }, 500);
         div.setAttribute('style', 'z-index:99; opacity: 1;');
         
         setTimeout(function () {
