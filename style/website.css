@@ -186,6 +186,7 @@ a.navigation,
 /** body scroll bar */
 .book .book-body {
     margin: 10px;
+    background-color: transparent !importan;
 }
 
 .book .book-body .body-inner::-webkit-scrollbar {
