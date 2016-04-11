@@ -58,7 +58,7 @@
         },
         "customtheme": {
             "js": [
-                "./src/index.js"
+                "src/index.js"
             ]
         }
     }
