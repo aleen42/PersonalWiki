@@ -1,4 +1,4 @@
-<a href="https://www.gitbook.com/read/book/aleen42/personalwiki" target="_blank"><img src="./cover_read.jpg"></a>
+<a href="https://www.gitbook.com/read/book/aleen42/personalwiki" target="_blank"><img src="./cover_read.png"></a>
 
 ## About
 
