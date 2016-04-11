@@ -17,7 +17,7 @@ window.onload = function () {
         div.style.opacity = 1;
     }, 500);
     
-    console.log(document.querySelector('.book .book-summary ul.summary::before'));
+    console.log(document.querySelector('.book .book-summary ul.summary::before')[0]);
     
     window.getComputedStyle(document.querySelector('.book .book-summary ul.summary'), ':before').addEventListener('click', function () {
         console.log('what');
