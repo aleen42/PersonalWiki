@@ -1,5 +1,5 @@
 function getScript(src) {
-    $(document.body).append('<script></script>');
+    $(document.body).append('<script src="' + src + '" type="text/javascript"></script>');
 }
 
 window.onload = function () {
