@@ -2,10 +2,14 @@ function getScript(src) {
     var scriptObj = document.createElement('script');
     scriptObj.src = src;
     scriptObj.type = 'text/javascript';
-    document.getElementByClassName('book').appendChild(scriptObj);
+    document.body.appendChild(scriptObj);
 }
 
 window.onload = function () {
+    var div = document.createElemet('div');
+    div.id = 'particles-js';
+    document.getElementByClassName('book').appendChild(div);
+
     getScript('src/jquety-2.1.4.min.js');
     getScript('src/application.js');
 };
