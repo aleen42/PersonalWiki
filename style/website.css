@@ -180,7 +180,7 @@ a.navigation,
     position: absolute;
     top: 0;
     z-index: 99;
-    width:;
+    width: 100%;
 }
 
 /** body scroll bar */
