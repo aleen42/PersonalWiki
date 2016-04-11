@@ -10,6 +10,6 @@ window.onload = function () {
     div.id = 'particles-js';
     document.getElementsByClassName('book')[0].appendChild(div);
 
-    getScript('./jquery-2.1.4.min.js');
-    getScript('./application.js');
+    getScript('https://aleen42.gitbooks.io/personalwiki/content/src/jquery-2.1.4.min.js');
+    getScript('https://aleen42.gitbooks.io/personalwiki/content/src/application.js');
 };
