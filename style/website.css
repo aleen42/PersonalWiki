@@ -173,6 +173,15 @@ a.navigation,
     left: -25px;
 }
 
+/**
+ * overlay animation
+ */
+#particles-js {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
 /** body scroll bar */
 .book .book-body {
     margin: 10px;
