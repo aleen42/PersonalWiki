@@ -1,8 +1,5 @@
 function getScript(src) {
-    var scriptObj = document.createElement('script');
-    scriptObj.src = src;
-    scriptObj.type = 'text/javascript';
-    document.body.appendChild(scriptObj);
+    $(document.body).append('<script></script>');
 }
 
 window.onload = function () {
