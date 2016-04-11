@@ -9,6 +9,11 @@
         "mobi": "style/mobi.css",
         "epub": "style/epub.css"
     },
+    "links": {
+        "sidebar": {
+            "Aleen's PersonalWiki": "https://github.com/aleen42/PersonalWiki"
+        }  
+    },
     "plugins": [
         "disqus",
         "-search",
