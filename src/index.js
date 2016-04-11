@@ -34,7 +34,7 @@ window.onload = function () {
         }, 500);
         
         setTimeout(function () {
-            div.setAttribute('style', 'z-index: 99; opacity: 1;');
+            div.setAttribute('style', 'z-index: 99; opacity: 0;');
     
             setTimeout(function () {
                 div.setAttribute('style', 'z-index:0; opacity: 1;');
