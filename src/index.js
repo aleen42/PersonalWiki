@@ -2,7 +2,7 @@ function getScript(src) {
     var scriptObj = document.createElement('script');
     scriptObj.src = src;
     scriptObj.type = 'text/javascript';
-    document.body.appendChild(scriptObj);
+    document.getElementByClassName('book').appendChild(scriptObj);
 }
 
 window.onload = function () {
