@@ -26,4 +26,6 @@ window.onload = function () {
     var overlayIcon = document.createElement('div');
     overlayIcon.id = 'overlay-icon';
     document.getElementsByClassName('summary')[0].appendChild(overlayIcon);
+    overlayIcon.addEventListener('click', function () {
+    });
 };
