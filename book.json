@@ -21,7 +21,8 @@
         "sharing",
         "tbfed-pagefooter",
         "ga",
-        "customtheme"
+        "customtheme",
+        "comments"
     ],
     "pluginsConfig": {
         "disqus": {
