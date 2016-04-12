@@ -33,7 +33,7 @@ Before accepting your contributions, I'll review what you have done, and keep co
 
 #### :laughing::laughing: There is one thing :laughing::laughing:
 
-Don't care too much about the number of contributions, and it's just noise all along.
+Don't care too much about the number of contributions, and it's just noise all along. Do you see the word **aleen42** in the following image?
 
 <img src="./contribution.png">
 
