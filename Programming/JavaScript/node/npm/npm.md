@@ -33,4 +33,11 @@ module.exports = function() {
 
 Here is to create tests with [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/) frameworks with the following commands.
 
+*Note that they are added to the ‘devDependencies’ section, as they are only required during development and not at runtime.*
+
+```bash
+npm install mocha --save-dev
+npm install chai --save-dev
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
