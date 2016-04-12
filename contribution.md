@@ -29,4 +29,6 @@ Again to notice that, if it makes sense, add screen shots for your fixes.
 
 #### Waiting for feedback
 
+Before accepting your contributions, I'll review what you have done, and keep contact with you after. Maybe sometimes I am too busy to review, so please wait for my feedback. After make sure there is no problems, I'll merge your contributions
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
