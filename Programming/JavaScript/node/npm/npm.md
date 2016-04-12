@@ -29,4 +29,8 @@ module.exports = function() {
 }
 ```
 
+#### Create some tests
+
+Here is to create tests with [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/) frameworks.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
