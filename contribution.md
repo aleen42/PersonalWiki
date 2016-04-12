@@ -2,7 +2,7 @@
 
 Whatever comments, bugs, enhancements or policy problems you want to contribute to one of my projects, just **open an issue** for me, and make my life easier.
 
-#### Something to do before opening
+#### Something to do before opening issues
 
 - First of all, checkout the list and find whether anyone else has opened the same issue with yours. If so, just join and give out your words on those issue.
 
@@ -11,5 +11,7 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 - It's suggested to wait for feedback before continuing to next steps. Nevertheless, if the issue is clear and the fix is simple, you can just fix it.
 
 - Make a detailed description about your issue, and make me understood what you want to contribute for my projects.
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
