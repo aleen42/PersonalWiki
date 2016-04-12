@@ -2,7 +2,7 @@
 
 ### Basic
 
-##### **i.** Update the version of `Node`
+##### **i.** Update the version of `Node` and `npm`
 
 - check the version
 
