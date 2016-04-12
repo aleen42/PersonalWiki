@@ -1,4 +1,4 @@
-## The MIT License (MIT)
+## Contribution
 
 Copyright (c) 2013-2016 Aleen &lt;aleen42@vip.qq.com&gt; (http://aleen42.github.io/)
 
