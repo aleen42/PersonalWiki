@@ -151,4 +151,6 @@ npm install git://github.com/aleen42/auto-content.git#0.1.0
 
 Before publishing, be sure to test that your package installs and works correctly.
 
+- Verify that the package inst
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
