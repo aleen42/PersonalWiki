@@ -1,6 +1,7 @@
 # Summary
 
 - [About](./README.md)
+- [MIT](./MIT.md)
 - Coder
     * [Programming Language](./Programming/ProgrammingMenu.md)
         * [C/C++](./Programming/c/c.md)
