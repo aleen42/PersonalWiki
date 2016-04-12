@@ -59,6 +59,9 @@
             "js": [
                 "src/index.js"
             ]
+        },
+        "advanced-emoji": {
+            "embedEmojis": true
         }
     }
 }
