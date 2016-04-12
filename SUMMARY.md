@@ -40,7 +40,7 @@
                 * [JQuery](./Programming/JavaScript/Framework/jquery/jquery.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [node.js](./Programming/JavaScript/node/node.md)
-                * [Create and publish a node.js module](./Programming/JavaScript/npm/npm.md)
+                * [Create and publish a node.js module](./Programming/JavaScript/nod/npm/npm.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
                 * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
