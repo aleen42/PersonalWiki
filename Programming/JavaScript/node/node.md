@@ -24,6 +24,11 @@ sudo n stable
 
 - update npm
 
+```sh
+sudo npm install -g npm@latest
+sudo npm install -g npm@lts
+```
+
 ##### **ii.** Require models
 
 - install models
