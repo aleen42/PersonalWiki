@@ -12,5 +12,4 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 
 - Make a detailed description about your issue, and make me understood what you want to contribute for my projects.
 
-
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
