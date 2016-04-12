@@ -2,7 +2,7 @@
 
 #### What is npm?
 
-**npm** is an online registry for open-source node.js projects, modules, resources, etc.
+**npm** is an online registry for open-source node.js projects, modules, resources, etc. Here is the [official website](http://npmjs.org.).
 
 **npm** is also the official package manager for node.js, and provides a command line interface (CLI) for interacting with the registry.
 
