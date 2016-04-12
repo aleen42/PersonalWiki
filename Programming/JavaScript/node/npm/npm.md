@@ -13,9 +13,9 @@ For you ruby devs, npm is akin to [rubygems](http://rubygems.org/).
 To set some information for our own:
 
 ```bash
-npm set init.author.name "Brent Ertz"
-npm set init.author.email "brent.ertz@gmail.com"
-npm set init.author.url "http://brentertz.com"
+npm set init.author.name "aleen42"
+npm set init.author.email "aleen42@vip.qq.com"
+npm set init.author.url "http://aleen42.github.io/pc.html"
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
