@@ -46,4 +46,6 @@ The above commands will also create a `node_modules` folder in your project dire
 node_modules
 ```
 
+Then, create a `test` directory to hold tests by creating a file with the same name `index.js`
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
