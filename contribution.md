@@ -2,4 +2,6 @@
 
 Whatever comments, bugs, enhancements or policy problems you want to contribute to one of my projects, just **open an issue** for me, and make my life easier.
 
+#### Something to do before opening
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
