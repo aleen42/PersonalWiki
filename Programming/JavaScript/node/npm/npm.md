@@ -88,6 +88,7 @@ Finally, the test scrit of `package.json` can be:
 Here is the final files architecture:
 
 > lib
+
 >> index.js
 
 > test
