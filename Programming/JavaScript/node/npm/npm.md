@@ -23,10 +23,14 @@ npm set init.author.url "http://aleen42.github.io/pc.html"
 The primary 2 items that we are concerned with here are `require` and `exports`. You `require` other modules that you wish to use in your code and your module `exports` anything that should be exposed publicly.
 
 ```js
-var other = require('other_module');
-module.exports = function() {
-    console.log(other.doSomething());
-}
+module.exports = {
+	_hello: 1,
+
+	printText: function(i) {
+		this._hello += i;
+		return this._hello;
+	}
+};
 ```
 
 #### Create some tests
