@@ -4,4 +4,6 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 
 #### Something to do before opening
 
+- First of all, checkout the list and find whether anyone else has opened the same issue with yours.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
