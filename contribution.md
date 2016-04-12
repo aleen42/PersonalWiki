@@ -1,4 +1,4 @@
-## :sparkles: :dizzy: :star2: :star2: :sparkles: :dizzy: :star2: :star2: Contribution :star: :star2: :dizzy: :sparkles:  :star: :star2: :dizzy: :sparkles:
+## :sparkles: :dizzy: :star2: :star2: :sparkles: :dizzy: :star2: :star2: Contributions :star: :star2: :dizzy: :sparkles:  :star: :star2: :dizzy: :sparkles:
 
 Whatever comments, bugs, enhancements or policy problems you want to contribute to one of my projects, just **open an issue** for me, and make my life easier.
 
