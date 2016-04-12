@@ -18,4 +18,7 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 
 &nbsp; &nbsp; &nbsp; &nbsp;**fix-#1-aleen42**
 
+- **#1**: the issue number
+- **aleen42**: the user name of your github
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
