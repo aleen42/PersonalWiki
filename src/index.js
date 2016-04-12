@@ -30,7 +30,7 @@ window.onload = function () {
         div.style.opacity = 0;
         
         setTimeout(function () {
-            div.style['z-index'] = 99;
+            div.style['z-index'] = 3;
             div.style.opacity = 1;
         }, 1000);
         
