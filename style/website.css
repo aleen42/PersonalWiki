@@ -196,12 +196,16 @@ a.navigation,
     height: 50px;
     position: fixed;
     top: 50%;
-    left: -11px;
+    left: -25px;
     cursor: pointer;
     transform: translateY(-25px);
     -webkit-transform: translateY(-25px);
     transition: all 0.8s;
     -webkit-transition: all 0.8s;
+}
+
+#overlay-icon:hover {
+    left: -11px;
 }
 
 /** body scroll bar */
