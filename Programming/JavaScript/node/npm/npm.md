@@ -40,6 +40,6 @@ npm install mocha --save-dev
 npm install chai --save-dev
 ```
 
-
+The above commands will also create a `node_modules` folder in your project directory containing those dependencies. Following best practices, we'll want to keep the `node_modules` folder out of the git repository. We can do that by adding a `.gitignore` file to our project root, with the following contents.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
