@@ -12,6 +12,8 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 
 - Make a detailed description about your issue, and make me understood what you want to contribute for my projects.
 
+#### Fixing issues
 
+- Fork this project in your account and create a branch with a standard 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
