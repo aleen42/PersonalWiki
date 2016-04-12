@@ -68,7 +68,7 @@ After that, a `Makefile` file can be created like the following:
 
 ```makefile
 test:
-	./node_modules/.bin/mocha --reporter spec
+	./node_modules/.bin/mocha --reporter nyan
 
 .PHONY: test
 ```
