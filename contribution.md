@@ -8,7 +8,7 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 
 - It's important for you to add the platform and software information after figuring out bugs like **the version of OS, the version of Node** etc. Screen shots are what I wish to ask for, because I would like to see what you have seen before.
 
-- It's suggested to wait for feedback before continuing to next steps. 
+- It's suggested to wait for feedback before continuing to next steps. Nevertheless, if the issue is clear and the fix is simple, you can just fix it.
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
