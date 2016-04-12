@@ -2,7 +2,7 @@
 
 ### Basic
 
-##### **i.** Update the version of `Node` and `npm`
+##### **i.** Update the version of `node` and `npm`
 
 - check the version
 
@@ -16,11 +16,13 @@ npm -v
 sudo npm install -g n
 ```
 
-- get the stable version
+- get the stable version of node.js
 
 ```sh
 sudo n stable
 ```
+
+- update npm
 
 ##### **ii.** Require models
 
