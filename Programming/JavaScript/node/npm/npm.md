@@ -83,7 +83,18 @@ Finally, the test scrit of `package.json` can be:
     "chai": "~3.5.0"
   }
 }
-
 ```
+
+Here is the final files architecture:
+
+> lib
+>> index.js
+
+> test
+>> index.js
+
+> package.json
+
+> Makefile
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a
