@@ -27,4 +27,6 @@ After fix the issue, just open a pull request and reference the initial issue in
 
 Again to notice that, if it makes sense, add screen shots for your fixes.
 
+#### Waiting for feedback
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
