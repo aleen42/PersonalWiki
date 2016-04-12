@@ -99,4 +99,6 @@ Here is the final files architecture:
 
 > Makefile
 
+> node_module
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a
