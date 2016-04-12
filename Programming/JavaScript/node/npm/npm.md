@@ -20,7 +20,7 @@ npm set init.author.url "http://aleen42.github.io/pc.html"
 
 #### Create a module
 
-The primary 2 items that we are concerned with here are require and exports. You require other modules that you wish to use in your code and your module exports anything that should be exposed publicly
+The primary 2 items that we are concerned with here are require and exports. You require other modules that you wish to use in your code and your module exports anything that should be exposed publicly.
 
 ```js
 
