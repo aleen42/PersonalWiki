@@ -200,6 +200,8 @@ a.navigation,
     cursor: pointer;
     transform: translateY(-25px);
     -webkit-transform: translateY(-25px);
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
 }
 
 /** body scroll bar */
