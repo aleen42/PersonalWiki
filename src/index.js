@@ -36,10 +36,11 @@ window.onload = function () {
         
         setTimeout(function () {
             div.style.opacity = 0;
-            div.style['z-index'] = 0;
+            
             setTimeout(function () {
+                div.style['z-index'] = 0;
                 div.style.opacity = 1;
-            }, 500);
+            }, 1000);
         }, 5000);
     });
 };
