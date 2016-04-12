@@ -73,29 +73,11 @@ Finally, the test scrit of `package.json` can be:
 
 ```json
 {
-  "name": "auto-content",
-  "version": "0.0.0",
-  "description": "a node.js module for generating justified contents",
-  "main": "index.js",
+  // ...
   "scripts": {
     "test": "make test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aleen42/auto-content.git"
-  },
-  "keywords": [
-    "justify",
-    "content"
-  ],
-  "author": [
-    "aleen42 <aleen42@vip.qq.com> (http://aleen42.github.io/pc.html)"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aleen42/auto-content/issues"
-  },
-  "homepage": "https://github.com/aleen42/auto-content",
+  // ...
   "devDependencies": {
     "mocha": "~2.4.5",
     "chai": "~3.5.0"
