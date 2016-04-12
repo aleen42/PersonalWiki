@@ -40,7 +40,8 @@ window.onload = function () {
             div.setAttribute('style', 'z-index: 99; opacity: 0;');
     
             setTimeout(function () {
-                div.setAttribute('style', 'z-index:0; opacity: 1;');
+                div.style['z-index'] = 0;
+                div.style.opacity = 1;
             }, 500);
         }, 5000);
     });
