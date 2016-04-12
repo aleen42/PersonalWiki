@@ -58,7 +58,7 @@ const autoContent = require('../lib/index');
 
 /** test case with should syntax provided by the Chai framework */
 describe('tests', function () {
-	it('test case 1:', function () {
+	it('test case 1', function () {
 		autoContent.printText(3).should.equal(4);
 	});
 });
