@@ -62,7 +62,6 @@ describe('tests', function () {
 		autoContent.printText(3).should.equal(4);
 	});
 });
-
 ```
 
 After that, a `Makefile` file can be created like the following:
