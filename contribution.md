@@ -35,4 +35,6 @@ Before accepting your contributions, I'll review what you have done, and keep co
 
 Don't care too much about the number of contributions, and it's just noise all along.
 
+<img src="./contribution.png">
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
