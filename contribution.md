@@ -14,6 +14,8 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 
 #### Fixing issues
 
-- Fork this project in your account and create a branch with a standard 
+- Fork this project in your account and create a branch with a standard naming convention:
+
+&nbsp; &nbsp; &nbsp; &nbsp;**fix-#1-aleen42**
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
