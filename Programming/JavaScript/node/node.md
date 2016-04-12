@@ -54,4 +54,4 @@ node script.js
 - [**Create and publish a node.js module**](./npm/npm.md)
 
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
+<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
