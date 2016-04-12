@@ -39,8 +39,11 @@ window.onload = function () {
             
             setTimeout(function () {
                 div.style['z-index'] = 0;
-                div.style.opacity = 1;
             }, 1000);
+            setTimeout(function () {
+                
+                div.style.opacity = 1;
+            }, 1500);
         }, 5000);
     });
 };
