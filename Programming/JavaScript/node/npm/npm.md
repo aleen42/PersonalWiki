@@ -4,6 +4,8 @@
 
 **npm** is an online registry for open-source node.js projects, modules, resources, etc.
 
-npm is also the official package manager for node.js, and provides a command line interface (CLI) for interacting with the registry.
+**npm** is also the official package manager for node.js, and provides a command line interface (CLI) for interacting with the registry.
+
+For you ruby devs, npm is akin to rubygems.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
