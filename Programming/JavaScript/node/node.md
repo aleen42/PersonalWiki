@@ -43,7 +43,7 @@ sudo npm install -g <model_name>
 var request = require('request');
 ```
 
-### Run the script
+##### **iii.** Run the script
 
 ```sh
 node script.js
