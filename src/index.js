@@ -28,11 +28,12 @@ window.onload = function () {
     document.getElementsByClassName('summary')[0].appendChild(overlayIcon);
     overlayIcon.addEventListener('click', function () {
         // div.setAttribute('style', 'z-index:0; opacity: 0;');
-        div.style['z-index'] = 0;
+        
         div.style.opacity = 0;
         
         setTimeout(function () {
-            div.setAttribute('style', 'z-index:99; opacity: 1;');
+            div.style['z-index'] = 99;
+            div.style.opacity = 1;
         }, 500);
         
         setTimeout(function () {
