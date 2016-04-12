@@ -62,7 +62,7 @@ autoContent.printText(3).should.equal(4);
 
 After that, a `Makefile` file can be created like the following:
 
-```bash
+```makefile
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a
