@@ -57,7 +57,12 @@ const should = require('chai').should();
 const autoContent = require('../lib/index');
 
 /** test case with should syntax provided by the Chai framework */
-autoContent.printText(3).should.equal(4);
+describe('tests', function () {
+	it('test case 1:', function () {
+		autoContent.printText(3).should.equal(4);
+	});
+});
+
 ```
 
 After that, a `Makefile` file can be created like the following:
