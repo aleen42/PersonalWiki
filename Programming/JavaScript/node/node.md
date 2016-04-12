@@ -1,6 +1,8 @@
 ## NodeJs [Back](./../JavaScript.md)
 
-### Update the version of `Node`
+### Basic
+
+##### **i.** Update the version of `Node`
 
 - check the version
 
@@ -20,7 +22,7 @@ sudo npm install -g n
 sudo n stable
 ```
 
-### Require models
+##### **ii.** Require models
 
 - install models
 
@@ -46,5 +48,7 @@ var request = require('request');
 ```sh
 node script.js
 ```
+
+### Cate
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
