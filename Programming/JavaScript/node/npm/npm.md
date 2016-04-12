@@ -52,4 +52,12 @@ node_modules
 
 Then, create a `test` directory to hold tests by creating a file with the same name `index.js`
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
+```js
+const should = require('chai').should();
+const autoContent = require('../lib/index');
+
+/** test case with should syntax provided by the Chai framework */
+autoContent.printText(3).should.equal(4);
+```
+
+<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a
