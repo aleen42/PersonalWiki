@@ -12,7 +12,7 @@
     "links": {
         "sidebar": {
             "GitHub Project": "https://github.com/aleen42/PersonalWiki"
-        }  
+        }
     },
     "plugins": [
         "disqus",
@@ -22,17 +22,12 @@
         "tbfed-pagefooter",
         "ga",
         "customtheme",
-        "comments"
+        "comments",
+        "advanced-emoji"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "personal"
-        },
-        "search-pro": {
-            "cutWordLib": "nodejieba",
-            "defineWord": [
-                "Gitbook Use"
-            ]
         },
         "github": {
             "url": "https://github.com/aleen42"
@@ -45,8 +40,11 @@
             "instapaper": false,
             "vk": false,
             "all": [
-                "facebook", "google", "twitter",
-                    "weibo", "instapaper"
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper"
             ]
         },
         "tbfed-pagefooter": {
