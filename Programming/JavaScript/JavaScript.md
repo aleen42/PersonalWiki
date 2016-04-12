@@ -5,7 +5,7 @@
 
 * [**JavaScript Framework | Library**](./Framework/Framework.md)
 * [**Easing Function**](./easing/easing.md)
-* [**NodeJs**](./node/node.md)
+* [**node.js**](./node/node.md)
 
 Languages|Description
 :----:|-----
