@@ -23,6 +23,6 @@ Fork this project in your account and create a branch with a standard naming con
 
 #### Creating a pull request
 
-After fix the issue, just open a pull request and reference the initial issue in the message you commit like **fixes #1**.
+After fix the issue, just open a pull request and reference the initial issue in the message you commit like **fixes #1**. Write down a understandable description and title to make me know what your pull request have done.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
