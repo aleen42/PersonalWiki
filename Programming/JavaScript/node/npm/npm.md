@@ -145,8 +145,8 @@ Have an idea? Found a bug? See [how to contribute](https://aleen42.gitbooks.io/p
 Note that for whatever reason if you decide not to publish your module on npm, the npm package format provides value in itself in both portability and ease of installation. For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
 
 ```bash
-npm install git://github.com/brentertz/scapegoat.git
-npm install git://github.com/brentertz/scapegoat.git#0.1.0
+npm install git://github.com/aleen42/auto-content.git
+npm install git://github.com/aleen42/auto-content.git#0.1.0
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
