@@ -39,7 +39,7 @@
                 * [Dyanmics](./Programming/JavaScript/Framework/dynamics/dynamics.md)
                 * [JQuery](./Programming/JavaScript/Framework/jquery/jquery.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
-            * [NodeJs](./Programming/JavaScript/node/node.md)
+            * [node.js](./Programming/JavaScript/node/node.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
                 * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
