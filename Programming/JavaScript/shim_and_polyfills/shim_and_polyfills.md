@@ -91,6 +91,6 @@ DHTML has provided some features like paging based on AJAX or single page, which
 
 `Onhashchange` Event is an event to handle changement of hash value, which is not supported in old browsers. Therefore, we need Polyfills like *Ben Alman's* jQuery Hashchange. Nevertheless, Alman's Hashchage is based on jQuery, and it's not a Polyfills in definition. Even that, hash still has some problems. For example, when I store a website as a tag, it can only show me a default page when I open it next time.
 
-For that problem HTML5 has given out a more advanced API called **pushState**. The method `windows.history.pushState` and the event `windows.onopstate` are both combined with this API to use handle navigation events asynchronously.
+For that problem, HTML5 has given out a more advanced API called **pushState**. The method `windows.history.pushState` and the event `windows.onopstate` are both combined with this API to use handle navigation events asynchronously.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
