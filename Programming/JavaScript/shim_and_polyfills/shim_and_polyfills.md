@@ -17,6 +17,11 @@ There is a case that we can't apply special CSS for new HTML5 elements like `<ar
             document.createElement('article');
         </script>
     </head>
+    <body>
+        <article>
+            <!-- Write something here -->
+        </article>
+    </body>
 </html>
 ```
 
