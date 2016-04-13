@@ -59,6 +59,8 @@ Here has the case of using AmplifyJS to solve compatibility problems of localSto
 ```js
 /** Set a localStorage variable of name */
 amplify.store('name', 'Aleen');
+
+/** Store an object */
 var website = {
     name: 'PersonalWiki',
     url: 'https://aleen42.gitbooks.io/personalwiki/content/'
