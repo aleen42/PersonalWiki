@@ -94,6 +94,7 @@ DHTML has provided some features like paging based on AJAX or single page, which
 For that problem, HTML5 has given out a more advanced API called **pushState**. The method `windows.history.pushState` and the event `windows.onpopstate` are both combined with this API to use handle navigation events asynchronously. *Benjamin Lupton* has built a library **history.js** for improving compatibility of pushState.
 
 ```js
+/** change the uri to /state1 and change it to /#/s
 History.pushState(null, 'State 1', 'state1');
 ```
 
