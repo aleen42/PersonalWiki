@@ -87,6 +87,6 @@ There is a Polyfills written by *Paul Irish* to solve this problem by using Goog
 
 #### Case 4: History and Navigation
 
-DHTML has provided some features like paging based on AJAX or single page, which has not used History and Navigatio. Using this features, there is 
+DHTML has provided some features like paging based on AJAX or single page, which has not used History and Navigation in . Using this features, there is 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
