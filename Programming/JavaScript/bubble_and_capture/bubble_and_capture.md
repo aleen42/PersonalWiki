@@ -18,6 +18,8 @@ Capturing is also called "trickling(滴落)", which helps to remember:
 
 `trickle down, bubble up`
 
+*Notice that: capturing is not **supported by IE***
+
 #### Useage
 
 ```js
@@ -27,6 +29,13 @@ Capturing is also called "trickling(滴落)", which helps to remember:
  * false: for bubbling
  */
 
+ele.addEventListener('click', function () {
+}, [useCapture]);
+```
+
+And how to prevent from event propagation:
+
+```js
 ele.addEventListener('click', function () {
 }, [useCapture]);
 ```
