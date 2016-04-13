@@ -20,6 +20,8 @@ Fork this project in your account and create a branch with a standard naming con
 - **#1**: the issue number
 - **aleen42**: the user name of your github
 
+**PAY ATTENTION: ** write your code under my guide style, and comment what you have written as much as possible.
+
 #### Creating a pull request
 
 After fix the issue, just open a pull request and reference the initial issue in the message you commit like **fixes #1**. Write down a understandable description and title to make me know what your pull request have done.
