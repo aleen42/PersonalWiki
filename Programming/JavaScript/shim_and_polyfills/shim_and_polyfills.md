@@ -70,4 +70,6 @@ amplify.store('websiet', website);
 
 According to the suggestion, Remy Sharp's Storage Polyfiller is the only one which can simulate HTML5 localStorage API perfectly.
 
+#### Case 3: Geographic Location
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
