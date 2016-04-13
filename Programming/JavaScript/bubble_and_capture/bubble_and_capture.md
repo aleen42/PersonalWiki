@@ -12,6 +12,6 @@ Both event bubbling and capturing are two ways of event propagation(事件傳播
 
 Capturing is also called "trickling", which helps to remember:
 
-`Trickle down, bubble up`
+`trickle down, bubble up`
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
