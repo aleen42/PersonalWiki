@@ -58,6 +58,10 @@ Here has the case of using AmplifyJS to solve compatibility problems of localSto
 
 ```js
 amplify.store('name', 'Aleen');
+var website = {
+    name: 'PersonalWiki',
+    url: 'https://aleen42.gitbooks.io/personalwiki/content/'
+};
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
