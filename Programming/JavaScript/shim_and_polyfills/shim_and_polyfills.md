@@ -34,8 +34,9 @@ However, no one is willing to handle so many new elements by calling this functi
         <style>
             article { margin: 0 auto; width: 640px; }
         </style>
-        <!-- [if IE 9] -->
-        <!-- [endif] -->
+        <!--[if lt IE 9]>
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
     </head>
     <body>
         <article>
