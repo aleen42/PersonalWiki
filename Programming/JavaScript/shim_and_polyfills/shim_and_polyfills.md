@@ -87,6 +87,10 @@ There is a Polyfills written by *Paul Irish* to solve this problem by using Goog
 
 #### Case 4: History and Navigation
 
-DHTML has provided some features like paging based on AJAX or single page, which has not used History and Navigation of browsers. Using this features, problems is coming when users want to go back last step by clicking "back" button. **Hash** is a Polyfills for resoving these problems, because changing a hash value of a link will not reload the webiste.
+DHTML has provided some features like paging based on AJAX or single page, which has not used History and Navigation of browsers. Using this features, problems is coming when users want to go back last step by clicking "back" button. **Hash** can resolve these problems, because changing a hash value of a link will not reload the webiste.
+
+`Onhashchange` Event
+
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
