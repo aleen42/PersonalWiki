@@ -2,4 +2,8 @@
 
 Both event bubbling and capturing are two ways of event propagation(事件傳播) in the HTML DOM APIs, when an event occurs in an element inside another element, and both elements have registered a handle for that triggered event.
 
+#### Bubbling
+
+the event is first captured and handled by the inner element and then propagated to te outer one.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
