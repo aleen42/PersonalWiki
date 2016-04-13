@@ -1,4 +1,4 @@
-## Event Bubbling and Capturing (事件冒泡與事件捕獲) [Back](./../JavaScript.md)
+## Shim and Polyfills [Back](./../JavaScript.md)
 
 
 
