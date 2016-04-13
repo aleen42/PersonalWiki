@@ -10,6 +10,8 @@ Both event bubbling and capturing are two ways of event propagation(事件傳播
 - IE 6.0: div -> body -> html -> document
 - Mozilla 1.0: div -> body -> html -> document -> window
 
+*Notice that: `blur`, `focus`, `load` and, `unload` won't have event bubbling*
+
 #### Capturing
 
 **Capturing** means that the event is first captured by the outer element and propagated to the inner one.
