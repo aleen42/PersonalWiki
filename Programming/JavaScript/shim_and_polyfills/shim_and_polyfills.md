@@ -83,4 +83,6 @@ navigator.geolocation.getCurrentPosition(function (position) {
 );
 ```
 
+There is a Polyfills written by *Paul Irish* to solve this problem by using Google Geographic Location APIs.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
