@@ -78,6 +78,8 @@ Geographic Location is well supported by mobiles because of its GPS sensors, and
 navigator.geolocation.getCurrentPosition(function (position) {
     const lat = position.coords.latitude;
     const long = position.coords.longitude;
+    
+    console.log('Current location:', lat, long);
 );
 ```
 
