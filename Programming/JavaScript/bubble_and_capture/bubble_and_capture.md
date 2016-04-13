@@ -8,6 +8,6 @@ Both event bubbling and capturing are two ways of event propagation(事件傳播
 
 #### Capturing
 
-**Capturing** means that the event is first captured by the outer element and propagated to the inner one
+**Capturing** means that the event is first captured by the outer element and propagated to the inner one.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
