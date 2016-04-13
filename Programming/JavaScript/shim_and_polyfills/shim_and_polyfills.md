@@ -48,4 +48,8 @@ However, no one is willing to handle so many new elements by calling this functi
 </html>
 ```
 
+*Notice that: the arround style of script is written according to html5shiv itself, and the script will be loaded when the browser is lower than IE 9*
+
+Case 
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
