@@ -85,4 +85,8 @@ navigator.geolocation.getCurrentPosition(function (position) {
 
 There is a Polyfills written by *Paul Irish* to solve this problem by using Google Geographic Location APIs.
 
+#### Case 4: History and Navigation
+
+DHTML has provided some features like paging based on AJAX or single page.
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
