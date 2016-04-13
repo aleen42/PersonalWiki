@@ -25,6 +25,6 @@ There is a case that we can't apply special CSS for new HTML5 elements like `<ar
 </html>
 ```
 
-However, no one is willing to handle so many new elements by calling this function, while that's the advantage of Polyfills, and it's html5shim (also called html5shiv)
+However, no one is willing to handle so many new elements by calling this function, while that's the advantage of Polyfills, and it's **html5shim** (also called html5shiv) to automatically complete all the new features in IE.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
