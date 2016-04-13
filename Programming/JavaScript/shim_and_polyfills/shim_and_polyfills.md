@@ -106,6 +106,6 @@ History.Adapter.bind(window, 'statechange', function () {
 });
 ```
 
-*Notice that: your server should act like a sart peson when handle so many undefined uri without returning a 404 or 500 rep*
+*Notice that: your server should act like a sart peson when handle so many undefined uri without returning a 404 or 500 reponse.*
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
