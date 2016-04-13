@@ -153,4 +153,16 @@ Before publishing, be sure to test that your package installs and works correctl
 
 - Verify that the package installs properly
 
+After that, you can register this module with your npm account by using the following command:
+
+```bash
+npm adduser
+```
+
+Finally, just publish your module:
+
+```bash
+npm publish
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
