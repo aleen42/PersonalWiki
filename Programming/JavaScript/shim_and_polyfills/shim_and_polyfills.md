@@ -52,6 +52,6 @@ However, no one is willing to handle so many new elements by calling this functi
 
 #### Case 2: localStorage
 
-`localStorage` API is not supported in the browser which is lower than IE 8.
+`localStorage` API is not supported in the browser which is lower than IE 8. There are plenty of Polyfills to make it supported like RemySharp's Storage  polyfiller, store.js and PersistJS
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
