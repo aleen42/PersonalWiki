@@ -6,4 +6,12 @@ Polyfills is a term first coined by *RemySharp* to describe the copying of missi
 
 There is a case that we can't apply special CSS for new HTML5 elements like `<article>`, `<aside>`, `<header>` or, `<time>` in IE Browser. Fortunately, *Sjoerd Visscher* has found a solution with calling `document.createElement()`.
 
+```html
+<html>
+    <head>
+        <title>HTML5 In IE?</title>
+    </head>
+</html>
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
