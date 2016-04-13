@@ -50,7 +50,7 @@ ele.addEventListener('click', function (event) {
 
 /** In IE */
 ele.attachEvent('onclick', function (event) {
-    event.returnValue = false;
+    window.event.returnValue = false;
 });
 ```
 
