@@ -11,7 +11,7 @@ There is a case that we can't apply special CSS for new HTML5 elements like `<ar
     <head>
         <title>HTML5 In IE?</title>
         <style>
-            article { margin: 0 auto; width: 960px; }
+            article { margin: 0 auto; width: 640px; }
         </style>
     </head>
 </html>
