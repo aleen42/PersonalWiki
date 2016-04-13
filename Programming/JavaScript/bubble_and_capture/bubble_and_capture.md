@@ -45,6 +45,7 @@ ele.addEventListener('click', function (evet) {
 
 /** prevent the default event */
 ele.addEventListener('click', function (event) {
+    event.preventDefault();
 }, [useCapture]);
 ```
 
