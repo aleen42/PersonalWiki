@@ -10,6 +10,9 @@ There is a case that we can't apply special CSS for new HTML5 elements like `<ar
 <html>
     <head>
         <title>HTML5 In IE?</title>
+        <style>
+            article { margin: 0 auto; width: 960px; }
+        </style>
     </head>
 </html>
 ```
