@@ -33,6 +33,12 @@ module.exports = {
 };
 ```
 
+Then you can init the module with:
+
+```bash
+npm init
+```
+
 #### Create some tests
 
 Here is to create tests with [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/) frameworks with the following commands.
