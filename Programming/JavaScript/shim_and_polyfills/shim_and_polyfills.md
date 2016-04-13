@@ -108,4 +108,8 @@ History.Adapter.bind(window, 'statechange', function () {
 
 *Notice that: your server should act like a smart person when handling so many undefined uris rather than only return a 404 or 500 reponse.*
 
+#### More info
+
+[HTML5-Cross-browser-Polyfillw](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills)
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
