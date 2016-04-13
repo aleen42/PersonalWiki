@@ -54,4 +54,10 @@ However, no one is willing to handle so many new elements by calling this functi
 
 `localStorage` API is not supported in the browser which is lower than IE 8. There are plenty of Polyfills to make it supported like **RemySharp's Storage polyfiller**, **store.js** and **PersistJS**. Both **LawnChair** and **the storage module of AmplifyJS** are the Polyfills of localStorage as well.
 
+Here has the case of using AmplifyJS to solve compatibility problems of localStorage:
+
+```html
+
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
