@@ -43,6 +43,11 @@ ele.addEventListener('click', function (evet) {
     event.stopPropagation();
 }, [useCapture]);
 
+/** In IE */
+ele.attachEvent('onclick', function () {
+    window.event.cancelBubble = false;
+});
+
 /** prevent the default event */
 ele.addEventListener('click', function (event) {
     event.preventDefault();
