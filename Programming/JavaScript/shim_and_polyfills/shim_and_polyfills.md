@@ -25,8 +25,24 @@ There is a case that we can't apply special CSS for new HTML5 elements like `<ar
 </html>
 ```
 
-However, no one is willing to handle so many new elements by calling this function, while that's the advantage of Polyfills, and it's [**html5shim**](https://github.com/aFarkas/html5shiv) (also called html5shiv) to automatically complete all the new features in IE.
+However, no one is willing to handle so many new elements by calling this function, while that's the advantage of Polyfills, and it's [**html5shim**](https://github.com/aFarkas/html5shiv) (also called html5shiv) to automatically complete all the new features in IE. We can use it as follow:
 
-
+```html
+<html>
+    <head>
+        <title>HTML5 In IE?</title>
+        <style>
+            article { margin: 0 auto; width: 640px; }
+        </style>
+        <!-- [if IE 9] -->
+        <!-- [endif] -->
+    </head>
+    <body>
+        <article>
+            <!-- Write something here>
+        </article>
+    </body>
+</html>
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
