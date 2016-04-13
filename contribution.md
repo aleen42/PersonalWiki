@@ -20,7 +20,7 @@ Fork this project in your account and create a branch with a standard naming con
 - **#1**: the issue number
 - **aleen42**: the user name of your github
 
-**PAY ATTENTION: ** write your code under my guide style, and comment what you have written as much as possible.
+**PAY ATTENTION: ** write your code under my [guide style](https://aleen42.gitbooks.io/javascript/content/), and comment what you have written as much as possible.
 
 #### Creating a pull request
 
