@@ -6,6 +6,10 @@ Both event bubbling and capturing are two ways of event propagation(事件傳播
 
 **Bubbling** means that the event is first captured and handled by the inner element and then propagated to the outer one.
 
+- IE 5.5: div -> body -> document
+- IE 6.0: div -> body -> html -> document
+- Mozilla 1.0: div -> body -> html -> document -> window
+
 #### Capturing
 
 **Capturing** means that the event is first captured by the outer element and propagated to the inner one.
