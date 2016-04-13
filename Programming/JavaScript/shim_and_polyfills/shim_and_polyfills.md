@@ -13,6 +13,9 @@ There is a case that we can't apply special CSS for new HTML5 elements like `<ar
         <style>
             article { margin: 0 auto; width: 640px; }
         </style>
+        <script>
+            document.createElement('article');
+        </script>
     </head>
 </html>
 ```
