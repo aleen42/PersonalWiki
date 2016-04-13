@@ -10,7 +10,7 @@ Both event bubbling and capturing are two ways of event propagation(事件傳播
 
 **Capturing** means that the event is first captured by the outer element and propagated to the inner one.
 
-Capturing is also called "trickling", which helps to remember:
+Capturing is also called "trickling(滴落)", which helps to remember:
 
 `trickle down, bubble up`
 
