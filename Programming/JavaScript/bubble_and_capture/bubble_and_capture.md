@@ -18,4 +18,11 @@ Capturing is also called "trickling(滴落)", which helps to remember:
 
 `trickle down, bubble up`
 
+#### Useage
+
+```js
+ele.addEventListener('click', function () {
+}, [useCapture]);
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
