@@ -65,6 +65,7 @@ var website = {
     name: 'PersonalWiki',
     url: 'https://aleen42.gitbooks.io/personalwiki/content/'
 };
+amplify.store('websiet', website);
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
