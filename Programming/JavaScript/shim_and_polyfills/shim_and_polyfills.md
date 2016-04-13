@@ -34,12 +34,12 @@ However, no one is willing to handle so many new elements by calling this functi
         <style>
             article { margin: 0 auto; width: 640px; }
         </style>
-        <!-- [if IE 9] -->
-        <!-- [endif] -->
+        <!-- [if IE 9] >
+        <![endif] -->
     </head>
     <body>
         <article>
-            <!-- Write something here>
+            <!-- Write something here -->
         </article>
     </body>
 </html>
