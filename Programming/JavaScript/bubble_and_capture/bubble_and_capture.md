@@ -49,7 +49,7 @@ ele.addEventListener('click', function (event) {
 }, [useCapture]);
 
 /** In IE */
-ele.attachEvent('onclick', function (event) {
+ele.attachEvent('onclick', function () {
     window.event.returnValue = false;
 });
 ```
