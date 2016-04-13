@@ -165,7 +165,7 @@ Finally, just publish your module:
 npm publish
 ```
 
-With that, other developers can install your module by typing
+With that, other developers can install your module by typing:
 
 ```
 npm install auto-content
