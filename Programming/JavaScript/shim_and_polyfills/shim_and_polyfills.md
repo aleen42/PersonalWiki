@@ -61,7 +61,7 @@ Here has the case of using AmplifyJS to solve compatibility problems of localSto
 amplify.store('name', 'Aleen');
 
 /** Store an object */
-var website = {
+const website = {
     name: 'PersonalWiki',
     url: 'https://aleen42.gitbooks.io/personalwiki/content/'
 };
