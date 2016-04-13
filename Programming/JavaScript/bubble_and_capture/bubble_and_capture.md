@@ -21,6 +21,12 @@ Capturing is also called "trickling(滴落)", which helps to remember:
 #### Useage
 
 ```js
+/**
+ * useCapture is an boolean option
+ * true: for capturing
+ * false: for bubbling
+ */
+
 ele.addEventListener('click', function () {
 }, [useCapture]);
 ```
