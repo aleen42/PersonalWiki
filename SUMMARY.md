@@ -52,6 +52,7 @@
                     * [Date and Times](./Programming/JavaScript/Type/Date&Time/Date&Time.md)
                     * [Text](./Programming/JavaScript/Type/Text/Text.md)
                     * [Wrapper Object(包裝對象)](./Programming/JavaScript/Type/Wrapper/Wrapper.md)
+                * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
         * [SVG](./Programming/SVG/SVG.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
