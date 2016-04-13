@@ -98,7 +98,12 @@ For that problem, HTML5 has given out a more advanced API called **pushState**. 
 History.pushState(null, 'State 1', 'state1');
 
 /** get historystate and write it on the console */
-
+History.Adapter.bind(window, 'statechange', function () {
+    /** get the new history state */
+    const state = History.getState（）；
+    
+    console.log(state.url);
+});
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
