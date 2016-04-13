@@ -25,4 +25,6 @@ There is a case that we can't apply special CSS for new HTML5 elements like `<ar
 </html>
 ```
 
+However, no one is willing to handle so many new elements by calling this function, whild that's the advantage of Polyfills
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
