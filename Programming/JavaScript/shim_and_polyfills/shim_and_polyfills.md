@@ -57,7 +57,7 @@ However, no one is willing to handle so many new elements by calling this functi
 Here has the case of using AmplifyJS to solve compatibility problems of localStorage:
 
 ```js
-/** Set a localStorage variable of name
+/** Set a localStorage variable of name */
 amplify.store('name', 'Aleen');
 var website = {
     name: 'PersonalWiki',
