@@ -36,7 +36,8 @@ ele.addEventListener('click', function () {
 And how to prevent from event propagation:
 
 ```js
-ele.addEventListener('click', function () {
+ele.addEventListener('click', function (evet) {
+    event.stopPropagation();
 }, [useCapture]);
 ```
 
