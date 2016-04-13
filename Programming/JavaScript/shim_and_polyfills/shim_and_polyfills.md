@@ -4,6 +4,8 @@
 
 Polyfills is a term first coined by *RemySharp* to describe the copying of missing APIs and API functions, with which you don't have to worry about use new features in an old environment.
 
+#### Case1: HTML5 elements
+
 There is a case that we can't apply special CSS for new HTML5 elements like `<article>`, `<aside>`, `<header>` or, `<time>` in IE Browser. Fortunately, *Sjoerd Visscher* has found a solution with calling `document.createElement()`.
 
 ```html
