@@ -45,7 +45,7 @@ ele.addEventListener('click', function (evet) {
 
 /** In IE */
 ele.attachEvent('onclick', function () {
-    window.event.cancelBubble = false;
+    window.event.cancelBubble = true;
 });
 
 /** prevent the default event */
