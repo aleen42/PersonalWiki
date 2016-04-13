@@ -42,6 +42,10 @@ And how to prevent from event propagation:
 ele.addEventListener('click', function (evet) {
     event.stopPropagation();
 }, [useCapture]);
+
+/** prevent the default event */
+ele.addEventListener('click', function (event) {
+}, [useCapture]);
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
