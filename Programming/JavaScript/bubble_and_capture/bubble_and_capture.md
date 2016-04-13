@@ -47,6 +47,11 @@ ele.addEventListener('click', function (evet) {
 ele.addEventListener('click', function (event) {
     event.preventDefault();
 }, [useCapture]);
+
+/** In IE */
+ele.attachEvent('onclick', function (event) {
+    event.returnValue = false;
+});
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
