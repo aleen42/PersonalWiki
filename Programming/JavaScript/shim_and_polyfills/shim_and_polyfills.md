@@ -72,6 +72,6 @@ According to the suggestion, Remy Sharp's Storage Polyfiller is the only one whi
 
 #### Case 3: Geographic Location
 
-Geographic Location is well supported by mobiles because of its GPS sensors, and on PC, it can only use 
+Geographic Location is well supported by mobiles because of its GPS sensors, and on PC, it can only use IP address to locate your region.
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
