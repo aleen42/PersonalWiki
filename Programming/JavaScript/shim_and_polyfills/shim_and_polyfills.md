@@ -89,7 +89,7 @@ There is a Polyfills written by *Paul Irish* to solve this problem by using Goog
 
 DHTML has provided some features like paging based on AJAX or single page, which has not used History and Navigation of browsers. Using this features, problems is coming when users want to go back last step by clicking "back" button. **Hash** can solve these problems, because changing a hash value of a link will not reload the webiste.
 
-`Onhashchange` Event is an event to handle changement of hash value, which is not supported in old browsers. Therefore, we need Polyfills like *Ben Alman's* jQuery Hashchange. Nevertheless, Alman's Hashchage is based on jQuery, and it's not a Polyfills in definition. Even that, hash still has some blems like when I store a website of tag, it can only show me a default page when I open it next time.
+`Onhashchange` Event is an event to handle changement of hash value, which is not supported in old browsers. Therefore, we need Polyfills like *Ben Alman's* jQuery Hashchange. Nevertheless, Alman's Hashchage is based on jQuery, and it's not a Polyfills in definition. Even that, hash still has some problems like when I store a website of tag, it can only show me a default page when I open it next time.
 
 HTML5 has given out a more advanced API called **pushState**. The method `windows.history.pushState` and the event `windows.onopstate` are both combined with this API to use handle navigation events asynchronously.
 
