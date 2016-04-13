@@ -17,6 +17,6 @@ JavaScript|To specify the behavior of web pages.
 
 * [Lexical Structure](./Lexical/Lexical.md)
 * [Types, Values, and Variables](./Type/Type.md)
-* [Event Bubbling and Capturing]
+* [Event Bubbling and Capturing](./bubble_and_capture/bubble_and_capture.md)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
