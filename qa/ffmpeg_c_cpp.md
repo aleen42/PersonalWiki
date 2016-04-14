@@ -1,27 +1,5 @@
-## How to install composer in Ubuntu [Back](./qa.md)
+## How to use ffmpeg in c/c++ [Back](./qa.md)
 
-- To download composer:
-
-```bash
-curl -sS https://getcomposer.org/installer | php
-```
-
-- Install composer:
-
-```bash
-/usr/bin/php composer.phar --version
-```
-
-- Set global variable:
-
-```bash
-sudo mv composer.phar /usr/local/bin/composer
-```
-
-- Check whether install successfully:
-
-```bash
-composer --version
-```
+Qt Creator is a way for you to use ffmpeg in c/c++, and [here](http://infernusweb.altervista.org/wp/download/HMI/UsingFFMPEGinCwithQtCreator.pdf) you can read more for details
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
