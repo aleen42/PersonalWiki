@@ -49,9 +49,13 @@ string s(c_s);
 
 ```cpp
 const char* c_s = "abc";
-char* c = c_s;
+char* c = c_s
 ```
 
 - to string
+
+```cpp
+
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
