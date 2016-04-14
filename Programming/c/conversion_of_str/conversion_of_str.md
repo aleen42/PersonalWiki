@@ -38,5 +38,9 @@ strcpy(c, c_s);
 
 - to string
 
+```cpp
+string s = "abc"
+
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
