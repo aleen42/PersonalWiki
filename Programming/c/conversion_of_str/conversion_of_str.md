@@ -32,7 +32,7 @@ const char* c_s = s.c_str();
 char* c;
 const char* c_s = "abc";
 
-const int len = strlen(
+const int len = strlen(c_s) + 1;
 ```
 
 - to string
