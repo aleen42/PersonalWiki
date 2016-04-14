@@ -30,7 +30,7 @@ else
 ```
 
 The _FFMPEG is an object that can start an external program and communicate with
-him. To the start function is necessary to give the name of the process (ffmpeg) and the
-argument list (_paramList)。
+him. To the start function is necessary to give the name of the process (**ffmpeg**) and the
+argument list (**_paramList**).
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
