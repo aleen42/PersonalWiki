@@ -1,6 +1,6 @@
 ## conversion between **string**, **char***, **const char*** [Back](./../c.md)
 
-#### String
+#### string
 
 - to char*
 
@@ -23,6 +23,16 @@ string s= "abc";
 
 const char* c = s.c_str();
 ```
+
+#### const char*
+
+- to char*
+
+```cpp
+
+```
+
+- to string
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
