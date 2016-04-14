@@ -36,10 +36,6 @@
 * [**Creativity**](./Creativity/Creativity.md)
 * [**WeByDo**](http://www.webydo.com/)
 
-### Projects
-
-* [**WeByDo**](http://www.webydo.com/)
-
 ### Questions & Answer
 
 * [**Q&A**](./qa/qa.md)
