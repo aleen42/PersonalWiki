@@ -19,31 +19,35 @@
     - [**mobi**](https://www.gitbook.com/download/mobi/book/aleen42/personalwiki)
 
 ### Coder
- * [**Programming Language**](./Programming/ProgrammingMenu.md)
- * [**Algorithm**](./Algorithmn/AlgorithmnMenu.md)
- * [**Thought**](./Thought/ThoughtMenu.md)
- * [**Database**](./Database/Database.md)
- * [**Network**](./Network/Network.md)
- * [**OS**](./OS/OS.md)
- * [**Embedded System**](./Embedded_System/Embedded_System.md)
- * [**Software Architecture**](./Architecture/Architecture.md)
- * [**Project Management**](./projectManagement/projectManagement.md)
- * [**Multimedia**](./Multimedia/Multimedia.md)
- * [**Git**](./git/git.md)
- * [**Video & Image**](./vi/vi.md)
+* [**Programming Language**](./Programming/ProgrammingMenu.md)
+* [**Algorithm**](./Algorithmn/AlgorithmnMenu.md)
+* [**Thought**](./Thought/ThoughtMenu.md)
+* [**Database**](./Database/Database.md)
+* [**Network**](./Network/Network.md)
+* [**OS**](./OS/OS.md)
+* [**Embedded System**](./Embedded_System/Embedded_System.md)
+* [**Software Architecture**](./Architecture/Architecture.md)
+* [**Project Management**](./projectManagement/projectManagement.md)
+* [**Multimedia**](./Multimedia/Multimedia.md)
+* [**Git**](./git/git.md)
+* [**Video & Image**](./vi/vi.md)
 
 ### Designer
- * [**Creativity**](./Creativity/Creativity.md)
- * [**WeByDo**](http://www.webydo.com/)
+* [**Creativity**](./Creativity/Creativity.md)
+* [**WeByDo**](http://www.webydo.com/)
+
+### Projects
+
+* [**WeByDo**](http://www.webydo.com/)
 
 ### Questions & Answer
 
 * [**Q&A**](./qa/qa.md)
 
 ### Idols
- * [**Sara Soueidan**](http://sarasoueidan.com/)
- * [**Chris Gannon**](http://blog.gannon.tv/)
- * [**原デザインKenya Hara**, **原研哉**](http://www.ndc.co.jp/hara/en/)
+* [**Sara Soueidan**](http://sarasoueidan.com/)
+* [**Chris Gannon**](http://blog.gannon.tv/)
+* [**原デザインKenya Hara**, **原研哉**](http://www.ndc.co.jp/hara/en/)
 
 ### Books
 - Coder
