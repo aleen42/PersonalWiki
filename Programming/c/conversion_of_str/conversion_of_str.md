@@ -11,6 +11,8 @@ string s = "abc";
 char* c;
 const int len = s.length();
 c = new char[len + 1];
+
+/* use strcpy to copy string to the char instance */
 strcpy(c, s.c_str());
 ```
 
