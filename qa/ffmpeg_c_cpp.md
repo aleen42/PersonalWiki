@@ -12,7 +12,21 @@ ffmpeg -i inputMovie.avi -acodec pcm_s16le outputAudioFile.wav
 ```
 
 ```cpp
+QProcess _FFMPEG;
+    QString _process = "ffmpeg";
+    QStringList _paramList;
+        _paramList << "-i"
+            << "inputMovie.avi"
+            << "-acodec"
+            << "pcm_s16le"
+            << "outputAudioFile.wav";
 
+_FFMPEG.start(_process, _paramList);
+
+if ( !(_FFMPEG.waitForFinished()) )
+    qDebug() << "Conversion failed:" << _FFMPEG.errorString();
+else
+    sqDebug() << "Conversion output:" << _FFMPEG.readAll();
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
