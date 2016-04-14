@@ -21,7 +21,7 @@ strcpy(c, s.c_str());
 ```cpp
 string s= "abc";
 
-const char* c = s.c_str();
+const char* c_s = s.c_str();
 ```
 
 #### const char*
@@ -29,7 +29,10 @@ const char* c = s.c_str();
 - to char*
 
 ```cpp
+char* c;
+const char* c_s = "abc";
 
+const int len = strlen(
 ```
 
 - to string
