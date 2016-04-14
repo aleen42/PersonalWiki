@@ -278,6 +278,7 @@
         * [How to build up Node.js and npm on Windows](./qa/nodejsandnpmonwindows.md)
         * [How to use JavaScript to interact with Android and IOS](./qa/interactjsmobile.md)
         * [How to install composer in Ubuntu](./qa/composerinstall.md)
+        * [How to use ffmpeg in c/c++](./qa/ffmpeg_c_cpp.md)
         * [Why does the shell script always break down when running for statement](./qa/shellfor.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
