@@ -7,6 +7,8 @@
 The built version of FFMPEG can be called by shell with an argument list (see the wiki on the
 official web site), so to use this into a C++ code it is necessary to implement a **QProcess** that can start a program.
 
-
+```bash
+ffmpeg -i inputMovie.avi -acodec pcm_s16le outputAudioFile.wav
+```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
