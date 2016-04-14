@@ -6,6 +6,8 @@
 
 ```cpp
 string s = "abc";
+
+/* new a char pointer and point to a char instance with the size */
 char* c;
 const int len = s.length();
 c = new char[len + 1];
