@@ -23,7 +23,7 @@ QProcess _FFMPEG;
 
 _FFMPEG.start(_process, _paramList);
 
-if ( !(_FFMPEG.waitForFinished()) )
+if (!(_FFMPEG.waitForFinished()))
     qDebug() << "Conversion failed:" << _FFMPEG.errorString();
 else
     qDebug() << "Conversion output:" << _FFMPEG.readAll();
