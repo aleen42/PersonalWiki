@@ -20,6 +20,8 @@ strcpy(c, s.c_str());
 
 ```cpp
 string s= "abc";
+
+const char* c = s.c_str();
 ```
 
 
