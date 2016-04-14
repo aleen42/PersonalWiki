@@ -33,6 +33,7 @@ char* c;
 const char* c_s = "abc";
 
 const int len = strlen(c_s) + 1;
+strcpy(c, c_s);
 ```
 
 - to string
