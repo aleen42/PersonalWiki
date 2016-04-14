@@ -7,6 +7,8 @@
 ```cpp
 string s = "abc"
 char* c;
+const int len = s.length();
+c = new char[len + 1];
 ```
 
 - to const char*
