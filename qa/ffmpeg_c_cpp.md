@@ -26,7 +26,7 @@ _FFMPEG.start(_process, _paramList);
 if ( !(_FFMPEG.waitForFinished()) )
     qDebug() << "Conversion failed:" << _FFMPEG.errorString();
 else
-    sqDebug() << "Conversion output:" << _FFMPEG.readAll();
+    qDebug() << "Conversion output:" << _FFMPEG.readAll();
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
