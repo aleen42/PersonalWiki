@@ -48,7 +48,8 @@ string s(c_s);
 - to const char*
 
 ```cpp
-
+const char* c_s = "abc";
+char* c = c_s;
 ```
 
 - to string
