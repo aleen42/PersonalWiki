@@ -5,7 +5,7 @@
 - to char*
 
 ```cpp
-string s = "abc"
+string s = "abc";
 char* c;
 const int len = s.length();
 c = new char[len + 1];
@@ -13,6 +13,10 @@ strcpy(c, s.c_str());
 ```
 
 - to const char*
+
+```cpp
+string s= "abc";
+```
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
