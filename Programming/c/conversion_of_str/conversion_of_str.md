@@ -55,6 +55,7 @@ char* c = c_s
 - to string
 
 ```cpp
+char* c = "abc";
 
 ```
 
