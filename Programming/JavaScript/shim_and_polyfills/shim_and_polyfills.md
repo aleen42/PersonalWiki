@@ -100,7 +100,7 @@ History.pushState(null, 'State 1', 'state1');
 /** get historystate and write it on the console */
 History.Adapter.bind(window, 'statechange', function () {
     /** get the new history state */
-    const state = History.getState（）；
+    const state = History.getState();
     
     console.log(state.url);
 });
