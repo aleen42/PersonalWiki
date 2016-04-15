@@ -29,8 +29,8 @@ console.log(myImg);
 const json2md = require('json2md');
 const docs = json2md([
     { h1: "JSON To Markdown" },
-    { blockquote: "A JSON to Markdown converter." }
-  , { img: [
+    { blockquote: "A JSON to Markdown converter." },
+    { img: [
         { title: "Some image", source: "https://example.com/some-image.png" }
       , { title: "Another image", source: "https://example.com/some-image1.png" }
       , { title: "Yet another image", source: "https://example.com/some-image2.png" }
