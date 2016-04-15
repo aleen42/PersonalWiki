@@ -71,6 +71,31 @@ const docs = json2md([
         ]
     }
 ]);
+
+/**
+ * docs will be:
+ *
+ * # JSON To Markdown
+ * > A JSON to Markdown converter.
+
+ * ![Some image](https://example.com/some-image.png)
+
+ * ![Another image](https://example.com/some-image1.png)
+
+ * ![Yet another image](https://example.com/some-image2.png)
+
+ * ## Features
+
+ * - Easy to use
+ * - You can programatically generate Markdown content
+ * - ...
+
+ * ## How to contribute
+
+ * 1. Fork the project
+ * 2. Create your branch
+ * 3. Raise a pull request
+ */
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
