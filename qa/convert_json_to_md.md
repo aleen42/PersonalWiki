@@ -20,6 +20,8 @@ const myImg = json2md({
       , title: "My image"
     }
 });
+
+/** This will console ![My image](http://example.com/image.png) */
 console.log(myImg);
 ```
 
