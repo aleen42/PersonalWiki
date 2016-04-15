@@ -16,8 +16,8 @@ npm i jso2md
 const json2md = require('json2md');
 const myImg = json2md({
     img: {
-        source: "http://example.com/image.png"
-      , title: "My image"
+        source: "http://example.com/image.png",
+        title: "My image"
     }
 });
 
@@ -27,12 +27,30 @@ console.log(myImg);
 
 ```js
 const json2md = require('json2md');
-const docs = json2md({
-    img: {
-        source: "http://example.com/image.png"
-      , title: "My image"
+const docs = json2md([
+    { h1: "JSON To Markdown" }
+  , { blockquote: "A JSON to Markdown converter." }
+  , { img: [
+        { title: "Some image", source: "https://example.com/some-image.png" }
+      , { title: "Another image", source: "https://example.com/some-image1.png" }
+      , { title: "Yet another image", source: "https://example.com/some-image2.png" }
+      ]
     }
-});
+  , { h2: "Features" }
+  , { ul: [
+        "Easy to use"
+      , "You can programatically generate Markdown content"
+      , "..."
+      ]
+    }
+  , { h2: "How to contribute" }
+  , { ol: [
+        "Fork the project"
+      , "Create your branch"
+      , "Raise a pull request"
+      ]
+    }
+]);
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
