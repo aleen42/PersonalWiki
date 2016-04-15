@@ -49,7 +49,7 @@ const docs = json2md([
                 source: "https://example.com/some-image2.png"
             },
         ]
-    }
+    },
     { h2: "Features" },
     { ul: [
         "Easy to use",
