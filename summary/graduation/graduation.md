@@ -20,6 +20,9 @@
 	- how to calculate the shift of **x-axis** and **y-axis**
 	- how to calculate the shift of **z-axis**
 
+3. Reverse tracking for calculating the upper edge frame:
+    - there are some problems about OpenCV, because it cannot jump to a specific frame correctly, and tracking in reverse order should use `VideoCapture::set(CV_CAP_PROP_POS_FRAMES, n)` to reset.
+
 #### Problems
 
 1. the func `VideoCapture::set(CV_CAP_PROP_POS_FRAMES, n)` will lose a little precision in different systems, due to its **computions of float type**.
