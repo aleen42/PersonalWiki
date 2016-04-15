@@ -36,19 +36,20 @@ const docs = json2md([
     },
     {
         img: [
-        {
-            title: "Some image",
-            source: "https://example.com/some-image.png"
-        },
-        {
-            title: "Another image",
-            source: "https://example.com/some-image1.png"
-        },
-        {
-            title: "Yet another image",
-            source: "https://example.com/some-image2.png"
-        },
-    ] }
+            {
+                title: "Some image",
+                source: "https://example.com/some-image.png"
+            },
+            {
+                title: "Another image",
+                source: "https://example.com/some-image1.png"
+            },
+            {
+                title: "Yet another image",
+                source: "https://example.com/some-image2.png"
+            },
+        ]
+    }
     { h2: "Features" },
     { ul: [
         "Easy to use",
