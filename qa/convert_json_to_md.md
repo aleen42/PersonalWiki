@@ -34,16 +34,14 @@ const docs = json2md([
         { title: "Some image", source: "https://example.com/some-image.png" },
         { title: "Another image", source: "https://example.com/some-image1.png" },
         { title: "Yet another image", source: "https://example.com/some-image2.png" },
-    ]
-    }
-  , { h2: "Features" }
-  , { ul: [
-        "Easy to use"
-      , "You can programatically generate Markdown content"
-      , "..."
-      ]
-    }
-  , { h2: "How to contribute" }
+    ] }
+    { h2: "Features" },
+    { ul: [
+        "Easy to use",
+        "You can programatically generate Markdown content",
+        "..."
+    ] },
+    { h2: "How to contribute" },
   , { ol: [
         "Fork the project"
       , "Create your branch"
