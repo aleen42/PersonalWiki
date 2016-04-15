@@ -68,7 +68,7 @@ const docs = json2md([
             "Fork the project",
             "Create your branch",
             "Raise a pull request"
-      ]
+        ]
     }
 ]);
 ```
