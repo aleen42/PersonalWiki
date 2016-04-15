@@ -4,6 +4,12 @@
 
 **json2md** is a tool built by [Ionică Bizău](https://github.com/IonicaBizau) for converting json to markdown without really writing markdown any more when building node module for npm, because npm modules should have a file named `package.json`.
 
+#### Installation
+
+```bash
+npm i jso2md
+```
+
 #### Usage
 
 
