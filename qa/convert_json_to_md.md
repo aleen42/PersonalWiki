@@ -25,4 +25,14 @@ const myImg = json2md({
 console.log(myImg);
 ```
 
+```js
+const json2md = require('json2md');
+const docs = json2md({
+    img: {
+        source: "http://example.com/image.png"
+      , title: "My image"
+    }
+});
+```
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
