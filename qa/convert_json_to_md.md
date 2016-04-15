@@ -13,7 +13,14 @@ npm i jso2md
 #### Usage
 
 ```js
-
+const json2md = require('json2md');
+const myImg = json2md({
+    img: {
+        source: "http://example.com/image.png"
+      , title: "My image"
+    }
+});
+console.log(myImg);
 ```
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
