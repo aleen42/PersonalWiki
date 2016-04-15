@@ -50,17 +50,24 @@ const docs = json2md([
             },
         ]
     },
-    { h2: "Features" },
-    { ul: [
-        "Easy to use",
-        "You can programatically generate Markdown content",
-        "..."
-    ] },
-    { h2: "How to contribute" },
-  , { ol: [
-        "Fork the project"
-      , "Create your branch"
-      , "Raise a pull request"
+    {
+        h2: "Features"
+    },
+    {
+        ul: [
+            "Easy to use",
+            "You can programatically generate Markdown content",
+            "..."
+        ]
+    },
+    {
+        h2: "How to contribute"
+    },
+    {
+        ol: [
+            "Fork the project",
+            "Create your branch",
+            "Raise a pull request"
       ]
     }
 ]);
