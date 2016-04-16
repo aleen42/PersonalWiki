@@ -50,7 +50,7 @@
         "tbfed-pagefooter": {
             "copyright": "Copyright © aleen42",
             "modify_label": "Updated time: ",
-            "modify_format": YYYY-MM-DD HH:mm:ss"
+            "modify_format": "YYYY-MM-DD HH:mm:ss +0800"
         },
         "ga": {
             "token": "UA-75457732-1"
