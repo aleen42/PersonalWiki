@@ -84,4 +84,8 @@ target_link_libraries( [projectName] ${OpenCV_LIBS} )
 
 `./[projectName]`
 
+#### 7. some problems about opencv in Visual Studio 2013
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
