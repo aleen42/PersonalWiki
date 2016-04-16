@@ -49,7 +49,7 @@
         },
         "tbfed-pagefooter": {
             "copyright": "Copyright © aleen42",
-            "modify_label": "Updated time(修訂時間): ",
+            "modify_label": "Updated time: ",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "ga": {
