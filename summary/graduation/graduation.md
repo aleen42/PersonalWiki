@@ -119,6 +119,8 @@
 		image.png
 	```
 
-4. handle real time live stera
+4. handle real time live stream
+    
+    
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
