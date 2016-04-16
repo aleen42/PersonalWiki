@@ -48,9 +48,11 @@
             ]
         },
         "gitbook-footer": {
+            "description": "modified at",
+            "format": "YYYY-MM-DD HH:mm:ss",
             "copyright": "Copyright © aleen42",
-            "modify_label": "Updated time: ",
-            "modify_format": "YYYY-MM-DD HH:mm:ss "
+            "timeColor": "#a10000",
+            "copyrightColor": "#666"
         },
         "ga": {
             "token": "UA-75457732-1"
