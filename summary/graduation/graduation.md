@@ -124,7 +124,7 @@
         1. read camera from a network stream
 
         ```cpp
-        Video
+        VideoCapture cam;
         ```
 
     
