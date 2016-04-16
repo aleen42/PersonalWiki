@@ -51,8 +51,7 @@
             "description": "modified at",
             "format": "YYYY-MM-DD HH:mm:ss",
             "copyright": "Copyright © aleen42",
-            "timeColor": "#a10000",
-            "copyrightColor": "#666"
+            "timeColor": "#a10000"
         },
         "ga": {
             "token": "UA-75457732-1"
