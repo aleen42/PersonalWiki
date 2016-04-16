@@ -118,6 +118,7 @@
 		-draw "text 0,0 '$(cat file.txt)'" \
 		image.png
 	```
-		
+
+4. handle real time live stera
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
