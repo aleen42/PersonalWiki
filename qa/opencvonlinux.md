@@ -87,6 +87,6 @@ target_link_libraries( [projectName] ${OpenCV_LIBS} )
 #### 7. some problems about opencv in Visual Studio 2013
 
 - Problems: **opencv_core249d.lib(array.obj) : error LNK2038: 检测到"RuntimeLibrary”的不匹配项:  值“MTd_StaticDebug”不匹配值“MDd_DynamicDebug"**
-- Solution: 工程 -> 屬性 -> c/c++ -> 代碼生成 -> 運行庫 -> 多線程調試MTd) 
+- Solution: 工程 -> 屬性 -> c/c++ -> 代碼生成 -> 運行庫 -> 多線程調試(/MTd)
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
