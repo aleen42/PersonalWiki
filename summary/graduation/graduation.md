@@ -121,7 +121,7 @@
 
 4. handle real time live stream
     - Solution:
-        1. read camera from an network stream
+        1. read camera from a network stream
     
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
