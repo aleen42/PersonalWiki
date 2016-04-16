@@ -125,7 +125,7 @@
 
         ```cpp
         VideoCapture cam;
-
+        
         ```
 
     
