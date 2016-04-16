@@ -19,7 +19,7 @@
         "-search",
         "github",
         "sharing",
-        "gitbook-foo",
+        "gitbook-footer",
         "ga",
         "customtheme",
         "comments",
@@ -47,7 +47,7 @@
                 "instapaper"
             ]
         },
-        "tbfed-pagefooter": {
+        "gitbook-footer": {
             "copyright": "Copyright © aleen42",
             "modify_label": "Updated time: ",
             "modify_format": "YYYY-MM-DD HH:mm:ss "
