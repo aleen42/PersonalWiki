@@ -93,10 +93,19 @@ target_link_libraries( [projectName] ${OpenCV_LIBS} )
 
 #### 8. build OpenCV with extra modles
 
+- build all modules
+
 ```bash
 cd <opencv_build_directory>
 cmake -DOPENCV_EXTRA_MODULES_PATH=<opencv_contrib>/modules <opencv_source_directory>
 make -j5
 ```
+
+- build a specific module
+
+```bash
+ cmake -DOPENCV_EXTRA_MODULES_PATH=<opencv_contrib>/modules -DBUILD_opencv_legacy=OFF <opencv_source_directory>
+```
+
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
