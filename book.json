@@ -47,12 +47,6 @@
                 "instapaper"
             ]
         },
-        "page-footer": {
-            "description": "modified at",
-            "format": "YYYY-MM-DD HH:mm:ss",
-            "copyright": "Copyright © aleen42",
-            "timeColor": "#a10000"
-        },
         "ga": {
             "token": "UA-75457732-1"
         },
@@ -63,6 +57,12 @@
         },
         "advanced-emoji": {
             "embedEmojis": true
+        },
+        "page-footer": {
+            "description": "modified at",
+            "format": "YYYY-MM-DD HH:mm:ss",
+            "copyright": "Copyright © aleen42",
+            "timeColor": "#a10000"
         }
     }
 }
