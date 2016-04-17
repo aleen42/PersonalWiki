@@ -22,7 +22,8 @@
         "ga",
         "customtheme",
         "comments",
-        "advanced-emoji"
+        "advanced-emoji",
+        "page-footer"
     ],
     "pluginsConfig": {
         "disqus": {
