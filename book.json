@@ -47,7 +47,7 @@
                 "instapaper"
             ]
         },
-        "footer": {
+        "page-footer": {
             "description": "modified at",
             "format": "YYYY-MM-DD HH:mm:ss",
             "copyright": "Copyright © aleen42",
