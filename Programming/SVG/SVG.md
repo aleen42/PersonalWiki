@@ -133,7 +133,7 @@
 	
 	**Code**
 
-	```svg
+	```htm
 <use x="0" y="0" opcity="0" xlink:href="#github">
 		<animateMotion
 			attributeName="x"
