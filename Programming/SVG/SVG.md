@@ -129,7 +129,6 @@
 
 	[**Click to show**](./example1.svg)
 
-
 	- **path(with auto rotate)**
 	
 	**Code**
