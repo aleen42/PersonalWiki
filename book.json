@@ -58,7 +58,7 @@
             "wisdom": "More than a coder, more than a designer",
             "format": "YYYY-MM-DD HH:mm:ss",
             "copyright": "Copyright © aleen42",
-            "timeColor": "#a",
+            "timeColor": "#a10000",
             "copyrightColor": "#666"
         }
     }
