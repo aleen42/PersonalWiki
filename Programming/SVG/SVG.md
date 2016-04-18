@@ -202,7 +202,7 @@ if (animate) {
 
 	- SVG
 	
-	```svg
+	```
     <svg id="svg">
     	<!--relization-->
     </svg>
