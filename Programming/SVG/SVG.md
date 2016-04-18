@@ -203,10 +203,10 @@ if (animate) {
 	- SVG
 	
 	```svg
-<svg id="svg">
-	<!--relization-->
-</svg>
-```
+    <svg id="svg">
+    	<!--relization-->
+    </svg>
+    ```
 
 ### Appendix
 - **Bezier Curve(貝塞爾曲線)**
