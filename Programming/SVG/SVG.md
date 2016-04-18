@@ -13,7 +13,7 @@
 
 <img src="./configuration.png">
 
-```svg
+```htm
 <g>
 	<!--M: start point; Z: end point -->
 	<!--path label to represent the outline of an object-->
@@ -38,7 +38,7 @@
 ##### Step 2
 - add `<defs>` (放射性渐变標籤) for what you want to design, and then give it an **id**
 
-```svg
+```html
 <defs>
 <g id="github">
 	<path style="fill:#60B17C;" d="M0.285-137.776c40.215,0.925,73.65,14.713,100.311,41.369
@@ -69,7 +69,7 @@
 	
 	**Code**
 
-	```htm
+	```html
 <use x="0" y="0" opcity="0" xlink:href="#github">
 		<animateTransform
 			attributeName="transform"
