@@ -2,6 +2,7 @@
 
 - **System:** Linux
 - **Mysql**: Mysql 5.5
+- **Servers**: nginx
 - **Master IP**: A
 - **Slave IP**: B
 
