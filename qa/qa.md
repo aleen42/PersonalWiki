@@ -26,6 +26,7 @@
 - [**How to install composer in Ubuntu**](./composerinstall.md)
 - [**How to use ffmpeg in c/c++**](./ffmpeg_c_cpp.md)
 - [**How to convert JSON to Markdown**](./convert_json_to_md.md)
+- [**How to use master-slave synchronization between two servers**](./master_slave_synchronization.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
