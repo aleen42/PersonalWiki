@@ -33,19 +33,13 @@
             "url": "https://github.com/aleen42"
         },
         "sharing": {
-            "weibo": true,
-            "facebook": true,
+            "facebook": false,
             "twitter": true,
             "google": true,
+            "weibo": true,
             "instapaper": false,
             "vk": false,
-            "all": [
-                "facebook",
-                "google",
-                "twitter",
-                "weibo",
-                "instapaper"
-            ]
+            "all": "facebook,google,twitter,weibo,instapaper"
         },
         "ga": {
             "token": "UA-75457732-1"
