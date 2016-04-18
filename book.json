@@ -33,7 +33,7 @@
             "url": "https://github.com/aleen42"
         },
         "sharing": {
-            "facebook": false,
+            "facebook": true,
             "twitter": true,
             "google": true,
             "weibo": true,
