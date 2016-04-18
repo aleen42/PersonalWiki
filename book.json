@@ -54,9 +54,12 @@
         },
         "page-footer": {
             "description": "modified at",
+            "author": "Aleen",
+            "wisdom": "More than a coder, more than a designer",
             "format": "YYYY-MM-DD HH:mm:ss",
             "copyright": "Copyright © aleen42",
-            "timeColor": "#a10000"
+            "timeColor": "#a",
+            "copyrightColor": "#666"
         }
     }
 }
