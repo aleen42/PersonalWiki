@@ -94,7 +94,6 @@
 	**Show**
 
 	[**Click to show**](./example.svg)
-	<img src="./example.svg" height="250">
 
 	- **x/y with opacity**
 	
@@ -129,7 +128,6 @@
 	**Show**
 
 	[**Click to show**](./example1.svg)
-	<img src="./example1.svg" height="250">
 
 
 	- **path(with auto rotate)**
@@ -158,7 +156,6 @@
 	**Show**
 
 	[**Click to show**](./example2.svg)
-	<img src="./example2.svg" height="250">
 
 	- **path(without auto rotate)**
 	
