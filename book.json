@@ -18,7 +18,7 @@
         "disqus",
         "-search",
         "github",
-        "sharing",
+        "-sharing",
         "ga",
         "customtheme",
         "comments",
@@ -32,7 +32,7 @@
         "github": {
             "url": "https://github.com/aleen42"
         },
-        "sharing": {
+        "-sharing": {
             "facebook": true,
             "twitter": true,
             "google": true,
