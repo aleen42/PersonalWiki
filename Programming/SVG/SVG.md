@@ -13,7 +13,7 @@
 
 <img src="./configuration.png">
 
-```htm
+```html
 <g>
 	<!--M: start point; Z: end point -->
 	<!--path label to represent the outline of an object-->
@@ -160,7 +160,7 @@
 	
 	**Code**
 
-	```svg
+	```html
 <use x="0" y="0" opcity="0" xlink:href="#github">
 		<animateMotion
 			attributeName="x"
