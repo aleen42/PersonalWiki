@@ -183,7 +183,6 @@
 	**Show**
 
 	[**Click to show**](./example3.svg)
-	<img src="./example3.svg" height="250">
 
 ##### Step 4
 - what we can also do is to add event for **SVG** with **JavaScript**.
