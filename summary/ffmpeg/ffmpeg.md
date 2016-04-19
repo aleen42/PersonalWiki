@@ -134,4 +134,8 @@
 
 `ffprobe -v error -select_streams v:0 -show_entries stream=bit_rate -of default=noprint_wrappers=1:nokey=1 input.mp4 `
 
+#### 3.8 convert a video into a gif format picture
+
+
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
