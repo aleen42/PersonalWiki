@@ -136,6 +136,8 @@
 
 #### 3.8 convert a video into a gif format picture
 
+generate a palette with output width 320 pixels:
 
+`ffmpeg -i input.mp4 -vf fps=10,scale=320:-1:flags=lanczos,palettegen palette.png`
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
