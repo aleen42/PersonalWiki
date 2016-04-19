@@ -140,4 +140,6 @@ generate a palette with output width 320 pixels:
 
 `ffmpeg -i input.mp4 -vf fps=10,scale=320:-1:flags=lanczos,palettegen palette.png`
 
+output a gif with the palette
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
