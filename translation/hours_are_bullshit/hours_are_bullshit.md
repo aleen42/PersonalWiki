@@ -1,6 +1,6 @@
-## Hours are Bullshit - 时间就是 [**Back**](./../translation.md)
+## Hours are Bullshit - 时间就是粪土 [**Back**](./../translation.md)
 
-> * 原文链接 : [The WebGL potential](http://typedarray.org/the-webgl-potential/)
+> * 原文链接 : [How GitHub Works: Hours are Bullshit](https://zachholman.com/posts/how-github-works-hours/)
 * 原文作者 : [Zach Holman](https://zachholman.com/)
 * 译者 : [aleen42](https://github.com/aleen42) 
 * 校对者 : 暂无
