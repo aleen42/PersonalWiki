@@ -10,4 +10,6 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;弗雷德里克·温斯洛·泰勒（Frederick Winslow Taylor）在1911年曾经就[科学管理准则](http://en.wikipedia.org/wiki/The_Principles_of_Scientific_Management)中管理和效能的问题，写过一篇重要分析。他使用了第一种科学方法去最大化制造工作的效能。那就是，时间就是金钱，越快越好。更多的时间，意味着更好。
 
+#### 时间就是粪土
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
