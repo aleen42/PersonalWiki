@@ -36,6 +36,6 @@
 
 ### 强制
 
-
+我们当前只有35名员工并不断在扩张，而这种方式仍然是有效的。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
