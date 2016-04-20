@@ -22,6 +22,6 @@
 
 ### 一天
 
-
+&nbsp; &nbsp; &nbsp; &nbsp;每个在 GitHub 工作的员工，他们都与众不同。
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
