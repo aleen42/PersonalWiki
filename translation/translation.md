@@ -7,6 +7,8 @@
 - [**A successful Git branching model**](./successful_git_branching/successful_git_branching.md)
 - [**Memory Leak Detection in C++**](./memory_leak_detection_in_cpp/memory_leak_detection_in_cpp.md)
 - [**The WebGL potential**](./webgl_potential/webgl_potential.md)
+- How Github Works
+    - Hours are Bullshit
 
 #### Proofread
 
