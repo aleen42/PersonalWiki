@@ -309,7 +309,7 @@
             * [A successful Git branching model](./translation/successful_git_branching/successful_git_branching.md)
             * [Memory Leak Detection in C++](./translation/memory_leak_detection_in_cpp/memory_leak_detection_in_cpp.md)
             * [The WebGL potential*](./translation/webgl_potential/webgl_potential.md)
-            * How Github Works
+            * How GitHub Works
                 * [Hours are Bullshit](./translation/hours_are_bullshit/hours_are_bullshit.md)
                 * [Be Asynchronous](./translation/be_asynchronous/be_asynchronous.md)
                 * [Creativity is Important](./translation/creativity_is_important/creativity_is_important.md)
