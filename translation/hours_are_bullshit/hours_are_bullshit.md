@@ -22,7 +22,7 @@
 
 ### 一天
 
-&nbsp; &nbsp; &nbsp; &nbsp;每个在 GitHub 工作的员工，他们都是与众不同的。其实，我真的对平均一天工作量是多少，没有一个概念，但下面这是一个比较接近的近似值：
+&nbsp; &nbsp; &nbsp; &nbsp;每个在 GitHub 工作的员工，他们都是与众不同的。其实，我真的对平均一天工作量是多少，没有一个概念，但下面给出的一个比较接近的近似值：
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
