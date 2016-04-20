@@ -8,7 +8,7 @@
 - [**Memory Leak Detection in C++**](./memory_leak_detection_in_cpp/memory_leak_detection_in_cpp.md)
 - [**The WebGL potential**](./webgl_potential/webgl_potential.md)
 - How Github Works
-    - Hours are Bullshit
+    - [**Hours are Bullshit**](./hours_are_bullshit/hours_are_bullshit.md)
     - Be Asynchronous
     - Creativity is Important
 
