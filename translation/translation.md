@@ -9,8 +9,8 @@
 - [**The WebGL potential**](./webgl_potential/webgl_potential.md)
 - How Github Works
     - [**Hours are Bullshit**](./hours_are_bullshit/hours_are_bullshit.md)
-    - Be Asynchronous
-    - Creativity is Important
+    - [**Be Asynchronous**](./be_asynchronous/be_asynchronous.md)
+    - [**Creativity is Important**](./creativity_is_important/creativity_is_important.md)
 
 #### Proofread
 
