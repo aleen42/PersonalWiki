@@ -1,4 +1,4 @@
-## The WebGL potential - WebGL的潜在性 [**Back**](./../translation.md)
+## Hours are Bullshit - 时间就是 [**Back**](./../translation.md)
 
 > * 原文链接 : [The WebGL potential](http://typedarray.org/the-webgl-potential/)
 * 原文作者 : [Zach Holman](https://zachholman.com/)
