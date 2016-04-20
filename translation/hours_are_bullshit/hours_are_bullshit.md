@@ -12,4 +12,6 @@
 
 ### 时间就是粪土
 
+&nbsp; &nbsp; &nbsp; &nbsp;在许多行业当中，时间是决定产品的最好方式，但在我们这病不然。
+
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
