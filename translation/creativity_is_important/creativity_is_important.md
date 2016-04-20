@@ -1,4 +1,4 @@
-## Be asynchronous - 异步工作 [**Back**](./../translation.md)
+## Creativity is Important - 创新是很重要 [**Back**](./../translation.md)
 
 > * 原文链接 : [How GitHub Works: Be Asynchronous](https://zachholman.com/posts/how-github-works-asynchronous/)
 * 原文作者 : [Zach Holman](https://zachholman.com/)
