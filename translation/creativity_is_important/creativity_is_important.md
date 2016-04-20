@@ -1,4 +1,4 @@
-## Creativity is Important - 创新是很重要的 [**Back**](./../translation.md)
+## Creativity is Important - 创新是重要的 [**Back**](./../translation.md)
 
 > * 原文链接 : [How GitHub Works: Creativity is Important](https://zachholman.com/posts/how-github-works-creativity/)
 * 原文作者 : [Zach Holman](https://zachholman.com/)
