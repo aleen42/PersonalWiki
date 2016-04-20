@@ -30,6 +30,6 @@
 - 回家并在沙发上工作/休息直到晚上两点或：
 - 出去与同事喝点酒（在这后会有更多的选择，就不再这里细说）
 
-&nbsp; &nbsp; &nbsp; &nbsp;当然，我们也有一些（失常的）小分队会在大概早上7点就去公司工作
+&nbsp; &nbsp; &nbsp; &nbsp;当然，我们也有一些（不同寻常的）小分队会在大概早上7点就去公司工作，而有些也会
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
