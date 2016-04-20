@@ -310,9 +310,9 @@
             * [Memory Leak Detection in C++](./translation/memory_leak_detection_in_cpp/memory_leak_detection_in_cpp.md)
             * [The WebGL potential*](./translation/webgl_potential/webgl_potential.md)
             * How Github Works
-                * [Hours are Bullshit](./hours_are_bullshit/hours_are_bullshit.md)
-                * [Be Asynchronous](./be_asynchronous/be_asynchronous.md)
-                * [Creativity is Important](./creativity_is_important/creativity_is_important.md)
+                * [Hours are Bullshit](./translation/hours_are_bullshit/hours_are_bullshit.md)
+                * [Be Asynchronous](./translation/be_asynchronous/be_asynchronous.md)
+                * [Creativity is Important](./translation/creativity_is_important/creativity_is_important.md)
         * Proofread
             * [Things I Wish I Were Told About React Native](./translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
             * [Making React Native apps accessible](./translation/making_react_native_apps_accessible/making_react_native_apps_accessible.md)
