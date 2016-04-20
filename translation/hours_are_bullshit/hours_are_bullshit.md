@@ -22,7 +22,7 @@
 
 ### 一天
 
-&nbsp; &nbsp; &nbsp; &nbsp;每个在 GitHub 工作的员工，他们都是与众不同的。因此，我真的对平均每天会干些什么，没有一个概念。但下面给出的是一个比较接近的近似：
+&nbsp; &nbsp; &nbsp; &nbsp;每个在 GitHub 工作的员工，他们都是与众不同的。因此，我真的对平均每天会干些什么，没有一个概念。但下面给出的会是一个比较接近的近似情况：
 
 
 <a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
