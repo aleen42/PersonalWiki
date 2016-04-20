@@ -9,6 +9,8 @@
 - [**The WebGL potential**](./webgl_potential/webgl_potential.md)
 - How Github Works
     - Hours are Bullshit
+    - Be Asynchronous
+    - Creativity is Important
 
 #### Proofread
 
