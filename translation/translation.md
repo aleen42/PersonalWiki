@@ -7,7 +7,7 @@
 - [**A successful Git branching model**](./successful_git_branching/successful_git_branching.md)
 - [**Memory Leak Detection in C++**](./memory_leak_detection_in_cpp/memory_leak_detection_in_cpp.md)
 - [**The WebGL potential**](./webgl_potential/webgl_potential.md)
-- How Github Works
+- How GitHub Works
     - [**Hours are Bullshit**](./hours_are_bullshit/hours_are_bullshit.md)
     - [**Be Asynchronous**](./be_asynchronous/be_asynchronous.md)
     - [**Creativity is Important**](./creativity_is_important/creativity_is_important.md)
