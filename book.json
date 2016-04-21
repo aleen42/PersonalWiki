@@ -62,7 +62,7 @@
         "page-footer": {
             "description": "update time: ",
             "author": "Aleen",
-            "wisdom": "More than a coder, more than a designer",
+            "wisdom": "More than a coder, more than a designer <br />",
             "format": "YYYY-MM-DD HH:mm:ss",
             "copyright": "Copyright © aleen42",
             "timeColor": "#a10000",
