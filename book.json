@@ -23,7 +23,7 @@
         "customtheme",
         "comments",
         "advanced-emoji",
-        "page-footer"
+        "page-footer@2.6.3"
     ],
     "pluginsConfig": {
         "disqus": {
