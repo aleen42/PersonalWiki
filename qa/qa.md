@@ -36,5 +36,3 @@
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of Linux**](./linuxcommands.md)
 - [**Some problems of releasing memory in C++**](./cppreleasing.md)
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
