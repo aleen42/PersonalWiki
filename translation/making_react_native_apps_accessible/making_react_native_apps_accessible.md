@@ -108,5 +108,3 @@ React Native 为你在 iOS 和 Android 平台开发应用提供了一种强大�
 
 更多关于 React Native AX API 的信息，请参考我们的[开发文档](https://www.facebook.com/l.php?u=https%3A%2F%2Ffacebook.github.io%2Freact-native%2Fdocs%2Faccessibility.html&h=NAQEjh5Hy&s=1)。
 
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
