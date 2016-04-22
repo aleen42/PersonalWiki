@@ -34,8 +34,8 @@
         },
         "sharing": {
             "facebook": true,
-            "twitter": true,
-            "google": true,
+            "twitter": false,
+            "google": false,
             "weibo": true,
             "instapaper": false,
             "vk": false,
