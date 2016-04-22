@@ -24,7 +24,7 @@
     - there are some problems about OpenCV, because it cannot jump to a specific frame correctly, and tracking in reverse order should use `VideoCapture::set(CV_CAP_PROP_POS_FRAMES, n)` to reset.
 4. Face replacement
     - real time problem
-    - size problem
+    - imagesize problem
 
 #### Problems
 
