@@ -228,4 +228,3 @@ SASS 为映射提供了一个简单且可预测的 API，并且可以用于大�
 *   为你的组织创建一个即时的 Pattern-Lab。
 *   处理一个企业范围的设计样式库的技巧
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
