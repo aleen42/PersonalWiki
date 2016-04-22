@@ -58,5 +58,3 @@
 
 &#160; &#160; &#160; &#160;如果你对 asm.js 感兴趣，John Resig 刚为这写了一篇很好的[文章](http://ejohn.org/blog/asmjs-javascript-compile-target/)。
 
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
