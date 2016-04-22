@@ -167,5 +167,3 @@ _（注：为了使得脚本可读性更高，我把语句分成了几行。但�
         |   +-- google.js
         + -- Location.jsx
 
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
