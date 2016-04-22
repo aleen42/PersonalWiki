@@ -87,4 +87,3 @@ Insure++
 
 &#160; &#160; &#160; &#160;Cal Erickson（cal_erickson@mvista.com）是 MontaVista 软件公司的一名高级 Linux 顾问。在加入 MotaVista 之前，他曾经是在 Mentor Graphics Embedded Software Division 工作的一个高级工程师。Cal Erickson 在计算机行业已经工作超过30年，在计算机制作以及终端用户的开发环境上，有着资深的经验。
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
