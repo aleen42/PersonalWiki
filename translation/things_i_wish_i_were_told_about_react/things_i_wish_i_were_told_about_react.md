@@ -38,5 +38,3 @@
 ## No. 8 学习Objective C
 
   迟早你会用到 Objective C 的。对于任何优秀的app，写原生模块和组件都是不可避免的。因此，至少你得能读懂 Objective C 代码。我知道这可能有些吓人，但一旦你习惯了它的语法就好了。
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
