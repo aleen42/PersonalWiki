@@ -11,7 +11,7 @@
     - [**Hours are Bullshit**](./hours_are_bullshit/hours_are_bullshit.md)
     - [**Be Asynchronous**](./be_asynchronous/be_asynchronous.md)
     - [**Creativity is Important**](./creativity_is_important/creativity_is_important.md)
-- Angular vs. React - the tie breaker(./angular_vs_react/angular_vs_react.md)
+- [**Angular vs. React - the tie breaker**](./angular_vs_react/angular_vs_react.md)
 
 #### Proofread
 
