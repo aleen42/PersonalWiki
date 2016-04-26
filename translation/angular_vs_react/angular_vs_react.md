@@ -1,0 +1,10 @@
+## Angular vs. React - the tie breaker - Angulr 对比 React - 束缚破坏器 [**Back**](./../translation.md)
+
+> * 原文链接 : [The WebGL potential](http://typedarray.org/the-webgl-potential/)
+* 原文作者 : [typedarray.org](http://typedarray.org/)
+* 译者 : [aleen42](https://github.com/aleen42) 
+* 校对者 : 暂无
+* 状态 : 待校对
+
+
+
