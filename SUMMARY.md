@@ -313,6 +313,7 @@
                 * [Hours are Bullshit](./translation/hours_are_bullshit/hours_are_bullshit.md)
                 * [Be Asynchronous](./translation/be_asynchronous/be_asynchronous.md)
                 * [Creativity is Important](./translation/creativity_is_important/creativity_is_important.md)
+            * [Angular vs. React - the tie breaker](./angular_vs_react/angular_vs_react.md)
         * Proofread
             * [Things I Wish I Were Told About React Native](./translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
             * [Making React Native apps accessible](./translation/making_react_native_apps_accessible/making_react_native_apps_accessible.md)
