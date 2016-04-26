@@ -176,5 +176,3 @@ With that, other developers can install your module by typing:
 ```
 npm install auto-content
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
