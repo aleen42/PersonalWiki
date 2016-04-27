@@ -24,6 +24,7 @@ In Windows, we can use **PuTTY** to generate private/public keys:
 SSH-2 RSA is the default type of keys and number of bits should be **4096** nowadays.
 
 **Public Key**: please copy the key in the top box
+**Private Key**
 
 ### 2. Configure ssh on servers
 
