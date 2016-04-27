@@ -54,13 +54,6 @@ Protocol 2
 
 #### Login
 
-Prevent login from root user
-
-```bash
-# /etc/ssh/sshd_config
-PermitRootLogin no
-```
-
 Prevent login with empty password
 
 ```
