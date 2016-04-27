@@ -81,3 +81,9 @@ To avoid that users have set a wrong priority for some important files, which wi
 # /etc/ssh/sshd_config
 StrictModes no
 ```
+
+Allow login with keys:
+
+```bash
+# /etc/ssh/sshd_config
+```
