@@ -166,7 +166,7 @@ SSH_AUTH_SOCK=0 ssh -i ~/.ssh/server_rsa root@<host>
 
 - PuTTY:
     - double clicked to open putty
-    - input **IP**, **Port** in the right side box 'Basic options for you PuTTY session', and then click **SSH**, and enter a name like **root** to **Save**.
+    - input **IP**, **Port** in the right side box 'Basic options for you PuTTY session', and then click **SSH**, and enter a name like **ssh-to-server** to **Save**.
     - click **Connection**, **SSH**, **Auth** in the left side box 'Category' and **Browse** the private key you generate in the right side, and click **Open**
     - enter user name **root** to log in
 - FileZilla:
