@@ -173,11 +173,4 @@ SSH_AUTH_SOCK=0 ssh -i ~/.ssh/server_rsa root@<host>
     - open FileZilla and click **Edit** > **Settings**
     - choose SFTP in the left side and browse the private key with the button **Add key file**
     - set your SFTP with IP, Port, Protocol which should be SFTP - SSH File Transfer Protocol and, Logon Type, which should be Normal
-回到 FileZilla，配置相应的 SFTP 服务器：
-IP，Port（端口 ）
-Protocol （协议）选 
-Logon Type（登录方式）选 Normal
-User 后输入用户名
-Password（密码）留空
-连接即可
-如果单击 Connect（连接）后提示输入密码短语，那是私钥的保护密码
+    - then connect with the name root and a empty password
