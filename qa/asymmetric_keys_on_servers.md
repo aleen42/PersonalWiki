@@ -54,7 +54,7 @@ Protocol 2
 
 #### Login
 
-Prevent login with empty password
+Prevent logging in with empty password
 
 ```
 PermitEmptyPasswords no
