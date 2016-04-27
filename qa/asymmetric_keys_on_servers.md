@@ -16,3 +16,4 @@ ssh-keygen -t rsa -b 4096 -o -a 100 -C "comment here"
 *Notice that: In general, keys will be saved in the `.ssh` directory of the root, in which `id_rsa` is the private one while `id_rsa.pub` is the public one*
 
 #### Windows
+
