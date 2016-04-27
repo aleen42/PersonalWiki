@@ -1,1 +1,1 @@
-## How to use master-slave synchronization between two servers [Back](./qa.md)
+## How to set ssh with asymmetric keys on servers [Back](./qa.md)
