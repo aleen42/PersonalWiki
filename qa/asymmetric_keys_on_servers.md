@@ -56,5 +56,5 @@ Protocol 2
 Prevent login from root user
 
 ```
-
+PermitRootLogin no
 ```
