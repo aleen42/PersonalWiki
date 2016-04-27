@@ -17,3 +17,4 @@ ssh-keygen -t rsa -b 4096 -o -a 100 -C "comment here"
 
 #### Windows
 
+In Windows, we can use **PuTTY** to generate private/public keys.
