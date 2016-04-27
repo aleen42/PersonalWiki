@@ -164,4 +164,10 @@ SSH_AUTH_SOCK=0 ssh -i ~/.ssh/server_rsa root@<host>
 
 #### Windows
 
-
+- PuTTY:
+    - double clicked to open putty
+    - input IP, Port in the right side box Basic options for you PuTTY session, and then click SSH, and enter a name like **root** to **Save**.
+左侧 Category 下，依次点选 Connection，SSH，Auth，然后在其右侧的 Browse，选择前面产生的私钥 id_rsa，再单击下面的 Open 就会打开登录过程；
+按提示输入要登录的用户名；
+按提示输入私钥的保护密码短语（Key passphrase）即可登录。
+- FileZilla:
