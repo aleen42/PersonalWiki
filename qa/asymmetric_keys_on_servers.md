@@ -58,3 +58,9 @@ Prevent login from root user
 ```
 PermitRootLogin no
 ```
+
+Prevent login with empty password
+
+```
+PermitEmptyPasswords no
+```
