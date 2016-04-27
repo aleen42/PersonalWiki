@@ -64,3 +64,5 @@ Prevent login with empty password
 ```
 PermitEmptyPasswords no
 ```
+
+Allows user groups when the server is used by more than one person
