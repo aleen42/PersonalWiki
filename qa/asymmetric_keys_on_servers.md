@@ -72,4 +72,9 @@ Allows user groups when the server is used by more than one person
 AllowGroups ssh-users
 ```
 
-Here is the way to create a group and add users into it
+Here is the way to create a group and add users into it:
+
+```bash
+groupdd ssh-user
+usermod -a -G ssh-user <username>
+```
