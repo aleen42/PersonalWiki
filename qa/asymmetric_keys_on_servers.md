@@ -128,7 +128,7 @@ scp ~/.ssh/server_rsa.pub root@<host>:~/.ssh/authorized_keys
 For next/multiple keys
 
 ```bash
-scp user@remote.server.com:.ssh/authorized_keys ~/.ssh
+scp root@<host>:.ssh/authorized_keys ~/.ssh
 
 cat ~/.ssh/server_rsa.pub >> ~/.ssh/authorized_keys
 ```
