@@ -50,3 +50,11 @@ In general, we should not use protocol 1 without any special reason.
 ```
 Protocol 2
 ```
+
+#### Login
+
+Prevent login from root user
+
+```
+
+```
