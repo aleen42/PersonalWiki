@@ -161,3 +161,5 @@ In Ubuntu, you'll find the error **Error: Agent admitted failure to sign using t
 ```bash
 SSH_AUTH_SOCK=0 ssh -i ~/.ssh/server_rsa root@<host>
 ```
+
+#### Windows
