@@ -116,3 +116,5 @@ Allow SFTP like FileZilla to log in:
 # /etc/ssh/sshd_config
 Subsystem sftp /usr/local/ssh/libexec/sftp-server
 ```
+
+### 3. Import public keys into the servers
