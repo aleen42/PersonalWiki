@@ -93,7 +93,7 @@ AuthorizedKeysFile %h/.ssh/authorized_keys
 
 #### Optional
 
-Prevent logging in with passwords：
+Prevent logging in with passwords:
 
 ```bash
 # /etc/ssh/sshd_config
@@ -110,6 +110,9 @@ Ask for detailed logs:
 LogLevel VERBOSE
 ```
 
-Allow SFTP to log in:
+Allow SFTP like FileZilla to log in:
 
-
+```bash
+# /etc/ssh/sshd_config
+Subsystem sftp /usr/local/ssh/libexec/sftp-server
+```
