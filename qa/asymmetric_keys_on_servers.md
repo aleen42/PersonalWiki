@@ -144,6 +144,11 @@ ssh-copy-id -i ~/.ssh/server_rsa.pub root@<host>
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDPXJQwmoTAuSysd7wdX6QUyZLzKmwPZ+suk2En//rO+jqISSxFxvODVvxlJKdFuh7QpRSNhsY3QX6phknajo/oY+AFFhSS2RaNgTuLzAhi2gROIjy3sDCzgnDwotrwfugcFvhXXdPWRm2D8HbUfkmcrcYSDaJGYyB99vbJ3I6HMomxOgO8uo3i+LjESN7UX6bjFr5LNqPJ3zohXCF6HVKUdZ5nqeqFcfd1DZvb5pWyOkDr8ko0Br0n+zmMM/A5DlIgUh3zM9jn/CYHU2y2mPRa8jfZAhka1FxCu4AvJWZXsv/70o/cqDR5fqHsc8thiHpemJ4TTppqfKlXcOAhk1VdZV7BY7jyRX47kd21vZOolVmNSJ7i5reIAyPhLzXQrPhci9E1ol+OLQEywiPDfHOwnqmfjmxZJamOjGSzoWKrY/Yg3iC02/aua5uOOXGZVP71d12X9Fy7wdjwWh3vaHj23OeY020H4ffvp2xhd099T5sdL30Q5FCJ92E5d048WOILpRMeKE4e3pBvpygnjR9MqEtAOPTp7P4bw00WmJumQO4GqIDOMK80IxJ1OdLB2/awVaAXOB1HddKiCAR7XeBKqMcOJ+K3feyotFrujczNvp89EDWs1WSZ/ViXkX5dKxqHg+ErB4t8SITpc/BDvlWUg37GzTShh5uJlOes1qcDHQ== aleen's key
 ```
 
+In Mac, you can directly log in with:
+
+```bash
+ssh root@<host>
+```
 
 In Ubuntu, you'll find the error **Error: Agent admitted failure to sign using the key**, it means that your client is not yet managing the key, and you should add it as follow to log in:
 
