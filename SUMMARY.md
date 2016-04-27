@@ -282,6 +282,7 @@
         * [How to use ffmpeg in c/c++](./qa/ffmpeg_c_cpp.md)
         * [How to convert JSON to Markdown](./qa/convert_json_to_md.md)
         * [How to use master-slave synchronization between two servers](./qa/master_slave_synchronization.md)
+        * [How to set ssh with asymmetric keys on servers](./asymmetric_keys_on_servers.md)
         * [Why does the shell script always break down when running for statement](./qa/shellfor.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
