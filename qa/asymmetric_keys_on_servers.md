@@ -46,3 +46,7 @@ firewall-cmd --zone=public --add-port=2222/tcp --permanent
 #### Protocol
 
 In general, we should not use protocol 1 without any special reason.
+
+```
+Protocol 2
+```
