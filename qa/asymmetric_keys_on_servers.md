@@ -69,8 +69,9 @@ PermitEmptyPasswords no
 
 Allows user groups when the server is used by more than one person
 
-```
-#AllowUsers user1 user2
+```bash
+# /etc/ssh/sshd_config
+# AllowUsers user1 user2
 AllowGroups ssh-users
 ```
 
