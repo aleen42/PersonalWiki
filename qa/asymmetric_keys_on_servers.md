@@ -12,3 +12,5 @@ ssh-keygen -t rsa -b 4096 -o -a 100 -C "comment here"
 - **t**: types of key
 - **C**: used to tag who the certification belongs to
 - **passphrase**: the password to protect private key, which can be empty.
+
+*Notice that: In general, *
