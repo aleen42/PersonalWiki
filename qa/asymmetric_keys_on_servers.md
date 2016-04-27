@@ -42,3 +42,6 @@ Port is **22** by default, and it's suggested that we should change it to a numb
 ```bash
 firewall-cmd --zone=public --add-port=2222/tcp --permanent
 ```
+
+#### Protocol
+
