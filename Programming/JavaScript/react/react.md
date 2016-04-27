@@ -9,5 +9,4 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 -  **React JSFiddle**
 
 
-
 -  React JSFiddle without JSX
