@@ -71,3 +71,5 @@ Allows user groups when the server is used by more than one person
 #AllowUsers user1 user2
 AllowGroups ssh-users
 ```
+
+Here is the way to create a group and add users into it
