@@ -2,3 +2,9 @@
 
 #### Generate asymmetric keys **private/public**
 
+##### Linux
+
+```bash
+ssh-keygen -t ed25519 -o -a 100 -C "comment here"
+
+```
