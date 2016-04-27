@@ -13,4 +13,4 @@ ssh-keygen -t rsa -b 4096 -o -a 100 -C "comment here"
 - **C**: used to tag who the certification belongs to
 - **passphrase**: the password to protect private key, which can be empty.
 
-*Notice that: In general, keys will be saved in the `.ssh` directory of the root*
+*Notice that: In general, keys will be saved in the `.ssh` directory of the root, in which `id_rsa` is the private one while `id_rsa.pub` is the public one*
