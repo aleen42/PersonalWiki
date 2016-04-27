@@ -133,6 +133,10 @@ scp root@<host>:.ssh/authorized_keys ~/.ssh
 cat ~/.ssh/server_rsa.pub >> ~/.ssh/authorized_keys
 
 scp ~/.ssh/authorized_keys root@<host>:~/.ssh/authorized_keys
+
+# or
+
+ssh-copy-id -i ~/.ssh/server_rsa.pub root@<host》
 ```
 
 ```bash
