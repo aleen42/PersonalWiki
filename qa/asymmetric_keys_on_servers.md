@@ -47,7 +47,8 @@ firewall-cmd --zone=public --add-port=2222/tcp --permanent
 
 In general, we should not use protocol 1 without any special reason.
 
-```
+```bash
+# /etc/ssh/sshd_config
 Protocol 2
 ```
 
@@ -55,7 +56,8 @@ Protocol 2
 
 Prevent login from root user
 
-```
+```bash
+# /etc/ssh/sshd_config
 PermitRootLogin no
 ```
 
