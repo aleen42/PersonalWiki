@@ -86,4 +86,7 @@ Allow login with keys:
 
 ```bash
 # /etc/ssh/sshd_config
+RSAAuthentication yes
+PubkeyAuthentication yes
+AuthorizedKeysFile %h/.ssh/authorized_keys
 ```
