@@ -119,7 +119,11 @@ Subsystem sftp /usr/local/ssh/libexec/sftp-server
 
 ### 3. Import public keys into servers
 
-Remember to keep a blank line in the end of this file
+For the first key
+
+```bash
+scp ~/.ssh/server_rsa.pub root@<host>:~/.ssh/authorized_keys
+```
 
 ```bash
 # /root/.ssh/authorized_keys
