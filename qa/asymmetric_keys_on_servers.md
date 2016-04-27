@@ -85,5 +85,6 @@ usermod -a -G ssh-user <username>
 To avoid that users have set a wrong priority for some important files, which will result in prevention from login:
 
 ```
+# /etc/ssh/sshd_config
 StrictModes no
 ```
