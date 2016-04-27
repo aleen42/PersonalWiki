@@ -32,3 +32,4 @@ In CentOS and Ubuntu, this file should be in `/etc/ssh/`
 ```bash
 vim /etc/ssh/sshd_config
 ```
+
