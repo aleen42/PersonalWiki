@@ -35,3 +35,4 @@ vim /etc/ssh/sshd_config
 
 #### Port
 
+Port is **22** by default, and it's suggested that we should change it to a number between **2001** and **65555**
