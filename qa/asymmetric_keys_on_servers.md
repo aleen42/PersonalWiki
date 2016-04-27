@@ -130,7 +130,7 @@ For next/multiple keys
 ```bash
 scp user@remote.server.com:.ssh/authorized_keys ~/.ssh
 
-
+cat ~/.ssh/server_rsa.pub >> ~/.ssh/authorized_keys
 ```
 
 ```bash
