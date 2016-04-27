@@ -171,7 +171,7 @@ SSH_AUTH_SOCK=0 ssh -i ~/.ssh/server_rsa root@<host>
     - enter user name **root** to log in
 - FileZilla:
     - open FileZilla and click **Edit** > **Settings**
-    - 打开 FileZilla，在工具栏依次点击 Edit（编辑），Settings（设置）打开设置管理器；
+    - choose SFTP in the left side and browse the private key with the button **Add key file**
 在左侧列表中选中 SFTP，右侧显示了私钥管理界面；
 单击 Add key file…（添加私钥文件），选择要使用的私钥，打开；
 完成（单击左侧 OK 确定）；
