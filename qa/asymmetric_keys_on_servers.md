@@ -93,6 +93,12 @@ AuthorizedKeysFile %h/.ssh/authorized_keys
 
 #### Optional
 
-Prevent logging in with password
+Prevent logging in with passwords
+
+```bash
+# /etc/ssh/sshd_config
+PasswordAuthentication no
+ChallengeResponseAuthentication no
+```
 
 
