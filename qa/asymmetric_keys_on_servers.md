@@ -101,4 +101,5 @@ PasswordAuthentication no
 ChallengeResponseAuthentication no
 ```
 
+*Notice that: this way will make you trouble with locking you out of the server*
 
