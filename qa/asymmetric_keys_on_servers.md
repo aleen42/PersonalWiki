@@ -27,4 +27,4 @@ SSH-2 RSA is the default type of keys and number of bits should be **4096** nowa
 
 Generally, servers will use SSH login servers provided by OpenSSH, and we should configure it with modifying `sshd_config`
 
-In CentOS, this file should be in `/etc/ssh/`
+In CentOS and Ubuntu, this file should be in `/etc/ssh/`
