@@ -82,7 +82,7 @@ To avoid that users have set a wrong priority for some important files, which wi
 StrictModes no
 ```
 
-Allow login with keys:
+Allow logging in with keys:
 
 ```bash
 # /etc/ssh/sshd_config
@@ -90,3 +90,4 @@ RSAAuthentication yes
 PubkeyAuthentication yes
 AuthorizedKeysFile %h/.ssh/authorized_keys
 ```
+
