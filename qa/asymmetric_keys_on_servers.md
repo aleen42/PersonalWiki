@@ -78,3 +78,5 @@ Here is the way to create a group and add users into it:
 groupdd ssh-user
 usermod -a -G ssh-user <username>
 ```
+
+To avoid that users have set a wrong priority for some important files, which will result in prevention from login 
