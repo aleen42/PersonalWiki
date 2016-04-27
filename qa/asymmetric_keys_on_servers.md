@@ -54,13 +54,13 @@ Protocol 2
 
 #### Login
 
-Prevent logging in with empty password
+Prevent logging in with empty password:
 
 ```
 PermitEmptyPasswords no
 ```
 
-Allows user groups when the server is used by more than one person
+Allows user groups when the server is used by more than one person:
 
 ```bash
 # /etc/ssh/sshd_config
@@ -92,5 +92,7 @@ AuthorizedKeysFile %h/.ssh/authorized_keys
 ```
 
 #### Optional
+
+Prevent logging in with password
 
 
