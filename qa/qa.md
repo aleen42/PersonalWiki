@@ -37,3 +37,4 @@
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of Linux**](./linuxcommands.md)
 - [**Some problems of releasing memory in C++**](./cppreleasing.md)
+- [**Some problems of building gr-rsm**](./build_gr_rsm.md)
