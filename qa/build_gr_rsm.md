@@ -4,10 +4,20 @@ Here is the official installation turtorial of **gr-rsm**: https://github.com/pt
 
 #### 1. gnuradio
 
+###### Problems
+
 ```bash
 PyBombs.install - INFO - Installing package: gnuradio
 PyBombs.Packager.source - ERROR - Problems occured whild building package gnuradio:
 There should be a source dir in /usr/local/src/gnuradio, but there isn't.
 PyBombs.install - ERROR - Error installing package gnuradio. Aborting.
 ```
+
+###### Solutions
+
+```bash
+cd /usr/local/src/
+sudo pybombs fetch gnuradio
+```
+
 
