@@ -11,3 +11,5 @@
 &nbsp; &nbsp; &nbsp; &nbsp;在 GitHub 所提倡的工作观念中，这是我目前尤其欣赏的一点。所有的一切都是处于异步工作状态。
 
 ### 聊天
+
+&nbsp; &nbsp; &nbsp; &nbsp;GitHub 在头两年并没有一个正式的办公室。
