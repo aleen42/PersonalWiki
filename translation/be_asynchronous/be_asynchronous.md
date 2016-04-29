@@ -19,3 +19,5 @@
 ### 拉取请求（Pull Requests）
 
 &nbsp; &nbsp; &nbsp; &nbsp;我们开发工作主体中就涉及到有该名词，[拉取请求](https://github.com/features/projects/codereview#codereview_bucket)。关于这个名词的概念，我会在未来的博文中进行详细的探讨，但同时请允许我说一句，“生活在一个充满“拉去请求”的世界中是一种何等宏伟的体验。可以说，我在公司的日子是伴随着复杂的分支策略，以及个人的代码审查所流逝的。”
+
+&nbsp; &nbsp; &nbsp; &nbsp;
