@@ -131,6 +131,6 @@
         
         ```
 
-    
+#### Performance
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
+- 1080P, 79s, 47 frames, will result in a process of 239s.
