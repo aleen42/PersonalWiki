@@ -26,7 +26,7 @@
 
 ### 会议是毒品
 
-&nbsp; &nbsp; &nbsp; &nbsp;“37 signals” 组织在栏目 “Getting Real” 上对是否应该开会的问题，曾写过一篇文章，名为 “[会议是毒](http://gettingreal.37signals.com/ch07_Meetings_Are_Toxic.php)品”。个人而言，我对于会议的厌恶程度并不亚于 37 signals。确切来说，我对会议一词是很鄙视的。
+&nbsp; &nbsp; &nbsp; &nbsp;“37 signals” 组织在栏目 “Getting Real” 上对是否应该开会的问题，曾写过一篇文章，名为 “[会议是毒品](http://gettingreal.37signals.com/ch07_Meetings_Are_Toxic.php)”。个人而言，我对于会议的厌恶程度并不亚于 37 signals。确切来说，我对会议一词是很鄙视的。
 
 &nbsp; &nbsp; &nbsp; &nbsp;一般，会议是当你需要仔细讨论解决方案时才会召集的。但往往我们会邀请比实际所需要，更多的人来参加此次会议。即使是对会议的话题感兴趣，你也会对此很愤怒。因为，**会议把你从正在工作的状态拉到跟大家讨论工作情况的状态**。在我看来，这种问题是可以通过简单地推送分支，查看差异部分，然后迭代地去寻找我们的工作进展来解决的。而不是仅仅通过我们的汇报，就假设我们能提前并完美地完成如白板系统的设计。
 
