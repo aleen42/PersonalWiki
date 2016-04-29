@@ -18,6 +18,4 @@
 
 ### 拉取请求（Pull Requests）
 
-
-
-&nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;我们开发工作主体中就涉及到有该名词，[拉取请求](https://github.com/features/projects/codereview#codereview_bucket)。
