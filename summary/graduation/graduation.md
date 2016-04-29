@@ -138,3 +138,4 @@
 video size|video length|handled frames number|result time
 :--------:|:----------:|:-------------------:|:---------:
 1920x1080|79s|47|10564ms
+1920x1080|79s|394|1587437ms
