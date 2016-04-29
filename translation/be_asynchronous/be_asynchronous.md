@@ -12,4 +12,4 @@
 
 ### 聊天
 
-&nbsp; &nbsp; &nbsp; &nbsp;由于 GitHub 在头两年并没有一个正式的办公室，因此，聊天室（在我们这称作，[营火会（Campfire）](http://campfirenow.com/)）
+&nbsp; &nbsp; &nbsp; &nbsp;由于 GitHub 在头两年并没有一个正式的办公室，因此，聊天室（在我们这称作，[营火会（Campfire）](http://campfirenow.com/)）是我们完成所有事情的
