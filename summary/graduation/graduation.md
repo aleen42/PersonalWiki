@@ -133,4 +133,6 @@
 
 #### Performance
 
-- 1080P, 79s, 47 frames, will result in a process of 239s.
+video size|video length|handled frames number|result time
+:--------:|:----------:|:-------------------:|:---------:
+1920x1080|79s|47|239s
