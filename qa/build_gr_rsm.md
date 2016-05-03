@@ -20,4 +20,14 @@ cd /usr/local/src/
 sudo pybombs fetch gnuradio
 ```
 
+###### Problems
 
+```bash
+make[2]: *** [gnuradio-runtime/swig/CMakeFiles/_runtime.swig.dir/runtime_swigPYTHON_wrap.cxx.o] Error 4
+make[1]: *** [gnuradio-runtime/swig/CMakeFiles/_runtime.swig.dir/all] Error 2
+make: *** [all] Error 2
+PyBombs.Packager.source - ERROR - Build failed. See output above for error messages.
+PyBombs.Packager.source - ERROR - Problems occured whild building package gnuradio:
+```
+
+###### Solutions
