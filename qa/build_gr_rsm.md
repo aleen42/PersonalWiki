@@ -28,6 +28,7 @@ make[1]: *** [gnuradio-runtime/swig/CMakeFiles/_runtime.swig.dir/all] Error 2
 make: *** [all] Error 2
 PyBombs.Packager.source - ERROR - Build failed. See output above for error messages.
 PyBombs.Packager.source - ERROR - Problems occured whild building package gnuradio:
+Build failed.
 ```
 
 ###### Solutions
