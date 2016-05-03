@@ -29,7 +29,7 @@ make: *** [all] Error 2
 PyBombs.Packager.source - ERROR - Build failed. See output above for error messages.
 PyBombs.Packager.source - ERROR - Problems occured whild building package gnuradio:
 Build failed.
-PyBombs.Packager.source - ERROR - Error installing package gnuradio. Aborting
+PyBombs.Packager.source - ERROR - Error installing package gnuradio. Aborting.
 ```
 
 ###### Solutions
