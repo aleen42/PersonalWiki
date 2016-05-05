@@ -31,3 +31,7 @@ tail -f file
 ```
 
 #### 5. Check device ID of some USB ports
+
+```bash
+lsusb
+```
