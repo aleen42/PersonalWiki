@@ -28,7 +28,7 @@ PyBombs.install - ERROR - Error installing package gnuradio. Aborting.
 
 ```bash
 cd /usr/local/src/
-sudo pybombs fetch gnuradio
+sudo wget http://gnuradio.org/releases/gnuradio/gnuradio-3.7.9.2.tar.gz
 ```
 
 ###### Problems
