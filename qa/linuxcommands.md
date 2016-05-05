@@ -51,3 +51,7 @@ telnet <IP addr> <port>
 ```
 
 #### 7. Commandes RTL-SDR
+
+```bash
+rtl_test -t
+```
