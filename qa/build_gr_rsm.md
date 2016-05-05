@@ -36,4 +36,4 @@ sudo mv gnuradio-3.7.9.2 gnuradio
 
 - set up your RAM size by **at least 4GB**
 - do not try to use `-j2` to accelrate your make process
-- guarantee that the directory `/usr/local/src` should have **more than 3.5G**B spaces to set up gr-gsm
+- guarantee that the directory `/usr/local/src` should have **more than 3.5GB** spaces to set up gr-gsm
