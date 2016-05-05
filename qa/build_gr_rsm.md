@@ -4,6 +4,17 @@ Here is the official installation turtorial of **gr-rsm**: https://github.com/pt
 
 #### 1. gnuradio
 
+###### Dependencies of Ubuntu 14.04
+
+```bash
+sudo apt-get -y install git-core cmake g++ python-dev swig \
+pkg-config libfftw3-dev libboost1.55-all-dev libcppunit-dev libgsl0-dev \
+libusb-dev libsdl1.2-dev python-wxgtk2.8 python-numpy \
+python-cheetah python-lxml doxygen libxi-dev python-sip \
+libqt4-opengl-dev libqwt-dev libfontconfig1-dev libxrender-dev \
+python-sip python-sip-dev
+```
+
 ###### Problems
 
 ```bash
