@@ -1,6 +1,8 @@
 ## Some commands of Linux [Back](./qa.md)
 
-#### 1. If you want to checkout the version of Linux
+#### 1. If you want to checkout some versions of Linux OS
+
+Linux version:
 
 ```bash
 lsb_release -a
