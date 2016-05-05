@@ -48,6 +48,10 @@ sudo apt-get install python-scapy
 
 ###### Frequencies
 
+China Mobile
+
 - 937,600,000
 - 941,100,000
 - 951,700,000
+
+China Unicom
