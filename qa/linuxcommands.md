@@ -39,5 +39,5 @@ lsusb
 #### 6. To connect some port of a specified IP address
 
 ```bash
-
+telnet <IP addr> <port>
 ```
