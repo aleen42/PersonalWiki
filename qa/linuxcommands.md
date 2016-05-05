@@ -49,3 +49,5 @@ lsusb
 ```bash
 telnet <IP addr> <port>
 ```
+
+#### 7. To test rtl devices
