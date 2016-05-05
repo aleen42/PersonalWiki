@@ -30,4 +30,4 @@ free | sed -n "3, 1p" | awk '{print int($3)}'
 tail -f file
 ```
 
-#### 5. Check device ID of some USB port.
+#### 5. Check device ID of some USB ports
