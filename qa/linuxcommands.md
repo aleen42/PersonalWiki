@@ -30,4 +30,4 @@ free | sed -n "3, 1p" | awk '{print int($3)}'
 tail -f file
 ```
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
+#### 5. Check device ID of some USBs.
