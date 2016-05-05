@@ -11,7 +11,7 @@ lsb_release -a
 Kernel version:
 
 ```bash
-
+uname -r
 ```
 
 #### 2. If you want to see the space size
