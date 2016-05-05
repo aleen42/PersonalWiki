@@ -35,3 +35,4 @@ sudo mv gnuradio-3.7.9.2 gnuradio
 ###### Suggestions:
 
 - set up your RAM size by at least 4GB
+- 
