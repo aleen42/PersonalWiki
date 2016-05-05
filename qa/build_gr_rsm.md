@@ -32,16 +32,3 @@ sudo wget http://gnuradio.org/releases/gnuradio/gnuradio-3.7.9.2.tar.gz
 sudo mv gnuradio-3.7.9.2 gnuradio
 ```
 
-###### Problems
-
-```bash
-make[2]: *** [gnuradio-runtime/swig/CMakeFiles/_runtime.swig.dir/runtime_swigPYTHON_wrap.cxx.o] Error 4
-make[1]: *** [gnuradio-runtime/swig/CMakeFiles/_runtime.swig.dir/all] Error 2
-make: *** [all] Error 2
-PyBombs.Packager.source - ERROR - Build failed. See output above for error messages.
-PyBombs.Packager.source - ERROR - Problems occured whild building package gnuradio:
-Build failed.
-PyBombs.Packager.source - ERROR - Error installing package gnuradio. Aborting.
-```
-
-###### Solutions
