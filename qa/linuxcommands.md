@@ -50,4 +50,4 @@ lsusb
 telnet <IP addr> <port>
 ```
 
-#### 7. To test rtl devices
+#### 7. Commandes RTL-SDR
