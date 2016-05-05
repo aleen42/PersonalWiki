@@ -45,3 +45,6 @@ sudo mv gnuradio-3.7.9.2 gnuradio
 ```bash
 sudo apt-get install python-scapy
 ```
+
+###### Frequencies
+
