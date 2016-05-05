@@ -8,6 +8,12 @@ Linux version:
 lsb_release -a
 ```
 
+Kernel version:
+
+```bash
+
+```
+
 #### 2. If you want to see the space size
 
 ```bash
