@@ -48,4 +48,4 @@ sudo apt-get install python-scapy
 
 ###### Frequencies
 
-941200000
+941,200,000
