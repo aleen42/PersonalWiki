@@ -27,5 +27,5 @@ mv gnuarm-* ~/gnuarm
 ### 3. configure environmental parameters
 
 ```bash
-
+export PATH=~/gnuarm/bin:$PATH
 ```
