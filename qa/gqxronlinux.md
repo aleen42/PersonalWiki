@@ -6,3 +6,5 @@
 sudo apt-get purge --auto-remove gqrx
 sudo apt-get purge --auto-remove gqrx-sdr
 ```
+
+#### 2. add new repositores to the package manager
