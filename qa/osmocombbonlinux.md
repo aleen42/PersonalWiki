@@ -31,3 +31,9 @@ mv gnuarm-* ~/gnuarm
 ```bash
 export PATH=~/gnuarm/bin:$PATH
 ```
+
+### 4. install libosmocore
+
+```bash
+git clone https://github.com/osmocom/libosmocore.git
+```
