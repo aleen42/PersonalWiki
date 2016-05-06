@@ -5,3 +5,6 @@
 ```bash
 aptitude install libtool shtool autoconf git-core pkg-config make gcc
 ```
+
+### 2. download GnuARM ToolChain
+
