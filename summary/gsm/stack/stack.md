@@ -19,7 +19,6 @@ Based on the interface, the GSM signaling protocol is assembled into three gener
 
 #### MS(Mobile Station, 移动站) to BTS(Base Transceiver Station, 基地收发机站) Protocols
 
-
-
+The RR layer is the lower layer that manages a link, both radio and fixed, between the MS and the MSC. For this formation, the main components involved are the MS, BSS, and MSC. The responsibility of the RR layer is to manage the RR-session, the time when a mobile is in a dedicated mode, and the radio channels including the allocation of dedicated channels.
 
 
