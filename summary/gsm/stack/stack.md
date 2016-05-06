@@ -7,3 +7,4 @@ The GMS protocol stacks diagram is shown below:
 <img src="./gsm-protocol-stack.gif">
 
 #### MS Protocols
+
