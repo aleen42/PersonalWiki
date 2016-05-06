@@ -43,3 +43,6 @@ make install
 cd ..
 ldconfig
 ```
+
+### 5. compile osmocom-bb
+
