@@ -33,4 +33,4 @@ The RR protocols are responsible for the allocation and reallocation of traffic 
 
 To transit from the BSC to the MSC, the BSS mobile application part or the direct application part is used, and SS7 protocols is applied by the relay, so that the MTP 1-3 can be used as the prime architecture.
 
-### MSC() Prtocols
+### MSC(Mobile Switching Center, 移动交换) Prtocols
