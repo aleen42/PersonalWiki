@@ -31,6 +31,8 @@ mv gnuarm-* ~/gnuarm
 *Notice that: download the specified file according to your machine type, or it will occur a problem like the follow one:*
 
 ```
+~/osmocom-bb/src/target/firmware/include/asm/swab.h: Assembler messages:
+~/osmocom-bb/src/target/firmware/include/asm/swab.h:32: Error: no such instruction: `eor %edx,%ecx,%ecx,ror
 make[4]: *** [gsmtap_util.lo] Error 1
 make[4]: Leaving directory `/root/osmocom-bb/src/shared/libosmocore/build-target/src'
 make[3]: *** [all] Error 2
