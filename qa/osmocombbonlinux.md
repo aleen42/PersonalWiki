@@ -30,7 +30,8 @@ mv gnuarm-* ~/gnuarm
 
 *Notice that: download the specified file according to your machine type, or it will occur a problem like the follow one:*
 
-
+```
+```
 
 ### 3. configure environmental parameters
 
