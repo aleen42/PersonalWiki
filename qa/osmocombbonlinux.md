@@ -31,7 +31,15 @@ mv gnuarm-* ~/gnuarm
 *Notice that: download the specified file according to your machine type, or it will occur a problem like the follow one:*
 
 ```
-
+make[4]: *** [gsmtap_util.lo] Error 1
+make[4]: Leaving directory `/root/osmocom-bb/src/shared/libosmocore/build-target/src'
+make[3]: *** [all] Error 2
+make[3]: Leaving directory `/root/osmocom-bb/src/shared/libosmocore/build-target/src'
+make[2]: *** [all-recursive] Error 1
+make[2]: Leaving directory `/root/osmocom-bb/src/shared/libosmocore/build-target'
+make[1]: *** [all] Error 2
+make[1]: Leaving directory `/root/osmocom-bb/src/shared/libosmocore/build-target'
+make: *** [shared/libosmocore/build-target/src/.libs/libosmocore.a] Error 2
 ```
 
 ### 3. configure environmental parameters
