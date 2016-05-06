@@ -17,3 +17,9 @@ sudo add-apt-repository -y ppa:myriadrf/gnuradio
 sudo add-apt-repository -y ppa:gqrx/gqrx-sdr
 sudo apt-get update
 ```
+
+#### 3. install gqxr-sdr
+
+```bash
+sudo apt-get install gqrx-sdr
+```
