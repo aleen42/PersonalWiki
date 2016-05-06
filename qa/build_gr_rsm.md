@@ -61,4 +61,4 @@ China Unicom
 #### 3. Questions
 
 - When catchnig imsi from a phone, there are two problems:
-    - IMSI is only transimitted during the process of connecting to a base station
+    - IMSI is only transmitted during the process of connecting to a base station
