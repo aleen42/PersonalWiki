@@ -13,4 +13,4 @@
 
 ### 酒精
 
-&nbsp; &nbsp; &nbsp; &nbsp;许多人都知道，在 GitHub 中，只有几个人喜欢喝酒。
+&nbsp; &nbsp; &nbsp; &nbsp;许多人都知道，在 GitHub 中，只有几个人是喜欢喝酒的。
