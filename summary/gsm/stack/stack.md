@@ -15,4 +15,4 @@ Based on the interface, the GSM signaling protocol is assembled into three gener
 - **Layer 3**: GSM signalling protocol's third layer is divided into three sublayers:
     - Radio Resource Management (RR)
     - Mobility Management (MM)
-    - 
+    - Connection Management (CM)
