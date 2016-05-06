@@ -27,5 +27,5 @@ The CM layer is the topmost layer of the GSM protocol stack. This layer is respo
 
 ### BSC(Base Station Controller, 基站控制器) Protocols
 
-
+The BSC uses a different set of protocols after receiving the data from the BTS. The Abis interface is used between the BTS and BSC.
 
