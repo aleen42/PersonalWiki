@@ -48,4 +48,5 @@ ldconfig
 
 ```bash
 git clone https://github.com/osmocom/osmocom-bb.git && cd osmocom-bb
+
 ```
