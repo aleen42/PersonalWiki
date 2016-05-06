@@ -25,4 +25,4 @@ The MM layer is stacked above the RR layer. It handles the functions that arise 
 
 The CM layer is the topmost layer of the GSM protocol stack. This layer is responsible for Call Control, Supplementary Service Management, and Short Message Service Management. Each of these services are treated as individual layer within the CM layer. Other functions of the CC sub-layer include call establishment, selection of the type of service (including alternating between services during a call), and call release.
 
-### BSC Protocols
+### BSC(Base Station Controller) Protocols
