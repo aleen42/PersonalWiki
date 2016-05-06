@@ -20,7 +20,7 @@ mv gnuarm-* ~/gnuarm
 
 x64:
 
-**download here**
+[**download here**](https://github.com/aleen42/PersonalWiki/blob/master/qa/bu-2.16.1_gcc-4.0.2-c-c++_nl-1.14.0_gi-6.4_x86-64.tar.bz2?raw=true)
 
 ```bash
 wget http://www.gnuarm.com/bu-2.16.1_gcc-4.0.2-c-c++_nl-1.14.0_gi-6.4_x86-64.tar.bz2
