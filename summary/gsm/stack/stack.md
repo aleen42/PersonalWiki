@@ -6,7 +6,7 @@ The GMS protocol stacks diagram is shown below:
 
 <img src="./gsm-protocol-stack.gif">
 
-#### MS Protocols
+#### MS(Mobile Station) Protocols
 
 Based on the interface, the GSM signaling protocol is assembled into three general layers:
 
