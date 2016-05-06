@@ -26,3 +26,4 @@ sudo apt-get install gqrx-sdr
 
 #### 4. recommendation
 
+To optimize GNU Radio performance on the specific computer, it's recommended that users also install `libvolk1-bin` and run the `volk_profile` tool.
