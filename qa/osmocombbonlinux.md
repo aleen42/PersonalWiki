@@ -28,6 +28,10 @@ tar xf bu-2.16.1_gcc-4.0.2-c-c++_nl-1.14.0_gi-6.4_x86-64.tar.bz2
 mv gnuarm-* ~/gnuarm
 ```
 
+*Notice that: download the specified file according to your machine type, or it will occur a problem like the follow one:*
+
+
+
 ### 3. configure environmental parameters
 
 ```bash
