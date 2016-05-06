@@ -11,4 +11,4 @@ The GMS protocol stacks diagram is shown below:
 Based on the interface, the GSM signaling protocol is assembled into three general layers:
 
 - **Layer 1**: The physical layer. It uses the channel structures over the air interface.
-- **Layer 2 **
+- **Layer 2**: 
