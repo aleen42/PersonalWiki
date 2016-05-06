@@ -8,4 +8,4 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;你正在阅读的是 Github 如何工作系列的第三部分。该系列总共有三篇文章，并带领你走到我们是怎么在 GitHub 工作的世界当中。这些文章全是针对不同的话题而相互独立的，如果你有兴趣的话，你也可以阅读其他的两篇：[时间就是粪土](./../hours_are_bullshit/hours_are_bullshit.md)与[异步工作](./../be_asynchronous/be_asynchronous.md)
 
-&nbsp; &nbsp; &nbsp; &nbsp;在 GitHub，我们希望促进一种具有创新性的环境。尤其是员工们专注于自己的业余项目时，我们更能体现这种创新性环境的
+&nbsp; &nbsp; &nbsp; &nbsp;在 GitHub，我们希望促进一种具有创新性的环境。尤其是员工们[专注于自己的业余项目](http://zachholman.com/posts/why-github-hacks-on-side-projects)时，我们更能体现这种创新性环境的重要性。
