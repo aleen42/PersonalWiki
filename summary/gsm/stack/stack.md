@@ -17,5 +17,5 @@ Based on the interface, the GSM signaling protocol is assembled into three gener
     - Mobility Management (MM)
     - Connection Management (CM)
 
-#### MS to BTS Protocols
+#### MS(Mobile Station) to BTS(Base Transceiver Station) Protocols
 
