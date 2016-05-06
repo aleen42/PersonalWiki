@@ -2,4 +2,6 @@
 
 #### 1. install dependencies
 
-
+```bash
+aptitude install libtool shtool autoconf git-core pkg-config make gcc
+```
