@@ -23,3 +23,5 @@ sudo apt-get update
 ```bash
 sudo apt-get install gqrx-sdr
 ```
+
+#### 4. recommendation
