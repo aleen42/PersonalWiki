@@ -11,4 +11,3 @@ http://api.soundtooth.cn/v2/mediain/xxx
 http://sandbox-api.soundtooth.cn/hntv/api/ProgrammeForWeb/xxx/v2?device_id=1
 ```
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
