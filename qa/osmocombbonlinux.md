@@ -36,5 +36,10 @@ export PATH=~/gnuarm/bin:$PATH
 
 ```bash
 git clone https://github.com/osmocom/libosmocore.git && cd libosmocore/
-
+autoreconf -i
+./configure
+make
+make install
+cd ..
+ldconfig
 ```
