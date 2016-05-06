@@ -69,7 +69,8 @@
             "copyrightColor": "#666",
             "utcOffset": "8",
             "qrcode": true,
-            "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/"
+            "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
+            "style": "normal"
         }
     }
 }
