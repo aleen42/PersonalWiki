@@ -6,7 +6,7 @@ The GMS protocol stacks diagram is shown below:
 
 <img src="./gsm-protocol-stack.gif">
 
-#### MS(Mobile Station) Protocols
+#### MS(Mobile Station, 移动站) Protocols
 
 Based on the interface, the GSM signaling protocol is assembled into three general layers:
 
@@ -17,7 +17,7 @@ Based on the interface, the GSM signaling protocol is assembled into three gener
     - Mobility Management (MM)
     - Connection Management (CM)
 
-#### MS(Mobile Station, 移动站) to BTS(Base Transceiver Station, 基地收发机站) Protocols
+#### BTS(Base Transceiver Station, 基地收发机站) Protocols
 
 The RR layer is the lower layer that manages a link, both radio and fixed, between the MS and the MSC. For this formation, the main components involved are the MS, BSS, and MSC. The responsibility of the RR layer is to manage the RR-session, the time when a mobile is in a dedicated mode, and the radio channels including the allocation of dedicated channels.
 
