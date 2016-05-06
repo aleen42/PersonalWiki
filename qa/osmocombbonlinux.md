@@ -25,3 +25,4 @@ mv gnuarm-* ~/gnuarm
 ```
 
 ### 3. configure environmental parameters
+
