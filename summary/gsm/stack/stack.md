@@ -4,3 +4,5 @@ GSM architecture is a layered model that is designed to allow communications bet
 
 The GMS protocol stacks diagram is shown below:
 
+<img src="./gsm-protocol-stack.gif">
+
