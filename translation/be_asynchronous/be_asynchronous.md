@@ -24,7 +24,7 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;有了拉取请求，我就不需要去拉拽任何人去开会，而且这对于他们和我来说都是一种很不方便的做法。当然，下面我也会说说为什么这是很不方便的做法：
 
-### 会议是毒品
+### 会议毒品
 
 &nbsp; &nbsp; &nbsp; &nbsp;“37 signals” 组织在栏目 “Getting Real” 上对是否应该开会的问题，曾写过一篇文章，名为 “[会议是毒品](http://gettingreal.37signals.com/ch07_Meetings_Are_Toxic.php)”。个人而言，我对于会议的厌恶程度并不亚于 37 signals。确切来说，我对会议一词是很鄙视的。
 
