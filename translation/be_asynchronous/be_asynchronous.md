@@ -8,7 +8,7 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;你正在阅读的是 Github 如何工作系列的第二部分。该系列总共有三篇文章，并带领你走进 GitHub 的世界当中。这些文章全是针对不同的话题而相互独立的，如果你有兴趣的话，你也可以阅读其他的两篇文章：[时间就是粪土](./../hours_are_bullshit/hours_are_bullshit.md)与[创新是非常重要的](./../creativity_is_important/creativity_is_important.md)
 
-&nbsp; &nbsp; &nbsp; &nbsp;在 GitHub 所提倡的工作观念中，异步工作我目前尤其欣赏的一点。那就是，所有的一切都需要处于异步工作状态。
+&nbsp; &nbsp; &nbsp; &nbsp;在 GitHub 所提倡的工作观念中，异步工作是我目前尤其欣赏的一点。
 
 ### 聊天
 
