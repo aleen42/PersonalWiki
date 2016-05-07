@@ -41,3 +41,5 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;好吧，我并不是为 GitHub 作一个广告，我只是认为这是一种构件产品的好方式。尽管如此，我们还是需要广纳人才。有意者可在 Twitter 上关注 [@holman](http://twitter.com/holman) 和 [@github](http://twitter.com/github)。如果有相关的招聘信息，我们会通知你。
 
+&nbsp; &nbsp; &nbsp; &nbsp;无意的话，我希望这些能引起你的兴趣。
+
