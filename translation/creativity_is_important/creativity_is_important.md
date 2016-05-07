@@ -39,5 +39,5 @@
 
 ### 我们正在招聘
 
-&nbsp; &nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp; &nbsp; &nbsp;好吧，我并不是为 GitHub 作一个广告，我只是认为这是一种构件产品的
 
