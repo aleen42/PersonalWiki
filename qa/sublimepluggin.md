@@ -368,5 +368,3 @@ vvi. setup for users to specify local path to the command above:
 ###### Theme - Soda SolaraizedDark
 
 ###### Terminal
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
