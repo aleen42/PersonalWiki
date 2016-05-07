@@ -23,4 +23,4 @@
 
 ### 鼓励差异性
 
-&nbsp; &nbsp; &nbsp; &nbsp;GitHub 可以说主要是一个 Ruby 商店：大部分的开发者都会使用 Ruby 进行开发，以至于我们大部分的项目都是使用 Ruby 语言的。
+&nbsp; &nbsp; &nbsp; &nbsp;GitHub 可以说主要是一个 Ruby 商店：大部分的开发者都会使用 Ruby 进行开发，以至于我们大部分的项目都是使用 Ruby 语言的。但是，你并不能仅局限于自己目前的工作。
