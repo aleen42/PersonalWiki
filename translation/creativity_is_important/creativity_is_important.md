@@ -37,7 +37,7 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;我们之所以能这么做，是因为我们都会对自己的产品讨论很多，因此，每个人都会在同一个话题上发表自己的意见。如“拉取分支”这样的东西，给予了我们一个尝试新想法并推向公众的平台。我们在实验中成长，并避开一切的炫耀个性的念头。还是那句话，如果你对某件事感兴趣，拿酒去做吧。我们会把你的原型想法不断地从起点往前推进。这对于我们来说，是构建一款产品的一个较佳的方式。Kyle 从一个设计的角度，去剖析了 GitHub 的这种过程，并[攥写出大量相关的文章](http://warpspire.com/posts/product-design/)。
 
-### 我们正在招聘
+### 招聘
 
-&nbsp; &nbsp; &nbsp; &nbsp;好吧，我并不是为 GitHub 作一个广告，我只是认为这是一种构件产品的好方式。尽管如此，我们还是需要广纳人才。有意者可在 Twitter 上关注 [@holman](http://twitter.com/holman) 和 [@github](http://twitter.com/github)。如果有相关的招聘信息，我们会通知你
+&nbsp; &nbsp; &nbsp; &nbsp;好吧，我并不是为 GitHub 作一个广告，我只是认为这是一种构件产品的好方式。尽管如此，我们还是需要广纳人才。有意者可在 Twitter 上关注 [@holman](http://twitter.com/holman) 和 [@github](http://twitter.com/github)。如果有相关的招聘信息，我们会通知你。
 
