@@ -1,4 +1,4 @@
-## Be asynchronous - 异步工作 [**Back**](./../translation.md)
+## Be asynchronous - 异步<sup>[1]</sup>工作 [**Back**](./../translation.md)
 
 > * 原文链接 : [How GitHub Works: Be Asynchronous](https://zachholman.com/posts/how-github-works-asynchronous/)
 * 原文作者 : [Zach Holman](https://zachholman.com/)
