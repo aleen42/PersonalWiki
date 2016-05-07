@@ -368,3 +368,5 @@ vvi. setup for users to specify local path to the command above:
 ###### Theme - Soda SolaraizedDark
 
 ###### Terminal
+
+###### syncedSideBarBg
