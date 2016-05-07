@@ -39,7 +39,7 @@
 
 ### 招聘
 
-&nbsp; &nbsp; &nbsp; &nbsp;好吧，我并不是为 GitHub 作一个广告，我只是认为这是一种构件产品的好方式。尽管如此，我们还是需要广纳人才。有意者可在 Twitter 上关注 [@holman](http://twitter.com/holman) 和 [@github](http://twitter.com/github)。如果有相关的招聘信息，我们会通知你。
+&nbsp; &nbsp; &nbsp; &nbsp;好吧，我并不是为 GitHub 作一个广告，我只是认为这是一种构建产品的好方式。尽管如此，我们还是需要广纳人才。有意者可在 Twitter 上关注 [@holman](http://twitter.com/holman) 和 [@github](http://twitter.com/github)。如果有相关的招聘信息，我们会通知你。
 
 &nbsp; &nbsp; &nbsp; &nbsp;无意的话，我希望这些能引起你的兴趣。一家像 IBM 体量这么大的公司，或许需要强迫执行大量的政策并消耗资金。但在一家创新企业，我们就能避免一切的这些。在这里，你不需要规定上班的时间；在这里，你不需要规定任何的会议；在这里，你的代码复查可以是临时的。当然，你也可以创建一家有趣的公司去完成你的梦想。这与我们并不会产生排斥。
 
