@@ -30,3 +30,4 @@ git remote add origin [remote github url]
 git remote -v
 # verifies the new remote URL
 ```
+
