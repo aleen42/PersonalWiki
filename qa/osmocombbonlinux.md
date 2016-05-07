@@ -10,6 +10,7 @@ aptitude install libtool shtool autoconf git-core pkg-config make gcc
 
 x86:
 
+[**download**](https://github.com/aleen42/software-packages/blob/master/bu-2.15_gcc-3.4.3-c-c++-java_nl-1.12.0_gi-6.1.tar.bz2?raw=true)
 
 ```bash
 wget http://gnuarm.com/bu-2.15_gcc-3.4.3-c-c++-java_nl-1.12.0_gi-6.1.tar.bz2
