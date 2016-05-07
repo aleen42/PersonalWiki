@@ -1,7 +1,7 @@
 ## Be asynchronous - 异步<sup>[[1]](#comment1)</sup>工作 [**Back**](./../translation.md)
 
 > * 原文链接 : [How GitHub Works: Be Asynchronous](https://zachholman.com/posts/how-github-works-asynchronous/)
-* 原文作者 : [Zach Holman](https://zachholman.com/)
+* 原文作者 : [Zach Holman](https://zachholman.com/about)
 * 译者 : [aleen42](https://github.com/aleen42) 
 * 校对者 : 暂无
 * 状态 : 待校对
