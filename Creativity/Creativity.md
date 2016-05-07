@@ -25,5 +25,4 @@
 * [**AWWWARDS**](http://www.awwwards.com/)
 * [**FWA**](http://www.thefwa.com/)
 * [**CSS DESIGN WARDS**](http://www.cssdesignawards.com/)
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
+* 
