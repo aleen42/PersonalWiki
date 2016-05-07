@@ -86,4 +86,3 @@ cJSON* parr = cJSON_GetArrayItem(jarr, i);
 int arrSize = cJSON_GetArraySize(jarr);
 ```
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
