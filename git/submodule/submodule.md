@@ -11,5 +11,3 @@ git submodule add <git url> [name]
 ```bash
 git clone --recursive <git url>
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
