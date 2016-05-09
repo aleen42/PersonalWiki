@@ -22,4 +22,5 @@ ii. Store and restart the service
 service mysql restart
 ```
 
-iii. 
+iii. Allow aceess with different IP
+
