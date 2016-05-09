@@ -146,5 +146,7 @@ Here I have listed some meta elments which are either deprecated or not supporte
 <!-- Deprecated because: Better to use <link rel="author"> or humans.txt file -->
 <meta name="owner" content="aleen42">
 
-
+<!-- redirect -->
+<!-- Google strongly advises not to use this. Better to set up Apache redirects instead -->
+<meta http-equiv="refresh" content="300;url=https://example.com/">
 ```
