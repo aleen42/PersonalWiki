@@ -198,10 +198,13 @@ This kind of elements is used to define a relationship between the document and 
 <link rel="prerender" href="https://example.com/">
 <link rel="subresource" href="styles.css">
 <link rel="preload" href="image.png">
+<!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 
 <!-- Favicons -->
 
-<!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
-
-
+<link rel="icon" href="path/to/favicon-16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="path/to/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="path/to/favicon-48.png" sizes="48x48" type="image/png">
+<link rel="icon" href="path/to/favicon-62.png" sizes="62x62" type="image/png">
+<!-- More info: https://bitsofco.de/all-about-favicons-and-touch-icons/ -->
 ```
