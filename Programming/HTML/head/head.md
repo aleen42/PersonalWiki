@@ -132,4 +132,6 @@ Here I have listed some meta elments which are either deprecated or not supporte
 
 <!-- Deprecated because: Better to use <link rel="author"> or humans.txt file -->
 <meta name="author" content="name, email@example.com">
+
+
 ```
