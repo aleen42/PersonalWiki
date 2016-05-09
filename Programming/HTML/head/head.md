@@ -207,3 +207,11 @@ This kind of elements is used to define a relationship between the document and 
 <link rel="icon" href="path/to/favicon-62.png" sizes="62x62" type="image/png">
 <!-- More info: https://bitsofco.de/all-about-favicons-and-touch-icons/ -->
 ```
+
+###### Deprecated/Legacy
+
+Here I have listed some meta elments which are either deprecated or not supported in browsers anymore.
+
+```html
+
+```
