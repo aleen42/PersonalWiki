@@ -7,4 +7,6 @@ This document is based on the article "[What we can put into the HEAD tag](https
 ```html
 <!-- title of the document -->
 <title>Page Title</title>
+
+
 ```
