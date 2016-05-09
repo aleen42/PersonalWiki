@@ -150,7 +150,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="referrer" content="never">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
-<!-- social elements ->
+<!--
+
+
+    social elements
+    
+
+-->
 <!-- Facebook/Open Graph -->
 <meta property="fb:app_id" content="123456789">
 <meta property="og:url" content="https://example.com/page.html">
