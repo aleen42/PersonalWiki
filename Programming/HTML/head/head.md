@@ -66,5 +66,5 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="keywords" content="aleen42,personalwiki">
 
 <!-- description -->
-
+<meta name="description" content="not more than 150 characters">
 ```
