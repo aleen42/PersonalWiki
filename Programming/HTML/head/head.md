@@ -42,6 +42,6 @@ This kind of elements will provide meta data about HTML documents, and they won'
 
 <!-- kernel control -->
 <!-- 
-    all the browsers in China 
+    most browsers in China will use two kernel: Webkit and Trident
 -->
 ```
