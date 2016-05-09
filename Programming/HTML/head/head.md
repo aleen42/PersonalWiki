@@ -126,7 +126,9 @@ Here I have listed some meta elments which are either deprecated or not supporte
 <!-- Deprecated because: No evidence of use in any search engines -->
 <meta name="revised" content="Monday, May 9th, 2016, 11:27 am">
 
-<!-- personal info --
+<!-- personal info -->
 <!-- Deprecated because: Provides a easy way for bots to get emails from websites -->
 <meta name="reply-to" content="email@example.com">
+
+
 ```
