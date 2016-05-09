@@ -58,7 +58,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 
 <!-- keywords -->
 <!--
-    keywords is used for easily searching in a search engine
+    keywords is used for easily searching in a search engine.
 -->
 <meta name="keywords" content="aleen42,personalwiki">
 ```
