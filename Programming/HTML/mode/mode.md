@@ -18,8 +18,3 @@ Opera|Presto|-|Carakan
 - **Quirks(怪異) Mode**: For viewing pages of old versions.
 - **Standard Mode**: Set by *W3C*.
 
-
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
