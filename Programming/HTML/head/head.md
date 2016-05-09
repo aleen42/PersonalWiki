@@ -105,7 +105,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
 <!-- social elements ->
-
+<!-- Facebook/Open Gra -->
 ```
 
 ###### Deprecated/Legacy
