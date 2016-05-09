@@ -70,7 +70,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 
     viewport for mobile website
     
-    -->
+-->
 <!--
     viewport is used to optimize presentation of mobile website, 
     and if the website is not reponsive, it's not recommended that 
@@ -78,7 +78,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- keywords -->
+<!--
+
+
+    keywords
+
+
+-->
 <!--
     keywords is used for easily searching in a search engine. When you
     set up your keywords, people can search your website with the keywords
