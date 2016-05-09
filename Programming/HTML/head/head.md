@@ -72,8 +72,8 @@ This kind of elements will provide meta data about HTML documents, and they won'
 -->
 <meta name="description" content="not more than 150 characters">
 
-<!--subjects -->
+<!-- subjects -->
 <meta name="subject" content="your subjects of your site">
 
-
+<!-- language -->
 ```
