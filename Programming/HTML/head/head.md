@@ -389,3 +389,6 @@ Here I have listed some meta elments which are either deprecated or not supporte
 ```html
 <link rel="shortcut icon" href="path/to/favicon.ico">
 ```
+
+#### App Links
+
