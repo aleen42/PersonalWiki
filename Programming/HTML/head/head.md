@@ -201,7 +201,6 @@ This kind of elements is used to define a relationship between the document and 
 <!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 
 <!-- Favicons -->
-
 <link rel="icon" href="path/to/favicon-16.png" sizes="16x16" type="image/png">
 <link rel="icon" href="path/to/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="path/to/favicon-48.png" sizes="48x48" type="image/png">
