@@ -410,3 +410,6 @@ Here I have listed some meta elments which are either deprecated or not supporte
 
 - [HTML5 Boilerplate Docs: The HTML](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
 - [HTML5 Boilerplate Docs: Extend and customize](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md)
+- [MDN Meta](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+- [常用meta整理](https://segmentfault.com/a/1190000002407912)
+- [HTML meta标签总结与属性使用介绍](https://segmentfault.com/a/1190000004279791)
