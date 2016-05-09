@@ -76,5 +76,5 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="subject" content="your subjects of your site">
 
 <!-- language -->
-<meta name="language" content="en">
+<meta name="language" content="zh-CN">
 ```
