@@ -73,6 +73,7 @@
                 * [Image](./Programming/HTML/image/image.md)
                 * [Tables](./Programming/HTML/tables/tables.md)
                 * [Forms](./Programming/HTML/forms/forms.md)
+                * [HEAD](./Programming/HTML/head/head.md)
             * Extra
                 * [Extra Markup](./Programming/HTML/extra_markup/extra_markup.md)
                 * [Flash, Video and Audio](./Programming/HTML/flash_video_audio/flash_video_audio.md)
