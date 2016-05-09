@@ -24,13 +24,13 @@ service mysql restart
 iii. Allow access with IP 10.10.50.127
 
 ```mysql
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'10.10.50.127' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'10.10.50.127' IDENTIFIED BY "password" WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
 
 iv. Allow access with different IP
 
 ```mysql
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY "password" WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 ```
