@@ -151,7 +151,10 @@ Here I have listed some meta elments which are either deprecated or not supporte
 <meta http-equiv="refresh" content="300;url=https://example.com/">
 
 <!-- cache -->
-<!-- Deprecated because: There's no point in doing cache control on client side. It is better to configure it on server side than in meta data -->
+<!--
+    Deprecated because: There's no point in doing cache control on client side.
+    It is better to configure it on server side than in meta data
+-->
 <meta http-equiv="Expires" content="0">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
