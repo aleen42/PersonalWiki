@@ -219,6 +219,8 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- apple safari -->
 <!-- Pinned Site -->
 <link rel="mask-icon" href="icon.svg" color="red">
+
+<!-- google Android 
 ```
 
 ###### Deprecated/Legacy
