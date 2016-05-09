@@ -23,6 +23,3 @@
 - [**Layers of Nodes**](./node/node.md)
 - [**Access Relative Nodes**](./access/access.md)
 
-### 4. HEAD
-
-- [**About head tag**](./head/head.md)
