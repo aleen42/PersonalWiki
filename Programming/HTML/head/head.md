@@ -217,7 +217,8 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- More info: https://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html -->
 
 <!-- apple safari -->
-
+<!-- Pinned Site -->
+<link rel="mask-icon" href="icon.svg" color="red">
 ```
 
 ###### Deprecated/Legacy
