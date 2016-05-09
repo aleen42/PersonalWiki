@@ -392,3 +392,16 @@ Here I have listed some meta elments which are either deprecated or not supporte
 
 #### App Links
 
+```html
+<!-- iOS -->
+<meta property="al:ios:url" content="applinks://docs">
+<meta property="al:ios:app_store_id" content="12345">
+<meta property="al:ios:app_name" content="App Links">
+<!-- Android -->
+<meta property="al:android:url" content="applinks://docs">
+<meta property="al:android:app_name" content="App Links">
+<meta property="al:android:package" content="org.applinks">
+<!-- Web Fallback -->
+<meta property="al:web:url" content="http://applinks.org/documentation">
+<!-- More info: http://applinks.org/documentation/ -->
+```
