@@ -9,5 +9,6 @@ This document is based on the article "[What we can put into the HEAD tag](https
 <title>Page Title</title>
 
 <!-- base url for relative path of sources -->
+<!-- in HTML, base tag can be without close tag -->
 <base href="http://aleen42.github.io">
 ```
