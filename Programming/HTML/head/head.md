@@ -9,4 +9,5 @@ This document is based on the article "[What we can put into the HEAD tag](https
 <title>Page Title</title>
 
 <!-- base url for relative path of sources -->
+<base href="http://aleen42.github.io">
 ```
