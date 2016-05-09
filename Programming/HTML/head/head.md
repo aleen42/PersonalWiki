@@ -270,7 +270,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- Disable the UC browser's feature of "scaling font up when there are many words in this page" -->
 <meta name="wap-font-scale" content="no">
 
-<!-- QQ Mobile Browser 
+<!-- QQ Mobile Browser -->
+<!-- Locks the screen into the specified orientation -->
+<meta name="x5-orientation" content="landscape/portrait">
+<!-- Display this page in fullscreen -->
+<meta name="x5-fullscreen" content="true">
+<!-- Page will be displayed in "application mode"(fullsreen,etc.) -->
+<meta name="x5-page-mode" content="app">
 ```
 
 ###### Deprecated/Legacy
