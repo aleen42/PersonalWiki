@@ -37,4 +37,5 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- HTML5 -->
 <meta charset="utf-8">
 
+<!-- use the newest IE version and Chrome -->
 ```
