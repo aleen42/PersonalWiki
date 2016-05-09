@@ -31,16 +31,34 @@ body {
 This kind of elements will provide meta data about HTML documents, and they won't be shown on the page. However, they can be read by machines, used for browsers, search engine and other web servers.
 
 ```html
-<!-- content-type(setting fonts set) -->
+<!-- 
+
+
+    content-type(setting fonts set)
+
+
+-->
 <!-- HTML old version -->
 <meta http-equiv="content-Type" content="text/html;charset=utf-8">
 <!-- HTML5 -->
 <meta charset="utf-8">
 
-<!-- use the newest IE version and Chrome -->
+<!--
+
+
+    use the newest IE version and Chrome
+
+
+-->
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-<!-- kernel control -->
+<!--
+    
+    
+    kernel control
+
+
+-->
 <!-- 
     most browsers in China will use one of these kernels: Webkit for Chrome or Trident for IE.
     Webkit: used for fast rendering
