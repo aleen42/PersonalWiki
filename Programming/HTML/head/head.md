@@ -103,6 +103,9 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="rating" content="General">
 <meta name="referrer" content="never">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+<!-- social elements ->
+
 ```
 
 ###### Deprecated/Legacy
