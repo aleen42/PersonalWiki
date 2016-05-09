@@ -75,7 +75,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- subjects -->
 <meta name="subject" content="your subjects of your site">
 
-<!-- search engine -->
+<!-- search engines -->
 <!-- 
     content value:
     "all": file will get index, and all the links of this site can be searched.
@@ -119,5 +119,6 @@ Here I have listed some meta elments which are either deprecated or not supporte
 <!-- HTML5 -->
 <meta http-equiv="content-language" content="zh-CN" />
 
+<!-- search engines -->
 <meta name="robots" content="index,follow">
 ```
