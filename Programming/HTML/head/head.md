@@ -228,7 +228,10 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
 
 <!-- google Chrome -->
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
 
+<!-- Disable translation prompt -->
+<meta name="google" value="notranslate">
 ```
 
 ###### Deprecated/Legacy
