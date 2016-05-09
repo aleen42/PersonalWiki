@@ -232,6 +232,9 @@ This kind of elements will provide meta data about HTML documents, and they won'
 
 <!-- Disable translation prompt -->
 <meta name="google" value="notranslate">
+
+<!-- microsoft Internet Explorer -->
+
 ```
 
 ###### Deprecated/Legacy
