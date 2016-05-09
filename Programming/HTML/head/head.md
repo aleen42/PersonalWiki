@@ -213,5 +213,5 @@ This kind of elements is used to define a relationship between the document and 
 Here I have listed some meta elments which are either deprecated or not supported in browsers anymore.
 
 ```html
-
+<link rel="shortcut icon" href="path/to/favicon.ico">
 ```
