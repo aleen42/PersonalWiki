@@ -405,3 +405,8 @@ Here I have listed some meta elments which are either deprecated or not supporte
 <meta property="al:web:url" content="http://applinks.org/documentation">
 <!-- More info: http://applinks.org/documentation/ -->
 ```
+
+#### Other Resources
+
+- [HTML5 Boilerplate Docs: The HTML](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/html.md)
+- [HTML5 Boilerplate Docs: Extend and customize](https://github.com/h5bp/html5-boilerplate/blob/master/dist/doc/extend.md)
