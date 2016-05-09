@@ -4,3 +4,6 @@ This document is based on the article "[What we can put into the HEAD tag](https
 
 #### Normal Elements
 
+```html
+<!-- title of the document -->
+```
