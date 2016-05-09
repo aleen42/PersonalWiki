@@ -54,5 +54,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
     and if the website is not reponsive, it's not recommended that 
     use `initial-scale=1` and `user-scalable=no`
 -->
-<meta name="viewport" content="width=device-width, initial-scale=1"
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- keywords -->
 ```
