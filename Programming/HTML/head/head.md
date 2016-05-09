@@ -109,7 +109,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- subjects -->
 <meta name="subject" content="your subjects of your site">
 
-<!-- search engines -->
+<!--
+
+
+    search engines
+
+
+-->
 <!-- 
     content value:
     "all": file will get index, and all the links of this site can be searched.
