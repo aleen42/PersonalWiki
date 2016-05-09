@@ -88,5 +88,6 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- 
     content value:
     "all": file will get index, and all the links of this site can be searched.
+    "none": file won't get index, and all the links of this site cannot be searched.
 -->
 ```
