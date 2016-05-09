@@ -128,6 +128,8 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="twitter:image" content="https://example.com/image.jpg">
 <!-- More info: https://dev.twitter.com/cards/getting-started -->
 <!-- Validate: https://dev.twitter.com/docs/cards/validation/validator -->
+
+<!-- Google+/Schema.org 
 ```
 
 ###### Deprecated/Legacy
