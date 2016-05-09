@@ -234,7 +234,16 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="google" value="notranslate">
 
 <!-- microsoft Internet Explorer -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta http-equiv="cleartype" content="on">
+<meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
 
+<!-- Pinned Site -->
+<!-- IE 10 / Windows 8 -->
+<meta name="msapplication-TileImage" content="pinned-tile-144.png">
+<meta name="msapplication-TileColor" content="#009900">
+<!-- IE 11 / Windows 9.1 -->
+<meta name="msapplication-config" content="ieconfig.xml">
 ```
 
 ###### Deprecated/Legacy
