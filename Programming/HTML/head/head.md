@@ -269,6 +269,8 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="layoutmode" content="fitscreen">
 <!-- Disable the UC browser's feature of "scaling font up when there are many words in this page" -->
 <meta name="wap-font-scale" content="no">
+
+<!-- QQ Mobile Browser 
 ```
 
 ###### Deprecated/Legacy
