@@ -9,6 +9,7 @@
 - [**Image**](./image/image.md)
 - [**Tables**](./tables/tables.md)
 - [**Forms**](./forms/forms.md)
+- [**Head**](./head/head.md)
 
 ### 2. Extra
 
