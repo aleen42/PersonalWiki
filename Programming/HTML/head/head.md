@@ -93,7 +93,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 -->
 <meta name="keywords" content="aleen42,personalwiki">
 
-<!-- description -->
+<!--
+
+
+    description
+    
+
+-->
 <!--
     each site should have a description itself which should not be
     more than 150 characters.
