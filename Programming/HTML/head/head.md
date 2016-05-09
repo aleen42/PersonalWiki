@@ -127,7 +127,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 -->
 <meta name="googlebot" content="index,follow">
 
-<!-- other elements -->
+<!--
+
+
+    other elements
+    
+
+-->
 <meta name="google" content="nositelinkssearchbox">
 <meta name="google-site-verification" content="verification_token">
 <meta name="abstract" content="">
