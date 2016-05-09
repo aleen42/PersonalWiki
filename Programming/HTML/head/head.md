@@ -77,7 +77,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 
 <!-- language -->
 <!-- 
-    this meta elements is deprecated and better use <html lang="">
+    this meta elements is deprecated and better use <html lang=""> instead
 -->
 <meta name="language" content="zh-CN">
 ```
