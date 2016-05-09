@@ -110,3 +110,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 
 Here I have listed some meta elments which are either deprecated or not supported in browsers anymore.
 
+```html
+<!-- language -->
+<!-- 
+    this meta elements is deprecated and better use <html lang=""> instead.
+-->
+<!-- HTML old version -->
+<meta name="language" content="zh-CN">
+<!-- HTML5 -->
+<meta http-equiv="content-language" content="zh-CN" />
+```
