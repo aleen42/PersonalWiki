@@ -186,7 +186,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta itemprop="description" content="Content description less than 200 characters">
 <meta itemprop="image" content="https://example.com/image.jpg">
 
-<!-- browsers/platforms elements ->
+<!--
+
+    
+    browsers/platforms elements
+
+
+-->
 <!-- apple iOS -->
 <!-- Smart App Banner -->
 <meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
