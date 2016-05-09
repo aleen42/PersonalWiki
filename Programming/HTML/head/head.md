@@ -114,3 +114,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="referrer" content="never">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 ```
+
+###### Deprecated/Legacy
+
+Here I have listed some meta elments which are either deprecated or not supported in browsers anymore.
