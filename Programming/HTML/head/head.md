@@ -12,6 +12,6 @@ This document is based on the article "[What we can put into the HEAD tag](https
 <!-- in HTML, base tag can be without closed tag -->
 <base href="http://aleen42.github.io">
 <!-- in XHTML, the closed tag should be here -->
-
+<base href="http://aleen42.github.io" />
 
 ```
