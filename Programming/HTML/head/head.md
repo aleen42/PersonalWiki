@@ -117,6 +117,9 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta property="article:author" content="">
 <!-- Facebook: https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <!-- Open Graph: http://ogp.me/ -->
+
+<!-- Twitter -->
+
 ```
 
 ###### Deprecated/Legacy
