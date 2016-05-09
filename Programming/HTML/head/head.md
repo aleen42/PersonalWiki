@@ -85,4 +85,8 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta http-equiv="content-language" content="zh-CN" />
 
 <!-- search engine -->
+<!-- 
+    content value:
+    "all": file will get index, and all the links of this site can be searched.
+-->
 ```
