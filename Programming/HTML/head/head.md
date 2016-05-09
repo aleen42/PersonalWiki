@@ -94,4 +94,6 @@ This kind of elements will provide meta data about HTML documents, and they won'
     "noindex": file won't get index.
     "nofollow": all the links of this site cannot be searched.
 -->
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
 ```
