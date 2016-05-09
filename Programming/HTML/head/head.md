@@ -165,5 +165,38 @@ Here I have listed some meta elments which are either deprecated or not supporte
 This kind of elements is used to define a relationship between the document and other outdoor resources.
 
 ```html
+<link rel="copyright" href="copyright.html">
+<link rel="stylesheet" href="https://example.com/styles.css">
+<link rel="alternate" href="https://feeds.feedburner.com/martini" type="application/rss+xml" title="RSS">
+<link rel="alternate" href="https://example.com/feed.atom" type="application/atom+xml" title="Atom 0.3">
+<link rel="alternate" href="https://es.example.com/" hreflang="es">
+<link rel="me" href="https://google.com/profiles/thenextweb" type="text/html">
+<link rel="archives" href="https://example.com/2003/05/" title="May 2003">
+<link rel="index" href="https://example.com/" title="DeWitt Clinton">
+<link rel="start" href="https://example.com/photos/pattern_recognition_1_about/" title="Pattern Recognition 1">
+<link rel="prev" href="https://example.com/opensearch/opensearch-and-openid-a-sure-way-to-get-my-attention/" title="OpenSearch and OpenID? A sure way to get my attention.">
+<link rel="search" href="/search.xml" type="application/opensearchdescription+xml" title="Viatropos">
+<link rel="self" type="application/atom+xml" href="https://example.com/atomFeed.php?page=3">
+<link rel="first" href="https://example.com/atomFeed.php">
+<link rel="next" href="https://example.com/atomFeed.php?page=4">
+<link rel="previous" href="https://example.com/atomFeed.php?page=2">
+<link rel="last" href="https://example.com/atomFeed.php?page=147">
+<link rel="shortlink" href="https://example.com/?p=43625">
+<link rel="canonical" href="https://example.com/2010/06/9-things-to-do-before-entering-social-media.html">
+<link rel="amphtml" href="https://www.example.com/url/to/amp-version.html">
+<link rel="EditURI" href="https://example.com/xmlrpc.php?rsd" type="application/rsd+xml" title="RSD">
+<link rel="pingback" href="https://example.com/xmlrpc.php">
+<link rel="webmention" href="https://example.com/webmention">
+<link rel="manifest" href="manifest.json">
+<link rel="author" href="humans.txt">
+<link rel="import" href="component.html">
 
+<!-- Prefetching, preloading, prebrowsing -->
+<link rel="dns-prefetch" href="//example.com/">
+<link rel="preconnect" href="https://www.example.com/">
+<link rel="prefetch" href="https://www.example.com/">
+<link rel="prerender" href="https://example.com/">
+<link rel="subresource" href="styles.css">
+<link rel="preload" href="image.png">
+<!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 ```
