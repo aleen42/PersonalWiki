@@ -30,3 +30,6 @@ body {
 
 This kind of elements will provide meta data about HTML documents, and they won't be shown on the page. However, they can be read by machines, used for browsers, search engine and other web servers.
 
+```html
+
+```
