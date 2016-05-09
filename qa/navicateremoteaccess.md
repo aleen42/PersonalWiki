@@ -21,8 +21,11 @@ ii. Store and restart the service
 ```bash
 service mysql restart
 ```
+iii. Allow access with IP 10.10.50.127
 
-iii. Allow access with different IP
+
+
+iv. Allow access with different IP
 
 ```mysql
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
