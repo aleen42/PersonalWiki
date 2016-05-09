@@ -227,6 +227,8 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="mobile-web-app-capable" content="yes">
 <!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
 
+<!-- google Chrome -->
+
 ```
 
 ###### Deprecated/Legacy
