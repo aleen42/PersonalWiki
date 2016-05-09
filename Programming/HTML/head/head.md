@@ -244,6 +244,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="msapplication-TileColor" content="#009900">
 <!-- IE 11 / Windows 9.1 -->
 <meta name="msapplication-config" content="ieconfig.xml">
+
 ```
 
 ###### Deprecated/Legacy
