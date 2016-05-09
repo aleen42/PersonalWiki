@@ -23,4 +23,5 @@ body {
 </style>
 
 <!-- script -->
+<script type="text/javascript"></script>
 ```
