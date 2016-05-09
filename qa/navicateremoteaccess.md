@@ -22,7 +22,7 @@ ii. Store and restart the service
 service mysql restart
 ```
 
-iii. Allow aceess with different IP
+iii. Allow accessment with different IP
 
 ```mysql
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
