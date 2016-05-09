@@ -91,5 +91,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
     "none": file won't get index, and all the links of this site cannot be searched.
     "index": file will get index.
     "follow": all the links of this site can be searched.
+    "noindex": file won't get index.
+    "nofollow": all the links of this site cannot be searched.
 -->
 ```
