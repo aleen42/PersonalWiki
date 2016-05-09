@@ -75,15 +75,6 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- subjects -->
 <meta name="subject" content="your subjects of your site">
 
-<!-- language -->
-<!-- 
-    this meta elements is deprecated and better use <html lang=""> instead.
--->
-<!-- HTML old version -->
-<meta name="language" content="zh-CN">
-<!-- HTML5 -->
-<meta http-equiv="content-language" content="zh-CN" />
-
 <!-- search engine -->
 <!-- 
     content value:
