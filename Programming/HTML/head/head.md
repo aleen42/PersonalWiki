@@ -162,4 +162,4 @@ Here I have listed some meta elments which are either deprecated or not supporte
 
 #### Link Elements
 
-
+This kind of elements is used to define a relationship between the document and other outdoor resources.
