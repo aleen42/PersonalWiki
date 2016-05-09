@@ -123,5 +123,6 @@ Here I have listed some meta elments which are either deprecated or not supporte
 <!-- Deprecated because: Ignored by search engines. Better use robots.txt or modify .htaccess -->
 <meta name="robots" content="index,follow">
 
-
+<!-- Deprecated because: No evidence of use in any search engines -->
+<meta name="revised" content="Monday, May 9th, 2016, 11:27 am"> 
 ```
