@@ -28,3 +28,4 @@ body {
 
 #### Meta Elements
 
+this kind of tags will provide meta data about HTML documents, and they won't be shown on the page.
