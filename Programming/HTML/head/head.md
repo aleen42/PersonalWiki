@@ -33,4 +33,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 ```html
 <!-- content-type(setting fonts set) -->
 <!-- HTML old version -->
+<meta http-equiv="content-Type" content="text/html;charset=utf-8">
+
+
 ```
