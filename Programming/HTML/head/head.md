@@ -50,6 +50,6 @@ This kind of elements will provide meta data about HTML documents, and they won'
 
 <!-- viewport for mobile website -->
 <!--
-    viewport is used to optimize presentation of mobile website, and if the website is not reponsive, it's not recommended that use `initial-scale` and `user-scalable=no`
+    viewport is used to optimize presentation of mobile website, and if the website is not reponsive, it's not recommended that use `initial-scale=1` and `user-scalable=no`
 -->
 ```
