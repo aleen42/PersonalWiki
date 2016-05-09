@@ -118,3 +118,4 @@ This kind of elements will provide meta data about HTML documents, and they won'
 ###### Deprecated/Legacy
 
 Here I have listed some meta elments which are either deprecated or not supported in browsers anymore.
+
