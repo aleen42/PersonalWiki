@@ -35,6 +35,6 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- HTML old version -->
 <meta http-equiv="content-Type" content="text/html;charset=utf-8">
 <!-- HTML5 -->
-
+<meta charset="utf-8">
 
 ```
