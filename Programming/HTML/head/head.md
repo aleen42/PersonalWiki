@@ -43,7 +43,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- kernel control -->
 <!-- 
     most browsers in China will use one of these kernels: Webkit for Chrome or Trident for IE,
-    Webkit: used for fast renderer
+    Webkit: used for fast rendering
     Trident: used for compatibility of old sites
 -->
 <meta name="rende
