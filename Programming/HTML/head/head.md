@@ -15,6 +15,11 @@ This document is based on the article "[What we can put into the HEAD tag](https
 <base href="http://aleen42.github.io" />
 
 <!-- style sheets -->
-
+<style>
+body {
+    margin: 0; 
+    padding: 0;
+}
+</style>
 
 ```
