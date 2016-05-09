@@ -57,5 +57,5 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- keywords -->
-<meta name="keywords" content="aleen42,personalwiki”》
+<meta name="keywords" content="aleen42,personalwiki">
 ```
