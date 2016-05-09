@@ -41,5 +41,7 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 <!-- kernel control -->
-
+<!-- 
+    all the browsers in China 
+-->
 ```
