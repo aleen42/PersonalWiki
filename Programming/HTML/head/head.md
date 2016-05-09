@@ -49,5 +49,6 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="renderer" content="webkit|ie-comp|ie_stand">
 
 <!-- viewport for mobile website -->
-
+<!--
+-->
 ```
