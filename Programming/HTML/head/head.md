@@ -254,7 +254,21 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- select rendering engine in order -->
 <meta name="renderer" content="webkit|ie-comp|ie-stand">
 
-<!-- UC Mobile 
+<!-- UC Mobile Browser -->
+<!-- Locks the screen into the specified orientation -->
+<meta name="screen-orientation" content="landscape/portrait">
+<!-- Display this page in fullscreen -->
+<meta name="full-screen" content="yes">
+<!-- UC browser will display images even if in "text mode" -->
+<meta name="imagemode" content="force">
+<!-- Page will be displayed in "application mode"(fullsreen,forbiding gesture, etc.) -->
+<meta name="browsermode" content="application">
+<!-- Disabled the UC browser's "night mode" in this page -->
+<meta name="nightmode" content="disable">
+<!-- Simplify the page to reduce data transfer -->
+<meta name="layoutmode" content="fitscreen">
+<!-- Disable the UC browser's feature of "scaling font up when there are many words in this page" -->
+<meta name="wap-font-scale" content="no">
 ```
 
 ###### Deprecated/Legacy
