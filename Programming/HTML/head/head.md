@@ -149,4 +149,8 @@ Here I have listed some meta elments which are either deprecated or not supporte
 <!-- redirect -->
 <!-- Google strongly advises not to use this. Better to set up Apache redirects instead -->
 <meta http-equiv="refresh" content="300;url=https://example.com/">
+
+<!-- cache -->
+
+
 ```
