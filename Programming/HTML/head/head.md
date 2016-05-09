@@ -215,6 +215,9 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <link rel="apple-touch-startup-image" href="startup.png">
 
 <!-- More info: https://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html -->
+
+<!-- apple safari -->
+
 ```
 
 ###### Deprecated/Legacy
