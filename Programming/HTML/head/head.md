@@ -159,3 +159,5 @@ Here I have listed some meta elments which are either deprecated or not supporte
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
 ```
+
+#### Link Elements
