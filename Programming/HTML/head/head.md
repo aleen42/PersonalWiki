@@ -220,7 +220,13 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <!-- Pinned Site -->
 <link rel="mask-icon" href="icon.svg" color="red">
 
-<!-- google Android 
+<!-- google Android -->
+<meta name="theme-color" content="#E64545">
+
+<!-- Add to homescreen -->
+<meta name="mobile-web-app-capable" content="yes">
+<!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
+
 ```
 
 ###### Deprecated/Legacy
