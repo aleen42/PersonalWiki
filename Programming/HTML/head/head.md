@@ -58,7 +58,10 @@ This kind of elements will provide meta data about HTML documents, and they won'
 
 <!-- keywords -->
 <!--
-    keywords is used for easily searching in a search engine.
+    keywords is used for easily searching in a search engine. When you
+    set up your keywords, people can search your website with the keywords
+    you set.
+    It's suggested to set more keywords and not more than 974 characters.
 -->
 <meta name="keywords" content="aleen42,personalwiki">
 ```
