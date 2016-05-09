@@ -38,5 +38,5 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta charset="utf-8">
 
 <!-- use the newest IE version and Chrome -->
-
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 ```
