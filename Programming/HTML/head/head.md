@@ -8,5 +8,5 @@ This document is based on the article "[What we can put into the HEAD tag](https
 <!-- title of the document -->
 <title>Page Title</title>
 
-
+<!-- base url for relative path of sources -->
 ```
