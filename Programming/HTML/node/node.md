@@ -36,6 +36,3 @@ removeChild(Node)|Node|remove a node from the list - **childNodes**
 replaceChild(newnode, oldnode)|Node|replace an oldnode from the list - **childNodes** with the newnode
 insertBefore(newnode, refnode)|Node|add a newnode into the list - **childNodes** before the refnode
 
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
