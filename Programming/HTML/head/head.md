@@ -98,4 +98,19 @@ This kind of elements will provide meta data about HTML documents, and they won'
 <meta name="googlebot" content="index,follow">
 
 <!-- other elements -->
+<meta name="google" content="nositelinkssearchbox">
+<meta name="google-site-verification" content="verification_token">
+<meta name="abstract" content="">
+<meta name="topic" content="">
+<meta name="summary" content="">
+<meta name="classification" content="business">
+<meta name="url" content="https://example.com/">
+<meta name="identifier-URL" content="https://example.com/">
+<meta name="directory" content="submission">
+<meta name="category" content="">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="rating" content="General">
+<meta name="referrer" content="never">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 ```
