@@ -200,3 +200,5 @@ This kind of elements is used to define a relationship between the document and 
 <link rel="preload" href="image.png">
 <!-- More info: https://css-tricks.com/prefetching-preloading-prebrowsing/ -->
 ```
+
+#### Favicons Elements
