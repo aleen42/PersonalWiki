@@ -47,6 +47,3 @@
 21|image/jpeg|jpeg jpg jpe|JPEG 图像
 22|image/png|png|PNG 图像
 
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
