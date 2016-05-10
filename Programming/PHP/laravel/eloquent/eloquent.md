@@ -211,5 +211,6 @@ $users = User::with('hasOneAccount')->take(10)->get();
 ### 5. Specific Attributes
 
 ```php
-
+/** Key and Value */
+$tagsName = Tag::select('name')->get();
 ```
