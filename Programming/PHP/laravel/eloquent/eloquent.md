@@ -209,3 +209,4 @@ $users = User::with('hasOneAccount')->take(10)->get();
 ```
 
 ### 5. Specific Attributes
+
