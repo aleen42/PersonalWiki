@@ -213,4 +213,7 @@ $users = User::with('hasOneAccount')->take(10)->get();
 ```php
 /** Key and Value */
 $tagsName = Tag::select('name')->get();
+
+/** Only Value */
+$tagsNameValue = Tag::pluck('name');
 ```
