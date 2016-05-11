@@ -33,7 +33,7 @@
 ![](https://img.shields.io/badge/PostScript-145k-021a28.svg)
 ![](https://img.shields.io/badge/CSS-113k-02888e.svg)
 ![](https://img.shields.io/badge/PHP-83k-003d40.svg)
-![](https://img.shields.io/badge/C%2B%2B-56k-096195.svg)
+![](https://img.shields.io/badge/C%2B%2B-56k-057791.svg)
 ![](https://img.shields.io/badge/Shell-8k-084d5d.svg)
 
 ##### Menus
