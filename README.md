@@ -24,7 +24,7 @@
 
 ![](https://img.shields.io/badge/Code-5m-076c70.svg)
 
-![](https://img.shields.io/badge/HTML-2m-02888e.svg)<br/>
+![](https://img.shields.io/badge/HTML-2000000-02888e.svg)<br/>
 ![](https://img.shields.io/badge/Java-976k-0a5f73.svg)<br/>
 ![](https://img.shields.io/badge/C%23-655k-002426.svg)<br/>
 ![](https://img.shields.io/badge/C-450k-002426.svg)<br/>
