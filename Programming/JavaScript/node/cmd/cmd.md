@@ -20,3 +20,8 @@ In the following case, this comand line is named `cls`
 console.log('cls command');
 ```
 
+#### Run `npm link` to install script on the OS
+
+```bash
+sudo npm link
+```
