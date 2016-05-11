@@ -22,15 +22,8 @@
 
 ##### Code Statistic
 
-![](https://img.shields.io/badge/Code-5m-95b03c.svg)  
+![](https://img.shields.io/badge/Code-5m-076c70.svg)
 
-![](https://img.shields.io/badge/HTML-2m-3671e5.svg) ![](https://img.shields.io/badge/Java-976k-ae1530.svg) ![](https://img.shields.io/badge/C%23-655k-449fd9.svg)
-![](https://img.shields.io/badge/C-450k-8e732b.svg)
-![](https://img.shields.io/badge/Visual%20Basic-279k-ef3457.svg)
-![](https://img.shields.io/badge/JavaScript-211k-b6e348.svg)
-![](https://img.shields.io/badge/PostScript-145k-6ab49e.svg)
-![](https://img.shields.io/badge/CSS-113k-cff3eb.svg)
-![](https://img.shields.io/badge/PHP-83k-8dba22.svg)
 
 
 ##### Menus
