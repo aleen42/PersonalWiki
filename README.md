@@ -22,7 +22,7 @@
 
 ##### Code Statistic
 
-![](https://img.shields.io/badge/Code-5m-076c70.svg)
+![](https://img.shields.io/badge/Code-4567,447-011f26.svg)
 
 ![](https://img.shields.io/badge/HTML-2000000-02888e.svg)<br/>
 ![](https://img.shields.io/badge/Java-976k-0a5f73.svg)<br/>
