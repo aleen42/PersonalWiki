@@ -22,8 +22,6 @@
 
 ##### Code Statistic (lines)
 
-![](https://img.shields.io/badge/Code-%20%20%204,567,447-057791.svg)
-
 ![](https://img.shields.io/badge/HTML-%20%20%201,589,401-02888e.svg)<br/>
 ![](https://img.shields.io/badge/Java-%20%20%20976,464-02888e.svg)<br/>
 ![](https://img.shields.io/badge/C%23-%20%20%20655,067-076c70.svg)<br/>
