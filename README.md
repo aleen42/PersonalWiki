@@ -22,14 +22,7 @@
 
 ##### Code Statistic
 
-![](https://img.shields.io/badge/Code-775,867-011f26.svg?logoWidth=144)
-
-![](https://img.shields.io/badge/JavaScript-634,453-084d5d.svg?logoWidth=90)
-
-![](https://img.shields.io/badge/HTML-105,007-021a28.svg?logoWidth=144)
-
-![](https://img.shields.io/badge/CSS-36,407-0a5f73.svg?logoWidth=153) 
-
+![](https://img.shields.io/badge/Code-4,567,447-057791.svg)
 
 ![](https://img.shields.io/badge/HTML-1,589,401-02888e.svg)<br/>
 ![](https://img.shields.io/badge/Java-976,464-02888e.svg)<br/>
@@ -42,8 +35,6 @@
 ![](https://img.shields.io/badge/PHP-82,556-0a5f73.svg)<br/>
 ![](https://img.shields.io/badge/C%2B%2B-56,122-05575b.svg)<br/>
 ![](https://img.shields.io/badge/Shell-8,351-076c70.svg)<br/>
-![](https://img.shields.io/badge/ApacheConf-412-02888e.svg)<br/>
-![](https://img.shields.io/badge/Makefile-234-003d40.svg)<br/>
 
 ##### Menus
 
