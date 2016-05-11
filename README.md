@@ -20,7 +20,7 @@
 
 ### Coder
 
-##### Code Statistic (lines)
+##### Code Statistic from GitHub projects (lines)
 
 ![](https://img.shields.io/badge/Code-%20%20%204,567,447-057791.svg)
 
