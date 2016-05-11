@@ -44,6 +44,7 @@
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [node.js](./Programming/JavaScript/node/node.md)
                 * [Create and publish a node.js module](./Programming/JavaScript/node/npm/npm.md)
+                * [Use Node to write a command line tool](./Programming/JavaScript/node/cmd/cmd.md)
             * [ReactJS](./Programming/JavaScript/react/react.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
