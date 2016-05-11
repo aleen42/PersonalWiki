@@ -35,6 +35,8 @@
 ![](https://img.shields.io/badge/PHP-82,556-0a5f73.svg)<br/>
 ![](https://img.shields.io/badge/C%2B%2B-56,122-05575b.svg)<br/>
 ![](https://img.shields.io/badge/Shell-8,351-076c70.svg)<br/>
+![](https://img.shields.io/badge/Shell-8,351-076c70.svg)<br/>
+![](https://img.shields.io/badge/Shell-8,351-076c70.svg)<br/>
 
 ##### Menus
 
