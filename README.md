@@ -22,6 +22,19 @@
 
 ##### Code Statistic from GitHub projects (lines)
 
+![](https://img.shields.io/badge/%20%20HTML-%20%20%20%201,589,401-057791.svg)
+![](https://img.shields.io/badge/%20%20Java-%20%20%20%20976,464-02888e.svg)
+![](https://img.shields.io/badge/%20%20C%23-%20%20%20%20655,067-023541.svg)
+![](https://img.shields.io/badge/%20%20C-%20%20%20%20449,812-01939a.svg)
+![](https://img.shields.io/badge/%20%20Visual%20Basic-%20%20%20%20279,412-0a5f73.svg)
+![](https://img.shields.io/badge/%20%20JavaScript-%20%20%20%20210,906-00595e.svg)
+![](https://img.shields.io/badge/%20%20PostScript-%20%20%20%20145,347-0a5f73.svg)
+![](https://img.shields.io/badge/%20%20CSS-%20%20%20%20113,363-084d5d.svg)
+![](https://img.shields.io/badge/%20%20PHP-%20%20%20%2082,556-0a5f73.svg)
+![](https://img.shields.io/badge/%20%20C%2B%2B-%20%20%20%2056,122-01939a.svg)
+![](https://img.shields.io/badge/%20%20Shell-%20%20%20%208,351-02888e.svg)
+![](https://img.shields.io/badge/%20%20ApacheConf-%20%20%20%20412-00666b.svg)
+![](https://img.shields.io/badge/%20%20Makefile-%20%20%20%20234-00666b.svg)
 
 
 ##### Menus
