@@ -59,3 +59,4 @@ node script.js
 ### Menu
 
 - [**Create and publish a node.js module**](./npm/npm.md)
+- [**Use Node to write a command line tool**](./cmd/cmd.md)
