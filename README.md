@@ -24,8 +24,8 @@
 
 ![](https://img.shields.io/badge/Code-4,567,447-057791.svg)
 
-![](https://img.shields.io/badge/HTML-1589,401-02888e.svg)<br/>
-![](https://img.shields.io/badge/Java-976k-0a5f73.svg)<br/>
+![](https://img.shields.io/badge/HTML-1,589,401-02888e.svg)<br/>
+![](https://img.shields.io/badge/Java-976,464-02888e.svg)<br/>
 ![](https://img.shields.io/badge/C%23-655k-002426.svg)<br/>
 ![](https://img.shields.io/badge/C-450k-002426.svg)<br/>
 ![](https://img.shields.io/badge/Visual%20Basic-279k-0a5f73.svg)<br/>
