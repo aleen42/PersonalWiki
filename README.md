@@ -32,7 +32,7 @@
 ![](https://img.shields.io/badge/JavaScript-210,906-003d40.svg)<br/>
 ![](https://img.shields.io/badge/PostScript-145,347-057791.svg)<br/>
 ![](https://img.shields.io/badge/CSS-113,363-0a5f73.svg)<br/>
-![](https://img.shields.io/badge/PHP-83k-003d40.svg)<br/>
+![](https://img.shields.io/badge/PHP-82,556-0a5f73.svg)<br/>
 ![](https://img.shields.io/badge/C%2B%2B-56k-057791.svg)<br/>
 ![](https://img.shields.io/badge/Shell-8k-084d5d.svg)<br/>
 
