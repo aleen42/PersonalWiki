@@ -25,3 +25,9 @@ console.log('cls command');
 ```bash
 sudo npm link
 ```
+
+#### Uninstall
+
+```bash
+sudo npm rm --global cls
+```
