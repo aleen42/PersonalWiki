@@ -25,7 +25,7 @@
 ![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20Code-4,567,447-076c70.svg)
 
 ![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20HTML-%20%20%20%201,589,401-00595e.svg)<br/>
-![](https://img.shields.io/badge/Java-%20%20%20976,464-02888e.svg)<br/>
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20Java-%20%20%20%20976,464-017277.svg)<br/>
 ![](https://img.shields.io/badge/C%23-%20%20%20655,067-076c70.svg)<br/>
 ![](https://img.shields.io/badge/C-%20%20%20449,812-05575b.svg)<br/>
 ![](https://img.shields.io/badge/Visual%20Basic-%20%20%20279,412-023541.svg)<br/>
