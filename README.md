@@ -22,8 +22,6 @@
 
 ##### Code Statistic
 
-![](https://img.shields.io/badge/Smalltalk-13k-b777eb.svg)
-
 ##### Menus
 
 * [**Programming Language**](./Programming/ProgrammingMenu.md)
