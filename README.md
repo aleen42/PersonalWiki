@@ -19,6 +19,11 @@
     - [**mobi**](https://www.gitbook.com/download/mobi/book/aleen42/personalwiki)
 
 ### Coder
+
+#### Code Statistic
+
+
+
 * [**Programming Language**](./Programming/ProgrammingMenu.md)
 * [**Algorithm**](./Algorithmn/AlgorithmnMenu.md)
 * [**Thought**](./Thought/ThoughtMenu.md)
