@@ -29,6 +29,7 @@
 ![](https://img.shields.io/badge/Visual%20Basic-279k-ef3457.svg)
 ![](https://img.shields.io/badge/JavaScript-211k-b6e348.svg)
 ![](https://img.shields.io/badge/PostScript-145k-6ab49e.svg)
+![](https://img.shields.io/badge/CSS-113k-cff3eb.svg)
 
 ##### Menus
 
