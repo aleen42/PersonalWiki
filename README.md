@@ -22,19 +22,32 @@
 
 ##### Code Statistic (lines)
 
-![](https://img.shields.io/badge/Code-%20%20%204,567,447-057791.svg)
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20HTML-%20%20%20%201,589,401-023541.svg)
 
-![](https://img.shields.io/badge/HTML-%20%20%201,589,401-02888e.svg)<br/>
-![](https://img.shields.io/badge/Java-%20%20%20976,464-02888e.svg)<br/>
-![](https://img.shields.io/badge/C%23-%20%20%20655,067-076c70.svg)<br/>
-![](https://img.shields.io/badge/C-%20%20%20449,812-05575b.svg)<br/>
-![](https://img.shields.io/badge/Visual%20Basic-%20%20%20279,412-023541.svg)<br/>
-![](https://img.shields.io/badge/JavaScript-%20%20%20210,906-003d40.svg)<br/>
-![](https://img.shields.io/badge/PostScript-%20%20%20145,347-057791.svg)<br/>
-![](https://img.shields.io/badge/CSS-%20%20%20113,363-0a5f73.svg)<br/>
-![](https://img.shields.io/badge/PHP-%20%20%2082,556-0a5f73.svg)<br/>
-![](https://img.shields.io/badge/C%2B%2B-%20%20%2056,122-05575b.svg)<br/>
-![](https://img.shields.io/badge/Shell-%20%20%208,351-076c70.svg)<br/>
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Java-%20%20%20%20976,464-023541.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20C%23-%20%20%20%20655,067-017277.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20C-%20%20%20%20449,812-017277.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20Visual%20Basic-%20%20%20%20279,412-017277.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20JavaScript-%20%20%20%20210,906-023541.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20PostScript-%20%20%20%20145,347-057791.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20CSS-%20%20%20%20113,363-076c70.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20PHP-%20%20%20%2082,556-00595e.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20C%2B%2B-%20%20%20%2056,122-05575b.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Shell-%20%20%20%208,351-00595e.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20ApacheConf-%20%20%20%20412-1d8489.svg)
+
+![](https://img.shields.io/badge/%20%20%20%20%20%20%20%20%20%20%20Makefile-%20%20%20%20234-003d40.svg)
+
 
 ##### Menus
 
