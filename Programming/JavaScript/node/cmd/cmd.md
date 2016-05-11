@@ -15,4 +15,5 @@ In the following case, this comand line is named `cls`
 #### Then create a script `start.js` for this
 
 ```js
+
 ``
