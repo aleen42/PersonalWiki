@@ -24,7 +24,19 @@
 
 ![](https://img.shields.io/badge/Code-5m-076c70.svg)
 
-
+![](https://img.shields.io/badge/HTML-2m-02888e.svg)
+![](https://img.shields.io/badge/Java-976k-0a5f73.svg)
+![](https://img.shields.io/badge/C%23-655k-002426.svg)
+![](https://img.shields.io/badge/C-450k-002426.svg)
+![](https://img.shields.io/badge/Visual%20Basic-279k-0a5f73.svg)
+![](https://img.shields.io/badge/JavaScript-211k-05575b.svg)
+![](https://img.shields.io/badge/PostScript-145k-021a28.svg)
+![](https://img.shields.io/badge/CSS-113k-02888e.svg)
+![](https://img.shields.io/badge/PHP-83k-003d40.svg)
+![](https://img.shields.io/badge/C%2B%2B-56k-096195.svg)
+![](https://img.shields.io/badge/Shell-8k-084d5d.svg)
+![](https://img.shields.io/badge/ApacheConf-412-021a28.svg)
+![](https://img.shields.io/badge/Makefile-234-084d5d.svg)
 
 ##### Menus
 
