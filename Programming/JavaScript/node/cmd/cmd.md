@@ -7,7 +7,7 @@ In the following case, this comand line is named `cls`
 ```json
 {
     "bin": {
-        "
+        "cls": "lib/start.js"
     }
 }
 ```
