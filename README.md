@@ -22,7 +22,7 @@
 
 ##### Code Statistic
 
-![](https://img.shields.io/badge/Smalltalk-13k-b777eb.svg)  
+![](https://img.shields.io/badge/Smalltalk-13k-b777eb.svg)
 
 ##### Menus
 
