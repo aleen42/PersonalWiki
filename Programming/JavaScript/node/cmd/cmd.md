@@ -1,1 +1,1 @@
-## Create and publish a node.js module [Back](./../node.md)
+## Use Node to write a command line tool [Back](./../node.md)
