@@ -17,5 +17,5 @@ In the following case, this comand line is named `cls`
 ```js
 #! /usr/bin/env/node
 
-
-``
+console.log('cls command');
+```
