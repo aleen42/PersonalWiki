@@ -14,3 +14,9 @@ svn ls -R <repo_svn_url> |grep .js | xargs -n1 -i echo <repo_svn_url>/trunk/{} |
 ```bash
 svn cat <repo_svn_url>
 ```
+
+#### 3. Statistic Code Line for GitHub
+
+```bash
+svn ls -R <repo_svn_url>/trunk/ |grep .js | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}" | xargs svn cat | grep -v ^$ | wc -l
+```
