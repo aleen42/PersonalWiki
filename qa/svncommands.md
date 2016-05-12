@@ -6,7 +6,7 @@
 svn ls -R <repo_svn_url>/trunk/ | grep .js
 
 # locate with a whole path
-svn ls -R <repo_svn_url> |grep .js | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}"
+svn ls -R <repo_svn_url> | egrep "*.js$" | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}"
 ```
 
 #### 2. Cat file
@@ -18,5 +18,5 @@ svn cat <repo_svn_url>
 #### 3. Statistic Code Line for GitHub like JavaScript
 
 ```bash
-svn ls -R <repo_svn_url>/trunk/ |grep .js | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}" | xargs svn cat | grep -v ^$ | wc -l
+svn ls -R <repo_svn_url>/trunk/ | egrep "*.js$|*.jsx$" | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}" | xargs svn cat | grep -v ^$ | wc -l
 ```
