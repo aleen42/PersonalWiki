@@ -3,5 +3,5 @@
 #### 1. Locate file name
 
 ```bash
-svn ls -R https://github.com/aleen42/cookie.js | grep .js
+svn ls -R <repo_svn_url> | grep .js
 ```
