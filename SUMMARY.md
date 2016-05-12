@@ -45,6 +45,7 @@
             * [node.js](./Programming/JavaScript/node/node.md)
                 * [Create and publish a node.js module](./Programming/JavaScript/node/npm/npm.md)
                 * [Use Node to write a command line tool](./Programming/JavaScript/node/cmd/cmd.md)
+                * [Differences between spawn and exec of child_process](./Programming/JavaScript/node/child_process/child_process.md)
             * [ReactJS](./Programming/JavaScript/react/react.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
