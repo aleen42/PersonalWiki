@@ -60,3 +60,4 @@ node script.js
 
 - [**Create and publish a node.js module**](./npm/npm.md)
 - [**Use Node to write a command line tool**](./cmd/cmd.md)
+- [**Differences between spawn and exec of child_process**](./child_process/child_process.md)
