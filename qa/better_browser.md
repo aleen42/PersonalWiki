@@ -60,8 +60,3 @@
 - For Chrome:
 	- [**µMatrix**](https://chrome.google.com/webstore/detail/%C2%B5matrix/ogfcmafjalglgifnmanfmnieipoejdcf) allows you to selectively block Javascript, plugins or other resources and control third-party resources. It also features extensive privacy features like user-agent masquerading, referering blocking and so on. It effectively replaces NoScript and RequestPolicy.
 	- [**User-Agent Switcher**](https://chrome.google.com/webstore/detail/user-agent-switcher/ffhkkpnppgnfaobgihpdblnhmmbodake) will allow you to modify the HTTP User-Agent.
-
-
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
