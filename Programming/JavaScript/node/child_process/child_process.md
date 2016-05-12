@@ -5,3 +5,5 @@ The Node.js Child Processes module (**child_process**) has two functions **spawn
 The most significant difference between **child_process.spawn** and **child_process.exec** is in what they return - spawn returns a stream and exec returns a buffer.
 
 **child_process.spawn** returns an object with **stdout** and **stderr** streams. You can tap on the **stdout** stream to read data that the child process sends back to Node. **stdout** being a stream has the "data", "end", and other events that streams have. **spawn** is best used to when you want the child process to return a large amount of data to Node - image processing, reading binary data etc.
+
+**child_process.spawn** is "asynchronously asynchronous", meaning it starts sending back data from the child process in a stream as soon as the child process starts executing.
