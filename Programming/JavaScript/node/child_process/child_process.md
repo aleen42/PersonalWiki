@@ -12,4 +12,5 @@ You can see an example [here](http://www.hacksparrow.com/using-node-js-to-downlo
 
 **child_process.exec** returns the whole buffer output from the child process. By default the buffer size is set at 200k. If the child process returns anything more than that, you program will crash with the error message "Error: maxBuffer exceeded". You can fix that problem by setting a bigger buffer size in the **exec** options. But you should not do it because **exec** is not meant for processes that return HUGE buffers to Node. You should use **spawn** for that. So what do you use **exec** for? Use it to run programs that return result statuses, instead of data.
 
-**child_process.exec** is "synchronously asynchronous", meaning although the **exec** is asynchronous, it waits for the child process to end and tries to return all the buffered data at once. If the buffer size of exec is not set big enough, it fails with a "maxBuffer exceeded" error.
+**child_process.exec** is "synchronously asynchronous", meaning although the **exec** is asynchronous, it waits for the child process to end and tries to return all the buffered data at once. If the buffer size of **exec** is not set big enough, it fails with a "maxBuffer exceeded" error.
+
