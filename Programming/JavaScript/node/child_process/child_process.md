@@ -16,4 +16,4 @@ You can see an example [here](http://www.hacksparrow.com/using-node-js-to-downlo
 
 See an example [here](http://www.hacksparrow.com/using-node-js-to-download-files.html#nodejs-wget) where I used **exec** to execute wget to download files and update Node with the status the execution.
 
-So there it is - the differences between **span** and **exec** of Node's **child_process**. Use **spawn** when you want the child **process** to return huge binary data to Node, use **exec** when you want the child process to return simple status messages.
+So there it is - the differences between **span** and **exec** of Node's **child_process**. Use **spawn** when you want the child process to return huge binary data to Node, use **exec** when you want the child process to return simple status messages.
