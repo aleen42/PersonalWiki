@@ -8,4 +8,5 @@ The most significant difference between **child_process.spawn** and **child_proc
 
 **child_process.spawn** is "asynchronously asynchronous", meaning it starts sending back data from the child process in a stream as soon as the child process starts executing.
 
-You can see an example [here](http://www.hacksparrow.com/using-node-js-to-download-files.html#nodejs-curl) where I used spawn to read the results of a curl request to Node.
+You can see an example [here](http://www.hacksparrow.com/using-node-js-to-download-files.html#nodejs-curl) where I used **spawn** to read the results of a curl request to Node
+
