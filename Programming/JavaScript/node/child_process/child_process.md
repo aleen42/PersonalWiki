@@ -14,3 +14,4 @@ You can see an example [here](http://www.hacksparrow.com/using-node-js-to-downlo
 
 **child_process.exec** is "synchronously asynchronous", meaning although the **exec** is asynchronous, it waits for the child process to end and tries to return all the buffered data at once. If the buffer size of **exec** is not set big enough, it fails with a "maxBuffer exceeded" error.
 
+See an example [here](http://www.hacksparrow.com/using-node-js-to-download-files.html#nodejs-wget) where I used exec to execute wget to download files and update Node with the status the execution.
