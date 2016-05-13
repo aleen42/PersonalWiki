@@ -40,7 +40,7 @@
 
 ##### Code Statistic from GitHub projects (lines)
 
-
+Code Statistic from GitHub projects (bytes)
 
 ##### Menus
 
