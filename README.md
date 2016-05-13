@@ -40,7 +40,7 @@
 
 ##### Code Statistic from GitHub projects (lines)
 
-Code Statistic from GitHub projects (bytes)
+![](https://img.shields.io/badge/%20%20Code-%20%20%20%20136,068-a5240d.svg)
 
 ##### Menus
 
