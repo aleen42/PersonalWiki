@@ -38,7 +38,7 @@
 ![](https://img.shields.io/badge/%20%20ApacheConf-%20%20%20%20412-00666b.svg)
 ![](https://img.shields.io/badge/%20%20Makefile-%20%20%20%20234-076c70.svg)
 
-
+##### Code Statistic from GitHub projects (lines)
 
 ##### Menus
 
