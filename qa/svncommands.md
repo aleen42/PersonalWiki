@@ -9,7 +9,7 @@ svn ls -R <repo_svn_url>/trunk/ | grep .js
 # Linux
 svn ls -R <repo_svn_url> | egrep "*.js$|*.css$" | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}"
 # Mac OS
-svn ls -R <repo_svn_url> | egrep "*.js$|*.css$" | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}"
+svn ls -R <repo_svn_url> | grep -e .js$ -e .css$ | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}"
 ```
 
 #### 2. Cat file
