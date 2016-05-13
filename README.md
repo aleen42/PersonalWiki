@@ -54,7 +54,7 @@
 ![](https://img.shields.io/badge/%20%20C%2B%2B-%20%20%20%202,133-ba1c0b.svg)
 ![](https://img.shields.io/badge/%20%20Shell-%20%20%20%20222-a5240d.svg)
 ![](https://img.shields.io/badge/%20%20Makefile-%20%20%20%2015-ba1c0b.svg)
-![](https://img.shields.io/badge/%20%20Makefile-%20%20%20%2015-ba1c0b.svg)
+![](https://img.shields.io/badge/%20%20ApacheConf-%20%20%20%2013-a5100d.svg)  
 
 ##### Menus
 
