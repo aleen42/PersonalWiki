@@ -96,7 +96,9 @@ var a = 0o10;
 Seventh, strict mode in ECMAScript 6 forbids setting properties on primitive values:
 
 ```js
+"use strict";
 
+false.true = '';
 ```
 
 
