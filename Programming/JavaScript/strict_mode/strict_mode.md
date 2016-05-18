@@ -93,5 +93,10 @@ Sixth, strict mode in ECMAScript 5 forbids octal syntax. Octal syntax isn't part
 var a = 0o10;
 ```
 
+Seventh, strict mode in ECMAScript 6 forbids setting properties on primitive values:
+
+```js
+
+```
 
 
