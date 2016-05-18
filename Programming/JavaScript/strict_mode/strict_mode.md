@@ -47,6 +47,7 @@ obj1.x = 9;
 var obj2 = {
     get x() { return 17; }
 };
-obj2.x = 5; // throws a TypeError
+/** throws a TypeError */
+obj2.x = 5;
 ```
 
