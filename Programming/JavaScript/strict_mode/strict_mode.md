@@ -220,3 +220,13 @@ Strict mode makes it easier to write "secure" JavaScript.
 
 First, the value passed as `this` to a function in strict mode is not forced into being an object (a.k.a. "boxed"). For a normal function, `this` is always an object: either the provided object if called with an `object-valued` this; the value, boxed, if called with a `Boolean`, `string`, or `number` this; or the global object if called with an `undefined` or `null` this. (Use [call](https://developer.mozilla.org/en-US/Web/JavaScript/Reference/Global_Objects/Function/call), [apply](https://developer.mozilla.org/en-US/Web/JavaScript/Reference/Global_Objects/Function/apply), or [bind](https://developer.mozilla.org/en-US/Web/JavaScript/Reference/Global_Objects/Function/bind) to specify a particular `this`.) Not only is automatic boxing a performance cost, but exposing the global object in browsers is a security hazard(危害), because the global object provides access to functionality that "secure" JavaScript environments must restrict.
 
+```js
+"use strict";
+function fun() { return this; }
+console.assert(fun() === undefined);
+console.assert(fun.call(2) === 2);
+console.assert(fun.apply(null) === null);
+console.assert(fun.call(undefined) === undefined);
+console.assert(fun.bind(true)() === true);
+```
+
