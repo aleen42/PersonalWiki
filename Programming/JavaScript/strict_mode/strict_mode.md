@@ -115,7 +115,11 @@ First, strict mode prohibits `with`. The problem with with is that any name insi
 var x = 17;
 /** throws a SyntaxError */
 with (obj) {
-    console.log(x);
+    console.log(x); /** 
+                     * If this weren't strict mode, would this be var x, or
+                     * would it instead be obj.x?  It's impossible in general
+                     * to say without running the code, so the name can't be
+                     * optimized.
 }
 ```
 
