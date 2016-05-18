@@ -15,7 +15,7 @@ Just add a line of `use strict;` like:
 "use strict";
 /** ... */
 ```
-### Changes in strict mode
+### Changes in st
 
 #### Converting mistakes into errors
 
