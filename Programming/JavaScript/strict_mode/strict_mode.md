@@ -72,6 +72,6 @@ Fourth, strict mode prior to Gecko 34 requires that all properties named in an o
 var obj = {
     p: 1,
     p: 2
-}；
+};
 ```
 
