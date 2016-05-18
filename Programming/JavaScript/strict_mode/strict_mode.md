@@ -86,3 +86,7 @@ function duplicate(a, b, a) {
 }
 ```
 
+Sixth, strict mode in ECMAScript 5 forbids octal syntax:
+
+
+
