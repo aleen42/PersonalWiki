@@ -67,3 +67,11 @@ delete Object.prototype;
 
 Fourth, strict mode prior to Gecko 34 requires that all properties named in an object literal be unique. (No longer the case in ES6: [bug 1041128](https://bugzilla.mozilla.org/show_bug.cgi?id=1041128))
 
+```js
+"use strict";
+var obj = {
+    p: 1,
+    p: 2
+}；
+```
+
