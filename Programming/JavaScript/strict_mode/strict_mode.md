@@ -100,6 +100,9 @@ Seventh, strict mode in ECMAScript 6 forbids setting properties on primitive val
 /** throws a TypeError */
 false.true = '';
 /** throws a TypeError */
+(14).sell = true;
+/** throws a TypeError */
+'abc'.what = 'what';
 ```
 
 
