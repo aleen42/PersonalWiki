@@ -59,4 +59,8 @@ fixed.newProp = 'ohai';
 
 Third, strict mode makes attempts to delete undeletable properties throw (where before the attempt would simply have no effect):
 
-
+```js
+"use strict";
+/** throws a TypeError */
+delete Object.prototype;
+```
