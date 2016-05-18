@@ -216,3 +216,4 @@ f();
 
 #### "Securing" Javascript
 
+Strict mode makes it easier to write "secure" JavaScript.
