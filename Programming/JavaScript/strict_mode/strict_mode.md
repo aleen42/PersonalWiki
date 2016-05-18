@@ -265,5 +265,5 @@ function fun(a, b) {
 fun(1, 2);
 ```
 
-#### Paving the way for future ECMAScript versions
+#### Paving(鋪設) the way for future ECMAScript versions
 
