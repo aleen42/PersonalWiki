@@ -40,3 +40,4 @@ Object.defineProperty(obj1, "x", { value: 42, writable: false });
 /** throws a TypeError */
 obj1.x = 9;
 ```
+
