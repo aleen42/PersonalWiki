@@ -31,3 +31,5 @@ Problem: **/usr/include/apr-1.0/apr.h:358:1: error: unknown type name 'off64_t'*
 Solution: 
 - `sudo vi /usr/local/apr/include/apr-1/apr.h` in line 358
 - add line `typedef long off64_t;` before `typedef off64_t apr_off_t`
+
+Problem: **/usr/bin/ld: CMakeFiles/svn-crawler.dir/main.c.o: undefined reference to symbol 'svn_delta_default_editor'**
