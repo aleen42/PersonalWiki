@@ -41,3 +41,5 @@ Solution: add `-lsvn_delta-1` when using `gcc` to compile
 ```
 
 Problem: **/usr/bin/ld: /tmp/ccSmP5Wz.o: undefined reference to symbol 'svn_error_wrap_apr'**
+
+
