@@ -237,16 +237,16 @@ Second, in strict mode it's no longer possible to "walk" the JavaScript stack vi
 ```js
 function restricted()
 {
-  "use strict";
-  /** throws a TypeError */
-  restricted.caller;
-  /** throws a TypeError */
-  restricted.arguments;
+    "use strict";
+    /** throws a TypeError */
+    restricted.caller;
+    /** throws a TypeError */
+    restricted.arguments;
 }
 
 function privilegedInvoker()
 {
-  return restricted();
+    return restricted();
 }
 
 privilegedInvoker();
