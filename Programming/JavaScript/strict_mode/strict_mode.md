@@ -28,3 +28,9 @@ mistypedVaraible = 17;  /**
                          * misspelling of variable
                          */
 ```
+
+Second, strict mode makes assignments which would otherwise silently fail throw an exception.
+
+```js
+
+```
