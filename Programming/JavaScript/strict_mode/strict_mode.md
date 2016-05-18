@@ -213,3 +213,6 @@ var f = function() {
 /** throws a TypeError */
 f();
 ```
+
+#### "Securing" Javascript
+
