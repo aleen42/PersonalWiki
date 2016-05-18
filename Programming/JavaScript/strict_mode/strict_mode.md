@@ -76,3 +76,7 @@ var obj = {
 };
 ```
 
+Fifth, strict mode requires that function parameter names be unique.
+
+
+
