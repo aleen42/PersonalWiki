@@ -176,3 +176,5 @@ delete x;
 /** throws a SyntaxError */
 eval("var y; delete y;");
 ```
+
+#### Making `eval` and `arguments` simpler
