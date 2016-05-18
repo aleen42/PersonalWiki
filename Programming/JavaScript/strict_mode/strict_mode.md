@@ -260,7 +260,8 @@ function fun(a, b)
 {
     "use strict";
     var v = 12;
-    return arguments.caller; // throws a TypeError
+    /** throws a TypeError */
+    return arguments.caller;
 }
 
 /** doesn't expose v (or a or b) */
