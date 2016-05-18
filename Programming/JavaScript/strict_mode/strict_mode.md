@@ -69,6 +69,7 @@ Fourth, strict mode prior to Gecko 34 requires that all properties named in an o
 
 ```js
 "use strict";
+/** throws a SyntaxError */
 var obj = {
     p: 1,
     p: 2
