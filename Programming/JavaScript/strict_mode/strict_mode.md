@@ -178,3 +178,5 @@ eval("var y; delete y;");
 ```
 
 #### Making `eval` and `arguments` simpler
+
+First, the names `eval` and `arguments` can't be bound or assigned in language syntax. All these attempts to do so are syntax errors:
