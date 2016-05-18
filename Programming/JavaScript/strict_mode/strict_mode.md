@@ -18,4 +18,8 @@ Just add a line of `use strict;` like:
 
 #### Converting mistakes into errors
 
+First, strict mode makes it impossible to accidentally create global variables. In normal JavaScript mistyping a variable in an assignment creates a new property on the global object and continues to "work" (although future failure is possible: likely, in modern JavaScript). Assignments which would accidentally create global variables instead throw in strict mode:
 
+```js
+
+```
