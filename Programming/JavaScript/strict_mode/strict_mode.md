@@ -204,3 +204,12 @@ console.assert(pair[1] === 17);
 ```
 
 Third, `arguments.callee` is no longer supported.
+
+```js
+"use strict";
+var f = function() {
+    return arguments.callee;
+};
+/** throws a TypeError */
+f();
+```
