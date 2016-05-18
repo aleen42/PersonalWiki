@@ -263,5 +263,6 @@ function fun(a, b)
     return arguments.caller; // throws a TypeError
 }
 
-fun(1, 2); // doesn't expose v (or a or b)
+/** doesn't expose v (or a or b) */
+fun(1, 2);
 ```
