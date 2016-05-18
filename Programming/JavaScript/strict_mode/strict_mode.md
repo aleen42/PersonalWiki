@@ -164,3 +164,6 @@ strict2(eval, "'use strict'; 'Strict mode code!'");
 nonstrict("'Non-strict code.'");
 nonstrict("'use strict'; 'Strict mode code!'");
 ```
+
+Third, strict mode forbids deleting plain names. delete name in strict mode is a syntax error:
+
