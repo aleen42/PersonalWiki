@@ -35,3 +35,9 @@ Solution:
 Problem: **/usr/bin/ld: CMakeFiles/svn-crawler.dir/main.c.o: undefined reference to symbol 'svn_delta_default_editor'**
 
 Solution: add `-lsvn_delta-1` when using `gcc` to compile
+
+```bash
+ gcc list.c -I/usr/include/subversion-1 -I/usr/include/apr-1.0 -lsvn_delta-1 -lsvn_ra-1 -lsvn_client-1 -o list
+```
+
+Problem: ****
