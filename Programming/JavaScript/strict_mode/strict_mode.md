@@ -179,4 +179,6 @@ eval("var y; delete y;");
 
 #### Making `eval` and `arguments` simpler
 
-First, the names `eval` and `arguments` can't be bound or assigned in language syntax. All these attempts to do so are syntax errors:
+First, the names `eval` and `arguments` can't be bound or assigned in language syntax. All these attempts to do so are syntax errors.
+
+Second, strict mode code doesn't alias properties of `arguments` objects created within it.
