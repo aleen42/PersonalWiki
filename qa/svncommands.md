@@ -23,3 +23,6 @@ svn cat <repo_svn_url>
 ```bash
 svn ls -R <repo_svn_url>/trunk/ | egrep "*.js$|*.jsx$" | xargs -n1 -i echo <repo_svn_url>/trunk/{} | awk "{print $1$2}" | xargs svn cat | grep -v ^$ | wc -l
 ```
+
+#### 4. Compiling problems of Subversion
+
