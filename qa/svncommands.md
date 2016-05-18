@@ -27,6 +27,7 @@ svn ls -R <repo_svn_url>/trunk/ | egrep "*.js$|*.jsx$" | xargs -n1 -i echo <repo
 #### 4. Compiling problems of Subversion
 
 Problem: **/usr/include/apr-1.0/apr.h:358:1: error: unknown type name 'off64_t'**
+
 Solution: 
-    - sudo vi /usr/local/apr/include/apr-1/apr.h in line 358
-    - add line typedef long off64_t; before typedef off64_t apr_off_t
+- sudo vi /usr/local/apr/include/apr-1/apr.h in line 358
+- add line typedef long off64_t; before typedef off64_t apr_off_t
