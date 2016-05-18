@@ -15,7 +15,7 @@ Just add a line of `use strict;` like:
 "use strict";
 /** ... */
 ```
-### Usages
+### Changes in strict mode
 
 #### Converting mistakes into errors
 
@@ -123,5 +123,7 @@ with (obj) {
                      */
 }
 ```
+
+
 
 
