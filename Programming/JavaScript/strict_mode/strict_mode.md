@@ -234,3 +234,20 @@ That means, among other things, that in browsers it's no longer possible to refe
 
 Second, in strict mode it's no longer possible to "walk" the JavaScript stack via commonly-implemented extensions to ECMAScript. In normal code with these extensions, when a function `fun` is in the middle of being called, `fun.caller` is the function that most recently called `fun`, and `fun.arguments` is the arguments for that invocation of `fun`.
 
+```js
+function restricted()
+{
+  "use strict";
+  /** throws a TypeError */
+  restricted.caller;
+  /** throws a TypeError */
+  restricted.arguments;
+}
+
+function privilegedInvoker()
+{
+  return restricted();
+}
+
+privilegedInvoker();
+```
