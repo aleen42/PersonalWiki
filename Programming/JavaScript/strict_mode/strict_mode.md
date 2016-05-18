@@ -264,3 +264,6 @@ function fun(a, b) {
 /** doesn't expose v (or a or b) */
 fun(1, 2);
 ```
+
+#### Paving the way for future ECMAScript versions
+
