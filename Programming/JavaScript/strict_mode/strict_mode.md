@@ -86,7 +86,12 @@ function duplicate(a, b, a) {
 }
 ```
 
-Sixth, strict mode in ECMAScript 5 forbids octal syntax:
+Sixth, strict mode in ECMAScript 5 forbids octal syntax. Octal syntax isn't part of ECMAScript 5, but it's supported in all browsers by prefixing the octal number with a zero: 0644 === 420 and "\045" === "%". In ECMAScript 6 Octal number is supported by prefixing a number with "0o". i.e.
+
+```js
+/** supported in ES6 */
+
+```
 
 
 
