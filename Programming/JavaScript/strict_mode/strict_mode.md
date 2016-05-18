@@ -106,4 +106,4 @@ false.true = '';
 'abc'.what = 'what';
 ```
 
-
+#### Simplifying variable uses
