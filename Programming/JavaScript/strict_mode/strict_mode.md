@@ -113,6 +113,7 @@ First, strict mode prohibits `with`. The problem with with is that any name insi
 ```js
 "use strict";
 var x = 17;
+/** throws a SyntaxError */
 with (obj) {
     console.log(x);
 }
