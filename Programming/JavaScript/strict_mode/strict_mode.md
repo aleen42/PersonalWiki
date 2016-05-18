@@ -5,4 +5,4 @@ Strict Mode(嚴格模式) is a way in ES5 to *opt in* to a restricted variant of
 Strict Mode has made some changes to normal semantics:
 - Strict mode eliminates(消除) some JavaScript silent errors by changing them to throw errors.
 - Strict mode fixes mistakes that make it difficult for JavaScript engines to perform optimization: strict mode code can sometimes be made to run faster than identical code that's not strict mode.
-- Strict mode prohibits(禁止) some syntax likely to be defined in future versions of ECMAScript
+- Strict mode prohibits(禁止) some syntax likely to be defined in future versions of ECMAScript.
