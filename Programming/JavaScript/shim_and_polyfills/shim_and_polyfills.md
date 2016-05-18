@@ -111,7 +111,3 @@ History.Adapter.bind(window, 'statechange', function () {
 #### More info
 
 [HTML5-Cross-browser-Polyfillw](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-browser-Polyfills)
-
-
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
