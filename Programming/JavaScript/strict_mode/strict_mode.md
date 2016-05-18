@@ -137,9 +137,9 @@ Strict mode passing:
 
 ```js
 function strict1(str){
-  "use strict";
-  /** str will be treated as strict mode code */
-  return eval(str);
+    "use strict";
+    /** str will be treated as strict mode code */
+    return eval(str);
 }
 
 function strict2(f, str){
