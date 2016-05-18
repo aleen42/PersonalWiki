@@ -181,4 +181,14 @@ eval("var y; delete y;");
 
 First, the names `eval` and `arguments` can't be bound or assigned in language syntax. All these attempts to do so are syntax errors.
 
+```js
+"use strict";
+/** throws a SyntaxError */
+var eval;
+/** throws a SyntaxError */
+try { } catch (arguments) { }
+```
+
 Second, strict mode code doesn't alias properties of `arguments` objects created within it.
+
+Third, arguments.callee is no longer supported.
