@@ -167,3 +167,11 @@ nonstrict("'use strict'; 'Strict mode code!'");
 
 Third, strict mode forbids deleting plain names. delete name in strict mode is a syntax error:
 
+```js
+"use strict";
+
+var x;
+delete x; // !!! syntax error
+
+eval("var y; delete y;"); // !!! syntax error
+```
