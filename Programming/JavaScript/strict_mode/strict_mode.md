@@ -272,3 +272,24 @@ Future ECMAScript versions will likely introduce new syntax, and strict mode in 
 First, in strict mode a short list of identifiers become reserved keywords. These words are `implements`, `interface`, `let`, `package`, `private`, `protected`, `public`, `static`, and `yield`. In strict mode, then, you can't name or use variables or arguments with these names.
 
 Second, [strict mode prohibits function statements not at the top level of a script or function](http://whereswalden.com/2011/01/24/new-es5-strict-mode-requirement-function-statements-not-at-top-level-of-a-program-or-function-are-prohibited/). In normal code in browsers, function statements are permitted "everywhere". This is not part of ES5 *(or even ES3)!* It's an extension with incompatible semantics in different browsers. Future ECMAScript editions will hopefully specify new semantics for function statements not at the top level of a script or function. [Prohibiting such function statements in strict mode](http://wiki.ecmascript.org/doku.php?id=conventions:no_non_standard_strict_decls) "clears the deck" for specification in a future ECMAScript release:
+
+```js
+"use strict";
+if (true) {
+    /** throws a SyntaxError */
+    function f() { }
+    f();
+}
+
+for (var i = 0; i < 5; i++){
+    /** throws a SyntaxError */
+    function f2() { }
+    f2();
+}
+
+/** kosher(合理的) */
+function baz() {
+    /** kosher(合理的) */
+    function eit() { }
+}
+```
