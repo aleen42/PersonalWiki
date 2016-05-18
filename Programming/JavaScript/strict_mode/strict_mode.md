@@ -138,13 +138,16 @@ Strict mode passing:
 ```js
 function strict1(str){
   "use strict";
-  return eval(str); // str will be treated as strict mode code
+  /** str will be treated as strict mode code */
+  return eval(str);
 }
 
 function strict2(f, str){
   "use strict";
-  return f(str); // not eval(...): str is strict if and only
-                 // if it invokes strict mode
+  return f(str); /**
+                  * not eval(...): str is strict if and only
+                  * if it invokes strict mode
+                  */
 }
 
 function nonstrict(str){
