@@ -256,8 +256,7 @@ Third, arguments for strict mode functions no longer provide access to the corre
 
 ```js
 "use strict";
-function fun(a, b)
-{
+function fun(a, b) {
     "use strict";
     var v = 12;
     /** throws a TypeError */
