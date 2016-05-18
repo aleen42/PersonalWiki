@@ -124,7 +124,7 @@ with (obj) {
 }
 ```
 
-Second, [eval of strict mode code does not introduce new variables into the surrounding scope](http://whereswalden.com/2011/01/10/new-es5-strict-mode-support-new-vars-created-by-strict-mode-eval-code-are-local-to-that-code-only/). In normal code eval("var x;") introduces a variable x into the surrounding function or the global scope.
+Second, [eval of strict mode code does not introduce new variables into the surrounding scope](http://whereswalden.com/2011/01/10/new-es5-strict-mode-support-new-vars-created-by-strict-mode-eval-code-are-local-to-that-code-only/). In normal code `eval("var x;")` introduces a variable x into the surrounding function or the global scope.
 
 
 
