@@ -9,7 +9,7 @@ Strict Mode has made some changes to normal semantics:
 
 #### Use Strict Mode in a script
 
-Just add a line of `use strict;`
+Just add a line of `use strict;` like:
 
 ```js
 ```
