@@ -267,3 +267,6 @@ fun(1, 2);
 
 #### Paving the way(鋪路) for future ECMAScript versions
 
+Future ECMAScript versions will likely introduce new syntax, and strict mode in ECMAScript 5 applies some restrictions to ease the transition.
+
+First, in strict mode a short list of identifiers become reserved keywords. These words are `implements`, `interface`, `let`, `package`, `private`, `protected`, `public`, `static`, and `yield`. In strict mode, then, you can't name or use variables or arguments with these names.
