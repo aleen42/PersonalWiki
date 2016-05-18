@@ -37,7 +37,7 @@ Problem: **/usr/bin/ld: CMakeFiles/svn-crawler.dir/main.c.o: undefined reference
 Solution: add `-lsvn_delta-1` when using `gcc` to compile
 
 ```bash
- gcc list.c -I/usr/include/subversion-1 -I/usr/include/apr-1.0 -lsvn_delta-1 -lsvn_ra-1 -lsvn_client-1 -o list
+gcc list.c -I/usr/include/subversion-1 -I/usr/include/apr-1.0 -lsvn_delta-1 -lsvn_ra-1 -lsvn_client-1 -o list
 ```
 
 Problem: **/usr/bin/ld: /tmp/ccSmP5Wz.o: undefined reference to symbol 'svn_error_wrap_apr'**
@@ -45,5 +45,5 @@ Problem: **/usr/bin/ld: /tmp/ccSmP5Wz.o: undefined reference to symbol 'svn_erro
 Solution: add `-lsvn_subr-1` when using `gcc` to compile
 
 ```bash
- gcc list.c -I/usr/include/subversion-1 -I/usr/include/apr-1.0 -lsvn_delta-1 -lsvn_subr-1 -lsvn_ra-1 -lsvn_client-1 -o list
+gcc list.c -I/usr/include/subversion-1 -I/usr/include/apr-1.0 -lsvn_delta-1 -lsvn_subr-1 -lsvn_ra-1 -lsvn_client-1 -o list
 ```
