@@ -58,6 +58,7 @@
                     * [Wrapper Object(包裝對象)](./Programming/JavaScript/Type/Wrapper/Wrapper.md)
                 * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
                 * [Shim and Polyfills](./Programming/JavaScript/shim_and_polyfills/shim_and_polyfills.md)
+                * [Strict Mode](./Programming/JavaScript/strict_mode/strict_mode.md)
         * [SVG](./Programming/SVG/SVG.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
