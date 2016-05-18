@@ -171,7 +171,8 @@ Third, strict mode forbids deleting plain names. delete name in strict mode is a
 "use strict";
 
 var x;
-delete x; // !!! syntax error
-
-eval("var y; delete y;"); // !!! syntax error
+/** throws a SyntaxError */
+delete x;
+/** throws a SyntaxError */
+eval("var y; delete y;");
 ```
