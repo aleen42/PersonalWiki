@@ -51,3 +51,7 @@ gcc list.c -I/usr/include/subversion-1 -I/usr/include/apr-1.0 -lsvn_delta-1 -lsv
 Problem: **/usr/bin/ld: /tmp/ccSUqZGW.o: undefined reference to symbol 'apr_getopt_long'**
 
 Solution: add `-lapr-1` when using `gcc` to compile
+
+```bash
+gcc list.c -I/usr/include/subversion-1 -I/usr/include/apr-1.0 -lsvn_delta-1 -lsvn_subr-1 `-lapr-1 -lsvn_ra-1 -lsvn_client-1 -o list
+```
