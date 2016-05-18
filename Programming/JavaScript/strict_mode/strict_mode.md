@@ -49,5 +49,10 @@ var obj2 = {
 };
 /** throws a TypeError */
 obj2.x = 5;
-```
 
+/** Assignment to a new property on a non-extensible object */
+var fixed = {};
+Object.preventExtensions(fixed);
+/** throws a TypeError */
+fixed.newProp = 'ohai';
+```
