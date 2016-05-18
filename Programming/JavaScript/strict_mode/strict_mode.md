@@ -22,7 +22,6 @@ First, strict mode makes it impossible to accidentally create global variables. 
 
 ```js
 "use strict";
-                       
 mistypedVaraible = 17;  /** 
                          * Assuming a global variable mistypedVariable exists
                          * this line throws a ReferenceError due to the 
