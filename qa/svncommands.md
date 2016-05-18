@@ -26,3 +26,4 @@ svn ls -R <repo_svn_url>/trunk/ | egrep "*.js$|*.jsx$" | xargs -n1 -i echo <repo
 
 #### 4. Compiling problems of Subversion
 
+Problems: **/usr/include/apr-1.0/apr.h:358:1: error: unknown type name ‘off64_t’**
