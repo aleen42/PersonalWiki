@@ -97,8 +97,9 @@ Seventh, strict mode in ECMAScript 6 forbids setting properties on primitive val
 
 ```js
 "use strict";
-
+/** throws a TypeError */
 false.true = '';
+/** throws a TypeError */
 ```
 
 
