@@ -80,6 +80,7 @@ Fifth, strict mode requires that function parameter names be unique.
 
 ```js
 function duplicate(a, b, a) {
+    "use strict";
     return a + b + a;
 }
 ```
