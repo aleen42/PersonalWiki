@@ -193,10 +193,11 @@ Second, strict mode code doesn't alias properties of `arguments` objects created
 
 ```js
 function f(a){
-  "use strict";
-  a = 42;
-  return [a, arguments[0]];
+    "use strict";
+    a = 42;
+    return [a, arguments[0]];
 }
+
 var pair = f(17);
 console.assert(pair[0] === 42);
 console.assert(pair[1] === 17);
