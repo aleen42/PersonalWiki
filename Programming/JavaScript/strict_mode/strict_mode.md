@@ -15,6 +15,7 @@ Just add a line of `use strict;` like:
 "use strict";
 /** ... */
 ```
+### Useages
 
 #### Converting mistakes into errors
 
