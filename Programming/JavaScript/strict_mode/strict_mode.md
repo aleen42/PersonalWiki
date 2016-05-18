@@ -110,4 +110,12 @@ false.true = '';
 
 First, strict mode prohibits `with`. The problem with with is that any name inside the block might map either to a property of the object passed to it, or to a variable in surrounding (or even global) scope, at runtime: it's impossible to know which beforehand. Strict mode makes with a syntax error, so there's no chance for a name in a `with` to refer to an unknown location at runtime:
 
+```js
+"use strict";
+var x = 17;
+with (obj) {
+    console.log(x);
+}
+```
+
 
