@@ -64,3 +64,6 @@ Third, strict mode makes attempts to delete undeletable properties throw (where 
 /** throws a TypeError */
 delete Object.prototype;
 ```
+
+Fourth, strict mode prior to Gecko 34 requires that all properties named in an object literal be unique.
+
