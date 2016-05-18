@@ -43,3 +43,7 @@ Solution: add `-lsvn_delta-1` when using `gcc` to compile
 Problem: **/usr/bin/ld: /tmp/ccSmP5Wz.o: undefined reference to symbol 'svn_error_wrap_apr'**
 
 Solution: add `-lsvn_subr-1` when using `gcc` to compile
+
+```bash
+ gcc list.c -I/usr/include/subversion-1 -I/usr/include/apr-1.0 -lsvn_delta-1 -lsvn_subr-1 -lsvn_ra-1 -lsvn_client-1 -o list
+```
