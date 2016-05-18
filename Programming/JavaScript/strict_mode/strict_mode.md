@@ -151,8 +151,10 @@ function strict2(f, str){
 }
 
 function nonstrict(str){
-  return eval(str); // str is strict if and only 
-                    // if it invokes strict mode
+  return eval(str); /**
+                     * str is strict if and only 
+                     * if it invokes strict mode
+                     */
 }
 
 strict1("'Strict mode code!'");
