@@ -12,5 +12,7 @@ Strict Mode has made some changes to normal semantics:
 Just add a line of `use strict;` like:
 
 ```js
+"use strict";
 
+/** ... */
 ```
