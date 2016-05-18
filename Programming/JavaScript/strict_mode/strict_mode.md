@@ -217,3 +217,5 @@ f();
 #### "Securing" Javascript
 
 Strict mode makes it easier to write "secure" JavaScript.
+
+First, the value passed as this to a function in strict mode is not forced into being an object (a.k.a. "boxed").
