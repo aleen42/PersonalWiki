@@ -78,5 +78,9 @@ var obj = {
 
 Fifth, strict mode requires that function parameter names be unique.
 
-
+```js
+function duplicate(a, b, a) {
+    return a + b + a;
+}
+```
 
