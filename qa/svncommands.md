@@ -33,3 +33,5 @@ Solution:
 - add line `typedef long off64_t;` before `typedef off64_t apr_off_t`
 
 Problem: **/usr/bin/ld: CMakeFiles/svn-crawler.dir/main.c.o: undefined reference to symbol 'svn_delta_default_editor'**
+
+Solution: add `-lsvn_delta-1` when using `gcc` to compile
