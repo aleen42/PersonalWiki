@@ -6,3 +6,10 @@ Strict Mode has made some changes to normal semantics:
 - Strict mode eliminates(消除) some JavaScript silent errors by changing them to throw errors.
 - Strict mode fixes mistakes that make it difficult for JavaScript engines to perform optimization: strict mode code can sometimes be made to run faster than identical code that's not strict mode.
 - Strict mode prohibits(禁止) some syntax likely to be defined in future versions of ECMAScript.
+
+#### Use Strict Mode in a script
+
+Just add a line of `use strict;`
+
+```js
+```
