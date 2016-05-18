@@ -255,5 +255,13 @@ privilegedInvoker();
 Third, arguments for strict mode functions no longer provide access to the corresponding function call's variables. In some old ECMAScript implementations `arguments.caller` was an object whose properties aliased variables in that function. This is a security hazard because it breaks the ability to hide privileged values via function abstraction; it also precludes(阻斷) most optimization. For these reasons no recent browsers implement it. Yet because of its historical functionality, `arguments.caller` for a strict mode function is also a non-deletable property which throws when **set** or **retrieved**:
 
 ```js
+"use strict";
+function fun(a, b)
+{
+    "use strict";
+    var v = 12;
+    return arguments.caller; // throws a TypeError
+}
 
+fun(1, 2); // doesn't expose v (or a or b)
 ```
