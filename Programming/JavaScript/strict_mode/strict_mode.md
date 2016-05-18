@@ -207,7 +207,7 @@ Third, `arguments.callee` is no longer supported.
 
 ```js
 "use strict";
-var f = function() {
+var f = function () {
     return arguments.callee;
 };
 /** throws a TypeError */
