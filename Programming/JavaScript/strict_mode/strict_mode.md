@@ -120,6 +120,7 @@ with (obj) {
                      * would it instead be obj.x?  It's impossible in general
                      * to say without running the code, so the name can't be
                      * optimized.
+                     */
 }
 ```
 
