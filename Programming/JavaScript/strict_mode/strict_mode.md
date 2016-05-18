@@ -90,7 +90,7 @@ Sixth, strict mode in ECMAScript 5 forbids octal syntax. Octal syntax isn't part
 
 ```js
 /** supported in ES6 */
-
+var a = 0o10;
 ```
 
 
