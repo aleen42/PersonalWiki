@@ -2,17 +2,17 @@
 
 - **Ubuntu 14.04** + **OpenCV 3.1.0**
 
-#### 1. be sure to install cmake
+#### 1. Be sure to install cmake
 
 `sudo apt-get install cmake`
 
-#### 2. download and extract opencv
+#### 2. Download and extract opencv
 
 `wget -O opencv-3.1.0.zip https://github.com/Itseez/opencv/archive/3.1.0.zip`
 
 `upzip opencv-3.1.0.zip`
 
-#### 3. build
+#### 3. Build
 
 ##### 3.1 create a build directory
 
