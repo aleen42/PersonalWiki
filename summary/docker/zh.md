@@ -370,4 +370,3 @@ $ docker rmi -f docker-whale
 $ docker pull yourusername/docker-whale
 ```
 
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
