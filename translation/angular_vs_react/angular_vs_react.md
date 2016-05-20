@@ -69,3 +69,7 @@
 *JS 调试胜者：React*
 
 *HTML 调试胜者： Angular*
+
+#### 1.6 绑定
+
+&nbsp; &nbsp; &nbsp; &nbsp;在 Angular 中，你只能绑定代码域。
