@@ -88,4 +88,4 @@
 
 <p id="comment-2">[2]：<strong>iframe 元素</strong>会创建包含另外一个文档的内联框架（即行内框架）。该元素是 HTML 中常用的一种标签之一</p>
 
-<p id="comment-3">[3]：plainJS 是一个寻常的 JavaScript 代码库，可用于构件强大的网页级应用。</p>
+<p id="comment-3">[3]：<strong>plainJS</strong> 是一个寻常的 JavaScript 代码库，可用于构件强大的网页级应用。</p>
