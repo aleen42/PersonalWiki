@@ -191,6 +191,10 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 </form>
 ```
 
+### 2.7 其他特性
+
+&nbsp; &nbsp; &nbsp; &nbsp;style 属性只能在 html 中使用。这就意味着我们并不需要以 camelCase 的形式来命名 style 中的所有主键（这在 React 中是需要的）
+
 #### 注解
 
 <p id="comment-1">[1]：<strong>Wix 公司</strong>是一家成立于2006年的软件公司，其在美国、巴西等国家都设立有属于自己的办公地。</p>
