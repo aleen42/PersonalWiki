@@ -118,7 +118,7 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 
 ## 2. 决胜局 - React 模板
 
-&nbsp; &nbsp; &nbsp; &nbsp;讨论了那么多，我们该是时候决定这场辩论的胜者为 React 框架。可是，问题在于我们如何既利用好 React 的所有优点，又不缺少 Angular
+&nbsp; &nbsp; &nbsp; &nbsp;讨论了那么多，我们该是时候决定这场辩论的胜者为 React 框架。可是，问题在于我们如何既利用好 React 的所有优点，又不缺少 Angular 重要的优势呢？针对该问题，我们决定放手一搏，并为 React 解决这些相对于  Angular 的劣势
 
 #### 注解
 
