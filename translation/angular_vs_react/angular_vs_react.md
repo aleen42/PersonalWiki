@@ -149,7 +149,15 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 
 &nbsp; &nbsp; &nbsp; &nbsp;*需要注意的是：这是一个真正的 `if` 语句。这就意味着如果表达式的值为假时，该节点不会被解析器解析。*
 
-### 2.3 语法糖 —— rt-class、rt-scope和expressions in attributes
+### 2.3 语法糖 —— rt-class、rt-scope和属性中的表达式
+
+```html
+<div rt-scope="this.getUserDetails() as theUser" title="{theUser.loginName}">
+    Real Name: {theUser.firstName} {theUser.lastName}<br/>
+    Login: {theUser.loginName}
+    Last paid at: <span rt-class="{status:true, overdue:this.isUserOverdue(theUser)}">{theUser.lastPaid}</span>
+</div>
+```
 
 #### 注解
 
