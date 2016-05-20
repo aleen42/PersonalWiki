@@ -21,3 +21,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp;简而言之，Angular 框架太过于固执与死板。相反, React 并没有理会太多。它可以直接结合 plain JS使用，而我们只需要使用 requirejs，就能实现对部分代码的延迟加载。此外，React 还可以与其他像 webpack 的打包工具共同使用。
 
 *胜者：React*
+
+### 1.2 学习曲线
+
+&nbsp; &nbsp; &nbsp; &nbsp;我相信每个人都知道，精通 Angular 之路颠簸且漫长。
