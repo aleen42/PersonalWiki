@@ -46,4 +46,6 @@
 
 ### 1.4 模型复杂度
 
-&nbsp; &nbsp; &nbsp; &nbsp;关于模型复杂度的问题，我意指我们该如何去安排后面 view 层需要描绘的数据模型。
+&nbsp; &nbsp; &nbsp; &nbsp;关于模型复杂度的问题，我意指我们该如何去安排后面 view 层需要所描绘的数据模型。
+
+&nbsp; &nbsp; &nbsp; &nbsp;由于需要拷贝多份进行数据的bi'jia（copy-n-compare），Angular 在处理代码域时，其性能表现是极其敏感的。
