@@ -147,6 +147,8 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 <label rt-if="this.hasError()">{this.getError()}</label>
 ```
 
+&nbsp; &nbsp; &nbsp; &nbsp;*需要注意的是：这是一个真正的 `if` 语句。这就意味着如果表达式的值为假时，该节点不会被解析器解析。*
+
 #### 注解
 
 <p id="comment-1">[1]：<strong>Wix 公司</strong>是一家成立于2006年的软件公司，其在美国、巴西等国家都设立有属于自己的办公地。</p>
