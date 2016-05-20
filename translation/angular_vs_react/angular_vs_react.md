@@ -193,7 +193,7 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 
 ### 2.7 其他特性
 
-&nbsp; &nbsp; &nbsp; &nbsp;style 属性只能在 html 中使用。这就意味着我们并不需要以 camelCase 的形式来命名 style 中的所有主键（这在 React 中是需要的）。当然，你也可以通过 `{}` 在任何的地方插入表达式。
+&nbsp; &nbsp; &nbsp; &nbsp;style 属性只能在 html 中使用。这就意味着我们并不需要以 camelCase 的形式来命名 style 中的所有主键（这在 React 中是需要的）。当然，你也可以通过 `{}` 在任何的地方插入表达式。这对于 class 属性来说也是一样的（不需要通过“className”调用该类）
 
 #### 注解
 
