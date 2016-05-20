@@ -195,6 +195,10 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 
 &nbsp; &nbsp; &nbsp; &nbsp;style 属性只能在 html 中使用。这就意味着我们并不需要以 camelCase 的形式来命名 style 中的所有主键（这在 React 中是需要的）。当然，你也可以通过 `{}` 在任何的地方插入表达式。这对于 class 属性来说也是一样的（不需要通过“className”调用该类）。
 
+## 3. 总结
+
+&nbsp; &nbsp; &nbsp; &nbsp;React 和 Angular 都是令人称赞的两个框架，以至于我们往往很难在两者中选择一个来使用。Angular 本身是非常固执的，只有当它符合你的开发情景，才能为你所用。而 React 给到你的是一种开发的自由以及建议，但它却给不到像 Angular 一样强大的陈述n
+
 #### 注解
 
 <p id="comment-1">[1]：<strong>Wix 公司</strong>是一家成立于2006年的软件公司，其在美国、巴西等国家都设立有属于自己的办公地。</p>
