@@ -24,4 +24,4 @@
 
 ### 1.2 学习曲线
 
-&nbsp; &nbsp; &nbsp; &nbsp;我相信每个人都知道，精通 Angular 之路颠簸且漫长：
+&nbsp; &nbsp; &nbsp; &nbsp;我相信每个人都知道，精通 Angular 之路颠簸且漫长：入门虽快，经久衰败，犹如婚姻……
