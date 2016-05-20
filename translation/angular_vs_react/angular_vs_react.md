@@ -86,6 +86,6 @@
 
 <p id="comment-1">[1]：<strong>Wix 公司</strong>是一家成立于2006年的软件公司，其在美国、巴西等国家都设立有属于自己的办公地。</p>
 
-<p id="comment-2">[2]：iframe 元素会创建包含另外一个文档的内联框架（即行内框架）。该元素是 HTML 中常用的一种标签之一</p>
+<p id="comment-2">[2]：</strong>iframe 元素会创建包含另外一个文档的内联框架（即行内框架）。该元素是 HTML 中常用的一种标签之一</p>
 
 <p id="comment-3">[3]：plainJS 是一个寻常的 JavaScript 代码库，可用于构件强大的网页级应用。</p>
