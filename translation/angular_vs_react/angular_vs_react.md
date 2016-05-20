@@ -178,6 +178,8 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 </div>
 ```
 
+&nbsp; &nbsp; &nbsp; &nbsp;*需要注意的是：这是 React 模板中提供的一种最好的使用方式之一。在每个对象中，我们都为你生成了一个方法。因此你并不需要在 DOM 中存放任何的东西或进行任何的索引操作。而只需要把逻辑代码放在该方法里。*
+
 #### 注解
 
 <p id="comment-1">[1]：<strong>Wix 公司</strong>是一家成立于2006年的软件公司，其在美国、巴西等国家都设立有属于自己的办公地。</p>
