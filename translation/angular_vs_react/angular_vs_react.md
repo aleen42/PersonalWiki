@@ -123,7 +123,7 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 &nbsp; &nbsp; &nbsp; &nbsp;该工具的设计所需要考虑到有：
 
 - 任何有效的 HTML 文件大部分都可视为一个有效的 React 模板。我们需要像 React 一样用 camelCase 命名法保持这些事件记号的同时，也保持好那些无值属性的记号，如 disabled （true/false 两值决定这些属性是否出现在真正的 DOM 元素中）。
-- 
+- 使用花括号和内部指令去转换 html 文本到 js 文本。
 
 #### 注解
 
