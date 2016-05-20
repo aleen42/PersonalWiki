@@ -129,7 +129,15 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 - 由于部分指令是仿照 Angular 所提供的方法，因此，这些指令必须按照既有的规则。
 - 尽可能地使该工具变小且精简。添加的指令必须有其存在的合理理由（整个转换工具仅有350行代码）
 
-&nbsp; &nbsp; &nbsp; &nbsp;最后，该工具指的就是[神奇的 React 模板（React templates）](http://wix.github.io/react-templates/)。通过该工具，我们把 Angular 以及 React 的优点都结合在了一起。此外，面板的展示层、逻辑层以及陈述语句部分间都得到了完全的分离。为了使得该工具能更加的有效，我们还添加组件加载的支持（不管是 AMD，还是 CommonJS），使得用户能复用他们所使用的模板中其他的组件。
+&nbsp; &nbsp; &nbsp; &nbsp;最后，该工具指的就是[神奇的 React 模板（React templates）](http://wix.github.io/react-templates/)。通过该工具，我们把 Angular 以及 React 的优点都结合在了一起。此外，面板的展示层、逻辑层以及陈述语句部分间都得到了完全的分离。为了使得该工具能更加的有效，我们还添加组件加载的支持（不管是 AMD，还是 CommonJS），使得用户能复用他们所使用的模板中其他的组件。下面让我来举几个例子来说明该工具是何等的简易：
+
+### 2.1 集合迭代（Collection iteration）
+
+```html
+<ul>
+    <li rt-repeat="item in items">{item} at index {itemIndex}</li>
+</ul>
+```
 
 #### 注解
 
