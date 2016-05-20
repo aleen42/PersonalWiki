@@ -18,4 +18,4 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;对于这方面需求，AngularJS 只提供了少量限制的方法去实现（大部分是 html 模板），而且当我们尝试去实现的时候，我们发现我们其实只是在组装代码而已。
 
-&nbsp; &nbsp; &nbsp; &nbsp;简而言之，Angular 框架太过于死板。相反, React 并没有管理这方面。它可以直接结合 plain JS使用，而我们只需要使用 requirejs，就能实现对部分代码的延迟加载。此外，React 还可以与其他像 webpack 的打包工具共同使用。
+&nbsp; &nbsp; &nbsp; &nbsp;简而言之，Angular 框架太过于死板。相反, React 并没有理会。它可以直接结合 plain JS使用，而我们只需要使用 requirejs，就能实现对部分代码的延迟加载。此外，React 还可以与其他像 webpack 的打包工具共同使用。
