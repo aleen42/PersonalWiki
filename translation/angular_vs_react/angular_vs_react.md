@@ -92,4 +92,4 @@
 
 <p id="comment-4">[4]：<strong>digest cycle</strong> 是 Angular 框架提出的一个新的概念。它意指 Angular 检查的所有受监控变量变动的一个循环周期。在 Controller 定义受监控变量可通过 <code>$scope.varName</code> 来进行定义。</p>
 
-<p id="comment-5">[5]：<strong>mixins</strong> 在面向对象编程语言中指的是一种类。该类为其他类提供了一种特殊的方法以供调用。其他类并不需要成为该类的子类才能访问到该方法</p>
+<p id="comment-5">[5]：<strong>mixins</strong> 在面向对象编程语言中指的是一种类。该类为其他类提供了一种特殊的方法以供调用。其他类在调用该特殊方法时，并不需要成为该类的子类才能访问到该方法。具体的访问形式取决于不同的语言所实现的机制。</p>
