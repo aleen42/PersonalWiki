@@ -167,7 +167,16 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 <div>{this.props.children}</div>
 ```
 
-&nbsp; &nbsp; &nbsp; &nbsp;*需要注意的是：何等jia。*
+&nbsp; &nbsp; &nbsp; &nbsp;*需要注意的是：何等简洁。*
+
+### 2.5 事件处理
+
+```html
+<div>
+    <div rt-repeat="task in tasks" style="font-weight:{task.selected ? 'bold' : 'normal' }" onClick="() => this.toggleTask(task)">{task.title}</div>
+    <button onClick="{this.save}">Save</button>
+</div>
+```
 
 #### 注解
 
