@@ -116,7 +116,10 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 
 *胜者：Angular*
 
-## 2. 决胜局
+## 2. 决胜局 - React 模板
+
+&nbsp; &nbsp; &nbsp; &nbsp;讨论了那么多，我们该是时候决定这场辩论的胜者为 React
+。问题在于我们如何既利用好 React 的所有优点，又不缺少 Angular
 
 #### 注解
 
