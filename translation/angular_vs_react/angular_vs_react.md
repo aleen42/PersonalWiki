@@ -104,9 +104,13 @@ var createItem = function (itemText) {
 return <ul>{this.props.items.map(createItem)}</ul>;
 ```
 
-而在 Angular 里却变得清晰：
+而在 Angular 里却变得非常清晰：
 
-
+```html
+<ul>
+    <li ng-repeat="item in items">{{item}}</li>
+</ul>
+```
 
 #### 注解
 
