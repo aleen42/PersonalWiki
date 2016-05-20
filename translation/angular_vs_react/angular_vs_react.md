@@ -112,6 +112,10 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 </ul>
 ```
 
+明显可见，Angular 在这方面是理所当然的胜者。
+
+*胜者：Angular*
+
 #### 注解
 
 <p id="comment-1">[1]：<strong>Wix 公司</strong>是一家成立于2006年的软件公司，其在美国、巴西等国家都设立有属于自己的办公地。</p>
