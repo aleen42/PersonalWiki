@@ -139,6 +139,8 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 </ul>
 ```
 
+&nbsp; &nbsp; &nbsp; &nbsp;*需要注意的是：`itemIndex` 是由 `item` 派生出来，以使得可以使用嵌套中继器的索引。*
+
 #### 注解
 
 <p id="comment-1">[1]：<strong>Wix 公司</strong>是一家成立于2006年的软件公司，其在美国、巴西等国家都设立有属于自己的办公地。</p>
