@@ -197,7 +197,7 @@ return <ul>{this.props.items.map(createItem)}</ul>;
 
 ## 3. 总结
 
-&nbsp; &nbsp; &nbsp; &nbsp;React 和 Angular 都是令人称赞的两个框架，以至于我们往往很难在两者中选择一个来使用。Angular 本身是非常固执的，只有当它符合你的开发情景，才能为你所用。而 React 给到你的是一种开发的自由以及建议，但它却给不到像 Angular 一样强大的陈述能力给你。
+&nbsp; &nbsp; &nbsp; &nbsp;React 和 Angular 都是令人称赞的两个框架，以至于我们往往很难在两者中选择一个来使用。Angular 本身是非常固执的，只有当它符合你的开发情景，才能为你所用。而 React 给到你的是一种开发的自由以及建议，但它却给不到像 Angular 一样强大的陈述能力给你。因此，React 模板是你能综合两者优点使用的一个工具。对于那些擅长使用 VanillaJS 的人来说，如果你有一个复杂的项目需要完成，且需要考虑文件的打包以及框架的使用，那么，React 模板将是你一个较佳的选择。
 
 #### 注解
 
