@@ -79,3 +79,5 @@
 *胜者：React*
 
 ### 1.7 性能调优
+
+&nbsp; &nbsp; &nbsp; &nbsp;React 框架，使得我们能易于控制性能。当你实现了 shouldComponentUpdate 类时，你就能选择一种你喜欢的比较方式 —— 模型或展示。
