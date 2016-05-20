@@ -89,3 +89,5 @@
 <p id="comment-2">[2]：<strong>iframe 元素</strong>会创建包含另外一个文档的内联框架（即行内框架）。该元素是 HTML 中常用的一种标签之一</p>
 
 <p id="comment-3">[3]：<strong>plainJS</strong> 是一个寻常的 JavaScript 代码库，可用于构件强大的网页级应用。</p>
+
+<p id="comment-4">[4]：<strong>digest cycle</strong> 是 Angular 框架提出的一个新的概念。它意指 Angular 检查的所有受监控变量变动的一个循环周期。</p>
