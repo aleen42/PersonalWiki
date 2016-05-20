@@ -90,4 +90,4 @@
 
 <p id="comment-3">[3]：<strong>plainJS</strong> 是一个寻常的 JavaScript 代码库，可用于构件强大的网页级应用。</p>
 
-<p id="comment-4">[4]：<strong>digest cycle</strong> 是 Angular 框架提出的一个新的概念。它意指 Angular 检查的所有受监控变量变动的一个循环周期。</p>
+<p id="comment-4">[4]：<strong>digest cycle</strong> 是 Angular 框架提出的一个新的概念。它意指 Angular 检查的所有受监控变量变动的一个循环周期。在 Controller 定义受监控变量可通过 <code>$scope.checkedVar</code> 来进行定义。</p>
