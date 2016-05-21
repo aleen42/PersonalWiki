@@ -31,4 +31,4 @@ what you can see is that the font size of the parent box is 100x, and then 0.5em
 
 #### Powerful value in developing web app
 
-Currently, there are many solutions about the problem of responsive web in a mobile.
+Currently, there are many solutions about the problem of responsive web in a mobile. Some will directly set a absolute value of
