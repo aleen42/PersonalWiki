@@ -97,3 +97,5 @@ $(window).on('resize', function () {
 ```
 
 The value of 3.75 should depends on the designers. If designers design with iPhone 6 Plus, and you should set 4.14.
+
+Then, 1px should be 0.01rem.
