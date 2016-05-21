@@ -59,3 +59,11 @@ Shortcut:
 Websites will leave a blank area in the left or right or both parts.
 
 ![](./snook.png)
+
+#### Responsive
+
+Consider all width and height with percent values.
+
+Shortcut:
+
+This solution should be a huge job, because it should consider a lot of percent values.
