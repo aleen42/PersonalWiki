@@ -31,4 +31,4 @@ what you can see is that the font size of the parent box is 100x, and then 0.5em
 
 #### Powerful value in developing web app
 
-Currently, there are many solutions about the problem of responsive web in a mobile. Some will directly set a absolute value of width in an element, and some will use percent value to set width and the height will be a fixed value.
+Currently, there are many solutions about the problem of responsive web in a mobile. Some will directly set a absolute value of width in an element, and some will use percent value to set width and the height will be a fixed value. Anyway, here I will have a short description of these methods and have a comparison with rem.
