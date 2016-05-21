@@ -12,4 +12,4 @@ html {
 
 then, 1 rem means 100px and 0.5 rem of course means 50px.
 
-**em(font size of the element)** is also a relative unit of font size.
+**em(font size of the element)** is also a relative unit of font size. The variety from rem is that em is relative to its parent elements.
