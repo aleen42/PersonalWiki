@@ -91,4 +91,5 @@ JavaScript
 
 ```js
 document.documentElement.style.fontSize = $(document.documentElement).width() / 3.75 + 'px';
+
 ```
