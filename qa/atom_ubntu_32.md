@@ -14,3 +14,24 @@ sudo apt-get install build-essential git libgnome-keyring-dev fakeroot
 curl --silent --location https://deb.nodesource.com/setup_0.12 | sudo bash -
 sudo apt-get install nodejs
 ```
+
+**iii.** Clone atom repository
+
+```bash
+git clone https://github.com/atom/atom
+```
+
+*Notice that: if you want the latest version of atom, you can run the command as follow:*
+
+```bash
+git fetch -p
+git checkout $(git describe --tags `git rev-list --tags --max-count=1`)
+```
+
+**iv.** Build up atom
+
+```bash
+cd atom
+script/build
+script/grunt mkdeb
+```
