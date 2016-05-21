@@ -2,4 +2,4 @@
 
 #### What is rem? and the difference between em?
 
-**rem**(font size of the root element) refers a 
+**rem**(font size of the root element) is a relative unit of font size in the root element.
