@@ -49,3 +49,6 @@ Shortcut:
 This solution will result in plenty of responsive problems, and limit the designers' design. With different width of screen, elements in this way should be scaled with different width, but have the same height. Therefore, designers should only consider about elemnts that can be stretched transversely like Amazon inc.
 
 ![](./amazon.png)
+
+#### Fixed Width
+
