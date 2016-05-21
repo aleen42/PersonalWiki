@@ -36,3 +36,4 @@ Currently, there are many solutions about the problem of responsive web in a mob
 #### Flow Layout
 
 Set width with percent values and set height with fixed values
+
