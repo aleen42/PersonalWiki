@@ -72,3 +72,7 @@ This solution should be a huge job, because it should consider a lot of percent 
 
 Change view port scale value directly based on 320px, and this is a solution of Tmall. And the max scale should be 1.3: **320px * 1.3 = 416px**.
 
+Shortcut:
+
+Images in this way should be blurred.
+
