@@ -52,3 +52,4 @@ This solution will result in plenty of responsive problems, and limit the design
 
 #### Fixed Width
 
+Set the main container of the page site with a fixed width value.
