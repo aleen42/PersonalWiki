@@ -30,7 +30,7 @@
 - [**How to set ssh with asymmetric keys on servers**](./asymmetric_keys_on_servers.md)
 - [**How to build up osmocomBB in Ubuntu**](./osmocombbonlinux.md)
 - [**How to build up gqxr in Ubuntu**](./gqxronlinux.md)
-- [**How to use powerful rem with responsive web app development**](./gqxronlinux.md)
+- [**How to use powerful rem with responsive web app development**](./rem.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
