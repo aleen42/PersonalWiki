@@ -44,3 +44,6 @@ Set width with percent values and set height with fixed values
 }
 ```
 
+Shortcut:
+
+This solution will result in plenty of responsive problems, and limit the designers' design. 
