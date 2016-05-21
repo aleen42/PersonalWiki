@@ -56,4 +56,5 @@ Set the main container of the page site with a fixed width value.
 
 Shortcut:
 
-Website will leave a blank area in the left or right or both parts.
+Websites will leave a blank area in the left or right or both parts.
+
