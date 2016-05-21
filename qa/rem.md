@@ -76,7 +76,7 @@ Shortcut:
 
 Images in this way should be blurred.
 
-#### Powerful re
+#### Powerful rem
 
 
 
