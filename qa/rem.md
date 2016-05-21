@@ -66,5 +66,5 @@ Consider all width and height with percent values.
 
 Shortcut:
 
-This solution should be a huge job, because it should consider a lot of percent values. Of course, it's hard to maintain the code in this way 
+This solution should be a huge job, because it should consider a lot of percent values. Of course, it's hard to maintain the code in this way.
 
