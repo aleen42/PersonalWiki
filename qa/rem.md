@@ -95,3 +95,5 @@ $(window).on('resize', function () {
     document.documentElement.style.fontSize = $(document.documentElement).width() / 3.75 + 'px';
 });
 ```
+
+The value of 3.75 should depends on the designers. If designers design with iPhone 6 Plus, and you should set 4.14.
