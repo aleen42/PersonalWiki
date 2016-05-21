@@ -37,5 +37,3 @@ Before accepting your contributions, I'll review what you have done, and keep co
 Don't care too much about the number of contributions, and it's just noise all along. Do you see the word **aleen42** in the following image?
 
 <img src="./contribution.png">
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./pic/tail.gif"></a>
