@@ -68,3 +68,7 @@ Shortcut:
 
 This solution should be a huge job, because it should consider a lot of percent values. Of course, it's hard to maintain code in this way, because you should consider all other values when changing one of them.
 
+#### Chaging viewport
+
+
+
