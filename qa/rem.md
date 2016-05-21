@@ -20,3 +20,9 @@ then, 1 rem means 100px and 0.5 rem of course means 50px.
     </div>
 </div>
 ```
+
+```css
+.box__parent {
+    font-size: 12px;
+}
+```
