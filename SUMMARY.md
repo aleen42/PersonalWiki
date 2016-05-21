@@ -291,7 +291,7 @@
         * [How to build up osmocomBB in Ubuntu](./qa/osmocombbonlinux.md)
         * [How to build up gqxr in Ubuntu](./qa/gqxronlinux.md)
         * [How to use powerful rem with responsive web app development](./qa/rem.md)
-        * [**How to install atom in Ubuntu 32 bits**](./qa/atom_ubntu_32.md)
+        * [How to install atom in Ubuntu 32 bits](./qa/atom_ubntu_32.md)
         * [Why does the shell script always break down when running for statement](./qa/shellfor.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
