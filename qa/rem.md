@@ -37,3 +37,9 @@ Currently, there are many solutions about the problem of responsive web in a mob
 
 Set width with percent values and set height with fixed values
 
+```css
+.box__element {
+    width: 28%;
+    height: 20px;
+}
+```
