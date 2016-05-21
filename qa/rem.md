@@ -28,3 +28,6 @@ then, 1 rem means 100px and 0.5 rem of course means 50px.
 ```
 
 what you can see is that the font size of the parent box is 100x, and then 0.5em should be 50px for the children box.
+
+#### Powerful value in developing web app
+
