@@ -1,1 +1,1 @@
-## How to use powerful rem with responsive web app development [Back](./qa.md)
+## How to install atom in Ubuntu 32 bits [Back](./qa.md)
