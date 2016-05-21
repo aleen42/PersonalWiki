@@ -35,3 +35,13 @@ cd atom
 script/build
 script/grunt mkdeb
 ```
+
+*Notice that: if you have a wrong run with the process of building, you can run `sudo update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10` to have a try again*
+
+#### Install via a PPA
+
+```bash
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt-get update
+sudo apt-get install atom
+```
