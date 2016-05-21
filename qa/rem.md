@@ -58,3 +58,4 @@ Shortcut:
 
 Websites will leave a blank area in the left or right or both parts.
 
+![](./snook.png)
