@@ -82,6 +82,7 @@ CSS
 
 ```css
 html {
+    /** based on the width of iPhone 6: 375px */
     font-size: calc(100vw / 3.75);
 }
 ```
