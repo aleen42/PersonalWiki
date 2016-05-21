@@ -78,5 +78,11 @@ Images in this way should be blurred.
 
 #### Powerful rem
 
+CSS
 
+```css
+html {
+    font-size: calc(100vw / 3.75);
+}
+```
 
