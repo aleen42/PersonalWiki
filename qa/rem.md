@@ -23,7 +23,8 @@ then, 1 rem means 100px and 0.5 rem of course means 50px.
 
 ```css
 .box__parent {
-    font-size: 12px;
+    font-size: 100px;
 }
 ```
 
+what you can see is that the font size of the parent box is 100x, and then 0.5em should be 50px for the children box.
