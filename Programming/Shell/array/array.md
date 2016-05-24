@@ -114,7 +114,8 @@ echo ${array[@]//iv/XYZ};   # => four fXYZefXYZe
 echo ${array[@]/iv/};       # => four fefive
 
 # delete all occurences of substrings
-echo ${array[@]//iv/};       # => four fefe
+echo ${array[@]//iv/};      # => four fefe
 
-
+# replace front-end occurence of substrings
+echo ${array[@]/#iv/XYZ};   # => four fXYZefive
 ```
