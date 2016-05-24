@@ -23,3 +23,4 @@ echo ${name[1]} # =>
 echo ${#name[@]} # => 1
 ```
 
+#### Operations
