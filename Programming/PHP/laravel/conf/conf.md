@@ -8,5 +8,3 @@
 - 3 Components:
 	- [**Cache**](./../cache/cache.md)
 	- [**Database**](./../database/database.md)
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
