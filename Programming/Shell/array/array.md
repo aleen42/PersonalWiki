@@ -187,4 +187,5 @@ echo $(array[*]);           # => zero one two
 #!/bin/bash
 
 array0=( zero one two );
+echo ${#array0[@]};         # => 3
 ```
