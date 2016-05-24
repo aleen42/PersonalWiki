@@ -129,5 +129,6 @@ echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 ```bash
 #!/bin/bash
 
+# read line from test.txt
 array=$();
 ```
