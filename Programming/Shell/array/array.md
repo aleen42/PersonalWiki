@@ -58,3 +58,11 @@ echo ${#array[@]};      # => 4
 echo ${#array};         # => 4
 echo ${#array[0]};      # => 4
 ```
+
+Trailing Substring Extraction:
+
+```bash
+#!/bin/bash
+
+
+```
