@@ -51,12 +51,12 @@ If you want to read some lengths like the length of the element or of the array:
 array=(zero one two three);
 
 # get the length of the array
-echo ${#array[*]};      # => 4
-echo ${#array[@]};      # => 4
+echo ${#array[*]};          # => 4
+echo ${#array[@]};          # => 4
 
 # get the length of the first item
-echo ${#array};         # => 4
-echo ${#array[0]};      # => 4
+echo ${#array};             # => 4
+echo ${#array[0]};          # => 4
 ```
 
 Trailing Substring Extraction:
@@ -68,13 +68,13 @@ array=(zero one two three);
 
 # read all elements
 echo array;
-echo ${array[@]: 0};    # => zero one two three
+echo ${array[@]: 0};        # => zero one two three
 
 # read elements started from the second
-echo ${array[@]: 1};    # => one two three
+echo ${array[@]: 1};        # => one two three
 
 # read first to third elemnt
-echo ${array[@]: 0:2};  # => zer one two
+echo ${array[@]: 0:2};      # => zer one two
 ```
 
 Substring removals:
@@ -85,16 +85,16 @@ Substring removals:
 array=(zero one two three four five five);
 
 # removal of the shortest match from front of the string
-echo ${array[@]#f*r};   # => zero one two three five five
+echo ${array[@]#f*r};       # => zero one two three five five
 
 # removal of the longest match from front of the string
-echo ${array[@]##t*e};  # => zero one two four five five
+echo ${array[@]##t*e};      # => zero one two four five five
 
 # removal of the shortest match from front of the string
-echo ${array[@]%h*e};   # => zero one two t four five five
+echo ${array[@]%h*e};       # => zero one two t four five five
 
 # removal of the longest match from front of the string
-echo ${array[@]%%t*e};  # => zero one two four five five
+echo ${array[@]%%t*e};      # => zero one two four five five
 ```
 
 String replacement:
@@ -102,7 +102,9 @@ String replacement:
 ```bash
 #!/bin/bash
 
-array=(zero one two three four fivefive);
+array=(four fivefive);
 
+# replace first occurence of strings
+echo ${array[@]/iv/XYZ};    # => four fXYZefive
 
 ```
