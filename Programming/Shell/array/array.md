@@ -102,5 +102,7 @@ String replacement:
 ```bash
 #!/bin/bash
 
-array=(zero one two three four five five);
+array=(zero one two three four fivefive);
+
+
 ```
