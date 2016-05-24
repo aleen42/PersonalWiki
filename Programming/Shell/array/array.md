@@ -90,4 +90,8 @@ echo ${array[@]#f*r};   # => zero one two three five five
 # removal of the longest match from front of the string
 echo ${array[@]##t*e};  # => zero one two four five five
 
+# removal of the shortest match from front of the string
+
+# removal of the longest match from front of the string
+
 ```
