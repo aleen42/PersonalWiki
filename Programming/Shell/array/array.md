@@ -76,3 +76,11 @@ echo ${array[@]: 1};    # => one two three
 # read first to third elemnt
 echo ${array[@]: 0:2};  # => zer one two
 ```
+
+Substring removals:
+
+```bash
+#!/bin/bash
+
+
+```
