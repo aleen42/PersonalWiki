@@ -18,6 +18,7 @@ echo ${name[*]} # => aleen
 echo ${name[0]} # => aleen
 echo ${name[1]} # => 
 
+# array length
 echo ${#name[@]} # => 1
 ```
 
