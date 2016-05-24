@@ -100,6 +100,7 @@
                 * Note
                     * [Eloquent](./Programming/PHP/laravel/eloquent/eloquent.md)
         * [Shell](./Programming/Shell/Shell.md)
+            * [Array](./Programming/Shell/array/array.md)
     * [Algorithm](./Algorithmn/AlgorithmnMenu.md)
         * [Analysis](./Algorithmn/Analysis/Analysis.md)
             * [DC](./Algorithmn/Analysis/DC/DC.md)
