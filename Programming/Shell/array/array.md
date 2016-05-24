@@ -130,5 +130,5 @@ echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 #!/bin/bash
 
 # read line from test.txt
-array=$();
+array=$(awk "{print $1}" "test.txt");
 ```
