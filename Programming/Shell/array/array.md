@@ -5,6 +5,9 @@ Arrays may be initialized with **variable[n]** notation, and to access elements 
 #### Initialization
 
 ```bash
+declare -a bigOne=( /dev/* )  # All the files in /dev
+declare -a bigTwo=( ${bigOne[@]} )
+
 # there is a convenient way of initializing an entire array
 base64_charset=( {A..Z} {a..z} {0..9} + / = );
 
