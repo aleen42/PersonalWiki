@@ -143,5 +143,5 @@ do
     array[$n]=$a;
     ((n++));
 done<test.txt  
-
+echo $(array[*]);           # => zero one two
 ```
