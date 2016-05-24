@@ -205,3 +205,22 @@ echo ${#array2[@]};         # => 0
 array3=(  );
 echo ${#array3[@]};         # => 0
 ```
+
+#### Array copying
+
+```bash
+#!/bin/bash
+
+array_before=( zero one two three );
+
+# Deep Copy
+array_deep_copy=${array_before[@]};
+
+echo Before:${array_before[@]};
+echo Deep_Copy:${array_deep_copy[@]};
+
+array_before[4]=four;
+
+echo Before:${array_before[@]};
+echo Deep_Copy:${array_deep_copy[@]};
+```
