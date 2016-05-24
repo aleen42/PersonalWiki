@@ -228,4 +228,7 @@ echo Deep_Copy: ${array_deep_copy[@]};      # => Deep_Copy: zero one two three
 #### Array concatenation
 
 ```bash
+#!/bin/bash
+
+array_before=( zero one );
 ```
