@@ -46,6 +46,9 @@ echo ${array[@]};       # => zero one two replace_three four;
 # remove two from the array
 unset array[2];
 echo ${array[@]};       # => zero one replace_three four;
+
+# remove all elements
+unset array;
 ```
 
 If you want to read an element from an array, you can write like this:
