@@ -125,3 +125,6 @@ echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 
 #### Loading files to an array
 
+```bash
+
+```
