@@ -193,5 +193,5 @@ array1=("");
 echo ${#array1[@]};         # => 1
 
 array2=();
-echo ${#array1[@]};         # => 0
+echo ${#array2[@]};         # => 0
 ```
