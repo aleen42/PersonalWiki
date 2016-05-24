@@ -52,4 +52,7 @@ array=(zero one two three);
 echo ${#array[*]};      # => 4
 echo ${#array[@]};      # => 4
 
+# get the length of the first item
+echo ${#array};         # => 4
+echo ${#array[0]};      # => 4
 ```
