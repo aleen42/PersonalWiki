@@ -51,5 +51,3 @@ Schema::create('cache', function($table){
 ##### Redis
 
 - Before using a Redis cache with Laravel, you will need to install the **predis/predis** package (~1.0) via Composer.
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
