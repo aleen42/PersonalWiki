@@ -120,5 +120,5 @@ echo ${array[@]//iv/};      # => four fefe
 echo ${array[@]/#iv/XYZ};   # => four fXYZefive
 
 # replace back-end occurence of substrings
-echo ${array[@]/#iv/XYZ};   # => four fXYZefive
+echo ${array[@]/%iv/XYZ};   # => four fXYZefive
 ```
