@@ -180,3 +180,11 @@ do
 done
 echo $(array[*]);           # => zero one two
 ```
+
+#### Empty arrays
+
+```bash
+#!/bin/bash
+
+
+```
