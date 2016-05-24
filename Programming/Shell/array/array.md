@@ -137,22 +137,22 @@ String replacement:
 array=(four fivefive);
 
 # replace first occurence of substrings
-echo ${array[@]/iv/XYZ};    # => four fXYZefive
+echo ${array[@]/iv/XYZ};                    # => four fXYZefive
 
 # replace all occurences of substrings
-echo ${array[@]//iv/XYZ};   # => four fXYZefXYZe
+echo ${array[@]//iv/XYZ};                   # => four fXYZefXYZe
 
 # delete first occurence of substrings
-echo ${array[@]/iv/};       # => four fefive
+echo ${array[@]/iv/};                       # => four fefive
 
 # delete all occurences of substrings
-echo ${array[@]//iv/};      # => four fefe
+echo ${array[@]//iv/};                      # => four fefe
 
 # replace front-end occurence of substrings
-echo ${array[@]/#fi/XYZ};   # => four XYZefive
+echo ${array[@]/#fi/XYZ};                   # => four XYZefive
 
 # replace back-end occurence of substrings
-echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
+echo ${array[@]/%ve/XYZ};                   # => four fivefiXYZ
 ```
 
 #### Loading files to an array
@@ -167,7 +167,7 @@ echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 
 # the first way
 array=($(awk "{print $1}" "test.txt"));
-echo $(array[*]);           # => zero one two
+echo $(array[*]);                           # => zero one two
 
 # the second way
 n=0;
@@ -176,7 +176,7 @@ do
     array[$n]=$a;
     ((n++));
 done<test.txt  
-echo $(array[*]);           # => zero one two
+echo $(array[*]);                           # => zero one two
 
 # the third way
 n=1  
@@ -185,7 +185,7 @@ do
     array[$n]=$(cat test.txt|sed -n "${n}p"|awk '{print $1}');
     ((n+=1));
 done
-echo $(array[*]);           # => zero one two
+echo $(array[*]);                           # => zero one two
 ```
 
 #### Empty arrays
@@ -194,16 +194,16 @@ echo $(array[*]);           # => zero one two
 #!/bin/bash
 
 array0=( zero one two );
-echo ${#array0[@]};         # => 3
+echo ${#array0[@]};                         # => 3
 
 array1=("");
-echo ${#array1[@]};         # => 1
+echo ${#array1[@]};                         # => 1
 
 array2=();
-echo ${#array2[@]};         # => 0
+echo ${#array2[@]};                         # => 0
 
 array3=(  );
-echo ${#array3[@]};         # => 0
+echo ${#array3[@]};                         # => 0
 ```
 
 #### Array copying
