@@ -73,4 +73,6 @@ echo ${array[@]: 0};    # => zero one two three
 # read elements started from the second
 echo ${array[@]: 1};    # => one two three
 
+# read first to third elemnt
+echo ${array[@]: 0:2};  # => zer one two
 ```
