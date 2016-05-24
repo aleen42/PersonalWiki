@@ -36,7 +36,8 @@ Add/Replace/Delete elements from an array:
 array=(zero one two three);
 
 # add four to the array
-array[4]
+array[4]=four;
+echo ${array[@]};       # => zero one two three four
 ```
 
 If you want to read an element from an array, you can write like this:
