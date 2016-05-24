@@ -134,9 +134,11 @@ echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 # one
 # two
 
+# the first way
 array=($(awk "{print $1}" "test.txt"));
 echo $(array[*]);           # => zero one two
 
+# the second way
 n=0;
 while read a;
 do
@@ -145,6 +147,7 @@ do
 done<test.txt  
 echo $(array[*]);           # => zero one two
 
+# the third way
 n=1  
 while ((n<=$(cat test.txt|wc -l)))  
 do  
