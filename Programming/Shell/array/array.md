@@ -39,6 +39,8 @@ array=(zero one two three);
 array[4]=four;
 echo ${array[@]};       # => zero one two three four
 
+# replace three of the array
+array[3]=replace_three;
 
 ```
 
