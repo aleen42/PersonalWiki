@@ -9,3 +9,4 @@
 * [**HTML**](./HTML/HTML.md)
 * [**Ruby**](./ruby/ruby.md)
 * [**PHP**](./PHP/PHP.md)
+* [**Shell**](./Shell/Shell.md)
