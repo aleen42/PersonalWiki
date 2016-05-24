@@ -96,3 +96,11 @@ echo ${array[@]%h*e};   # => zero one two t four five five
 # removal of the longest match from front of the string
 echo ${array[@]%%t*e};  # => zero one two four five five
 ```
+
+String replacement:
+
+```bash
+#!/bin/bash
+
+array=(zero one two three four five five);
+```
