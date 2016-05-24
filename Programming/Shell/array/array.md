@@ -13,6 +13,7 @@ base64_charset=( {A..Z} {a..z} {0..9} + / = )
 
 ```bash
 #!/bin/bash
+
 name=aleen
 echo ${name[@]} # => aleen
 echo ${name[*]} # => aleen
@@ -25,3 +26,10 @@ echo ${#name[@]} # => 1
 
 #### Operations
 
+Here are some common operations used in shell:
+
+```bash
+#!/bin/bash
+
+
+```
