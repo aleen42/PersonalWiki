@@ -133,6 +133,8 @@ echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 # zero
 # one
 # two
+
 array=($(awk "{print $1}" "test.txt"));
+echo $(array[*]);           # => zero one 
 
 ```
