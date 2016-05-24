@@ -129,5 +129,5 @@ echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 ```bash
 #!/bin/bash
 
-array=
+array=$();
 ```
