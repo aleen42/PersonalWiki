@@ -186,5 +186,5 @@ echo $(array[*]);           # => zero one two
 ```bash
 #!/bin/bash
 
-
+array0=( zero one two );
 ```
