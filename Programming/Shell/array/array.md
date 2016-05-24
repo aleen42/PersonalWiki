@@ -1,1 +1,1 @@
-## Array operations in Shell [Back](./../Shell.md)
+## Arraysin Shell [Back](./../Shell.md)
