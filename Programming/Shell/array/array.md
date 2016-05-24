@@ -8,3 +8,6 @@ Arrays may be initialized with **variable[n]** notation, and to access elements 
 # there is a convenient way of initializing an entire array
 base64_charset=( {A..Z} {a..z} {0..9} + / = )
 ```
+
+*Notice that: any variables can have array operations, even if they are not explicitly declared as arrays*
+
