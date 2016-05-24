@@ -85,6 +85,6 @@ Substring removals:
 array=(zero one two three four five five);
 
 # removal of the shortest match
-echo ${array[@]#f*r}
+echo ${array[@]#f*r};   # => zero one two three five fiv
 
 ```
