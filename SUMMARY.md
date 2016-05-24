@@ -99,6 +99,7 @@
                     * [Cache](./Programming/PHP/laravel/cache/cache.md)
                 * Note
                     * [Eloquent](./Programming/PHP/laravel/eloquent/eloquent.md)
+        * [Shell](./Programming/Shell/Shell.md)
     * [Algorithm](./Algorithmn/AlgorithmnMenu.md)
         * [Analysis](./Algorithmn/Analysis/Analysis.md)
             * [DC](./Algorithmn/Analysis/DC/DC.md)
