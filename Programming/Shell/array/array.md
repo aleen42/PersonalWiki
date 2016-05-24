@@ -46,5 +46,10 @@ If you want to read some lengths like the length of the element or of the array:
 ```bash
 #!/bin/bash
 
+array=(zero one two three);
+
+# get the length of the array
+echo ${#array[*]};      # => 4
+echo ${#array[@]};      # => 4
 
 ```
