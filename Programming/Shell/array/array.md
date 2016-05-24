@@ -232,5 +232,6 @@ echo Deep_Copy: ${array_deep_copy[@]};      # => Deep_Copy: zero one two three
 
 array_before=( zero one );
 array_after=( two three );
-echo ( ${array_before[@]} ${array_after[@]} );
+concat=( ${array_before[@]} ${array_after[@]} );
+echo ${concat[*]};                          # => zero one two three 
 ```
