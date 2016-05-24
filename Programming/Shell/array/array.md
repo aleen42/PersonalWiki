@@ -33,7 +33,7 @@ Add/Delete elements from an array:
 ```bash
 #!/bin/bash
 
-
+array=(zero one two three);
 ```
 
 If you want to read an element from an array, you can write like this:
