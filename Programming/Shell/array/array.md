@@ -150,5 +150,5 @@ while ((n<=$(cat test.txt|wc -l)))
 do  
     array[$n]=$(cat test.txt|sed -n "${n}p"|awk '{print $1}');
     ((n+=1));
-done  
+done
 ```
