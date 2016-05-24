@@ -26,7 +26,7 @@ echo ${#name[@]};       # => 1
 
 #### Operations
 
-Here are some common operations used in shell:
+If you want to read an element from an array, you can write like this:
 
 ```bash
 #!/bin/bash
