@@ -190,5 +190,8 @@ array0=( zero one two );
 echo ${#array0[@]};         # => 3
 
 array1=("");
-echo ${#array0[@]};         # => 1
+echo ${#array1[@]};         # => 1
+
+array2=();
+echo ${#array1[@]};         # => 0
 ```
