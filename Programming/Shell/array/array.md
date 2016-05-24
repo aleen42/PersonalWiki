@@ -24,3 +24,4 @@ echo ${#name[@]} # => 1
 ```
 
 #### Operations
+
