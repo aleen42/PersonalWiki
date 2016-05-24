@@ -82,5 +82,9 @@ Substring removals:
 ```bash
 #!/bin/bash
 
-array=(zero one two three four five);
+array=(zero one two three four five five);
+
+# removal of the shortest match
+echo ${array[@]#f*r}
+
 ```
