@@ -12,6 +12,7 @@ base64_charset=( {A..Z} {a..z} {0..9} + / = )
 *Notice that: any variables can have array operations, even if they are not explicitly declared as arrays:*
 
 ```bash
+#!bin/bash
 name=aleen
 echo ${name[@]} # => aleen
 echo ${name[*]} # => aleen
