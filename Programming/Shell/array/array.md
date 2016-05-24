@@ -122,3 +122,6 @@ echo ${array[@]/#fi/XYZ};   # => four XYZefive
 # replace back-end occurence of substrings
 echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 ```
+
+#### Loading files to an array
+
