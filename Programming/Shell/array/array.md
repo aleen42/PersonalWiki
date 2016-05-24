@@ -110,4 +110,9 @@ echo ${array[@]/iv/XYZ};    # => four fXYZefive
 # replace all occurences of strings
 echo ${array[@]//iv/XYZ};   # => four fXYZefXYZe
 
+# delete first occurence of strings
+echo ${array[@]/iv/};       # => four fefive
+
+# delete all occurences of strings
+echo ${array[@]//iv/};       # => four fefe
 ```
