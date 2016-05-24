@@ -107,4 +107,7 @@ array=(four fivefive);
 # replace first occurence of strings
 echo ${array[@]/iv/XYZ};    # => four fXYZefive
 
+# replace all occurences of strings
+echo ${array[@]//iv/XYZ};   # => four fXYZefXYZe
+
 ```
