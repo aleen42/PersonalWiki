@@ -91,7 +91,7 @@ echo ${array[@]#f*r};   # => zero one two three five five
 echo ${array[@]##t*e};  # => zero one two four five five
 
 # removal of the shortest match from front of the string
-echo ${array[@]%h*e};   # => zero one two t four five fie
+echo ${array[@]%h*e};   # => zero one two t four five five
 
 # removal of the longest match from front of the string
 
