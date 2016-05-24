@@ -221,6 +221,6 @@ echo Deep_Copy: ${array_deep_copy[@]};      # => Deep_Copy: zero one two three
 
 array_before[4]=four;
 
-echo Before: ${array_before[@]};
-echo Deep_Copy: ${array_deep_copy[@]};
+echo Before: ${array_before[@]};            # => Before: zero one two three four
+echo Deep_Copy: ${array_deep_copy[@]};      # => Deep_Copy: zero one two three
 ```
