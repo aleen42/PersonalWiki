@@ -82,5 +82,5 @@ Substring removals:
 ```bash
 #!/bin/bash
 
-
+array=(zero one two three four five);
 ```
