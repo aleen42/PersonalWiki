@@ -104,15 +104,17 @@ String replacement:
 
 array=(four fivefive);
 
-# replace first occurence of strings
+# replace first occurence of substrings
 echo ${array[@]/iv/XYZ};    # => four fXYZefive
 
-# replace all occurences of strings
+# replace all occurences of substrings
 echo ${array[@]//iv/XYZ};   # => four fXYZefXYZe
 
-# delete first occurence of strings
+# delete first occurence of substrings
 echo ${array[@]/iv/};       # => four fefive
 
-# delete all occurences of strings
+# delete all occurences of substrings
 echo ${array[@]//iv/};       # => four fefe
+
+
 ```
