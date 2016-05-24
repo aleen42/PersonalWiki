@@ -28,12 +28,15 @@ echo ${#name[@]};       # => 1
 
 #### Operations
 
-Add/Delete elements from an array:
+Add/Replace/Delete elements from an array:
 
 ```bash
 #!/bin/bash
 
 array=(zero one two three);
+
+# add four to the array
+array[4]
 ```
 
 If you want to read an element from an array, you can write like this:
