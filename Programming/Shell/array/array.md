@@ -67,7 +67,6 @@ Trailing Substring Extraction:
 array=(zero one two three);
 
 # read all elements
-echo array;
 echo ${array[@]: 0};        # => zero one two three
 
 # read elements started from the second
@@ -128,5 +127,5 @@ echo ${array[@]/%ve/XYZ};   # => four fivefiXYZ
 ```bash
 #!/bin/bash
 
-
+array=
 ```
