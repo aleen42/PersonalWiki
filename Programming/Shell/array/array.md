@@ -194,4 +194,7 @@ echo ${#array1[@]};         # => 1
 
 array2=();
 echo ${#array2[@]};         # => 0
+
+array3=(  );
+echo ${#array3[@]};         # => 0
 ```
