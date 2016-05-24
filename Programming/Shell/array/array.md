@@ -40,3 +40,11 @@ echo ${array[0]};       # => zero
 echo ${array: 2};       # => ro
 echo ${array[1]: 1};    # => ne
 ```
+
+If you want to read some lengths like the length of the element or of the array:
+
+```bash
+#!/bin/bash
+
+
+```
