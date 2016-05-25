@@ -153,5 +153,3 @@ puts true and false # => false
 puts true or false # => true
 puts not(true) # => false
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
