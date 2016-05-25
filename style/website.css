@@ -71,7 +71,7 @@ a.navigation,
 }
 
 #book-search-input {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
 }
 
 /** menu scroll bar */
