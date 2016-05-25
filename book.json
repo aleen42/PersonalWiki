@@ -16,7 +16,6 @@
     },
     "plugins": [
         "disqus",
-        "-search",
         "github",
         "sharing",
         "ga",
