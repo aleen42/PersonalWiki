@@ -49,5 +49,3 @@ ruby -v
 #### Windows Installation
 
 - To download [**Ruby**](https://www.ruby-lang.org/en/downloads/). 
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
