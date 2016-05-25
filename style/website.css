@@ -92,7 +92,7 @@ a.navigation,
 }
 
 #book-search-input input:-ms-input-placeholder {
-    color: #000 !important
+    color: #000 !important;
 }
 
 /** menu scroll bar */
