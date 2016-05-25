@@ -16,7 +16,7 @@
     },
     "plugins": [
         "disqus",
-        "-search",
+        "search",
         "github",
         "sharing",
         "ga",
@@ -60,17 +60,17 @@
             "embedEmojis": true
         },
         "page-footer": {
-            "description": "update time: ",
-            "author": "Aleen",
             "wisdom": "More than a coder, more than a designer",
-            "format": "YYYY-MM-DD HH:mm:ss",
             "copyright": "Copyright © aleen42",
-            "timeColor": "#a10000",
-            "copyrightColor": "#666",
-            "utcOffset": "8",
+            "author": "Aleen",
             "qrcode": true,
+            "style": "symmetrical",
+            "timeColor": "#a10000",
+            "utcOffset": "8",
+            "format": "YYYY-MM-DD HH:mm:ss",
             "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
-            "style": "symmetrical"
+            "copyrightColor": "#666",
+            "description": "update time: "
         }
     }
 }
