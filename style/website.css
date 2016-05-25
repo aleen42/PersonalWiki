@@ -70,6 +70,10 @@ a.navigation,
     color: #a10000 !important;
 }
 
+#book-search-input {
+    margin-bottom: 0;
+}
+
 /** menu scroll bar */
 .book .book-summary ul.summary::-webkit-scrollbar {
   /** if you want to style your own scroll bar, this pseudo should be written */
