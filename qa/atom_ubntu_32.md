@@ -53,3 +53,5 @@ sudo apt-get install atom
 ###### activate-power-mode
 
 ###### jquery-snippets
+
+##### docblockr
