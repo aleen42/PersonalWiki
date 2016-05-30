@@ -73,31 +73,31 @@ a.navigation,
 
 /** book search */
 /** engine 3.0.3 */
-/*#book-search-input {*/
-/*    margin-bottom: 0 !important;*/
-/*    background-color: rgba(255, 255, 255, 0.55) !important;*/
-/*    border-bottom: 1px solid #000 !important;*/
-/*}*/
+#book-search-input {
+    margin-bottom: 0 !important;
+    background-color: rgba(255, 255, 255, 0.55) !important;
+    border-bottom: 1px solid #000 !important;
+}
 
-/*#book-search-input input {*/
-/*    background: transparent !important;*/
-/*}*/
+#book-search-input input {
+    background: transparent !important;
+}
 
-/*#book-search-input input::-webkit-input-placeholder {*/
-/*    color: #000 !important;*/
-/*}*/
+#book-search-input input::-webkit-input-placeholder {
+    color: #000 !important;
+}
 
-/*#book-search-input input:-moz-placeholder {*/
-/*    color: #000 !important;*/
-/*}*/
+#book-search-input input:-moz-placeholder {
+    color: #000 !important;
+}
 
-/*#book-search-input input::-moz-placeholder {*/
-/*    color: #000 !important;*/
-/*}*/
+#book-search-input input::-moz-placeholder {
+    color: #000 !important;
+}
 
-/*#book-search-input input:-ms-input-placeholder {*/
-/*    color: #000 !important;*/
-/*}*/
+#book-search-input input:-ms-input-placeholder {
+    color: #000 !important;
+}
 
 /** menu scroll bar */
 
