@@ -143,45 +143,45 @@ a.navigation,
   /** Part 7 */
 /*}*/
 
-.book .book-summary::-webkit-scrollbar {
+.book .book-summary ul.summary::-webkit-scrollbar {
   /** if you want to style your own scroll bar, this pseudo should be written */
   /** Part 1 */
   width: 6px;
   background-color: rgba(255, 255, 255, 0.55);
 }
 
-.book .book-summary::-webkit-scrollbar-button {
+.book .book-summary ::-webkit-scrollbar-button {
   /** Part 2 */
   display: none;
 }
 
-.book .book-summary::-webkit-scrollbar-track {
+.book .book-summary ::-webkit-scrollbar-track {
   /** Part 3 */
 }
 
-.book .book-summary::-webkit-scrollbar-track-piece {
+.book .book-summary ::-webkit-scrollbar-track-piece {
   /** Part 4 */
 }
 
-.book .book-summary::-webkit-scrollbar-thumb {
+.book .book-summary ::-webkit-scrollbar-thumb {
   /** Part 5 */
   background-color: rgba(0, 0, 0, 1);
   border-radius: 10px;
 }
 
-.book .book-summary::-webkit-scrollbar-thumb:hover {
+.book .book-summary ::-webkit-scrollbar-thumb:hover {
     background-color: rgba(161, 0, 0, 1);
 }
 
-.book .book-summary::-webkit-scrollbar-thumb:active {
+.book .book-summary ::-webkit-scrollbar-thumb:active {
     background-color: rgba(100, 0, 0, 1);
 }
 
-.book .book-summary::-webkit-scrollbar-corner {
+.book .book-summary ul.summary::-webkit-scrollbar-corner {
   /** Part 6 */
 }
 
-.book .book-summary::-webkit-resizer {
+.book .book-summary ul.summary::-webkit-resizer {
   /** Part 7 */
 }
 
