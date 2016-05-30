@@ -50,7 +50,7 @@
         "ga": {
             "token": "UA-75457732-1"
         },
-        "customtheme": {
+        "injection": {
             "js": [
                 "src/index.js"
             ]
