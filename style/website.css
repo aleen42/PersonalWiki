@@ -239,7 +239,7 @@ pre::-webkit-resizer {
     box-shadow: -8px 0px 18px #000 inset;
 }
 
-.book .book-summary ul.summary::before {
+/*.book .book-summary ul.summary::before {*/
     background-image: url('./../pic/icon-left.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
