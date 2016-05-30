@@ -113,33 +113,33 @@ a.navigation,
     display: none;
 }
 
-.book .book-summary l.summary::-webkit-scrollbar-track {
+.book .book-summary::-webkit-scrollbar-track {
     /** Part 3 */
 }
 
-.book .book-summary l.summary::-webkit-scrollbar-track-piece {
+.book .book-summary::-webkit-scrollbar-track-piece {
     /** Part 4 */
 }
 
-.book .book-summary l.summary::-webkit-scrollbar-thumb {
+.book .book-summary::-webkit-scrollbar-thumb {
     /** Part 5 */
     background-color: rgba(0, 0, 0, 1);
     border-radius: 10px;
 }
 
-.book .book-summary l.summary::-webkit-scrollbar-thumb:hover {
+.book .book-summary::-webkit-scrollbar-thumb:hover {
     background-color: rgba(161, 0, 0, 1);
 }
 
-.book .book-summary l.summary::-webkit-scrollbar-thumb:active {
+.book .book-summary::-webkit-scrollbar-thumb:active {
     background-color: rgba(100, 0, 0, 1);
 }
 
-.book .book-summary l.summary::-webkit-scrollbar-corner {
+.book .book-summary::-webkit-scrollbar-corner {
     /** Part 6 */
 }
 
-.book .book-summary .summary::-webkit-resizer {
+.book .book-summary::-webkit-resizer {
     /** Part 7 */
 }
 
