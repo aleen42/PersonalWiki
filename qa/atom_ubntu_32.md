@@ -55,3 +55,12 @@ sudo apt-get install atom
 ###### jquery-snippets
 
 ###### docblockr
+
+#### Key Bindings
+
+```cson
+'.platform-win32, .platform-linux':
+  'ctrl-alt-r': 'soft-wrap:toggle'
+'atom-workspace, atom-workspace atom-text-editor':
+  'alt-m': 'markdown-preview:toggle'
+```
