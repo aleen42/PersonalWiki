@@ -88,5 +88,7 @@ Add the following line to `/etc/network/interface`:
 ```bash
 # sudo vim /etc/network/interface
 
+iface wlan0 inet manual
+
 
 ```
