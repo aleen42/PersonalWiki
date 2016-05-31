@@ -53,3 +53,10 @@ Load drivers at boot time:
 echo "ath9k" | sudo tee -a /etc/modules
 echo "ath9k_htc" | sudo tee -a /etc/modules
 ```
+
+Edit `rc.local`:
+
+```bash
+# sudo vim /etc/rc.local
+
+```
