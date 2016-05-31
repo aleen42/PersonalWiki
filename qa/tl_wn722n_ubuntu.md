@@ -33,7 +33,7 @@ Build and Compile:
 sudo make
 ```
 
-Following these instructions to specify the driver you want to build and install by running the following command and make again:
+If you have met some error while compiling, following these instructions to specify the driver you want to build and install by running the following command and make again:
 
 ```bash
 sudo make defconfig-ath9k && sudo make
