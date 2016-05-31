@@ -294,6 +294,7 @@
         * [How to build up gqxr in Ubuntu](./qa/gqxronlinux.md)
         * [How to use powerful rem with responsive web app development](./qa/rem.md)
         * [How to install atom in Ubuntu 32 bits](./qa/atom_ubntu_32.md)
+        * [How to deploy TL-WN722N in Ubuntu 14.04](./qa/tl_wn722n_ubuntu.md)
         * [Why does the shell script always break down when running for statement](./qa/shellfor.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
