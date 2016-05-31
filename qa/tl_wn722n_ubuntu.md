@@ -64,3 +64,6 @@ echo "148F 7601" | tee /sys/bus/usb/drivers/ath9k_htc/new_id
 
 exit 0
 ```
+
+#### Part IV
+
