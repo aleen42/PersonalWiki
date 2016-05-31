@@ -15,9 +15,10 @@ apt-get install gcc build-essential linux-headers-generic linux-headers-`uname -
 
 #### Part II
 
-Download `backports-3.16-1.tar.gz` here and unzip it:
+Download `backports-3.16-1.tar.gz` and unzip it:
 
 ```bash
+wget https://www.kernel.org/pub/linux/kernel/projects/backports/stable/v3.16/backports-3.16-1.tar.gz
 tar xvfz backports-3.16-1.tar.gz
 ```
 
