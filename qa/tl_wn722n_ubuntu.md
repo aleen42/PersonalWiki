@@ -32,3 +32,9 @@ Build and Compile:
 ```bash
 sudo make
 ```
+
+Following these instructions to specify the driver you want to build and install by running the following command:
+
+```bash
+sudo make defconfig-ath9k && sudo make
+```
