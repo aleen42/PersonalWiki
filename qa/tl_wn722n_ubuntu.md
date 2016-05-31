@@ -78,3 +78,5 @@ and don't forget to update grub when you are done:
 ```bash
 sudo update-grub
 ```
+
+After all have done, all should take effect after reboot the computer.
