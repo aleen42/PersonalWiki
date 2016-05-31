@@ -20,3 +20,9 @@ Download `backports-3.16-1.tar.gz` here and unzip it:
 ```bash
 tar xvfz backports-3.16-1.tar.gz
 ```
+
+Enter the uncompressed directory and clean build area:
+
+```bash
+cd backports-3.16-1 && sudo make clean
+```
