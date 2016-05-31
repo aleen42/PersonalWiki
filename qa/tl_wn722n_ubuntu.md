@@ -67,3 +67,14 @@ exit 0
 
 #### Part IV
 
+Finally, the script mentions something about updating your initramfs. It might not be needed but these are kernel modules so that's what we will do by running the following command:
+
+```bash
+sudo update-initramfs -k all -u
+```
+
+and don't forget to update grub when you are done:
+
+```bash
+and don't forget to update grub when you are done:
+```
