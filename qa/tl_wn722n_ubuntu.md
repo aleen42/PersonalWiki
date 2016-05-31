@@ -89,6 +89,10 @@ Add the following line to `/etc/network/interface`:
 # sudo vim /etc/network/interface
 
 iface wlan0 inet manual
+```
 
+and run the following command:
 
+```bash
+sudo service network-manager restart
 ```
