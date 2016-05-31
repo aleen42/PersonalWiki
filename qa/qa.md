@@ -32,6 +32,7 @@
 - [**How to build up gqxr in Ubuntu**](./gqxronlinux.md)
 - [**How to use powerful rem with responsive web app development**](./rem.md)
 - [**How to install atom in Ubuntu 32 bits**](./atom_ubntu_32.md)
+- [**How to deploy TL-WN722N in Ubuntu 14.04**](./atom_ubntu_32.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
