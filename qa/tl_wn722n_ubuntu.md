@@ -47,3 +47,9 @@ sudo make install
 
 #### Part III
 
+Load drivers at boot time:
+
+```bash
+echo "ath9k" | sudo tee -a /etc/modules
+echo "ath9k_htc" | sudo tee -a /etc/modules
+```
