@@ -26,3 +26,9 @@ Enter the uncompressed directory and clean build area:
 ```bash
 cd backports-3.16-1 && sudo make clean
 ```
+
+Build and Compile:
+
+```bash
+sudo make
+```
