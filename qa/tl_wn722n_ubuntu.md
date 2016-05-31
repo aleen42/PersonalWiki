@@ -38,3 +38,9 @@ If you have met some error while compiling, following these instructions to spec
 ```bash
 sudo make defconfig-ath9k && sudo make
 ```
+
+If there is no error, then install:
+
+```bash
+sudo make install
+```
