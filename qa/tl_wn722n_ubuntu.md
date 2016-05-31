@@ -76,5 +76,5 @@ sudo update-initramfs -k all -u
 and don't forget to update grub when you are done:
 
 ```bash
-and don't forget to update grub when you are done:
+sudo update-grub
 ```
