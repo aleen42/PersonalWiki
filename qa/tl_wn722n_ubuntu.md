@@ -83,3 +83,6 @@ After all have done, all should take effect after reboot the computer.
 
 ### Switch to TL-WN722N from the embed-in device
 
+```bash
+
+```
