@@ -19,6 +19,7 @@
 	* [**Activation-Group**](http://www.activation-group.com/)
 * [**TerritoryStudio**](http://www.territorystudio.com/)
 * [**Webデザインリンク集・ソーシャルブックマーク**](http://bm.straightline.jp/)
+* [**FLATICON**](http://www.flaticon.com/)
 
 ### Awards
 
