@@ -5,5 +5,3 @@
 - [Sort](./Sort/Sort.md)
 - [Encode](./Encode/Encode.md)
 - [Computability](./Computability/Computability.md)
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
