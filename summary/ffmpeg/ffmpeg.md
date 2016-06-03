@@ -102,7 +102,7 @@
 
 - the next step to do is to generate a new video with all the frames:
 
-`ffmpeg -r "[new-rate]" -i "frame/f_%1d.png" -vcodec "libx264" -crf "0" -pix_fmt yuv420p output.mp4` 
+`ffmpeg -r "[new-rate]" -i "frame/f_%1d.png" -start_number 1 -vcodec "libx264" -crf "0" -pix_fmt yuv420p output.mp4` 
 
 - *Notice: without **-pix_fmt yuv420p**, the video codec is not supported for iOS, Safari, and so on.*
 
