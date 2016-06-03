@@ -12,7 +12,3 @@ void RADIXSORT(int A[], int d)
 		//use a stable sort to sort array A on digit i
 }
 ```
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
