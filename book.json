@@ -69,7 +69,9 @@
             "format": "YYYY-MM-DD HH:mm:ss",
             "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "copyrightColor": "#666",
-            "description": "update time: "
+            "description": "update time:",
+            "issues": true,
+			"repo": "aleen42/PersonalWiki"
         }
     }
 }
