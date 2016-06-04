@@ -66,12 +66,13 @@
             "style": "symmetrical",
             "timeColor": "#a10000",
             "utcOffset": "8",
-            "format": "yyyy-MM-dd hh:mm:ss",
+            "format": "YYYY-MM-dd hh:mm:ss",
             "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "copyrightColor": "#666",
             "description": "update time:",
             "issues": true,
-			"repo": "aleen42/PersonalWiki"
+			"repo": "aleen42/PersonalWiki",
+			"token": "12fcb9507c9819feb9ad13ec7d38ceb3c5fc506f"
         }
     }
 }
