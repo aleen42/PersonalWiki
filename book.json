@@ -63,7 +63,7 @@
             "copyright": "Copyright © aleen42",
             "author": "Aleen",
             "qrcode": true,
-            "style": "normal",
+            "style": "symmetrical",
             "timeColor": "#a10000",
             "utcOffset": "8",
             "format": "YYYY-MM-dd hh:mm:ss",
