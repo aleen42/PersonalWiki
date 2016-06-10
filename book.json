@@ -48,7 +48,8 @@
             ]
         },
         "ga": {
-            "token": "UA-75457732-1"
+            "token": "UA-75457732-1",
+            "configuration": "auto"
         },
         "injection": {
             "js": [
@@ -64,15 +65,15 @@
             "author": "Aleen",
             "qrcode": true,
             "style": "symmetrical",
+            "repo": "aleen42/PersonalWiki",
             "timeColor": "#a10000",
             "utcOffset": "8",
             "format": "YYYY-MM-dd hh:mm:ss",
+            "token": "ee62c4164734e78029a66880aed7f82d435ca27f",
+            "issues": true,
             "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "copyrightColor": "#666",
-            "description": "update time:",
-            "issues": true,
-			"repo": "aleen42/PersonalWiki",
-			"token": "ee62c4164734e78029a66880aed7f82d435ca27f"
+            "description": "update time:"
         }
     }
 }
