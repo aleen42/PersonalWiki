@@ -62,7 +62,7 @@
         "page-footer": {
             "wisdom": "More than a coder, more than a designer",
             "copyright": "Copyright © aleen42",
-            "author": "Aleen",
+            "signature": "Aleen",
             "qrcode": true,
             "style": "symmetrical",
             "repo": "aleen42/PersonalWiki",
