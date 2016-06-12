@@ -68,7 +68,7 @@
             "repo": "aleen42/PersonalWiki",
             "timeColor": "#a10000",
             "utcOffset": "8",
-            "format": "YYYY-MM-dd hh:mm:ss",
+            "format": "yyyy-MM-dd hh:mm:ss",
             "token": "ee62c4164734e78029a66880aed7f82d435ca27f",
             "isShowIssues": true,
             "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
