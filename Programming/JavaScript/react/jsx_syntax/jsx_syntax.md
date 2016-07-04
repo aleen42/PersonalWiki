@@ -21,5 +21,9 @@ ReactDOM.render(
 );
 ```
 
-To render a React Component, just create a local variable that naming with PascalCase tag name
+To render a React Component, just create a local variable that naming with PascalCase name:
+
+```js
+var MyComponents = React.createClass({});
+```
 
