@@ -26,6 +26,4 @@ ReactDOM.render(
     document.getElementById('container')
 );
 ```
-
-
 -  React JSFiddle without JSX
