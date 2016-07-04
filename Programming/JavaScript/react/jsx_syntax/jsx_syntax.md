@@ -66,4 +66,6 @@ var app = <Nav color="blue"><Profile>click</Profile></Nav>;
 var Nav;
 var Profile;
 
+/** output JavaScript syntax */
+
 ```
