@@ -2,6 +2,8 @@
 
 [ReactJS](https://facebook.github.io/react/) is a javascript library for building user interfaces, provided by Facebook.
 
+- [**Quick Started**](./quick_started/quick_started.md)
+
 ### Quick Started
 
 #### JSFiddle
