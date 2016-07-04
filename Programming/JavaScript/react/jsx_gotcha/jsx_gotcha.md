@@ -41,5 +41,5 @@ var div = <div>{['First ', <span key="middot">&middot;</span>, ' Second']}</div>
 iv. insert raw HTML directly.
 
 ```js
-var div = <div dangerouslySetInnerHTML={{ __html: 'First &middot; Second' }};
+var div = <div dangerouslySetInnerHTML={{ __html: 'First &middot; Second' }}</div>
 ```
