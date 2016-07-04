@@ -43,3 +43,11 @@ iv. insert raw HTML directly.
 ```js
 var div = <div dangerouslySetInnerHTML={{ __html: 'First &middot; Second' }}</div>
 ```
+
+#### Custom HTML Attributes
+
+If you pass properties to native HTML elements that do not exist in the HTML specification, React will not render them. If you want to use a custom attribute, you should prefix it with `data-`.
+
+```js
+var div = <div data-custom-attribute="foo" />;
+```
