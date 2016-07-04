@@ -208,5 +208,5 @@ It's easy to add comments within your JSX; they're just JS expressions. You just
 
 ```jsx
 /** input JSX syntx */
-var content = <Container>{/** comments here *}</Container>
+var content = <Container>{/** comments here */}</Container>
 ```
