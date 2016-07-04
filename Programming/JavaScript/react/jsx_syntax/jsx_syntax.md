@@ -81,5 +81,6 @@ var app = React.creatElement(
 JSX will infer(推斷出) the class's `displayName` from the variable assignment when the `displayName` is **undefined**:
 
 ```jsx
+/** input JSX syntx */
 var Nav = React.createClass({ });
 ```
