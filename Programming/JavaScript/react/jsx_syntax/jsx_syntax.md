@@ -12,7 +12,7 @@ React can either render HTML tags (strings) or React Components(classes).
 
 To render a HTML tags, just use camelCase tag name in JSX:
 
-```js
+```jsx
 /** camelCase Naming */
 var divElement = <div className="foo" />;
 ReactDOM.render(
@@ -23,7 +23,7 @@ ReactDOM.render(
 
 To render a React Component, just create a local variable that naming with PascalCase name:
 
-```js
+```jsx
 var MyComponent = React.createClass({/** ... */});
 var myElement = <MyComponent someProperty={true} />;
 ReactDOM.render(
@@ -37,3 +37,6 @@ ReactDOM.render(
 #### JSX Transforms
 
 React JSX transforms from an XML-like syntax into native JavaScript. XML **elements**, **attributes** and **children** will be transformed into arguments that are passed to the moethod `React.createElement`.
+
+```js
+```
