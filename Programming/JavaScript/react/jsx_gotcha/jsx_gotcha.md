@@ -16,3 +16,11 @@ But if you want to display within dynamic content, you may find an issue that **
 /** bad display： "First &middot; Second" */
 var div = <div>{'First &middot; Second'}</div>;
 ```
+
+Solutions:
+
+i. use UTF-8
+
+```js
+var div = <div>{'First · Second'}</div>;
+```
