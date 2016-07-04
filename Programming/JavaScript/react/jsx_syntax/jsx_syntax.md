@@ -16,7 +16,7 @@ To render a HTML tags, just use camelCase tag name in JSX:
 var divElement = <div className="foo" />;
 ReactDOM.render(
     divElement,
-    document.getElelementById('example');
+    document.getElelementById('example')`
 );
 ```
 
