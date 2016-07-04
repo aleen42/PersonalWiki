@@ -10,7 +10,7 @@ According to the official statement, JSX is concise and familiar syntax for defi
 
 React can either render HTML tags (strings) or React Components(classes).
 
-To render a HTML tags, just use camelCase tag name in JSX:
+To render a HTML tags, just use lower-case tag name in JSX:
 
 ```jsx
 /** camelCase Naming */
@@ -21,7 +21,7 @@ ReactDOM.render(
 );
 ```
 
-To render a React Component, just create a local variable that naming with PascalCase name:
+To render a React Component, just create a local variable that naming with upper-case name:
 
 ```jsx
 var MyComponent = React.createClass({/** ... */});
@@ -41,5 +41,5 @@ React JSX transforms from an XML-like syntax into native JavaScript. XML **eleme
 ```jsx
 var Nav;
 
-var app = <Nav
+var app = <Nav 
 ```
