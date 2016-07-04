@@ -24,9 +24,10 @@ ReactDOM.render(
 To render a React Component, just create a local variable that naming with PascalCase name:
 
 ```js
-var MyComponents = React.createClass({/** ... */});
+var MyComponent = React.createClass({/** ... */});
+var myElement = <MyComponent someProperty={true} />/
 ReactDOM.render(
-    MyComponents
+    MyComponent, 
 );
 ```
 
