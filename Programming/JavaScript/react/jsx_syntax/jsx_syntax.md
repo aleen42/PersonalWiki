@@ -176,4 +176,10 @@ var person = React.createElement(
 Omitting the value of an attribute causes JSX to treat it as `true`. To pass `false` an attribute expression must be used. This often comes up when using HTML form elements, with attributes like `disabled`, `required`, `checked` and `readOnly`.
 
 ```jsx
+/** two equivlent in jsx */
+var buttonInput = <input type="button" disabled />;
+var buttonInput = <input type="button" disabled={true} />;
+
+var buttonInput = <input type="button" />;
+var buttonInput = <input type="button" disabled={false} />;
 ```
