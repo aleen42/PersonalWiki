@@ -190,7 +190,7 @@ Likewise, JavaScript expressions may be used to express children:
 
 ```jsx
 /** input JSX syntx */
-var content = <Container>{window.isLoggedIn ? <Nav /> : <Login />}</Container>
+var content = <Container>{window.isLoggedIn ? <Nav /> : <Login />}</Container>;
 ```
 
 ```js
@@ -208,5 +208,5 @@ It's easy to add comments within your JSX; they're just JS expressions. You just
 
 ```jsx
 /** input JSX syntx */
-var content = <Container>{/** comments here */}</Container>
+var content = <Container>{/** comments here */}</Container>;
 ```
