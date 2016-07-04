@@ -201,3 +201,7 @@ var content = React.createElemnt(
     window.isLoggedIn ? React.createElement(Nav) : React.createElement(Login)
 );
 ```
+
+##### Comments
+
+It's easy to add comments within your JSX; they're just JS expressions. You just need to be careful to put {} around the comments when you are within the children section of a tag.
