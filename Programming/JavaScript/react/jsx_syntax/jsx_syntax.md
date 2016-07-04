@@ -67,5 +67,12 @@ var Nav;
 var Profile;
 
 /** output JavaScript syntax */
-
+var app = React.creatElement(
+    Nav,
+    { color: 'blue' },
+    React.createElement(
+        Profile,
+        null,
+        'click'
+    )
 ```
