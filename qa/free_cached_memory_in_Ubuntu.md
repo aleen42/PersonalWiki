@@ -8,6 +8,12 @@ After the above note, if you still feel "cleaning" the cache could help, you can
 sync && echo 3 | sudo tee /proc/sys/vm/drop_caches
 ```
 
+Get real free ram without cached:
+
+```bash
+free -m | sed -n -e '3p' | grep -Po "\d+$"
+```
+
 
 
 
