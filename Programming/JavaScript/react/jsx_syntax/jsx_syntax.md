@@ -143,4 +143,6 @@ MyFormComponent.Input = React.createClass({ /** ... */ });
 ```
 
 ```js
+/** output JavaScript syntax */
+
 ```
