@@ -25,7 +25,7 @@ To render a React Component, just create a local variable that naming with Pasca
 
 ```js
 var MyComponent = React.createClass({/** ... */});
-var myElement = <MyComponent someProperty={true} />/
+var myElement = <MyComponent someProperty={true} />;
 ReactDOM.render(
     MyComponent, 
 );
