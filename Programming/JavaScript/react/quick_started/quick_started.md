@@ -26,5 +26,11 @@ ReactDOM.render(
     document.getElementById('container')
 );
 ```
-`
+
 -  React JSFiddle without JSX
+
+```html
+<div id="container">
+    <!-- This element's contents will be replaced with your component. -->
+</div>
+```
