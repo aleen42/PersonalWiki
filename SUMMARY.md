@@ -50,6 +50,7 @@
                 * [Differences between spawn and exec of child_process](./Programming/JavaScript/node/child_process/child_process.md)
             * [ReactJS](./Programming/JavaScript/react/react.md)
                 * [Quick Started](./Programming/JavaScript/react/quick_started/quick_started.md)
+                * [JSX Syntax](./Programming/JavaScript/react/jsx_syntax/jsx_syntax.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
                 * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
