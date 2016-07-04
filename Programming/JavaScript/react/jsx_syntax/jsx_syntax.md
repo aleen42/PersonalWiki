@@ -183,3 +183,21 @@ var buttonInput = <input type="button" disabled={true} />;
 var buttonInput = <input type="button" />;
 var buttonInput = <input type="button" disabled={false} />;
 ```
+
+##### Child Expressions
+
+Likewise, JavaScript expressions may be used to express children:
+
+```jsx
+/** input JSX syntx */
+var content = <Container>{window.isLoggedIn ? <Nav /> : <Login />}</Container>
+```
+
+```js
+/** output JavaScript syntax */
+var content = React.createElemnt(
+    Container,
+    null,
+    window.isLoggedIn ? React.createElement(Nav) : React.createElement(Login);
+);
+```
