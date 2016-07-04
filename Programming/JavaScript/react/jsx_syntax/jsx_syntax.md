@@ -89,3 +89,8 @@ var Nav = React.createClass({ });
 /** output JavaScript syntax */
 var Nav = React.createClass({ displayName: 'Nav' });
 ```
+
+**Some tutorials:**
+
+- [**JSX to JavaScript with Babel REPL**](https://babeljs.io/repl/)
+- [**HTML to JSX converter**](http://magic.reactjs.net/htmltojsx.htm)
