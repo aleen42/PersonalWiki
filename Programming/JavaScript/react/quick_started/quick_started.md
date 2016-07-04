@@ -42,4 +42,8 @@ var Hello = React.createClass({
         return React.createElement('div', null, 'Hello ', this.props.name);
     }
 });
+
+ReactDOM.render(
+    React.createElement(Hello, {name: 'world'});
+);
 ```
