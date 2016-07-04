@@ -14,4 +14,13 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 </div>
 ```
 
+```js
+var Hello = React.createClss({
+    render: function () {
+        return <div>Hello {this.props.name}</div>
+    }
+});
+```
+
+
 -  React JSFiddle without JSX
