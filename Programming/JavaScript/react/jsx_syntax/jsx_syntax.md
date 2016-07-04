@@ -84,3 +84,8 @@ JSX will infer(推斷出) the class's `displayName` from the variable assignment
 /** input JSX syntx */
 var Nav = React.createClass({ });
 ```
+
+```js
+/** output JavaScript syntax */
+var Nav = React.createClass({ displayName: 'Nav' });
+```
