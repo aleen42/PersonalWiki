@@ -20,6 +20,11 @@ var Hello = React.createClss({
         return <div>Hello {this.props.name}</div>
     }
 });
+
+ReactDOM.render(
+    <Hello name="world" />,
+    document.getElementById('container');
+);
 ```
 
 
