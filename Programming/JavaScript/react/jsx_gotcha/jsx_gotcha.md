@@ -25,7 +25,7 @@ i. use UTF-8 and make sure the file is saved as UTF-8.
 var div = <div>{'First · Second'}</div>;
 ```
 
-ii. find the unicode number corresponding to the entity:
+ii. find the unicode number corresponding to the entity.
 
 ```js
 var div = <div>{'First \u00b7 Second'}</div>;
@@ -34,3 +34,6 @@ var div2 = <div>{'First ' + String.fromCharCode(183) + ' Second'}</div>;
 
 iii. use mixed arrays with strings and JSX elements. Each JSX element in the array needs a unique key.
 
+```js
+var div = <div>{['First ', <span key="middot">&middot;</span>, ' Second']}</div>
+```
