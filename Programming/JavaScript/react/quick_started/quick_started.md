@@ -23,7 +23,7 @@ var Hello = React.createClss({
 
 ReactDOM.render(
     <Hello name="world" />,
-    document.getElementById('container');
+    document.getElementById('container')
 );
 ```
 
