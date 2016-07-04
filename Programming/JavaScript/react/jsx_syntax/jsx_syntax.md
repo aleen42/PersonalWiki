@@ -41,13 +41,13 @@ React JSX transforms from an XML-like syntax into native JavaScript. XML **eleme
 ```jsx
 var Nav;
 
-/** input jsx syntx */
+/** input JSX syntx */
 var app = <Nav color="blue">;
 ```
 
 ```js
 var Nav;
 
-/** output javascript syntax */
+/** output JavaScript syntax */
 var app = React.createElement(Nav, {color: 'blue'});
 ```
