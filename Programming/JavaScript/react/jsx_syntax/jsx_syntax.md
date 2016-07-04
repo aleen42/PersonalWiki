@@ -8,5 +8,7 @@ According to the official statement, JSX is concise and familiar syntax for defi
 
 #### HTML Tags vs. React Components
 
+React can either render HTML tags (strings) or React Components(classes).
+
 
 
