@@ -58,4 +58,8 @@ However, arbitrary attributes are supported on custom elements (those with a hyp
 var xMyComponent = <x-my-component custom-attribute="foo" />;
 ```
 
-Web Accessibility attributes starting with aria- will be rendered properly.
+[Web Accessibility](http://www.w3.org/WAI/intro/aria) attributes starting with `aria-` will be rendered properly.
+
+```js
+var div = <div aria-hidden={true} />;
+```
