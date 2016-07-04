@@ -204,4 +204,9 @@ var content = React.createElemnt(
 
 ##### Comments
 
-It's easy to add comments within your JSX; they're just JS expressions. You just need to be careful to put {} around the comments when you are within the children section of a tag.
+It's easy to add comments within your JSX; they're just JS expressions. You just need to be careful to put `{}` around the comments when you are within the children section of a tag.
+
+```jsx
+/** input JSX syntx */
+var content = <Container>{/** comments here *}</Container>
+```
