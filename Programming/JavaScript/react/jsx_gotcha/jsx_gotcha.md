@@ -19,8 +19,10 @@ var div = <div>{'First &middot; Second'}</div>;
 
 Solutions:
 
-i. use UTF-8
+i. use UTF-8 and make sure the file is saved as UTF-8.
 
 ```js
 var div = <div>{'First · Second'}</div>;
 ```
+
+ii. 
