@@ -94,3 +94,5 @@ var Nav = React.createClass({ displayName: 'Nav' });
 
 - [**JSX to JavaScript with Babel REPL**](https://babeljs.io/repl/)
 - [**HTML to JSX converter**](http://magic.reactjs.net/htmltojsx.htm)
+
+#### Namespaced Components
