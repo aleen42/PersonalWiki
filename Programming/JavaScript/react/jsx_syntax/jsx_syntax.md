@@ -63,7 +63,7 @@ var app = <Nav color="blue"><Profile>click</Profile></Nav>;
 ```
 
 ```js
-var Nav
+var Nav;
 var Profile;
 
-```;
+```
