@@ -173,4 +173,7 @@ var person = React.createElement(
 
 ##### Boolean Expressions
 
+Omitting the value of an attribute causes JSX to treat it as `true`. To pass `false` an attribute expression must be used. This often comes up when using HTML form elements, with attributes like `disabled`, `required`, `checked` and `readOnly`.
 
+```jsx
+```
