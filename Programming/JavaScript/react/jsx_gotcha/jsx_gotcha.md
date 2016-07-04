@@ -31,3 +31,6 @@ ii. find the unicode number corresponding to the entity:
 var div = <div>{'First \u00b7 Second'}</div>;
 var div2 = <div>{'First ' + String.fromCharCode(183) + ' Second'}</div>;
 ```
+
+iii. use mixed arrays with strings and JSX elements. Each JSX element in the array needs a unique key.
+
