@@ -48,5 +48,6 @@ var app = <Nav color="blue">;
 ```js
 var Nav;
 
+/** output javascript syntax */
 var app = React.createElement(Nav, {color: 'blue'});
 ```
