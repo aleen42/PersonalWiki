@@ -1,18 +1,18 @@
-## JSX Syntax [Back](./../react.md)
+## js Syntax [Back](./../react.md)
 
-JSX is a Javascript syntax extension that look similar to XML. You can use a simple JSX syntactic transform with React.
+js is a Javascript syntax extension that look similar to XML. You can use a simple js syntactic transform with React.
 
-#### Why JSX?
+#### Why js?
 
-According to the official statement, JSX is concise and familiar syntax for defining tree structures with attributes.
+According to the official statement, js is concise and familiar syntax for defining tree structures with attributes.
 
 #### HTML Tags vs. React Components
 
 React can either render HTML tags (strings) or React Components(classes).
 
-To render a HTML tags, just use camelCase tag name in JSX:
+To render a HTML tags, just use camelCase tag name in js:
 
-```jsx
+```js
 /** camelCase Naming */
 var divElement = <div className="foo" />;
 ReactDOM.render(
@@ -23,7 +23,7 @@ ReactDOM.render(
 
 To render a React Component, just create a local variable that naming with PascalCase name:
 
-```jsx
+```js
 var MyComponent = React.createClass({/** ... */});
 var myElement = <MyComponent someProperty={true} />;
 ReactDOM.render(
@@ -32,16 +32,16 @@ ReactDOM.render(
 );
 ```
 
-*Note: Since JSX is JavaScript, identifiers such as **class** and **for** are discouraged as XML attribute names. Instead, React DOM components expect DOM property names like **className** and **htmlFor**, respectively.*
+*Note: Since js is JavaScript, identifiers such as **class** and **for** are discouraged as XML attribute names. Instead, React DOM components expect DOM property names like **className** and **htmlFor**, respectively.*
 
-#### JSX Transforms
+#### js Transforms
 
-React JSX transforms from an XML-like syntax into native JavaScript. XML **elements**, **attributes** and **children** will be transformed into arguments that are passed to the moethod `React.createElement`.
+React js transforms from an XML-like syntax into native JavaScript. XML **elements**, **attributes** and **children** will be transformed into arguments that are passed to the moethod `React.createElement`.
 
-```jsx
+```js
 var Nav;
 
-/** input JSX syntx */
+/** input js syntx */
 var app = <Nav color="blue">;
 ```
 
@@ -52,13 +52,13 @@ var Nav;
 var app = React.createElement(Nav, {color: 'blue'});
 ```
 
-JSX also allows specifying children using XML syntax:
+js also allows specifying children using XML syntax:
 
-```jsx
+```js
 var Nav;
 var Profile;
 
-/** input JSX syntx */
+/** input js syntx */
 var app = <Nav color="blue"><Profile>click</Profile></Nav>;
 ```
 
@@ -78,10 +78,10 @@ var app = React.creatElement(
 );
 ```
 
-JSX will infer(推斷出) the class's `displayName` from the variable assignment when the `displayName` is **undefined**:
+js will infer(推斷出) the class's `displayName` from the variable assignment when the `displayName` is **undefined**:
 
-```jsx
-/** input JSX syntx */
+```js
+/** input js syntx */
 var Nav = React.createClass({ });
 ```
 
@@ -92,14 +92,14 @@ var Nav = React.createClass({ displayName: 'Nav' });
 
 **Some tutorials:**
 
-- [**JSX to JavaScript with Babel REPL**](https://babeljs.io/repl/)
-- [**HTML to JSX converter**](http://magic.reactjs.net/htmltojsx.htm)
+- [**js to JavaScript with Babel REPL**](https://babeljs.io/repl/)
+- [**HTML to js converter**](http://magic.reactjs.net/htmltojs.htm)
 
 #### Namespaced Components
 
 If you are building a component that has many children, like a form, you might end up with something with a lot of variable declarations:
 
-```jsx
+```js
 /** Awkward block of variable declarations */
 var Form = MyFormComponent;
 var FormRow = Form.Row;
@@ -118,7 +118,7 @@ var App = (
 
 To make it simpler and easier, *namespaced components* let you use one component that has other components as attributes:
 
-```jsx
+```js
 var Form = MyFormComponent;
 
 var App = (
@@ -133,8 +133,8 @@ var App = (
 
 To do this, you just need to create your "sub-components" as attributes of the main component:
 
-```jsx
-/** input JSX syntx */
+```js
+/** input js syntx */
 var MyFormComponent = React.createClass({ /** ... */ });
 
 MyFormComponent.Row = React.createClass({ /** ... */ });
@@ -158,8 +158,8 @@ var App = (
 
 ##### Attribute Expressions
 
-```jsx
-/** input JSX syntx */
+```js
+/** input js syntx */
 var person = <Person name={window.isLoggedIn ? window.name : ''} />;
 ```
 
@@ -173,10 +173,10 @@ var person = React.createElement(
 
 ##### Boolean Expressions
 
-Omitting the value of an attribute causes JSX to treat it as `true`. To pass `false` an attribute expression must be used. This often comes up when using HTML form elements, with attributes like `disabled`, `required`, `checked` and `readOnly`.
+Omitting the value of an attribute causes js to treat it as `true`. To pass `false` an attribute expression must be used. This often comes up when using HTML form elements, with attributes like `disabled`, `required`, `checked` and `readOnly`.
 
-```jsx
-/** two equivlent in jsx */
+```js
+/** two equivlent in js */
 var buttonInput = <input type="button" disabled />;
 var buttonInput = <input type="button" disabled={true} />;
 
@@ -188,8 +188,8 @@ var buttonInput = <input type="button" disabled={false} />;
 
 Likewise, JavaScript expressions may be used to express children:
 
-```jsx
-/** input JSX syntx */
+```js
+/** input js syntx */
 var content = <Container>{window.isLoggedIn ? <Nav /> : <Login />}</Container>;
 ```
 
@@ -204,9 +204,9 @@ var content = React.createElemnt(
 
 ##### Comments
 
-It's easy to add comments within your JSX; they're just JS expressions. You just need to be careful to put `{}` around the comments when you are within the children section of a tag.
+It's easy to add comments within your js; they're just JS expressions. You just need to be careful to put `{}` around the comments when you are within the children section of a tag.
 
-```jsx
-/** input JSX syntx */
+```js
+/** input js syntx */
 var content = <Container>{/** comments here */}</Container>;
 ```
