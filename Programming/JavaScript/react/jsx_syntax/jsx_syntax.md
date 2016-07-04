@@ -198,6 +198,6 @@ var content = <Container>{window.isLoggedIn ? <Nav /> : <Login />}</Container>
 var content = React.createElemnt(
     Container,
     null,
-    window.isLoggedIn ? React.createElement(Nav) : React.createElement(Login);
+    window.isLoggedIn ? React.createElement(Nav) : React.createElement(Login)
 );
 ```
