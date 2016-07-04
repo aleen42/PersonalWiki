@@ -10,5 +10,15 @@ According to the official statement, JSX is concise and familiar syntax for defi
 
 React can either render HTML tags (strings) or React Components(classes).
 
+To render a HTML tags, just use camelCase tag name in JSX:
+
+```js
+var divElement = <div className="foo" />;
+ReactDOM.render(
+    divElement,
+    document.getElelementById('example');
+);
+```
+
 
 
