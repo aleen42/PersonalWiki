@@ -44,6 +44,7 @@ var Hello = React.createClass({
 });
 
 ReactDOM.render(
-    React.createElement(Hello, {name: 'world'});
+    React.createElement(Hello, {name: 'world'}),
+    document.getElementById('container');
 );
 ```
