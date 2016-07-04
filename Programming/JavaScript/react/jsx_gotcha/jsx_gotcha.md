@@ -11,3 +11,7 @@ If we want to insert a literl text in HTML, you may write as followed:
 ```
 
 But if you want to display within dynamic content, you may find an issue that **React escapes all the strings you are displaying in order to prevent a wide range of XSS attacks by default**.
+
+```js
+var div = <div>{'First &middot; Second'}</div>;
+```
