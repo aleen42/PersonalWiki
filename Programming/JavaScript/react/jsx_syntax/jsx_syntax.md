@@ -153,3 +153,22 @@ var App = (
     )
 );
 ```
+
+#### JavaScript Expressions
+
+##### Attribute Expressions
+
+```jsx
+/** input JSX syntx */
+var person = <Person name={window.isLoggedIn ? window.name : ''} />;
+```
+
+```js
+/** output JavaScript syntax */
+var person = React.createElement(
+    Person,
+    { name: window.isLoggedIn ? window.name : '' }
+);
+```
+
+##### Boolean Expressions
