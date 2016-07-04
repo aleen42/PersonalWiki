@@ -75,4 +75,5 @@ var app = React.creatElement(
         null,
         'click'
     )
+);
 ```
