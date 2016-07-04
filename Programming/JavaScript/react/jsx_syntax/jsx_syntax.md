@@ -134,9 +134,13 @@ var App = (
 To do this, you just need to create your "sub-components" as attributes of the main component:
 
 ```jsx
+/** input JSX syntx */
 var MyFormComponent = React.createClass({ /** ... */ });
 
 MyFormComponent.Row = React.createClass({ /** ... */ });
 MyFormComponent.Label = React.createClass({ /** ... */ });
 MyFormComponent.Input = React.createClass({ /** ... */ });
+```
+
+```js
 ```
