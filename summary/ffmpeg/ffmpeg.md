@@ -76,6 +76,10 @@
 - Problem: Sampling will result in distortion of images when not enable **libx264**.
 - Solution: Configure the ffmpeg again, and enable libx264.
 
+##### 2.2.4 Combine audio and video
+
+`ffmpeg -y -i audio.mp3 -i input.mp4 -c:v copy -absf aac_adtstoasc -b 192k output.mp4`
+
 ### 3. Usage
 
 #### 3.1 crop a video
