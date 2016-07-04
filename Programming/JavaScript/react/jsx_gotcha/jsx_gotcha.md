@@ -52,4 +52,4 @@ If you pass properties to native HTML elements that do not exist in the HTML spe
 var div = <div data-custom-attribute="foo" />;
 ```
 
-However, arbitrary attributes are supported on custom elements (those with a hyphen連字符 in the tag name or an `is="..."` attribute).
+However, arbitrary attributes are supported on custom elements (those with a hyphen(連字符) in the tag name or an `is="..."` attribute).
