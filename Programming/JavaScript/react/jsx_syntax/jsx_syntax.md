@@ -77,3 +77,5 @@ var app = React.creatElement(
     )
 );
 ```
+
+JSX will infer(推斷出) the class's displayName
