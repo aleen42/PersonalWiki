@@ -34,3 +34,12 @@ ReactDOM.render(
     <!-- This element's contents will be replaced with your component. -->
 </div>
 ```
+
+```js
+var Hello = React.createClass({
+    displayName: 'Hello',
+    render: function () {
+        return React.createElement('div', null, 'Hello ', this.props.name);
+    }
+});
+```
