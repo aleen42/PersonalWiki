@@ -144,5 +144,12 @@ MyFormComponent.Input = React.createClass({ /** ... */ });
 
 ```js
 /** output JavaScript syntax */
-
+var App = (
+    React.createElement(Form, null, 
+        React.createElement(Form.Row, null, 
+            React.createElement(Form.Label, null),
+            React.createElement(Form.Input, null)
+        )
+    )
+);
 ```
