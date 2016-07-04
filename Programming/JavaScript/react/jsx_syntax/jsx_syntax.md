@@ -57,7 +57,11 @@ JSX also allows specifying children using XML syntax:
 ```jsx
 var Nav, Profile;
 
+/** input JSX syntx */
 var app = <Nav color="blue"><Profile>click</Profile></Nav>;
+```
 
+```js
+var Nav, Profile;
 
 ```
