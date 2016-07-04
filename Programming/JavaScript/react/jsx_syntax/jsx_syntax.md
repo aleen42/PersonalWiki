@@ -96,3 +96,6 @@ var Nav = React.createClass({ displayName: 'Nav' });
 - [**HTML to JSX converter**](http://magic.reactjs.net/htmltojsx.htm)
 
 #### Namespaced Components
+
+If you are building a component that has many children, like a form, you might end up with something with a lot of variable declarations:
+
