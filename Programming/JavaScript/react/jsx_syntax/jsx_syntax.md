@@ -115,3 +115,18 @@ var App = (
     </Form>
 );
 ```
+
+To make it simpler and easier, *namespaced components* let you use one component that has other components as attributes:
+
+```jsx
+var Form = MyFormComponent;
+
+var App = (
+    <Form>
+        <Form.Row>
+            <Form.Label />
+            <Form.Input />
+        </Form.Row>
+    </Form>
+);
+```
