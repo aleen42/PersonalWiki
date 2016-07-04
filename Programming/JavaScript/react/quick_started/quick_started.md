@@ -27,6 +27,8 @@ ReactDOM.render(
 );
 ```
 
+The XML syntax inside of JavaScript is called **JSX**; check out the JSX syntax to learn more about it. In order to translate it to vanilla JavaScript we use `<script type="text/babel">` and include Babel to actually perform the transformation in the browser.
+
 -  React JSFiddle without JSX
 
 ```html
