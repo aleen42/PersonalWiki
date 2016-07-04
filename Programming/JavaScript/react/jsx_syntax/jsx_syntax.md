@@ -21,5 +21,5 @@ ReactDOM.render(
 );
 ```
 
-
+To render a React Component, just create a local variable that naming with PascalCase tag name
 
