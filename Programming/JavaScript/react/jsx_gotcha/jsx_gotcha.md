@@ -37,3 +37,9 @@ iii. use mixed arrays with strings and JSX elements. Each JSX element in the arr
 ```js
 var div = <div>{['First ', <span key="middot">&middot;</span>, ' Second']}</div>
 ```
+
+iv. insert raw HTML directly.
+
+```js
+var div = <div dangerouslySetInnerHTML={{ __html: 'First &middot; Second' }};
+```
