@@ -165,7 +165,7 @@ If data is fetched from servers, and we can use `getInitialState` and `component
 ```js
 var CommentBox = React.createClass({
     getInitialState: function () {
-        retrn {
+        return {
             data: []
         };
     },
