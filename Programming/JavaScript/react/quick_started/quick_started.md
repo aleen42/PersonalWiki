@@ -121,4 +121,4 @@ Transform jsx with the following command:
 jsx --watch src/ build/
 ```
 
-The comand will see jsx files in the directory `src/` and build a vanilla javascript file into the directory `build/`, and then we can just import this vanilla JavaScript file.
+The comand will see jsx files in the directory `src/` and build a vanilla JavaScrip file into the directory `build/`, and then we can just import this vanilla JavaScript file.
