@@ -50,4 +50,4 @@ ReactDOM.render(
 
 As we can see, we have just passed a object to `React.createClass`, and the main attribute of this object is a function which named **render**.
 
-`ReactDOM.render()` instantiates(例證) the root component, starts the framework, and injects the markup into a raw DOM element, provided as the second argument.
+`ReactDOM.render()` instantiates(例證) the root component, starts the framework, and injects the markup into a raw DOM element, provided as the second argument. Noice that, ReactDOM.render should only be called after the composite components have been defined.
