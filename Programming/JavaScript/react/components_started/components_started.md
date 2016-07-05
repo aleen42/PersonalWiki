@@ -111,5 +111,13 @@ That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/C
 As we can see, Comment elements within the CommentList can be extracted as a data model like following:
 
 ```js
-
+var CommentList = React.createClass({ 
+    render: function () {
+        return (
+            <div className="commentList">
+                {commentNodes
+            </div>
+        );
+    }
+});
 ```
