@@ -62,7 +62,9 @@ CommentList is a child node of CommentBox, so we should have this following:
 var CommentList = React.createClass({ 
     render: function () {
         return (
-            <div className="CommentList">
+            <div className="commentList">
+                <Comment author="aleen">comments for aleen</Comment>
+                <Comment author="alien">comments for alien</Comment>
             </div>
         );
     }
