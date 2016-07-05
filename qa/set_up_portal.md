@@ -25,3 +25,11 @@ iv. Change authority owner
 ```bash
 chown -R www-data:www-data /var/www/authpuppy
 ```
+
+v. Create mysql
+
+vi. Create Apache/Nginx
+
+- Website Path: `/var/www/authpuppy/web`
+- Bind domain name: `auth.blackmagic.science`
+- Start `url rewrite`
