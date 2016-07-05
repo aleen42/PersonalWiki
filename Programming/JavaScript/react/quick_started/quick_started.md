@@ -90,7 +90,7 @@ Or we can seperate a file to write jsx:
     <script src="build/react.js" charset="utf-8"></script>
     <script src="build/react-dom.js" charset="utf-8"></script>
     <script src="build/browser.min.js" charset="utf-8"></script>
-    <script src="build/helloworld.js" type="text/babel"></script>
+    <script src="src/helloworld.js" type="text/babel"></script>
 </head>
 <body>
     <div id="example"></div>
