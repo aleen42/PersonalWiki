@@ -55,10 +55,20 @@ i. Install WifiDog
 ii. Configure WifiDog
 
 ```bash
-# vim etc/wifidog.conf
+# vim /etc/wifidog.conf
 AuthServer {
     Hostname auth.blackmagic.science
     SSLAvailable no
     Path /
 }
+```
+
+iii. Start WifiDog
+
+```bash
+/etc/init.d/wifidog enable
+
+# or
+
+/etc/init.d/wifidog start
 ```
