@@ -164,6 +164,7 @@ If data is fetched from servers, and we can use `getInitialState` and `component
 
 ```js
 var CommentBox = React.createClass({
+    /** getInitialState() executes exactly once during the lifecycle of the component and sets up the initial state of the component. */
     getInitialState: function () {
         return {
             data: []
