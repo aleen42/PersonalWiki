@@ -54,7 +54,7 @@ As we can see, we have just passed a object to `React.createClass`, and the main
 
 `ReactDOM.render()` instantiates(例證) the root component, starts the framework, and injects the markup into a raw DOM element, provided as the second argument. Noice that, `ReactDOM.render` should only be called after the composite components have been defined.
 
-### CommentList <- Comment
+### CommentList <- Comment & CommentForm
 
 CommentList is a child node of CommentBox, so we should have this following:
 
@@ -105,3 +105,4 @@ var Comment = React.createClass({
 But there's a problem! Our rendered comments look like this in the browser: "**`&lt;p&gt;This is &lt;strong&gt;another&lt;/strong&gt; comment&lt;/p&gt;**". We want those tags to actually render as HTML.
 
 That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/Cross-site_scripting).
+
