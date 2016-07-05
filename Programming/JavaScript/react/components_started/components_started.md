@@ -71,7 +71,7 @@ var CommentList = React.createClass({
 });
 ```
 
-For each Comment, we will use `this.props` to get attributes of elements:
+For each Comment, we will use `this.props` to get attributes `author` of elements:
 
 ```js
 var Comment = React.createClass({
