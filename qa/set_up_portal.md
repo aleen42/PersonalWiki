@@ -2,4 +2,4 @@
 
 - Router Firmware: **OpenWRT/DDWRT**
 - Gateway: **WifiDog**
-- Auth Server: **Authppy**
+- Auth Server: **Authpuppy**
