@@ -105,4 +105,7 @@ ReactDOM.render(
 );
 ```
 
+*Notice that: some browsers like Chrome can't load this file unless it's through a HTTP method.*
+
 #### use npm to build a native javascript file
+
