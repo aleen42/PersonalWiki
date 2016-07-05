@@ -176,6 +176,17 @@ var CommentBox = React.createClass({
     
     componentDidMount: function () {
         /** ajax to get data from url */
+        $.ajax({
+            url: this.props.url,
+            dataType: 'JSON', 
+            cache: false,
+            success: function () {
+                
+            }.bind(this),
+            error: function (xhr, status, er) {
+                console.error(this.props.url, status, err.toString());
+            }.bind(this)
+        });
     },
     
     render: function () {
