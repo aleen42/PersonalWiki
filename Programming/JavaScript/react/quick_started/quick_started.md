@@ -131,7 +131,7 @@ The comand will see jsx files in the directory `src/` and build a vanilla JavaSc
     <title>Hello React!</title>
     <script src="build/react.js" charset="utf-8"></script>
     <script src="build/react-dom.js" charset="utf-8"></script>
-    <script src="build/helloworld.js" type="text/babel"></script>
+    <script src="build/helloworld.js" type="text/javascrip"></script>
 </head>
 <body>
     <div id="example"></div>
