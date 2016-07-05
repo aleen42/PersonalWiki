@@ -98,4 +98,11 @@ Or we can seperate a file to write jsx:
 </html>
 ```
 
+```js
+ReactDOM.render(
+    <h1>Hello World</h1>,
+    document.getElementById('example')
+);
+```
+
 #### use npm to build
