@@ -1,1 +1,1 @@
-## Some problems of building gr-rsm [Back](./qa.md)
+## Set up portal with WifiDog + AuthPuppy [Back](./qa.md)
