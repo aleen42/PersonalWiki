@@ -151,4 +151,9 @@ var CommentBox = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <CommentBox data={data}></CommentBox>,
+    document.getElementById('content'_
+);
 ```
