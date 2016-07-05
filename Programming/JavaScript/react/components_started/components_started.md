@@ -59,13 +59,25 @@ As we can see, we have just passed a object to `React.createClass`, and the main
 CommentList is a child node of CommentBox, so we should have this following:
 
 ```js
-var CommentBox = React.createClass({ 
+var CommentList = React.createClass({ 
     render: function () {
         return (
             <div class="commentBox">
                 <h1>Comments</h1>
                 <CommentList></CommentList>
             </div>
+        );
+    }
+});
+```
+
+For each Comments, we will use `this.props` to get attributes of elements:
+
+```js
+var Comment = React.createClass({
+    render: function () {
+        return (
+            
         );
     }
 });
