@@ -20,7 +20,7 @@ iii. Move `authpuppy/` to `/var/www`
 mv authpuppy /var/www/
 ```
 
-iv. Change authority mode
+iv. Change authority owner
 
 ```bash
 chown -R www-data:www-data /var/www/authpuppy
