@@ -15,3 +15,13 @@ tar -zxvf authpuppy-1.0.0-stable.tgz
 ```
 
 iii. Move `authpuppy/` to `/var/www`
+
+```bash
+mv authpuppy /var/www/
+```
+
+iv. Change authority mode
+
+```bash
+chown -R www-data:www-data /var/www/authpuppy
+```
