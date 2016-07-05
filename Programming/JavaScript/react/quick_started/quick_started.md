@@ -109,3 +109,16 @@ ReactDOM.render(
 
 #### use npm to build a native javascript file
 
+Install the tool first:
+
+```bash
+npm install -g react-tools
+```
+
+Transform jsx with the following command:
+
+```bash
+jsx --watch src/ build/
+```
+
+The comand will see jsx files in the directory `src/` and build a native javascript file into the directory `build
