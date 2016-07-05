@@ -1,1 +1,1 @@
-## JSX Gotchas [Back](./../react.md)
+## Components Started [Back](./../react.md)
