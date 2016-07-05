@@ -106,3 +106,6 @@ But there's a problem! Our rendered comments look like this in the browser: "**`
 
 That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/Cross-site_scripting).
 
+### Data Model
+
+
