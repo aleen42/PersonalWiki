@@ -89,5 +89,15 @@ var Comment = React.createClass({
 Markdown is one of awesome tools in React, and we can use `Remarkable` to convert Markdown into raw HTML.
 
 ```js
-
+var Comment = React.createClass({
+    render: function () {
+        var md = new Remarkable();
+        return (
+            <div className="comment">
+                <h2 className="commentAuthor">{this.props.author}</h2>
+                {md.render(this.props.children.toString()}
+            </div>
+        );
+    }
+});
 ```
