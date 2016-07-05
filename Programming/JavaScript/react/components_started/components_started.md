@@ -174,6 +174,9 @@ var CommentBox = React.createClass({
         };
     },
     
+    componentDidMount: function () {
+        
+    },
     
     render: function () {
         return (
