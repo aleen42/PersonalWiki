@@ -44,3 +44,21 @@ Login to authpuppy to create nodes for each router:
 - gw id: Gateway id
 - Deployment status: deployed
 - Optional
+
+### Configuration of routers
+
+i. Install WifiDog
+
+- OpenWRT: `opkg install wifidog`
+- DDWRT: has been installed by default
+
+ii. Configure WifiDog
+
+```bash
+# vim etc/wifidog.conf
+AuthServer {
+    Hostname auth.blackmagic.science
+    SSLAvailable no
+    Path /
+}
+```
