@@ -311,6 +311,8 @@
         * [Some commands of SVN](./qa/svncommands.md)
         * [Some problems of releasing memory in C++](./qa/cppreleasing.md)
         * [Some problems of building gr-rsm](./qa/build_gr_rsm.md)
+        * [Set up portal with WifiDog + AuthPuppy](./qa/set_up_portal.md)
+
 - Idols
     * [Sara Soueidan](http://sarasoueidan.com/)
     * [Chris Gannon](http://blog.gannon.tv/)
