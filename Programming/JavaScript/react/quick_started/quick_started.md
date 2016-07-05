@@ -122,3 +122,19 @@ jsx --watch src/ build/
 ```
 
 The comand will see jsx files in the directory `src/` and build a vanilla JavaScript file into the directory `build/`, and then we can just import this vanilla JavaScript file.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello React!</title>
+    <script src="build/react.js" charset="utf-8"></script>
+    <script src="build/react-dom.js" charset="utf-8"></script>
+    <script src="build/helloworld.js" type="text/babel"></script>
+</head>
+<body>
+    <div id="example"></div>
+</body>
+</html>
+```
