@@ -209,3 +209,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+With componentDidMount
