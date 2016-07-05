@@ -47,3 +47,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+As we can see, we have just passed a object to `React.createClass`, and the main attribute of this object is a function which named **render**.
