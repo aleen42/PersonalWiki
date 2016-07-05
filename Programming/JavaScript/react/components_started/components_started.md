@@ -16,7 +16,7 @@ First, we will build up a component for CommentBox with the following jsx:
 var CommentBox = React.createClass({ 
     render: function () {
         return (
-            <div class="commentBox">
+            <div className="commentBox">
                 Hello, I am a comment box.
             </div>
         );
@@ -62,9 +62,7 @@ CommentList is a child node of CommentBox, so we should have this following:
 var CommentList = React.createClass({ 
     render: function () {
         return (
-            <div class="commentBox">
-                <h1>Comments</h1>
-                <CommentList></CommentList>
+            <div className="CommentList">
             </div>
         );
     }
