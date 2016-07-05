@@ -36,3 +36,11 @@ vi. Create Apache/Nginx
 
 vii. Open http://auth.blackmagic.science/ to start installation
 
+### Create a new node for a router
+
+Login to authpuppy to create nodes for each router:
+
+- Name
+- gw id: Gateway id
+- Deployment status: deployed
+- Optional
