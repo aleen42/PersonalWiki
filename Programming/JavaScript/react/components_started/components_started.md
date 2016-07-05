@@ -160,6 +160,22 @@ ReactDOM.render(
 
 ### Fetch Data from servers
 
-If data is fetched from servers, and we can use `getInitiateState` and `componentDidMount`:
+If data is fetched from servers, and we can use `getInitialState` and `componentDidMount`:
 
+```js
+var CommentBox = React.createClass({
+    getInitialState: function () {
+        
+    },
 
+    render: function () {
+        return (
+            <div className="comemntBox">
+                <h1>Comments</h1>
+                <CommentList data="{this.state.data}"></CommentList>
+                <CommentForm></CommentForm>
+            </div>
+        );
+    }
+});
+```
