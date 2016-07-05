@@ -127,3 +127,12 @@ var CommentList = React.createClass({
     }
 });
 ```
+
+Then, the data can be a array like following:
+
+```js
+var data = [
+    { id: 1, author: 'aleen', text: 'comments for **aleen**'},
+    { id: 2, author: 'alien', text: 'comments for **alien**'}
+];
+```
