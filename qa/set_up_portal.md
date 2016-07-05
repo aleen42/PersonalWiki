@@ -33,3 +33,6 @@ vi. Create Apache/Nginx
 - Website Path: `/var/www/authpuppy/web`
 - Bind domain name: `auth.blackmagic.science`
 - Start `url rewrite`
+
+vii. Open http://auth.blackmagic.science/ to start installation
+
