@@ -30,5 +30,13 @@ ReactDOM.render(
 Then, this jsx should be converted into a plain js like:
 
 ```js
-
+var CommentBox = React.createClass({
+    render: function () {
+        return (
+            React.createElement('div', {
+                class: 'commentBox'
+            }, 'Hello, I am a comment box');
+        );
+    }
+});
 ```
