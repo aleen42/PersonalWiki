@@ -180,7 +180,7 @@ var CommentBox = React.createClass({
             url: this.props.url,
             dataType: 'JSON', 
             cache: false,
-            success: function () {
+            success: function (data) {
                 
             }.bind(this),
             error: function (xhr, status, err) {
