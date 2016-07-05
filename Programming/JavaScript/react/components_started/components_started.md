@@ -54,7 +54,7 @@ As we can see, we have just passed a object to `React.createClass`, and the main
 
 `ReactDOM.render()` instantiates(例證) the root component, starts the framework, and injects the markup into a raw DOM element, provided as the second argument. Noice that, `ReactDOM.render` should only be called after the composite components have been defined.
 
-### CommentList
+### CommentList <- Commen
 
 CommentList is a child node of CommentBox, so we should have this following:
 
