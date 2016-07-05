@@ -20,4 +20,9 @@ var CommentBox = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <CommentBox />,
+    document.getElementById('content')
+);
 ```
