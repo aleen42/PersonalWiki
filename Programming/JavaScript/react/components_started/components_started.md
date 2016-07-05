@@ -14,7 +14,7 @@ First, we will build up a component for CommentBox with the following jsx:
 var CommentBox = React.createClass({ 
     render: function () {
         return (
-            <div class="CommentBox">
+            <div class="commentBox">
                 Hello, I am a comment
             </div>
         );
