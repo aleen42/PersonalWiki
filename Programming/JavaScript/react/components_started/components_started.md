@@ -8,6 +8,8 @@ React is all about modular and composable components. Here we will start to writ
 
 >> CommentForm
 
+### CommentBox
+
 First, we will build up a component for CommentBox with the following jsx:
 
 ```js
