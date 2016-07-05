@@ -113,9 +113,15 @@ As we can see, Comment elements within the CommentList can be extracted as a dat
 ```js
 var CommentList = React.createClass({ 
     render: function () {
+        var commentNodes = this.props.data.map(function (comment) {
+            return(
+                <Comment author="{comment.author}" key="{comment.id}">{comment.text}</Comment>
+            );
+        });
+        
         return (
             <div className="commentList">
-                {commentNodes
+                {commentNodes}
             </div>
         );
     }
