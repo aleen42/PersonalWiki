@@ -71,7 +71,7 @@ var CommentList = React.createClass({
 });
 ```
 
-For each Comment, we will use `this.props.author` to get attributes `author` of the corresponding elements and `this.props.children` as nested element:
+For each Comment, we will use `this.props.author` to get attributes `author` of the corresponding elements and `this.props.children` as nested elements:
 
 ```js
 var Comment = React.createClass({
