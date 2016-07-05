@@ -168,7 +168,7 @@ var CommentBox = React.createClass({
      * getInitialState() executes exactly once during the lifecycle of the component 
      * and sets up the initial state of the component.
      */
-    get-InitialState: function () {
+    getInitialState: function () {
         return {
             data: []
         };
