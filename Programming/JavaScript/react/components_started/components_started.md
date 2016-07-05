@@ -136,3 +136,19 @@ var data = [
     { id: 2, author: 'alien', text: 'comments for **alien**'}
 ];
 ```
+
+And of course, we should pass this array through CommentBox:
+
+```js
+var CommentBox = React.createClass({
+    render: function () {
+        return (
+            <div className="comemntBox">
+                <h1>Comments</h1>
+                <CommentList data="{this.props.data}"></CommentList>
+                <CommentForm></CommentForm>
+            </div>
+        );
+    }
+});
+```
