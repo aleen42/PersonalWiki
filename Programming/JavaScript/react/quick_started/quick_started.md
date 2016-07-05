@@ -1,6 +1,6 @@
 ## Quick Started [Back](./../react.md)
 
-#### JSFiddle
+### JSFiddle
 
 The easiest way to start hacking on React is using the following JSFiddle Hello World examples:
 
@@ -49,4 +49,30 @@ ReactDOM.render(
     React.createElement(Hello, {name: 'world'}),
     document.getElementById('container')
 );
+```
+
+### Usage
+
+#### use browser.min.js to convert jsx
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello React!</title>
+    <script src="build/react.js" charset="utf-8"></script>
+    <script src="build/react-dom.js" charset="utf-8"></script>
+    <script src="build/browser.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div id="example"></div>
+    <script type="text/babel">
+        ReactDOM.render(
+            <h1>Hello World</h1>,
+            document.getElementById('example')
+        );
+    </script>
+</body>
+</html>
 ```
