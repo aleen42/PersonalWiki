@@ -57,3 +57,20 @@ As we can see, we have just passed a object to `React.createClass`, and the main
 ### CommentList
 
 CommentList is a child node of CommentBox, so we should have this following:
+
+```js
+var CommentBox = React.createClass({ 
+    render: function () {
+        return (
+            <div class="commentBox">
+                Hello, I am a comment box.
+            </div>
+        );
+    }
+});
+
+ReactDOM.render(
+    <CommentBox />,
+    document.getElementById('content')
+);
+```
