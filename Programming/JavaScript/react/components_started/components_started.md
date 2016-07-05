@@ -63,8 +63,8 @@ var CommentList = React.createClass({
     render: function () {
         return (
             <div className="commentList">
-                <Comment author="aleen">comments for aleen</Comment>
-                <Comment author="alien">comments for alien</Comment>
+                <Comment author="aleen">comments for **aleen**</Comment>
+                <Comment author="alien">comments for **alien**</Comment>
             </div>
         );
     }
