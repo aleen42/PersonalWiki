@@ -26,3 +26,9 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+Then, this jsx should be converted into a plain js like:
+
+```js
+
+```
