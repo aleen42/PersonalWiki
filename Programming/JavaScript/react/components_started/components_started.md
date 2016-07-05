@@ -102,6 +102,6 @@ var Comment = React.createClass({
 });
 ```
 
-But there's a problem! Our rendered comments look like this in the browser: "&lt;p&gt;This is &lt;strong&gt;another&lt;/strong&gt; comment&lt;/p&gt;". We want those tags to actually render as HTML.
+But there's a problem! Our rendered comments look like this in the browser: "**`&lt;p&gt;This is &lt;strong&gt;another&lt;/strong&gt; comment&lt;/p&gt;**". We want those tags to actually render as HTML.
 
-That's React protecting you from an XSS attack. There's a way to get around it but the framework warns you not to use it:
+That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/Cross-site_scripting).
