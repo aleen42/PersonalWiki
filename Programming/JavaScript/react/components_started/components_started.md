@@ -108,4 +108,8 @@ That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/C
 
 ### Data Model
 
+As we can see, Comment elements within the CommentList can be extracted as a data model like following:
 
+```js
+
+```
