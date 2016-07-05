@@ -174,6 +174,10 @@ var CommentBox = React.createClass({
         };
     },
     
+    /**
+     * componentDidMount is a method called automatically by React
+     * after a component is rendered for the first time.
+     */
     componentDidMount: function () {
         /** ajax to get data from url */
         $.ajax({
