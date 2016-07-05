@@ -35,7 +35,7 @@ var CommentBox = React.createClass({
         return (
             React.createElement(
                 'div', 
-                { 'className: 'commentBox' }, 
+                { 'className': 'commentBox' }, 
                 'Hello, I am a comment box'
             );
         );
