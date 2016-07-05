@@ -76,3 +76,5 @@ ReactDOM.render(
 </body>
 </html>
 ```
+
+In order to translate it to vanilla JavaScript we use <script type="text/babel"> and include Babel to actually perform the transformation in the browser.
