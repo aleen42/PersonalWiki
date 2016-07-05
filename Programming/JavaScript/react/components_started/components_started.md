@@ -173,6 +173,8 @@ var CommentBox = React.createClass({
             data: []
         };
     },
+    
+    
     render: function () {
         return (
             <div className="comemntBox">
@@ -183,4 +185,9 @@ var CommentBox = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <CommentBox url="/api/comments"></CommentBox>,
+    document.getElementById('content')
+);
 ```
