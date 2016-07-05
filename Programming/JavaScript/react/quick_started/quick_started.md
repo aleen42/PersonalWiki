@@ -105,4 +105,4 @@ ReactDOM.render(
 );
 ```
 
-#### use npm to build
+#### use npm to build a native javascript file
