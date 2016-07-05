@@ -157,3 +157,9 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+### Fetch Data from servers
+
+If data is fetched from servers, and we can use `getInitiateState` and `componentDidMount`:
+
+
