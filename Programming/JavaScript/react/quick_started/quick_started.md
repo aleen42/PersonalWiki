@@ -107,7 +107,7 @@ ReactDOM.render(
 
 *Notice that: some browsers like Chrome can't load this file unless it's through a **HTTP** method.*
 
-#### use npm to build a vanilla javascript file
+#### use npm to build a vanilla JavaScript file
 
 Install the tool first:
 
@@ -121,4 +121,4 @@ Transform jsx with the following command:
 jsx --watch src/ build/
 ```
 
-The comand will see jsx files in the directory `src/` and build a vanilla javascript file into the directory `build/`, and then we can just import this vanilla javascript fil
+The comand will see jsx files in the directory `src/` and build a vanilla javascript file into the directory `build/`, and then we can just import this vanilla JavaScript file.
