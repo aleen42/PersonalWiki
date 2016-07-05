@@ -53,7 +53,7 @@ ReactDOM.render(
 
 ### Usage
 
-#### use browser.min.js to convert jsx
+#### use browser.min.js to transform jsx
 
 ```html
 <!DOCTYPE html>
@@ -78,3 +78,24 @@ ReactDOM.render(
 ```
 
 In order to translate it to vanilla JavaScript we use `<script type="text/babel">` and include **Babel** to actually perform the transformation in the browser.
+
+Or we can seperate a file to write jsx:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello React!</title>
+    <script src="build/react.js" charset="utf-8"></script>
+    <script src="build/react-dom.js" charset="utf-8"></script>
+    <script src="build/browser.min.js" charset="utf-8"></script>
+    <script src="build/helloworld.js" type="text/babel"></script>
+</head>
+<body>
+    <div id="example"></div>
+</body>
+</html>
+```
+
+#### use npm to build
