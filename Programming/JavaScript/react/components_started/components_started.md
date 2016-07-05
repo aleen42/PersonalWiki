@@ -8,14 +8,14 @@ React is all about modular and composable components. Here we will start to writ
 
 >> CommentForm
 
-First, we will build up a component for CommonBox with the following jsx:
+First, we will build up a component for CommentBox with the following jsx:
 
 ```js
-var CommonBox = React.createClass({ 
+var CommentBox = React.createClass({ 
     render: function () {
         return (
-            <div class="CommonBox">
-                
+            <div class="CommentBox">
+                Hello, I am a comment
             </div>
         );
     }
