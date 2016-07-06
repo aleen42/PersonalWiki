@@ -20,6 +20,6 @@ The props should be considered immutable. Mutating the props object somewhere el
 
 ### Spread Attributes
 
-**Spread Attributes** has used a new operator, `...` notation, in ES6.
+**Spread Attributes** has used a new operator, `...` notation, in ES6, and this is a new feature of jsx.
 
 
