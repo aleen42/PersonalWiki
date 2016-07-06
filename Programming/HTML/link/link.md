@@ -7,7 +7,7 @@
 	- **relative URL** is used for linking withing own website. It's effective.
 - **Email**
 	- ```<a href="mailto:aleen42@vip.qq.com">aleen42@vip.qq.com</a>```
-- When linking to a **Specific Part**, you can use **id**. After you click upon this `<a>` tag, url should be have a hash changed, and `location.hash` should be `#arc_shot`. Hash changed event can use `window.onhashchange` to listen to.
+- When linking to a **Specific Part**, you can use **id**. After you click upon this `<a>` tag, url should be have a hash changed, and `location.hash` should be `#arc_shot`. We can  use `window.onhashchange` to listen to hash changed events.
 	- ```<a href="#arc_shot">Arc Shot</a>```
 	- ```<h1 id="arc_shot">Arc Shot</h1>```
 
