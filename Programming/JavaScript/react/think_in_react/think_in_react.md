@@ -32,6 +32,8 @@ After that, the jsx should be written like the following structure:
 ```
 
 ```js
+var FilterableProductTable = React.createClass({ /** ... */ });
+
 ReactDOM.render(
     <FilterableProductTable></FilterableProductTable>,
     document.getElementById('content')
