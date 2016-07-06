@@ -53,6 +53,7 @@
                 * [JSX Syntax](./Programming/JavaScript/react/jsx_syntax/jsx_syntax.md)
                 * [JSX Gotchas](./Programming/JavaScript/react/jsx_gotcha/jsx_gotcha.md)
                 * [Components](./Programming/JavaScript/react/components_started/components_started.md)
+                * [Think in React](./Programming/JavaScript/react/think_in_react/think_in_react.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
                 * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
