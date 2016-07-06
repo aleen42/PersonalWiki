@@ -416,6 +416,7 @@ var Comment = React.createClass({
         var md = new Remarkable();
         return { __html: md.render(this.props.children.toString()) };
     },
+    
     render: function () {
         return (
             <div className="comment">
