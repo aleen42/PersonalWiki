@@ -110,12 +110,17 @@ There is a way to do around it:
 
 ```js
 var Comment = React.createClass({
-    render: function () {
+    /** dangerouslySetInnerHTML must use __html to store what you want to set */
+    rawMarkup: function () {
         var md = new Remarkable();
+        return { __html: md.render(this.props.children.toString()) };
+    },
+    
+    render: function () {
         return (
             <div className="comment">
                 <h2 className="commentAuthor">{this.props.author}</h2>
-                <span dangerouslySetInnerHTML={md.render(this.props.children.toString())}></span>
+                <span dangerouslySetInnerHTML={this.rawMarkup()}></span>
             </div>
         );
     }
@@ -412,7 +417,7 @@ var CommentBox = React.createClass({
 ```js
 /** Comment Component */
 var Comment = React.createClass({
-    /** dangerouslySetInnerHTML must use __html to store what you
+    /** dangerouslySetInnerHTML must use __html to store what you want to set */
     rawMarkup: function () {
         var md = new Remarkable();
         return { __html: md.render(this.props.children.toString()) };
