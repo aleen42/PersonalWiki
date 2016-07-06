@@ -2,6 +2,8 @@
 
 React is all about modular and composable components. Here we will start to write a structure of components like following:
 
+*Notice that: when creating components, you are recommended to follow following steps. Firstly, you should design the structure of your components. After that, use top-down view to build each components. It means that build components from parent nodes to children's. However, you should pay more attention to **scope problems**.*
+
 > [CommentBox](#commentbox)
 >> [CommentList](#commentlist---comment)
 >>> Comment
@@ -115,7 +117,7 @@ var Comment = React.createClass({
         var md = new Remarkable();
         return { __html: md.render(this.props.children.toString()) };
     },
-    
+
     render: function () {
         return (
             <div className="comment">
@@ -422,7 +424,7 @@ var Comment = React.createClass({
         var md = new Remarkable();
         return { __html: md.render(this.props.children.toString()) };
     },
-    
+
     render: function () {
         return (
             <div className="comment">
