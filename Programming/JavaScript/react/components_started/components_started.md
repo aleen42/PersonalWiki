@@ -2,7 +2,7 @@
 
 React is all about modular and composable components. Here we will start to write a structure of components like following:
 
-*Notice that: when creating components, you are recommended to follow following steps. Firstly, you should design the structure of your components. After that, use top-down view to build each components. It means that build components from parent nodes to children's. However, you should pay more attention to **scope problems**.*
+*Notice that: when creating components, you are recommended to follow following steps. Firstly, you should design the structure of your components. After that, use top-down view to build each components. It means that build components from parent nodes to children's. However, you should pay more attention to **scope problems**. There is a [example](./../think_in_react/think_in_react.md).*
 
 > [CommentBox](#commentbox)
 >> [CommentList](#commentlist---comment)
