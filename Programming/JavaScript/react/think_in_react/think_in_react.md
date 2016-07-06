@@ -12,6 +12,7 @@ Then, we can name each component with our familiar naming style with this struct
 
 > FilterableProductTable(**orange**)
 >> SearchBar(**blue**)
+
 >> ProductTable(**green**)
 >>> ProductCategoryRow(**turquoise**)
 
