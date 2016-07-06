@@ -1,1 +1,1 @@
-## Think in React [Back](./../react.md)
+## JSX Spread Attributes [Back](./../react.md)
