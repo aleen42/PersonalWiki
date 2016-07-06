@@ -115,7 +115,7 @@ var Comment = React.createClass({
         return (
             <div className="comment">
                 <h2 className="commentAuthor">{this.props.author}</h2>
-                <span dangerouslySetInnerHTML=  {md.render(this.props.children.toString())}</span>
+                <span dangerouslySetInnerHTML={md.render(this.props.children.toString())}</span>
             </div>
         );
     }
