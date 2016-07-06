@@ -26,6 +26,8 @@ The props should be considered immutable. Mutating the props object somewhere el
 var props = {};
 props.foo = x;
 props.bar = y;
+
+var component = <Component {...props} />
 ```
 
 
