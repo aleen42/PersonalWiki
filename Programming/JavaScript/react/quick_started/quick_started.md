@@ -115,7 +115,7 @@ Install the tool first:
 npm install -g react-tools
 ```
 
-Transform jsx with the following command, `--watch` is used for keeping watching transforma:
+Transform jsx with the following command, `--watch` is used for keeping watching transformation:
 
 ```bash
 jsx --watch src/ build/
