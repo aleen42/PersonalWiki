@@ -109,7 +109,17 @@ That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/C
 There is a way to do around it:
 
 ```js
-
+var Comment = React.createClass({
+    render: function () {
+        var md = new Remarkable();
+        return (
+            <div className="comment">
+                <h2 className="commentAuthor">{this.props.author}</h2>
+                <span dangerouslySetInnerHTML=  {md.render(this.props.children.toString())}</span>
+            </div>
+        );
+    }
+});
 ```
 
 ### Data Model
