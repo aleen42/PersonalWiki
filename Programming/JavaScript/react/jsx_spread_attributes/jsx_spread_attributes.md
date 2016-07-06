@@ -32,6 +32,15 @@ props.foo = x;
 var component = <Component {...props} bar={y} />
 ```
 
-If we also extend `foo`, it will be override.
+If we also extend `foo`, it will be overrided.
+
+```js
+var props = {};
+props.foo = x;
+
+/** spread attributes: ...props */
+var component = <Component {...props} foo={'overriden'} />
+```
+
 
 
