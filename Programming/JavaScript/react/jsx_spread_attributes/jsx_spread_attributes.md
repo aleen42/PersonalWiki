@@ -29,7 +29,7 @@ var props = {};
 props.foo = x;
 
 /** spread attributes: ...props */
-var component = <Component {...props} />
+var component = <Component {...props} bar={Y} />
 ```
 
 
