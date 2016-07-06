@@ -40,6 +40,8 @@ props.foo = x;
 
 /** spread attributes: ...props */
 var component = <Component {...props} foo={'overriden'} />
+
+console.log(component.props.foo);   /** => overriden */
 ```
 
 
