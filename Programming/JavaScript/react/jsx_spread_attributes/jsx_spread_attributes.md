@@ -15,3 +15,5 @@ component.props.bar = y;    /** also bad */
 ```
 
 **Spread Attributes** has used a new operator, `...` notation, in ES6.
+
+
