@@ -440,7 +440,7 @@ var CommentForm = React.createClass({
 
     handleTextChange: function (e) {
         this.setState({ text: e.target.value });
-    }
+    },
 
     handleSubmit: function () {
         /** Call preventDefault() on the event to prevent the browser's default action of submitting the form. */
@@ -464,7 +464,7 @@ var CommentForm = React.createClass({
             author: '',
             text: ''
         });
-    }
+    },
 
     render: function () {
         return (
@@ -516,12 +516,12 @@ var CommentBox = React.createClass({
 
     getInitialState: function () {
         return { data: [] };
-    }
+    },
 
     componentDidMount: function () {
         this.loadCommentsFromServer();
         setInterval(this.loadCommentsFromServer, this.props.pollInterval);
-    }
+    },
 
     render: function () {
         return (
