@@ -32,6 +32,14 @@ After that, the jsx should be written like the following structure:
 ```
 
 ```js
+var ProductRow = React.createClass({ /** ... */ });
+
+var ProductCategoryRow = React.createClass({ /** ... */ });
+
+var ProductTable = React.createClass({ /** ... */ });
+
+var SearchBar = React.createClass({ /** ... */ });
+
 var FilterableProductTable = React.createClass({ /** ... */ });
 
 ReactDOM.render(
