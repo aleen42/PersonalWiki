@@ -18,7 +18,7 @@ This is an anti-pattern because it means that we can't help you check the right 
 
 The props should be considered immutable. Mutating the props object somewhere else could cause unexpected consequences so ideally it would be a frozen object at this point.
 
-
+### Spread Attributes
 
 **Spread Attributes** has used a new operator, `...` notation, in ES6.
 
