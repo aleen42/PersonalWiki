@@ -30,11 +30,54 @@ v. Create mysql
 
 vi. Create Apache/Nginx
 
-- Website Path: `/var/www/authpuppy/web`
-- Bind domain name: `auth.blackmagic.science`
-- Start `url rewrite`
+- Website Path: `/var/www/authpuppy/web/`
 
-vii. Open http://auth.blackmagic.science/ to start installation
+nginx setting:
+
+```bash
+server{
+    listen 80;
+    index index.php index.html index.htm;
+    server_name authpuppy.soundtooth.cn;
+
+    root /var/www/authpuppy/web/;
+
+    set $subdomain "";
+
+    if ( $host ~* (\b(?!www\b)\w+)\.\w+\.[a-zA-Z]+$ ) {
+        set $subdomain /$1;
+    }
+
+    client_max_body_size 200M;
+
+    location / {
+        try_files $uri $uri/ /index.php?q=$uri&$args;
+    }
+
+    error_page 404 /404.html;
+
+    error_page 500 502 503 504 /50x.html;
+
+    location = /50x.html {
+        root /usr/share/nginx/www;
+    }
+
+    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+    location ~ \.php$ {
+        # With php5-fpm:
+        fastcgi_pass unix:/var/run/php5-fpm.sock;
+
+        fastcgi_index index.php;
+
+        fastcgi_param  SCRIPT_FILENAME    $document_root$fastcgi_script_name;
+
+        #fastcgi_param SCRIPT_FILENAME /var/www/$domain$subdomain$fastcgi_script_name;
+        include fastcgi_params;
+    }
+}
+```
+
+vii. Open http://authpuppy.soundtooth.cn/ to start installation
 
 ### Create a new node for a router
 
@@ -50,6 +93,11 @@ Login to authpuppy to create nodes for each router:
 i. Install WifiDog
 
 - OpenWRT: `opkg install wifidog`
+
+*Notice that: if your firmware does not have the package wifidog, you should re-build one. And choose wifidog in Network -> Captive Portals after `make menuconfig`.*
+
+![](wifidog_openwrt.png)
+
 - DDWRT: has been installed by default
 
 ii. Configure WifiDog
