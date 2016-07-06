@@ -22,7 +22,7 @@ The props should be considered immutable. Mutating the props object somewhere el
 
 **Spread Attributes** has used a new operator, `...` notation, in ES6, and this is a new feature of jsx.
 
-As firstly, we know atributes `foo`, but not `bar`:
+As firstly, we know atributes `foo`, but not `bar`, and we can extend it like this:
 
 ```js
 var props = {};
