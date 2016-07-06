@@ -412,13 +412,15 @@ var CommentBox = React.createClass({
 ```js
 /** Comment Component */
 var Comment = React.createClass({
-    render: function () {
+    rawMarkup: function () {
         var md = new Remarkable();
-
+        return { __html: md.render(this.props.children.toString()) };
+    },
+    render: function () {
         return (
             <div className="comment">
                 <h2 className="commentAuthor">{this.props.author}</h2>
-                <span dangerouslySetInnerHTML={md.render(this.props.children.toString())}></span>
+                <span dangerouslySetInnerHTML={this.rawMarkup()}></span>
             </div>
         );
     }
