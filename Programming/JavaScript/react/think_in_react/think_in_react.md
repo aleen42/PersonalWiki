@@ -10,5 +10,5 @@ Firstly, we are recommended that break the UIs into a component hierarchy.
 
 Then, we can name each component with our familiar naming style with this structure:
 
-- FilterableProductTable(**orange**)
-- 
+> FilterableProductTable(**orange**)
+>> SearchBar(**blue**(
