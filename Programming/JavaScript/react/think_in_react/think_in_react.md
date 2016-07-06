@@ -17,3 +17,19 @@ Then, we can name each component with our familiar naming style with this struct
 >>> ProductCategoryRow(**turquoise**)
 
 >>> ProductRow(**red**)
+
+After that, the jsx should be written like the following structure:
+
+```html
+<html>
+    <head>
+        <!-- heads part -->
+    </head>
+    <body>
+        <div id="content"></div>
+    </body>
+</html>
+```
+
+```js
+```
