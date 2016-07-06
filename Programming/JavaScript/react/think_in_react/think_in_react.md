@@ -32,4 +32,8 @@ After that, the jsx should be written like the following structure:
 ```
 
 ```js
+ReactDOM.render(
+    <FilterableProductTable></FilterableProductTable>,
+    document.getElementById('content')
+);
 ```
