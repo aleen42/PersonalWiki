@@ -10,8 +10,8 @@ It's bad to mutate props like this:
 
 ```js
 var component = <Component />
-component.props.foo = x;
-component.props.bar = y;
+component.props.foo = x;    /** bad */
+component.props.bar = y;    /** also bad */
 ```
 
 **Spread Attributes** has used a new operator, `...` notation, in ES6.
