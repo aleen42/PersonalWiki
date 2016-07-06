@@ -4,7 +4,7 @@ React is all about modular and composable components. Here we will start to writ
 
 > [CommentBox](#commentbox)
 >> [CommentList](#commentlist---comment)
->>> [Comment](#comment)
+>>> Comment
 
 >> [CommentForm](#commentform)
 
