@@ -412,6 +412,7 @@ var CommentBox = React.createClass({
 ```js
 /** Comment Component */
 var Comment = React.createClass({
+    /** dangerouslySetInnerHTML must use __html to store what you
     rawMarkup: function () {
         var md = new Remarkable();
         return { __html: md.render(this.props.children.toString()) };
