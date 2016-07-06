@@ -32,4 +32,6 @@ props.foo = x;
 var component = <Component {...props} bar={y} />
 ```
 
+If we also extend `foo`, it will be override.
+
 
