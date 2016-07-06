@@ -14,7 +14,7 @@ component.props.foo = x;    /** bad */
 component.props.bar = y;    /** also bad */
 ```
 
-This is an anti-pattern because it means that we can't help you check the right propTypes until way later. This means that your propTypes errors end up with a cryptic stack trace.
+This is an anti-pattern because it means that we can't help you check the right propTypes until way later. This means that your propTypes errors end up with a cryptic(含義隱晦的) stack trace.
 
 **Spread Attributes** has used a new operator, `...` notation, in ES6.
 
