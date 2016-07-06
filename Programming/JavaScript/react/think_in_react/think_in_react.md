@@ -8,6 +8,7 @@ Firstly, we are recommended that break the UIs into a component hierarchy.
 
 ![](thinking-in-react-components.png)
 
-Then, we can name each component with our familiar naming style:
+Then, we can name each component with our familiar naming style with this structure:
 
 - FilterableProductTable(**orange**)
+- 
