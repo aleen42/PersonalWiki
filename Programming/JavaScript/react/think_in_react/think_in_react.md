@@ -7,3 +7,7 @@ Suppose that we have a requirements from our designer, and the design is shown a
 Firstly, we are recommended that break the UIs into a component hierarchy.
 
 ![](thinking-in-react-components.png)
+
+Then, we can name each component with our familiar naming style:
+
+- FilterableProductTable(**orange**)
