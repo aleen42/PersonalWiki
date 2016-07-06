@@ -6,4 +6,12 @@ If you know all the properties that you want to place on a component ahead of ti
 var component = <Component foo={x} bar={y} />
 ```
 
+It's bad to mutate props like this:
+
+```js
+var component = <Component />
+component.props.foo = x;
+component.props.bar = y;
+```
+
 **Spread Attributes** has used a new operator, `...` notation, in ES6.
