@@ -6,4 +6,4 @@ If you know all the properties that you want to place on a component ahead of ti
 var component = <Component foo={x} bar={y} />
 ```
 
-**Spread Attributes** has used a new operator in ES6.
+**Spread Attributes** has used a new operator, `...` notation, in ES6.
