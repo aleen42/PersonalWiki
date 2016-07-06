@@ -27,7 +27,6 @@ As firstly, we know atributes `foo`, but not `bar`:
 ```js
 var props = {};
 props.foo = x;
-props.bar = y;
 
 /** spread attributes: ...props */
 var component = <Component {...props} />
