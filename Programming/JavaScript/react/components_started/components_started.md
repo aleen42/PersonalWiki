@@ -106,6 +106,12 @@ But there's a problem! Our rendered comments look like this in the browser: "**`
 
 That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/Cross-site_scripting).
 
+There is a way to do around it:
+
+```js
+
+```
+
 ### Data Model
 
 As we can see, Comment elements within the CommentList can be extracted as a data model like following:
