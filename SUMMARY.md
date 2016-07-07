@@ -55,6 +55,7 @@
                     * [Think in React](./Programming/JavaScript/Framework/react/think_in_react/think_in_react.md)
                     * [JSX Spread Attributes](./Programming/JavaScript/Framework/react/jsx_spread_attributes/jsx_spread_attributes.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
+                    * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
