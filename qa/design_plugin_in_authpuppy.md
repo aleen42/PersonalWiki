@@ -9,7 +9,7 @@ class apSoundtoothAuthenticator extends apAuthentication {
     protected $_name = "";
     
     public function initialize(sfWebRequest $request, apBaseIdentity $identity) {
-        // Nothing to do here
+        /** Nothing to do here */
     }
     
     public function process(sfAction $action, sfWebRequest $request, apBaseIdentity $identity) {
