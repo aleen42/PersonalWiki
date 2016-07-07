@@ -19,7 +19,8 @@ In ES5, `undefined` has been designed as a **read-only** attributes, which can't
 (function () {
 })();
 
-
+(function () {
+})();
 ```
 
 
