@@ -2,7 +2,7 @@
 
 - [**JQuery.js**](https://jquery.com/) is a fast, small, and feature-rich JavaScript library.
 
-###Code
+### Code
 
 ##### DOM Traversal and Manipulation
 
