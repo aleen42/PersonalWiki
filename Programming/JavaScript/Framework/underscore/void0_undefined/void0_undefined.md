@@ -4,5 +4,14 @@ If you look through the whole source code, you'll never find any `undefiend` obj
 
 Firstly, `undefined` is not a reversed word, and it's only a attribute of all global objects, which can be override in low edition of IE.
 
+```js
+var undefined = 10;
+
+console.log(undefined); /**
+                         * => undefined (Chrome)
+                         * => 10        (IE 8)
+                         */
+```
+
 
 
