@@ -9,6 +9,9 @@
 * [**Walkway**](./walkway/walkway.md)
 * [**Dyanmics**](./dynamics/dynamics.md)
 * [**JQuery**](./jquery/jquery.md)
+* [**node.js**](./node/node.md)
+* [**ReactJS**](./react/react.md)
+* [**underscore.js**](./underscore/underscore.md)
 * Headroom
 * Three
 * Node
