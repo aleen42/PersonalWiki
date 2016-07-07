@@ -337,3 +337,20 @@ pre::-webkit-resizer {
 .book .book-body .body-inner::-webkit-resizer {
     /** Part 7 */
 }
+
+/** book header */
+.book-header {
+    position: fixed;
+    background-color: rgba(255,255,255,0.7);
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.book-header h1 {
+    opacity: 1 !important;
+}
+
+.page-wrapper {
+    margin-top: 50px !important;
+}
