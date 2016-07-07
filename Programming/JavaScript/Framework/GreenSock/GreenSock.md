@@ -474,8 +474,3 @@ add(15);
 ###Download
 - DrawSVGPlugin
 	- Just Click [**here**](https://github.com/aleen42/PersonalWiki/raw/master/Programming/JavaScript/Framework/GreenSock/DrawSVGPlugin.rar) to download.
-
-
-<a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
