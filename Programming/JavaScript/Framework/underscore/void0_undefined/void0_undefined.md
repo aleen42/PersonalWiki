@@ -1,4 +1,4 @@
-## JSX Spread Attributes [Back](./../react.md)
+## JSX Spread Attributes [Back](./../underscore.md)
 
 
 
