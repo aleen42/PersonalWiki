@@ -1,6 +1,6 @@
 ## Ajax [Back](./../Framework.md)
 
-<img src="./logo.jpg" width="20%">
+![](./logo.jpg)
 
 - **Ajax**(Asynchronous JavaScript + XML) a collection of technologies for building dynamic web pages on the client side.It's also a group of interrelated Web development techniques used on the client-side to create **asynchronous** Web applications
 - Ajax is not a single technology, but a group of technologies.
