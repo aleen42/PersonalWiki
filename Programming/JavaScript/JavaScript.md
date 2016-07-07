@@ -5,9 +5,6 @@
 
 * [**JavaScript Framework | Library**](./Framework/Framework.md)
 * [**Easing Function**](./easing/easing.md)
-* [**node.js**](./node/node.md)
-* [**ReactJS**](./react/react.md)
-* [**underscore.js**](./underscore/underscore.md)
 
 Languages|Description
 :----:|-----
