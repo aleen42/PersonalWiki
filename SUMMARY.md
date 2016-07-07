@@ -49,7 +49,7 @@
                     * [Differences between spawn and exec of child_process](./Programming/JavaScript/Framework/node/child_process/child_process.md)
                 * [ReactJS](./Programming/JavaScript/Framework/react/react.md)
                     * [Quick Started](./Programming/JavaScript/Framework/react/quick_started/quick_started.md)
-                    * [JSX Syntax](./Programming/JavaScript/react/jsx_syntax/jsx_syntax.md)
+                    * [JSX Syntax](./Programming/JavaScript/Framework/react/jsx_syntax/jsx_syntax.md)
                     * [JSX Gotchas](./Programming/JavaScript/react/jsx_gotcha/jsx_gotcha.md)
                     * [Components](./Programming/JavaScript/react/components_started/components_started.md)
                     * [Think in React](./Programming/JavaScript/react/think_in_react/think_in_react.md)
