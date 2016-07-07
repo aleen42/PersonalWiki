@@ -37,3 +37,5 @@ What is `void` in [MDN statemet](https://developer.mozilla.org/en-US/docs/Web/Ja
 > The void operator evaluates the given expression and then returns undefined.
 
 That means `void` will always return undefined, which can completely take the place of `undefined`. Actually, `void 0`, `void 1` and `void "hello world"` are all same. The most important thing is that `void` can't be overridden.
+
+Although undefined can generally be trusted in modern JavaScript environments, there is one trivial advantage of void 0: it's shorter.
