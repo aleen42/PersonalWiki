@@ -207,8 +207,8 @@ pre::-webkit-resizer {
 
 #output pre, #output iframe::-webkit-scrollbar-thumb {
     /** Part 5 */
-background-color: rgba(0, 0, 0, 1);
-border-radius: 10px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
 }
 
 #output pre, #output iframe::-webkit-scrollbar-thumb:hover {
@@ -220,11 +220,11 @@ border-radius: 10px;
 }
 
 #output pre, #output iframe::-webkit-scrollbar-corner {
-  /** Part 6 */
+    /** Part 6 */
 }
 
 #output pre, #output iframe::-webkit-resizer {
-  /** Part 7 */
+    /** Part 7 */
 }
 
 /**
