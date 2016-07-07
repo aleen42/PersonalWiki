@@ -5,6 +5,7 @@ Firstly, create a `class.php` to contain your plugin, and here I have used mysel
 ```php
 <?php
 class apSoundtoothAuthenticator extends apAuthentication {
+    /** title of the login page */
     protected $_name = "";
     
     public function initialize(sfWebRequest $request, apBaseIdentity $identity) {
