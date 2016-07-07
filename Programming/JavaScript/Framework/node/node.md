@@ -1,6 +1,6 @@
 ## node.js [Back](./../Framework.md)
 
-![](node.png)
+![](./node.png)
 
 ### Basic
 
