@@ -34,5 +34,5 @@ Then, why use the replacement `void 0`?
 
 What is `void` in [MDN statemet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void)?
 
->The void operator evaluates the given expression and then returns undefined.
+> The void operator evaluates the given expression and then returns undefined.
 
