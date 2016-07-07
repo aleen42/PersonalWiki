@@ -17,6 +17,11 @@ In ES5, `undefined` has been designed as a **read-only** attributes, which can't
 
 ```js
 (function () {
+    var undefined = 10;
+    
+    console.log(undefined); /**
+                             * => 10 (Chrome)
+                             */
 })();
 
 (function () {
