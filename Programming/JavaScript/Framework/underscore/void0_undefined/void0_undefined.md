@@ -30,5 +30,7 @@ In ES5, `undefined` has been designed as a **read-only** attributes, which can't
 })();
 ```
 
+Then, why use the replacement `void 0`?
+
 
 
