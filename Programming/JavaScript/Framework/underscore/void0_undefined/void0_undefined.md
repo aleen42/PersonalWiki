@@ -1,4 +1,4 @@
-## JSX Spread Attributes [Back](./../underscore.md)
+## Use `void 0` rather than `undefined [Back](./../underscore.md)
 
 
 
