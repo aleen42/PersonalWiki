@@ -1,6 +1,6 @@
 ## ReactJS [Back](./../JavaScript.md)
 
-![](react.png)
+![](./react.png)
 
 [ReactJS](https://facebook.github.io/react/) is a javascript library for building user interfaces, provided by Facebook.
 
