@@ -4,6 +4,6 @@
 
 According to the official statement, [Underscore](http://underscorejs.org/) is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects.
 
-Here I will note what other people graps from according to summaries of [hanzichi](https://github.com/hanzichi)'s [underscore-analysis](https://github.com/hanzichi/underscore-analysis).
+Here I will note what other people graps from this library according to summaries of [hanzichi](https://github.com/hanzichi)'s [underscore-analysis](https://github.com/hanzichi/underscore-analysis).
 
 
