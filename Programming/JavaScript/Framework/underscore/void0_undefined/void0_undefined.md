@@ -32,5 +32,5 @@ In ES5, `undefined` has been designed as a **read-only** attributes, which can't
 
 Then, why use the replacement `void 0`?
 
-
+What is `void` in [MDN statemet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void)?
 
