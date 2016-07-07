@@ -145,9 +145,9 @@ a.navigation,
 
 /** code scroll bar */
 pre::-webkit-scrollbar {
-  /** if you want to style your own scroll bar, this pseudo should be written */
-  /** Part 1 */
-  height: 6px;
+    /** if you want to style your own scroll bar, this pseudo should be written */
+/** Part 1 */
+height: 6px;
 }
 
 pre::-webkit-scrollbar-button {
