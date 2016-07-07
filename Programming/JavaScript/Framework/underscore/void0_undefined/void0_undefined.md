@@ -13,7 +13,7 @@ console.log(undefined); /**
                          */
 ```
 
-In ES5, undefined 
+In ES5, `undefined` has been designed as a **read-only** attributes, which can't be overriden.
 
 
 
