@@ -149,9 +149,6 @@ $.when($.ajax("test.php"))
 .then(successFunc, failFunc);
 ```
 
-###Download
-- Just Click [**here**](./jquery-2.1.4.min.js) to download.
+### Download
 
-<a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
+- Just Click [**here**](./jquery-2.1.4.min.js) to download.
