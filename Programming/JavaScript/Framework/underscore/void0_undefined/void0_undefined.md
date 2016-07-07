@@ -6,7 +6,6 @@ Firstly, `undefined` is not a reversed word, and it's only a attribute of all gl
 
 ```js
 var undefined = 10;
-
 console.log(undefined); /**
                          * => undefined (Chrome)
                          * => 10        (IE 8)
