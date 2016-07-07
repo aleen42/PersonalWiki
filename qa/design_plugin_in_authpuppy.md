@@ -22,3 +22,5 @@ class apSoundtoothAuthenticator extends apAuthentication {
     }
 }
 ```
+
+Secondly, register your plugin in the config list: both `authpuppy/cache/frontend/dev/config/config_autoload.yml.php`
