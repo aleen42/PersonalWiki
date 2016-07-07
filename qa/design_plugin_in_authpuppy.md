@@ -17,7 +17,7 @@ class apSoundtoothAuthenticator extends apAuthentication {
     }
     
     public function render() {
-        return include_partial('node/defaultAuthTemplate'); //return simple_format_text('<p>No authenticator plugin has been installed and enabled so this is the default plugin.  Clicking the button below will authenticate you to the router</p><input type="submit"/>');
+        return include_partial('node/defaultAuthTemplate');
     }
 }
 ```
