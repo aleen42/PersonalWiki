@@ -47,7 +47,7 @@
                     * [Create and publish a node.js module](./Programming/JavaScript/Framework/node/npm/npm.md)
                     * [Use Node to write a command line tool](./Programming/JavaScript/Framework/node/cmd/cmd.md)
                     * [Differences between spawn and exec of child_process](./Programming/JavaScript/Framework/node/child_process/child_process.md)
-                * [ReactJS](./Programming/JavaScript/react/react.md)
+                * [ReactJS](./Programming/JavaScript/Framework/react/react.md)
                     * [Quick Started](./Programming/JavaScript/react/quick_started/quick_started.md)
                     * [JSX Syntax](./Programming/JavaScript/react/jsx_syntax/jsx_syntax.md)
                     * [JSX Gotchas](./Programming/JavaScript/react/jsx_gotcha/jsx_gotcha.md)
