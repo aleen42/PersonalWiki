@@ -36,3 +36,4 @@ What is `void` in [MDN statemet](https://developer.mozilla.org/en-US/docs/Web/Ja
 
 > The void operator evaluates the given expression and then returns undefined.
 
+That means `void` will always return undefined.
