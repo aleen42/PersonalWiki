@@ -17,6 +17,7 @@ class apSoundtoothAuthenticator extends apAuthentication {
     }
     
     public function render() {
+        /** return the view you want */
         return include_partial('node/defaultAuthTemplate');
     }
 }
