@@ -4,7 +4,6 @@ Firstly, create a `class.php` to contain your plugin, and here I have used mysel
 
 ```php
 <?php
-
 class apSoundtoothAuthenticator extends apAuthentication {
     protected $_name = "Splash-only plugin.  Just push the button";
     
