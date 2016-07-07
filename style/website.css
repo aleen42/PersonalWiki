@@ -298,28 +298,28 @@ pre::-webkit-resizer {
 }
 
 .book .book-body .body-inner::-webkit-scrollbar {
-  /** if you want to style your own scroll bar, this pseudo should be written */
-  /** Part 1 */
-  width: 6px;
+    /** if you want to style your own scroll bar, this pseudo should be written */
+    /** Part 1 */
+    width: 6px;
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-button {
-  /** Part 2 */
-  display: none;
+    /** Part 2 */
+    display: none;
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-track {
-  /** Part 3 */
+    /** Part 3 */
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-track-piece {
-  /** Part 4 */
+    /** Part 4 */
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-thumb {
-  /** Part 5 */
-  background-color: rgba(0, 0, 0, 1);
-  border-radius: 10px;
+    /** Part 5 */
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-thumb:hover {
@@ -331,9 +331,9 @@ pre::-webkit-resizer {
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-corner {
-  /** Part 6 */
+    /** Part 6 */
 }
 
 .book .book-body .body-inner::-webkit-resizer {
-  /** Part 7 */
+    /** Part 7 */
 }
