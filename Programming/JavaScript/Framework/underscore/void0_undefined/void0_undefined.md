@@ -13,7 +13,11 @@ console.log(undefined); /**
                          */
 ```
 
-In ES5, `undefined` has been designed as a **read-only** attributes, which can't be overriden.
+In ES5, `undefined` has been designed as a **read-only** attributes, which can't be overriden. However, you will find that you can do it in a local scope:
+
+```js
+
+```
 
 
 
