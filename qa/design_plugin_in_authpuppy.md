@@ -2,4 +2,4 @@
 
 Firstly, create a `class.php` to contain your plugin, and here I have used myself as the plugin name.
 
- 
+
