@@ -272,7 +272,7 @@
     * [WeByDo](http://www.webydo.com/)
 - Posts
     * [Posts](./post/post.md)
-        * [[轉載]大公司裏怎麼開發和部署前端代碼](./post/frontend_code_in_big_company/frontend_code_in_big_company.md)
+        * [[轉載] 大公司裏怎麼開發和部署前端代碼](./post/frontend_code_in_big_company/frontend_code_in_big_company.md)
 - Questions & Answer
     * [Q&A](./qa/qa.md)
         * [How to use browser better](./qa/better_browser.md)
