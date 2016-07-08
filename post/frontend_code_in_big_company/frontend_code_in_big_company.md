@@ -2,4 +2,6 @@
 
 > Author: [fouber · 張雲龍](https://github.com/fouber)
 
+> Original Path: https://github.com/fouber/blog/issues/6 
+
 > Created: Nov, 1st, 2014
