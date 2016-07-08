@@ -35,7 +35,3 @@ x = undefined;	//like null
 - [Date and Times](./Date&Time/Date&Time.md)
 - [Text](./Text/Text.md)
 - [Wrapper Object(包裝對象)](./Wrapper/Wrapper.md)
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
