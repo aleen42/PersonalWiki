@@ -5,3 +5,8 @@
 > Original Path: https://github.com/fouber/blog/issues/6 
 
 > Created: Nov, 1st, 2014
+
+
+
+
+> 本文搬运自我在知乎上 同名问题 中的答案。
