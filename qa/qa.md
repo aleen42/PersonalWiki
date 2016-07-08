@@ -46,4 +46,3 @@
 - [**Some problems of releasing memory in C++**](./cppreleasing.md)
 - [**Some problems of building gr-rsm**](./build_gr_rsm.md)
 - [**Set up portal with WifiDog + AuthPuppy**](./set_up_portal.md)
-- [**Design a new authorized plugin in AuthPuppy**](./design_plugin_in_authpuppy.md)
