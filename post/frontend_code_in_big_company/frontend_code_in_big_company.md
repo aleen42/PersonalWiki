@@ -121,6 +121,7 @@ rails通过把静态资源变成erb模板文件，然后加入<%= asset_path 'im
 
 - 源码项目：https://github.com/fouber/static-resource-digest-project
 - 部署项目：https://github.com/fouber/static-resource-digest-project-release
+- 
 部署项目可以理解为线上发布后的结果，可以在部署项目里查看所有资源引用的md5化处理。
 
 这个示例也可以用于和assets pipeline做比较。fis没有assets的目录规范约束，而且可以以独立工具的方式组合各种前端开发语言（coffee、less、sass/scss、stylus、markdown、jade、ejs、handlebars等等你能想到的），并与其他后端开发语言结合。
