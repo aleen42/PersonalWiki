@@ -101,3 +101,28 @@
 另外，也不要觉得这些是运维或者后端工程师要解决的问题。如果由其他角色来解决，**大家总是把自己不关心的问题丢给别人**，那么前端工程师的开发过程将受到极大的限制，这种情况甚至在某些大公司都不少见！
 
 妈妈，我再也不玩前端了。。。。5555
+
+## 业界实践
+
+### Assets Pipeline
+
+Rails中的Assets Pipeline完成了以上所说的优化细节，对整个静态资源的管理上的设计思考也是如此，了解rails的人也可以把此答案当做是对rails中assets pipeline设计原理的分析。
+
+rails通过把静态资源变成erb模板文件，然后加入<%= asset_path 'image.png' %>，上线前预编译完成处理，fis的实现思路跟这个几乎完全一样，但我们当初确实不知道有rails的这套方案存在。
+
+相关资料：
+
+- 英文版：http://guides.rubyonrails.org/asset_pipeline.html
+- 中文版：http://guides.ruby-china.org/asset_pipeline.html
+
+### FIS的解决方案
+
+用 F.I.S 包装了一个小工具，完整实现整个回答所说的最佳部署方案，并提供了源码对照，可以感受一下项目源码和部署代码的对照。
+
+- 源码项目：https://github.com/fouber/static-resource-digest-project
+- 部署项目：https://github.com/fouber/static-resource-digest-project-release
+部署项目可以理解为线上发布后的结果，可以在部署项目里查看所有资源引用的md5化处理。
+
+这个示例也可以用于和assets pipeline做比较。fis没有assets的目录规范约束，而且可以以独立工具的方式组合各种前端开发语言（coffee、less、sass/scss、stylus、markdown、jade、ejs、handlebars等等你能想到的），并与其他后端开发语言结合。
+
+assets pipeline的设计思想值得独立成工具用于前端工程，fis就当做这样的一个选择吧。
