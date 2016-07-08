@@ -4,7 +4,7 @@
 
 > Original Path: https://github.com/fouber/blog/issues/6 
 
-> Created On: Nov, 1st, 2014
+> Time: Nov, 1st, 2014
 
 <br />
 
