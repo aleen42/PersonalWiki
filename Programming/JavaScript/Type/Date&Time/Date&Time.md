@@ -14,7 +14,3 @@ later.toLocaleDateString();	// => "01/01/2010"
 later.toLocaleTimeString();	// => "05:10:30 PM"
 later.toISOString();		// => "2010-01-02T01:10:30.000Z"; ES5
 ```
-
-<a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
