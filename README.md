@@ -70,11 +70,14 @@
 * [**Multimedia**](./Multimedia/Multimedia.md)
 * [**Git**](./git/git.md)
 * [**Video & Image**](./vi/vi.md)
-* [**Posts**](./post/post.md)
 
 ### Designer
 * [**Creativity**](./Creativity/Creativity.md)
 * [**WeByDo**](http://www.webydo.com/)
+
+### Posts
+
+* [**Posts**](./post/post.md)
 
 ### Questions & Answer
 
