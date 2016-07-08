@@ -1,1 +1,1 @@
-## Better Browser Using [Back](./post.md)
+## Better Browser Using [Back](./../post.md)
