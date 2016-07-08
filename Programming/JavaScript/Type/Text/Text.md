@@ -47,7 +47,3 @@ text.match(pattern)	// => [ "1", "2", "3"]: array of all matches
 text.replace(pattern, "#")	// => "testing: #, #, #"
 text.split(/\D+/);	// => [ "", "1", "2", "3"]: split on non-digits
 ```
-
-<a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>
