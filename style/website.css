@@ -355,3 +355,8 @@ pre::-webkit-resizer {
 .page-wrapper {
     margin-top: 50px !important;
 }
+
+.book-header a {
+    font-family: Arial, "微软雅黑" !important;
+}
+}
