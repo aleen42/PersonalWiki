@@ -16,7 +16,7 @@ GET和POST是HTTP请求的两种基本方法，要说它们的区别，接触过
 
 当你在面试中被问到这个问题，你的内心充满了自信和喜悦。
 
-你轻轻松松的给出了一个“标准答案”：![](1.png)
+你轻轻松松的给出了一个“标准答案”：![](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/http_and_get/1.png)
 
 - GET在浏览器回退时是无害的，而POST会再次提交请求。
 
