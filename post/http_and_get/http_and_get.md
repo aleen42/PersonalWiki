@@ -1,4 +1,4 @@
-## [轉載] 大公司裏怎麼開發和部署前端代碼 [Back](./../post.md)
+## [轉載] 99%的人都理解錯了HTTP中GET與POST的區別 [Back](./../post.md)
 
 > - Author: [fouber · 張雲龍](https://github.com/fouber)
 - Origin: https://github.com/fouber/blog/issues/6 
