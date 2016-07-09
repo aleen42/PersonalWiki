@@ -46,7 +46,7 @@ GET和POST是HTTP请求的两种基本方法，要说它们的区别，接触过
 
 让我们扒下GET和POST的外衣，坦诚相见吧！
 
-![](3.png)
+![](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/http_and_get/3.png)
 
 GET和POST是什么？HTTP协议中的两种发送请求的方法。
 
