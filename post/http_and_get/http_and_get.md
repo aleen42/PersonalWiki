@@ -37,3 +37,7 @@ GET和POST是HTTP请求的两种基本方法，要说它们的区别，接触过
 - GET参数通过URL传递，POST放在Request body中。
 
 （本标准答案参考自w3schools）
+
+“很遗憾，这不是我们要的回答！”
+
+请告诉我真相。。。![](2.png)
