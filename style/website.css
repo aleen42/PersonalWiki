@@ -359,4 +359,9 @@ pre::-webkit-resizer {
 .book-header a {
     font-family: Arial, "微软雅黑" !important;
 }
+
+@media (max-width: 1240px) {
+    .book .book-body {
+        margin: 0 !important;
+    }
 }
