@@ -40,7 +40,7 @@ GET和POST是HTTP请求的两种基本方法，要说它们的区别，接触过
 
 “很遗憾，这不是我们要的回答！”
 
-请告诉我真相。。。![](2.png)
+请告诉我真相。。。![](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/http_and_get/2.png)
 
 如果我告诉你**GET和POST本质上没有区别**你信吗？ 
 
