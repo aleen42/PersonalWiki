@@ -4,7 +4,9 @@
 - Origin: https://github.com/fouber/blog/issues/6 
 - Time: Nov, 1st, 2014
 
-<br />
+```
+匠心精神, 正是如今大多數創業公司乃至中小型企業所缺乏的一種企業氛圍.
+```
 
 > 本文搬运自我在知乎上 同名问题 中的答案。
 
