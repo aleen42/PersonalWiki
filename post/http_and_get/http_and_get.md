@@ -71,7 +71,7 @@ HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，
 
 你以为本文就这么结束了？
 
-![](6.png)
+![](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/http_and_get/6.png)
 
 我们的大BOSS还等着出场呢。。。
 
