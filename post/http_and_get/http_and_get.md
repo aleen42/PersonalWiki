@@ -93,7 +93,7 @@ GET产生一个TCP数据包；POST产生两个TCP数据包。
 
 现在，当面试官再问你“GET与POST的区别”的时候，你的内心是不是这样的？
 
-![](7.png)
+![](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/http_and_get/7.png)
 
 （本文原创，转载请注明转自微信公众号WebTechGarden）
 （如文中有纰漏，请不吝更正）
