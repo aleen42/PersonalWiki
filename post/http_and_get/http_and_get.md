@@ -71,7 +71,7 @@ HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，
 
 你以为本文就这么结束了？
 
-![](https://github.com/aleen42/PersonalWiki/blob/master/post/http_and_get/6.png)
+![](6.png)
 
 我们的大BOSS还等着出场呢。。。
 
@@ -93,7 +93,7 @@ GET产生一个TCP数据包；POST产生两个TCP数据包。
 
 现在，当面试官再问你“GET与POST的区别”的时候，你的内心是不是这样的？
 
-![](https://github.com/aleen42/PersonalWiki/blob/master/post/http_and_get/7.png)
+![](7.png)
 
 （本文原创，转载请注明转自微信公众号WebTechGarden）
 （如文中有纰漏，请不吝更正）
