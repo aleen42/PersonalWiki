@@ -364,4 +364,8 @@ pre::-webkit-resizer {
     .book .book-body {
         margin: 0 !important;
     }
+    
+    #book-search-input {
+        margin-top: 0 !importan;
+    }
 }
