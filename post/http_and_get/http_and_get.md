@@ -1,7 +1,7 @@
 ## [轉載] 99%的人都理解錯了HTTP中GET與POST的區別 [Back](./../post.md)
 
-> - Author: [fouber · 張雲龍](https://github.com/fouber)
-- Origin: https://github.com/fouber/blog/issues/6 
+> - Author: WebTechGarden
+- Origin: http://mp.weixin.qq.com/s?__biz=MzI3NzIzMzg3Mw==&mid=100000054&idx=1&sn=71f6c214f3833d9ca20b9f7dcd9d33e4#rd
 - Time: Nov, 1st, 2014
 
 <br />
