@@ -1,1 +1,1 @@
-## Distributing React components - 如何發佈一個React組件 [**Back**](./../translation.md)
+## Your Timeline for Learning React - 為你定制的 React 學習路線 [**Back**](./../translation.md)
