@@ -3,6 +3,7 @@
 #### Translate
 
 - [**Distributing React components**](./distributing_react_components/distributing_react_components.md)
+- [**Your Timeline for Learning React**](./your_timeline_for_learning_react/your_timeline_for_learning_react.md)
 - [**Stack Overflow: The Architecture - 2016**](./stack_overflow_architecture/stack_overflow_architecture.md)
 - [**A successful Git branching model**](./successful_git_branching/successful_git_branching.md)
 - [**Memory Leak Detection in C++**](./memory_leak_detection_in_cpp/memory_leak_detection_in_cpp.md)
