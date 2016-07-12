@@ -24,5 +24,5 @@ _.isArray = nativeIsArray || function(obj) {
 };
 ```
 
-`nativeIsArray` has pointed to the method `Array.isArray` in ES5, while `toString` has pointed to the method `Object.prototype.toString`.
+`nativeIsArray` has been pointed to the method `Array.isArray` in ES5, while `toString` has been pointed to the method `Object.prototype.toString`.
 
