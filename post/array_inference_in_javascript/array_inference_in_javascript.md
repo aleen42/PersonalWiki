@@ -85,3 +85,7 @@ if (a.sort) {
 
 正确的姿势是使用 [Object.prototype.toString()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/toString) 判断：
 
+```js
+var a = [0, 1, 2];
+console.log(Object.prototype.toString.call(a) === '[object Array]'); // true
+```
