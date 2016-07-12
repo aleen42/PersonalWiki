@@ -278,6 +278,8 @@
         * [[轉載] Leverage Browser Caching](./post/leverage_browser_caching/leverage_browser_caching.md)
         * [[轉載] Defining optimal Cache-Control policy](./post/optimal_cache_control/optimal_cache_control.md)
         * [[轉載] Invalidating and updating cached responses](./post/invalidate_update/invalidate_update.md)
+        * [[轉載] 
+Caching checklist](./caching_checklist/caching_checklist.md)
 - Questions & Answer
     * [Q&A](./qa/qa.md)
         * [How to use browser better](./qa/better_browser.md)
