@@ -66,4 +66,4 @@ JS模块化方案很多，AMD/CommonJS/UMD/ES6 Module等，对应的框架和工
 
 - 大体量：多功能、多页面、多状态、多系统；
 - 大规模：多人甚至多团队合作开发；
-- 高性能：CDN部署、[缓存控制](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)、[文件指纹](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)、缓存复用、请求合并、按需加载、同步/异步加载、移动端首屏CSS内嵌、HTTP 2.0服务端资源推送。
+- 高性能：CDN部署、[缓存控制](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)、[文件指纹](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)、缓存复用、请求合并、按需加载、同步/异步加载、移动端[首屏CSS内嵌](https://developers.google.com/speed/docs/insights/mobile)、HTTP 2.0服务端[资源推送](http://chimera.labs.oreilly.com/books/1230000000545/ch12.html#HTTP2_PUSH)。
