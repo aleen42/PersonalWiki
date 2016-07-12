@@ -142,3 +142,11 @@ ECMA-262：
 > new Array([ item0[, item1 [,…]]]) 
 
 > The [[Class]] property of the newly constructed object is set to “Array”.
+
+所以 Javascript 中判断数组的函数可以这样写：
+
+```js
+function isArray(a) {
+    Array.isArray ? Array.isArray(a) : Object.prototype.toString.call(a) === '[object Array]';
+}
+```
