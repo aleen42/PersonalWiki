@@ -5,7 +5,7 @@
 - Time: Apr, 8th, 2015
 
 
-This rule triggers when **PageSpeed Insights** detects that the response from your server does not include caching headers or if the resources are specified to be **cached for only a short time**.
+This rule triggers when **PageSpeed Insights** detects that the response from your server **does not include caching headers** or if the resources are specified to be **cached for only a short time**.
 
 Overview
 
