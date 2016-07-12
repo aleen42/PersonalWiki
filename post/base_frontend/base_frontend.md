@@ -1,7 +1,7 @@
 ## [轉載] 前端工程 -- 基礎篇 [Back](./../post.md)
 
 > - Author: [fouber · 張雲龍](https://github.com/fouber)
-- Origin: https://github.com/fouber/blog/issues/6 
+- Origin: https://github.com/fouber/blog/issues/10
 - Time: Nov, 1st, 2014
 
 <br />
