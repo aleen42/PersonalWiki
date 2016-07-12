@@ -80,4 +80,11 @@ if (!_.isArguments(arguments)) {
 You can just infer an element whether it's a DOM element by ensuring that it's not a `null` and `nodeType` is 1:
 
 ```js
+// Is a given value a DOM element?
+// 判断是否为 DOM 元素
+_.isElement = function(obj) {
+    // 确保 obj 不是 null 
+    // 并且 obj.nodeType === 1
+    return !!(obj && obj.nodeType === 1);
+};
 ```
