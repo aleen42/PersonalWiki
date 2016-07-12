@@ -187,3 +187,5 @@ David Wei博士在当年的交流会上提到过一些关于Facebook的一些产
 - 还要考虑不同的送达方法，可以直接送达，或者通过iframe的方式提升资源并行加载的速度；
 - 静态资源的压缩和非压缩状态可切换，用于调试和定位线上问题
 
+
+这是一个状态爆炸的问题，将所有状态乘起来，整个网站的资源组合方式会达到几百万种之多（去重之后统计大概有300万种组合方式）。支撑这么大规模前端项目运行的底层架构正是魏博士在那次演讲中分享的[Static Resource Management System](http://velocity.oreilly.com.cn/2010/ppts/VelocityChina2010Dec7StaticResource.pdf)(静态资源管理系统)，用以解决Facebook项目中有关前端工程的3D问题（Development，Deployment，Debugging）。
