@@ -89,3 +89,26 @@ if (a.sort) {
 var a = [0, 1, 2];
 console.log(Object.prototype.toString.call(a) === '[object Array]'); // true
 ```
+
+事实上，这也是一些类库进行数组（甚至其他类型）判断的主流方式。
+
+比如在 jQuery 中进行数组判断的相关代码（PS：摘自 jQuery 1.10.1，最近版本的 jQuery 只保留了 Array.isArray()，没有对不支持 ES5 的浏览器做兼容）：
+
+```js
+isArray: Array.isArray || function( obj ) {
+    return jQuery.type(obj) === "array";
+},
+
+type: function( obj ) {
+    if ( obj == null ) {
+        return String( obj );
+    }
+    return typeof obj === "object" || typeof obj === "function" ?
+        class2type[ core_toString.call(obj) ] || "object" :
+        typeof obj;
+},
+
+jQuery.each("Boolean Number String Function Array Date RegExp Object Error".split(" "), function(i, name) {
+    class2type[ "[object " + name + "]" ] = name.toLowerCase();
+});
+```
