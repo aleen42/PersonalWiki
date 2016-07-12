@@ -7,7 +7,7 @@ There is no one best cache policy. Depending on your traffic patterns, type of d
 
 Some tips and techniques to keep in mind as you work on caching strategy:
 
-1. **Use consistent URLs**: if you serve the same content on different URLs, then that content will be fetched and stored multiple times. Tip: note that URLs are case sensitive!
+1. **Use consistent URLs**: if you serve the same content on different URLs, then that content will be fetched and stored multiple times. Tip: note that [URLs are case sensitive](http://www.w3.org/TR/WD-html40-970708/htmlweb.html)!
 2. **Ensure the server provides a validation token (ETag)**: validation tokens eliminate the need to transfer the same bytes when a resource has not changed on the server.
 3. **Identify which resources can be cached by intermediaries**: those with responses that are identical for all users are great candidates to be cached by a CDN and other intermediaries.
 4. **Determine the optimal cache lifetime for each resource**: different resources may have different freshness requirements. Audit and determine the appropriate max-age for each one.
