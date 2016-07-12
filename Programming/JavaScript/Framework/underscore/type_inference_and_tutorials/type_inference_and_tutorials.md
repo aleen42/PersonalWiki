@@ -122,6 +122,7 @@ _.isNaN = function(obj) {
 ```js
 var a = new Number(NaN);
 
-
+console.log(a !== a);               /** => false    */
+console.log(a !== +a);              /** => true     */
 ```
 
