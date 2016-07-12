@@ -35,3 +35,5 @@ for (var k in obj) {
  */
 ```
 
+Therefore, in underscore.js, there is a method named `hasEnumBug`
+
