@@ -49,3 +49,11 @@ index.htm 代码：
     };
 </script>
 ```
+
+a.htm 代码：
+
+```html
+<script>
+  window.a = [1, 2, 3];
+</script>
+```
