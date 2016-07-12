@@ -127,3 +127,12 @@ console.log(Object.prototype.toString.call(null));  // [object Null]
 console.log(Object.prototype.toString.call(undefined)); // [object Undefined]
 console.log(Object.prototype.toString.call(new Date())); // [object Date]
 ```
+
+Object.prototype.toString() 为何能返回这样类型的字符串？
+
+ECMA-262：
+
+> Object.prototype.toString( ) When the toString method is called, the following steps are taken: 
+1. Get the [[Class]] property of this object. 
+2. Compute a string value by concatenating the three strings “[object “, Result (1), and “]”. 
+3. Return Result (2) 
