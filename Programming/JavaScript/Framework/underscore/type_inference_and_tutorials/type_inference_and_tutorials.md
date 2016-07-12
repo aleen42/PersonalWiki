@@ -41,3 +41,11 @@ _.isObject = function(obj) {
     return type === 'function' || type === 'object' && !!obj;
 };
 ```
+
+### Arguments, Function, String, Number, Date, RegExp, Error
+
+All of those type can be inferred by calling `Object.prototype.toString.call`:
+
+```js
+
+```
