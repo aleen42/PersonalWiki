@@ -12,3 +12,14 @@ function isArray(a) {
     return Array.isArray ? Array.isArray(a) : Object.prototype.toString.call(a) === '[object Array]';
 }
 ```
+
+While underscore has given the following code:
+
+```js
+// Is a given value an array?
+// Delegates to ECMA5's native Array.isArray
+// 判断是否为数组
+_.isArray = nativeIsArray || function(obj) {
+    return toString.call(obj) === '[object Array]';
+};
+```
