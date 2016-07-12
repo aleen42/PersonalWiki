@@ -83,3 +83,4 @@ function collectNonEnumProps(obj, keys) {
 }
 ```
 
+After overriding all the attributes, keys can be gotten under IE 9, However, there are still a doubt why handling constructor specially.
