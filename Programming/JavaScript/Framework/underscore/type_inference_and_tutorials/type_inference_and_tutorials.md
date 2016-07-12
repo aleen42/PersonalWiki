@@ -72,3 +72,5 @@ if (!_.isArguments(arguments)) {
     };
 }
 ```
+
+### Utility Class Inference()
