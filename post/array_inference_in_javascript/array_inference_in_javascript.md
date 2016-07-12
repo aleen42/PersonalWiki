@@ -115,3 +115,15 @@ jQuery.each("Boolean Number String Function Array Date RegExp Object Error".spli
 
 代码很清晰，如支持原生的 Array.isArray()，则直接判断，不支持的话调用 toString() 进行判断。同时可以看到很多其他类型变量的判断也是基于 toString() 方法。当然这里说的 toString() 均是 Object 原型链上的 toString() 方法。
 
+```js
+console.log(Object.prototype.toString.call(10));  // [object Number]
+console.log(Object.prototype.toString.call('hello')); // [object String]
+console.log(Object.prototype.toString.call(true));  // [object Boolean]
+console.log(Object.prototype.toString.call([]));  // [object Array]
+console.log(Object.prototype.toString.call({}));  // [object Object]
+console.log(Object.prototype.toString.call(function(){}));  // [object Function]
+console.log(Object.prototype.toString.call(/a/g));  // [object RegExp]
+console.log(Object.prototype.toString.call(null));  // [object Null]
+console.log(Object.prototype.toString.call(undefined)); // [object Undefined]
+console.log(Object.prototype.toString.call(new Date())); // [object Date]
+```
