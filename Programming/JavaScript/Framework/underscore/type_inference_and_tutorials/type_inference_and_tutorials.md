@@ -102,4 +102,10 @@ _.isNaN = function(obj) {
 };
 ```
 
-*Notice that: isNaN has been changed to the native method `isNaN`, which will also return true for many other not-number values, such as `undefined`.*
+*Notice that: isNaN has been changed to the native method `isNaN`, which will also return true for many other not-number values, such as `undefined`. That means:*
+
+```js
+console.log(isNaN(undefined));      /** => true */
+console.log(_.isNaN(undefined));    /** => false */
+```
+
