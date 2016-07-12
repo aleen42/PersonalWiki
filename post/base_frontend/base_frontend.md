@@ -233,3 +233,6 @@ Facebook的做法无疑为我们亮起了一盏明灯，不过可惜它并不开
 
 ![](14.png)
 
+> 有关加载框架的具体实现我曾写过很多文章介绍，可以扩展阅读：
+- [前端工程与性能优化](https://github.com/fouber/blog/issues/3)
+- [前端工程与模块化框架](https://github.com/fouber/blog/issues/4)
