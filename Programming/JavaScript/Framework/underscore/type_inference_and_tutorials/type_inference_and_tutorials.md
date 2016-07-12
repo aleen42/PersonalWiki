@@ -120,6 +120,8 @@ _.isNaN = function(obj) {
 *Why adding a `+` before the object? The answer is clear after running the fllowing code:*
 
 ```js
+var a = new Number(NaN);
+
 
 ```
 
