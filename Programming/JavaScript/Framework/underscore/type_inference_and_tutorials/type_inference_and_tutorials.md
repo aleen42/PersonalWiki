@@ -73,4 +73,4 @@ if (!_.isArguments(arguments)) {
 }
 ```
 
-### Utility Class Inference()
+### Utility Class Inference(工具類判斷)
