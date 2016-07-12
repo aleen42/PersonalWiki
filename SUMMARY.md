@@ -276,9 +276,9 @@
         * [[轉載] 99%的人都理解錯了HTTP中GET與POST的區別](./post/http_and_get/http_and_get.md)
         * [[轉載] 前端工程 -- 基礎篇](./post/base_frontend/base_frontend.md) 
         * [[轉載] Leverage Browser Caching](./post/leverage_browser_caching/leverage_browser_caching.md)
-            * [Defining optimal Cache-Control policy](./post/optimal_cache_control/optimal_cache_control.md)
-            * [Invalidating and updating cached responses](./post/invalidate_update/invalidate_update.md)
-            * [Caching checklist](./post/caching_checklist/caching_checklist.md)
+            * [Defining optimal Cache-Control policy](./post/leverage_browser_caching/optimal_cache_control/optimal_cache_control.md)
+            * [Invalidating and updating cached responses](./post/leverage_browser_caching/invalidate_update/invalidate_update.md)
+            * [Caching checklist](./post/leverage_browser_caching/caching_checklist/caching_checklist.md)
 - Questions & Answer
     * [Q&A](./qa/qa.md)
         * [How to use browser better](./qa/better_browser.md)
