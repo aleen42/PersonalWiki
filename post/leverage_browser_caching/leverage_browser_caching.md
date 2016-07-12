@@ -1,11 +1,11 @@
-## [轉載] 前端工程 -- 基礎篇 [Back](./../post.md)
+## [轉載] Leverage Browser Caching [Back](./../post.md)
 
 > - Author: Google Documents
 - Origin: https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
 - Time: Apr, 8th, 2015
 
 
-Leverage Browser Caching
+
 
 This rule triggers when PageSpeed Insights detects that the response from your server does not include caching headers or if the resources are specified to be cached for only a short time.
 Overview
