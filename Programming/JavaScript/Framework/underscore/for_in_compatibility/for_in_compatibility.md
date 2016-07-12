@@ -12,7 +12,9 @@ for (var k in obj) {
     console.log(k, obj[k]);
 }
 
-// 输出
-// name hanzichi
-// age 30
+/** 
+ * output:
+ *  name hanzichi
+ *  30
+ */
 ```
