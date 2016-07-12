@@ -1,7 +1,7 @@
 ## [轉載] Invalidating(失效) and updating cached responses [Back](./../post.md)
 
 > - Author: Google Documents - [Ilya Grigorik](http://igvita.com/)
-- Origin: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#defining-optimal-cache-control-policy
+- Origin: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#invalidating-and-updating-cached-responses
 
 <br />
 
