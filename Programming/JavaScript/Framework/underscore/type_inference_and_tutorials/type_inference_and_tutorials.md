@@ -1,4 +1,4 @@
-## Common Type Inference(類型判斷) and some useful tutorials [Back](./../underscore.md)
+## Common type inference(類型判斷) and some useful tutorials [Back](./../underscore.md)
 
 
 ## Type Inference(類型判斷)
