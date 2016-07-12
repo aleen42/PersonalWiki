@@ -43,9 +43,9 @@ index.htm 代码：
 <iframe src='a.htm'></iframe>
 <script>
     window.onload = function() {
-      var a = window.frames[0].a;
-      console.log(a instanceof Array);  // false
-      console.log(a.constructor === Array);  // false
+        var a = window.frames[0].a;
+        console.log(a instanceof Array);  // false
+        console.log(a.constructor === Array);  // false
     };
 </script>
 ```
