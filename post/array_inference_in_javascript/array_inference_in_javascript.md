@@ -57,3 +57,9 @@ a.htm 代码：
     window.a = [1, 2, 3];
 </script>
 ```
+
+我们看到 index.htm 代码中，变量 a 确实是一个数组，但是 a instanceof Array 的结果却是 false。
+
+这是因为每个 frame 都有一套自己的执行环境，跨 frame 实例化的对象彼此不共享原型链。如果打印 a instanceof window.frames[0].Array，那么结果就是 true 了。
+
+特性嗅探？
