@@ -2,7 +2,7 @@
 
 > - Author: [fouber · 張雲龍](https://github.com/fouber)
 - Origin: https://github.com/fouber/blog/issues/10
-- Time: Nov, 1st, 2014
+- Time: Aug, 27th, 2015
 
 <br />
 
