@@ -91,4 +91,4 @@ _.isElement = function(obj) {
 
 ### NaN
 
-NaN has belonged to **Number** type, and `Object.prototype.toString.call(NaN)` should be `[object Number]`.
+NaN has belonged to **Number** type, and `Object.prototype.toString.call(NaN)` should be `[object Number]`. Besides, NaN is not equal to itself, so we can infer it like this (Some bugs, see [#13](https://github.com/hanzichi/underscore-analysis/issues/13))
