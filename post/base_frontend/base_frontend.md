@@ -58,3 +58,12 @@ JS模块化方案很多，AMD/CommonJS/UMD/ES6 Module等，对应的框架和工
 
 然而，做到这些就够了么？Naive！
 
+### 第四阶段
+
+> 前端是一种技术问题较少、工程问题较多的软件开发领域。
+
+当我们要开发一款完整的Web应用时，前端将面临更多的工程问题，比如：
+
+- 大体量：多功能、多页面、多状态、多系统；
+- 大规模：多人甚至多团队合作开发；
+- 高性能：CDN部署、[缓存控制](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)、[文件指纹](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)、缓存复用、请求合并、按需加载、同步/异步加载、移动端首屏CSS内嵌、HTTP 2.0服务端资源推送。
