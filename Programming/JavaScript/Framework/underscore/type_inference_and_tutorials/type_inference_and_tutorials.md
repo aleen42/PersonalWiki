@@ -56,7 +56,7 @@ _.each(['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error'],
 });
 ```
 
-However, `isArguments` will return `[object Object]` under IE 9, so we can infer by checking existence of the attribute `callee`. You know, `arguments.callee` can return the method of current arguments.
+However, `isArguments` will return `[object Object]` under IE 9, so we can infer by checking existence of the attribute `callee`. You know, `arguments.callee` can return the method of current `arguments`.
 
 ```js
 // Define a fallback version of the method in browsers (ahem, IE < 9), where
