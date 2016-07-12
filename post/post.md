@@ -9,3 +9,5 @@ Here I want to collect some awesome articles, written by others or me.
 Leverage Browser Caching**](./leverage_browser_caching/leverage_browser_caching.md)
 - [**[轉載] 
 Defining optimal Cache-Control policy**](./optimal_cache_control/optimal_cache_control.md)
+- [**[轉載] 
+Invalidating and updating cached responses**](./optimal_cache_control/optimal_cache_control.md)
