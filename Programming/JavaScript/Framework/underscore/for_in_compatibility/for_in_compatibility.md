@@ -18,3 +18,13 @@ for (var k in obj) {
  *  30
  */
 ```
+
+However, there is a compatibility problem in IE8:
+
+```js
+var obj = { toString: 'hanzichi' };
+
+for (var k in obj) {
+    alert(k);
+}
+```
