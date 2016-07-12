@@ -1,1 +1,1 @@
-## Use `void 0` rather than `undefined` [Back](./../underscore.md)
+## Common Type Inference and some useful tutorials [Back](./../underscore.md)
