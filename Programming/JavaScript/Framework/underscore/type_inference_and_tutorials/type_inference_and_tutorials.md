@@ -91,3 +91,4 @@ _.isElement = function(obj) {
 
 ### NaN
 
+NaN has belonged to **Number** type, and `Object.prototype.toString.call(NaN)` should be `[object Number]`.
