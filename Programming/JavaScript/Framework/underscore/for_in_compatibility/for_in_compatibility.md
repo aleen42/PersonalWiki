@@ -56,5 +56,30 @@ var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString', 'propertyIsEnu
 If some has been ignored, it will also provide a method used for collecting, named `collectNonEnumProps`.
 
 ```js
+function collectNonEnumProps(obj, keys) {
+    var nonEnumIdx = nonEnumerableProps.length;
+    var constructor = obj.constructor;
+
+    // proto 是否是继承的 prototype
+    var proto = (_.isFunction(constructor) && constructor.prototype) || ObjProto;
+
+    // Constructor is a special case.
+    // `constructor` 属性需要特殊处理
+    // 如果 obj 有 `constructor` 这个 key
+    // 并且该 key 没有在 keys 数组中
+    // 存入数组
+    var prop = 'constructor';
+    if (_.has(obj, prop) && !_.contains(keys, prop)) keys.push(prop);
+    
+    // nonEnumerableProps 数组中的 keys
+    while (nonEnumIdx--) {
+        prop = nonEnumerableProps[nonEnumIdx];
+        // prop in obj 应该肯定返回 true 吧？是否不必要？
+        // obj[prop] !== proto[prop] 判断该 key 是否来自于原型链
+        if (prop in obj && obj[prop] !== proto[prop] && !_.contains(keys, prop)) {
+            keys.push(prop);
+        }
+    }
+}
 ```
 
