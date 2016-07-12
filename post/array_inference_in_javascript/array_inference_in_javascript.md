@@ -63,3 +63,11 @@ a.htm 代码：
 这是因为每个 frame 都有一套自己的执行环境，跨 frame 实例化的对象彼此不共享原型链。如果打印 a instanceof window.frames[0].Array，那么结果就是 true 了。
 
 特性嗅探？
+
+```js
+var a = [0, 1, 2];
+
+if (a.sort) {
+  // 是数组
+}
+```
