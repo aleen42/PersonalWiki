@@ -9,6 +9,6 @@ Here I have given the right code:
 
 ```js
 function isArray(a) {
-    
+    return Array.isArray ? Array.isArray(a) : Object.prototype.toString.call(a) === '[object Array]';
 }
 ```
