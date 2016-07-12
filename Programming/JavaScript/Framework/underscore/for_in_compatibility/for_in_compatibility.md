@@ -19,7 +19,7 @@ for (var k in obj) {
  */
 ```
 
-However, there is a compatibility problem in IE8 (Apparently, IE8 has treated `toString` as a non-enumerable attribute):
+However, there is a compatibility problem in IE8 (Apparently, IE8 has treated `toString` as a non-enumerable attribute, even if it's overriden):
 
 ```js
 var obj = { toString: 'hanzichi' };
