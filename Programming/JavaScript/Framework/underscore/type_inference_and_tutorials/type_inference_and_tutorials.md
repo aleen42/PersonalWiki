@@ -109,3 +109,10 @@ console.log(isNaN(undefined));      /** => true     */
 console.log(_.isNaN(undefined));    /** => false    */
 ```
 
+*Therefore, the new _.isNaN has been modified like this:*
+
+```js
+_.isNaN = function(obj) {
+    return _.isNumber(obj) && isNaN(obj);  
+};
+```
