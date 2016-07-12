@@ -23,3 +23,5 @@ _.isArray = nativeIsArray || function(obj) {
     return toString.call(obj) === '[object Array]';
 };
 ```
+
+`nativeIsArray` means the method of `Array.isArray` in ES5.
