@@ -112,3 +112,6 @@ jQuery.each("Boolean Number String Function Array Date RegExp Object Error".spli
     class2type[ "[object " + name + "]" ] = name.toLowerCase();
 });
 ```
+
+代码很清晰，如支持原生的 Array.isArray()，则直接判断，不支持的话调用 toString() 进行判断。同时可以看到很多其他类型变量的判断也是基于 toString() 方法。当然这里说的 toString() 均是 Object 原型链上的 toString() 方法。
+
