@@ -116,3 +116,10 @@ _.isNaN = function(obj) {
     return _.isNumber(obj) && isNaN(obj);  
 };
 ```
+
+*Why adding a `+` before the object? The answer is clear after running the fllowing code:*
+
+```js
+
+```
+
