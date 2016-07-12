@@ -11,3 +11,5 @@ Leverage Browser Caching**](./leverage_browser_caching/leverage_browser_caching.
 Defining optimal Cache-Control policy**](./optimal_cache_control/optimal_cache_control.md)
 - [**[轉載] 
 Invalidating and updating cached responses**](./invalidate_update/invalidate_update.md)
+- [**[轉載] 
+Caching checklist**](./caching_checklist/caching_checklist.md)
