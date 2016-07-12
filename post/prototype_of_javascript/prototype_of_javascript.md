@@ -1,5 +1,5 @@
-## [轉載] Javascript中判斷數組的正確姿勢 [Back](./../post.md)
+## [轉載] JavaScript 原型中的哲学思想 [Back](./../post.md)
 
-> - Author: [hanzichi · 韩子迟](https://github.com/hanzichi)
+> - Author: [JerryC](huang-jerryc.com)
 - Origin: http://www.cnblogs.com/zichi/p/5103842.html
 - Time: Jan, 5th, 2016
