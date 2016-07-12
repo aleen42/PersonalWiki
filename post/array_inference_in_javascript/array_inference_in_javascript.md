@@ -13,3 +13,14 @@ var a = [0, 1, 2];
 console.log(Array.isArray(a));  // true
 ```
 
+但是鉴于低版本 IE 不支持 ES5，如需兼容，需要想想别的办法。
+
+`typeof`？
+
+我们都知道，数组是特殊的对象，所以数组的 typeof 结果也是 object，而因为 null 的结果也是 object，所以如需用 typeof 运算符来判断数组，需要这么写：
+
+```js
+var a = [0, 1, 2];
+// 是 object 同时排除 null、排除纯对象
+console.log(typeof a === 'object' && a !== null && Object.prototype.toString.call(a) !== '[object Object]');  // true
+```
