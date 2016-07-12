@@ -5,9 +5,7 @@
 - Time: Apr, 8th, 2015
 
 
-
-
-This rule triggers when PageSpeed Insights detects that the response from your server does not include caching headers or if the resources are specified to be cached for only a short time.
+This rule triggers when **PageSpeed Insights** detects that the response from your server does not include caching headers or if the resources are specified to be cached for only a short time.
 Overview
 
 Fetching resources over the network is both slow and expensive: the download may require multiple roundtrips between the client and server, which delays processing and may block rendering of page content, and also incurs data costs for the visitor. All server responses should specify a caching policy to help the client determine if and when it can reuse a previously fetched response.
