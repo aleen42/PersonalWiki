@@ -14,8 +14,8 @@ for (var k in obj) {
 
 /** 
  * output:
- *  name hanzichi
- *  30
+ *  => name hanzichi
+ *  => 30
  */
 ```
 
@@ -27,4 +27,10 @@ var obj = { toString: 'hanzichi' };
 for (var k in obj) {
     alert(k);
 }
+
+/**
+ * output:
+ *  => toString (Chrome)
+ *  => nothing hanppen in IE*
+ */
 ```
