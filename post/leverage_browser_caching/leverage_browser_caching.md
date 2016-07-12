@@ -20,7 +20,7 @@ Each resource should specify an explicit caching policy that answers the followi
 
 To determine the optimal caching policy for your site, please use the following guides:
 
-- [Defining optimal Cache-Control policy](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#defining-optimal-cache-control-policy)
+- [Defining optimal Cache-Control policy](./../optimal_cache_control/optimal_cache_control.md)
 - [Invalidating and updating cached responses](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#invalidating-and-updating-cached-responses)
 - [Caching checklist](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#caching-checklist)
 
