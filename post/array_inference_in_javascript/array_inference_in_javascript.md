@@ -54,6 +54,6 @@ a.htm 代码：
 
 ```html
 <script>
-  window.a = [1, 2, 3];
+    window.a = [1, 2, 3];
 </script>
 ```
