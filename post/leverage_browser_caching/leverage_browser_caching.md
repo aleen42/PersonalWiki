@@ -22,6 +22,6 @@ To determine the optimal caching policy for your site, please use the following 
 
 - [Defining optimal Cache-Control policy](./optimal_cache_control/optimal_cache_control.md)
 - [Invalidating and updating cached responses](./invalidate_update/invalidate_update.md)
-- [Caching checklist](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#caching-checklist)
+- [Caching checklist](./caching_checklist/caching_checklist.md)
 
 We recommend **a minimum cache time of one week** and preferably(最好) up to one year for static assets, or assets that change infrequently. If you need precise control over when resources are invalidated we recommend using a **URL fingerprinting(URL 指紋)** or versioning technique - see invalidating and updating cached responses link above.
