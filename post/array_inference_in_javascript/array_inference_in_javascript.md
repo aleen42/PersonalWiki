@@ -37,3 +37,15 @@ console.log(a.constructor === Array); // true 数组？
 
 答案是否定的，需要注意嵌套 frame 的情况。
 
+index.htm 代码：
+
+```html
+<iframe src='a.htm'></iframe>
+<script>
+    window.onload = function() {
+      var a = window.frames[0].a;
+      console.log(a instanceof Array);  // false
+      console.log(a.constructor === Array);  // false
+    };
+</script>
+```
