@@ -9,7 +9,7 @@ This rule triggers when **PageSpeed Insights** detects that the response from yo
 
 ### Overview
 
-Fetching resources over the network is both slow and expensive: the download may require multiple roundtrips between the client and server, which delays processing and may block rendering of page content, and also incurs data costs for the visitor. All server responses should specify a caching policy to help the client determine if and when it can reuse a previously fetched response.
+Fetching resources over the network is both slow and expensive: the download may require multiple roundtrips(來回往返的傳遞) between the client and server, which delays processing and may block rendering of page content, and also incurs data costs for the visitor. All server responses should specify a caching policy to help the client determine if and when it can reuse a previously fetched response.
 Recommendations
 
 Each resource should specify an explicit caching policy that answers the following questions: whether the resource can be cached and by whom, for how long, and if applicable, how it can be efficiently revalidated when the caching policy expires. When the server returns a response it must provide the Cache-Control and ETag headers:
