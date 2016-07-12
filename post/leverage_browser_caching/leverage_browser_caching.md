@@ -2,4 +2,4 @@
 
 > - Author: Google Documents
 - Origin: https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
-- Time: Aug, 27th, 2015
+- Time: Apr, 8th, 2015
