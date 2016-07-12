@@ -2,5 +2,5 @@
 
 > - Author: [hanzichi · 韩子迟](https://github.com/hanzichi)
 - Origin: https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
-- Time: Apr, 8th, 2015
+- Time: Jan, 5th, 2016
 
