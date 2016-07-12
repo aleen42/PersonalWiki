@@ -9,7 +9,7 @@
 
 > Locally cached responses are used until the resource 'expires'
 
-> Embedding a file content fingerprint in the URL enables us to force the client(the browser) to update to a new version of the response
+> Embedding a file content fingerprint in the URL enables us to force the client to update to a new version of the response
 
 > Each application needs to define its own cache hierarchy for optimal performance
 
