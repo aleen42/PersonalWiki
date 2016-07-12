@@ -101,3 +101,5 @@ _.isNaN = function(obj) {
     return _.isNumber(obj) && obj !== +obj;
 };
 ```
+
+*Notice that: isNaN has been changed to the native method `isNaN`, which will also return true for many other not-number values, such as `undefined`*
