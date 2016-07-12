@@ -31,3 +31,13 @@ _.isArray = nativeIsArray || function(obj) {
 ### Object
 
 In underscore, both **function** and **object variables** are treated as an object, only without **null**.
+
+```js
+// Is a given variable an object?
+// 判断是否为对象
+// 这里的对象包括 function 和 object
+_.isObject = function(obj) {
+    var type = typeof obj;
+    return type === 'function' || type === 'object' && !!obj;
+};
+```
