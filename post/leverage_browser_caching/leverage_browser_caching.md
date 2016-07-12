@@ -19,7 +19,9 @@ Each resource should specify an explicit caching policy that answers the followi
 - `ETag` provides a revalidation token that is automatically sent by the browser to check if the resource has changed since the last time it was requested. To learn more, see [validating cached responses with ETags](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#validating-cached-responses-with-etags).
 
 To determine the optimal caching policy for your site, please use the following guides:
-Defining optimal Cache-Control policy
-Invalidating and updating cached responses
-Caching checklist
+
+- Defining optimal Cache-Control policy
+- Invalidating and updating cached responses
+- Caching checklist
+
 We recommend a minimum cache time of one week and preferably up to one year for static assets, or assets that change infrequently. If you need precise control over when resources are invalidated we recommend using a URL fingerprinting or versioning technique - see invalidating and updating cached responses link above.
