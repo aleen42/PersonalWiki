@@ -9,7 +9,7 @@ var obj = {
 };
 
 for (var k in obj) {
-  console.log(k, obj[k]);
+    console.log(k, obj[k]);
 }
 
 // 输出
