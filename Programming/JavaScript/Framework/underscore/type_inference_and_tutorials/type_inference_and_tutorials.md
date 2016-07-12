@@ -77,7 +77,7 @@ if (!_.isArguments(arguments)) {
 
 ### DOM Elements
 
-
+You can just infer an element whether it's a DOM element by ensuring that it's not a `null` and `nodeType` is 1:
 
 ```js
 ```
