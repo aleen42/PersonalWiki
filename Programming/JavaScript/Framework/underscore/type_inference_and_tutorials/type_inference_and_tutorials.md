@@ -30,3 +30,4 @@ _.isArray = nativeIsArray || function(obj) {
 
 ### Object
 
+In underscore, both **function** and **object variables** are treated as an object, only without **null**.
