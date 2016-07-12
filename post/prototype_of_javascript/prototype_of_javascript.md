@@ -26,3 +26,8 @@
 ### 原型指针 `__proto__`
 
 在JavaScript中，每个对象都拥有一个原型对象，而指向该原型对象的内部指针则是`__proto__`，通过它可以从中继承原型对象的属性，原型是JavaScript中的基因链接，有了这个，才能知道这个对象的祖祖辈辈。从对象中的`__proto__`可以访问到他所继承的原型对象。
+
+```js
+var a = new Array();
+a.__proto__ === Array.prototype;    // true
+```
