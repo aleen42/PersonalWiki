@@ -46,7 +46,7 @@ Therefore, in underscore.js, there is a method named `hasEnumBug` to get bug fro
 var hasEnumBug = !{toString: null}.propertyIsEnumerable('toString');
 ```
 
-Besides, underscore.js has listed out all the familiar situation in the set `nonEnumerableProps`.
+Besides, underscore.js has listed out all the familiar situation in the set `nonEnumerableProps`. If some has been ignored, it will also provide a collection method named `collectNonEnumProps`.
 
 ```js
 // IE < 9 下不能用 for in 来枚举的 key 值集合
