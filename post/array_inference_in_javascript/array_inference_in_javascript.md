@@ -82,3 +82,6 @@ if (a.sort) {
     // 其实我真的不是数组
 }
 ```
+
+正确的姿势是使用 [Object.prototype.toString()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/toString) 判断：
+
