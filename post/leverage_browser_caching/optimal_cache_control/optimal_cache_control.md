@@ -1,4 +1,4 @@
-## [轉載] Invalidating(失效) and updating cached responses [Back](./../post.md)
+## [轉載] Invalidating(失效) and updating cached responses [Back](./../leverage_browser_caching.md)
 
 > - Author: Google Documents - [Ilya Grigorik](http://igvita.com/)
 - Origin: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#invalidating-and-updating-cached-responses
