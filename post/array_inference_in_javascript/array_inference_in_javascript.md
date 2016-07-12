@@ -24,3 +24,16 @@ var a = [0, 1, 2];
 // 是 object 同时排除 null、排除纯对象
 console.log(typeof a === 'object' && a !== null && Object.prototype.toString.call(a) !== '[object Object]');  // true
 ```
+
+`instanceof`？
+
+来回忆下 instanceof 运算符的使用方式。a instanceof b，如果返回 true，表示 a 是 b 的一个实例。那么如果 a instanceof Array 返回 true，是不是就说明 a 是 数组类型呢？跟 instanceof 师出同门的还有 constructor，是否同样可以判断呢？
+
+```js
+var a = [0, 1, 2];
+console.log(a instanceof Array);  // true 就是数组？
+console.log(a.constructor === Array); // true 数组？
+```
+
+答案是否定的，需要注意嵌套 frame 的情况。
+
