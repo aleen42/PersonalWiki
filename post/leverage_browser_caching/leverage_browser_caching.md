@@ -17,7 +17,7 @@ Each resource should specify an explicit caching policy that answers the followi
 
 - `Cache-Control` defines how, and for how long the individual response can be cached by the browser and other intermediate caches. To learn more, see [caching with Cache-Control](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#cache-control).
 - `ETag` provides a revalidation token that is automatically sent by the browser to check if the resource has changed since the last time it was requested. To learn more, see [validating cached responses with ETags](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#validating-cached-responses-with-etags).
-- 
+
 To determine the optimal caching policy for your site, please use the following guides:
 Defining optimal Cache-Control policy
 Invalidating and updating cached responses
