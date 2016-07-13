@@ -12,4 +12,4 @@ Javascript中判断数组的正确姿势**](./array_inference_in_javascript/arra
 - [**[轉載] 
 JavaScript 原型中的哲学思想**](./prototype_of_javascript/prototype_of_javascript.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span><span class="issue-label" style="background-color: #009fa6; font-size: 12px;">JavaScript</span><span class="issue-label" style="background-color: #b1039f; font-size: 12px;">ProtoType</span> 
 - [**[轉載] 
-JavaScript 原型中的哲学思想**](./prototype_of_javascript/prototype_of_javascript.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span>
+前端开发面试题**](./frontend_interview/frontend_interview.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span>
