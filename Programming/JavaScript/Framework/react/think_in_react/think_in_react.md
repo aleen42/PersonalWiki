@@ -92,7 +92,7 @@ var ProductTable = React.createClass({
                 rows.push(<ProductCategoryRow category={product.category} key={product.category}></ProductCategoryRow>);
             }
             
-            rows.push(<ProductRow product={product}></ProductRow>);
+            rows.push(<ProductRow product={product} key={product.name}></ProductRow>);
         });
     
         return (
