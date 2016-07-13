@@ -37,6 +37,5 @@ a.__proto__ === Array.prototype;    // true
 
 ```js
 a.__proto__.__proto__ === Object.prototype  // true
-
 // 等同于 Array.prototype.__proto__ === Object.prototype
 ```
