@@ -52,3 +52,5 @@ ReactDOM.render(
 
 ### Step 2: Build a static version in React
 
+```js
+```
