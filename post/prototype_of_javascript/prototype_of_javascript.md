@@ -104,3 +104,13 @@ a.constructor === Foo.prototype.constructor; // true
 #### 意义
 
 “原型链”的作用在于，当读取对象的某个属性时，JavaScript引擎先寻找对象本身的属性，如果找不到，就到它的原型去找，如果还是找不到，就到原型的原型去找。以此类推，如果直到最顶层的Object.prototype还是找不到，则返回undefine
+
+### 亲子鉴定
+
+在JavaScript中，也存在鉴定亲子之间DNA关系的方法：
+
+instanceof
+运算符返回一个布尔值，表示一个对象是否由某个构造函数创建。
+
+Object.isPrototypeOf()
+只要某个对象处在原型链上，isProtypeOf都返回true
