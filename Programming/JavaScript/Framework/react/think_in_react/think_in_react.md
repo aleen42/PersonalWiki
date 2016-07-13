@@ -93,6 +93,9 @@ var ProductTable = React.createClass({
                         <th>Price</th>
                     </tr>
                 </thead>
+                <tbody>
+                    
+                </tbody>
             </table>
         );
     }
