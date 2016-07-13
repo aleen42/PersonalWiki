@@ -75,5 +75,9 @@ var ProductRow = React.createClass({
     }
 });
 
-var ProductCategoryRows
+var ProductCategoryRow = React.createClass({
+    render: function () {
+        
+    }
+});
 ```
