@@ -127,8 +127,10 @@ var SearchBar = React.createClass({
 var FilterableProductTable = React.createClass({
     render: function () {
         return (
-            <SearchBar />
-            <ProductTable products={this.props.products}/>
+            <div>
+                <SearchBar />
+                <ProductTable products={this.props.products}/>
+            </div>
         );
     }
 });
