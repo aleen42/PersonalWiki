@@ -31,3 +31,12 @@
 var a = new Array();
 a.__proto__ === Array.prototype;    // true
 ```
+
+上面代码中，创建了一个Array的实例`a`，该实例的原型指向了`Array.prototype`。
+`Array.prototype`本身也是一个对象，也有继承的原型:
+
+```js
+a.__proto__.__proto__ === Object.prototype  // true
+
+
+```
