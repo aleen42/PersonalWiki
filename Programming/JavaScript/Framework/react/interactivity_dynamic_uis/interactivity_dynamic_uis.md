@@ -1,1 +1,1 @@
-## JSX Spread Attributes [Back](./../react.md)
+## Interactivity and Dynamic UIs [Back](./../react.md)
