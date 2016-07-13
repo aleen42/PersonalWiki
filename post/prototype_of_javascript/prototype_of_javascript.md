@@ -109,8 +109,8 @@ a.constructor === Foo.prototype.constructor; // true
 
 在JavaScript中，也存在鉴定亲子之间DNA关系的方法：
 
-instanceof
+instanceo：
 运算符返回一个布尔值，表示一个对象是否由某个构造函数创建。
 
-Object.isPrototypeOf()
+Object.isPrototypeOf()：
 只要某个对象处在原型链上，isProtypeOf都返回true
