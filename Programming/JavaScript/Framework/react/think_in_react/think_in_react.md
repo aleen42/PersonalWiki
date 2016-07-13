@@ -69,6 +69,7 @@ var ProductRow = React.createClass({
         return (
             <tr>
                 <td>{name}</td>
+                <td>{this.props.price}</td>
             <tr/>
         );
     }
