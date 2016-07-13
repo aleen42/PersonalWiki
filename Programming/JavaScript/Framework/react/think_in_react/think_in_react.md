@@ -4,6 +4,8 @@ Suppose that we have a requirements from our designer, and the design is shown a
 
 ![](thinking-in-react-mock.png)
 
+### Break the UI into a component hierarchy
+
 Firstly, we are recommended that break the UIs into a component hierarchy.
 
 ![](thinking-in-react-components.png)
