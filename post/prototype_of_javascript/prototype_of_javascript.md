@@ -73,3 +73,5 @@ Foo.__proto__ === Function.prototype // true
 var a = new Foo();
 a.__proto__ ==== Foo.prototyle; // true
 ```
+
+而函数的`prototype`属性，本身是一个由Object构造的实例对象。
