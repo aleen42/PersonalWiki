@@ -74,4 +74,6 @@ var ProductRow = React.createClass({
         );
     }
 });
+
+var ProductCategoryRows
 ```
