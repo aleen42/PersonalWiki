@@ -71,7 +71,13 @@ Foo.__proto__ === Function.prototype // true
 
 ```js
 var a = new Foo();
-a.__proto__ ==== Foo.prototyle; // true
+a.__proto__ ==== Foo.prototype; // true
 ```
 
-而函数的`prototype`属性，本身是一个由Object构造的实例对象。
+而函数的`prototype`属性，本身是一个由`Object`构造的实例对象。
+
+```js
+Foo.prototype.__proto__ === Object.prototype; // true
+```
+
+`prototype`属性很特殊，它还有一个隐式的`constructor`，指向了构造函数本身。
