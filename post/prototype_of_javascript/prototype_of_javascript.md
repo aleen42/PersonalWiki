@@ -87,3 +87,5 @@ Foo.prototype.constructor === Foo; // true
 a.constructor === Foo; // true
 a.constructor === Foo.prototype.constructor; // true
 ```
+
+![](./2.png)
