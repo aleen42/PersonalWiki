@@ -116,7 +116,7 @@ var SearchBar = React.createClass({
         return (
             <form>
                 <input type="text" placeholder="Search..." />
-                <input type="checkbox" 
+                <input type="checkbox" id="show-product" /> <label forName>Only show products in stock</label> 
             </form>
         );
     }
