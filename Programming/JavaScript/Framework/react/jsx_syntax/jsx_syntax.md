@@ -99,7 +99,7 @@ var Nav = React.createClass({ displayName: 'Nav' });
 
 If you are building a component that has many children, like a form, you might end up with something with a lot of variable declarations:
 
-```jsx
+```js
 /** Awkward block of variable declarations */
 var Form = MyFormComponent;
 var FormRow = Form.Row;
