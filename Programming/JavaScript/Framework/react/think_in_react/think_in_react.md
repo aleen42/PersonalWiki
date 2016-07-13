@@ -114,7 +114,10 @@ var ProductTable = React.createClass({
 var SearchBar = React.createClass({
     render： function() {
         return (
-            
+            <form>
+                <input type="text" placeholder="Search..." />
+                <input type="checkbox" 
+            </form>
         );
     }
 });
