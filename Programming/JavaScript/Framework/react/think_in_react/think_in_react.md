@@ -143,4 +143,4 @@ ReactDOM.render(
 
 ### A brief interlude : props vs state
 
-There are two types of "model" data in React: props and state. It's important to understand the distinction between the two; skim the official React docs if you aren't sure what the difference is.
+There are two types of "model" data in React: props and state. It's important to understand the distinction between the two; skim [the official React docs](https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html) if you aren't sure what the difference is.
