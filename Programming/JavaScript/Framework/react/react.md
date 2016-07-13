@@ -9,7 +9,7 @@
 ### Quick Start
 
 - [**Quick Started**](./quick_started/quick_started.md)
-- [**Components**](./components_started/components_started.md)
+- [**Tutorials**](./components_started/components_started.md)
 
 
 - [**JSX Syntax**](./jsx_syntax/jsx_syntax.md)
