@@ -58,3 +58,10 @@ a.__proto__.__proto__.__proto__ === null  // true
 这里用`__proto__`属性来描述对象中的原型，是因为这样来得更加形象，且容易理解。
 
 ### 原型对象 `prototype`
+
+函数作为JavaScript中的一等公民，它既是函数又是对象，函数的原型指向的是`Function.prototype`
+
+```js
+var Foo = function() {}
+Foo.__proto__ === Function.prototype // tre
+```
