@@ -121,5 +121,6 @@ var b = new Bar();
 b instanceof Bar // true
 Bar.prototype.isPrototypeOf(b) // true
 Object.prototype.isPrototypeOf(Bar) // true
-
 ```
+
+要注意，实例`b`的原型是`Bar.prototype`而不是`Bar`
