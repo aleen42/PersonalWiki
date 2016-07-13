@@ -63,5 +63,5 @@ a.__proto__.__proto__.__proto__ === null  // true
 
 ```js
 var Foo = function() {}
-Foo.__proto__ === Function.prototype // tre
+Foo.__proto__ === Function.prototype // true
 ```
