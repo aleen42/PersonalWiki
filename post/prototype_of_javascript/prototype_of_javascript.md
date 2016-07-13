@@ -114,3 +114,12 @@ instanceo：
 
 Object.isPrototypeOf()：
 只要某个对象处在原型链上，isProtypeOf都返回true
+
+```js
+var Bar = function() {}
+var b = new Bar();
+b instanceof Bar // true
+Bar.prototype.isPrototypeOf(b) // true
+Object.prototype.isPrototypeOf(Bar) // true
+
+```
