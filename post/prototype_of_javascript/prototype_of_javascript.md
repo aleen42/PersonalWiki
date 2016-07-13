@@ -129,4 +129,8 @@ Object.prototype.isPrototypeOf(Bar) // true
 
 ![](./1.jpg)
 
+这是一张描述了`Object`、`Function`以及一个函数实例`Foo`他们之间原型之间联系。如果理解了上面的概念，这张图是不难读懂。
 
+从上图中，能看到一个有趣的地方。
+
+`Function.prototype.__proto__` 指向了 `Object.prototype`，这说明`Function.prototype` 是一个 `Object`实例，那么应当是先有的`Object`再有`Function`。
