@@ -87,6 +87,9 @@ var ProductTable = React.createClass({
     render: function () {
         var rows = [];
         var lastCategory = null;
+        this.props.products.forEach(function(product) {
+            if (produt
+        });
     
         return (
             <table>
