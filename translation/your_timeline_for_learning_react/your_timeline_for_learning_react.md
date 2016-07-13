@@ -117,3 +117,4 @@ Dan Abramov，作为 Redux 的创造人，他[会告诉你们](https://github.co
 
 的确是有：我已经把上述的学习路线整理成一个可打印的 PDF 文件，您仅需注册便可获取！
 
+![](./react-timeline.png)
