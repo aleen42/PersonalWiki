@@ -136,3 +136,11 @@ Object.prototype.isPrototypeOf(Bar) // true
 `Function.prototype.__proto__` 指向了 `Object.prototype`，这说明`Function.prototype` 是一个 `Object`实例，那么应当是先有的`Object`再有`Function`。
 
 但是`Object.prototype.constructor.__proto__` 又指向了 `Function.prototype`。这样看来，没有`Function`，`Object`也不能创建实例。
+
+这就产生了一种类「先有鸡还是先有蛋」的经典问题，到底是先有的`Object`还是先有的`Function`呢？
+
+这么哲学向的问题，留给你思考了。
+
+我只是感慨：
+
+**越往JavaScript的深处探索，越发觉得这一门语言很哲学。**
