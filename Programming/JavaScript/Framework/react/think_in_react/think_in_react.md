@@ -54,8 +54,8 @@ ReactDOM.render(
 
 ```js
 var ProductRow = React.createClass({
-    render: return (
+    render: function () {
         
-    );
+    }
 });
 ```
