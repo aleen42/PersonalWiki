@@ -112,7 +112,7 @@ var ProductTable = React.createClass({
 });
 
 var SearchBar = React.createClass({
-    render： function() {
+    render： function () {
         return (
             <form>
                 <input type="text" placeholder="Search..." />
@@ -120,6 +120,14 @@ var SearchBar = React.createClass({
                     <input type="checkbox" id="show-product" /> <label htmlFor="show-produt">Only show products in stock</label> 
                 </p>
             </form>
+        );
+    }
+});
+
+var FilterableProductTable = React.createClass({
+    render: function () {
+        return (
+            
         );
     }
 });
