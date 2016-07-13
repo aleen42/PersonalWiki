@@ -11,6 +11,7 @@
 - [**Quick Started**](./quick_started/quick_started.md)
 - [**Tutorials**](./tutorials/tutorials.md)
 
+### Guides
 
 - [**JSX Syntax**](./jsx_syntax/jsx_syntax.md)
 - [**JSX Gotchas**](./jsx_gotcha/jsx_gotcha.md)
