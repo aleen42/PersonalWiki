@@ -1,6 +1,6 @@
 ## [轉載] JavaScript 原型中的哲学思想 [Back](./../post.md)
 
-> - Author: [JerryC](huang-jerryc.com)
+> - Author: [markyun · 马云云](https://github.com/markyun)
 - Origin: https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions
 - Time: Jun, 28th, 2016
 
