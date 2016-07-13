@@ -47,3 +47,6 @@ a.__proto__.__proto__ === Object.prototype  // true
 a.__proto__.__proto__.__proto__ === null  // true
 // 等同于 Object.prototype.__proto__ === null
 ```
+
+![](./1.png)
+
