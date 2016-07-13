@@ -39,3 +39,11 @@ a.__proto__ === Array.prototype;    // true
 a.__proto__.__proto__ === Object.prototype  // true
 // 等同于 Array.prototype.__proto__ === Object.prototype
 ```
+
+这就说了明了，Array本身也是继承自Object的，那么Object的原型指向的是谁呢？
+
+
+```js
+a.__proto__.__proto__.__proto__ === null  // true
+// 等同于 Object.prototype.__proto__ === null
+```
