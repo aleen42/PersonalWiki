@@ -110,4 +110,12 @@ var ProductTable = React.createClass({
         );
     }
 });
+
+var SearchBar = React.createClass({
+    render： function() {
+        return (
+            
+        );
+    }
+});
 ```
