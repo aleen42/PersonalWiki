@@ -49,3 +49,6 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+### Step 2: Build a static version in React
+
