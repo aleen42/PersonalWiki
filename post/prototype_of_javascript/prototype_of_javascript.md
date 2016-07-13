@@ -53,3 +53,6 @@ a.__proto__.__proto__.__proto__ === null  // true
 所以说，JavaScript中的对象，追根溯源都是来自一个null对象。佛曰：万物皆空，善哉善哉。
 
 除了使用.`__proto__`方式访问对象的原型，还可以通过`Object.getPrototypeOf`方法来获取对象的原型，以及通过`Object.setPrototypeOf`方法来重写对象的原型。
+
+值得注意的是，按照语言标准，`__proto__`属性只有浏览器才需要部署，其他环境可以没有这个属性，而且前后的两根下划线，表示它本质是一个内部属性，不应该对使用者暴露。因此，应该尽量少用这个属性，而是用`Object.getPrototypeof`和`Object.setPrototypeOf`，进行原型对象的读写操作。
+这里用`__proto__`属性来描述对象中的原型，是因为这样来得更加形象，且容易理解。
