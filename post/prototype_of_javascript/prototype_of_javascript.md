@@ -124,3 +124,7 @@ Object.prototype.isPrototypeOf(Bar) // true
 ```
 
 要注意，实例`b`的原型是`Bar.prototype`而不是`Bar`
+
+![](./1.jpg)
+
+
