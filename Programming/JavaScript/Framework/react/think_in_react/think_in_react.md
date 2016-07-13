@@ -145,6 +145,8 @@ It's best to decouple these processes because building a static version requires
 
 If you're familiar with the concept of state, don't use state at all to build this static version. State is reserved only for interactivity, that is, data that changes over time.
 
+In simpler examples, it's usually easier to go top-down, and on larger projects, it's easier to go bottom-up and write tests as you build.
+
 ### A brief interlude : props vs state
 
 There are two types of "model" data in React: props and state. It's important to understand the distinction between the two; skim [the official React docs](https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html) if you aren't sure what the difference is.
