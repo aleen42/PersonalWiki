@@ -68,3 +68,8 @@ Foo.__proto__ === Function.prototype // true
 
 函数实例除了拥有`__proto__`属性之外，还拥有`prototype`属性。
 通过该函数构造的新的实例对象，其原型指针`__proto__`会指向该函数的`prototype`属性。
+
+```js
+var a = new Foo();
+a.__proto__ ==== Foo.prototyle; // true
+```
