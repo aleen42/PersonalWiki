@@ -50,3 +50,6 @@ a.__proto__.__proto__.__proto__ === null  // true
 
 ![](./1.png)
 
+所以说，JavaScript中的对象，追根溯源都是来自一个null对象。佛曰：万物皆空，善哉善哉。
+
+除了使用.`__proto__`方式访问对象的原型，还可以通过`Object.getPrototypeOf`方法来获取对象的原型，以及通过`Object.setPrototypeOf`方法来重写对象的原型。
