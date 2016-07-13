@@ -134,4 +134,9 @@ var FilterableProductTable = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <FilterableProductTable products={PRODUCTS} />,
+    document.getElementById('container')
+);
 ```
