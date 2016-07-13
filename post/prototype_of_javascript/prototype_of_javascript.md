@@ -134,3 +134,5 @@ Object.prototype.isPrototypeOf(Bar) // true
 从上图中，能看到一个有趣的地方。
 
 `Function.prototype.__proto__` 指向了 `Object.prototype`，这说明`Function.prototype` 是一个 `Object`实例，那么应当是先有的`Object`再有`Function`。
+
+但是`Object.prototype.constructor.__proto__` 又指向了 `Function.prototype`。这样看来，没有`Function`，`Object`也不能创建实例。
