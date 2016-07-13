@@ -104,7 +104,7 @@ var ProductTable = React.createClass({
                     </tr>
                 </thead>
                 <tbody>
-                    
+                    {rows}
                 </tbody>
             </table>
         );
