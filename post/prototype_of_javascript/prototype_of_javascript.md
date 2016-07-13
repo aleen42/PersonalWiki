@@ -81,3 +81,9 @@ Foo.prototype.__proto__ === Object.prototype; // true
 ```
 
 `prototype`属性很特殊，它还有一个隐式的`constructor`，指向了构造函数本身。
+
+```js
+Foo.prototype.constructor === Foo; // true
+a.constructor === Foo; // true
+a.constructor === Foo.prototype.constructor; // true
+```
