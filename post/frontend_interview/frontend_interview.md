@@ -2,7 +2,8 @@
 
 > - Author: [markyun · 马云云](https://github.com/markyun)
 - Origin: https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions
-- Time: Jun, 28th, 2016
+- Time: Jun, 8th, 2015
+- Updated: Mar, 25th, 
 
 #前端开发面试题
 
