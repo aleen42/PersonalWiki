@@ -128,7 +128,7 @@ var FilterableProductTable = React.createClass({
     render: function () {
         return (
             <SearchBar />
-            <ProductTable products={PRODUCTS}/>
+            <ProductTable products={this.props.products}/>
         );
     }
 });
