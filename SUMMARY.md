@@ -54,7 +54,7 @@
                     * [JSX Gotchas](./Programming/JavaScript/Framework/react/jsx_gotcha/jsx_gotcha.md)
                     * [Think in React](./Programming/JavaScript/Framework/react/think_in_react/think_in_react.md)
                     * [JSX Spread Attributes](./Programming/JavaScript/Framework/react/jsx_spread_attributes/jsx_spread_attributes.md)
-                    * [Interactivity and Dynamic UIs**](./Programming/JavaScript/Framework/react/interactivity_dynamic_uis/interactivity_dynamic_uis.md)
+                    * [Interactivity and Dynamic UIs](./Programming/JavaScript/Framework/react/interactivity_dynamic_uis/interactivity_dynamic_uis.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
