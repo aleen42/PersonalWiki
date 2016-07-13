@@ -1,11 +1,9 @@
-## [轉載] JavaScript 原型中的哲学思想 [Back](./../post.md)
+## [轉載] J前端开发面试题 [Back](./../post.md)
 
 > - Author: [markyun · 马云云](https://github.com/markyun)
 - Origin: https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions
 - Time: Jun, 8th, 2015
-- Updated: Mar, 25th, 
-
-#前端开发面试题
+- Updated: Mar, 25th, 2016
 
 ## <a name='preface'>前言</a> ##
 
