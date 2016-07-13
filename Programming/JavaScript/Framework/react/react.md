@@ -6,6 +6,8 @@
 
 ![](./react-timeline.png)
 
+### Quick Start
+
 - [**Quick Started**](./quick_started/quick_started.md)
 - [**JSX Syntax**](./jsx_syntax/jsx_syntax.md)
 - [**JSX Gotchas**](./jsx_gotcha/jsx_gotcha.md)
