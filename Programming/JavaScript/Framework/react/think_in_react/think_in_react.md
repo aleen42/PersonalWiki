@@ -86,7 +86,7 @@ var ProductCategoryRow = React.createClass({
 var ProductTable = React.createClass({
     render: function () {
         var rows = [];
-
+        var lastCategory = null;
     
         return (
             <table>
