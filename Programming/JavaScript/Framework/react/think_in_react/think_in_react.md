@@ -267,6 +267,10 @@ Therefore, we should add a handle event method for FilterableProductTable to set
 ```js
 /** call parent method */
 var SearchBar = React.createClass({
+    handleChange: function() {
+        this.props.onUserInput(this.refs.filterTextInput.valu);
+    }
+
     render： function () {
         return (
             <form>
