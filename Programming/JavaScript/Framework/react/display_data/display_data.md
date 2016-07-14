@@ -38,4 +38,8 @@ var Hello = React.createClass({
         </p>
     );
 });
+
+ReactDOM.render(
+    <Hello date={new Date()} />
+);
 ```
