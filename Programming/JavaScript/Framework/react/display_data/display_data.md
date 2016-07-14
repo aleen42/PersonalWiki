@@ -62,3 +62,7 @@ React components are very simple. You can think of them as simple functions that
 ### JSX
 
 JSX is designed to directly generate HTML and component trees, which have a HTML-like syntax.
+
+### React without JSX
+
+JSX is absolutly optional; you don't have to use JSX with React, and you can only create React elements in plain JavaScript using `React.createElement`
