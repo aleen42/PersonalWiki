@@ -179,6 +179,8 @@ So finally, our state is:
 
 ### Step 4: Identify where your state should live
 
+Remember: React is all about one-way data flow down the component hierarchy. It may not be immediately clear which component should own what state. This is often the most challenging part for newcomers to understand, 
+
 ```js
 var SearchBar = React.createClass({
     render： function () {
