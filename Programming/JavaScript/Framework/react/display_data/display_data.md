@@ -4,6 +4,8 @@ The most basic thing you can do with UI is displaying some data. React makes it 
 
 ### Get Started
 
+Firstly, we'll create a simple `hello-react.html`
+
 ```js
 <!DOCTYPE html>
 <html>
