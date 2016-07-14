@@ -72,5 +72,10 @@ var child1 = React.createElement('li', null, 'First Text Content');
 var child2 = React.createElement('li', null, 'Second Text Content');
 var root = React.createElement('ul', { className: 'my-list' }, child1, child2);
 ReactDOM.render(root, document.getElementById('example'));
+```
 
+For convenience, you can create a short-hand factory functions to create elemtns from custom components:
+
+```js
+var Factory = React.createFactory(ComponentClass);
 ```
