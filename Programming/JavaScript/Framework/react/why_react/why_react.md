@@ -18,4 +18,5 @@ React is all about building reusable components. In fact, with React the only th
 
 *In my way, the most important thing of using React is not its reusable feature, but the thought of divide and conquer(分治). Through React, you can build a big thing by dividing it into many small parts.*
 
-### Give it 5 minues
+### Give It Five Minutes
+
