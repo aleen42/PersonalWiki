@@ -279,7 +279,7 @@ var SearchBar = React.createClass({
     }
 });
 
-
+/** add method for child */
 var FilterableProductTable = React.createClass({
     getInitialState: function () {
         return {
