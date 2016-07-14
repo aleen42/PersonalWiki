@@ -26,3 +26,16 @@ Firstly, we'll create a simple `hello-react.html`:
   </body>
 </html>
 ```
+
+To replace the comments above with the following jsx:
+
+```js
+var Hello = React.createClass({
+    return (
+        <p>
+            Hello, <input type="text" placeholder="Your name here" />
+            It's {this.props.date.toTimeString()}
+        </p>
+    );
+});
+```
