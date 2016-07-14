@@ -55,5 +55,8 @@ If you run the example above, you will find that UI only updates time string, wi
 
 Rect does not manipulate the DOM unless it needs to. **It uses a fast, internal mock DOM to perform diffs and computes the most efficient DOM mutation for you.**
 
+### Components are Just Like Functions
+
+React components are very simple. You can think of them as simple functions that take in props and state (discussed later) and render HTML.
 
 
