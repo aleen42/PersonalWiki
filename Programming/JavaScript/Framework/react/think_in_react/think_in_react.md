@@ -274,7 +274,7 @@ var SearchBar = React.createClass({
     render： function () {
         return (
             <form>
-                <input type="text" placeholder="Search..." value={this.props.filterText} />
+                <input type="text" placeholder="Search..." value={this.props.filterText} ref="filterTextInput" />
                 <p>
                     <input type="checkbox" id="show-product" checked={this.props.isStockOnly} /> <label htmlFor="show-produt">Only show products in stock</label> 
                 </p>
