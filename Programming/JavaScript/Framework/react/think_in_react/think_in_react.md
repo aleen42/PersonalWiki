@@ -262,7 +262,7 @@ var FilterableProductTable = React.createClass({
 
 There should be a method to handle events of changements of both the text and the checkbox.
 
-Therefore, we should add a handle event method for FilterableProductTable to setState, and pass this method to SearchBar and ProductTable via prop.
+Therefore, we should add a handle event method for FilterableProductTable to setState, and pass this method to SearchBar via prop.
 
 ```js
 
