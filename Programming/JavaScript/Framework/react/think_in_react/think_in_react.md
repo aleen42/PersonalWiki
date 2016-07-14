@@ -188,7 +188,7 @@ For each piece of state in your application:
 - Either the common owner or another component higher up in the hierarchy should own the state.
 - If you can't find a component where it makes sense to own the state, create a new component simply for holding the state and add it somewhere in the hierarchy above the common owner component.
 
-Following this strategy, we can find that both SearchBar and ProductTable need the state. And their common components is FilterableProductTable. Therefore, the state should live in FilterableProductTable.
+Following this strategy, we can find that both SearchBar and ProductTable need the state. And their common components is FilterableProductTable. Therefore, the state should live in **FilterableProductTable**.
 
 ```js
 var SearchBar = React.createClass({
