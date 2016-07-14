@@ -1,4 +1,4 @@
-## Your Timeline for Learning React - 為你定制的 React 學習路線 [**Back**](./../translation.md)
+## Improve Angular Performance with React - 通过 React 来提高 Angular 的性能 [**Back**](./../translation.md)
 
 > * 原文链接 : [Give it five minutes](https://signalvnoise.com/posts/3124-give-it-five-minutes)
 * 原文作者 : [Jason Fried](https://signalvnoise.com/writers/jf)
