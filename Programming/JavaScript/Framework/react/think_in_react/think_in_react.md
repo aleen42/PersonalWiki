@@ -250,8 +250,8 @@ var FilterableProductTable = React.createClass({
     render: function () {
         return (
             <div>
-                <SearchBar filterText={this.state.filterTet} isStockOnly={this.state.isStockOnly} />
-                <ProductTable products={this.props.products} filterText={this.state.filterTet} isStockOnly={this.state.isStockOnly} />
+                <SearchBar filterText={this.state.filterText} isStockOnly={this.state.isStockOnly} />
+                <ProductTable products={this.props.products} filterText={this.state.filterText} isStockOnly={this.state.isStockOnly} />
             </div>
         );
     }
@@ -290,15 +290,15 @@ var FilterableProductTable = React.createClass({
     
     handleUserInput: function (filterText, isStockOnly) {
         this.setState({
-            
+            filterText: filterText
         });
     }
 
     render: function () {
         return (
             <div>
-                <SearchBar filterText={this.state.filterTet} isStockOnly={this.state.isStockOnly} />
-                <ProductTable products={this.props.products} filterText={this.state.filterTet} isStockOnly={this.state.isStockOnly} />
+                <SearchBar filterText={this.state.filterText} isStockOnly={this.state.isStockOnly} />
+                <ProductTable products={this.props.products} filterText={this.state.filterText} isStockOnly={this.state.isStockOnly} />
             </div>
         );
     }
