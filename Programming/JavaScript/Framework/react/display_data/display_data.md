@@ -59,4 +59,6 @@ Rect does not manipulate the DOM unless it needs to. **It uses a fast, internal 
 
 React components are very simple. You can think of them as simple functions that take in `props` and `state` (discussed later) and render HTML.
 
+### JSX
 
+JSX is designed to directly generate HTML and component trees, which have a HTML-like syntax.
