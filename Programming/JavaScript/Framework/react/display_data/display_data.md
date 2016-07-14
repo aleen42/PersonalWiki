@@ -31,12 +31,14 @@ To replace the comments above with the following jsx:
 
 ```js
 var Hello = React.createClass({
-    return (
-        <p>
-            Hello, <input type="text" placeholder="Your name here" />
-            It's {this.props.date.toTimeString()}
-        </p>
-    );
+    render: function () {
+        return (
+            <p>
+                Hello, <input type="text" placeholder="Your name here" />
+                It's {this.props.date.toTimeString()}
+            </p>
+        );
+    }
 });
 
 setInterval(ReactDOM.render(
