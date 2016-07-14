@@ -16,4 +16,4 @@ When the data changes, React conceptually hits the "refresh" button, and knows t
 
 React is all about building reusable components. In fact, with React the only thing you do is build components. Since they're so encapsulated, components make code reuse, testing, and separation of concerns easy.
 
-In my way, the most important thing of using React is not its reusable feature, but the thought of divide and conquer.
+In my way, the most important thing of using React is not its reusable feature, but the thought of divide and conquer(分治). Through React, you can build a big thing by dividing it into many small parts.
