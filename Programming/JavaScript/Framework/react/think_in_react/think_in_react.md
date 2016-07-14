@@ -197,7 +197,7 @@ var ProductTable = React.createClass({
         var rows = [];
         var lastCategory = null;
         this.props.products.forEach(function(product) {
-            /** filter text and filter stock 
+            /** filter text and filter stock */
             if (product.name.indexOf(this.props.filterText) === -1 || (this.props.isStockOnly && !product.stocked)) {
                 return;
             }
@@ -257,3 +257,5 @@ var FilterableProductTable = React.createClass({
     }
 });
 ```
+
+### Step5: Add inverse data flow
