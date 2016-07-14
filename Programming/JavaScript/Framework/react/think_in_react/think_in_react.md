@@ -298,7 +298,7 @@ var FilterableProductTable = React.createClass({
     render: function () {
         return (
             <div>
-                <SearchBar filterText={this.state.filterText} isStockOnly={this.state.isStockOnly} />
+                <SearchBar filterText={this.state.filterText} isStockOnly={this.state.isStockOnly} onUserInput={this.handleUserInpu}/>
                 <ProductTable products={this.props.products} filterText={this.state.filterText} isStockOnly={this.state.isStockOnly} />
             </div>
         );
