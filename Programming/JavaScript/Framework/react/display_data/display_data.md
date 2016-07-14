@@ -40,6 +40,7 @@ var Hello = React.createClass({
 });
 
 ReactDOM.render(
-    <Hello date={new Date()} />
+    <Hello date={new Date()} />,
+    document.getElementById('example');
 );
 ```
