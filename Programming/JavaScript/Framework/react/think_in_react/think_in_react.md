@@ -287,6 +287,10 @@ var FilterableProductTable = React.createClass({
             isStockOnly: false
         };
     },
+    
+    handleUserInput: function (filterText, isStockOnly) {
+        
+    }
 
     render: function () {
         return (
