@@ -219,6 +219,7 @@ var ProductTable = React.createClass({
     }
 });
 
+/** add filterText and isStockOnly to the corresponding input elements */
 var SearchBar = React.createClass({
     render： function () {
         return (
