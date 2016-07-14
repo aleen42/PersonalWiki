@@ -51,4 +51,5 @@ setInterval(function () {
 
 ### Reactive Updates
 
-If you run the example above, you will find that UI only updates time string, without changing the input elements even though you have input something.
+If you run the example above, you will find that UI only updates time string, without changing the input elements even though you have input something. That's because React has figured it out and manage this behaviours.
+
