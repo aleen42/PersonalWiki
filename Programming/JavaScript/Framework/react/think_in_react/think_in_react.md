@@ -259,3 +259,5 @@ var FilterableProductTable = React.createClass({
 ```
 
 ### Step5: Add inverse data flow
+
+There should be a method to handle events of changements of both the text and the checkbox.
