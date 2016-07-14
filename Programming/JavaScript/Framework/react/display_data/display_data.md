@@ -41,8 +41,10 @@ var Hello = React.createClass({
     }
 });
 
-setInterval(ReactDOM.render(
+setInterval(function () {
+    ReactDOM.render(
     <Hello date={new Date()} />,
     document.getElementById('example')
-), 500);
+)
+}, 500);
 ```
