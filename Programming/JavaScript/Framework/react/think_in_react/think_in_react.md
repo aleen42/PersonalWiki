@@ -180,5 +180,16 @@ So finally, our state is:
 ### Step 4: Identify where your state should live
 
 ```js
-
+var SearchBar = React.createClass({
+    render： function () {
+        return (
+            <form>
+                <input type="text" placeholder="Search..." />
+                <p>
+                    <input type="checkbox" id="show-product" /> <label htmlFor="show-produt">Only show products in stock</label> 
+                </p>
+            </form>
+        );
+    }
+});
 ```
