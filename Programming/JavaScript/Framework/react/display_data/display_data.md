@@ -78,4 +78,7 @@ For convenience, you can create a short-hand factory functions to create elemtns
 
 ```js
 var Factory = React.createFactory(ComponentClass);
+/** ... */
+var root = Factory({ custom: 'prop' });
+ReactDOM.render(root, document.getElementById('example'));
 ```
