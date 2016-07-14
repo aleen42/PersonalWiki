@@ -191,6 +191,34 @@ For each piece of state in your application:
 Following this strategy, we can find that both SearchBar and ProductTable need the state. And their common components is FilterableProductTable. Therefore, the state should live in **FilterableProductTable**.
 
 ```js
+var ProductTable = React.createClass({
+    render: function () {
+        var rows = [];
+        var lastCategory = null;
+        this.props.products.forEach(function(product) {
+            if (product.categoy !== lastCategory) {
+                rows.push(<ProductCategoryRow category={product.category} key={product.category}></ProductCategoryRow>);
+            }
+            
+            rows.push(<ProductRow product={product} key={product.name}></ProductRow>);
+        });
+    
+        return (
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {rows}
+                </tbody>
+            </table>
+        );
+    }
+});
+
 var SearchBar = React.createClass({
     render： function () {
         return (
@@ -200,6 +228,17 @@ var SearchBar = React.createClass({
                     <input type="checkbox" id="show-product" /> <label htmlFor="show-produt">Only show products in stock</label> 
                 </p>
             </form>
+        );
+    }
+});
+
+var FilterableProductTable = React.createClass({
+    render: function () {
+        return (
+            <div>
+                <SearchBar />
+                <ProductTable products={this.props.products}/>
+            </div>
         );
     }
 });
