@@ -236,7 +236,7 @@ var FilterableProductTable = React.createClass({
     getInitialState: function () {
         return {
             filterText: '',
-            isStockOnl: fals
+            isStockOnl: false
         };
     },
 
