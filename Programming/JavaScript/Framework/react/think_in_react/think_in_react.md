@@ -197,6 +197,8 @@ var ProductTable = React.createClass({
         var rows = [];
         var lastCategory = null;
         this.props.products.forEach(function(product) {
+            
+        
             if (product.categoy !== lastCategory) {
                 rows.push(<ProductCategoryRow category={product.category} key={product.category}></ProductCategoryRow>);
             }
