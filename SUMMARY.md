@@ -360,6 +360,7 @@
                 * [Be Asynchronous](./translation/be_asynchronous/be_asynchronous.md)
                 * [Creativity is Important](./translation/creativity_is_important/creativity_is_important.md)
             * [Angular vs. React - the tie breaker](./translation/angular_vs_react/angular_vs_react.md)
+            * [Give it five minutes](./translation/give_it_five_minutes/give_it_five_minutes.md)
         * Proofread
             * [Things I Wish I Were Told About React Native](./translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
             * [Making React Native apps accessible](./translation/making_react_native_apps_accessible/making_react_native_apps_accessible.md)
