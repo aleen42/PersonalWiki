@@ -174,6 +174,5 @@ The original list of products is passed in as props, so that's not state. The se
 
 So finally, our state is:
 
-The search text the user has entered
-
-The value of the checkbox
+- The search text the user has entered
+- The value of the checkbox
