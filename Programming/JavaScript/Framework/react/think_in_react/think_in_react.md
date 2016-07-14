@@ -154,3 +154,13 @@ There are two types of "model" data in React: props and state. It's important to
 ### Step3: Identify the minimal(but complete) representation of UI state
 
 To make your UI interactive, you need to be able to trigger changes to your underlying data model. React makes this easy with **state**.
+
+The key here is DRY: *Don't Repeat Yourself*.
+
+Think of all of the pieces of data in our example application. We have:
+
+- The original list of products
+- The search text the user has entered
+- The value of the checkbox
+- The filtered list of products
+
