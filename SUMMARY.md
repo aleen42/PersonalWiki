@@ -53,6 +53,7 @@
                         * [Tutorials](./Programming/JavaScript/Framework/react/tutorials/tutorials.md)
                         * [Think in React](./Programming/JavaScript/Framework/react/think_in_react/think_in_react.md)
                     * Guide
+                        * [Why React?](./Programming/JavaScript/Framework/react/why_react/why_react.md)
                         * [JSX Syntax](./Programming/JavaScript/Framework/react/jsx_syntax/jsx_syntax.md)
                         * [JSX Gotchas](./Programming/JavaScript/Framework/react/jsx_gotcha/jsx_gotcha.md)
                         * [JSX Spread Attributes](./Programming/JavaScript/Framework/react/jsx_spread_attributes/jsx_spread_attributes.md)
