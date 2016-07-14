@@ -8,7 +8,7 @@ We built React to solve one problem: **building large applications with data tha
 
 Simply express how your app should look at any given point in time, and React will automatically manage all UI updates when your underlying data changes.
 
-### Declarative 
+### Declarative(聲明)
 
 When the data changes, React conceptually hits the "refresh" button, and knows to only update the changed parts.
 
