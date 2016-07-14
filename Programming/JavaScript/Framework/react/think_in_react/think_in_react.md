@@ -265,7 +265,7 @@ There should be a method to handle events of changements of both the text and th
 Therefore, we should add a handle event method for FilterableProductTable to setState, and pass this method to SearchBar via prop.
 
 ```js
-/** add filterText and isStockOnly to the corresponding input elements */
+/** call parent method */
 var SearchBar = React.createClass({
     render： function () {
         return (
@@ -279,6 +279,7 @@ var SearchBar = React.createClass({
     }
 });
 
+/* add method for child 
 var FilterableProductTable = React.createClass({
     getInitialState: function () {
         return {
