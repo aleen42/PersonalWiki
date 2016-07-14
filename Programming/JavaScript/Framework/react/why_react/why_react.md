@@ -12,6 +12,6 @@ Simply express how your app should look at any given point in time, and React wi
 
 When the data changes, React conceptually hits the "refresh" button, and knows to only update the changed parts.
 
-### Build Composable Components
+### Build Composable(可組合的) Components
 
 React is all about building reusable components. In fact, with React the only thing you do is build components. Since they're so encapsulated, components make code reuse, testing, and separation of concerns easy.
