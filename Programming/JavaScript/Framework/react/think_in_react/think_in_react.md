@@ -191,6 +191,7 @@ For each piece of state in your application:
 Following this strategy, we can find that both SearchBar and ProductTable need the state. And their common components is FilterableProductTable. Therefore, the state should live in **FilterableProductTable**.
 
 ```js
+/** use filterText and isStockOnly to filter data */
 var ProductTable = React.createClass({
     render: function () {
         var rows = [];
