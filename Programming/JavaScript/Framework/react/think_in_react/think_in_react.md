@@ -176,3 +176,9 @@ So finally, our state is:
 
 - The search text the user has entered
 - The value of the checkbox
+
+### Step 4: Identify where your state should live
+
+```js
+
+```
