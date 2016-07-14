@@ -265,5 +265,35 @@ There should be a method to handle events of changements of both the text and th
 Therefore, we should add a handle event method for FilterableProductTable to setState, and pass this method to SearchBar via prop.
 
 ```js
+/** add filterText and isStockOnly to the corresponding input elements */
+var SearchBar = React.createClass({
+    render： function () {
+        return (
+            <form>
+                <input type="text" placeholder="Search..." value={this.props.filterText} />
+                <p>
+                    <input type="checkbox" id="show-product" checked={this.props.isStockOnly} /> <label htmlFor="show-produt">Only show products in stock</label> 
+                </p>
+            </form>
+        );
+    }
+});
 
+var FilterableProductTable = React.createClass({
+    getInitialState: function () {
+        return {
+            filterText: '',
+            isStockOnly: false
+        };
+    },
+
+    render: function () {
+        return (
+            <div>
+                <SearchBar filterText={this.state.filterTet} isStockOnly={this.state.isStockOnly} />
+                <ProductTable products={this.props.products} filterText={this.state.filterTet} isStockOnly={this.state.isStockOnly} />
+            </div>
+        );
+    }
+});
 ```
