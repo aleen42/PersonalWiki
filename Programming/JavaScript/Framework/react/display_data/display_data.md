@@ -68,5 +68,9 @@ JSX is designed to directly generate HTML and component trees, which have a HTML
 JSX is absolutly optional; you don't have to use JSX with React, and you can only create React elements in plain JavaScript using `React.createElement`.
 
 ```js
+var child1 = React.createElement('li', null, 'First Text Content');
+var child2 = React.createElement('li', null, 'Second Text Content');
+var root = React.createElement('ul', { className: 'my-list' }, child1, child2);
+ReactDOM.render(root, document.getElementById('example'));
 
 ```
