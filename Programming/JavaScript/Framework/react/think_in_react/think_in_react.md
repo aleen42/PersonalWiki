@@ -233,6 +233,10 @@ var SearchBar = React.createClass({
 });
 
 var FilterableProductTable = React.createClass({
+    getInitialState: function () {
+        
+    },
+
     render: function () {
         return (
             <div>
