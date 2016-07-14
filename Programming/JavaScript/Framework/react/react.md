@@ -14,6 +14,7 @@
 
 ### Guides
 
+- [**Why React?**](./why_react/why_react.md)
 - [**JSX Syntax**](./jsx_syntax/jsx_syntax.md)
 - [**JSX Gotchas**](./jsx_gotcha/jsx_gotcha.md)
 - [**JSX Spread Attributes**](./jsx_spread_attributes/jsx_spread_attributes.md)
