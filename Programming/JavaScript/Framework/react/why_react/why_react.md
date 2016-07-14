@@ -7,3 +7,11 @@ We built React to solve one problem: **building large applications with data tha
 ### Simple
 
 Simply express how your app should look at any given point in time, and React will automatically manage all UI updates when your underlying data changes.
+
+### Declarative 
+
+When the data changes, React conceptually hits the "refresh" button, and knows to only update the changed parts.
+
+### Build Composable Components
+
+React is all about building reusable components. In fact, with React the only thing you do is build components. Since they're so encapsulated, components make code reuse, testing, and separation of concerns easy.
