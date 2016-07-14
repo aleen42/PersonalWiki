@@ -53,3 +53,5 @@ setInterval(function () {
 
 If you run the example above, you will find that UI only updates time string, without changing the input elements even though you have input something. That's because React has figured it out and manage this behaviours.
 
+Rect does not manipulate the DOM unless it needs to. **It uses a fast, internal mock DOM to perform diffs and computes the most efficient DOM mutation for you.**
+
