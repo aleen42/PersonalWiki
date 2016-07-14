@@ -82,3 +82,11 @@ var Factory = React.createFactory(ComponentClass);
 var root = Factory({ custom: 'prop' });
 ReactDOM.render(root, document.getElementById('example'));
 ```
+
+React already has built-in factories for common HTML tags:
+
+```js
+var root = React.DOM.ul({ className: 'my-list' },
+    React.DOM.li(null, 'Text Content')
+);
+```
