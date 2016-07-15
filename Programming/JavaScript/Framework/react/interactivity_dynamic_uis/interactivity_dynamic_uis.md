@@ -53,7 +53,7 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 <div onClick={() => this.tick()} />
 ```
 
-It's recommended to bind events in the constructor so that they are only bound once:
+It's recommended to bind events in the constructor so that they are only bound once (for better performnce):
 
 ```js
 constructor(props) {
