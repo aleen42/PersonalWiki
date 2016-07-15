@@ -74,4 +74,4 @@ React doesn't actually attach event handlers to the nodes themselves. When React
 
 ### Components are Just State Machines
 
-
+In React, you simply update a component's state, and then render a new UI based on this new state. React takes care of updating the DOM for you in the most efficient way.
