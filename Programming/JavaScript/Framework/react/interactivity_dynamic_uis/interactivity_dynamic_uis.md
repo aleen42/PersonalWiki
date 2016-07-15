@@ -24,7 +24,7 @@ class LikeButton extends React.component {
         const text = this.state.linked ? 'like' : 'haven\'t liked';
         return (
             <div onClick={this.handleClick}>
-                
+                You {text} this. Click to toggle.
             </div>
         );
     }
