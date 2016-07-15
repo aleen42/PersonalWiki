@@ -80,3 +80,6 @@ In React, you simply update a component's state, and then render a new UI based 
 
 A common way to inform React of a data change is by calling `setState(data, callback)`. This method merges `data` into `this.state` and re-renders the component. When the component finishes re-rendering, the optional `callback` is called. Most of the time you'll never need to provide a `callback` since React will take care of keeping your UI up-to-date for you. But you'll ask what components should have states? **Try to keep as many of your components as possible stateless**.
 
+### What Should Go in State?
+
+State should contain data that a component's event handlers may change to trigger a UI update. In real apps this data tends to be very small and JSON-serializable. When building a stateful component, think about the minimal possible representation of its state, and only store those properties in this.state. 
