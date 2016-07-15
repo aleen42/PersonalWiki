@@ -86,4 +86,4 @@ State should contain data that a component's event handlers may change to trigge
 
 ### What *Shouldn't* Go in State?
 
-
+- **Computed Data**: For example, if you have an array of list items in state and you want to render the count as a string, simply render this.state.listItems.length + ' list items' in your render() method rather than storing it on state.
