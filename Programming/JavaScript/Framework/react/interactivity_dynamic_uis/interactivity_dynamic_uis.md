@@ -42,5 +42,9 @@ React has implemented **a synthetic event system** to ensure that all events beh
 
 ### Under the Hood(面紗之下): Autobinding and Event Delegation(委託)
 
-**Autobinding**: When creating callbacks in JavaScript, you usually need to explicitly bind a method to its instance such that the value of `this` is correct. 
+**Autobinding**: When creating callbacks in JavaScript, you usually need to explicitly bind a method to its instance such that the value of `this` is correct. With React, every method is automatically bound to its component instance (except when using ES6 class syntax).
+
+Methods follow the same semantics as regular ES6 classes, meaning that they don't automatically bind `this` to the instance. You'll have to explicitly use `.bind(this)` or arrow functions `=>`:
+
+
 
