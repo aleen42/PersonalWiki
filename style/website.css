@@ -354,7 +354,7 @@ pre::-webkit-resizer {
 
 .book-body h1,
 .book-body h2 {
-    border-bottom: 1px #ccc solid;
+    border-bottom: 1px #ccc solid !important;
 }
 
 .page-wrapper {
