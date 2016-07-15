@@ -56,7 +56,8 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 It's recommended to bind events in the constructor so that they are only bound once:
 
 ```js
-constructor() {
-    
+constructor(props) {
+    super(props);
+    this.state = { count: props.initilCount };
 }
 ```
