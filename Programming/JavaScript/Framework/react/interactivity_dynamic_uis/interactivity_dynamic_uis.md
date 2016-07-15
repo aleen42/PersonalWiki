@@ -42,5 +42,5 @@ React has implemented **a synthetic event system** to ensure that all events beh
 
 ### Under the Hood(面紗之下): Autobinding and Event Delegation(委託)
 
-**Autobinding**: 
+**Autobinding**: When creating callbacks in JavaScript, you usually need to explicitly bind a method to its instance such that the value of `this` is correct. 
 
