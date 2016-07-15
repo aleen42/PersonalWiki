@@ -42,4 +42,4 @@ ReactDOM.render(
 
 ### Ownership
 
-In React, **an owner is the component that sets the `prop` of other components**.
+In React, **an owner is the component that sets the `prop` of other components**. More formally, if a component `X` is created in component `Y`'s `render()` method, it is said that `X` is owned by `Y`.
