@@ -32,6 +32,6 @@ class LikeButton extends React.component {
 
 ReactDOM.render(
     <LikeButton />,
-    document.getElementById('example');
+    document.getElementById('example')
 );
 ```
