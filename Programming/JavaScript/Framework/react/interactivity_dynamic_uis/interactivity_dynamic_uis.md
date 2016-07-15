@@ -53,7 +53,7 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 <div onClick={() => this.tick()} />
 ```
 
-It's recommended to bind events in the constructor so that they are only bound once (for better performnce):
+It's recommended to bind events in the constructor so that they are only bound once (for better performnce, especially implementing [shouldComponentUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate) with a [shallow comparison](https://facebook.github.io/react/docs/shallow-compare.html) in the child components.):
 
 ```js
 constructor(props) {
