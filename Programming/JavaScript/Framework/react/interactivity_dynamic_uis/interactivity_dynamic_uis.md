@@ -21,7 +21,7 @@ class LikeButton extends React.component {
     }
     
     render() {
-        
+        const text = this.state.linked ? 'like' : 'haven\'t liked';
     }
 }
 ```
