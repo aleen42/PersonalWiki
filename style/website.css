@@ -352,6 +352,11 @@ pre::-webkit-resizer {
     opacity: 1 !important;
 }
 
+.book-body h1,
+.book-body h2 {
+    border-bottom: 1px #ccc solid;
+}
+
 .page-wrapper {
     margin-top: 50px !important;
 }
@@ -369,3 +374,5 @@ pre::-webkit-resizer {
         margin-top: 0 !important;
     }
 }
+
+
