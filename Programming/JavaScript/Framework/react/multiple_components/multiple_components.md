@@ -42,4 +42,4 @@ ReactDOM.render(
 
 ### Ownership
 
-
+In React, **an owner is the component that sets the `prop` of other components**
