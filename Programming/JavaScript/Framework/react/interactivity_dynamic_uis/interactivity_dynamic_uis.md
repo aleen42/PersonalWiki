@@ -47,6 +47,6 @@ React has implemented **a synthetic event system** to ensure that all events beh
 Methods follow the same semantics as regular ES6 classes, meaning that they don't automatically bind `this` to the instance. You'll have to explicitly use `.bind(this)` or arrow functions `=>`:
 
 ```js
-
+<div onClick={this.tick.bind(this)} />
 ```
 
