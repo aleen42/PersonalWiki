@@ -4,7 +4,7 @@ After talking about how to display data with React, this document is talking abo
 
 ### A Simple Example
 
-```js
+```jsx
 class LikeButton extends React.component {
     constructor() {
         super();
@@ -39,3 +39,4 @@ ReactDOM.render(
 ### Event Handling and Synthetic(人造) Events
 
 React has implemented **a synthetic event system** to ensure that all events behave similarly in all browsers.
+
