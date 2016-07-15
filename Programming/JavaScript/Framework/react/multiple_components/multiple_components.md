@@ -17,11 +17,11 @@ var Avatar = React.createClass({
 });
 
 var PagePic = React.createClass({
-  render: function() {
-    return (
-      <img src={'https://graph.facebook.com/' + this.props.pagename + '/picture'} />
-    );
-  }
+    render: function() {
+        return (
+            <img src={'https://graph.facebook.com/' + this.props.pagename + '/picture'} />
+        );
+    }
 });
 
 var PageLink = React.createClass({
