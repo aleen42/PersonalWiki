@@ -40,5 +40,5 @@ ReactDOM.render(
 
 React has implemented **a synthetic event system** to ensure that all events behave similarly in all browsers with knowing how to bubble and capture events.
 
-### Under the Hood(面紗之下): Autobinding and Event Delegation
+### Under the Hood(面紗之下): Autobinding and Event Delegation(委託)
 
