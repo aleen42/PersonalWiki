@@ -77,3 +77,5 @@ React doesn't actually attach event handlers to the nodes themselves. When React
 In React, you simply update a component's state, and then render a new UI based on this new state. React takes care of updating the DOM for you in the most efficient way.
 
 ### How State Works
+
+A common way to inform React of a data change is by calling `setState(data, callback)`. This method merges `data` into `this.state` and re-renders the component.
