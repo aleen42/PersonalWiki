@@ -35,3 +35,5 @@ ReactDOM.render(
     document.getElementById('example')
 );
 ```
+
+### Event Handling and Synthetic(人造) Events
