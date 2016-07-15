@@ -2,6 +2,8 @@
 
 After talking about how to display data with React, this document is talking about how to make our UIs interactive.
 
+> 評論: React 中充斥著各種各樣的組件 Component, 我們把數據看成流水般, 因稱作 Data Flow.
+
 ### A Simple Example
 
 ```js
