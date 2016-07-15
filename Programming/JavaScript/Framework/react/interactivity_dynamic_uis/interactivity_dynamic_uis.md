@@ -2,7 +2,7 @@
 
 After talking about how to display data with React, this document is talking about how to make our UIs interactive.
 
-> 評論: React 中充斥著各種各樣的組件 Component, 我們把數據看成流水般, 因稱作 Data Flow.
+> 評論: React 中充斥著各種各樣的組件 Component, 我們把數據看成流水般, 因稱作 Data Flow. State 宛如某個組件的入水口, 我們該在哪裡去定義這個入水口, 以使得水流經較多的組件, 這就是 React 中如何運用好 State 的關鍵點.
 
 ### A Simple Example
 
