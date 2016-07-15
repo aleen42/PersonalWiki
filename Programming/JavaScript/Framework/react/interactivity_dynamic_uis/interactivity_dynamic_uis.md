@@ -50,6 +50,6 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 /** .bind(this) */
 <div onClick={this.tick.bind(this)} />
 /** arrow functions */
-<div onClick
+<div onClick={() => this.tick()} />
 ```
 
