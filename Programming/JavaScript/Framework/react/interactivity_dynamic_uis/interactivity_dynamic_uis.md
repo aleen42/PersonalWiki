@@ -61,4 +61,7 @@ constructor(props) {
     this.state = { count: props.initilCount };
     this.tick = this.tick.bind(this);
 }
+
+/** directly use */
+<div onClick={this.tick()} />
 ```
