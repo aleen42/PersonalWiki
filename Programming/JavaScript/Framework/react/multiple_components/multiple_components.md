@@ -25,13 +25,13 @@ var PagePic = React.createClass({
 });
 
 var PageLink = React.createClass({
-  render: function() {
-    return (
-      <a href={'https://www.facebook.com/' + this.props.pagename}>
-        {this.props.pagename}
-      </a>
-    );
-  }
+    render: function() {
+        return (
+            <a href={'https://www.facebook.com/' + this.props.pagename}>
+                {this.props.pagename}
+            </a>
+        );
+    }
 });
 
 ReactDOM.render(
