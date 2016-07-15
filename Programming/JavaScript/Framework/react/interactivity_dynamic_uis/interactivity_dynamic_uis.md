@@ -38,5 +38,5 @@ ReactDOM.render(
 
 ### Event Handling and Synthetic(人造) Events
 
-React has implemented **a synthetic event system** to ensure that all events behave similarly in all browsers.
+React has implemented **a synthetic event system** to ensure that all events behave similarly in all browsers with knowing how to bubble and capture events.
 
