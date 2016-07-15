@@ -40,3 +40,5 @@ ReactDOM.render(
 
 React has implemented **a synthetic event system** to ensure that all events behave similarly in all browsers with knowing how to bubble and capture events.
 
+### Under the Hood: Autobinding and Event Delegation
+
