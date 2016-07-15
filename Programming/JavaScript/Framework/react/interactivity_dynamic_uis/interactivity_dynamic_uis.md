@@ -6,6 +6,12 @@ After talking about how to display data with React, this document is talking abo
 
 ```js
 class LikeButton extends React.component {
-    
+    constructor() {
+        super();
+        
+        this.state = {
+            linked: false
+        };
+    }
 }
 ```
