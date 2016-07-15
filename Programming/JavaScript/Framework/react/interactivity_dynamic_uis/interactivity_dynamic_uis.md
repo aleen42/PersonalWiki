@@ -4,7 +4,7 @@ After talking about how to display data with React, this document is talking abo
 
 ### A Simple Example
 
-```jsx
+```js
 class LikeButton extends React.component {
     constructor() {
         super();
