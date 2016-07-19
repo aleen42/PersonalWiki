@@ -66,5 +66,11 @@ For example, suppose two render passes generate respective markup:
     <p>Paragraph 1</p>
     <p>Paragraph 2</p>
 </Card>
+```
 
+```js
+/** render 1 */
+<Card>
+    <p>Paragraph 1</p>
+</Card>
 ```
