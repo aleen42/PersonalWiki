@@ -110,5 +110,22 @@ render: function () {
 ***Notice that: the `key` should always be supplied directly to the components in the array, not to the container HTML child of each component in the array:***
 
 ```js
+/** WRONG !! */
+var ListItemWrapper = React.createClass({
+    render: function() {
+        return <li key={this.props.data.id}>{this.props.data.text}</li>;
+    }
+});
 
+var MyComponent = React.createClass({
+    render: function() {
+        return (
+            <ul>
+                {this.props.results.map(function(result) {
+                    return <ListItemWrapper data={result}/>;
+                })}
+            </ul>
+        );
+    }
+});
 ```
