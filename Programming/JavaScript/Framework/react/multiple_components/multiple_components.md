@@ -99,7 +99,7 @@ render: function () {
         <ol>
             {
                 results.map(function (result) {
-                    
+                    return <li key={result.id}>{result.text}</li>;
                 });
             }
         </ol>
