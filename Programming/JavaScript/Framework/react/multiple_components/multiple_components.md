@@ -69,7 +69,7 @@ For example, suppose two render passes generate respective markup:
 ```
 
 ```js
-/** render 1 */
+/** render 2 */
 <Card>
     <p>Paragraph 2</p>
 </Card>
