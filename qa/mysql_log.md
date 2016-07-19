@@ -1,1 +1,1 @@
-## How to free cached memory in Ubuntu [Back](./qa.md)
+## How to enable MySQL logs and watch them [Back](./qa.md)
