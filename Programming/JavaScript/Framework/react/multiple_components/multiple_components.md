@@ -136,7 +136,7 @@ var MyComponent = React.createClass({
 /** Correct */
 var ListItemWrapper = React.createClass({
     render: function() {
-        return <li>{this.props.text}</li>;
+        return <li>{this.props.data.text}</li>;
     }
 });
 
