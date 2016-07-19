@@ -48,7 +48,7 @@ It's important to draw a distinction between the **owner-ownee** relationship an
 
 ### Children
 
-```html
+```js
 <Parent><Children /></Parent>
 ```
 
