@@ -157,3 +157,4 @@ var MyComponent = React.createClass({
 
 ### Data Flow
 
+In React, data flows from owner to owned component through `props` as discussed above.
