@@ -87,3 +87,6 @@ For children which maintains data in `this.state`, they're not going to be destr
     <p>Paragraph 2</p>
 </Card>
 ```
+
+#### Dynamic Chidlren
+
