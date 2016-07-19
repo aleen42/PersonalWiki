@@ -325,6 +325,7 @@
         * [How to install atom in Ubuntu 32 bits](./qa/atom_ubntu_32.md)
         * [How to deploy TL-WN722N in Ubuntu 14.04](./qa/tl_wn722n_ubuntu.md)
         * [How to free cached memory in Ubuntu](./qa/free_cached_memory_in_Ubuntu.md)
+        * [How to enable MySQL logs and watch them](./qa/mysql_log.md)
         * [Why does the shell script always break down when running for statement](./qa/shellfor.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
