@@ -60,6 +60,6 @@ In React, `Parent` can read its children by accessing the special `this.props.ch
 
 For example, suppose two render passes generate respective markup:
 
-```html
+```js
 
 ```
