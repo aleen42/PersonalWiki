@@ -51,3 +51,5 @@ It's important to draw a distinction between the **owner-ownee** relationship an
 ```js
 <Parent><Children /></Parent>
 ```
+
+In React, `Parent` can read its children by accessing the special `this.props.children` prop. 
