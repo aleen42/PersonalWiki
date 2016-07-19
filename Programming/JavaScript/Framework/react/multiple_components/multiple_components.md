@@ -146,7 +146,7 @@ var MyComponent = React.createClass({
             <ul>
                 {
                     this.props.results.map(function(result) {
-                        return <ListItemWrapper data={result}/>;
+                        return <ListItemWrapper key={result.id} data={result}/>;
                     });
                 }
             </ul>
