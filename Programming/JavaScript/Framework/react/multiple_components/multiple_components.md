@@ -133,5 +133,24 @@ var MyComponent = React.createClass({
 ```
 
 ```js
+/** Correct */
+var ListItemWrapper = React.createClass({
+    render: function() {
+        return <li key={this.props.data.id}>{this.props.data.text}</li>;
+    }
+});
 
+var MyComponent = React.createClass({
+    render: function() {
+        return (
+            <ul>
+                {
+                    this.props.results.map(function(result) {
+                        return <ListItemWrapper data={result}/>;
+                    });
+                }
+            </ul>
+        );
+    }
+});
 ```
