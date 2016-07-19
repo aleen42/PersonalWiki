@@ -52,4 +52,4 @@ It's important to draw a distinction between the **owner-ownee** relationship an
 <Parent><Children /></Parent>
 ```
 
-In React, `Parent` can read its children by accessing the special `this.props.children` prop. 
+In React, `Parent` can read its children by accessing the special `this.props.children` prop. This is an opaque data structure: use the React.Children utilities to manipulate them.
