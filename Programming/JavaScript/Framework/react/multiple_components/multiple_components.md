@@ -106,3 +106,5 @@ render: function () {
     );
 }
 ```
+
+***Notice that: the `key` should always be supplied directly to the components in the array, not to the container HTML child of each component in the***
