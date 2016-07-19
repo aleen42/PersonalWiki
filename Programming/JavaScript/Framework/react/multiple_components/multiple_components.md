@@ -161,4 +161,4 @@ In React, data flows from owner to owned component through `props` as discussed 
 
 #### A Note on Performance
 
-Whether it's expensive to change data if there are a large number of nodes under an owner? No, because JavaScript is fast and `render()` tends to be quite simple. The real bottleneck is always the **DOM mutation**, which React will optimize.
+Whether it's expensive to change data if there are a large number of nodes under an owner? No, because JavaScript is fast and `render()` tends to be quite simple. The real bottleneck is always the **DOM mutation**, which React will optimize. (Batching and Change Detection)
