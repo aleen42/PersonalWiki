@@ -79,4 +79,8 @@ We can see that render 2 has removed `<p>Paragraph 1 </p>`, and actually React w
 
 #### Stateful Children
 
-For children which maintains data in `this.state`, they're not going to be destroied in React. 
+For children which maintains data in `this.state`, they're not going to be destroied in React. In most case, React will just hide elements:
+
+```js
+
+```
