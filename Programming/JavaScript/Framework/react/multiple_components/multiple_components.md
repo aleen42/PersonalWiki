@@ -90,3 +90,19 @@ For children which maintains data in `this.state`, they're not going to be destr
 
 #### Dynamic Chidlren
 
+If the identity and state of each child must be maintained across render passes, you can uniquely identify each child by assigning it a `key`:
+
+```js
+render: function () {
+    var results = this.props.results;
+    return (
+        <ol>
+            {
+                results.map(function (result) {
+                    
+                });
+            }
+        </ol>
+    );
+}
+```
