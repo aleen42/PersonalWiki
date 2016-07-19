@@ -13,3 +13,13 @@ To Enable them just follow below steps
 **step1**: Go to this file(/etc/mysql/conf.d/mysqld_safe_syslog.cnf) and remove or comment those line.
 
 **step2**: Go to mysql conf file(/etc/mysql/my.cnf ) and add following lines
+
+###### To enable error log by adding following lines:
+
+```
+[mysqld_safe]
+log_error=/var/log/mysql/mysql_error.log
+
+[mysqld]
+log_error=/var/log/mysql/mysql_error.log
+```
