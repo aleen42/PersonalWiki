@@ -164,3 +164,7 @@ In React, data flows from owner to owned component through `props` as discussed 
 Whether it's expensive to change data if there are a large number of nodes under an owner? No, because JavaScript is fast and `render()` tends to be quite simple. The real bottleneck is always the **DOM mutation**, which React will optimize. - **Batching(併發) and Change Detection(增量檢測)**
 
 If you want to have control over performance, you can override `shouldComponentUpdate()` to return false when you want React to skip processing of a subtree.
+
+> **Note**:
+
+> If shouldComponentUpdate() returns false when data has actually changed, React can't keep your UI in sync. Be sure you know what you're doing while using it, and only use this function when you have a noticeable performance problem. Don't underestimate how fast JavaScript is relative to the DOM.
