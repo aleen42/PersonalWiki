@@ -23,3 +23,18 @@ log_error=/var/log/mysql/mysql_error.log
 [mysqld]
 log_error=/var/log/mysql/mysql_error.log
 ```
+
+###### To enable general query log by adding following lines:
+
+```
+general_log_file        = /var/log/mysql/mysql.log
+general_log             = 1
+```
+
+###### To enable slow query log by adding following lines:
+
+```
+log_slow_queries       = /var/log/mysql/mysql-slow.log
+long_query_time = 2
+log-queries-not-using-indexes
+```
