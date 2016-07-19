@@ -154,3 +154,6 @@ var MyComponent = React.createClass({
     }
 });
 ```
+
+### Data Flow
+
