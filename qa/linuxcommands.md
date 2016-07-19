@@ -55,3 +55,9 @@ telnet <IP addr> <port>
 ```bash
 rtl_test -t
 ```
+
+#### 8. Statistic lines of a file
+
+```bash
+cat <input text> 
+```
