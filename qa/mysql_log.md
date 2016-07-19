@@ -44,3 +44,5 @@ log-queries-not-using-indexes
 ```bash
 service mysql restart
 ```
+
+###### To enable logs at runtime, login to mysql client (mysql -u root -p ) and give:
