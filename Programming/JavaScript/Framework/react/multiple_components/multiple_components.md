@@ -56,4 +56,10 @@ In React, `Parent` can read its children by accessing the special `this.props.ch
 
 #### Children Reconciliation(孩子協調)
 
-**Reconciliation is the process by which React updates the DOM with each new render pass**.
+**Reconciliation is the process by which React updates the DOM with each new render pass**. 
+
+For example, suppose two render passes generate respective markup:
+
+```html
+
+```
