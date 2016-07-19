@@ -161,3 +161,4 @@ In React, data flows from owner to owned component through `props` as discussed 
 
 #### A Note on Performance
 
+Whether it's expensive to change data if there are a large number of nodes under an owner.
