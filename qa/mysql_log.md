@@ -39,4 +39,8 @@ long_query_time = 2
 log-queries-not-using-indexes
 ```
 
-**step3**: save the file and restart mysql using following commands
+**step3**: save the file and restart mysql using following commands:
+
+```bash
+service mysql restart
+```
