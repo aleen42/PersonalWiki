@@ -34,6 +34,7 @@
 - [**How to install atom in Ubuntu 32 bits**](./atom_ubntu_32.md)
 - [**How to deploy TL-WN722N in Ubuntu 14.04**](./tl_wn722n_ubuntu.md)
 - [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
+- [**How to enable MySQL logs and watch them**](./mysql_log.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
