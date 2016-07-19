@@ -38,3 +38,5 @@ log_slow_queries       = /var/log/mysql/mysql-slow.log
 long_query_time = 2
 log-queries-not-using-indexes
 ```
+
+**step3**: save the file and restart mysql using following commands
