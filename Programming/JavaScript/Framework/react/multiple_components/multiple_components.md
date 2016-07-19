@@ -75,3 +75,4 @@ For example, suppose two render passes generate respective markup:
 </Card>
 ```
 
+We can see that render 2 has removed `<p>Paragraph 1 </p>`, and actually React will reconcile the DOM by changing the text content of the first child to **Paragraph 2**, and destroying the last child.
