@@ -165,6 +165,6 @@ Whether it's expensive to change data if there are a large number of nodes under
 
 If you want to have control over performance, you can override `shouldComponentUpdate()` to return false when you want React to skip processing of a subtree.
 
-> **Note**:
+> ### **Note**:
 
-> If shouldComponentUpdate() returns false when data has actually changed, React can't keep your UI in sync. Be sure you know what you're doing while using it, and only use this function when you have a noticeable performance problem. Don't underestimate how fast JavaScript is relative to the DOM.
+> If `shouldComponentUpdate()` returns false when data has actually changed, React can't keep your UI in sync. Be sure you know what you're doing while using it, and only use this function when you have a noticeable performance problem. Don't underestimate(低估) how fast JavaScript is relative to the DOM.
