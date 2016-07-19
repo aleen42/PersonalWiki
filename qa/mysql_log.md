@@ -46,3 +46,8 @@ service mysql restart
 ```
 
 ###### To enable logs at runtime, login to mysql client (mysql -u root -p ) and give:
+
+```sql
+SET GLOBAL general_log = 'ON';
+SET GLOBAL slow_query_log = 'ON';
+```
