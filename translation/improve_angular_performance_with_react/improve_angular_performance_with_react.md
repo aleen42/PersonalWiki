@@ -30,7 +30,7 @@
 
 目前，我知道有两款工具能很好地去测量一个页面上监控对象的数目。
 
-由 [@kentcdodds](https://twitter.com/kentcdodds) 开发的 [ng-stats](https://github.com/kentcdodds/ng-stats) 能够在一个小小的图像中，显示最近的一个汇编周期[<sup>[4]</sup>](#comment-4)所产生的监控对象数量。这对于我来说是一个很好的概括。
+由 [@kentcdodds](https://twitter.com/kentcdodds) 开发的 [ng-stats](https://github.com/kentcdodds/ng-stats) 能够在一个小小的图像中，显示最近的一个汇编周期[<sup>[3]</sup>](#comment-3)所产生的监控对象数量。这对于我来说是一个很好的概括。
 
 ![](./ng-stats.png)
 
@@ -113,4 +113,4 @@ app.directive('fancyDragDropThing', function(reactDirective) {
 
 <p id="comment-2">[2]：<strong>指令（directive）</strong> 在 AngularJS 中通常指的是小组件，具体的介绍可看《<a href="https://hairui219.gitbooks.io/learning_angular/content/zh/chapter05.html" target="_blank">深入学习AngularJS - Directive</a>》</p>
 
-<p id="comment-4">[4]：<strong>汇编周期（digest cycle）</strong> 是 Angular 框架提出的一个新的概念。它意指 Angular 检查的所有受监控变量变动的一个循环周期。在 Controller 定义受监控变量可通过 <code>$scope.varName</code> 来进行定义。</p>
+<p id="comment-3">[3]：<strong>汇编周期（digest cycle）</strong> 是 Angular 框架提出的一个新的概念。它意指 Angular 检查的所有受监控变量变动的一个循环周期。在 Controller 定义受监控变量可通过 <code>$scope.varName</code> 来进行定义。</p>
