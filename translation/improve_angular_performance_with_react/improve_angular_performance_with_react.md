@@ -4,7 +4,7 @@
 * 原文作者 : [DAVE CEDDIA](https://daveceddia.com/timeline-for-learning-react/)
 * 译者 : [aleen42](https://github.com/aleen42) 
 * 校对者 : 暂无
-* 状态 : 校对中
+* 状态 : 待校对
 
 ![](./angular_plus_react.png)
 
