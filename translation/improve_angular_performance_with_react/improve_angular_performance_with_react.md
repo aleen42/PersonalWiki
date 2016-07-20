@@ -34,4 +34,4 @@
 
 ![](./ng-stats.png)
 
-然后，如果你想再往深一层挖掘的话，你可以收藏 [Jason Stitt 所写的这篇博文](http://jasonstitt.com/angular-js-count-watchers)于你书签栏。
+然后，如果你想再往深一层挖掘的话，你可以收藏 [Jason Stitt 所写的这篇博文](http://jasonstitt.com/angular-js-count-watchers)于书签栏中。
