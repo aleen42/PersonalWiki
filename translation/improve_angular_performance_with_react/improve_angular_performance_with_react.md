@@ -35,3 +35,5 @@
 ![](./ng-stats.png)
 
 然后，如果你想再往深一层挖掘的话，你可以收藏 [Jason Stitt 所写的这篇博文](http://jasonstitt.com/angular-js-count-watchers)于书签栏中。该文中，作者为页面上的每一个元素注解有一个“data-watchers”属性。因此，你可以通过使用审查元素（Inspect Element）去查出到底有多少个监控对象被创建出来。
+
+![](./watchers-demo.png)
