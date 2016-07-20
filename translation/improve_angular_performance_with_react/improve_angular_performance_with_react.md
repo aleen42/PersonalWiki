@@ -99,7 +99,7 @@ app.directive('fancyDragDropThing', function(reactDirective) {
 
 ### 总结
 
-这篇文章是一个高度快速概括的文章，以介绍如何使用 React 去提升一个 Angular 程序的性能。在这里，如果你想了解更多关于 React 的知识，你可以阅读一下以下的文章：
+这篇文章是一个快速高度概括的文章，以介绍如何使用 React 去提升一个 Angular 程序的性能。在这里，如果你想了解更多关于 React 的知识，你可以阅读一下以下的文章：
 
 - [**逐渐去掌握 React（作为一名 Angular 开发者）**](https://daveceddia.com/to-react-from-angular/)
 - [React 快速入门（不需任何的构建）](https://daveceddia.com/test-drive-react/)
