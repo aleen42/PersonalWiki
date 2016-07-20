@@ -45,3 +45,8 @@
 现在，你已然把造成问题的范围缩小至一个指令上。因此，你可以编写一个 React 组件去替换该指令。
 
 请先根据 [ngReact 页面](https://github.com/ngReact/ngReact)的教程去安装它，并把它作为一个依赖引进到项目中。
+
+```js
+angular.module('yourApp', ['react'])
+    ...
+```
