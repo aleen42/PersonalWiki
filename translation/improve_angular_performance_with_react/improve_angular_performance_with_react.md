@@ -16,4 +16,4 @@
 
 [ngReact](https://github.com/ngReact/ngReact) 是一个针对 React 的小型打包工具。（整个工具[大概只含有260行代码](https://github.com/ngReact/ngReact/blob/master/ngReact.js)）
 
-有了它，你只需要创建好你的 Angular 程序。而实际上，ngReact 会以 React 组件的形式渲染你的程序。
+有了它的话，你只需要创建好你的 Angular 程序。而实际上，ngReact 会以 React 组件的形式渲染你的程序。
