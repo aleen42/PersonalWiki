@@ -51,6 +51,6 @@ angular.module('yourApp', ['react'])
     ...
 ```
 
-然后，这里有两种方式去往一个 Angular 项目中添加一个 React 组件：要不是把组件当作是真正的指令；要不是使用由 ngReact 提供的 `react-component` 指令。虽然他们的文档都有详细说明，但在这里我们还是讲述一下如何用“真正的指令”去添加一个 React 组件。
+然后，这里有两种方式去往一个 Angular 项目中添加一个 React 组件：一是把组件当作是真正的指令；另一是使用由 ngReact 提供的 `react-component` 指令。虽然他们的文档都有详细说明，但在这里我们还是讲述一下如何用“真正的指令”去添加一个 React 组件。
 
 首先，我们需要添加 `reactDirective` 服务。然后，再使用它去打包你的 React 组件。
