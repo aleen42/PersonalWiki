@@ -95,6 +95,7 @@ app.directive('fancyDragDropThing', function(reactDirective) {
     var wrapped = WrapperComponent(YourComponent);
     return reactDirective(wrapped, ['items']);
 });
+```
 
 ### 总结
 
