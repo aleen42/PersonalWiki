@@ -30,4 +30,6 @@
 
 目前，我知道有两款工具能很好地去测量一个页面上监控对象的数目。
 
-由 [@kentcdodds](https://twitter.com/kentcdodds) 开发的 [ng-stats](https://github.com/kentcdodds/ng-stats) 能够在一个小小的图像中，显示最近的一个汇编周期所产生的监控对象数量。
+由 [@kentcdodds](https://twitter.com/kentcdodds) 开发的 [ng-stats](https://github.com/kentcdodds/ng-stats) 能够在一个小小的图像中，显示最近的一个汇编周期所产生的监控对象数量。这对于我来说是一个和好的概括。
+
+![](./ng-stats.png)
