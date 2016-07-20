@@ -14,6 +14,7 @@
     - [**Be Asynchronous**](./be_asynchronous/be_asynchronous.md)
     - [**Creativity is Important**](./creativity_is_important/creativity_is_important.md)
 - [**Angular vs. React - the tie breaker**](./angular_vs_react/angular_vs_react.md)
+- [**Improve Angular Performance with React**](./improve_angular_performance_with_react/improve_angular_performance_with_react.md)
 - [**Give it five minutes**](./give_it_five_minutes/give_it_five_minutes.md)
 
 #### Proofread
