@@ -6,4 +6,7 @@
 * 校对者 : 暂无
 * 状态 : 翻译中
 
+![](./angular_plus_react.png)
+
+倘若你遇上了由大量的访问或毫无预测的重复渲染（re-render）所产生 Angular 性能问题，那么，ngReact 可以帮到您。
 
