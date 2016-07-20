@@ -14,4 +14,4 @@
 
 ### 什么是 ngReact？
 
-[ngReact](https://github.com/ngReact/ngReact) 是一个针对 React 的小型打包工具。
+[ngReact](https://github.com/ngReact/ngReact) 是一个针对 React 的小型打包工具。（整个工具[大概只含有260行代码](https://github.com/ngReact/ngReact/blob/master/ngReact.js)）
