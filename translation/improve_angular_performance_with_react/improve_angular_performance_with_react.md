@@ -103,6 +103,6 @@ app.directive('fancyDragDropThing', function(reactDirective) {
 
 - [**逐渐去掌握 React（作为一名 Angular 开发者）**](https://daveceddia.com/to-react-from-angular/)
 - [React 快速入门（不需任何的构建）](https://daveceddia.com/test-drive-react/)
-- [Angular 指令与 React 之间的映射关系](https://daveceddia.com/angular-directives-mapped-to-react/)
+- [**Angular 指令与 React 之间的映射关系**](https://daveceddia.com/angular-directives-mapped-to-react/)
 - [为你指定的 React 学习路线](./../your_timeline_for_learning_react/your_timeline_for_learning_react.md)
 - [学习原生的 React：轻松地精通基础部分（一本即将发行的书）](https://daveceddia.com/learn-pure-react/)
