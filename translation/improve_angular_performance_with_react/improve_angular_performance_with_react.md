@@ -76,3 +76,13 @@ app.directive('bigList', function(reactDirective) {
     return reactDirective(BigList);
 });
 ```
+
+这样，你就可以像其他 Angular 指令一样使用 `bigList` 组件：
+
+```js
+<big-list items="parentCtrl.items"></big-list>
+```
+
+### 需要留意的是
+
+1. React 组件并不能包含有 Angular 元素。如果你想把转换一个含有多层嵌套的指令，你需要沿着树结构把这些嵌套的指令一并转换。
