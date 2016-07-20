@@ -86,4 +86,4 @@ app.directive('bigList', function(reactDirective) {
 ### 需要留意的是
 
 1. React 组件并不能包含有 Angular 元素。如果你想把转换一个含有多层嵌套的指令，你需要沿着树结构把这些嵌套的指令一并转换。
-2. ngReact 会根据 React 组件上的 `propTypes` 去决定监控哪些属性。如果去掉该属性，ngReact 会忽略整个组件的属性，以至于你的组件不会产生任何的渲染。
+2. ngReact 会根据 React 组件上的 `propTypes` 去决定监控哪些属性。如果你去掉了该属性，ngReact 会忽略整个组件的属性，以至于你的组件不会产生任何的渲染。
