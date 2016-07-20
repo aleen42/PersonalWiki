@@ -29,3 +29,5 @@
 ### 如何去测量监控对象的数目？
 
 目前，我知道有两款工具能很好地去测量一个页面上监控对象的数目。
+
+由 [@kentcdodds](https://twitter.com/kentcdodds) 开发的 [ng-stats](https://github.com/kentcdodds/ng-stats) 能够在一个小小的图像中显示最近
