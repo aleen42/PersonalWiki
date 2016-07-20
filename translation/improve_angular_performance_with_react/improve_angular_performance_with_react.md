@@ -51,4 +51,4 @@ angular.module('yourApp', ['react'])
     ...
 ```
 
-然后，这里有两种方式去往一个 Angular 项目中添加一个 React 组件：要不是用一个真正的指令；要不是用由 ngReact 提供的 `react-component` 置零。
+然后，这里有两种方式去往一个 Angular 项目中添加一个 React 组件：要不是用一个真正的指令；要不是用由 ngReact 提供的 `react-component` 。
