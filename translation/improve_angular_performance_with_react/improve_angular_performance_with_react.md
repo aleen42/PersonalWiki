@@ -106,3 +106,7 @@ app.directive('fancyDragDropThing', function(reactDirective) {
 - [**Angular 指令与 React 之间的映射关系**](https://daveceddia.com/angular-directives-mapped-to-react/)
 - [为你指定的 React 学习路线](./../your_timeline_for_learning_react/your_timeline_for_learning_react.md)
 - [学习原生的 React：轻松地精通基础部分（一本即将发行的书）](https://daveceddia.com/learn-pure-react/)
+
+#### 注解
+
+<p id="comment-4">[4]：<strong>汇编周期（digest cycle）</strong> 是 Angular 框架提出的一个新的概念。它意指 Angular 检查的所有受监控变量变动的一个循环周期。在 Controller 定义受监控变量可通过 <code>$scope.varName</code> 来进行定义。</p>
