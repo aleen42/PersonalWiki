@@ -8,7 +8,7 @@
 
 ![](./angular_plus_react.png)
 
-如果你遇上了由大量的访问或毫无预测的重复渲染（re-render）所产生 Angular 性能问题，那么，ngReact 可以帮到您。
+如果你遇上了由大量的访问或毫无预测的重复渲染[<sup>[1]</sup>](#comment-1)（re-render）所产生 Angular 性能问题，那么，ngReact 可以帮到您。
 
 如果你已有一个 Angular 应用程序，但你又不想重写整个程序来尝试一下 React 的话，ngReact 在这方面也可以帮到您。
 
