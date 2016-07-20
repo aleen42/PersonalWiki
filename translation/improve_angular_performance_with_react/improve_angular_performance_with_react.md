@@ -95,5 +95,9 @@ app.directive('fancyDragDropThing', function(reactDirective) {
     var wrapped = WrapperComponent(YourComponent);
     return reactDirective(wrapped, ['items']);
 });
+
+### 总结
+
+这篇文章是一个高度快速概括的文章，以介绍如何用 React 去提升一个 Angular 程序的性能。
 ```
 
