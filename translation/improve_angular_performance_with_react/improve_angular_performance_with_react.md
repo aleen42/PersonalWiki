@@ -33,3 +33,5 @@
 由 [@kentcdodds](https://twitter.com/kentcdodds) 开发的 [ng-stats](https://github.com/kentcdodds/ng-stats) 能够在一个小小的图像中，显示最近的一个汇编周期所产生的监控对象数量。这对于我来说是一个很好的概括。
 
 ![](./ng-stats.png)
+
+然后，如果你想在往深一层挖掘的话，你可以从 Jason Stitt 所写的博文中找到一些页面并收藏在书签栏。
