@@ -91,8 +91,9 @@ app.directive('bigList', function(reactDirective) {
 如果你不能轻易地设置好 protoTypes 属性（比如你要返回一个更高优先级的组件），那么你可以像这样传递一个数组，以供 ngReact 监控：
 
 ```js
-app.directive('bigList', function(reactDirective) {
-    return reactDirective(BigList);
+app.directive('fancyDragDropThing', function(reactDirective) {
+    var wrapped = WrapperComponent(YourComponent);
+    return reactDirective(wrapped, ['items']);
 });
 ```
 
