@@ -16,8 +16,10 @@
 
 [ngReact](https://github.com/ngReact/ngReact) 是一个针对 React 的小型打包工具。（整个工具[大概只含有260行代码](https://github.com/ngReact/ngReact/blob/master/ngReact.js)）
 
-有了它的话，你只需要创建好你的 Angular 程序。而 ngReact 在背后实际上会以 React 组件的形式渲染你的程序。它在传递给指令的属性上设置了监控对象（watches），并在组件改变的时候，重新渲染该些组件。
+有了它的话，你只需要创建好你的 Angular 程序。而 ngReact 在背后实际上会以 React 组件的形式渲染你的程序。它在传递给指令（directives）的属性上设置了监控对象（watches），并在组件改变的时候，重新渲染该些组件。
 
 ### 它用于何处？
 
 如果你有大量或嵌套的 `ng-repeat` 属性，那么，程序可能会因为页面上监控对象的数量拖慢了执行速度。
+
+同样地，如果你在心底里采用着“把一切构造成组件（指令）”，也有可能会导致这样的情况。比如说，一个充满自定义指令集的
