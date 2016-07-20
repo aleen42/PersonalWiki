@@ -72,4 +72,7 @@ var BigList = React.createClass({
     }
 });
 
+app.directive('bigList', function(reactDirective) {
+    return reactDirective(BigList);
+});
 ```
