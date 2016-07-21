@@ -4,7 +4,7 @@
 * 原文作者 : [Jason Fried](https://signalvnoise.com/writers/jf)
 * 译者 : [aleen42](https://github.com/aleen42) 
 * 校对者 : 暂无
-* 状态 : 代jiao'dui
+* 状态 : 待校对
 
 几年前的我是一个非常急躁的人。每当有人说出他们自己的意见，我都会想尽办法去否定它。并且，我还会对一切不符合我自身世界观的事物进行批判。
 
