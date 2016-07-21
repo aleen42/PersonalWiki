@@ -69,7 +69,14 @@ React.createClass({
          */
         requiredFunc: React.PropTypes.func.isRequired,
         
+        /** A value of any data type */
+        requiredAny: React.PropTypes.any.isRequired,
         
+        /**
+         * You can also specify a custom validator. It should return an Error
+         * object if the validation fails. Don't `console.warn` or throw, as this
+         * won't work inside `oneOfType`.
+         */
     };
 });
 ```
