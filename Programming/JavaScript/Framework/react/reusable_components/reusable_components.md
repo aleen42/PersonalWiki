@@ -28,6 +28,8 @@ React.createClass({
          * (or fragment) containing these types.
          */
         optionalNode: React.PropTypes.node,
+        
+        /** A React element */
     };
 });
 ```
