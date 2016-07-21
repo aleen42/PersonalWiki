@@ -90,8 +90,8 @@ React.createClass({
          * arguments of the validator are the array or object itself, and the
          * current item's key.
          */
-        customArrayProp: function(props, key, componentName, location, propFullName) {
-            if (!/matchme/.test(props[key])) {
+        customArrayProp: function(propValue, key, componentName, location, propFullName) {
+            if (!/matchme/.test(propValue[key])) {
                 return new Error('Invalid prop ' + propFullName + ' supplied to ' + componentName + '. Validation failed.');
             }
         }
