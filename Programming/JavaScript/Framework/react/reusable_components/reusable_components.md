@@ -62,6 +62,12 @@ React.createClass({
             color: React.PropTypes.string,
             fontSize: React.PropTypes.number
         }),
+        
+        /**
+         * You can chain any of the above with `isRequired` to make sure a warning
+         * is shown if the prop isn't provided.
+         */
+    requiredFunc: React.PropTypes.func.isRequired,
     };
 });
 ```
