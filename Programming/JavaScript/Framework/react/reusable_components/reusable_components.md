@@ -101,4 +101,12 @@ React.createClass({
 
 #### Single Child
 
-In React, with `React.propTypes.element`, you can specify that only a single child can be passed to a component as children.
+In React, with `React.PropTypes.element`, you can specify that only a single child can be passed to a component as children:
+
+```js
+var MyComponent = React.createClass({
+    propTypes: {
+        children: React.PropTypes.element.isRequired
+    }
+});
+```
