@@ -21,4 +21,4 @@
     - [**JSX Spread Attributes**](./jsx_spread_attributes/jsx_spread_attributes.md)
 - [**Interactivity and Dynamic UIs**](./interactivity_dynamic_uis/interactivity_dynamic_uis.md)
 - [**Multiple Components**](./multiple_components/multiple_components.md)
-- [**Reusable Components**](./reusable_components/[**Multiple Components**](./multiple_components/multiple_components.md).md)
+- [**Reusable Components**](./reusable_components/reusable_components.md)
