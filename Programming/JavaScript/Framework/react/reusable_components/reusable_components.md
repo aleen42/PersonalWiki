@@ -91,7 +91,7 @@ React.createClass({
          * current item's key.
          */
         customArrayProp: function(props, key, componentName, location, propFullName) {
-            if (!/matchme/.test()) {
+            if (!/matchme/.test(props[key])) {
                 return new Error('Invalid prop ' + propFullName + ' supplied to ' + componentName + '. Validation failed.');
             }
         }
