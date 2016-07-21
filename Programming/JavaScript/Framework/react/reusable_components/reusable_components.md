@@ -37,6 +37,12 @@ React.createClass({
          * JS's instanceof operator.
          */
         optionalMessage: React.PropTypes.instanceOf(Message),
+        
+        /**
+         * You can ensure that your prop is limited to specific values by treating
+         * it as an enum.
+         */
+        optionalEnum: React.PropTypes.oneOf(['News', 'Photos']),
     };
 });
 ```
