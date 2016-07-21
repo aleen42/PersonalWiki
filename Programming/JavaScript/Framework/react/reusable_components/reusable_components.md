@@ -15,7 +15,13 @@ React.createClass({
          * You can declare that a prop is a specific JS primitive.
          * By default, these are all optional.
          */
-        
+        optionalArray: React.PropTypes.array,
+        optionalBool: React.PropTypes.bool,
+        optionalFunc: React.PropTypes.func,
+        optionalNumber: React.PropTypes.number,
+        optionalObject: React.PropTypes.object,
+        optionalString: React.PropTypes.string,
+        optionalSymbol: React.PropTypes.symbol,
     };
 });
 ```
