@@ -79,7 +79,8 @@ React.createClass({
          */
         customProp: function (props, propName, componentName) {
             if (!/matchme/.test(props[propName]) {
-            
+                return new Error();
+            }
         }
             
         ,
