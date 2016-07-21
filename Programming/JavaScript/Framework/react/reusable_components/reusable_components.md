@@ -91,7 +91,7 @@ React.createClass({
          * current item's key.
          */
         customArrayProp: function(props, key, componentName, location, propFullName) {
-            return new Error('Invalid prop ' + propFullName + ' supplied to compo. Validation failed.');
+            return new Error('Invalid prop ' + propFullName + ' supplied to ' + componentName + '. Validation failed.');
         }
     };
 });
