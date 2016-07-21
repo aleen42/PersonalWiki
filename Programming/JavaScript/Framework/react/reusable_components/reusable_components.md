@@ -50,6 +50,9 @@ React.createClass({
             React.PropTypes.number,
             React.PropTypes.instanceOf(Message)
         ]),
+        
+        /** An array of a certain type */
+        optionalArrayOf: React.PropTypes.arrayOf(React.PropTypes.number),
     };
 });
 ```
