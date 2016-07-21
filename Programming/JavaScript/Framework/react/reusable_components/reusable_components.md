@@ -78,6 +78,8 @@ React.createClass({
          * won't work inside `oneOfType`.
          */
         customProp: function (props, propName, componentName) {
+            if (!/matchme/.test(props[propName]) {
+            
         }
             
         ,
