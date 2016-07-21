@@ -30,6 +30,7 @@ React.createClass({
         optionalNode: React.PropTypes.node,
         
         /** A React element */
+        optionalElement: React.PropTypes.element,
     };
 });
 ```
