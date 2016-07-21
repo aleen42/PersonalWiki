@@ -2,14 +2,14 @@
 
 Here I want to collect some awesome articles, written by others or me.
 
-- [**[轉載] 大公司裏怎麼開發和部署前端代碼**](./frontend_code_in_big_company/frontend_code_in_big_company.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span>
-- [**[轉載] 99%的人都理解錯了HTTP中GET與POST的區別**](./http_and_get/http_and_get.md) <span class="issue-label" style="background-color: #563D7C; font-size: 12px;">Network</span>
-- [**[轉載] 前端工程 -- 基礎篇**](./base_frontend/base_frontend.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span>
+- [**[轉載] 大公司裏怎麼開發和部署前端代碼**](./frontend_code_in_big_company/frontend_code_in_big_company.md)
+- [**[轉載] 99%的人都理解錯了HTTP中GET與POST的區別**](./http_and_get/http_and_get.md)
+- [**[轉載] 前端工程 -- 基礎篇**](./base_frontend/base_frontend.md)
 - [**[轉載] 
-Leverage Browser Caching**](./leverage_browser_caching/leverage_browser_caching.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span><span class="issue-label" style="background-color: #fbca04; font-size: 12px;">Cache</span>
+Leverage Browser Caching**](./leverage_browser_caching/leverage_browser_caching.md)
 - [**[轉載] 
-Javascript中判断数组的正确姿势**](./array_inference_in_javascript/array_inference_in_javascript.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span><span class="issue-label" style="background-color: #009fa6; font-size: 12px;">JavaScript</span><span class="issue-label" style="background-color: #a10000; font-size: 12px;">Type</span>
+Javascript中判断数组的正确姿势**](./array_inference_in_javascript/array_inference_in_javascript.md)
 - [**[轉載] 
-JavaScript 原型中的哲学思想**](./prototype_of_javascript/prototype_of_javascript.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span><span class="issue-label" style="background-color: #009fa6; font-size: 12px;">JavaScript</span><span class="issue-label" style="background-color: #b1039f; font-size: 12px;">ProtoType</span> 
+JavaScript 原型中的哲学思想**](./prototype_of_javascript/prototype_of_javascript.md)
 - [**[轉載] 
-前端开发面试题**](./frontend_interview/frontend_interview.md) <span class="issue-label" style="background-color: #159818; font-size: 12px;">Front End</span>
+前端开发面试题**](./frontend_interview/frontend_interview.md)
