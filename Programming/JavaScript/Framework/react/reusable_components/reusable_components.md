@@ -43,6 +43,13 @@ React.createClass({
          * it as an enum.
          */
         optionalEnum: React.PropTypes.oneOf(['News', 'Photos']),
+        
+        /** An object that could be one of many types */
+        optionalUnion: React.PropTypes.oneOfType([
+            React.PropTypes.string,
+            React.PropTypes.number,
+            React.PropTypes.instanceOf(Message)
+        ]),
     };
 });
 ```
