@@ -60,6 +60,7 @@
                             * [JSX Spread Attributes](./Programming/JavaScript/Framework/react/jsx_spread_attributes/jsx_spread_attributes.md)
                         * [Interactivity and Dynamic UIs](./Programming/JavaScript/Framework/react/interactivity_dynamic_uis/interactivity_dynamic_uis.md)
                         * [Multiple Components](./Programming/JavaScript/Framework/react/multiple_components/multiple_components.md)
+                        * [Reusable Components](./Programming/JavaScript/Framework/react/reusable_components/reusable_components.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
