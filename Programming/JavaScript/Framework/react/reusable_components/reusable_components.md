@@ -107,6 +107,15 @@ In React, with `React.PropTypes.element`, you can specify that only a single chi
 var MyComponent = React.createClass({
     propTypes: {
         children: React.PropTypes.element.isRequired
+    },
+    
+    render: function () {
+        return (
+            <div>
+                /** This must be exactly one element or it will warn. */
+                {this.props.children}
+            </div>
+        );
     }
 });
 ```
