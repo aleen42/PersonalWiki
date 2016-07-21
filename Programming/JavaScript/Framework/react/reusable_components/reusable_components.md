@@ -77,6 +77,10 @@ React.createClass({
          * object if the validation fails. Don't `console.warn` or throw, as this
          * won't work inside `oneOfType`.
          */
+        customProp: function (props, propName, componentName) {
+        }
+            
+        ,
     };
 });
 ```
