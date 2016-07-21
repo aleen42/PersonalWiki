@@ -90,7 +90,8 @@ React.createClass({
          * arguments of the validator are the array or object itself, and the
          * current item's key.
          */
-        customArrayProp: function,
+        customArrayProp: function() {
+        }
     };
 });
 ```
