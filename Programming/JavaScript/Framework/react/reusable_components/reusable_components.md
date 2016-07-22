@@ -157,3 +157,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+### Mixins
