@@ -223,4 +223,4 @@ class HelloMessage extends React.Component {
 }
 ```
 
-This API is similar to `React.createClass` with the exception of `getInitialState`
+This API is similar to `React.createClass` with the exception of `getInitialState`.
