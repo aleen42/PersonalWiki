@@ -194,6 +194,12 @@ var TickTock = React.createClass({
         this.setState({ seconds: this.state.seconds + 1 });
     },
     
-    
+    render: function () {
+        return (
+            <p>
+                React has been running for {this.state.seconds} seconds.
+            </p>
+        );
+    }
 });
 ```
