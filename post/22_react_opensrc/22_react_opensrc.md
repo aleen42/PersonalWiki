@@ -99,3 +99,12 @@ Courtesy of [Benoit VALLON](https://medium.com/u/d3f29aae3923) **[2796 Stars]**
 
 ![](./11.png)
 
+[React-color: Color Pickers from Sketch, Photoshop, Chrome & more.](https://github.com/casesandberg/react-color)
+
+Courtesy of [Case Sandberg](https://medium.com/u/fbdb48f94b64) **[1966 Stars]**
+
+![](./12.png)
+
+Gatsby: Transform plain text into dynamic blogs and websites using React.js.
+
+Courtesy of kylemathews [2816 Stars]
