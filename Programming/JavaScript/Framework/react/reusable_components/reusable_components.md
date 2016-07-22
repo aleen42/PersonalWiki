@@ -215,6 +215,10 @@ React provides [lifecycle methods](https://facebook.github.io/react/docs/working
 
 ```js
 class HellMessage extends React.Component {
-    
+    render() {
+        return (
+            <div>Hello, {this.props.name}</div>
+        );
+    }
 }
 ```
