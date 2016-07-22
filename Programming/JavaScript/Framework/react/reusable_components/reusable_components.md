@@ -260,3 +260,4 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 ```
 
 It's recommended to bind in the constructor method, so tht you can only bind once.
+
