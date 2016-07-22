@@ -22,3 +22,4 @@
 - [**Interactivity and Dynamic UIs**](./interactivity_dynamic_uis/interactivity_dynamic_uis.md)
 - [**Multiple Components**](./multiple_components/multiple_components.md)
 - [**Reusable Components**](./reusable_components/reusable_components.md)
+- [**Transferring Props**](./transfering_props/transfering_props.md)
