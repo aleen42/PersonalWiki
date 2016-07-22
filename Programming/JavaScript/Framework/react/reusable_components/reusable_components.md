@@ -140,6 +140,10 @@ The result of `getDefaultProps()` will be cached and used to ensure that `this.p
 
 ```js
 var CheckLink = React.createClass({
-    
+    render: function () {
+        return (
+            <a {...this.props}>{'√ '}{this.props.children}</a>
+        );
+    }
 });
 ```
