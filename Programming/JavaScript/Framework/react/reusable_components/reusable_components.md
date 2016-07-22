@@ -290,4 +290,5 @@ ReactDOM.render(<HelloMessage name="aleen" />, document.getElementById('content'
 
 ```js
 HelloMessage.propTypes = { name: React.PropTypes.string };
+HelloMessage.defaultProps = { name: 'aleen' };
 ```
