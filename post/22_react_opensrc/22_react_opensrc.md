@@ -145,3 +145,13 @@ Courtesy of [Mican](https://medium.com/u/4c842c8dc89a) **[509 Stars]**
 [React-based Imgur-like isomorphic demo app.](https://github.com/BinaryMuse/imgsible)
 
 Courtesy of [Brandon Tilley](https://medium.com/u/7f7796c1b7dd) **[39 Stars]**
+
+![](./18.png)
+
+[Flatris: Tetris app for Cosmos, built with React.](https://github.com/skidding/flatris)
+
+Courtesy of [Ovidiu Cherecheș](https://medium.com/u/781d032b61cf) **[71 Stars]**
+
+![](./19.png)
+
+**&lt;Bonus: Books to learn React.JS&gt;**
