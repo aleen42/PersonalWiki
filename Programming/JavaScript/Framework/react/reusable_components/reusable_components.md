@@ -233,10 +233,11 @@ export class Counter extends React.Component {
         super(props);
         
         this.state = { count: props.initialCount };
+        this.tick = this.tick.bind(this)
     }
     
     tick() {
-        this.setState({ count: this.state.coun });
+        this.setState({ count: this.state.count +1 });
     }
 }
 ```
