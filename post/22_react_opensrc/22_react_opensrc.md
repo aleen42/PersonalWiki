@@ -15,7 +15,7 @@
 
 > &nbsp; &nbsp; &nbsp; &nbsp;注意React UI组件，模板，工具和框架是分离开来的，这样使得React构建的应用更易于管理。
 
-&lt;React Native&gt;
+**&lt;React Native&gt;**
 
 [React native iOS and Android apps that give attendees a schedule for the F8 conference.](https://github.com/fbsamples/f8app)
 
@@ -84,4 +84,6 @@ Courtesy of Andrei Hrabouski **[220 Stars]**
 Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[111 Stars]**
 
 ![](./2.gif)
+
+**&lt;React&gt;**
 
