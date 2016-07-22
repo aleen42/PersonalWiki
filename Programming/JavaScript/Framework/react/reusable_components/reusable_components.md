@@ -224,3 +224,9 @@ class HelloMessage extends React.Component {
 ```
 
 This API is similar to `React.createClass` with the exception of `getInitialState`. Without providing a `getInitialState` method, you can just set up your state in the constructor within ES6.
+
+Another difference is that `propTypes` and `defaultProps` are defined as properties on the constructor instead of in the class body.
+
+```js
+
+```
