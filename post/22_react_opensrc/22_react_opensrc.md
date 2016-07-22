@@ -83,7 +83,7 @@ Courtesy of Andrei Hrabouski **[220 Stars]**
 
 Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[111 Stars]**
 
-![](./2.gif)
+[![](./2.gif)](https://github.com/faridsafi/react-native-basketball)
 
 **&lt;React&gt;**
 
