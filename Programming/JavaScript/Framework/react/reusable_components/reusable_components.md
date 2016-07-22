@@ -178,8 +178,10 @@ var SetIntervalMixins = {
 };
 
 var TickTock = React.createClass({
-    /** use he mixins */
+    /** use the mixins */
     mixins: [setIntervalMixins],
+    
+
     
 });
 ```
