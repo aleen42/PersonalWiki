@@ -261,3 +261,7 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 
 *It's recommended that binding in the constructor method, so tht you can only bind once. This is better for performance of your application, especially if you implement [shouldComponentUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate) with a [shallow comparison](https://facebook.github.io/react/docs/shallow-compare.html) in the child components.*
 
+#### No Mixins
+
+No Mixins
+Unfortunately ES6 launched without any mixin support. Therefore, there is no support for mixins when you use React with ES6 classes. Instead, we're working on making it easier to support such use cases without resorting to mixins.
