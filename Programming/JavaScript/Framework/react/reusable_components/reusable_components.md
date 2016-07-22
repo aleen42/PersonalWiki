@@ -273,7 +273,8 @@ Unfortunately ES6 launched without any mixin support. Therefore, there is no sup
 Using Function to define a React class:
 
 ```js
-function HellMessage(props) {
-    return <div>Hello, {props</div>
+function HelloMessage(props) {
+    return <div>Hello, {props.name}</div>;
 }
+ReactDOM.render(<HelloMessage name="aleen" />, document.getElementById('content'));
 ```
