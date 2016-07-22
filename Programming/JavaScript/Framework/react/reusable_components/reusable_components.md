@@ -121,3 +121,15 @@ var MyComponent = React.createClass({
 ```
 
 ### Default Prop Values
+
+In React, you can also define defualt values for your `prop`:
+
+```js
+var ComponentWithDefaultProps = React.createClass({
+    getDefaultProps: function () {
+        return {
+            value: 'default Value'  
+        };
+    }
+});
+```
