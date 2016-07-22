@@ -287,3 +287,7 @@ ReactDOM.render(<HelloMessage name="aleen" />, document.getElementById('content'
 ```
 
 *Notice that: remember to set `propTypes` and `defaultProps`*
+
+```js
+HelloMessage.propTypes = { name: React.PropTypes.string };
+```
