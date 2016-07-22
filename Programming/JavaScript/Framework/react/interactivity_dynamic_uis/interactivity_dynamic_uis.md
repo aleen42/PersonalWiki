@@ -7,7 +7,7 @@ After talking about how to display data with React, this document is talking abo
 ### A Simple Example
 
 ```js
-class LikeButton extends React.component {
+class LikeButton extends React.Component {
     constructor() {
         super();
         
