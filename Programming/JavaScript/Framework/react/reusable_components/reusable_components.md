@@ -128,7 +128,7 @@ In React, you can also define defualt values for your `prop`:
 var ComponentWithDefaultProps = React.createClass({
     getDefaultProps: function () {
         return {
-            value: 'default Value'  
+            value: 'default value'  
         };
     }
 });
