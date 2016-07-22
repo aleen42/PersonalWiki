@@ -40,3 +40,5 @@ Courtesy of [Catalin MIRON](https://medium.com/u/4b53d99b3317) **[1073 Stars]**
 [Ready-to-use chat interface for iOS and Android React-Native apps.](https://github.com/FaridSafi/react-native-gifted-messenger)
 
 Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[919 Stars]**
+
+![](./4.png)
