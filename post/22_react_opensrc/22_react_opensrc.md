@@ -87,3 +87,6 @@ Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[111 Stars]**
 
 **&lt;React&gt;**
 
+[A Soundcloud client built with React / Redux.](https://github.com/andrewngu/sound-redux)
+
+Courtesy of [Andrew Nguyen](https://medium.com/u/9c93da259760) **[1335 Stars]**
