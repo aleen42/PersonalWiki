@@ -299,4 +299,4 @@ HelloMessage.defaultProps = { name: 'aleen' };
 
 > NOTE:
 
-> In React v0.14, stateless functional components were not permitted to return null or false (a workaround is to return a <noscript /> instead). This was fixed in React v15, and stateless functional components are now permitted to return null.
+> In React v0.14, stateless functional components were not permitted to return null or false (a workaround is to return a `<noscript />` instead). This was fixed in React v15, and stateless functional components are now permitted to return `null`.
