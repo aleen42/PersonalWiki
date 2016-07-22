@@ -259,5 +259,5 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 <div onClick={() => this.tick()}></div>
 ```
 
-*It's recommended that binding in the constructor method, so tht you can only bind once.*
+*It's recommended that binding in the constructor method, so tht you can only bind once. This is better for performance of your application, especially if you implement [shouldComponentUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate) with a [shallow comparison](https://facebook.github.io/react/docs/shallow-compare.html) in the child components.*
 
