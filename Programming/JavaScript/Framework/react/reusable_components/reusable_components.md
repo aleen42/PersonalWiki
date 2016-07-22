@@ -203,7 +203,7 @@ var TickTock = React.createClass({
     }
 });
 
-ReactDOM.rnder(
+ReactDOM.render(
     <TickTock />,
     document.getElementById('content')
 );
