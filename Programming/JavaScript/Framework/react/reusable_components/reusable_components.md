@@ -149,7 +149,7 @@ var CheckLink = React.createClass({
 
 ReactDOM.render(
     <CheckList href="/checked.html">
-        Clicked here
+        Clicked here!
     </CheckList>,
     document.getElementById('content')
 );
