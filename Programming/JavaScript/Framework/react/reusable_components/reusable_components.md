@@ -160,4 +160,16 @@ ReactDOM.render(
 
 ### Mixins
 
-Sometimes, different components will share some common functionality, which is called [cross-cutting concerns](https://en.wikipedia.org/wiki/Cross-cutting_concern).
+Sometimes, different components will share some common functionality, which is called [cross-cutting concerns](https://en.wikipedia.org/wiki/Cross-cutting_concern). React proviedes `mixins` to handle this situation:
+
+```js
+var SetIntervalMixins = {
+    componentWillMount: funciton () {
+        this.intervals = [];
+    },
+    
+    setInterval: function () {
+        this.intervals.push(setInterval.apply(null, argumen))
+    }
+};
+```
