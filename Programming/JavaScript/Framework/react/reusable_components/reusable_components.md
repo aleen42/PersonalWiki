@@ -239,5 +239,9 @@ export class Counter extends React.Component {
     tick() {
         this.setState({ count: this.state.count +1 });
     }
+    
+    render() {
+        
+    }
 }
 ```
