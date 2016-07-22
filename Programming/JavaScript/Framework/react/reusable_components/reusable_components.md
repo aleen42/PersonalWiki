@@ -169,7 +169,11 @@ var SetIntervalMixins = {
     },
     
     setInterval: function () {
-        this.intervals.push(setInterval.apply(null, argumen))
+        this.intervals.push(setInterval.apply(null, arguments));
+    },
+    
+    componentWillUnmount: function () {
+        
     }
 };
 ```
