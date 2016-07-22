@@ -105,6 +105,7 @@ Courtesy of [Case Sandberg](https://medium.com/u/fbdb48f94b64) **[1966 Stars]**
 
 ![](./12.png)
 
-Gatsby: Transform plain text into dynamic blogs and websites using React.js.
+[Gatsby: Transform plain text into dynamic blogs and websites using React.js.
+](https://github.com/gatsbyjs/gatsby)
 
-Courtesy of kylemathews [2816 Stars]
+Courtesy of [kylemathews](https://medium.com/u/d8a8061f22e1) **[2816 Stars]**
