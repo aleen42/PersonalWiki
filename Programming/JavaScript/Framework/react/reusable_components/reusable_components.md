@@ -181,7 +181,9 @@ var TickTock = React.createClass({
     /** use the mixins */
     mixins: [setIntervalMixins],
     
-
+    getInitialState: function () {
+        return {seconds: 0};
+    }
     
 });
 ```
