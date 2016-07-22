@@ -142,8 +142,15 @@ The result of `getDefaultProps()` will be cached and used to ensure that `this.p
 var CheckLink = React.createClass({
     render: function () {
         return (
-            <a {...this.props}>{'√'}{this.props.children}</a>
+            <a {...this.props}>{'√ '}{this.props.children}</a>
         );
     }
 });
+
+ReactDOM.render(
+    <CheckList href="/checked.html">
+        Clicked here
+    </CheckList>,
+    document.getElementById('content')
+);
 ```
