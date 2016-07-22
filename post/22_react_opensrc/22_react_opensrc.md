@@ -124,3 +124,12 @@ Courtesy of [gp](https://medium.com/u/9bb1e7ea08d2) **[953 Stars]**
 
 ![](./14.png)
 
+[A React & react-router-powered implementation of Hacker News using its Firebase API.](https://github.com/insin/react-hn)
+
+Courtesy of [Arthur Stolyar](https://medium.com/u/577c0e279fd5) **[505 Stars]**
+
+![](./15.png)
+
+[A playground for in-browser interpreters. Built with React/Redux.](https://github.com/fatiherikli/fil)
+
+Courtesy of [Mican](https://medium.com/u/4c842c8dc89a) **[509 Stars]**
