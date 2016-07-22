@@ -158,4 +158,7 @@ Courtesy of [Ovidiu Cherecheș](https://medium.com/u/781d032b61cf) **[71 Stars]*
 
 [For Beginners — Learning React Native: Building Native Mobile Apps with JavaScript (highest rating on Amazon as of May 2016).](http://www.amazon.com/gp/product/1491929006?ie=UTF8&camp=1789&creativeASIN=1491929006&linkCode=xm2&tag=mybridge-20)
 
-Courtesy of Twitter Engineer Bonnie Eisenman
+Courtesy of Twitter Engineer [Bonnie Eisenman](https://medium.com/u/88ac114d185d)
+
+![](./20.png)
+
