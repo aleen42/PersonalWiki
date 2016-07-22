@@ -232,7 +232,7 @@ export class Counter extends React.Component {
     constructor(props) {
         super(props);
         
-        this.state = { count: this.props.count };
+        this.state = { count: props.initialCount };
     }
 }
 ```
