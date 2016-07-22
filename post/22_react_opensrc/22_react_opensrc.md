@@ -52,3 +52,6 @@ Courtesy of [kf](https://medium.com/u/e113f0f1abc9) **[609 Stars]**
 [A Zhihu Daily App client implemented using React Native (Android and iOS).](https://github.com/race604/ZhiHuDaily-React-Native)
 
 Courtesy of [Race604](https://medium.com/u/b6daafb44ceb) **[2624 Stars]**
+
+![](./6.png)
+
