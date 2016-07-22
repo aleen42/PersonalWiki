@@ -186,6 +186,7 @@ var TickTock = React.createClass({
     },
     
     componentDidMount: function () {
+        /** call a method on the mixins */
         this.setInterval(this.tick, 1000);
     }
     
