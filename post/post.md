@@ -8,8 +8,8 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[轉載] 
 Leverage Browser Caching**](./leverage_browser_caching/leverage_browser_caching.md)
 - [**[轉載] 
-Javascript中判断数组的正确姿势**](./array_inference_in_javascript/array_inference_in_javascript.md)
+Javascript中判斷數組的正確姿勢**](./array_inference_in_javascript/array_inference_in_javascript.md)
 - [**[轉載] 
-JavaScript 原型中的哲学思想**](./prototype_of_javascript/prototype_of_javascript.md)
+JavaScript 原型中的哲學思想**](./prototype_of_javascript/prototype_of_javascript.md)
 - [**[轉載] 
-前端开发面试题**](./frontend_interview/frontend_interview.md)
+前端開發面試題**](./frontend_interview/frontend_interview.md)
