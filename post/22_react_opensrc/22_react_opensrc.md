@@ -136,3 +136,12 @@ Courtesy of [Mican](https://medium.com/u/4c842c8dc89a) **[509 Stars]**
 
 ![](./16.png)
 
+[Perseus: Khan Academy's new exercise question editor and renderer built with React](https://github.com/khan/perseus)
+
+[591 Stars]
+
+![](./17.png)
+
+[React-based Imgur-like isomorphic demo app.](https://github.com/BinaryMuse/imgsible)
+
+Courtesy of [Brandon Tilley](https://medium.com/u/7f7796c1b7dd) **[39 Stars]**
