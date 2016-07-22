@@ -267,3 +267,13 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 #### No Mixins
 
 Unfortunately ES6 launched without any mixin support. Therefore, there is no support for mixins when you use React with ES6 classes. Instead, we're working on making it easier to support such use cases without resorting to mixins.
+
+### Stateless Functions
+
+Using Function to define a React class:
+
+```js
+function HellMessage(props) {
+    
+}
+```
