@@ -208,3 +208,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+React provides [lifecycle methods](https://facebook.github.io/react/docs/working-with-the-browser.html#component-lifecycle) that let you know when a component is about to be created or destroyed.
