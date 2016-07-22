@@ -183,6 +183,10 @@ var TickTock = React.createClass({
     
     getInitialState: function () {
         return { seconds: 0 };
+    },
+    
+    componentDidMount: function () {
+        this.setInterval(this.tick, 1000);
     }
     
 });
