@@ -234,5 +234,9 @@ export class Counter extends React.Component {
         
         this.state = { count: props.initialCount };
     }
+    
+    tick() {
+        this.setState({ count: this.state.coun });
+    }
 }
 ```
