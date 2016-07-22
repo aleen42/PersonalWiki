@@ -223,3 +223,4 @@ class HelloMessage extends React.Component {
 }
 ```
 
+This API is similar to `React.createClass
