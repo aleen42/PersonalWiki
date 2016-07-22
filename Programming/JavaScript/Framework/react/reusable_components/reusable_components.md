@@ -191,7 +191,9 @@ var TickTock = React.createClass({
     },
     
     tick: function () {
-        this.setState({ seconds: this.state.seconds + 1; });
-    }
+        this.setState({ seconds: this.state.seconds + 1 });
+    },
+    
+    
 });
 ```
