@@ -233,7 +233,7 @@ export class Counter extends React.Component {
         super(props);
         
         this.state = { count: props.initialCount };
-        this.tick = this.tick.bind(this)
+        this.tick = this.tick.bind(this);
     }
     
     tick() {
