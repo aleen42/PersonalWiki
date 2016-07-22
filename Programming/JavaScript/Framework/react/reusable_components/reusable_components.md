@@ -135,3 +135,4 @@ var ComponentWithDefaultProps = React.createClass({
 ```
 
 The result of `getDefaultProps()` will be cached and used to ensure that `this.props.value` will have a value if it was not specified by the parent component.
+
