@@ -61,3 +61,6 @@ Courtesy of [@CharlieHawker](https://twitter.com/CharlieHawker) **[1140 Stars]**
 
 ![](./7.png)
 
+[Github client written with react-native.](https://github.com/xiekw2010/react-native-gitfeed)
+
+Courtesy of [David Tse](https://medium.com/u/1138287b92ae) **[1106 Stars]**
