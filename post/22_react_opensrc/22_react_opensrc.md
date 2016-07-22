@@ -110,7 +110,7 @@ Courtesy of [Case Sandberg](https://medium.com/u/fbdb48f94b64) **[1966 Stars]**
 
 Courtesy of [kylemathews](https://medium.com/u/d8a8061f22e1) **[2816 Stars]**
 
-![](./3.gif)
+[![](./3.gif)](https://github.com/gatsbyjs/gatsby)
 
 [Sentry is cross-platform crash reporting built with React.](https://github.com/getsentry/sentry/)
 
