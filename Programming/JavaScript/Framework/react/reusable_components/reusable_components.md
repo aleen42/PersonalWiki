@@ -228,5 +228,9 @@ This API is similar to `React.createClass` with the exception of `getInitialStat
 Another difference is that `propTypes` and `defaultProps` are defined as properties on the constructor instead of in the class body.
 
 ```js
-
+export class Counter extends React.Component {
+    constructor(props) {
+        
+    }
+}
 ```
