@@ -159,3 +159,5 @@ ReactDOM.render(
 ```
 
 ### Mixins
+
+Sometimes, different components will share some common functionality, which is called [cross-cutting concerns](https://en.wikipedia.org/wiki/Cross-cutting_concern).
