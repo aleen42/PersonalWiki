@@ -6,3 +6,9 @@
 
 **本文是对[React](https://xituqu.com/tag/react).JS库里[开源](https://xituqu.com/tag/open-source)应用进行了整合，我们从Github上800个开源的项目甄选出排名前22的优秀的开源项目。（React Native: 11个, React: 11个）
 **
+
+&nbsp; &nbsp; &nbsp; &nbsp;React是由facebook的开源的一个JavaScript库，用于构建“可预期的”和“声明式的”Web用户界面。
+
+为了保证开源项目的质量，所以我们通过AI来进行全方位的分析，22个项目GitHub的Star的平均数为1681。只为给予开发者灵感和高质量的开源项目。
+
+开源的项目可以帮助初学者更好的学习阅读代码，且方便高级程序员使用现有代码来节省时间。我们整合这些开源项目的初衷就是帮助开发者节省时间，而不是花几个小时的时间来寻找。
