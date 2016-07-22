@@ -90,3 +90,12 @@ Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[111 Stars]**
 [A Soundcloud client built with React / Redux.](https://github.com/andrewngu/sound-redux)
 
 Courtesy of [Andrew Nguyen](https://medium.com/u/9c93da259760) **[1335 Stars]**
+
+![](./10.png)
+
+[Calculator built with React (Website), Electorn (Desktop), and React Native (iOS & Android).](https://github.com/benoitvallon/react-native-nw-react-calculator)
+
+Courtesy of [Benoit VALLON](https://medium.com/u/d3f29aae3923) **[2796 Stars]**
+
+![](./11.png)
+
