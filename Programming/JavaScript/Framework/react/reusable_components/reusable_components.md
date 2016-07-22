@@ -248,6 +248,8 @@ export class Counter extends React.Component {
 }
 ```
 
+Another difference is that `propTypes` and `defaultProps` are defined as properties on the constructor instead of in the class body.
+
 #### No Autobinding 
 
 Methods follow the same semantics as regular ES6 classes, meaning that they don't automatically bind `this` to the instance. You'll have to explicitly use `.bind(this)` or arrow functions `=>`:
