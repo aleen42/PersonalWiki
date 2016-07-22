@@ -246,6 +246,9 @@ export class Counter extends React.Component {
         );
     }
 }
+
+Counter.propTypes = { initialCount: React.PropTypes.number};
+Counter.defaultProps = { initialCount: 0 };
 ```
 
 Another difference is that `propTypes` and `defaultProps` are defined as properties on the constructor instead of in the class body.
