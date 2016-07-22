@@ -121,4 +121,3 @@ var MyComponent = React.createClass({
 ```
 
 ### Default Prop Values
-
