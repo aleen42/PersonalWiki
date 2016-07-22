@@ -241,7 +241,11 @@ export class Counter extends React.Component {
     }
     
     render() {
-        
+        return (
+            <div onClick={this.tick}>
+                {this.state.count
+            </div>
+        );
     }
 }
 ```
