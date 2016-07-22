@@ -7,3 +7,9 @@ Therefore, we can use [JSX spread attributes](./../jsx_spread_attributes/jsx_spr
 ```js
 <Component {...this.props} more="value" />
 ```
+
+Ignoring JSX, you can also use any object helpers such as ES6 `Object.assign` or Underscore `_.extend`:
+
+```js
+React.createElement(Component, Object.assign{}, this.props, { more: 'value' });
+```
