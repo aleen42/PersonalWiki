@@ -78,3 +78,7 @@ Courtesy of [WangZixiao](https://medium.com/u/f73d39bdfb7d) **[586 Stars]**
 Courtesy of Andrei Hrabouski **[220 Stars]**
 
 ![](./1.gif)
+
+[FB Basketball game clone built in React.JS Native.](https://github.com/faridsafi/react-native-basketball)
+
+Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[111 Stars]**
