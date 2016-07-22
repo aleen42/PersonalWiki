@@ -58,3 +58,6 @@ Courtesy of [Race604](https://medium.com/u/b6daafb44ceb) **[2624 Stars]**
 [A Camera app for React Native (also supports barcode scanning).](https://github.com/lwansbrough/react-native-camera)
 
 Courtesy of [@CharlieHawker](https://twitter.com/CharlieHawker) **[1140 Stars]**
+
+![](./7.png)
+
