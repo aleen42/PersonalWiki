@@ -1,1 +1,1 @@
-## Transferrring Props [Back](./../react.md)
+## Transferring Props [Back](./../react.md)
