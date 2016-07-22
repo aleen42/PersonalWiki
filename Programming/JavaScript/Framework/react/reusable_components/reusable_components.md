@@ -173,7 +173,7 @@ var SetIntervalMixins = {
     },
     
     componentWillUnmount: function () {
-        this.interval.forEach(clearInterval);)
+        this.interval.forEach(clearInterval);
     }
 };
 ```
