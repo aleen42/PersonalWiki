@@ -162,4 +162,4 @@ Courtesy of Twitter Engineer [Bonnie Eisenman](https://medium.com/u/88ac114d185d
 
 ![](./20.png)
 
-For Advanced — Pro React.
+For Advanced — [Pro React.](http://www.amazon.com/gp/product/1484212614?ie=UTF8&camp=1789&creativeASIN=1484212614&linkCode=xm2&tag=mybridge-20)
