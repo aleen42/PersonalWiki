@@ -120,4 +120,4 @@ Courtesy of [Armin Ronacher](https://medium.com/u/d38a80b1d039) **[9229 Stars]**
 
 [Isomorphic500: A web application featuring photos from 500px, built on express using React and Flux with yahoo/fluxible.](https://github.com/gpbl/isomorphic500)
 
-Courtesy of gp [953 Stars]
+Courtesy of [gp](https://medium.com/u/9bb1e7ea08d2) **[953 Stars]**
