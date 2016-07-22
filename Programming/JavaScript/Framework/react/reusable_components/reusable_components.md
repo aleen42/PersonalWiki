@@ -138,7 +138,7 @@ The result of `getDefaultProps()` will be cached and used to ensure that `this.p
 
 ### Transferring Props: A Shortcut
 
-Using spread operations to directly pass any props from owner componen to the ownee one.
+Using [JSX spread attributes](./../jsx_spread_attributes/jsx_spread_attributes.md) to directly pass any props from owner componen to the ownee one.
 
 ```js
 var CheckLink = React.createClass({
