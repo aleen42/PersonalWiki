@@ -138,3 +138,8 @@ The result of `getDefaultProps()` will be cached and used to ensure that `this.p
 
 ### Transferring Props: A Shortcut
 
+```js
+var CheckLink = React.createClass({
+    
+});
+```
