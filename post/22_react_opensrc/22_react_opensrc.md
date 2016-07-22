@@ -42,3 +42,7 @@ Courtesy of [Catalin MIRON](https://medium.com/u/4b53d99b3317) **[1073 Stars]**
 Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[919 Stars]**
 
 ![](./4.png)
+
+[iOS's Stocks App clone: Written in React Native available both iOS and Android.](https://github.com/7kfpun/FinanceReactNative)
+
+Courtesy of [kf](https://medium.com/u/e113f0f1abc9) **[609** Stars]
