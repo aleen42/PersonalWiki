@@ -290,7 +290,7 @@
             * [Caching checklist](./post/leverage_browser_caching/caching_checklist/caching_checklist.md)
         * [[轉載] Javascript中判斷數組的正確姿勢](./post/array_inference_in_javascript/array_inference_in_javascript.md)
         * [[轉載] JavaScript 原型中的哲學思想](./post/prototype_of_javascript/prototype_of_javascript.md)
-        * [[轉載] 前端](./post/frontend_interview/frontend_interview.md)
+        * [[轉載] 前端開發面試題](./post/frontend_interview/frontend_interview.md)
 - Questions & Answer
     * [Q&A](./qa/qa.md)
         * [How to use browser better](./qa/better_browser.md)
