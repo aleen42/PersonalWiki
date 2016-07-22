@@ -285,3 +285,5 @@ Using Arrow Function to define a React class:
 var HelloMessage = (props) => <div>Hello, {props.name}</div>;
 ReactDOM.render(<HelloMessage name="aleen" />, document.getElementById('content'));
 ```
+
+*Notice that: remember to set `propTypes` and `defaultProps`*
