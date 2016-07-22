@@ -214,7 +214,7 @@ React provides [lifecycle methods](https://facebook.github.io/react/docs/working
 ### ES6 Classes
 
 ```js
-class HellMessage extends React.Component {
+class HelloMessage extends React.Component {
     render() {
         return (
             <div>Hello, {this.props.name}</div>
@@ -222,3 +222,4 @@ class HellMessage extends React.Component {
     }
 }
 ```
+
