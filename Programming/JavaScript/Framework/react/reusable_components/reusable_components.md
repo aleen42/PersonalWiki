@@ -274,6 +274,6 @@ Using Function to define a React class:
 
 ```js
 function HellMessage(props) {
-    
+    return <div>Hello, {props</div>
 }
 ```
