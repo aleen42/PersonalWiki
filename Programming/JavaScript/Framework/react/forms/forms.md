@@ -102,3 +102,5 @@ However, in React, the value should always be `Untitled`, no matter what the use
 
 #### Why Textarea Value?
 
+In HTML, the value of `<textarea>` is usually set using its children:
+
