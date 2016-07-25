@@ -18,3 +18,4 @@ function f(a, b) {
 }
 ```
 
+With Rest Parmeters, we
