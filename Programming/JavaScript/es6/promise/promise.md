@@ -57,3 +57,7 @@ promiseObj.catch(function () {
 #### resolve()
 
 `Promise.resolve(reason)` will return a promise, which has been resolved with the reason.
+
+### Compatibility
+
+**Q / Bluebird / Async / co / then / Babel** has been supported asynchronous 
