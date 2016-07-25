@@ -122,3 +122,6 @@ drawES6Chart({
 ```
 
 #### Load modules
+
+Destructuring Assignments can help loading specific modules from a whold module like [Add-on SDK](https://developer.mozilla.org/en-US/Add-ons/SDK):
+
