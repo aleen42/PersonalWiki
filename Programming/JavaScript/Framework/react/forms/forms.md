@@ -84,3 +84,9 @@ Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultC
 
 #### Why Controlled Components?
 
+In HTML:
+
+```html
+<input type="text" name="title" value="Untitled" />
+```
+
