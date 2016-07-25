@@ -79,3 +79,7 @@ i. **Face Alignment** : To replace one face with another, we first need place on
 - iii. **Delaunay Triangulation **
 
     The next step in alignment is to do a [Delaunay triangulation](http://www.learnopencv.com/delaunay-triangulation-and-voronoi-diagram-using-opencv-c-python/) of the points on the convex hull. The triangulation is shown in the middle image in Figure 3. This allows us to divide the face into smaller parts. My previous post that explains Delaunay triangulation in detail can be found here
+    
+- iv. **Affine warp triangles **
+
+    The final steps of face alignment to to consider corresponding triangles between the source face and the target face, and affine warp the source face triangle onto the target face. More details can be found in my post about [Face Morphing](http://www.learnopencv.com/face-morph-using-opencv-cpp-python/). However, as you can see in the right image of Figure 3, aligning the face and slapping one face on top of the other hardly looks unnatural. The seams are visible because of lighting and skin tone differences between the two images. The next step shows how to seamlessly combine the two images.
