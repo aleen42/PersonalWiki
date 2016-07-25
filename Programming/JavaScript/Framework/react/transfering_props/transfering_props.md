@@ -103,3 +103,7 @@ console.log(x);     /** => 1              */
 console.log(y);     /** => 2              */
 console.log(z);     /** => { a: 1, b: 2 } */
 ```
+
+> **NOTE:**
+
+> To transform rest and spread properties using Babel 6, you need to install the `es2015` preset, the `transform-object-rest-spread` plugin and configure them in the `.babelrc` file.
