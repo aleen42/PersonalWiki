@@ -82,6 +82,7 @@
                 * [ES6 features](./Programming/JavaScript/es6/es6.md)
                     * [Promise](./Programming/JavaScript/es6/promise/promise.md)
                     * [Spread Operators](./Programming/JavaScript/es6/spread_operators/spread_operators.md)
+                    * [Rest Parameters](./Programming/JavaScript/es6/rest_param/rest_param.md)
         * [SVG](./Programming/SVG/SVG.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
