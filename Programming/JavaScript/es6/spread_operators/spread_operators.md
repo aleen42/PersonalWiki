@@ -20,3 +20,9 @@ function myFunction(x, y, z) {}
 var args = [0, 1, 2];
 myFunction.apply(null, args);
 ```
+
+But in ES6, you can code like this:
+
+```js
+
+```
