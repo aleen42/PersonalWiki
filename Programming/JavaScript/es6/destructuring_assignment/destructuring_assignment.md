@@ -49,4 +49,10 @@ console.log(a);         /** => 3        */
 console.log(b);         /** => 1        */
 ```
 
+#### Return multiple values
 
+```js
+function f() {
+    return [1, 3];
+}
+```
