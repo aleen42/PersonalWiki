@@ -55,6 +55,8 @@ function FancyCheckBox(props) {
     var { checked, ...other} = props;
     var fancyClass = checked ? 'FancyChecked' : 'FancyUnchecked';
     
+    /** other contains { onClick: console.log } but not the checked property */
+    
     
 }
 ```
