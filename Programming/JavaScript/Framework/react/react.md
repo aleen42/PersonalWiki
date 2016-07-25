@@ -23,3 +23,4 @@
 - [**Multiple Components**](./multiple_components/multiple_components.md)
 - [**Reusable Components**](./reusable_components/reusable_components.md)
 - [**Transferring Props**](./transfering_props/transfering_props.md)
+- [**Forms**](./forms/forms.md)
