@@ -94,6 +94,8 @@ In ES5:
 
 ```js
 function drawES5Chart(options) {
-    options = options === undefiend ? {} : options;
+    options = options === undefined ? {} : options;
+    var size = options.size === undefined ? 'big' : options.size;
+    var cords = options.cords ===
 }
 ```
