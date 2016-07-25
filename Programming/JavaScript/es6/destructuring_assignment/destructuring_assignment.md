@@ -108,7 +108,7 @@ drawES5Chart({
 });
 ```
 
-In ES6:
+In ES6 (still not work in Firefox):
 
 ```js
 function drawES6Chart({ size = 'big', cords = { x: 0, y: 0 }, radius = 25 } = {}) {
