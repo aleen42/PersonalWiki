@@ -100,3 +100,7 @@ output = cv2.seamlessClone(src, dst, mask, center, cv2.NORMAL_CLONE)
 ```cpp
 seamlessClone(src, dst, mask, center, output, NORMAL_CLONE);
 ```
+
+![](./4.jpg)
+
+
