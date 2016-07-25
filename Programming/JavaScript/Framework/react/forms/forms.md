@@ -70,6 +70,6 @@ If you want to initialize the component with a non-empty value, you can supply a
 
 ```js
 render: function () {
-    return <input type="text" defaultValue="Hello!" />
+    return <input type="text" defaultValue="Hello!" />;
 }
 ```
