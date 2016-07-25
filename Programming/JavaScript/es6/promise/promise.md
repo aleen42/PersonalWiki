@@ -49,3 +49,7 @@ promiseObj.catch(function () {
 #### race()
 
 `Promise.all(iterator)` should return a promise, which will **be resolved or rejected once one of the iterator has been resoved and rejected**.
+
+#### reject()
+
+`Promise.reject(reason)` will return a promise, which has been rejected with the reason.
