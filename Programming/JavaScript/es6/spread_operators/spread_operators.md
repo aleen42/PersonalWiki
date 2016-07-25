@@ -32,4 +32,8 @@ myFunction(-a, ...args, 2, ...[3]);
 
 ### Powerful Array Literal
 
-With Spread Operator, 
+With Spread Operator, we can code less to add attributes to an array:
+
+```js
+var parts = ['shoulder', 'knee'];
+```
