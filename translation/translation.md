@@ -2,11 +2,9 @@
 
 #### Translate
 
-> Notice that: 
+> Notice that: anyone who wants to proofread my translation, can just fork my [GitHub Projects](https://github.com/aleen42/PersonalWiki), and find out the corresponding file and make a change. 
 
-> anyone who wants to proofread my translation, can just fork my [GitHub Projects](https://github.com/aleen42/PersonalWiki), and find out the corresponding file and make a change. 
-
->所有想校對我翻譯的, 均可拉取我的 [GitHub 項目](https://github.com/aleen42/PersonalWiki), 並找到對應的文件去修改.
+> 注意: 所有想校對我翻譯的, 均可拉取我的 [GitHub 項目](https://github.com/aleen42/PersonalWiki), 並找到對應的文件去修改.
 
 - [**Distributing React components**](./distributing_react_components/distributing_react_components.md)
 - [**Your Timeline for Learning React**](./your_timeline_for_learning_react/your_timeline_for_learning_react.md)
