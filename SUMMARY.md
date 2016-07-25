@@ -80,6 +80,7 @@
                 * [Shim and Polyfills](./Programming/JavaScript/shim_and_polyfills/shim_and_polyfills.md)
                 * [Strict Mode](./Programming/JavaScript/strict_mode/strict_mode.md)
                 * [ES6 features](./Programming/JavaScript/es6/es6.md)
+                    * [Promise](./Programming/JavaScript/es6/promise/promise.md)
         * [SVG](./Programming/SVG/SVG.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
