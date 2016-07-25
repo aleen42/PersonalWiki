@@ -77,7 +77,7 @@ console.log(b);         /** => 3        */
 #### Simple example
 
 ```js
-var o = { p: 42, q: true };
+var { m, n } = { p: 42, q: true };
 
-var { m, n } = o
+
 ```
