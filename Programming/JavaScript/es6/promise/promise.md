@@ -4,5 +4,6 @@ Promise is used for asynchronous calculating, which is an object which means tha
 
 ```js
 var promiseObj = new Promise(function ()) {
-
+    
+};
 ```
