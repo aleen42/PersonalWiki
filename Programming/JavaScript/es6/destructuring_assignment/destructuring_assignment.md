@@ -96,6 +96,7 @@ In ES5:
 function drawES5Chart(options) {
     options = options === undefined ? {} : options;
     var size = options.size === undefined ? 'big' : options.size;
-    var cords = options.cords ===
+    var cords = options.cords === undefined ? { x: 0, y: 0 } : options.cords;
+    var radius = options.radius === undefined ? 25: options.radius;
 }
 ```
