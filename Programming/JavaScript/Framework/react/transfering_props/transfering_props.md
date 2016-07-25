@@ -42,3 +42,8 @@ But what about the `name`, `title` or `onMouseOver` prop?
 
 Sometimes, it's fragile(易碎) and tedious(冗長) to pass every property along. Therefore, we can use [destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to extract.
 
+As followed, you can list out all the properties that you would like to consume(銷毀), followed by `...other`.
+
+```js
+var { checked, ...other } = props;
+```
