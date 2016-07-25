@@ -44,5 +44,5 @@ promiseObj.catch(function () {
 
 - `all()`
 
-`Promise.all(iterator)` should return a promise, which can be only resolved until all promises in the iterator have been resolved, same as rejected.
+`Promise.all(iterator)` should return a promise, which can **be only resolved until all promises in the iterator have been resolved**, same as rejected.
 
