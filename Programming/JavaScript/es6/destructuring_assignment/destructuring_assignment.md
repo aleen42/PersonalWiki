@@ -111,7 +111,7 @@ drawES5Chart({
 In ES6:
 
 ```js
-function drawES6Chart({  }) {
+function drawES6Chart({ size = 'big', cords = { x: 0, y: 0 }, radius = 25 } = {}) {
 
 }
 ```
