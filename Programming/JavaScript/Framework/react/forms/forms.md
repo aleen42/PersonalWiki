@@ -75,3 +75,7 @@ render: function () {
 ```
 
 Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultChecked`, and `<select>` supports `defaultValue`.
+
+> Note:
+
+> The `defaultValue` and `defaultChecked` props are only used during initial render. If you need to update the value in a subsequent render, you will need to use a **controlled component**.
