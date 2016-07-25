@@ -99,4 +99,12 @@ function drawES5Chart(options) {
     var cords = options.cords === undefined ? { x: 0, y: 0 } : options.cords;
     var radius = options.radius === undefined ? 25: options.radius;
 }
+
+drawES5Chart({
+    cords: { x: 18, y: 30 },
+    radius: 30
+});
 ```
+
+In ES6:
+
