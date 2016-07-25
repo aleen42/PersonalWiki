@@ -14,7 +14,7 @@ By far, in ES5, we will code like this:
 
 ```js
 function f(a, b) {
-    
+    var args = Array.prototype.slice.all(arguments, f.length);
 }
 ```
 
