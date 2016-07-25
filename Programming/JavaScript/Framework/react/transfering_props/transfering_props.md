@@ -16,4 +16,4 @@ React.createElement(Component, Object.assign{}, this.props, { more: 'value' });
 
 ### Manual Transfer
 
-
+Most of the time you should explicitly pass the properties down. This ensures that you only expose a subset of the inner API。
