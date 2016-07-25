@@ -19,3 +19,9 @@ function f(a, b) {
 ```
 
 With Rest Parameters, we can easily use an array to store rest arguments.
+
+```js
+function fLength(...args) {
+    console.log(args.length);
+}
+```
