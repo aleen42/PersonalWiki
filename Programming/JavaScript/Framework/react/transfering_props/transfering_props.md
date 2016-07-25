@@ -41,3 +41,4 @@ But what about the `name`, `title` or `onMouseOver` prop?
 ### Transferring with `...` in JSX
 
 Sometimes, it's fragile(易碎) and tedious(冗長) to pass every property along. Therefore, we can use [destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) to extract.
+
