@@ -9,3 +9,12 @@ function (a, b, ...args) {
     /** ... */
 }
 ```
+
+By far, in ES5, we will code like this:
+
+```js
+function f(a, b) {
+    
+}
+```
+
