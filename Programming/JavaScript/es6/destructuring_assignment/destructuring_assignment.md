@@ -39,3 +39,9 @@ var [one, two, three] = foo;
 
 #### Swapping variables
 
+```js
+var a = 1;
+var b = 3;
+
+[a, b] = [b, a];
+```
