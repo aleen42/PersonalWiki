@@ -52,6 +52,9 @@ That ensures that you pass down all the props **EXCEPT** the consumed prop `chec
 
 ```js
 function FancyCheckBox(props) {
+    var { checked, ...other} = props;
+    var fancyClass = checked ? 'FancyChecked' : 'FancyUnchecked';
+    
     
 }
 ```
