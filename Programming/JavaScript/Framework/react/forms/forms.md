@@ -39,7 +39,7 @@ handleChanged: function(event) {
 
 render: function () {
     return (
-        
+        <input type="text" value={this.state.value} />
     );
 }
 ```
