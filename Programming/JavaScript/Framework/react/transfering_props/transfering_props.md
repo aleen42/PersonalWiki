@@ -71,7 +71,7 @@ ReactDOM.render(
 
 ### Consuming and Transferring Again
 
-If you want to consume a property but also want to pass it along, you can repass it explicitly.
+If you want to consume a property but also want to pass it along, you can repass it explicitly. Rather than passing the full `props`, this way is easier to refactor and lin
 
 ```js
 
