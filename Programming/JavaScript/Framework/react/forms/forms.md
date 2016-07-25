@@ -82,3 +82,5 @@ Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultC
 
 ### Discussions
 
+#### Why Controlled Components?
+
