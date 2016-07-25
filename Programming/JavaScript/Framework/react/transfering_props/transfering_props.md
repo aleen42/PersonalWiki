@@ -75,6 +75,9 @@ If you want to consume a property but also want to pass it along, you can repass
 
 ```js
 function FancyCheckbox(props) {
+    var { checked, title, ...other } = props;
+    var fancyClass = checked ? 'FancyChecked' : 'FancyUnchecked';
+    var fancyTitle = checked ? 'X ' + title : 'O ' + title;
     
 }
 ```
