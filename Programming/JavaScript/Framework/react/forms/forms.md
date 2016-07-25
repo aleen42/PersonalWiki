@@ -45,3 +45,6 @@ render: function () {
 ```
 
 *Notice that: A **Controlled** component does not maintain its own internal state; the component renders purely based on props.*
+
+#### Potential Problems with checkbox or radio buttons
+
