@@ -93,3 +93,5 @@ function FancyCheckbox(props) {
 > Order matters. By putting the `{...other}` before your JSX props you ensure that the consumer of your component can't override them.
 
 ### Rest and Spread Properties `...`
+
+Rest properties allow you to **extract the remaining properties** from an object into a new object. It excludes every other property listed in the destructuring pattern.
