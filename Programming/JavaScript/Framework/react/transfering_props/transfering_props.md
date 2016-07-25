@@ -123,7 +123,3 @@ function FancyCheckBox(props) {
     );
 }
 ```
-
-```js
-
-```
