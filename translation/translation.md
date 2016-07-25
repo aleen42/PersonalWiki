@@ -2,6 +2,8 @@
 
 #### Translate
 
+***Notice that: anyone who wants to proofread my translation***
+
 - [**Distributing React components**](./distributing_react_components/distributing_react_components.md)
 - [**Your Timeline for Learning React**](./your_timeline_for_learning_react/your_timeline_for_learning_react.md)
 - [**Stack Overflow: The Architecture - 2016**](./stack_overflow_architecture/stack_overflow_architecture.md)
