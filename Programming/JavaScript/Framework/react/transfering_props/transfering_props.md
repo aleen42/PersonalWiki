@@ -20,6 +20,8 @@ Most of the time you should **explicitly pass** the properties **down**. This en
 
 ```js
 function FancyCheckBox(props) {
-
+    var fancyClass = props.checked ? 'FancyChecked' : 'FancyUnchecked';
+    
+    
 }
 ```
