@@ -14,4 +14,6 @@ var promiseObj = new Promise(function (resolve, reject)) {
 
 A Promise object will only have **three states**:
 
-- 
+- pending: the initial state
+- fulfilled: successful state
+- rejected: failed state
