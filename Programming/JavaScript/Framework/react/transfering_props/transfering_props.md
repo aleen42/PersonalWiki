@@ -74,6 +74,8 @@ ReactDOM.render(
 If you want to consume a property but also want to pass it along, you can repass it explicitly. Rather than passing the full `props`, this way is easier to refactor and lint(語法檢查).
 
 ```js
-
+function FancyCheckbox(props) {
+    
+}
 ```
 
