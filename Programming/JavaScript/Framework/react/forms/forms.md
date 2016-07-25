@@ -90,4 +90,4 @@ In HTML, we suppose that we have a `<input>` tag:
 <input type="text" name="title" value="Untitled" />
 ```
 
-When
+When the user updates the input, the node's `vaule` *property* will change
