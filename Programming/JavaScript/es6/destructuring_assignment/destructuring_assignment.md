@@ -135,5 +135,5 @@ const { Loader, main } = require('toolkit/loader');
 let key = 'z';
 let { [key]: foo } = { z: 'bar' };
 
-console.log(foo);           /** => bar      */
+console.log(foo);       /** => bar      */
 ```
