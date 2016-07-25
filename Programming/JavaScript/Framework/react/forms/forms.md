@@ -137,3 +137,4 @@ To make an uncontrolled component, `defaultValue` is used instead.
 
 #### Imperative operations(緊急操作)
 
+If you need to imperatively perform an operation, you have to obtain a reference to the DOM node. For instance, if you want to imperatively submit a form, one approach would be to attach a `ref` to the `form` element and manually call `form.submit()`.
