@@ -55,9 +55,9 @@ Be aware that, in an attempt to normalize change handling for checkbox and radio
 An `<input>` without a `value` property is an *uncontrolled* component:
 
 ```js
-render: function () (
+render: function () {
     return <input type="text" />;
-)
+}
 ```
 
 If you want to listen to updates to the value, you can also use `onChange` like handling controlled components.
@@ -70,6 +70,6 @@ If you want to initialize the component with a non-empty value, you can supply a
 
 ```js
 render: function () {
-    
+    return <input 
 }
 ```
