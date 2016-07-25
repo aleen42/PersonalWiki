@@ -40,3 +40,9 @@ promiseObj.catch(function () {
 });
 ```
 
+### Other functions
+
+- `all()`
+
+`Promise.all(iterator)` shold return a promise, which can be only resolved until all promises in the iterator have been resolved, same as rejected.
+
