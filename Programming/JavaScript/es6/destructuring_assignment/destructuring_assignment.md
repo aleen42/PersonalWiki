@@ -65,4 +65,6 @@ Of course, you can ignroe some return value like this:
 function f() {
     return [1, 2, 3];
 }
+
+var [a, , b] = f();
 ```
