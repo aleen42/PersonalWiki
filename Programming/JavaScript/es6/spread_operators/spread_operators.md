@@ -24,5 +24,8 @@ myFunction.apply(null, args);
 But in ES6, you can code like this:
 
 ```js
+function myFunction(v, w, x, y, z) {}
 
+var args = [0, 1];
+myFunction(-a, ...args, 2, ...[3]);
 ```
