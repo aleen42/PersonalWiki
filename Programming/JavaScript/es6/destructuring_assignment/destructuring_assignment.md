@@ -73,3 +73,8 @@ console.log(b);         /** => 3        */
 ```
 
 ### Destructuring Object
+
+#### Simple example
+
+```js
+```
