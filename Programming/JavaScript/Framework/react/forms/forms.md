@@ -32,4 +32,8 @@ User input will have no effect on the rendered element because React has declare
 getInitialState: function () {
     return { value: 'Hello!' };
 }
+
+handleChanged: function(event) {
+    this.setState({ value: event.target.value });
+}
 ```
