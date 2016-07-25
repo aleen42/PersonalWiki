@@ -89,3 +89,35 @@
 &nbsp; &nbsp; &nbsp; &nbsp;无监督学习曾经促进了深度学习领域的复兴，但纯粹的监督学习的所取得的巨大成功掩盖了其作用。我们期待无监督学习能成为在长期看来的更重要的方法。人类和动物的学习主要是无监督的方式：我们通过自主地观察世界而不是被告知每个对象的名称来发现世界的结构。我们期待未来大部分关于图像理解的进步来自于训练端到端的模型，并且将常规的CNN和使用了强化学习的RNN结合起来，实现更好的聚焦机制。深度学习和强化学习系统的结合目前还处于起步阶段，但他们已经在分类任务上超越了被动视觉系统，并在学习视频游戏领域中取得了不俗的成绩。
 
 ### **参考文献**
+
+1. Krizhevsky, A., Sutskever, I. & Hinton, G. ImageNet classification with deep convolutional neural networks. In Proc. Advances in Neural Information Processing Systems 25 1090–1098 (2012).
+
+2. Hinton, G. et al. Deep neural networks for acoustic modeling in speech recognition. IEEE Signal Processing Magazine 29, 82–97 (2012).
+
+3. Sutskever, I. Vinyals, O. & Le. Q. V. Sequence to sequence learning with neural networks. In Proc. Advances in Neural Information Processing Systems 27 3104–3112 (2014).
+
+4. Fredkin, E.: Trie memory. Communications of the ACM 3(9), 490–499 (1960)
+
+5. Glorot, X., Bordes, A., Bengio, Y.: Deep sparse rectifier neural networks. In: International Conference on Artificial Intelligence and Statistics. pp. 315–323 (2011)
+
+6. He, K., Zhang, X., Ren, S., Sun, J.: Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In: ICCV (2015)
+
+7. Herlihy, M., Shavit, N.: The art of multiprocessor programming. Revised Reprint (2012)
+
+8. Hinton, G.E., Srivastava, N., Krizhevsky, A., Sutskever, I., Salakhutdinov, R.R.: Improving neural networks by preventing co-adaptation of feature detectors. arXiv preprint arXiv:1207.0580 (2012)
+
+9. Jelinek, F.: Interpolated estimation of markov source parameters from sparse data. Pattern recognition in practice (1980)
+
+10. Kingma, D.P., Adam, J.B.: A method for stochastic optimization. In: International Conference on Learning Representation (2015)
+
+11. Lai, S., Liu, K., Xu, L., Zhao, J.: How to generate a good word embedding? arXiv preprint arXiv:1507.05523 (2015)
+
+12. Maas, A.L., Hannun, A.Y., Ng, A.Y.: Rectifier nonlinearities improve neural net- work acoustic models. In: Proc. ICML. vol. 30, p. 1 (2013)
+
+13. Mikolov, T., Deoras, A., Kombrink, S., Burget, L., Cernocky, J.: Empirical evalu- ation and combination of advanced language modeling techniques. Proceedings of Interspeech pp. 605–608 (2011)
+
+14. Mikolov, T., Chen, K., Corrado, G., Dean, J.: Efficient estimation of word repre- sentations in vector space. arXiv preprint arXiv:1301.3781 (2013)
+
+15. Mnih, A., Hinton, G.: A scalable hierarchical distributed language model (2009)
+
+16. Mnih, A., Teh, Y.W.: A fast and simple algorithm for training neural probabilistic language models (2012)
