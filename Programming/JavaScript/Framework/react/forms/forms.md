@@ -22,6 +22,6 @@ Form components allow listening for changes by setting a callback to the `onChan
 
 ```js
 render: function () {
-    return <input type="text" value="Hello!" />
+    return <input type="text" value="Hello!" />;
 }
 ```
