@@ -90,4 +90,4 @@ In HTML, we suppose that we have a `<input>` tag:
 <input type="text" name="title" value="Untitled" />
 ```
 
-When the user updates the input, the node's `vaule` *property* will change
+When the user updates the input, the node's `vaule` *property* will change. However, `node.getAtribute('value')` should still return the value used at initialization time, `Untitled`.
