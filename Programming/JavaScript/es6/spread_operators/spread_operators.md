@@ -6,3 +6,8 @@ In ES6, Spread Operators `...` is used to spread an array into more than one arg
 /** method call */
 myFunction(...args)
 ```
+
+```js
+/** array literal */
+[...iteralObject, 4, 5, 6]
+```
