@@ -25,3 +25,19 @@ Consider the images of top three presidential candidates in Figure 2.
 ![](./2.jpg)
 
 **Figure 2 : Original Image of Presidential Candidates**
+
+The three images are pretty different. Yes, Donald Trump is very ugly, but that is not what I mean.
+
+First, the facial geometry of regular human beings like Secretary Hillary Clinton and Senator Ted Cruz varies quite a bit. Add Donald Trump to the mix, and you now have to deal with outliers that lie on the intersection of homo sapiens and some unknown primate with funny hair.
+
+Second, the lighting on the face combined with the tone of the skin can make the images look very different. E.g. Secretary Hillary Clinton’s image looks yellow, while Senator Ted Cruz’s image looks red, and Donald Trump continues to look ugly.
+
+Third, the pose of the face ( or camera angle if you will ) can vary significantly.
+
+And finally, the texture of the skin can vary from smooth to almost leathery ( i.e. Clinton to Trump ).
+
+The technique proposed in this post will address the first two problems but not the last two.
+
+### FaceSwap : Step by Step using OpenCV
+
+1. **Face Alignment** : To replace one face with another, we first need place one face approximately on top of the other so that it covers the face below. An example is shown in Figure 3.
