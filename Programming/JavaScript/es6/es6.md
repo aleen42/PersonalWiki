@@ -2,4 +2,4 @@
 
 - [**Promise**](./promise/promise.md)
 - [**Spread Operators**](./spread_operators/spread_operators.md)
-- **Rest Parameters**
+- [**Rest Parameters**](./rest_param/rest_param.md)
