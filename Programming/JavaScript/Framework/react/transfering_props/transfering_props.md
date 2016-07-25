@@ -47,3 +47,11 @@ As followed, you can list out all the properties that you would like to consume(
 ```js
 var { checked, ...other } = props;
 ```
+
+That ensures that you pass down all the props **EXCEPT** the consumed prop `checked`:
+
+```js
+function FancyCheckBox(props) {
+    
+}
+```
