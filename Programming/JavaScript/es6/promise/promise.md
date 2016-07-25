@@ -20,7 +20,7 @@ A Promise object will only have **three states**:
 
 ### Prototype functions
 
-There are 2 prototype functions: `then()` and `catch()`:
+There are 2 prototype functions: `then()` and `catch()`, which both will return a Promise object.
 
 When a Promise object has changed its state, `Promise.prototype.then()` will be called according to the state:
 
