@@ -63,3 +63,6 @@ render: function (
 If you want to listen to updates to the value, you can also use `onChange` like handling controlled components.
 
 *Notiec that: An **uncontrolled** component maintains its own internal state.*
+
+#### Default Value
+
