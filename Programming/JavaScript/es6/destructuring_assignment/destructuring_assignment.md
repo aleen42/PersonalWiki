@@ -108,3 +108,7 @@ drawES5Chart({
 
 In ES6:
 
+```js
+function drawES6Chart() {
+
+```
