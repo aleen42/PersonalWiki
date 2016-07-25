@@ -53,3 +53,7 @@ promiseObj.catch(function () {
 #### reject()
 
 `Promise.reject(reason)` will return a promise, which has been rejected with the reason.
+
+#### resolve()
+
+`Promise.resolve(reason)` will return a promise, which has been resolved with the reason.
