@@ -71,3 +71,5 @@ var [a, , b] = f();
 console.log(a);         /** => 1        */
 console.log(b);         /** => 3        */
 ```
+
+### Destructuring Object
