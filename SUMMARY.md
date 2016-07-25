@@ -300,6 +300,8 @@
         * [[轉載] 前端開發面試題](./post/frontend_interview/frontend_interview.md)
         * [[轉載] 22個優質的 React 開源項目](./post/22_react_opensrc/22_react_opensrc.md)
         * [[轉載] 從圖像到知識: 深度神經網絡實現圖像理解的原理解析](./post/dnn_2_image/dnn_2_image.md)
+        * [[轉載] Face Swap using OpenCV ( C++ / Python )](./post/face_swap/face_swap.md)
+
 - Questions & Answer
     * [Q&A](./qa/qa.md)
         * [How to use browser better](./qa/better_browser.md)
