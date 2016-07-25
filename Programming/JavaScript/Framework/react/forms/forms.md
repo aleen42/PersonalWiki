@@ -128,3 +128,5 @@ However in React, in order to make components easier to manipulate, the followin
     <option value="C">Cranberry</option>
 </select>
 ```
+
+To make an uncontrolled component, `defaultValue` is used instead.
