@@ -78,4 +78,6 @@ console.log(b);         /** => 3        */
 
 ```js
 var o = { p: 42, q: true };
+
+var { m, n } = o
 ```
