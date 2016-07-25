@@ -79,6 +79,12 @@ function FancyCheckbox(props) {
     var fancyClass = checked ? 'FancyChecked' : 'FancyUnchecked';
     var fancyTitle = checked ? 'X ' + title : 'O ' + title;
     
+    return (
+        <label>
+            <input {...other} checked={checked} className={fancyClass} type="checkbox" />
+            {fancyTitle}
+        </label>
+    );
 }
 ```
 
