@@ -110,6 +110,8 @@ console.log(z);     /** => { a: 1, b: 2 } */
 
 ### Transferring with Underscore
 
+If you don't use JSX, you can use a library to achieve the same pattern. Underscore supports `_.omit` to filter out properties and `_.extend` to copy properties onto a new object.
+
 ```js
 
 ```
