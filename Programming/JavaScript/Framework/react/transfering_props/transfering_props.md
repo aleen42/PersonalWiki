@@ -13,3 +13,5 @@ Ignoring JSX, you can also use any object helpers such as ES6 `Object.assign` or
 ```js
 React.createElement(Component, Object.assign{}, this.props, { more: 'value' });
 ```
+
+
