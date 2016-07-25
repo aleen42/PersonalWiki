@@ -29,6 +29,8 @@ console.log(b);         /** => 2            */
 ```js
 var foo = ['one', 'two', 'three'];
 
-/** Without 
-var one = foo[0]
+/** Without destructuring */
+var one = foo[0];
+var two = foo[1];
+var three = foo[2];
 ```
