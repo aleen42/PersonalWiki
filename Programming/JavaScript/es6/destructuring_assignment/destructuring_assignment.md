@@ -24,3 +24,7 @@ console.log(b);         /** => 2            */
 
 ### Destructuring Array
 
+```js
+var foo = ['one', 'two', 'three'];
+
+```
