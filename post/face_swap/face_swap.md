@@ -41,3 +41,7 @@ The technique proposed in this post will address the first two problems but not 
 ### FaceSwap : Step by Step using OpenCV
 
 1. **Face Alignment** : To replace one face with another, we first need place one face approximately on top of the other so that it covers the face below. An example is shown in Figure 3.
+
+![](./3.jpg)
+    
+2. 
