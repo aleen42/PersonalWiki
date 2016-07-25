@@ -61,3 +61,12 @@ i. **Face Alignment** : To replace one face with another, we first need place on
     # hullIndex is a vector of indices of points 
     # that form the convex hull. 
     ```
+    
+    ```cpp
+    vector<int> hullIndex;
+    // points is of type vector<Point2f> obtained 
+    // using dlib.
+    convexHull(points, hullIndex, false, false);
+    // hullIndex is a vector of indices of points 
+    // that form the convex hull.
+    ```
