@@ -90,3 +90,10 @@ console.log(bar);       /** => true     */
 
 #### Default arguments
 
+In ES5:
+
+```js
+function drawES5Chart(options) {
+    
+}
+```
