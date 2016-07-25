@@ -27,3 +27,7 @@ render: function () {
 ```
 
 User input will have no effect on the rendered element because React has declared the value to be `Hello!`. To update the value in response to user input, you could use the `onChange` event:
+
+```js
+
+```
