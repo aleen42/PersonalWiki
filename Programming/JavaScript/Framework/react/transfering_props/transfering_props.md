@@ -65,6 +65,6 @@ function FancyCheckBox(props) {
 ReactDOM.render(
     <FancyCheckBox checked={true} onClick={console.log.bind(console)} >
     </FancyCheckBox>,
-    document.getElementById('content')
+    document.getElementById('content');
 );
 ```
