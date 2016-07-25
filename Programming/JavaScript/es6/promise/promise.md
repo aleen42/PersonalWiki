@@ -48,4 +48,4 @@ promiseObj.catch(function () {
 
 #### race()
 
-`Promise.all(iterator)` should return a promise, which will be resolved or rejected once one of the iterator has been resoved and rejected.
+`Promise.all(iterator)` should return a promise, which will **be resolved or rejected once one of the iterator has been resoved and rejected**.
