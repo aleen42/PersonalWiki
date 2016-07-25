@@ -25,6 +25,7 @@ function fLength(...args) {
     console.log(args.length);
 }
 
-fLength();      /** => 0    */
-fLength(1, 2);  /** => 2    */
+fLength();          /** => 0    */
+fLength(1, 2);      /** => 2    */
+fLength(1, 2, 3);   /** => 3    */
 ```
