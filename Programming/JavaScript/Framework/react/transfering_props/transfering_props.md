@@ -88,3 +88,6 @@ function FancyCheckbox(props) {
 }
 ```
 
+> **NOTE:**
+
+> Order matters. By putting the {...other} before your JSX props you ensure that the consumer of your component can't override them.
