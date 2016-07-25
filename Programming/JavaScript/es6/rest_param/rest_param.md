@@ -24,4 +24,7 @@ With Rest Parameters, we can easily use an array to store rest arguments.
 function fLength(...args) {
     console.log(args.length);
 }
+
+fLength();      /** => 0    */
+fLength(1, 2);  /** => 2    */
 ```
