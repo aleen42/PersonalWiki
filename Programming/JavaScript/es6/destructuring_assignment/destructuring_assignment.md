@@ -112,6 +112,6 @@ In ES6:
 
 ```js
 function drawES6Chart({ size = 'big', cords = { x: 0, y: 0 }, radius = 25 } = {}) {
-
+    console.log(size, cords, radius);
 }
 ```
