@@ -4,8 +4,11 @@ Destructuring Assignment(解構賦值) has made it possible to extract data from
 
 ```js
 var [a, b] = [1, 2];
-console.log(a);         /** => 1    */
-console.log(b);         /** => 2    */
+console.log(a);         /** => 1            */
+console.log(b);         /** => 2            */
 
 var [a, b, ...rest] = [1, 2, 3, 4, 5];
+console.log(a);         /** => 1            */
+console.log(b);         /** => 2            */
+console.log(rest);      /** => [3, 4, 5]    */
 ```
