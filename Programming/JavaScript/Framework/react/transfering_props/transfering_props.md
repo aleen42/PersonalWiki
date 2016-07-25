@@ -99,7 +99,7 @@ Rest properties allow you to **extract the remaining properties** from an object
 ```js
 var { x, y, ...z } = { x: 1, y: 2, a: 1, b: 2 };
 
-console.log(x);     /** => 1 */
-console.log(y);     /** => 2 */
+console.log(x);     /** => 1              */
+console.log(y);     /** => 2              */
 console.log(z);     /** => { a: 1, b: 2 } */
 ```
