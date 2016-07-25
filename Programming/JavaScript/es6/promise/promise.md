@@ -46,3 +46,6 @@ promiseObj.catch(function () {
 
 `Promise.all(iterator)` should return a promise, which can **be only resolved until all promises in the iterator have been resolved**, same as rejected.
 
+#### race()
+
+`Promise.all(iterator)` should return a promise, which will be resolved or rejected once one of the iterator has been resoved and rejected.
