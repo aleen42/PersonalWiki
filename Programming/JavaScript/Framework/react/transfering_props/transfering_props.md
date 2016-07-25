@@ -58,7 +58,7 @@ function FancyCheckBox(props) {
     /** other contains { onClick: console.log } but not the checked property */
     
     return (
-        <
+        <div {...other} className={fancyClass} />
     );
 }
 ```
