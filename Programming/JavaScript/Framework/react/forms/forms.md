@@ -94,7 +94,7 @@ When the user updates the input, the node's `vaule` *property* will change. Howe
 
 ```js
 render: function () {
-    return <input type="text" name="title" value="Untitled" />
+    return <input type="text" name="title" value="Untitled" />;
 }
 ```
 
