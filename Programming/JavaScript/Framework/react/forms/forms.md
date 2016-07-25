@@ -11,3 +11,7 @@ Form components support a few props that can be changed via user interacitons:
 - `selected`: `<option>` components.
 
 Form components allow listening for changes by setting a callback to the `onChange` prop.
+
+> Note:
+
+> For `<input>` and `<textarea>`, `onChange` supersedes(替代) the DOM's built-in `oninput` event handler.
