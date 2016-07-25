@@ -79,5 +79,6 @@ console.log(b);         /** => 3        */
 ```js
 var { m, n } = { p: 42, q: true };
 
-
+console.log(m);         /** => 42       */
+console.log(n);         /** => true     */
 ```
