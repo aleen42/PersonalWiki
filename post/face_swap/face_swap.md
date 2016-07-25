@@ -12,7 +12,7 @@ In this tutorial we will learn how to swap out a face in one image with a comple
 
 > To understand the description below better, [download](http://www.learnopencv.com/face-swap-using-opencv-c-python/#download) the C++ and Python code and images by subscribing to our newsletter [here](http://www.learnopencv.com/face-swap-using-opencv-c-python/#download).
 
-Ladies and gentlemen, let me present Ted Trump, Donald Clinton and Hillary Cruz. Do you like any of them ? Me neither! I know, I know, I know, the above images are pretty disturbing, but so are the original choices of presidential candidates. It is a race among clowns, so let’s have some fun at their expense.
+Ladies and gentlemen, let me present Ted Trump, Donald Clinton and Hillary Cruz. Do you like any of them ? Me neither! I know, I know, I know, the above images are pretty disturbing, but so are the original choices of presidential candidates. It is a race among clowns, so let's have some fun at their expense.
 
 This post builds on previous posts on Facial Landmark Detection, Delaunay Triangulation, Face Morphing and Seamless Cloning.
 
@@ -30,7 +30,7 @@ The three images are pretty different. Yes, Donald Trump is very ugly, but that 
 
 First, the facial geometry of regular human beings like Secretary Hillary Clinton and Senator Ted Cruz varies quite a bit. Add Donald Trump to the mix, and you now have to deal with outliers that lie on the intersection of homo sapiens and some unknown primate with funny hair.
 
-Second, the lighting on the face combined with the tone of the skin can make the images look very different. E.g. Secretary Hillary Clinton’s image looks yellow, while Senator Ted Cruz’s image looks red, and Donald Trump continues to look ugly.
+Second, the lighting on the face combined with the tone of the skin can make the images look very different. E.g. Secretary Hillary Clinton's image looks yellow, while Senator Ted Cruz's image looks red, and Donald Trump continues to look ugly.
 
 Third, the pose of the face ( or camera angle if you will ) can vary significantly.
 
@@ -52,7 +52,7 @@ i. **Face Alignment** : To replace one face with another, we first need place on
     
 - ii. **Find Convex Hull**
 
-    In Computer Vision and Math jargon, the boundary of a collection of points or shape is called a “hull”. A boundary that does not have any concavities is called a “**Convex Hull**”. In Figure 3. the image on the left shows facial landmarks detected using dlib in red and the convex hull of the points is shown in blue. The convex hull of a set of points can be calculated using OpenCV’s convexHull function.
+    In Computer Vision and Math jargon, the boundary of a collection of points or shape is called a “hull”. A boundary that does not have any concavities is called a “**Convex Hull**”. In Figure 3. the image on the left shows facial landmarks detected using dlib in red and the convex hull of the points is shown in blue. The convex hull of a set of points can be calculated using OpenCV's convexHull function.
 
     - Python:
 
