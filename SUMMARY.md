@@ -83,6 +83,7 @@
                     * [Promise](./Programming/JavaScript/es6/promise/promise.md)
                     * [Spread Operators](./Programming/JavaScript/es6/spread_operators/spread_operators.md)
                     * [Rest Parameters](./Programming/JavaScript/es6/rest_param/rest_param.md)
+                    * [Destructuring Assignment](./Programming/JavaScript/es6/destructuring_assignment/destructuring_assignment.md)
         * [SVG](./Programming/SVG/SVG.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
