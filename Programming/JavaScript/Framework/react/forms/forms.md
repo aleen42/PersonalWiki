@@ -19,3 +19,9 @@ Form components allow listening for changes by setting a callback to the `onChan
 ### Controlled Components
 
 **A Controlled** `<input>` has a `value` prop. Rendering a controlled `<input>` will reflect the value of the `value` prop.
+
+```js
+render: function () {
+    
+}
+```
