@@ -83,3 +83,5 @@ i. **Face Alignment** : To replace one face with another, we first need place on
 - iv. **Affine warp triangles **
 
     The final steps of face alignment to to consider corresponding triangles between the source face and the target face, and affine warp the source face triangle onto the target face. More details can be found in my post about [Face Morphing](http://www.learnopencv.com/face-morph-using-opencv-cpp-python/). However, as you can see in the right image of Figure 3, aligning the face and slapping one face on top of the other hardly looks unnatural. The seams are visible because of lighting and skin tone differences between the two images. The next step shows how to seamlessly combine the two images.
+    
+ii. **Seamless Cloning** : Good technical ideas are like good magic. Good magicians use a combination of physics, psychology and good old sleight of hand to achieve the incredible. Image warping alone looks pretty bad. Combine it with Seamless Cloning and the results are magical! I had written a post explaining the details here.
