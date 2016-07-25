@@ -18,3 +18,5 @@ A Promise object will only have **three states**:
 - fulfilled: successful state
 - rejected: failed state
 
+There are 2 prototype functions: `then()` and `catch()`:
+
