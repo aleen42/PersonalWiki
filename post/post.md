@@ -15,3 +15,5 @@ JavaScript 原型中的哲學思想**](./prototype_of_javascript/prototype_of_ja
 前端開發面試題**](./frontend_interview/frontend_interview.md)
 - [**[轉載] 
 22個優質的 React 開源項目**](./22_react_opensrc/22_react_opensrc.md)
+- [**[轉載] 
+從圖像到知識: 深度神經網絡實現圖像理解的原理分析**](./22_react_opensrc/22_react_opensrc.md)
