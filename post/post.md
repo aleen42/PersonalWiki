@@ -19,4 +19,4 @@ Here I want to collect some awesome articles, written by others or me.
 ### CV (Computer Visual technology)
 
 - [**[轉載] 從圖像到知識: 深度神經網絡實現圖像理解的原理解析**](./dnn_2_image/dnn_2_image.md)
-- **[轉載] Face Swap using OpenCV ( C++ / Python )**
+- [**[轉載] Face Swap using OpenCV ( C++ / Python )**](./face_swap/face_swap.md)
