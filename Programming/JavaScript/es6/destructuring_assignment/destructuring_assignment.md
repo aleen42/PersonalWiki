@@ -55,4 +55,6 @@ console.log(b);         /** => 1        */
 function f() {
     return [1, 3];
 }
+
+var [a, b] = f();
 ```
