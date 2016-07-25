@@ -26,6 +26,6 @@ When a Promise object has changed its state, `Promise.prototype.then()` will be 
 prmiseObj.then(function () {
     /** fulfilled state */
 }, function () {
-    /** rejected state /
+    /** rejected state */
 });
 ```
