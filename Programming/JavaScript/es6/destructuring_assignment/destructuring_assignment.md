@@ -24,7 +24,11 @@ console.log(b);         /** => 2            */
 
 ### Destructuring Array
 
+#### Simple example
+
 ```js
 var foo = ['one', 'two', 'three'];
 
+/** Without 
+var one = foo[0]
 ```
