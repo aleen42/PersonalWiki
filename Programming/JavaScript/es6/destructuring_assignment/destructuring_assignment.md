@@ -58,3 +58,11 @@ function f() {
 
 var [a, b] = f();
 ```
+
+Of course, you can ignroe some return value like this:
+
+```js
+function f() {
+    return [1, 2, 3];
+}
+```
