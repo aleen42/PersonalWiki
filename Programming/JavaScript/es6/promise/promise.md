@@ -11,3 +11,7 @@ var promiseObj = new Promise(function (resolve, reject)) {
     reject();
 };
 ```
+
+A Promise object will only have **three states**:
+
+- 
