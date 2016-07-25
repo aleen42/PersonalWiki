@@ -7,4 +7,5 @@ Form components such as `<input>`, `<textarea>` and `<option>` differ from other
 Form components support a few props that can be changed via user interacitons:
 
 - `value`: `<input>` or `<textarea>` components.
-- `checked`: `<input>` components of type `checkbox` or `radio`
+- `checked`: `<input>` components of type `checkbox` or `radio`.
+- `selected`: `<option>` components.
