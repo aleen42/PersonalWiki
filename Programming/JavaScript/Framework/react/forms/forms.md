@@ -91,3 +91,5 @@ In HTML, we suppose that we have a `<input>` tag:
 ```
 
 When the user updates the input, the node's `vaule` *property* will change. However, `node.getAtribute('value')` should still return the value used at initialization time, `Untitled`.
+
+However, in React, the value should always be `Untitled`, no matter what the user has changed.
