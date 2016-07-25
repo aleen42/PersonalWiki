@@ -18,4 +18,3 @@ A Promise object will only have **three states**:
 - fulfilled: successful state
 - rejected: failed state
 
-
