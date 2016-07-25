@@ -60,4 +60,4 @@ promiseObj.catch(function () {
 
 ### Compatibility
 
-**Q / Bluebird / Async / co / then / Babel** has supported asynchronous 
+**Q / Bluebird / Async / co / then / Babel** has supported asynchronous programmming.
