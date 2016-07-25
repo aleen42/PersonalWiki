@@ -21,3 +21,6 @@ console.log(b);         /** => 2            */
 { a, b, ...rest } = { a:1, b: 2, c: 3, d: 4 };
 /** ES7 Syntax */
 ```
+
+### Destructuring Array
+
