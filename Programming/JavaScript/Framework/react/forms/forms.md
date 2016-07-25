@@ -104,3 +104,7 @@ However, in React, the value should always be `Untitled`, no matter what the use
 
 In HTML, the value of `<textarea>` is usually set using its children:
 
+```html
+<!-- antipattern: DO NOT DO THIS! -->
+<textarea name="description">This is the description.</textarea>
+```
