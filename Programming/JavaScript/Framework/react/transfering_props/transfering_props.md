@@ -22,6 +22,10 @@ Most of the time you should **explicitly pass** the properties **down**. This en
 function FancyCheckBox(props) {
     var fancyClass = props.checked ? 'FancyChecked' : 'FancyUnchecked';
     
-    
+    return (
+        <div className={fancyClass} onClick={props.onClick}>
+            {props.children}
+        </div>
+    );
 }
 ```
