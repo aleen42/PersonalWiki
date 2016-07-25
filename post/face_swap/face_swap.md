@@ -43,5 +43,7 @@ The technique proposed in this post will address the first two problems but not 
 1. **Face Alignment** : To replace one face with another, we first need place one face approximately on top of the other so that it covers the face below. An example is shown in Figure 3.
 
 ![](./3.jpg)
+
+**Figure 3. Face Alignment. Left : Detected facial landmarks and convex hull. Middle : Delaunay triangulation of points on convex hull. Right : Face alignment by affine warping triangles.**
     
 2. 
