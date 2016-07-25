@@ -98,4 +98,4 @@ render: function () {
 }
 ```
 
-However, in React, the value should always be `Untitled`, no matter what the user has changed.
+However, in React, the value should always be `Untitled`, no matter what the user has changed. Therefore, the state of the view has kept in consistent.
