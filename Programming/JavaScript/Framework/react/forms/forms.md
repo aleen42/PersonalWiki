@@ -117,4 +117,6 @@ For HTML, this easily allows developers to supply multiline values. However, sin
 
 #### Why Select Value?
 
-In HTML, The selected `<option>` in an HTML `<select>` is normally specified through that option's `selected` attribute
+In HTML, The selected `<option>` in an HTML `<select>` is normally specified through that option's `selected` attribute.
+
+However in React, in order to make components easier to manipulate, the following format is adopted instead:
