@@ -52,7 +52,7 @@ i. **Face Alignment** : To replace one face with another, we first need place on
     
 - ii. **Find Convex Hull**
 
-    In Computer Vision and Math jargon, the boundary of a collection of points or shape is called a “hull”. A boundary that does not have any concavities is called a “**Convex Hull**”. In Figure 3. the image on the left shows facial landmarks detected using dlib in red and the convex hull of the points is shown in blue. The convex hull of a set of points can be calculated using OpenCV's convexHull function.
+    In Computer Vision and Math jargon, the boundary of a collection of points or shape is called a "hull". A boundary that does not have any concavities is called a "**Convex Hull**”. In Figure 3. the image on the left shows facial landmarks detected using dlib in red and the convex hull of the points is shown in blue. The convex hull of a set of points can be calculated using OpenCV's convexHull function.
 
     - Python:
 
