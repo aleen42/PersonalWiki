@@ -75,3 +75,7 @@ i. **Face Alignment** : To replace one face with another, we first need place on
     // hullIndex is a vector of indices of points 
     // that form the convex hull.
     ```
+    
+- iii. **Delaunay Triangulation **
+
+    The next step in alignment is to do a [Delaunay triangulation](http://www.learnopencv.com/delaunay-triangulation-and-voronoi-diagram-using-opencv-c-python/) of the points on the convex hull. The triangulation is shown in the middle image in Figure 3. This allows us to divide the face into smaller parts. My previous post that explains Delaunay triangulation in detail can be found here
