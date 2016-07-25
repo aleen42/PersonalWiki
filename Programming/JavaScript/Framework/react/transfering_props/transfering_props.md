@@ -117,6 +117,10 @@ function FancyCheckBox(props) {
     var checked = props.checked;
     var other = _.omit(props, 'checked');
     var fancyClass = checked ? 'fancyChecked' : 'fancyUnchecked';
+    
+    return (
+        React.DOM.div(_.extend({}, other, { className: fancyClass }))
+    );
 }
 ```
 
