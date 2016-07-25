@@ -81,4 +81,7 @@ var { m, n } = { p: 42, q: true };
 
 console.log(m);         /** => 42       */
 console.log(n);         /** => true     */
+
+/** use a new variable name */
+var { p: foo, q: bar } = { p: 42, q: true };
 ```
