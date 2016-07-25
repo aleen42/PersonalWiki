@@ -18,4 +18,4 @@ function f(a, b) {
 }
 ```
 
-With Rest Parmeters, we
+With Rest Parameters, we can easily use an array to store rest arguments.
