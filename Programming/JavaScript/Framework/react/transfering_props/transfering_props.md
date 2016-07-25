@@ -40,3 +40,4 @@ But what about the `name`, `title` or `onMouseOver` prop?
 
 ### Transferring with `...` in JSX
 
+Sometimes, it's fragile(易碎) and tedious(冗長) to pass every property along.
