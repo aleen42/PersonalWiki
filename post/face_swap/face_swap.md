@@ -103,4 +103,4 @@ seamlessClone(src, dst, mask, center, output, NORMAL_CLONE);
 
 ![](./4.jpg)
 
-
+The **src** image in the above usage is the shown in Figure 3. ( Right ). The **dst** image is image onto which we want to blend the source image (i.e. the image of Donald Trump ). The mask is calculated by filling the convex hull with white using **fillConvexPoly** and the center is the center of the bounding box that contains the mask.
