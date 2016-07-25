@@ -7,6 +7,7 @@ var promiseObj = new Promise(function (resolve, reject)) {
     /** calling resolve when the job is done */
     resolve();
     
-    /** calling
+    /** calling reject when the job failed */
+    reject();
 };
 ```
