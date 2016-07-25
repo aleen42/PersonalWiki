@@ -36,3 +36,6 @@ var three = foo[2];
 
 var [one, two, three] = foo;
 ```
+
+#### Swapping variables
+
