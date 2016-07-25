@@ -19,7 +19,7 @@ console.log(b);         /** => 2            */
 /** Notice that, without var, { a, b } = { a: 1, b: 2 }; will be illegal */
 
 { a, b, ...rest } = { a:1, b: 2, c: 3, d: 4 };
-/** ES7 Syntax */
+/** ES7 Syntax, still not work in Firefox */
 ```
 
 ### Destructuring Array
