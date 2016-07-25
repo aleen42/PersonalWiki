@@ -35,3 +35,6 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+But what about the `name`, `title` or `onMouseOver` prop?
+
