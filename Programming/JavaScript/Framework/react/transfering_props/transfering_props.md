@@ -68,3 +68,12 @@ ReactDOM.render(
     document.getElementById('content');
 );
 ```
+
+### Consuming and Transferring Again
+
+If you want to consume a property but also want to pass it along, you can repass it explicitly.
+
+```js
+
+```
+
