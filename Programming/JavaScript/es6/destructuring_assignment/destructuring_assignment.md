@@ -120,3 +120,5 @@ drawES6Chart({
     radius: 30
 });
 ```
+
+#### Load modules
