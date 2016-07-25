@@ -73,3 +73,5 @@ render: function () {
     return <input type="text" defaultValue="Hello!" />;
 }
 ```
+
+Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultChecked`, and `<select>` supports `defaultValue`.
