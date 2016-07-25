@@ -2,7 +2,7 @@
 
 #### Translate
 
-> Notice that: anyone who wants to proofread my translation, can just fork my [GitHub Projects](https://github.com/aleen42/PersonalWiki), and find out the corresponding file and make a change. 
+> Notice that: anyone who wants to proofread my translation, can just fork my [GitHub Projects](https://github.com/aleen42/PersonalWiki), and find out the corresponding file and make a change. After modification, just pull a request for your changement, and after my merge, your name will be shown on my translation works.
 
 > 注意: 所有想校對我翻譯的, 均可拉取我的 [GitHub 項目](https://github.com/aleen42/PersonalWiki), 並找到對應的文件去修改.
 
