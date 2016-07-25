@@ -28,4 +28,10 @@ function FancyCheckBox(props) {
         </div>
     );
 }
+
+ReactDOM.render(
+    <FancyCheckBox checked={true} onClick={console.log.bind(console)}>
+    </FancyCheckBox>,
+    document.getElementById('content')
+);
 ```
