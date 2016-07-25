@@ -4,7 +4,7 @@
 
 > Notice that: anyone who wants to proofread my translation, can just fork my [GitHub Projects](https://github.com/aleen42/PersonalWiki), and find out the corresponding file and make a change. After modification, just pull a request for your changement, and after my merge, your name will be shown on my translation works.
 
-> 注意: 所有想校對我翻譯的, 均可拉取我的 [GitHub 項目](https://github.com/aleen42/PersonalWiki), 並找到對應的文件去修改.
+> 注意: 所有想校對我翻譯的, 均可拉取我的 [GitHub 項目](https://github.com/aleen42/PersonalWiki), 並找到對應的文件去修改. 修改完畢後, 請為你的修改提交一次 pull request. 成功合併後, 你的名字將會出現在我的翻譯當中.
 
 - [**Distributing React components**](./distributing_react_components/distributing_react_components.md)
 - [**Your Timeline for Learning React**](./your_timeline_for_learning_react/your_timeline_for_learning_react.md)
