@@ -86,4 +86,4 @@ i. **Face Alignment** : To replace one face with another, we first need place on
     
 ii. **Seamless Cloning** : Good technical ideas are like good magic. Good magicians use a combination of physics, psychology and good old sleight of hand to achieve the incredible. Image warping alone looks pretty bad. Combine it with Seamless Cloning and the results are magical! I had written a post explaining the details here.
 
-It is a feature in OpenCV 3 that allows you to seamlessly clone parts of the source image ( identified by a mask ) onto a destination image.
+It is a feature in OpenCV 3 that allows you to [seamlessly clone](http://www.learnopencv.com/seamless-cloning-using-opencv-python-cpp/) parts of the source image ( identified by a mask ) onto a destination image.
