@@ -120,3 +120,11 @@ For HTML, this easily allows developers to supply multiline values. However, sin
 In HTML, The selected `<option>` in an HTML `<select>` is normally specified through that option's `selected` attribute.
 
 However in React, in order to make components easier to manipulate, the following format is adopted instead:
+
+```js
+<select value="B">
+    <option value="A">Apple</option>
+    <option value="B">Banana</option>
+    <option value="C">Cranberry</option>
+</select>
+```
