@@ -38,3 +38,5 @@ ReactDOM.render(
 
 But what about the `name`, `title` or `onMouseOver` prop?
 
+### Transferring with `...` in JSX
+
