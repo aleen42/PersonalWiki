@@ -98,6 +98,8 @@ function drawES5Chart(options) {
     var size = options.size === undefined ? 'big' : options.size;
     var cords = options.cords === undefined ? { x: 0, y: 0 } : options.cords;
     var radius = options.radius === undefined ? 25: options.radius;
+    
+    console.log(size, cords, radius);
 }
 
 drawES5Chart({
@@ -111,4 +113,5 @@ In ES6:
 ```js
 function drawES6Chart() {
 
+}
 ```
