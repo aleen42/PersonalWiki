@@ -108,3 +108,5 @@ In HTML, the value of `<textarea>` is usually set using its children:
 <!-- antipattern: DO NOT DO THIS! -->
 <textarea name="description">This is the description.</textarea>
 ```
+
+For HTML, this easily allows developers to supply multiline values. However, since React is JavaScript, we do not have string limitations and can use `\n` if we want newlines. In a world where we have `value` and `defaultValue`, it is ambiguous what role children play. For this reason, you should not use children when setting <textarea> values:
