@@ -94,6 +94,6 @@ In ES5:
 
 ```js
 function drawES5Chart(options) {
-    
+    options = options === undefiend ? {} : options;
 }
 ```
