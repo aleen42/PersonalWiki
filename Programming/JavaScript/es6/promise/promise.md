@@ -39,3 +39,4 @@ promiseObj.catch(function () {
     /** rejected state */
 });
 ```
+
