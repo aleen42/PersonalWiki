@@ -128,3 +128,12 @@ Destructuring Assignments can help loading specific modules from a whold module 
 ```js
 const { Loader, main } = require('toolkit/loader');
 ```
+
+#### Computed object property names and destructuring
+
+```js
+let key = 'z';
+let { [key]: foo } = { z: 'bar' };
+
+console.log(foo);           /** => bar      */
+```
