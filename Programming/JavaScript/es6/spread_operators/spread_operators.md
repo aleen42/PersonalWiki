@@ -36,6 +36,5 @@ With Spread Operator, we can code less to add attributes to an array:
 
 ```js
 var parts = ['shoulder', 'knee'];
-
-
+var body = ['head', ...parts, 'legs'];
 ```
