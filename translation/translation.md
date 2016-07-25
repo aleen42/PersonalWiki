@@ -2,7 +2,7 @@
 
 #### Translate
 
-***Notice that: anyone who wants to proofread my translation, can just fork my GitHub Projects, and find out the corresponding file and make a change.***
+*Notice that: **anyone who wants to proofread my translation, can just fork my GitHub Projects, and find out the corresponding file and make a change.***
 
 - [**Distributing React components**](./distributing_react_components/distributing_react_components.md)
 - [**Your Timeline for Learning React**](./your_timeline_for_learning_react/your_timeline_for_learning_react.md)
