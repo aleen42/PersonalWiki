@@ -71,4 +71,4 @@ React has provided some methods to hook components' lifecycles. `will` method is
 
 React supports most popular browsers, including Internet Explorer 9 and above.
 
-(We don't support older browsers that don't support ES5 methods, but you may find that your apps do work in older browsers if polyfills such as es5-shim and es5-sham are included in the page. You're on your own if you choose to take this path.)
+(We don't support older browsers that don't support ES5 methods, but you may find that your apps do work in older browsers if polyfills such as [es5-shim and es5-sham](https://github.com/es-shims/es5-shim) are included in the page. You're on your own if you choose to take this path.)
