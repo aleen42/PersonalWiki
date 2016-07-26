@@ -35,3 +35,9 @@ Until recently Computer Vision was a research area in its infancy. People who wo
     ```
 Most of the time, I just want to display an image. Call it “Image 1” for God’s sake instead of forcing me to type the window name ( “myWindow” ) over and over again.
 6. **Large research community** : As I have mentioned earlier, MATLAB is extremely popular in the academia. Latest research demos are often shared as MATLAB code. If you want to be on the cutting edge, you should be able to read MATLAB code.
+
+#### Why You Should Not MATLAB for Computer Vision : The Cons
+
+1. **Cost is HUGE** : MATLAB is hideously expensive. Let us start with basic MATLAB ($2,150) and throw in the computer vision toolbox ($1,350). But the computer vision toolbox requires the image processing toolbox ($1000). Add optimization ($1,350) and machine learning toolboxes ($1000). That brings your grand total to $6850! Ok, now you have built your application and want to deploy it. Well, you gotta buy the MATLAB compiler ($4,250). Oh you want it for two different operating systems ? That would be another $4,250. MATLAB makes sense if you get it for a discounted price through your University, or your company has a license.
+2. **Learning curve** : MATLAB is a matrix engine. There is a MATLAB way to write code which is different from general purpose programming languages like C++ or Python. And if you do not write code the MATLAB way, your code can be extremely slow.
+3. **Slower runtime** : A typical MATLAB program runs many times slower than a C++ program. Built-in MATLAB routines can be very fast, but the code you write in MATLAB will usually run much slower. Often times people end up coding computationally intensive parts in C and integrating it with MATLAB code using mex
