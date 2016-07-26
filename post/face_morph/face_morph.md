@@ -43,3 +43,7 @@ But it is very easy to find a few point correspondences. For morphing two dissim
 Morphing two faces can be done using the following steps. For simplicity, we will assume the images are of the same size, but it is not a necessity.
 
 #### 1. Find Point Correspondences using Facial Feature Detection
+
+![](./2.jpg)
+
+Let’s start by obtaining corresponding points. First, we can get a lot of points by automatically ( or manually ) by [detecting facial feature points](http://www.learnopencv.com/facial-landmark-detection/). I used dlib to detect 68 corresponding points. Next, I added four more points ( one on the right hand side ear, one on the neck, and two on the shoulders ). Finally, I added the corners of the image and half way points between those corners as corresponding points as well. Needless to say, one can add a few more points around the head and neck to get even better results, or remove the manually clicked points to get slightly worse ( but fully automatic ) results.
