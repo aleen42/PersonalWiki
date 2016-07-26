@@ -92,3 +92,5 @@ Most facial features are very well aligned. The part of the image outside the fa
 ![](./4.jpg)
 
 ![](./5.jpg)
+
+![](./6.jpg)
