@@ -61,4 +61,4 @@ React has provided some methods to hook components' lifecycles. `will` method is
 
 #### Unmounting
 
-- `componentWillUnmount()` is invoked immediately before a component is unmounted and destroyed.
+- `componentWillUnmount()` is invoked immediately before a component is unmounted and destroyed. (Cleanup should go here)
