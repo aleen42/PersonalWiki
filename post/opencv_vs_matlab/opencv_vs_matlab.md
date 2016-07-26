@@ -59,3 +59,14 @@ OpenCV is my primary tool for developing computer vision applications. I have pr
 2. **Weak documentation** : OpenCV documentation is bad. Sometimes you need to have a good understanding of the algorithm, and actually read the paper, because the documentation does not always explain what the parameters mean and how they effect the outcome. The documentation does not always come with sample code, and that makes it harder to understand. The sample code that comes with OpenCV, though very useful, is also not very well documented either. Let’s just say this is work in progress, and people are chipping in to make it better.
 3. **Small machine learning library** : A computer vision engineer frequently needs many machine learning routines. OpenCV has a small set of machine learning algorithms compared to the choices available when you are using OpenCV (Python).
 4. **Visualization and debugging** : Debugging and visualizing is hard in any C++ environment. This is especially true if you are coming up with a new algorithm from scratch. Occasionally I dump data to disk, and analyze it using MATLAB.
+
+### OpenCV (Python) for Computer Vision
+
+I believe python bindings for OpenCV have contributed quite a bit to its popularity. It is an excellent choice for learning Computer Vision, and is good enough for a wide variety of real world applications. Let’s look at the pros and cons.
+
+#### Why should you use OpenCV (Python) for Computer Vision : The Pros
+
+1. **Ease of use** : If you are a python programmer, using OpenCV (Python) would be very easy. Python is an easy language to learn ( especially compared to C++ ). It is also an excellent first language to learn.
+2. **Python has become the language of scientific computing** : A few years back MATLAB was called the language of scientific computing. But now, with OpenCV, numpy, scipy, scikit-learn, and matplotlib Python provides a powerful environment for learning and experimenting with Computer Vision and Machine Learning.
+Visualization and debugging : When using OpenCV (Python) you have access to a huge number of libraries written for Python. Visualization using matplotlib is about as good as MATLAB. I find debugging code in Python easier than in C++, but it does not quite match the super-easiness of MATLAB.
+Building web backend : Python is also a popular language for building websites. Frameworks like Django, Web2py, and Flask allow you to quickly put together web apps. It is very easy to use OpenCV (Python) along with these web frameworks. E.g. read this tutorial that explains how to turn your OpenCV code into a web api in under 10 minutes.
