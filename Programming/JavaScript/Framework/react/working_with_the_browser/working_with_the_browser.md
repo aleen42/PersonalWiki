@@ -59,3 +59,7 @@ var MyComponent = React.createClass({
     /** ... */
 });
 ```
+
+```js
+
+```
