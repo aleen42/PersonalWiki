@@ -26,10 +26,12 @@ Until recently Computer Vision was a research area in its infancy. People who wo
 4. **Works with OpenCV** : You can interface with OpenCV using MATLAB’s OpenCV Interface.
 5. **Great documentation** : Even staunch supporters of OpenCV admit that its documentation sucks. In contrast, MATLAB comes with great documentation and examples that are easily accessible within the IDE. Great documentation alone can make coding in MATLAB 2x faster than using OpenCV. MATLAB functions are also better designed compared to OpenCV. E.g. compare this simple code for displaying an image in OpenCV and MATLAB.
 
-```cpp
-// MATLAB
-imshow(im); 
- 
-// OpenCV 
-imshow("myWindow", im); 
-```
+    ```cpp
+    // MATLAB
+    imshow(im); 
+     
+    // OpenCV 
+    imshow("myWindow", im); 
+    ```
+Most of the time, I just want to display an image. Call it “Image 1” for God’s sake instead of forcing me to type the window name ( “myWindow” ) over and over again.
+6. **Large research community** : As I have mentioned earlier, MATLAB is extremely popular in the academia. Latest research demos are often shared as MATLAB code. If you want to be on the cutting edge, you should be able to read MATLAB code.
