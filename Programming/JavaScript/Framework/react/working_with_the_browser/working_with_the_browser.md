@@ -18,6 +18,10 @@ React has provided `findDOMNode()` function for you to catch this element like:
 
 ```js
 var MyComponent = React.createClass({
+    handleClick: function () {
+        React.findDOMNode().focus();
+    },
+
     render: function () {
         return (
             <input type="text" ref="myTextInput" />
@@ -25,4 +29,6 @@ var MyComponent = React.createClass({
         );
     }
 });
+
+
 ```
