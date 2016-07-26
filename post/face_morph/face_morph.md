@@ -18,4 +18,4 @@ Image morphing was first used extensively in the movie Willow using a technique 
 
 The idea behind Image Morphing is rather simple. Given two images $$I$$ and $$J$$ we want to create an in-between image $$M$$ by blending images $$I$$ and $$J$$. The blending of images $$I$$ and $$J$$ is controlled by a parameter $$\alpha$$ that is between 0 and 1 $$( 0 \leq \alpha \leq 1 )$$. When $$\alpha$$ is 0, the morph $$M$$ looks like $$I$$, and when $$\alpha$$ is 1, $$M$$ looks exactly like $$J$$. Naively, you can blend the images using the following equation at every pixel $$(x, y)$$
 
-$$M (x, y) = ( 1 - \alpha ) I (x, y) + \alpha J (x , y) $$
+$$M (x, y) = ( 1 - \alpha ) I (x, y) + \alpha J (x , y)$$
