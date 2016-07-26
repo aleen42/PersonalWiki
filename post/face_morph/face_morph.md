@@ -68,7 +68,7 @@ Image morphing was first used extensively in the movie Willow using a technique 
 
 The idea behind Image Morphing is rather simple. Given two images I and J we want to create an in-between image M by blending images I and J. The blending of images I and J is controlled by a parameter \alpha that is between 0 and 1 ( 0 \leq \alpha \leq 1 ). When \alpha is 0, the morph M looks like I, and when \alpha is 1, M looks exactly like J. Naively, you can blend the images using the following equation at every pixel (x, y)
 
-    \[ M (x, y) = ( 1 - \alpha ) I (x, y) + \alpha J (x , y) \]
+$$M (x, y) = ( 1 - \alpha ) I (x, y) + \alpha J (x , y)$$
 
 However, using the above equation to generate a blend between the image of Secretary Hillary Clinton and Senator Ted Cruz with \alpha set to 0.5, you will get the following terrible results.
 
@@ -117,3 +117,12 @@ From the previous step we have two sets of 80 points — one set per image. We c
 > 33 32 30
 
 > …
+
+It shows that points 38, 40 and 37 form a triangle and so on. The triangulation is shown on the two images below.
+
+![](./3.jpg)
+
+Notice the triangles in the two images capture approximately similar regions. We had started with point correspondences and now, because of triangulation, we have triangle ( or region ) correspondences.
+
+#### 3. Warping images and alpha blending
+
