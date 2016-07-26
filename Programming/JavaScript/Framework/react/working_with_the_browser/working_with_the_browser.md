@@ -4,4 +4,4 @@ Sometimes, we need to access the underlying API, perhaps to work with a third-pa
 
 ### The Virtual DOM
 
-React is very fast because it never talks to the DOM directly. React maintains a fast in-memory representation of the DOM. `render()` methods actually return a description of the DOM, and React can compare this description with the in-memory representation to compute the fastest way to update the browser.
+React is very fast because it never talks to the DOM directly. React maintains a fast in-memory representation of the DOM. `render()` methods **actually return a description of the DOM**, and React can compare this description with the in-memory representation to compute the fastest way to update the browser.
