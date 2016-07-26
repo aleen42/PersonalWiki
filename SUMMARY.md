@@ -305,7 +305,6 @@
             * [[轉載] 從圖像到知識: 深度神經網絡實現圖像理解的原理解析](./post/dnn_2_image/dnn_2_image.md)
             * [[轉載] Face Morph Using OpenCV — C++ / Python](./post/face_morph/face_morph.md)
             * [[轉載] Face Swap using OpenCV ( C++ / Python )](./post/face_swap/face_swap.md)
-
 - Questions & Answer
     * [Q&A](./qa/qa.md)
         * [How to use browser better](./qa/better_browser.md)
