@@ -16,7 +16,7 @@ Here I want to collect some awesome articles, written by others or me.
 
 - [**[轉載] 99%的人都理解錯了HTTP中GET與POST的區別**](./http_and_get/http_and_get.md)
 
-### CV (Computer Visual technology)
+### CV (Computer Vision)
 
 - [**[轉載] 從圖像到知識: 深度神經網絡實現圖像理解的原理解析**](./dnn_2_image/dnn_2_image.md)
 - [**[轉載] OpenCV (C++ vs Python) vs MATLAB for Computer Vision**](./opencv_vs_matlab/opencv_vs_matlab.md)
