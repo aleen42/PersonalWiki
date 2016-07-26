@@ -66,3 +66,9 @@ React has provided some methods to hook components' lifecycles. `will` method is
 #### Mounted Methods
 
 - `component.forceUpdate()` can be invoked on any mounted component when you know that some depper aspect of the component's state has changed without using `this.setState()`
+
+### Browser Support
+
+React supports most popular browsers, including Internet Explorer 9 and above.
+
+(We don't support older browsers that don't support ES5 methods, but you may find that your apps do work in older browsers if polyfills such as es5-shim and es5-sham are included in the page. You're on your own if you choose to take this path.)
