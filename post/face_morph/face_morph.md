@@ -69,3 +69,7 @@ From the previous step we have two sets of 80 points — one set per image. We c
 It shows that points 38, 40 and 37 form a triangle and so on. The triangulation is shown on the two images below.
 
 ![](./3.jpg)
+
+Notice the triangles in the two images capture approximately similar regions. We had started with point correspondences and now, because of triangulation, we have triangle ( or region ) correspondences.
+
+#### 3. Warping images and alpha blending
