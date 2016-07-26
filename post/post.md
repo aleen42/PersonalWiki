@@ -19,5 +19,6 @@ Here I want to collect some awesome articles, written by others or me.
 ### CV (Computer Visual technology)
 
 - [**[轉載] 從圖像到知識: 深度神經網絡實現圖像理解的原理解析**](./dnn_2_image/dnn_2_image.md)
+- [**[轉載] OpenCV (C++ vs Python) vs MATLAB for Computer Vision**](./opencv_vs_matlab/opencv_vs_matlab.md)
 - [**[轉載] Face Morph Using OpenCV — C++ / Python**](./face_morph/face_morph.md)
 - [**[轉載] Face Swap using OpenCV ( C++ / Python )**](./face_swap/face_swap.md)
