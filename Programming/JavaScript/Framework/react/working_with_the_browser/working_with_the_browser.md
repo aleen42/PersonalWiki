@@ -35,3 +35,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+### Component LifeCycle
