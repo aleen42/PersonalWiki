@@ -16,4 +16,4 @@ In my previous posts I have covered [Facial Landmark Detection](http://www.learn
 
 Image morphing was first used extensively in the movie Willow using a technique developed at Industrial Light and Magic. A scene from the movie is shown below.
 
-The idea behind Image Morphing is rather simple. Given two images I and J we want to create an in-between image M by blending images I and J. The blending of images I and J is controlled by a parameter $$\alpha$$ that is between 0 and 1 ( 0 \leq \alpha \leq 1 ). When \alpha is 0, the morph M looks like I, and when \alpha is 1, M looks exactly like J. Naively, you can blend the images using the following equation at every pixel (x, y)
+The idea behind Image Morphing is rather simple. Given two images $$I$$ and $$J$$ we want to create an in-between image M by blending images I and J. The blending of images I and J is controlled by a parameter $$\alpha$$ that is between 0 and 1 ( 0 \leq \alpha \leq 1 ). When \alpha is 0, the morph M looks like I, and when \alpha is 1, M looks exactly like J. Naively, you can blend the images using the following equation at every pixel (x, y)
