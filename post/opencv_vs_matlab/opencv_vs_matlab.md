@@ -76,4 +76,8 @@ I believe python bindings for OpenCV have contributed quite a bit to its popular
 1. **Weak Documentation** : As I mentioned before, OpenCV(C++) documentation is not very good. But the python documentation is even worse. A novice user is left guessing how to use certain functions. E.g. at the time of writing this post it is almost impossible to find the python documentation for cv2.Subdiv2D. You will also find fewer tutorials for OpenCV (Python).
 2. **Lack of support** : Companies that support OpenCV ( Intel, AMD, NVidia etc. ) have a dog in the fight when it comes to the C++ version of OpenCV. They want you to use OpenCV and to buy their hardware (CPUs/GPUs etc.) to run these algorithms. But OpenCV (Python) seems to be the proverbial red-headed step child that does not seem to get their attention. E.g. I have not yet figured out if the Transparent API is supported in OpenCV ( Python ).
 3. **Slower run time** : Compared to C++, your programs in Python will typically run slower. To add an extra punch you can use the GPU ( using CUDA or OpenCL ) in OpenCV (C++) and have code that runs 10x faster than the Python implementation.
-4. OpenCV is written in C/C++ : One of the great benefits of an open source library is your ability to modify them to suit your needs. If you want to modify OpenCV, you have to modify the C/C++ source.
+4. **OpenCV is written in C/C++** : One of the great benefits of an open source library is your ability to modify them to suit your needs. If you want to modify OpenCV, you have to modify the C/C++ source.
+
+### Summary
+
+As engineers and craftsmen we need to use the right tool for the right job. Eventually, you have to learn all the tools in this trade. As a rule of thumb I use MATLAB / OpenCV (Python) for prototyping new algorithms, and use OpenCV (C++) in production.
