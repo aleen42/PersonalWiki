@@ -21,3 +21,6 @@ The idea behind Image Morphing is rather simple. Given two images $$I$$ and $$J$
 $$M (x, y) = ( 1 - \alpha ) I (x, y) + \alpha J (x , y)$$
 
 However, using the above equation to generate a blend between the image of Secretary Hillary Clinton and Senator Ted Cruz with $$\alpha$$ set to 0.5, you will get the following terrible results.
+
+![](./1.jpg)
+
