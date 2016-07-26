@@ -59,7 +59,4 @@ var MyComponent = React.createClass({
     /** ... */
 });
 ```
-
-```js
-
-```
+- `componentWillMount()` is invoked immediately before mounting occurs.
