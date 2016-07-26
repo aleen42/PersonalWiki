@@ -33,7 +33,7 @@ Until recently Computer Vision was a research area in its infancy. People who wo
     // OpenCV 
     imshow("myWindow", im); 
     ```
-Most of the time, I just want to display an image. Call it “Image 1” for God's sake instead of forcing me to type the window name ( “myWindow” ) over and over again.
+Most of the time, I just want to display an image. Call it “Image 1" for God's sake instead of forcing me to type the window name ( “myWindow" ) over and over again.
 6. **Large research community** : As I have mentioned earlier, MATLAB is extremely popular in the academia. Latest research demos are often shared as MATLAB code. If you want to be on the cutting edge, you should be able to read MATLAB code.
 
 #### Why You Should Not MATLAB for Computer Vision : The Cons
