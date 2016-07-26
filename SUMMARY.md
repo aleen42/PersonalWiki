@@ -304,7 +304,7 @@
             * [[轉載] 99%的人都理解錯了HTTP中GET與POST的區別](./post/http_and_get/http_and_get.md)
         * CV (Computer Visual Technology)
             * [[轉載] 從圖像到知識: 深度神經網絡實現圖像理解的原理解析](./post/dnn_2_image/dnn_2_image.md)
-            * [**[轉載] OpenCV (C++ vs Python) vs MATLAB for Computer Vision**](./opencv_vs_matlab/opencv_vs_matlab.md)
+            * [[轉載] OpenCV (C++ vs Python) vs MATLAB for Computer Vision](./post/opencv_vs_matlab/opencv_vs_matlab.md)
             * [[轉載] Face Morph Using OpenCV — C++ / Python](./post/face_morph/face_morph.md)
             * [[轉載] Face Swap using OpenCV ( C++ / Python )](./post/face_swap/face_swap.md)
 - Questions & Answer
