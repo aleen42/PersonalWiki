@@ -39,3 +39,7 @@ ReactDOM.render(
 ### Component LifeCycle
 
 Components have **3 parts** of their lifecycle:
+
+- **Mouting**:
+- **Updating**:
+- 
