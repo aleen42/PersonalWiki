@@ -61,3 +61,8 @@ var MyComponent = React.createClass({
 ```
 - `componentWillMount()` is invoked immediately before mounting occurs.
 - `componentDidMount()` is invoked immediately after mounting occurs.
+
+```js
+var MyComponent = React.
+```
+
