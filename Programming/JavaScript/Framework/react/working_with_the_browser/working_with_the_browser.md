@@ -58,3 +58,7 @@ React has provided some methods to hook components' lifecycles. `will` method is
 - `shouldComponentUpdate(object nextProps, object nextState): boolean` is invoked when a component decides whether any changes render an update to the DOM. (return `false` if React should skip updating.)
 - `componentWillUpdate(object nextProps, object nextState)` is invoked immediately before updating occurs. (`this.setState()` is forbidden to use here, or it will fall into a endless loop)
 - `componentDidUpdate(object prevProps, object prevState)` is invoked immediately after updating occurs.
+
+#### Unmounting
+
+- `componentWillUnmount()` is invoked immediately before a component is unmounted and destroyed.
