@@ -43,3 +43,5 @@ Components have **3 parts** of their lifecycle:
 - **Mouting**: a component has been inserted into the DOM
 - **Updating**: a component is re-rendered to determine if the DOM should be updated
 - **Unmounting**: a component has been removed from the DOM
+
+React has provided some methods to hook components' lifecycles. `will` method is called before somethig happens, and `did` method is called right after something happens.
