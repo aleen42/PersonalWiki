@@ -52,4 +52,4 @@ OpenCV 是我用于开发计算机视觉程序的主要工具。虽然，我也�
 #### 为何使用 OpenCV：优点
 
 1. **免费！**：OpenCV 库的绝大部分是免费的 —— 犹如免费的啤酒和免费的讲话！你完全可以在你的商业软件程序中免费使用 OpenCV，并查看到源码。如果发现了问题，你也可以根据自己的需要进行修复。当然，使用 OpenCV 的你，也并不需要开源你的项目。
-2. **大量经过优化的代码库**：在 OpenCV 中可用的算法集合，使得库中的其他东西如同相形见绌。此外，该库还通过了性能上的优化。有了 OpenCV 3，你还可以通过[透明的 API](http://www.learnopencv.com/opencv-transparent-api/) ，轻易调用到 OpenCL 的兼容性设备（如 GPU）。
+2. **大量经过优化的代码库**：在 OpenCV 中可用的算法集合，使得库中的其他东西如同相形见绌。此外，该库还通过了性能上的优化。有了 OpenCV 3，你还可以通过[透明的 API](http://www.learnopencv.com/opencv-transparent-api/) ，轻易地调用到机器上 OpenCL 的兼容性设备（如 GPU）。
