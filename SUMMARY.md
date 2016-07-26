@@ -341,7 +341,7 @@
         * [How to deploy TL-WN722N in Ubuntu 14.04](./qa/tl_wn722n_ubuntu.md)
         * [How to free cached memory in Ubuntu](./qa/free_cached_memory_in_Ubuntu.md)
         * [How to enable MySQL logs and watch them](./qa/mysql_log.md)
-        * [How to check whether it's PC's accessment in PHP](./qa/check_PC_in_PHP/check_PC_in_PHP.md)
+        * [How to check whether it's PC's accessment in PHP](./qa/check_PC_in_PHP.md)
         * [Why does the shell script always break down when running for statement](./qa/shellfor.md)
         * [What is ETag](./qa/etag.md)
         * [What is Gist](./qa/gist.md)
