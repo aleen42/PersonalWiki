@@ -35,7 +35,7 @@
 - [**How to deploy TL-WN722N in Ubuntu 14.04**](./tl_wn722n_ubuntu.md)
 - [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
 - [**How to enable MySQL logs and watch them**](./mysql_log.md)
-- [**How to check whether it's PC's accessment in PHP**](./check_PC_in_PHP/check_PC_in_PHP.md)
+- [**How to check whether it's PC's accessment in PHP**](./check_PC_in_PHP.md)
 - [**What is ETag**](./etag.md)
 - [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
