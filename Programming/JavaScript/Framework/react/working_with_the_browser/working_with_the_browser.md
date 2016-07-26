@@ -54,4 +54,4 @@ React has provided some methods to hook components' lifecycles. `will` method is
 
 #### Updating
 
-- `componentWillReceiveProps(object nextProps)`
+- `componentWillReceiveProps(object nextProps)` is invoked when a mounted component receives new props.
