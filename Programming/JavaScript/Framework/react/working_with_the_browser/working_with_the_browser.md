@@ -8,4 +8,4 @@ React is very fast because it never talks to the DOM directly. React maintains a
 
 Additionally, React **implements a full synthetic event system** such that all event objects are guaranteed to conform to the W3C spec despite browser quirks, and everything bubbles consistently and efficiently across browsers.
 
-However, sometimes you simply need to access the underlying API, perhaps to work with a third-party library like a jQuery plugin. React provides **escape hatches** for you to use the underlying DOM API directly.
+However, sometimes you simply need to access the underlying API, perhaps to work with a third-party library like a jQuery plugin. React provides escape hatches(門徑) for you to use the underlying DOM API directly.
