@@ -32,4 +32,4 @@ $$\begin{align*}  x_m &= (1 - \alpha) x_i + \alpha x_j \\ y_m &= (1 - \alpha) y_
 
 Second, we need to find the intensity of the pixel at (x_m, y_m) using the following equation
 
-$$\begin{equation*} M(x_m,y_m) = (1 - alpha) I(x_i, y_i) + \alpha J(x_j, y_j) \end{equation*}$$
+$$\begin{equation*} M(x_m,y_m) = (1 - \alpha) I(x_i, y_i) + \alpha J(x_j, y_j) \end{equation*}$$
