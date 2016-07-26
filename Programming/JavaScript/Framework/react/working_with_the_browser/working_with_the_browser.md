@@ -52,4 +52,4 @@ React has provided some methods to hook components' lifecycles. `will` method is
 - `componentWillMount()` is invoked immediately before mounting occurs.
 - `componentDidMount()` is invoked immediately after mounting occurs.
 
-
+#### Updating
