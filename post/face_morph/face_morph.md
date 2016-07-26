@@ -73,3 +73,5 @@ It shows that points 38, 40 and 37 form a triangle and so on. The triangulation 
 Notice the triangles in the two images capture approximately similar regions. We had started with point correspondences and now, because of triangulation, we have triangle ( or region ) correspondences.
 
 #### 3. Warping images and alpha blending
+
+> To understand the description below better, [download](http://www.learnopencv.com/face-morph-using-opencv-cpp-python/#download) the code and images by subscribing to our newsletter [here](http://www.learnopencv.com/face-morph-using-opencv-cpp-python/#download).
