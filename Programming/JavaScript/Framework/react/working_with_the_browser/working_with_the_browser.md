@@ -40,6 +40,6 @@ ReactDOM.render(
 
 Components have **3 parts** of their lifecycle:
 
-- **Mouting**:
+- **Mouting**: a component has been inserted into the DOM
 - **Updating**:
-- **Unmounting**:
+- **Unmounting**: a component has been removed from the DOM
