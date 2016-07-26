@@ -22,7 +22,8 @@
         "injection",
         "comments",
         "advanced-emoji",
-        "page-footer"
+        "page-footer",
+        "mathjax"
     ],
     "pluginsConfig": {
         "disqus": {
