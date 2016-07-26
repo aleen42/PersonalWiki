@@ -47,3 +47,5 @@ Components have **3 parts** of their lifecycle:
 React has provided some methods to hook components' lifecycles. `will` method is called before somethig happens, and `did` method is called right after something happens.
 
 #### Mounting
+
+- `getInitialState()` is invoked before a component is mounted.
