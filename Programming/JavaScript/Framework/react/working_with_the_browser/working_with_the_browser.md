@@ -36,7 +36,7 @@ ReactDOM.render(
 );
 ```
 
-### Component LifeCycle
+### Component Lifecycle
 
 Components have **3 parts** of their lifecycle:
 
