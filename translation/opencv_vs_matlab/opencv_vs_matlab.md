@@ -65,4 +65,4 @@ OpenCV 是我用于开发计算机视觉程序的主要工具。虽然，我也�
 
 ### 用于计算机视觉的 OpenCV（Python）
 
-我认为 OpenCV 绑定有 Python 接口，对其普及作出了不少的贡献。
+我认为 OpenCV 绑定有 Python 接口，对其普及作出了不少的贡献。OpenCV（Python）对于计算机视觉的学习过程来说，也是一个巧妙的选择。
