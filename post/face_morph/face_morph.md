@@ -89,3 +89,6 @@ The results of applying the above technique are shown below. The image in the ce
 
 Most facial features are very well aligned. The part of the image outside the face is not so well aligned because we have fewer corresponding points in that region. One can manually add additional points to fix mis-alignments and get better results.
 
+![](./4.jpg)
+
+![](./5.jpg)
