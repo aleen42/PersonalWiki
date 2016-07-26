@@ -42,4 +42,4 @@ Components have **3 parts** of their lifecycle:
 
 - **Mouting**:
 - **Updating**:
-- 
+- **Unmounting**:
