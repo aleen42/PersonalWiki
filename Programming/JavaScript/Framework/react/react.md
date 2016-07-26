@@ -24,3 +24,4 @@
 - [**Reusable Components**](./reusable_components/reusable_components.md)
 - [**Transferring Props**](./transfering_props/transfering_props.md)
 - [**Forms**](./forms/forms.md)
+- [**Working With the Browser**](./working_with_the_browser/working_with_the_browser.md)
