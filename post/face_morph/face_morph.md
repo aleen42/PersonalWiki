@@ -103,3 +103,17 @@ Let’s start by obtaining corresponding points. First, we can get a lot of poin
 #### 2. Delaunay Triangulation
 
 From the previous step we have two sets of 80 points — one set per image. We can calculate the average of corresponding points in the two sets and obtain a single set of 80 points. On this set of average points we perform [Delaunay Triangulation](http://www.learnopencv.com/delaunay-triangulation-and-voronoi-diagram-using-opencv-c-python/). The result of Delaunay triangulation is a list of triangles represented by the indices of points in the 80 points array. In this particular case the triangulation produces 149 triangles connecting the 80 points. The triangulation is stored as an array of three columns. The first few rows of the triangulation is shown below.
+
+> Triangulation
+
+> 38 40 37
+
+> 35 30 29
+
+> 38 37 20
+
+> 18 37 36
+
+> 33 32 30
+
+>…
