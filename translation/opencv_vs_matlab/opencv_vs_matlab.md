@@ -43,7 +43,7 @@
 
 1. **成本巨大**：MATLAB 语言本身是极其可怕地昂贵。起初开始，我们需要一个基础版的 MATLAB（2,150 美元）以及一个用于计算机视觉的工具箱（1,350美元）。此外，该计算机视觉工具箱还需要一个图像处理工具箱（1,00美元），并添加有优化（1,350美元）和机器学习工具箱（1,000美元）。总共，加起来是6,850美元。好的，买了之后，你把你的程序建立起来并向把它发布出去。那么你就必须要买一个 MATLAB 编译器（4,250美元）。你想要用于两个不同的操作系统？那么就要多花4,250美元。因此，除非你通过你的大学以折扣价购买，或者你的公司拥有软件的许可，不然 MATLAB 对于你来说并没有多大的意义。
 2. **学习路线曲折**：由于，MATLAB 是一个矩阵引擎。因此，我们需要遵循一种 MATLAB 的方式去书写代码。该种方式不同于像 C++ 或 Python 这样的一般编程语言。而且，如果你不按照 MATLAB 的方式去写，那么，代码的执行速度将会非常得慢。
-3. **更慢的运行时**：一个典型的 MATLAB 程序，其运行速度会比 C++ 的程序慢数倍。虽然，内置的 MATLAB 程序会很快，但你所写的代码往往会很慢。因此，人们往往会把计算密集型部分写成 C，并通过使用 [mex](http://www.mathworks.com/help/matlab/ref/mex.html) 集成在 MATLAB 的代码中。
+3. **运行时较慢**：一个典型的 MATLAB 程序，其运行速度会比 C++ 的程序慢数倍。虽然，内置的 MATLAB 程序会很快，但你所写的代码往往会很慢。因此，人们往往会把计算密集型部分写成 C，并通过使用 [mex](http://www.mathworks.com/help/matlab/ref/mex.html) 集成在 MATLAB 的代码中。
 
 ### 用于计算机视觉的 OpenCV（C++）
 
@@ -52,7 +52,7 @@ OpenCV 是我用于开发计算机视觉程序的主要工具。虽然，我也�
 #### 为何使用 OpenCV（C++）：优点
 
 1. **免费！**：OpenCV 库的绝大部分是免费的 —— 犹如免费的啤酒和免费的讲话！你完全可以在你的商业软件程序中免费使用 OpenCV，并查看到源码。如果发现了问题，你也可以根据自己的需要进行修复。当然，使用 OpenCV 的你，也并不需要开源你的项目。
-2. **大量经过优化的代码库**：在 OpenCV 中可用的算法集合，使得库中的其他东西如同相形见绌。此外，该库还通过了性能上的优化。有了 OpenCV 3，你还可以通过[透明的 API](http://www.learnopencv.com/opencv-transparent-api/) ，轻易地调用到机器上 OpenCL 的兼容性设备（如 GPU）。最后，OpenCV 中许多的算法，都有着统一计算设备架构（CUDA，Compute Unified Device Architecture）的实现。
+2. **大量经过优化的代码库**：在 OpenCV 中可用的算法集合，使得库中的其他东西如同相形见绌。此外，该库还通过了性能上的优化。有了 OpenCV 3，你还可以通过[透明 API 接口（Transparent API）](http://www.learnopencv.com/opencv-transparent-api/) ，轻易地调用到机器上 OpenCL 的兼容性设备（如 GPU）。最后，OpenCV 中许多的算法，都有着统一计算设备架构（CUDA，Compute Unified Device Architecture）的实现。
 3. **平台及设备**：你可以在你的桌面软件中显性地使用 OpenCV，也可以在后端的 web 应用程序中使用。由于该库一直专注于性能，因此也成为了许多嵌入式视觉程序和移动设备应用的首选视觉库。
 4. **大型的社区**：这里有着一个大型的社区（47,000人或以上），是专门提供给那些使用或维护 OpenCV 的开发者所使用。此外，该库的下载次数高达9百万次。OpenCV 社区并不像由研究人员组成的 MATLAB 社区那样。它是由来自各行各业的人聚集起来而形成的。此外，OpenCV 的开发也曾受到过像 Intel、AMD 和 Google 这样的公司所资助。所以不用说，这博客也是 OpenCV 社区的一部分，主要用于开发人员互相帮助。
 
@@ -69,4 +69,18 @@ OpenCV 是我用于开发计算机视觉程序的主要工具。虽然，我也�
 
 #### 为何使用 OpenCV（Python）：优点
 
-1. **易于使用**：如果你是一位 Python 开发者，那么，使用 OpenCV（Python）的过程将会非常简单。而且，Python 是一门易于学习的语言（尤其是与 C++ 对比）。
+1. **易于使用**：如果你是一位 Python 开发者，那么，使用 OpenCV（Python）的过程将会非常简单。而且，Python 是一门易于学习的语言（尤其是与 C++ 对比），所以我们理应把其当作为第一门语言来学习编程。
+2. **Python 成为了科学计算的一门开发语言**：在几年前，MATLAB 曾被称作是科学计算的语言。但如今，有了 OpenCV、[numpy](http://www.numpy.org/)、[scipy](http://www.scipy.org/)、[scikit-learn](http://scikit-learn.org/) 以及 [matplotlib](http://matplotlib.org/)，Python 在计算机视觉领域和机器学习领域，提供了一个学习和实验的强大环境。
+3. **可视化及调试**：当使用了 OpenCV（Python），你会感觉到犹如进入了一个由 Python 书写的库堆当中。使用 [matplotlib](http://matplotlib.org/) 去进行结果可视化这方法，几乎可与 MATLAB 媲美。此外，虽然我还发现在 Python 环境下比 C++ 更容易去调试代码，但这仍然无法跟 MATLAB 相比。
+4. **可用于构件 web 后端**：Python 同样是一种多被用于建立网站的语言。像 [Django](https://www.djangoproject.com/)、[Web2py](http://www.web2py.com/) 和 [Flask](http://flask.pocoo.org/) 这样的框架能使你快速地组件起 web 应用程序。所以，结合这些框架，我们使用 OpenCV（Python）会更加地容易。比如说，阅读一下该篇教程。其讲述如何在10分钟内将 OpenCV 代码转换成一个 web api接口。
+
+#### 为何不使用 OpenCV（Python）：缺点
+
+1. **薄弱的文档**：就像刚才所说，尽管 OpenCV（C++）的文档并不那么的完善，但是， OpenCV（Python）比其更为糟糕。一位新手使用起来往往会陷入如何去使用特定函数的问题当中。举个例子来说，在我写该篇文章的时候，我几乎很难找到关于 **cv2.Subdiv2D** 的 python 文档。而且，你会发现你很难找到更多关于 OpenCV（Python）的教程。
+2. **缺乏技术支持**：每当支持 OpenCV 的公司（Intel、AMD、NVidia等），讨论到 OpenCV 的 C++ 版本时，他们自己都会产生一些内部斗争。因为，他们希望你去使用 OpenCV 并购买他们自家生产的硬件（CPU / GPU 等）来执行算法。然而，OpenCV（Python）如谚语所说的红发小孩那样，并没有引起这些公司太大的关注。举个例子，我到现在还不清楚 OpenCV（Python）是否支持[透明 API 接口](http://www.learnopencv.com/opencv-transparent-api/)。
+3. **运行时较慢**：相比起 C++，你在 Python 中的程序一般会运行地更慢。因为，在 C++ 里，你可以通过添加一个额外的力量去使用 GPU（使用 CUDA 或 OpenCL）。这比起 Python 的实现来说，要快上十倍速度。
+4. **OpenCV 是使用 C/C++ 编写的**：作为一个开源库，其好处之一就是能根据你自身需求进行修改。如果你想要修改 OpenCV，你就必须得修改 OpenCV 的 C/C++ 源文件。
+
+### 总结
+
+作为一名工程师和能者，我们需要使用正确的工具去做正确的事情。最终，你也必须在这个过程中学习到所有的这些工具。作为一个经验法则，我用 MATLAB / OpenCV（Python）来编写新的算法，然后，使用 OpenCV（C++）来进行产品的完成。
