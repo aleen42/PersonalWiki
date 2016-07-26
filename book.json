@@ -22,8 +22,7 @@
         "injection",
         "comments",
         "advanced-emoji",
-        "page-footer",
-        "katex"
+        "page-footer"
     ],
     "pluginsConfig": {
         "disqus": {
