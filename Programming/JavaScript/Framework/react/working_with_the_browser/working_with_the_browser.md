@@ -60,3 +60,4 @@ var MyComponent = React.createClass({
 });
 ```
 - `componentWillMount()` is invoked immediately before mounting occurs.
+- `componentDidMount()` is invocked 
