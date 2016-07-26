@@ -13,3 +13,16 @@ However, sometimes you simply need to access the underlying API, perhaps to work
 ### Refs and findDOMNode()
 
 To interact with the browser, you'll need a reference to a DOM node. You can attach a `ref` to any element, which allows you to reference the **backing instance** of the component.
+
+React has provided `findDOMNode()` function for you to catch this element like:
+
+```js
+var MyComponent = React.createClass({
+    render: function () {
+        return (
+            <input type="text" ref="myTextInput" />
+            <input type="button" value="Focus the text input" onClick={} />
+        );
+    }
+});
+```
