@@ -28,3 +28,11 @@
 3. **可视化及调试工具**：使用 MATLAB 其中一个最大的乐趣，就是可以在同一个集成环境中书写代码、可视化结果并进行调试。该环境使得你格外高效。
 4. **可结合 OpenCV 使用**：你可通过使用 [MATLAB 的 OpenCV 接口](http://www.mathworks.com/matlabcentral/fileexchange/47953-computer-vision-system-toolbox-opencv-interface)去连接 OpenCV。
 5. **优雅的文档**：就算是 OpenCV 的忠实支持者也承认 OpenCV 的文档过于糟糕。相比之下，MATLAB 在自身的集成开发环境（IDE）中就提供有大量优雅的文档和例子以供阅读。
+
+    ```cpp
+    // MATLAB
+    imshow(im);
+    
+    // OpenCV
+    imshow("myWindow", im);
+    ```
