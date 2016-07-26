@@ -75,3 +75,5 @@ Notice the triangles in the two images capture approximately similar regions. We
 #### 3. Warping images and alpha blending
 
 > To understand the description below better, [download](http://www.learnopencv.com/face-morph-using-opencv-cpp-python/#download) the code and images by subscribing to our newsletter [here](http://www.learnopencv.com/face-morph-using-opencv-cpp-python/#download).
+
+We are now in a position to intelligently blend the two images. As mentioned before, the amount of blending will be controlled by a parameter $$\alpha$$. Create a morph using the following steps.
