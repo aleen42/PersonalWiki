@@ -1,6 +1,6 @@
 ## How to check whether it's PC's accessment in PHP [Back](./qa.md)
  
-I have just showed the code here:
+I just show the code here:
 
 ```php
 public static function validatePC()
