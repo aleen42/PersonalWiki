@@ -62,3 +62,7 @@ React has provided some methods to hook components' lifecycles. `will` method is
 #### Unmounting
 
 - `componentWillUnmount()` is invoked immediately before a component is unmounted and destroyed. (Cleanup should go here)
+
+#### Mounted Methods
+
+- `component.forceUpdate()` can be invoked on any mounted component when you know that some depper aspect of the component's state has changed without using `this.setState()`
