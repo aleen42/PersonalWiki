@@ -19,7 +19,7 @@ React has provided `findDOMNode()` function for you to catch this element like:
 ```js
 var MyComponent = React.createClass({
     handleClick: function () {
-        React.findDOMNode().focus();
+        React.findDOMNode(this.refs.myTextInput).focus();
     },
 
     render: function () {
