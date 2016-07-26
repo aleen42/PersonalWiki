@@ -49,3 +49,13 @@ React has provided some methods to hook components' lifecycles. `will` method is
 #### Mounting
 
 - `getInitialState()` is invoked before a component is mounted. Stateful compoenents should implement this and return the initial state data.
+
+```js
+var MyComponent = React.createClass({
+    getInitialState: function () {
+        return { value: '' };
+    },
+    
+    /** ... */
+});
+```
