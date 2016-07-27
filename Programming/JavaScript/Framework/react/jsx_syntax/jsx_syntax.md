@@ -85,7 +85,7 @@ JSX will infer(推斷出) the class's `displayName` from the variable assignment
 var Nav = React.createClass({ });
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascript'%}
 /** output JavaScript syntax */
 var Nav = React.createClass({ displayName: 'Nav' });
 {%endace%}
@@ -142,7 +142,7 @@ MyFormComponent.Label = React.createClass({ /** ... */ });
 MyFormComponent.Input = React.createClass({ /** ... */ });
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascript'%}
 /** output JavaScript syntax */
 var App = (
     React.createElement(Form, null, 
