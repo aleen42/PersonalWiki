@@ -34,3 +34,5 @@ Do always remember that :
 
 > Every time some [developer] says, 'Nobody will go to the trouble of doing that,' there's some kid in Finland who will go to the trouble.
 Any feedback or queries are highly welcomed.
+
+Any feedback or queries are highly welcomed.
