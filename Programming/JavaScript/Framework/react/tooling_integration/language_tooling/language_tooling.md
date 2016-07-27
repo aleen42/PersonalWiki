@@ -44,3 +44,9 @@ The open-source community has built tools that integrate JSX with several editor
 ### Flow
 
 Flow is a JavaScript type checker released by Facebook, and it supports JSX. For more info, checkout the [Flow homepage](http://flowtype.org/).
+
+### TypeScript
+
+TypeScript is a type-checker and transpiler that supports type-checking React and JSX. For more info, check out their guide on [getting started with React and Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html), or learn more about [TypeScript's JSX support](https://www.typescriptlang.org/docs/handbook/jsx.html).
+
+To learn more about TypeScript in general, visit the TypeScript homepage.
