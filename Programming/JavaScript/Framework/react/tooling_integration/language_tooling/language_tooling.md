@@ -25,3 +25,5 @@ This tool will translate files that use JSX syntax to plain JavaScript files tha
 {%ace edit=false lang='powershell' %}
 babel --watch src/ --out-dir lib/.
 {%endace%}
+
+Beginning with Babel 6, there are no transforms included by default. This means that options must be specified when running the `babel` command, or a `.babelrc` must specify options. 
