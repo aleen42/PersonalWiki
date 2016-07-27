@@ -64,3 +64,6 @@ class MyComponent extends React.Component {
 
 ### The ref **String** Attribute
 
+> Note:
+
+> Although string refs are not deprecated, but will likely be t smoe point in the future. Callback refs are preferred.
