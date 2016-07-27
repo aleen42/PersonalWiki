@@ -74,10 +74,12 @@ If you want to listen to updates to the value, you can also use `onChange` like 
 
 If you want to initialize the component with a non-empty value, you can supply a `defaultValue` prop.
 
-```js
-render: function () {
-    return <input type="text" defaultValue="Hello!" />;
-}
+{%ace edit=false, lang='jsx'%}
+var InputComponent = React.creteClass({
+    render: function () {
+        return <input type="text" defaultValue="Hello!" />;
+    }
+});
 ```
 
 Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultChecked`, and `<select>` supports `defaultValue`.
