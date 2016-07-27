@@ -1,1 +1,1 @@
-## Server-side environment [Back](./../tooling_integration.md)
+## Server-side Environment [Back](./../tooling_integration.md)
