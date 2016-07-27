@@ -111,14 +111,14 @@ ReactDOM.render(
 
 Install the tool first:
 
-{%ace edit=false, lang='powershell'%}
-npm install -g react-tools
+{%ace edit=false, lang='sh'%}
+$ npm install -g react-tools
 {%endace%}
 
 Transform jsx with the following command, `--watch` is used for keeping watching transformation:
 
-{%ace edit=false, lang='powershell'%}
-jsx --watch src/ build/
+{%ace edit=false, lang='sh'%}
+$ jsx --watch src/ build/
 {%endace%}
 
 The comand will see jsx files in the directory `src/` and build a vanilla JavaScript file into the directory `build/`, and then we can just import this vanilla JavaScript file.
