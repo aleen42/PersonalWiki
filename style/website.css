@@ -443,4 +443,6 @@ pre::-webkit-resizer {
     box-shadow: none !important;
 }
 
-
+.ace {
+    border: 1px solid #EBEBEB !impor;
+}
