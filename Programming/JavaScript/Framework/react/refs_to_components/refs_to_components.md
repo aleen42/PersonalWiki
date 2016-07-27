@@ -136,3 +136,7 @@ ReactDOM.render(
 	document.getElementById('content')
 );
 ```
+
+### Summary
+
+Refs are a great way to send a message to a particular child instance in a way that would be inconvenient to do via streaming Reactive `props` and `state`.
