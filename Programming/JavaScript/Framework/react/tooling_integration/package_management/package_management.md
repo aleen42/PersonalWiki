@@ -18,3 +18,9 @@ ReactDOM.render(
     document.getElementById('example')
 );
 {%endace%}
+
+Configure babel with a `.babelrc` file:
+
+```json
+
+```
