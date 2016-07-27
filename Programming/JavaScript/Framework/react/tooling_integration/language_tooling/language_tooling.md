@@ -7,3 +7,7 @@
 If you like using JSX, Babel 5 provided an in-browser ES2015 and JSX transformer for development called browser.js that can be included from [CDNJS](https://cdnjs.com/libraries/babel-core/5.8.34).
 
 With that JavaScript file, we can just include a `<script type="text/babel">` tag to engage the JSX transformer.
+
+> Note:
+
+> The in-browser JSX transformer is fairly large and results in extraneous computation client-side that can be avoided. Do not use it in production
