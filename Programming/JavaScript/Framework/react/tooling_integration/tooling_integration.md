@@ -1,1 +1,1 @@
-## Refs to Components [Back](./../react.md)
+## Tooling Integration [Back](./../react.md)
