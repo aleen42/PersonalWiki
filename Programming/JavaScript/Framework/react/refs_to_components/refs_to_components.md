@@ -21,3 +21,6 @@ var myComponentInstance = ReactDOM.render(myComponentElement, myContainer);
 > Note:
 
 > This should only ever be used at the top level. This should only ever be used at the top level. Inside components, let your `props` and `state` handle communication with child components, or use one of the other methods of getting a ref (string attribute or callbacks).
+
+### The ref Callback Attribute
+
