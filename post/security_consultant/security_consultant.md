@@ -5,3 +5,7 @@
 - Time: Aug, 8th, 2015
 
 So, you are ready to begin your dream startup ? Your product is ready and you are all set to launch. But wait, are you sure you are ready? Is your product ready to face the real world security issues? Is it secure enough? The answer is most probably **NO**. However, most of the business either doesn't feel the need of having a security tester in their team or don't have the funds to hire a full time vulnerability tester. (In case you think your startup is secured, mail me at [bhuwnesh@outlook.com](mailto:bhuwnesh@outlook.com) or ping me at LinkedIn and I will get you an audit report for free).
+
+![](./1.jpg)
+
+In case the business doesn't feel the need of an consultant, see above the image of [Housing.com Incident](http://timesofindia.indiatimes.com/tech/tech-news/Within-days-of-Rahul-Yadavs-exit-Housing-com-hacked/articleshow/47959348.cms) or read about the anti-email startup Slack Incident, there have been more than thousands of reason, you require a security tester to assist you in startup. Although, most of the startups are thriving hard to raise funding or struggling throughout they don't have enough funds to hire a full time security tester. The solution is a Security Consultant. A person who works part time from home or office and test your site, apps and IT infrastructure while keeping you on a budget.  Here are some reasons why you must have a security consultant at the early stages of your startup :
