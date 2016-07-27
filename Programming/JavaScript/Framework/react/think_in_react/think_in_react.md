@@ -64,7 +64,7 @@ var PRODUCTS = [
 
 var ProductRow = React.createClass({
     render: function () {
-        var name = this.props.product.stocked ? this.props.product.name : <span style={{color: 'red'}}>{this.props.product.name}</span>;
+        var name = this.props.product.stocked ? this.props.product.name : <span style={{ color: 'red' }}>{this.props.product.name}</span>;
         
         return (
             <tr>
