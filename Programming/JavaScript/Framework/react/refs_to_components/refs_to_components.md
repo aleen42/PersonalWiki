@@ -60,4 +60,5 @@ class MyComponent extends React.Component {
 }
 ```
 
-*Notice that: when the referenced component is unmounted and whenever the ref changes, the old ref will be called with `null` as an argument*
+*Notice that: when the referenced component is unmounted and whenever the ref changes, the old ref will be called with `null` as an argument. Also when writing refs with inline function expressions as in the examples here, React sees a different function object each time so on every update, ref will be called with null immediately before it's called with the component instance.*
+
