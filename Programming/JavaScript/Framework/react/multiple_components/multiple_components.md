@@ -81,7 +81,7 @@ We can see that render 2 has removed `<p>Paragraph 1 </p>`, and actually React w
 
 For children which maintains data in `this.state`, they're not going to be destroied in React. In most case, React will just hide elements:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='html'%}
 <Card>
     <p style={{display: 'none'}}>Paragraph 1</p>
     <p>Paragraph 2</p>
