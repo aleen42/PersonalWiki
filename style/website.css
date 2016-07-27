@@ -430,4 +430,8 @@ pre::-webkit-resizer {
     box-shadow: -4px 0 13px 7px rgba(0, 0, 0, 0.2) !important;
 }
 
+.ace_scroller.ace_scroll-left {
+    box-shadow: non;
+}
+
 
