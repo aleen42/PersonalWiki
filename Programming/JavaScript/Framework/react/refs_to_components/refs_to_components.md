@@ -81,3 +81,16 @@ React also supports using a string (instead of a callback) as a ref prop on any 
     var inputInstance = this.refs.myInput;
     var inputValue = inputInstance.value;
     ```
+
+### An example
+
+```js
+var MyComponent = React.createClass({
+    render: function () {
+        return (
+            <input type="text" />
+            <input type="button" value="Focus the input text" />
+        );
+    }
+});
+```
