@@ -94,3 +94,7 @@ kriskowal's [es5-shim](https://github.com/kriskowal/es5-shim) `es5-sham.js` has 
 Uncompressed React need paulmillr's [console-polyfill](https://github.com/paulmillr/console-polyfill):
 
 - `console.*`
+
+> Note:
+
+> `onScroll` is not allowed for IE8, becuase IE8 doesn't have an API to define handlers to the capturing phase of an event.
