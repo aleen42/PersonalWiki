@@ -114,16 +114,16 @@ However, in React, the value should always be `Untitled`, no matter what the use
 
 In HTML, the value of `<textarea>` is usually set using its children:
 
-```html
+{%ace edit=false, lang='html'%}
 <!-- antipattern: DO NOT DO THIS! -->
 <textarea name="description">This is the description.</textarea>
-```
+{%endace%}
 
 For HTML, this easily allows developers to supply multiline values. However, since React is JavaScript, we do not have string limitations and can use `\n` if we want newlines. In a world where we have `value` and `defaultValue`, it is ambiguous what role children play. For this reason, you should not use children when setting `<textarea>` values:
 
-```js
+{%ace edit=false, lang='html'%}
 <textarea name="description" value="This is a description." />
-```
+{%endace%}
 
 #### Why Select Value?
 
@@ -131,13 +131,13 @@ In HTML, The selected `<option>` in an HTML `<select>` is normally specified thr
 
 However in React, in order to make components easier to manipulate, the following format is adopted instead:
 
-```js
+{%ace edit=false, lang='html'%}
 <select value="B">
     <option value="A">Apple</option>
     <option value="B">Banana</option>
     <option value="C">Cranberry</option>
 </select>
-```
+{%endace%}
 
 To make an uncontrolled component, `defaultValue` is used instead.
 
