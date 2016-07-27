@@ -90,3 +90,7 @@ kriskowal's [es5-shim](https://github.com/kriskowal/es5-shim) `es5-sham.js` has 
 
 - `Object.create`
 - `Object.freeze`
+
+Uncompressed React need paulmillr's [console-polyfill](https://github.com/paulmillr/console-polyfill):
+
+- `console.*`
