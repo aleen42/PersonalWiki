@@ -384,40 +384,45 @@ pre::-webkit-resizer {
 }
 
 .ace_scrollbar-h::-webkit-scrollbar-button,
-.ace_scrollbar-v::-webkit-scrollbar-button{
+.ace_scrollbar-v::-webkit-scrollbar-button {
     /** Part 2 */
     display: none;
 }
 
 .ace_scrollbar-h::-webkit-scrollbar-track,
-.ace_scrollbar-::-webkit-scrollbar-track{
+.ace_scrollbar-::-webkit-scrollbar-track {
     /** Part 3 */
 }
 
 .ace_scrollbar-h::-webkit-scrollbar-track-piece,
-.ace_scrollbar-v::-webkit-scrollbar-track-piece{
+.ace_scrollbar-v::-webkit-scrollbar-track-piece {
     /** Part 4 */
 }
 
-.ace_scrollbar-h::-webkit-scrollbar-thumb {
+.ace_scrollbar-h::-webkit-scrollbar-thumb, 
+.ace_scrollbar-v::-webkit-scrollbar-thumb {
     /** Part 5 */
     background-color: rgba(0, 0, 0, 1);
     border-radius: 10px;
 }
 
-.ace_scrollbar-h::-webkit-scrollbar-thumb:hover {
+.ace_scrollbar-h::-webkit-scrollbar-thumb:hover,
+.ace_scrollbar-v::-webkit-scrollbar-thumb:hover {
     background-color: rgba(161, 0, 0, 1);
 }
 
-.ace_scrollbar-h::-webkit-scrollbar-thumb:active {
+.ace_scrollbar-h::-webkit-scrollbar-thumb:active,
+.ace_scrollbar-v::-webkit-scrollbar-thumb:active {
     background-color: rgba(100, 0, 0, 1);
 }
 
-.ace_scrollbar-h::-webkit-scrollbar-corner {
+.ace_scrollbar-h::-webkit-scrollbar-corner,
+.ace_scrollbar-v::-webkit-scrollbar-corner {
     /** Part 6 */
 }
 
-.ace_scrollbar-h::-webkit-resizer {
+.ace_scrollbar-h::-webkit-resizer,
+.ace_scrollbar-v::-webkit-resizer {
     /** Part 7 */
 }
 
