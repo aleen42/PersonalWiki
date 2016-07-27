@@ -20,7 +20,7 @@ It is obviously true that a startup struggle for funds in its early stage and in
 
 ### 3. Reduces Possible Attacks
 
-As part of the Security Consultant work, all the possible attacks in your startup technical infrastructure including your website, mobile apps or your office IT infrastructure, are overlook by the security consultant and possibly mitigated(環節) before an incident. 
+As part of the Security Consultant work, all the possible attacks in your startup technical infrastructure including your website, mobile apps or your office IT infrastructure, are overlook by the security consultant and possibly mitigated(緩解) before an incident. 
 
 ### 4. Saves Your Resources
 
