@@ -78,8 +78,8 @@ React also supports using a string (instead of a callback) as a ref prop on any 
 2. In some other code, we can access the **backing instance** via `this.refs` as in:
     
     {%ace edit=false, lang='jsx'%}
-    var inputInstance = this.refs.myInput;
-    var inputValue = inputInstance.value;
+var inputInstance = this.refs.myInput;
+var inputValue = inputInstance.value;
     {%endace%}
 
 ### An example
