@@ -47,3 +47,13 @@ public class ReactRender
     }
 }
 {%endace%}
+
+If your application uses npm packages, or you want to transform JSX in Nashorn, you will need to do some additional environment setup. The following resources may be helpful in getting you started:
+
+- http://winterbe.com/posts/2015/02/16/isomorphic-react-webapps-on-the-jvm/
+- https://github.com/nodyn/jvm-npm
+- https://gist.github.com/aesteve/883e0fd33390451cb8eb
+
+> Note：
+
+> Using Babel within Nashorn will require Java 8u72+, as update 72 fixed [JDK-8135190](https://bugs.openjdk.java.net/browse/JDK-8135190).
