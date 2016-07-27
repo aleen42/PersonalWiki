@@ -16,5 +16,6 @@ With that JavaScript file, we can just include a `<script type="text/babel">` ta
 
 If you have npm, you can run: 
 
-{% edit=false  %}
+{%ace edit=false lang='powershell' %}
 npm install -g babel-cli
+{%endace%}
