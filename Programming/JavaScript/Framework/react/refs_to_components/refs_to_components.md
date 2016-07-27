@@ -11,3 +11,9 @@ var myComponent = ReactDOM.render(<MyComponent />, myContainer);
 ```
 
 Keep in mind that the JSX does not return a component instance! What it return is **ReactElement**: a lightweight representation that tells React what the mounted component should look like.
+
+```js
+var myComponentElement = <MyComponent />;   /** Just a ReactEement, but not an instance */
+
+var myComponentInstance = ReactDOM.render(myComponentElement, myContainer);
+```
