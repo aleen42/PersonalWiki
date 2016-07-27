@@ -61,8 +61,8 @@ Bower is a package manager optimized for the front-end development. If multiple 
 
 If you'd like to use bower, it's as easy as:
 
-{%ace edit=false, lang='powershell' %}
-bower install --save react
+{%ace edit=false, lang='sh' %}
+$ bower install --save react
 {%endace%}
 
 {%ace edit=false, lang='html' %}
