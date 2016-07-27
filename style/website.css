@@ -390,7 +390,7 @@ pre::-webkit-resizer {
 }
 
 .ace_scrollbar-h::-webkit-scrollbar-track,
-.ace_scrollbar-::-webkit-scrollbar-track {
+.ace_scrollbar-v::-webkit-scrollbar-track {
     /** Part 3 */
 }
 
