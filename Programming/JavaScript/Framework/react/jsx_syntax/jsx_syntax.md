@@ -45,7 +45,7 @@ var Nav;
 var app = <Nav color="blue">;
 {%endace%}
 
-{%ace edit=false, lang='javascr'%}
+{%ace edit=false, lang='javascript'%}
 var Nav;
 
 /** output JavaScript syntax */
@@ -62,7 +62,7 @@ var Profile;
 var app = <Nav color="blue"><Profile>click</Profile></Nav>;
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascript'%}
 var Nav;
 var Profile;
 
