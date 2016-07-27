@@ -85,25 +85,54 @@ React also supports using a string (instead of a callback) as a ref prop on any 
 ### An example
 
 ```js
-var MyComponent = React.createClass({
-    handleClick: function () {
-        if (this.myTextInput !== null) {
-            this.myTextInput.focus();
-        }
-    },
+/** ES6 */
+class MyComponent extends React.Component {
+	constructor(props) {
+		super(props);
+		this.handleClick = this.handleClick.bind(this);
+	}
 
-    render: function () {
-        return (
-            <div>
-                <input type="text" ref={(ref) => this.myTextInput = ref} />
-                <input type="button" value="Focus the input text" onClick={this.handleClick} />
-            </div>
-        );
-    }
+	handleClick() {
+		if (this.myInput !== null) {
+			this.myInput.focus();
+		}
+	}
+
+	render() {
+		return (
+			<div>
+				<input type="text" ref={(ref) => this.myInput = ref} />
+				<input type="button" value="focus the input text" onClick={this.handleClick} />
+			</div>
+		);
+	}
+}
+
+
+/** ES5 */
+var MyComponent = React.createClass({
+	handleClick: function () {
+		if (this.myInput !== null) {
+			this.myInput.focus();
+		}
+	},
+
+	render: function () {
+		return (
+			<div>
+				<input type="text" ref={
+					function (ref) {
+						this.myInput = ref;
+					}
+				} />
+				<input type="text" value="focus the input text" onClick={this.handleClick} />
+			</div>
+		);
+	}
 });
 
 ReactDOM.render(
-    <MyComponent />,
-    document.getElementById('content')
+	<MyComponent />,
+	document.getElementById('content')
 );
 ```
