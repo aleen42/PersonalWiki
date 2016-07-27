@@ -77,14 +77,14 @@ React also supports using a string (instead of a callback) as a ref prop on any 
     ```
 2. In some other code, we can access the **backing instance** via `this.refs` as in:
     
-    ```js
+    {%ace edit=false, lang='jsx'%}
     var inputInstance = this.refs.myInput;
     var inputValue = inputInstance.value;
-    ```
+    {%endace%}
 
 ### An example
 
-{%ace edit=true, lang='jsx'%}
+{%ace edit=false, lang='jsx'%}
 
 /** ES6 */
 class MyComponent extends React.Component {
