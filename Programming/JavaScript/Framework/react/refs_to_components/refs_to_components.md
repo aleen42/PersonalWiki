@@ -145,3 +145,4 @@ Refs are a great way to send a message to a particular child instance in a way t
 
 - You can define any public method on your component classes (such as a reset method on a Typeahead) and call those public methods through refs (such as `this.refs.myTypeahead.reset()`).
 - Performing DOM measurements almost always requires reaching out to a "native" component such as `<input />` and accessing its underlying DOM node using a ref. Refs are one of the only practical ways of doing this reliably.
+- Refs are automatically managed for you! If that child is destroyed, its ref is also destroyed for you. No worrying about memory here (unless you do something crazy to retain a reference yourself).
