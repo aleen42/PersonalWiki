@@ -30,9 +30,11 @@ React supports a special attribute that you can attach to any component. The `re
 var MyComponent = React.createClass({
     render: function () {
         return (
-            <Textarea ref={function (input) {
-                if (input !== null ) {
-                    input.focus();
+            <Textarea ref={
+                function (input) {
+                    if (input !== null ) {
+                        input.focus();
+                    }
                 }
             }}></Textarea>
         );
