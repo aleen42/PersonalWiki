@@ -411,9 +411,18 @@ pre::-webkit-resizer {
     background-color: rgba(161, 0, 0, 1);
 }
 
-.ace_scrollbar-h::-webkit-scrollbar-thumb:active,
-.ace_scrollbar-v::-webkit-scrollbar-thumb:active {
-    background-color: rgba(100, 0, 0, 1);
+@media (min-width: 720px) {
+    .ace_scrollbar-h::-webkit-scrollbar-thumb:active,
+    .ace_scrollbar-v::-webkit-scrollbar-thumb:active {
+        background-color: rgba(100, 0, 0, 1);
+    }
+}
+
+@media (max-width: 720px) {
+    .ace_scrollbar-h::-webkit-scrollbar-thumb:active,
+    .ace_scrollbar-v::-webkit-scrollbar-thumb:active {
+        background-color: rgba(100, 0, 0, 0.2);
+    }
 }
 
 .ace_scrollbar-h::-webkit-scrollbar-corner,
