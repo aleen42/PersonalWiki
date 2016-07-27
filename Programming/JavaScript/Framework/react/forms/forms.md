@@ -20,11 +20,13 @@ Form components allow listening for changes by setting a callback to the `onChan
 
 **A Controlled** `<input>` has a `value` prop. Rendering a controlled `<input>` will reflect the value of the `value` prop.
 
-```js
-render: function () {
-    return <input type="text" value="Hello!" />;
-}
-```
+{%ace edit=false, lang='jsx'%}
+var InputComponent = React.creteClass({
+    render: function () {
+        return <input type="text" value="Hello!" />;
+    }
+});
+{%endace%}
 
 User input will have no effect on the rendered element because React has declared the value to be `Hello!`. To update the value in response to user input, you could use the `onChange` event:
 
