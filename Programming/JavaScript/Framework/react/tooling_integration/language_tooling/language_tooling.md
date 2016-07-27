@@ -36,3 +36,7 @@ Here is an example of what you will do if using ES2015 syntax and React:
 npm install babel-preset-es2015 babel-preset-react
 babel --presets es2015,react --watch src/ --out-dir lib/
 {%endace%}
+
+#### Helpful Open-Source Projects
+
+The open-source community has built tools that integrate JSX with several editors and build systems. See [JSX integrations](https://github.com/facebook/react/wiki/Complementary-Tools#jsx-integrations) for the full list.
