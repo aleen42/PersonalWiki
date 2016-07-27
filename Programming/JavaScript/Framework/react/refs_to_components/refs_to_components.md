@@ -24,4 +24,4 @@ var myComponentInstance = ReactDOM.render(myComponentElement, myContainer);
 
 ### The ref Callback Attribute
 
-React supports a special attribute that you can attach to any component. The `ref` attribute can be a callback function, and this callback will be executed immediately after the component is mounted. The referenced component will be passed in as a parameter, and the callback function may use the component immediately, or save the reference for future use (or both).
+React supports a special attribute that you can attach to any component. The `ref` attribute can be a callback function, and **this callback will be executed immediately after the component is mounted**. The referenced component will be passed in as a parameter, and the callback function may use the component immediately, or save the reference for future use (or both).
