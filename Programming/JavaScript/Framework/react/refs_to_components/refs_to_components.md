@@ -60,4 +60,4 @@ class MyComponent extends React.Component {
 }
 ```
 
-*Notice that: when the referenced component is unmounted and whenever the ref changes, the old ref will be called with null as an argument*
+*Notice that: when the referenced component is unmounted and whenever the ref changes, the old ref will be called with `null` as an argument*
