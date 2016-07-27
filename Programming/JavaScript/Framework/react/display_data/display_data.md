@@ -6,7 +6,7 @@ The most basic thing you can do with UI is displaying some data. React makes it 
 
 Firstly, we'll create a simple `hello-react.html`:
 
-```js
+```html
 <!DOCTYPE html>
 <html>
   <head>
