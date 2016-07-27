@@ -98,7 +98,7 @@ Or we can seperate a file to write jsx:
 </html>
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx', theme='clouds' %}
 ReactDOM.render(
     <h1>Hello World</h1>,
     document.getElementById('example')
@@ -111,13 +111,13 @@ ReactDOM.render(
 
 Install the tool first:
 
-{%ace edit=false, lang='sh'%}
+{%ace edit=false, lang='sh', theme='clouds' %}
 $ npm install -g react-tools
 {%endace%}
 
 Transform jsx with the following command, `--watch` is used for keeping watching transformation:
 
-{%ace edit=false, lang='sh'%}
+{%ace edit=false, lang='sh', theme='clouds' %}
 $ jsx --watch src/ build/
 {%endace%}
 
