@@ -95,7 +95,7 @@ var MyComponent = React.createClass({
     render: function () {
         return (
             <input type="text" ref={(ref) => this.myTextInput = ref} />
-            <input type="button" value="Focus the input text" />
+            <input type="button" value="Focus the input text" onClick={this.handleClick} />
         );
     }
 });
