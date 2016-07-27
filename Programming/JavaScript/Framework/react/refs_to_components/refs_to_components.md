@@ -72,9 +72,9 @@ React also supports using a string (instead of a callback) as a ref prop on any 
 
 1. Assign a `ref` attribute to anything returned from `render`:
     
-    ```js
-    <input ref="myInput" />
-    ```
+    {%ace edit=false, lang='jsx'%}
+<input ref="myInput" />
+    {%endace%}
 2. In some other code, we can access the **backing instance** via `this.refs` as in:
     
     {%ace edit=false, lang='jsx'%}
