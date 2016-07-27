@@ -346,6 +346,7 @@ pre::-webkit-resizer {
     top: 0;
     right: 0;
     width: 100%;
+    z-index: 999 !important;
 }
 
 .book-header h1 {
