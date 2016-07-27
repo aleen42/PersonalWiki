@@ -50,7 +50,7 @@ ReactDOM.render(
     React.createElement(CommentBox, null),
     document.getElementById('content')
 );
-```
+{%endace%}
 
 As we can see, we have just passed a object to `React.createClass`, and the main attribute of this object is a function which named **render**.
 
@@ -71,7 +71,7 @@ var CommentList = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 For each Comment, we will use `this.props.author` to get attributes `author` of the corresponding elements and `this.props.children` as nested elements:
 
@@ -86,7 +86,7 @@ var Comment = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 Markdown is one of awesome tools in React, and we can use `Remarkable` to convert Markdown into raw HTML.
 
@@ -102,7 +102,7 @@ var Comment = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 But there's a problem! Our rendered comments look like this in the browser: "**`&lt;p&gt;This is &lt;strong&gt;another&lt;/strong&gt; comment&lt;/p&gt;**". We want those tags to actually render as HTML.
 
@@ -127,7 +127,7 @@ var Comment = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 ### Data Model
 
@@ -149,7 +149,7 @@ var CommentList = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 Then, the data can be a array like following:
 
@@ -158,7 +158,7 @@ var data = [
     { id: 1, author: 'aleen', text: 'comments for **aleen**'},
     { id: 2, author: 'alien', text: 'comments for **alien**'}
 ];
-```
+{%endace%}
 
 And of course, we should pass this array through CommentBox:
 
@@ -179,7 +179,7 @@ ReactDOM.render(
     <CommentBox data={data}></CommentBox>,
     document.getElementById('content')
 );
-```
+{%endace%}
 
 ### Fetch Data from servers
 
@@ -229,7 +229,7 @@ ReactDOM.render(
     <CommentBox url="/api/comments"></CommentBox>,
     document.getElementById('content')
 );
-```
+{%endace%}
 
 With `componentDidMount`, we can automatically update data with other technology. For example we can use `setInterval`.
 
@@ -266,7 +266,7 @@ ReactDOM.render(
     <CommentBox url="/api/comments", pollInterval={2000}></CommentBox>,
     document.getElementById('content')
 );
-```
+{%endace%}
 
 ### CommentForm
 
@@ -284,7 +284,7 @@ var CommentForm = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 With the traditional DOM, `input` elements are rendered and the browser manages the state (its rendered value). As a result, the state of the actual DOM will differ from that of the component. This is not ideal as the state of the view will differ from that of the component. **In React, components should always represent the state of the view and not only at the point of initialization**.
 
@@ -317,7 +317,7 @@ var CommentForm = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 Now, we can just handle submit operation:
 
@@ -366,7 +366,7 @@ var CommentForm = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 And CommentBox should be:
 
@@ -412,7 +412,7 @@ var CommentBox = React.createClass({
         );
     }
 });
-
+{%endace%}
 
 ### Whole JavaScript file
 
