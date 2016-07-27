@@ -381,6 +381,7 @@ pre::-webkit-resizer {
     /** if you want to style your own scroll bar, this pseudo should be written */
     /** Part 1 */
     width: 6px;
+    height: 6px;
 }
 
 .ace_scrollbar-h::-webkit-scrollbar-button,
