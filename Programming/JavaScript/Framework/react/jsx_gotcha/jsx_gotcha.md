@@ -41,7 +41,7 @@ var div = <div>{['First ', <span key="middot">&middot;</span>, ' Second']}</div>
 iv. insert raw HTML directly.
 
 {%ace edit=false, lang='jsx'%}
-var div = <div dangerouslySetInnerHTML={{ __html: 'First &middot; Second' }}</div>
+var div = <div dangerouslySetInnerHTML={ { __html: 'First &middot; Second' } }</div>
 {%endace%}
 
 #### Custom HTML Attributes
