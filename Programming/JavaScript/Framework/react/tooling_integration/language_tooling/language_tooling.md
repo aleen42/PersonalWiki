@@ -16,13 +16,13 @@ With that JavaScript file, we can just include a `<script type="text/babel">` ta
 
 If you have npm, you can run: 
 
-{%ace edit=false, lang='powershell' %}
+{%ace edit=false, lang='sh' %}
 $ npm install -g babel-cli
 {%endace%}
 
 This tool will translate files that use JSX syntax to plain JavaScript files that can run directly in the browser. It will also watch directories for you and automatically transform files when they are changed; for example:
 
-{%ace edit=false, lang='powershell' %}
+{%ace edit=false, lang='sh' %}
 $ babel --watch src/ --out-dir lib/.
 {%endace%}
 
