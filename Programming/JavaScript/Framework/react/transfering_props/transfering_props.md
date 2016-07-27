@@ -112,7 +112,7 @@ console.log(z);     /** => { a: 1, b: 2 } */
 
 If you don't use JSX, you can use a library to achieve the same pattern. Underscore supports `_.omit` to filter out properties and `_.extend` to copy properties onto a new object.
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascript'%}
 function FancyCheckBox(props) {
     var checked = props.checked;
     var other = _.omit(props, 'checked');
