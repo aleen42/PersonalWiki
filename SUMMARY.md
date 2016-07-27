@@ -65,6 +65,7 @@
                         * [Forms](./Programming/JavaScript/Framework/react/forms/forms.md)
                         * [Working With the Browser](./Programming/JavaScript/Framework/react/working_with_the_browser/working_with_the_browser.md)
                             * [Refs to Components](./Programming/JavaScript/Framework/react/refs_to_components/refs_to_components.md)
+                        * [Tooling Integration](./Programming/JavaScript/Framework/react/tooling_integration/tooling_integration.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
