@@ -93,18 +93,20 @@ For children which maintains data in `this.state`, they're not going to be destr
 If the identity and state of each child must be maintained across render passes, you can uniquely identify each child by assigning it a `key`:
 
 {%ace edit=false, lang='jsx'%}
-render: function () {
-    var results = this.props.results;
-    return (
-        <ol>
-            {
-                results.map(function (result) {
-                    return <li key={result.id}>{result.text}</li>;
-                });
-            }
-        </ol>
-    );
-}
+var OrderList = React.createClass({
+    render: function () {
+        var results = this.props.results;
+        return (
+            <ol>
+                {
+                    results.map(function (result) {
+                        return <li key={result.id}>{result.text}</li>;
+                    });
+                }
+            </ol>
+        );
+    }
+});
 {%endace%}
 
 ***Notice that: the `key` should always be supplied directly to the components in the array, not to the container HTML child of each component in the array:***
