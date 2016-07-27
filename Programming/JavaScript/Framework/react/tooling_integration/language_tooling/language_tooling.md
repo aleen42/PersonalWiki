@@ -17,13 +17,13 @@ With that JavaScript file, we can just include a `<script type="text/babel">` ta
 If you have npm, you can run: 
 
 {%ace edit=false, lang='powershell' %}
-npm install -g babel-cli
+$ npm install -g babel-cli
 {%endace%}
 
 This tool will translate files that use JSX syntax to plain JavaScript files that can run directly in the browser. It will also watch directories for you and automatically transform files when they are changed; for example:
 
 {%ace edit=false, lang='powershell' %}
-babel --watch src/ --out-dir lib/.
+$ babel --watch src/ --out-dir lib/.
 {%endace%}
 
 Beginning with Babel 6, there are no transforms included by default. This means that options must be specified when running the `babel` command, or a `.babelrc` must specify options.
