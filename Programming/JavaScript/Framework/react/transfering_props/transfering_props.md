@@ -4,9 +4,9 @@ Sometimes in React, we will wrap a component in an abstraction, which will only 
 
 Therefore, we can use [JSX spread attributes](./../jsx_spread_attributes/jsx_spread_attributes.md) to pass props from an owner component to the ownee one:
 
-```js
+{%ace edit=false, lang='jsx'%}
 <Component {...this.props} more="value" />
-```
+{%endace%}
 
 Ignoring JSX, you can also use any object helpers such as ES6 `Object.assign` or Underscore `_.extend`:
 
