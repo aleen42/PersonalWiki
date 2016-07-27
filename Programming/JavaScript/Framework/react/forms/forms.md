@@ -59,9 +59,11 @@ Be aware that, in an attempt to normalize change handling for checkbox and radio
 An `<input>` without a `value` property is an *uncontrolled* component:
 
 {%ace edit=false, lang='jsx'%}
-render: function () {
-    return <input type="text" />;
-}
+var InputComponent = React.creteClass({
+    render: function () {
+        return <input type="text" />;
+    }
+});
 {%endace%}
 
 If you want to listen to updates to the value, you can also use `onChange` like handling controlled components.
