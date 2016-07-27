@@ -66,4 +66,4 @@ class MyComponent extends React.Component {
 
 > Note:
 
-> Although string refs are not deprecated, but will likely be t smoe point in the future. Callback refs are preferred.
+> Although string refs are not deprecated, but will likely be t smoe point in the future. Therefore, **Callback refs are preferred**.
