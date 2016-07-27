@@ -19,3 +19,7 @@ Support for server-side component rendering and JSX compilation (via Babel) in a
 ### Nashorn
 
 Nashorn is a lightweight high-performance JavaScript runtime that runs within the **JVM**. React should run out of the box in Java 8+.
+
+{$ace edit=false, lang='java' $}
+
+{$endace$}
