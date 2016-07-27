@@ -291,7 +291,6 @@ pre::-webkit-resizer {
 .book .book-body {
     margin: 10px;
     background-color: transparent !important;
-    z-index: 1;
 }
 
 .book .book-body .page-wrapper .page-inner section {
