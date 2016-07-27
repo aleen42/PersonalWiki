@@ -150,3 +150,4 @@ Refs are a great way to send a message to a particular child instance in a way t
 #### Cautions:
 
 - **Never** access refs inside of any component's render method – or while any component's render method is even running anywhere in the call stack.
+- If you want to preserve Google Closure Compiler advanced-mode crushing resilience, make sure to never access as a property what was specified as a string. This means you must access using `this.refs['myRefString']` if your ref was defined as `ref="myRefString"`.
