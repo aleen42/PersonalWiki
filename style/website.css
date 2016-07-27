@@ -375,4 +375,50 @@ pre::-webkit-resizer {
     }
 }
 
+/** ace scroll bar */
+.ace_scrollbar-h::-webkit-scrollbar,
+.ace_scrollbar-v::-webkit-scrollbar{
+    /** if you want to style your own scroll bar, this pseudo should be written */
+    /** Part 1 */
+    width: 6px;
+}
+
+.ace_scrollbar-h::-webkit-scrollbar-button,
+.ace_scrollbar-v::-webkit-scrollbar-button{
+    /** Part 2 */
+    display: none;
+}
+
+.ace_scrollbar-h::-webkit-scrollbar-track,
+.ace_scrollbar-::-webkit-scrollbar-track{
+    /** Part 3 */
+}
+
+.ace_scrollbar-h::-webkit-scrollbar-track-piece,
+.ace_scrollbar-v::-webkit-scrollbar-track-piece{
+    /** Part 4 */
+}
+
+.ace_scrollbar-h::-webkit-scrollbar-thumb {
+    /** Part 5 */
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+.ace_scrollbar-h::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(161, 0, 0, 1);
+}
+
+.ace_scrollbar-h::-webkit-scrollbar-thumb:active {
+    background-color: rgba(100, 0, 0, 1);
+}
+
+.ace_scrollbar-h::-webkit-scrollbar-corner {
+    /** Part 6 */
+}
+
+.ace_scrollbar-h::-webkit-resizer {
+    /** Part 7 */
+}
+
 
