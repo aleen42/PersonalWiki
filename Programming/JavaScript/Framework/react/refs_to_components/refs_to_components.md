@@ -53,7 +53,9 @@ class MyComponent extends React.Component {
     }
     
     componentDidMount: function () {
-        this._input.focus();
+        if (this._input !== null ) {
+            this._input.focus();
+        }
     }
 }
 ```
