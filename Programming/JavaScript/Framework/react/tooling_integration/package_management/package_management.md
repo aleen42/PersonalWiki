@@ -6,4 +6,4 @@ We provide CDN-hosted versions of React [on our download page](https://facebook.
 
 ### Using React from npm
 
-You can also use React with a CommonJS module system like [browserify](http://browserify.org/) or [webpack](https://webpack.github.io/).
+You can also use React with a CommonJS module system like [browserify](http://browserify.org/) or [webpack](https://webpack.github.io/). Just use `react` and `react-dom` npm packages.
