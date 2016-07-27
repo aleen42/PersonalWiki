@@ -431,7 +431,7 @@ pre::-webkit-resizer {
 }
 
 .ace_scroller.ace_scroll-left {
-    box-shadow: none;
+    box-shadow: none !import;
 }
 
 
