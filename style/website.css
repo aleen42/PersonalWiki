@@ -426,4 +426,8 @@ pre::-webkit-resizer {
     /** Part 7 */
 }
 
+.ace_gutter {
+    box-shadow: -4px 0 13px 7px rgba(0, 0, 0, 0.2) !importan;
+}
+
 
