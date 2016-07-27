@@ -80,7 +80,7 @@ var InputComponent = React.creteClass({
         return <input type="text" defaultValue="Hello!" />;
     }
 });
-```
+{%endace%}
 
 Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultChecked`, and `<select>` supports `defaultValue`.
 
@@ -94,17 +94,19 @@ Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultC
 
 In HTML, we suppose that we have a `<input>` tag:
 
-```html
+{%ace edit=false, lang='html'%}
 <input type="text" name="title" value="Untitled" />
-```
+{%endace%}
 
 When the user updates the input, the node's `vaule` *property* will change. However, `node.getAtribute('value')` should still return the value used at initialization time, `Untitled`.
 
-```js
-render: function () {
-    return <input type="text" name="title" value="Untitled" />;
-}
-```
+{%ace edit=false, lang='jsx'%}
+var InputComponent = React.creteClass({
+    render: function () {
+        return <input type="text" name="title" value="Untitled" />;
+    }
+});
+{%endace%}
 
 However, in React, the value should always be `Untitled`, no matter what the user has changed. Therefore, the state of the view has kept in consistent.
 
