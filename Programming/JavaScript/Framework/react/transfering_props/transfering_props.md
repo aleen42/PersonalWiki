@@ -10,7 +10,7 @@ Therefore, we can use [JSX spread attributes](./../jsx_spread_attributes/jsx_spr
 
 Ignoring JSX, you can also use any object helpers such as ES6 `Object.assign` or Underscore `_.extend`:
 
-{%ace edit=false, lang='javascrip'%}
+{%ace edit=false, lang='javascript'%}
 React.createElement(Component, Object.assign{}, this.props, { more: 'value' });
 {%endace%}
 
