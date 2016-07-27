@@ -41,3 +41,15 @@ var MyComponent = React.createClass({
     }
 });
 ```
+
+or using ES6 Arrow Functions:
+
+```js
+class MyComponent extends React.Component {
+    render: function () {
+        return (
+            <Textarea ref={(input) => this._input = input}></Textarea>
+        );
+    }
+}
+```
