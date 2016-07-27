@@ -11,3 +11,5 @@ With that JavaScript file, we can just include a `<script type="text/babel">` ta
 > Note:
 
 > The in-browser JSX transformer is fairly large and results in extraneous computation client-side that can be avoided. Do not use it in production
+
+#### Productionizing: Precompiled JSX
