@@ -57,4 +57,10 @@ new webpack.DefinePlugin({
 
 ### Using React from Bower
 
+Bower is a package manager optimized for the front-end development. If multiple packages depend on a package - jQuery for example - Bower will download jQuery just once. This is known as a flat dependency graph and it helps reduce page load.
 
+If you'd like to use bower, it's as easy as:
+
+{%ace edit=false, lang='powershell' %}
+$ bower install --save react
+{%endace%}
