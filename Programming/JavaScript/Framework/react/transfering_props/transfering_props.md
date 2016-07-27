@@ -44,7 +44,7 @@ Sometimes, it's fragile(易碎) and tedious(冗長) to pass every property along
 
 As followed, you can list out all the properties that you would like to consume(銷毀), followed by `...other`.
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascript'%}
 var { checked, ...other } = props;
 {%endace%}
 
