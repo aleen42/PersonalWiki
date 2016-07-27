@@ -18,3 +18,6 @@ A Security Consultant Hacks into your website as an attacker, and at the same ti
 
 It is obviously true that a startup struggle for funds in its early stage and instead of having a full time employee, a consultant is the best choice for a startup to make their platform safe while at the same time reducing budget strains and keeping your startup secured.
 
+### 3. Reduces Possible Attacks
+
+As part of the Security Consultant work, all the possible attacks in your startup technical infrastructure including your website, mobile apps or your office IT infrastructure, are overlook by the security consultant and possibly mitigated before an incident. 
