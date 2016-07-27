@@ -163,7 +163,7 @@ var App = (
 var person = <Person name={window.isLoggedIn ? window.name : ''} />;
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascript'%}
 /** output JavaScript syntax */
 var person = React.createElement(
     Person,
@@ -193,7 +193,7 @@ Likewise, JavaScript expressions may be used to express children:
 var content = <Container>{window.isLoggedIn ? <Nav /> : <Login />}</Container>;
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascript'%}
 /** output JavaScript syntax */
 var content = React.createElemnt(
     Container,
