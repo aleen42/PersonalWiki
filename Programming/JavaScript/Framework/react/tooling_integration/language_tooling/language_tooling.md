@@ -49,4 +49,4 @@ Flow is a JavaScript type checker released by Facebook, and it supports JSX. For
 
 TypeScript is a type-checker and transpiler that supports type-checking React and JSX. For more info, check out their guide on [getting started with React and Webpack](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html), or learn more about [TypeScript's JSX support](https://www.typescriptlang.org/docs/handbook/jsx.html).
 
-To learn more about TypeScript in general, visit the TypeScript homepage.
+To learn more about TypeScript in general, visit the [TypeScript homepage](https://www.typescriptlang.org/).
