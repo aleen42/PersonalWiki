@@ -21,6 +21,8 @@ ReactDOM.render(
 
 Configure babel with a `.babelrc` file:
 
-```json
-
+{%ace edit=false lang='json' %}
+{
+    "presets": ["react"]
+}
 ```
