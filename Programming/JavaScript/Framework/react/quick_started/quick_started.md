@@ -6,7 +6,7 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 
 -  **React JSFiddle**
 
-{%ace edit=false, lang='html', theme='clouds' %}
+{%ace edit=false, lang='html', theme='tomorrow' %}
 <script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
 
 <div id="container">
@@ -14,7 +14,7 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 </div>
 {%endace%}
 
-{%ace edit=false, lang='jsx', theme='clouds' %}
+{%ace edit=false, lang='jsx'%}
 var Hello = React.createClass({
     render: function () {
         return <div>Hello {this.props.name}</div>
@@ -31,13 +31,13 @@ The XML syntax inside of JavaScript is called **JSX**; check out the [JSX Syntax
 
 -  React JSFiddle without JSX
 
-{%ace edit=false, lang='html', theme='clouds' %}
+{%ace edit=false, lang='html'%}
 <div id="container">
     <!-- This element's contents will be replaced with your component. -->
 </div>
 {%endace%}
 
-{%ace edit=false, lang='jsx', theme='clouds' %}
+{%ace edit=false, lang='jsx'%}
 var Hello = React.createClass({
     displayName: 'Hello',
     render: function () {
@@ -55,7 +55,7 @@ ReactDOM.render(
 
 #### use browser.min.js to transform jsx
 
-{%ace edit=false, lang='html', theme='clouds' %}
+{%ace edit=false, lang='html'%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,7 +81,7 @@ In order to translate it to vanilla JavaScript we use `<script type="text/babel"
 
 Or we can seperate a file to write jsx:
 
-{%ace edit=false, lang='html', theme='clouds' %}
+{%ace edit=false, lang='html'%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,7 +98,7 @@ Or we can seperate a file to write jsx:
 </html>
 {%endace%}
 
-{%ace edit=false, lang='jsx', theme='clouds' %}
+{%ace edit=false, lang='jsx'%}
 ReactDOM.render(
     <h1>Hello World</h1>,
     document.getElementById('example')
@@ -111,13 +111,13 @@ ReactDOM.render(
 
 Install the tool first:
 
-{%ace edit=false, lang='sh', theme='clouds' %}
+{%ace edit=false, lang='sh'%}
 $ npm install -g react-tools
 {%endace%}
 
 Transform jsx with the following command, `--watch` is used for keeping watching transformation:
 
-{%ace edit=false, lang='sh', theme='clouds' %}
+{%ace edit=false, lang='sh'%}
 $ jsx --watch src/ build/
 {%endace%}
 
