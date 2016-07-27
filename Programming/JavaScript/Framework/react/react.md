@@ -26,4 +26,4 @@
 - [**Forms**](./forms/forms.md)
 - [**Working With the Browser**](./working_with_the_browser/working_with_the_browser.md)
     - [**Refs to Components**](./refs_to_components/refs_to_components.md)
-- **Tools**
+- [**Tooling Integration**](./tooling_integration/tooling_integration.md)
