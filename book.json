@@ -23,7 +23,8 @@
         "comments",
         "advanced-emoji",
         "page-footer",
-        "mathjax"
+        "mathjax",
+        "ace"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -61,16 +62,16 @@
             "embedEmojis": true
         },
         "page-footer": {
+            "isShowIssues": true,
             "wisdom": "More than a coder, more than a designer",
             "copyright": "Copyright © aleen42",
-            "signature": "Aleen",
-            "isShowQRCode": true,
             "style": "symmetrical",
             "repo": "aleen42/PersonalWiki",
+            "isShowQRCode": true,
             "timeColor": "#a10000",
             "utcOffset": "8",
             "format": "yyyy-MM-dd hh:mm:ss",
-            "isShowIssues": true,
+            "signature": "Aleen",
             "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "copyrightColor": "#666",
             "description": "update time:"
