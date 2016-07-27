@@ -30,21 +30,23 @@ var InputComponent = React.creteClass({
 
 User input will have no effect on the rendered element because React has declared the value to be `Hello!`. To update the value in response to user input, you could use the `onChange` event:
 
-```js
-getInitialState: function () {
-    return { value: 'Hello!' };
-},
-
-handleChanged: function(event) {
-    this.setState({ value: event.target.value });
-},
-
-render: function () {
-    return (
-        <input type="text" value={this.state.value} onChange={this.handleChanged} />
-    );
-}
-```
+{%ace edit=false, lang='jsx'%}
+var InputComponent = React.creteClass({
+    getInitialState: function () {
+        return { value: 'Hello!' };
+    },
+    
+    handleChanged: function(event) {
+        this.setState({ value: event.target.value });
+    },
+    
+    render: function () {
+        return (
+            <input type="text" value={this.state.value} onChange={this.handleChanged} />
+        );
+    }
+});
+{%endace%}
 
 *Notice that: A **Controlled** component does not maintain its own internal state; the component renders purely based on props.*
 
