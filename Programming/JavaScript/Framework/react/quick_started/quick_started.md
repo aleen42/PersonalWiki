@@ -37,7 +37,7 @@ The XML syntax inside of JavaScript is called **JSX**; check out the [JSX Syntax
 </div>
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 var Hello = React.createClass({
     displayName: 'Hello',
     render: function () {
