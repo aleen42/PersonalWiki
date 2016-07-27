@@ -54,3 +54,7 @@ new webpack.DefinePlugin({
     }
 });
 {%endace%}
+
+### Using React from Bower
+
+
