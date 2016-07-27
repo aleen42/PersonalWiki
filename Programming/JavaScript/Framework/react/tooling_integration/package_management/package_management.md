@@ -45,4 +45,4 @@ $ npm install --save react react-dom babel-preset-react babel-loader babel-core
 $ webpack main.js bundle.js --module-bind 'js=babel-loader'
 {%endace%}
 
-**Notice that**: by default, React will be in development mode, which is slower, and not advised for production. To use React in production mode, set the environment variable NODE_ENV to production (using envify or webpack's DefinePlugin). For example:
+**Notice that**: by default, React will be in development mode, which is slower, and not advised for production. To use React in production mode, set the environment variable `NODE_ENV` to `production` (using envify or webpack's DefinePlugin). For example:
