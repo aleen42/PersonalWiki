@@ -27,4 +27,6 @@ Configure babel with a `.babelrc` file:
 }
 {%endace%}
 
+> Note:
 
+> If you are using ES2015, you will want to also use the `babel-preset-es2015` package.
