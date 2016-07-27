@@ -33,7 +33,7 @@ ReactDOM.render(
 
 Then, this jsx should be converted into a plain js like:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascrip'%}
 var CommentBox = React.createClass({
     render: function () {
         return (
