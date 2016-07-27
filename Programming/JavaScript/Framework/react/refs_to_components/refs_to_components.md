@@ -51,5 +51,9 @@ class MyComponent extends React.Component {
             <Textarea ref={(input) => this._input = input}></Textarea>
         );
     }
+    
+    componentDidMount: function () {
+        this._input.focus();
+    }
 }
 ```
