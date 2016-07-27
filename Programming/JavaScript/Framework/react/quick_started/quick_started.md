@@ -14,7 +14,7 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 </div>
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 var Hello = React.createClass({
     render: function () {
         return <div>Hello {this.props.name}</div>
@@ -31,7 +31,7 @@ The XML syntax inside of JavaScript is called **JSX**; check out the [JSX Syntax
 
 -  React JSFiddle without JSX
 
-{%ace edit=false, lang='html'%}
+{%ace edit=false, lang='html', theme='tomorrow' %}
 <div id="container">
     <!-- This element's contents will be replaced with your component. -->
 </div>
