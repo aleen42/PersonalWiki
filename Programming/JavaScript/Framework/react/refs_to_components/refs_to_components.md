@@ -140,3 +140,7 @@ ReactDOM.render(
 ### Summary
 
 Refs are a great way to send a message to a particular child instance in a way that would be inconvenient to do via streaming Reactive `props` and `state`. They should, however, not be your go-to abstraction for flowing data through your application. By default, use the Reactive data flow and save `ref`s for use cases that are inherently non-reactive.
+
+#### Benefits:
+
+- You can define any public method on your component classes (such as a reset method on a Typeahead) and call those public methods through refs (such as `this.refs.myTypeahead.reset()`).
