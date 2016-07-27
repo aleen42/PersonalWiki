@@ -55,7 +55,7 @@ ReactDOM.render(
 
 #### use browser.min.js to transform jsx
 
-{%ace edit=false, lang='html'%}
+{%ace edit=false, lang='html', theme='tomorrow' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,7 +81,7 @@ In order to translate it to vanilla JavaScript we use `<script type="text/babel"
 
 Or we can seperate a file to write jsx:
 
-{%ace edit=false, lang='html'%}
+{%ace edit=false, lang='html', theme='tomorrow' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,7 +98,7 @@ Or we can seperate a file to write jsx:
 </html>
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 ReactDOM.render(
     <h1>Hello World</h1>,
     document.getElementById('example')
@@ -111,19 +111,19 @@ ReactDOM.render(
 
 Install the tool first:
 
-{%ace edit=false, lang='sh'%}
+{%ace edit=false, lang='sh', theme='tomorrow' %}
 $ npm install -g react-tools
 {%endace%}
 
 Transform jsx with the following command, `--watch` is used for keeping watching transformation:
 
-{%ace edit=false, lang='sh'%}
+{%ace edit=false, lang='sh', theme='tomorrow' %}
 $ jsx --watch src/ build/
 {%endace%}
 
 The comand will see jsx files in the directory `src/` and build a vanilla JavaScript file into the directory `build/`, and then we can just import this vanilla JavaScript file.
 
-{%ace edit=false, lang='html'%}
+{%ace edit=false, lang='html', theme='tomorrow' %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
