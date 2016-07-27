@@ -4,7 +4,7 @@ The aim of building modular components is to reuse, to separate different concer
 
 Let's create a simple Avatar component which shows a Facebook page picture and name using the Facebook Graph API.
 
-```js
+{%ace edit=false, lang='jsx'%}
 var Avatar = React.createClass({
     render: function () {
         return (
@@ -38,7 +38,7 @@ ReactDOM.render(
     <Avatar pagename="Engineering" />,
     document.getElementById('example')
 );
-```
+{%endace%}
 
 ### Ownership
 
@@ -48,9 +48,9 @@ It's important to draw a distinction between the **owner-ownee** relationship an
 
 ### Children
 
-```js
+{%ace edit=false, lang='jsx'%}
 <Parent><Children /></Parent>
-```
+{%endace%}
 
 In React, `Parent` can read its children by accessing the special `this.props.children` prop. **This is an opaque data structure(不透明數據結構)**: use the [React.Children utilities](https://facebook.github.io/react/docs/top-level-api.html#react.children) to manipulate them.
 
@@ -60,20 +60,20 @@ In React, `Parent` can read its children by accessing the special `this.props.ch
 
 For example, suppose two render passes generate respective markup:
 
-```js
+{%ace edit=false, lang='jsx'%}
 /** render 1 */
 <Card>
     <p>Paragraph 1</p>
     <p>Paragraph 2</p>
 </Card>
-```
+{%endace%}
 
-```js
+{%ace edit=false, lang='jsx'%}
 /** render 2 */
 <Card>
     <p>Paragraph 2</p>
 </Card>
-```
+{%endace%}
 
 We can see that render 2 has removed `<p>Paragraph 1 </p>`, and actually React will reconcile the DOM by changing the text content of the first child to **Paragraph 2**, and destroying the last child.
 
@@ -81,18 +81,18 @@ We can see that render 2 has removed `<p>Paragraph 1 </p>`, and actually React w
 
 For children which maintains data in `this.state`, they're not going to be destroied in React. In most case, React will just hide elements:
 
-```js
+{%ace edit=false, lang='jsx'%}
 <Card>
     <p style={{display: 'none'}}>Paragraph 1</p>
     <p>Paragraph 2</p>
 </Card>
-```
+{%endace%}
 
 #### Dynamic Chidlren
 
 If the identity and state of each child must be maintained across render passes, you can uniquely identify each child by assigning it a `key`:
 
-```js
+{%ace edit=false, lang='jsx'%}
 render: function () {
     var results = this.props.results;
     return (
@@ -105,11 +105,11 @@ render: function () {
         </ol>
     );
 }
-```
+{%endace%}
 
 ***Notice that: the `key` should always be supplied directly to the components in the array, not to the container HTML child of each component in the array:***
 
-```js
+{%ace edit=false, lang='jsx'%}
 /** WRONG !! */
 var ListItemWrapper = React.createClass({
     render: function() {
@@ -130,9 +130,9 @@ var MyComponent = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
-```js
+{%ace edit=false, lang='jsx'%}
 /** Correct */
 var ListItemWrapper = React.createClass({
     render: function() {
@@ -153,7 +153,7 @@ var MyComponent = React.createClass({
         );
     }
 });
-```
+{%endace%}
 
 ### Data Flow
 
