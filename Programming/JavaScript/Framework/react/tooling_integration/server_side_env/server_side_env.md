@@ -15,3 +15,7 @@ If you use JSX, you may want to pre-compile your components. Alternatively you m
 ### C\#
 
 Support for server-side component rendering and JSX compilation (via Babel) in a .NET Framework / ASP.NET environment is provided through our [ReactJS.NET](http://reactjs.net/) project.
+
+### Nashorn
+
+Nashorn is a lightweight high-performance JavaScript runtime that runs within the **JVM**. React should run out of the box in Java 8+.
