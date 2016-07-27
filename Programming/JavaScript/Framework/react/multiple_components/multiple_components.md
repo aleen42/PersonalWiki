@@ -83,7 +83,7 @@ For children which maintains data in `this.state`, they're not going to be destr
 
 {%ace edit=false, lang='html'%}
 <Card>
-    <p style={{display: 'none'}}>Paragraph 1</p>
+    <p style={display: 'none'}>Paragraph 1</p>
     <p>Paragraph 2</p>
 </Card>
 {%endace%}
