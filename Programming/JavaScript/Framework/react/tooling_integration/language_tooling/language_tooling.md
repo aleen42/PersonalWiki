@@ -40,3 +40,7 @@ babel --presets es2015,react --watch src/ --out-dir lib/
 #### Helpful Open-Source Projects
 
 The open-source community has built tools that integrate JSX with several editors and build systems. See [JSX integrations](https://github.com/facebook/react/wiki/Complementary-Tools#jsx-integrations) for the full list.
+
+### Flow
+
+Flow is a JavaScript type checker released by Facebook, and it supports JSX. For more info, checkout the [Flow homepage](http://flowtype.org/).
