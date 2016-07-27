@@ -6,7 +6,7 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 
 -  **React JSFiddle**
 
-{%ace edit=false, lang='html', theme='solarized_dark' %}
+{%ace edit=false, lang='html', theme='tomorrow' %}
 <script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
 
 <div id="container">
