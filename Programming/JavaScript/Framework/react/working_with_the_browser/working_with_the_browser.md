@@ -72,3 +72,16 @@ React has provided some methods to hook components' lifecycles. `will` method is
 React supports most popular browsers, including Internet Explorer 9 and above.
 
 (We don't support older browsers that don't support ES5 methods, but you may find that your apps do work in older browsers if polyfills such as [es5-shim and es5-sham](https://github.com/es-shims/es5-shim) are included in the page. You're on your own if you choose to take this path.)
+
+kriskowal's [es5-shim](https://github.com/kriskowal/es5-shim) `es5-shim.js` has provided following APIs for React:
+
+- `Array.isArray`
+- `Array.prototype.every`
+- `Array.prototype.forEach`
+- `Array.prototype.indexOf`
+- `Array.prototype.map`
+- `Date.now`
+- `Function.prototype.bind`
+- `Object.keys`
+- `String.prototype.split`
+- `String.prototype.trim`
