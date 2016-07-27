@@ -21,3 +21,15 @@ It is obviously true that a startup struggle for funds in its early stage and in
 ### 3. Reduces Possible Attacks
 
 As part of the Security Consultant work, all the possible attacks in your startup technical infrastructure including your website, mobile apps or your office IT infrastructure, are overlook by the security consultant and possibly mitigated before an incident. 
+
+### 4. Saves Your Resources
+
+Are you planning of implementing SSL? Which SSL is best suited? Where to Buy it from? Whats the Difference? These types of questions arises at almost all instance of a startup and getting the right decision is a tough task. You might overspend it or choose the wrong thing. In order to make sure you spend wisely in case of security, the best option is to make the consultant handles it for you.
+
+### 5. Handles Incident
+
+There are numerous  times a website got hacked and data got stolen, in such incidents a security consultant advises the fastest and best possible solutions to overcome the attack while at the same time investigating the incident. These proves vital during incidents and also reduces the cost of handling incident by a company.
+
+Do always remember that :
+
+> Every time some [developer] says, ‘Nobody will go to the trouble of doing that,’ there’s some kid in Finland who will go to the trouble.
