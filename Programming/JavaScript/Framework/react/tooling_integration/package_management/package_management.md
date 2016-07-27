@@ -64,3 +64,25 @@ If you'd like to use bower, it's as easy as:
 {%ace edit=false, lang='powershell' %}
 $ bower install --save react
 {%endace%}
+
+{%ace edit=false, lang='html' %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hello React!</title>
+        <script src="bower_components/react/react.js"></script>
+        <script src="bower_components/react/react-dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    </head>
+    <body>
+        <div id="example"></div>
+        <script type="text/babel">
+        ReactDOM.render(
+            <h1>Hello, world!</h1>,
+            document.getElementById('example')
+        );
+        </script>
+    </body>
+</html>
+{%endace%}
