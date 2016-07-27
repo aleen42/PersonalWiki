@@ -96,7 +96,7 @@ function FancyCheckbox(props) {
 
 Rest properties allow you to **extract the remaining properties** from an object into a new object. It excludes every other property listed in the destructuring pattern.
 
-{%ace edit=false, lang='js'%}
+{%ace edit=false, lang='javascript'%}
 var { x, y, ...z } = { x: 1, y: 2, a: 1, b: 2 };
 
 console.log(x);     /** => 1              */
