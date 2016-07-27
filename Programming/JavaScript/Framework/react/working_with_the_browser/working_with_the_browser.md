@@ -85,3 +85,8 @@ kriskowal's [es5-shim](https://github.com/kriskowal/es5-shim) `es5-shim.js` has 
 - `Object.keys`
 - `String.prototype.split`
 - `String.prototype.trim`
+
+kriskowal's [es5-shim](https://github.com/kriskowal/es5-shim) `es5-sham.js` has also provided some APIs:
+
+- `Object.create`
+- `Object.freeze`
