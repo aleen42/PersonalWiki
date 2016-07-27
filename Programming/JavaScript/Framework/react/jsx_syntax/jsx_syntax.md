@@ -45,7 +45,7 @@ var Nav;
 var app = <Nav color="blue">;
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='javascr'%}
 var Nav;
 
 /** output JavaScript syntax */
