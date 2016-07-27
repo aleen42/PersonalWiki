@@ -16,4 +16,5 @@ With that JavaScript file, we can just include a `<script type="text/babel">` ta
 
 If you have npm, you can run: 
 
+{% edit=false  %}
 npm install -g babel-cli
