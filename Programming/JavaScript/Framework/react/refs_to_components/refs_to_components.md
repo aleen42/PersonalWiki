@@ -84,7 +84,8 @@ React also supports using a string (instead of a callback) as a ref prop on any 
 
 ### An example
 
-```js
+{%ace edit=true, lang='jsx'%}
+
 /** ES6 */
 class MyComponent extends React.Component {
 	constructor(props) {
@@ -107,7 +108,6 @@ class MyComponent extends React.Component {
 		);
 	}
 }
-
 
 /** ES5 */
 var MyComponent = React.createClass({
@@ -135,7 +135,8 @@ ReactDOM.render(
 	<MyComponent />,
 	document.getElementById('content')
 );
-```
+
+{%endace%}
 
 ### Summary
 
