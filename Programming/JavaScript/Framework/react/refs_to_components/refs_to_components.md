@@ -22,7 +22,7 @@ var myComponentInstance = ReactDOM.render(myComponentElement, myContainer);
 
 > This should only ever be used at the top level. This should only ever be used at the top level. Inside components, let your `props` and `state` handle communication with child components, or use one of the other methods of getting a ref (string attribute or callbacks).
 
-### The ref Callback Attribute
+### The ref **Callback** Attribute
 
 React supports a special attribute that you can attach to any component. The `ref` attribute can be a callback function, and **this callback will be executed immediately after the component is mounted**. The referenced component will be passed in as a parameter, and the callback function may use the component immediately, or save the reference for future use (or both).
 
@@ -61,4 +61,6 @@ class MyComponent extends React.Component {
 ```
 
 *Notice that: when the referenced component is unmounted and whenever the ref changes, the old ref will be called with `null` as an argument. Also when writing refs with inline function expressions as in the examples here, React sees a different function object each time so on every update, ref will be called with `null` immediately before it's called with the component instance.*
+
+### The ref **String** Attribute
 
