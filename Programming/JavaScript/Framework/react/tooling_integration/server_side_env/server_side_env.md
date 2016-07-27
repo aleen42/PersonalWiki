@@ -4,4 +4,4 @@ One of the great things about React is that it doesn't require the DOM as a depe
 
 ### Node.js
 
-
+Node.js is a popular JavaScript runtime that comes with an extensive core library and support for installing packages from npm to expand on the basic functionality.
