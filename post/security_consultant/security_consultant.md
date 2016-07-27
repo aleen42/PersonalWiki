@@ -28,7 +28,7 @@ Are you planning of implementing SSL? Which SSL is best suited? Where to Buy it 
 
 ### 5. Handles Incident
 
-There are numerous  times a website got hacked and data got stolen, in such incidents a security consultant advises the fastest and best possible solutions to overcome the attack while at the same time investigating the incident. These proves vital during incidents and also reduces the cost of handling incident by a company.
+There are numerous times a website got hacked and data got stolen, in such incidents a security consultant advises the fastest and best possible solutions to overcome the attack while at the same time investigating the incident. These proves vital during incidents and also reduces the cost of handling incident by a company.
 
 Do always remember that :
 
