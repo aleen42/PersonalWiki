@@ -6,44 +6,6 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 
 -  **React JSFiddle**
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-{%ace edit=false, lang='html', theme='solarized_light' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-{%ace edit=false, lang='html', theme='monokai' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-
-{%ace edit=false, lang='html', theme='iplastic' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-
-{%ace edit=false, lang='html', theme='kr_theme' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-
 {%ace edit=false, lang='html', theme='clouds' %}
 <script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
 
@@ -52,39 +14,7 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 </div>
 {%endace%}
 
-{%ace edit=false, lang='html', theme='chaos' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-
-{%ace edit=false, lang='html', theme='cobalt' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-
-{%ace edit=false, lang='html', theme='katzenmilch' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-
-{%ace edit=false, lang='html', theme='twilight' %}
-<script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
-
-<div id="container">
-    <!-- This element's contents will be replaced with your component. -->
-</div>
-{%endace%}
-
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx', theme='clouds'%}
 var Hello = React.createClass({
     render: function () {
         return <div>Hello {this.props.name}</div>
