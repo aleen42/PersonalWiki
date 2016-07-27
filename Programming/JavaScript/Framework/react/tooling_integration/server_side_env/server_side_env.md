@@ -41,7 +41,7 @@ public class ReactRender
         
         System.out.println(nashorn.eval(
             "ReactDOMServer.renderToString(" +
-                "React.createElement('div', null, 'Hello World!')" +
+            "React.createElement('div', null, 'Hello World!')" +
             ");"
         ));
     }
