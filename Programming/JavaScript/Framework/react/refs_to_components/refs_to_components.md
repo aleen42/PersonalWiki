@@ -9,3 +9,5 @@ Not to be confused with the `render()` function that you define on your componen
 ```js
 var myComponent = ReactDOM.render(<MyComponent />, myContainer);
 ```
+
+Keep in mind that the JSX does not return a component instance! What it return is **ReactElement**: a lightweight representation that tells React what the mounted component should look like.
