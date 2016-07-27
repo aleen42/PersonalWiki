@@ -14,7 +14,7 @@ React is all about modular and composable components. Here we will start to writ
 
 First, we will build up a component for CommentBox with the following jsx:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentBox = React.createClass({
     render: function () {
         return (
@@ -29,11 +29,11 @@ ReactDOM.render(
     <CommentBox />,
     document.getElementById('content')
 );
-```
+{%endace%}
 
 Then, this jsx should be converted into a plain js like:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentBox = React.createClass({
     render: function () {
         return (
@@ -60,7 +60,7 @@ As we can see, we have just passed a object to `React.createClass`, and the main
 
 CommentList is a child node of CommentBox, so we should have this following:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentList = React.createClass({
     render: function () {
         return (
@@ -75,7 +75,7 @@ var CommentList = React.createClass({
 
 For each Comment, we will use `this.props.author` to get attributes `author` of the corresponding elements and `this.props.children` as nested elements:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var Comment = React.createClass({
     render: function () {
         return (
@@ -90,7 +90,7 @@ var Comment = React.createClass({
 
 Markdown is one of awesome tools in React, and we can use `Remarkable` to convert Markdown into raw HTML.
 
-```js
+{%ace edit=false, lang='jsx'%}
 var Comment = React.createClass({
     render: function () {
         var md = new Remarkable();
@@ -110,7 +110,7 @@ That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/C
 
 There is a way to do around it:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var Comment = React.createClass({
     /** dangerouslySetInnerHTML must use __html to store what you want to set */
     rawMarkup: function () {
@@ -133,7 +133,7 @@ var Comment = React.createClass({
 
 As we can see, Comment elements within the CommentList can be extracted as a data model like following:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentList = React.createClass({
     render: function () {
         var commentNodes = this.props.data.map(function (comment) {
@@ -153,7 +153,7 @@ var CommentList = React.createClass({
 
 Then, the data can be a array like following:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var data = [
     { id: 1, author: 'aleen', text: 'comments for **aleen**'},
     { id: 2, author: 'alien', text: 'comments for **alien**'}
@@ -162,7 +162,7 @@ var data = [
 
 And of course, we should pass this array through CommentBox:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentBox = React.createClass({
     render: function () {
         return (
@@ -185,7 +185,7 @@ ReactDOM.render(
 
 If data is fetched from servers, and we can use `getInitialState` and `componentDidMount`:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentBox = React.createClass({
     /**
      * getInitialState() executes exactly once during the lifecycle of the component
@@ -233,7 +233,7 @@ ReactDOM.render(
 
 With `componentDidMount`, we can automatically update data with other technology. For example we can use `setInterval`.
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentBox = React.createClass({
     /** getInitialState function */
     /** ... */
@@ -272,7 +272,7 @@ ReactDOM.render(
 
 CommentForm is the component used for sav comments, and users should provide their name and their text. Therefore:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentForm = React.createClass({
     render: function () {
         return (
@@ -290,7 +290,7 @@ With the traditional DOM, `input` elements are rendered and the browser manages 
 
 Hence, we will be using `this.state` to save the user's input as it is entered. We define an initial `state` with two properties `author` and `text` and set them to be empty strings. In our `<input>` elements, we set the `value` prop to reflect the state of the component and attach `onChange` handlers to them. These `<input>` elements with a value set are called **controlled components**. Read more about controlled components on the [Forms article](https://facebook.github.io/react/docs/forms.html#controlled-components).
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentForm = React.createClass({
     getInitialState: function () {
         return {
@@ -321,7 +321,7 @@ var CommentForm = React.createClass({
 
 Now, we can just handle submit operation:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentForm = React.createClass({
     /** getInitialState */
     /** ... */
@@ -370,7 +370,7 @@ var CommentForm = React.createClass({
 
 And CommentBox should be:
 
-```js
+{%ace edit=false, lang='jsx'%}
 var CommentBox = React.createClass({
     /** loadCommentsFromServer function */
     /** ... */
@@ -412,11 +412,11 @@ var CommentBox = React.createClass({
         );
     }
 });
-```
+
 
 ### Whole JavaScript file
 
-```js
+{%ace edit=false, lang='jsx'%}
 /** Comment Component */
 var Comment = React.createClass({
     /** dangerouslySetInnerHTML must use __html to store what you want to set */
@@ -566,4 +566,4 @@ ReactDOM.render(
     <CommentBox url="/api/comments" pollInterval={2000}></CommentBox>,
     document.getElementById('content')
 );
-```
+{%endace%}
