@@ -25,4 +25,6 @@ Configure babel with a `.babelrc` file:
 {
     "presets": ["react"]
 }
-```
+{%endace%}
+
+
