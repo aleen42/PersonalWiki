@@ -233,7 +233,7 @@ ReactDOM.render(
 
 With `componentDidMount`, we can automatically update data with other technology. For example we can use `setInterval`.
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentBox = React.createClass({
     /** getInitialState function */
     /** ... */
