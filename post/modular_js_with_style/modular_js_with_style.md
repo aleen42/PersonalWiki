@@ -226,3 +226,7 @@ define(["dijit/Tooltip"], function( Tooltip ){
     new Tooltip(...);
 });
 {%endace%}
+
+注意，这种模块天生的匿名特性使它能够被一个 Dojo 异步加载器、Require JS 或标准的 [dojo.require()](http://docs.dojocampus.org/dojo/require) 等你惯用的模块加载器所使用。
+
+如果想了解模块引用的话，有一些有趣的小陷阱，在这里了解一下会很有帮助。虽然 AMD 主张的引用模块的方式是将它们声明在依赖列表中，与一组参数相对应，但 Dojo 1.6 的构建系统却不支持这种方式——这只能在完全遵循 AMD 的加载器中正常工作。比如：
