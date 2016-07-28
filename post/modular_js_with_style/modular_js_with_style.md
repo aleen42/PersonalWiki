@@ -731,7 +731,7 @@ $(function(){
 - **import**声明把某个模块的导出绑定为本地变量，并可以重命名来避免命名冲突。
 - **export**声明声明了某个模块的本地绑定是外部可见的，这样其它模块就能够读取它们但却无法进行修改。有趣的是，模块可以导出子模块，却无法导出已经在别处定义过的模块。你同样可以给导出重命名来让它们不同于本地的名字。
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 module staff{
     // 指定其它模块可以使用的（公用）导出
     export var baker = {
@@ -768,7 +768,7 @@ module cakeFactory{
 
 模块提案同样也适用于远程存放的模块（比如一个第三方 API 包裹器），使其简化了从外部位置载入模块的过程。这里是一段拉取我们上面定义的模块来使用的例子：
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 module cakeFactory from 'http://addyosmani.com/factory/cakes.js';
 cakeFactory.oven.makeCupcake('sprinkles');
 cakeFactory.oven.makeMuffin('large');
@@ -789,13 +789,13 @@ Loader.load('http://addyosmani.com/factory/cakes.js',
 
 对于面向服务器的开发者来说，在 ES.next 中提出的模块系统并非局限于对浏览器端模块的关注。通过下面的例子，你可以看见一个被提出用于服务器的类 CJS 模块：
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 // io/File.js
 export function open(path) { ... };
 export function close(hnd) { ... };
 {%endace%}
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 // compiler/LexicalHandler.js
 module file from 'io/File';
  
@@ -808,7 +808,7 @@ export function scan(in) {
 }
 {%endace%}
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 module lexer from 'compiler/LexicalHandler';
 module stdlib from '@std';
  
@@ -821,7 +821,7 @@ module stdlib from '@std';
 
 在 Harmony 中，类与构造器一同作为语言的一部分出现，（终于）有了一些真正的私有性。在下面的例子中，我引入了一些行内的注释来帮助你理解类是如何组织的，但是你可能会注意到这里缺少了“函数”这个词汇。这并非一个排印错误：TC39 一直以来都在有意识地努力减少我们对 `function` 关键字的到处滥用，希望这有助于帮助我们简化代码的编写。
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 class Cake{
     // 我们可以用 'constructor' 关键字后面紧跟一个公有及私有声明
     // 的参数列表来定义一个类的构造器主体。
