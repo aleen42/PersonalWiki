@@ -497,7 +497,7 @@ exports.name = 'bar';
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 require('./bar');
 exports.helloWorld = function(){
-    return 'Hello World!!'
+    return 'Hello World!!';
 }
 {%endace%}
 
