@@ -375,3 +375,17 @@ define.amd = {
 };
 {%endace%}
 
+#### 更智能的 jQuery 插件
+
+最近我在这里讨论了一些关于如何用通用模块定义（UMD，Universal Module Definition）来编写 jQuery 的思路和例子。UMD 定义那些既能在客户端又能在服务器端工作的模块，这样的模块同时也能和目前可用的主流脚本加载器一同工作。虽然这仍然是一个许多概念都还没最终确定的新领域，还是不妨看看标题为 AMD 与 CommonJS 的章节中的代码示例。如果你觉得我们哪里还可以改进，请告诉我。
+
+#### 哪些脚本加载器和框架支持 AMD?
+
+**浏览器端：**
+
+- RequireJS http://requirejs.org
+- curl.js http://github.com/unscriptable/curl
+- bdLoad http://bdframework.com/bdLoad
+- Yabble http://github.com/jbrantly/yabble
+- PINF http://github.com/pinf/loader-js
+- (还有更多)
