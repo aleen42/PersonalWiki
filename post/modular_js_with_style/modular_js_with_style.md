@@ -627,17 +627,17 @@ define( function (require, exports, module){
     module.highlightColor = "yellow";
     module.errorColor = "red";
  
-  // 在这里定义 core 模块并返回公用 API
- 
-  // 这是 core 的方法 highlightAll() 和所有插件使用的 highlight 方法
-  // 用来把元素高亮显示为不同颜色
-  module.highlight = function(el,strColor){
-    // 这个模块使用了 jQuery，但是老式的普通 JavaScript 或者 Dojo
-    // 也可以很简单地使用。
-    if(this.jQuery){
-      jQuery(el).css('background', strColor);
-    }
-  };
+    // 在这里定义 core 模块并返回公用 API
+    
+    // 这是 core 的方法 highlightAll() 和所有插件使用的 highlight 方法
+    // 用来把元素高亮显示为不同颜色
+    module.highlight = function(el,strColor){
+        // 这个模块使用了 jQuery，但是老式的普通 JavaScript 或者 Dojo
+        // 也可以很简单地使用。
+        if(this.jQuery){
+            jQuery(el).css('background', strColor);
+        }
+    };
 
   return {
       highlightAll:function(){
