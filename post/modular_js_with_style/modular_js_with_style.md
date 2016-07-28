@@ -108,5 +108,4 @@ require(['foo', 'bar'], function ( foo, bar ) {
     // 这里写其余的代码
     foo.doSomething();
 });
-
 {%endace%}
