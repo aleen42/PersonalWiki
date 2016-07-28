@@ -6,7 +6,7 @@ The most basic thing you can do with UI is displaying some data. React makes it 
 
 Firstly, we'll create a simple `hello-react.html`:
 
-{%ace edit=false, lang='html'%}
+{%ace edit=false, lang='html' theme='tomorrow' %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -29,7 +29,7 @@ Firstly, we'll create a simple `hello-react.html`:
 
 To replace the comments above with the following jsx:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var Hello = React.createClass({
     render: function () {
         return (
@@ -67,7 +67,7 @@ JSX is designed to directly generate HTML and component trees, which have a HTML
 
 JSX is absolutly optional; you don't have to use JSX with React, and you can only create React elements in plain JavaScript using `React.createElement`.
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var child1 = React.createElement('li', null, 'First Text Content');
 var child2 = React.createElement('li', null, 'Second Text Content');
 var root = React.createElement('ul', { className: 'my-list' }, child1, child2);
@@ -76,7 +76,7 @@ ReactDOM.render(root, document.getElementById('example'));
 
 For convenience, you can create a short-hand factory functions to create elemtns from custom components:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var Factory = React.createFactory(ComponentClass);
 /** ... */
 var root = Factory({ custom: 'prop' });
@@ -85,7 +85,7 @@ ReactDOM.render(root, document.getElementById('example'));
 
 React already has built-in factories for common HTML tags:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var root = React.DOM.ul({ className: 'my-list' },
     React.DOM.li(null, 'Text Content')
 );
