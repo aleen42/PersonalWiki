@@ -204,7 +204,7 @@ define(['lib/Deferred'], function( Deferred ){
 
 > [AMD vs. CJS, what's the better format?](http://unscriptable.com/index.php/2011/09/30/amd-versus-cjs-whats-the-best-format/)
 
-> AMD Is Better For The Web Than CommonJS Modules
+> [AMD Is Better For The Web Than CommonJS Modules](http://blog.millermedeiros.com/2011/09/amd-is-better-for-the-web-than-commonjs-modules/)
 
 > The Future Is Modules Not Frameworks
 
