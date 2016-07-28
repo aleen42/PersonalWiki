@@ -394,3 +394,11 @@ define.amd = {
 
 - RequireJS http://requirejs.org
 - PINF http://github.com/pinf/loader-js
+
+#### AMD 总结
+
+上面的都只是关于 AMD 模块到底能有多有用的简单例子，但我期望它们能为理解 AMD 模块如何工作提供基础。
+
+如果你知道许多我们可以看见的许多大型应用或公司正在将 AMD 模块作为其基础架构中一部分来使用，你可能会感兴趣。这包括 [IBM](http://www.ibm.com/) 与 [BBC iPlayer](http://www.bbc.co.uk/iplayer/)，这明显体现了企业级开发者们目前有多么真看待这种格式。
+
+想了解更多那么多开发者选择在应用中使用 AMD 模块的理由，你可能会想看一看 James Burke 的 [这篇](http://tagneto.blogspot.com/2011/04/on-inventing-js-module-formats-and.html) 文章。
