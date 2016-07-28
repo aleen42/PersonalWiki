@@ -389,3 +389,8 @@ define.amd = {
 - Yabble http://github.com/jbrantly/yabble
 - PINF http://github.com/pinf/loader-js
 - (还有更多)
+
+**服务器端：**
+
+- RequireJS http://requirejs.org
+- PINF http://github.com/pinf/loader-js
