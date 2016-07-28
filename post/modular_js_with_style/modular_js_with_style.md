@@ -262,8 +262,7 @@ define(["dojo", "dijit", "dojo/cookie", "dijit/Tooltip"], function(dojo, dijit){
 // mylib/UpdatableObservable：dojo/store/Observable 的一个装饰者
 define(['dojo', 'dojo/store/Observable'], function ( dojo, Observable ) {
     return function UpdatableObservable ( store ) {
-        var observable = dojo.isFunction(store.notify) ? store :
-            new Observable(store);
+        var observable = dojo.isFunction(store.notify) ? store : new Observable(store);
  
         observable.updated = function( object ) {
             dojo.when(object, function ( itemOrArray ) {
