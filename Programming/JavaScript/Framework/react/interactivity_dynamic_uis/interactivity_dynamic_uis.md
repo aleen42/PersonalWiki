@@ -6,7 +6,7 @@ After talking about how to display data with React, this document is talking abo
 
 ### A Simple Example
 
-{%ace edit=false, lang='jsx' theme='tomorrow' %}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 class LikeButton extends React.Component {
     constructor() {
         super();
@@ -50,7 +50,7 @@ When creating callbacks in JavaScript, you usually need to explicitly bind a met
 
 Methods follow the same semantics as regular ES6 classes, meaning that they don't automatically bind `this` to the instance. You'll have to explicitly use `.bind(this)` or arrow functions `=>`:
 
-{%ace edit=false, lang='jsx' theme='tomorrow' %}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 /** .bind(this) */
 <div onClick={this.tick.bind(this)} />
 /** arrow functions */
@@ -59,7 +59,7 @@ Methods follow the same semantics as regular ES6 classes, meaning that they don'
 
 It's recommended to bind events in the constructor so that they are only bound once (for better performnce, especially implementing [shouldComponentUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate) with a [shallow comparison](https://facebook.github.io/react/docs/shallow-compare.html) in the child components.):
 
-{%ace edit=false, lang='jsx' theme='tomorrow' %}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 constructor(props) {
     super(props);
     this.state = { count: props.initilCount };
