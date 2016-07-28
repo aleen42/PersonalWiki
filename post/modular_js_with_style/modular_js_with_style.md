@@ -639,11 +639,11 @@ define( function (require, exports, module){
         }
     };
 
-  return {
-      highlightAll:function(){
-        module.highlight('div', module.highlightColor);
-      }
-  }; 
+    return {
+        highlightAll:function(){
+            module.highlight('div', module.highlightColor);
+        }
+    }; 
 });
 {%endace%}
 
