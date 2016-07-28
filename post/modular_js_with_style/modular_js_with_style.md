@@ -41,3 +41,6 @@ AMD 最初是一份 CommonJS 列表中模块格式的规范草案，但因为没
 #### 从模块说起
 
 这里你须要先对下面这两个重要的概念有一定的了解：一个用来进行模块定义的 `define` 方法以及一个用来处理依赖项加载的 `require` 方法。define 根据如下的方法签名来定义具名或匿名的模块：
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%endace%}
