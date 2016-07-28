@@ -206,9 +206,9 @@ define(['lib/Deferred'], function( Deferred ){
 
 > [AMD Is Better For The Web Than CommonJS Modules](http://blog.millermedeiros.com/2011/09/amd-is-better-for-the-web-than-commonjs-modules/)
 
-> The Future Is Modules Not Frameworks
+> [The Future Is Modules Not Frameworks](http://unscriptable.com/code/Modules-Frameworks/)
 
-> AMD No Longer A CommonJS Specification
+> [AMD No Longer A CommonJS Specification](http://groups.google.com/group/commonjs/browse_thread/thread/96a0963bcb4ca78f/cf73db49ce267ce1?lnk=gst#)
 
 > On Inventing JavaScript Module Formats And Script Loaders
 
