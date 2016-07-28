@@ -198,11 +198,11 @@ define(['lib/Deferred'], function( Deferred ){
 
 > **相关阅读**
 
-> The RequireJS Guide To AMD
+> [The RequireJS Guide To AMD](http://requirejs.org/docs/whyamd.html)
 
-> What's the fastest way to load AMD modules?
+> [What's the fastest way to load AMD modules?](http://unscriptable.com/index.php/2011/09/21/what-is-the-fastest-way-to-load-amd-modules/)
 
-> AMD vs. CJS, what's the better format?
+> [AMD vs. CJS, what's the better format?](http://unscriptable.com/index.php/2011/09/30/amd-versus-cjs-whats-the-best-format/)
 
 > AMD Is Better For The Web Than CommonJS Modules
 
