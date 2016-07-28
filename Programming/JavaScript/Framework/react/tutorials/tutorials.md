@@ -14,7 +14,7 @@ React is all about modular and composable components. Here we will start to writ
 
 First, we will build up a component for CommentBox with the following jsx:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentBox = React.createClass({
     render: function () {
         return (
