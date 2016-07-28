@@ -32,7 +32,7 @@ Additional packages must also be installed which bundle together a number of tra
 
 Here is an example of what you will do if using ES2015 syntax and React:
 
-{%ace edit=false, lang='sh'%}
+{%ace edit=false, lang='sh' theme='tomorrow' %}
 $ npm install babel-preset-es2015 babel-preset-react
 $ babel --presets es2015,react --watch src/ --out-dir lib/
 {%endace%}
