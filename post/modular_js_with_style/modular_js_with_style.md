@@ -162,3 +162,14 @@ require(['app/myModule'],
         module.doStuff();
 });
 {%endace%}
+
+#### 使用 curl.js 加载 AMD 模块
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+curl(['app/myModule.js'], 
+    function( myModule ){
+        // 启动主模块，用来轮流加载其它模块
+        var module = new myModule();
+        module.doStuff();
+});
+{%endace%}
