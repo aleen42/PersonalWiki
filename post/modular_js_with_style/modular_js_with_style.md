@@ -237,3 +237,16 @@ define(["dojo/cookie", "dijit/Tooltip"], function( cookie, Tooltip ){
     new Tree(...); 
 });
 {%endace%}
+
+这相对嵌套的命名空间而言有很多优势，因为模块不再需要每次都直接用完整的命名空间来引用——我们须要的只是在依赖项中的 'dojo/cookie' 这种路径，一旦通过参数生成了别名，就可以用那个变量来引用了，这样也就无须在应用程序中反复地敲打出 'dojo.' 了
+
+> 注：虽然 Dojo 1.6 对基于用户的 AMD 模块并没有提供正式的支持（也不支持异步加载），但是用一些其它的脚本加载器也可以让它们在 Dojo 下正常工作。目前，所有 Dojo 核心与 Dijit 模块都被转换成了 AMD 语法，并且很可能会在 1.7 到 2.0 版本之间从整体上提高对 AMD 的支持。
+
+最后需要注意的小陷阱是，如果你希望继续使用 Dojo 的构建系统或是希望把旧的模块移植到新的 AMD 风格下，那么下面这种更为详细的版本会更易于移植。请注意 dojo 和 dijit 也都被作为依赖项引用：
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+define(["dojo", "dijit", "dojo/cookie", "dijit/Tooltip"], function(dojo, dijit){
+    var cookieValue = dojo.cookie("cookieName");
+    new dijit.Tooltip(...);
+});
+{%endace%}
