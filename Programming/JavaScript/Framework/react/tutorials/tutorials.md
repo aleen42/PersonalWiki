@@ -272,7 +272,7 @@ ReactDOM.render(
 
 CommentForm is the component used for sav comments, and users should provide their name and their text. Therefore:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentForm = React.createClass({
     render: function () {
         return (
@@ -290,7 +290,7 @@ With the traditional DOM, `input` elements are rendered and the browser manages 
 
 Hence, we will be using `this.state` to save the user's input as it is entered. We define an initial `state` with two properties `author` and `text` and set them to be empty strings. In our `<input>` elements, we set the `value` prop to reflect the state of the component and attach `onChange` handlers to them. These `<input>` elements with a value set are called **controlled components**. Read more about controlled components on the [Forms article](https://facebook.github.io/react/docs/forms.html#controlled-components).
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentForm = React.createClass({
     getInitialState: function () {
         return {
@@ -321,7 +321,7 @@ var CommentForm = React.createClass({
 
 Now, we can just handle submit operation:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentForm = React.createClass({
     /** getInitialState */
     /** ... */
@@ -370,7 +370,7 @@ var CommentForm = React.createClass({
 
 And CommentBox should be:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentBox = React.createClass({
     /** loadCommentsFromServer function */
     /** ... */
@@ -416,7 +416,7 @@ var CommentBox = React.createClass({
 
 ### Whole JavaScript file
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 /** Comment Component */
 var Comment = React.createClass({
     /** dangerouslySetInnerHTML must use __html to store what you want to set */
