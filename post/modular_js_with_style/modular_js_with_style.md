@@ -210,6 +210,6 @@ define(['lib/Deferred'], function( Deferred ){
 
 > [AMD No Longer A CommonJS Specification](http://groups.google.com/group/commonjs/browse_thread/thread/96a0963bcb4ca78f/cf73db49ce267ce1?lnk=gst#)
 
-> On Inventing JavaScript Module Formats And Script Loaders
+> [On Inventing JavaScript Module Formats And Script Loaders](http://tagneto.blogspot.com/2011/04/on-inventing-js-module-formats-and.html)
 
-> The AMD Mailing List
+> [The AMD Mailing List](http://groups.google.com/group/amd-implement)
