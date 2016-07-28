@@ -429,13 +429,13 @@ exports.foo = foo;
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 定义我们希望暴露的更多行为
 function foobar(){
-        this.foo = function(){
-                console.log('Hello foo');
-        }
- 
-        this.bar = function(){
-                console.log('Hello bar');
-        }
+    this.foo = function(){
+        console.log('Hello foo');
+    };
+
+    this.bar = function(){
+        console.log('Hello bar');
+    };
 }
  
 // 把 foobar 暴露给其它模块
