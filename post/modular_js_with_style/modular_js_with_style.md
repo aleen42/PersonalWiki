@@ -129,3 +129,23 @@ define(function ( require ) {
     };
 });
 {%endace%}
+
+#### 理解 AMD：插件
+
+下面的例子定义了一个 AMD 兼容的插件：
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+// With AMD, it's possible to load in assets of almost any kind
+// including text-files and HTML. This enables us to have template
+// dependencies which can be used to skin components either on
+// page-load or dynamically.
+// 在 AMD 中，我们可以加载几乎任意类型的资源，包括文本文件以及 HTML。这让我们
+// 同时能够在页面加载时以在及此后动态地得到可用于皮肤组件的模板依赖项。
+ 
+define(['./templates', 'text!./template.md','css!./template.css'],
+    function( templates, template ){
+        console.log(templates);
+        // 在这里做一些有趣的模板处理
+    }
+});
+{%endace%}
