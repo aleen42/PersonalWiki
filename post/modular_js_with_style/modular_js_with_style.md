@@ -319,3 +319,24 @@ define(['mylib/Array'], function ( array ) {
 #### jQuery 下的 AMD 模块
 
 **基础**
+
+不像 Dojo，jQuery 真就是只来自一个文件。然而因为其类库的本质是基于插件的，我们下面还是可以展示一下定义一个使用它的 AMD 模块是多么直截了当。
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+define(['js/jquery.js','js/jquery.color.js','js/underscore.js'],
+    function($, colorPlugin, _){
+        // 这里我们传入了 jQuery、color 插件以及 Underscore
+        // 我们在全局作用域中无法访问其中的任何一个，但我们可以轻易地在
+        // 下面引用他们。
+ 
+        // 伪随机生成一个颜色数组，选中打乱后数组中的第一项
+        var shuffleColor = _.first(_.shuffle(['#666','#333','#111']));
+ 
+        // 给页面中任意 class 带有 'item' 的元素用随机得到的颜色为
+        // background-color 添加动画效果
+        $('.item').animate({'backgroundColor': shuffleColor });
+        
+        return {};
+        // 我们返回的东西可以被其它模块所使用
+    });
+{%endace%}
