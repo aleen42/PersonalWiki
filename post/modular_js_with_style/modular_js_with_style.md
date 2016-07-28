@@ -16,3 +16,4 @@
 
 在本文中，我们将会考察三种编写模块化 JavaScript 的格式：AMD、CommonJS 以及 JavaScript 下一个版本——Harmony 中的提案。
 
+### 序言（关于脚本加载器的注解）
