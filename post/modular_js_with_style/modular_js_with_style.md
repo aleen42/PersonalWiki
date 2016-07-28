@@ -176,6 +176,7 @@ curl(['app/myModule.js'],
 
 #### 包含须要延迟加载的依赖项的模块
 
+{%ace edit=false lang='javascript' theme='tomorrow' %}
 // 这可以兼容 jQuery 的 Deferred 实现、future.js（语法稍有不同）或多种其它实现
 define(['lib/Deferred'], function( Deferred ){
     var defer = new Deferred(); 
@@ -186,6 +187,7 @@ define(['lib/Deferred'], function( Deferred ){
     );
     return defer.promise();
 });
+{%endace%}
 
 #### 为什么 AMD 对于编写模块化 JavaScript 是一个更好的选择？
 
@@ -213,3 +215,14 @@ define(['lib/Deferred'], function( Deferred ){
 > [On Inventing JavaScript Module Formats And Script Loaders](http://tagneto.blogspot.com/2011/04/on-inventing-js-module-formats-and.html)
 
 > [The AMD Mailing List](http://groups.google.com/group/amd-implement)
+
+#### Dojo 下的 AMD 模块
+
+用 Dojo 来定义 AMD 兼容的模块是相当直截了当的。像前面说过的那样，每个模块依赖项被定义在数组中作为第一个参数，然后提供一个会在依赖项加载完毕后执行的回调（工厂）函数，例如：
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+define(["dijit/Tooltip"], function( Tooltip ){
+    //我们的 dijit 浮层提示现在就可以在本地进行调用了
+    new Tooltip(...);
+});
+{%endace%}
