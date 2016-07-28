@@ -56,7 +56,7 @@ define(
 
 回到定义的方法签名，dependencies 参数代表了一组对所定义的模块来说必须的依赖项。第三个参数（'definition function'）是一个用来为你的模块执行初始化的函数。一个最简单的模块可以以如下方式定义：
 
-#### 理解 AMD：define()
+#####　**理解 AMD：define()**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 这里的 module_id（myModule）仅作为示例使用
@@ -75,7 +75,7 @@ define('myModule',
                 console.log('Yay! Stuff');
             }
         }
- 
+
         return myModule;
 });
  
@@ -90,14 +90,14 @@ define('myModule',
             plot: function(x, y){
                 return graph.drawPie(math.randomGrid(x,y));
             }
-        }
-    };
+        };
+    }
 });
 {%endace%}
 
 另一方面，*require* 则主要用来在顶层 JavaScript 文件中或须要动态读取依赖时加载代码。用法的一个实例如下：
 
-#### 理解 AMD：require()
+#####　**理解 AMD：require()**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 假设 'foo' 和 'bar' 是两个外部模块
@@ -110,7 +110,7 @@ require(['foo', 'bar'], function ( foo, bar ) {
 });
 {%endace%}
 
-#### 动态加载的依赖项
+#####　**动态加载的依赖项**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 define(function ( require ) {
@@ -130,7 +130,7 @@ define(function ( require ) {
 });
 {%endace%}
 
-#### 理解 AMD：插件
+#####　**理解 AMD：插件**
 
 下面的例子定义了一个 AMD 兼容的插件：
 
@@ -151,7 +151,7 @@ define(['./templates', 'text!./template.md','css!./template.css'],
 
 > 注：尽管在上面的例子中在加载 CSS 依赖时已经包含了 css!，但我们要牢记这个方法需要注意的地方：无法真正确认何时 CSS 会被加载完毕。根据你构建代码方式的不同，可能会导致 CSS 作为一个依赖项加入到优化完的文件中，所以在这种情况下将 CSS 作为依赖项来加载需要倍加小心。
 
-#### 使用 require.js 加载 AMD 模块
+#####　**使用 require.js 加载 AMD 模块**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 require(['app/myModule'], 
@@ -162,7 +162,7 @@ require(['app/myModule'],
 });
 {%endace%}
 
-#### 使用 curl.js 加载 AMD 模块
+#####　**使用 curl.js 加载 AMD 模块**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 curl(['app/myModule.js'], 
@@ -173,7 +173,7 @@ curl(['app/myModule.js'],
 });
 {%endace%}
 
-#### 包含须要延迟加载的依赖项的模块
+#####　**包含须要延迟加载的依赖项的模块**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 这可以兼容 jQuery 的 Deferred 实现、future.js（语法稍有不同）或多种其它实现
@@ -188,7 +188,7 @@ define(['lib/Deferred'], function( Deferred ){
 });
 {%endace%}
 
-#### 为什么 AMD 对于编写模块化 JavaScript 是一个更好的选择？
+#####　**为什么 AMD 对于编写模块化 JavaScript 是一个更好的选择？**
 
 - 为如何定义高灵活性的模块提供了一个清晰的方案。
 - 相对目前我们很多人使用的全局命名空间加注入 `<script>` 标签的解决方案来说，要简洁得多。它有一个简洁的方式来声明独立的模块以及他们可能包含的依赖项。
@@ -219,7 +219,7 @@ define(['lib/Deferred'], function( Deferred ){
 
 用 Dojo 来定义 AMD 兼容的模块是相当直截了当的。像前面说过的那样，每个模块依赖项被定义在数组中作为第一个参数，然后提供一个会在依赖项加载完毕后执行的回调（工厂）函数，例如：
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 define(["dijit/Tooltip"], function( Tooltip ){
     //我们的 dijit 浮层提示现在就可以在本地进行调用了
     new Tooltip(...);
@@ -230,7 +230,7 @@ define(["dijit/Tooltip"], function( Tooltip ){
 
 如果想了解模块引用的话，有一些有趣的小陷阱，在这里了解一下会很有帮助。虽然 AMD 主张的引用模块的方式是将它们声明在依赖列表中，与一组参数相对应，但 Dojo 1.6 的构建系统却不支持这种方式——这只能在完全遵循 AMD 的加载器中正常工作。比如：
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 define(["dojo/cookie", "dijit/Tooltip"], function( cookie, Tooltip ){
     var cookieValue = cookie("cookieName"); 
     new Tree(...); 
@@ -243,7 +243,7 @@ define(["dojo/cookie", "dijit/Tooltip"], function( cookie, Tooltip ){
 
 最后需要注意的小陷阱是，如果你希望继续使用 Dojo 的构建系统或是希望把旧的模块移植到新的 AMD 风格下，那么下面这种更为详细的版本会更易于移植。请注意 dojo 和 dijit 也都被作为依赖项引用：
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow', check=false %}
 define(["dojo", "dijit", "dojo/cookie", "dijit/Tooltip"], function(dojo, dijit){
     var cookieValue = dojo.cookie("cookieName");
     new dijit.Tooltip(...);
@@ -256,7 +256,7 @@ define(["dojo", "dijit", "dojo/cookie", "dijit/Tooltip"], function(dojo, dijit){
 
 下面有几个这些模式的实例：
 
-**装饰者（Decorator）模式：**
+#####　**装饰者（Decorator）模式：**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 // mylib/UpdatableObservable：dojo/store/Observable 的一个装饰者
@@ -269,7 +269,7 @@ define(['dojo', 'dojo/store/Observable'], function ( dojo, Observable ) {
         observable.updated = function( object ) {
             dojo.when(object, function ( itemOrArray ) {
                 dojo.forEach( [].concat(itemOrArray), this.notify, this );
-            };
+            });
         };
  
         return observable; // 让 `new` 成为可选的
@@ -292,7 +292,7 @@ define(['mylib/UpdatableObservable'], function ( makeUpdatable ) {
 });
 {%endace%}
 
-**适配器（Adapter）模式**
+#####　**适配器（Adapter）模式**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 'mylib/Array' 将 `each` 函数适配为仿 jQuery 的接口:
@@ -301,7 +301,7 @@ define(['dojo/_base/lang', 'dojo/_base/array'], function (lang, array) {
         each: function (arr, lambda) {
             array.forEach(arr, function (item, i) {
                 lambda.call(item, i, item); // 就像 jQuery 的 each
-            })
+            });
         }
     });
 });
@@ -317,7 +317,7 @@ define(['mylib/Array'], function ( array ) {
 
 #### jQuery 下的 AMD 模块
 
-**基础**
+#####　**基础**
 
 不像 Dojo，jQuery 真就是只来自一个文件。然而因为其类库的本质是基于插件的，我们下面还是可以展示一下定义一个使用它的 AMD 模块是多么直截了当。
 
@@ -342,7 +342,7 @@ define(['js/jquery.js','js/jquery.color.js','js/underscore.js'],
 
 但是这个例子中有一些缺失的地方，也就是注册的概念。
 
-**将 jQuery 注册为一个异步兼容的模块**
+#####　**将 jQuery 注册为一个异步兼容的模块**
 
 jQuery 1.7 增加的一个关键特性，就是支持将 jQuery 注册为一个异步模块。有很多兼容的脚本加载器（包括 RequireJS 和 curl）都可以用一个异步模块格式来加载模块，这也就表示不需要太多 hack 就能让一切运行起来。
 
@@ -374,13 +374,13 @@ define.amd = {
 };
 {%endace%}
 
-#### 更智能的 jQuery 插件
+#####　**更智能的 jQuery 插件**
 
 最近我在这里讨论了一些关于如何用通用模块定义（UMD，Universal Module Definition）来编写 jQuery 的思路和例子。UMD 定义那些既能在客户端又能在服务器端工作的模块，这样的模块同时也能和目前可用的主流脚本加载器一同工作。虽然这仍然是一个许多概念都还没最终确定的新领域，还是不妨看看标题为 AMD 与 CommonJS 的章节中的代码示例。如果你觉得我们哪里还可以改进，请告诉我。
 
-#### 哪些脚本加载器和框架支持 AMD?
+#####　**哪些脚本加载器和框架支持 AMD?**
 
-**浏览器端：**
+######　浏览器端：
 
 - RequireJS http://requirejs.org
 - curl.js http://github.com/unscriptable/curl
@@ -389,7 +389,7 @@ define.amd = {
 - PINF http://github.com/pinf/loader-js
 - (还有更多)
 
-**服务器端：**
+######　服务器端
 
 - RequireJS http://requirejs.org
 - PINF http://github.com/pinf/loader-js
@@ -401,3 +401,321 @@ define.amd = {
 如果你知道许多我们可以看见的许多大型应用或公司正在将 AMD 模块作为其基础架构中一部分来使用，你可能会感兴趣。这包括 [IBM](http://www.ibm.com/) 与 [BBC iPlayer](http://www.bbc.co.uk/iplayer/)，这明显体现了企业级开发者们目前有多么真看待这种格式。
 
 想了解更多那么多开发者选择在应用中使用 AMD 模块的理由，你可能会想看一看 James Burke 的 [这篇](http://tagneto.blogspot.com/2011/04/on-inventing-js-module-formats-and.html) 文章。
+
+### CommonJS（为服务器端优化的模块格式）
+
+[CommonJS](http://www.commonjs.org/)是一个志愿性质的工作组，它致力于设计、规划并标准化 JavaScript API。至今为止他们已经尝试着认可了[模块](http://www.commonjs.org/specs/modules/1.0/)标准以及[程序包](http://wiki.commonjs.org/wiki/Packages/1.0)标准。CommonJS 的模块提案为在服务器端声明模块指定了一个简单的 API。不像 AMD，它试图覆盖更宽泛的方面比如 IO、文件系统、promise 模式等等。
+
+#### 入门
+
+从结构的角度来看，一个 CJS 模块是一段可重用的 JavaScript，它导出一系列特定的对象给依赖它的代码调用——通常来说这样的模块外围没有函数包裹（所以你在这里的例子中不会看到 `define`）。
+
+从高一点的层次来看，他们主要包含两个部分：一个名叫 `exports` 的自由变量，它包含模块希望提供给其它模块的对象；以及一个 `require` 函数，让模块用来导入其它模块的导出。
+
+#####　**理解 CJS：require() 与 exports**
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+// package/lib 是我们须要的一个依赖项
+var lib = require('package/lib');
+ 
+// 我们的模块的一些行为
+function foo(){
+    lib.log('hello world!');
+}
+ 
+// 把 foo 导出（暴露）给其它模块
+exports.foo = foo;
+{%endace%}
+
+##### **exports 的基本用法**
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+// 定义我们希望暴露的更多行为
+function foobar(){
+        this.foo = function(){
+                console.log('Hello foo');
+        }
+ 
+        this.bar = function(){
+                console.log('Hello bar');
+        }
+}
+ 
+// 把 foobar 暴露给其它模块
+exports.foobar = foobar;
+ 
+ 
+// 一个使用了 'foobar' 的应用
+ 
+// 相对于使用文件与模块文件所在的同一目录路径获取模块
+ 
+var foobar = require('./foobar').foobar,
+    test   = new foobar();
+ 
+test.bar(); // 'Hello bar'
+{%endace%}
+
+##### **第一个 CJS 例子的 AMD 等价写法**
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+define(['package/lib'], function(lib){
+    // 我们的模块的一些行为
+    function foo(){
+        lib.log('hello world!');
+    } 
+ 
+    // 把 foo 导出（暴露）给其它模块
+    return {
+        foobar: foo
+    };
+});
+{%endace%}
+
+##### **使用多个依赖项**
+
+###### app.js
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+var modA = require('./foo');
+var modB = require('./bar');
+ 
+exports.app = function(){
+    console.log('Im an application!');
+}
+ 
+exports.foo = function(){
+    return modA.helloWorld();
+}
+{%endace%}
+
+###### bar.js
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+var modA = require('./foo');
+exports.name = 'bar';
+{%endace%}
+
+###### foo.js
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+require('./bar');
+exports.helloWorld = function(){
+    return 'Hello World!!''
+}
+{%endace%}
+
+##### **哪些加载器和框架支持 CJS?**
+
+###### 浏览器端：
+
+- curl.js http://github.com/unscriptable/curl
+- SproutCore 1.1 http://sproutcore.com
+- PINF http://github.com/pinf/loader-js
+- （还有更多）
+
+###### 服务器端：
+
+- Nodehttp://nodejs.org
+- Narwhal https://github.com/tlrobinson/narwhal
+- Perseverehttp://www.persvr.org/
+- Wakandahttp://www.wakandasoft.com/
+
+##### **CJS 适用于浏览器吗？**
+
+有些开发者觉得 CommonJS 更适合于服务器端开发，这一定程度上说明了为什么在目前这个 Harmony 到来前的时代，对于哪个格式更适合用来作为事实标准存在某种程度的**分歧**。不利于 CJS 的论据包括：很多处理面向服务器端特性的 CommonJS API 根本无法用 JavaScript 在浏览器级别实现——比如 io、system 以及 js 就因为其天生的功能特性无法实现。
+
+尽管这样，了解如何架构 CJS 模块还是很有用的，这样当我们在定义在所有地方都可能会用到的模块时，我们就能更好地体会它们是否合适了。在客户端与服务器端都有所应用的模块包括验证、转换和模板引擎。一些开发者选择使用哪个格式的方法是，当一个模块可以在服务器端环境中使用时选择 CJS，否则就选择 AMD。
+
+因为 AMD 模块可以使用插件，也可以定义更细粒度的东西比如构造器与函数，这时用 AMD 就有意义了。CJS 模块只能定义对象。当你试图从中获取构造器时，处理这种模块就会变得冗长乏味了。
+
+虽然在超出了本文的范围，但是你可能已经注意到在讨论 AMD 和 CMJ 的过程中我们提到了不同类型的 'require' 方法。
+
+相似命名约定让人担忧的一点，当然是它会导致混乱。而且社区目前在用一个全局 require 函数带来的优缺点上尚有分歧。John Hann 对此的建议是，与其称它为 'require'，从而很可能无法成功让用户了解全局与内层 require 间的区别，把全局加载器方法重命名为别的东西反而会更有意义（例如这个类库的名字）。也就是这个原因使类似 curl.js 这样的加载器用 `curl()` 而非 `require`。
+
+> 相关阅读
+
+> [Demystifying CommonJS Modules](http://dailyjs.com/2010/10/18/modules/)
+
+> [JavaScript Growing Up](http://www.slideshare.net/davidpadbury/javascript-growing-up)
+
+> [The RequireJS Notes On CommonJS](http://requirejs.org/docs/commonjs.html)
+
+> [Taking Baby Steps With Node.js And CommonJS - Creating Custom Modules](http://elegantcode.com/2011/02/04/taking-baby-steps-with-node-js-commonjs-and-creating-custom-modules/)
+
+> [Asynchronous CommonJS Modules for the Browser](http://www.sitepen.com/blog/2010/07/16/asynchronous-commonjs-modules-for-the-browser-and-introducing-transporter/)
+
+> [The CommonJS Mailing List](http://groups.google.com/group/commonjs)
+
+### AMD 与 CommonJS（相互竞争，但同样有效的标准）
+
+虽然本文相对 CJS 来说更侧重于 AMD，但事实上两者都是有效的格式而且都有用武之地。
+
+AMD 采取了一种浏览器优先的方式来开发，选择了异步行为与简化的向后兼容性，但它完全没有文件 I/O 的概念。它支持对象、函数、构造器、字符串、JSON 以及其它许多类型的模块，运行在浏览器本地环境之中。它有着难以想象的灵活性。
+
+CommonJS 则采用了服务器优先的策略，采取同步行为、没有 John Hann 所说的那种全局的累赘（译注：John Hann 说的应该是全局所有的模块都需要用 `define()` 包裹起来，而 CJS [不需要](http://unscriptable.com/code/AMD-vs-CommonJS/#34)）、并且着眼于适应未来的场景（在服务器上）。这么说的意思是，CJS 支持未包裹的模块，感觉上更接近 ES.next/Harmony 规范，把你从 AMD 要求的 `define()` 包裹函数中解放了出来。但 CJS 模块只支持将对象作为模块。
+
+尽管可能还会有另一个模块格式的想法令人有些气馁，但是你还是可能会有兴趣看一些 AMD/CJS 混合模块和通用 AMD/CJS 模块相关工作的例子。
+
+##### **基本 AMD 混合格式（John Hann）** 
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+define( function (require, exports, module){
+    
+    var shuffler = require('lib/shuffle');
+ 
+    exports.randomize = function( input ){
+        return shuffler.shuffle(input);
+    }
+});
+{%endace%}
+
+##### **AMD/CommonJS 通用模块定义（变体 2，[UMDjs](https://github.com/umdjs/umd)）**
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+/**
+ * 如果你需要做一些循环依赖或是需要兼容非 Node 的类
+ * commonjs 环境，导出基于对象的版本。
+ */
+(function (define) {
+    //'id' 是可选的，但如果这是一个流行的 web 类库而且
+    //通常被用于非 AMD/Node 的环境下，还是推荐给出。然
+    //而如果希望生成匿名模块，去掉下面的 'id'，并且去掉
+    //define 兼容方案中使用的 id。
+    define('id', function (require, exports) {
+        //如果有兼容项，把它们加载进来
+        var a = require('a');
+ 
+        //给 exports 绑定属性。
+        exports.name = value;
+    });
+}(typeof define === 'function' && define.amd ? define : function (id, factory) {
+    if (typeof exports !== 'undefined') {
+        //commonjs
+        factory(require, exports);
+    } else {
+        //创建一个全局函数。仅在代码没有依赖项、或
+        //是依赖项符合下面的调用模式时可用。
+        factory(function(value) {
+            return window[value];
+        }, (window[id] = {}));
+    }
+}));
+{%endace%}
+
+##### **可扩展的 UMD 插件（Thomas Davis 和我自己修改的变体）**
+
+###### core.js
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+// 模块/插件 core
+// 注：你在模块周围看到的包裹代码是用来让我们支持多个模块格式与规范
+// 的，这须要把参数映射到某种特定格式所期望的样子。我们实际的模块功
+// 能定义在下方，那里展示了一个具名模块和导出。
+(function ( name, definition ){
+  var theModule = definition(),
+      // 这被认为是“安全”的:
+      hasDefine = typeof define === 'function' && define.amd,
+      // hasDefine = typeof define === 'function',
+      hasExports = typeof module !== 'undefined' && module.exports;
+ 
+  if ( hasDefine ){ // AMD 模块
+    define(theModule);
+  } else if ( hasExports ) { // Node.js 模块
+    module.exports = theModule;
+  } else { // 分配到常见的命名空间，或简单地分配到全局对象（window）
+    (this.jQuery || this.ender || this.$ || this)[name] = theModule;
+  }
+})( 'core', function () {
+    var module = this;
+    module.plugins = [];
+    module.highlightColor = "yellow";
+    module.errorColor = "red";
+ 
+  // 在这里定义 core 模块并返回公用 API
+ 
+  // 这是 core 的方法 highlightAll() 和所有插件使用的 highlight 方法
+  // 用来把元素高亮显示为不同颜色
+  module.highlight = function(el,strColor){
+    // 这个模块使用了 jQuery，但是老式的普通 JavaScript 或者 Dojo
+    // 也可以很简单地使用。
+    if(this.jQuery){
+      jQuery(el).css('background', strColor);
+    }
+  };
+
+  return {
+      highlightAll:function(){
+        module.highlight('div', module.highlightColor);
+      }
+  }; 
+});
+{%endace%}
+
+###### myExtension.js
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+(function ( name, definition ) {
+    var theModule = definition(),
+        hasDefine = typeof define === 'function',
+        hasExports = typeof module !== 'undefined' && module.exports;
+
+    if ( hasDefine ) { // AMD 模块
+        define(theModule);
+    } else if ( hasExports ) { // Node.js 模块
+        module.exports = theModule;
+    } else { 
+	// 分配到常见的命名空间，或简单地分配到全局对象（window）
+        // for 循环用来处理扁平文件/全局模块扩展名
+        var obj = null;
+        var namespaces = name.split(".");
+        var scope = (this.jQuery || this.ender || this.$ || this);
+        for (var i = 0; i < namespaces.length; i++) {
+            var packageName = namespaces[i];
+            if (obj && i == namespaces.length - 1) {
+                obj[packageName] = theModule;
+            } else if (typeof scope[packageName] === "undefined") {
+                scope[packageName] = {};
+            }
+            obj = scope[packageName];
+        }
+ 
+    }
+})('core.plugin', function () {
+    // 在这里定义你的模块并返回公用 API
+    // 这段代码可以轻易地与 core 代码相适应，来允许那些覆盖/扩展 core
+    // 功能的方法，让你在需要时扩展 highlight 方法来做更多事。
+    return {
+        setGreen: function ( el ) {
+            highlight(el, 'green');
+        },
+        setRed: function ( el ) {
+            highlight(el, errorColor);
+        }
+    };
+});
+{%endace%}
+
+###### app.js
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+$(function(){
+ 
+    // 'core' 插件在本例中被暴露在了一个命名空间 core 下，我们
+    // 先将它缓存起来
+    var core = $.core;
+ 
+    // 然后使用一些原生的 core 功能来用黄色高亮页面中所有的 div
+    core.highlightAll();
+ 
+    // 访问被载入 core 模块的 'plugin' 命名空间的插件（扩展）：
+ 
+    // 把页面中的第一个 div 设为绿色背景。
+    core.plugin.setGreen("div:first");
+    // 这里我们通过一个在其之后加载的插件从底层使用 core 的 'highlight' 方法
+ 
+    // 把最后一个 div 的背景色设为我们在 core 模块/插件中定义的
+    // 'errorColor' 属性的颜色。如果你更仔细地查看代码，就会发现
+    // 在 core 和其它插件间使用属性和方法是多么简单
+    core.plugin.setRed('div:last');
+});
+{%endace%}
