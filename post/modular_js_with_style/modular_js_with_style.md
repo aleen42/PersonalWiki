@@ -94,7 +94,7 @@ define('myModule',
 });
 {%endace%}
 
-另一方面，*require* 则主要用来在顶层 JavaScript 文件中或须要动态读取依赖时加载代码。用法的一个实例如下：
+另一方面，*require* 则主要用来在顶层 JavaScript 文件中或需要动态读取依赖时加载代码。用法的一个实例如下：
 
 #####　**理解 AMD：require()**
 
@@ -141,7 +141,7 @@ define(function ( require ) {
 // 在 AMD 中，我们可以加载几乎任意类型的资源，包括文本文件以及 HTML。这让我们
 // 同时能够在页面加载时以在及此后动态地得到可用于皮肤组件的模板依赖项。
  
-define(['./templates', 'text!./template.md','css!./template.css'],
+define(['./templates', 'text!./template.md', 'css!./template.css'],
     function( templates, template ){
         console.log(templates);
         // 在这里做一些有趣的模板处理
@@ -172,7 +172,7 @@ curl(['app/myModule.js'],
 });
 {%endace%}
 
-#####　**包含须要延迟加载的依赖项的模块**
+#####　**包含需要延迟加载的依赖项的模块**
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 这可以兼容 jQuery 的 Deferred 实现、future.js（语法稍有不同）或多种其它实现
