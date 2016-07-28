@@ -292,3 +292,28 @@ define(['mylib/UpdatableObservable'], function ( makeUpdatable ) {
     updatable.updated(updatedItem);
 });
 {%endace%}
+
+**适配器（Adapter）模式**
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+// 'mylib/Array' 将 `each` 函数适配为仿 jQuery 的接口:
+define(['dojo/_base/lang', 'dojo/_base/array'], function (lang, array) {
+    return lang.delegate(array, {
+        each: function (arr, lambda) {
+            array.forEach(arr, function (item, i) {
+                lambda.call(item, i, item); // 就像 jQuery 的 each
+            })
+        }
+    });
+});
+ 
+// 适配器使用者
+// 'myapp/my-module':
+define(['mylib/Array'], function ( array ) {
+    array.each(['uno', 'dos', 'tres'], function (i, esp) {
+        // 这里 `this` == item
+    });
+});
+{%endace%}
+
+
