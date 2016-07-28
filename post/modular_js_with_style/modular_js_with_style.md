@@ -334,7 +334,7 @@ define(['js/jquery.js','js/jquery.color.js','js/underscore.js'],
         
         return {};
         // 我们返回的东西可以被其它模块所使用
-    });
+});
 {%endace%}
 
 但是这个例子中有一些缺失的地方，也就是注册的概念。
