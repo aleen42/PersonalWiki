@@ -42,7 +42,7 @@ AMD 最初是一份 CommonJS 列表中模块格式的规范草案，但因为没
 
 这里你须要先对下面这两个重要的概念有一定的了解：一个用来进行模块定义的 `define` 方法以及一个用来处理依赖项加载的 `require` 方法。define 根据如下的方法签名来定义具名或匿名的模块：
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 define(
     module_id /*可选*/, 
     [dependencies] /*可选*/, 
@@ -58,7 +58,7 @@ define(
 
 #### 理解 AMD：define()
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 这里的 module_id（myModule）仅作为示例使用
  
 define('myModule', 
@@ -99,7 +99,7 @@ define('myModule',
 
 #### 理解 AMD：require()
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 假设 'foo' 和 'bar' 是两个外部模块
 // 在本例中，这两个模块被加载后的 'exports' 被当做两个参数传递到了回调函数中
 // 所以可以像这样来访问他们
@@ -112,7 +112,7 @@ require(['foo', 'bar'], function ( foo, bar ) {
 
 #### 动态加载的依赖项
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 define(function ( require ) {
     var isReady = false, foobar;
  
@@ -134,7 +134,7 @@ define(function ( require ) {
 
 下面的例子定义了一个 AMD 兼容的插件：
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 // With AMD, it's possible to load in assets of almost any kind
 // including text-files and HTML. This enables us to have template
 // dependencies which can be used to skin components either on
@@ -154,7 +154,7 @@ define(['./templates', 'text!./template.md','css!./template.css'],
 
 #### 使用 require.js 加载 AMD 模块
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 require(['app/myModule'], 
     function( myModule ){
         // 启动主模块，用来轮流加载其它模块
@@ -165,7 +165,7 @@ require(['app/myModule'],
 
 #### 使用 curl.js 加载 AMD 模块
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 curl(['app/myModule.js'], 
     function( myModule ){
         // 启动主模块，用来轮流加载其它模块
@@ -176,7 +176,7 @@ curl(['app/myModule.js'],
 
 #### 包含须要延迟加载的依赖项的模块
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 这可以兼容 jQuery 的 Deferred 实现、future.js（语法稍有不同）或多种其它实现
 define(['lib/Deferred'], function( Deferred ){
     var defer = new Deferred(); 
@@ -220,7 +220,7 @@ define(['lib/Deferred'], function( Deferred ){
 
 用 Dojo 来定义 AMD 兼容的模块是相当直截了当的。像前面说过的那样，每个模块依赖项被定义在数组中作为第一个参数，然后提供一个会在依赖项加载完毕后执行的回调（工厂）函数，例如：
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 define(["dijit/Tooltip"], function( Tooltip ){
     //我们的 dijit 浮层提示现在就可以在本地进行调用了
     new Tooltip(...);
@@ -231,7 +231,7 @@ define(["dijit/Tooltip"], function( Tooltip ){
 
 如果想了解模块引用的话，有一些有趣的小陷阱，在这里了解一下会很有帮助。虽然 AMD 主张的引用模块的方式是将它们声明在依赖列表中，与一组参数相对应，但 Dojo 1.6 的构建系统却不支持这种方式——这只能在完全遵循 AMD 的加载器中正常工作。比如：
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 define(["dojo/cookie", "dijit/Tooltip"], function( cookie, Tooltip ){
     var cookieValue = cookie("cookieName"); 
     new Tree(...); 
@@ -244,7 +244,7 @@ define(["dojo/cookie", "dijit/Tooltip"], function( cookie, Tooltip ){
 
 最后需要注意的小陷阱是，如果你希望继续使用 Dojo 的构建系统或是希望把旧的模块移植到新的 AMD 风格下，那么下面这种更为详细的版本会更易于移植。请注意 dojo 和 dijit 也都被作为依赖项引用：
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 define(["dojo", "dijit", "dojo/cookie", "dijit/Tooltip"], function(dojo, dijit){
     var cookieValue = dojo.cookie("cookieName");
     new dijit.Tooltip(...);
@@ -259,7 +259,7 @@ define(["dojo", "dijit", "dojo/cookie", "dijit/Tooltip"], function(dojo, dijit){
 
 **装饰者（Decorator）模式：**
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 // mylib/UpdatableObservable：dojo/store/Observable 的一个装饰者
 define(['dojo', 'dojo/store/Observable'], function ( dojo, Observable ) {
     return function UpdatableObservable ( store ) {
@@ -295,7 +295,7 @@ define(['mylib/UpdatableObservable'], function ( makeUpdatable ) {
 
 **适配器（Adapter）模式**
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 'mylib/Array' 将 `each` 函数适配为仿 jQuery 的接口:
 define(['dojo/_base/lang', 'dojo/_base/array'], function (lang, array) {
     return lang.delegate(array, {
@@ -322,7 +322,7 @@ define(['mylib/Array'], function ( array ) {
 
 不像 Dojo，jQuery 真就是只来自一个文件。然而因为其类库的本质是基于插件的，我们下面还是可以展示一下定义一个使用它的 AMD 模块是多么直截了当。
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 define(['js/jquery.js','js/jquery.color.js','js/underscore.js'],
     function($, colorPlugin, _){
         // 这里我们传入了 jQuery、color 插件以及 Underscore
@@ -355,7 +355,7 @@ jQuery 1.7 增加的一个关键特性，就是支持将 jQuery 注册为一个�
 
 具名的 AMD 为大多数用例提供了一个健壮又安全的保护层。
 
-{%ace edit=false lang='javascript' theme='tomorrow' %}
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
 // 让文档中存在多个 jQuery 的全局实例，以便测试 .noConflict()
 
 var jQuery = this.jQuery || "jQuery", 
