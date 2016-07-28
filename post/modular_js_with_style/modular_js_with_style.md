@@ -186,3 +186,30 @@ define(['lib/Deferred'], function( Deferred ){
     );
     return defer.promise();
 });
+
+#### 为什么 AMD 对于编写模块化 JavaScript 是一个更好的选择？
+
+- 为如何定义高灵活性的模块提供了一个清晰的方案。
+- 相对目前我们很多人使用的全局命名空间加注入 `<script>` 标签的解决方案来说，要简洁得多。它有一个简洁的方式来声明独立的模块以及他们可能包含的依赖项。
+- 模块定义都被封装了起来，帮我们避免了全局命名空间的污染。
+- 比其它替代方案（例如 CommonJS，我们马上会讨论到）效果更好。没有跨域、本地或调试带来的问题，也不依赖于服务器端工具。大多数 AMD 加载器都支持在浏览器中加载模块，而不须要一个构建的过程。
+- 提供了一个“传输”方法来用在单个文件中包含多个模块。其它例如 CommonJS 这样的方式都尚没有对传输格式达成共识。
+- 当需要时可以进行延迟加载。
+
+> **相关阅读**
+
+> The RequireJS Guide To AMD
+
+> What's the fastest way to load AMD modules?
+
+> AMD vs. CJS, what's the better format?
+
+> AMD Is Better For The Web Than CommonJS Modules
+
+> The Future Is Modules Not Frameworks
+
+> AMD No Longer A CommonJS Specification
+
+> On Inventing JavaScript Module Formats And Script Loaders
+
+> The AMD Mailing List
