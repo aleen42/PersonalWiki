@@ -60,7 +60,7 @@ As we can see, we have just passed a object to `React.createClass`, and the main
 
 CommentList is a child node of CommentBox, so we should have this following:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentList = React.createClass({
     render: function () {
         return (
