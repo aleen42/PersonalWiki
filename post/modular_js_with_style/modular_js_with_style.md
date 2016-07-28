@@ -149,3 +149,16 @@ define(['./templates', 'text!./template.md','css!./template.css'],
     }
 });
 {%endace%}
+
+> 注：尽管在上面的例子中在加载 CSS 依赖时已经包含了 css!，但我们要牢记这个方法需要注意的地方：无法真正确认何时 CSS 会被加载完毕。根据你构建代码方式的不同，可能会导致 CSS 作为一个依赖项加入到优化完的文件中，所以在这种情况下将 CSS 作为依赖项来加载需要倍加小心。
+
+#### 使用 require.js 加载 AMD 模块
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+require(['app/myModule'], 
+    function( myModule ){
+        // 启动主模块，用来轮流加载其它模块
+        var module = new myModule();
+        module.doStuff();
+});
+{%endace%}
