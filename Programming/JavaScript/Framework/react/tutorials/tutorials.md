@@ -75,7 +75,7 @@ var CommentList = React.createClass({
 
 For each Comment, we will use `this.props.author` to get attributes `author` of the corresponding elements and `this.props.children` as nested elements:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var Comment = React.createClass({
     render: function () {
         return (
@@ -90,7 +90,7 @@ var Comment = React.createClass({
 
 Markdown is one of awesome tools in React, and we can use `Remarkable` to convert Markdown into raw HTML.
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var Comment = React.createClass({
     render: function () {
         var md = new Remarkable();
@@ -110,7 +110,7 @@ That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/C
 
 There is a way to do around it:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var Comment = React.createClass({
     /** dangerouslySetInnerHTML must use __html to store what you want to set */
     rawMarkup: function () {
@@ -133,7 +133,7 @@ var Comment = React.createClass({
 
 As we can see, Comment elements within the CommentList can be extracted as a data model like following:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentList = React.createClass({
     render: function () {
         var commentNodes = this.props.data.map(function (comment) {
@@ -153,7 +153,7 @@ var CommentList = React.createClass({
 
 Then, the data can be a array like following:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var data = [
     { id: 1, author: 'aleen', text: 'comments for **aleen**'},
     { id: 2, author: 'alien', text: 'comments for **alien**'}
@@ -162,7 +162,7 @@ var data = [
 
 And of course, we should pass this array through CommentBox:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentBox = React.createClass({
     render: function () {
         return (
@@ -185,7 +185,7 @@ ReactDOM.render(
 
 If data is fetched from servers, and we can use `getInitialState` and `componentDidMount`:
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var CommentBox = React.createClass({
     /**
      * getInitialState() executes exactly once during the lifecycle of the component
