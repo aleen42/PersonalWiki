@@ -33,7 +33,7 @@ ReactDOM.render(
 
 Then, this jsx should be converted into a plain js like:
 
-{%ace edit=false, lang='javascript'%}
+{%ace edit=false, lang='javascript' theme='tomorrow' %}
 var CommentBox = React.createClass({
     render: function () {
         return (
@@ -41,7 +41,7 @@ var CommentBox = React.createClass({
                 'div',
                 { 'className': 'commentBox' },
                 'Hello, I am a comment box.'
-            );
+            )
         );
     }
 });
