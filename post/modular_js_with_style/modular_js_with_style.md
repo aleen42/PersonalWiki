@@ -146,7 +146,6 @@ define(['./templates', 'text!./template.md','css!./template.css'],
     function( templates, template ){
         console.log(templates);
         // 在这里做一些有趣的模板处理
-    }
 });
 {%endace%}
 
