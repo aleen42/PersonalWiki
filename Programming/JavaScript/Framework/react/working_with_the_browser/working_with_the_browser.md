@@ -16,7 +16,7 @@ To interact with the browser, you'll need a reference to a DOM node. You can att
 
 React has provided `findDOMNode()` function for you to catch this element like:
 
-{%ace edit=false, lang='jsx' theme='tomorrow' %}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 var MyComponent = React.createClass({
     handleClick: function () {
         React.findDOMNode(this.refs.myTextInput).focus();
