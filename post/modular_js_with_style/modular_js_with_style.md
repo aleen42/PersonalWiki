@@ -562,7 +562,7 @@ define( function (require, exports, module){
  
     exports.randomize = function( input ){
         return shuffler.shuffle(input);
-    }
+    };
 });
 {%endace%}
 
