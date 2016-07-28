@@ -55,3 +55,42 @@ define(
 当使用匿名模块时，由于这样的模块符合 DRY（译注：Don't Repeat Yourself）的理念，从而让避免文件名或代码的重复变得轻而易举。因为这样的代码可移植性更高，可以被轻松地移到其它地方（或在文件系统中移动）使用，而不须要修改代码本身及其 ID。`module_id` 的作用就像是简单程序包中的文件路径，在有些程序包中甚至都没有被用到。只要使用一个能在例如 r.js 这样的 CommonJS 环境下运行的 AMD 优化器，开发者就可以在多个不同环境中运行相同的代码。
 
 回到定义的方法签名，dependencies 参数代表了一组对所定义的模块来说必须的依赖项。第三个参数（'definition function'）是一个用来为你的模块执行初始化的函数。一个最简单的模块可以以如下方式定义：
+
+#### 理解 AMD：define()
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+// 这里的 module_id（myModule）仅作为示例使用
+ 
+define('myModule', 
+    ['foo', 'bar'], 
+    // 模块定义函数
+    // 依赖项（foo 和 bar）被映射为函数的参数
+    function ( foo, bar ) {
+        // 返回一个定义了模块导出接口的值
+        // （也就是我们想要导出后进行调用的功能）
+    
+        // 在这里创建模块
+        var myModule = {
+            doStuff:function(){
+                console.log('Yay! Stuff');
+            }
+        }
+ 
+        return myModule;
+});
+ 
+// 另一个例子可以是...
+define('myModule', 
+    ['math', 'graph'], 
+    function ( math, graph ) {
+ 
+        // 请注意这是一个和 AMD 有些许不同的模式，但用几种不同的方式
+        // 来定义模块也是可以的，因为语法在某些方面还是比较灵活的
+        return {
+            plot: function(x, y){
+                return graph.drawPie(math.randomGrid(x,y));
+            }
+        }
+    };
+});
+{%endace%}
