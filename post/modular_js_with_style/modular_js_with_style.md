@@ -109,3 +109,23 @@ require(['foo', 'bar'], function ( foo, bar ) {
     foo.doSomething();
 });
 {%endace%}
+
+#### 动态加载的依赖项
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+define(function ( require ) {
+    var isReady = false, foobar;
+ 
+    // 请注意在模块定义内部内联的 require 语句
+    require(['foo', 'bar'], function (foo, bar) {
+        isReady = true;
+        foobar = foo() + bar();
+    });
+ 
+    // 我们仍可以返回一个模块
+    return {
+        isReady: isReady,
+        foobar: foobar
+    };
+});
+{%endace%}
