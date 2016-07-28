@@ -173,3 +173,16 @@ curl(['app/myModule.js'],
         module.doStuff();
 });
 {%endace%}
+
+#### 包含须要延迟加载的依赖项的模块
+
+// 这可以兼容 jQuery 的 Deferred 实现、future.js（语法稍有不同）或多种其它实现
+define(['lib/Deferred'], function( Deferred ){
+    var defer = new Deferred(); 
+    require(['lib/templates/?index.html','lib/data/?stats'],
+        function( template, data ){
+            defer.resolve({ template: template, data:data });
+        }
+    );
+    return defer.promise();
+});
