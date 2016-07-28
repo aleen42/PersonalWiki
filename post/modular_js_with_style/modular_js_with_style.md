@@ -94,3 +94,5 @@ define('myModule',
     };
 });
 {%endace%}
+
+另一方面，*require* 则主要用来在顶层 JavaScript 文件中或须要动态读取依赖时加载代码。用法的一个实例如下：
