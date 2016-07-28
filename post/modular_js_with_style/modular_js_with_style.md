@@ -354,3 +354,24 @@ jQuery 1.7 增加的一个关键特性，就是支持将 jQuery 注册为一个�
 其工作的原理是，所使用的脚本加载器通过指定一个属性，即 `define.amd.jQuery` 为 true，来标明自己可以支持多个 jQuery 版本。如果有兴趣了解特定的实现细节的话，我们可以将 jQuery 注册为一个具名模块，因为可能会有这样的风险，即它可能被与其它使用了 AMD 的 `define()` 方法的文件拼合在一起，而没有使用一个合适的、理解匿名 AMD 模块定义的拼合脚本。
 
 具名的 AMD 为大多数用例提供了一个健壮又安全的保护层。
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+// 让文档中存在多个 jQuery 的全局实例，以便测试 .noConflict()
+
+var jQuery = this.jQuery || "jQuery", 
+$ = this.$ || "$",
+originaljQuery = jQuery,
+original$ = $,
+amdDefined;
+
+define(['jquery'] , function ($) {
+    $('.items').css('background','green');
+    return function () {};
+});
+
+// 易实现的声明支持的标志，会被 AMD 加载器所使用
+define.amd = {
+    jQuery: true
+};
+{%endace%}
+
