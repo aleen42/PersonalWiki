@@ -96,3 +96,17 @@ define('myModule',
 {%endace%}
 
 另一方面，*require* 则主要用来在顶层 JavaScript 文件中或须要动态读取依赖时加载代码。用法的一个实例如下：
+
+#### 理解 AMD：require()
+
+{%ace edit=false lang='javascript' theme='tomorrow' %}
+// 假设 'foo' 和 'bar' 是两个外部模块
+// 在本例中，这两个模块被加载后的 'exports' 被当做两个参数传递到了回调函数中
+// 所以可以像这样来访问他们
+ 
+require(['foo', 'bar'], function ( foo, bar ) {
+    // 这里写其余的代码
+    foo.doSomething();
+});
+
+{%endace%}
