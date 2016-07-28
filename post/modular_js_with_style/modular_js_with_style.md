@@ -264,7 +264,7 @@ define(['dojo', 'dojo/store/Observable'], function ( dojo, Observable ) {
     return function UpdatableObservable ( store ) {
  
         var observable = dojo.isFunction(store.notify) ? store :
-                new Observable(store);
+            new Observable(store);
  
         observable.updated = function( object ) {
             dojo.when(object, function ( itemOrArray ) {
