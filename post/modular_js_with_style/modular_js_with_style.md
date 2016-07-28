@@ -715,3 +715,177 @@ $(function(){
     core.plugin.setRed('div:last');
 });
 {%endace%}
+
+### ES Harmony（未来的模块）
+
+[TC39](http://www.ecma-international.org/memento/TC39.htm)——负责制定 ECMAScript 语法和语义以及其未来迭代的标准团体，是由一部分非常聪明的开发者组成的。其中的一些人（比如 [Alex Russell](http://www.ecma-international.org/memento/TC39.htm)）在近几年一直在密切关注 JavaScript 在大规模开发中的使用情况的演进，而且也敏感地意识到了需要有更好的语言特性来编写更加模块化的 JS。
+
+基于这个原因，目前有提案已经提出了一系列令人振奋的对语言的补充，包括灵活的、可以同时在客户端与服务器端使用的 [模块](http://wiki.ecmascript.org/doku.php?id=harmony:modules)、一个[模块加载器](http://wiki.ecmascript.org/doku.php?id=harmony:module_loaders)以及[其它](http://wiki.ecmascript.org/doku.php?id=harmony:proposals)。在这个章节中，我将向你展示一些 ES.next 中语法的代码样例，让你能对即将到来的东西一睹为快。（译注：关于 ES.next 与 ES Harmony 的关系，可以参考[这篇](http://www.2ality.com/2011/06/ecmascript.html)文章。）
+
+> 注：尽管 Harmony 仍然在提案阶段中，多亏了 Google 的 [Traceur](http://code.google.com/p/traceur-compiler/) 编译器，你已经可以（部分地）尝试 ES.next 引入的对编写模块化 JavaScript 进行原生支持的特性。想要立刻获取并运行 Traceur，请阅读这篇[入门](http://code.google.com/p/traceur-compiler/wiki/GettingStarted)指南。如果你有兴趣对这个项目了解更多的话，还有一个 JSConf 上相关的[演讲](http://traceur-compiler.googlecode.com/svn/branches/v0.10/presentation/index.html)也值得一看。
+
+#### 包含导入与导出的模块
+
+如果你已经读完了关于 AMD 与 CJS 模块的章节，你可能已经对模块依赖（导入）以及模块导出（或者说公用 API/我们允许其它模块使用的变量）的概念比较熟悉了。在 ES.next 中，这些概念被以一种更为精简的方式提出，用了一个关键字 `import` 来指定模块的依赖项。`export` 则和我们想象的没有多大差别，我认为很多开发者看了下面的代码就能立刻明白。
+
+- **import**声明把某个模块的导出绑定为本地变量，并可以重命名来避免命名冲突。
+- **export**声明声明了某个模块的本地绑定是外部可见的，这样其它模块就能够读取它们但却无法进行修改。有趣的是，模块可以导出子模块，却无法导出已经在别处定义过的模块。你同样可以给导出重命名来让它们不同于本地的名字。
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+module staff{
+    // 指定其它模块可以使用的（公用）导出
+    export var baker = {
+        bake: function( item ){
+            console.log('Woo! I just baked ' + item);
+        }
+    }; 
+}
+ 
+module skills{
+    export var specialty = "baking";
+    export var experience = "5 years";
+}
+ 
+module cakeFactory{
+    // 指定依赖项
+    import baker from staff;
+ 
+    // 通过通配符导入所有东西
+    import * from skills;
+ 
+    export var oven = {
+        makeCupcake: function( toppings ){
+            baker.bake('cupcake', toppings);
+        },
+        makeMuffin: function( mSize ){
+            baker.bake('muffin', size);
+        }
+    };
+}
+{%endace%}
+
+#### 远程载入的模块
+
+模块提案同样也适用于远程存放的模块（比如一个第三方 API 包裹器），使其简化了从外部位置载入模块的过程。这里是一段拉取我们上面定义的模块来使用的例子：
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+module cakeFactory from 'http://addyosmani.com/factory/cakes.js';
+cakeFactory.oven.makeCupcake('sprinkles');
+cakeFactory.oven.makeMuffin('large');
+{%endace%}
+
+#### 模块加载器 API
+
+被提出的模块加载器为在高度受控的上下文中读取模块描述了一个动态的 API。加载器支持的方法签名有，用来加载模块的 `load( url, moduleInstance, error)`，以及 `createModule( object, globalModuleReferences)` 等等。下面是我们动态加载最开始定义的模块的例子。注意和上一个例子中我们从远程拉取一个模块不同，这里的模块加载器 API 更适合用于动态上下文。
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+Loader.load('http://addyosmani.com/factory/cakes.js',
+    function(cakeFactory){
+        cakeFactory.oven.makeCupcake('chocolate');
+});
+{%endace%}
+
+#### 针对服务器的类 CommonJS 模块
+
+对于面向服务器的开发者来说，在 ES.next 中提出的模块系统并非局限于对浏览器端模块的关注。通过下面的例子，你可以看见一个被提出用于服务器的类 CJS 模块：
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+// io/File.js
+export function open(path) { ... };
+export function close(hnd) { ... };
+{%endace%}
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+// compiler/LexicalHandler.js
+module file from 'io/File';
+ 
+import { open, close } from file;
+export function scan(in) {
+    try {
+        var h = open(in) ...
+    }
+    finally { close(h) }
+}
+{%endace%}
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+module lexer from 'compiler/LexicalHandler';
+module stdlib from '@std';
+ 
+//... scan(cmdline[0]) ...
+{%endace%}
+
+#### 带有构造器、Getter 与 Setter 的类
+
+类的记号向来都是和语言纯正癖们间有争议的问题。我们目前一直沿用的是要么退回到 JavaScript 基于原型的天生特性，要么使用可让人使用类进行定义的、实质上在脱糖（译注：desugar，意为去掉语法糖，把代码转换为语法上更严密的形式，可参考[李松峰](http://weibo.com/lisf)老师的[这篇](http://www.cn-cuckoo.com/2008/08/20/how-to-translate-syntactic-sugar-251.html)文章）以后同样是原型行为的框架或抽象。
+
+在 Harmony 中，类与构造器一同作为语言的一部分出现，（终于）有了一些真正的私有性。在下面的例子中，我引入了一些行内的注释来帮助你理解类是如何组织的，但是你可能会注意到这里缺少了“函数”这个词汇。这并非一个排印错误：TC39 一直以来都在有意识地努力减少我们对 `function` 关键字的到处滥用，希望这有助于帮助我们简化代码的编写。
+
+{%ace edit=false, lang='javascript', theme='tomorrow' %}
+class Cake{
+    // 我们可以用 'constructor' 关键字后面紧跟一个公有及私有声明
+    // 的参数列表来定义一个类的构造器主体。
+    constructor( name, toppings, price, cakeSize ){
+        public name = name;
+        public cakeSize = cakeSize;
+        public toppings = toppings;
+        private price = price;
+ 
+    }
+ 
+    // 作为 ES.next 对于减少不必要的到处使用 function 的努力的一部
+    // 分，你会看到它在如同下面那样的使用场景中被抛弃了。在这里一个标
+    // 识符后面紧跟一个参数列表和一个定义了新方法的主体。
+ 
+    addTopping( topping ){
+        public(this).toppings.push(topping);
+    }
+ 
+    // Getter 可以通过在标识符、方法名以及花括号主体前
+    // 声明一个 get 来定义。
+    get allToppings(){
+        return public(this).toppings;
+    }
+ 
+    get qualifiesForDiscount(){
+        return private(this).price > 5;
+    }
+ 
+    // 与 getter 类似，setter 也能通过在标识符前使用 'set'
+    // 关键字来定义。
+    set cakeSize( cSize ){
+        if( cSize < 0 ){
+            throw new Error('Cake must be a valid size - 
+            either small, medium or large');
+        }
+
+        public(this).cakeSize = cSize;
+    }
+}
+{%endace%}
+
+#### ES Harmony 总结
+
+如你所见，ES.next 带来了一些令人振奋的新东西。虽然 Traceur 可以在某种程度上用来在当前尝试一下这样的特性，但是要记住可能用 Harmony 来规划你的系统可能并不是个好主意（只是说目前还不是）。规范发生变化以及潜在的在跨浏览器层面的问题都会带来风险（比如 IE9 可能会要过较长的时间才会消亡），所以在标准最终确定及其覆盖率不成问题之前，你最好还是把注下在 AMD（用于浏览器内运行的模块）与 CJS（用于服务器）身上。
+
+> **相关阅读**
+
+> [A First Look At The Upcoming JavaScript Modules](http://www.2ality.com/2011/03/first-look-at-upcoming-javascript.html)
+
+> [David Herman On JavaScript/ES.Next (Video)](http://blog.mozilla.com/dherman/2011/02/23/my-js-meetup-talk/)
+
+> [ES Harmony Module Proposals](http://wiki.ecmascript.org/doku.php?id=harmony:modules)
+
+> [ES Harmony Module Semantics/Structure Rationale](http://wiki.ecmascript.org/doku.php?id=harmony:modules_rationale)
+
+> [ES Harmony Class Proposals](http://wiki.ecmascript.org/doku.php?id=harmony:classes)
+
+### 结论与深入阅读（回顾）
+
+在本文中我们审视了关于用现代的模块格式来编写模块化 JavaScript 的几个可选方案。这些格式相较于仅使用（传统的）模块模式有着许多优势，包括：让开发者们避免了为每个创建的模块建立全局变量、对静态与动态的依赖关系管理有着更好的支持、对脚本加载器有更高的兼容性、对服务器端模块也有着更好的（可选的）兼容性等等。
+
+总之，我推荐你试试看今天建议的东西，因为这些格式提供了强大的功能以及灵活性，在基于可复用功能块构建应用程序时会很有帮助。
+
+今天就到这里。如果你对于今天提到的话题还有更深入的问题，请随意来 [twitter](http://twitter.com/addyosmani) 骚扰我，我会尽力帮忙！
+
+本文的技术审阅是通过 [Diigo](http://www.diigo.com/)（Google Chrome 版）进行的。Diigo 是一个让你能够在任意在线文档中加入评论与高亮的免费工具，如果你发现什么错误或是想建议什么扩展，请用 Diigo（或在 GitHub 上建个 [gist](http://gist.github.com/)），我会亲自做测试来处理任何你发过来的点子。
