@@ -316,4 +316,6 @@ define(['mylib/Array'], function ( array ) {
 });
 {%endace%}
 
+#### jQuery 下的 AMD 模块
 
+**基础**
