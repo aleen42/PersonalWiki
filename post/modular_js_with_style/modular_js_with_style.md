@@ -608,19 +608,19 @@ define( function (require, exports, module){
 // 的，这须要把参数映射到某种特定格式所期望的样子。我们实际的模块功
 // 能定义在下方，那里展示了一个具名模块和导出。
 (function ( name, definition ){
-  var theModule = definition(),
-      // 这被认为是“安全”的:
-      hasDefine = typeof define === 'function' && define.amd,
-      // hasDefine = typeof define === 'function',
-      hasExports = typeof module !== 'undefined' && module.exports;
+    var theModule = definition(),
+        // 这被认为是“安全”的:
+        hasDefine = typeof define === 'function' && define.amd,
+        // hasDefine = typeof define === 'function',
+        hasExports = typeof module !== 'undefined' && module.exports;
  
-  if ( hasDefine ){ // AMD 模块
-    define(theModule);
-  } else if ( hasExports ) { // Node.js 模块
-    module.exports = theModule;
-  } else { // 分配到常见的命名空间，或简单地分配到全局对象（window）
-    (this.jQuery || this.ender || this.$ || this)[name] = theModule;
-  }
+    if ( hasDefine ){ // AMD 模块
+        define(theModule);
+    } else if ( hasExports ) { // Node.js 模块
+        module.exports = theModule;
+    } else { // 分配到常见的命名空间，或简单地分配到全局对象（window）
+        (this.jQuery || this.ender || this.$ || this)[name] = theModule;
+    }
 })( 'core', function () {
     var module = this;
     module.plugins = [];
