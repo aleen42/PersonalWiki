@@ -20,7 +20,6 @@
 - [**Improve Angular Performance with React**](./improve_angular_performance_with_react/improve_angular_performance_with_react.md)
 - [**Give it five minutes**](./give_it_five_minutes/give_it_five_minutes.md)
 - [**OpenCV (C++ vs Python) vs MATLAB for Computer Vision**](./opencv_vs_matlab/opencv_vs_matlab.md)
-- [**Writing Modular JavaScript With AMD, CommonJS & ES Harmony**](./modular_js_with_style/modular_js_with_style.md)
 
 #### Proofread
 
