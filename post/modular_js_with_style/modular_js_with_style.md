@@ -236,5 +236,4 @@ define(["dojo/cookie", "dijit/Tooltip"], function( cookie, Tooltip ){
     var cookieValue = cookie("cookieName"); 
     new Tree(...); 
 });
-
 {%endace%}
