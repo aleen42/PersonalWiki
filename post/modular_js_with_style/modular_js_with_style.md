@@ -74,7 +74,7 @@ define('myModule',
             doStuff:function(){
                 console.log('Yay! Stuff');
             }
-        }
+        };
 
         return myModule;
 });
