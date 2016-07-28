@@ -22,7 +22,7 @@ Then, we can name each component with our familiar naming style with this struct
 
 After that, the jsx should be written like the following structure:
 
-{%ace edit=false, lang='html'%}
+{%ace edit=false, lang='html' theme='tomorrow' %}
 <html>
     <head>
         <!-- heads part -->
@@ -33,7 +33,7 @@ After that, the jsx should be written like the following structure:
 </html>
 {%endace%}
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var ProductRow = React.createClass({ /** ... */ });
 
 var ProductCategoryRow = React.createClass({ /** ... */ });
@@ -52,7 +52,7 @@ ReactDOM.render(
 
 ### Step 2: Build a static version in React
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 var PRODUCTS = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
     {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
@@ -190,7 +190,7 @@ For each piece of state in your application:
 
 Following this strategy, we can find that both SearchBar and ProductTable need the state. And their common components is FilterableProductTable. Therefore, the state should live in **FilterableProductTable**.
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 /** use filterText and isStockOnly to filter data */
 var ProductTable = React.createClass({
     render: function () {
@@ -264,7 +264,7 @@ There should be a method to handle events of changements of both the text and th
 
 Therefore, we should add a handle event method for FilterableProductTable to setState, and pass this method to SearchBar via prop.
 
-{%ace edit=false, lang='jsx'%}
+{%ace edit=false, lang='jsx' theme='tomorrow' %}
 /** call parent method */
 var SearchBar = React.createClass({
     handleChange: function() {
