@@ -557,7 +557,6 @@ CommonJS 则采用了服务器优先的策略，采取同步行为、没有 John
 
 {%ace edit=false, lang='javascript', theme='tomorrow' %}
 define( function (require, exports, module){
-    
     var shuffler = require('lib/shuffle');
  
     exports.randomize = function( input ){
