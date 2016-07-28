@@ -91,7 +91,6 @@ define('myModule',
                 return graph.drawPie(math.randomGrid(x,y));
             }
         };
-    }
 });
 {%endace%}
 
