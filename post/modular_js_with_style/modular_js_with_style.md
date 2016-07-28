@@ -250,3 +250,9 @@ define(["dojo", "dijit", "dojo/cookie", "dijit/Tooltip"], function(dojo, dijit){
     new dijit.Tooltip(...);
 });
 {%endace%}
+
+#### AMD 模块设计模式（Dojo）
+
+如果你关注过我之前任何有关设计模式好处的文章，你就会知道它们能非常有效地改进我们探索结构上解决方案的方式。[John Hann](http://twitter.com/unscriptable) 最近作了一个关于 AMD 模块设计模式的报告，内容涵盖了单例模式（Singleton）、装饰者模式（Decorator）、中介模式（Mediator）等等。我强烈推荐如果有机会的话去看看他的[幻灯片](http://unscriptable.com/code/AMD-module-patterns/)。
+
+下面有几个这些模式的实例：
