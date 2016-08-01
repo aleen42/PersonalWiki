@@ -17,4 +17,4 @@ Here, I just use a **Ubuntu 14.04** to build:
     $ cd yaAGC
     $ make
     {%endace%}
-
+    *Notice that, you should not run `configure` and `make install`*
