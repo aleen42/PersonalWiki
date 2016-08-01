@@ -58,5 +58,3 @@ ele.attachEvent('onclick', function () {
     window.event.returnValue = false;
 });
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
