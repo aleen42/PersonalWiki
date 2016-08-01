@@ -12,4 +12,9 @@ Here, I just use a **Ubuntu 14.04** to build:
     {%ace edit=false, lang='sh' %}
     $ tar --bzip2 -xf yaAGC-dev-YYYYMMDD.tar.bz2
     {%endace%}
-    
+3. After, building the project with enter the directory, `yaAGC`:
+    {%ace edit=false, lang='sh' %}
+    $ cd yaAGC
+    $ make
+    {%endace%}
+
