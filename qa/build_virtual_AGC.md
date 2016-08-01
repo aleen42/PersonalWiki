@@ -41,4 +41,6 @@ Here, I just use a **Ubuntu 14.04** to build:
 $ ~/VirtualAGC/bin/VirtualAGC
 {%endace%}
 
+![](./virtualAGC.png)
+
     
