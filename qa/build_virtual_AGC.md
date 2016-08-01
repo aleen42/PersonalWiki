@@ -4,4 +4,6 @@
 
 Here, I just use a **Ubuntu 14.04** to build:
 
-1. Download a development tarball first
+1. Download a development tarball firstly:
+
+
