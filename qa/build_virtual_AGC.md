@@ -8,4 +8,8 @@ Here, I just use a **Ubuntu 14.04** to build:
     https://www.ibiblio.org/apollo/Downloads/
 
     Here I would like to build with [**yaAGC-dev-20100220.tar.bz2**](https://www.ibiblio.org/apollo/Downloads/yaAGC-dev-20100220.tar.bz2)
-
+2. Then, the following step should be unpacking:
+    {%ace edit=false, lang='sh' %}
+    $ tar --bzip2 -xf yaAGC-dev-YYYYMMDD.tar.bz2
+    {%endace%}
+    
