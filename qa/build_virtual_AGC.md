@@ -25,6 +25,8 @@ $ make
     $ sudo apt-get install libcurses-ocaml-dev
     {%endace%}
     
+    <br />
+    
     - Problems: **fatal error: wx/wx.h: No such file or directory**
     - Solutions:
     {%ace edit=false, lang='sh' %}
