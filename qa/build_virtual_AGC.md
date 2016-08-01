@@ -37,4 +37,8 @@ Here, I just use a **Ubuntu 14.04** to build:
     {%endace%}
 5. After installation, we can run it by executing files of `~/VirtualAGC/bin`
 
+{%ace edit=false, lang='sh' %}
+$ ~/VirtualAGC/bin/VirtualAGC
+{%endace%}
+
     
