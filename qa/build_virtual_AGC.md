@@ -35,5 +35,6 @@ Here, I just use a **Ubuntu 14.04** to build:
     {%ace edit=false, lang='sh' %}
     $ mv yaAGC/VirtualAGC/temp/lVirtualAGC ~/VirtualAGC
     {%endace%}
+5. After installation, we can run it by executing files of `~/VirtualAGC/bin`
 
     
