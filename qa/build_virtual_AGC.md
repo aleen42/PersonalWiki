@@ -31,5 +31,10 @@ Here, I just use a **Ubuntu 14.04** to build:
     $ sudo apt-get install libwxgtk3.0-dev
     {%endace%}
     
-4. 
+4. To match the default setup:
+    {%ace edit=false, lang='sh' %}
+    $ mv yaAGC/VirtualAGC/temp/lVirtualAGC ~/VirtualAGC
+    {%endace%}
+5. 
+
     
