@@ -24,5 +24,12 @@ Here, I just use a **Ubuntu 14.04** to build:
     {%ace edit=false, lang='sh' %}
     $ sudo apt-get install libcurses-ocaml-dev
     {%endace%}
+    
+    - Problems: **fatal error: wx/wx.h: No such file or directory**
+    - Solutions:
+    {%ace edit=false, lang='sh' %}
+    $ sudo apt-get install libwxgtk3.0.0-dev
+    {%endace%}
+    
 4. 
     
