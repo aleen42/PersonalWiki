@@ -193,6 +193,7 @@ pre::-webkit-resizer {
     /** if you want to style your own scroll bar, this pseudo should be written */
     /** Part 1 */
     width: 6px;
+    height: 6px;
 }
 
 #output pre, #output iframe::-webkit-scrollbar-button {
@@ -303,6 +304,7 @@ pre::-webkit-resizer {
     /** if you want to style your own scroll bar, this pseudo should be written */
     /** Part 1 */
     width: 6px;
+    height: 6px;
 }
 
 .book .book-body .body-inner::-webkit-scrollbar-button {
