@@ -29,7 +29,8 @@
 - [**How to solve the lib problem when using xampp to shell_exec c++ files**](./xamppcpp.md)
 - [**How to add dns for a server**](./adddns.md)
 - [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
-
+- [**How to build up Node.js and npm on Windows**](./nodejsandnpmonwindows.md)
+- 
 ### CV (Computer Vision)
 
 - [**How to set up Dlib in the Visual Studio 2013**](./dlib.md)
@@ -42,7 +43,7 @@
 
 
 
-- [**How to build up Node.js and npm on Windows**](./nodejsandnpmonwindows.md)
+
 - [**How to use JavaScript to interact with Android and IOS**](./interactjsmobile.md)
 - [**How to install composer in Ubuntu**](./composerinstall.md)
 - [**How to use ffmpeg in c/c++**](./ffmpeg_c_cpp.md)
