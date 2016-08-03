@@ -35,7 +35,8 @@ var TodoList = React.createClass({
             <div>
                 <button onClick={this.handleAdd}>Add Item</button>
                 <ReactCSSTransitionGroup transitionName="example" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
-                </ReactCSSTransition
+                    {items}
+                </ReactCSSTransitionGroup>
             </div>
         );
     }
