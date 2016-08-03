@@ -12,4 +12,14 @@ React provides a `ReactTransitionGroup` add-on component as a low-level API for 
 
 {%ace edit=false, lang='jsx', theme='tomomrrow'%}
 var ReactCSSTransitionGroup = require('react-addons-css-transition-group');
+
+var TodoList = React.createClass({
+    getInitialState: function () {
+        return { items: ['hello', 'world', 'click', 'me'] };
+    },
+    
+    handleAdd: function () {
+        
+    }
+});
 {%endace%}
