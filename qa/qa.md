@@ -10,7 +10,8 @@
 
 ### Linux
 
-
+- [**How to see logs of crontab in Ubuntu**](./crontablog.md)
+- [**How to solve the problem of dpkg sub-process throwing a error in Ubuntu**](./dpkg.md)
 
 ### Front-end
 
@@ -18,17 +19,19 @@
 
 ### Back-end
 
+- [**How to solve the lib problem when using xampp to shell_exec c++ files**](./xamppcpp.md)
+
 ### CV (Computer Vision)
 
 - [**How to set up Dlib in the Visual Studio 2013**](./dlib.md)
 - [**How to compile Dlib(C++) on Linux**](./dlibonlinux.md)
 - [**How to build up OpenCV on Linux**](./opencvonlinux.md)
-
-
-- [**How to see logs of crontab in Ubuntu**](./crontablog.md)
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
-- [**How to solve the lib problem when using xampp to shell_exec c++ files**](./xamppcpp.md)
-- [**How to solve the problem of dpkg sub-process throwing a error in Ubuntu**](./dpkg.md)
+
+
+
+
+
 - [**How to see the version of Ubuntu**](./ubuntuversion.md)
 - [**How to upload files and data with ajax**](./uploadwithajax.md)
 - [**How to add dns for a server**](./adddns.md)
