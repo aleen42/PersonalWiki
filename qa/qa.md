@@ -7,6 +7,7 @@
 - [**How to use browser better**](./better_browser.md)
 - [**How PGP encryption works**](./pgp.md)
 - [**How to use Gitbook to write something**](./gitbook.md)
+- [**What is Gist**](./gist.md)
 
 ### Linux
 
@@ -18,6 +19,8 @@
 - [**How to build up osmocomBB in Ubuntu**](./osmocombbonlinux.md)
 - [**How to build up gqxr in Ubuntu**](./gqxronlinux.md)
 - [**How to install atom in Ubuntu 32 bits**](./atom_ubntu_32.md)
+- [**How to deploy TL-WN722N in Ubuntu 14.04**](./tl_wn722n_ubuntu.md)
+- [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
 
 ### Front-end
 
@@ -39,6 +42,9 @@
 - [**How to build up Node.js and npm on Windows**](./nodejsandnpmonwindows.md)
 - [**How to use master-slave synchronization between two servers**](./master_slave_synchronization.md)
 - [**How to set ssh with asymmetric keys on servers**](./asymmetric_keys_on_servers.md)
+- [**How to enable MySQL logs and watch them**](./mysql_log.md)
+- [**How to check whether it's PC's accessment in PHP**](./check_PC_in_PHP.md)
+- [**What is ETag**](./etag.md)
 
 ### CV (Computer Vision)
 
@@ -50,12 +56,6 @@
 
 
 
-- [**How to deploy TL-WN722N in Ubuntu 14.04**](./tl_wn722n_ubuntu.md)
-- [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
-- [**How to enable MySQL logs and watch them**](./mysql_log.md)
-- [**How to check whether it's PC's accessment in PHP**](./check_PC_in_PHP.md)
-- [**What is ETag**](./etag.md)
-- [**What is Gist**](./gist.md)
 - [**What is Cassandra**](./cassandra.md)
 - [**Why does the shell script always break down when running for statement**](./shellfor.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
