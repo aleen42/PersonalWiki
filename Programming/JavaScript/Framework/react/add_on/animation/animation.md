@@ -31,6 +31,14 @@ var TodoList = React.createClass({
     },
     
     render: function () {
+        var items = this.state.items.map(function (item, i) {
+            return (
+                <div key={item} onClick={this.handleRemove.bind(this, i)}>
+                    {item}
+                </div>
+            );
+        });
+    
         return (
             <div>
                 <button onClick={this.handleAdd}>Add Item</button>
