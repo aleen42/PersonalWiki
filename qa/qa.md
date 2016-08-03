@@ -13,6 +13,7 @@
 - [**How to see logs of crontab in Ubuntu**](./crontablog.md)
 - [**How to solve the problem of dpkg sub-process throwing a error in Ubuntu**](./dpkg.md)
 - [**How to see the version of Ubuntu**](./ubuntuversion.md)
+- [**How to set the default window size of the Terminal in Ubuntu**](./defaultwindowsize.md)
 
 ### Front-end
 
@@ -40,7 +41,7 @@
 
 
 
-- [**How to set the default window size of the Terminal in Ubuntu**](./defaultwindowsize.md)
+
 - [**How to build up Node.js and npm on Windows**](./nodejsandnpmonwindows.md)
 - [**How to use JavaScript to interact with Android and IOS**](./interactjsmobile.md)
 - [**How to install composer in Ubuntu**](./composerinstall.md)
