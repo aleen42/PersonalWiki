@@ -69,6 +69,7 @@
                             * [Language Tooling](./Programming/JavaScript/Framework/react/tooling_integration/language_tooling/language_tooling.md)
                             * [Package Management](./Programming/JavaScript/Framework/react/tooling_integration/package_management/package_management.md)
                             * [Server-side Environments](./Programming/JavaScript/Framework/react/tooling_integration/server_side_env/server_side_env.md)
+                        * [Add-Ons](./Programming/JavaScript/Framework/react/add_on/add_on.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
