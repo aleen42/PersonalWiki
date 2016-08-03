@@ -5,5 +5,3 @@
 - gist可以嵌套到任何的html
 
 <img src="./gist.png">
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
