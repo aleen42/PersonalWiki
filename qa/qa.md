@@ -14,6 +14,7 @@
 - [**How to solve the problem of dpkg sub-process throwing a error in Ubuntu**](./dpkg.md)
 - [**How to see the version of Ubuntu**](./ubuntuversion.md)
 - [**How to set the default window size of the Terminal in Ubuntu**](./defaultwindowsize.md)
+- [**How to install composer in Ubuntu**](./composerinstall.md)
 
 ### Front-end
 
@@ -40,13 +41,6 @@
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 
 
-
-
-
-
-
-
-- [**How to install composer in Ubuntu**](./composerinstall.md)
 - [**How to use ffmpeg in c/c++**](./ffmpeg_c_cpp.md)
 - [**How to convert JSON to Markdown**](./convert_json_to_md.md)
 - [**How to use master-slave synchronization between two servers**](./master_slave_synchronization.md)
