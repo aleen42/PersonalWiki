@@ -20,7 +20,3 @@
     - the option **GITBOOK.COM** is to show your remote books on the Gitbook server. In **LOCAL LIBRARY**, you can find out your local projects cloned from the remote server.
 
 <img src="./gitbook_1.jpg">
-
-<a href="#how-to-use-gitbook-to-write-something" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
