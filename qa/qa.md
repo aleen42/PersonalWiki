@@ -9,6 +9,7 @@
 - [**How to use Gitbook to write something**](./gitbook.md)
 - [**What is Gist**](./gist.md)
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
+- [**Some commands of SVN**](./svncommands.md)
 
 ### Linux
 
@@ -67,7 +68,7 @@
 
 
 
-- [**Some commands of SVN**](./svncommands.md)
+
 - [**Some problems of releasing memory in C++**](./cppreleasing.md)
 - [**Some problems of building gr-rsm**](./build_gr_rsm.md)
 - [**Some problems of building Virtual AGC**](./build_virtual_AGC.md)
