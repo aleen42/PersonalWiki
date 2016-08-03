@@ -1,4 +1,4 @@
-## a smart way to show a picture [Back](./qa.md)
+## How to make a smart picture showing with css [Back](./qa.md)
 
 - Here is a smart way to show a picture in a html web page. Only with some **CSS**, the picture will be displayed in a different way like the [**example**](http://aleen42.github.io/example/smartPic/index.html).
 
