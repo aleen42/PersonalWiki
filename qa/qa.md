@@ -45,6 +45,7 @@
 - [**How to enable MySQL logs and watch them**](./mysql_log.md)
 - [**How to check whether it's PC's accessment in PHP**](./check_PC_in_PHP.md)
 - [**What is ETag**](./etag.md)
+- [**What is Cassandra**](./cassandra.md)
 
 ### CV (Computer Vision)
 
@@ -56,7 +57,7 @@
 
 
 
-- [**What is Cassandra**](./cassandra.md)
+
 - [**Why does the shell script always break down when running for statement**](./shellfor.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)
 - [**Differences between CGI, FastCGI, PHP-CGI, PHP-FPM, Spawn-FCGI**](./cgi_difference.md)
