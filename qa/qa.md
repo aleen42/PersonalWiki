@@ -23,6 +23,7 @@
 - [**How to deploy TL-WN722N in Ubuntu 14.04**](./tl_wn722n_ubuntu.md)
 - [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
 - [**Why does the shell script always break down when running for statement**](./shellfor.md)
+- [**Some commands of Linux**](./linuxcommands.md)
 
 ### Front-end
 
@@ -65,7 +66,7 @@
 
 
 
-- [**Some commands of Linux**](./linuxcommands.md)
+
 - [**Some commands of SVN**](./svncommands.md)
 - [**Some problems of releasing memory in C++**](./cppreleasing.md)
 - [**Some problems of building gr-rsm**](./build_gr_rsm.md)
