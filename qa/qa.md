@@ -8,6 +8,7 @@
 - [**How PGP encryption works**](./pgp.md)
 - [**How to use Gitbook to write something**](./gitbook.md)
 - [**What is Gist**](./gist.md)
+- [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 
 ### Linux
 
@@ -21,6 +22,7 @@
 - [**How to install atom in Ubuntu 32 bits**](./atom_ubntu_32.md)
 - [**How to deploy TL-WN722N in Ubuntu 14.04**](./tl_wn722n_ubuntu.md)
 - [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
+- [**Why does the shell script always break down when running for statement**](./shellfor.md)
 
 ### Front-end
 
@@ -46,6 +48,8 @@
 - [**How to check whether it's PC's accessment in PHP**](./check_PC_in_PHP.md)
 - [**What is ETag**](./etag.md)
 - [**What is Cassandra**](./cassandra.md)
+- [**Differences between URL, URI and URN**](./url_uri.md)
+- [**Differences between CGI, FastCGI, PHP-CGI, PHP-FPM, Spawn-FCGI**](./cgi_difference.md)
 
 ### CV (Computer Vision)
 
@@ -58,10 +62,9 @@
 
 
 
-- [**Why does the shell script always break down when running for statement**](./shellfor.md)
-- [**Differences between URL, URI and URN**](./url_uri.md)
-- [**Differences between CGI, FastCGI, PHP-CGI, PHP-FPM, Spawn-FCGI**](./cgi_difference.md)
-- [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
+
+
+
 - [**Some commands of Linux**](./linuxcommands.md)
 - [**Some commands of SVN**](./svncommands.md)
 - [**Some problems of releasing memory in C++**](./cppreleasing.md)
