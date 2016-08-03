@@ -9,3 +9,5 @@ React provides a `ReactTransitionGroup` add-on component as a low-level API for 
 #### Getting Started
 
 `ReactCSSTransitionGroup` is the interface to ReactTransitions. This is a simple element that wraps all of the components you are interested in animating. Here's an example where we fade list items in and out.
+
+{%ace edit=false, lang='jsx', theme='tomomrrow'%}
