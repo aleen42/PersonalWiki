@@ -18,6 +18,10 @@
 
 - [**How to make a smart picture showing with css**](./smartPic.md)
 - [**How to upload files and data with jQuery ajax**](./uploadwithajax.md)
+- [**How to write footer with CSS**](./footercss.md)
+- [**How to write triangles with CSS**](./trianglecss.md)
+- [**How to write menu button with CSS**](./menubtncss.md)
+- [**How to write a new scroll bar with CSS**](./scrollbarcss.md)
 
 ### Back-end
 
@@ -35,10 +39,7 @@
 
 
 
-- [**How to write footer with CSS**](./footercss.md)
-- [**How to write triangles with CSS**](./trianglecss.md)
-- [**How to write menu button with CSS**](./menubtncss.md)
-- [**How to write a new scroll bar with CSS**](./scrollbarcss.md)
+
 - [**How to set the default window size of the Terminal in Ubuntu**](./defaultwindowsize.md)
 - [**How to build up Node.js and npm on Windows**](./nodejsandnpmonwindows.md)
 - [**How to use JavaScript to interact with Android and IOS**](./interactjsmobile.md)
