@@ -28,6 +28,16 @@ var TodoList = React.createClass({
         newItems = newItems.splice(i, 1);
         
         this.setState({ items: newItems });
+    },
+    
+    render: function () {
+        return (
+            <div>
+                <button onClick={this.handleAdd}>Add Item</button>
+                <ReactCSSTransitionGroup transitionName="example" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
+                </ReactCSSTransition
+            </div>
+        );
     }
 });
 {%endace%}
