@@ -10,16 +10,17 @@
 
 ### Front-end
 
+- [**How to make a smart picture showing with css**](./smartPic.md)
+
 ### Back-end
 
 ### CV (Computer Vision)
 
 - [**How to set up Dlib in the Visual Studio 2013**](./dlib.md)
 - [**How to compile Dlib(C++) on Linux**](./dlibonlinux.md)
-
-
 - [**How to build up OpenCV on Linux**](./opencvonlinux.md)
-- [**How to make a smart picture showing with css**](./smartPic.md)
+
+
 - [**How to see logs of crontab in Ubuntu**](./crontablog.md)
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 - [**How to solve the lib problem when using xampp to shell_exec c++ files**](./xamppcpp.md)
