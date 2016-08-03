@@ -23,5 +23,3 @@ sudo mv composer.phar /usr/local/bin/composer
 ```bash
 composer --version
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
