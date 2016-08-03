@@ -1,6 +1,16 @@
 ## Questions & Answers	[Back](./../README.md)
 
 - **Q&A** is a small branch of wiki to collect different small knowledges according to questions which we always meet.
+
+### Common QA
+
+### Front-end
+
+### Back-end
+
+### CV (Computer Vision)
+
+
 - [**How to use browser better**](./better_browser.md)
 - [**How PGP encryption works**](./pgp.md)
 - [**How to set up Dlib in the Visual Studio 2013**](./dlib.md)
