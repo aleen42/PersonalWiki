@@ -29,7 +29,7 @@
 - [**How to build up OpenCV on Linux**](./opencvonlinux.md)
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 
-- [**How to upload files and data with ajax**](./uploadwithajax.md)
+- [**How to upload files and data with jQuery ajax**](./uploadwithajax.md)
 - [**How to add dns for a server**](./adddns.md)
 - [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
 - [**How to write footer with CSS**](./footercss.md)
