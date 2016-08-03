@@ -22,6 +22,8 @@
 ### Back-end
 
 - [**How to solve the lib problem when using xampp to shell_exec c++ files**](./xamppcpp.md)
+- [**How to add dns for a server**](./adddns.md)
+- [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
 
 ### CV (Computer Vision)
 
@@ -31,8 +33,8 @@
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 
 
-- [**How to add dns for a server**](./adddns.md)
-- [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
+
+
 - [**How to write footer with CSS**](./footercss.md)
 - [**How to write triangles with CSS**](./trianglecss.md)
 - [**How to write menu button with CSS**](./menubtncss.md)
