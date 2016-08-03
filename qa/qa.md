@@ -33,6 +33,8 @@
 - [**How to add dns for a server**](./adddns.md)
 - [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
 - [**How to build up Node.js and npm on Windows**](./nodejsandnpmonwindows.md)
+- [**How to use master-slave synchronization between two servers**](./master_slave_synchronization.md)
+- [**How to set ssh with asymmetric keys on servers**](./asymmetric_keys_on_servers.md)
 
 ### CV (Computer Vision)
 
@@ -42,8 +44,8 @@
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 - [**How to use ffmpeg in c/c++**](./ffmpeg_c_cpp.md)
 
-- [**How to use master-slave synchronization between two servers**](./master_slave_synchronization.md)
-- [**How to set ssh with asymmetric keys on servers**](./asymmetric_keys_on_servers.md)
+
+
 - [**How to build up osmocomBB in Ubuntu**](./osmocombbonlinux.md)
 - [**How to build up gqxr in Ubuntu**](./gqxronlinux.md)
 - [**How to use powerful rem with responsive web app development**](./rem.md)
