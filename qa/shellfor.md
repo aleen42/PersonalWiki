@@ -13,5 +13,3 @@ Syntax error: Bad for loop variable
 sudo dpkg-reconfigure dash
 # choose no
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
