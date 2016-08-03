@@ -12,6 +12,7 @@
 
 - [**How to see logs of crontab in Ubuntu**](./crontablog.md)
 - [**How to solve the problem of dpkg sub-process throwing a error in Ubuntu**](./dpkg.md)
+- [**How to see the version of Ubuntu**](./ubuntuversion.md)
 
 ### Front-end
 
@@ -28,11 +29,6 @@
 - [**How to build up OpenCV on Linux**](./opencvonlinux.md)
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 
-
-
-
-
-- [**How to see the version of Ubuntu**](./ubuntuversion.md)
 - [**How to upload files and data with ajax**](./uploadwithajax.md)
 - [**How to add dns for a server**](./adddns.md)
 - [**How to enable Navicat with remote accessing database**](./navicateremoteaccess.md)
