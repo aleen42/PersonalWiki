@@ -30,5 +30,3 @@ sudo rm -rf /var/lib/dpkg/info
 # rename the backup info
 sudo mv /var/lib/dpkg/info.bak /var/lib/dpkg/info
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
