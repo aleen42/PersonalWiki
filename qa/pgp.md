@@ -5,7 +5,3 @@
 - Combinations: **hashing**, **data compression**, **symmetric-key cryptography**(鑰匙加密技術), and finally **public-key cryptography**(公鑰加密技術)
 
 <img src="./pgp_work.png">
-
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
