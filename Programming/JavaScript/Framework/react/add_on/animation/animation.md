@@ -21,6 +21,10 @@ var TodoList = React.createClass({
     handleAdd: function () {
         var newItems = this.state.items.concat([prompt('Enter some text')]);
         this.setState({ items: newItems });
+    },
+    
+    handleRemove: function (i) {
+        var newItems = this.state.items.slice();
     }
 });
 {%endace%}
