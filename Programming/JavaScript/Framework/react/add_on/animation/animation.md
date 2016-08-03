@@ -54,3 +54,5 @@ var TodoList = React.createClass({
 > **Note:**
 
 > You must provide [the `key` attribute](https://facebook.github.io/react/docs/multiple-components.html#dynamic-children) for all children of `ReactCSSTransitionGroup`, even when only rendering a single item. This is how React will determine which children have entered, left, or stayed.
+
+In this component, when a new item is added to `ReactCSSTransitionGroup` it will get the `example-enter` CSS class and the `example-enter-active` CSS class added in the next tick. This is a convention based on the `transitionName` prop.
