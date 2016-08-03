@@ -57,6 +57,24 @@ var TodoList = React.createClass({
 
 In this component, when a new item is added to `ReactCSSTransitionGroup` it will get the `example-enter` CSS class and the `example-enter-active` CSS class added in the next tick. This is a convention based on the `transitionName` prop.
 
-Therefore, we can use these classes
+Therefore, we can use these classes:
 
-```
+{%ace edit=false, lang='css', theme='tomomrrow'%}
+.example-enter {
+    opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+    opacity: 1;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+{%endace%}
