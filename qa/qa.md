@@ -25,6 +25,9 @@
 - [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
 - [**Why does the shell script always break down when running for statement**](./shellfor.md)
 - [**Some commands of Linux**](./linuxcommands.md)
+- [**Some problems of building gr-rsm**](./build_gr_rsm.md)
+- [**Some problems of building Virtual AGC**](./build_virtual_AGC.md)
+- [**Set up portal with WifiDog + AuthPuppy**](./set_up_portal.md)
 
 ### Front-end
 
