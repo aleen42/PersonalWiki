@@ -15,6 +15,8 @@
 - [**How to see the version of Ubuntu**](./ubuntuversion.md)
 - [**How to set the default window size of the Terminal in Ubuntu**](./defaultwindowsize.md)
 - [**How to install composer in Ubuntu**](./composerinstall.md)
+- [**How to build up osmocomBB in Ubuntu**](./osmocombbonlinux.md)
+- [**How to build up gqxr in Ubuntu**](./gqxronlinux.md)
 
 ### Front-end
 
@@ -44,10 +46,6 @@
 - [**How to detect squares in an image with OpenCV**](./detectSquares.md)
 - [**How to use ffmpeg in c/c++**](./ffmpeg_c_cpp.md)
 
-
-
-- [**How to build up osmocomBB in Ubuntu**](./osmocombbonlinux.md)
-- [**How to build up gqxr in Ubuntu**](./gqxronlinux.md)
 - [**How to use powerful rem with responsive web app development**](./rem.md)
 - [**How to install atom in Ubuntu 32 bits**](./atom_ubntu_32.md)
 - [**How to deploy TL-WN722N in Ubuntu 14.04**](./tl_wn722n_ubuntu.md)
