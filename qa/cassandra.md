@@ -134,5 +134,3 @@ are both configured in the configuration file, **cassandra-topology.properties**
         - ALL: return a copy when there is no problems after checking all.
     - Hinted Handoff(提示提交): write to a relay node when the target is offline, and the relay node will wait for the target to complete writing.
     - Distributed Delete: Cassandra will sign a hint to the object which is deleted by other nodes, and this object will be collected when doing Garbage Collect at the fixed time.
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>
