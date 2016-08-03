@@ -27,4 +27,4 @@
 - [**Working With the Browser**](./working_with_the_browser/working_with_the_browser.md)
     - [**Refs to Components**](./refs_to_components/refs_to_components.md)
 - [**Tooling Integration**](./tooling_integration/tooling_integration.md)
-- [**Add-Ons**](./tooling_integration/tooling_integration.md)
+- [**Add-Ons**](./add_on/add_on.md)
