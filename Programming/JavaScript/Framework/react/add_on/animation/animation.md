@@ -25,6 +25,7 @@ var TodoList = React.createClass({
     
     handleRemove: function (i) {
         var newItems = this.state.items.slice();
+        newItems = newItems.splice(i, 1)
     }
 });
 {%endace%}
