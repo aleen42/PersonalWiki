@@ -10,6 +10,8 @@
 
 ### Linux
 
+
+
 ### Front-end
 
 - [**How to make a smart picture showing with css**](./smartPic.md)
