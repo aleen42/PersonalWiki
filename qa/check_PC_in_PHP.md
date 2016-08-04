@@ -1,8 +1,9 @@
 ## How to check whether it's PC's accessment in PHP [Back](./qa.md)
- 
+
 I just show the code here:
 
-```php
+{%ace edit=false, lang='php', theme='tomorrow'%}
+<?php
 public static function validatePC()
 {
     /** contain HTTP_X_WAP_PROFILE should be a mobile device */
@@ -51,7 +52,7 @@ public static function validatePC()
             'wap',
             'mobile'
         ];
-        
+
         /** preg match  */
         if (preg_match("/(" . implode('|', $clientkeywords) . ")/i", strtolower($_SERVER['HTTP_USER_AGENT']))) {
             return false;
@@ -69,4 +70,6 @@ public static function validatePC()
 
     return true;
 }
-```
+
+?>
+{%endace%}
