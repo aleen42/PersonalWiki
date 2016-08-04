@@ -31,7 +31,24 @@ If we code a JSX like the below one, you will find that the converted JavaScript
 
 {%ace edit=false, lang='js', theme='tomorrow'%}
 ReactDOM.render(
-    React.createElement('div', { id: condition ? 'msg' : '' }),
+    React.createElement('div', { id: condition ? 'msg' : null }),
     document.getElementById('conten')
 )
 {%endace%}
+
+Nevertheless, if a ternary expression still cannot fit your case, you can use `if-else` like this:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+var divElem;
+
+if (condition) {
+    divElem = <div id="msg"></div>
+} else {
+}
+
+ReactDOM.render(
+    <div id={condition ? 'msg' : ''}></div>,
+    document.getElementById('conten')
+)
+{%endace%}
+
