@@ -79,4 +79,4 @@ Therefore, we can use these classes:
 }
 {%endace%}
 
-You may notice that animation durations need to be specified in both the CSS and the render. That's to tell React 
+You may notice that animation durations need to be specified in both the CSS and the render. That's to tell React **when to remove the animation classes from the element** and **when to remove element from the DOM.**
