@@ -31,7 +31,7 @@ If we code a JSX like the below one, you will find that the converted JavaScript
 
 {%ace edit=false, lang='js', theme='tomorrow'%}
 ReactDOM.render(
-    React.createElement('div', { id: if (condition) { 'msg' } }),
+    React.createElement('div', { id: condition ? 'msg' : '' }),
     document.getElementById('conten')
 )
 {%endace%}
