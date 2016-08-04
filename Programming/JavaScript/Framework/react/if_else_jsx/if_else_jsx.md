@@ -8,3 +8,12 @@ ReactDOM.render(
     document.getElementById('conten')
 )
 {%endace%}
+
+If we code a JSX like the below one, you will find that the converted JavaScript will have something wrong.
+
+{%ace edit=false, lang='js', theme='tomorrow'%}
+ReactDOM.render(
+    React.createElement('div', { id: if (condition) { 'msg' } }),
+    document.getElementById('conten')
+)
+{%endace%}
