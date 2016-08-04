@@ -112,4 +112,4 @@ At the initial mount, all children of the `ReactCSSTransitionGroup` will `appear
 
 #### Custom Classes
 
-
+It is also possible to use custom class names for each of the steps in your transitions. Instead of passing a string into transitionName you can pass an object containing either the `enter` and `leave` class names, or an object containing the `enter`, `enter-active`, `leave-active`, and `leave` class names. If only the `enter` and `leave` classes are provided, the `enter-active` and `leave-active` classes will be determined by appending '-active' to the end of the class name.
