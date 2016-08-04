@@ -96,3 +96,14 @@ var MyComponent = React.createClass({
     }
 });
 {%endace%}
+
+{%ace edit=false, lang='css', theme='tomomrrow'%}
+.example-appear {
+    opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+{%endace%}
