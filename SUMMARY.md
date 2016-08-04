@@ -356,6 +356,7 @@
             * [How to use JavaScript to interact with Android and IOS](./qa/interactjsmobile.md)
             * [How to convert JSON to Markdown](./qa/convert_json_to_md.md)
             * [How to use powerful rem with responsive web app development](./qa/rem.md)
+            * [How to know the valueOf() method](./qa/value_of.md)
         *  Back-end
             * [How to solve the lib problem when using xampp to shell_exec c++ files](./qa/xamppcpp.md)
             * [How to add dns for a server](./qa/adddns.md)
