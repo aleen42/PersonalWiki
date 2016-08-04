@@ -32,3 +32,4 @@
 ### Tips
 
 - [**Inline Styles**](./inline_styles/inline_styles.md)
+- [**If-Else in JSX**](./if_else_jsx/if_else_jsx.md)
