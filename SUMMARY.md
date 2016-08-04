@@ -73,6 +73,7 @@
                             * [Animation](./Programming/JavaScript/Framework/react/animation/animation.md)
                     * Tips
                         * [Inline Styles](./Programming/JavaScript/Framework/react/inline_styles/inline_styles.md)
+                        * [If-Else in JSX](./Programming/JavaScript/Framework/react/if_else_jsx/if_else_jsx.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
