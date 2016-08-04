@@ -1,6 +1,6 @@
 ## How to get real IP of clients with PHP [Back](./qa.md)
 
-{%ace edit=false, lang='php', theme='tomorrow'%}
+```php
 <?php
 function getIP()
 {
@@ -34,7 +34,7 @@ function getIP()
     return ($ip ? $ip : $_SERVER['REMOTE_ADDR']);
 }
 ?>
-{%endace%}
+```
 
 ### Method from Stack Overflow
 
@@ -46,7 +46,7 @@ The below both functions are equivalent with the difference only in how and from
 
 `getenv()` is used to get the value of an environment variable in PHP.
 
-{%ace edit=false, lang='php', theme='tomorrow'%}
+```php
 <?php
 // Function to get the client IP address
 function get_client_ip() {
@@ -68,11 +68,11 @@ function get_client_ip() {
     return $ipaddress;
 }
 ?>
-{%endace%}
+```
 
 `$_SERVER` is an array that contains server variables created by the web server.
 
-{%ace edit=false, lang='php', theme='tomorrow'%}
+```php
 <?php
 // Function to get the client IP address
 function get_client_ip() {
@@ -94,4 +94,4 @@ function get_client_ip() {
     return $ipaddress;
 }
 ?>
-{%endace%}
+```

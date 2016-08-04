@@ -2,7 +2,7 @@
 
 In PHP, if you want to pass a callback function into another one, you are supposed to use `call_user_func`.
 
-{%ace edit=false, lang='php', theme='tomorrow'%}
+```php
 <?php
 /** Definition */
 function f($opt, $callback) {
@@ -16,4 +16,4 @@ f($opt, function () use ($innerOpt) {
     echo 'callBack';
 });
 ?>
-{%endace%}
+```

@@ -2,7 +2,7 @@
 
 I just show the code here:
 
-{%ace edit=false, lang='php', theme='tomorrow'%}
+```php
 <?php
 public static function validatePC()
 {
@@ -72,4 +72,4 @@ public static function validatePC()
 }
 
 ?>
-{%endace%}
+```
