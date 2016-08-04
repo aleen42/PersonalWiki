@@ -62,7 +62,7 @@ ReactDOM.render(
             switch (condition) {
                 case true:
                     return 'msg';
-                case false:
+                default:
                     return null;
             }
         })();
