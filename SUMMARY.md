@@ -71,6 +71,8 @@
                             * [Server-side Environments](./Programming/JavaScript/Framework/react/tooling_integration/server_side_env/server_side_env.md)
                         * [Add-Ons](./Programming/JavaScript/Framework/react/add_on/add_on.md)
                             * [Animation](./Programming/JavaScript/Framework/react/animation/animation.md)
+                    * Tips
+                        * [Inline Styles](./Programming/JavaScript/Framework/react/inline_styles/inline_styles.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
