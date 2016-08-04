@@ -104,6 +104,6 @@ var MyComponent = React.createClass({
 
 .example-appear.example-appear-active {
     opacity: 1;
-    transition: opacity 500ms ease-in;
+    transition: opacity 0.5s ease-in;
 }
 {%endace%}
