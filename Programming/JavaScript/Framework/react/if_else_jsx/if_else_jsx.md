@@ -56,16 +56,11 @@ ReactDOM.render(
 Prefer to more "inline" aesthetic (美感)? Try to use arrow function of ES6.
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
-var divElem;
-
-if (condition) {
-    divElem = <div id="msg"></div>;
-} else {
-    divElem = <div></div>;
-}
-
 ReactDOM.render(
-    divElem,
+    <div id={
+        (() => {
+        })();
+    }></div>,
     document.getElementById('content')
 )
 {%endace%}
