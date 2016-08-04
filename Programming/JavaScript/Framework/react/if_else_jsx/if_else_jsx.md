@@ -42,8 +42,9 @@ Nevertheless, if a ternary expression still cannot fit your case, you can use `i
 var divElem;
 
 if (condition) {
-    divElem = <div id="msg"></div>
+    divElem = <div id="msg"></div>;
 } else {
+    divElem = <div></div>;
 }
 
 ReactDOM.render(
