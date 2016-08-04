@@ -123,3 +123,94 @@ console.log(a.join());                  /** => 1,2,3,4                  */
 console.log(a.join(,));                 /** => 1,2,3,4                  */
 console.log(a.join() === a.toString()); /** => true                     */
 ```
+
+### Sets Operations
+
+#### 1. `each()`
+
+```js
+/**
+ * [each: iterate each item of an array]
+ * @param  {Function} fn [iterating function]
+ * @return {[type]}      [description]
+ */
+Array.prototype.each = function (fn) {
+    /** fn is assigned to Function.K by default */
+    fn = fn || Function.K;
+
+    /** a set of results */
+    var a = [];
+
+    /** get arguments into an array except the first argument */
+    var args = Array.prototype.slice.call(arguments, 1);
+
+    /** loop to call function */
+    for (var i = 0; i < this.length; i++) {
+        /** apply arguments to the function to call */
+        var res = fn.apply(this, [this[i], i].concat(args));
+
+        if (res !== null) {
+            /** push the result into the array and return eventually */
+            a.push(res);
+        }
+    }
+
+    return a;
+}
+```
+
+#### 2. `uniquelize()`
+
+```js
+/**
+ * [uniquelize: remove replicate items from an array]
+ * @return {[type]} [description]
+ */
+Array.prototype.uniquelize = function () {
+    var ra = new Array();
+
+    for (var i = 0; i < this.length; i++) {
+        if (!ra.contains(this[i])) {
+            ra.push(this[i]);
+        }
+    }
+
+    return ra;
+}
+```
+
+#### 3. `intersect(a, b)`
+
+```js
+Array.intersect = function (a, b) {
+    return a.uniquelize().each(function (o) {
+        return b.includes(o) ? o : null;
+    });
+};
+```
+
+#### 4. `union(a, b)`
+
+```js
+Array.union = function (a, b) {
+    return a.concat(b).uniquelize();
+};
+```
+
+#### 5. `minus(a, b)`
+
+```js
+Array.minus = function (a, b) {
+    return a.uniquelize().each(function (o) {
+        return b.includes(o) ? null : o;
+    });
+};
+```
+
+#### 6. `complement(a, b)`
+
+```js
+Array.complement = function (a, b) {
+    return Array.minus(Array.union(a, b), Array.intersect(a, b));
+}
+```
