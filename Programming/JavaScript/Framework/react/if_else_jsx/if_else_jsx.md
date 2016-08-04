@@ -5,7 +5,7 @@ In React, `if-else` is not work inside JSX.
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 ReactDOM.render(
     <div id={if (condition) { 'msg' } }></div>,
-    document.getElementById('conten')
+    document.getElementById('content')
 )
 {%endace%}
 
@@ -14,7 +14,7 @@ If we code a JSX like the below one, you will find that the converted JavaScript
 {%ace edit=false, lang='js', theme='tomorrow'%}
 ReactDOM.render(
     React.createElement('div', { id: if (condition) { 'msg' } }),
-    document.getElementById('conten')
+    document.getElementById('content')
 )
 {%endace%}
 
@@ -23,7 +23,7 @@ A ternary expression (三角表達式) will be a good choice to solve this probl
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 ReactDOM.render(
     <div id={condition ? 'msg' : null}></div>,
-    document.getElementById('conten')
+    document.getElementById('content')
 )
 {%endace%}
 
@@ -32,7 +32,7 @@ If we code a JSX like the below one, you will find that the converted JavaScript
 {%ace edit=false, lang='js', theme='tomorrow'%}
 ReactDOM.render(
     React.createElement('div', { id: condition ? 'msg' : null }),
-    document.getElementById('conten')
+    document.getElementById('content')
 )
 {%endace%}
 
@@ -49,7 +49,7 @@ if (condition) {
 
 ReactDOM.render(
     divElem,
-    document.getElementById('conten')
+    document.getElementById('content')
 )
 {%endace%}
 
