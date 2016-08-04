@@ -125,3 +125,7 @@ It is also possible to use custom class names for each of the steps in your tran
     }
 }></ReatCSSTransitionGroup>
 {%endace%}
+
+#### Disabling Animations
+
+You can disable animating `enter` or `leave` animations if you want. Just add `transitionEnter={false}` or `transitionLeave={false}` props to `ReactCSSTransitionGroup` to disable these animations.
