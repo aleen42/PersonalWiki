@@ -78,3 +78,5 @@ Therefore, we can use these classes:
     transition: opacity 300ms ease-in;
 }
 {%endace%}
+
+You may notice that animation durations need to be specified in both the CSS and the render. That's to tell React 
