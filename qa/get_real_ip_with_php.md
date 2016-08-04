@@ -47,6 +47,7 @@ The below both functions are equivalent with the difference only in how and from
 `getenv()` is used to get the value of an environment variable in PHP.
 
 {%ace edit=false, lang='php', theme='tomorrow'%}
+<?php
 // Function to get the client IP address
 function get_client_ip() {
     $ipaddress = '';
@@ -66,4 +67,31 @@ function get_client_ip() {
         $ipaddress = 'UNKNOWN';
     return $ipaddress;
 }
+?>
+{%endace%}
+
+$_SERVER is an array that contains server variables created by the web server.
+
+{%ace edit=false, lang='php', theme='tomorrow'%}
+<?php
+// Function to get the client IP address
+function get_client_ip() {
+    $ipaddress = '';
+    if (isset($_SERVER['HTTP_CLIENT_IP']))
+        $ipaddress = $_SERVER['HTTP_CLIENT_IP'];
+    else if(isset($_SERVER['HTTP_X_FORWARDED_FOR']))
+        $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    else if(isset($_SERVER['HTTP_X_FORWARDED']))
+        $ipaddress = $_SERVER['HTTP_X_FORWARDED'];
+    else if(isset($_SERVER['HTTP_FORWARDED_FOR']))
+        $ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
+    else if(isset($_SERVER['HTTP_FORWARDED']))
+        $ipaddress = $_SERVER['HTTP_FORWARDED'];
+    else if(isset($_SERVER['REMOTE_ADDR']))
+        $ipaddress = $_SERVER['REMOTE_ADDR'];
+    else
+        $ipaddress = 'UNKNOWN';
+    return $ipaddress;
+}
+?>
 {%endace%}
