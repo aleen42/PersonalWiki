@@ -86,5 +86,13 @@ You may notice that animation durations need to be specified in both the CSS and
 `ReactCSSTranitionGroup` has provided an optional prop `transitionAppear`, to add an extra transition phase at the intial mount of the component.
 
 {%ace edit=false, lang='jsx', theme='tomorrow' %}
-
+var MyComponent = React.createClass({
+    render: function () {
+        return (
+            <ReactCSSTransitionGroup transtionName="example" transitionAppear={true} transitionAppearTimeout={500}>
+                <h3>Fading at Inital Mount</h3>
+            </ReactCSSTransitionGroup>
+        );
+    }
+});
 {%endace%}
