@@ -9,39 +9,39 @@ Here, I just use a **Ubuntu 14.04** OS system to build:
 
     Here I would like to build with [**yaAGC-dev-20100220.tar.bz2**](https://www.ibiblio.org/apollo/Downloads/yaAGC-dev-20100220.tar.bz2)
 2. Then, the following step should be unpacking:
-    {%ace edit=false, lang='sh', theme='tomorrow' %}
+    ```bash
     $ tar --bzip2 -xf yaAGC-dev-YYYYMMDD.tar.bz2
-    {%endace%}
+    ```
 3. After, building the project with enter the directory, `yaAGC`:
-    {%ace edit=false, lang='sh', theme='tomorrow' %}
+    ```bash
 $ cd yaAGC
 $ make
-    {%endace%}
+    ```
     *Notice that, you should not run `configure` and `make install`*
 
     - Problems: **/usr/bin/ld: cannot find -lcurses**
     - Solutions: 
-    {%ace edit=false, lang='sh', theme='tomorrow' %}
+    ```bash
     $ sudo apt-get install libcurses-ocaml-dev
-    {%endace%}
+    ```
     
     <br />
     
     - Problems: **fatal error: wx/wx.h: No such file or directory**
     - Solutions:
-    {%ace edit=false, lang='sh', theme='tomorrow' %}
+    ```bash
     $ sudo apt-get install libwxgtk3.0-dev
-    {%endace%}
+    ```
     
 4. To match the default setup:
-    {%ace edit=false, lang='sh', theme='tomorrow' %}
+    ```bash
     $ mv yaAGC/VirtualAGC/temp/lVirtualAGC ~/VirtualAGC
-    {%endace%}
+    ```
 5. After installation, we can run it by executing files of `~/VirtualAGC/bin`
 
-{%ace edit=false, lang='sh', theme='tomorrow' %}
+```bash
 $ ~/VirtualAGC/bin/VirtualAGC
-{%endace%}
+```
 
 ![](./virtualAGC.png)
 
