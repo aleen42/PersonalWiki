@@ -28,3 +28,6 @@
     - [**Refs to Components**](./refs_to_components/refs_to_components.md)
 - [**Tooling Integration**](./tooling_integration/tooling_integration.md)
 - [**Add-Ons**](./add_on/add_on.md)
+
+### Tips
+
