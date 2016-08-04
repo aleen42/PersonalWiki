@@ -39,7 +39,7 @@ console.log(a.shift());         /** => 1                        */
 console.log(a);                 /** => [2, 3, 4, 5]             */
 ```
 
-##### 4. `push()` & `unshift()`
+#### 4. `push()` & `unshift()`
 
 `push()` is used to push one item into the last position of an array, and return the new length of this array.
 `unshift()` is used to push one item into the first position of an array, and return the new length of this array.
