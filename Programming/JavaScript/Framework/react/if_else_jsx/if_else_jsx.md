@@ -47,7 +47,7 @@ if (condition) {
 }
 
 ReactDOM.render(
-    <div id={condition ? 'msg' : ''}></div>,
+    <div id={condition ? 'msg' : null}></div>,
     document.getElementById('conten')
 )
 {%endace%}
