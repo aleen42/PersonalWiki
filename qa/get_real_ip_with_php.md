@@ -70,7 +70,7 @@ function get_client_ip() {
 ?>
 {%endace%}
 
-$_SERVER is an array that contains server variables created by the web server.
+`$_SERVER` is an array that contains server variables created by the web server.
 
 {%ace edit=false, lang='php', theme='tomorrow'%}
 <?php
