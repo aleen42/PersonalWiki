@@ -116,7 +116,12 @@ It is also possible to use custom class names for each of the steps in your tran
 
 {%ace edit=false, lang='jsx', theme='tomorrow' %}
 <ReactCSSTransitionGroup transitionName={ {
-        
+        'enter': 'enter',
+        'enterActive': 'enterActive',
+        'leave': 'leave',
+        'leaveActive': 'leaveActive',
+        'appear': 'appear',
+        'appearActive': 'appearActive'
     }
 }></ReatCSSTransitionGroup>
 {%endace%}
