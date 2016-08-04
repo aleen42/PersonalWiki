@@ -15,3 +15,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+Style keys are **camelCased** in order to be consistent with accessing the properties on DOM nodes from JS. However, Vendor prefixes [other than `ms`](http://www.andismith.com/blog/2012/02/modernizr-prefixed/) should begin with a capital letter. This is why WebkitTransition has an uppercase "W".
