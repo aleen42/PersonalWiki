@@ -84,3 +84,7 @@ You may notice that animation durations need to be specified in both the CSS and
 #### Animate Initial Mounting 
 
 `ReactCSSTranitionGroup` has provided an optional prop `transitionAppear`, to add an extra transition phase at the intial mount of the component.
+
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
+
+{%endace%}
