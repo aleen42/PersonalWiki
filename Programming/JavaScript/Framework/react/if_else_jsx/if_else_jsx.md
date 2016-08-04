@@ -22,7 +22,7 @@ A ternary expression (三角表達式) will be a good choice to solve this probl
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 ReactDOM.render(
-    <div id={condition ? 'msg' : ''}></div>,
+    <div id={condition ? 'msg' : null}></div>,
     document.getElementById('conten')
 )
 {%endace%}
