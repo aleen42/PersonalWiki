@@ -16,3 +16,4 @@ const classArray = new Array();
 
 * [**How to detect whether an object is an array**](./array_detection/array_detection.md)
 * [**Methods of an array**](./array_methods/array_methods.md)
+* [**Sets Operation**](./set_operation/set_operation.md)
