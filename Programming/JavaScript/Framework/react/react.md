@@ -31,3 +31,4 @@
 
 ### Tips
 
+- [**Inline Styles**](./inline_styles/inline_styles.md)
