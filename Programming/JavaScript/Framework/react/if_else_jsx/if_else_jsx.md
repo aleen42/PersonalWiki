@@ -1,3 +1,3 @@
-## Inline Styles [Back](./../react.md)
+## If-Else in JSX [Back](./../react.md)
 
-In React, 
+In React, `if-else` is not work inside JSX.
