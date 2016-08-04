@@ -59,6 +59,12 @@ Prefer to more "inline" aesthetic (美感)? Try to use arrow function of ES6.
 ReactDOM.render(
     <div id={
         (() => {
+            switch (condition) {
+                case true:
+                    return 'msg';
+                case false:
+                    return null;
+            }
         })();
     }></div>,
     document.getElementById('content')
