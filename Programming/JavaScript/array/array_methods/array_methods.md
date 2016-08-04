@@ -2,28 +2,28 @@
 
 ### Basic Operations
 
-#### 1. `concat()`
+#### 1. `concat(arrayX, arrayX, ..., arrayX)`
 
-`concat()` is used to put more than two arrays into one, and return.
+`concat(arrayX, arrayX, ..., arrayX)` is used to put more than two arrays into one, and return.
 
 ```js
 const a = [1, 2, 3];
-console.log(a.concat(4, 5));    /** => [1, 2, 3, 4, 5]          */
+console.log(a.concat(4, 5));            /** => [1, 2, 3, 4, 5]          */
 
 const b = [4, 5];
 const c = [6];
-console.log(a.concat(b, c));    /** => [1, 2, 3, 4, 5, 6]       */
+console.log(a.concat(b, c));            /** => [1, 2, 3, 4, 5, 6]       */
 ```
 
-***concat() will return an new array copy, without changing the original one.***
+***concat(arrayX, arrayX, ..., arrayX) will return an new array copy, without changing the original one.***
 
-#### 2. `join()`
+#### 2. `join(separator)`
 
-`join()` is used to put items in an array into an string, with a separator.
+`join(separator)` is used to put items in an array into an string, with a separator.
 
 ```js
 const a = ['Hello', 'World'. 'Aleen'];
-console.log(a.join(', '));      /** => "Hello, World, Aleen"    */
+console.log(a.join(', '));              /** => Hello, World, Aleen      */
 ```
 
 #### 3. `pop()` & `shift()`
@@ -33,23 +33,23 @@ console.log(a.join(', '));      /** => "Hello, World, Aleen"    */
 
 ```js
 const a = [1, 2, 3, 4, 5, 6];
-console.log(a.pop());           /** => 6                        */
-console.log(a);                 /** => [1, 2, 3, 4, 5]          */
-console.log(a.shift());         /** => 1                        */
-console.log(a);                 /** => [2, 3, 4, 5]             */
+console.log(a.pop());                   /** => 6                        */
+console.log(a);                         /** => [1, 2, 3, 4, 5]          */
+console.log(a.shift());                 /** => 1                        */
+console.log(a);                         /** => [2, 3, 4, 5]             */
 ```
 
-#### 4. `push()` & `unshift()`
+#### 4. `push(item1, item2, ..., itemX)` & `unshift(item1, item2, ..., itemX)`
 
-`push()` is used to push one item into the last position of an array, and return the new length of this array.
-`unshift()` is used to push one item into the first position of an array, and return the new length of this array.
+`push(item1, item2, ..., itemX)` is used to push one item into the last position of an array, and return the new length of this array.
+`unshift(item1, item2, ..., itemX)` is used to push one item into the first position of an array, and return the new length of this array.
 
 ```js
 const a = [2, 3, 4, 5];
-console.log(a.push(6));         /** => 5                        */
-console.log(a);                 /** => [2, 3, 4, 5, 6]          */
-console.log(a.unshift(1));      /** => 6                        */
-console.log(a);                 /** => [1, 2, 3, 4, 5, 6]       */
+console.log(a.push(6));                 /** => 5                        */
+console.log(a);                         /** => [2, 3, 4, 5, 6]          */
+console.log(a.unshift(1));              /** => 6                        */
+console.log(a);                         /** => [1, 2, 3, 4, 5, 6]       */
 ```
 
 #### 5. `reverse()`
@@ -58,18 +58,68 @@ console.log(a);                 /** => [1, 2, 3, 4, 5, 6]       */
 
 ```js
 const a = [1, 2, 3, 4, 5];
-console.log(a.reverse());       /** => [5, 4, 3, 2, 1]          */
-console.log(a);                 /** => [5, 4, 3, 2, 1]          */
+console.log(a.reverse());               /** => [5, 4, 3, 2, 1]          */
+console.log(a);                         /** => [5, 4, 3, 2, 1]          */
 ```
 
 ***reverse() will change the original array, rather than creating a new copy***
 
-#### 6. `sort()`
+#### 6. `sort(sortby)`
 
-`sort()` will have a sort of an array, based on the character or the number among them.
+`sort(sortby)` will have a sort of an array, based on the character or the number among them.
+
+- sortby(optional): must be a function to specify which is the before one
+    - function sortby(a, b)
+        - return **<0**: a is the before one
+        - return **=0**: a or b can be the before one
+        - return **>0**: b is the before one
+
+```js
+const a = [3, 5, 1, 2, 4];
+console.log(a.sort());                  /** => [1, 2, 3, 4, 5]          */
+
+function sortby(a, b) {
+    return b - a;
+}
+
+console.log(a.sort(sortby));            /** => [5, 4, 3, 2, 1]          */
+```
+
+***sort(sortby) will change the original array, rather than creating a new copy***
+
+#### 7. `slice(start, end)` & `splice(index, howmany, item1, item2, ..., itemX)`
+
+`slice(start, end)` is used to get items of an array from the start to the end. (**not include the end**)
+`splice(index, howmany, item1, item2, ..., itemX)` is used to add/remove items of an array from the index, and add before deleting howmany items.
+
+- end(optional): specify when to end, which is equivalent to the (length + 1) of the array.
 
 ```js
 const a = [1, 2, 3, 4, 5];
-console.log(a.reverse());       /** => [5, 4, 3, 2, 1]          */
-console.log(a);                 /** => [5, 4, 3, 2, 1]          */
+console.log(a.slice(2, 4));             /** => [3, 4]                   */
+console.log(a.slice(1));                /** => [2, 3, 4, 5]             */
+console.log(a.slice(3, 4));             /** => [4]                      */
+```
+
+***slice(start, end) will return an new array copy, without changing the original one.***
+
+```js
+const a = [1, 2, 3, 4, 5];
+console.log(a.splice(0, 2, 7, 8));      /** => [7, 8, 3, 4, 5]          */
+console.log(a.splice(4, 0, 1));         /** => [1, 2, 3, 4, 5, 1]       */
+```
+
+***splice(index, howmany, item1, item2, ..., itemX) will change the original array, rather than creating a new copy***
+
+#### 8. `toString()` && `toLocaleString()`
+
+Both `toString()` and `toLocaleString()` will return a string, but the method `toLocalString()` will return various result according to the local environment like time.
+
+```js
+const a = [1, 2, 3, 4];
+console.log(a.toString());              /** => 1,2,3,4                  */
+console.log(a.toLocaleString());        /** => 1,2,3,4                  */
+console.log(a.join());                  /** => 1,2,3,4                  */
+console.log(a.join(,));                 /** => 1,2,3,4                  */
+console.log(a.join() === a.toString()); /** => true                     */
 ```
