@@ -1,6 +1,7 @@
 ## How to get real IP of clients with PHP [Back](./qa.md)
 
 {%ace edit=false, lang='php', theme='tomorrow'%}
+<?php
 function getIP()
 {
     $ip = false;
@@ -32,4 +33,5 @@ function getIP()
 
     return ($ip ? $ip : $_SERVER['REMOTE_ADDR']);
 }
+?>
 {%endace%}
