@@ -35,3 +35,35 @@ function getIP()
 }
 ?>
 {%endace%}
+
+### Method from Stack Overflow
+
+The simplest way to get the visitor’s/client’s [IP address](http://en.wikipedia.org/wiki/IP_address) is using the `$_SERVER['REMOTE_ADDR']` or `$_SERVER['REMOTE_HOST']` variables.
+
+However, sometimes this does not return the correct IP address of the visitor, so we can use some other server variables to get the IP address.
+
+The below both functions are equivalent with the difference only in how and from where the values are retrieved.
+
+`getenv()` is used to get the value of an environment variable in PHP.
+
+{%ace edit=false, lang='php', theme='tomorrow'%}
+// Function to get the client IP address
+function get_client_ip() {
+    $ipaddress = '';
+    if (getenv('HTTP_CLIENT_IP'))
+        $ipaddress = getenv('HTTP_CLIENT_IP');
+    else if(getenv('HTTP_X_FORWARDED_FOR'))
+        $ipaddress = getenv('HTTP_X_FORWARDED_FOR');
+    else if(getenv('HTTP_X_FORWARDED'))
+        $ipaddress = getenv('HTTP_X_FORWARDED');
+    else if(getenv('HTTP_FORWARDED_FOR'))
+        $ipaddress = getenv('HTTP_FORWARDED_FOR');
+    else if(getenv('HTTP_FORWARDED'))
+       $ipaddress = getenv('HTTP_FORWARDED');
+    else if(getenv('REMOTE_ADDR'))
+        $ipaddress = getenv('REMOTE_ADDR');
+    else
+        $ipaddress = 'UNKNOWN';
+    return $ipaddress;
+}
+{%endace%}
