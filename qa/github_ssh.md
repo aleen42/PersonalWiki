@@ -22,4 +22,4 @@ Mac|Windows|Linux
 
 Mac|Windows|Linux
 :--|:------|:----
-<ol><li>Open Terminal.</li><li>Enter the following:</li> <br/> <code>ssh -T git@github.com</code></ol>
+<ol><li>Open Terminal.</li><li>Enter the following:</li> <br/> <code>ssh -T git@github.com</code><li>Verify that the resulting message contains your username. If you see a message that contains "access denied," see "Error: Permission denied (publickey)".</li></ol>
