@@ -173,7 +173,7 @@ class WebSocket
     }
     
     /** hand shake */
-    private funcion doHandShake($socket, $req)
+    private function doHandShake($socket, $req)
     {
         $acceptKey = $this->encry($req);
         
