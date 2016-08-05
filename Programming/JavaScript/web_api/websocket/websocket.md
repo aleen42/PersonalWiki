@@ -160,7 +160,11 @@ class WebSocket
         preg_match_all('/([ ]+)/', $key1, $key1_spc);
         preg_match_all('/([ ]+)/', $key2, $key2_spc);
     
-        if($key1_spc==0|$key2_spc==0){ $this->log("Invalid key");return; }
+        if ($key1_spc === 0 || $key2_spc === 0) { 
+            $this->log("Invalid key");
+            return;
+        }
+        
         //Some math
         $key1_sec = pack("N",$key1_num / $key1_spc);
         $key2_sec = pack("N",$key2_num / $key2_spc);
