@@ -420,6 +420,7 @@
             * [Improve Angular Performance with React](./translation/improve_angular_performance_with_react/improve_angular_performance_with_react.md)
             * [Give it five minutes](./translation/give_it_five_minutes/give_it_five_minutes.md)
             * [OpenCV (C++ vs Python) vs MATLAB for Computer Vision](./translation/opencv_vs_matlab/opencv_vs_matlab.md)
+            * [Apollo-11](./translation/apollo_11/apollo_11.md)
         * Proofread
             * [Things I Wish I Were Told About React Native](./translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
             * [Making React Native apps accessible](./translation/making_react_native_apps_accessible/making_react_native_apps_accessible.md)
