@@ -149,14 +149,34 @@ class WebSocket
             socket_select($this->sockets, $write, $except, null);
             
             foreach ($this->sockets as $socket) {
-                $client = socket_accept($this->master);
+                if ($socket === $this->master) {
+                    $client = socket_accept($this->master);
                 
-                if ($client < 0) {
-                    echo 'socket_accept() failed';
-                    continue;
+                    if ($client < 0) {
+                        echo 'socket_accept() failed';
+                        continue;
+                    } else {
+                        /** connect($client); */
+                        array_push($this->sockets, $client);
+                        echo 'connect client';
+                    }
                 } else {
-                    array_push($this->sockets, $client);
-                    echo 'connect client';
+                    $bytes = @socket_recv($socket,$buffer,2048,0);
+                   
+                    if ($bytes == 0) {
+                        return;
+                    }
+                    
+                    if (!$this->handshake) {
+                        // 如果没有握手，先握手回应
+                        //doHandShake($socket, $buffer);
+                        echo "shakeHands\n";
+                    } else {
+                        // 如果已经握手，直接接受数据，并处理
+                        $buffer = decode($buffer);
+                        //process($socket, $buffer); 
+                        echo "send file\n";
+                    }
                 }
             }
         }
