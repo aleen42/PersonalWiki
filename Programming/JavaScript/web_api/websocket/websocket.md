@@ -153,7 +153,15 @@ class WebSocket
     /** hand shake */
     private funcion doHandShake($socket, $req)
     {
+        $acceptKey = $this->encry($req);
         
+        $upgrade = "HTTP/1.1 101 Switching Protocols\r\n" .
+           "Upgrade: websocket\r\n" .
+           "Connection: Upgrade\r\n" .
+           "Sec-WebSocket-Accept: " . $acceptKey . "\r\n" .
+           "\r\n";
+        
+        socket_write($socket, $upgrade.chr(0), strlen($upgrade.chr(0)));
     }
     
     public function __construct($address, $port = 80)
