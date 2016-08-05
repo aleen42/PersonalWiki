@@ -13,4 +13,6 @@ In JavaScript, you can operate them with provided APIs.
 ```js
 var localStorage = window.localStorage;
 var sessionStorage = window.sessionStorage;
+
+
 ```
