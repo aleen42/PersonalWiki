@@ -133,7 +133,11 @@ class WebSocket
     {
         $key = null;
         
-        if (preg_match('/Sec-WebSocket-Key: (.*)\r\n/'))
+        if (preg_match('/Sec-WebSocket-Key: (.*)\r\n/'), $req, $match) {
+            $key = $match[1];
+        }
+        
+        return $key;
     }
     
     public function __construct($address, $port = 80)
