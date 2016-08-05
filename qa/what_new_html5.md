@@ -28,7 +28,7 @@ We can use `document.createElement()` to create a new HTML5 tag in IE6/IE7/IE8 (
 
 Just distinguish it from `<!DOCTYPE>` or tags.
 
-#### Offline Storage
+#### HTML5 Offline Storage
 
 - **Theory**: HTML5 Offline Storage is based on the cache of a new file named `.appcache`, which will list resources that should be cached. Those cached resources will be stored into local like Cookie, and extracted when offline.
 - **Useage**: 
