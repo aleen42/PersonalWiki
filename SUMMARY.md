@@ -333,6 +333,7 @@
             * [What is Gist](./qa/gist.md)
             * [Sublime Text 3 Pluggin](./qa/sublimepluggin.md)
             * [Some commands of SVN](./qa/svncommands.md)
+            * [Some commen of ssh keys in GitHub](./qa/github_ssh.md)
         * Linux
             * [How to see logs of crontab in Ubuntu](./qa/crontablog.md)
             * [How to solve the problem of dpkg sub-process throwing a error in Ubuntu](./qa/dpkg.md)
