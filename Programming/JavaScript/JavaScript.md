@@ -4,6 +4,7 @@
 - When it comes to the style guide, I have written a book named [**JavaScript Personal Guide**](https://aleen42.gitbooks.io/javascript/content/) to style my code.
 * [**JavaScript Framework | Library**](./Framework/Framework.md)
 * [**Easing Function**](./easing/easing.md)
+* [**Web APIs**](./web_api/web_api.md)
 
 Languages|Description
 :----:|-----
