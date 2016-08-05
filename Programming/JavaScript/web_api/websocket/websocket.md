@@ -131,7 +131,7 @@ class WebSocket
     
     public function __construct($address, $port = 80)
     {
-        
+        $this->master = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) || die('socket_create() ');
     }
 }
 ?>
