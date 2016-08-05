@@ -44,7 +44,7 @@ Status|code|Name|Description
 1010|Missing Extension|The client is terminating the connection because it expected the server to negotiate one or more extension, but the server didn't.
 1011|Internal Error|The server is terminating the connection because it encountered an unexpected condition that prevented it from fulfilling the request.
 1012|Service Restart|The server is terminating the connection because it is restarting. [Ref]
-1013|Try Again Later|The server is terminating the connection due to a temporary condition, e.g. it is overloaded and is casting off some of its clients. [Ref]
+1013|Try Again Later|The server is terminating the connection due to a temporary condition, e.g. it is overloaded and is casting off some of its clients. [[Ref](https://www.ietf.org/mail-archive/web/hybi/current/msg09670.html)]
 1014||**Reserved for future use by the WebSocket standard.**
 1015|TLS Handshake|**Reserved**. Indicates that the connection was closed due to a failure to perform a TLS handshake (e.g., the server certificate can't be verified).
 1016–1999||**Reserved for future use by the WebSocket standard.**
