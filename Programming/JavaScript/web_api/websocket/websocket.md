@@ -142,7 +142,13 @@ class WebSocket
     }
     
     /** encrypt key */
-    private function 
+    private function encry ($req)
+    {
+        $key = $this->getKey($req);
+        $mask = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11';
+        
+        
+    }
     
     public function __construct($address, $port = 80)
     {
