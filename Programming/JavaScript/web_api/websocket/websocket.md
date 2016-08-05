@@ -69,7 +69,7 @@ A list of Ready State Code
 
 Constant|Value|Description
 :------:|:---:|:----------
-CONNECTING|0|连接还没开启。
-OPEN|1|连接已开启并准备好进行通信。
-CLOSING|2|连接正在关闭的过程中。
-CLOSED|3|连接已经关闭，或者连接无法建立。
+CONNECTING|0|The connection is setting up
+OPEN|1|The connection has been built up
+CLOSING|2|The connection is closing
+CLOSED|3|The connection has been closed, or failed to build up.
