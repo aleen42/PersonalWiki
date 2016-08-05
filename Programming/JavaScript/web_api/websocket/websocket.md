@@ -233,7 +233,7 @@ class WebSocket
                         $this->doHandShake($socket, $buffer);
                     } else {
                         /** echo 'send file'; */
-                        $buffer = decode($buffer);
+                        $buffer = $this->decode($buffer);
                         /** process($socket, $buffer); */
                     }
                 }
