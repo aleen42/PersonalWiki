@@ -10,7 +10,7 @@
 - [**What is Gist**](./gist.md)
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of SVN**](./svncommands.md)
-- [**Some commen of ssh keys in GitHub**](./github_ssh.md)
+- [**Some common of ssh keys in GitHub**](./github_ssh.md)
 
 ### Linux
 
