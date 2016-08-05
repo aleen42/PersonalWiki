@@ -169,11 +169,11 @@ class WebSocket
                     
                     if (!$this->handshake) {
                         /** doHandShake($socket, $buffer); */
-                        echo "shakeHands\n";
+                        echo 'shakeHands';
                     } else {
                         $buffer = decode($buffer);
                         /** process($socket, $buffer); */
-                        echo "send file\n";
+                        echo 'send file';
                     }
                 }
             }
