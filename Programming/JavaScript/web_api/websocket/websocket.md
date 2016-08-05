@@ -232,9 +232,9 @@ class WebSocket
                         /** echo 'shakeHands'; */
                         $this->doHandShake($socket, $buffer);
                     } else {
+                        /** echo 'send file'; */
                         $buffer = decode($buffer);
                         /** process($socket, $buffer); */
-                        echo 'send file';
                     }
                 }
             }
@@ -247,7 +247,6 @@ class WebSocket
 The format of a Received Data Frame
 
 ```
-
  0               1               2               3              
  0 1 2 3 4 5 6 7 0 1 2 3 4 5 6 7 0 1 2 3 4 5 6 7 0 1 2 3 4 5 6 7
 +-+-+-+-+-------+-+-------------+-------------------------------+
