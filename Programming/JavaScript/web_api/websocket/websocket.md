@@ -125,6 +125,9 @@ class WebSocket
     
     /** sockets with different state */
     private $socket = [];
+    
+    /** whether has a handShake */
+    private $handShake = false;
 }
 ?>
 ```
