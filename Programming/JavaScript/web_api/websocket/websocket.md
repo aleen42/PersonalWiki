@@ -151,7 +151,7 @@ class WebSocket
     }
     
     /** under Version 13 */
-    private function encryOld($key1, $key2, $18b)
+    private function encryOld($key1, $key2, $l8b)
     {
         $key1_num = implode($key1_num[0]);
         $key2_num = implode($key2_num[0]);
