@@ -47,5 +47,5 @@ if (window.addEventListener) {
 /**
  * Cookie
  */
-document.cookie = 'key: value';
+document.cookie = 'key=value;';
 ```
