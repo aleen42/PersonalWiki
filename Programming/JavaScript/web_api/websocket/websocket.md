@@ -77,3 +77,14 @@ CONNECTING|0|The connection is setting up
 OPEN|1|The connection has been built up
 CLOSING|2|The connection is closing
 CLOSED|3|The connection has been closed, or failed to build up
+
+#### 4. Compatibility Problems
+
+- Desktop
+
+Features|Chrome|Firefox (Gecko)|Internet Explorer|Opera|Safari
+Basic|(Yes)|4.0 (2.0)|(Yes)|(Yes)|?
+Words Protocol|?|6.0 (6.0)|?|?|?
+
+- Mobile
+
