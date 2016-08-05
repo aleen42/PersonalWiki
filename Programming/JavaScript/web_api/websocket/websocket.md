@@ -139,7 +139,7 @@ class WebSocket
         
         socket_listen($this->master, 2) || die('socket_listen() failed');
         
-        
+        $this->socket[] = $this->master;
     }
 }
 ?>
