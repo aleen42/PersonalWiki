@@ -9,3 +9,8 @@ They are all used into storing data:
 **sessionStorage**: only store into local and will be cleared after browsers close. (**> 5Mb**)
 
 In JavaScript, you can operate them with provided APIs.
+
+```js
+var localStorage = window.localStorage;
+var sessionStorage = window.sessionStorage;
+```
