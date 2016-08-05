@@ -168,8 +168,8 @@ class WebSocket
                     }
                     
                     if (!$this->handshake) {
-                        /** doHandShake($socket, $buffer); */
-                        echo 'shakeHands';
+                        /** echo 'shakeHands'; */
+                        doHandShake($socket, $buffer);
                     } else {
                         $buffer = decode($buffer);
                         /** process($socket, $buffer); */
