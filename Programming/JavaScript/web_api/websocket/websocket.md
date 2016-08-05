@@ -89,6 +89,9 @@ Words Protocol|?|6.0 (6.0)|?|?|?
 
 ***Notice that: After Gecko 6.0, constructor has been changed to `MozWebSocket`.***
 
+***Notice that: `extensions` attribute is only supported by Gecko 8.0 or more.***
+
+
 - Mobile
 
 Features|Android|Firefox Mobile (Gecko)|IE Mobile|Opera Mobile|Safari Mobile
