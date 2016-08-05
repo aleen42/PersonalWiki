@@ -2,6 +2,8 @@
 
 ### Inline Tags
 
+`<a>`, `<b>`, `<span>`, `<img>`, `<
+
 ### Block Tags
 
 ### Empty Tags
