@@ -162,6 +162,8 @@ class WebSocket
            "\r\n";
         
         socket_write($socket, $upgrade.chr(0), strlen($upgrade.chr(0)));
+        
+        $this->handShake = true;
     }
     
     public function __construct($address, $port = 80)
