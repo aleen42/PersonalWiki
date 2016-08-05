@@ -208,6 +208,11 @@ class WebSocket
         return $ns;
     }
     
+    /** send messages to the client */
+    private function send($clien, $msg)
+    {
+    }
+    
     public function __construct($address, $port = 80)
     {
         $this->master = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) || die('socket_create() failed');
