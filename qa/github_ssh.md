@@ -16,4 +16,4 @@ Mac|Windows|Linux
 
 Mac|Windows|Linux
 :--|:------|:----
-<ol><li>Ensure ssh-agent is enabled: <br/> <code>$ eval "$(ssh-agent -s)"</code></li></ol>
+<ol><li>Ensure ssh-agent is enabled: <br/> <code>$ eval "$(ssh-agent -s)"</code></li><li></li></ol>|
