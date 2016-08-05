@@ -101,7 +101,7 @@ Words Protocol|?|7.0 (7.0)|?|?|?
 
 ### Server (PHP)
 
-Even though you're building a server, a client still has to start the WebSocket handshake process. So you must know how to interpret the client's request. The client will send a pretty standard HTTP request that looks like this (the HTTP version must be 1.1 or greater, and the method must be GET):
+Even though you're building a server, a client still has to start the WebSocket handshake process. So you must know how to interpret the client's request. The client will send a pretty standard HTTP request that looks like this (**the HTTP version must be 1.1 or greater, and the method must be GET**):
 
 ```
 GET /socketserver HTTP/1.1
