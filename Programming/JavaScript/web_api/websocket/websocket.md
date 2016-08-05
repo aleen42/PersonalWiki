@@ -122,6 +122,9 @@ class WebSocket
 {
     /** the client */
     private $master;
+    
+    /** sockets with different state */
+    private $socket = [];
 }
 ?>
 ```
