@@ -23,4 +23,3 @@
 - [**DOM Structure**](./DOMstructure/DOMstructure.md)
 - [**Layers of Nodes**](./node/node.md)
 - [**Access Relative Nodes**](./access/access.md)
-
