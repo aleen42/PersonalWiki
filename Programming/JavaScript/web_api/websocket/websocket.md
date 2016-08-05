@@ -168,8 +168,7 @@ class WebSocket
                     }
                     
                     if (!$this->handshake) {
-                        // 如果没有握手，先握手回应
-                        //doHandShake($socket, $buffer);
+                        /** doHandShake($socket, $buffer); */
                         echo "shakeHands\n";
                     } else {
                         // 如果已经握手，直接接受数据，并处理
