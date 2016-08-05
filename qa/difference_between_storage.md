@@ -15,9 +15,17 @@ In JavaScript, you can operate them with provided APIs.
 var localStorage = window.localStorage;
 var sessionStorage = window.sessionStorage;
 
+/** localStorage */
 localStorage.setItem('key', 'value');
 var value = localStorage.getItem('key');
 
 localStorage.removeItem('key');
 localStorage.clear();
+
+/** sessionStorage */
+sessionStorage.setItem('key', 'value');
+var value = sessionStorage.getItem('key');
+
+sessionStorage.removeItem('key');
+sessionStorage.clear();
 ```
