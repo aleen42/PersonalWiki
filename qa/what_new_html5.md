@@ -4,3 +4,4 @@ HTML5 has provided a lot of new tags:
 - Printing: `<canvas>`
 - Multimedia: `<video>` and `<audio>`
 - Storage: `localStorage` and `sessionStorage`
+- Semantic: `<article>`, `<footer>`, `<header>`, `<nav>` and `<section>`
