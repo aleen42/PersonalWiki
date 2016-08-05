@@ -60,6 +60,7 @@ function getCookie(name) {
     }
 }
 
+/** time for second */
 function setCookie(name, value, time) {
     
 }
