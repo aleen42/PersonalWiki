@@ -87,8 +87,9 @@ Features|Chrome|Firefox (Gecko)|Internet Explorer|Opera|Safari
 Basic|(Yes)|4.0 (2.0)|(Yes)|(Yes)|?
 Words Protocol|?|6.0 (6.0)|?|?|?
 
-- Mobile
+***Notice that: After Gecko 6.0, constructor has been changed to `MozWebSocket`***
 
+- Mobile
 
 Features|Android|Firefox Mobile (Gecko)|IE Mobile|Opera Mobile|Safari Mobile
 :------:|:------|:---------------------|:--------|:----|:----
