@@ -19,4 +19,5 @@ localStorage.setItem('key', 'value');
 var value = localStorage.getItem('key');
 
 localStorage.removeItem('key');
+localStorage.clear();
 ```
