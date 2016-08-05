@@ -128,6 +128,11 @@ class WebSocket
     
     /** whether has a handShake */
     private $handShake = false;
+    
+    public function __construct($address, $port = 80)
+    {
+        
+    }
 }
 ?>
 ```
