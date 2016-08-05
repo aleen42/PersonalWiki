@@ -105,7 +105,7 @@ The request header from a client should look like this:
 
 ```
 GET /chat HTTP/1.1
-Host: server.example.com
+Host: www.example.com
 Upgrade: websocket
 Connection: Upgrade
 Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==
