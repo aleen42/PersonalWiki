@@ -20,5 +20,6 @@ We can use `document.createElement()` to create a new HTML5 tag in IE6/IE7/IE8 (
 
 ```html
 <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <[endif]-->
 ```
