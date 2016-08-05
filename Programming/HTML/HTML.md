@@ -10,6 +10,7 @@
 - [**Tables**](./tables/tables.md)
 - [**Forms**](./forms/forms.md)
 - [**HEAD**](./head/head.md)
+- [**Tags**](./tag/tag.md)
 
 ### 2. Extra
 
