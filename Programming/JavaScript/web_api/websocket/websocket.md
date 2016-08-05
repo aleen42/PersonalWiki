@@ -9,8 +9,8 @@ We use **WebSocket** to create a connection between **Client** and **Server**, t
 ```js
 /**
  * [WebSocket]
- * @param {[string]} url      [description]
- * @param {[string]} protocol [description]
+ * @param {[string]} url      [url to connect]
+ * @param {[string]} protocol [protocol designed by servers, which will be a empty string by default]
  */
 var webSocket = new WebSocket('http://www.example.com/socketserver')
 ```
