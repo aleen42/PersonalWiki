@@ -7,5 +7,5 @@ There are 3 troubles in using `<iframe>`:
 
 **Solution:** use JavaScript to set `src` for `<iframe>` dynamically.
 
-- `<iframe>` will share **Connection Pool (連接池)** with pages, which will affect the loading of pages.
+- `<iframe>` will share **Connection Pool (連接池)** with pages, which will affect the loading of pages in parallel.
 
