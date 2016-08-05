@@ -30,7 +30,7 @@ webSocket.send('data');
 
 A list of Close Status Code:
 
-Status|Name|
+Status|Name|Descriptio
 :----:|:--:|:----------
 0–999||**Reserved and not used.**
 1000|CLOSE_NORMAL|Normal closure; the connection successfully completed whatever purpose for which it was created.
