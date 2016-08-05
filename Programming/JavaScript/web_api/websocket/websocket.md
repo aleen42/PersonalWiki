@@ -129,6 +129,7 @@ class WebSocket
     /** whether has a handShake */
     private $handShake = false;
     
+    /** extract key from the request header */
     private function getKey($req)
     {
         $key = null;
@@ -139,6 +140,8 @@ class WebSocket
         
         return $key;
     }
+    
+    private function 
     
     public function __construct($address, $port = 80)
     {
