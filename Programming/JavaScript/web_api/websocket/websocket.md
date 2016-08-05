@@ -204,6 +204,7 @@ class WebSocket
         foreach ($str as $o) {
             $ns .= "\x81" . chr(strlen($o)) . $o;
         }
+        
         return $ns;
     }
     
