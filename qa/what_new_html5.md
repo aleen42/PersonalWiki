@@ -5,3 +5,4 @@ HTML5 has provided a lot of new tags:
 - Multimedia: `<video>` and `<audio>`
 - Storage: `localStorage` and `sessionStorage`
 - Semantic: `<article>`, `<footer>`, `<header>`, `<nav>` and `<section>`
+- Form: `<input type="calendar">`, `<input type="date">`, `<input type="time">`, `<input type="email">`, `<input type="url">`, `<input type="search">`
