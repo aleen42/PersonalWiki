@@ -60,3 +60,4 @@ Name|Type|Description
 :--:|:--:|:----------
 binaryType|String|Type of transferring data, which should be '**blob**' or '**arraybuffer**'
 bufferAmount|Number|Number of sendding data (**read-only**)
+extensions|String|Extensions the Server chooses
