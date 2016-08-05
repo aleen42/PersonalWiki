@@ -77,5 +77,4 @@ function deleteCookie(name) {
         document.cookie= name + "=" + cval + ";expires="+exp.toGMTString();
     }
 }
-
 ```
