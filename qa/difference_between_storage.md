@@ -43,4 +43,9 @@ if (window.addEventListener) {
 } else if (window.attachEvent) {
     window.attachEvent('storge', handleStorage);
 }
+
+/**
+ * Cookie
+ */
+
 ```
