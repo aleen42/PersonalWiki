@@ -166,6 +166,30 @@ class WebSocket
         $this->handShake = true;
     }
     
+    /** parse data frames */
+    private function decode($buffer)
+    {
+        $len = $masks = $data = $decoded = null;
+        $len = ord($buffer[1]) & 127;
+    
+        if ($len === 126)  {
+            $masks = substr($buffer, 4, 4);
+            $data = substr($buffer, 8);
+        } else if ($len === 127)  {
+            $masks = substr($buffer, 10, 4);
+            $data = substr($buffer, 14);
+        } else  {
+            $masks = substr($buffer, 2, 4);
+            $data = substr($buffer, 6);
+        }
+        
+        for ($index = 0; $index < strlen($data); $index++) {
+            $decoded .= $data[$index] ^ $masks[$index % 4];
+        }
+        
+        return $decoded;
+    }
+    
     public function __construct($address, $port = 80)
     {
         $this->master = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) || die('socket_create() failed');
