@@ -99,5 +99,3 @@ function Hex2Utf8(s) {
     return "";
 }
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

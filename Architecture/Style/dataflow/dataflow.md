@@ -33,9 +33,3 @@
 - Close Loop Control(閉環控制): 由系統自身根據當前狀態來決定處理方法.
 	- 反饋閉環: 測量**受控變量**, 通過**預測值**與**實際值**的差異來決定控制
 	- 前饋閉環: 測量其他變量進行**事先預測**
-
- 
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

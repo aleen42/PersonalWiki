@@ -32,6 +32,3 @@ pid_t waitpid(pid_t pid, int* status, int option)
 - -1: failure
 - errno: error code
 
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

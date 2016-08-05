@@ -96,7 +96,3 @@ int select(int maxfd, fd_set* rdset, fd_set* wrset, fd_et* exset, struct timeval
 - 優點: 只需要一個進程處理所有客戶端的請求, 而沒有創建和管理進程的開銷
 - 缺點: 服務器必須依次處理所有請求, 編程較為複雜
 - 適用於請求多但處理時間短的服務器
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

@@ -11,7 +11,3 @@
 - 考點:
 	- 判定某功能需求屬於哪個質量屬性
 	- 判斷出策略或列舉策略
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

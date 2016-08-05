@@ -13,7 +13,3 @@
 	- **HighUI**: simple UI capabilities.
 	- **VideoIO**: video capturing and video codecs.
 	- **GPU**: **GPU-accelerated algorithmns**(圖形處理器加速算法).
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

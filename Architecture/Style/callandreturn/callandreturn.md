@@ -29,7 +29,3 @@
 	- 兩層C/S: **Workstation**(顯示層, 業務層) - **Server**(數據訪問層)
 	- 三層C/S: **Client**(顯示層) - **Application Server**(應用服務器業務層, 處理客戶端訪問數據庫的操作以保證安全性) - **Server**(數據訪問層)
 	- B/S: 三層C/S的一個特例, 即顯示層是一個Browser而不是客戶端 
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

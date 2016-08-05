@@ -29,7 +29,3 @@
 
 ### 3. Separate User Interface(Design-time)
 - 業務邏輯與介面設計分開 (MVC)
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

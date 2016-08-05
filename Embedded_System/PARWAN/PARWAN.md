@@ -37,7 +37,3 @@
 	- S7<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S7.png" target="_blank" alt="PARWAN_S7" title="點擊原圖"><img src="./S7.png"></a>
 	- S8<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S8.png" target="_blank" alt="PARWAN_S8" title="點擊原圖"><img src="./S8.png"></a>
 	- S9<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S9.png" target="_blank" alt="PARWAN_S9" title="點擊原圖"><img src="./S9.png"></a>
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

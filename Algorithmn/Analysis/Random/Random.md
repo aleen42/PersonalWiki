@@ -12,5 +12,3 @@
 ### 典型問題及算法
 - **Genetic Algorithm**
 - **Simulated Annealing Algorithm**
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

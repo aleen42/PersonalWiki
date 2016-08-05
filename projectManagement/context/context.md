@@ -117,5 +117,3 @@
     - Reduced dependence on technology and processes for accomplishing work
 
 > answer: <strong>*Reduced opportunities for informal transfer of information.*</strong>
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

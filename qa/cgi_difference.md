@@ -58,5 +58,3 @@ php-cgi -b 127.0.0.1:9000
 ### Spawn-FCGI
 
 - **Spawn-FCGI** is a general kind of the Process Manager of FastCGI， which is one part of lighttpd.
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

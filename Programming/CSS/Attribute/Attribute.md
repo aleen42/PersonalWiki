@@ -42,6 +42,3 @@ background-color:rgba(0, 0, 0, 0.8);
 clear: left;	/* 強迫A元素左邊不能出現浮動 */
 ```
 
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

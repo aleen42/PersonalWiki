@@ -7,5 +7,3 @@
 - [**DSP**](./dsp/dsp.md)
 - [**Autogen**](./autogen/autogen.md)
 - [**Store Resource**](./store/store.md)
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

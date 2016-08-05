@@ -125,6 +125,3 @@ sigsuspend(const sigset_t* mask)
 - mask: 臨時用mask替換當前進程的信號掩碼, 並暫停進程執行直到收到信號
 
 
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

@@ -15,7 +15,3 @@
 - [Data centric/Shared data](./centric/centric.md)
 - [Virtual Machine](./virtualmachine/virtualmachine.md)
 - [Independent Components](./independent/independent.md)
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

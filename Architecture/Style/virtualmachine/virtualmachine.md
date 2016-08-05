@@ -33,7 +33,3 @@
 		- 解釋器內部狀態引擎(業務選擇)
 		- 程序執行的當前狀態(工作儲存)
 - 連接件: 數據訪問, 函數調用
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

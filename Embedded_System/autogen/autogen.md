@@ -57,7 +57,3 @@ category = {
 	- case: the switch statement in C. A procedure will be emitted that contains a giant switch statement. Each case element will have stylized comments that will enable any code that has been inserted there to be carried forward to new generations of the code.
 	- call: Instead of containing a transition enumeration, the transition table will contain pointers to transition procedures. The main FSM processing routine will indirectly call the proper procedure for handling each transition. The called procedure will be stubbed out and contain the same type of stylized comments that the case version, above.
 	- none: No implementation code will be emitted. However, the state, event, transition enumerations and the transition table are all emitted. The emitted header file will contain external declarations for the transition table and transition error procedure.
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

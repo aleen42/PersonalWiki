@@ -41,7 +41,3 @@
 				- 阻塞態: 代表任務需要等待資源(**TSK_BLOCKED**)
 				- 終止態: 代表任務已經結束而不會再執行(**TSK_TERMINATED**)
 		- 後臺線程(IDL): 用於執行沒時間限制的非關鍵處理
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

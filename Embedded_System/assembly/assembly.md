@@ -69,7 +69,3 @@ MUL R0, R1, R2| R1乘以R2後, 值放入R0
 MULS R0, R1, R2| R1乘以R2後, 值放入R0並更新狀態標誌位
 MLA R0, R1, R2, R3| R1乘以R2再加上R3後, 值放入R0
 MLAS R0, R1, R2, R3| R1乘以R2再加上R3後, 值放入R0並更新狀態標誌位
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

@@ -56,7 +56,3 @@
 - 選擇一個晚餐機會, 理解候選人作出選擇的依據.
 - 衡量自己公司與工資高的大公司或者股權高的小公司相比的優勢, 並把其告訴自己的員工.
 - 聯合管理層人員舉辦歡迎晚宴, 以促使候選人如約辭職.
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

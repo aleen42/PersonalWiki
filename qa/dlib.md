@@ -53,7 +53,3 @@
 	- en: <br /> <img src="./dlib_20.png">
 	- zh: <br /> <img src="./dlib_19.png">
 - Finally, the dlib can be used after all those things have been done.
-
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

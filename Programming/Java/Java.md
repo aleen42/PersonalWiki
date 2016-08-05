@@ -11,7 +11,3 @@
 * [Collection](./Collection/Collection.md)
 * [GUI](./GUI/GUI.md)
 * [IO](./IO/IO.md)
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>
