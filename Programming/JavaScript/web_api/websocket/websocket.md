@@ -63,4 +63,4 @@ bufferAmount|Number|Number of sendding data (**read-only**)
 extensions|String|Extensions the Server chooses
 url|String|Constructor url
 protocol|String|Constructor protocol
-
+readyState|Number|Connection State
