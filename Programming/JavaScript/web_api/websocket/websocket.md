@@ -153,7 +153,9 @@ class WebSocket
                 
                 if ($client < 0) {
                     echo 'socket_accept() failed';
-                }
+                    contin
+                } else {
+                
             }
         }
     }
