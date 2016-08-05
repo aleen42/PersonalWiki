@@ -20,7 +20,7 @@ var webSocket = new WebSocket('http://www.example.com/socketserver');
 ```js
 /**
  * [close description]
- * @param  {[number]} code   [description]
+ * @param  {[number]} code   [status code]
  * @param  {[string]} reason [description]
  */
 webSocket.close('300', 'Personal Reson');
