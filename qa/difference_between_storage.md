@@ -30,8 +30,10 @@ sessionStorage.removeItem('key');
 sessionStorage.clear();
 
 /** storage event */
-function handleStorage() {
-    
+function handleStorage(e) {
+    if (!e) {
+        e = window.event;
+    }
 }
 
 if (window.addEventListener) {
