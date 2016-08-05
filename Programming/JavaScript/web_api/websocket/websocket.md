@@ -165,7 +165,7 @@ class WebSocket
             return;
         }
         
-        //Some math
+        /** some math *
         $key1_sec = pack("N",$key1_num / $key1_spc);
         $key2_sec = pack("N",$key2_num / $key2_spc);
     
