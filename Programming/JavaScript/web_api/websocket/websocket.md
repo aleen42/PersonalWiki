@@ -135,7 +135,7 @@ class WebSocket
         
         socket_set_option($this->master, SQL_SOCKET, SO_REUSEADR, 1) || die('socket_option() failed');
         
-        socket_bind($this->master, $address, $port) || die('socket_bind() failed'));
+        socket_bind($this->master, $address, $port) || die('socket_bind() failed');
         
         
     }
