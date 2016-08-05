@@ -149,7 +149,7 @@ class WebSocket
             socket_select($this->sockets, $write, $except, null);
             
             foreach ($this->sockets as $socket) {
-                
+                $client = socket_accept($this->master);
             }
         }
     }
