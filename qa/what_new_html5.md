@@ -23,3 +23,7 @@ We can use `document.createElement()` to create a new HTML5 tag in IE6/IE7/IE8 (
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <[endif]-->
 ```
+
+#### How to distinguish HTML5?
+
+Just distinguish it from `<!DOCTYPE>` or tags.
