@@ -12,7 +12,7 @@ We use **WebSocket** to create a connection between **Client** and **Server**, t
  * @param {[string]} url      [url to connect]
  * @param {[string]} protocol [protocol designed by servers, which will be a empty string by default]
  */
-var webSocket = new WebSocket('http://www.example.com/socketserver');
+var webSocket = new WebSocket('http://www.example.com/socketserver' 'socket');
 ```
 
 #### 2. available methods
