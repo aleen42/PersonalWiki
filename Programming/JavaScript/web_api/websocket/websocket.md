@@ -153,9 +153,11 @@ class WebSocket
                 
                 if ($client < 0) {
                     echo 'socket_accept() failed';
-                    contin
+                    continue;
                 } else {
-                
+                    array_push($this->sockets, $client);
+                    echo 'connect client';
+                }
             }
         }
     }
