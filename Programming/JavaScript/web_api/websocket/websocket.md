@@ -58,5 +58,5 @@ Status|code|Name|Description
 
 Name|Type|Description
 :--:|:--:|:----------
-binaryType|String|Type of transferring data, which should be 'blob' or 'arraybuffer'
-
+binaryType|String|Type of transferring data, which should be '**blob**' or '**arraybuffer**'
+bufferAmount|Number|
