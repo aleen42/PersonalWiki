@@ -44,7 +44,7 @@
 - [**How to know the valueOf() method**](./value_of.md)
 - [**Something about <!DOCTYPE>**](./doctype.md)
 - [**Differences between &lt;link&gt; and &#64;import**](./difference_between_link_and_import.md)
-- [**Differences between cookie, localStorage, and sessionStorage**](./difference_between_storage.md)
+- [**Differences between Cookie, localStorage, and sessionStorage**](./difference_between_storage.md)
 - [**What's new in HTML5**](./what_new_html5.md)
 
 ### Back-end
