@@ -63,7 +63,11 @@ bufferAmount|Number|Number of sendding data (**read-only**)
 extensions|String|Extensions the Server chooses
 url|String|Constructor url
 protocol|String|Constructor protocol
-readyState|Number|Connection State
+readyState|Number|Connection state
+onclose|Event|Close listener
+onerror|Event|Error listener
+onmessage|Event|Message Listener
+onopen|Event|Open listener
 
 A list of Ready State Code
 
