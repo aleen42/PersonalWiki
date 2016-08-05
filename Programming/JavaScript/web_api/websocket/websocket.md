@@ -124,7 +124,7 @@ class WebSocket
     private $master;
     
     /** sockets with different state */
-    private $socket = [];
+    private $sockets = [];
     
     /** whether has a handShake */
     private $handShake = false;
@@ -139,14 +139,14 @@ class WebSocket
         
         socket_listen($this->master, 2) || die('socket_listen() failed');
         
-        $this->socket[] = $this->master;
+        $this->sockets[] = $this->master;
         
         /** loop for listen */
         for (;;) {
             $write = null;
             $except = null;
             
-            
+            socket_select($this->sockets
         }
     }
 }
