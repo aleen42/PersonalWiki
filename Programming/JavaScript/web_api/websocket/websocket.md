@@ -171,7 +171,6 @@ class WebSocket
                         /** doHandShake($socket, $buffer); */
                         echo "shakeHands\n";
                     } else {
-                        // 如果已经握手，直接接受数据，并处理
                         $buffer = decode($buffer);
                         //process($socket, $buffer); 
                         echo "send file\n";
