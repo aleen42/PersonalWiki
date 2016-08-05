@@ -363,7 +363,6 @@
             * [How to use powerful rem with responsive web app development](./qa/rem.md)
             * [How to know the valueOf() method](./qa/value_of.md)
             * [Something about &lt;!DOCTYPE&gt;](./qa/doctype.md)
-            * [Something about &lt;iframe&gt;](./qa/iframe.md)
             * [Differences between &lt;link&gt; and &#64;import](./qa/difference_between_link_and_import.md)
             * [Differences between Cookie, localStorage, and sessionStorage](./qa/difference_between_storage.md)
             * [What's new in HTML5](./qa/what_new_html5.md)
