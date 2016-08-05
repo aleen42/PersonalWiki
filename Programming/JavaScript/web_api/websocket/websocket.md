@@ -18,5 +18,5 @@ var webSocket = new WebSocket('http://www.example.com/socketserver');
 #### 2. available methods
 
 ```js
-
+webSocket.close();
 ```
