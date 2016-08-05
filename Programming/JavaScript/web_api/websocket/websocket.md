@@ -30,7 +30,7 @@ A list of Close Status Code:
 
 Status|code|Name|Description
 :----:|:--:|:--:|:----------
-0–999||Reserved and not used.
+0–999||**Reserved and not used.**
 1000|CLOSE_NORMAL|Normal closure; the connection successfully completed whatever purpose for which it was created.
 1001|CLOSE_GOING_AWAY|The endpoint is going away, either because of a server failure or because the browser is navigating away from the page that opened the connection.
 1002|CLOSE_PROTOCOL_ERROR|The endpoint is terminating the connection due to a protocol error.
