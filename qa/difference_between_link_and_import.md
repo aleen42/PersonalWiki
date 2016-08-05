@@ -4,5 +4,5 @@
 
 When a page is loading, the CSS included by `<link>` will be loaded **at the same time**, while the CSS included with `@import` should stay **behind the whole page loading completely**.
 
-`@import` is supported upper CSS2.1, and can't be handled under IE5, while `<link>` has no any compatibility.
+`@import` is supported upper CSS2.1, and can't be handled under IE5, while `<link>` has no any compatibility problem.
 
