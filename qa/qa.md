@@ -42,6 +42,7 @@
 - [**How to convert JSON to Markdown**](./convert_json_to_md.md)
 - [**How to use powerful rem with responsive web app development**](./rem.md)
 - [**How to know the valueOf() method**](./value_of.md)
+- [**Something about <!DOCTYPE>**](./doctype.md)
 
 ### Back-end
 
