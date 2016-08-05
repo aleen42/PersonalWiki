@@ -64,3 +64,12 @@ extensions|String|Extensions the Server chooses
 url|String|Constructor url
 protocol|String|Constructor protocol
 readyState|Number|Connection State
+
+A list of Ready State Code
+
+Constant|Value|Description
+:------:|:---:|:----------
+CONNECTING|0|连接还没开启。
+OPEN|1|连接已开启并准备好进行通信。
+CLOSING|2|连接正在关闭的过程中。
+CLOSED|3|连接已经关闭，或者连接无法建立。
