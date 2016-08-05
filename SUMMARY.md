@@ -364,6 +364,7 @@
             * [How to know the valueOf() method](./qa/value_of.md)
             * [Something about <!DOCTYPE>](./doctype.md)
             * [Differences between &lt;link&gt; and &#64;import](./qa/difference_between_link_and_import.md)
+            * [Differences between cookie, localStorage, and sessionStorage](./qa/difference_between_storage.md)
             * [What's new in HTML5](./qa/what_new_html5.md)
         *  Back-end
             * [How to solve the lib problem when using xampp to shell_exec c++ files](./qa/xamppcpp.md)
