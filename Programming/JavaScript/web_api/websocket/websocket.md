@@ -147,7 +147,7 @@ class WebSocket
         $key = $this->getKey($req);
         $mask = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11';
         
-        
+        return base64_encode(sha1($key, $mask, true));
     }
     
     public function __construct($address, $port = 80)
