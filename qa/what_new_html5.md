@@ -56,4 +56,3 @@ Just distinguish it from `<!DOCTYPE>` or tags.
         - **CACHE**: a list of resources to be cached. (*pages will be automatically cached, so you don't need to list them*)
         - **NETWORK**: a list of resources which should be read online.
         - **FALLBACK**: resources to replace those failed to access online.
-    3. 
