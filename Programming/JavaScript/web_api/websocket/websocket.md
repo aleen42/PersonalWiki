@@ -317,4 +317,13 @@ The format of a Received Data Frame
 :                     Payload Data continued ...                :
 + - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
 |                     Payload Data continued ...                |
-+---------------------------------------------------------------+```
++---------------------------------------------------------------+
+```
+
+#### 2. new a object
+
+```php
+<?php
+$ws = new WebSocket('localhost');
+?>
+```
