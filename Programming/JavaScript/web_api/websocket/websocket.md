@@ -150,6 +150,10 @@ class WebSocket
             
             foreach ($this->sockets as $socket) {
                 $client = socket_accept($this->master);
+                
+                if ($client < 0) {
+                    echo 'socket_accept() failed';
+                }
             }
         }
     }
