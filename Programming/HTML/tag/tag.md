@@ -2,7 +2,7 @@
 
 ### Inline Tags
 
-`<a>`, `<b>`, `<span>`, `<img>`, `<
+`<a>`, `<b>`, `<span>`, `<img>`, `<input>`, `<strong>`, `<select>`
 
 ### Block Tags
 
