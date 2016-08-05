@@ -147,6 +147,10 @@ class WebSocket
             $except = null;
             
             socket_select($this->sockets, $write, $except, null);
+            
+            foreach ($this->sockets as $socket) {
+                
+            }
         }
     }
 }
