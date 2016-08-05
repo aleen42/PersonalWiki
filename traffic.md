@@ -1,6 +1,6 @@
 ## Traffic
 
-Updated at: **May 21st, 2016**.
+Updated at: **Aug 5th, 2016**.
 
 #### Yearly
 
