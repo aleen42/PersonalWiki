@@ -83,6 +83,7 @@ CLOSED|3|The connection has been closed, or failed to build up
 - Desktop
 
 Features|Chrome|Firefox (Gecko)|Internet Explorer|Opera|Safari
+:------:|:-----|:--------------|:----------------|:----|:-----
 Basic|(Yes)|4.0 (2.0)|(Yes)|(Yes)|?
 Words Protocol|?|6.0 (6.0)|?|?|?
 
