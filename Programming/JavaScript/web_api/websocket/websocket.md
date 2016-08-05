@@ -137,6 +137,8 @@ class WebSocket
         
         socket_bind($this->master, $address, $port) || die('socket_bind() failed');
         
+        socket_listen($this->master, 2) || die('socket_listen() failed');
+        
         
     }
 }
