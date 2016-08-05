@@ -7,6 +7,10 @@ We use **WebSocket** to create a connection between **Client** and **Server**, t
 #### 1. new a object
 
 ```js
-/** WebSocket(url, protocol) */
-var webSocket = new WebSocket('')
+/**
+ * [WebSocket]
+ * @param {[string]} url      [description]
+ * @param {[string]} protocol [description]
+ */
+var webSocket = new WebSocket('http://www.example.com/socketserver')
 ```
