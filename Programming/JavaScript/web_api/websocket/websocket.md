@@ -142,6 +142,9 @@ class WebSocket
         $this->socket[] = $this->master;
         
         /** loop for listen */
+        for (;;) {
+            
+        }
     }
 }
 ?>
