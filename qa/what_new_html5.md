@@ -30,4 +30,4 @@ Just distinguish it from `<!DOCTYPE>` or tags.
 
 #### Offline Storage
 
-- Theory: HTML5 Offline Storage is based on the cache of a new file named `.appcache`, which will list files that should be cached.
+- Theory: HTML5 Offline Storage is based on the cache of a new file named `.appcache`, which will list resources that should be cached. Those cached resources will be stored into local like Cookie, and extracted when offline.
