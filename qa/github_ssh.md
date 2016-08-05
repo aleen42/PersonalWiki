@@ -4,4 +4,4 @@
 
 Mac|Windows|Linux
 :--|:------|:----
-<ol><li>Open Terminal.</li><li>Enter <code>ls -al ~/.ssh</code> to see if existing SSH keys are present:</li> <br/> <code>$ ls -al ~/.ssh</code>|
+<ol><li>Open Terminal.</li><li>Enter <code>ls -al ~/.ssh</code> to see if existing SSH keys are present.</li><li>Check the directory listing to see if you already have a public SSH key.</li>|
