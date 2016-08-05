@@ -49,6 +49,17 @@ if (window.addEventListener) {
  */
 document.cookie = 'key=value;';
 
+function getCookie(name) {
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+    
+    if (arr=document.cookie.match(reg)) {
+        return unescape(arr[2]);
+    } else {
+        return null;
+    }
+}
+
+
 var exp = new Date();
 exp.setTime(exp.getTime() + 20 * 1000); /** expire time: 20s */
 document.cookie = 'key=value; expire=' + exp.toGMTString();
