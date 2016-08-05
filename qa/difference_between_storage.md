@@ -48,4 +48,7 @@ if (window.addEventListener) {
  * Cookie
  */
 document.cookie = 'key=value;';
+
+var exp = new Date();
+document.cookie = 'key=value; expire='
 ```
