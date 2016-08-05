@@ -51,5 +51,5 @@ document.cookie = 'key=value;';
 
 var exp = new Date();
 exp.setTime(exp.getTime() + 20 * 1000); /** expire time: 20s */
-document.cookie = 'key=value; expire='
+document.cookie = 'key=value; expire=' + exp.toGMTString();
 ```
