@@ -362,6 +362,7 @@
             * [How to convert JSON to Markdown](./qa/convert_json_to_md.md)
             * [How to use powerful rem with responsive web app development](./qa/rem.md)
             * [How to know the valueOf() method](./qa/value_of.md)
+            * [Something about <!DOCTYPE>](./doctype.md)
             * [Differences between &lt;link&gt; and &#64;import](./qa/difference_between_link_and_import.md)
         *  Back-end
             * [How to solve the lib problem when using xampp to shell_exec c++ files](./qa/xamppcpp.md)
@@ -374,7 +375,6 @@
             * [How to check whether it's PC's accessment in PHP](./qa/check_PC_in_PHP.md)
             * [How to get real IP of clients with PHP](./qa/get_real_ip_with_php.md)
             * [How to pass a callback function as a parameter in PHP](./qa/callback_in_php.md)
-
             * [What is ETag](./qa/etag.md)
             * [What is Cassandra](./qa/cassandra.md)
             * [Differences between URL, URI and URN](./qa/url_uri.md)
