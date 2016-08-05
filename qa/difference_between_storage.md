@@ -50,9 +50,10 @@ if (window.addEventListener) {
 document.cookie = 'key=value;';
 
 function getCookie(name) {
-    var arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    var arr;
+    var reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
     
-    if (arr=document.cookie.match(reg)) {
+    if (arr = document.cookie.match(reg)) {
         return unescape(arr[2]);
     } else {
         return null;
