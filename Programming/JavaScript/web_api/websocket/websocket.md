@@ -91,5 +91,6 @@ Words Protocol|?|6.0 (6.0)|?|?|?
 
 
 Features|Android|Firefox Mobile (Gecko)|IE Mobile|Opera Mobile|Safari Mobile
+:------:|:------|:---------------------|:--------|:----|:----
 Basic|?|7.0 (7.0)|?|?|?
 Words Protocol|?|7.0 (7.0)|?|?|?
