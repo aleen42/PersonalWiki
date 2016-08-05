@@ -100,3 +100,16 @@ Basic|?|7.0 (7.0)|?|?|?
 Words Protocol|?|7.0 (7.0)|?|?|?
 
 ### Server (PHP)
+
+The request header from a client should look like this:
+
+```
+GET /chat HTTP/1.1
+Host: server.example.com
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==
+Origin: http://example.com
+Sec-WebSocket-Protocol: chat, superchat
+Sec-WebSocket-Version: 13
+```
