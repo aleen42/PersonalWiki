@@ -50,5 +50,6 @@ if (window.addEventListener) {
 document.cookie = 'key=value;';
 
 var exp = new Date();
+exp.setTime(exp.getTime() + 20);
 document.cookie = 'key=value; expire='
 ```
