@@ -191,9 +191,19 @@ class WebSocket
     }
     
     /** generate data frames */
-    private function encode($buffer)
+    private function encode($msg)
     {
+        $str = str_split($msg, 125);
         
+        if (count($str) === 1) {
+            return "\x81" . chr(strlen($a[0])) . $a[0];
+        }
+        
+        $ns = "";
+        foreach ($a as $o) {
+            $ns .= "\x81" . chr(strlen($o)) . $o;
+        }
+        return $ns;
     }
     
     public function __construct($address, $port = 80)
