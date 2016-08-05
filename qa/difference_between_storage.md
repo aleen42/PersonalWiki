@@ -6,7 +6,7 @@ They are all used to store data into local storage.
 
 **localStorage**: only store into local storage and won't be cleared after browsers close. (**> 5Mb**)
 
-**sessionStorage**: only store into local and will be cleared after browsers close. (**> 5Mb**)
+**sessionStorage**: only store into local storage and will be cleared after browsers close. (**> 5Mb**)
 
 In JavaScript, you can operate them with provided APIs.
 
