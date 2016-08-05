@@ -32,8 +32,8 @@ sessionStorage.clear();
 /** storage event */
 if (window.addEventListener) {
     window.addEventListener('storage', handleStorage, false);
-} else (window.attachEvent) {
+} else if (window.attachEvent) {
     window.attachEvent('storge', handleStorage);
-}
+} else 
 
 ```
