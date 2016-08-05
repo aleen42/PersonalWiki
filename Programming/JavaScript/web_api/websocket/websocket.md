@@ -196,7 +196,7 @@ class WebSocket
         $str = str_split($msg, 125);
         
         if (count($str) === 1) {
-            return "\x81" . chr(strlen($a[0])) . $a[0];
+            return "\x81" . chr(strlen($str[0])) . $str[0];
         }
         
         $ns = "";
