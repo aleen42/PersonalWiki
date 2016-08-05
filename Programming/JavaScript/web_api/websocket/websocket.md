@@ -143,6 +143,9 @@ class WebSocket
         
         /** loop for listen */
         for (;;) {
+            $write = null;
+            $except = null;
+            
             
         }
     }
