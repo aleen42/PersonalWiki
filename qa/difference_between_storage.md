@@ -6,4 +6,4 @@ They are all used into storing data:
 
 **localStorage**: only store into local and won't be cleared after browsers close.
 
-**session**
+**sessionStorage**: only store into local and will be cleared after browsers close.
