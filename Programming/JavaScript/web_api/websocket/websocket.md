@@ -161,7 +161,7 @@ class WebSocket
                         echo 'connect client';
                     }
                 } else {
-                    $bytes = @socket_recv($socket,$buffer,2048,0);
+                    $bytes = @socket_recv($socket, $buffer, 2048, 0);
                    
                     if ($bytes == 0) {
                         return;
