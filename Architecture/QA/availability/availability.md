@@ -48,7 +48,3 @@
 - Removal from Service: 惹不起躲得起, 避開攻擊
 - Transaction: 通過事務來防止錯誤產生
 - Process Monitor: 通過任務管理器來重新運行進程
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

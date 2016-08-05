@@ -808,8 +808,3 @@
 	<img src="./wireless_network_standards.png">
 	- 無限局域網: IEEE 802.11
 	- 藍牙: 短距離無線通信
-		
-
-<a href="#" style="left:200px;"><img src="./../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

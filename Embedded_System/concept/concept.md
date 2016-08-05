@@ -54,7 +54,3 @@
 			- TCK: 用於測試時鐘輸入
 			- TDI: 用於測試數據輸入
 			- TDO: 用於測試數據輸出
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

@@ -45,9 +45,3 @@
 - EDMA3數據排序搬移 (倒置搬移)
 
 <img src="./ordered_transfer.png">
-
-
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

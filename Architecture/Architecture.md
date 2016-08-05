@@ -9,5 +9,3 @@
 * [**Quality Attributes**](./QA/QA.md)
 * [**Modeling and Documenting**](./document/document.md)
 * [**Architecture Tradeoff Analyse Method**](./ATAM/ATAM.md)
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

@@ -44,6 +44,3 @@ int socketpair(int family, int type, int protocol, int fd[2])
 - 0: success
 - -1: failure
 
-<a href="#" style="left:200px;"><img src="./../../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../../pic/tail.gif"></a>

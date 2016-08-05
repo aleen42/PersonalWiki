@@ -8,5 +8,3 @@
 * [Network Layer](./Network/Network.md)
 * [DataLink Layer](./DataLink/DataLink.md)
 * [Physical Layer](./Physical/Physical.md)
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

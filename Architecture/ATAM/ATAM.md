@@ -94,8 +94,3 @@
 	- analyse maintainability using scenarios, called **change scenarios**, which represent **maintenance** tasks.
 - Software Architecture Evaluation Model(SAEM)
 	- is based on **formal** and **rigorous** quality requirments.
-
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

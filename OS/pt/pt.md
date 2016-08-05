@@ -20,7 +20,3 @@
 
 ###Thread
 - **Thread**: 指程序中的片段, 這些片段能夠並行執行
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

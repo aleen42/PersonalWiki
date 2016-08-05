@@ -30,5 +30,3 @@
 	- **N-Queen Problem** [[**details**](./NQueen/NQueen.md)]
 - **Branch & Bound**
 	- **15-Puzzle Problem** [[**details**](./15Puzzle/15Puzzle.md)]
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

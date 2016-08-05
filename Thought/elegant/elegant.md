@@ -5,7 +5,3 @@
 - 例子:
 
 <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp德國漢諾威車站非常乾淨的洗手間中, 印刷著一隻蒼蠅</p>
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

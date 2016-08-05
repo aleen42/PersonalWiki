@@ -106,8 +106,3 @@
 	2. 應答中斷
 	3. 執行中斷服務程序
 	4. 返回主程序繼續執行
-
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

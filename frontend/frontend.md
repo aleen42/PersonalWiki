@@ -27,5 +27,3 @@
 - **Smashing Book #5: Real-Life Responsive Web Design**
 	- Page:
 	- Author: **Daniel Mall**, **Ben Callahan**, **Eileen Webb**, **Susan Robertson**, **Sara Soueidan**, **Zoe M.Gillenwater**, **Bram Stein**, **Yoav Weiss**, **Fabio Carneiro**, **Tom Maslen**, **Vitaly Friedman**, **Andrew Clarke**, **John Allsopp**, **Matt Gaunt**  
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

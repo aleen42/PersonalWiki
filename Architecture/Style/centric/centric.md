@@ -20,7 +20,3 @@
 	- 黑板: 顯示**當前問題狀態**的數據結構
 	- 知識源: 不斷**更新黑板狀態**的事物(之間並無關係)
 - 連接件: 三者之間的消息傳遞
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

@@ -39,7 +39,3 @@
 - UML(Unified Modeling Language, 統一建模語言)
 	- No Concept of **Layer**
 	- the **De Facto** standard language
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

@@ -11,5 +11,3 @@
 * [**Project Human Resource Management**](./human/human.md)
 * [**Project Communication Management**](./communication/communication.md)
 * [**Review**](./review/review.md)
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../pic/tail.gif"></a>

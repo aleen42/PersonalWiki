@@ -164,5 +164,3 @@
 - A what is usually not necessary to the Scrum method.
 
 > answer: <strong>*team contract.*</strong>
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

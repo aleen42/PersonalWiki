@@ -97,7 +97,3 @@
 1. CPU更新數據
 2. Cache寫回內存
 3. 外部master讀到更新的數據
-
-<a href="#" style="left:200px;"><img src="./../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

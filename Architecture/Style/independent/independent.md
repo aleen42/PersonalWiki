@@ -23,7 +23,3 @@
 - 連接件: 基於事件的隱式調用
 - 優點: reconfigurable on fly(動態事件發送)
 - 缺點: 構件放棄了對系統計算的控制, 從而存在計算正確性問題
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

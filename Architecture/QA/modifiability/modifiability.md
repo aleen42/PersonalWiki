@@ -40,7 +40,3 @@
 - Polymorphism: 動態綁定, 只有運行時才知道具體的實現
 - Component Replacement: 用現成的框架去替換
 - Adherence to defined protocols: 堅守已經定義的協議來修改
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>

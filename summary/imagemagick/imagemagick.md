@@ -63,5 +63,3 @@ convert -size [width]x[height]\
     -gravity center\
     caption:"这是一串字符串" text.png
 ```
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

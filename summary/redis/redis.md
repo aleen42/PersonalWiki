@@ -391,5 +391,3 @@ var_dump($redis->decr("test"));  // int(121)
 ===
 
 ##### 4.1 
-
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../pic/tail.gif"></a>

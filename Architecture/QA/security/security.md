@@ -36,7 +36,3 @@
 - Restoring state: 修復狀態
 - Attacker identification: 識別攻擊者的身份
 	- audit trail = copy of transaction + identifying information
-
-<a href="#" style="left:200px;"><img src="./../../../pic/gotop.png"></a>
-=====
-<a href="http://aleen42.github.io/" target="_blank" ><img src="./../../../pic/tail.gif"></a>
