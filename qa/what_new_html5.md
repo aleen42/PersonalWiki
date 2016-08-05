@@ -12,3 +12,4 @@ HTML5 has provided a lot of new tags:
 HTML5 has removed some old tags:
 
 - Behavior: `<font>`, `<basefont>`, `<big>`, `<center>`, `<s>`, `<strike>`, `<tt>`, `<u>`
+- 
