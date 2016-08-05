@@ -199,7 +199,7 @@ class WebSocket
             return "\x81" . chr(strlen($str[0])) . $str[0];
         }
         
-        $ns = "";
+        $ns = '';
         foreach ($a as $o) {
             $ns .= "\x81" . chr(strlen($o)) . $o;
         }
