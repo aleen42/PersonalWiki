@@ -13,3 +13,11 @@ HTML5 has removed some old tags:
 
 - Behavior: `<font>`, `<basefont>`, `<big>`, `<center>`, `<s>`, `<strike>`, `<tt>`, and `<u>`
 - Side Effect: `<frame>`, `<frameset>` , and `<noframes>`
+
+#### Compatibility Problems
+
+We can use `document.createElement()` to create a new HTML5 tag in IE6/IE7/IE8, or we can also use `html5shim` like this:
+
+```html
+
+```
