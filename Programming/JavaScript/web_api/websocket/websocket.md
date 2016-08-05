@@ -113,3 +113,15 @@ Origin: http://example.com
 Sec-WebSocket-Protocol: socket
 Sec-WebSocket-Version: 13
 ```
+
+#### 1. create a class
+
+```php
+<?php
+class WebSocket
+{
+    /** the client */
+    private $master;
+}
+?>
+```
