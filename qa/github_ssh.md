@@ -4,4 +4,4 @@
 
 Mac|Windows|Linux
 :--|:------|:----
-<ol><li>Open Terminal.</li><li>Open Terminal.</li>|
+<ol><li>Open Terminal.</li><li>Enter `ls -al ~/.ssh` to see if existing SSH keys are present:</li>|
