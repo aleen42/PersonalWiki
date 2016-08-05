@@ -141,6 +141,7 @@ class WebSocket
         return $key;
     }
     
+    /** encrypt key */
     private function 
     
     public function __construct($address, $port = 80)
