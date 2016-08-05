@@ -16,7 +16,7 @@ HTML5 has removed some old tags:
 
 #### Compatibility Problems
 
-We can use `document.createElement()` to create a new HTML5 tag in IE6/IE7/IE8 (remembe to define the default style of those tags), or we can also use `html5shim` like this:
+We can use `document.createElement()` to create a new HTML5 tag in IE6/IE7/IE8 (*remember to define the default style of those tags*), or we can also use `html5shim` like this:
 
 ```html
 
