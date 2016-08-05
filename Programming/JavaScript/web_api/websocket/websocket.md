@@ -18,6 +18,10 @@ var webSocket = new WebSocket('http://www.example.com/socketserver');
 #### 2. available methods
 
 ```js
-
+/**
+ * [close description]
+ * @param  {[number]} code   [description]
+ * @param  {[string]} reason [description]
+ */
 webSocket.close('300', 'Personal Reson');
 ```
