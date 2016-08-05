@@ -31,3 +31,27 @@ Just distinguish it from `<!DOCTYPE>` or tags.
 #### Offline Storage
 
 - **Theory**: HTML5 Offline Storage is based on the cache of a new file named `.appcache`, which will list resources that should be cached. Those cached resources will be stored into local like Cookie, and extracted when offline.
+- **Useage**: 
+    1. set `manifest` attribute in the `<html>` tag.
+        ```html
+        <html manifest="cache.manifest"></html>
+        ```
+    2. create a file named `cache.manifest`:
+        ```manifest
+        CACHE MANIFEST
+        #v0.11
+        
+        CACHE:
+        
+        js/app.js
+        css/style.css
+        
+        NETWORK:
+        resourse/logo.png
+        
+        FALLBACK:
+        / /offline.html
+        ```
+        
+        - CACHE: a list of resources to be cached. (pages will be automatically cached, so you don't need to list them)
+    3. 
