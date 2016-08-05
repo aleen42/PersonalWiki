@@ -72,4 +72,4 @@ Constant|Value|Description
 CONNECTING|0|The connection is setting up
 OPEN|1|The connection has been built up
 CLOSING|2|The connection is closing
-CLOSED|3|The connection has been closed, or failed to build up.
+CLOSED|3|The connection has been closed, or failed to build up
