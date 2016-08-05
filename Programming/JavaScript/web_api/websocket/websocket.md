@@ -133,7 +133,7 @@ class WebSocket
     {
         $this->master = socket_create(AF_INET, SOCK_STREAM, SOL_TCP) || die('socket_create() failed');
         
-        socket_set_option($this->master, SQL_SOCKET, SO_REUSEADR, 1);
+        socket_set_option($this->master, SQL_SOCKET, SO_REUSEADR, 1) || die('socket_optio;
     }
 }
 ?>
