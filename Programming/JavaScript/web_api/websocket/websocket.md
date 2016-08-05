@@ -211,7 +211,8 @@ class WebSocket
     /** send messages to the client */
     private function send($client, $msg)
     {
-        
+        $msg = $this->encode($msg);
+        socket_write($client, $msg, strlen($msg));
     }
     
     public function __construct($address, $port = 80)
