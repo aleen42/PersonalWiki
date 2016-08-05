@@ -61,6 +61,8 @@ function getCookie(name) {
 }
 
 function setCookie(name, value, time) {
+    
+}
 
 
 var exp = new Date();
