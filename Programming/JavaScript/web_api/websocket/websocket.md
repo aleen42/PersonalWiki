@@ -19,6 +19,5 @@ var webSocket = new WebSocket('http://www.example.com/socketserver');
 
 ```js
 
-
 webSocket.close('300', 'Personal Reson');
 ```
