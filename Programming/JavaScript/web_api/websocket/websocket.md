@@ -47,7 +47,7 @@ Status|code|Name|Description
 1013|Try Again Later|The server is terminating the connection due to a temporary condition, e.g. it is overloaded and is casting off some of its clients. [Ref]
 1014||Reserved for future use by the WebSocket standard.
 1015|TLS Handshake|**Reserved**. Indicates that the connection was closed due to a failure to perform a TLS handshake (e.g., the server certificate can't be verified).
-1016–1999||**Reserved** for future use by the WebSocket standard.
-2000–2999||**Reserved** for use by WebSocket extensions.
+1016–1999||**Reserved for future use by the WebSocket standard.**
+2000–2999||**Reserved for use by WebSocket extensions.**
 3000–3999||Available for use by libraries and frameworks. May not be used by applications. Available for registration at the IANA via first-come, first-serve.
 4000–4999||Available for use by applications.
