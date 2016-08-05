@@ -172,7 +172,7 @@ class WebSocket
                         echo "shakeHands\n";
                     } else {
                         $buffer = decode($buffer);
-                        //process($socket, $buffer); 
+                        /** process($socket, $buffer); */
                         echo "send file\n";
                     }
                 }
