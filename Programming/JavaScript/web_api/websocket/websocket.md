@@ -24,6 +24,8 @@ var webSocket = new WebSocket('http://www.example.com/socketserver');
  * @param  {[string]} reason [the reason why]
  */
 webSocket.close('300', 'Personal Reson');
+
+webSocket.send(data);
 ```
 
 A list of Close Status Code:
