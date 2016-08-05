@@ -11,7 +11,9 @@ They are all used into storing data:
 In JavaScript, you can operate them with provided APIs.
 
 ```js
-/** localStorage & sessionStorage */
+/**
+ * localStorage & sessionStorage
+ */
 var localStorage = window.localStorage;
 var sessionStorage = window.sessionStorage;
 
