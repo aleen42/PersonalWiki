@@ -110,6 +110,6 @@ Upgrade: websocket
 Connection: Upgrade
 Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==
 Origin: http://example.com
-Sec-WebSocket-Protocol: chat, superchat
+Sec-WebSocket-Protocol: socket
 Sec-WebSocket-Version: 13
 ```
