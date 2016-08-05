@@ -21,7 +21,7 @@ var webSocket = new WebSocket('http://www.example.com/socketserver');
 /**
  * [close description]
  * @param  {[number]} code   [status code, which is 1000 by default, meaning normal closing]
- * @param  {[string]} reason [description]
+ * @param  {[string]} reason [the reason why]
  */
 webSocket.close('300', 'Personal Reson');
 ```
