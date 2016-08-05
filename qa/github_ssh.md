@@ -22,4 +22,4 @@ Mac|Windows|Linux
 
 Mac|Windows|Linux
 :--|:------|:----
-<ol><li>Open Terminal.</li></ol>
+<ol><li>Open Terminal.</li><li>Enter the following:</li> <br/> <code>ssh -T git@github.com</code></ol>
