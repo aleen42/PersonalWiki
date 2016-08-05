@@ -165,11 +165,11 @@ class WebSocket
             return;
         }
         
-        /** some math *
-        $key1_sec = pack("N",$key1_num / $key1_spc);
-        $key2_sec = pack("N",$key2_num / $key2_spc);
+        /** some math */
+        $key1_sec = pack('N', $key1_num / $key1_spc);
+        $key2_sec = pack('N', $key2_num / $key2_spc);
     
-        return md5($key1_sec.$key2_sec.$l8b,1);
+        return md5($key1_sec . $key2_sec . $l8b, 1);
     }
     
     /** hand shake */
