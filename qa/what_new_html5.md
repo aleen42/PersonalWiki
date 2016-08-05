@@ -53,5 +53,6 @@ Just distinguish it from `<!DOCTYPE>` or tags.
         / /offline.html
         ```
         
-        - CACHE: a list of resources to be cached. (pages will be automatically cached, so you don't need to list them)
+        - **CACHE**: a list of resources to be cached. (*pages will be automatically cached, so you don't need to list them*)
+        - **NETWORK**: a list of resources which should be read online.
     3. 
