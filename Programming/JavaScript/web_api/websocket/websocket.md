@@ -153,7 +153,19 @@ class WebSocket
     /** under Version 13 */
     private function encryOld($key1, $key2, $18b)
     {
+        $key1_num = implode($key1_num[0]);
+        $key2_num = implode($key2_num[0]);
         
+        /** count space */
+        preg_match_all('/([ ]+)/', $key1, $key1_spc);
+        preg_match_all('/([ ]+)/', $key2, $key2_spc);
+    
+        if($key1_spc==0|$key2_spc==0){ $this->log("Invalid key");return; }
+        //Some math
+        $key1_sec = pack("N",$key1_num / $key1_spc);
+        $key2_sec = pack("N",$key2_num / $key2_spc);
+    
+        return md5($key1_sec.$key2_sec.$l8b,1);
     }
     
     /** hand shake */
