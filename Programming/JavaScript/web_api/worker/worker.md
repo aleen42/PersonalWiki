@@ -50,8 +50,9 @@ In the worker, we should define a `onmessage` function to capture messages from 
 ```js
 onmessage = function (e) {
     console.log('Message received from main script');
-    var workResult = 'Result: ' + (e.data[0] * e.data[1]);
-    cons
+    var workerResult = 'Result: ' + (e.data[0] * e.data[1]);
+    console.log('Posting message back to main script');
+    postMessage(workerResult);
 };
 ```
 
