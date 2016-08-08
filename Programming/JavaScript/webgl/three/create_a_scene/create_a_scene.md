@@ -39,4 +39,4 @@ document.body.appendChild(renderer.domElement);
 ```
 
 - `PerspectiveCamera(fov, aspect, near, far)`
-    - **fov**: 
+    - **fov**: Camera frustum vertical field of view.
