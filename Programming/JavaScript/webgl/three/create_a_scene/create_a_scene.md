@@ -50,3 +50,14 @@ document.body.appendChild(renderer.domElement);
     - **width**: the width of the rendering region.
     - **height**: the height of the rendering region.
     - **updateStyle**: if keep the size with a lower resolution, pass `false`, which is `true` by default
+
+### Creating a cube
+
+```js
+var geometry = new THREE.BoxGeometry(1, 1, 1);
+var material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+var cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
+
+camera.position.z = 5;
+```
