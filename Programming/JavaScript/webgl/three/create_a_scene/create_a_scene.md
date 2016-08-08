@@ -81,3 +81,8 @@ render();
 ```
 
 This will create a loop that causes the renderer to draw the scene 60 times per second (**60fps**). Using `requestAnimationFrame` has a number of advantages than using `setInterval`, and the most important one is that it pauses when the users navigates to another browser tab, which will save processing power and battery life.
+
+### Demo
+
+<p data-height="300" data-theme-id="21735" data-slug-hash="XKyKyV" data-default-tab="html,result" data-user="aleen42" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/XKyKyV/">XKyKyV</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
