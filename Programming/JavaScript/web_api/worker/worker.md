@@ -93,5 +93,7 @@ importScript('foo.js');             /** import just 'foo.js'    */
 importScript('foo.js', 'bar.js');   /** import two scripts      */
 ```
 
+***Note:** Scripts may be downloaded in any order, but will be executed in the order in which you pass the filenames into importScripts() . This is done synchronously; importScripts() does not return until all the scripts have been loaded and executed.*
+
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
