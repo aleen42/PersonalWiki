@@ -97,5 +97,7 @@ importScript('foo.js', 'bar.js');   /** import two scripts      */
 
 ### Shared workers
 
+A shared worker is accessible by multiple scripts — even if they are being accessed by different windows, iframes or even workers.
+
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
