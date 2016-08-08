@@ -5,6 +5,7 @@
 * [**JavaScript Framework | Library**](./Framework/Framework.md)
 * [**Easing Function**](./easing/easing.md)
 * [**Web APIs**](./web_api/web_api.md)
+* [**WebGL**](./webgl/webgl.md)
 
 Languages|Description
 :----:|-----
