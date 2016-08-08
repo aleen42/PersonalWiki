@@ -159,6 +159,7 @@ Data passed between the main page and workers is **copied**, not shared. Objects
 
 ```js
 function transferData(message) {
+    /** return eval('(' + JSON.stringify(message) + ')'); */
     return JSON.parse(JSON.stringify(message));
 }
 ```
