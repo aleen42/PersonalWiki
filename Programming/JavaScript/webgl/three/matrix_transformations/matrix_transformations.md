@@ -28,4 +28,4 @@ There are two ways to update an object's transformation:
 	object.matrixAutoUpdate = false;
     ```
     
-    Note that **matrixAutoUpdate** must be set to **false** in this case, and you should make sure not to call **updateMatrix**. Calling updateMatrix will clobber the manual changes made to the matrix, recalculating the matrix from position, scale, and so on.
+    Note that **matrixAutoUpdate** must be set to **false** in this case, and you should make sure not to call **updateMatrix**. Calling **updateMatrix** will clobber the manual changes made to the matrix, recalculating the matrix from position, scale, and so on.
