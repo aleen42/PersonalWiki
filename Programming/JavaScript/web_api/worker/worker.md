@@ -140,5 +140,13 @@ self.addEventListener('connect', function (e) {
 });
 ```
 
+Finnally, back in the main thread, we deal with message through `onmessage`:
+
+```js
+myWorker.port.onmessage = function (e) {
+    
+};
+```
+
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
