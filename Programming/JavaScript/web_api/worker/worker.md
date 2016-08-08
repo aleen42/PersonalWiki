@@ -102,6 +102,7 @@ A shared worker is accessible by multiple scripts — even if they are being acc
 #### 1. Spawning a shared worker
 
 ```js
+/** create a worker for running worker.js */
 var myWorker = new SharedWorker('worker.js');
 ```
 
