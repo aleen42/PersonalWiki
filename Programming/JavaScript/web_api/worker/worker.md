@@ -31,7 +31,10 @@ var myWorker = new Worker('worker.js');
 
 #### 3. Sending messages to and from a dedicated worker
 
+Use `postMessage` to send messages to work
 
+```js
+```
 
 ### Threads Security
 
