@@ -51,7 +51,7 @@ document.body.appendChild(renderer.domElement);
     - **height**: the height of the rendering region.
     - **updateStyle**: if keep the size with a lower resolution, pass `false`, which is `true` by default
 
-### Creating a cube
+### Creating a cube(立體)
 
 ```js
 var geometry = new THREE.BoxGeometry(1, 1, 1);
@@ -62,4 +62,4 @@ scene.add(cube);
 camera.position.z = 5;
 ```
 
-`BoxGeometry` is an object that contains all the points (**vertices**) and fill (**faces**) of the cube. 
+`BoxGeometry` is an object that contains all the points (**vertices**) and fill (**faces**) of the cube.
