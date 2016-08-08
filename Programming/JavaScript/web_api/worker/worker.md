@@ -135,7 +135,8 @@ self.addEventListener('connect', function (e) {
         port.postMessage(wokerResult);
     };
     
-    port.start();
+    /** not necessary to call start() explictly because onmessage event handler is being used */
+    /** port.start(); */
 });
 ```
 
