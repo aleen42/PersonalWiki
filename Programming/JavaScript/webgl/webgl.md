@@ -4,4 +4,4 @@
 
 ### 3D
 
-- **three.js**
+- [**three.js**](./three/three.md)
