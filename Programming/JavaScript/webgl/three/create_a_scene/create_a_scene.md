@@ -5,5 +5,21 @@
 Before you can use Three.js, you need somewhere to display it. Save the following HTML to a file on your computer, along with a copy of [three.js](http://threejs.org/build/three.js) in the js/ directory, and open it in your browser.
 
 ```html
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>My first Three.js app</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+	<body>
+		<script src="js/three.js"></script>
+		<script>
+			// Our Javascript will go here.
+		</script>
+	</body>
+</html>
 ```
