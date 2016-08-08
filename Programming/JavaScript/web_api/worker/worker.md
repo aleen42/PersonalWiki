@@ -85,7 +85,13 @@ Workers may spawn more workers if they wish. So-called sub-workers must be hoste
 
 #### 6. Importing scripts and libraries
 
+Use `importScript()` to import scripts in the same domain into their scope:
 
+```js
+importScript();                     /** import nothing          */
+importScript('foo.js');             /** import just 'foo.js'    */
+importScript('foo.js', 'bar.js');   /** import two scripts      */
+```
 
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
