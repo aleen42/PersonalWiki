@@ -86,6 +86,7 @@
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
                         * [Create a scene](./Programming/JavaScript/webgl/three/create_a_scene/create_a_scene.md)
+                        * [Matrix transformations](./Programming/JavaScript/webgl/three/matrix_transformations/matrix_transformations.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
                 * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
