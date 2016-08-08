@@ -1,6 +1,6 @@
 ## Worker [Back](./../web_api.md)
 
-**Web Worker (Dedicated Web Worker)** provides a way for running script in the background.
+A worker is an object created using a constructor (e.g. `Worker()`) that runs a named JavaScript file — this file contains the code that will run in the worker thread; workers run in another global context that is different from the current `window`. Thus, using the window shortcut to get the current global scope (instead of self) within a Worker will return an error.
 
 The worker context is represented by a [DedicatedWorkerGlobalScope](https://developer.mozilla.org/en-US/docs/Web/API/DedicatedWorkerGlobalScope) object in the case of dedicated workers (standard workers that are utilized by a single script; shared workers use [SharedWorkerGlobalScope](https://developer.mozilla.org/en-US/docs/Web/API/SharedWorkerGlobalScope)). A dedicated worker is only accessible from the script that first spawned it, whereas shared workers can be accessed from multiple scripts.
 
