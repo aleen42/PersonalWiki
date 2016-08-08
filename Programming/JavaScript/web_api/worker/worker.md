@@ -108,7 +108,7 @@ var myWorker = new SharedWorker('worker.js');
 
 One big difference is that with a shared worker you have to communicate via a `port` object.
 
-The port connection needs to be started either implicitly by use of the onmessage event handler or explicitly with the start() method before any messages can be posted.
+The port connection needs to be started either implicitly by use of the `onmessage` event handler or explicitly with the `start()` method before any messages can be posted.
 
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
