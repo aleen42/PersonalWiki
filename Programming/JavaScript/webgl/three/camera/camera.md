@@ -5,3 +5,5 @@ There are two kinds of cameras: **perspective projection(透視投影)** and **r
 ### Perspective projection
 
 ![](./1.gif)
+
+Perspective projection is usually used in applications, which is similar to eyes of human.
