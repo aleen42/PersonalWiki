@@ -84,7 +84,8 @@
                 * [Worker](./Programming/JavaScript/web_api/worker/worker.md)
             * [WebGL](./Programming/JavaScript/webgl/webgl.md)
                 * 3D
-                    * [three.js](./Programming/JavaScript/webgl/three/three.md)  
+                    * [three.js](./Programming/JavaScript/webgl/three/three.md)
+                        * [Create a scene](./Programming/JavaScript/webgl/three/create_a_scene/create_a_scene.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
                 * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
