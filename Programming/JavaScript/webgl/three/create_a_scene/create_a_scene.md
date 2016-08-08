@@ -40,3 +40,6 @@ document.body.appendChild(renderer.domElement);
 
 - `PerspectiveCamera(fov, aspect, near, far)`
     - **fov**: Camera frustum vertical field of view.
+    - **aspect**: Camera frustum aspect ratio.
+    - **near**: Camera frustum near plane.
+    - **far**: Camera frustum far plane.
