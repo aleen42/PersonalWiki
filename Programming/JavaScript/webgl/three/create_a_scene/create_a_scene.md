@@ -67,5 +67,10 @@ camera.position.z = 5;
 ### Rendering the scene we created before
 
 ```js
+function render() {
+    requestAnimationFrame(render);
+    renderer.render(scene, camera);
+}
 
+render()
 ```
