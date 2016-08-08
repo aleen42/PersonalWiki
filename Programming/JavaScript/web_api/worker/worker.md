@@ -15,8 +15,10 @@ For slightly more controlled error handling and backwards compatibility, it is a
 ```js
 /** detect worker feature */
 if (window.Worker) {
-    /** Worker APIs is availabel */
-    /** ... */
+    /**
+     * Worker APIs is availabel
+     * ...
+     */
 }
 ```
 
