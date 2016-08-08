@@ -60,7 +60,8 @@ After that, the main thread should also use onmessage to receive handled data:
 
 ```js
 myWorker.onmessage = function (e) {
-    
+    result.textContext = e.data;
+    console.log('Message received from worker');
 };
 ```
 
