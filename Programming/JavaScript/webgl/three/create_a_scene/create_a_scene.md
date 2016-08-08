@@ -18,7 +18,7 @@ Before you can use Three.js, you need somewhere to display it. Save the followin
 	<body>
 		<script src="js/three.js"></script>
 		<script>
-			// Our Javascript will go here.
+			/** Our Javascript will go here. */
 		</script>
 	</body>
 </html>
