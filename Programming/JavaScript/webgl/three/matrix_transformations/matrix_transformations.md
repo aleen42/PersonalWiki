@@ -42,7 +42,7 @@ When either the parent or the child object's transformation changes, you can req
 
 Three.js provides two ways of representing 3D rotations: [Euler angles](http://threejs.org/docs/index.html#Reference/Math/Euler) and [Quaternions](http://threejs.org/docs/index.html#Reference/Math/Quaternion), as well as methods for converting between the two. Euler angles are subject to a problem called "gimbal lock," where certain configurations can lose a degree of freedom (preventing the object from being rotated about one axis). For this reason, object rotations are always stored in the object's [quaternion](http://threejs.org/docs/index.html#Reference/Core/Object3D.quaternion).
 
-Previous versions of the library included a useQuaternion property which, when set to false, would cause the object's matrix to be calculated from an Euler angle. This practice is deprecated---instead, you should use the setRotationFromEuler method, which will update the quaternion.
+Previous versions of the library included a useQuaternion property which, when set to false, would cause the object's [matrix](http://threejs.org/docs/index.html#Reference/Core/Object3D.matrix) to be calculated from an Euler angle. This practice is deprecated---instead, you should use the setRotationFromEuler method, which will update the quaternion.
 
 
 
