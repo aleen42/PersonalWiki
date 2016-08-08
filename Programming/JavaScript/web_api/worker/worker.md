@@ -120,7 +120,16 @@ myWorker.port.start();
 ```js
 squareNumber.onchanged = function () {
     myWorker.port.postMessage([squareNumber.value, squareNumber.value]);
+    console.log('Message posted to worker');
 };
+```
+
+Then, on the worker thread, you have to create a event listner named `connect` to listen to the port:
+
+```js
+self.addEventListener('connect', function (e) {
+    
+});
 ```
 
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
