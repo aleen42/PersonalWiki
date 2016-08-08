@@ -47,5 +47,6 @@ document.body.appendChild(renderer.domElement);
 `near` and `far` attributes means that objects further away from the camera than the value of **far** or **closer** than near won't be rendered.
 
 - `WebGLRenderer.setSize(width, height, updateStyle)`
-    - **width**: the width of the rendering region
-    - **height**: the height of the rendering region
+    - **width**: the width of the rendering region.
+    - **height**: the height of the rendering region.
+    - **updateStyle**: if keep the size with a lower resolution, pass `false`
