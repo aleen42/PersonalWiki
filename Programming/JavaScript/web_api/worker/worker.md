@@ -156,3 +156,9 @@ myWorker.port.onmessage = function (e) {
 ### More details about transferring data
 
 Data passed between the main page and workers is **copied**, not shared. Objects are serialized as they're handed to the worker, and subsequently, de-serialized on the other end. The page and worker **do not share the same instance**, so the end result is that **a duplicate** is created on each end. 
+
+```js
+function transferData(message) {
+    
+}
+```
