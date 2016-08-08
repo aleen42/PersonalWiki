@@ -49,4 +49,4 @@ document.body.appendChild(renderer.domElement);
 - `WebGLRenderer.setSize(width, height, updateStyle)`
     - **width**: the width of the rendering region.
     - **height**: the height of the rendering region.
-    - **updateStyle**: if keep the size with a lower resolution, pass `false`
+    - **updateStyle**: if keep the size with a lower resolution, pass `false`, which is `true` by default
