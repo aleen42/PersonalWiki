@@ -4,4 +4,4 @@
 
 There are two ways to update an object's transformation:
 
-1. Modify the object's position, quaternion, and scale properties, and let Three.js recompute the object's matrix from these properties:
+1. Modify the object's **position**, **quaternion**, and **scale** properties, and let Three.js recompute the object's matrix from these properties:
