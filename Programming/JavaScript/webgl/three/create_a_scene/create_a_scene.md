@@ -61,3 +61,5 @@ scene.add(cube);
 
 camera.position.z = 5;
 ```
+
+`BoxGeometry` is an object that contains all the points (**vertices**) and fill (**faces**) of the cube. 
