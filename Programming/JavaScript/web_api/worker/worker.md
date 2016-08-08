@@ -119,7 +119,7 @@ myWorker.port.start();
 
 ```js
 squareNumber.onchanged = function () {
-    
+    myWorker.port.postMessage([squareNumber.value, squareNumber.value]);
 };
 ```
 
