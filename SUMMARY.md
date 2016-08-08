@@ -82,6 +82,7 @@
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
                 * [Worker](./Programming/JavaScript/web_api/worker/worker.md)
+                * [WebGL](./Programming/JavaScript/webgl/webgl.md)
             * Categories            
                 * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
                 * [Types, Values, and Variables](./Programming/JavaScript/Type/Type.md)
