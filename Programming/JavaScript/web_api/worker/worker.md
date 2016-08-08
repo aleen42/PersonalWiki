@@ -45,11 +45,13 @@ second.onchange = function () {
 };
 ```
 
-In the worker, we should define a `onmessage` function to capture messages from the main thread:
+In the worker, we should define a `onmessage` function to capture messages from the main thread, then handle it before sending back:
 
 ```js
 onmessage = function (e) {
-    
+    console.log('Message received from main script');
+    var workResult = 'Result: ' + (e.data[0] * e.data[1]);
+    cons
 };
 ```
 
