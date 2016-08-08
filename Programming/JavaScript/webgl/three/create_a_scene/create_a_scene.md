@@ -23,3 +23,8 @@ Before you can use Three.js, you need somewhere to display it. Save the followin
 	</body>
 </html>
 ```
+
+### Creating a scene
+
+To actually be able to display anything with Three.js, we need three things: A scene, a camera, and a renderer so we can render the scene with the camera.
+
