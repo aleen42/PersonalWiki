@@ -67,8 +67,16 @@ myWorker.onmessage = function (e) {
 
 #### 4. Terminating a worker
 
+Stop the worker in the main thread:
+
 ```js
 myWorker.terminate();
+```
+
+Stop the worker in the worker thread:
+
+```js
+close();
 ```
 
 ### Threads Security
