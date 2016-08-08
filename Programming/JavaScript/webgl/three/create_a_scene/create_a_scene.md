@@ -44,4 +44,4 @@ document.body.appendChild(renderer.domElement);
     - **near**: Camera frustum near plane.
     - **far**: Camera frustum far plane.
 
-`near` and `far` attributes means that objects further away from the camera than the value of far or closer than near won't be rendered.
+`near` and `far` attributes means that objects further away from the camera than the value of **far** or **closer** than near won't be rendered.
