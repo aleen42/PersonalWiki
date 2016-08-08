@@ -5,3 +5,19 @@
 There are two ways to update an object's transformation:
 
 1. Modify the object's **position**, **quaternion**, and **scale** properties, and let Three.js recompute the object's matrix from these properties:
+    ```js
+    object.position.copy(start_position);
+	object.quaternion.copy(quaternion);
+    ```
+    
+    By default, the **matrixAutoUpdate** property is set true, and the matrix will be automatically recalculated. If the object is static, or you wish to manually control when recalculation occurs, better performance can be obtained by setting the property false:
+    
+    ```js
+    object.matrixAutoUpdate = false;
+    ```
+    
+    And after changing any properties, manually update the matrix:
+    
+    ```js
+    object.updateMatrix();
+    ```
