@@ -21,3 +21,4 @@ There are two ways to update an object's transformation:
     ```js
     object.updateMatrix();
     ```
+2. Modify the object's matrix directly. The [Matrix4](http://threejs.org/docs/index.html#Reference/Math/Matrix4) class has various methods for modifying the matrix:
