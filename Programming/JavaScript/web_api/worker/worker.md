@@ -144,7 +144,8 @@ Finnally, back in the main thread, we deal with message through `onmessage`:
 
 ```js
 myWorker.port.onmessage = function (e) {
-    
+    result2.textContent = e.data;
+    console.log('Message received from worker');
 };
 ```
 
