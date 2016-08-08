@@ -26,7 +26,7 @@ Before you can use Three.js, you need somewhere to display it. Save the followin
 
 ### Creating a scene
 
-To actually be able to display anything with Three.js, we need three things: A scene, a camera, and a renderer so we can render the scene with the camera.
+To actually be able to display anything with Three.js, we need three things: **A scene**, **a camera**, and **a renderer** so we can render the scene with the camera.
 
 ```js
 var scene = new THREE.Scene();
