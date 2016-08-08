@@ -6,11 +6,11 @@ The worker context is represented by a [DedicatedWorkerGlobalScope](https://deve
 
 Data is sent between workers and the main thread via a system of messages — both sides send their messages using the `postMessage()` method, and respond to messages via the `onmessage` event handler (the message is contained within the [Message](https://developer.mozilla.org/en-US/docs/Web/Events/Message) event's data attribute.)
 
-### 1. Dedicated workers
+### Dedicated workers
 
 
 
-### 1. Threads Security
+### Threads Security
 
 **Worker** API will really create a os thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
