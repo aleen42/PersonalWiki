@@ -38,5 +38,5 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 ```
 
-- **PerspectiveCamera(fov, aspect, near, far)**
-- 
+- `PerspectiveCamera(fov, aspect, near, far)`
+    - **fov**: 
