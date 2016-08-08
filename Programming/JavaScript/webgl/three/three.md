@@ -8,3 +8,4 @@ Here we have a [editor](http://threejs.org/editor/) for building easily.
 
 - [**Create a scene**](./create_a_scene/create_a_scene.md)
 - [**Matrix transformations**](./matrix_transformations/matrix_transformations.md)
+- [**Camera**](./camera/camera.md)
