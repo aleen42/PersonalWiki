@@ -31,9 +31,12 @@ var myWorker = new Worker('worker.js');
 
 #### 3. Sending messages to and from a dedicated worker
 
-Use `postMessage` to send messages to work
+Use `postMessage` to send messages to worker
 
 ```js
+first.onchange = function () {
+    
+};
 ```
 
 ### Threads Security
