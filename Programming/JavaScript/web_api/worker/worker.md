@@ -130,6 +130,9 @@ Then, on the worker thread, you have to create a event listner named `connect` t
 self.addEventListener('connect', function (e) {
     var port = e.ports[0];
     
+    port.onmessage = function (e) {
+        
+    };
 });
 ```
 
