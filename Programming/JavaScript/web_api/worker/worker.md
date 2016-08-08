@@ -35,7 +35,7 @@ Use `postMessage` to send messages to worker
 
 ```js
 first.onchange = function () {
-    
+    myWorker.postMessage([first.value, second.value]);
 };
 ```
 
