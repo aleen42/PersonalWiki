@@ -117,7 +117,9 @@ myWorker.port.start();
 
 #### 2. Sending messages to and from a shared worker
 
+```js
 
+```
 
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
