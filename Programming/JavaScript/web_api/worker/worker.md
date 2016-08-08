@@ -8,7 +8,16 @@ Data is sent between workers and the main thread via a system of messages — bo
 
 ### Dedicated workers
 
+#### 1. Worker feature detection
 
+For slightly more controlled error handling and backwards compatibility, it is a good idea to wrap your worker accessing code in the following:
+
+```js
+/** detect worker feature */
+if (window.worker) {
+    
+}
+```
 
 ### Threads Security
 
