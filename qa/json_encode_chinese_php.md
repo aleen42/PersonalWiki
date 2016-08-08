@@ -1,1 +1,1 @@
-## How to pass a callback function as a parameter in PHP [Back](./qa.md)
+## How to json_encode Chinese in PHP [Back](./qa.md)
