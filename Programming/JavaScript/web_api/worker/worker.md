@@ -149,5 +149,7 @@ myWorker.port.onmessage = function (e) {
 };
 ```
 
+### About thread sa
+
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
