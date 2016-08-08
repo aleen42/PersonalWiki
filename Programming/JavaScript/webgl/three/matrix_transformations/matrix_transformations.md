@@ -33,3 +33,7 @@ There are two ways to update an object's transformation:
     Note that **matrixAutoUpdate** must be set to **false** in this case, and you should make sure not to call **updateMatrix**. Calling **updateMatrix** will clobber the manual changes made to the matrix, recalculating the matrix from **position**, **scale**, and so on.
     
 ### Object and world matrices
+
+An object's matrix stores the object's transformation relative to the object's parent; to get the object's transformation in world coordinates, you must access the object's Object3D.matrixWorld.
+
+When either the parent or the child object's transformation changes, you can request that the child object's matrixWorld be updated by calling updateMatrixWorld().
