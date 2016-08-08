@@ -13,3 +13,5 @@ Constructor of creating a perspective camera:
 ```js
 THREE.PerspectiveCamera(fov, aspect, near, far);
 ```
+
+![](./1.png)
