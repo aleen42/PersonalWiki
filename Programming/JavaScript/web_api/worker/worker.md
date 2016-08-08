@@ -85,5 +85,5 @@ Workers may spawn more workers if they wish. So-called sub-workers must be hoste
 
 ### Threads Security
 
-**Worker** API will really create a os thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
+**Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
