@@ -75,4 +75,4 @@ function render() {
 render();
 ```
 
-This will create a loop that causes the renderer to draw the scene 60 times per second (**60fps**). Using `requestAnimationFrame` has a number of advantages than using `setInterval`, and the most important one is that it pauses when the users navigates to another browser tab, which will save processing power and battery lif
+This will create a loop that causes the renderer to draw the scene 60 times per second (**60fps**). Using `requestAnimationFrame` has a number of advantages than using `setInterval`, and the most important one is that it pauses when the users navigates to another browser tab, which will save processing power and battery life.
