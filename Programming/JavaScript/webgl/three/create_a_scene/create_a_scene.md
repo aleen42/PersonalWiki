@@ -72,5 +72,7 @@ function render() {
     renderer.render(scene, camera);
 }
 
-render()
+render();
 ```
+
+This will create a loop that causes the renderer to draw the scene 60 times per second (**60fps**).
