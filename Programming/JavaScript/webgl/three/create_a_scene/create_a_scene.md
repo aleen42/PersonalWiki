@@ -62,5 +62,5 @@ scene.add(cube);
 camera.position.z = 5;
 ```
 
-`BoxGeometry` is an object that contains all the points (**vertices**) and fill (**faces**) of the cube, while `MeshBasicMaterial` is for coloring object in three.js.
+`BoxGeometry` is an object that contains all the points (**vertices**) and fill (**faces**) of the cube, while `MeshBasicMaterial` is for coloring object in three.js. Finally, `Mesh` is an object that takes a geometry, and applies a material to it, which we then can insert to our scene, and move freely around.
 
