@@ -83,7 +83,9 @@ close();
 
 Workers may spawn more workers if they wish. So-called sub-workers must be hosted within the same origin as the parent page.
 
-### Threads Security
+#### 6. Importing scripts and libraries
+
+
 
 **Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
 
