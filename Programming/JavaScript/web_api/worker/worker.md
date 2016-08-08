@@ -24,7 +24,9 @@ if (window.Worker) {
 
 #### 2. Spawning a dedicated worker
 
-
+```js
+var myWorker = new Worker('worker.js');
+```
 
 ### Threads Security
 
