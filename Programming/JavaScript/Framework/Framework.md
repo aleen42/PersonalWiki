@@ -12,6 +12,6 @@
 * [**node.js**](./node/node.md)
 * [**ReactJS**](./react/react.md)
 * [**underscore.js**](./underscore/underscore.md)
-* [**three.js**](./../../webgl/three/three.md)
+* [**three.js**](./../webgl/three/three.md)
 * Headroom
 
