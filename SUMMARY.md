@@ -84,6 +84,7 @@
                         * [DOM Event Listeners in a Component](./Programming/JavaScript/Framework/react/dom_event_listner/dom_event_listner.md)
                         * [Load Initial Data via AJAX](./Programming/JavaScript/Framework/react/initial_data_with_ajax/initial_data_with_ajax.md)
                         * [False in JSX](./Programming/JavaScript/Framework/react/false_in_jsx/false_in_jsx.md)
+                        * [Communicate Between Components](./Programming/JavaScript/Framework/react/communication_between_components/communication_between_components.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
