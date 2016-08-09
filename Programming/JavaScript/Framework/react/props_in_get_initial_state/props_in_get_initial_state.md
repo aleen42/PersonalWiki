@@ -45,3 +45,20 @@ ReactDOM.render(
 {%endace%}
 
 However, it's **not** an anti-pattern if you make it clear that the prop is only seed data for the component's internally-controlled state:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+var MessageBox = React.createClass({
+    render: function () {
+        return (
+            <div>
+                {'Mr.' + this.props.name}
+            </div>
+        );
+    }
+});
+
+ReactDOM.render(
+    <MessageBox name="aleen42" />,
+    document.getElementById('content')
+);
+{%endace%}
