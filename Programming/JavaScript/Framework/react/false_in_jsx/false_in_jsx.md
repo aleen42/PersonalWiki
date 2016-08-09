@@ -28,3 +28,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+The reason why this one doesn't render as the string `"false"` as a `div` child is to allow the more common use-case: `<div>{x > 1 && 'You have more than one item'}</div>`.
