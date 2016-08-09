@@ -47,7 +47,11 @@ ReactDOM.render(
 However, it's **not** an anti-pattern if you make it clear that the prop is only seed data for the component's internally-controlled state:
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
-var MessageBox = React.createClass({
+var Counter = React.createClass({
+    getInitialState: function () {
+        return {count: this.props.intialCount};
+    },
+    
     render: function () {
         return (
             <div>
