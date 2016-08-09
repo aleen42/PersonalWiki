@@ -1,6 +1,9 @@
 ## Shorthand for Specifying Pixel Values in style props [Back](./../react.md)
 
-Currently, in a component's `render`, you can only return one node; if you have, say, a list of `div`s to return, you must wrap your components within a `div`, `span` or any other component.
+When specifying a pixel value for your inline `style` prop, React automatically appends the string "px" for you after your number value, so this works:
 
-Don't forget that JSX compiles into regular JS; returning two functions doesn't really make syntactic sense. Likewise, don't put more than one child in a ternary(三元操作符).
+{%ace edit=false, lang='jsx', theme='tomorrow'%}\
+var divStyle = {height: 10}; // rendered as "height:10px"
+ReactDOM.render(<div style={divStyle}>Hello World!</div>, mountNode);
+{%endace%}
 
