@@ -20,3 +20,26 @@ ReactDOM.render(
 {%endace%}
 
 However, when there is only a single child, `this.props.children` will be the single child component itself without the **array wrapper**. This saves an array allocation.
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+var GenericWrapper = React.createClass({
+    componentDidMount: function() {
+        console.log(Array.isArray(this.props.children));    /** => false */
+        
+        /**
+         * warning: yields 5 for length of the string 'hello', not 1 for the
+         * length of the non-existent array wrapper!
+         */
+        console.log(this.props.children.length);
+    },
+    
+    render: function() {
+        return <div />;
+    }
+});
+
+ReactDOM.render(
+    <GenericWrapper>hello</GenericWrapper>,
+    document.getElementById('content')
+);
+{%endace%}
