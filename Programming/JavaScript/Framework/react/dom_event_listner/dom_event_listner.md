@@ -17,6 +17,10 @@ var Box = React.createClass({
             this.setState({ windowWidth: window.innerWidth });
         });  
     },
+    
+    componentWillUnmount: function () {
+        window.removeEventListener('resize', this.handleResize);
+    },
 
     render: function () {
         return (
