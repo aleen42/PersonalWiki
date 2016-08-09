@@ -12,10 +12,12 @@ var Box = React.createClass({
         return { windowWidth: window.innerWidth };
     },
     
+    handleSize: function (e) {
+        this.setState({ windowWidth: window.innerWidth });
+    },
+    
     componentDidMount: function () {
-        window.addEventListener('resize', function (e) {
-            this.setState({ windowWidth: window.innerWidth });
-        });  
+        window.addEventListener('resize', );  
     },
     
     componentWillUnmount: function () {
