@@ -219,4 +219,6 @@ Array.complement = function (a, b) {
 
 #### 1. `Array.of(element0, element1, ..., elementX)`
 
-`Array.of(element0, element1, ..., elementX)` is used to put mutiple elements into one array and return a new array.
+`Array.of(element0, element1, ..., elementX)` is used to put mutiple elements into one array and return a new array instance.
+
+
