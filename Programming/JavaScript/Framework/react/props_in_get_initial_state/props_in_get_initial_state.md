@@ -18,6 +18,11 @@ var MessageBox = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <MessageBox name="aleen42" />,
+    document.getElementById('content')
+);
 {%endace%}
 
 **Better:**
