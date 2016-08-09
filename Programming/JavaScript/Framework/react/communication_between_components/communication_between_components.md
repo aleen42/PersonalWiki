@@ -12,14 +12,16 @@ function List(props) {
     return (
         <div>
             {
-                props
+                props.items.map(function (item, i) {
+                    
+                });
             }
         </div>
     );
 }
 
 ReactDOM.render(
-    <List item={['Apple', 'Banana', 'Cranberry']} />,
+    <List items={['Apple', 'Banana', 'Cranberry']} />,
     document.getElementById('content')
 );
 {%endace%}
