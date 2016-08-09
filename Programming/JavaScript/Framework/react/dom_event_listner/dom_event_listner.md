@@ -36,3 +36,6 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+`componentDidMount` is called after the component is mounted and has a DOM representation. This is often a place where you would attach generic DOM events.
+
