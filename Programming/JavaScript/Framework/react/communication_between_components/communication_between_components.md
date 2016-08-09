@@ -7,4 +7,8 @@
 var handleClick = function (i, props) {
     console.log('clicked: ' + props.items[i]);
 };
+
+function List(props) {
+
+}
 {%endace%}
