@@ -30,4 +30,9 @@ var Box = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <Box />,
+    document.getElementById('content')
+);
 {%endace%}
