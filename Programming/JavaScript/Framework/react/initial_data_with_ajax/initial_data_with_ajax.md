@@ -15,6 +15,12 @@ var UserGist = React.createClass({
     
     componentDidMount: function () {
         this.serverRequest = $.get(this.props.source, function (result) {
+            var lastGist = result[0];
+        
+            this.setState({
+                userName: lastGist.owner.login,
+                lastGistUrl: lastGist.html_url
+            });
         });  
     },
     
