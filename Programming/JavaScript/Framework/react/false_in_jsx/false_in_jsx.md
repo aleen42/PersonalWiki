@@ -10,3 +10,12 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+as string input value:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+ReactDOM.render(
+    <input value={false} />,
+    document.getElementById('content')
+);
+{%endace%}
