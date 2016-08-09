@@ -81,6 +81,7 @@
                         * [Value of null for Controlled Input](./Programming/JavaScript/Framework/react/null_controlled_input/null_controlled_input.md)
                         * [componentWillReceiveProps Not Triggered After Mounting](./Programming/JavaScript/Framework/react/mouting_not_receive_props/mouting_not_receive_props.md)
                         * [Props in getInitialState Is an Anti-Pattern](./Programming/JavaScript/Framework/react/props_in_get_initial_state/props_in_get_initial_state.md)
+                        * [DOM Event Listeners in a Component](./Programming/JavaScript/Framework/react/dom_event_listner/dom_event_listner.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
