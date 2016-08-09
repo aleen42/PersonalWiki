@@ -222,5 +222,6 @@ Array.complement = function (a, b) {
 `Array.of(element0, element1, ..., elementX)` is used to put mutiple elements into one array and return a new array instance.
 
 ```js
-console.log(Array.of(1));               /** =>  [1]                 */
+console.log(Array.of(1));               /** => [1]                  */
+console.log(Array.of(undefined));       /** => [undefined]          */
 ```
