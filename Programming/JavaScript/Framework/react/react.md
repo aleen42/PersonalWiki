@@ -35,3 +35,4 @@
 - [**If-Else in JSX**](./if_else_jsx/if_else_jsx.md)
 - [**Self-Closing Tag**](./self_close/self_close.md)
 - [**Maximum Number of JSX Root Nodes**](./max_jsx_root_node/max_jsx_root_node.md)
+- [**Shorthand for Specifying Pixel Values in style props**](./shorthand_px/shorthand_px.md)
