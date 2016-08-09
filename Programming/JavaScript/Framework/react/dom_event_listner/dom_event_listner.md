@@ -8,6 +8,10 @@ Try to resize the window:
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 var Box = React.createClass({
+    getInitialState: function () {
+        return { windowWidth: window.innerWidth };
+    },
+
     render: function () {
         return (
             <div>Current window width: {this.state.windowWidth}</div>
