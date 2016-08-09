@@ -7,7 +7,7 @@ When specifying a pixel value for your inline `style` prop, React automatically 
 var divStyle = {height: 10};
 ReactDOM.render(
     <div style={divStyle}>Hello World!</div>,
-    document.getElementById('div')
+    document.getElementById('content')
 );
 {%endace%}
 
