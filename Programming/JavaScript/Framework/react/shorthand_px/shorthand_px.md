@@ -11,3 +11,31 @@ ReactDOM.render(
 );
 {%endace%}
 
+Sometimes you **do** want to keep the CSS properties unitless. Here's a list of properties that won't get the automatic "px" suffix:
+
+- animationIterationCount
+- boxFlex
+- boxFlexGroup
+- boxOrdinalGroup
+- columnCount
+- fillOpacity
+- flex
+- flexGrow
+- flexPositive
+- flexShrink
+- flexNegative
+- flexOrder
+- fontWeight
+- lineClamp
+- lineHeight
+- opacity
+- order
+- orphans
+- stopOpacity
+- strokeDashoffset
+- strokeOpacity
+- strokeWidth
+- tabSize
+- widows
+- zIndex
+- zoom
