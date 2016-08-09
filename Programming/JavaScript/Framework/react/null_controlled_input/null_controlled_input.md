@@ -4,6 +4,8 @@ Specifying the `value` prop on a [controlled component](https://aleen42.gitbooks
 
 In this case, you might have accidentally set value to `undefined` or `null`.
 
+The snippet below shows this phenomenon; after a second, the text becomes editable.
+
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 ReactDOM.render(<input value="hi" />, mountNode);
 
