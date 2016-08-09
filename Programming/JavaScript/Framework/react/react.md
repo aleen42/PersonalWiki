@@ -41,3 +41,4 @@
 - [**componentWillReceiveProps Not Triggered After Mounting**](./mouting_not_receive_props/mouting_not_receive_props.md)
 - [**Props in getInitialState Is an Anti-Pattern**](./props_in_get_initial_state/props_in_get_initial_state.md)
 - [**DOM Event Listeners in a Component**](./dom_event_listner/dom_event_listner.md)
+- [**Load Initial Data via AJAX**](./dom_event_listner/dom_event_listner.md)
