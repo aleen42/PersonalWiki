@@ -43,3 +43,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+However, it's **not** an anti-pattern if you make it clear that the prop is only seed data for the component's internally-controlled state:
