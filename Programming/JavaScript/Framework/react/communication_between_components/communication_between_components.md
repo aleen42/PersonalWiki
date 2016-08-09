@@ -10,7 +10,16 @@ var handleClick = function (i, props) {
 
 function List(props) {
     return (
-        
+        <div>
+            {
+                props
+            }
+        </div>
     );
 }
+
+ReactDOM.render(
+    <List item={['Apple', 'Banana', 'Cranberry']} />,
+    document.getElementById('content')
+);
 {%endace%}
