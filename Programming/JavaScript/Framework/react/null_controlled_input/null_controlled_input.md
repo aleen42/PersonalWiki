@@ -5,5 +5,9 @@ Specifying the `value` prop on a [controlled component](https://aleen42.gitbooks
 In this case, you might have accidentally set value to `undefined` or `null`.
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
+ReactDOM.render(<input value="hi" />, mountNode);
 
+setTimeout(function() {
+    ReactDOM.render(<input value={null} />, mountNode);
+}, 1000);
 {%endace%}
