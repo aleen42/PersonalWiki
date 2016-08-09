@@ -76,6 +76,7 @@
                         * [If-Else in JSX](./Programming/JavaScript/Framework/react/if_else_jsx/if_else_jsx.md)
                         * [Self-Closing Tag](./Programming/JavaScript/Framework/react/self_close/self_close.md)
                         * [Maximum Number of JSX Root Nodes](./Programming/JavaScript/Framework/react/max_jsx_root_node/max_jsx_root_node.md)
+                        * [Shorthand for Specifying Pixel Values in style props](./Programming/JavaScript/Framework/react/shorthand_px/shorthand_px.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
