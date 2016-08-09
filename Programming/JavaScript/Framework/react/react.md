@@ -38,3 +38,4 @@
 - [**Shorthand for Specifying Pixel Values in style props**](./shorthand_px/shorthand_px.md)
 - [**Type of the Children props**](./type_of_children_props/type_of_children_props.md)
 - [**Value of null for Controlled Input**](./null_controlled_input/null_controlled_input.md)
+- [**componentWillReceiveProps Not Triggered After Mounting**](./mouting_not_receive_props/mouting_not_receive_props.md)
