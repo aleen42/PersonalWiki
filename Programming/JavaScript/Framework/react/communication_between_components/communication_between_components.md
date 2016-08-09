@@ -13,7 +13,9 @@ function List(props) {
         <div>
             {
                 props.items.map(function (item, i) {
-                    
+                    return (
+                        <div onClick={handleClick.bind(this, i, props)} key={i}>{item}</div>
+                    );
                 });
             }
         </div>
