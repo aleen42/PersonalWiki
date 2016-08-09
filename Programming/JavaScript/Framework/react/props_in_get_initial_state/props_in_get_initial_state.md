@@ -49,8 +49,12 @@ However, it's **not** an anti-pattern if you make it clear that the prop is only
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 var Counter = React.createClass({
     getInitialState: function () {
-        return {count: this.props.intialCount};
+        return { count: this.props.intialCount };
     },
+    
+    handleClick: function () {
+        this.setState({ count: this.state.count + 1 });
+    }
     
     render: function () {
         return (
