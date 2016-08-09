@@ -27,3 +27,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+For communication between two components that don't have a parent-child relationship, you can set up your own global event system. Subscribe to events in `componentDidMount()`, unsubscribe in `componentWillUnmount()`, and call `setState()` when you receive an event.
