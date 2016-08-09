@@ -217,4 +217,6 @@ Array.complement = function (a, b) {
 
 ### Feature Operations
 
+#### 1. `Array.of(element0, element1, ..., elementX)`
 
+`Array.of(element0, element1, ..., elementX)` is used to put mutiple elements into one array and return
