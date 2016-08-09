@@ -59,7 +59,7 @@ var Counter = React.createClass({
     render: function () {
         return (
             <div onClick={this.handeClick} initialCount={7}>
-                Click me!
+                Click me: {this.state.count} times!
             </div>
         );
     }
