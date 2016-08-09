@@ -13,8 +13,10 @@ var Box = React.createClass({
     },
     
     componentDidMount: function () {
-        
-    }
+        window.addEventListener('resize', function (e) {
+            
+        });  
+    },
 
     render: function () {
         return (
