@@ -43,3 +43,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+To make `this.props.children` easy to deal with, we've provided the `React.Children utilities`.
