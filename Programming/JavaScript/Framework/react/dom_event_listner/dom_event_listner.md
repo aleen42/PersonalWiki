@@ -11,6 +11,10 @@ var Box = React.createClass({
     getInitialState: function () {
         return { windowWidth: window.innerWidth };
     },
+    
+    componentDidMount: function () {
+        
+    }
 
     render: function () {
         return (
