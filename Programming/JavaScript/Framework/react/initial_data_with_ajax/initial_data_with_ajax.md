@@ -37,4 +37,9 @@ var UserGist = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <UserGist source="https://api.github.com/users/octocat/gists" />,
+    document.getElementById('content')
+);
 {%endace%}
