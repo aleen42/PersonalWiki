@@ -14,7 +14,7 @@ var Box = React.createClass({
     
     componentDidMount: function () {
         window.addEventListener('resize', function (e) {
-            
+            this.setState({ windowWidth: window.innerWidth });
         });  
     },
 
