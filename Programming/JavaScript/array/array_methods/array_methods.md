@@ -235,3 +235,9 @@ if (!Array.of) {
     };
 }
 ```
+
+#### 2. `Array.from(obj, mapFn, thisArg)`
+
+`Array.from(obj, mapFn, thisArg)` is used to convert a array-like object into an array.
+
+
