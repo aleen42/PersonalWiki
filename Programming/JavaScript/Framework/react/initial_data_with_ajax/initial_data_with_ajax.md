@@ -24,6 +24,10 @@ var UserGist = React.createClass({
         });  
     },
     
+    componentWillUnmount: function () {
+        this.serverRequest.abort();
+    },
+    
     render: function () {
         return (
             <div>
