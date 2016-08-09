@@ -13,6 +13,10 @@ var UserGist = React.createClass({
         };
     },
     
+    componentDidMount: function () {
+        
+    }
+    
     render: function () {
         return (
             <div>
