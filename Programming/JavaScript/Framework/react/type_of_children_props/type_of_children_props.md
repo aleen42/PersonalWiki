@@ -5,7 +5,7 @@ Usually, a component's children (`this.props.children`) is an array of component
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 var GenericWrapper = React.createClass({
     componentDidMount: function() {
-        console.log(Array.isArray(this.props.children)); // => true
+        console.log(Array.isArray(this.props.children));    /** => true */
     },
 
     render: function() {
