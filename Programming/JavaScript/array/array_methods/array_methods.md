@@ -225,3 +225,13 @@ Array.complement = function (a, b) {
 console.log(Array.of(1));               /** => [1]                  */
 console.log(Array.of(undefined));       /** => [undefined]          */
 ```
+
+**Polyfill:**
+
+```js
+if (!Array.of) {
+    Array.of = function() {
+        return Array.prototype.slice.call(arguments);
+    };
+}
+```
