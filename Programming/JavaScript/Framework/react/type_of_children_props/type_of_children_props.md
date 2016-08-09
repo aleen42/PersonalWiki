@@ -44,4 +44,4 @@ ReactDOM.render(
 );
 {%endace%}
 
-To make `this.props.children` easy to deal with, we've provided the `React.Children utilities`.
+To make `this.props.children` easy to deal with, we've provided the [React.Children utilities](https://facebook.github.io/react/docs/top-level-api.html#react.children).
