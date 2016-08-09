@@ -19,3 +19,12 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+as no child:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+ReactDOM.render(
+    <div>{false}</div>,
+    document.getElementById('content')
+);
+{%endace%}
