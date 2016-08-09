@@ -43,3 +43,4 @@
 - [**DOM Event Listeners in a Component**](./dom_event_listner/dom_event_listner.md)
 - [**Load Initial Data via AJAX**](./initial_data_with_ajax/initial_data_with_ajax.md)
 - [**False in JSX**](./false_in_jsx/false_in_jsx.md)
+- [**Communicate Between Components**](./communication_between_components/communication_between_components.md)
