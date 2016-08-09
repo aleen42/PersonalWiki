@@ -19,3 +19,17 @@ var MessageBox = React.createClass({
     }
 });
 {%endace%}
+
+**Better:**
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+var MessageBox = React.createClass({
+    render: function () {
+        return (
+            <div>
+                {'Mr.' + this.props.name}
+            </div>
+        );
+    }
+});
+{%endace%}
