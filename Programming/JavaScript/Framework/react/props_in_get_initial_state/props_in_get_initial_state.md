@@ -66,7 +66,7 @@ var Counter = React.createClass({
 });
 
 ReactDOM.render(
-    <MessageBox name="aleen42" />,
+    <Count initialCount={7} />,
     document.getElementById('content')
 );
 {%endace%}
