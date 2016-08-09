@@ -17,7 +17,7 @@ var Box = React.createClass({
     },
     
     componentDidMount: function () {
-        window.addEventListener('resize', );  
+        window.addEventListener('resize', this.handleResize);  
     },
     
     componentWillUnmount: function () {
