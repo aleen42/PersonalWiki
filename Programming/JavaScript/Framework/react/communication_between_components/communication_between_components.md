@@ -1,4 +1,4 @@
 ## Communicate Between Components [Back](./../react.md)
 
 - **parent-child**: just pass props
-- **child-parent**: 
+- **child-parent**: use `bind(this, arguments)`
