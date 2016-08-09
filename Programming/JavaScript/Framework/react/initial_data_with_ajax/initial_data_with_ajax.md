@@ -14,8 +14,9 @@ var UserGist = React.createClass({
     },
     
     componentDidMount: function () {
-        
-    }
+        this.serverRequest = $.get(this.props.source, function (result) {
+        });  
+    },
     
     render: function () {
         return (
