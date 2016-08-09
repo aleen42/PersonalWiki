@@ -9,6 +9,8 @@ var handleClick = function (i, props) {
 };
 
 function List(props) {
-    
+    return (
+        
+    );
 }
 {%endace%}
