@@ -5,5 +5,7 @@ Fetch data in `componentDidMount`. When the response arrives, store the data in 
 When fetching data asynchronously, use `componentWillUnmount` to cancel any outstanding requests before the component is unmounted.
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
-
+var UserGist = React.createClass({
+    
+});
 {%endace%}
