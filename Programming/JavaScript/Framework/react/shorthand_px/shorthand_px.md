@@ -5,6 +5,9 @@ When specifying a pixel value for your inline `style` prop, React automatically 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 /** rendered as "height:10px" */
 var divStyle = {height: 10};
-ReactDOM.render(<div style={divStyle}>Hello World!</div>, mountNode);
+ReactDOM.render(
+    <div style={divStyle}>Hello World!</div>,
+    document.getElementById('div')
+);
 {%endace%}
 
