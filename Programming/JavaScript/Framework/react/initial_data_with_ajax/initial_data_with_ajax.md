@@ -10,7 +10,16 @@ var UserGist = React.createClass({
         return {
             userName: '',
             lastGistUrl: ''
-        }
+        };
+    },
+    
+    render: function () {
+        return (
+            <div>
+                {this.state.userName}'s last gist is
+                <a href="{this.state.lastGistUrl}" target="_blank">here</a>
+            </div>
+        );
     }
 });
 {%endace%}
