@@ -6,6 +6,8 @@ When fetching data asynchronously, use `componentWillUnmount` to cancel any outs
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 var UserGist = React.createClass({
-    
+    getInitialState: function () {
+        
+    }
 });
 {%endace%}
