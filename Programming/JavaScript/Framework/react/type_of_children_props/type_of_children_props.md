@@ -18,3 +18,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+However, when there is only a single child, `this.props.children` will be the single child component itself without the **array wrapper**. This saves an array allocation.
