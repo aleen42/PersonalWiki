@@ -54,12 +54,12 @@ var Counter = React.createClass({
     
     handleClick: function () {
         this.setState({ count: this.state.count + 1 });
-    }
+    },
     
     render: function () {
         return (
-            <div>
-                {'Mr.' + this.props.name}
+            <div onClick={this.handeClick}>
+                Click me!
             </div>
         );
     }
