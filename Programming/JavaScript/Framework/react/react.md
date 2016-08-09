@@ -33,3 +33,4 @@
 
 - [**Inline Styles**](./inline_styles/inline_styles.md)
 - [**If-Else in JSX**](./if_else_jsx/if_else_jsx.md)
+- [**Self-Closing Tag**](./self_close/self_close.md)
