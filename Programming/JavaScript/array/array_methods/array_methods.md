@@ -240,4 +240,8 @@ if (!Array.of) {
 
 `Array.from(obj, mapFn, thisArg)` is used to convert a array-like object into an array.
 
+Those two kindes of array-like objects can be converted into arries:
+
+- Array-like Object (with `length` attribute, and any objects )
+
 
