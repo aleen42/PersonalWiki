@@ -257,7 +257,7 @@ function convertIntoArray() {
 }
 
 console.log(convertIntoArray(1, 2, 3)); /** => [1, 2, 3]            */
-console.log(Array.from('foo'));          /** => ["f", "o", "o"]      */
+console.log(Array.from('foo'));         /** => ["f", "o", "o"]      */
 ```
 
 **Polyfill:**
