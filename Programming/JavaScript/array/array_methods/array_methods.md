@@ -246,5 +246,6 @@ Those two kindes of array-like objects can be converted into arries:
 - Iteratable Object (like Map, Set, and so on)
 
 - **mapFn**(optional): the map function which will be executed before the array return.
+- **thisArg**(optional): `this` for `mapFn`.
 
 
