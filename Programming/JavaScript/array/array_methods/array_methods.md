@@ -248,6 +248,19 @@ Those two kindes of array-like objects can be converted into arries:
 - **mapFn**(optional): the map function which will be executed before the array return.
 - **thisArg**(optional): `this` for `mapFn`.
 
+```js
+Array.from(obj, mapFn, thisArg);
+Array.from(obj).map(mapFn, thisArg);
+
+function convertIntoArray() {
+    return Array.from(argments);
+}
+
+console.log(convertIntoArray(1, 2, 3)); /** => [1, 2, 3]            */
+console.log(Array.from('foo');          /** => ["f", "o", "o"]      */
+
+```
+
 **Polyfill:**
 
 
