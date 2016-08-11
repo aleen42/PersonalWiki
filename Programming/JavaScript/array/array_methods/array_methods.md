@@ -351,3 +351,9 @@ if (!Array.from) {
     }());
 }
 ```
+
+#### 3. `Array.isArray(value)`
+
+`Array.isArray(value)` is used to justify whether the value is an array.
+
+
