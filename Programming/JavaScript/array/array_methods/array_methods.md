@@ -317,33 +317,37 @@ if (!Array.from) {
                 }
             }
 
-      // 10. Let lenValue be Get(items, "length").
-      // 11. Let len be ToLength(lenValue).
-      var len = toLength(items.length);
+            // 10. Let lenValue be Get(items, "length").
+            // 11. Let len be ToLength(lenValue).
+            var len = toLength(items.length);
 
-      // 13. If IsConstructor(C) is true, then
-      // 13. a. Let A be the result of calling the [[Construct]] internal method of C with an argument list containing the single item len.
-      // 14. a. Else, Let A be ArrayCreate(len).
-      var A = isCallable(C) ? Object(new C(len)) : new Array(len);
+            // 13. If IsConstructor(C) is true, then
+            // 13. a. Let A be the result of calling the [[Construct]] internal method of C with an argument list containing the single item len.
+            // 14. a. Else, Let A be ArrayCreate(len).
+            var A = isCallable(C) ? Object(new C(len)) : new Array(len);
 
-      // 16. Let k be 0.
-      var k = 0;
-      // 17. Repeat, while k < len… (also steps a - h)
-      var kValue;
-      while (k < len) {
-        kValue = items[k];
-        if (mapFn) {
-          A[k] = typeof T === 'undefined' ? mapFn(kValue, k) : mapFn.call(T, kValue, k);
-        } else {
-          A[k] = kValue;
-        }
-        k += 1;
-      }
-      // 18. Let putStatus be Put(A, "length", len, true).
-      A.length = len;
-      // 20. Return A.
-      return A;
-    };
-  }());
+            // 16. Let k be 0.
+            var k = 0;
+            // 17. Repeat, while k < len… (also steps a - h)
+            var kValue;
+            
+            while (k < len) {
+                kValue = items[k];
+                
+                if (mapFn) {
+                    A[k] = typeof T === 'undefined' ? mapFn(kValue, k) : mapFn.call(T, kValue, k);
+                } else {
+                    A[k] = kValue;
+                }
+                
+                k += 1;
+            }
+            
+            // 18. Let putStatus be Put(A, "length", len, true).
+            A.length = len;
+            // 20. Return A.
+            return A;
+        };
+    }());
 }
 ```
