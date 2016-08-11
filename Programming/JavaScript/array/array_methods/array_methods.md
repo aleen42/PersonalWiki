@@ -359,5 +359,9 @@ if (!Array.from) {
 **Polyfill:**
 
 ```js
-
+if (!Array.isArray) {
+    Array.isArray = function (obj) {
+        
+    }
+}
 ```
