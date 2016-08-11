@@ -356,4 +356,8 @@ if (!Array.from) {
 
 `Array.isArray(value)` is used to justify whether the value is an array.
 
+**Polyfill:**
 
+```js
+
+```
