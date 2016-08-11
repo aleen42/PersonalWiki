@@ -243,6 +243,6 @@ if (!Array.of) {
 Those two kindes of array-like objects can be converted into arries:
 
 - Array-like Object (with `length` attribute, and any objects with keys)
-- Iteratable Object
+- Iteratable Object (like Map, Set, and so on.)
 
 
