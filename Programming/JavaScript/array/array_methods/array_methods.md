@@ -385,8 +385,7 @@ console.log([12, 5, 8, 130, 44].filter(function (item, i) {
 **Polyfill:**
 
 ```js
-if (!Array.prototype.filter)
-{
+if (!Array.prototype.filter) {
     Array.prototype.filter = function(fun /*, thisArg */)
     {
         "use strict";
