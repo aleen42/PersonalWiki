@@ -88,6 +88,7 @@
                         * [Expose Component Functions](./Programming/JavaScript/Framework/react/expose_component_functions/expose_component_functions.md)
                         * [this.props.children undefined](./Programming/JavaScript/Framework/react/undefined_props_children/undefined_props_children.md)
                         * [Use React with other libraris](./Programming/JavaScript/Framework/react/use_react_with_other_libraries/use_react_with_other_libraries.md)
+                        * [Dangerously Set innerHTML](./Programming/JavaScript/Framework/react/dangerously_set_innerhtml/dangerously_set_innerhtml.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
