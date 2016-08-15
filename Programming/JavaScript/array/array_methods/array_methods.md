@@ -386,8 +386,7 @@ console.log([12, 5, 8, 130, 44].filter(function (item, i) {
 
 ```js
 if (!Array.prototype.filter) {
-    Array.prototype.filter = function(fun /*, thisArg */)
-    {
+    Array.prototype.filter = function (fun /*, thisArg */) {
         "use strict";
         
         if (this === void 0 || this === null) {
