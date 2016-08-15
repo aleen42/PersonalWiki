@@ -38,29 +38,29 @@
 	- 成立核心的評估小組(包含多方面的角色)
 - Phase1: 技术评估(Technical Evaluation)
 	- 以技術方面的涉眾為基礎, 對體系結構進行技術性評估
-	- 1. Present the ATAM: 讓各方瞭解ATAM的基本內容
-	- 2. Present business drivers: 讓客戶描述系統的商業目標
-	- 3. Present architecture: 讓Architect展示體系結構的概要, 架構師, 項目經理和市場代表一起描述此系統帶來的價值
-	- 4. Identify architectural approaches: 確認體系結構中對實現質量需求產生決定作用的部分
-	- 5. Generate quality attribute utility tree: 畫出效用樹來理清質量屬性要求.
-		- (H, H): (重要程度, 實現難度)
-			- L: LOW
-			- M: MIDDLE
-			- H: HIGH
-		- Root: Utility
-		- 1st Layer: Quality Attributes
-		- 2rd Layer: Word
-		- 3nd Layer: Description from the context(Scenarios: **stimulus** + **Environment** + **responses**)
-			- Use Case Scenarios: anticipated **uses** of the system
-				- Remote user requests a database report via the Web during peak period and receives it within 5 seconds.
-			- Growth Scenarios: anticipated **changes** of the system
-				- Add a new data server to reduce latency in scenario 1 to 2.5 seconds within 1 person-week.
-			- Exploratory(探究性) Scenarios: **unanticipated stresses** to the system
-				- Half of the servers go down during normal operation without affecting overall system availability.
+    	1. Present the ATAM: 讓各方瞭解ATAM的基本內容
+    	2. Present business drivers: 讓客戶描述系統的商業目標
+    	3. Present architecture: 讓Architect展示體系結構的概要, 架構師, 項目經理和市場代表一起描述此系統帶來的價值
+    	4. Identify architectural approaches: 確認體系結構中對實現質量需求產生決定作用的部分
+    	5. Generate quality attribute utility tree: 畫出效用樹來理清質量屬性要求.
+    		- (H, H): (重要程度, 實現難度)
+    			- L: LOW
+    			- M: MIDDLE
+    			- H: HIGH
+    		- Root: Utility
+    		- 1st Layer: Quality Attributes
+    		- 2rd Layer: Word
+    		- 3nd Layer: Description from the context(Scenarios: **stimulus** + **Environment** + **responses**)
+    			- Use Case Scenarios: anticipated **uses** of the system
+    				- Remote user requests a database report via the Web during peak period and receives it within 5 seconds.
+    			- Growth Scenarios: anticipated **changes** of the system
+    				- Add a new data server to reduce latency in scenario 1 to 2.5 seconds within 1 person-week.
+    			- Exploratory(探究性) Scenarios: **unanticipated stresses** to the system
+    				- Half of the servers go down during normal operation without affecting overall system availability.
 
 	<img src="./utility_tree.png">
 
-	- 6. Analyse Architectural Approaches
+	6. Analyse Architectural Approaches
 		- 找到可以滿足最高優先級質量需求的體系結構設計方法
 		- 針對場景(H, H), 詢問與質量屬性密切相關的問題
 		- 確認四要素(風險, 非風險, 關鍵點和權衡點)
