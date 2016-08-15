@@ -24,6 +24,9 @@ var Todos = React.createClass({
             <div>
                 {this.state.items.map(function (item, i) {
                     var boundClick = this.handleClick.bind(this, i);
+                    return (
+                        <Todo onClick={boundClick} key={i} title={item} ref={'item' + i}></Todo>
+                    );
                 }, this);}
             </div>
         );
