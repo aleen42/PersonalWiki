@@ -402,6 +402,7 @@ if (!Array.prototype.filter) {
         
         var res = [];
         var thisArg = arguments.length >= 2 ? arguments[1] : void 0;
+
         for (var i = 0; i < len; i++) {
             if (i in t) {
                 var val = t[i];
