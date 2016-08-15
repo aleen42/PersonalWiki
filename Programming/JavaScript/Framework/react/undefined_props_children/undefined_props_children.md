@@ -5,7 +5,7 @@ You can't access the children of your component through `this.props.children`, w
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 var MyComponent = React.createClass({
     componentDidMount: function () {
-        console.log(this.props.children);
+        console.log(this.props.children);   /** => undefined */
     },
 
     render: function () {
