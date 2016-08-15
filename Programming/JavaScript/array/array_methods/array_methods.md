@@ -368,6 +368,6 @@ if (!Array.isArray) {
 
 #### 4. `filter(callback, thisArg)`
 
-`filter(callback, thisArg)` is used to filter all elements in an array, and create a n
+`filter(callback, thisArg)` is used to filter all elements in an array, and create a new one.
 
 - **thisArg**(optional): `this` for `callback`.
