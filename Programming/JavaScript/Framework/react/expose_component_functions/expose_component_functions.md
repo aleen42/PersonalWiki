@@ -17,4 +17,16 @@ var Todo = React.createClass({
         cosole.log('Pretend %s is animating', this.props.title);
     }
 });
+
+var Todos = React.createClass({
+    render: function () {
+        return (
+            <div>
+                {this.state.items.map(function (item, i) {
+                    
+                }, this);}
+            </div>
+        );
+    }
+});
 {%endace%}
