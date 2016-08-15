@@ -24,7 +24,7 @@ var Todos = React.createClass({
     },
     
     handleClick: function (index) {
-        var items = ths.state.items.filter(item, i) {
+        var items = this.state.items.filter(item, i) {
             return index !== i;
         });
     },
