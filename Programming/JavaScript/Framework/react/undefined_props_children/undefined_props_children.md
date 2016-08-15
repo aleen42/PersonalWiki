@@ -22,3 +22,26 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+Of course, if you want to access children of your own component, you can use `ref`:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+var MyComponent = React.createClass({
+    componentDidMount: function () {
+        console.log(this.props.children);   /** => undefined */
+    },
+
+    render: function () {
+        return (
+            <div>
+                <span ref="child__elem"></span>
+            </div>
+        );
+    }
+});
+
+ReactDOM.render(
+    <MyComponent />,
+    document.getElementById('content')
+);
+{%endace%}
