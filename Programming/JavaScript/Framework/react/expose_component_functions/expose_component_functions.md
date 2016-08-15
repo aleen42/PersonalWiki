@@ -55,3 +55,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+Alternatively, you could have achieved this by passing the `todo` an `isLastUnfinishedItem` prop, let it check this prop in `componentDidUpdate`, then animate itself; however, this quickly gets messy if you pass around different props to control animations.
