@@ -27,6 +27,10 @@ var Todos = React.createClass({
         var items = this.state.items.filter(item, i) {
             return index !== i;
         });
+        
+        this.setState({ items: items }, function () {
+            
+        });
     },
     
     render: function () {
