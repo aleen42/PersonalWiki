@@ -33,7 +33,7 @@ var Todos = React.createClass({
                 /** call child function */
                 this.refs.item0.animate();
             }
-        });
+        }.bind(this));
     },
     
     render: function () {
