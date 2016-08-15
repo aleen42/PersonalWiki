@@ -23,7 +23,7 @@ var Todos = React.createClass({
         return (
             <div>
                 {this.state.items.map(function (item, i) {
-                    
+                    var boundClick = this.handleClick.bind(this, i);
                 }, this);}
             </div>
         );
