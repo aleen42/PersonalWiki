@@ -365,3 +365,7 @@ if (!Array.isArray) {
     }
 }
 ```
+
+#### 4. `filter(callback, thisArg)`
+
+- **thisArg**(optional): `this` for `callback`.
