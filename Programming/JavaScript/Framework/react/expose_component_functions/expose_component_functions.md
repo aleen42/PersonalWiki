@@ -22,6 +22,13 @@ var Todos = React.createClass({
     getInitialState: function () {
         return { items: ['Apple', 'Banana', 'Cranberry'] };
     },
+    
+    handleClick: function (index) {
+        var items = ths.state.items.filter(item, i) {
+            return index !== i;
+        });
+    },
+    
     render: function () {
         return (
             <div>
