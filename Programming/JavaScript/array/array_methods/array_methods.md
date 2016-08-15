@@ -368,6 +368,12 @@ if (!Array.isArray) {
 
 #### 4. `filter(callback, thisArg)`
 
-`filter(callback, thisArg)` is used to filter all elements in an array, and create a new one for which get true from callbac.
+`filter(callback, thisArg)` is used to filter all elements in an array, and create a new one for which get true from callback.
 
 - **thisArg**(optional): `this` for `callback`.
+
+```js
+console.log([12, 5, 8, 130, 44].filter(function (item) {
+    return item >= 10;
+}));        /** => [12, 130, 44] */
+```
