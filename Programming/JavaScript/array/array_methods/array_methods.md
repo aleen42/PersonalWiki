@@ -376,4 +376,8 @@ if (!Array.isArray) {
 console.log([12, 5, 8, 130, 44].filter(function (item) {
     return item >= 10;
 }));        /** => [12, 130, 44] */
+
+console.log([12, 5, 8, 130, 44].filter(function (item, i) {
+    return item >= 10 && (i % 2 === 0);
+}));        /** => [12, 44] */
 ```
