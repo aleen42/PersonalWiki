@@ -19,6 +19,9 @@ var Todo = React.createClass({
 });
 
 var Todos = React.createClass({
+    getInitialState: function () {
+        return { items: ['Apple', 'Banana', 'Cranberry'] };
+    },
     render: function () {
         return (
             <div>
