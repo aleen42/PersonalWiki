@@ -29,7 +29,10 @@ var Todos = React.createClass({
         });
         
         this.setState({ items: items }, function () {
-            
+            if (items.length === 1) {
+                /** call child function */
+                this.refs.item0.animate();
+            }
         });
     },
     
