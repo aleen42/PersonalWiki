@@ -52,6 +52,6 @@ var Todos = React.createClass({
 
 ReactDOM.render(
     <Todos />,
-    document.getElementById('cotent')
+    document.getElementById('content')
 );
 {%endace%}
