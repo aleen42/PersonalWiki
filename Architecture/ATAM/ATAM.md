@@ -57,7 +57,7 @@
     				- Add a new data server to reduce latency in scenario 1 to 2.5 seconds within 1 person-week.
     			- Exploratory(探究性) Scenarios: **unanticipated stresses** to the system
     				- Half of the servers go down during normal operation without affecting overall system availability.
-	                <img src="./utility_tree.png">
+	       <img src="./utility_tree.png">
 	    6. Analyse Architectural Approaches
     		- 找到可以滿足最高優先級質量需求的體系結構設計方法
     		- 針對場景(H, H), 詢問與質量屬性密切相關的問題
@@ -66,13 +66,13 @@
 - Phase 2: 以涉眾(Stakeholders)為中心
 	- 探討出Stakeholder對第一階段結果不同的意見
 	- Recap Phase1
-	- 1. Brainstorm and prioritize scenarios
-		- 通過頭腦風暴, 對質量屬性進行投票, 並決定每個Scenario的(H, H)標籤
-		- 每人 (0.3 * #Scenarios) 的票
-	- 2. Analyse architectural approaches
-		- 分析從上一步所決定的Scenario對體系結構的影響
-	- 3. Present results
-		- 概括和總結ATAM的所有步驟
+    	1. Brainstorm and prioritize scenarios
+    		- 通過頭腦風暴, 對質量屬性進行投票, 並決定每個Scenario的(H, H)標籤
+    		- 每人 (0.3 * #Scenarios) 的票
+    	2. Analyse architectural approaches
+    		- 分析從上一步所決定的Scenario對體系結構的影響
+    	3. Present results
+    		- 概括和總結ATAM的所有步驟
 - Phase 3: 為客戶撰寫最終的報告
 
 ### 4. Conceptual Flow
