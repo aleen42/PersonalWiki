@@ -14,7 +14,7 @@ var MyComponent = React.createClass({
     
     render: function () {
         return (
-            <div dangerouslySetInnerHTML={createMarkup} ></div>
+            <div dangerouslySetInnerHTML={createMarkup()} ></div>
         );
     }
 });
