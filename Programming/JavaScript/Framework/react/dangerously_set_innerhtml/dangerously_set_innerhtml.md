@@ -18,4 +18,9 @@ var MyComponent = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <MyComponent />,
+    document.getElementById('content')
+);
 {%endace%}
