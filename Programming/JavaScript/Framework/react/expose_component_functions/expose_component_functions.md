@@ -49,4 +49,9 @@ var Todos = React.createClass({
         );
     }
 });
+
+ReactDOM.render(
+    <Todos />,
+    document.getElementById('cotent')
+);
 {%endace%}
