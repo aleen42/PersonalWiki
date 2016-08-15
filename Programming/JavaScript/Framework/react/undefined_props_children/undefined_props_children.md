@@ -28,7 +28,7 @@ Of course, if you want to access children of your own component, you can use `re
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 var MyComponent = React.createClass({
     componentDidMount: function () {
-        console.log(this.refs.child__elem);   /** => undefined */
+        console.log(this.refs.child__elem);   /** => <span></span> */
     },
 
     render: function () {
