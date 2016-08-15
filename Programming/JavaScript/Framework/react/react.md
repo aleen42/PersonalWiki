@@ -46,3 +46,4 @@
 - [**Communicate Between Components**](./communication_between_components/communication_between_components.md)
 - [**Expose Component Functions**](./expose_component_functions/expose_component_functions.md)
 - [**this.props.children undefined**](./undefined_props_children/undefined_props_children.md)
+- [**Use React with other libraris**](./use_react_with_other_libraries/use_react_with_other_libraries.md)
