@@ -16,18 +16,19 @@
 		- 為了達到**性能**要求, 不得不在底層通信組件中使用彙編語言, 但此組件不再具有**移植性**
 
 ### 1. Purpose of ATAM
-- 1. 引導涉眾發現系統中的權衡點, 風險等信息:
+1. 引導涉眾發現系統中的權衡點, 風險等信息:
 	- helps stakeholders to **ask the right questions** to discover potentially **problematic** architectural decisions.
 	- discovered **risks** can be made the focus of mitigation(緩解) activities.
 	- **tradeoffs** can be explicitly identified and documented.
-- 2. 如果能預知風險, 則可在後期加以注意和控制
+2. 如果能預知風險, 則可在後期加以注意和控制
 
 ### 2. Benefits
-- 1. 識別風險
-- 2. 澄清質量屬性需求
-- 3. 改進文檔
-- 4. 記錄結構化設計決定
-- 5. 增進溝通
+
+1. 識別風險
+2. 澄清質量屬性需求
+3. 改進文檔
+4. 記錄結構化設計決定
+5. 增進溝通
 
 ### 3. Phase
 
