@@ -22,7 +22,7 @@ function U2A(str) {
     var code = str.match(/&#(d+);/g);
     
     if (code === null) {
-        return;
+        return str;
     }
 }
 ```
