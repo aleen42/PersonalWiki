@@ -86,6 +86,7 @@ function ajax(obj) {
         xhr.send(null);
     }
     
+    /** whther it's sync */
     if (!obj.async) {
         callback();
     }
