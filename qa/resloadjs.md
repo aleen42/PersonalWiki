@@ -35,7 +35,7 @@
                 this.option[i] = config[i];
             }
         } else {
-            alert('参数错误！');
+            alert('error parameters');
             return;
         }
         this.status = 0; //加载器的状态，0：未启动   1：正在加载   2：加载完毕
