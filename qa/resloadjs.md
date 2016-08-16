@@ -1,6 +1,6 @@
 ## How to preload resources with JavaScript [Back](./qa.md)
 
-### 1.  A resource loader class
+### 1.  A image resource loader class
 
 ```js
 (function (root, factory) {
