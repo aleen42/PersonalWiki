@@ -59,6 +59,7 @@ function ajax(obj) {
         obj.url += '&' + obj.data;
     }
     
-
+    /** whether it's sync */
+    
 }
 ```
