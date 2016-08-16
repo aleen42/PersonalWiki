@@ -7,3 +7,5 @@
 ```js
 var xhr = new XMLHttpRequest();
 ```
+
+### 2. create a GET request
