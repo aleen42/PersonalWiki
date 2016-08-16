@@ -5,7 +5,7 @@
 - Time: Jun, 8th, 2015
 - Updated: Mar, 25th, 2016
 
-## <a name='preface'>前言</a> ##
+## <a name='preface'>前言</a>
 
 
 [只看问题点这里 ](http://markyun.github.io/2015/Front-end-Developer-Questions/ "Questions")
