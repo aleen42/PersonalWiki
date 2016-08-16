@@ -8,7 +8,7 @@
         /** AMD style */
         define(factory);
     } else if (typeof exports === 'object') {
-        //Node, CommonJS之类的
+        /** Node, CommonJS style */
         module.exports = factory();
     } else {
         //浏览器全局变量(root 即 window)
