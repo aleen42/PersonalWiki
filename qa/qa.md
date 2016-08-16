@@ -45,7 +45,7 @@
 - [**How to create a AJAX request wih XHR**](./../Programming/JavaScript/web_api/xhr/xhr.md#2-create-a-ajax-request-with-xhr)
 - [**How to convert string between Unicode and Ascii with JavaScript**](./uta_atu.md)
 - [**How to get current timestamp with JavaScript**](./timestamp.md)
-- **How to preload resources with JavaScript**
+- [**How to preload resources with JavaScript**](./resloadjs.md)
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
 - [**Differences between &lt;link&gt; and &#64;import**](./difference_between_link_and_import.md)
