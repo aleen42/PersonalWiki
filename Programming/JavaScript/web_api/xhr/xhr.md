@@ -12,6 +12,7 @@ var xhr = new XMLHttpRequest();
 
 ```js
 function createXHR() {
+    if (XMLHttpRequest) {
     
 }
 
