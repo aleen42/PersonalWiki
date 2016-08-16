@@ -1,1 +1,1 @@
-## How to convert JSON to Markdown [Back](./qa.md)
+## How to preload resources with JavaScript [Back](./qa.md)
