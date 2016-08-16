@@ -101,5 +101,8 @@ ajax({
     success: function (data) {
         console.log(data);
     },
+    error: function (status, errMsg) {
+        console.log(errMsg);
+    }
 });
 ```
