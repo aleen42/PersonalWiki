@@ -387,6 +387,7 @@
             * [How to convert JSON to Markdown](./qa/convert_json_to_md.md)
             * [How to use powerful rem with responsive web app development](./qa/rem.md)
             * [How to know the valueOf() method](./qa/value_of.md)
+            * [How to convert string between Unicode and Ascii with JavaScript](./qa/uta_atu.md)
             * [Something about !DOCTYPE](./qa/doctype.md)
             * [Something about iframe](./qa/iframe.md)
             * [Differences between link and import](./qa/difference_between_link_and_import.md)
