@@ -18,6 +18,7 @@
     var isFunc = function(f){
         return typeof f === 'function';
     }
+    
     //构造器函数
     function resLoader(config){
         this.option = {
