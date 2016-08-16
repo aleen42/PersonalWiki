@@ -41,6 +41,8 @@ function param(obj) {
     for (var i in data) {
         arr.push(encodeURIComponent(i) + "=" + encodeURIComponent(data[i]));
     }
+    
+    return arr.join('&');
 }
 
 function ajax(obj) {
