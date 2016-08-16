@@ -95,6 +95,9 @@ ajax({
     type: 'POST',
     async: true,
     url: 'api/getData',
+    data: {
+        id: 'aleen'
+    },
     success: function (data) {
         console.log(data);
     },
