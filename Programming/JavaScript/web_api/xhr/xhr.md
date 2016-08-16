@@ -76,5 +76,10 @@ function ajax(obj) {
             }
         };
     }
+    
+    /** request */
+    if (obj.type === 'POST') {
+        
+    }
 }
 ```
