@@ -11,7 +11,7 @@
         /** Node, CommonJS style */
         module.exports = factory();
     } else {
-        //浏览器全局变量(root 即 window)
+        /** 浏览器全局变量(root 即 window) */
         root.resLoader = factory(root);
     }
 }(this, function () {
