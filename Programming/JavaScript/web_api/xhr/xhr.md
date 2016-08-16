@@ -59,6 +59,13 @@ function ajax(obj) {
         obj.url += '&' + obj.data;
     }
     
+    /** callback function */
+    function callback() {
+        if (xhr.status === 200) {
+            obj.success(xhr.reponseText);
+        }
+    }
+    
     /** whether it's sync */
     
 }
