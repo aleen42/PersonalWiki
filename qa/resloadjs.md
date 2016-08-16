@@ -84,15 +84,16 @@
         if (isFunc(this.option.onProgress)) {
             this.option.onProgress(++this.currentIndex, this.total);
         }
-        //加载完毕
-        if(this.currentIndex===this.total){
-            if(isFunc(this.option.onComplete)){
+        
+        /** 加载完毕 */
+        if (this.currentIndex===this.total) {
+            if (isFunc(this.option.onComplete)) {
                 this.option.onComplete(this.total);
             }
         }
     }
 
-    //暴露公共方法
+    /** 暴露公共方法 */
     return resLoader;
 }));
 ```
