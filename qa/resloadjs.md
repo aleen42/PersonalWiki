@@ -97,3 +97,5 @@
     return resLoader;
 }));
 ```
+
+### 2. Useage
