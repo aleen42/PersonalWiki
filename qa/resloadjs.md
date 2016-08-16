@@ -135,3 +135,15 @@ Or within a html `meta` tag:
 ```html
 <meta http-equiv="Link" content="</assets/my-preloaded-image.png>; rel=prefetch">
 ```
+
+Of course you can prefetch the next page you know:
+
+```html
+<link rel="next" href="2.html">
+```
+
+#### IE 11
+
+```html
+
+```
