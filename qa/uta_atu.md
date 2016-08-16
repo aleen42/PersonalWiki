@@ -13,3 +13,11 @@ function A2U(str) {
     return reserved;
 }
 ```
+
+### Unicode to Ascii
+
+```js
+function U2A(str) {
+    
+}
+```
