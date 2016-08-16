@@ -13,3 +13,7 @@ console.log(new Date().getTime());      /** => 1280977330748 */
 
 console.log((new Date()).valueOf());    /** => 1280977330748 */
 ```
+
+### Convert timestamp into a date
+
+
