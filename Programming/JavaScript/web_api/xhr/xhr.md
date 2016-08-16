@@ -56,7 +56,7 @@ function ajax(obj) {
     
     /** whether it's GET */
     if (obj.type === 'GET') {
-        
+        obj.url += '&' + obj.data;
     }
 }
 ```
