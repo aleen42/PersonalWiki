@@ -13,7 +13,9 @@ var xhr = new XMLHttpRequest();
 ```js
 function createXHR() {
     if (XMLHttpRequest) {
-    
+        /** not IE 6 */
+    } else if (ActiveXObject) {
+    }
 }
 
 function ajax(obj) {
