@@ -24,7 +24,11 @@ function createXHR() {
         ];
         
         for (var i = 0; i < versions.length; i++) {
-            
+            try {
+                return new ActiveXObject(version);
+            } catch (e) {
+                /** ignore */
+            }
         }
     }
 }
