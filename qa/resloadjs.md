@@ -31,11 +31,10 @@
         }
         
         if (config) {
-            for(i in config){
+            for (i in config) {
                 this.option[i] = config[i];
             }
-        }
-        else{
+        } else {
             alert('参数错误！');
             return;
         }
