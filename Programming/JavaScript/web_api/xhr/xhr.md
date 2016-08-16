@@ -63,6 +63,8 @@ function ajax(obj) {
     function callback() {
         if (xhr.status === 200) {
             obj.success(xhr.reponseText);
+        } else {
+            obj.error(xhr.status, xhr.statusText);
         }
     }
     
