@@ -29,7 +29,8 @@
             onProgress : null,          /** 正在加载回调函数，传入参数currentIndex, total */
             onComplete : null           /** 加载完毕回调函数，传入参数total */
         }
-        if(config){
+        
+        if (config) {
             for(i in config){
                 this.option[i] = config[i];
             }
