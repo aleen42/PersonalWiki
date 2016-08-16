@@ -80,8 +80,8 @@
         }
     }
 
-    resLoader.prototype.loaded = function(){
-        if(isFunc(this.option.onProgress)){
+    resLoader.prototype.loaded = function () {
+        if (isFunc(this.option.onProgress)) {
             this.option.onProgress(++this.currentIndex, this.total);
         }
         //加载完毕
