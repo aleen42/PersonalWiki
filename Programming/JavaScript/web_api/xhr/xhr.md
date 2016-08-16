@@ -92,3 +92,15 @@ function ajax(obj) {
     }
 }
 ```
+
+#### 3. use AJAX to request resourcs
+
+```js
+ajax({
+    type: 'POST',
+    async: true,
+    success: function (data) {
+        console.log(data);
+    },
+});
+```
