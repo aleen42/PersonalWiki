@@ -41,5 +41,5 @@ Date.prototype.format = function (format) {
     return format;
 }
 
-console.log(new Date(timestamp * 1000).format('yyyy-MM-dd hh:mm:ss');
+console.log(new Date(timestamp * 1000).format('yyyy-MM-dd hh:mm:ss'));
 ```
