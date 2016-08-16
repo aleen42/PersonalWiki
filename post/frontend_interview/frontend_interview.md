@@ -1790,13 +1790,3 @@ jQuery中没有提供这个功能，所以你需要先编写两个jQuery的扩�
 4. [JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
 
 5. [ECMAScript 6入门](http://es6.ruanyifeng.com/)
-
-
-
-
-
-###更新时间:  2016-3-25
-
-	爱机车、爱骑行、爱旅行、爱摄影、爱阅读的前端开发攻城师。
-
-	我的微博：http://weibo.com/920802999
