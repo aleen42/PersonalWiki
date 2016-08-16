@@ -4,3 +4,4 @@ Here I want to list certain Web APIs for writing JavaScript. This list is based 
 
 - [**WebSocket**](./websocket/websocket.md)
 - [**Worker**](./worker/worker.md)
+- **XMLHttpRequest**
