@@ -6,4 +6,8 @@
 console.log(Date.parse(new Date()));
 ```
 
-### Accurate to Milliseconds.
+### Accurate to Milliseconds
+
+```js
+console.log(new Date().getTime());
+```
