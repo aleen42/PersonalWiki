@@ -38,7 +38,9 @@
             alert('error parameters');
             return;
         }
-        this.status = 0; //加载器的状态，0：未启动   1：正在加载   2：加载完毕
+        
+        /** 加载器的状态，0：未启动   1：正在加载   2：加载完毕 */
+        this.status = 0;
         this.total = this.option.resources.length || 0; //资源总数
         this.currentIndex = 0; //当前正在加载的资源索引
     };
