@@ -388,6 +388,8 @@
             * [How to use powerful rem with responsive web app development](./qa/rem.md)
             * [How to know the valueOf() method](./qa/value_of.md)
             * [How to convert string between Unicode and Ascii with JavaScript](./qa/uta_atu.md)
+            * [How to get current timestamp with JavaScript](./qa/timestamp.md)
+            * [How to preload resources with JavaScript](./qa/resloadjs.md)
             * [Something about !DOCTYPE](./qa/doctype.md)
             * [Something about iframe](./qa/iframe.md)
             * [Differences between link and import](./qa/difference_between_link_and_import.md)
