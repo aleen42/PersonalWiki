@@ -11,7 +11,11 @@ var xhr = new XMLHttpRequest();
 ### 2. create a AJAX request with XHR
 
 ```js
-function ajax(obj) {
+function createXHR() {
     
+}
+
+function ajax(obj) {
+    var xhr = 
 }
 ```
