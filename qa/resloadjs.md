@@ -149,3 +149,7 @@ Of course you can prefetch the next page you know:
 <link rel="dns-prefetch" href="http://example.com/"/>
 <link rel="prerender" href="http://example.com/nextpage.html" />
 ```
+
+#### Chrome
+
+Chrome also does the same things as both Firefox and IE.
