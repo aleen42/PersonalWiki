@@ -25,7 +25,7 @@ function createXHR() {
         
         for (var i = 0; i < versions.length; i++) {
             try {
-                return new ActiveXObject(version);
+                return new ActiveXObject(version[i]);
             } catch (e) {
                 /** ignore */
             }
