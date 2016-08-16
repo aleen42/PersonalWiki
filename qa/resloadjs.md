@@ -43,8 +43,10 @@
         this.status = 0;
         
         /** 资源总数 */
-        this.total = this.option.resources.length || 0; 
-        this.currentIndex = 0; //当前正在加载的资源索引
+        this.total = this.option.resources.length || 0;
+        
+        /** 当前正在加载的资源索引 */
+        this.currentIndex = 0;
     };
 
     resLoader.prototype.start = function(){
