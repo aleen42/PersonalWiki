@@ -74,7 +74,8 @@
             
             image.src = url;
         }
-        if(isFunc(this.option.onStart)){
+        
+        if (isFunc(this.option.onStart)) {
             this.option.onStart(this.total);
         }
     }
