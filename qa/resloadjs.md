@@ -71,6 +71,7 @@
             image.onerror = function () {
                 _this.loaded();
             };
+            
             image.src = url;
         }
         if(isFunc(this.option.onStart)){
