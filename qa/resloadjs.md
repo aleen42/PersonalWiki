@@ -26,7 +26,7 @@
             baseUrl : './',             /** 基准url */
             resources : [],             /** 资源路径数组 */
             onStart : null,             /** 加载开始回调函数，传入参数total */
-            onProgress : null, //正在加载回调函数，传入参数currentIndex, total
+            onProgress : null,          /** 正在加载回调函数，传入参数currentIndex, total */
             onComplete : null //加载完毕回调函数，传入参数total
         }
         if(config){
