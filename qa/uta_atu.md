@@ -9,5 +9,7 @@ function A2U(str) {
     for (var i = 0; i < str.length; i++) {
         reserved += '&#' + str.charCodeAt(i) + ';';
     }
+    
+    return reserved;
 }
 ```
