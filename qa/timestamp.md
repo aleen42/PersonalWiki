@@ -37,6 +37,7 @@ Date.prototype.format = function (format) {
             format = format.replace(RegExp.$1, RegExp.$1.length == 1 ? date[k] : ('00' + date[k]).substr(('' + date[k]).length));
         }
     }
+    
     return format;
 }
 ```
