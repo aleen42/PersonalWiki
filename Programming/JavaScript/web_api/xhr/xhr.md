@@ -80,6 +80,7 @@ function ajax(obj) {
     /** request */
     if (obj.type === 'POST') {
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send(obj.data）；
     } else if (obj.type === 'GET') {
         obj.url += '&' + obj.data;
         xhr.send(null);
