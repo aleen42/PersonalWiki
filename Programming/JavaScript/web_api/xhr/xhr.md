@@ -54,11 +54,9 @@ function ajax(obj) {
     /** escape parameters */
     obj.data = param(obj.data);
     
-    /** GET or POST */
+    /** whether it's GET */
     if (obj.type === 'GET') {
         
-    } else if (obj.type === 'POST') {
-    
     }
 }
 ```
