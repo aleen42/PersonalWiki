@@ -49,7 +49,7 @@
         this.currentIndex = 0;
     };
 
-    resLoader.prototype.start = function(){
+    resLoader.prototype.start = function () {
         this.status = 1;
         var _this = this;
         var baseUrl = this.option.baseUrl;
