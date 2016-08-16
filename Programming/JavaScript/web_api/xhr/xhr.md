@@ -39,6 +39,6 @@ function ajax(obj) {
     var xhr = creatXHR();
     
     /** clear cache */
-    obj.url = obj.url.indexOf('?') > 0 ? obj.url + '?_=' + new Date().getTime() : obj.url + '&_=' + new Date().getTime()
+    obj.url = obj.url.indexOf('?') > 0 ? obj.url + '&_=' + new Date().getTime() : obj.url + '?_=' + new Date().getTime()
 }
 ```
