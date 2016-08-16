@@ -54,5 +54,6 @@ function ajax(obj) {
     /** escape parameters */
     obj.data = param(obj.data);
     
+    /** GET or POST */
 }
 ```
