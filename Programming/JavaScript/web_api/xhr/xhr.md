@@ -68,7 +68,7 @@ function ajax(obj) {
         }
     }
     
-    /** whether it's sync */
+    /** whether it's async */
     
 }
 ```
