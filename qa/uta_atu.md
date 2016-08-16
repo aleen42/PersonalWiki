@@ -26,7 +26,7 @@ function U2A(str) {
     }
     
     for (var i = 0; i < code.length; i++) {
-        
+        reserved += String.fromCharCode(code[i].replace(/[&#;]/g, ''));
     }
 }
 ```
