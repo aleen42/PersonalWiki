@@ -18,6 +18,11 @@ function A2U(str) {
 
 ```js
 function U2A(str) {
+    var reserved = '';
+    var code = str.match(/&#(d+);/g);
     
+    if (code === null) {
+        return;
+    }
 }
 ```
