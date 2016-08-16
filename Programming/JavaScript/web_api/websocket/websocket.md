@@ -320,7 +320,7 @@ The format of a Received Data Frame
 +---------------------------------------------------------------+
 ```
 
-#### 2. new a object
+#### 2. new an object
 
 ```php
 <?php
