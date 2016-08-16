@@ -14,8 +14,10 @@ var xhr = new XMLHttpRequest();
 function createXHR() {
     if (XMLHttpRequest) {
         /** not IE 6 */
+        return new XMLHttpRequest();
     } else if (ActiveXObject) {
         /** IE 6 */
+        
     }
 }
 
