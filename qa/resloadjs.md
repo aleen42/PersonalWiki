@@ -145,5 +145,7 @@ Of course you can prefetch the next page you know:
 #### IE 11
 
 ```html
-
+<link rel="prefetch" href="http://example.com/style.css" />
+<link rel="dns-prefetch" href="http://example.com/"/>
+<link rel="prerender" href="http://example.com/nextpage.html" />
 ```
