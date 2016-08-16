@@ -113,3 +113,25 @@ var loader = new resLoader({
     }
 });
 ```
+
+### 3. Prefetching
+
+#### Firefox
+
+As per MDN, you can use the `<link>` tags in head of the document,
+
+```html
+<link rel="prefetch" href="/assets/my-preloaded-image.png">
+```
+
+Also can be set into a request header:
+
+```
+Link: </assets/my-preloaded-image.png>; rel=prefetch
+```
+
+Or within a html `meta` tag:
+
+```html
+<meta http-equiv="Link" content="</assets/my-preloaded-image.png>; rel=prefetch">
+```
