@@ -23,6 +23,9 @@ function createXHR() {
             'MSXML2.XMLHttp'
         ];
         
+        for (var i = 0; i < versions.length; i++) {
+            
+        }
     }
 }
 
