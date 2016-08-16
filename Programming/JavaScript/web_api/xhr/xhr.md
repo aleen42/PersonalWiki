@@ -36,6 +36,6 @@ function createXHR() {
 }
 
 function ajax(obj) {
-    var xhr = 
+    var xhr = creatXHR();
 }
 ```
