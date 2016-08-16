@@ -15,12 +15,12 @@
         root.resLoader = factory(root);
     }
 }(this, function () {
-    var isFunc = function(f){
+    var isFunc = function (f) {
         return typeof f === 'function';
     }
     
     /** 构造器函数 */
-    function resLoader(config){
+    function resLoader(config) {
         this.option = {
             resourceType : 'image', //资源类型，默认为图片
             baseUrl : './', //基准url
