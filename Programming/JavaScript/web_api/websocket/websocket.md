@@ -4,7 +4,7 @@ We use **WebSocket** to create a connection between **Client** and **Server**, t
 
 ### Client (JavaScript)
 
-#### 1. new a object
+#### 1. new an object
 
 ```js
 /**
