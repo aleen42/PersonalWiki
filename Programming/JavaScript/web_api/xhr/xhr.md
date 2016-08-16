@@ -30,6 +30,8 @@ function createXHR() {
                 /** ignore */
             }
         }
+    } else {
+        throw new Error('Failed to create XHR');
     }
 }
 
