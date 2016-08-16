@@ -98,7 +98,7 @@
 }));
 ```
 
-### 2. Useage
+### 2. Usage
 
 ```js
 var loader = new resLoader({
