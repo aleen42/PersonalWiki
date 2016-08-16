@@ -97,7 +97,7 @@
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
                 * [Worker](./Programming/JavaScript/web_api/worker/worker.md)
-                * [**XMLHttpRequest**](./Programming/JavaScript/web_api/xhr/xhr.md)
+                * [XMLHttpRequest](./Programming/JavaScript/web_api/xhr/xhr.md)
             * [WebGL](./Programming/JavaScript/webgl/webgl.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
