@@ -94,6 +94,7 @@ function ajax(obj) {
 ajax({
     type: 'POST',
     async: true,
+    url: 'api/getData',
     success: function (data) {
         console.log(data);
     },
