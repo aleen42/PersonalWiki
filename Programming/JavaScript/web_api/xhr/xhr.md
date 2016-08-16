@@ -52,7 +52,7 @@ function ajax(obj) {
     obj.url = obj.url.indexOf('?') > 0 ? obj.url + '&_=' + new Date().getTime() : obj.url + '?_=' + new Date().getTime();
     
     /** escape parameters */
-    
+    obj.data = param(obj.data);
     
 }
 ```
