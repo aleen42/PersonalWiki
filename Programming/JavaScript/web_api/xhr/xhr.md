@@ -85,5 +85,9 @@ function ajax(obj) {
         obj.url += '&' + obj.data;
         xhr.send(null);
     }
+    
+    if (!obj.async) {
+        callback();
+    }
 }
 ```
