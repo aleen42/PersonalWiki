@@ -24,5 +24,9 @@ function U2A(str) {
     if (code === null) {
         return str;
     }
+    
+    for (var i = 0; i < code.length; i++) {
+        
+    }
 }
 ```
