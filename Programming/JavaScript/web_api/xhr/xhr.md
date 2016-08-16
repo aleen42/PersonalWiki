@@ -69,6 +69,12 @@ function ajax(obj) {
     }
     
     /** whether it's async */
-    
+    if (obj.async) {
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                callback();
+            }
+        };
+    }
 }
 ```
