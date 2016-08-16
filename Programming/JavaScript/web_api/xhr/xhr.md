@@ -56,7 +56,7 @@ function ajax(obj) {
     
     /** whether it's GET */
     if (obj.type === 'GET') {
-        obj.url += '&' + obj.data;
+        
     }
     
     /** callback function */
@@ -79,7 +79,10 @@ function ajax(obj) {
     
     /** request */
     if (obj.type === 'POST') {
-        
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    } else if (obj.type === 'GET') {
+        obj.url += '&' + obj.data;
+        xhr.send(null);
     }
 }
 ```
