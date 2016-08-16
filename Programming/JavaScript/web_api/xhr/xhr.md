@@ -54,11 +54,6 @@ function ajax(obj) {
     /** escape parameters */
     obj.data = param(obj.data);
     
-    /** whether it's GET */
-    if (obj.type === 'GET') {
-        
-    }
-    
     /** callback function */
     function callback() {
         if (xhr.status === 200) {
