@@ -17,6 +17,11 @@ function createXHR() {
         return new XMLHttpRequest();
     } else if (ActiveXObject) {
         /** IE 6 */
+        var version = [
+            'MSXML2.XMLHttp.6.0',
+            'MSXML2.XMLHttp.3.0',
+            'MSXML2.XMLHttp'
+        ];
         
     }
 }
