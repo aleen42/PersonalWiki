@@ -53,7 +53,7 @@
         this.status = 1;
         var _this = this;
         var baseUrl = this.option.baseUrl;
-        for(var i=0,l=this.option.resources.length; i<l; i++){
+        for (var i = 0, l = this.option.resources.length; i < l; i++) {
             var r = this.option.resources[i], url = '';
             if(r.indexOf('http://')===0 || r.indexOf('https://')===0){
                 url = r;
