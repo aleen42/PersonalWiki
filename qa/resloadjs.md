@@ -99,3 +99,28 @@
 ```
 
 ### 2. Useage
+
+```js
+var loader = new resLoader({
+    resources : [
+       'images/bg2.jpg'
+    ],
+    onStart : function (total) {
+    },
+    onProgress : function (current, total) {
+    },
+    onComplete : function (total) {
+       setTimeout(function () {
+            document.getElementById('load').style.opacity = 0;
+    
+            document.querySelectorAll('div.start__btn')[0].addEventListener('click', function () {
+                 run();
+            });
+    
+            setTimeout(function () {
+                 document.querySelectorAll('div.start__btn')[0].style.opacity = 1;
+            }, 800);
+       }, 2000);
+    }
+});
+```
