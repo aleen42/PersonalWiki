@@ -15,6 +15,7 @@ function createXHR() {
     if (XMLHttpRequest) {
         /** not IE 6 */
     } else if (ActiveXObject) {
+        /** IE 6 */
     }
 }
 
