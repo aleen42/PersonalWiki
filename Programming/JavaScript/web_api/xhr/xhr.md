@@ -36,7 +36,11 @@ function createXHR() {
 }
 
 function param(obj) {
+    var arr = [];
     
+    for (var i in data) {
+        arr.push(encodeURIComponent(i) + "=" + encodeURIComponent(data[i]));
+    }
 }
 
 function ajax(obj) {
