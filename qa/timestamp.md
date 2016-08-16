@@ -5,3 +5,5 @@
 ```js
 console.log(Date.parse(new Date()));
 ```
+
+### Accurate to Milliseconds.
