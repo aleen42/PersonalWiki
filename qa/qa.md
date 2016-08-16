@@ -43,6 +43,7 @@
 - [**How to use powerful rem with responsive web app development**](./rem.md)
 - [**How to know the valueOf() method**](./value_of.md)
 - [**How to create a AJAX request wih XHR**](./../Programming/JavaScript/web_api/xhr/xhr.md#2-create-a-ajax-request-with-xhr)
+- [**How to convert string between Unicode and Ascii with JavaScript**](./uta_atu.md)
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
 - [**Differences between &lt;link&gt; and &#64;import**](./difference_between_link_and_import.md)
