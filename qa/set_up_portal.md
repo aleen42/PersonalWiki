@@ -4,6 +4,12 @@
 - Gateway: **WifiDog**
 - Auth Server: **AuthPuppy**
 
+### Process between the router and the server
+
+1. Router: redirect to `/login?gw_id&gw_port&gw_address&url`
+2. Server: access `192.168.1.1/wifidog/auth?token`
+3. Router: redirect to `/auth?stage&mac&gw_id&ip&token`
+
 ### Installation of AuthPuppy
 
 i. Download AuthPuppy from https://launchpad.net/authpuppy
