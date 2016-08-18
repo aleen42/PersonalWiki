@@ -57,4 +57,7 @@ var DoStuff = require('./../doSuff.js').doStuff;
 - Many existed modules (npm)
 - Simple and easy to use
 
-****
+**Cons**
+
+- Blocking calls do not apply well in networks.
+- No parallel reuire of multipe modules
