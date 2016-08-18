@@ -7,3 +7,11 @@
 ```bash
 npm install webpack -g
 ```
+
+### 3. Use in projects
+
+If you want to install and add `webpack` into a projects, you have to add a `package.json` configuration file for `npm` with:
+
+```bash
+npm init
+```
