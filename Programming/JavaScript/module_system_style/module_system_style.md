@@ -78,5 +78,9 @@ define('myModule', ['dependency1', 'dependency2'], function (d1, d2) {
 **Pros**
 
 - Fits the asynchronous request style in networks
-- Parallel loading of multiple m
-- 
+- Parallel loading of multiple modules
+
+**Cons**
+
+- Coding overhead. Hard to read or write.
+
