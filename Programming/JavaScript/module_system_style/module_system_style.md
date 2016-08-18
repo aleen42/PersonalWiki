@@ -104,4 +104,6 @@ module myModule {}
 
 #### Static Analysis
 
+Static Analysis means to find dependencies when compiling modules.
+
 More details can read this [article](./../../../post/modular_js_with_style/modular_js_with_style.md).
