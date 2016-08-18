@@ -62,4 +62,10 @@ var DoStuff = require('./../doSuff.js').doStuff;
 - Blocking calls do not apply well in networks.
 - No parallel require of multiple modules
 
-#### 3. AMD: aynchronous requir
+#### 3. AMD: aynchronous require
+
+```js
+require(['module', './../files.js'], function () {
+    
+});
+```
