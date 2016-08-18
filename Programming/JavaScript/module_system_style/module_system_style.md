@@ -65,7 +65,7 @@ var DoStuff = require('./../doSuff.js').doStuff;
 #### 3. AMD: aynchronous require
 
 ```js
-require(['module', './../files.js'], function () {
+require(['module', './../files.js'], function (module, file) {
     
 });
 ```
