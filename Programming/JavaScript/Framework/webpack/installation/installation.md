@@ -15,3 +15,9 @@ If you want to install and add `webpack` into a projects, you have to add a `pac
 ```bash
 npm init
 ```
+
+Then, add into this file with:
+
+```bash
+npm install webpack --save-dev
+```
