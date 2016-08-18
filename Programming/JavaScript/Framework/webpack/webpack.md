@@ -1,3 +1,3 @@
 ## Webpack [Back](./../Framework.md)
 
-![](./what-is-webpack.png.png)
+![](./what-is-webpack.png)
