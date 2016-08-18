@@ -60,4 +60,4 @@ var DoStuff = require('./../doSuff.js').doStuff;
 **Cons**
 
 - Blocking calls do not apply well in networks.
-- No parallel require of multipe modules
+- No parallel require of multiple modules
