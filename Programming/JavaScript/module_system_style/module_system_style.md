@@ -102,4 +102,4 @@ module myModule {}
 - Native browser support will take time
 - Few existed module in this style
 
-More details can read this [article](./../../../post//modular_js_with_style/modular_js_with_style.md).
+More details can read this [article](./../../../post/modular_js_with_style/modular_js_with_style.md).
