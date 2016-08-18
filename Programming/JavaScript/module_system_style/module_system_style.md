@@ -66,6 +66,6 @@ var DoStuff = require('./../doSuff.js').doStuff;
 
 ```js
 require(['module', './../files.js'], function (module, file) {
-    
+    /** ... */
 });
 ```
