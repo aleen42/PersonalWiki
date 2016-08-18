@@ -120,6 +120,7 @@
                 * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
                 * [Shim and Polyfills](./Programming/JavaScript/shim_and_polyfills/shim_and_polyfills.md)
                 * [Strict Mode](./Programming/JavaScript/strict_mode/strict_mode.md)
+                * [Module System Style](./Programming/JavaScript/module_system_style/module_system_style.md)
                 * [ES6 features](./Programming/JavaScript/es6/es6.md)
                     * [Promise](./Programming/JavaScript/es6/promise/promise.md)
                     * [Spread Operators](./Programming/JavaScript/es6/spread_operators/spread_operators.md)
