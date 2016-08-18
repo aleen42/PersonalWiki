@@ -36,4 +36,5 @@ Modules export an interface to the global object, i.e. the `window` object.
 - Conflicts in the global object
 - Order of loading can be refusing
 - Hard to manage dependencies
-- 
+
+#### 2. CommonJS: synchronous `require`
