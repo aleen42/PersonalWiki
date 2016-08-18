@@ -68,4 +68,8 @@ var DoStuff = require('./../doSuff.js').doStuff;
 require(['module', './../files.js'], function (module, file) {
     /** ... */
 });
+
+define('myModule', ['dependency1', 'dependency2'], function (d1, d2) {
+    /** ... */
+});
 ```
