@@ -8,7 +8,9 @@
 
 1. Router: redirect to `/login?gw_id&gw_port&gw_address&url`
 2. Server: access `192.168.1.1/wifidog/auth?token`
-3. Router: redirect to `/auth?stage&mac&gw_id&ip&token`
+3. Router: redirect to `/auth?stage=login&mac&gw_id&ip&token`
+4. Server: return `Auth: 5`
+5. 
 
 ### Installation of AuthPuppy
 
