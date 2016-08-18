@@ -91,3 +91,13 @@ import 'module';
 export function doStuff() {}
 module myModule {}
 ```
+
+**Pros**
+
+- Static analysis is easy
+- Futre-proof as ES standard
+
+**Cons**
+
+- Native browser support will take time
+- Few existed module
