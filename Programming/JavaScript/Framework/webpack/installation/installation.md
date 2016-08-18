@@ -21,3 +21,11 @@ Then, add into this file with:
 ```bash
 npm install webpack --save-dev
 ```
+
+### Dev Tools
+
+If you want to use dev tools, install it with:
+
+```bash
+npm install webpack-dev-server --save-dev
+```
