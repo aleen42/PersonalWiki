@@ -48,4 +48,5 @@ require('./../file.js');
 exports.doStuff = function () {};
 
 /** require this module */
+var DoStuff = require('./../doSuff.js').doStuff;
 ```
