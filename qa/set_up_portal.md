@@ -11,6 +11,7 @@
 3. Router: redirect to `/auth?stage=login&mac&gw_id&ip&token`
 4. Server: return `Auth: 5`
 5. Router: redirect to `/auth?stage=counters&mac&gw_id&ip&token`
+6. Server: return `Auth: 0` or `Auth: 1`
 
 ### Installation of AuthPuppy
 
