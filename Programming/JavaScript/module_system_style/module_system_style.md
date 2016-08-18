@@ -14,8 +14,10 @@ Module systems offer the option to split your code base into modules.
 
 There are multiple standards for how to define dependencies and export modules:
 
-- `<script>` tag style (without a modular system)
+- `<script>`-tag style (without a modular system)
 - CommonJS
 - AMD
 - ES Harmony
 - ...
+
+#### `<script>`-tag style
