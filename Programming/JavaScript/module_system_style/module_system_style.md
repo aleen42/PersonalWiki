@@ -38,3 +38,5 @@ Modules export an interface to the global object, i.e. the `window` object.
 - Hard to manage dependencies
 
 #### 2. CommonJS: synchronous `require`
+
+Use a synchronous `require` method to load a dependency and return an exported interface. A module can be exported by adding properties to the `exports` object or setting the value of `module.exports`.
