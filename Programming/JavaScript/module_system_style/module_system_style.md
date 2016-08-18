@@ -50,3 +50,9 @@ exports.doStuff = function () {};
 /** require this module */
 var DoStuff = require('./../doSuff.js').doStuff;
 ```
+
+**Pros**
+
+- Server-side modules can be reused
+- Many existed modules (npm)
+- Simple and easy to use
