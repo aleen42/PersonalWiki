@@ -74,3 +74,9 @@ define('myModule', ['dependency1', 'dependency2'], function (d1, d2) {
     return {};
 });
 ```
+
+**Pros**
+
+- Fits the asynchronous request style in networks
+- Parallel loading of multiple m
+- 
