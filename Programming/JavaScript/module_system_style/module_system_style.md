@@ -44,4 +44,6 @@ Use a synchronous `require` method to load a dependency and return an exported i
 ```js
 require('module');
 require('./../file.js');
+
+
 ```
