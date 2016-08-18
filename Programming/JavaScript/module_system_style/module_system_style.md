@@ -28,3 +28,5 @@ There are multiple standards for how to define dependencies and export modules:
 <script src="libraryA.js"></script>
 <script src="module3.js"></script>
 ```
+
+Modules export an interface to the global object, i.e. the `window` object.
