@@ -86,3 +86,8 @@ define('myModule', ['dependency1', 'dependency2'], function (d1, d2) {
 
 #### 3. ES Harmony
 
+```js
+import 'module';
+export function doStuff() {}
+module myModule {}
+```
