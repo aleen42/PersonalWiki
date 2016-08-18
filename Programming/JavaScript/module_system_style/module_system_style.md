@@ -101,3 +101,5 @@ module myModule {}
 
 - Native browser support will take time
 - Few existed module in this style
+
+More details can read this [article](./../../../post/).
