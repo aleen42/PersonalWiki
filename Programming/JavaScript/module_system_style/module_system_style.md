@@ -100,4 +100,4 @@ module myModule {}
 **Cons**
 
 - Native browser support will take time
-- Few existed module
+- Few existed module in this style
