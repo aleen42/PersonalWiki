@@ -94,7 +94,7 @@ module myModule {}
 
 **Pros**
 
-- Static analysis is easy
+- [Static analysis](#static-analysis) is easy
 - Futre-proof as ES standard
 
 **Cons**
