@@ -21,3 +21,10 @@ There are multiple standards for how to define dependencies and export modules:
 - ...
 
 #### `<script>`-tag style
+
+```html
+<script src="module1.js"></script>
+<script src="module2.js"></script>
+<script src="libraryA.js"></script>
+<script src="module3.js"></script>
+```
