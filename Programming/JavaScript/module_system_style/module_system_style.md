@@ -20,7 +20,7 @@ There are multiple standards for how to define dependencies and export modules:
 - ES Harmony
 - ...
 
-#### `<script>`-tag style
+#### 1. `<script>`-tag style
 
 ```html
 <script src="module1.js"></script>
@@ -36,3 +36,4 @@ Modules export an interface to the global object, i.e. the `window` object.
 - Conflicts in the global object
 - Order of loading can be refusing
 - Hard to manage dependencies
+- 
