@@ -84,3 +84,5 @@ define('myModule', ['dependency1', 'dependency2'], function (d1, d2) {
 
 - Coding overhead. Hard to read or write.
 
+#### 3. ES Harmony
+
