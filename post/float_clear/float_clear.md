@@ -36,8 +36,4 @@ Assume that if we set `float: right;` to both `div2` and `div3`, see what happen
 <iframe height='409' scrolling='no' src='//codepen.io/aleen42/embed/jARBAg/?height=409&theme-id=21735&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/jARBAg/'>jARBAg</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
-
-<p data-height="409" data-theme-id="21735" data-slug-hash="jARBAg" data-default-tab="css,result" data-user="aleen42" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/jARBAg/">jARBAg</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
-
 <br />
