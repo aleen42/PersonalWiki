@@ -47,3 +47,12 @@ Assume that if we set `float: right;` to both `div2` and `div3`, see what happen
 `clear` attribute means that a element can clearfloated elements in the left or right, or both.
 
 Before adding `clear`, we can see that a `div4`has `div3` floated in the left side, and `div2` floated in the right.
+
+<br />
+
+<iframe height='409' scrolling='no' src='//codepen.io/aleen42/embed/KrYmwN/?height=409&theme-id=21735&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/KrYmwN/'>KrYmwN</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
+<br />
+
+
