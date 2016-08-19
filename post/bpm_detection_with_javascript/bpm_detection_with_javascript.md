@@ -2,3 +2,10 @@
 
 > - Author: [Joe Sullivan](https://twitter.com/itsjoesullivan)
 - Origin: http://joesul.li/van/beat-detection-using-web-audio/
+
+By [Joe Sullivan](https://twitter.com/itsjoesullivan)
+
+This article explores using the Web Audio API and JavaScript to accomplish beat detection in the browser. Let’s define beat detection as determining (1) the location of significant drum hits within a song in order to (2) establish a tempo, in beats per minute (BPM).
+
+If you’re not familiar with using the WebAudio API and creating buffers, this tutorial will get you up to speed. We’ll use Go from Grimes as our sample track for the examples below.
+
