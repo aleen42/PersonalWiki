@@ -63,3 +63,7 @@ If we set `clear: right;` to `div4`, you'll find that `div4` will follow behind 
 </iframe>
 
 <br />
+
+### Summary
+
+For front-end developer, the difficulty of layout is to put different types of elements into one li
