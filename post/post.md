@@ -16,6 +16,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[轉載] 前端開發面試題**](./frontend_interview/frontend_interview.md)
 - [**[轉載] 22個優質的 React 開源項目**](./22_react_opensrc/22_react_opensrc.md)
 - [**[轉載] 使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript**](./modular_js_with_style/modular_js_with_style.md)
+- [**Something about float and clear in CSS**](./float_clear/float_clear.md)
 
 ### Back-end
 
