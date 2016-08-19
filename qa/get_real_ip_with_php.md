@@ -38,7 +38,7 @@ function getIP()
 
 ### Method from Stack Overflow
 
-The simplest way to get the visitor’s/client’s [IP address](http://en.wikipedia.org/wiki/IP_address) is using the `$_SERVER['REMOTE_ADDR']` or `$_SERVER['REMOTE_HOST']` variables.
+The simplest way to get the visitor's/client's [IP address](http://en.wikipedia.org/wiki/IP_address) is using the `$_SERVER['REMOTE_ADDR']` or `$_SERVER['REMOTE_HOST']` variables.
 
 However, sometimes this does not return the correct IP address of the visitor, so we can use some other server variables to get the IP address.
 
