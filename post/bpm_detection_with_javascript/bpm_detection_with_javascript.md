@@ -928,8 +928,9 @@ Now I'll run a low-, mid-, and high- pass filter over the song and graph the pea
     <rect x="80.87092606906121%" y="0" width="1" height="100%"></rect>
     <rect x="81.49251024036377%" y="0" width="1" height="100%"></rect>
     <rect x="82.29303530946557%" y="0" width="1" height="100%"></rect>
-  </svg>
- <svg width="90%" height="40">
+ </svg>
+
+ <svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="8.872643148244718%" y="0" width="1" height="100%"></rect>
     <rect x="10.29663597704697%" y="0" width="1" height="100%"></rect>
     <rect x="14.659026706552279%" y="0" width="1" height="100%"></rect>
