@@ -346,6 +346,7 @@
             * [[轉載] 22個優質的 React 開源項目](./post/22_react_opensrc/22_react_opensrc.md)
             * [[轉載] 使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript](./post/modular_js_with_style/modular_js_with_style.md)
             * [[原創] Something about float and clear in CSS](./post/float_clear/float_clear.md)
+            * [[轉載] Beat Detection Using JavaScript and the Web Audio API](./post/bpm_detection_with_javascript/bpm_detection_with_javascript.md)
         * Back-end
             * [[轉載] 99%的人都理解錯了HTTP中GET與POST的區別](./post/http_and_get/http_and_get.md)
         * CV (Computer Vision)
