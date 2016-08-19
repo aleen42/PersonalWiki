@@ -66,4 +66,4 @@ If we set `clear: right;` to `div4`, you'll find that `div4` will follow behind 
 
 ### Summary
 
-For front-end developer, the difficulty of layout is to put different types of elements into one line. Both `float` and `clear` have provied you a way to handle it.
+For front-end developer, the difficulty of layout is to put different types of elements into one line. Both `float` and `clear` have provided you a way to handle it.
