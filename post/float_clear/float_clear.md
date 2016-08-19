@@ -1,4 +1,4 @@
-## [原創] 使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript [Back](./../post.md)
+## [原創] Something about float and clear in CSS [Back](./../post.md)
 
 > - Author: [Addy Osmani](http://twitter.com/addyosmani)
 - Translate: [Gu YiLing](http://weibo.com/justineo)
