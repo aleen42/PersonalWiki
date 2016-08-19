@@ -474,4 +474,4 @@ If you’re not familiar with using the WebAudio API and creating buffers, [this
     <rect x="81.49251024036377%" y="0" width="1" height="100%"></rect>
   </svg>
   
-  
+  Presence of "peaks" in a song above 0.8, 0.9, and 0.95 respectively.
