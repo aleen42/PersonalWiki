@@ -20,4 +20,4 @@ CSS have provided an attribute named `float` to allow you to design block elemen
 
 <br/>
 
-`float` attribute can be set as `left` or `right`
+`float` attribute can be set as `left` or `right`, that means you can float this element to the left or right;
