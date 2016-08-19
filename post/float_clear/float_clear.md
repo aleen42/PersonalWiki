@@ -41,3 +41,9 @@ Assume that if we set `float: right;` to both `div2` and `div3`, see what happen
 </iframe>
 
 <br />
+
+### Clear
+
+`clear` attribute means that a element can clearfloated elements in the left or right, or both.
+
+Before adding `clear`, we can see that a `div4`has `div3` floated in the left side, and `div2` floated in the right.
