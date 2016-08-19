@@ -93,7 +93,7 @@
 	
 	**Show**
 
-	[**Click to show**](./example.svg)
+	![](./example.svg)
 
 	- **x/y with opacity**
 	
