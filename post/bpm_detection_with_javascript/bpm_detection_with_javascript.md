@@ -1677,3 +1677,107 @@ The volume of the song at a given measure.
 </svg>
 
 Low-pass peaks, with the height of each bar representing the track volume at that point.
+
+### Let's try something...
+
+I think that the lowpass graph is tracking the drum rhythm well enough that we can now measure the length of a drum pattern and jump from there to tempo. But how to measure the length of a pattern?
+
+Let's draw a histogram listing the average interval of time between peaks:
+
+![](./1.png)
+
+Average interval between peaks in a song.
+This measurement is not just of the closest neighbor but of all neighbors in the vicinity of a given peak.
+
+This is very cool. I didn't expect to see a strong mode emerge, but with 3.42 and 3.42*2 taking first and second place, I think we can make one conclusion: 3.42s is a very important interval in this song!
+
+Just how does 3.42s relate to the tempo? Might it be the length of a measure? Well, a song with measures of length 3.42s would have beats of length 0.855s, of which you can fit 70.175 into a minute. In other words: measure length 3.42s maps to 70BPM.
+
+Of course, the magic number we're looking for is double that: 140. If you double the tempo, you halve the measure length, so the interval we're **looking for** is 1.72s, and as you can see we measured that duration 19 times. Isn't that nice?
+
+```js
+// Function used to return a histogram of peak intervals
+
+function countIntervalsBetweenNearbyPeaks(peaks) {
+    var intervalCounts = [];
+    peaks.forEach(function(peak, index) {
+        for(var i = 0; i < 10; i++) {
+            var interval = peaks[index + i] - peak;
+            var foundInterval = intervalCounts.some(function(intervalCount) {
+                if (intervalCount.interval === interval)
+                    return intervalCount.count++;
+            });
+            if (!foundInterval) {
+                intervalCounts.push({
+                    interval: interval,
+                    count: 1
+                });
+            }
+        }
+    });
+    return intervalCounts;
+}
+```
+
+Let's draw the histogram again, this time grouping by target tempo. Because most dance music is between 90BPM and 180BPM (actually, most dance music is between 120-140BPM), I'll just assume that any interval that suggests a tempo outside of that range is actually representing multiple measures or some other power of 2 of the tempo. So: an interval suggesting a BPM of 70 will be interpreted as 140. (This logical step is probably a good example of why out-of-sample testing is important.)
+
+![](./2.png)
+
+Frequency of intervals grouped by the tempo they suggest.
+
+It's quite clear which candidate is a winner: nearly 10x more intervals point to 140BPM than to its nearest competitor.
+
+```js
+// Function used to return a histogram of tempo candidates.
+
+function groupNeighborsByTempo(intervalCounts) {
+    var tempoCounts = []
+    intervalCounts.forEach(function(intervalCount, i) {
+        // Convert an interval to tempo
+        var theoreticalTempo = 60 / (intervalCount.interval / 44100 );
+
+        // Adjust the tempo to fit within the 90-180 BPM range
+        while (theoreticalTempo < 90) theoreticalTempo *= 2;
+        while (theoreticalTempo > 180) theoreticalTempo /= 2;
+
+        var foundTempo = tempoCounts.some(function(tempoCount) {
+            if (tempoCount.tempo === theoreticalTempo)
+                return tempoCount.count += intervalCount.count;
+        });
+        if (!foundTempo) {
+            tempoCounts.push({
+                tempo: theoreticalTempo,
+                count: intervalCount.count
+            });
+        }
+    });
+}
+```
+
+### Review
+
+As far as I'm concerned, we've now established the tempo of this song. Let's go back over our algorithm before doing some out-of-sample testing:
+
+1. Run the song through a low-pass filter to isolate the kick drum
+2. Identify peaks in the song, which we can interpret as drum hits
+3. Create an array composed of the most common intervals between drum hits
+4. Group the count of those intervals by tempos they might represent.
+    - We assume that any interval is some power-of-two of the length of a measure
+    - We assume the tempo is between 90-180BPM
+5. Select the tempo that the highest number of intervals point to
+
+### Testing
+
+Let's now test it! I'm using for a dataset the [22 Jump Street](https://en.wikipedia.org/wiki/22_Jump_Street) soundtrack because it's full of contemporary dance music. I pulled down the [30-second iTunes previews](https://itunes.apple.com/us/album/22-jump-street-original-motion/id883867721), then grabbed the actual tempos from [Beatport](http://www.beatport.com/release/22-jump-street-original-motion-picture-soundtrack/1323661). Below are the top five guesses for each song. I've highlighted in green where a guess matches the actual tempo.
+
+![](./3.png)
+
+![](./4.png)
+
+Well, that's pretty reassuring! The algorithm accurately predicts tempo 14 times out of 18 tracks, or 78% of the time.
+
+Furthermore, it looks like there's a strong correlation between # of peaks measured and guess accuracy: there's no instance in which it makes more than three observations of the correct tempo where it doesn't place the correct tempo in the top two guesses. That suggests to me that (1) our assumptions about the relationship between neighboring peaks and tempo are correct and (2) by tweaking the algorithm to surface more peaks we can increase its accuracy.
+
+There's an interesting pattern present in **wasted**, **midnight-city**, and **express-yourself**: the two top tempo candidates are related by a ratio of 4/3, and the lower of the two is correct. In midnight-city, the two are tied, whereas in express-yourself the higher of the two knocks out the actual tempo for the top spot. Listening to each sample, they all have triplets in the drum section, which explains the presence of the higher ratio. The algorithm should be tweaked to identify this sympathetic tempos and fold their results into the lower of the two.
+
+However, this article has exhausted its scope. The bottom line is: you can do pretty good beat detection using JavaScript, the Web Audio API, and a couple of rules of thumb.
