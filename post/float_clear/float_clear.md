@@ -7,4 +7,4 @@ As we all know that, a `div` element is a block element, which will occupy the w
 
 Normally, We'll suppose that all those `div` elements have been in a normal standard flow (標準流).
 
-CSS have provided an attribute named `float` to allow you to design block elements into a same line
+CSS have provided an attribute named `float` to allow you to design block elements into a same line.
