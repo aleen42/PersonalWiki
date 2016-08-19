@@ -306,178 +306,177 @@ If you’re not familiar with using the WebAudio API and creating buffers, [this
 <rect x="40.85032337916512%" y="0" width="1" height="100%"></rect>
 <rect x="41.00477762779182%" y="0" width="1" height="100%"></rect>
 <rect x="41.10178243028298%" y="0" width="1" height="100%"></rect>
-    <rect x="41.48980164024761%" y="0" width="1" height="100%"></rect>
-    <rect x="42.52577525908523%" y="0" width="1" height="100%"></rect>
-    <rect x="42.856345022914326%" y="0" width="1" height="100%"></rect>
-    <rect x="43.050354627896645%" y="0" width="1" height="100%"></rect>
-    <rect x="43.44119922045811%" y="0" width="1" height="100%"></rect>
-    <rect x="43.7651764248946%" y="0" width="1" height="100%"></rect>
-    <rect x="44.53744766802809%" y="0" width="1" height="100%"></rect>
-    <rect x="45.23437537524613%" y="0" width="1" height="100%"></rect>
-    <rect x="45.96144049683035%" y="0" width="1" height="100%"></rect>
-    <rect x="47.32515849690023%" y="0" width="1" height="100%"></rect>
-    <rect x="48.123799977604136%" y="0" width="1" height="100%"></rect>
-    <rect x="49.363201143413505%" y="0" width="1" height="100%"></rect>
-    <rect x="50.1703187719079%" y="0" width="1" height="100%"></rect>
-    <rect x="50.519724419715864%" y="0" width="1" height="100%"></rect>
-    <rect x="50.67041149154679%" y="0" width="1" height="100%"></rect>
-    <rect x="50.994388695983275%" y="0" width="1" height="100%"></rect>
-    <rect x="51.15449370980364%" y="0" width="1" height="100%"></rect>
-    <rect x="51.32966743080709%" y="0" width="1" height="100%"></rect>
-    <rect x="51.51614268219786%" y="0" width="1" height="100%"></rect>
-    <rect x="51.62256542667845%" y="0" width="1" height="100%"></rect>
-    <rect x="52.094404320349035%" y="0" width="1" height="100%"></rect>
-    <rect x="52.21307038941589%" y="0" width="1" height="100%"></rect>
-    <rect x="52.30913339770811%" y="0" width="1" height="100%"></rect>
-    <rect x="52.58319550960061%" y="0" width="1" height="100%"></rect>
-    <rect x="53.02395519470606%" y="0" width="1" height="100%"></rect>
-    <rect x="54.18518744200314%" y="0" width="1" height="100%"></rect>
-    <rect x="54.35471039781293%" y="0" width="1" height="100%"></rect>
-    <rect x="54.460191348094575%" y="0" width="1" height="100%"></rect>
-    <rect x="54.59015894754875%" y="0" width="1" height="100%"></rect>
-    <rect x="54.717301164406095%" y="0" width="1" height="100%"></rect>
-    <rect x="55.08930987298869%" y="0" width="1" height="100%"></rect>
-    <rect x="55.21362670724921%" y="0" width="1" height="100%"></rect>
-    <rect x="55.34171071830549%" y="0" width="1" height="100%"></rect>
-    <rect x="55.450958845382914%" y="0" width="1" height="100%"></rect>
-    <rect x="55.60541309400961%" y="0" width="1" height="100%"></rect>
-    <rect x="55.79471372799722%" y="0" width="1" height="100%"></rect>
-    <rect x="55.89736929568203%" y="0" width="1" height="100%"></rect>
-    <rect x="56.14129399320835%" y="0" width="1" height="100%"></rect>
-    <rect x="56.30704977222236%" y="0" width="1" height="100%"></rect>
-    <rect x="56.48881605261842%" y="0" width="1" height="100%"></rect>
-    <rect x="56.636677741852516%" y="0" width="1" height="100%"></rect>
-    <rect x="56.76570354710775%" y="0" width="1" height="100%"></rect>
-    <rect x="56.92109958993339%" y="0" width="1" height="100%"></rect>
-    <rect x="57.04730001259179%" y="0" width="1" height="100%"></rect>
-    <rect x="57.217764762600524%" y="0" width="1" height="100%"></rect>
-    <rect x="57.32230391868323%" y="0" width="1" height="100%"></rect>
-    <rect x="57.501244816482455%" y="0" width="1" height="100%"></rect>
-    <rect x="57.80261896014431%" y="0" width="1" height="100%"></rect>
-    <rect x="57.91280888142067%" y="0" width="1" height="100%"></rect>
-    <rect x="58.189696375909996%" y="0" width="1" height="100%"></rect>
-    <rect x="58.29894450298742%" y="0" width="1" height="100%"></rect>
-    <rect x="58.48259437178136%" y="0" width="1" height="100%"></rect>
-    <rect x="58.6248052958218%" y="0" width="1" height="100%"></rect>
-    <rect x="58.74535495328654%" y="0" width="1" height="100%"></rect>
-    <rect x="58.90734355550479%" y="0" width="1" height="100%"></rect>
-    <rect x="59.71351938980024%" y="0" width="1" height="100%"></rect>
-    <rect x="59.83595263566286%" y="0" width="1" height="100%"></rect>
-    <rect x="59.97910535390225%" y="0" width="1" height="100%"></rect>
-    <rect x="60.09871321716805%" y="0" width="1" height="100%"></rect>
-    <rect x="60.22962261082116%" y="0" width="1" height="100%"></rect>
-    <rect x="60.37277532906054%" y="0" width="1" height="100%"></rect>
-    <rect x="60.65060461774881%" y="0" width="1" height="100%"></rect>
-    <rect x="60.76079453902518%" y="0" width="1" height="100%"></rect>
-    <rect x="60.95668773240538%" y="0" width="1" height="100%"></rect>
-    <rect x="61.093247891252155%" y="0" width="1" height="100%"></rect>
-    <rect x="61.2203901081095%" y="0" width="1" height="100%"></rect>
-    <rect x="61.31927849899854%" y="0" width="1" height="100%"></rect>
-    <rect x="61.49068504320623%" y="0" width="1" height="100%"></rect>
-    <rect x="61.74214409432408%" y="0" width="1" height="100%"></rect>
-    <rect x="61.92391037472014%" y="0" width="1" height="100%"></rect>
-    <rect x="62.07459744655106%" y="0" width="1" height="100%"></rect>
-    <rect x="62.24694578495768%" y="0" width="1" height="100%"></rect>
-    <rect x="62.461674862316755%" y="0" width="1" height="100%"></rect>
-    <rect x="62.55679607641002%" y="0" width="1" height="100%"></rect>
-    <rect x="62.65662626149801%" y="0" width="1" height="100%"></rect>
-    <rect x="62.77246694796804%" y="0" width="1" height="100%"></rect>
-    <rect x="63.00979908610175%" y="0" width="1" height="100%"></rect>
-    <rect x="63.26031634302066%" y="0" width="1" height="100%"></rect>
-    <rect x="63.387458559878006%" y="0" width="1" height="100%"></rect>
-    <rect x="63.561690486682515%" y="0" width="1" height="100%"></rect>
-    <rect x="63.739689590282794%" y="0" width="1" height="100%"></rect>
-    <rect x="63.885667691119004%" y="0" width="1" height="100%"></rect>
-    <rect x="63.988323258803824%" y="0" width="1" height="100%"></rect>
-    <rect x="64.08815344389181%" y="0" width="1" height="100%"></rect>
-    <rect x="64.1964597767703%" y="0" width="1" height="100%"></rect>
-    <rect x="64.4968921262332%" y="0" width="1" height="100%"></rect>
-    <rect x="64.76530347293203%" y="0" width="1" height="100%"></rect>
-    <rect x="65.06385223399705%" y="0" width="1" height="100%"></rect>
-    <rect x="65.30118437213076%" y="0" width="1" height="100%"></rect>
-    <rect x="65.41137429340714%" y="0" width="1" height="100%"></rect>
-    <rect x="65.56488674783489%" y="0" width="1" height="100%"></rect>
-    <rect x="65.68355281690174%" y="0" width="1" height="100%"></rect>
-    <rect x="65.83329809453373%" y="0" width="1" height="100%"></rect>
-    <rect x="66.03860922990336%" y="0" width="1" height="100%"></rect>
-    <rect x="66.22037551029942%" y="0" width="1" height="100%"></rect>
-    <rect x="66.37106258213035%" y="0" width="1" height="100%"></rect>
-    <rect x="66.51044812357395%" y="0" width="1" height="100%"></rect>
-    <rect x="66.60556933766722%" y="0" width="1" height="100%"></rect>
-    <rect x="66.73271155452457%" y="0" width="1" height="100%"></rect>
-    <rect x="66.84949403519353%" y="0" width="1" height="100%"></rect>
-    <rect x="67.01524981420755%" y="0" width="1" height="100%"></rect>
-    <rect x="67.11507999929555%" y="0" width="1" height="100%"></rect>
-    <rect x="67.25069836394337%" y="0" width="1" height="100%"></rect>
-    <rect x="67.41362876036057%" y="0" width="1" height="100%"></rect>
-    <rect x="67.5407709772179%" y="0" width="1" height="100%"></rect>
-    <rect x="67.69145804904883%" y="0" width="1" height="100%"></rect>
-    <rect x="67.88264227143432%" y="0" width="1" height="100%"></rect>
-    <rect x="68.00507551729694%" y="0" width="1" height="100%"></rect>
-    <rect x="68.26595251040423%" y="0" width="1" height="100%"></rect>
-    <rect x="68.43830084881085%" y="0" width="1" height="100%"></rect>
-    <rect x="68.58616253804496%" y="0" width="1" height="100%"></rect>
-    <rect x="68.68316734053612%" y="0" width="1" height="100%"></rect>
-    <rect x="68.78111393722622%" y="0" width="1" height="100%"></rect>
-    <rect x="68.89318744690047%" y="0" width="1" height="100%"></rect>
-    <rect x="69.00431916237578%" y="0" width="1" height="100%"></rect>
-    <rect x="69.09944037646905%" y="0" width="1" height="100%"></rect>
-    <rect x="69.23411694691794%" y="0" width="1" height="100%"></rect>
-    <rect x="69.3292381610112%" y="0" width="1" height="100%"></rect>
-    <rect x="69.43660269969075%" y="0" width="1" height="100%"></rect>
-    <rect x="69.58163900632802%" y="0" width="1" height="100%"></rect>
-    <rect x="69.69747969279804%" y="0" width="1" height="100%"></rect>
-    <rect x="69.80390243727862%" y="0" width="1" height="100%"></rect>
-    <rect x="69.93198644833491%" y="0" width="1" height="100%"></rect>
-    <rect x="70.11940349392464%" y="0" width="1" height="100%"></rect>
-    <rect x="70.3473176900689%" y="0" width="1" height="100%"></rect>
-    <rect x="70.52531679366919%" y="0" width="1" height="100%"></rect>
-    <rect x="70.75228919561452%" y="0" width="1" height="100%"></rect>
-    <rect x="70.90956882683805%" y="0" width="1" height="100%"></rect>
-    <rect x="71.00469004093132%" y="0" width="1" height="100%"></rect>
-    <rect x="71.10734560861614%" y="0" width="1" height="100%"></rect>
-    <rect x="71.21471014729568%" y="0" width="1" height="100%"></rect>
-    <rect x="71.40212719288539%" y="0" width="1" height="100%"></rect>
-    <rect x="71.52926940974274%" y="0" width="1" height="100%"></rect>
-    <rect x="71.74117310450497%" y="0" width="1" height="100%"></rect>
-    <rect x="72.17063125922311%" y="0" width="1" height="100%"></rect>
-    <rect x="72.32602730204876%" y="0" width="1" height="100%"></rect>
-    <rect x="72.42114851614203%" y="0" width="1" height="100%"></rect>
-    <rect x="72.58502070675816%" y="0" width="1" height="100%"></rect>
-    <rect x="72.71122112941656%" y="0" width="1" height="100%"></rect>
-    <rect x="72.95326223854498%" y="0" width="1" height="100%"></rect>
-    <rect x="73.39496371784938%" y="0" width="1" height="100%"></rect>
-    <rect x="73.60027485321902%" y="0" width="1" height="100%"></rect>
-    <rect x="73.76320524963621%" y="0" width="1" height="100%"></rect>
-    <rect x="74.12862139882621%" y="0" width="1" height="100%"></rect>
-    <rect x="74.26612335187193%" y="0" width="1" height="100%"></rect>
-    <rect x="74.37725506734724%" y="0" width="1" height="100%"></rect>
-    <rect x="75.01861691682761%" y="0" width="1" height="100%"></rect>
-    <rect x="75.26725058534865%" y="0" width="1" height="100%"></rect>
-    <rect x="75.80124789614949%" y="0" width="1" height="100%"></rect>
-    <rect x="76.96907270283917%" y="0" width="1" height="100%"></rect>
-    <rect x="77.11410900947644%" y="0" width="1" height="100%"></rect>
-    <rect x="77.22524072495173%" y="0" width="1" height="100%"></rect>
-    <rect x="77.87319513382472%" y="0" width="1" height="100%"></rect>
-    <rect x="78.11523624295315%" y="0" width="1" height="100%"></rect>
-    <rect x="78.40719244462557%" y="0" width="1" height="100%"></rect>
-    <rect x="78.52209133689665%" y="0" width="1" height="100%"></rect>
-    <rect x="78.61815434518886%" y="0" width="1" height="100%"></rect>
-    <rect x="78.71892632447579%" y="0" width="1" height="100%"></rect>
-    <rect x="79.29059540323436%" y="0" width="1" height="100%"></rect>
-    <rect x="79.5392290717554%" y="0" width="1" height="100%"></rect>
-    <rect x="79.89146010216018%" y="0" width="1" height="100%"></rect>
-    <rect x="80.07322638255624%" y="0" width="1" height="100%"></rect>
-    <rect x="80.70705387844508%" y="0" width="1" height="100%"></rect>
-    <rect x="80.96322190055766%" y="0" width="1" height="100%"></rect>
-    <rect x="81.24387657184275%" y="0" width="1" height="100%"></rect>
-    <rect x="81.49251024036377%" y="0" width="1" height="100%"></rect>
-  </svg>
-  
-  Presence of "peaks" in a song above 0.8, 0.9, and 0.95 respectively.
-  
-  ### Premise
-  
-  The central premise is that the peak/tempo data is readily available; people can, after all, very easily dance to music. Therefore, applying common sense to the data should reveal that information.
-  
-  
+<rect x="41.48980164024761%" y="0" width="1" height="100%"></rect>
+<rect x="42.52577525908523%" y="0" width="1" height="100%"></rect>
+<rect x="42.856345022914326%" y="0" width="1" height="100%"></rect>
+<rect x="43.050354627896645%" y="0" width="1" height="100%"></rect>
+<rect x="43.44119922045811%" y="0" width="1" height="100%"></rect>
+<rect x="43.7651764248946%" y="0" width="1" height="100%"></rect>
+<rect x="44.53744766802809%" y="0" width="1" height="100%"></rect>
+<rect x="45.23437537524613%" y="0" width="1" height="100%"></rect>
+<rect x="45.96144049683035%" y="0" width="1" height="100%"></rect>
+<rect x="47.32515849690023%" y="0" width="1" height="100%"></rect>
+<rect x="48.123799977604136%" y="0" width="1" height="100%"></rect>
+<rect x="49.363201143413505%" y="0" width="1" height="100%"></rect>
+<rect x="50.1703187719079%" y="0" width="1" height="100%"></rect>
+<rect x="50.519724419715864%" y="0" width="1" height="100%"></rect>
+<rect x="50.67041149154679%" y="0" width="1" height="100%"></rect>
+<rect x="50.994388695983275%" y="0" width="1" height="100%"></rect>
+<rect x="51.15449370980364%" y="0" width="1" height="100%"></rect>
+<rect x="51.32966743080709%" y="0" width="1" height="100%"></rect>
+<rect x="51.51614268219786%" y="0" width="1" height="100%"></rect>
+<rect x="51.62256542667845%" y="0" width="1" height="100%"></rect>
+<rect x="52.094404320349035%" y="0" width="1" height="100%"></rect>
+<rect x="52.21307038941589%" y="0" width="1" height="100%"></rect>
+<rect x="52.30913339770811%" y="0" width="1" height="100%"></rect>
+<rect x="52.58319550960061%" y="0" width="1" height="100%"></rect>
+<rect x="53.02395519470606%" y="0" width="1" height="100%"></rect>
+<rect x="54.18518744200314%" y="0" width="1" height="100%"></rect>
+<rect x="54.35471039781293%" y="0" width="1" height="100%"></rect>
+<rect x="54.460191348094575%" y="0" width="1" height="100%"></rect>
+<rect x="54.59015894754875%" y="0" width="1" height="100%"></rect>
+<rect x="54.717301164406095%" y="0" width="1" height="100%"></rect>
+<rect x="55.08930987298869%" y="0" width="1" height="100%"></rect>
+<rect x="55.21362670724921%" y="0" width="1" height="100%"></rect>
+<rect x="55.34171071830549%" y="0" width="1" height="100%"></rect>
+<rect x="55.450958845382914%" y="0" width="1" height="100%"></rect>
+<rect x="55.60541309400961%" y="0" width="1" height="100%"></rect>
+<rect x="55.79471372799722%" y="0" width="1" height="100%"></rect>
+<rect x="55.89736929568203%" y="0" width="1" height="100%"></rect>
+<rect x="56.14129399320835%" y="0" width="1" height="100%"></rect>
+<rect x="56.30704977222236%" y="0" width="1" height="100%"></rect>
+<rect x="56.48881605261842%" y="0" width="1" height="100%"></rect>
+<rect x="56.636677741852516%" y="0" width="1" height="100%"></rect>
+<rect x="56.76570354710775%" y="0" width="1" height="100%"></rect>
+<rect x="56.92109958993339%" y="0" width="1" height="100%"></rect>
+<rect x="57.04730001259179%" y="0" width="1" height="100%"></rect>
+<rect x="57.217764762600524%" y="0" width="1" height="100%"></rect>
+<rect x="57.32230391868323%" y="0" width="1" height="100%"></rect>
+<rect x="57.501244816482455%" y="0" width="1" height="100%"></rect>
+<rect x="57.80261896014431%" y="0" width="1" height="100%"></rect>
+<rect x="57.91280888142067%" y="0" width="1" height="100%"></rect>
+<rect x="58.189696375909996%" y="0" width="1" height="100%"></rect>
+<rect x="58.29894450298742%" y="0" width="1" height="100%"></rect>
+<rect x="58.48259437178136%" y="0" width="1" height="100%"></rect>
+<rect x="58.6248052958218%" y="0" width="1" height="100%"></rect>
+<rect x="58.74535495328654%" y="0" width="1" height="100%"></rect>
+<rect x="58.90734355550479%" y="0" width="1" height="100%"></rect>
+<rect x="59.71351938980024%" y="0" width="1" height="100%"></rect>
+<rect x="59.83595263566286%" y="0" width="1" height="100%"></rect>
+<rect x="59.97910535390225%" y="0" width="1" height="100%"></rect>
+<rect x="60.09871321716805%" y="0" width="1" height="100%"></rect>
+<rect x="60.22962261082116%" y="0" width="1" height="100%"></rect>
+<rect x="60.37277532906054%" y="0" width="1" height="100%"></rect>
+<rect x="60.65060461774881%" y="0" width="1" height="100%"></rect>
+<rect x="60.76079453902518%" y="0" width="1" height="100%"></rect>
+<rect x="60.95668773240538%" y="0" width="1" height="100%"></rect>
+<rect x="61.093247891252155%" y="0" width="1" height="100%"></rect>
+<rect x="61.2203901081095%" y="0" width="1" height="100%"></rect>
+<rect x="61.31927849899854%" y="0" width="1" height="100%"></rect>
+<rect x="61.49068504320623%" y="0" width="1" height="100%"></rect>
+<rect x="61.74214409432408%" y="0" width="1" height="100%"></rect>
+<rect x="61.92391037472014%" y="0" width="1" height="100%"></rect>
+<rect x="62.07459744655106%" y="0" width="1" height="100%"></rect>
+<rect x="62.24694578495768%" y="0" width="1" height="100%"></rect>
+<rect x="62.461674862316755%" y="0" width="1" height="100%"></rect>
+<rect x="62.55679607641002%" y="0" width="1" height="100%"></rect>
+<rect x="62.65662626149801%" y="0" width="1" height="100%"></rect>
+<rect x="62.77246694796804%" y="0" width="1" height="100%"></rect>
+<rect x="63.00979908610175%" y="0" width="1" height="100%"></rect>
+<rect x="63.26031634302066%" y="0" width="1" height="100%"></rect>
+<rect x="63.387458559878006%" y="0" width="1" height="100%"></rect>
+<rect x="63.561690486682515%" y="0" width="1" height="100%"></rect>
+<rect x="63.739689590282794%" y="0" width="1" height="100%"></rect>
+<rect x="63.885667691119004%" y="0" width="1" height="100%"></rect>
+<rect x="63.988323258803824%" y="0" width="1" height="100%"></rect>
+<rect x="64.08815344389181%" y="0" width="1" height="100%"></rect>
+<rect x="64.1964597767703%" y="0" width="1" height="100%"></rect>
+<rect x="64.4968921262332%" y="0" width="1" height="100%"></rect>
+<rect x="64.76530347293203%" y="0" width="1" height="100%"></rect>
+<rect x="65.06385223399705%" y="0" width="1" height="100%"></rect>
+<rect x="65.30118437213076%" y="0" width="1" height="100%"></rect>
+<rect x="65.41137429340714%" y="0" width="1" height="100%"></rect>
+<rect x="65.56488674783489%" y="0" width="1" height="100%"></rect>
+<rect x="65.68355281690174%" y="0" width="1" height="100%"></rect>
+<rect x="65.83329809453373%" y="0" width="1" height="100%"></rect>
+<rect x="66.03860922990336%" y="0" width="1" height="100%"></rect>
+<rect x="66.22037551029942%" y="0" width="1" height="100%"></rect>
+<rect x="66.37106258213035%" y="0" width="1" height="100%"></rect>
+<rect x="66.51044812357395%" y="0" width="1" height="100%"></rect>
+<rect x="66.60556933766722%" y="0" width="1" height="100%"></rect>
+<rect x="66.73271155452457%" y="0" width="1" height="100%"></rect>
+<rect x="66.84949403519353%" y="0" width="1" height="100%"></rect>
+<rect x="67.01524981420755%" y="0" width="1" height="100%"></rect>
+<rect x="67.11507999929555%" y="0" width="1" height="100%"></rect>
+<rect x="67.25069836394337%" y="0" width="1" height="100%"></rect>
+<rect x="67.41362876036057%" y="0" width="1" height="100%"></rect>
+<rect x="67.5407709772179%" y="0" width="1" height="100%"></rect>
+<rect x="67.69145804904883%" y="0" width="1" height="100%"></rect>
+<rect x="67.88264227143432%" y="0" width="1" height="100%"></rect>
+<rect x="68.00507551729694%" y="0" width="1" height="100%"></rect>
+<rect x="68.26595251040423%" y="0" width="1" height="100%"></rect>
+<rect x="68.43830084881085%" y="0" width="1" height="100%"></rect>
+<rect x="68.58616253804496%" y="0" width="1" height="100%"></rect>
+<rect x="68.68316734053612%" y="0" width="1" height="100%"></rect>
+<rect x="68.78111393722622%" y="0" width="1" height="100%"></rect>
+<rect x="68.89318744690047%" y="0" width="1" height="100%"></rect>
+<rect x="69.00431916237578%" y="0" width="1" height="100%"></rect>
+<rect x="69.09944037646905%" y="0" width="1" height="100%"></rect>
+<rect x="69.23411694691794%" y="0" width="1" height="100%"></rect>
+<rect x="69.3292381610112%" y="0" width="1" height="100%"></rect>
+<rect x="69.43660269969075%" y="0" width="1" height="100%"></rect>
+<rect x="69.58163900632802%" y="0" width="1" height="100%"></rect>
+<rect x="69.69747969279804%" y="0" width="1" height="100%"></rect>
+<rect x="69.80390243727862%" y="0" width="1" height="100%"></rect>
+<rect x="69.93198644833491%" y="0" width="1" height="100%"></rect>
+<rect x="70.11940349392464%" y="0" width="1" height="100%"></rect>
+<rect x="70.3473176900689%" y="0" width="1" height="100%"></rect>
+<rect x="70.52531679366919%" y="0" width="1" height="100%"></rect>
+<rect x="70.75228919561452%" y="0" width="1" height="100%"></rect>
+<rect x="70.90956882683805%" y="0" width="1" height="100%"></rect>
+<rect x="71.00469004093132%" y="0" width="1" height="100%"></rect>
+<rect x="71.10734560861614%" y="0" width="1" height="100%"></rect>
+<rect x="71.21471014729568%" y="0" width="1" height="100%"></rect>
+<rect x="71.40212719288539%" y="0" width="1" height="100%"></rect>
+<rect x="71.52926940974274%" y="0" width="1" height="100%"></rect>
+<rect x="71.74117310450497%" y="0" width="1" height="100%"></rect>
+<rect x="72.17063125922311%" y="0" width="1" height="100%"></rect>
+<rect x="72.32602730204876%" y="0" width="1" height="100%"></rect>
+<rect x="72.42114851614203%" y="0" width="1" height="100%"></rect>
+<rect x="72.58502070675816%" y="0" width="1" height="100%"></rect>
+<rect x="72.71122112941656%" y="0" width="1" height="100%"></rect>
+<rect x="72.95326223854498%" y="0" width="1" height="100%"></rect>
+<rect x="73.39496371784938%" y="0" width="1" height="100%"></rect>
+<rect x="73.60027485321902%" y="0" width="1" height="100%"></rect>
+<rect x="73.76320524963621%" y="0" width="1" height="100%"></rect>
+<rect x="74.12862139882621%" y="0" width="1" height="100%"></rect>
+<rect x="74.26612335187193%" y="0" width="1" height="100%"></rect>
+<rect x="74.37725506734724%" y="0" width="1" height="100%"></rect>
+<rect x="75.01861691682761%" y="0" width="1" height="100%"></rect>
+<rect x="75.26725058534865%" y="0" width="1" height="100%"></rect>
+<rect x="75.80124789614949%" y="0" width="1" height="100%"></rect>
+<rect x="76.96907270283917%" y="0" width="1" height="100%"></rect>
+<rect x="77.11410900947644%" y="0" width="1" height="100%"></rect>
+<rect x="77.22524072495173%" y="0" width="1" height="100%"></rect>
+<rect x="77.87319513382472%" y="0" width="1" height="100%"></rect>
+<rect x="78.11523624295315%" y="0" width="1" height="100%"></rect>
+<rect x="78.40719244462557%" y="0" width="1" height="100%"></rect>
+<rect x="78.52209133689665%" y="0" width="1" height="100%"></rect>
+<rect x="78.61815434518886%" y="0" width="1" height="100%"></rect>
+<rect x="78.71892632447579%" y="0" width="1" height="100%"></rect>
+<rect x="79.29059540323436%" y="0" width="1" height="100%"></rect>
+<rect x="79.5392290717554%" y="0" width="1" height="100%"></rect>
+<rect x="79.89146010216018%" y="0" width="1" height="100%"></rect>
+<rect x="80.07322638255624%" y="0" width="1" height="100%"></rect>
+<rect x="80.70705387844508%" y="0" width="1" height="100%"></rect>
+<rect x="80.96322190055766%" y="0" width="1" height="100%"></rect>
+<rect x="81.24387657184275%" y="0" width="1" height="100%"></rect>
+<rect x="81.49251024036377%" y="0" width="1" height="100%"></rect>
+</svg>
+
+Presence of "peaks" in a song above 0.8, 0.9, and 0.95 respectively.
+
+### Premise
+
+The central premise is that the peak/tempo data is readily available; people can, after all, very easily dance to music. Therefore, applying common sense to the data should reveal that information.
+
