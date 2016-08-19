@@ -9,7 +9,7 @@ This article explores using the [Web Audio API](https://developer.mozilla.org/en
 
 If you're not familiar with using the WebAudio API and creating buffers, [this tutorial will get you up to speed](http://www.html5rocks.com/en/tutorials/webaudio/intro/). We'll use [Go](http://www.beatport.com/release/go/1338457) from [Grimes](http://www.beatport.com/artist/grimes/173967) as our sample track for the examples below.
 
-<svg width="90%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="10.327715185612098%" y="0" width="1" height="100%"></rect>
     <rect x="21.714948845035394%" y="0" width="1" height="100%"></rect>
     <rect x="23.124814760853496%" y="0" width="1" height="100%"></rect>
@@ -59,7 +59,7 @@ If you're not familiar with using the WebAudio API and creating buffers, [this t
     <rect x="78.60214384380683%" y="0" width="1" height="100%"></rect>
 </svg>
 
-<svg width="90%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="10.327715185612098%" y="0" width="1" height="100%"></rect>
     <rect x="14.303970293550659%" y="0" width="1" height="100%"></rect>
     <rect x="16.442784919350867%" y="0" width="1" height="100%"></rect>
@@ -196,7 +196,7 @@ If you're not familiar with using the WebAudio API and creating buffers, [this t
     <rect x="81.49251024036377%" y="0" width="1" height="100%"></rect>
 </svg>
 
-<svg width="90%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="8.610824360938484%" y="0" width="1" height="100%"></rect>
     <rect x="8.875468530841546%" y="0" width="1" height="100%"></rect>
     <rect x="9.590290327839503%" y="0" width="1" height="100%"></rect>
@@ -547,7 +547,7 @@ offlineContext.oncomplete = function(e) {
 
 Now I'll run a low-, mid-, and high- pass filter over the song and graph the peaks measured from them. Because certain instruments are more faithful representatives of tempo (kick drum, snare drum, claps), I'm hoping that these filters will draw them out more so that "song peaks" will turn into "instrument peaks", or instrument **hits**.
 
-<svg width="90%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="8.878293913438377%" y="0" width="1" height="100%"></rect>
     <rect x="9.226757767047394%" y="0" width="1" height="100%"></rect>
     <rect x="9.590290327839503%" y="0" width="1" height="100%"></rect>
@@ -748,7 +748,8 @@ Now I'll run a low-, mid-, and high- pass filter over the song and graph the pea
     <rect x="82.1348138840431%" y="0" width="1" height="100%"></rect>
     <rect x="82.39757446554827%" y="0" width="1" height="100%"></rect>
 </svg>
-<svg width="90%" height="40">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="3.2670840761342665%" y="0" width="1" height="100%"></rect>
     <rect x="5.399306142541871%" y="0" width="1" height="100%"></rect>
     <rect x="7.546596916132567%" y="0" width="1" height="100%"></rect>
@@ -978,7 +979,7 @@ At this point it might be a good idea to take a look at what the data **should**
 
 The actual tempo of the song is around 140 beats per minute. Let's take a look at that by drawing a line for each measure, then our lowpass filter again:
 
-<svg width="90%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="0%" y="0" width="1" height="100%"></rect>
     <rect x="0.7119964144011258%" y="0" width="1" height="100%"></rect>
     <rect x="1.4239928288022516%" y="0" width="1" height="100%"></rect>
@@ -1122,7 +1123,7 @@ The actual tempo of the song is around 140 beats per minute. Let's take a look a
     <rect x="99.67949801615761%" y="0" width="1" height="100%"></rect>
 </svg>
 
-<svg width="90%" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="8.878293913438377%" y="0" width="1" height="100%"></rect>
     <rect x="9.226757767047394%" y="0" width="1" height="100%"></rect>
     <rect x="9.590290327839503%" y="0" width="1" height="100%"></rect>
@@ -1328,7 +1329,7 @@ Each measure of the song is represented by a single line (top); Lowpass peaks as
 
 We seem to have a problem in that much of the song, especially the beginning and the end, is not being picked up in the peaks. Of course, this is because the beginning and end of the song are quieter, i.e. have less peaks, than the rest of the song.
 
-<svg width="90%" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="100">
     <rect x="0%" y="99.99975585658103" width="1" height="0.00024414341896772385"></rect>
     <rect x="0.7119964144011258%" y="94.5431068437174" width="1" height="5.456893156282604"></rect>
     <rect x="1.4239928288022516%" y="94.70165244862437" width="1" height="5.2983475513756275"></rect>
@@ -1474,7 +1475,7 @@ We seem to have a problem in that much of the song, especially the beginning and
 
 The volume of the song at a given measure.
 
-<svg width="90%" height="100">
+<svg xmlns="http://www.w3.org/2000/svg" width="90%" height="100">
     <rect x="8.878293913438377%" y="67.67096945736557" width="1" height="32.32903054263443"></rect>
     <rect x="9.226757767047394%" y="62.53940923977643" width="1" height="37.46059076022357"></rect>
     <rect x="9.590290327839503%" y="60.84012980572879" width="1" height="39.15987019427121"></rect>
