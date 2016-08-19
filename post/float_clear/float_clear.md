@@ -31,3 +31,9 @@ CSS have provided an attribute named `float` to allow you to design block elemen
 
 Assume that if we set `float: right;` to both `div2` and `div3`, see what happens now?
 
+<br />
+
+<p data-height="403" data-theme-id="21735" data-slug-hash="oLOkxG" data-default-tab="css,result" data-user="aleen42" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/oLOkxG/">oLOkxG</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<br />
