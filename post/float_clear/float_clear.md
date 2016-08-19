@@ -44,7 +44,7 @@ Assume that if we set `float: right;` to both `div2` and `div3`, see what happen
 
 ### Clear
 
-`clear` attribute means that a element can clearfloated elements in the left or right, or both.
+`clear` attribute means that a element can clear floated elements in the left or right, or both.
 
 Before adding `clear`, we can see that a `div4`has `div3` floated in the left side, and `div2` floated in the right.
 
@@ -55,4 +55,4 @@ Before adding `clear`, we can see that a `div4`has `div3` floated in the left si
 
 <br />
 
-
+If we set `clear: right;` to `div4`, you'll find that `div4` will follow behind `div2`
