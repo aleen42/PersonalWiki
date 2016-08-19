@@ -55,4 +55,11 @@ Before adding `clear`, we can see that a `div4`has `div3` floated in the left si
 
 <br />
 
-If we set `clear: right;` to `div4`, you'll find that `div4` will follow behind `div2`
+If we set `clear: right;` to `div4`, you'll find that `div4` will follow behind `div2`.
+
+<br />
+
+<iframe height='409' scrolling='no' src='//codepen.io/aleen42/embed/AXzRvb/?height=409&theme-id=21735&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/AXzRvb/'>AXzRvb</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
+<br />
