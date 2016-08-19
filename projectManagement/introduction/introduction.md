@@ -50,7 +50,7 @@
 		- Who can authorize changes to the budget?
 	- Time:
 		- How long it take to complete the project?
-		- What is the project’s schedule?
+		- What is the project's schedule?
 		- How will the team track actual schedule performance?
 		- Who can approve changes to the schedule?
 - **quadruple constraint** includes **quality** as well.

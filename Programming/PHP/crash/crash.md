@@ -41,13 +41,13 @@
 
 ```php
 <?php 
-	echo ‘<p>Order processed.</p>’; // Start printing order
+	echo ‘<p>Order processed.</p>'; // Start printing order
 ?>
 <?php 
-	echo ‘<p>Order processed.</p>’; # Start printing order
+	echo ‘<p>Order processed.</p>'; # Start printing order
 ?>
 <?php 
-	echo ‘<p>Order processed.</p>’; /* Start printing order */
+	echo ‘<p>Order processed.</p>'; /* Start printing order */
 ?>
 ```
 

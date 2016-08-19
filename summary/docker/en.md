@@ -30,7 +30,7 @@
 	```bash
 $ which wget
 ```
-	- If `wget` isn’t installed, install it after updating your manager:
+	- If `wget` isn't installed, install it after updating your manager:
 	```bash
 $ sudo apt-get update
 $ sdo apt-get install wget
@@ -98,7 +98,7 @@ $ docker run -it ubuntu bash
     3. loaded the image into the container and “ran” it
 - Depending on how it was built, an image might run a simple, single command and then exit. This is what `hello-world` did.
 - A Docker image, though, is capable of much more. An image can start software as complex as a database, wait for you (or someone else) to add data, store the data for later use, and then wait for the next person.
-- Who built the `hello-world` software image though? In this case, Docker did but anyone can. Docker lets people (or companies) create and share software through Docker images. Using Docker, you don’t have to worry about whether your computer can run the software in a Docker image — a Docker container can always run it.
+- Who built the `hello-world` software image though? In this case, Docker did but anyone can. Docker lets people (or companies) create and share software through Docker images. Using Docker, you don't have to worry about whether your computer can run the software in a Docker image — a Docker container can always run it.
 
 <br />
 <br />
@@ -129,7 +129,7 @@ from organizations like RedHat, IBM, Google, and a whole lot more.
 $ docker run docker/whalesay cowsay boo
 ```
 - ii. Find what images you have by calling the following command:
-	- When you run an image in a container, Docker downloads the image to your computer. This local copy of the image saves you time. Docker only downloads the image again if the image’s source changes on the hub. You can, of course, delete the image yourself. (You’ll learn more about that later)
+	- When you run an image in a container, Docker downloads the image to your computer. This local copy of the image saves you time. Docker only downloads the image again if the image's source changes on the hub. You can, of course, delete the image yourself. (You'll learn more about that later)
 	```bash 
 $ docker images
 REPOSITORY           TAG         IMAGE ID            CREATED            VIRTUAL SIZE
@@ -155,13 +155,13 @@ $ mkdir mydocker build
 ```
 
 - ii. Create a text file called `Dockerfile` in te new directory:
-	- A Dockerfile describes the software that is “baked” into an image. It isn’t just ingredients tho, it can tell the software what environment to use or what commands to run. Your recipe is going to be very short.
+	- A Dockerfile describes the software that is “baked” into an image. It isn't just ingredients tho, it can tell the software what environment to use or what commands to run. Your recipe is going to be very short.
 	```bash
 $ cd mkdocker
 $ vim Dockerfile
 ```
 - iii. Add a line to the text file:
-	- The FROM keyword tells Docker which image your image is based on. Whalesay is cute and has the `cowsay` program already, so we’ll start there.
+	- The FROM keyword tells Docker which image your image is based on. Whalesay is cute and has the `cowsay` program already, so we'll start there.
 	```txt
 FROM docker/whalesay:latest
 ```
@@ -180,7 +180,7 @@ CMD /usr/games/fortune -a | cowsay
 
 ##### Step2: Build an image from your Dockerfile
 
-- Now, build your new image by typing the `docker build -t docker-whale .` command in your terminal (don’t forget the . period). (This proccess will take several seconds to run and reports its outcomd)
+- Now, build your new image by typing the `docker build -t docker-whale .` command in your terminal (don't forget the . period). (This proccess will take several seconds to run and reports its outcomd)
 	
 	```
 Sending build context to Docker daemon 158.8 MB
@@ -198,7 +198,7 @@ Successfully built 7d9495d03763
 Sending build context to Docker daemon 158.8 MB
 ```
 
-- Then, Docker loads with the `whalesay` image. It already has this image locally as your might recall from the last page. So, Docker doesn’t need to download it.
+- Then, Docker loads with the `whalesay` image. It already has this image locally as your might recall from the last page. So, Docker doesn't need to download it.
 	
 	```
 Step 0 : FROM docker/whalesay:latest
@@ -357,7 +357,7 @@ Digest: sha256:ad89e88beb7dc73bf55d456e2c600e0a39dd6c9500d7cd8d1025626c4b985011
 
 ##### Step 2: Pull a new image
 
-- In this last section, you’ll pull the image you just pushed to hub. Before you do that though, you’ll need to remove the original image from your local machine. If you left the original image on your machine. Docker would not pull from the hub — why would it? The two images are identical.
+- In this last section, you'll pull the image you just pushed to hub. Before you do that though, you'll need to remove the original image from your local machine. If you left the original image on your machine. Docker would not pull from the hub — why would it? The two images are identical.
 - i. Use the `docker rmi` to remove the `maryatdocker/docker-whale` and `docker-whale` images.
 	- You can use an ID or the name to remove an image.
 	```bash
