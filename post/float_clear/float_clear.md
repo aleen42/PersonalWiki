@@ -9,6 +9,8 @@ As we all know that, a `div` element is a block element, which will occupy the w
 
 Normally, We'll suppose that all those `div` elements have been in a normal standard flow (標準流).
 
+<br/>
+
 CSS have provided an attribute named `float` to allow you to design block elements into a same line. If you set `float` to a `div`, you will find that this element will get rid of the original standard flow, and as following example, you will see that `div2` has get rid of the standard flow, and `div3` has been moved uppper following behind `div1`.
 
 <br/>
