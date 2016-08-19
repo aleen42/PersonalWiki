@@ -29,7 +29,7 @@ CSS have provided an attribute named `float` to allow you to design block elemen
 
 <br />
 
-Assume that if we set `float: right;` to both `div2` and `div3`, see what happens now?
+Assume that if we set `float: right;` to both `div2` and `div3`, see what happens now? We will found that the order of those elements are from right to left, while left to write for both setting with `float: left;`.
 
 <br />
 
