@@ -475,3 +475,9 @@ If you’re not familiar with using the WebAudio API and creating buffers, [this
   </svg>
   
   Presence of "peaks" in a song above 0.8, 0.9, and 0.95 respectively.
+  
+  ### Premise
+  
+  The central premise is that the peak/tempo data is readily available; people can, after all, very easily dance to music. Therefore, applying common sense to the data should reveal that information.
+  
+  
