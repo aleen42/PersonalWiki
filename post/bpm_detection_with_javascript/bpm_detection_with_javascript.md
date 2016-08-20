@@ -476,9 +476,9 @@ If you're not familiar with using the WebAudio API and creating buffers, [this t
 
 Presence of "peaks" in a song above 0.8, 0.9, and 0.95 respectively.
 
-### Premise
+### Premise (前提)
 
-The central premise is that the peak/tempo data is readily available; people can, after all, very easily dance to music. Therefore, applying common sense to the data should reveal that information.
+The central premise is that the peak (峰值)/tempo (節奏) data is readily available; people can, after all, very easily dance to music. Therefore, applying common sense to the data should reveal that information.
 
 ### Setup
 
@@ -492,7 +492,7 @@ Getting started
 
 I placed my initial effort at the top of the screen. What you see is a chart of all the floats in the buffer (again, representing the song) above a certain threshold, mapped to their position within the song. There does appear to be some regularity to the peaks, but their distribution is hardly uniform within any threshold.
 
-If we can find a way to graph the song with a very uniform distribution of peaks, it should be simple to determine tempo. Therefore I'll try to manipulate the audio buffer in order to achieve that type of distribution. This is where the Web Audio API comes in: I can use it to transform the audio in a relatively intuitive way.
+If we can find a way to graph the song with a very uniform distribution of peaks, it should be simple to determine tempo. Therefore I'll try to manipulate the audio buffer in order to achieve that type of distribution. This is where the Web Audio API comes in: I can use it to transform the audio in a relatively intuitive (直觀的) way.
 
 ```js
 // Function to identify peaks
@@ -545,7 +545,7 @@ offlineContext.oncomplete = function(e) {
 };
 ```
 
-Now I'll run a low-, mid-, and high- pass filter over the song and graph the peaks measured from them. Because certain instruments are more faithful representatives of tempo (kick drum, snare drum, claps), I'm hoping that these filters will draw them out more so that "song peaks" will turn into "instrument peaks", or instrument **hits**.
+Now I'll run a low-, mid-, and high- pass filter over the song and graph the peaks measured from them. Because certain instruments are more faithful representatives of tempo (kick drum (大鼓), snare drum (小鼓), claps), I'm hoping that these filters will draw them out more so that "song peaks" will turn into "instrument peaks", or instrument **hits**.
 
 <svg xmlns="http://www.w3.org/2000/svg" width="90%" height="40">
     <rect x="8.878293913438377%" y="0" width="1" height="100%"></rect>
