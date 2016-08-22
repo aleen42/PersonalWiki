@@ -44,3 +44,29 @@ npm install babel-loader
 ```
 
 #### 4. Set up a configuration file for webpack `webpack.config.js`
+
+```js
+module.exports = {
+	entry: './src/entry.js',
+	output: {
+		path: __dirname + '/build',
+		filename: 'tick.js'
+	},
+	resolve: {
+		extensions: ['', '.js', '.jsx']
+	},
+	module: {
+		loaders: [
+			{
+				test: /\.jsx?$/,
+				loader: 'babel-loader',
+				exclude: /node_modules/,
+				query: {
+					presets: ['es2015', 'react']
+				}
+			}
+		]
+	}
+};
+
+```
