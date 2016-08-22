@@ -27,5 +27,5 @@ The "entry point" is where your application will start, and where webpack will s
 Give webpack the entry point (app.js) and specify an output file (app.bundle.js) of a command-line interface:
 
 ```js
-
+webpack ./app.js app.bundle.js
 ```
