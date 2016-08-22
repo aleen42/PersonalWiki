@@ -5,3 +5,12 @@
 There're 3 kinds of usages of webpack: **CLI**, **node.js API**, and **Configuration**.
 
 First, we’ll learn the basics of webpack by using just webpack’s command-line interface.
+
+#### Create a modular JavaScrip project
+
+**cat.js**
+
+```js
+var cats = ['dave', 'henry', 'martha'];
+module.exports = cats;
+```
