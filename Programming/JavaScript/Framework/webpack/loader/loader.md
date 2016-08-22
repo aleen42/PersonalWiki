@@ -16,7 +16,25 @@ There are some ways to use loaders:
 
 > **Note:**A void using this, if at all possible, if you intend your scripts to be environment agnostic (node.js and browser). Use the configuration convention for specifying loaders.
 
+Just separate loaders from resource with `!`. Each part is resolved relative to the current directory.
 
+```js
+require("./loader!./dir/file.txt");
+// => uses the file "loader.js" in the current directory to transform
+//    "file.txt" in the folder "dir".
+
+require("jade!./template.jade");
+// => uses the "jade-loader" (that is installed from npm to "node_modules")
+//    to transform the file "template.jade"
+//    If configuration has some transforms bound to the file, they will still be applied.
+
+require("!style!css!less!bootstrap/less/bootstrap.less");
+// => the file "bootstrap.less" in the folder "less" in the "bootstrap"
+//    module (that is installed from github to "node_modules") is
+//    transformed by the "less-loader". The result is transformed by the
+//    "css-loader" and then by the "style-loader".
+//    If configuration has some transforms bound to the file, they will not be applied.
+```
 
 ### Lists of Loaders
 
