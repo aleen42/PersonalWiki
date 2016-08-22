@@ -82,3 +82,8 @@ As your project grows and your configuration becomes more complex, it becomes un
     ```
 
     > A webpack configuration file is a CommonJS-style module.
+2. With a configuration file in place, you can now simply run webpack like this:
+    ```bash
+    webpack
+    ```
+    
