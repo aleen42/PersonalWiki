@@ -180,3 +180,32 @@ In this example, we’re going to tell webpack to run our source files through B
 #### Using Plugins
 
 In webpack, using plugins can make file minifying so that they can b loaded faster.
+
+```js
+const webpack = require('webpack');
+
+module.exports = {
+    entry: './src/app.js',
+    output: {
+        path: './bin',
+        filename: 'app.bundle.js',
+    },
+    module: {
+        loaders: [{
+            test: /\.jsx?$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader',
+        }]
+    },
+    plugins: [
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false,
+            },
+            output: {
+                comments: false,
+            },
+        }),
+    ]
+}
+```
