@@ -117,3 +117,18 @@ ReactDOM.render(
 );
 ```
 
+#### 6. Import the entry into a html file
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tick Example</title>
+</head>
+<body>
+	<div id="content"></div>
+    <script type="text/javascript" src="build/tick.js"></script>
+</body>
+</html>
+```
+
