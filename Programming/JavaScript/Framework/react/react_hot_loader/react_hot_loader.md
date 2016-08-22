@@ -29,3 +29,15 @@ new WebpackDevServer(webpack(config), {
     console.log('Listening at http://localhost:3000/');
 });
 ```
+
+Then configure `package.json` to call the Webpack server on `npm start`:
+
+```json
+{
+    "scripts": {
+        "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
+
+```
