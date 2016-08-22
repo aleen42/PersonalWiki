@@ -3,6 +3,7 @@
 ### Installation
 
 ```bash
+npm install webpack-dev-server --save-dev
 npm install react-hot-loader --save-dev
 ```
 
