@@ -45,4 +45,14 @@ Then configure `package.json` to call the Webpack server on `npm start`:
 
 Configure `react-hot` for a webpack by editing `webpack.config.js`:
 
+Add entry for hot reloading server firstly:
 
+```js
+module.exports = {
+	entry: [
+	    'webpack-dev-server/client?http://0.0.0.0:3000',    /** WebpackDevServer host and port */
+	    'webpack/hot/only-dev-server',                      /** "only" prevents reload on syntax errors */
+	    './src/tick.js'
+	]
+};
+```
