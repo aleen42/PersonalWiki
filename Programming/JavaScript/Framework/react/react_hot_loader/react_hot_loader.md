@@ -99,7 +99,11 @@ Therefore, the whole configuration file should be :
 const webpack = require('webpack');
 
 module.exports = {
-	entry: './src/tick.js',
+	entry: [
+	    'webpack-dev-server/client?http://0.0.0.0:3000',    /** WebpackDevServer host and port */
+	    'webpack/hot/only-dev-server',                      /** "only" prevents reload on syntax errors */
+	    './src/tick.js'
+	],
 	output: {
 		path: __dirname + '/build',
 		filename: 'tick.js'
