@@ -43,3 +43,7 @@ To gain full access to webpack's flexibility, we need to create a "configuration
 In real-world webpack projects, we'll separate the source files from the bundled files by organizing them in folders. For example, we'll put the source files in src, and bundled files in bin.
 
 Our final project structure will look like this:
+
+![](./project-structure.png)
+
+
