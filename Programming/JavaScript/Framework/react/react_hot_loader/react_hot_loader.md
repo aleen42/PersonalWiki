@@ -1,6 +1,6 @@
 ## React Hot Loader [Back](./../react.md)
 
-> Deprecated: This hot loader does not work for creating *.hot-update.json, waiting for the version 3 relas
+> Deprecated: This hot loader does not work for creating *.hot-update.json, waiting for the version 3 relase
 
 ### Installation
 
