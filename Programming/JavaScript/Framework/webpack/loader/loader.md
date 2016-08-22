@@ -57,7 +57,15 @@ module.exports = {
             { test: /\.css$/, loader: "style!css" },
             // => "style" and "css" loader is used for ".css" files
             // Alternative syntax:
-            { test: /\.css$/, loaders: ["style", "css"] }
+            { test: /\.css$/, loaders: ["style", "css"] },
+            
+            { test: /\.png$/, loader: "url-loader?mimetype=image/png" },
+            /** or */
+            {
+            test: /\.png$/,
+            loader: "url-loader",
+        query: { mimetype: "image/png" }
+    }
         ]
     }
 };
