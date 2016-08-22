@@ -108,3 +108,13 @@ Loaders can be chained, and sometimes you need to chain loaders together. For ex
 
 In this example, we’re going to tell webpack to run our source files through Babel so we can use ES2015 features.
 
+1. Install Babel and the presets:
+    ```bash
+    npm install --save-dev babel-core babel-preset-es2015
+    ```
+2. Install `babel-loader`:'
+    ```bash
+    npm install --save-dev babel-loader
+    ```
+3. 
+
