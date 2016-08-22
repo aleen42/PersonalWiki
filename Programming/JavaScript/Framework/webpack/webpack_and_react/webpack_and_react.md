@@ -23,3 +23,7 @@ npm init # (answer the questions)
 ```
 
 #### 2. Install webpack as a development dependency, and global as well
+
+```bash
+npm install webpack --save-dev
+```
