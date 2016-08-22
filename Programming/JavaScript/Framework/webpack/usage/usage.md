@@ -105,3 +105,6 @@ Loaders can be chained, and sometimes you need to chain loaders together. For ex
 ![](./yaml-loader.png)
 
 **Case: Transpiling ES2015 using `babel-loader`**
+
+In this example, we’re going to tell webpack to run our source files through Babel so we can use ES2015 features.
+
