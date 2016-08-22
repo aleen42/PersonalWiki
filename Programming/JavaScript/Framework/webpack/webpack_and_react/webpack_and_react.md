@@ -132,4 +132,8 @@ ReactDOM.render(
 </html>
 ```
 
-#### 7. 
+#### 7. Run `webpack` to start to bundle:
+
+```bash
+nwebpack
+```
