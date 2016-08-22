@@ -110,5 +110,10 @@ TickTock.defaultProps = { initialCount: 0 };
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { TickTock } from './components/ticktock';
+
+ReactDOM.render(
+    <TickTock />,
+    document.getElementById('content')
+);
 ```
 
