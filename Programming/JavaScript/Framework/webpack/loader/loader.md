@@ -36,14 +36,14 @@ Loaders are transformations that are applied on a resource file of your app. For
 - ng-annotate: A loader to annotate dependency injections in Angular.js applications.
 - node: Loads .node files that are produced using node-gyp.
 - required: Require a whole directory of trees in bulk. Require JS, Import CSS and imports stuff in it.
-icons Generates iconfont from .svg files (uses gulp-iconfont)
-markup-inline Inline SVGs to HTML. It’s very useful when applying icon font or applying CSS animation to SVG.
-block-loader Generic loader for rewriting only parts of files, based on content start/end delimiters.
-bundler-configuration Bundler configuration loader, a tool to include bundler configuration in the resulting build.
-console: Prints the resolved require of webpack to the console.
-solc: Compiles Solidity code (.sol) and returns JavaScript objects with Application Binary Interface (ABI) and bytecode ready for deployment to Ethereum.
-web3: Deploys Ethereum VM bytecode and returns ready-to-use JS instances of deployed smart contracts. Also returns initialized Web3 object.
-includes: Load any text file and support nested includes
-combine: Combine results from multiple loaders into one object
-regexp-replace: Replace RegExp matches with a string
+- icons: Generates iconfont from .svg files (uses gulp-iconfont)
+- markup-inline: Inline SVGs to HTML. It’s very useful when applying icon font or applying CSS animation to SVG.
+- block-loader: Generic loader for rewriting only parts of files, based on content start/end delimiters.
+- bundler-configuration: Bundler configuration loader, a tool to include bundler configuration in the resulting build.
+- console: Prints the resolved require of webpack to the console.
+- solc: Compiles Solidity code (.sol) and returns JavaScript objects with Application Binary Interface (ABI) and bytecode ready for deployment to Ethereum.
+- web3: Deploys Ethereum VM bytecode and returns ready-to-use JS instances of deployed smart contracts. Also returns initialized Web3 object.
+- includes: Load any text file and support nested includes
+- combine: Combine results from multiple loaders into one object
+- regexp-replace: Replace RegExp matches with a string
 
