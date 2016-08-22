@@ -107,6 +107,8 @@ TickTock.defaultProps = { initialCount: 0 };
 **/src/entry.js**
 
 ```js
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { TickTock } from './components/ticktock';
 ```
 
