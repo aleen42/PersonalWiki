@@ -56,3 +56,22 @@ module.exports = {
 	]
 };
 ```
+
+Then put `react-hot` before other loader(s):
+
+```js
+module.exports = {
+	module: {
+		loaders: [
+			{
+				test: /\.jsx?$/,
+				loader: 'babel-loader',
+				exclude: /node_modules/,
+				query: {
+					presets: ['es2015', 'react']
+				}
+			}
+		]
+	}
+};
+```
