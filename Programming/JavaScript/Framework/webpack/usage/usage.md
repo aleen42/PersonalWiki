@@ -65,3 +65,7 @@ Our final project structure will look like this:
     ```bash
     npm install webpack --save-dev
     ```
+
+#### A Configuration File
+
+As your project grows and your configuration becomes more complex, it becomes unwieldy to configure webpack from the command line. Let's create a configuration file instead.
