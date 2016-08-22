@@ -160,5 +160,20 @@ In this example, we’re going to tell webpack to run our source files through B
      $('<li></li>').text(cat).appendTo(ul);
     }
     ```
-
-
+7. Bundle the modules using webpack:
+    ```bash
+    webpack
+    ```
+8. Add `index.html` so this app can be run in browser:
+    ```html
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+        </head>
+        <body>
+            <script src="bin/app.bundle.js" charset="utf-8"></script>
+        </body>
+    </html>
+    ```
+    
