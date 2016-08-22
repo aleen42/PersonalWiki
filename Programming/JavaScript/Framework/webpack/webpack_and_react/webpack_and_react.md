@@ -127,8 +127,9 @@ ReactDOM.render(
 </head>
 <body>
 	<div id="content"></div>
-    <script type="text/javascript" src="build/tick.js"></script>
+    <script type="text/javascript" src="build/entry.js"></script>
 </body>
 </html>
 ```
 
+#### 7. 
