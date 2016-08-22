@@ -90,3 +90,5 @@ module.exports = {
 	]
 };
 ```
+
+> **Note**: If you are using Webpack Dev Server command line interface instead of its Node API, and you specify --hot mode, don’t add this plugin. It is mutually exclusive with the --hot option.
