@@ -40,3 +40,7 @@ Then configure `package.json` to call the Webpack server on `npm start`:
     }
 }
 ```
+
+### Configuration
+
+
