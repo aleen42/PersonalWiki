@@ -134,6 +134,7 @@ In this example, we’re going to tell webpack to run our source files through B
                     test: /\.js$/,
                     exclude: /node_modules/,
                     loader: 'babel-loader'
+                }
             ]
         }
     };
