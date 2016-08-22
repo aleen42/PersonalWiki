@@ -4,6 +4,20 @@
 
 Loaders are transformations that are applied on a resource file of your app. For example, you can use loaders to tell webpack to load CoffeeScript or JSX
 
+### Usage
+
+There are some ways to use loaders:
+
+- explicit in the require statement
+- configured via configuration
+- configured via CLI
+
+#### Loaders in require
+
+> **Note:**A void using this, if at all possible, if you intend your scripts to be environment agnostic (node.js and browser). Use the configuration convention for specifying loaders.
+
+
+
 ### Lists of Loaders
 
 #### basic
