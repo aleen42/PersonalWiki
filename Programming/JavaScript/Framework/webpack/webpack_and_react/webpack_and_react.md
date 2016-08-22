@@ -72,7 +72,7 @@ module.exports = {
 ```
 
 - **entry**: the entry point of a script
-- **output**: point out where to emit files
+- **output**: point out where to emit files bundled by web
 
 
 #### 5. Write certain JavaScript files
