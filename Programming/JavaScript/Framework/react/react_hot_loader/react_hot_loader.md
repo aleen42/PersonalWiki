@@ -78,3 +78,5 @@ module.exports = {
 	}
 };
 ```
+
+Finally, add the Hot Replacement plugin.
