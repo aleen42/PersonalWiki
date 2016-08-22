@@ -38,7 +38,26 @@ require("!style!css!less!bootstrap/less/bootstrap.less");
 
 #### Configuration
 
+```js
+module.exports = {
+    entry: './src/app.js',
+    output: {
+        path: './bin',
+        filename: 'app.bundle.js'
+    },
+    modules: {
+        loaders: [
+            { test: /\.jade$/, loader: "jade" },
+            // => "jade" loader is used for ".jade" files
 
+            { test: /\.css$/, loader: "style!css" },
+            // => "style" and "css" loader is used for ".css" files
+            // Alternative syntax:
+            { test: /\.css$/, loaders: ["style", "css"] }
+        ]
+    }
+};
+```
 
 ### Lists of Loaders
 
