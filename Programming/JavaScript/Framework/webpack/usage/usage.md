@@ -179,4 +179,4 @@ In this example, we’re going to tell webpack to run our source files through B
 
 #### Using Plugins
 
-
+In webpack, using plugins can make file minifying so that they can b loaded faster.
