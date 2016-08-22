@@ -32,4 +32,8 @@ npm install webpack --save-dev
 sudo npm install webpack -g
 ```
 
-#### 3. Install loaders for transpiling es2015 and jsx
+#### 3. Install loaders for transpiling es2015 and JSX
+
+```bash
+
+```
