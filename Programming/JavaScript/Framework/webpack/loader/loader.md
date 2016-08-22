@@ -8,7 +8,7 @@ Loaders are transformations that are applied on a resource file of your app. For
 
 #### basic
 
-- `json`: Loads file as JSON
+- [`json`](https://github.com/webpack/json-loader): Loads file as JSON
 hson: Loads HanSON file (JSON for Humans) as JSON object
 raw: Loads raw content of a file (as utf-8)
 val: Executes code as module and consider exports as JavaScript code
