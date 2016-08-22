@@ -120,6 +120,7 @@ In this example, we’re going to tell webpack to run our source files through B
     ```json
     { "presets": ["es2015"] }
     ```
-4. 
+4. Modify `webpack.config.js` to process all `.js` file using `babel-loader`
+
 
 
