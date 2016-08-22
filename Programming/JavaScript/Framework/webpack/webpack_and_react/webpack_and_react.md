@@ -69,8 +69,11 @@ module.exports = {
 		]
 	}
 };
-
 ```
+
+- **entry**: the entry point of a script
+- **output**: point out where to emit files
+
 
 #### 5. Write certain JavaScript files
 
