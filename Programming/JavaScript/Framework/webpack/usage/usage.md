@@ -14,3 +14,5 @@ First, we’ll learn the basics of webpack by using just webpack’s command-lin
 var cats = ['dave', 'henry', 'martha'];
 module.exports = cats;
 ```
+
+**app.js (Entry Point)**
