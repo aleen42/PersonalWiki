@@ -12,6 +12,8 @@ There are some ways to use loaders:
 - configured via configuration
 - configured via CLI
 
+Loader can be passed query parameters via a query string (just like in the web). The query string is appended to the loader with `?`. i.e. `url-loader?mimetype=image/png`.
+
 #### Loaders in require
 
 > **Note:**A void using this, if at all possible, if you intend your scripts to be environment agnostic (node.js and browser). Use the configuration convention for specifying loaders.
