@@ -73,7 +73,7 @@ module.exports = {
 
 - **entry**: the entry point of a script
 - **output**: point out where to emit files bundled by webpack
-- **resolve**: point out which type of files can be import
+- **resolve**: point out which type of files can be import, e.g. `import TickTock from './components/ticktock'`
 
 
 #### 5. Write certain JavaScript files
