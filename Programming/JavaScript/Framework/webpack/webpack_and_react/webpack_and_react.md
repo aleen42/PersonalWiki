@@ -35,5 +35,8 @@ sudo npm install webpack -g
 #### 3. Install loaders for transpiling es2015 and JSX
 
 ```bash
-
+npm install babel-core --save-dev
+npm install babel-preset-es2015 --save-dev
+npm install babel-preset-react --save-dev
+npm install babel-loader
 ```
