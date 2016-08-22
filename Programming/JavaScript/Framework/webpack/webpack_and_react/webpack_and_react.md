@@ -76,7 +76,7 @@ module.exports = {
 **/src/components/ticktock.jsx**
 
 
-**entry.js**
+**/src/entry.js**
 
 
 
