@@ -49,7 +49,7 @@ module.exports = {
         path: './bin',
         filename: 'app.bundle.js'
     },
-    modules: {
+    module: {
         loaders: [
             { test: /\.jade$/, loader: "jade" },
             // => "jade" loader is used for ".jade" files
