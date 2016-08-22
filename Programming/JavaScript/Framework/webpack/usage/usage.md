@@ -80,3 +80,5 @@ As your project grows and your configuration becomes more complex, it becomes un
         }
     };
     ```
+
+    > A webpack configuration file is a CommonJS-style module.
