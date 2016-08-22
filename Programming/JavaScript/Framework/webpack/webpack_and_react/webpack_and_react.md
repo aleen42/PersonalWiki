@@ -50,7 +50,7 @@ module.exports = {
 	entry: './src/entry.js',
 	output: {
 		path: __dirname + '/build',
-		filename: 'bundle.js'
+		filename: 'entry.js'
 	},
 	resolve: {
 		extensions: ['', '.js', '.jsx']
