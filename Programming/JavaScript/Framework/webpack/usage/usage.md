@@ -46,4 +46,15 @@ Our final project structure will look like this:
 
 ![](./project-structure.png)
 
+> In the wild, there are many project structures. Some projects use `app` instead of `src`. Some projects use `dist` or `build` instead of `bin`. Projects with tests usually use `test`, `tests`, `spec`, `specs` or colocate the test files in the source folder.
+
+1. Create the `bin` and `src` directory.
+    ```bash
+    mkdir bin
+    mkdir src
+    ```
+2. Move the original source file to `src` folder:
+    ```bash
+    mv app.js cat.js src
+    ```
 
