@@ -8,6 +8,7 @@
 
 - [**Installation**](./installation/installation.md)
 - [**Usage**](./usage/usage.md)
+- [**WebPack + React**](./webpack_and_react/webpack_and_react.md)
 
 ### APIs
 
