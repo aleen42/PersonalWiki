@@ -75,7 +75,6 @@ module.exports = {
 - **output**: point out where to emit files bundled by webpack
 - **resolve**: point out which type of files can be import, e.g. `import TickTock from './components/ticktock'`
 
-
 #### 5. Write certain JavaScript files
 
 **/src/components/ticktock.jsx**
