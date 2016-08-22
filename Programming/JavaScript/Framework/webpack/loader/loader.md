@@ -59,6 +59,12 @@ module.exports = {
 };
 ```
 
+#### CLI
+
+```bash
+webpack --module-bind jade --module-bind 'css=style!css'
+```
+
 ### Lists of Loaders
 
 #### basic
