@@ -40,3 +40,5 @@ npm install babel-preset-es2015 --save-dev
 npm install babel-preset-react --save-dev
 npm install babel-loader
 ```
+
+#### 4. Set up a configuration file for webpack `webpack.config.js`
