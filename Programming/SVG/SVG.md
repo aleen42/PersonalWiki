@@ -7,7 +7,9 @@
 - There is no **semicolon** (`;`) behind each statement.
 
 #### Animation
+
 ##### Step 1
+
 - build the **outline** of one object with **Adobe Illustrator CC**.
 - remember to save your SVG file with the following optimal **configuration**.
 
@@ -35,7 +37,9 @@
 			c26.656-26.656,60.092-40.444,100.311-41.369L0.285-137.776z"/>
 </g>
 ```
+
 ##### Step 2
+
 - add `<defs>` (放射性渐变標籤) for what you want to design, and then give it an **id**
 
 ```html
@@ -63,6 +67,7 @@
 ```
 
 ##### Step 3
+
 - use `<use>` to add `<animateTransform >` or `<animate>`.
 	
 	- **Scale with opacity**
@@ -93,7 +98,8 @@
 	
 	**Show**
 
-	[**Click to show**](./example.svg)
+	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/kXmvRL/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/kXmvRL/'>kXmvRL</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
 	- **x/y with opacity**
 	
@@ -127,7 +133,8 @@
 	
 	**Show**
 
-	[**Click to show**](./example1.svg)
+	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/oLOpPd/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/oLOpPd/'>oLOpPd</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
 	- **path(with auto rotate)**
 	
@@ -154,7 +161,8 @@
 	
 	**Show**
 
-	[**Click to show**](./example2.svg)
+	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/rLbpqr/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rLbpqr/'>rLbpqr</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
 	- **path(without auto rotate)**
 	
@@ -182,9 +190,11 @@
 	
 	**Show**
 
-	[**Click to show**](./example3.svg)
+	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/qNwpJx/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/qNwpJx/'>qNwpJx</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
 ##### Step 4
+
 - what we can also do is to add event for **SVG** with **JavaScript**.
 
 	- JavaScript 
@@ -207,6 +217,7 @@ if (animate) {
     ```
 
 ### Appendix
+
 - **Bezier Curve(貝塞爾曲線)**
 
 `calcMode="spline"`
