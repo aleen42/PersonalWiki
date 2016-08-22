@@ -8,4 +8,4 @@ For my familiarity, I'll build up with react projects with the following file st
 
 >> build
 
-> html
+> *.html
