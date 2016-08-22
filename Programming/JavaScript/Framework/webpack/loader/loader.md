@@ -36,6 +36,8 @@ require("!style!css!less!bootstrap/less/bootstrap.less");
 //    transformed by the "less-loader". The result is transformed by the
 //    "css-loader" and then by the "style-loader".
 //    If configuration has some transforms bound to the file, they will not be applied.
+
+require("url-loader?mimetype=image/png!./file.png");
 ```
 
 #### Configuration
