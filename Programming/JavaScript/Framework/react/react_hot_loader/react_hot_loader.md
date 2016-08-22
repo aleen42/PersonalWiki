@@ -39,5 +39,4 @@ Then configure `package.json` to call the Webpack server on `npm start`:
         "test": "echo \"Error: no test specified\" && exit 1"
     }
 }
-
 ```
