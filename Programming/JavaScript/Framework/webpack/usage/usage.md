@@ -140,4 +140,10 @@ In this example, we’re going to tell webpack to run our source files through B
     };
     ```
 
+    > We are excluding `node_modules` here because otherwise all external libraries will also go through Babel, slowing down compilation.
+5. Install the libraries you want to use (in this example, jQuery):
+    ```bash
+    npm install --save jquery babel-polyfill
+    ```
+6. 
 
