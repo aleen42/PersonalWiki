@@ -48,3 +48,7 @@
 - [**this.props.children undefined**](./undefined_props_children/undefined_props_children.md)
 - [**Use React with other libraris**](./use_react_with_other_libraries/use_react_with_other_libraries.md)
 - [**Dangerously Set innerHTML**](./dangerously_set_innerhtml/dangerously_set_innerhtml.md)
+
+### Webpack
+
+- [**Webpack + React**](./../webpack/webpack_and_react/webpack_and_react.md)
