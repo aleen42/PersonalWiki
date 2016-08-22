@@ -73,3 +73,5 @@ module.exports = {
 
 #### 5. Write certain JavaScript files
 
+**entry.js**
+
