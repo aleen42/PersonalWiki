@@ -27,3 +27,7 @@ npm init # (answer the questions)
 ```bash
 npm install webpack --save-dev
 ```
+
+```bash
+sudo npm install webpack -g
+```
