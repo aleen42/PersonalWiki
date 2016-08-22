@@ -82,6 +82,8 @@ module.exports = {
 Finally, add the Hot Replacement plugin.
 
 ```js
+const webpack = require('webpack');
+
 module.exports = {
 	plugins: [
 	    new webpack.HotModuleReplacementPlugin()
