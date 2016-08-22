@@ -57,4 +57,11 @@ Our final project structure will look like this:
     ```bash
     mv app.js cat.js src
     ```
-
+3. Initialize an npm project
+    ```bash
+    npm init # (answer the questions)
+    ```
+4. Install webpack as a development dependency.
+    ```bash
+    npm install webpack --save-dev
+    ```
