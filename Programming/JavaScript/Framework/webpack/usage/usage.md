@@ -21,3 +21,5 @@ module.exports = cats;
 var cats = require('./cat.js');
 console.log(cats);
 ```
+
+The "entry point" is where your application will start, and where webpack will start tracking dependencies between modules.
