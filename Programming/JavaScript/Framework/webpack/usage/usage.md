@@ -16,3 +16,8 @@ module.exports = cats;
 ```
 
 **app.js (Entry Point)**
+
+```js
+var cats = require('./cat.js');
+console.log(cats);
+```
