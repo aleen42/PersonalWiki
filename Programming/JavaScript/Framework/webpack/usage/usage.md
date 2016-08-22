@@ -69,3 +69,14 @@ Our final project structure will look like this:
 #### A Configuration File
 
 As your project grows and your configuration becomes more complex, it becomes unwieldy to configure webpack from the command line. Let's create a configuration file instead.
+
+1. Create `webpack.config.js`:
+    ```js
+    module.exports = {
+        entry: './src.app.js',
+        output: {
+            path: './bin',
+            filename: 'app.bundle.js'
+        }
+    };
+    ```
