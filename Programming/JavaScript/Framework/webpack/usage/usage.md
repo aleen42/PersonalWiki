@@ -30,4 +30,4 @@ Give webpack the entry point (app.js) and specify an output file (app.bundle.js)
 webpack ./app.js app.bundle.js
 ```
 
-webpack will read and analyze the entry point and its dependencies (including transitive dependencies). Then it will bundle them all into `app.bundle.js`.
+webpack will read and analyze the entry point and its dependencies (including transitive(傳遞性) dependencies). Then it will bundle them all into `app.bundle.js`.
