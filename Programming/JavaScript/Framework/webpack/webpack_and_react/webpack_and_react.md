@@ -143,6 +143,12 @@ ReactDOM.render(
 webpack
 ```
 
+If you want to listen to the compiling, you can use:
+
+```bash
+webpack -d --watch
+```
+
 #### Preview
 
 ![](./preview.png)
