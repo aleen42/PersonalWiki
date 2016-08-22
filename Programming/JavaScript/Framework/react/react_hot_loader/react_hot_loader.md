@@ -43,4 +43,6 @@ Then configure `package.json` to call the Webpack server on `npm start`:
 
 ### Configuration
 
-Configure `react-hot` for a webpack by editing `webpack.config.js`
+Configure `react-hot` for a webpack by editing `webpack.config.js`:
+
+
