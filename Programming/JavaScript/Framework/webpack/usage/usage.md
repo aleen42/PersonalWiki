@@ -116,5 +116,10 @@ In this example, we’re going to tell webpack to run our source files through B
     ```bash
     npm install --save-dev babel-loader
     ```
-3. 
+3. Configure Babel to use these presets by adding `.babelrc`
+    ```json
+    { "presets": ["es2015"] }
+    ```
+4. 
+
 
