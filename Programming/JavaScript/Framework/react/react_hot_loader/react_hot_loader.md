@@ -80,3 +80,11 @@ module.exports = {
 ```
 
 Finally, add the Hot Replacement plugin.
+
+```js
+module.exports = {
+	plugins: [
+	    new webpack.HotModuleReplacementPlugin()
+	]
+};
+```
