@@ -37,3 +37,9 @@ webpack will read and analyze the entry point and its dependencies (including tr
 ### Getting Serious
 
 To gain full access to webpack’s flexibility, we need to create a "configuration file".
+
+#### Project Structure
+
+In real-world webpack projects, we’ll separate the source files from the bundled files by organizing them in folders. For example, we’ll put the source files in src, and bundled files in bin.
+
+Our final project structure will look like this:
