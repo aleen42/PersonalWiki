@@ -92,3 +92,33 @@ module.exports = {
 ```
 
 > **Note**: If you are using Webpack Dev Server command line interface instead of its Node API, and you specify `--hot` mode, don't add this plugin. It is mutually exclusive with the `--hot` option.
+
+Therefore, the whole configuration file should be :
+
+```js
+const webpack = require('webpack');
+
+module.exports = {
+	entry: './src/tick.js',
+	output: {
+		path: __dirname + '/build',
+		filename: 'tick.js'
+	},
+	resolve: {
+		extensions: ['', '.js', '.jsx']
+	},
+	module: {
+		loaders: [
+			{
+				test: /\.jsx?$/,
+				loader: 'babel-loader',
+				exclude: /node_modules/,
+				query: {
+					presets: ['es2015', 'react']
+				}
+			}
+		]
+	}
+};
+
+```
