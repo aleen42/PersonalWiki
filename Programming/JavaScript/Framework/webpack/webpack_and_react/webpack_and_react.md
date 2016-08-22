@@ -8,7 +8,7 @@ For my familiarity, I'll build up with react projects with the following file st
 
 >>> components
 
->>> *.entry.js
+>>> *_entry.js
 
 >> build
 
