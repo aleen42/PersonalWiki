@@ -135,5 +135,5 @@ ReactDOM.render(
 #### 7. Run `webpack` to start to bundle:
 
 ```bash
-nwebpack
+webpack
 ```
