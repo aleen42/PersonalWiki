@@ -91,6 +91,12 @@ As your project grows and your configuration becomes more complex, it becomes un
 
 webpack only supports JavaScript modules natively, but most people will be using a transpiler for ES2015, CoffeeScript, TypeScript, etc. They can be used in webpack by using [loaders](./../loader/loader.md).
 
-Loaders are special modules webpack uses to 'load' other modules (written in another language) into JavaScript (that webpack understands). For example, babel-loader uses Babel to load ES2015 files.
+Loaders are special modules webpack uses to 'load' other modules (written in another language) into JavaScript (that webpack understands). For example, `babel-loader` uses Babel to load ES2015 files.
 
 ![](./babel-loader.png)
+
+
+`json-loader` loads JSON files (simply by prepending `module.exports =` to turn it into a CommonJs module).
+
+![](./json-loader.png)
+
