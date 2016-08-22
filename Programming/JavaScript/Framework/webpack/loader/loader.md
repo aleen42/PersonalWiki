@@ -62,10 +62,10 @@ module.exports = {
             { test: /\.png$/, loader: "url-loader?mimetype=image/png" },
             /** or */
             {
-            test: /\.png$/,
-            loader: "url-loader",
-        query: { mimetype: "image/png" }
-    }
+                test: /\.png$/,
+                loader: "url-loader",
+                query: { mimetype: "image/png" }
+            }
         ]
     }
 };
