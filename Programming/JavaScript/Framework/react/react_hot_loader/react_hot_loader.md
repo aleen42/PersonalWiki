@@ -135,5 +135,5 @@ module.exports = {
 ### Start the Server
 
 ```bash
-npm star
+npm start
 ```
