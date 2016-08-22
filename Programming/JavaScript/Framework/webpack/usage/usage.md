@@ -121,7 +121,7 @@ In this example, we’re going to tell webpack to run our source files through B
     { "presets": ["es2015"] }
     ```
 4. Modify `webpack.config.js` to process all `.js` file using `babel-loader`
-    ```json
+    ```js
     module.exports = {
         entry: './src.app.js',
         output: {
@@ -132,7 +132,7 @@ In this example, we’re going to tell webpack to run our source files through B
             loaders: [
                 {
                     test: /\.js$/,
-                    exclude: /node_modules/
+                    exclude: /node_modules/,
                     loader: 'babel-loader'
             ]
         }
