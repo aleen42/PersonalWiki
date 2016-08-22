@@ -40,7 +40,8 @@ sudo npm install webpack -g
 npm install babel-core --save-dev
 npm install babel-preset-es2015 --save-dev
 npm install babel-preset-react --save-dev
-npm install babel-loader
+npm install babel-loader --save-dev
+npm install babel-polyill --save
 ```
 
 #### 4. Set up a configuration file for webpack `webpack.config.js`
