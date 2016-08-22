@@ -73,7 +73,7 @@ module.exports = {
 
 #### 5. Write certain JavaScript files
 
-**ticktock.jsx**
+**componentsticktock.jsx**
 
 
 **entry.js**
