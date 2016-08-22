@@ -106,7 +106,7 @@ Loaders can be chained, and sometimes you need to chain loaders together. For ex
 
 **Case: Transpiling ES2015 using `babel-loader`**
 
-In this example, we’re going to tell webpack to run our source files through Babel so we can use ES2015 features.
+In this example, we're going to tell webpack to run our source files through Babel so we can use ES2015 features.
 
 1. Install Babel and the presets:
     ```bash
