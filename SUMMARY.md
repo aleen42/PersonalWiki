@@ -89,6 +89,9 @@
                         * [this.props.children undefined](./Programming/JavaScript/Framework/react/undefined_props_children/undefined_props_children.md)
                         * [Use React with other libraris](./Programming/JavaScript/Framework/react/use_react_with_other_libraries/use_react_with_other_libraries.md)
                         * [Dangerously Set innerHTML](./Programming/JavaScript/Framework/react/dangerously_set_innerhtml/dangerously_set_innerhtml.md)
+                    * Webpack
+                        * [Webpack + React](./Programming/JavaScript/Framework/webpack/webpack_and_react/webpack_and_react.md)
+                        * [React Hot Loader](./Programming/JavaScript/Framework/react/react_hot_loader/react_hot_loader.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
