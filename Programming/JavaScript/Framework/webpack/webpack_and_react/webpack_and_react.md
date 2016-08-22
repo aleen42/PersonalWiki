@@ -137,3 +137,7 @@ ReactDOM.render(
 ```bash
 webpack
 ```
+
+#### Preview
+
+![](./preview.png)
