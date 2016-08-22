@@ -1,1 +1,1 @@
-## WebPack + React [Back](./../webpack.md)
+## Webpack + React [Back](./../webpack.md)
