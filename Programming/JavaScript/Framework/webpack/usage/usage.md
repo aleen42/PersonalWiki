@@ -103,3 +103,5 @@ Loaders are special modules webpack uses to 'load' other modules (written in ano
 Loaders can be chained, and sometimes you need to chain loaders together. For example, `yaml-loader` only converts YAML into JSON. Therefore, you need to chain it with `json-loader` so that it can be used.
 
 ![](./yaml-loader.png)
+
+**Case: Transpiling ES2015 using `babel-loader`**
