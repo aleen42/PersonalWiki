@@ -106,5 +106,7 @@ TickTock.defaultProps = { initialCount: 0 };
 
 **/src/entry.js**
 
+```js
 
+```
 
