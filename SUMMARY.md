@@ -93,6 +93,7 @@
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
                         * [Usage](./Programming/JavaScript/Framework/webpack/usage/usage.md)
+                        * [WebPack + React](./Programming/JavaScript/Framework/webpack/webpack_and_react/webpack_and_react.md)
                     * APIs
                         * [Loader](./Programming/JavaScript/Framework/webpack/loader/loader.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
