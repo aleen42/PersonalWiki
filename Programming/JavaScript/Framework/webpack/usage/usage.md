@@ -128,7 +128,7 @@ In this example, we’re going to tell webpack to run our source files through B
             path: './bin',
             filename: 'app.bundle.js'
         },
-        modules: {
+        module: {
             loaders: [
                 {
                     test: /\.js$/,
