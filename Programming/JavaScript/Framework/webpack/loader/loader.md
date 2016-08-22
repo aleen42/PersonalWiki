@@ -36,6 +36,10 @@ require("!style!css!less!bootstrap/less/bootstrap.less");
 //    If configuration has some transforms bound to the file, they will not be applied.
 ```
 
+#### Configuration
+
+
+
 ### Lists of Loaders
 
 #### basic
