@@ -145,5 +145,7 @@ In this example, we’re going to tell webpack to run our source files through B
     ```bash
     npm install --save jquery babel-polyfill
     ```
+    
+    > We are using `--save` instead of `--save-dev` this time, as these libraries will be used in runtime. We also use `babel-polyfill` so that ES2015 APIs are available in older browsers.
 6. 
 
