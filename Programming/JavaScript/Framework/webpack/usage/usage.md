@@ -36,4 +36,4 @@ webpack will read and analyze the entry point and its dependencies (including tr
 
 ### Getting Serious
 
-To gain full access to webpack’s flexibility, we need to create a “configuration file”.
+To gain full access to webpack’s flexibility, we need to create a "configuration file".
