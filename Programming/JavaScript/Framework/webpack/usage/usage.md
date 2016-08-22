@@ -23,3 +23,9 @@ console.log(cats);
 ```
 
 The "entry point" is where your application will start, and where webpack will start tracking dependencies between modules.
+
+Give webpack the entry point (app.js) and specify an output file (app.bundle.js) of a command-line interface:
+
+```js
+
+```
