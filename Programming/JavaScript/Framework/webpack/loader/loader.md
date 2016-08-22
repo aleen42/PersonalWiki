@@ -74,7 +74,7 @@ module.exports = {
 #### CLI
 
 ```bash
-webpack --module-bind jade --module-bind 'css=style!css'
+webpack --module-bind jade --module-bind 'css=style!css' --module-bind "png=url-loader?mimetype=image/png"
 ```
 
 ### Lists of Loaders
