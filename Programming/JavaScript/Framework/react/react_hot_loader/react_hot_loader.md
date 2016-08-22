@@ -68,7 +68,7 @@ module.exports = {
 				loaders: [
 				    'react-hot',
 				    'babel-loader'
-				]
+				],
 				exclude: /node_modules/,
 				query: {
 					presets: ['es2015', 'react']
