@@ -237,3 +237,7 @@ function renderSVG() {
         });
 }
 ```
+
+Tadaaa:
+
+![](./6.png)
