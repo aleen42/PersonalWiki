@@ -116,3 +116,8 @@ function render3() {
         });
 }
 ```
+
+Result: 
+
+![](./3.png)
+
