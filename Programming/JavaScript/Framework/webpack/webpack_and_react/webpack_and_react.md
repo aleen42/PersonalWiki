@@ -3,20 +3,20 @@
 For my familiarity, I'll build up with react projects with the following file structure:
 
 > project
-
->> src
-
->>> components
-
->>> *_entry.js
-
->> build
-
+> 
+> > src
+> > 
+> > > components
+> > > 
+> > > \*\_entry.js
+> > 
+> > build
+> 
 > webpack.config.js
+> 
+> \*.html
 
-> *.html
-
-Files of sites like (`*.html`) will be placed in the root of this project or if using Laravel, the place will be other one outside this project. Files emitted by webpack will be in `/build`, and imported by sites. Then, here I would like to use a case for teaching how to use webpack to bundle  files with different dependencies in a React project.
+Files of sites like \(`*.html`\) will be placed in the root of this project or if using Laravel, the place will be other one outside this project. Files emitted by webpack will be in `/build`, and imported by sites. Then, here I would like to use a case for teaching how to use webpack to bundle  files with different dependencies in a React project.
 
 #### 1. Initialize a npm project
 
@@ -34,7 +34,7 @@ npm install webpack --save-dev
 sudo npm install webpack -g
 ```
 
-#### 3. Install loaders for transpiling es2015 and JSX
+#### 3. Install loaders and dependencies
 
 ```bash
 npm install babel-core --save-dev
@@ -44,63 +44,68 @@ npm install babel-loader --save-dev
 npm install babel-polyfill --save
 ```
 
+```bash
+npm install react --save
+npm install react-dom --save
+```
+
 #### 4. Set up a configuration file for webpack `webpack.config.js`
 
 ```js
 module.exports = {
-	entry: './src/entry.js',
-	output: {
-		path: __dirname + '/build',
-		filename: 'entry.js'
-	},
-	resolve: {
-		extensions: ['', '.js', '.jsx']
-	},
-	module: {
-		loaders: [
-			{
-				test: /\.jsx?$/,
-				loader: 'babel-loader',
-				exclude: /node_modules/,
-				query: {
-					presets: ['es2015', 'react']
-				}
-			}
-		]
-	}
+    entry: './src/entry.js',
+    output: {
+        path: __dirname + '/build',
+        filename: 'entry.js'
+    },
+    resolve: {
+        extensions: ['', '.js', '.jsx']
+    },
+    module: {
+        loaders: [
+            {
+                test: /\.jsx?$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/,
+                query: {
+                    presets: ['es2015', 'react']
+                }
+            }
+        ]
+    }
 };
 ```
 
-- **entry**: the entry point of a script
-- **output**: point out where to emit files bundled by webpack
-- **resolve**: point out which type of files can be import, e.g. `import TickTock from './components/ticktock'`
+* **entry**: the entry point of a script
+* **output**: point out where to emit files bundled by webpack
+* **resolve**: point out which type of files can be import, e.g. `import TickTock from './components/ticktock'`
 
 #### 5. Write certain JavaScript files
 
-**/src/components/ticktock.jsx**
+**\/src\/components\/ticktock.jsx**
 
 ```js
 import React from 'react';
 
 export class TickTock extends React.Component {
-	constructor(props) {
-		super(props);
+    constructor(props) {
+        super(props);
 
-		this.state = { count: props.initialCount };
-		this.tick = this.tick.bind(this);
-	}
+        this.state = { count: props.initialCount };
+        this.tick = this.tick.bind(this);
+    }
 
-	tick() {
-		this.setState({ count: this.state.count + 1 });
-	}
+    tick() {
+        this.setState({ count: this.state.count + 1 });
+    }
 
-	render() {
-		return (
-			<div onClick={this.tick}>
-				Clicks: {this.state.count}
-			</div>
-		);
-	}
+    render() {
+        return (
+            <div onClick={this.tick}>
+                Clicks: {this.state.count}
+            </div>
+        );
+    }
 }
 
 TickTock.propTypes = { initialCount: React.PropTypes.number };
@@ -108,7 +113,7 @@ TickTock.defaultProps = { initialCount: 0 };
 
 ```
 
-**/src/entry.js**
+**\/src\/entry.js**
 
 ```js
 import 'babel-polyfill';
@@ -128,10 +133,10 @@ ReactDOM.render(
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tick Example</title>
+    <title>Tick Example</title>
 </head>
 <body>
-	<div id="content"></div>
+    <div id="content"></div>
     <script type="text/javascript" src="build/entry.js"></script>
 </body>
 </html>
@@ -152,3 +157,4 @@ webpack -d --watch
 #### Preview
 
 ![](./preview.png)
+
