@@ -68,7 +68,7 @@ function render1() {
 
 Resulting in:
 
-![](./);
+![](./1.png);
 
 Not bad--obviously we're looking at audio data. But it's not symmetrical. Let's center those lines:
 
