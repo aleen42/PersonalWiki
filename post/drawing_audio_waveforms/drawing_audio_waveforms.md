@@ -1,7 +1,7 @@
 ## [轉載] Drawing Audio Waveforms [Back](./../post.md)
 
 > * Author: [Joe Sullivan](https://twitter.com/itsjoesullivan)
-> * Origin: [http:\/\/joesul.li\/van\/beat-detection-using-web-audio\/](http://joesul.li/van/beat-detection-using-web-audio/)
+> * Origin: [http://joesul.li/van/2014/03/drawing-waveforms/](http://joesul.li/van/2014/03/drawing-waveforms/)
 
 Working on [scat.io](http://scat.io/) I ran into the interesting issue of rendering audio waveforms on-screen. This is a walkthrough of my trial-and-error method of figuring out a good way to accomplish that using d3 and the Web Audio API.
 
@@ -22,24 +22,24 @@ So far so good, except for those pesky 44100 frames for every second of audio...
 So let's pare down this data. We don't reasonably need more data than we can display on the screen. In other words, we only need an array of values with length equal to the number of pixels along the x-axis.
 
 ```js
-function summarize( data, pixels ) { 
+function summarize( data, pixels ) {
     var pixelLength = Math.round(data.length/pixels);
     var vals = []; // For each pixel we display
     for (var i = 0; i < pixels; i++) {
         var posSum = 0,
-            negSum = 0; 
+            negSum = 0;
 
         // Cycle through the data-points relevant to the pixel
         for (var j = 0; j < pixelLength; j++) {
-            var val = data[ i * pixelLength + j ]; 
-            
+            var val = data[ i * pixelLength + j ];
+
             // Keep track of positive and negative values separately
-            if (val > 0) { 
+            if (val > 0) {
                 posSum += val;
             } else {
                 negSum += val;
             }
-        } 
+        }
         vals.push( [ negSum / pixelLength, posSum / pixelLength ] );
     }
     return vals;
@@ -92,11 +92,11 @@ function render2() {
 }
 ```
 
-Result: 
+Result:
 
 ![](./2.png)
 
-Even better. However, we're not really being honest here because we're just mirroring the waveform, ignoring the 50% of the data beneath zero. (Now you can see why `summarize` tallies positive and negative datapoints separately.) 
+Even better. However, we're not really being honest here because we're just mirroring the waveform, ignoring the 50% of the data beneath zero. (Now you can see why `summarize` tallies positive and negative datapoints separately.)
 
 ```js
 function render3() {
@@ -117,11 +117,11 @@ function render3() {
 }
 ```
 
-Result: 
+Result:
 
 ![](./3.png)
 
-Ahh. Pleasantly imperfect. This is the algorithm I pretty much stuck with. 
+Ahh. Pleasantly imperfect. This is the algorithm I pretty much stuck with.
 
 ### Further considerations
 
@@ -137,7 +137,7 @@ So let's define a `maxSampleSize` which limits how many frames we count per pixe
 function summarizeFaster( data, pixels ) {
     var pixelLength = Math.round(data.length/pixels);
     var vals = [];
-    
+
     // Define a minimum sample size per pixel
     var maxSampleSize = 1000;
     sampleSize = Math.min(pixelLength, maxSampleSize);
@@ -147,7 +147,7 @@ function summarizeFaster( data, pixels ) {
         var posSum = 0,
             negSum = 0;
 
-        // Cycle through the data-points relevant to the pixel 
+        // Cycle through the data-points relevant to the pixel
         // Don't cycle through more than sampleSize frames per pixel.
         for (var j = 0; j < sampleSize; j++) {
             var val = data[ i * pixelLength + j ];
