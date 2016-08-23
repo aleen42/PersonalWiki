@@ -72,3 +72,23 @@ Resulting in:
 
 Not bad--obviously we're looking at audio data. But it's not symmetrical. Let's center those lines:
 
+```js
+function render2() {
+    var multiplier = 100;
+    var summary = summaraize(data, 200);
+    d3.select('#ex1')
+        .selectAll('div')
+        .data( summary )
+        .enter()
+        .append('div')
+        .style('height', function( pt ) {
+            var sum = pt[1];
+            return sum * multiplier + 'px';
+        })
+        .style('margin-top', function( pt ) {
+            var sum = pt[1]/2;
+            return - sum * multiplier + 'px';
+        });
+}
+```
+
