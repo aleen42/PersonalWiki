@@ -81,4 +81,8 @@ This python script is used to capture gsm data and analysis to emit IMSIs.
 sudo python sniffIMSI.py
 ```
 
-**3. Run `loop**
+**3. Run `loopScan.sh**
+
+```bash
+sudo bash loopScan.sh
+```
