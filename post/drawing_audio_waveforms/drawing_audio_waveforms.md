@@ -207,3 +207,33 @@ function render5() {
         })
 }
 ```
+
+### SVG
+
+Ok, you may be wondering why I haven't been drawing these as SVGs the whole time. Well, I hadn't quite figured SVGs out yet. But after a a few minutes with [Scott Murray's great D3 tutorial](http://alignedleft.com/tutorials/d3/drawing-svgs) I am feeling more comfortable with them. Here's the SVG version. I draw at twice the resolution as before and my aliasing concerns are behind me.
+
+```js
+function renderSVG() {
+    var summary = summarizeFaster(data, 600);
+    var multiplier = 200;
+    var w = 0.5;
+    d3.select('#ex6')
+        .append('svg')
+        .attr('width', 300)
+        .attr('height', 150)
+        .selectAll('circle')
+        .data( summary )
+        .enter()
+        .append('rect')
+        .attr('x', function(d, i) {
+            return ( i * w ) + 25;
+        })
+        .attr('y', function(d, i) {
+            return 50 - (multiplier * d[1] );
+        })
+        .attr('width', w)
+        .attr('height', function(d) {
+            return multiplier*(d[1] - d[0]);
+        });
+}
+```
