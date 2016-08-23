@@ -1,13 +1,13 @@
-## [轉載] Drawing Audio Waveforms [Back](./../post.md)
+## \[轉載\] Drawing Audio Waveforms [Back](./../post.md)
 
-> - Author: [Joe Sullivan](https://twitter.com/itsjoesullivan)
-- Origin: http://joesul.li/van/beat-detection-using-web-audio/
+> * Author: [Joe Sullivan](https://twitter.com/itsjoesullivan)
+> * Origin: [http:\/\/joesul.li\/van\/beat-detection-using-web-audio\/](http://joesul.li/van/beat-detection-using-web-audio/)
 
-Working on [scat.io](http://scat.io/) I ran into the interesting issue of rendering audio waveforms on-screen. This is a walkthrough of my trial-and-error method of figuring out a good way to accomplish that using d3 and the Web Audio API. 
+Working on [scat.io](http://scat.io/) I ran into the interesting issue of rendering audio waveforms on-screen. This is a walkthrough of my trial-and-error method of figuring out a good way to accomplish that using d3 and the Web Audio API.
 
 ### The data
 
-We receive the audio data in the form of a typed array, like: 
+We receive the audio data in the form of a typed array, like:
 
 ```
 [ 0, 0.0253245, 0.0452343, ... ]
@@ -27,9 +27,22 @@ function summarize( data, pixels ) {
     var vals = []; // For each pixel we display
     for (var i = 0; i < pixels; i++) {
         var posSum = 0,
-            negSum = 0; // Cycle through the data-points relevant to the pixel
+            negSum = 0; 
+
+        // Cycle through the data-points relevant to the pixel
         for (var j = 0; j < pixelLength; j++) {
             var val = data[ i * pixelLength + j ]; 
+            
             // Keep track of positive and negative values separately
-            if (val > 0) { posSum += val; } else { negSum += val; } } vals.push( [ negSum / pixelLength, posSum / pixelLength ] ); } return vals; }
+            if (val > 0) { 
+                posSum += val;
+            } else {
+                negSum += val;
+            }
+        } 
+        vals.push( [ negSum / pixelLength, posSum / pixelLength ] );
+    }
+    return vals;
+}
 ```
+
