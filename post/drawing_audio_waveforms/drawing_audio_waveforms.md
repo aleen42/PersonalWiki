@@ -171,5 +171,39 @@ Results:
 
 It looks almost as good and will render audio clips of any length quickly.
 
+### Anti-aliasing
 
+At least I think that's what it's called. Below are two versions of the previous dataset. The first is rendered precisely as above. The second uses some anti-aliasing by rendering the top and bottom pixel of each sample "grey", corresponding to the actual decimal remainder value accorded to the top/bottom pixels. I'm pretty impressed.
 
+![](./5.png)
+
+```js
+function render5() {
+    var multiplier = 200;
+    var summary = summarizeFaster(data, 300);
+    d3.select('#ex5b')
+        .selectAll('div')
+        .data( summary )
+        .enter()
+        .append('div')
+        .style('height', function( pt ) {
+            var sum = pt[1] - pt[0];
+            return Math.floor(sum * multiplier - 2) + 'px';
+        })
+        .style('margin-top', function( pt ) {
+            return - Math.floor(pt[1] * multiplier) + 'px';
+        })
+        .style('border-top', function( pt ) {
+            var remainder = pt[1] * multiplier % 1;
+            var val = Math.floor( (1 - remainder) * 256 );
+            var str = '1px solid rgb(' + val + ',' + val + ',' + val + ')';
+            return str;
+        })
+        .style('border-bottom', function( pt ) {
+            var remainder = Math.abs(pt[0] * multiplier % 1);
+            var val = Math.floor( (1 - remainder) * 256 );
+            var str = '1px solid rgb(' + val + ',' + val + ',' + val + ')';
+            return str;
+        })
+}
+```
