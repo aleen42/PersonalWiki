@@ -65,4 +65,4 @@ China Unicom
 
 #### 4. Tutorials of using gsmIMSI
 
-After all installation is done, firstly what you should do is to run the script `getFrequency.sh`
+After all installation is done, firstly what you should do is to run the script `getFrequency.sh` to get frenquencies of local region.
