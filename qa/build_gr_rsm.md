@@ -76,4 +76,5 @@ sudo bash getFrequency.sh
 **2. Run `sniffIMSI.py`**
 
 ```bash
+sudo python sniffIMSI.py
 ```
