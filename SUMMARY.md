@@ -355,7 +355,7 @@
             * [[轉載] 使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript](./post/modular_js_with_style/modular_js_with_style.md)
             * [[原創] Something about float and clear in CSS](./post/float_clear/float_clear.md)
             * [[轉載] Beat Detection Using JavaScript and the Web Audio API](./post/bpm_detection_with_javascript/bpm_detection_with_javascript.md)
-            * [**[轉載] Drawing Audio Waveforms**](./drawing_audio_waveforms/drawing_audio_waveforms.md)
+            * [[轉載] Drawing Audio Waveforms](./drawing_audio_waveforms/drawing_audio_waveforms.md)
         * Back-end
             * [[轉載] 99%的人都理解錯了HTTP中GET與POST的區別](./post/http_and_get/http_and_get.md)
         * CV (Computer Vision)
