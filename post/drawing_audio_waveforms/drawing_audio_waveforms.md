@@ -96,3 +96,23 @@ Result:
 
 ![](./2.png)
 
+Even better. However, we're not really being honest here because we're just mirroring the waveform, ignoring the 50% of the data beneath zero. (Now you can see why `summarize` tallies positive and negative datapoints separately.) 
+
+```js
+function render3() {
+    var multiplier = 200;
+    var summary = summarize(data, 300);
+    d3.select('#ex3')
+        .selectAll('div')
+        .data( summary )
+        .enter()
+        .append('div')
+        .style('height', function( pt ) {
+            var sum = pt[1] - pt[0];
+            return sum * multiplier + 'px';
+        })
+        .style('margin-top', function( pt ) {
+            return - pt[1] * multiplier + 'px';
+        });
+}
+```
