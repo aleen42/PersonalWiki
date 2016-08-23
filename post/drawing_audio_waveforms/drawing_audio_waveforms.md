@@ -121,3 +121,8 @@ Result:
 
 ![](./3.png)
 
+Ahh. Pleasantly imperfect. This is the algorithm I pretty much stuck with. 
+
+### 
+
+
