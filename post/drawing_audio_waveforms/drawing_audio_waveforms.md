@@ -165,6 +165,11 @@ function summarizeFaster( data, pixels ) {
 }
 ```
 
+Results:
+
+![](./4.png)
+
+It looks almost as good and will render audio clips of any length quickly.
 
 
 
