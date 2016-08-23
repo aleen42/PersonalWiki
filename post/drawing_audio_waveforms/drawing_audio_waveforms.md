@@ -92,3 +92,7 @@ function render2() {
 }
 ```
 
+Result: 
+
+![](./2.png)
+
