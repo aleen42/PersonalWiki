@@ -68,3 +68,9 @@ China Unicom
 **1. Run `getFrequency.sh`**
 
 After all installation is done, firstly what you should do is to run the script `getFrequency.sh` to get frenquencies of local region.
+
+```bash
+sudo bash getFrequency.sh
+```
+
+**2. Run `sniffIMSI.py`**
