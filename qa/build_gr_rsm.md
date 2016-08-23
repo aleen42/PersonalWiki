@@ -65,3 +65,4 @@ China Unicom
 
 #### 4. Tutorials of using gsmIMSI
 
+After all installation is done, firstly what you should do is to run the script `getFrequency.sh`
