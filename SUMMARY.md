@@ -70,7 +70,7 @@
                             * [Package Management](./Programming/JavaScript/Framework/react/tooling_integration/package_management/package_management.md)
                             * [Server-side Environments](./Programming/JavaScript/Framework/react/tooling_integration/server_side_env/server_side_env.md)
                         * [Add-Ons](./Programming/JavaScript/Framework/react/add_on/add_on.md)
-                            * [Animation](./Programming/JavaScript/Framework/react/animation/animation.md)
+                            * [Animation](./Programming/JavaScript/Framework/react/add_on/animation/animation.md)
                     * Tips
                         * [Inline Styles](./Programming/JavaScript/Framework/react/inline_styles/inline_styles.md)
                         * [If-Else in JSX](./Programming/JavaScript/Framework/react/if_else_jsx/if_else_jsx.md)
