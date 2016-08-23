@@ -18,7 +18,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[轉載] 使用 AMD、CommonJS 及 ES Harmony 编写模块化的 JavaScript**](./modular_js_with_style/modular_js_with_style.md)
 - [**[原創] Something about float and clear in CSS**](./float_clear/float_clear.md)
 - [**[轉載] Beat Detection Using JavaScript and the Web Audio API**](./bpm_detection_with_javascript/bpm_detection_with_javascript.md)
-- [****]()
+- [**[轉載] **]Drawing Audio Waveforms(./bpm_detection_with_javascript/bpm_detection_with_javascript.md)
 
 ### Back-end
 
