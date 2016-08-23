@@ -46,3 +46,22 @@ function summarize( data, pixels ) {
 }
 ```
 
+Rendering
+
+First I gave it the old college try:
+
+```js
+function render1() {
+    var multiplier = 100;
+    var summary = summarize(data, 100);
+    d3.select('#ex1')
+        .selectAll('div')
+        .data( summary )
+        .enter()
+        .append('div')
+        .style('height', function( pt ) {
+            var sum = pt[1] - pt[0];
+            return sum * multiplier + 'px';
+        });
+}
+```
