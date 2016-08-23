@@ -67,7 +67,7 @@ China Unicom
 
 **1. Run `getFrequency.sh`**
 
-After all installation is done, firstly what you should do is to run the script `getFrequency.sh` to get frenquencies of your local region. After then, you can see that there should be some frequencies stored in the file `frequency.dat`
+After all installation is done, firstly what you should do is to run the script `getFrequency.sh` to get frenquencies of your local region. After then, you can see that there should be some frequencies stored in the file `frequency.dat`.
 
 ```bash
 sudo bash getFrequency.sh
