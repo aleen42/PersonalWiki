@@ -83,7 +83,7 @@ sudo python sniffIMSI.py
 
 **3. Run `loopScan.sh**
 
-This script is used to loop for scanning frequencies what you have just captured.
+This script is used to loop for scanning frequencies what you have just captured, with gr-gsm
 
 ```bash
 sudo bash loopScan.sh
