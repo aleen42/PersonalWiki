@@ -75,6 +75,8 @@ sudo bash getFrequency.sh
 
 **2. Run `sniffIMSI.py`**
 
+This python script is used to capture gsm data and analysis to emit IMSIs.
+
 ```bash
 sudo python sniffIMSI.py
 ```
