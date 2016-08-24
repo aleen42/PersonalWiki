@@ -1,1 +1,1 @@
-## Webpack + React [Back](./../webpack.md)
+## Webpack + Font Awesome [Back](./../webpack.md)
