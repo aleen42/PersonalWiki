@@ -9,6 +9,7 @@
 - [**Installation**](./installation/installation.md)
 - [**Usage**](./usage/usage.md)
 - [**Webpack + React**](./webpack_and_react/webpack_and_react.md)
+- [**Webpack + Font Awesome**](./webpack_and_fa/webpack_and_fa.md)
 
 ### APIs
 
