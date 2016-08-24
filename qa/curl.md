@@ -8,3 +8,10 @@ If you want to request as **POST** method, you can use like this:
 curl -d "param1=value1&param2=value2" "http://www.example.com"
 ```
 
+If you want to see the header info, you can add `-l` like this:
+
+```bash
+curl -l -d "param1=value1&param2=value2" "http://www.example.com"
+```
+
+
