@@ -24,6 +24,7 @@
 - [**How to install atom in Ubuntu 32 bits**](./atom_ubntu_32.md)
 - [**How to deploy TL-WN722N in Ubuntu 14.04**](./tl_wn722n_ubuntu.md)
 - [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
+- [**How to use curl in Linux**](./curl.md)
 - [**Why does the shell script always break down when running for statement**](./shellfor.md)
 - [**Some commands of Linux**](./linuxcommands.md)
 - [**Some problems of building gr-rsm**](./build_gr_rsm.md)
