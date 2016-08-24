@@ -97,7 +97,7 @@
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
                         * [Usage](./Programming/JavaScript/Framework/webpack/usage/usage.md)
                         * [Webpack + React](./Programming/JavaScript/Framework/webpack/webpack_and_react/webpack_and_react.md)
-                        * [Webpack + Font Awesome](./webpack_and_fa/webpack_and_fa.md)
+                        * [Webpack + Font Awesome](./Programming/JavaScript/Framework/webpack/webpack_and_fa/webpack_and_fa.md)
                     * APIs
                         * [Loader](./Programming/JavaScript/Framework/webpack/loader/loader.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
