@@ -385,7 +385,7 @@
             * [How to install atom in Ubuntu 32 bits](./qa/atom_ubntu_32.md)
             * [How to deploy TL-WN722N in Ubuntu 14.04](./qa/tl_wn722n_ubuntu.md)
             * [How to free cached memory in Ubuntu](./qa/free_cached_memory_in_Ubuntu.md)
-            * [How to detect whether a document is inside a iframe with JavaScript](./qa/iniframe_javascript/iniframe_javascript.md)
+            * [How to detect whether a document is inside a iframe with JavaScript](./qa/iniframe_javascript.md)
             * [Why does the shell script always break down when running for statement](./qa/shellfor.md)
             * [Some commands of Linux](./qa/linuxcommands.md)
             * [Some problems of building gr-rsm](./qa/build_gr_rsm.md)
