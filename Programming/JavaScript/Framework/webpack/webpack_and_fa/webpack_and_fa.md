@@ -38,8 +38,7 @@ module.exports = {
             /** style */
             {
                 test: /\.css/,
-                loader: 'style-loader!css-loader',
-                exclude: /node_modules/
+                loader: 'style!css?sourceMap',
             }, 
 
             /** font-awesome */
