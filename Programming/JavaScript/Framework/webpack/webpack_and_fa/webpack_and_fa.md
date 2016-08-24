@@ -1,6 +1,6 @@
 ## Webpack + Font Awesome [Back](./../webpack.md)
 
-Install dependency firstly:
+Install dependency and relative loaders firstly:
 
 ```bash
 npm install font-awesome --save
