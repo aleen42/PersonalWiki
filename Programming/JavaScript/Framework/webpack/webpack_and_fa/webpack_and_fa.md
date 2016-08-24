@@ -1,5 +1,7 @@
 ## Webpack + Font Awesome [Back](./../webpack.md)
 
+### Installation
+
 Install dependency firstly:
 
 ```bash
@@ -14,3 +16,4 @@ npm install file-loader --save-dev
 npm install style-loader --save-dev
 npm install url-loader --save-dev
 ```
+
