@@ -12,3 +12,4 @@ function inIframe () {
 }
 ```
 
+`top` and `self` are both `window` objects (along with `parent`), so you're seeing if your window is the top window.
