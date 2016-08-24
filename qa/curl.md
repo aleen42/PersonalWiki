@@ -14,4 +14,6 @@ If you want to see the header info, you can add `-l` like this:
 curl -l -d "param1=value1&param2=value2" "http://www.example.com"
 ```
 
+`-i` option can show all information, while `-v` will show the whole process of a request.
+
 
