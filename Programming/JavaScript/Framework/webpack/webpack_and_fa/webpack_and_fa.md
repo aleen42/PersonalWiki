@@ -75,6 +75,12 @@ module.exports = {
 
 ### 3. Usage
 
+```html
+<link rel="stylesheet" type="text/css" href="./node_modules/font-awesome/css/font-awesome.css">
+```
+
+@deprecated way, which cannot load with the latest version:
+
 ```js
 import fa from 'font-awesome/css/font-awesome.css';
 
