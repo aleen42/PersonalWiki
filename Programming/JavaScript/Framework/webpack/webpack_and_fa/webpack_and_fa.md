@@ -73,3 +73,11 @@ module.exports = {
     }
 };
 ```
+
+### 3. Usage
+
+```js
+import fa from 'font-awesome/css/font-awesome.css';
+
+document.body.innerHTML = '<i class="fa fa-fw fa-question"></i>';
+```
