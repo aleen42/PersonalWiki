@@ -1,1 +1,1 @@
-## How to free cached memory in Ubuntu [Back](./qa.md)
+## How to use curl in Linux [Back](./qa.md)
