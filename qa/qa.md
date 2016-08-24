@@ -46,6 +46,7 @@
 - [**How to convert string between Unicode and Ascii with JavaScript**](./uta_atu.md)
 - [**How to get current timestamp with JavaScript**](./timestamp.md)
 - [**How to preload resources with JavaScript**](./resloadjs.md)
+- [**How to detect whether a document is inside a iframe with JavaScript**](./iniframe_javascript/iniframe_javascript.md)
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
 - [**Differences between &lt;link&gt; and &#64;import**](./difference_between_link_and_import.md)
