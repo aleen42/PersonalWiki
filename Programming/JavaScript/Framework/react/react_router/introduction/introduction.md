@@ -43,8 +43,18 @@ export class App extends React.Component {
                 break;
             default:
                 Child = Home;
-                break
+                break;
         }
+        
+        return (
+            <div>
+                <h1>App</h1>
+                <ul>
+                    <li><a href="#/about">Abount</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        );
     }
 }
 ```
