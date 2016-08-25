@@ -142,6 +142,7 @@ ReactDOM.render(
             <Route path="about" component={About}></Route>
             <Route path="inbox" component={Inbox}></Route>
         </Route>
-    </Router>
+    </Router>,
+    document.getElementById('content')
 );
 ```
