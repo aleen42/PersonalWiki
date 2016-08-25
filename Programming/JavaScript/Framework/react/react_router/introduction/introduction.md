@@ -4,4 +4,4 @@ React Router is used to help adding new screens and flows to our application, wh
 
 ### Without React Router
 
-If we don't use React Router, we are supposed to complete this fucntion with `window.location.hash`
+If we don't use React Router, we are supposed to complete this requirement with `window.location.hash`.
