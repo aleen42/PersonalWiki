@@ -43,6 +43,7 @@ export class App extends React.Component {
                 break;
             default:
                 Child = Home;
+                break
         }
     }
 }
