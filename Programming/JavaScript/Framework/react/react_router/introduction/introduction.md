@@ -1,5 +1,7 @@
 ## Introduction [Back](./../react_router.md)
 
+Think about a case that without refreshing, how can we keep the URL in sync with contents in a page?
+
 React Router is used to help adding new screens and flows to our application, while keeping the URL in sync with what's being displayed on the page.
 
 ### Without React Router
