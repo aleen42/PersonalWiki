@@ -109,7 +109,7 @@ That's why we use React Router to help us parsing URL in a smart way.
 
 ### With React Router
 
-{%ace edit=false, lang='jsx', theme='tomorrow %}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 import React from 'react';
 import ReactDOM from 'react-dom';
 
