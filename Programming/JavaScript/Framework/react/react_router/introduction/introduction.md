@@ -115,4 +115,8 @@ import ReactDOM from 'react-dom';
 
 /** First we import some modules... */
 import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
+
+export class App extends React.Component {
+    
+}
 ```
