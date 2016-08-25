@@ -19,6 +19,8 @@ const Home = React.createClass({/*...*/});
 export class App extends React.Component {
     constructor(props) {
         super(props);
+        
+        this.state = { route: window.location.hash.substr(1) };
     }
 }
 ```
