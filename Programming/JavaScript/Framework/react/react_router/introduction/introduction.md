@@ -59,5 +59,7 @@ export class App extends React.Component {
     }
 }
 
-render(
+ReactDOM.render({
+    
+});
 ```
