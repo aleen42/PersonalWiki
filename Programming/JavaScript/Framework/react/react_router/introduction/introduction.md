@@ -8,7 +8,7 @@ React Router is used to help adding new screens and flows to our application, wh
 
 If we don't use React Router, we are supposed to complete this requirement with `window.location.hash`.
 
-{%ace edit=false, lang='jsx', theme='tomorrow %}
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 import React from 'react';
 import ReactDOM from 'react-dom';
 
