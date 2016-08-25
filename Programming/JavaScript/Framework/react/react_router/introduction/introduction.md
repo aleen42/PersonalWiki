@@ -25,7 +25,9 @@ export class App extends React.Component {
     
     componentDidMount() {
         window.addEventListener('hashchange', () => {
-            
+            this.setState({
+                
+            });
         });
     }
 }
