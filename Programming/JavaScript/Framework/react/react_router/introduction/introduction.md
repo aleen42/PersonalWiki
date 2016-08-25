@@ -130,4 +130,9 @@ export class App extends React.Component {
         );
     }
 }
+
+/**
+ * Finally, we render a <Router> with some <Route>s.
+ * It does all the fancy routing stuff for us.
+ */
 ```
