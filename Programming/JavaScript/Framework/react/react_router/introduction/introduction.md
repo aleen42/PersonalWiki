@@ -53,6 +53,7 @@ export class App extends React.Component {
                     <li><a href="#/about">About</a></li>
                     <li><a href="#/inbox">Inbox</a></li>
                 </ul>
+                <Child />
             </div>
         );
     }
