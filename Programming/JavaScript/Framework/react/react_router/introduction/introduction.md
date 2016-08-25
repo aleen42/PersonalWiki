@@ -8,7 +8,7 @@ React Router is used to help adding new screens and flows to our application, wh
 
 If we don't use React Router, we are supposed to complete this requirement with `window.location.hash`.
 
-```js
+{%ace edit=false, lang='jsx', theme='tomorrow %}
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -63,7 +63,7 @@ ReactDOM.render(
     <App />,
     document.getElementById('content')
 );
-```
+{%endace%}
 
 Imagine now that `Inbox` component has some neted UI at different URLs, maybe something like this master detail view:
 
