@@ -104,3 +104,5 @@ path: /inbox
 |...           |                                |
 +--------------+--------------------------------+
 ```
+
+That's why we use React Router to help us parsing URL in a smart way
