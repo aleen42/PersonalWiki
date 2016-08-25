@@ -64,3 +64,23 @@ ReactDOM.render(
     document.getElementById('content')
 );
 ```
+
+Imagine now that `Inbox` component has some neted UI at different URLs, maybe something like this master detail view:
+
+```
+path: /inbox/messages/1234
+
++---------+------------+------------------------+
+| About   |    Inbox   |                        |
++---------+            +------------------------+
+| Compose    Reply    Reply All    Archive      |
++-----------------------------------------------+
+|Movie tomorrow|                                |
++--------------+   Subject: TPS Report          |
+|TPS Report        From:    boss@big.co         |
++--------------+                                |
+|New Pull Reque|   So ...                       |
++--------------+                                |
+|...           |                                |
++--------------+--------------------------------+
+```
