@@ -61,6 +61,6 @@ export class App extends React.Component {
 
 ReactDOM.render(
     <App />,
-    document.getElementById('content');
+    document.getElementById('content')
 );
 ```
