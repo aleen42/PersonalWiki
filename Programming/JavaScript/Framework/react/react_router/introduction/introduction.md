@@ -32,7 +32,18 @@ export class App extends React.Component {
     }
     
     render() {
+        let Child;
         
+        switch (this.state.route) {
+            case '/about':
+                Child = About;
+                break;
+            case '/inbox':
+                Child = Inbox;
+                break;
+            default:
+                Child = Home;
+        }
     }
 }
 ```
