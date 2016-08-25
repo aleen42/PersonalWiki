@@ -50,8 +50,8 @@ export class App extends React.Component {
             <div>
                 <h1>App</h1>
                 <ul>
-                    <li><a href="#/about">Abount</a></li>
-                    <li></li>
+                    <li><a href="#/about">About</a></li>
+                    <li><a href="#/inbox">Inbox</a></li>
                 </ul>
             </div>
         );
