@@ -110,5 +110,9 @@ That's why we use React Router to help us parsing URL in a smart way.
 ### With React Router
 
 ```js
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+/** First we import some modules... */
 
 ```
