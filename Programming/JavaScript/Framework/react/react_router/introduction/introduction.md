@@ -17,7 +17,8 @@ const Inbox = React.createClass({/*...*/});
 const Home = React.createClass({/*...*/});
 
 export class App extends React.Component {
-    constructor() {
-    
+    constructor(props) {
+        super(props);
+    }
 }
 ```
