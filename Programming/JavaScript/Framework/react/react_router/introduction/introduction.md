@@ -59,7 +59,8 @@ export class App extends React.Component {
     }
 }
 
-ReactDOM.render({
-    
-});
+ReactDOM.render(
+    <App />,
+    document.getElementById('content');
+);
 ```
