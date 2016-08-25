@@ -117,6 +117,13 @@ import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
 
 export class App extends React.Component {
-    
+    render() {
+        return (
+            <div>
+                <h1>App</h1>
+                
+            </div>
+        );
+    }
 }
 ```
