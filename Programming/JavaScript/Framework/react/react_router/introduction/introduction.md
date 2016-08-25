@@ -135,4 +135,13 @@ export class App extends React.Component {
  * Finally, we render a <Router> with some <Route>s.
  * It does all the fancy routing stuff for us.
  */
+ReactDOM.render(
+    <Router history={hashHistory}>
+        <Route path="/" component={App}>
+            <IndexRoute component={Home}></IndexRoute>
+            <Route path="about" component={About}></Route>
+            <Route path="inbox" component={Inbox}></Route>
+        </Route>
+    </Router>
+);
 ```
