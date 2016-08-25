@@ -114,5 +114,5 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 /** First we import some modules... */
-
+import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router';
 ```
