@@ -22,5 +22,11 @@ export class App extends React.Component {
         
         this.state = { route: window.location.hash.substr(1) };
     }
+    
+    componentDidMount() {
+        window.addEventListener('hashchange', () => {
+            
+        });
+    }
 }
 ```
