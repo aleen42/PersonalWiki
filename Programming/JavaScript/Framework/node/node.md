@@ -61,5 +61,6 @@ node script.js
 ### Menu
 
 - [**Create and publish a node.js module**](./npm/npm.md)
+- [**Create a static server with node.js**](./static_server/static_server.md)
 - [**Use Node to write a command line tool**](./cmd/cmd.md)
 - [**Differences between spawn and exec of child_process**](./child_process/child_process.md)
