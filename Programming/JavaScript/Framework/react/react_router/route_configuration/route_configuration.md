@@ -11,4 +11,6 @@ For example, here we will render different components with React Router to match
 `/inbox`|`App -> Inbox`
 `/inbox/messages/:id`|`App -> Inbox -> Message`
 
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
 
+{%endace%}
