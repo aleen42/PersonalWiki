@@ -7,4 +7,4 @@ In React Router, there are 3 types of histories which are come across most often
 - `browserHistory`
 - `hashHistory`
 - `createMemoryHistory`
-- 
+
