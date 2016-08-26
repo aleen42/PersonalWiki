@@ -49,3 +49,14 @@ app.get('*', function (request, response){
 app.listen(port)
 console.log("server started on port " + port)
 ```
+
+If **Nginx**:
+
+```
+server {
+    ...
+    location / {
+        try_files $uri /index.html;
+    }
+}
+```
