@@ -41,11 +41,23 @@ class About extends React.Component {
     }
 }
 
+class Inbox extends React.Component {
+    render() {
+        return (
+            <div>
+                <h3>Inbox</h3>
+                
+            </div>
+        );
+    }
+}
+
 class Message extends React.Component {
     render() {
         return (
             <div>
                 <h3>Message</h3>
+                
             </div>
         );
     }
