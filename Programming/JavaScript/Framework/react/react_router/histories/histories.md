@@ -22,3 +22,7 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+### `browserHistory`
+
+Browser history is recommended to used in a **browser application** with React Router.
