@@ -6,7 +6,9 @@ For example, here we will render different components with React Router to match
 
 **URL**|**Components**
 :-:|:---------
-/|`App`
-
+`/`|`App`
+`/about`|`App -> About`
+`/inbox`|`App -> Inbox`
+`/inbox/messages/:id`|`App -> Inbox -> Message`
 
 
