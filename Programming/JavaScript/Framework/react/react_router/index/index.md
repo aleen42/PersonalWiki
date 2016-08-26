@@ -30,4 +30,8 @@ A component for redirecting `/` to one component:
 
 ### Index Links
 
+`<Link to="/">Home</Link>` will always be active since every URL starts with `/`.
+
+Therefore, we should use `<IndexLink to="/">Home</IndexLink>`, so that we can have a link to `/` that is only active when the `Home` route is rendered.
+
 
