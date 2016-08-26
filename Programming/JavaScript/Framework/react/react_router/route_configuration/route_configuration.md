@@ -15,4 +15,10 @@ For example, here we will render different components with React Router to match
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Link } from 'react-router';
+
+class App extends React.Component {
+    render() {
+        
+    }
+}
 {%endace%}
