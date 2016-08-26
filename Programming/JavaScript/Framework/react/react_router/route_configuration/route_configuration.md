@@ -56,8 +56,7 @@ class Message extends React.Component {
     render() {
         return (
             <div>
-                <h3>Message</h3>
-                
+                <h4>Message: {this.props.params.id}</h4>
             </div>
         );
     }
