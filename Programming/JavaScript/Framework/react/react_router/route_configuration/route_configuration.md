@@ -46,7 +46,7 @@ class Inbox extends React.Component {
         return (
             <div>
                 <h3>Inbox</h3>
-                
+                {this.props.children}
             </div>
         );
     }
