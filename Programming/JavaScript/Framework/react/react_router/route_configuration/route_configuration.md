@@ -70,6 +70,7 @@ ReactDOM.render(
                 <Route path="message/:id" component={Message}></Route>
             </Route>
         </Route>
-    </Router>
+    </Router>,
+    document.getElementById('content')
 );
 {%endace%}
