@@ -77,4 +77,4 @@ Hash history uses the hash (`#`) portion of the URL, creating routes that look l
 
 #### Cons
 
-In general, production web applications should use `browserHistory` for the cleaner URLs, and for support for server-side rendering, which is impossible with hashHistory.
+In general, production web applications should use `browserHistory` for **the cleaner URLs**, and for **support for server-side rendering**, which is impossible with hashHistory.
