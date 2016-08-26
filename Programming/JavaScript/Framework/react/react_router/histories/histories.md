@@ -60,3 +60,14 @@ server {
     }
 }
 ```
+
+If **Apache**, create a `.htacess` file:
+
+```
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+```
+```
