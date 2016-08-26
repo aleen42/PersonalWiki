@@ -40,4 +40,14 @@ class About extends React.Component {
         );
     }
 }
+
+class Message extends React.Component {
+    render() {
+        return (
+            <div>
+                <h3>Message</h3>
+            </div>
+        );
+    }
+}
 {%endace%}
