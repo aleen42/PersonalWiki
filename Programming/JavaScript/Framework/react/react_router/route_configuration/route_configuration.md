@@ -115,7 +115,7 @@ ReactDOM.render(
 );
 {%endace%}
 
-### Decoupling the UI from the URL
+### Decoupling (解耦) the UI from the URL
 
 It would be nice if we could remove the `/inbox` segment from the `/inbox/messages/:id` URL pattern, but still render `Message` nested inside the `App -> Inbox UI`. Pathless routes let us do exactly that.
 
@@ -146,3 +146,5 @@ ReactDOM.render(
     document.getElementById('content')
 );
 {%endace%}
+
+### 
