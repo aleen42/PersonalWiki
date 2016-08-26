@@ -27,3 +27,7 @@ A component for redirecting `/` to one component:
     </Route>
 </Router>
 {%endace%}
+
+### Index Links
+
+
