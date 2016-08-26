@@ -82,3 +82,13 @@ In general, production web applications should use `browserHistory` for **the cl
 #### Pros
 
 For older version browsers, it may still be in need to be used.
+
+### `createMemoryHistory`
+
+Memory history doesn't manipulate or read from the address bar. It's also useful for testing and other rendering environments (like React Native).
+
+It's a bit different than the other two histories because you have to create one, it is this way to facilitate testing:
+
+```js
+const history = createMemoryHistory(location);
+```
