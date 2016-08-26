@@ -34,3 +34,7 @@ A route path is a string pattern that is used to match a URL (or a portion of on
 ### Precendence
 
 Finally, the routing algorithm attempts to match routes in the order they are defined, top to bottom. So, when you have two sibling routes you should be sure the first doesn't match all possible `path`s that can be matched by the later sibling. For example, don't do this:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+<Route path="/comments"></Route>
+{%endace%}
