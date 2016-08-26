@@ -1,1 +1,1 @@
-## Create and publish a node.js module [Back](./../node.md)
+## Create a static server with node.js [Back](./../node.md)
