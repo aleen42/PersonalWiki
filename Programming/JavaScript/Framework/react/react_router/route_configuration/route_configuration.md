@@ -78,3 +78,31 @@ ReactDOM.render(
 ### Adding an Index
 
 Imagine we'd like to render another component inside of `App` when the URL is `/`. Currently, `this.props.children` inside of App's render method is `undefined` in this case. We can use an `<IndexRoute>` to specify a "default" page.
+
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router, Route, Link } from 'react-router';
+
+class Dashboard extends React.Component {
+    render() {
+        return (
+            <div>
+                Welcome to the App!
+            </div>
+        );
+    }
+}
+
+ReactDOM.render(
+    <Router>
+        <Route path="/" component={App}>
+            <Route path="about" component={About}></Route>
+            <Route path="inbox" component={Inbox}>
+                <Route path="message/:id" component={Message}></Route>
+            </Route>
+        </Route>
+    </Router>,
+    document.getElementById('content')
+);
+{%endace%}
