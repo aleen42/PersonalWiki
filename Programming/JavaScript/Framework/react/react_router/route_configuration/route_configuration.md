@@ -65,7 +65,7 @@ class Message extends React.Component {
 ReactDOM.render(
     <Router>
         <Route path="/" component={App}>
-            <Route path="/" component={App}></Route>
+            <Route path="/about" component={}></Route>
         </Route>
     </Router>
 );
