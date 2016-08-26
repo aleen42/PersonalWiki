@@ -12,5 +12,7 @@ For example, here we will render different components with React Router to match
 `/inbox/messages/:id`|`App -> Inbox -> Message`
 
 {%ace edit=false, lang='jsx', theme='tomorrow' %}
-
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router, Route, Link } from 'react-router';
 {%endace%}
