@@ -2,4 +2,9 @@
 
 ### Index Routes
 
-A component for adding default component in a `<Route>`.
+A component for adding default components in a `<Route>`, so that `this.props.children` is not `undefined`.
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+{%endace%}
+
+
