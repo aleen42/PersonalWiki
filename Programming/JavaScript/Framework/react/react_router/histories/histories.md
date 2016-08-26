@@ -81,4 +81,4 @@ In general, production web applications should use `browserHistory` for **the cl
 
 #### Pros
 
-For older version browsers, it may be still in need to be used.
+For older version browsers, it may still be in need to be used.
