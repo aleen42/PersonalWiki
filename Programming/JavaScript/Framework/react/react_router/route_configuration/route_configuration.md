@@ -97,7 +97,7 @@ class Dashboard extends React.Component {
 ReactDOM.render(
     <Router>
         <Route path="/" component={App}>
-            <IndexRoute component={Dashboard} />
+            <IndexRoute component={Dashboard}></IndexRoute>
             <Route path="about" component={About}></Route>
             <Route path="inbox" component={Inbox}>
                 <Route path="message/:id" component={Message}></Route>
