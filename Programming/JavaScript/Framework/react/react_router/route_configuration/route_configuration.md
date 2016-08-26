@@ -35,7 +35,7 @@ class About extends React.Component {
     render() {
         return (
             <div>
-                <h1>About</h1>
+                <h3>About</h3>
             </div>
         );
     }
