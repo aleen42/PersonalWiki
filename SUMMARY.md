@@ -97,7 +97,7 @@
                         * [React Router](./Programming/JavaScript/Framework/react/react_router/react_router.md)
                             * [Introduction](./Programming/JavaScript/Framework/react/react_router/introduction/introduction.md)
                             * Basics
-                                * [Route Configuraon](./Programming/JavaScript/Framework/react/route_configuration/route_configuration.md)
+                                * [Route Configuraon](./Programming/JavaScript/Framework/react/react_router/route_configuration/route_configuration.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
