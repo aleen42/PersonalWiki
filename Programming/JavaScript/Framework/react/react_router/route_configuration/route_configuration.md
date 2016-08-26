@@ -82,7 +82,7 @@ Imagine we'd like to render another component inside of `App` when the URL is `/
 {%ace edit=false, lang='jsx', theme='tomorrow' %}
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, Link } from 'react-router';
+import { Router, IndexRoute, Route, Link } from 'react-router';
 
 class Dashboard extends React.Component {
     render() {
@@ -97,6 +97,7 @@ class Dashboard extends React.Component {
 ReactDOM.render(
     <Router>
         <Route path="/" component={App}>
+            <Index
             <Route path="about" component={About}></Route>
             <Route path="inbox" component={Inbox}>
                 <Route path="message/:id" component={Message}></Route>
