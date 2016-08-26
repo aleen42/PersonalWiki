@@ -74,3 +74,7 @@ RewriteRule . /index.html [L]
 ### `hashHistory`
 
 Hash history uses the hash (`#`) portion of the URL, creating routes that look like `example.com/#/some/path`.
+
+#### Cons
+
+In general, though, production web applications should use browserHistory for the cleaner URLs, and for support for server-side rendering, which is impossible with hashHistory.
