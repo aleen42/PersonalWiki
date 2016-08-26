@@ -8,3 +8,10 @@ In React Router, there are 3 types of histories which are come across most often
 - `hashHistory`
 - `createMemoryHistory`
 
+### Usage
+
+Just import them separately and pass them into a `<Router>`:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+
+{%endace%}
