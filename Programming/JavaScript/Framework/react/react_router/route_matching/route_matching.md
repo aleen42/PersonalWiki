@@ -5,3 +5,8 @@ A route has **three attributes** that determine whether or not it "matches" the 
 - nesting
 - path
 - precedence (優先級)
+
+### Nesting
+
+Nested routes are arranged in a tree-like structure.
+
