@@ -70,3 +70,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L]
 ```
+
+### `hashHistory`
+
+Hash history uses the hash (`#`) portion of the URL, creating routes that look like `example.com/#/some/path`.
