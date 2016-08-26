@@ -79,6 +79,13 @@ ReactDOM.render(
 
 Imagine we'd like to render another component inside of `App` when the URL is `/`. Currently, `this.props.children` inside of App's render method is `undefined` in this case. We can use an `<IndexRoute>` to specify a "default" page.
 
+**URL**|**Components**
+:-----:|:-------------
+`/`|`App -> Dashboard`
+`/about`|`App -> About`
+`/inbox`|`App -> Inbox`
+`/inbox/messages/:id`|`App -> Inbox -> Message`
+
 {%ace edit=false, lang='jsx', theme='tomorrow' %}
 import React from 'react';
 import ReactDOM from 'react-dom';
