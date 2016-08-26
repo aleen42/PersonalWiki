@@ -1,6 +1,8 @@
 ## Create a static server with node.js [Back](./../node.md)
 
-### Definitio
+### Definition
+
+create a JavaScript file name `server.js`:
 
 ```js
 var http = require('http');
@@ -39,4 +41,11 @@ http.createServer(function(request, response) {
 }).listen(parseInt(port, 10));
 
 console.log('Listening at\n  => http://localhost:' + port + '/\nCTRL + C to shutdown');
+```
+
+### Usage
+
+```bash
+node ./server.js
+node ./server.js 8080
 ```
