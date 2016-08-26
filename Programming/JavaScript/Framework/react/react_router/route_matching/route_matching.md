@@ -22,5 +22,5 @@ A route path is a string pattern that is used to match a URL (or a portion of on
     {%endace%}
 - `*`: Matches all character (non-greedy)
     {%ace edit=false, lang='jsx', theme='tomorrow'%}
-    <Route path="/hello/*.jpg"></Route>    {/** match "/hello", "/hello/aleen" or "/hello/alien" */}
+    <Route path="/hello/*.jpg"></Route>    {/** match "/hello/a.jpg", "/hello/b.jpg" or "/hello/test.jpg" */}
     {%endace%}
