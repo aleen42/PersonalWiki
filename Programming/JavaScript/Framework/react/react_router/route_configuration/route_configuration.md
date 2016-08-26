@@ -67,7 +67,7 @@ ReactDOM.render(
         <Route path="/" component={App}>
             <Route path="/about" component={About}></Route>
             <Route path="/inbox" component={Inbox}>
-                <Route path="/inbox/message/:id" component={About}></Route>
+                <Route path="/inbox/message/:id" component={Message}></Route>
             </Route>
         </Route>
     </Router>
