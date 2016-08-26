@@ -14,4 +14,5 @@ A route path is a string pattern that is used to match a URL (or a portion of on
 
 - `:paramName` - matches a URL segment up to the next `/`, `?`, or `#`. We can use `this.props.params.paramName` to access this variable.
     {%ace edit=false, lang='jsx', theme='tomorrow'%}
+    <Route path="/hello/:paramName"></Route>    {/** match "/hello/aleen" or "/hello/alien" */}
     {%endace%}
