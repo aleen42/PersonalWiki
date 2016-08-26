@@ -147,4 +147,28 @@ ReactDOM.render(
 );
 {%endace%}
 
-### 
+### Preserving a old version
+
+If we want to preserve the old version `/inbox/message/:id`, we can just use `<Redirect>`
+
+{%ace edit=false, lang='jsx', theme='tomorrow' %}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router, IndexRoute, Route, Redirect, Link } from 'react-router';
+
+ReactDOM.render(
+    <Router>
+        <Route path="/" component={App}>
+            <IndexRoute component={Dashboard}></IndexRoute>
+            <Route path="about" component={About}></Route>
+            <Route path="inbox" component={Inbox}></Route>
+            
+            <Route component={Inbox}>
+                <Route path="message/:id" component={Message}></Route>
+            </Route>
+        </Route>
+    </Router>,
+    document.getElementById('content')
+);
+{%endace%}
+
