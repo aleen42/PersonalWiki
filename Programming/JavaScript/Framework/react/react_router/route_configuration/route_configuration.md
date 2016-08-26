@@ -136,8 +136,10 @@ ReactDOM.render(
         <Route path="/" component={App}>
             <IndexRoute component={Dashboard}></IndexRoute>
             <Route path="about" component={About}></Route>
-            <Route path="inbox" component={Inbox}>
-                <Route path="/message/:id" component={Message}></Route>
+            <Route path="inbox" component={Inbox}></Route>
+            
+            <Route component={Inbox}>
+                <Route path="message/:id" component={Message}></Route>
             </Route>
         </Route>
     </Router>,
