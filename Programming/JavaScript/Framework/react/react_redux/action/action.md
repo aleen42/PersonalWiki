@@ -49,5 +49,7 @@ An action **MAY**:
     
 - have a `meta` property.
 
+    > The optional `meta` property **MAY** be any type of value. It is intended for any extra information that is not part of the payload.
+
 An action **MUST NOT** include properties other than `type`, `error`, `payload`, or `meta`.
 
