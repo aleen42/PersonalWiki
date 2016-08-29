@@ -102,13 +102,7 @@
                                 * [Histories](./Programming/JavaScript/Framework/react/react_router/histories/histories.md)
                                 * [Index](./Programming/JavaScript/Framework/react/react_router/index/index.md)
                     * Redux
-                        * [Redux](./Programming/JavaScript/Framework/react/react_redux/react_redux.md)
-                            * [Introduction](./Programming/JavaScript/Framework/react/react_redux/introduction/introduction.md)
-                            * Basics
-                                * [Actions](./Programming/JavaScript/Framework/react/react_redux/action/action.md)
-                                * [Reducers](./Programming/JavaScript/Framework/react/react_redux/reducer/reducer.md)
-                                * [Store](./Programming/JavaScript/Framework/react/react_redux/store/store.md)
-                                * [Data Flow - Data Lifecycle in Redux](./Programming/JavaScript/Framework/react/react_redux/data_flow/data_flow.md)
+                        
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
@@ -117,6 +111,13 @@
                         * [Webpack + Font Awesome](./Programming/JavaScript/Framework/webpack/webpack_and_fa/webpack_and_fa.md)
                     * APIs
                         * [Loader](./Programming/JavaScript/Framework/webpack/loader/loader.md)
+                * [Redux](./Programming/JavaScript/Framework/redux/redu.md)
+                    * [Introduction](./Programming/JavaScript/Framework/react/react_redux/introduction/introduction.md)
+                    * Basics
+                        * [Actions](./Programming/JavaScript/Framework/react/react_redux/action/action.md)
+                        * [Reducers](./Programming/JavaScript/Framework/react/react_redux/reducer/reducer.md)
+                        * [Store](./Programming/JavaScript/Framework/react/react_redux/store/store.md)
+                        * [Data Flow - Data Lifecycle in Redux](./Programming/JavaScript/Framework/react/react_redux/data_flow/data_flow.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
