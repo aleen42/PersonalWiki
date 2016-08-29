@@ -29,7 +29,7 @@ An action **MUST**:
 - be a plain JavaScript object with notation `{}` to define.
 - have a `type` property.
 
-    > The `type` of an action identifies to the consumer the nature of the action that has occurred. Two actions with the same type MUST be strictly equivalent (using `===`). By convention, `type` is usually string constant or a Symbol.
+    > The `type` of an action identifies to the consumer the nature of the action that has occurred. Two actions with the same type **MUST** be strictly equivalent (using `===`). By convention, `type` is usually string constant or a Symbol.
 
 An action **MAY**:
 
