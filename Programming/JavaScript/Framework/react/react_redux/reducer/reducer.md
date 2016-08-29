@@ -12,3 +12,6 @@ For our todo App, we are going to store two different things:
 
 - The currently selected visibility filter
 - The actual list of todos
+
+### Handling Actions
+
