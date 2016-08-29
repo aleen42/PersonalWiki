@@ -137,3 +137,6 @@ function todoApp(state = initialState, action) {
     }
 }
 ```
+
+### Reducer Composition (分解)
+
