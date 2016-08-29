@@ -80,4 +80,24 @@ And to actually initiate a dispatch by passing the result to the `dispatch()` fu
 dispatch(addTodo(text));
 ```
 
-The `dispatch()` function can be accessed directly from the `store` as `store.dispatch()`, but more likely you'll access it using a helper like react-redux's `connect()`. You can use `bindActionCreators()` to automatically bind many action creators to a `dispatch()` function.
+The `dispatch()` function can be accessed directly from the `store` as `store.dispatch()`, but more likely you'll access it using a helper like react-redux's `connect()`. You can use `bindActionCreators()` to automatically bind many action creators to a `dispatch()` function:
+
+```js
+const ADD_TODO = 'ADD_TODO';
+const TOGGLE_TODO = 'TOGGLE_TODO'; 
+
+function addTodo(text) {
+    return {
+        type: ADD_TODO,
+        payload: {
+            text: text
+        }
+    };
+}
+
+function toggleTodo(index) {
+    return {
+    
+    };
+}
+```
