@@ -13,3 +13,7 @@ It helps you write applications that **behave consistently**, **run in different
 ```bash
 npm install --save redux
 ```
+
+### Basics
+
+
