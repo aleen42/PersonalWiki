@@ -29,7 +29,7 @@ Just remember that **Given the same arguments, it should calculate the next stat
 import { VisibilityFilter } from './actions.js';
 
 const initialState = {
-    visibilityFilter: VisibilityFilter.SHOW_ALL,
+    visibilityFilter: VisibilityFilters.SHOW_ALL,
     todos: []
 };
 
@@ -306,5 +306,6 @@ export default todoApp = combineReducers({
 
 ```js
 /** reducers.js */
-
+import { combineReducers } from 'redux';
+import { ADD_TODO, TOGGLE_TODO, SET_VISIBILITY_FILTER, VisibilityFitlers }
 ```
