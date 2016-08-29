@@ -34,6 +34,9 @@ import { addTodo, toggleTodo, SetVisibilityFilter, VisibilityFilters } from './a
 /** log out the initial state */
 console.log(store.getState());
 
-/** subscribe listener
-
+/** 
+ * Every time the state changes, log it
+ * Note that subscribe() returns a function for unregistering the listener
+ */
+let unsubscribe = store.subscribe();
 ```
