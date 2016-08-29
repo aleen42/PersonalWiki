@@ -14,4 +14,9 @@ Store will be responsible for:
 
 Remember that there is **only one single store** in a Redux application. To create a producer, what you need is reducer.
 
+```js
+import { createStore } from 'redux';
+import todoApp from './reducers';
 
+
+```
