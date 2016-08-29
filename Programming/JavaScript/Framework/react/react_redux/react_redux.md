@@ -21,3 +21,4 @@ In this guide, we'll walk through the process of creating a simple Todo app.
 - [**Actions**](./action/action.md)
 - [**Reducers**](./reducer/reducer.md)
 - [**Store**](./store/store.md)
+- [**Data Flow - Data Lifecycle in Redux**](./data_flow/data_flow.md)
