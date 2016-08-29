@@ -307,5 +307,6 @@ export default todoApp = combineReducers({
 ```js
 /** reducers.js */
 import { combineReducers } from 'redux';
-import { ADD_TODO, TOGGLE_TODO, SET_VISIBILITY_FILTER, VisibilityFitlers } from './actions.js'
+import { ADD_TODO, TOGGLE_TODO, SET_VISIBILITY_FILTER, VisibilityFitlers } from './actions.js';
+
 ```
