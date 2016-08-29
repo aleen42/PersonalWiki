@@ -68,7 +68,7 @@ function addTodo(text) {
     return {
         type: ADD_TODO,
         payload: {
-            text: text
+            text
         }
     };
 }
@@ -90,7 +90,7 @@ function addTodo(text) {
     return {
         type: ADD_TODO,
         payload: {
-            text: text
+            text
         }
     };
 }
@@ -99,8 +99,10 @@ function toggleTodo(index) {
     return {
         type: TOGGLE_TODO,
         payload: {
-            index: index
+            index
         }
     };
 }
+
+bindActionCreators();
 ```
