@@ -118,6 +118,7 @@
                         * [Reducers](./Programming/JavaScript/Framework/redux/reducer/reducer.md)
                         * [Store](./Programming/JavaScript/Framework/redux/store/store.md)
                         * [Data Flow - Data Lifecycle in Redux](./Programming/JavaScript/Framework/redux/data_flow/data_flow.md)
+                        * [React + Redux](./Programming/JavaScript/Framework/redux/react_and_redux/react_and_redux.md)
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
