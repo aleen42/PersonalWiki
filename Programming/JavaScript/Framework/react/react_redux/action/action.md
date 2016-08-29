@@ -115,5 +115,6 @@ Note: Action Creators can also be asynchronous and have side-effects. You can re
 ### Sourc Code
 
 ```js
+/** action js */
 
 ```
