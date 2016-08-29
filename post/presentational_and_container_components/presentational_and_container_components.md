@@ -31,6 +31,6 @@ My **container** components:
 - Provide the data and behavior to presentational or other container components.
 - Call Flux actions and provide these as callbacks to the presentational components.
 - Are often stateful, as they tend to serve as data sources.
-- Are usually generated using higher order components such as connect() from React Redux, createContainer() from Relay, or Container.create() from Flux Utils, rather than written by hand.
+- Are usually generated using [higher order components](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750) such as `connect()` from React Redux, `createContainer()` from Relay, or `Container.create()` from Flux Utils, rather than written by hand.
 - Examples: UserPage, FollowersSidebar, StoryContainer, FollowedUserList.
 
