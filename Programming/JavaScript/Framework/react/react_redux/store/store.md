@@ -41,4 +41,9 @@ console.log(store.getState());
 let unsubscribe = store.subscribe(() => {
     console.log(store.getState());
 });
+
+/** Dispatching actions */
+store.dispatch(addTodo('Learn about actions');
+store.dispatch(addTodo('Learn about reducers');
+store.dispatch(addTodo('Learn about store');
 ```
