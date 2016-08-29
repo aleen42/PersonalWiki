@@ -73,3 +73,24 @@ Note that:
 1. **Do not mutate the `state`**
 2. **Return the previous `state` in the default case**
 3. **`Object.assign()` is not well supported and we can use other methods like `_.assign()` from underscore**
+
+For handling `ADD_TODO`, we are going to add item into the todos array in the state:
+
+```js
+function todoApp(state = initialState, action) {
+    switch (action.type) {
+    case SET_VISIBILITY_FILTER:
+        return Object.assign({}, state, { visibilityFilter: action.payload.filter });
+    case ADD_TODO:
+        return Object.assign({}, state, {
+            todos: [
+                /** store previous todos item */
+                ...state.todos,
+                
+            ]
+        });
+    default:
+        return state;
+    }
+}
+```
