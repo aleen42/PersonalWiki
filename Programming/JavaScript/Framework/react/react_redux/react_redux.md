@@ -16,4 +16,6 @@ npm install --save redux
 
 ### Basics
 
-In this guide, we’ll walk through the process of creating a simple Todo app.
+In this guide, we'll walk through the process of creating a simple Todo app.
+
+
