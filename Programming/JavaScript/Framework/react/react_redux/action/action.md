@@ -27,5 +27,10 @@ let actions = {
 An action **MUST**:
 
 - be a plain JavaScript object with notation `{}` to define.
-- have a `type` property
+- have a `type` property.
 
+An action **may**:
+
+- have a `error` property.
+- have a `payload` property.
+- have a `meta` property.
