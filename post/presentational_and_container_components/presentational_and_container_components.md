@@ -22,5 +22,5 @@ My **presentational** components:
 - Receive data and callbacks exclusively via props.
 - Rarely have their own state (when they do, it’s UI state rather than data).
 - Are written as [functional components](./../reusable_components/reusable_components.md) unless they need state, lifecycle hooks, or performance optimizations.
-- Examples: Page, Sidebar, Story, UserInfo, List.
+- Examples: `Page`, `Sidebar`, `Story`, `UserInfo`, `List`.
 
