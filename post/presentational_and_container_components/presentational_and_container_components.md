@@ -59,4 +59,5 @@ It’s important that you understand that the distinction between the presentati
 
 By contrast, here are a few related (but different!) technical distinctions:
 
-- **Stateful and Stateless**. Some components use React setState() method and some don’t. While container components tend to be stateful and presentational components tend to be stateless, this is not a hard rule. Presentational components can be stateful, and containers can be stateless too.
+- **Stateful and Stateless**. Some components use React `setState()` method and some don’t. While container components tend to be stateful and presentational components tend to be stateless, this is not a hard rule. Presentational components can be stateful, and containers can be stateless too.
+- **Classes and Functions**. Since React 0.14, components can be declared both as classes and as functions. Functional components are simpler to define but they lack certain features currently available only to class components. Some of these restrictions may go away in the future but they exist today. Because functional components are easier to understand, I suggest you to use them unless you need state, lifecycle hooks, or performance optimizations, which are only available to the class components at this time.
