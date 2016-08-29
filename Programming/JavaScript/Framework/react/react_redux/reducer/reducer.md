@@ -120,6 +120,10 @@ function todoApp(state = initialState, action) {
         return Object.assign({}, state, {
             todos: state.todos.map((item, index) => {
                 if (index === action.payload.index) {
+                    /**
+                     * if toggle index has been matched
+                     * change completed attribute and return a new object
+                     */
                     return Object.assign({}, item, {
                         completed: !item.completed
                     });
