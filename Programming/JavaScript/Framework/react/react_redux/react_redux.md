@@ -4,10 +4,10 @@
 
 **React Redux** is a **predictable state container** for JavaScript apps.
 
+- [**Introduction**](./introduction/introduction.md)
+
 ### Installation
 
 ```bash
 npm install --save react-redux
 ```
-
-### Introduction
