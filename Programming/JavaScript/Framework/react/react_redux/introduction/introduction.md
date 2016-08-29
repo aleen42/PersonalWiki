@@ -52,5 +52,4 @@ store.subscribe(() =>
 store.dispatch({ type: 'INCREMENT' });      /** => 1    */
 store.dispatch({ type: 'INCREMENT' });      /** => 2    */
 store.dispatch({ type: 'DECREMENT' });      /** => 1    */
-// 1
 ```
