@@ -23,3 +23,7 @@ let store = createStore(todoApp);
 /** the second argument is optional, which is helpful in matching the state of the client to the state of the server. */
 let store = createStore(todoApp, window.STATE_FROM_SERVER);
 ```
+
+### Dispatching Actions
+
+
