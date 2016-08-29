@@ -22,3 +22,5 @@ It's very important that the reducer stays pure. Things you should **NEVER** do 
 - Mutate its arguments;
 - Perform side effects like API calls and routing transitions;
 - Call non-pure functions, e.g. `Date.now()` or `Math.random()`.
+
+Just remember that **Given the same arguments, it should calculate the next state and return it. No surprises. No side effects. No API calls. No mutations. Just a calculation.**
