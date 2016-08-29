@@ -26,7 +26,7 @@ It's very important that the reducer stays pure. Things you should **NEVER** do 
 Just remember that **Given the same arguments, it should calculate the next state and return it. No surprises. No side effects. No API calls. No mutations. Just a calculation.**
 
 ```js
-import { VisibilityFilter } from './actions.js';
+import { VisibilityFilters } from './actions.js';
 
 const initialState = {
     visibilityFilter: VisibilityFilters.SHOW_ALL,
