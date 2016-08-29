@@ -102,7 +102,7 @@
                                 * [Histories](./Programming/JavaScript/Framework/react/react_router/histories/histories.md)
                                 * [Index](./Programming/JavaScript/Framework/react/react_router/index/index.md)
                     * Redux
-                        
+                        * [React + Redux](./Programming/JavaScript/Framework/redux/react_and_redux/react_and_redux.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
