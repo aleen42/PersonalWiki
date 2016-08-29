@@ -19,3 +19,4 @@ npm install redux --save
 In this guide, we'll walk through the process of creating a simple Todo app.
 
 - [**Actions**](./action/action.md)
+- [**Reducers**](./reducer/reducer.md)
