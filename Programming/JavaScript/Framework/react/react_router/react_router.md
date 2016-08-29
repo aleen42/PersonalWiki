@@ -12,7 +12,7 @@
 
 With Webpack, you can use npm to install React Router:
 
-```
+```bash
 npm intall react-router --save
 ```
 
