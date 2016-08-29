@@ -87,7 +87,8 @@ function todoApp(state = initialState, action) {
                 /** store previous todos item */
                 ...state.todos,
                 {
-                    
+                    text: action.payload.text,
+                    completed: false
                 }
             ]
         });
