@@ -1,4 +1,4 @@
-## Actions [Back](./../react_redux.md)
+## Actions [Back](./../redux.md)
 
 ### Definition
 
