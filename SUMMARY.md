@@ -102,7 +102,7 @@
                                 * [Histories](./Programming/JavaScript/Framework/react/react_router/histories/histories.md)
                                 * [Index](./Programming/JavaScript/Framework/react/react_router/index/index.md)
                     * Redux
-                        * [React Redux](./Programming/JavaScript/Framework/react/react_redux/react_redux.md)
+                        * [Redux](./Programming/JavaScript/Framework/react/react_redux/react_redux.md)
                             * [Introduction](./Programming/JavaScript/Framework/react/react_redux/introduction/introduction.md)
                             * [Actions](./Programming/JavaScript/Framework/react/react_redux/action/action.md)
                             * [Reducers](./Programming/JavaScript/Framework/react/react_redux/reducer/reducer.md)
