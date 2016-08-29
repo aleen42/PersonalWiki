@@ -2,7 +2,7 @@
 
 The **Store** is the object that bring both **Actions** and **Reducers** together.
 
-What Store to do is to:
+Store will be responsible for:
 
-- hold application state
+- holding application state
 - 
