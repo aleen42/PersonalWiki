@@ -44,3 +44,6 @@ I put them in different folders to make this distinction clear.
 - This forces you to extract “layout components” such as `Sidebar`, `Page`, `ContextMenu` and use `this.props.children` instead of duplicating the same markup and layout in several container components.
 
 Remember, **components don’t have to emit DOM**. They only need to provide composition boundaries between UI concerns.
+
+Take advantage of that.
+
