@@ -58,3 +58,15 @@ An action **MUST NOT** include properties other than `type`, `error`, `payload`,
 ### Creators
 
 **Action Creators** are exactly that functions that create actions.
+
+In Redux, Action Creators simply return an action:
+
+```js
+const ADD_TODO = 'ADD_TODO';
+
+function addTodo(text) {
+    return {
+        type: ADD_TODO,
+    };
+}
+```
