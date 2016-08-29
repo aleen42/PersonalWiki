@@ -5,4 +5,4 @@ The **Store** is the object that bring both **Actions** and **Reducers** togethe
 Store will be responsible for:
 
 - holding application state
-- 
+- exposing interface of accessing to state: `getState()`
