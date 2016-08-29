@@ -31,4 +31,7 @@ let store = createStore(todoApp, window.STATE_FROM_SERVER);
 
 import { addTodo, toggleTodo, SetVisibilityFilter, VisibilityFilters } from './actions';
 
+/** log out the initial state */
+console.log(store.getState());
+
 ```
