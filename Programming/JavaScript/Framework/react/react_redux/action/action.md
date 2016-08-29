@@ -74,7 +74,7 @@ function addTodo(text) {
 }
 ```
 
-And to actually intiate a dispatch, pass the result to the `dispatch()` function:
+And to actually initiate a dispatch by passing the result to the `dispatch()` function:
 
 ```js
 dispatch(addTodo(text));
