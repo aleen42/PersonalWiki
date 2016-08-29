@@ -186,4 +186,8 @@ function todoApp(state = initialStat, action) {
 }
 ```
 
-Of course, we can also extract `visibilityFilter`
+Of course, we can also extract `visibilityFilter` like this:
+
+```js
+
+```
