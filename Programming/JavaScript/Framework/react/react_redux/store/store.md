@@ -9,3 +9,7 @@ Store will be responsible for:
 - exposing interface for getting action dispatching: `dispatch(action)`
 - exposing interface for registering listener on the dispatching event: `subscribe(listener)`
 - handling unregistering of listeners.
+
+### Create a store
+
+Remember that there is only one single store in a Redux application.
