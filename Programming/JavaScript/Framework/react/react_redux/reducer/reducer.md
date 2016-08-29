@@ -86,7 +86,9 @@ function todoApp(state = initialState, action) {
             todos: [
                 /** store previous todos item */
                 ...state.todos,
-                
+                {
+                    
+                }
             ]
         });
     default:
