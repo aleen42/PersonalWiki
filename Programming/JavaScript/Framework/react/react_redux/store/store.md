@@ -7,4 +7,4 @@ Store will be responsible for:
 - holding application state
 - exposing interface of accessing to state: `getState()`
 - exposing interface for getting action dispatching: `dispatch(action)`
-- exposing interface for listening the dispatching event: `subscribe(listener)`
+- exposing interface for registering listener on the dispatching event: `subscribe(listener)`
