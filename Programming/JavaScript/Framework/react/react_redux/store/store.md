@@ -8,7 +8,7 @@ Store will be responsible for:
 - exposing interface of accessing to state: `getState()`
 - exposing interface for getting action dispatching: `dispatch(action)`
 - exposing interface for registering listener on the dispatching event: `subscribe(listener)`
-- handling unregistering of listeners.
+- handling unregistering of listeners by calling the function return by `subscribe(listener)`
 
 ### Create a store
 
@@ -33,5 +33,7 @@ import { addTodo, toggleTodo, SetVisibilityFilter, VisibilityFilters } from './a
 
 /** log out the initial state */
 console.log(store.getState());
+
+/** subscribe listener
 
 ```
