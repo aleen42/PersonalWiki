@@ -124,6 +124,8 @@ function todoApp(state = initialState, action) {
                         completed: !item.completed
                     });
                 }
+                
+                return item;
             })
         });
     default:
