@@ -301,3 +301,5 @@ export default todoApp = combineReducers({
     todos
 });
 ```
+
+### Source C
