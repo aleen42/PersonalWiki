@@ -47,3 +47,5 @@ Remember, **components don’t have to emit DOM**. They only need to provide com
 
 Take advantage of that.
 
+### When to Introduce Containers?
+
