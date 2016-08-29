@@ -35,4 +35,4 @@ An action **MAY**:
 - have a `payload` property.
 - have a `meta` property.
 
-An action **MUST NOT** include properties other than `type`, `error`, `payload`, and `meta`.
+An action **MUST NOT** include properties other than `type`, `error`, `payload`, or `meta`.
