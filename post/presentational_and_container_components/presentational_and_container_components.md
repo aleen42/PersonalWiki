@@ -66,3 +66,9 @@ By contrast, here are a few related (but different!) technical distinctions:
 Both presentational components and containers can fall into either of those buckets. In my experience, presentational components tend to be stateless pure functions, and containers tend to be stateful pure classes. However this is not a rule but an observation, and I’ve seen the exact opposite cases that made sense in specific circumstances.
 
 Don’t take the presentational and container component separation as a dogma. Sometimes it doesn’t matter or it’s hard to draw the line. If you feel unsure about whether a specific component should be presentational or a container, it might be too early to decide. Don’t sweat it!
+
+### Footnotes
+
+> * In an earlier version of this article I called them “smart” and “dumb” components but this was overly harsh to the presentational components and, most importantly, didn’t really explain the difference in their purpose. I enjoy the new terms much better, and I hope that you do too!
+
+> ** In an earlier version of this article I claimed that presentational components should only contain other presentational components. I no longer think this is the case. Whether a component is a presentational component or a container is its implementation detail. You should be able to replace a presentational component with a container without modifying any of the call sites. Therefore, both presentational and container components can contain other presentational or container components just fine.
