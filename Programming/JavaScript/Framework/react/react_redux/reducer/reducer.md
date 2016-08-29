@@ -97,3 +97,27 @@ function todoApp(state = initialState, action) {
     }
 }
 ```
+
+For handling `TOGGLE_TODO`, we are going to change completed status of this item with its index:
+
+```js
+function todoApp(state = initialState, action) {
+    switch (action.type) {
+    case SET_VISIBILITY_FILTER:
+        return Object.assign({}, state, { visibilityFilter: action.payload.filter });
+    case ADD_TODO:
+        return Object.assign({}, state, {
+            todos: [
+                /** store previous todos item */
+                ...state.todos,
+                {
+                    text: action.payload.text,
+                    completed: false
+                }
+            ]
+        });
+    default:
+        return state;
+    }
+}
+```
