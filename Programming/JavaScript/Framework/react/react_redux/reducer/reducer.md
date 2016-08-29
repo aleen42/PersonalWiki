@@ -54,3 +54,16 @@ function todoApp(state = initialState, action) {
     return state;
 }
 ```
+
+For handling `SET_VISIBILITY_FILTER`, we can just change `visibilityFilter` on the state like this:
+
+```js
+function todoApp(state = initialState, action) {
+    switch (action.type) {
+    case SET_VISIBILITY_FILTER:
+        return Object.assign({}, state, { visibilityFilter: action.payload.filter });
+    }
+    return state;
+}
+```
+
