@@ -12,6 +12,7 @@
 * [**node.js**](./node/node.md)
 * [**ReactJS**](./react/react.md)
 * [**Webpack**](./webpack/webpack.md)
+* [**Redux**](./redux/redux.md)
 * [**underscore.js**](./underscore/underscore.md)
 * [**three.js**](./../webgl/three/three.md)
 * Headroom
