@@ -5,3 +5,5 @@ Reducers are used to describe how state changes in an application.
 `Reducer<S, A> => S`
 
 ### Desigining the State Shape
+
+
