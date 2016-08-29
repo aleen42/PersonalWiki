@@ -296,10 +296,12 @@ function todos(state = [], action) {
  * }
  */
 
-export default todoApp = combineReducers({
+const todoApp = combineReducers({
     visibilityFilter,
     todos
 });
+
+export default todoApp;
 ```
 
 ### Source Code
@@ -310,4 +312,41 @@ import { combineReducers } from 'redux';
 import { ADD_TODO, TOGGLE_TODO, SET_VISIBILITY_FILTER, VisibilityFitlers } from './actions.js';
 
 const { SHOW_ALL } = VisibilityFilters;
+
+function visibilityFilter(state = SHOW_ALL, action) {
+    switch(action.type) {
+    case SET_VISIBILITY_FILTER:
+        return action.payload.filter;
+    default:
+        return state;
+    }
+}
+
+function todos(state = [], action) {
+    switch(action.type) {
+    case ADD_TODO:
+        return [
+            /** store previous todos item */
+            ...state,
+            {
+                text: action.payload.text,
+                completed: false
+            }
+        ];
+    case TOGGLE_TODO:
+        return state.map((item, index) => {
+            if (index === action.payload.index) {
+                /**
+                 * if toggle index has been matched
+                 * change completed attribute and return a new object
+                 */
+                return Object.assign({}, item, {
+                    completed: !item.completed
+                });
+            }
+            
+            return item;
+        });
+    }
+}
 ```
