@@ -55,3 +55,5 @@ store.dispatch({ type: 'DECREMENT' });      /** => 1    */
 ```
 
 As we can see above, state can be only changed by dispatching an action object to a function, which is called **Reducer** in Redux.
+
+### Three Principles
