@@ -144,7 +144,17 @@ Because both `ADD_TODO` and `TOGGLE_TODO` will update the todos array in the sta
 
 ```js
 function todos(state = [], action) {
-    
+    switch(action.type) {
+    case ADD_TODO:
+        return [
+            /** store previous todos item */
+            ...state,
+            {
+                text: action.payload.text,
+                completed: false
+            }
+        ];
+    }
 }
 
 function todoApp(state = initialStat, action) {
