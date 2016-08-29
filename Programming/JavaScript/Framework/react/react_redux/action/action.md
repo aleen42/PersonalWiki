@@ -97,7 +97,10 @@ function addTodo(text) {
 
 function toggleTodo(index) {
     return {
-    
+        type: TOGGLE_TODO,
+        payload: {
+            index: index
+        }
     };
 }
 ```
