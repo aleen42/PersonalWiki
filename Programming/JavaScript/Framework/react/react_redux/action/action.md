@@ -104,5 +104,8 @@ function toggleTodo(index) {
     };
 }
 
-bindActionCreators();
+bindActionCreators({
+    addTodo,
+    toggleTodo
+}, dispatch);
 ```
