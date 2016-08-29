@@ -57,3 +57,7 @@
 ### Router
 
 - [**React Router**](./react_router/react_router.md)
+
+### Redux
+
+- [**React Redux**](./react_redux/react_redux.md)
