@@ -68,3 +68,7 @@ function todoApp(state = initialState, action) {
 }
 ```
 
+Note that:
+
+1. **Do not mutate the `state`**
+2. **Return the previous `state` in the default case**
