@@ -40,8 +40,8 @@ I put them in different folders to make this distinction clear.
 
 - Better separation of concerns. You understand your app and your UI better by writing components this way.
 - Better reusability. You can use the same presentational component with completely different state sources, and turn those into separate container components that can be further reused.
-- Presentational components are essentially your app's “palette”. You can put them on a single page and let the designer tweak all their variations without touching the app's logic. You can run screenshot regression tests on that page.
-- This forces you to extract “layout components” such as `Sidebar`, `Page`, `ContextMenu` and use `this.props.children` instead of duplicating the same markup and layout in several container components.
+- Presentational components are essentially your app's "palette". You can put them on a single page and let the designer tweak all their variations without touching the app's logic. You can run screenshot regression tests on that page.
+- This forces you to extract "layout components" such as `Sidebar`, `Page`, `ContextMenu` and use `this.props.children` instead of duplicating the same markup and layout in several container components.
 
 Remember, **components don't have to emit DOM**. They only need to provide composition boundaries between UI concerns.
 
@@ -69,6 +69,6 @@ Don't take the presentational and container component separation as a dogma. Som
 
 ### Footnotes
 
-> \* In an earlier version of this article I called them “smart” and “dumb” components but this was overly harsh to the presentational components and, most importantly, didn't really explain the difference in their purpose. I enjoy the new terms much better, and I hope that you do too!
+> \* In an earlier version of this article I called them "smart" and "dumb" components but this was overly harsh to the presentational components and, most importantly, didn't really explain the difference in their purpose. I enjoy the new terms much better, and I hope that you do too!
 
 > \*\* In an earlier version of this article I claimed that presentational components should only contain other presentational components. I no longer think this is the case. Whether a component is a presentational component or a container is its implementation detail. You should be able to replace a presentational component with a container without modifying any of the call sites. Therefore, both presentational and container components can contain other presentational or container components just fine.
