@@ -35,6 +35,11 @@ An action **MAY**:
 
 - have a `error` property.
 - have a `payload` property.
+
+    > The optional `payload` property **MAY** be any type of value. It represents the payload of the action. Any information about the action that is not the `type` or status of the action should be part of the payload field.
+
+    > By convention, if `error` is `true`, the `payload` **SHOULD** be an error object. This is akin to rejecting a promise with an error object.
+    
 - have a `meta` property.
 
 An action **MUST NOT** include properties other than `type`, `error`, `payload`, or `meta`.
