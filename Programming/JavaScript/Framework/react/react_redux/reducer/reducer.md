@@ -228,7 +228,8 @@ function todos(state = [], action) {
 
 function todoApp(state = initialStat, action) {
     return {
-        
+        visibilityFilter: visibilityFilter(state.visibilityFilter, action),
+        todos: todos(state.todos, action)
     };
 }
 ```
