@@ -10,6 +10,8 @@
 
 ### Installation
 
+With Webpack, you can use npm to install
+
 ```
 ```
 
