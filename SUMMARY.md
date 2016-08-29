@@ -104,6 +104,7 @@
                     * Redux
                         * [React Redux](./Programming/JavaScript/Framework/react/react_redux/react_redux.md)
                             * [Introduction](./Programming/JavaScript/Framework/react/react_redux/introduction/introduction.md)
+                            * [Actions](./Programming/JavaScript/Framework/react/react_redux/action/action.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
