@@ -11,5 +11,5 @@ It helps you write applications that **behave consistently**, **run in different
 ### Installation
 
 ```bash
-npm install --save react-redux
+npm install --save redux
 ```
