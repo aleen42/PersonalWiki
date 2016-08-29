@@ -116,6 +116,12 @@ function todoApp(state = initialState, action) {
                 }
             ]
         });
+    case TOGGLE_TODO:
+        return Object.assign({}, state, {
+            todos: state.todos.map((item, index) => {
+                
+            })
+        });
     default:
         return state;
     }
