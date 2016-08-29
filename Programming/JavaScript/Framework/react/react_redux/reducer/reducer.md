@@ -140,3 +140,8 @@ function todoApp(state = initialState, action) {
 
 ### Reducer Composition (分解)
 
+Because both `ADD_TODO` and `TOGGLE_TODO` will update the todos array in the state, we can just split updating `todos` into a separate function like this:
+
+```js
+
+```
