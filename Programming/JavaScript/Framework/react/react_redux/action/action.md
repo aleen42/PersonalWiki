@@ -18,7 +18,9 @@ const ADD_TODO = 'ADD_TODO';
 
 let actions = {
     type: ADD_TODO,
-    text: 'Add item to the todo list`
+    payload: {
+        text: 'Add item to the todo list`
+    }
 };
 ```
 
