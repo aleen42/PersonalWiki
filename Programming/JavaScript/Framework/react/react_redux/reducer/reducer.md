@@ -286,6 +286,14 @@ function todos(state = [], action) {
  *      b: withB,
  *      c
  * });
+ * 
+ * function reducer(state = {}, action) {
+ *      return {
+ *          a: processA(state.a, action),
+ *          b: withB(state.b, action),
+ *          c: c(state.c, action
+ *      };
+ * }
  */
 
 export default todoApp = combineReducers({
