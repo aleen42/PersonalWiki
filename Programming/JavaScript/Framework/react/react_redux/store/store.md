@@ -49,4 +49,6 @@ store.dispatch(addTodo('Learn about store');
 
 store.dispatch(toggleTodo(0));
 store.dispatch(toggleTodo(1));
+
+store.dispatch(setVisibilityFilter(VisibilityFilters.SHOW_COMPLETED));
 ```
