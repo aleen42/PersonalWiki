@@ -53,5 +53,5 @@ store.dispatch(toggleTodo(1));
 store.dispatch(setVisibilityFilter(VisibilityFilters.SHOW_COMPLETED));
 
 /** Unregistering */
-unregister();
+unsubscribe();
 ```
