@@ -39,6 +39,6 @@ console.log(store.getState());
  * Note that subscribe() returns a function for unregistering the listener
  */
 let unsubscribe = store.subscribe(() => {
-    
+    console.log(store.getState());
 });
 ```
