@@ -58,3 +58,5 @@ As we can see above, state can be only changed by dispatching an action object t
 
 ### Three Principles
 
+Redux can be described in three fundamental principles:
+
