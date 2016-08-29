@@ -302,4 +302,9 @@ export default todoApp = combineReducers({
 });
 ```
 
-### Source C
+### Source Code
+
+```js
+/** reducers.js */
+
+```
