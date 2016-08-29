@@ -18,5 +18,5 @@ Remember that there is **only one single store** in a Redux application. To crea
 import { createStore } from 'redux';
 import todoApp from './reducers';
 
-
+let store = createStore(todoApp);
 ```
