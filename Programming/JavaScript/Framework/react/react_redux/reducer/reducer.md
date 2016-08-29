@@ -229,7 +229,7 @@ function todos(state = [], action) {
 function todoApp(state = initialStat, action) {
     switch (action.type) {
     case SET_VISIBILITY_FILTER:
-        return Object.assign({}, state, { visibilityFilter: visibilityFilter(state.visibilityFilter, action });
+        return Object.assign({}, state, { visibilityFilter: visibilityFilter(state.visibilityFilter, action) });
     case ADD_TODO:
     case TOGGLE_TODO:
         return Object.assign({}, state, {
