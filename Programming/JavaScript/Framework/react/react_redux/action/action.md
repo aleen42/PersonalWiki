@@ -136,7 +136,12 @@ export function addTodo(text) {
     };
 };
 
-export function toggleTodo(text) {
-    
+export function toggleTodo(index) {
+    return {
+        type: TOGGLE_TODO,
+        payloda: {
+            index
+        }
+    }
 };
 ```
