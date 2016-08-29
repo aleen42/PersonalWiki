@@ -239,7 +239,45 @@ Finally, Redux provides a utility called `combineReducers()` that does the same 
 ```js
 import { combineReducers } from 'redux';
 
-const todoApp = combineReducers({
-    
+function visibilityFilter(state = SHOW_ALL, action) {
+    switch(action.type) {
+    case SET_VISIBILITY_FILTER:
+        return action.payload.filter;
+    default:
+        return state;
+    }
+}
+
+function todos(state = [], action) {
+    switch(action.type) {
+    case ADD_TODO:
+        return [
+            /** store previous todos item */
+            ...state,
+            {
+                text: action.payload.text,
+                completed: false
+            }
+        ];
+    case TOGGLE_TODO:
+        return state.map((item, index) => {
+            if (index === action.payload.index) {
+                /**
+                 * if toggle index has been matched
+                 * change completed attribute and return a new object
+                 */
+                return Object.assign({}, item, {
+                    completed: !item.completed
+                });
+            }
+            
+            return item;
+        });
+    }
+}
+
+export default todoApp = combineReducers({
+    visibilityFilter,
+    todos
 });
 ```
