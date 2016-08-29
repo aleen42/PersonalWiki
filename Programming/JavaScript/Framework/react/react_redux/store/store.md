@@ -26,4 +26,9 @@ let store = createStore(todoApp, window.STATE_FROM_SERVER);
 
 ### Dispatching Actions
 
+```js
+/** testing todo app's state changments */
 
+import { addTodo, toggleTodo, SetVisibilityFilter, VisibilityFilters } from './actions';
+
+```
