@@ -55,4 +55,6 @@ An action **MAY**:
 
 An action **MUST NOT** include properties other than `type`, `error`, `payload`, or `meta`.
 
+### Creators
 
+**Action Creators** are exactly that functions that create actions.
