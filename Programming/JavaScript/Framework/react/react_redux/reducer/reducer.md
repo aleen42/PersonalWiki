@@ -72,3 +72,4 @@ Note that:
 
 1. **Do not mutate the `state`**
 2. **Return the previous `state` in the default case**
+3. **`Object.assign()` is not well supported and we can use other methods like `_.assign()` from underscore**
