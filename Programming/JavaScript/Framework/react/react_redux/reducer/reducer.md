@@ -121,7 +121,7 @@ function todoApp(state = initialState, action) {
             todos: state.todos.map((item, index) => {
                 if (index === action.payload.index) {
                     return Object.assign({}, item, {
-                        
+                        completed: !item.completed
                     });
                 }
             })
