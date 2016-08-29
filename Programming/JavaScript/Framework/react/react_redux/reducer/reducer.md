@@ -228,7 +228,7 @@ function todos(state = [], action) {
 
 function todoApp(state = initialStat, action) {
     return {
-    
+        
     };
 }
 ```
