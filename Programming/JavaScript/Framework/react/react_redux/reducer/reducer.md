@@ -6,4 +6,4 @@ Reducers are used to describe how state changes in an application.
 
 ### Desigining the State Shape
 
-In Redux, all application state is stored as a single object. Therefore, it's recommended by official documents to think of applications' state shape before wrting any code.
+In Redux, all application state is stored as a single object. Therefore, it's recommended by official documents to think of an application's state shape before wrting any code.
