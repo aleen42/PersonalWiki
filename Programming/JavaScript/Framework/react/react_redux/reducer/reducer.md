@@ -120,7 +120,9 @@ function todoApp(state = initialState, action) {
         return Object.assign({}, state, {
             todos: state.todos.map((item, index) => {
                 if (index === action.payload.index) {
-                    
+                    return Object.assign({}, item, {
+                        
+                    });
                 }
             })
         });
