@@ -189,5 +189,49 @@ function todoApp(state = initialStat, action) {
 Of course, we can also extract `visibilityFilter` like this:
 
 ```js
+function visibilityFilter(state = SHOW_ALL, action) {
+    
+}
 
+function todos(state = [], action) {
+    switch(action.type) {
+    case ADD_TODO:
+        return [
+            /** store previous todos item */
+            ...state,
+            {
+                text: action.payload.text,
+                completed: false
+            }
+        ];
+    case TOGGLE_TODO:
+        return state.map((item, index) => {
+            if (index === action.payload.index) {
+                /**
+                 * if toggle index has been matched
+                 * change completed attribute and return a new object
+                 */
+                return Object.assign({}, item, {
+                    completed: !item.completed
+                });
+            }
+            
+            return item;
+        });
+    }
+}
+
+function todoApp(state = initialStat, action) {
+    switch (action.type) {
+    case SET_VISIBILITY_FILTER:
+        return Object.assign({}, state, { visibilityFilter: action.payload.filter });
+    case ADD_TODO:
+    case TOGGLE_TODO:
+        return Object.assign({}, state, {
+            todos: todos(state.todos, action)
+        });
+    default:
+        return state;
+    }
+}
 ```
