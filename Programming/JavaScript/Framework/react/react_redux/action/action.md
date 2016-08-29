@@ -130,7 +130,7 @@ export const VisibilityFilters = {
 export function addTodo(text) {
     return {
         type: ADD_TODO,
-        payloda: {
+        payload: {
             text
         }
     };
@@ -139,7 +139,7 @@ export function addTodo(text) {
 export function toggleTodo(index) {
     return {
         type: TOGGLE_TODO,
-        payloda: {
+        payload: {
             index
         }
     };
