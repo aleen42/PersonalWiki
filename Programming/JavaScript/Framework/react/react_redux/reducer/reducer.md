@@ -176,19 +176,9 @@ function todoApp(state = initialStat, action) {
     case SET_VISIBILITY_FILTER:
         return Object.assign({}, state, { visibilityFilter: action.payload.filter });
     case ADD_TODO:
-        return Object.assign({}, state, {
-            todos: [
-                /** store previous todos item */
-                ...state.todos,
-                {
-                    text: action.payload.text,
-                    completed: false
-                }
-            ]
-        });
     case TOGGLE_TODO:
         return Object.assign({}, state, {
-            todos: state.todos.map()
+            todos: todos(state.todos, action)
         });
     default:
         return state;
