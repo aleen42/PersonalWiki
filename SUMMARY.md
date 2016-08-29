@@ -101,6 +101,8 @@
                                 * [Route Matching](./Programming/JavaScript/Framework/react/react_router/route_matching/route_matching.md)
                                 * [Histories](./Programming/JavaScript/Framework/react/react_router/histories/histories.md)
                                 * [Index](./Programming/JavaScript/Framework/react/react_router/index/index.md)
+                    * Redux
+                        * [React Redux](./Programming/JavaScript/Framework/react/react_redux/react_redux.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
