@@ -12,4 +12,8 @@ There’s a simple pattern I find immensely useful when writing React applicatio
 
 You’ll find your components much easier to reuse and reason about if you **divide them into two categories**. I call them Container and Presentational components* but I also heard Fat and Skinny, Smart and Dumb, Stateful and Pure, Screens and Components, etc. These all are not exactly the same, but the core idea is similar.
 
+My **presentational** components:
+
+
+
 
