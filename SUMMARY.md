@@ -108,6 +108,7 @@
                                 * [Actions](./Programming/JavaScript/Framework/react/react_redux/action/action.md)
                                 * [Reducers](./Programming/JavaScript/Framework/react/react_redux/reducer/reducer.md)
                                 * [Store](./Programming/JavaScript/Framework/react/react_redux/store/store.md)
+                                * [Data Flow - Data Lifecycle in Redux](./Programming/JavaScript/Framework/react/react_redux/data_flow/data_flow.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
