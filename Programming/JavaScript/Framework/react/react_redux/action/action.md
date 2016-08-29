@@ -11,6 +11,6 @@ let actions = {
 };
 ```
 
-The structure of actions is up to you to define, and as a recommendation, we can see how a Flux Standard Actions efined:
+The structure of actions is up to you to define, and as a recommendation, we can see how a Flux Standard Actions is defined:
 
 
