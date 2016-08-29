@@ -110,4 +110,4 @@ bindActionCreators({
 }, dispatch);
 ```
 
-Note: Action Creators can also be asynchronous and have side-effects. You can read about [async actions](./../async_action/async_action.md) in the advanced tutorial to learn how to handle AJAX responses and compose action creators into async control flow. Don’t skip ahead to async actions until you’ve completed the basics tutorial, as it covers other important concepts that are prerequisite for the advanced tutorial and async actions.
+Note: Action Creators can also be asynchronous and have side-effects. You can read about [async actions](./../async_action/async_action.md) in the advanced tutorial to learn how to handle AJAX responses and compose action creators into async control flow. Don't skip ahead to async actions until you've completed the basics tutorial, as it covers other important concepts that are prerequisite for the advanced tutorial and async actions.
