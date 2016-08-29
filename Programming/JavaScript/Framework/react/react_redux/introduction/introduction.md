@@ -60,6 +60,7 @@ As we can see above, state can be only changed by dispatching an action object t
 
 Redux can be described in three fundamental principles:
 
-- Single source of truth
+- **Single source of truth**
+    - The state of your whole application is stored in an object tree within a sigle store.
 - State is read-only
 - Changes are made with pure functions
