@@ -1,6 +1,6 @@
 ## Introduction [Back](./../react_redux.md)
 
-In React Redux, the whole state of your app is stored in an object tree inside a single store.
+In Redux, the whole state of your app is stored in an object tree inside a single store.
 
 The only way to change the state tree is to emit an action, which will describe what happens. Like this:
 
@@ -38,7 +38,7 @@ let store = createStore(counter);
 
 /**
  * You can use subscribe() to update the UI in response to state changes.
- * Normally you'd use a view binding library (e.g. React Redux) rather than subscribe() directly.
+ * Normally you'd use a view binding library (e.g. Redux) rather than subscribe() directly.
  * However it can also be handy to persist the current state in the localStorage.
  */
 store.subscribe(() =>
