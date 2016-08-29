@@ -119,7 +119,9 @@ function todoApp(state = initialState, action) {
     case TOGGLE_TODO:
         return Object.assign({}, state, {
             todos: state.todos.map((item, index) => {
-                
+                if (index === action.payload.index) {
+                    
+                }
             })
         });
     default:
