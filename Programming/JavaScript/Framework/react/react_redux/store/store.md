@@ -12,4 +12,6 @@ Store will be responsible for:
 
 ### Create a store
 
-Remember that there is **only one single store** in a Redux application.
+Remember that there is **only one single store** in a Redux application. To create a producer, what you need is reducer.
+
+
