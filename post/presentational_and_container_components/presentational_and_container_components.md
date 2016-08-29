@@ -69,6 +69,6 @@ Don’t take the presentational and container component separation as a dogma. S
 
 ### Footnotes
 
-> * In an earlier version of this article I called them “smart” and “dumb” components but this was overly harsh to the presentational components and, most importantly, didn’t really explain the difference in their purpose. I enjoy the new terms much better, and I hope that you do too!
+> \* In an earlier version of this article I called them “smart” and “dumb” components but this was overly harsh to the presentational components and, most importantly, didn’t really explain the difference in their purpose. I enjoy the new terms much better, and I hope that you do too!
 
-> ** In an earlier version of this article I claimed that presentational components should only contain other presentational components. I no longer think this is the case. Whether a component is a presentational component or a container is its implementation detail. You should be able to replace a presentational component with a container without modifying any of the call sites. Therefore, both presentational and container components can contain other presentational or container components just fine.
+> \*\* In an earlier version of this article I claimed that presentational components should only contain other presentational components. I no longer think this is the case. Whether a component is a presentational component or a container is its implementation detail. You should be able to replace a presentational component with a container without modifying any of the call sites. Therefore, both presentational and container components can contain other presentational or container components just fine.
