@@ -29,8 +29,10 @@ An action **MUST**:
 - be a plain JavaScript object with notation `{}` to define.
 - have a `type` property.
 
-An action **may**:
+An action **MAY**:
 
 - have a `error` property.
 - have a `payload` property.
 - have a `meta` property.
+
+An action **MUST NOT** include properties other than `type`, `error`, `payload`, and `meta`.
