@@ -143,7 +143,43 @@ function todoApp(state = initialState, action) {
 Because both `ADD_TODO` and `TOGGLE_TODO` will update the todos array in the state, we can just split updating `todos` into a separate function like this:
 
 ```js
-function todoApp(state = initialStat, action) {
+function todos(state = [], action) {
+    
+}
 
+function todoApp(state = initialStat, action) {
+    switch (action.type) {
+    case SET_VISIBILITY_FILTER:
+        return Object.assign({}, state, { visibilityFilter: action.payload.filter });
+    case ADD_TODO:
+        return Object.assign({}, state, {
+            todos: [
+                /** store previous todos item */
+                ...state.todos,
+                {
+                    text: action.payload.text,
+                    completed: false
+                }
+            ]
+        });
+    case TOGGLE_TODO:
+        return Object.assign({}, state, {
+            todos: state.todos.map((item, index) => {
+                if (index === action.payload.index) {
+                    /**
+                     * if toggle index has been matched
+                     * change completed attribute and return a new object
+                     */
+                    return Object.assign({}, item, {
+                        completed: !item.completed
+                    });
+                }
+                
+                return item;
+            })
+        });
+    default:
+        return state;
+    }
 }
 ```
