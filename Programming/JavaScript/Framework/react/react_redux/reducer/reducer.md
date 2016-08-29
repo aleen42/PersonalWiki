@@ -276,6 +276,18 @@ function todos(state = [], action) {
     }
 }
 
+/**
+ * How to use combineReducers ?
+ *
+ * More explicitly, combineReducers will convert an input object into a reducer like this
+ * 
+ * const reducer = combineRedcers({
+ *      a: proccessA,
+ *      b: withB,
+ *      c
+ * });
+ */
+
 export default todoApp = combineReducers({
     visibilityFilter,
     todos
