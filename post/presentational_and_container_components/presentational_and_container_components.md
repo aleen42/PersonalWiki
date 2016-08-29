@@ -14,7 +14,7 @@ You’ll find your components much easier to reuse and reason about if you **div
 
 My **presentational** components:
 
-- Are concerned with how things look.
+- Are concerned with *how things look*.
 - May contain both presentational and container components** inside, and usually have some DOM markup and styles of their own.
 - Often allow containment via `this.props.children`.
 - Have no dependencies on the rest of the app, such as Flux actions or stores.
@@ -26,7 +26,7 @@ My **presentational** components:
 
 My **container** components:
 
-- Are concerned with how things work.
+- Are concerned with *how things work*.
 - May contain both presentational and container components** inside but usually don’t have any DOM markup of their own except for some wrapping divs, and never have any styles.
 - Provide the data and behavior to presentational or other container components.
 - Call Flux actions and provide these as callbacks to the presentational components.
