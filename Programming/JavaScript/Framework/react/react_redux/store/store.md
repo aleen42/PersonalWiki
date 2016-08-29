@@ -55,3 +55,13 @@ store.dispatch(setVisibilityFilter(VisibilityFilters.SHOW_COMPLETED));
 /** Unregistering */
 unsubscribe();
 ```
+
+### Source Code
+
+```js
+/** index.js */
+import { createStore } from 'redux';
+import todoApp from './reducers';
+
+let store = createStore(todoApp);
+```
