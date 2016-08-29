@@ -11,4 +11,4 @@ In Redux, all application state is stored as a single object. Therefore, it's re
 For our todo App, we are going to store two different things:
 
 - The currently selected visibility filter
-- The actual list of todos.
+- The actual list of todos
