@@ -60,3 +60,4 @@ As we can see above, state can be only changed by dispatching an action object t
 
 Redux can be described in three fundamental principles:
 
+- Single source of truth
