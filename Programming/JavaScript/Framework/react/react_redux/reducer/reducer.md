@@ -291,7 +291,7 @@ function todos(state = [], action) {
  *      return {
  *          a: processA(state.a, action),
  *          b: withB(state.b, action),
- *          c: c(state.c, action
+ *          c: c(state.c, action)
  *      };
  * }
  */
