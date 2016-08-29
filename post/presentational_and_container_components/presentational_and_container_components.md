@@ -21,6 +21,6 @@ My **presentational** components:
 - Don’t specify how the data is loaded or mutated.
 - Receive data and callbacks exclusively via props.
 - Rarely have their own state (when they do, it’s UI state rather than data).
-- Are written as [functional components](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html#stateless-functional-components) unless they need state, lifecycle hooks, or performance optimizations.
+- Are written as [functional components](./../reusable_components/reusable_components.html) unless they need state, lifecycle hooks, or performance optimizations.
 - Examples: Page, Sidebar, Story, UserInfo, List.
 
