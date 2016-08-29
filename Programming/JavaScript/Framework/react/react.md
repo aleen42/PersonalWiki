@@ -60,4 +60,4 @@
 
 ### Redux
 
-- [**Redux + React**](./../redux/react_and_redux.md)
+- [**Redux + React**](./../redux/react_and_redux/react_and_redux.md)
