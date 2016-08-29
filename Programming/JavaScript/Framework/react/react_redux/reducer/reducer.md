@@ -32,4 +32,8 @@ const initialState = {
     visibilityFilter: VisibilityFilter.SHOW_ALL,
     todos: []
 };
+
+function todoApp(state, action) {
+    
+}
 ```
