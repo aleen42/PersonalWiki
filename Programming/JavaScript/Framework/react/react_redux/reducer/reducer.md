@@ -237,5 +237,9 @@ function todoApp(state = initialStat, action) {
 Finally, Redux provides a utility called `combineReducers()` that does the same logic:
 
 ```js
+import { combineReducers } from 'redux';
 
+const todoApp = combineReducers({
+    
+});
 ```
