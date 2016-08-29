@@ -7,6 +7,6 @@
 ### Installation
 
 ```bash
-
+npm install --save react-redux
 ```
 
