@@ -10,9 +10,10 @@
 
 ### Installation
 
-With Webpack, you can use npm to install
+With Webpack, you can use npm to install React Router:
 
 ```
+npm intall react-router --save
 ```
 
 ### Basics
