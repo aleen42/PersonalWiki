@@ -8,7 +8,6 @@ Install all the dependencies in need:
 
 ```bash
 sudo apt-get update
-sudo apt-get dist-upgrade
 apt-get install gcc build-essential linux-headers-generic linux-headers-`uname -r`
 ```
 
