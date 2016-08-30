@@ -55,7 +55,6 @@ echo "ath9k_htc" | sudo tee -a /etc/modules
 
 Edit `rc.local`:
 
-
 ```bash
 # sudo vim /etc/rc.local
 # use `lsusb` to check the usb device id of your TL-WN722N
