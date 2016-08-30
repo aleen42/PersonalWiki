@@ -55,8 +55,10 @@ echo "ath9k_htc" | sudo tee -a /etc/modules
 
 Edit `rc.local`:
 
+
 ```bash
 # sudo vim /etc/rc.local
+# use `lsusb` to check the usb device id of your TL-WN722N
 # add the following two lines into the file
 # Declare TP-WN727N USB ID to ath9k_htc module
 echo "148F 7601" | tee /sys/bus/usb/drivers/ath9k_htc/new_id
