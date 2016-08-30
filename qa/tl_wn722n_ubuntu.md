@@ -12,7 +12,6 @@ sudo apt-get dist-upgrade
 apt-get install gcc build-essential linux-headers-generic linux-headers-`uname -r`
 ```
 
-
 #### Part II
 
 Download `backports-3.16-1.tar.gz` and unzip it:
