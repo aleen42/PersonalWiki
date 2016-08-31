@@ -41,3 +41,6 @@ The new background-blend-mode property allows you to specify blending between ba
 > Medium even uses blend modes in their articles. Too bad our friend CSS isn’t there to make this process a lot faster and easier.
 
 Don’t think this property would get much use? Don’t go further than the website you’re on right now. When uploading full-page backgrounds to an article, Medium gives you the option to apply a color to the background to make the title stand out a bit more. However, because browsers don’t have blend modes in CSS, Medium has to do this the slow and costly way. They make six copies of the image you upload with different colors applied to each one, a process done on the server side. For the reader, this method is a lot slower than it could be with background-blend-mode. This new property could also be utilized elsewhere:
+
+![](./5.png)
+
