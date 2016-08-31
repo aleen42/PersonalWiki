@@ -37,3 +37,6 @@ They are even supported on iOS Safari and mobile versions of Chrome. However, wh
 > Sixteen blend modes are coming to CSS. Demo.
 
 The new background-blend-mode property allows you to specify blending between background layers of an element. Whether it be between an element’s background-color and background-image, or a background-image CSS gradient, background-blend-mode mixes all the backgrounds together with the blend mode(s) you specify. CSS gradients can be blended together to produce many [fast-loading backgrounds](http://bennettfeely.com/gradients) for websites or elements.
+
+![](./4.png)
+
