@@ -52,14 +52,14 @@ The `background-blend-mode` property can also be [used to make new CSS gradients
 
 While `background-blend-mode` is strictly for blending backgrounds, we'd ideally also like to blend HTML and SVG elements like layers on a .psd. Fortunately, that is where the `mix-blend-mode` property comes in.
 
-mix-blend-mode will blend elements with their backdrop. Perhaps you could experiment with a [header that utilizes the screen blend mode](http://codepen.io/bennettfeely/pen/oCHAf) rather than a simple background color with rgba(). There are also probably an infinite number of possibilities with [loading animations and blend modes](http://codepen.io/bennettfeely/pen/Cvcyi). The isolation property stops elements with mix-blend-mode from blending with the backdrop.
+`mix-blend-mode` will blend elements with their backdrop. Perhaps you could experiment with a [header that utilizes the `screen` blend mode](http://codepen.io/bennettfeely/pen/oCHAf) rather than a simple background color with `rgba()`. There are also probably an infinite number of possibilities with [loading animations and blend modes](http://codepen.io/bennettfeely/pen/Cvcyi). The `isolation` property stops elements with `mix-blend-mode` from blending with the backdrop.
 
-Implementation of the mix-blend-mode property is more complex than background-blend-mode so it is taking a bit more time, but don't let that get you down. Blend modes will be here soon!
+Implementation of the `mix-blend-mode` property is more complex than `background-blend-mode` so it is taking a bit more time, but don't let that get you down. Blend modes will be here soon!
 
 ###　Can I use blend modes now?
 
-- **Chrome**: Supports background-blend-mode and mix-blend-mode.
-- **Firefox**: Supports background-blend-mode and mix-blend-mode.
-- **Safari**: Supports background-blend-mode and mix-blend-mode on desktop and mobile. However, does not yet support hue, saturation, color, luminosity blend modes.
+- **Chrome**: Supports `background-blend-mode` and `mix-blend-mode`.
+- **Firefox**: Supports `background-blend-mode` and `mix-blend-mode`.
+- **Safari**: Supports `background-blend-mode` and `mix-blend-mode` on desktop and mobile. However, does not yet support `hue`, `saturation`, `color`, `luminosity` blend modes.
 - **Opera**: Supports background-blend-mode and mix-blend-mode.
 - **Internet Explorer**: background-blend-mode and mix-blend-mode are not supported and listed as "[under consideration](https://dev.windows.com/en-us/microsoft-edge/platform/status/backgroundblendmode?filter=f3f0000bf&search=blend)" with a "low" priority. Canvas blend modes are supported.
