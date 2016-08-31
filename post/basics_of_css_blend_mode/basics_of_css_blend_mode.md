@@ -9,3 +9,11 @@ Bennett Feely has been doing a good job of [showing people the glory of CSS blen
 ### CSS Multiple Backgrounds Blend Modes
 
 You can blend `background-images` together, or blend them with background-color. It's a simple as:
+
+```css
+.blended {
+    background-image: url(face.jpg);
+    background-color: red;
+    background-blend-mode: multiply;
+}
+```
