@@ -21,3 +21,11 @@ Despite this, things are changing fast and there is a candidate recommendation t
 Right now, the specification brings three brand new properties to CSS, background-blend-mode, mix-blend-mode, and isolation. Let’s explore!
 
 ### Canvas 2D: Will it blend?
+
+![](./2.png)
+
+> Particles by Justin Windle. Blend modes make this awesome demo really pop.
+
+First, here’s a little secret, blend modes are now available for use with HTML5 Canvas in all the latest browsers except Internet Explorer.
+
+They are even supported on iOS Safari and mobile versions of Chrome. However, why should we stop there? Blend modes would be incredibly useful in CSS.
