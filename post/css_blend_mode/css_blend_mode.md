@@ -6,7 +6,7 @@
 
 ### Coming to a browser near you.
 
-For everyone who has ever opened Photoshop or Illustrator you are most likely familiar with blend modes. Multiply, screen, overlay, and soft light, to name a few can turn boring opaque layers into beautiful pieces of stained glass. However, what awesome “blend modes” do web designers have at their disposal for making websites beautiful? Opacity. Yep, that's it.
+For everyone who has ever opened Photoshop or Illustrator you are most likely familiar with blend modes. Multiply, screen, overlay, and soft light, to name a few can turn boring opaque layers into beautiful pieces of stained glass. However, what awesome "blend modes" do web designers have at their disposal for making websites beautiful? Opacity. Yep, that's it.
 
 ![](./1.png)
 
@@ -62,4 +62,4 @@ Implementation of the mix-blend-mode property is more complex than background-bl
 - **Firefox**: Supports background-blend-mode and mix-blend-mode.
 - **Safari**: Supports background-blend-mode and mix-blend-mode on desktop and mobile. However, does not yet support hue, saturation, color, luminosity blend modes.
 - **Opera**: Supports background-blend-mode and mix-blend-mode.
-- **Internet Explorer**: background-blend-mode and mix-blend-mode are not supported and listed as “[under consideration](https://dev.windows.com/en-us/microsoft-edge/platform/status/backgroundblendmode?filter=f3f0000bf&search=blend)” with a “low” priority. Canvas blend modes are supported.
+- **Internet Explorer**: background-blend-mode and mix-blend-mode are not supported and listed as "[under consideration](https://dev.windows.com/en-us/microsoft-edge/platform/status/backgroundblendmode?filter=f3f0000bf&search=blend)" with a "low" priority. Canvas blend modes are supported.
