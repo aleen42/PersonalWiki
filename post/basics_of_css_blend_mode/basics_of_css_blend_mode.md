@@ -109,3 +109,7 @@ That value can be any of those I listed above. Here's a simple demo:
 <iframe height='300' scrolling='no' src='//codepen.io/chriscoyier/embed/Kkliq/?height=300&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/chriscoyier/pen/Kkliq/'>canvas blend modes</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
+And a fancy one where you can see the blending give the demo life:
+
+<iframe height='300' scrolling='no' src='//codepen.io/soulwire/embed/foktm/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/soulwire/pen/foktm/'>sketch.js Demo</a> by Justin Windle (<a href='http://codepen.io/soulwire'>@soulwire</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
