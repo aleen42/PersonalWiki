@@ -67,3 +67,18 @@ $("h1").lettering();
 
 Then squeeze the letters together with negative letter-spacing, set the `mix-blend-mode`, and colorize:
 
+```css
+h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: -1.25rem;
+}
+
+h1 span {
+    mix-blend-mode: multiply;
+}
+h1 span:nth-child(1) {
+    color: rgba(#AB1795, 0.75);
+}
+/* etc, on coloring */
+```
