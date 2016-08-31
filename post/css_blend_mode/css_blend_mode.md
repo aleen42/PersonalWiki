@@ -50,7 +50,7 @@ The `background-blend-mode` property can also be [used to make new CSS gradients
 
 ### The super duper mix-blend-mode property
 
-While background-blend-mode is strictly for blending backgrounds, we'd ideally also like to blend HTML and SVG elements like layers on a .psd. Fortunately, that is where the mix-blend-mode property comes in.
+While background-blend-mode is strictly for blending backgrounds, we'd ideally also like to blend HTML and SVG elements like layers on a .psd. Fortunately, that is where the `mix-blend-mode` property comes in.
 
 mix-blend-mode will blend elements with their backdrop. Perhaps you could experiment with a [header that utilizes the screen blend mode](http://codepen.io/bennettfeely/pen/oCHAf) rather than a simple background color with rgba(). There are also probably an infinite number of possibilities with [loading animations and blend modes](http://codepen.io/bennettfeely/pen/Cvcyi). The isolation property stops elements with mix-blend-mode from blending with the backdrop.
 
