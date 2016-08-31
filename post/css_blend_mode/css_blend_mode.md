@@ -6,7 +6,7 @@
 
 ### Coming to a browser near you.
 
-For everyone who has ever opened Photoshop or Illustrator you are most likely familiar with blend modes. Multiply, screen, overlay, and soft light, to name a few can turn boring opaque layers into beautiful pieces of stained glass. However, what awesome "blend modes" do web designers have at their disposal for making websites beautiful? Opacity. Yep, that's it.
+For everyone who has ever opened Photoshop or Illustrator you are most likely familiar with blend modes. `multiply`, `screen`, `overlay`, and `soft light`, to name a few can turn boring opaque layers into beautiful pieces of stained glass. However, what awesome "blend modes" do web designers have at their disposal for making websites beautiful? Opacity. Yep, that's it.
 
 ![](./1.png)
 
