@@ -179,3 +179,7 @@ var supportsMixBlendMode = window.getComputedStyle(document.body).mixBlendMode;
 
 var supportsBackgroundBlendMode = window.getComputedStyle(document.body).backgroundBlendMode;
 ```
+
+If the returned value is "normal" (or anything other than `undefined`) support is there, otherwise not. Then probably apply a class to the `<html>` element so you can know that and use it anywhere in your CSS to adjust things, Modernizr style. Perhaps they'll even do a test for it in the future.
+
+Unless it's not that simple in which case let me know.
