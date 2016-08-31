@@ -97,4 +97,9 @@ The DOM blend mode stuff is most interesting to me, but it should be noted that 
 
 You set it on the canvas context. So like:
 
+```js
+var canvas = document.getElementById('canvas');
+var ctx = canvas.getContext('2d');
 
+ctx.globalCompositeOperation = 'multiply';
+```
