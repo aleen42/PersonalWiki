@@ -44,3 +44,6 @@ Don’t think this property would get much use? Don’t go further than the webs
 
 ![](./5.png)
 
+> The Verge’s website is unique partly because of the pseudo blend modes they apply on their headlines. background-blend-mode could likely be used to make these kind of effects even better.
+
+The background-blend-mode property can also be [used to make new CSS gradients](http://bennettfeely.com/gradients/) that were not possible before.
