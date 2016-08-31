@@ -44,3 +44,10 @@ Those can blend too simply by adding a `background-blend-mode`.
 </iframe>
 
 ### Arbitrary HTML Elements Blend Modes
+
+Blending backgrounds together is pretty cool, but personally I'm less excited about that than I am about blending arbitrary HTML elements together. Like a `<h1>` title over a background, for example. Or even text over text.
+
+I saw this at an airport the other day and snapped a pic because I thought it looked neat and figured I could figure out how to do it on the web:
+
+![](./1.jpg)
+
