@@ -12,4 +12,6 @@ For everyone who has ever opened Photoshop or Illustrator you are most likely fa
 
 > Cool-looking things that are difficult or downright impossible to replicate in CSS right now. Top row: Doublenaut, Graham Hicks, Jonathan Quintin, and Geoff Teehan. Bottom row: Ben Johnson, Claire Morales, Alan Defibaugh, and Jess Barlow.
 
+### Blend modes and the web
 
+It’s a shame that we couldn’t have had more blend modes to work with when the opacity property gained widespread support across browsers, but it turns out that ensuring Photoshop-like blend modes render uniformly across different browsers and implementations is [no easy task](http://dbaron.org/log/20130306-compositing-blending). Some blend modes have been available in SVG through filters, but these are limited and don’t see much use in the real world.
