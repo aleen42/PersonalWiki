@@ -18,7 +18,7 @@ It's a shame that we couldn't have had more blend modes to work with when the `o
 
 Despite this, things are changing fast and there is a candidate recommendation titled [CSS Compositing and Blending](http://dev.w3.org/fxtf/compositing-1/). Blend modes in CSS have been [promoted heavily](http://html.adobe.com/webplatform/graphics/blendmodes/) by Adobe Web Platform team (along with other interesting features like CSS [filters](http://blogs.adobe.com/webplatform/category/features/css-custom-filters/) and [masking](http://blogs.adobe.com/webplatform/category/features/masking/)).
 
-Right now, the specification brings three brand new properties to CSS, `background-blend-mode`, mix-blend-mode, and isolation. Let's explore!
+Right now, the specification brings three brand new properties to CSS, `background-blend-mode`, `mix-blend-mode`, and `isolation`. Let's explore!
 
 ### Canvas 2D: Will it blend?
 
