@@ -54,3 +54,13 @@ I saw this at an airport the other day and snapped a pic because I thought it lo
 My first attempt to recreate it, I used opacity. But opacity really dulls the colors and doesn't make those overlapping bits have the extra darkness they should have. CJ Gammon [showed me](http://codepen.io/cjgammon/pen/nEzpj) there is a blending property precisely for this purpose: `mix-blend-mode`.
 
 So to reproduce this:
+
+```html
+<h1>hungry?</h1>
+```
+
+Then break it up into ` `s with Lettering.js:
+
+```js
+$("h1").lettering();
+```
