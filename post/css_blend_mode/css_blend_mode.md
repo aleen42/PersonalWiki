@@ -47,3 +47,9 @@ Don’t think this property would get much use? Don’t go further than the webs
 > The Verge’s website is unique partly because of the pseudo blend modes they apply on their headlines. background-blend-mode could likely be used to make these kind of effects even better.
 
 The background-blend-mode property can also be [used to make new CSS gradients](http://bennettfeely.com/gradients/) that were not possible before.
+
+### The super duper mix-blend-mode property
+
+While background-blend-mode is strictly for blending backgrounds, we’d ideally also like to blend HTML and SVG elements like layers on a .psd. Fortunately, that is where the mix-blend-mode property comes in.
+
+mix-blend-mode will blend elements with their backdrop. Perhaps you could experiment with a [header that utilizes the screen blend mode](http://codepen.io/bennettfeely/pen/oCHAf) rather than a simple background color with rgba(). There are also probably an infinite number of possibilities with loading animations and blend modes. The isolation property stops elements with mix-blend-mode from blending with the backdrop.
