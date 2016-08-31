@@ -118,4 +118,24 @@ And a fancy one where you can see the blending give the demo life:
 
 As you might suspect, SVG does have its own mechanism for doing this. One way to do it is to define it within the `<svg>` itself, and it's fairly complicated:
 
+```html
+<svg>
+    
+    <defs>
+    
+        <filter id="f1" x="0" y="0" width="1" height="1">
+            <feImage xlink:href="#p1" result="p1"/>
+            <feImage xlink:href="#p2" result="p2"/>
+            <feBlend mode="multiply" in="p1" in2="p2" />
+        </filter>
+        
+        <path id="p1" d='M100 100 L200 100 L200 200 L100 200 Z' fill='#00FFFF'/>
+        <path id="p2" d='M150 150 L250 150 L250 250 L150 250 Z' fill='#CC3300'/>
+        
+    </defs>
+    
+    <rect width="100%" height="100%" filter="url(#f1)"/>
+</svg>
+```
+
 
