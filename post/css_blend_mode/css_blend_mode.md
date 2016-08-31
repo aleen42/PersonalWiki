@@ -29,3 +29,8 @@ Right now, the specification brings three brand new properties to CSS, backgroun
 First, here’s a little secret, blend modes are now available for use with HTML5 Canvas in [all the latest browsers](http://caniuse.com/canvas-blending) except Internet Explorer.
 
 They are even supported on iOS Safari and mobile versions of Chrome. However, why should we stop there? Blend modes would be incredibly useful in CSS.
+
+### Blending in CSS: Say hello to background-blend-mode
+
+![](./3.png)
+
