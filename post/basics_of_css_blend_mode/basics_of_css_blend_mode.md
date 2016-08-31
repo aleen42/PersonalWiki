@@ -113,3 +113,9 @@ And a fancy one where you can see the blending give the demo life:
 
 <iframe height='300' scrolling='no' src='//codepen.io/soulwire/embed/foktm/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/soulwire/pen/foktm/'>sketch.js Demo</a> by Justin Windle (<a href='http://codepen.io/soulwire'>@soulwire</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
+
+### SVG Blend Modes
+
+As you might suspect, SVG does have its own mechanism for doing this. One way to do it is to define it within the `<svg>` itself, and it's fairly complicated:
+
+
