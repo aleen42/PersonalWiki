@@ -378,6 +378,7 @@
             * [[轉載] Beat Detection Using JavaScript and the Web Audio API](./post/bpm_detection_with_javascript/bpm_detection_with_javascript.md)
             * [[轉載] Drawing Audio Waveforms](./post/drawing_audio_waveforms/drawing_audio_waveforms.md)
             * [[轉載] Presentational and Container Components](./post/presentational_and_container_components/presentational_and_container_components.md)
+            * [[轉載] CSS Blend Modes could be the next big thing in Web Design](./post/css_blend_mode/css_blend_mode.md)
         * Back-end
             * [[轉載] 99%的人都理解錯了HTTP中GET與POST的區別](./post/http_and_get/http_and_get.md)
         * CV (Computer Vision)
