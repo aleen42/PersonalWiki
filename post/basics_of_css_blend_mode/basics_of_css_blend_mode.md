@@ -37,3 +37,6 @@ A single element can have more than one background, [stacked up](http://css-tric
         url(building.jpg)
 }
 ```
+
+Those can blend too simply by adding a `background-blend-mode`.
+
