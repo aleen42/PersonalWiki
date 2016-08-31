@@ -64,3 +64,6 @@ Then break it up into ` `s with Lettering.js:
 ```js
 $("h1").lettering();
 ```
+
+Then squeeze the letters together with negative letter-spacing, set the `mix-blend-mode`, and colorize:
+
