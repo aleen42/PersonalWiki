@@ -164,4 +164,4 @@ This actually it a bit more complicated, so if you really want to dig in and kno
 
 What is nice about blending is that the whole point is designerly effects. If they aren't supported, you can take care to make sure the fallback is still readable (progressive enhancement!).
 
-Here's a [recent thought](http://adactio.com/journal/6692/) by Jeremy Keith:
+Here's [a recent thought](http://adactio.com/journal/6692/) by Jeremy Keith:
