@@ -154,7 +154,7 @@ Here's an example by Bennet that does just that:
 
 [For canvas](http://caniuse.com/#feat=canvas-blending): Firefox 20+, Chrome 30+, Safari 6.1+, Opera 17+, iOS 7+, Android 4.4+. Worst bad news: No IE.
 
-For HTML/CSS: Firefox 30+, Chrome 35+, Safari 6.1 (apparently not 7?). Not quite as supported as canvas.
+[For HTML/CSS](http://caniuse.com/#feat=css-backgroundblendmode): Firefox 30+, Chrome 35+, Safari 6.1 (apparently not 7?). Not quite as supported as canvas.
 
 At this second, for Chrome, you'll have to run Canary, go to chrome://flags/ and enable "experimental Web Platform features".
 
