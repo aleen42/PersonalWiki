@@ -31,5 +31,9 @@ Adobe (who works on [the spec](http://dev.w3.org/fxtf/compositing-1/) for this s
 A single element can have more than one background, [stacked up](http://css-tricks.com/stacking-order-of-multiple-backgrounds/). Like:
 
 ```css
-
+.graphic-or-whatever {
+    background:
+        url(grid.png),
+        url(building.jpg)
+}
 ```
