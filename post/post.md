@@ -20,7 +20,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[轉載] Beat Detection Using JavaScript and the Web Audio API**](./bpm_detection_with_javascript/bpm_detection_with_javascript.md)
 - [**[轉載] Drawing Audio Waveforms**](./drawing_audio_waveforms/drawing_audio_waveforms.md)
 - [**[轉載] Presentational and Container Components**](./presentational_and_container_components/presentational_and_container_components.md)
-- **[轉載] Presentational and Container Components**
+- [**[轉載] CSS Blend Modes could be the next big thing in Web Design**](./css_blend_mode/css_blend_mode.md)
 
 ### Back-end
 
