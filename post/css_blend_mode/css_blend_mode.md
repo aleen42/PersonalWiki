@@ -62,4 +62,4 @@ Implementation of the mix-blend-mode property is more complex than background-bl
 - **Firefox**: Supports background-blend-mode and mix-blend-mode.
 - **Safari**: Supports background-blend-mode and mix-blend-mode on desktop and mobile. However, does not yet support hue, saturation, color, luminosity blend modes.
 - **Opera**: Supports background-blend-mode and mix-blend-mode.
-- **Internet Explorer**: background-blend-mode and mix-blend-mode are not supported and listed as “under consideration” with a “low” priority. Canvas blend modes are supported.
+- **Internet Explorer**: background-blend-mode and mix-blend-mode are not supported and listed as “[under consideration](https://dev.windows.com/en-us/microsoft-edge/platform/status/backgroundblendmode?filter=f3f0000bf&search=blend)” with a “low” priority. Canvas blend modes are supported.
