@@ -160,4 +160,4 @@ At this second, for Chrome, you'll have to run Canary, go to chrome://flags/ and
 
 This actually it a bit more complicated, so if you really want to dig in and know about support, check out the [Support Matrix](http://html.adobe.com/webplatform/graphics/blendmodes/browser-support/) from Adobe.
 
-#Progressive Enhancement
+### Progressive Enhancement
