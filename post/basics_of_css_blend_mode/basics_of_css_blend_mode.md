@@ -92,3 +92,9 @@ Like I mentioned, real web text over image is a pretty sweet use case if you ask
 </iframe>
 
 ### Canvas Blend Modes
+
+The DOM blend mode stuff is most interesting to me, but it should be noted that `<canvas>` has blend modes as well and it has a bit deeper support (see below for all that).
+
+You set it on the canvas context. So like:
+
+
