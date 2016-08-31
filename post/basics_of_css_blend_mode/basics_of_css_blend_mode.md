@@ -150,4 +150,14 @@ Here's an example by Bennet that does just that:
 <iframe height='300' scrolling='no' src='//codepen.io/bennettfeely/embed/KDkCj/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/bennettfeely/pen/KDkCj/'>KDkCj</a> by Bennett Feely (<a href='http://codepen.io/bennettfeely'>@bennettfeely</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
+### Browser Support
 
+[For canvas](http://caniuse.com/#feat=canvas-blending): Firefox 20+, Chrome 30+, Safari 6.1+, Opera 17+, iOS 7+, Android 4.4+. Worst bad news: No IE.
+
+For HTML/CSS: Firefox 30+, Chrome 35+, Safari 6.1 (apparently not 7?). Not quite as supported as canvas.
+
+At this second, for Chrome, you'll have to run Canary, go to chrome://flags/ and enable "experimental Web Platform features".
+
+This actually it a bit more complicated, so if you really want to dig in and know about support, check out the Support Matrix from Adobe.
+
+#Progressive Enhancement
