@@ -167,3 +167,15 @@ What is nice about blending is that the whole point is designerly effects. If th
 Here's [a recent thought](http://adactio.com/journal/6692/) by Jeremy Keith:
 
 > It is entirely possible—nay, desirable—to use features long before they are supported in every browser. That’s how we move the web forward.
+
+So one way to do support is to look at the design in a non-supporting browser and if it is still readable/usable, you're good, no further action required.
+
+If the result ends up unreadable/unusable, you could tweak things around until they are, or run a test to determine support and do something specific in the case of non-support.
+
+To test for support, I guess you could do test for the property you want to use:
+
+```js
+var supportsMixBlendMode = window.getComputedStyle(document.body).mixBlendMode;
+
+var supportsBackgroundBlendMode = window.getComputedStyle(document.body).backgroundBlendMode;
+```
