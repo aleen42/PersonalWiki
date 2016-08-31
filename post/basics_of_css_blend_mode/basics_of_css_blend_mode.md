@@ -143,6 +143,8 @@ As you might suspect, SVG does have its own mechanism for doing this. One way to
 
 And [a more complex example](http://codepen.io/chriscoyier/pen/tCykv).
 
-The good news is that mix-blend-mode will work on inline SVG. So if you're using SVG that way, you can target the shapes themselves with classes or whatever and give them whatever blend mode you want.
+The good news is that `mix-blend-mode` will work on inline SVG. So if you're using SVG that way, you can target the shapes themselves with classes or whatever and give them whatever blend mode you want.
 
 Here's an example by Bennet that does just that:
+
+
