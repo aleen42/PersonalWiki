@@ -14,4 +14,6 @@ hdiutil convert ./ubuntu.iso -format UDRW -o ./ubuntu.dmg
 
 Then, mount your USB and check the serial number:
 
-
+```bash
+diskutil list
+```
