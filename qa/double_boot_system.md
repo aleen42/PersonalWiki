@@ -44,6 +44,8 @@ diskutil eject /dev/diskN
 
 ![](./mac_linux_disk_utility.jpg)
 
-After creating the partition, you can just reboot and hold keying the `optional` key
+After creating the partition, you can just reboot and hold keying the `optional` key. After a while, some options have been shown to choose. Just remember to choose the EFI one.
+
+![](./mac_linux_boot.jpg)
 
 
