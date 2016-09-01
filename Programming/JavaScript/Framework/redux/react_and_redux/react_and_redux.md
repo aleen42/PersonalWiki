@@ -18,4 +18,5 @@ React bindings for Redux embrace the idea of **separating presentational and con
 ---:|:------------------------|:-----------------------
 **Purpose**|How things look (markup, styles)|How things work (data fetching, state updates)
 **Aware of Redux**|No|Yes
-**To read data**|Read data from props|Dispatch Redux actions
+**To read data**|Read data from props|Subscribe to Redux state
+**To change data**|Invoke callbacks rom props|
