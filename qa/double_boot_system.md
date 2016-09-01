@@ -96,4 +96,10 @@ Find `GRUB_CMDLINE_LINUX` and change it:
 GRUB_CMDLINE_LINUX="libata.force=noncq"
 ```
 
+Then edit `/etc/grub.d/40_custom` and add the following content right behind the file:
 
+```
+menuentry "Mac OS X" {
+exit
+}
+```
