@@ -86,7 +86,7 @@ sudo efibootmgr -o 0,80
 First, you'll need to make a quick change to a GRUB setting so that the SSD won't occasionally freeze. 
 
 ```bash
-# before using vim, you have to install it by sudo apt-get install vim
+# before using vim, you have to install it by `sudo apt-get install vim`
 sudo vim /etc/default/grub
 ```
 
