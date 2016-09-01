@@ -103,3 +103,9 @@ menuentry "Mac OS X" {
 exit
 }
 ```
+
+After that, use the following command to take your configuration into effect.
+
+```bash
+sudo update-grub
+```
