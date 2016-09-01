@@ -64,3 +64,13 @@ When the installer completes, **don't restart just yet**! We still need to do on
 sudo apt-get update
 sudo apt-get install efibootmgr
 ```
+
+This will temporarily install a configuration tool for EFI boot setups.
+
+Next, run
+
+```bash
+sudo efibootmgr
+```
+
+This will print out the current boot configuration to your screen. In this, you should be able to see "ubuntu" and "Boot0000*". Currently, the EFI system will point to Boot0080*, which skips GRUB and goes 
