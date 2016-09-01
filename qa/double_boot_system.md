@@ -26,4 +26,8 @@ After that, unmount the USB before recording:
 diskutil unmountDisk /dev/diskN
 ```
 
+Recording:
 
+```bash
+sudo dd if=./ubuntu.img of=/dev/diskN bs=1m
+```
