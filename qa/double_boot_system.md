@@ -42,4 +42,6 @@ diskutil eject /dev/diskN
 
 ### Clear out sizes and create a empty partition for installation
 
+![](./mac_linux_disk_utility.jpg)
+
 
