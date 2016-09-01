@@ -34,4 +34,10 @@ Recording:
 sudo dd if=./ubuntu.img of=/dev/diskN bs=1m
 ```
 
+If successfully, you can just eject your USB device:
+
+```bash
+diskutil eject /dev/diskN
+```
+
 
