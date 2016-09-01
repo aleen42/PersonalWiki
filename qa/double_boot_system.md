@@ -77,4 +77,6 @@ This will print out the current boot configuration to your screen. In this, you 
 
 To fix this, run the command
 
-`sudo efibootmgr -o 0,80`
+```bash
+sudo efibootmgr -o 0,80
+```
