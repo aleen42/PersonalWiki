@@ -80,3 +80,11 @@ To fix this, run the command
 ```bash
 sudo efibootmgr -o 0,80
 ```
+
+### Fix Mac OS Boot
+
+First, you'll need to make a quick change to a GRUB setting so that the SSD won't occasionally freeze. 
+
+```bash
+sudo nano /etc/default/grub
+```
