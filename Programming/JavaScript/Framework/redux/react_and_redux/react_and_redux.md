@@ -13,3 +13,9 @@ npm install react-redux --save
 ### Presentational and Container Components
 
 React bindings for Redux embrace the idea of **separating presentational and container components**.
+
+|**Presentational Components**|**Container Components**
+---:|:------------------------|:-----------------------
+**Purpose**|How things look (markup, styles)|How things work (data fetching, state updates)
+**Aware of Redux**|No|Yes
+**To read data**|Read data from props|Dispatch Redux actions
