@@ -11,3 +11,7 @@ Find out a USB which has at least 2GB size to store the image, and then firstly 
 ```bash
 hdiutil convert ./ubuntu.iso -format UDRW -o ./ubuntu.dmg
 ```
+
+Then, mount your USB and check the serial number:
+
+
