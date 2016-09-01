@@ -2,4 +2,4 @@
 
 ### Download Ubuntu image
 
-The installation need a image which is know as format `.iso`.
+The installation need a copy of the Ubuntu desktop ISO image.
