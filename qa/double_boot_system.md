@@ -16,4 +16,12 @@ Then, mount your USB and check the serial number:
 
 ```bash
 diskutil list
+
+# may be /dev/diskN
+```
+
+After that, unmount the USB before recording:
+
+```bash
+
 ```
