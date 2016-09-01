@@ -1,1 +1,1 @@
-## How to use curl in Linux [Back](./qa.md)
+## How to install double-boot Ubuntu in a Macbook Air [Back](./qa.md)
