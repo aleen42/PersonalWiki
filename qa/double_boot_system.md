@@ -23,5 +23,5 @@ diskutil list
 After that, unmount the USB before recording:
 
 ```bash
-
+diskutil unmountDisk /dev/diskN
 ```
