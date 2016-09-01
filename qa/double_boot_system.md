@@ -73,4 +73,4 @@ Next, run
 sudo efibootmgr
 ```
 
-This will print out the current boot configuration to your screen. In this, you should be able to see "ubuntu" and "Boot0000\*". Currently, the EFI system will point to Boot0080*, which skips GRUB and goes 
+This will print out the current boot configuration to your screen. In this, you should be able to see "ubuntu" and "Boot0000\*". Currently, the EFI system will point to "Boot0080*“, which skips GRUB and goes 
