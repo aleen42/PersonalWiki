@@ -48,4 +48,4 @@ After creating the partition, you can just reboot and hold keying the `optional`
 
 ![](./mac_linux_boot.jpg)
 
-
+Then, choose `install Ubuntu`.
