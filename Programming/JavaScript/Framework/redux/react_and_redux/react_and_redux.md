@@ -9,3 +9,7 @@ React bindings are not included in Redux by default. You need to install them ex
 ```bash
 npm install react-redux --save
 ```
+
+### Presentational and Container Components
+
+React bindings for Redux embrace the idea of **separating presentational and container components**.
