@@ -59,3 +59,8 @@ When choosing where to install, you have to be careful. The option of **Device f
 ### EFI Boot Fix
 
 When the installer completes, **don't restart just yet**! We still need to do one more thing so that we'll be able to use GRUB. Run the following command: 
+
+```bash
+sudo apt-get update
+sudo apt-get install efibootmgr
+```
