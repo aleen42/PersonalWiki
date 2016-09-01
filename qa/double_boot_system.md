@@ -86,7 +86,8 @@ sudo efibootmgr -o 0,80
 First, you'll need to make a quick change to a GRUB setting so that the SSD won't occasionally freeze. 
 
 ```bash
-sudo nano /etc/default/grub
+# before using vim, you have to install it by sudo apt-get install vim
+sudo vim /etc/default/grub
 ```
 
 Find `GRUB_CMDLINE_LINUX` and change it:
@@ -94,4 +95,5 @@ Find `GRUB_CMDLINE_LINUX` and change it:
 ```
 GRUB_CMDLINE_LINUX="libata.force=noncq"
 ```
+
 
