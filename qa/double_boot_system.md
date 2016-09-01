@@ -8,4 +8,6 @@ The installation need a copy of the Ubuntu desktop ISO image. **Be sure to choos
 
 Find out a USB which has at least 2GB size to store the image, and then firstly convert a ISO image into the apple specific one `.dmg` by using the following command:
 
-
+```bash
+hdiutil convert ./ubuntu.iso -format UDRW -o ./ubuntu.dmg
+```
