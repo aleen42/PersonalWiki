@@ -40,4 +40,6 @@ If successfully, you can just eject your USB device:
 diskutil eject /dev/diskN
 ```
 
+### Clear out sizes and create a empty partition for installation
+
 
