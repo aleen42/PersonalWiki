@@ -56,4 +56,6 @@ Then, choose `install Ubuntu`.
 
 When choosing where to install, you have to be careful. The option of **Device for boot loader installer should choose `/dev/sda1`**. Besides, you are ought to double click the partion you have just created like `/dev/sda4` and change it with a EXT4 format, and set the mount point as `/`.
 
+### EFI Boot Fix
 
+When the installer completes, **don't restart just yet**!
