@@ -25,3 +25,4 @@ React bindings for Redux embrace the idea of **separating presentational and con
 Technically you could write the container components by hand using `store.subscribe()`. We don’t advise you to do this because React Redux makes many performance optimizations that are hard to do by hand. For this reason, rather than write container components, we will generate them using the `connect()` function provided by React Redux, as you will see below.
 
 #### Presentational Components
+
