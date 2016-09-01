@@ -53,3 +53,5 @@ Then, choose `install Ubuntu`.
 ### Installer
 
 
+
+![](./mac_linux_installer_partitions.jpg)
