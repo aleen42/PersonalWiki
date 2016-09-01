@@ -88,3 +88,10 @@ First, you'll need to make a quick change to a GRUB setting so that the SSD won'
 ```bash
 sudo nano /etc/default/grub
 ```
+
+Find `GRUB_CMDLINE_LINUX` and change it:
+
+```
+GRUB_CMDLINE_LINUX="libata.force=noncq"
+```
+
