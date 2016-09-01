@@ -26,3 +26,4 @@ Technically you could write the container components by hand using `store.subscr
 
 #### Presentational Components
 
+- **TodoList**: a list showing visibile todo items.
