@@ -22,7 +22,7 @@ diskutil list
 # may be /dev/diskN, in which N should be 0, 1 or any integer
 ```
 
-After that, unmount the USB before recording:
+And, unmount the USB before recording:
 
 ```bash
 diskutil unmountDisk /dev/diskN
