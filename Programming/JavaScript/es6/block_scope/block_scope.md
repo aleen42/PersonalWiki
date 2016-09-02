@@ -64,3 +64,5 @@ With Block Scope, IIFE (Immediately-Invoked Function Expression) is not necessar
 }
 ```
 
+### Function Definition in Block Scope
+
