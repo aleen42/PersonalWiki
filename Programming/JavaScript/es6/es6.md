@@ -6,3 +6,4 @@
 - [**Destructuring Assignment**](./destructuring_assignment/destructuring_assignment.md)
 - [**Block Scope**](./block_scope/block_scope.md)
 - [**Variables Definition**](./definition/definition.md)
+- [**Global**](./global/global.md)
