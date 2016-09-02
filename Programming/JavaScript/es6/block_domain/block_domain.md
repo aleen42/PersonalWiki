@@ -23,4 +23,4 @@ function f() {
 f();    /** => undefined    */
 ```
 
-**Case 2: variables exposion**
+**Case 2: variables exposing**
