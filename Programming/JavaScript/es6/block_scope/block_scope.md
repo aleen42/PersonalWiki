@@ -118,6 +118,7 @@ function f() {
     f();    /**
              * => Inside    (ES5)
              * => Outside   (ES6)
+             * => Uncaught TypeError: f is not a function (Chrome ES6)
              */
 })();
 ```
