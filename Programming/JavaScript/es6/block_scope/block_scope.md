@@ -147,4 +147,5 @@ function f() {
 })();
 ```
 
-Therefore, **again recommend that not to define functions in a block as possible as you can**.
+Therefore, **again recommend that not to declare functions in a block as possible as you can**. If necessary, you can use Function Expression rather than Function Declaration
+
