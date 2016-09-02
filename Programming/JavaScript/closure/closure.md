@@ -118,7 +118,7 @@ setupHelp();
 
 ### Performance
 
-It's not recommended to define functions inside another funtions which will affect the performance of scripts.
+It's not recommended to define functions inside another functions which will affect the performance of scripts.
 
 ```js
 function MyObject(name, message) {
@@ -134,3 +134,5 @@ function MyObject(name, message) {
     };
 }
 ```
+
+
