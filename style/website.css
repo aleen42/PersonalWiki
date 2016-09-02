@@ -1,14 +1,14 @@
 /** CSS style for website */
 body {
-    font-family: Arial, "微软雅黑" !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "微软雅黑" !important;
 }
 
 .book.font-family-0 {
-    font-family: Arial, "微软雅黑" !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "微软雅黑" !important;
 }
 
 .book.font-family-1 {
-    font-family: Arial, "微软雅黑" !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "微软雅黑" !important;
 }
 
 a {
@@ -365,7 +365,7 @@ pre::-webkit-resizer {
 }
 
 .book-header a {
-    font-family: Arial, "微软雅黑" !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "微软雅黑" !important;
 }
 
 @media (max-width: 1240px) {
