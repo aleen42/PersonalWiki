@@ -142,5 +142,15 @@ function () {
     let a = 1;
 }
 
+function func(arg) {
+    /** Error */
+    let arg;
+}
 
+function func(arg) {
+    {
+        /** No Error */
+        let arg;
+    }
+}
 ```
