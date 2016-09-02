@@ -105,7 +105,7 @@ if (true) {
 }
 
 if (true) {
-    typeof tmp;         /** => undefined                            */
+    console.log(typeof tmp);         /** => undefined                            */
 }
 ```
 
