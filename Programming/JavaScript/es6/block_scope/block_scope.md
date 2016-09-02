@@ -90,4 +90,13 @@ if (true) {
 }
 ```
 
-In ES6, 
+In ES6, **it's allowed**.
+
+```js
+'use strict';
+
+if (true) {
+    /** No Error */
+    function f() {}
+}
+```
