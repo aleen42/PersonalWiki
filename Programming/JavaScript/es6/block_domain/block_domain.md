@@ -52,10 +52,14 @@ function f() {
 With Block Domain, IIFE (Immediately-Invoked Function Expression) is not necessary anymore.
 
 ```js
-/** IIFE */
+/** IIFE    */
 (function() {
     var tmp = 'abc';
     /** ... */
 })();
+
+{
+    let tmp = 'abc';
+}
 ```
 
