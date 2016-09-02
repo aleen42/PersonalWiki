@@ -120,4 +120,6 @@ setupHelp();
 
 It's not recommended to define functions inside another funtions which will affect the performance of scripts.
 
+```js
 
+```
