@@ -121,5 +121,16 @@ setupHelp();
 It's not recommended to define functions inside another funtions which will affect the performance of scripts.
 
 ```js
-
+function MyObject(name, message) {
+    this.name = name.toString();
+    this.message = message.toString();
+    
+    this.getName = function() {
+        return this.name;
+    };
+    
+    this.getMessage = function() {
+        return this.message;
+    };
+}
 ```
