@@ -27,5 +27,11 @@ console.log(i); /** => ReferenceError: b is not defined */
 That's because if we use `var` to define index in a loop structure, it will easily go wrong like this:
 
 ```js
+var a = [];
 
+for (var i = 0; i < 10; i++) {
+    a[i] = function () {
+        console.log(i);
+    };
+}
 ```
