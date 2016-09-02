@@ -58,6 +58,7 @@ With Block Domain, IIFE (Immediately-Invoked Function Expression) is not necessa
     /** ... */
 })();
 
+/** Block Domain */
 {
     let tmp = 'abc';
 }
