@@ -99,8 +99,10 @@ function setupHelp() {
     for (var i = 0; i < helpText.length; i++) {
         var item = helpText[i];
         
-        document.getElementById(item.id).onfocus = (function() {
-            showHelp(item.help);    /**
+        document.getElementById(item.id).onfocus = (function(help) {
+            return function () {
+                showHelp(help);
+            };                      /**
                                      * will always show the last help
                                      * because three functions have shared the same item
                                      */
