@@ -23,6 +23,7 @@ JavaScript|To specify the behavior of web pages.
 
 ### Advanced
 
+* [**Closure**](./closure/closure.md)
 * [Event Bubbling and Capturing](./bubble_and_capture/bubble_and_capture.md)
 * [Shim and Polyfills](./shim_and_polyfills/shim_and_polyfills.md)
 * [Strict Mode](./strict_mode/strict_mode.md)
