@@ -35,7 +35,7 @@ console.log(i);     /** => 10   */
 
 ### Block Domain in ES6
 
-In ES6, `let` is based on a block domain
+In ES6, `let` is based on a block domain.
 
 ```js
 
