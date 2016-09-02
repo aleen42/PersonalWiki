@@ -67,3 +67,14 @@ console.log(bar);   /** => ReferenceError: bar is not defined   */
 var foo = 1;
 let bar = 1;
 ```
+
+### Dead Region
+
+```js
+var tmp = 123;
+
+if (true) {
+    tmp - 'abc';    /** => ReferenceError: tmp is not defined   */
+    let tmp;
+}
+```
