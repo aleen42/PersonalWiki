@@ -56,6 +56,13 @@ Technically you could write the container components by hand using `store.subscr
 import React, { PropTypes } from 'react';
 
 const Todo = ({ onClick, completed, text }) => (
-
+    <li
+        onClick={onClick}
+        style={{
+            textDecoration: completed ? 'line-through' : 'none'
+        }}
+    >
+        {text}
+    </li>
 );
 {%endace%}
