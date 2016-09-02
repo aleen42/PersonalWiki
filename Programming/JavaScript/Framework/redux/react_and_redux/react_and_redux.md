@@ -172,15 +172,24 @@ const Footer = () = {
     );
 };
 
-export default Foot
+export default Footer;
 {%endace%}
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** components/App.jsx */}
 
-import React, { PropTypes } from 'react';
+import React from 'react'
+import Footer from './Footer'
+import AddTodo from '../containers/AddTodo'
+import VisibleTodoList from '../containers/VisibleTodoList'
 
 const App = () = {
-    
+    return (
+        <div>
+            <AddTodo />
+            <VisibleTodoList />
+            <Footer />
+        </div>
+    );    
 };
 {%endace%}
