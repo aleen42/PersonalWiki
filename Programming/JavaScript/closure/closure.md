@@ -154,3 +154,20 @@ MyObject.prototype = {
 };
 ```
 
+But what if the security of property `name` and `message` is important, what we should do is to give up performance to set `name` and `message` as private:
+
+```js
+function f(name, message) {
+    var name = name;
+    var message = message;
+
+    this.getName = function () {
+        return name;
+    };
+
+    this.getMessage = function () {
+        return message;
+    };
+}
+```
+
