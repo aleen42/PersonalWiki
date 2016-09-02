@@ -147,6 +147,33 @@ export default Link;
 {%endace%}
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
+{/** components/Footer.jsx */}
+
+import React, { PropTypes } from 'react';
+import FilterLink from './../containers/FilterLink.jsx';
+
+const Footer = () = {
+    return (
+        <p>
+            Show    
+            {' '}
+            <FilterLink filter="SHOW_ALL">
+                All
+            </FilterLink>
+            {", "}
+            <FilterLink filter="SHOW_ACTIVE">
+                Active
+            </FilterLink>
+            {", "}
+            <FilterLink filter="SHOW_COMPLETED">
+                Completed
+            </FilterLink>
+        </p>
+    );
+};
+{%endace%}
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** components/App.jsx */}
 
 import React, { PropTypes } from 'react';
