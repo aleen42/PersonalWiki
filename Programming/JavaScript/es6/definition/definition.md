@@ -21,5 +21,5 @@ According to this new feature, it's proper to use `let` in a `for` block:
 ```js
 for (let i = 0 ; i < 10; i++) {}
 
-
+console.log(i); /** => ReferenceError: b is not defined */
 ```
