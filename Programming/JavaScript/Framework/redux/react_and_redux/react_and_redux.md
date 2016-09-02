@@ -293,15 +293,15 @@ const mapStateToProps = (state, ownProps) => {
 const mapDispatchToProps = (dispatch, ownProps) => {
     return {
         onClick: () => {
-            dispatch(setVisibilityFilter(ownProps.filte));
+            dispatch(setVisibilityFilter(ownProps.filter));
         }
     };
 };
 
-const VisibleTodoList = connect(
+const FilterLink = connect(
     mapStateToProps,
     mapDispatchToProps
-)(TodoList);
+)(Link);
 
-export default VisibleTodoList;
+export default FilterLink;
 {%endace%}
