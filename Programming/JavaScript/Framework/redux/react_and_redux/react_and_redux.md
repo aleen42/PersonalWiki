@@ -120,7 +120,9 @@ const link = ({ active, children, onClick }) => (
                 onClick();
             }
         }
-    ></a>
+    >
+        {children}
+    </a>
 );
 {%endace%}
 
