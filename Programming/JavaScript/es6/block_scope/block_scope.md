@@ -178,4 +178,8 @@ if (true) {
     /** No Error */
     function f() {}
 }
+
+if (true) 
+    /** Error */
+    function e() {}
 ```
