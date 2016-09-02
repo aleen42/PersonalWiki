@@ -14,3 +14,9 @@ console.log(window.a);      /** => 2    */
 
 In ES6, variables defined by `var` and `function` are still same as Global Variables. However, variables defined by `let`, `const` or `class` do not belong to properties of the Global Object.
 
+```js
+var a = 1;
+
+/** in Node.js, it should be `global.a = 1;` or `this.a = 1;`  */
+
+```
