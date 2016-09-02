@@ -175,5 +175,15 @@ const foo;          /** => SyntaxError: Missing initializer in const declaration
 If you want to initiate a constant variable for an array or an object, using `const` only ensures that the pointer is constant.
 
 ```js
+const arr = [];
 
+/** No Error */
+arr.push('1');
+
+/** No Error */
+a.length = 0;
+
+a = ['What'];       /** => TypeError: Assignment to constant variable.              */
 ```
+
+
