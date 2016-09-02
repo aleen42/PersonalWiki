@@ -106,4 +106,8 @@ TodoList.propTypes = {
 export default TodoList;
 {%endace%}
 
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+
+{%endace%}
+
 
