@@ -24,3 +24,9 @@ f();    /** => undefined    */
 ```
 
 **Case 2: variables exposing**
+
+```js
+for (var i = 0; i < 10; i++) {}
+
+console.log(i);     /** => 10   */
+```
