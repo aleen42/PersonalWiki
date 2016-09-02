@@ -58,3 +58,4 @@ a[6].call();    /** => 6    */
 
 #### Variables Hoisted
 
+`var` will have a phenomena called "variables hosited(變量提升)"
