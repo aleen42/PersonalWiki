@@ -165,7 +165,7 @@ Therefore, **again recommend that not to declare functions in a block as possibl
     /** Function Expression */
     let b = function () {
         return a;
-    }
+    };
 }
 ```
 
