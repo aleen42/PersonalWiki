@@ -161,7 +161,13 @@ function func(arg) {
 
 ```js
 const PI = 3.14;
-console.log(PI);    /** => 3.14                                         */
+console.log(PI);    /** => 3.14                                                     */
 
-PI = 3;             /** => TypeError: Assignment to constant variable.  */
+PI = 3;             /** => TypeError: Assignment to constant variable.              */
+```
+
+Besides, when initiating a variable with `const`, they should be assigned.
+
+```js
+const foo;          /** => SyntaxError: Missing initializer in const declaration    */
 ```
