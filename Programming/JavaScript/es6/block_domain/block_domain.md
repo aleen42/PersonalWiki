@@ -30,7 +30,7 @@ f();    /** => undefined    */
 ```js
 for (var i = 0; i < 10; i++) {}
 
-console.log(i);     /** => 10   */
+console.log(i);     /** => 10       */
 ```
 
 ### Block Domain in ES6
@@ -45,6 +45,6 @@ function f() {
         let n = 20;
     }
     
-    console.log(n); /** => 5    */
+    console.log(n); /** => 5        */
 }
 ```
