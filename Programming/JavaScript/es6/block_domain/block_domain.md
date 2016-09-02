@@ -48,3 +48,14 @@ function f() {
     console.log(n); /** => 5        */
 }
 ```
+
+With Block Domain, IIFE (Immediately-Invoked Function Expression) is not necessary anymore.
+
+```js
+/** IIFE */
+(function() {
+    var tmp = 'abc';
+    /** ... */
+})();
+```
+
