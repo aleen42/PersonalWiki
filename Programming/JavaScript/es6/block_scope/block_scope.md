@@ -69,5 +69,25 @@ With Block Scope, IIFE (Immediately-Invoked Function Expression) is not necessar
 In ES5, it's not allowed to define a function in a block like this:
 
 ```js
+if (true) {
+    function f() {}
+}
 
+try {
+    function f() {}
+} catch (e) {
+}
 ```
+
+However, browsers have not obeyed this rule and you can also define functions whthin a block, except for the **strict mode**.
+
+```js
+'use strict';
+
+if (true) {
+    /** Error */
+    function f() {}
+}
+```
+
+In ES6, 
