@@ -171,6 +171,8 @@ const Footer = () = {
         </p>
     );
 };
+
+export default Foot
 {%endace%}
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
