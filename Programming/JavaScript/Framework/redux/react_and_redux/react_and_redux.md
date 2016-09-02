@@ -200,8 +200,19 @@ const App = () = {
 
 In Redux, you don't have to produce contianer components by hand, and just let `connect()` function to do this for you, which provides many useful optimizations to prevent unnecessary re-renders.
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
-{/** components/AddTodo.jsx */}
+Before using `connect()`, you should define a special function called `mapStateToProps` that tells how to transform state into props.
 
-import React from 'react';
+For example, `VisibleTodoList` needs to calculate `todos` to pass to the `TodoList`, so we define a function that filters the `state.todos` according to the `state.visibilityFilter`, and use it in its `mapStateToProps`:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+const getVisibleTodos = (todos, filter) => {
+    switch (filter) {
+    case 'SHOW_ALL':
+        return todos;
+    case 'SHOW_COMPLETED':
+        return todos.filter(t => t.completed);
+    case 'SHOW_ACTIVE':
+        return todos.filter(t => !t.completed); 
+    }
+};
 {%endace%}
