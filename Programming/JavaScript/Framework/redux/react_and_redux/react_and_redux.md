@@ -282,22 +282,11 @@ export default VisibleTodoList;
 {/** containers/FilterLink.jsx */}
 import { connect } from 'react-redux';
 import { setVisibilityFilter } from '../actions';
-import Link from '../components/Lin';
+import Link from '../components/Link';
 
-const getVisibleTodos = (todos, filter) => {
-    switch (filter) {
-    case 'SHOW_ALL':
-        return todos;
-    case 'SHOW_COMPLETED':
-        return todos.filter(t => t.completed);
-    case 'SHOW_ACTIVE':
-        return todos.filter(t => !t.completed);
-    }
-}
-
-const mapStateToProps = (state) => {
+const mapStateToProps = (state, ownProps) => {
     return {
-        todos: getVisibleTodos(state.todos, state.visibilityFilter)
+        active: ownProps.filter ==== state.filter
     };
 };
 
