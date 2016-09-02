@@ -125,3 +125,8 @@ foo();
 ```
 
 ### Duplicate Definition
+
+Duplicate definition will cause problems when defining variables in the same domian:
+
+```js
+```
