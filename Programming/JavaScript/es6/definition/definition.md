@@ -184,6 +184,14 @@ arr.push('1');
 a.length = 0;
 
 a = ['What'];       /** => TypeError: Assignment to constant variable.              */
+
+const obj = {};
+
+obj.prop = 123;
+
+obj = {
+    prop: 123
+};                  /** => TypeError: Assignment to constant variable.              */
 ```
 
 
