@@ -281,8 +281,8 @@ export default VisibleTodoList;
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** containers/FilterLink.jsx */}
 import { connect } from 'react-redux';
-import { setVisibilit } from '../actions';
-import TodoList from '../components/TodoList';
+import { setVisibilityFilter } from '../actions';
+import Link from '../components/Lin';
 
 const getVisibleTodos = (todos, filter) => {
     switch (filter) {
