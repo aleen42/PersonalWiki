@@ -6,7 +6,7 @@ In ES5, there is only **Global Domain** and **Function Domain**, which will caus
 
 And what problems will occur when there is no **Block Domain**?
 
-**Case 1**: prevent overriden fom the internal domain
+**Case 1: prevent overriden fom the internal domain**
 
 ```js
 var tmp = '123';
