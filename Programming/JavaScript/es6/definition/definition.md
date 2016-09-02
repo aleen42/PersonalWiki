@@ -68,7 +68,7 @@ var foo = 1;
 let bar = 1;
 ```
 
-### Dead Region
+#### Dead Region
 
 ```js
 var tmp = 123;
