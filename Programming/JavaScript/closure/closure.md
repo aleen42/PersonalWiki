@@ -14,3 +14,5 @@ function f() {
     display();
 }
 ```
+
+### Emulating private property
