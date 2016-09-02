@@ -123,3 +123,5 @@ function foo(x = 2, y = x) {
 bar();
 foo();
 ```
+
+### Duplicate Definition
