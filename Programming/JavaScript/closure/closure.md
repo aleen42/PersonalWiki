@@ -64,7 +64,7 @@ function setupHelp() {
         var item = helpText[i];
         
         document.getElementById(item.id).onfocus = function() {
-            showHelp(item.help);
+            showHelp(item.help);    /** will always show the last help */
         }
     }
 }
