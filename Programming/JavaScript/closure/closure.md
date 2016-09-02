@@ -148,7 +148,7 @@ MyObject.prototype = {
         return this.name;
     },
     
-    getMessage = function () {
+    getMessage: function () {
         return this.message;
     }
 };
