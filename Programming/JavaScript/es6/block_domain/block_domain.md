@@ -1,14 +1,14 @@
-## Block Domain [Back](./../es6.md)
+## Block Scope [Back](./../es6.md)
 
 ### Introduction
 
-In ES5, there is only **Global Domain** and **Function Domain**, which will cause some problems in cases. That's why ES6 has brought us with **Block Domain**.
+In ES5, there is only **Global Scope** and **Function Scope**, which will cause some problems in cases. That's why ES6 has brought us with **Block Scope**.
 
-**Domain** specifies the accessibility of a variable.
+**Scope** specifies the accessibility of a variable.
 
-And what problems will occur when there is no **Block Domain**?
+And what problems will occur when there is no **Block Scope**?
 
-**Case 1: prevent overriden fom the internal domain**
+**Case 1: prevent overriden fom the internal Scope**
 
 ```js
 var tmp = '123';
@@ -33,9 +33,9 @@ for (var i = 0; i < 10; i++) {}
 console.log(i);     /** => 10       */
 ```
 
-### Block Domain in ES6
+### Block Scope in ES6
 
-In ES6, `let` is based on a block domain.
+In ES6, `let` is based on a block Scope.
 
 ```js
 function f() {
@@ -49,7 +49,7 @@ function f() {
 }
 ```
 
-With Block Domain, IIFE (Immediately-Invoked Function Expression) is not necessary anymore.
+With Block Scope, IIFE (Immediately-Invoked Function Expression) is not necessary anymore.
 
 ```js
 /** IIFE        */
@@ -58,7 +58,7 @@ With Block Domain, IIFE (Immediately-Invoked Function Expression) is not necessa
     /** ... */
 })();
 
-/** Block Domain */
+/** Block Scope */
 {
     let tmp = 'abc';
 }
