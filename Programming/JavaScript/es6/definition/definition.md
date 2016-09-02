@@ -24,7 +24,7 @@ for (let i = 0 ; i < 10; i++) {}
 console.log(i); /** => ReferenceError: b is not defined */
 ```
 
-That's because if we use `var` to define index in a loop structure, it will easily go wrong like this (the array item is not pointed to a closure):
+That's because if we use `var` to define index in a loop structure, it will easily go wrong like this (**the array item is not pointed to a closure**):
 
 ```js
 var a = [];
