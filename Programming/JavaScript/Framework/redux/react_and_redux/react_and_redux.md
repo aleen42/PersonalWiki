@@ -33,4 +33,5 @@ Technically you could write the container components by hand using `store.subscr
     - `test: string` is the text to show
     - `completed: boolean` is whether todo item is completed.
     - `onClick()` invoke owner's function `onTodoClick()`.
-- **Link**: 
+- **Link**: a link with a callback
+    - `onClick()` is a callback to invoke when a link is clicked.
