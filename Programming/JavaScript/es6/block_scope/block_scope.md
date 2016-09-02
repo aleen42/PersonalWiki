@@ -150,10 +150,20 @@ function f() {
 Therefore, **again recommend that not to declare functions in a block as possible as you can**. If necessary, you can use Function Expression rather than Function Declaration.
 
 ```js
-/** Function Expression */
 {
     let a = 'secret';
+    
+    /** Function Declaration */
     function f() {
+        return a;
+    }
+}
+
+{
+    let a = 'secret';
+    
+    /** Function Expression */
+    let b = function () {
         return a;
     }
 }
