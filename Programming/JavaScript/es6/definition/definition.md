@@ -194,4 +194,15 @@ obj = {
 };                  /** => TypeError: Assignment to constant variable.              */
 ```
 
+If you want to lock on the whole object, you can use `Object.freeze()`.
+
+```js
+const obj = Object.freesize({});
+
+'use strict';
+
+/** Error in strict mode */
+obj.prop = 123;
+```
+
 
