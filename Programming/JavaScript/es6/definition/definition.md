@@ -83,9 +83,15 @@ That's because ES6 has explicitly specified that if a block has use `let` or `co
 
 ```js
 if (true) {
-    /** the start point of a TDZ to tmp */
+    /** the start point of a TDZ to `tmp` */
     tmp = 'abc';
+    console.log(tmp);   /** => ReferenceError: tmp is not defined   */
     
+    /** the end point of the TDZ to `tmp` */
+    let tmp;
+    console.log(tmp);   /** => undefined                            */
     
+    tmp = 'bcd';
+    console.log(tmp);   /** => abc                                  */
 }
 ```
