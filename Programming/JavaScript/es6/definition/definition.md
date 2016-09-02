@@ -115,4 +115,11 @@ Besides, some TDZ is hard to identify:
 function bar(x = y, y = 2) {
     return [x, y];      /** => ReferenceError: y is not defined     */
 }
+
+function foo(x = 2, y = x) {
+    return [x, y];      /** => [2, 2]                               */
+}
+
+bar();
+foo();
 ```
