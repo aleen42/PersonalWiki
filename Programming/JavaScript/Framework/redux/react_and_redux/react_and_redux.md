@@ -35,3 +35,7 @@ Technically you could write the container components by hand using `store.subscr
     - `onClick()` invoke owner's function `onTodoClick()`.
 - **Link**: a link with a callback
     - `onClick()` is a callback to invoke when a link is clicked.
+- **Footer**: where we let the user change currently visibile todos;
+- **App**: the root component that renders everything else.
+
+
