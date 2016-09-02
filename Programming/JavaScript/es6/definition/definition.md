@@ -100,8 +100,7 @@ With TDZ, it means that it's not secure to use `typeof`.
 
 ```js
 if (true) {
-    typeof tmp;         /** => ReferenceError: tmp is not defined   */
-
+    typeof tmp;         /** => ReferenceError: tmp is not defined   */s
     let tmp;
 }
 ```
