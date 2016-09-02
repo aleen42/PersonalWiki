@@ -40,4 +40,6 @@ Technically you could write the container components by hand using `store.subscr
 
 #### Container Components
 
-
+- **VisibilityTodoList**: to filter the todos according to the current visibility filter and renders a `TodoList`.
+- **FilterLink**: to get he current visibility filter and render a `Link`.
+    - `filter: string` is the visibility filter it represen
