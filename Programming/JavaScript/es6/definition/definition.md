@@ -37,3 +37,20 @@ for (var i = 0; i < 10; i++) {
 
 a[6].call();
 ```
+
+To fix this, you're going to write like this:
+
+```js
+var a = [];
+
+for (var i = 0; i < 10; i++) {
+    a[i] = (function (index) {
+        return function () {
+            console.log(index);
+        };
+    })(i);
+}
+
+a[6].call();
+
+```
