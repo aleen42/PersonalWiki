@@ -21,7 +21,6 @@ JavaScript|To specify the behavior of web pages.
 * [Types, Values, and Variables](./Type/Type.md)
 * [Array](./array/array.md)
 
-
 ### Advanced
 
 * [Event Bubbling and Capturing](./bubble_and_capture/bubble_and_capture.md)
