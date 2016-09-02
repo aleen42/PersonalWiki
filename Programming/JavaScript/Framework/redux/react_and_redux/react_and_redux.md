@@ -123,7 +123,7 @@ const Link = ({ active, children, onClick }) => {
             <span>{children}</span>
         );
     }
-    
+
     return (
         <a
             href="#"
@@ -212,7 +212,7 @@ const getVisibleTodos = (todos, filter) => {
     case 'SHOW_COMPLETED':
         return todos.filter(t => t.completed);
     case 'SHOW_ACTIVE':
-        return todos.filter(t => !t.completed); 
+        return todos.filter(t => !t.completed);
     }
 };
 
@@ -242,7 +242,7 @@ With those two functions we have just defined, we can use `connect()` to create 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** containers/VisibleTodoList.jsx */}
 import { connect } from 'react-redux';
-import { toggleTodo } from '../actions';
+import { toggleTodo } from '../actions.js';
 import TodoList from '../components/TodoList';
 
 const getVisibleTodos = (todos, filter) => {
@@ -281,7 +281,7 @@ export default VisibleTodoList;
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** containers/FilterLink.jsx */}
 import { connect } from 'react-redux';
-import { setVisibilityFilter } from '../actions';
+import { setVisibilityFilter } from '../actions.js';
 import Link from '../components/Link';
 
 const mapStateToProps = (state, ownProps) => {
@@ -304,4 +304,66 @@ const FilterLink = connect(
 )(Link);
 
 export default FilterLink;
+{%endace%}
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+{/** containers/AddTodo.jsx */}
+import React from 'react';
+import { connect } from 'react-redux';
+import { addTodo } from '../actions.js';
+
+let AddTodo = ({ dispatch }) => {
+    let input;
+
+    return (
+        <form
+            onSubmit = (e) => {
+                e.preventDefault();
+
+                if (!input.value.trim()) {
+                    return;
+                }
+
+                dispatch(addTodo(input.value));
+                input.value = '';
+            }
+        >
+            <input
+                ref = {
+                    node => {
+                        input = node;
+                    }
+                }
+            ></input>
+
+            <button type="submit">Add Todo</button>
+        </form>
+    );
+};
+
+AddTodo = connect()(AddTodo);
+
+export default AddTodo;
+{%endace%}
+
+### Passing the store
+
+Then we can pass a Redux Store into App component with a prop.
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+import React from 'react';
+import ReactDom from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import todoApp from './reducer.js';
+import App from './components/App.jsx';
+
+let store = createStore(todoApp);
+
+ReactDOM.render(
+    <Provider store={store}>
+        <App />
+    </Provider>,
+    document.getElementById('content');
+);
 {%endace%}
