@@ -6,8 +6,10 @@
 function f() {
     var independentVariable = 'test';
     
-    function () {
+    function display() {
         console.log(independentVariable);
     }
+    
+    display();
 }
 ```
