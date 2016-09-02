@@ -115,6 +115,9 @@ function f() {
         }
     }
     
-    f();
+    f();    /**
+             * => Inside    (ES5)
+             * => Outside   (ES6)
+             */
 })();
 ```
