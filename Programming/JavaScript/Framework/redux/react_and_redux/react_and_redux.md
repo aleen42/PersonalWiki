@@ -51,5 +51,9 @@ Technically you could write the container components by hand using `store.subscr
 ### Implementing Components
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
+{/** components/Todo.js */}
+
+import React, { PropTypes } from 'react';
+
 
 {%endace%}
