@@ -102,10 +102,7 @@ function setupHelp() {
         document.getElementById(item.id).onfocus = (function(help) {
             return function () {
                 showHelp(help);
-            };                      /**
-                                     * will always show the last help
-                                     * because three functions have shared the same item
-                                     */
+            }; 
         })(item.help);
     }
 }
