@@ -68,7 +68,7 @@ var foo = 1;
 let bar = 1;
 ```
 
-#### Dead Region
+#### Temporal Dead Zone (TDZ, 暫時性死區)
 
 ```js
 var tmp = 123;
