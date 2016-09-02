@@ -10,6 +10,12 @@ And what problems will occur when there is no **Block Domain**?
 var tmp = '123';
 
 function f() {
+    console.log(tmp);
     
+    if (false) {
+        var tmp = 'abc';
+    }
 }
+
+f();    /** => undefined    */
 ```
