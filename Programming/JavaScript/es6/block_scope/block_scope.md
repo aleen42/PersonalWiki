@@ -146,3 +146,5 @@ function f() {
              */
 })();
 ```
+
+Therefore, **again recommend that not to define functions in a block as possible as you can**.
