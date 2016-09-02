@@ -1,5 +1,7 @@
 ## Block Domain [Back](./../es6.md)
 
+### Introduction
+
 In ES5, there is only **Global Domain** and **Function Domain**, which will cause some problems in cases. That's why ES6 has brought us with **Block Domain**.
 
 **Domain** specifies the accessibility of a variable.
@@ -30,3 +32,5 @@ for (var i = 0; i < 10; i++) {}
 
 console.log(i);     /** => 10   */
 ```
+
+### Description
