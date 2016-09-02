@@ -158,6 +158,7 @@
                         * [Spread Operators](./Programming/JavaScript/es6/spread_operators/spread_operators.md)
                         * [Rest Parameters](./Programming/JavaScript/es6/rest_param/rest_param.md)
                         * [Destructuring Assignment](./Programming/JavaScript/es6/destructuring_assignment/destructuring_assignment.md)
+                        * [Block Domain](./Programming/JavaScript/es6/block_domain/block_domain.md)
                         * [Variables Definition](./Programming/JavaScript/es6/definition/definition.md)
         * [SVG](./Programming/SVG/SVG.md)
         * [CSS](./Programming/CSS/CSS.md)
