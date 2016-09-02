@@ -7,6 +7,7 @@ function f() {
     var independentVariable = 'test';
     
     function display() {
+        /** using an independent variable `independentVariable` */
         console.log(independentVariable);
     }
     
