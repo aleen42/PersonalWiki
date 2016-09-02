@@ -290,10 +290,10 @@ const mapStateToProps = (state, ownProps) => {
     };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = (dispatch, ownProps) => {
     return {
-        onTodoClick: (id) => {
-            dispatch(toggleTodo(id));
+        onClick: () => {
+            dispatch(setVisibilityFilter(ownProps.filte));
         }
     };
 };
