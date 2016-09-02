@@ -246,5 +246,5 @@ import { connect } from 'react-redux';
 cconst VisibleTodoList = connect(
     mapStateToProps,
     mapDispatchToProps
-)
+)(TodoList);
 {%endace%}
