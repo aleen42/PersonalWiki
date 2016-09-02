@@ -148,7 +148,7 @@
                         * [How to detect whether an object is an array](./Programming/JavaScript/array/array_detection/array_detection.md)
                         * [Methods of an array](./Programming/JavaScript/array/array_methods/array_methods.md)
                 * Advanced
-                    * [Closure](./Programming/JavaScript/closure/closure.md)
+                    * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
                     * [Shim and Polyfills](./Programming/JavaScript/shim_and_polyfills/shim_and_polyfills.md)
                     * [Strict Mode](./Programming/JavaScript/strict_mode/strict_mode.md)
