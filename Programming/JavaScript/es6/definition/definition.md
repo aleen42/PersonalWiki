@@ -4,4 +4,4 @@ Usually we will define a variable in ES5 with the notation command `var`. In ES6
 
 ### let
 
-`let` is familiar with `var`, but it can only 
+`let` is familiar with `var`, but what it defines is only worked in a blocked `{}`.
