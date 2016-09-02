@@ -83,6 +83,9 @@ That's because ES6 has explicitly specified that if a block has use `let` or `co
 
 ```js
 if (true) {
+    /** the start point of a TDZ to tmp */
+    tmp = 'abc';
+    
     
 }
 ```
