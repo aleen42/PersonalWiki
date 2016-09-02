@@ -115,22 +115,32 @@ export default TodoList;
 
 import React, { PropTypes } from 'react';
 
-const Link = ({ active, children, onClick }) => (
-    <a
-        href="#"
-        onClick={
-            (e) => {
-                e.preventDefault();
-                onClick();
+const Link = ({ active, children, onClick }) => {
+    if (actve) {
+        return (
+            <span>{children}</span>
+        );
+    }
+    
+    return (
+        <a
+            href="#"
+            onClick={
+                (e) => {
+                    e.preventDefault();
+                    onClick();
+                }
             }
-        }
-    >
-        {children}
-    </a>
-);
+        >
+            {children}
+        </a>
+    );
+};
 
 Link.propTypes = {
-    activePropTypes.
+    active: PropTypes.bool.isRequired,
+    children: PropTypes.node.isRequired,
+    onClick: PropTypes.func.isRequir
 };
 {%endace%}
 
