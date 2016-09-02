@@ -26,7 +26,7 @@ Technically you could write the container components by hand using `store.subscr
 
 #### Presentational Components
 
-- **TodoList**: a list showing visibile todo items.
+- **TodoList**: a list showing visible todo items.
     - `todos: Array` is an array of todo items with `{id, text, completed}` shape.
     - `onTodoClick(id: number)` is a callback to invoke when a todo is clicked.
 - **Todo**: a single todo item.
