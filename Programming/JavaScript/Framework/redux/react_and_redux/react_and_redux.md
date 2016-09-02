@@ -111,7 +111,17 @@ export default TodoList;
 
 import React, { PropTypes } from 'react';
 
-const link = ({ active, children,  }) => ();
+const link = ({ active, children, onClick }) => (
+    <a
+        href="#"
+        onClick={
+            (e) => {
+                e.preventDefault();
+                onClick();
+            }
+        }
+    ></a>
+);
 {%endace%}
 
 
