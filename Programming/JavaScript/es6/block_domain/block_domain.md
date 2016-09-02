@@ -33,4 +33,10 @@ for (var i = 0; i < 10; i++) {}
 console.log(i);     /** => 10   */
 ```
 
-### Description
+### Block Domain in ES6
+
+In ES6, `let` is based on a block domain
+
+```js
+
+```
