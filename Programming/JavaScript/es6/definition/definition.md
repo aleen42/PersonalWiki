@@ -109,3 +109,8 @@ if (true) {
 }
 ```
 
+Besides, some TDZ is hard to identify:
+
+```js
+
+```
