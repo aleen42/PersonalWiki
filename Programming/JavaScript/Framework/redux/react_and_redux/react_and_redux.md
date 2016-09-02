@@ -111,7 +111,7 @@ export default TodoList;
 {%endace%}
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
-{/** components/TodoList.jsx */}
+{/** components/Link.jsx */}
 
 import React, { PropTypes } from 'react';
 
@@ -146,4 +146,12 @@ Link.propTypes = {
 export default Link;
 {%endace%}
 
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+{/** components/App.jsx */}
 
+import React, { PropTypes } from 'react';
+
+const App = () = {
+    
+};
+{%endace%}
