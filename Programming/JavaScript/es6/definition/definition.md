@@ -130,12 +130,17 @@ Duplicate definition will cause problems when defining variables in the same dom
 
 ```js
 funtion () {
+    /** Error */
     let a = 10;
     var a = 1;
 }
 
 function () {
     let a = 10;
-    let a = 1
+    
+    /** Error */
+    let a = 1;
 }
+
+
 ```
