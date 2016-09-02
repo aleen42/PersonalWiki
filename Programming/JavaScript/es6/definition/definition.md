@@ -129,4 +129,8 @@ foo();
 Duplicate definition will cause problems when defining variables in the same domian:
 
 ```js
+funtion () {
+    let a = 10;
+    var a = 1;
+
 ```
