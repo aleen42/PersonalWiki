@@ -215,4 +215,10 @@ const getVisibleTodos = (todos, filter) => {
         return todos.filter(t => !t.completed); 
     }
 };
+
+const mapStateToProps = (state) => {
+    return {
+        todos: getVisibleTodos(state.todos, state.visibilityFilter)
+    };
+};
 {%endace%}
