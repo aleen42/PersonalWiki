@@ -157,4 +157,4 @@ function func(arg) {
 
 ### const
 
-
+`const` is another command to define variables, which are **read-only**. Once they are assigned, they can not be changed any more.
