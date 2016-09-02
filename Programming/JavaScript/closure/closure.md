@@ -35,7 +35,7 @@ var counter = (function() {
         value: function() {
             return privateCounter;
         }
-    };   
+    };
 })();
 
 console.log(counter.value()); // logs 0
