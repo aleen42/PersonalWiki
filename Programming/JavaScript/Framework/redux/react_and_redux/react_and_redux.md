@@ -240,7 +240,7 @@ const mapDispatchToProps = (dispatch) => {
 With those two functions we have just defined, we can use `connect()` to create the component `VisibleTodoList`.
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
-{/** containers/VisibileTodoList.jsx */}
+{/** containers/VisibleTodoList.jsx */}
 import { connect } from 'react-redux';
 
 cconst Visibi
