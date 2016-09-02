@@ -100,3 +100,19 @@ if (true) {
     function f() {}
 }
 ```
+
+Besides, function declaration will act like `let`:
+
+```js
+function f() {
+    console.log('Outside');
+}
+
+(function(){
+    if (false) {
+        function f() {
+            console.log('Inside');
+        }
+    }
+})();
+```
