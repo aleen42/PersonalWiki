@@ -15,11 +15,16 @@ JavaScript|To specify the behavior of web pages.
 
 ### Categories
 
+#### Basics
+
 * [Lexical Structure](./Lexical/Lexical.md)
 * [Types, Values, and Variables](./Type/Type.md)
 * [Array](./array/array.md)
 * [Event Bubbling and Capturing](./bubble_and_capture/bubble_and_capture.md)
 * [Shim and Polyfills](./shim_and_polyfills/shim_and_polyfills.md)
+
+### Advanced
+
 * [Strict Mode](./strict_mode/strict_mode.md)
 * [Module System Style](./module_system_style/module_system_style.md)
 * [ES6 features](./es6/es6.md)
