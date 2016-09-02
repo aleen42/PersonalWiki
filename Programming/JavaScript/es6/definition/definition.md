@@ -35,7 +35,7 @@ for (var i = 0; i < 10; i++) {
     };
 }
 
-a[6].call();
+a[6].call();    /** => 10    */
 ```
 
 To fix this, you're going to write like this:
@@ -51,6 +51,6 @@ for (var i = 0; i < 10; i++) {
     })(i);
 }
 
-a[6].call();
+a[6].call();    /** => 6    */
 
 ```
