@@ -134,5 +134,8 @@ funtion () {
     var a = 1;
 }
 
-
+function () {
+    let a = 10;
+    let a = 1
+}
 ```
