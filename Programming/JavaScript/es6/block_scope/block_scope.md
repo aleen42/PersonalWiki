@@ -122,3 +122,27 @@ function f() {
              */
 })();
 ```
+
+Why there is an error? That's because Chrome will run like this:
+
+```js
+function f() {
+    console.log('Outside');
+}
+
+(function(){
+    var f = undefined;
+    
+    if (false) {
+        function f() {
+            console.log('Inside');
+        }
+    }
+    
+    f();    /**
+             * => Inside    (ES5)
+             * => Outside   (ES6)
+             * => Uncaught TypeError: f is not a function (Chrome ES6)
+             */
+})();
+```
