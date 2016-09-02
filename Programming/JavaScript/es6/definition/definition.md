@@ -5,3 +5,13 @@ Usually we will define a variable in ES5 with the notation command `var`. In ES6
 ### let
 
 `let` is familiar with `var`, but what it defines is only worked in a blocked `{}`.
+
+```js
+{
+    var a = 1;
+    let b = 1;
+}
+
+console.log(a); /** => 1    */
+console.log(b); /** => ReferenceError: b is not defined */
+```
