@@ -95,3 +95,11 @@ if (true) {
     console.log(tmp);   /** => abc                                  */
 }
 ```
+
+With TDZ, it means that it's not secure to use `typeof`.
+
+```js
+if (true) {
+    
+}
+```
