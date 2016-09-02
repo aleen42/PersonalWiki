@@ -147,5 +147,15 @@ function f() {
 })();
 ```
 
-Therefore, **again recommend that not to declare functions in a block as possible as you can**. If necessary, you can use Function Expression rather than Function Declaration
+Therefore, **again recommend that not to declare functions in a block as possible as you can**. If necessary, you can use Function Expression rather than Function Declaration.
+
+```js
+/** Function Expression */
+{
+    let a = 'secret';
+    function f() {
+        return a;
+    }
+}
+```
 
