@@ -243,5 +243,8 @@ With those two functions we have just defined, we can use `connect()` to create 
 {/** containers/VisibleTodoList.jsx */}
 import { connect } from 'react-redux';
 
-cconst Visibi
+cconst VisibleTodoList = connect(
+    mapStateToProps,
+    mapDisatchToP
+)
 {%endace%}
