@@ -205,4 +205,6 @@ const obj = Object.freesize({});
 obj.prop = 123;
 ```
 
+Anything else is same as `let`.
+
 
