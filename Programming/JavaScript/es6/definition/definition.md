@@ -19,5 +19,7 @@ console.log(b); /** => ReferenceError: b is not defined */
 According to this new feature, it's proper to use `let` in a `for` block:
 
 ```js
+for (let i = 0 ; i < 10; i++) {}
+
 
 ```
