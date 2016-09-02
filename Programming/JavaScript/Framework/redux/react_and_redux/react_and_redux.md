@@ -222,3 +222,17 @@ const mapStateToProps = (state) => {
     };
 };
 {%endace%}
+
+Besides, container components can dispatch actions by defining a function called `mapDispatchToProps`.
+
+For example, we want the `VisibleTodoList` to inject a prop called `onTodoClick` into the `TodoList` component, and we want `onTodoClick` to dispatch a `TOGGLE_TODO` action:
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onTodoClick: (id) => {
+            dispatch(toggleTodo(id))
+        }
+    };
+};
+{%endace%}
