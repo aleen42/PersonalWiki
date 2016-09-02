@@ -114,5 +114,7 @@ function f() {
             console.log('Inside');
         }
     }
+    
+    f();
 })();
 ```
