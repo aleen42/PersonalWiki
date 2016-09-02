@@ -80,3 +80,9 @@ if (true) {
 ```
 
 That's because ES6 has explicitly specified that if a block has use `let` or `const` to define a variable, any operation to this variables before their declaration will throw an error of `ReferenceError`.
+
+```js
+if (true) {
+    
+}
+```
