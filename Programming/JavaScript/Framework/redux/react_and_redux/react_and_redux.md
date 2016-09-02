@@ -198,7 +198,7 @@ const App = () = {
 
 #### Container Components
 
-In Redux, you don't have to produce contianer components by hand, and just let `connect()` to do this for you, which provides many useful optimizations to prevent unnecessary re-renders.
+In Redux, you don't have to produce contianer components by hand, and just let `connect()` function to do this for you, which provides many useful optimizations to prevent unnecessary re-renders.
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** components/AddTodo.jsx */}
