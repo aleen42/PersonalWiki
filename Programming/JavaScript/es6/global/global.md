@@ -13,3 +13,4 @@ console.log(window.a);      /** => 2    */
 ```
 
 In ES6, variables defined by `var` and `function` are still same as Global Variables. However, variables defined by `let`, `const` or `class` do not belong to properties of the Global Object.
+
