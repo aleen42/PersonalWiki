@@ -15,3 +15,9 @@ Usually we will define a variable in ES5 with the notation command `var`. In ES6
 console.log(a); /** => 1                                */
 console.log(b); /** => ReferenceError: b is not defined */
 ```
+
+According to this new feature, it's proper to use `let` in a `for` block:
+
+```js
+
+```
