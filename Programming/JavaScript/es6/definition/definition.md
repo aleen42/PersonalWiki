@@ -201,7 +201,7 @@ const obj = Object.freesize({});
 
 'use strict';
 
-/** Error in strict mode */
+/** Error in the strict mode */
 obj.prop = 123;
 ```
 
