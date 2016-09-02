@@ -112,5 +112,7 @@ if (true) {
 Besides, some TDZ is hard to identify:
 
 ```js
-
+function bar(x = y, y = 2) {
+    return [x, y];      /** => ReferenceError: tmp is not defined   */
+}
 ```
