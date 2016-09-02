@@ -103,4 +103,9 @@ if (true) {
     typeof tmp;         /** => ReferenceError: tmp is not defined   */
     let tmp;
 }
+
+if (true) {
+    typeof tmp;         /** => undefined                            */
+}
 ```
+
