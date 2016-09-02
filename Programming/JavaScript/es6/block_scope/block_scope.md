@@ -66,3 +66,8 @@ With Block Scope, IIFE (Immediately-Invoked Function Expression) is not necessar
 
 ### Function Definition in Block Scope
 
+In ES5, it's not allowed to define a function in a block like this:
+
+```js
+
+```
