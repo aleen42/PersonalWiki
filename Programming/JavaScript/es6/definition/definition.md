@@ -63,4 +63,7 @@ a[6].call();    /** => 6    */
 ```js
 console.log(foo);   /** => undefined                            */
 console.log(bar);   /** => ReferenceError: bar is not defined   */
+
+var foo = 1;
+let bar = 1;
 ```
