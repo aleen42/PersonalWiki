@@ -178,10 +178,10 @@ export default Footer;
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** components/App.jsx */}
 
-import React from 'react'
-import Footer from './Footer'
-import AddTodo from '../containers/AddTodo'
-import VisibleTodoList from '../containers/VisibleTodoList'
+import React from 'react';
+import Footer from './Footer';
+import AddTodo from '../containers/AddTodo';
+import VisibleTodoList from '../containers/VisibleTodoList';
 
 const App = () = {
     return (
@@ -192,4 +192,10 @@ const App = () = {
         </div>
     );    
 };
+{%endace%}
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+{/** components/AddTodo.jsx */}
+
+import React from 'react';
 {%endace%}
