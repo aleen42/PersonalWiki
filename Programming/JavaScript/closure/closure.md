@@ -152,12 +152,5 @@ MyObject.prototype = {
         return this.message;
     }
 };
-this.getName = function() {
-        return this.name;
-    };
-    
-    this.getMessage = function() {
-        return this.message;
-    };
 ```
 
