@@ -15,9 +15,12 @@ function f() {
     console.log(tmp);
     
     if (false) {
+        /** Variables Hoisted */
         var tmp = 'abc';
     }
 }
 
 f();    /** => undefined    */
 ```
+
+**Case 2: **
