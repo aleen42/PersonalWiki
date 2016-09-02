@@ -1,0 +1,1 @@
+## Closures [Back](./../JavaScript.md)
