@@ -38,4 +38,6 @@ Technically you could write the container components by hand using `store.subscr
 - **Footer**: where we let the user change currently visibile todos;
 - **App**: the root component that renders everything else.
 
+#### Container Components
+
 
