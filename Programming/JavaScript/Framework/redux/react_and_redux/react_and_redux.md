@@ -236,3 +236,18 @@ const mapDispatchToProps = (dispatch) => {
     };
 };
 {%endace%}
+
+With those two funtions we have just defined, we can use `connect()` to create the component `VisibileTodoList`.
+
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
+{/** containers/VisibileTodoList.jsx */}
+import  
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        onTodoClick: (id) => {
+            dispatch(toggleTodo(id))
+        }
+    };
+};
+{%endace%}
