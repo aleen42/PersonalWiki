@@ -4,6 +4,8 @@ Usually we will define a variable in ES5 with the notation command `var`. In ES6
 
 ### let
 
+#### Domain
+
 `let` is familiar with `var`, but what it defines is only worked in a blocked `{}`.
 
 ```js
@@ -55,3 +57,4 @@ a[6].call();    /** => 6    */
 ```
 
 #### Variables Hoisted
+
