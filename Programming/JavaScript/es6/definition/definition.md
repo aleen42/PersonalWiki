@@ -132,5 +132,7 @@ Duplicate definition will cause problems when defining variables in the same dom
 funtion () {
     let a = 10;
     var a = 1;
+}
+
 
 ```
