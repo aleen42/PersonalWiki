@@ -54,4 +54,4 @@ for (var i = 0; i < 10; i++) {
 a[6].call();    /** => 6    */
 ```
 
-#### Variable Hoisted
+#### Variables Hoisted
