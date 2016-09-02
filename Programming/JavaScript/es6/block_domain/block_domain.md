@@ -38,5 +38,13 @@ console.log(i);     /** => 10   */
 In ES6, `let` is based on a block domain.
 
 ```js
-
+function f() {
+    let n = 5;
+    
+    if (true) {
+        let n = 20;
+    }
+    
+    console.log(n); /** => 5    */
+}
 ```
