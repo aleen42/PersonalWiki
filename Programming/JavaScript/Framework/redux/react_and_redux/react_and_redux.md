@@ -115,6 +115,7 @@ export default TodoList;
 {%endace%}
 
 <br />
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** components/Link.jsx */}
 
 import React, { PropTypes } from 'react';
@@ -151,6 +152,7 @@ export default Link;
 {%endace%}
 
 <br />
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** components/Footer.jsx */}
 
 import React, { PropTypes } from 'react';
