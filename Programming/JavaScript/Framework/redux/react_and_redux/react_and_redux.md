@@ -79,6 +79,7 @@ Todo.propTypes = {
 {%endace%}
 
 <br />
+{%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** components/TodoList.jsx */}
 
 import React, { PropTypes } from 'react';
