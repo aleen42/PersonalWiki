@@ -53,6 +53,7 @@ Technically you could write the container components by hand using `store.subscr
 #### Presentational Components
 
 <br />
+
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 {/** components/Todo.jsx */}
 
