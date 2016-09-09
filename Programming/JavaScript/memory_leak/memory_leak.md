@@ -128,4 +128,4 @@ function bindEvent() {
 }
 ```
 
-### Delete loosly
+### Delete loosely
