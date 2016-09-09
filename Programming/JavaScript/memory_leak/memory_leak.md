@@ -202,5 +202,8 @@ More worse:
 
 ```js
 function foo() {
+    this.bar = 'potential global';
 }
+
+foo();
 ```
