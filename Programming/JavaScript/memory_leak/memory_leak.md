@@ -147,7 +147,7 @@ Therefore, when deleting an object, remember to **delete recursively**.
 var a = { p: { x: 1 } };
 var b = a.p;
 
-function delete(obj) {
+function deleteObj(obj) {
     if (_.isObject(obj)) {
         for (var i in obj) {
             delete i;
