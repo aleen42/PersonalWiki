@@ -136,5 +136,5 @@ var b = a.p;
 
 delete a.p;
 
-console.log(b.x);
+console.log(b.x);   /** still output => 1 */
 ```
