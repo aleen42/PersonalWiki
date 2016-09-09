@@ -67,8 +67,12 @@ Or use event delegation(事件委託):
 
 ### DOM or ActiveX Object Reference
 
-In ECMAScript, reference between two DOM elements can be collected, if no other elements 
+In ECMAScript, reference between two DOM elements can be collected, if no other elements refer to them like:
 
 ```js
+var a = document.getElementById('xxx');
+var b = document.getElementById('xx');
 
+a.reference = b;
+b.reference = a;
 ```
