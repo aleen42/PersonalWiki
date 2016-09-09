@@ -45,6 +45,22 @@ In such kinds of cases, you can solve by remove the listner:
 </script>
 ```
 
-Or use event delegation
+Or use event delegation:
+
+```html
+<div id="myDiv">
+    <input type="button" value="Click me" id="myBtn">
+</div>
+
+<script type="text/javascript">
+    var btn = document.getElementById('myBtn');
+    btn.onclick = funtion () {
+        /** clear listner */
+        btn.onclick = null;
+        
+        document.getElementById('myDiv').innerHTML = 'Processing...';
+    };
+</script>
+```
 
 ### 
