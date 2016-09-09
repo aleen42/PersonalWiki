@@ -130,6 +130,8 @@ function bindEvent() {
 
 ### Delete loosely
 
+Sometimes, if you delete an object loosely, it will result in memory leak:
+
 ```js
 var a = { p: { x: 1 } };
 var b = a.p;
