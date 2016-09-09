@@ -168,4 +168,10 @@ var s = 'abc';
 console.log(s.length);
 ```
 
-Therefore, 
+Therefore, before we access any property of a value object, we are recommended to convert them before:
+
+```js
+var s = '123';
+
+console.log(new String(s).length);
+```
