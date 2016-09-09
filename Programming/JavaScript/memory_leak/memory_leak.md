@@ -10,4 +10,15 @@ Here we list some cases that will cause memory leak in JavaScript:
 
 When a DOM has changed, if its event listener has not be removed, IE will not handle it for you and it causes memory leak.
 
+```html
+<div id="myDiv">
+    <input type="button" value="Click me" id="myBtn">
+</div>
 
+<script type="text/javascript">
+    var btn = document.getElementById('myBtn');
+    btn.onclick = funtion () {
+        document.getElementById('myDiv').innerHTML = 'Processing...';
+    };
+</script>
+```
