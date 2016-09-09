@@ -149,8 +149,9 @@ var b = a.p;
 
 function deleteObj(obj) {
     if (_.isObject(obj)) {
+        delete i;
         for (var i in obj) {
-            delete i;
+            deleteObj(i);
         }
     }
 }
