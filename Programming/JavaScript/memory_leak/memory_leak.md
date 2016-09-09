@@ -98,3 +98,13 @@ function bindEvent() {
     };
 }
 ```
+
+For this situation, we can solve it by defining handle event outside the container:
+
+```js
+function bindEvent() {
+    var obj = document.getElementById('xxx');
+    
+    obj.onclick = clickHandler;
+}
+```
