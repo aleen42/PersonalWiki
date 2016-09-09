@@ -78,4 +78,5 @@ a.reference = b;
 b.reference = a;
 ```
 
+However, in IE, if you loop to refer to any DOM or ActiveX Object, GC won't collect and release these elements.
 
