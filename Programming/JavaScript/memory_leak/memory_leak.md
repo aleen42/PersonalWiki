@@ -45,7 +45,7 @@ In such kinds of cases, you can solve by remove the listner:
 </script>
 ```
 
-Or use event delegation:
+Or use event delegation(事件委託):
 
 ```html
 <div id="myDiv">
@@ -55,7 +55,7 @@ Or use event delegation:
 <script type="text/javascript">
     var btn = document.getElementById('myBtn');
     btn.onclick = function (event) {
-        /** clear listner */
+        /** event delegation */
         event = event || window.event;
         
         document.getElementById('myDiv').innerHTML = 'Processing...';
