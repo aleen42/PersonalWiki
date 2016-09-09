@@ -175,3 +175,7 @@ var s = '123';
 
 console.log(new String(s).length);
 ```
+
+### Illegal DOM Operations ?
+
+
