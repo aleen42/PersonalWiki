@@ -111,5 +111,4 @@ function bindEvent() {
     
     obj.onclick = clickHandler;
 }
-
 ```
