@@ -127,3 +127,5 @@ function bindEvent() {
     obj = null;
 }
 ```
+
+### Delete loosly
