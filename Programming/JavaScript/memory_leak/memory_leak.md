@@ -65,4 +65,4 @@ Or use event delegation(事件委託):
 </script>
 ```
 
-### 
+### DOM or ActiveX Object Reference
