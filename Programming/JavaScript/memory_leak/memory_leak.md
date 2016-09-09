@@ -140,3 +140,5 @@ delete a.p;
 
 console.log(b.x);   /** still output => 1 */
 ```
+
+Therefore, when deleting an object, remember to delete recursively.
