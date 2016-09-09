@@ -207,3 +207,13 @@ function foo() {
 
 foo();
 ```
+
+Therefore, we can use the strict mode to limit our code:
+
+```js
+/**
+ * any acident global variable will thorw out an error
+ * in the strict mode 
+ */
+'use strict';
+```
