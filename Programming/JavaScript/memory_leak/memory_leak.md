@@ -58,7 +58,9 @@ Or use event delegation(事件委託):
         /** event delegation */
         event = event || window.event;
         
-        document.getElementById('myDiv').innerHTML = 'Processing...';
+        if (event.target.id = 'myBtn') {
+            document.getElementById('myDiv').innerHTML = 'Processing...';
+        }
     };
 </script>
 ```
