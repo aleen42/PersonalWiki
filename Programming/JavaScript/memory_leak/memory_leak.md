@@ -112,3 +112,18 @@ function bindEvent() {
     obj.onclick = clickHandler;
 }
 ```
+
+Or directly release by deleting:
+
+```js
+function bindEvent() {
+    var obj = document.getElementById('xxx');
+    
+    obj.onclick = function () {
+        /** empty function */
+    };
+    
+    /** delete this reference */
+    obj = null;
+}
+```
