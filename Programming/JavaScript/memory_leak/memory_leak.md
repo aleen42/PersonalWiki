@@ -208,7 +208,7 @@ function foo() {
 foo();
 ```
 
-Therefore, we can use the strict mode to limit our code:
+Therefore, we can use the **strict mode** to limit our code:
 
 ```js
 /**
