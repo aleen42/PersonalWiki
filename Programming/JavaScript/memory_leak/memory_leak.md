@@ -90,5 +90,11 @@ a.reference = a;
 Closures will sometimes cause memory leak by holding a variable.
 
 ```js
-
+function bindEvent() {
+    var obj = document.getElementById('xxx');
+    
+    obj.onclick = function () {
+        /** will keep holding obj even if it's a empty function */
+    };
+}
 ```
