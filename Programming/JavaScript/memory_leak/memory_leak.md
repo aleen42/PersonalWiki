@@ -54,9 +54,9 @@ Or use event delegation:
 
 <script type="text/javascript">
     var btn = document.getElementById('myBtn');
-    btn.onclick = function () {
+    btn.onclick = function (event) {
         /** clear listner */
-        btn.onclick = null;
+        event = event || window.event;
         
         document.getElementById('myDiv').innerHTML = 'Processing...';
     };
