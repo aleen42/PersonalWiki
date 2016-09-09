@@ -73,6 +73,9 @@ In ECMAScript, reference between two DOM elements can be collected, if no other 
 var a = document.getElementById('xxx');
 var b = document.getElementById('xx');
 
+/** can still be collected */
 a.reference = b;
 b.reference = a;
 ```
+
+
