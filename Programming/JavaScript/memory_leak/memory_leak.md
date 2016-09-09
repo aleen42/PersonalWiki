@@ -129,3 +129,5 @@ function bindEvent() {
 ```
 
 ### Delete loosely
+
+a = { p: 1 };
