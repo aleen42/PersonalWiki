@@ -150,6 +150,7 @@ var b = a.p;
 function deleteObj(obj) {
     if (_.isObject(obj)) {
         delete obj;
+        
         for (var i in obj) {
             deleteObj(i);
         }
