@@ -80,3 +80,7 @@ b.reference = a;
 
 However, in IE, if you loop to refer to any DOM or ActiveX Object, GC won't collect and release these elements.
 
+```js
+var a = document.getElementById('xxx');
+a.reference = a;
+```
