@@ -17,7 +17,7 @@ When a DOM has changed, if its event listener has not be removed, IE will not ha
 
 <script type="text/javascript">
     var btn = document.getElementById('myBtn');
-    btn.onclick = funtion () {
+    btn.onclick = function () {
         /**
          * the div with id myDiv will be changed into a text,
          * but its click event listener still exsists.
@@ -36,7 +36,7 @@ In such kinds of cases, you can solve by remove the listner:
 
 <script type="text/javascript">
     var btn = document.getElementById('myBtn');
-    btn.onclick = funtion () {
+    btn.onclick = function () {
         /** clear listner */
         btn.onclick = null;
         
@@ -54,7 +54,7 @@ Or use event delegation:
 
 <script type="text/javascript">
     var btn = document.getElementById('myBtn');
-    btn.onclick = funtion () {
+    btn.onclick = function () {
         /** clear listner */
         btn.onclick = null;
         
