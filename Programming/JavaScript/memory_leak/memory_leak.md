@@ -179,3 +179,6 @@ console.log(new String(s).length);
 ### Illegal DOM Operations?
 
 Some illegal DOM operations will result in memory leak in IE, like we call `appendChild` of a DOM element, which is not in the DOM tree.
+
+### Pollution of the global namespace
+
