@@ -45,4 +45,6 @@ In such kinds of cases, you can solve by remove the listner:
 </script>
 ```
 
+Or use event delegation
+
 ### 
