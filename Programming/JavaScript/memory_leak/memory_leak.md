@@ -142,3 +142,12 @@ console.log(b.x);   /** still output => 1 */
 ```
 
 Therefore, when deleting an object, remember to **delete recursively**.
+
+```js
+var a = { p: { x: 1 } };
+var b = a.p;
+
+function delete(obj) {
+    if (_.isObject(obj)
+}
+```
