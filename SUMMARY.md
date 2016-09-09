@@ -150,6 +150,7 @@
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
+                    * [Memory Leak](./memory_leak/memory_leak.md)
                     * [Shim and Polyfills](./Programming/JavaScript/shim_and_polyfills/shim_and_polyfills.md)
                     * [Strict Mode](./Programming/JavaScript/strict_mode/strict_mode.md)
                     * [Module System Style](./Programming/JavaScript/module_system_style/module_system_style.md)
