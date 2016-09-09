@@ -158,7 +158,7 @@ function deleteObj(obj) {
 }
 ```
 
-### Boxing ?
+### Boxing?
 
 According to some documents, the following code will result in memory leak in IE, because IE will temporary create a String obj when accessing the property `length`, which will have a leak:
 
@@ -176,6 +176,6 @@ var s = '123';
 console.log(new String(s).length);
 ```
 
-### Illegal DOM Operations ?
+### Illegal DOM Operations?
 
 
