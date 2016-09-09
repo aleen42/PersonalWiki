@@ -160,7 +160,7 @@ function deleteObj(obj) {
 
 ### Boxing ?
 
-According to some documents, the following code will result in memory leak:
+According to some documents, the following code will result in memory leak in IE, because IE will temporary create a String obj, which will have a leak:
 
 ```js
 var s = 'abc';
