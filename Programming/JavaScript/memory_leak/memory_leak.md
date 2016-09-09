@@ -18,6 +18,7 @@ When a DOM has changed, if its event listener has not be removed, IE will not ha
 <script type="text/javascript">
     var btn = document.getElementById('myBtn');
     btn.onclick = funtion () {
+        /** the div with id myDiv will be changed into a text, but its click event listener still exsists. */
         document.getElementById('myDiv').innerHTML = 'Processing...';
     };
 </script>
