@@ -160,3 +160,10 @@ function deleteObj(obj) {
 
 ### Boxing ?
 
+According to some documents, the following code will result in memory leak:
+
+```js
+var s = 'abc';
+
+console.log(s.length);
+```
