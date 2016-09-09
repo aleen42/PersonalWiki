@@ -84,3 +84,11 @@ However, in IE, if you loop to refer to any DOM or ActiveX Object, GC won't coll
 var a = document.getElementById('xxx');
 a.reference = a;
 ```
+
+### Closure
+
+Closures will sometimes cause memory leak by holding a variable.
+
+```js
+
+```
