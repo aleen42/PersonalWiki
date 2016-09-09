@@ -182,7 +182,7 @@ Some illegal DOM operations will result in memory leak in IE, like we call `appe
 
 ### Pollution of the global namespace
 
-Undefined variable will be defined in the global namespace:
+Undefined variable will be defined in the global name-space, which is another memory leak:
 
 ```js
 function foo() {
@@ -195,5 +195,12 @@ Actually:
 ```js
 function foo() {
     window.bar = 'this is a hidden global variable';
+}
+```
+
+More worse:
+
+```js
+function foo() {
 }
 ```
