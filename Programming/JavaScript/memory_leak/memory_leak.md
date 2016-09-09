@@ -130,4 +130,5 @@ function bindEvent() {
 
 ### Delete loosely
 
-a = { p: { x: 1 } };
+var a = { p: { x: 1 } };
+var b = a.p;
