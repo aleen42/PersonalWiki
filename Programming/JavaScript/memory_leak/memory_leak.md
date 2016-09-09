@@ -148,6 +148,10 @@ var a = { p: { x: 1 } };
 var b = a.p;
 
 function delete(obj) {
-    if (_.isObject(obj)
+    if (_.isObject(obj)) {
+        for (var i in obj) {
+            delete i;
+        }
+    }
 }
 ```
