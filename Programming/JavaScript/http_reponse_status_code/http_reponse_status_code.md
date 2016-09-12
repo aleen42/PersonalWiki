@@ -109,3 +109,7 @@ The request and all future requests should be repeated using another URI.
 The 4xx class of status code is intended for situations in which the client seems to have erred.
 
 #### 400 Bad Request
+
+The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing)
+
+#### 401 Unauthorized
