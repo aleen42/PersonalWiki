@@ -161,3 +161,6 @@ The request did not specify the length of its content, which is required by the 
 ### 412 Precondition Failed
 
 The server does not meet one of the preconditions that the requester put on the request.
+
+### 413 Payload Too Large
+
