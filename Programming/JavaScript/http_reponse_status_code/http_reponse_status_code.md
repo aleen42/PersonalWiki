@@ -106,4 +106,4 @@ The request and all future requests should be repeated using another URI.
 
 ### 4xx Client Error
 
-
+#### 400 Bad Request
