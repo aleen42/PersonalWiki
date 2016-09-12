@@ -164,3 +164,6 @@ The server does not meet one of the preconditions that the requester put on the 
 
 ### 413 Payload Too Large
 
+The request is larger than the server is willing or able to process. Previously called "Request Entity Too Large".
+
+### 
