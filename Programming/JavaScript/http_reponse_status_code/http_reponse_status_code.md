@@ -103,3 +103,7 @@ In this case, the request should be repeated with another URI; however, future r
 The request and all future requests should be repeated using another URI.
 
 307 and 308 parallel the behaviors of 302 and 301, but **do not allow the HTTP method to change**.
+
+### 4xx Client Error
+
+
