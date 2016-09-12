@@ -12,6 +12,7 @@ The requester has asked the server to switch protocols and the server has agreed
 
 #### 102 Processing (WebDAV)
 
+A WebDAV request may contain many sub-requests involving file operations, requiring a long time to complete the request.
 
 
 
