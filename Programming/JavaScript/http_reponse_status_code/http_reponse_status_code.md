@@ -64,6 +64,8 @@ The server has fulfilled a request for the resource, and the response is a repre
 
 ### 3xx Redirection
 
+This class of status code indicates the client must take additional action to complete the request.
+
 #### 300 Multiple Choices
 
 Indicates multiple options for the resource from which the client may choose to redirect into.
