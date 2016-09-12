@@ -117,3 +117,7 @@ The server cannot or will not process the request due to an apparent client erro
 Similar to `403 Fobidden`, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a `WWW-Authenticate` header field containing a challenge applicable to the requested resource.
 
 *Notice: some sites issue 401 when an IP is banned from accessing by the server.*
+
+#### 402 Payment Required
+
+Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened, and this code is not usually used.
