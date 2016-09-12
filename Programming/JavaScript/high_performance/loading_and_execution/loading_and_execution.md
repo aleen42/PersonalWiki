@@ -40,3 +40,5 @@ Because scripts block downloading of all resource types on the page, it's recomm
     </body>
 </html>
 ```
+
+### Grouping Scripts
