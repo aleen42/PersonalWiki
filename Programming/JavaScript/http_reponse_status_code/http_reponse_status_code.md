@@ -221,3 +221,8 @@ The server is unwilling to process the request because either an individual head
 #### 451 Unavailable For Legal Reasons
 
 A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource.
+
+### 5xx Server Error
+
+The server failed to fulfill an apparently valid request.
+
