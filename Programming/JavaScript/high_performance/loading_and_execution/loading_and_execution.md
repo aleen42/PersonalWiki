@@ -28,8 +28,8 @@ Because scripts block downloading of all resource types on the page, it's recomm
 <html>
     <head>
         <title>Script Example</title>
-    
         <link rel="stylesheet" type="text/css" href="style.css"></link>
     </head>
+
 </html>
 ```
