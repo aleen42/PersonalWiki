@@ -66,4 +66,4 @@ The server has fulfilled a request for the resource, and the response is a repre
 
 #### 300 Multiple Choices
 
-Indicates multiple options for the resource from which the client may choose to redirect.
+Indicates multiple options for the resource from which the client may choose to redirect into.
