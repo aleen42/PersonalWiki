@@ -254,3 +254,7 @@ The server does not support the HTTP protocol version used in the request.
 
 Transparent content negotiation for the request results in a circular reference.
 
+#### 507 Insufficient Storage(WebDAV)
+
+
+
