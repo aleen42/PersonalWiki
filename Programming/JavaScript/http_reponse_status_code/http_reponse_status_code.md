@@ -260,3 +260,9 @@ The server is unable to store the representation needed to complete the request.
 
 #### 508 Loop Detected(WebDAV)
 
+The server detected an infinite loop while processing the request
+
+#### 511 Not Extended
+
+Further extensions to the request are required for the server to fulfil it.
+
