@@ -20,5 +20,5 @@ parseResponse({ "name": "Aleen", "id": "123" });
 
 ### Security
 
-Due to corss-domain, including script tags from servers allows the remote server to inject any content into a website. If the remote servers have vulnerabilities(弱點) that allow JavaScript injection, the page served from the original server is exposed to an increased risk.
+Due to corss-domain, including script tags from servers allows the remote server to inject any content into a website. If the remote servers have vulnerabilities(弱點) that allow JavaScript injection, the page served from the original server is exposed to an increased risk. That's **CSRF/XSRF** attack.
 
