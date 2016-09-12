@@ -226,3 +226,7 @@ A server operator has received a legal demand to deny access to a resource or to
 
 The server failed to fulfill an apparently valid request.
 
+#### 500 Internal Server Error
+
+A generic error message, given when an unexpected condition was encountered9(遭遇) and no more specific message is suitable.
+
