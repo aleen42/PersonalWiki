@@ -80,5 +80,5 @@ Indicates that the server require the client to perform a temporary redirect.
 
 #### 303 See Other
 
-The response to the request can be found under another URI using a GET method.
+The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.
 
