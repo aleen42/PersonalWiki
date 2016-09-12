@@ -100,4 +100,4 @@ script.src = 'file1.js';
 document.getElementsByTagName('head')[0].appendChild(script);
 ```
 
-> It's generally safer to add new `<script>` nodes to the `<head>` element instead of the `<body>`, especially if this code is executing during page l
+> It's generally safer to add new `<script>` nodes to the `<head>` element instead of the `<body>`, especially if this code is executing during page load. That's because, Internet Explorer may experience an “operation aborted” error if all of the <body> contents have not yet been loaded.
