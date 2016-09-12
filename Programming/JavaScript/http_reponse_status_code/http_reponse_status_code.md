@@ -73,3 +73,7 @@ Indicates multiple options for the resource from which the client may choose to 
 #### 301 Moved Permanently
 
 This and all future requests should be directed to the given URI.
+
+#### 302 Found
+
+Indicates that the server require the client to perform a temporary redirect.
