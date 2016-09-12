@@ -18,6 +18,8 @@ A WebDAV request may contain many sub-requests involving **file operations**, re
 
 ### 2xx Success
 
+This class of status codes indicates the action requested by the client was received, understood, accepted, and processed successfully.
+
 #### 200 OK
 
 Standard response for successful HTTP requests.
