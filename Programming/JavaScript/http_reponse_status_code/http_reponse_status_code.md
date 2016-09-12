@@ -192,3 +192,5 @@ The request was directed at a server that is not able to produce a response.
 
 #### 422 Unprocessable Entity(WebDAV)
 
+The request was well-formed but was unable to be followed due to semantic errors.
+
