@@ -230,3 +230,11 @@ The server failed to fulfill an apparently valid request.
 
 A generic error message, given when an unexpected condition was encountered(遭遇) and no more specific message is suitable.
 
+### 501 Not Implemented
+
+The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability.
+
+### 502 Bad Gateway
+
+
+
