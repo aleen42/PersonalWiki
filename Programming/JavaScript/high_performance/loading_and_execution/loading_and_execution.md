@@ -63,3 +63,4 @@ HTML 4 defines an additional attribute for the `<script>` tag called `defer`. Th
 <script type="text/javascript" src="file1.js" defer></scirpt>
 ```
 
+
