@@ -43,4 +43,4 @@ Because scripts block downloading of all resource types on the page, it's recomm
 
 ### Grouping Scripts
 
-Since each `<script>` tag blocks the page from rendering during initial download, it's helpful **to limit the total number of `<script>` tags** contained in the page. This applies to both inline scripts as well as those in external files. That's to **reduce the delay while the code is executed**.
+Since each `<script>` tag blocks the page from rendering during initial download, it's helpful **to limit the total number of `<script>` tags** contained in the page. This applies to both inline scripts as well as those in external files. That's **to reduce the delay while the code is executed**.
