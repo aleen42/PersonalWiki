@@ -127,3 +127,7 @@ Reserved for future use. The original intention was that this code might be used
 The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.
 
 ### 404 Not Found
+
+The requested resource could not be found but may be available in the future
+
+#
