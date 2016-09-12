@@ -2,7 +2,7 @@
 
 ### 1xx Infomational
 
-This class of status code indicates a provisional(臨時的) response, consisting only of the Status-Line and optional headers, and is terminated by an empty line. Since HTTP/1.0 did not define any 1xx status codes, servers must not[note 1] send a 1xx response to an HTTP/1.0 client except under experimental conditions.
+This class of status code indicates a provisional(臨時的) response, consisting only of the Status-Line and optional headers, and is terminated by an empty line. Since HTTP/1.0 did not define any 1xx status codes, servers **must not** send a 1xx response to an HTTP/1.0 client except under experimental conditions.
 
 #### 100 Continue
 
