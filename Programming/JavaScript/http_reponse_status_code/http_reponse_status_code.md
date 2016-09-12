@@ -140,4 +140,6 @@ The requested resource is capable of generating only content not acceptable acco
 
 ### 407 Proxy Authentication Required
 
+The client must first authenticate itself with the proxy.
+
 
