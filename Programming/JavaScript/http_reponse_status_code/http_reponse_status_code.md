@@ -250,3 +250,7 @@ The server was acting as a gateway or proxy and did not receive a timely respons
 
 The server does not support the HTTP protocol version used in the request.
 
+#### 506 Variant Also Negotiates
+
+
+
