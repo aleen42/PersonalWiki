@@ -14,6 +14,8 @@ The theory was that it's best to **keep as many style and behavior dependencies 
         <title>Script Example</title>
         
         <!-- Example of inefficient script positioning -->
+        <script type="text/javascript" src="file1.js"></script>
+        <script type="text/javascript" src="file1.js"></script>
     </head>
 </html>
 ```
