@@ -6,6 +6,7 @@
 * [**Easing Function**](./easing/easing.md)
 * [**Web APIs**](./web_api/web_api.md)
 * [**WebGL**](./webgl/webgl.md)
+* [**HTTP Response Status Code**](./http_reponse_status_code/http_reponse_status_code.md)
 
 Languages|Description
 :----:|-----
