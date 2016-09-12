@@ -357,12 +357,18 @@ pre::-webkit-resizer {
 }
 
 .book-header h1,
-.book-header h2,
+.book-header h2 {
+    padding: 30px 0 !important;
+}
+
 .book-header h3,
-.book-header h4,
+.book-header h4 {
+    padding: 20px 0 !important;
+}
+
 .book-header h5,
 .book-header h6 {
-    padding: 30px 0 !important;
+    padding: 10px 0 !important;
 }
 
 /** headers */
