@@ -175,3 +175,5 @@ The URI provided was too long for the server to process. Often the result of too
 The request entity has a media type which the server or resource does not support.
 
 ### 416 Range Not Stasfiable
+
+The client has asked for a portion(部分) of the file (byte serving), but the server cannot supply that portion.
