@@ -8,4 +8,10 @@ The Server has received the request headers and the client should proceed to sen
 
 #### 101 Switching Protocols
 
+The requester has asked the server to switch protocols and the server has agreed to do so.
+
+#### 102 Processing (WebDAV)
+
+
+
 
