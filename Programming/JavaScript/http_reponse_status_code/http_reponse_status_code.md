@@ -136,4 +136,6 @@ A request method is not supported for the requested resource; for example, a GET
 
 ### 406 Not Acceptable
 
-The requested resource is capable of generating only content not acceptable according to the Accept headers sent in the request.
+The requested resource is capable of generating only content not acceptable according to the `Accept` headers sent in the request.
+
+##
