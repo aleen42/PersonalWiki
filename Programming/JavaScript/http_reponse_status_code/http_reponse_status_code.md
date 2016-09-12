@@ -209,3 +209,12 @@ The client should switch to a different protocol such as TLS/1.0, given in the [
 #### 428 Precondition Required
 
 The origin server requires the request to be conditional.
+
+#### 429 Too Many Requests
+
+The user has sent too many requests in a given amount of time.
+
+#### 431 Request Header Fields Too Large
+
+The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.
+
