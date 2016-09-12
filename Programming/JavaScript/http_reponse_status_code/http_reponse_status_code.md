@@ -12,7 +12,7 @@ The requester has asked the server to switch protocols and the server has agreed
 
 #### 102 Processing (WebDAV)
 
-A WebDAV request may contain many sub-requests involving **file operations**, requiring a long time to complete the request. This code indicates that the server has received and is processing the request, but no response is available yet
+A WebDAV request may contain many sub-requests involving **file operations**, requiring a long time to complete the request. This code indicates that the server has received and is processing the request, but no response is available yet.
 
 
 
