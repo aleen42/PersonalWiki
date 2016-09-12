@@ -63,4 +63,4 @@ HTML 4 defines an additional attribute for the `<script>` tag called `defer`. Th
 <script type="text/javascript" src="file1.js" defer></scirpt>
 ```
 
-A `<script>` tag with `defer` may be placed anywhere in the document. The JavaScript file will begin downloading at the point that the `<script>` tag is parsed, but the code will not be executed until the DOM has been completely loaded (before the `onload` event handler is called)
+A `<script>` tag with `defer` may be placed anywhere in the document. The JavaScript file will begin downloading at the point that the `<script>` tag is parsed, but the code will not be executed until the DOM has been completely loaded. (before the `onload` event handler is called)
