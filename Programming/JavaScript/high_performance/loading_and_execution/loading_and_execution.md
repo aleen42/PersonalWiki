@@ -85,3 +85,7 @@ A `<script>` tag with `defer` may be placed anywhere in the document. The JavaSc
     </body>
 </html>
 ```
+
+Here is an example shown aboved. In browsers that don't support `defer`, the order of the alerts is "defer", "script", and "load".
+
+
