@@ -45,3 +45,5 @@ The server successfully processed the request, but is not returning any content.
 #### 206 Partial(部分) Content
 
 The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by HTTP clients to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams(同步流).
+
+#### 207 Multi-Status(WebDAV)
