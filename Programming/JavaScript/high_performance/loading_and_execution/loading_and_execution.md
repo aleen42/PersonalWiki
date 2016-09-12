@@ -4,4 +4,4 @@ In fact, most browsers use a single process for both user interface (UI) updates
 
 ### Script Positioning
 
-
+Traditionally, `<script>` tags that are used to load external JavaScript files have appeared in the `<head>`, along with `<link>` tags to load external CSS files and other metainformation(元信息s) about the page.
