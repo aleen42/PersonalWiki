@@ -122,62 +122,62 @@ Similar to `403 Fobidden`, but specifically for use when authentication is requi
 
 Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micro-payment scheme, but that has not happened, and this code is not usually used.
 
-### 403 Fobidden
+#### 403 Fobidden
 
 The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.
 
-### 404 Not Found
+#### 404 Not Found
 
 The requested resource could not be found but may be available in the future
 
-### 405 Method Not Allowed
+#### 405 Method Not Allowed
 
 A request method is not supported for the requested resource; for example, a GET request on a form which requires data to be presented via POST, or a PUT request on a read-only resource.
 
-### 406 Not Acceptable
+#### 406 Not Acceptable
 
 The requested resource is capable of generating only content not acceptable according to the `Accept` headers sent in the request.
 
-### 407 Proxy Authentication Required
+#### 407 Proxy Authentication Required
 
 The client must first authenticate itself with the proxy.
 
-### 408 Request Timeout
+#### 408 Request Timeout
 
 The server timed out waiting for the request.
 
-### 409 Conflict
+#### 409 Conflict
 
 Indicates that the request could not be processed because of conflict in the request, such as an edit conflict between multiple simultaneous updates.
 
-### 410 Gone
+#### 410 Gone
 
 Indicates that the resource requested is no longer available and will not be available again.
 
-### 411 Length Required
+#### 411 Length Required
 
 The request did not specify the length of its content, which is required by the requested resource.
 
-### 412 Precondition Failed
+#### 412 Precondition Failed
 
 The server does not meet one of the preconditions that the requester put on the request.
 
-### 413 Payload Too Large
+#### 413 Payload Too Large
 
 The request is larger than the server is willing or able to process. Previously called "Request Entity Too Large".
 
-### 414 URI Too Long
+#### 414 URI Too Long
 
 The URI provided was too long for the server to process. Often the result of too much data being encoded as a query-string of a GET request, in which case it should be converted to a POST request.
 
-### 415 Unsupported Media Type
+#### 415 Unsupported Media Type
 
 The request entity has a media type which the server or resource does not support.
 
-### 416 Range Not Stasfiable
+#### 416 Range Not Stasfiable
 
 The client has asked for a portion(部分) of the file (byte serving), but the server cannot supply that portion.
 
-### 417 Expectation Failed
+#### 417 Expectation Failed
 
 The server cannot meet the requirements of the `Expect` request-header field.
