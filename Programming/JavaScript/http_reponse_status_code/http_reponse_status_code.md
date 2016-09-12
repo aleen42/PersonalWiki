@@ -38,6 +38,8 @@ The server is a transforming proxy (e.g. a Web accelerator) that received a 200 
 
 The server successfully processed the request and is not returning any content.
 
+#### 205 Reset Content
+
 
 
 
