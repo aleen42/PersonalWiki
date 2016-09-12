@@ -106,4 +106,6 @@ The request and all future requests should be repeated using another URI.
 
 ### 4xx Client Error
 
+The 4xx class of status code is intended for situations in which the client seems to have erred.
+
 #### 400 Bad Request
