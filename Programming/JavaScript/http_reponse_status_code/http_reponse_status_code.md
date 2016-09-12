@@ -60,7 +60,7 @@ The members of a DAV binding have already been enumerated in a previous reply to
 
 #### 226 IM Used
 
-The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.
+The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance. Many of them are used in URL Redirection.
 
 ### 3xx Redirection
 
