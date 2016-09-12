@@ -27,3 +27,8 @@ The actual response will depend on the request method used. In a GET request, th
 The request has been fulfilled, resulting in the creation of a new resource.
 
 #### 202 Accepted
+
+The request has been accepted for processing, but the processing has not been completed.
+
+#### 203 Non-Authoritative Information (since HTTP/1.1)
+
