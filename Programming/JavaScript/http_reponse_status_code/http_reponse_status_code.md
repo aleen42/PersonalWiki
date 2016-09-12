@@ -94,6 +94,12 @@ The requested resource is available only through a proxy, the address for which 
 
 No longer used.
 
-#### 307 Temporary Redirect
+#### 307 Temporary Redirect (Response to 302)
 
 In this case, the request should be repeated with another URI; however, future requests should still use the original URI. In contrast to how 302 was historically implemented, **the request method is not allowed to be changed** when reissuing the original request.
+
+#### 308 Permanent Redirect (Response to 301)
+
+The request and all future requests should be repeated using another URI.
+
+307 and 308 parallel the behaviors of 302 and 301, but **do not allow the HTTP method to change**.
