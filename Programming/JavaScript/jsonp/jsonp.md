@@ -18,5 +18,7 @@ Then, the browser will get a script like this:
 parseResponse({ "name": "Aleen", "id": "123" });
 ```
 
-### Securi
+### Security
+
+Due to corss-domain, including script tags from servers allows the remote server to inject any content into a website. If the remote servers have vulnerabilities(弱點) that 
 
