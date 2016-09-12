@@ -356,9 +356,19 @@ pre::-webkit-resizer {
     opacity: 1 !important;
 }
 
-.book-body h2 {
-    border-bottom: 1px #ccc solid !important;
+/** headers */
+.book-body h2::after,
+.book-body h3::after,
+.book-body h4::after,
+.book-body h5::after,
+.book-body h6::after {
+    content: "";
+    display: block;
+    border-bottom: 1px #ccc solid;
+    height: 1px;
 }
+
+
 
 .page-wrapper {
     margin-top: 50px !important;
