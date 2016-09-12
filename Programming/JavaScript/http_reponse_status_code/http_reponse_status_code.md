@@ -252,5 +252,5 @@ The server does not support the HTTP protocol version used in the request.
 
 #### 506 Variant Also Negotiates
 
-
+Transparent content negotiation for the request results in a circular reference.
 
