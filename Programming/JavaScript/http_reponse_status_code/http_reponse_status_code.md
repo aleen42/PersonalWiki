@@ -50,7 +50,10 @@ The server is delivering only part of the resource (byte serving) due to a range
 
 The message body that follows is an XML message and can contain a number of separate response codes, depending on how many sub-requests were made.
 
-### 208 Already Reported(WebDAV)
+#### 208 Already Reported(WebDAV)
 
 The members of a DAV binding have already been enumerated in a previous reply to this request, and are not being included again.
 
+#### 226 IM Used
+
+The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance
