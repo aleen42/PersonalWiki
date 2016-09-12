@@ -10,4 +10,9 @@ So, the difference from JSON is that you must return a executable JavaScript fro
 </script>
 ```
 
+Then, the browser will get a script like this:
+
+```js
+parseResponse({ "name": "Aleen", "id": "123" })
+```
 
