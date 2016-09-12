@@ -69,3 +69,7 @@ This class of status code indicates the client must take additional action to co
 #### 300 Multiple Choices
 
 Indicates multiple options for the resource from which the client may choose to redirect into.
+
+#### 301 Moved Permanently
+
+This and all future requests should be directed to the given URI.
