@@ -96,4 +96,4 @@ No longer used.
 
 #### 307 Temporary Redirect
 
-
+In this case, the request should be repeated with another URI; however, future requests should still use the original URI
