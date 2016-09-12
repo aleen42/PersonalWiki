@@ -24,3 +24,4 @@ The actual response will depend on the request method used. In a GET request, th
 
 #### 201 Created
 
+The request has been fulfilled, resulting in the creation of a new resource.
