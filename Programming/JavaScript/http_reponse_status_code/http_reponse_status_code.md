@@ -96,4 +96,4 @@ No longer used.
 
 #### 307 Temporary Redirect
 
-In this case, the request should be repeated with another URI; however, future requests should still use the original URI
+In this case, the request should be repeated with another URI; however, future requests should still use the original URI. In contrast to how 302 was historically implemented, **the request method is not allowed to be changed** when reissuing the original request.
