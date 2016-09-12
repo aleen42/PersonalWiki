@@ -42,6 +42,6 @@ The server successfully processed the request and is not returning any content.
 
 The server successfully processed the request, but is not returning any content. Unlike a 204 response, this response requires that the requester reset the document view.
 
-#### 206 Partial Content
+#### 206 Partial(部分)) Content
 
 
