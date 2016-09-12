@@ -230,11 +230,23 @@ The server failed to fulfill an apparently valid request.
 
 A generic error message, given when an unexpected condition was encountered(遭遇) and no more specific message is suitable.
 
-### 501 Not Implemented
+#### 501 Not Implemented
 
 The server either does not recognize the request method, or it lacks the ability to fulfill the request. Usually this implies future availability.
 
-### 502 Bad Gateway
+#### 502 Bad Gateway
 
+The server was acting as a gateway or proxy and received an invalid response from the upstream server.
 
+#### 503 Service Unavailable
+
+The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.
+
+#### 504 Gateway Timeout
+
+The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.
+
+#### 505 HTTP Version Not Supported
+
+The server does not support the HTTP protocol version used in the request.
 
