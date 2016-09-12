@@ -96,5 +96,6 @@ At the root of a document, the `<script>` element isn't any different than any o
 var script = document.createElement('script');
 script.type = 'text/javascript';
 script.src = 'file1.js';
+
 document.getElementsByTagName('head')[0].appendChild(script);
 ```
