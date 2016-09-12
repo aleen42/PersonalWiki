@@ -45,4 +45,4 @@ Because scripts block downloading of all resource types on the page, it's recomm
 
 Since each `<script>` tag blocks the page from rendering during initial download, it's helpful **to limit the total number of `<script>` tags** contained in the page. This applies to both inline scripts as well as those in external files. That's **to reduce the delay while the code is executed**.
 
-> **Never putting an inpline script after a `<link>` tag**, because Steve Souders has found that an inline script placed after a <link> tag referencing an external stylesheet caused the browser to block while waiting for the stylesheet to download.
+> **Never putting an inpline script after a `<link>` tag**, because Steve Souders has found that an inline script placed after a `<link>` tag referencing an external stylesheet caused the browser to block while waiting for the stylesheet to download.
