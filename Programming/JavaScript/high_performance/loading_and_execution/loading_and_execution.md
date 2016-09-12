@@ -57,5 +57,9 @@ The secret to nonblocking scripts is to load the JavaScript source code after th
 
 #### Deferred Scripts
 
-HTML 4 defines an additional attribute for the `<script>` tag called `defer`
+HTML 4 defines an additional attribute for the `<script>` tag called `defer`. The `defer` attribute indicates that the script contained within the element is not going to modify the DOM and therefore execution can be safely deferred until a later point in time.
+
+```html
+<script type="text/javascript" src="file1.js"></scirpt>
+```
 
