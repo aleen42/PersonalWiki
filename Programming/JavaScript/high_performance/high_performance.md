@@ -9,3 +9,8 @@ Even if, Chrome with V8 engine, and other later engines have improved that situa
 ### JavaScript Loading
 
 - **Loading and Execution**
+
+### Coding Technique
+
+- **Data Access**
+- **DOM Scripting**
