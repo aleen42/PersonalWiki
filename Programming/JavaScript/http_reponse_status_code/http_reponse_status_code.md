@@ -177,3 +177,7 @@ The request entity has a media type which the server or resource does not suppor
 ### 416 Range Not Stasfiable
 
 The client has asked for a portion(部分) of the file (byte serving), but the server cannot supply that portion.
+
+### 417 Expectation Failed
+
+The server cannot meet the requirements of the `Expect` request-header field.
