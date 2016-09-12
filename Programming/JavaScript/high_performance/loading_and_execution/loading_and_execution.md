@@ -49,4 +49,4 @@ Since each `<script>` tag blocks the page from rendering during initial download
 
 Therefore, if a large website or web application has several required JavaScript files, you can use a build tool to concatenate these files together into a single file and import it. 
 
-Yahoo! User Interface (YUI) has given you a way to pull in any nubmer of JavaScrpit files by using **a combo-handled URL**
+Yahoo! User Interface (YUI) has given you a way to pull in any nubmer of JavaScrpit files by using **a combo-handled URL** like: http://yui.yahooapis.com/combo?2.7.0/build/yahoo/yahoo-min.js&2.7.0/build/event/event-min.js
