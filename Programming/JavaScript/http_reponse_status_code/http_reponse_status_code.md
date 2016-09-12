@@ -114,4 +114,4 @@ The server cannot or will not process the request due to an apparent client erro
 
 #### 401 Unauthorized
 
-Similar to `403 Fobidden`, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.
+Similar to `403 Fobidden`, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a `WWW-Authenticate` header field containing a challenge applicable to the requested resource.
