@@ -262,7 +262,9 @@ The server is unable to store the representation needed to complete the request.
 
 The server detected an infinite loop while processing the request
 
-#### 511 Not Extended
+#### 510 Not Extended
 
 Further extensions to the request are required for the server to fulfil it.
+
+#### 511Network Authentication Required
 
