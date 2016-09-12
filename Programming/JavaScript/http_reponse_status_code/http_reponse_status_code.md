@@ -121,3 +121,9 @@ Similar to `403 Fobidden`, but specifically for use when authentication is requi
 #### 402 Payment Required
 
 Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micro-payment scheme, but that has not happened, and this code is not usually used.
+
+### 403 Fobidden
+
+The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.
+
+### 404 Not Found
