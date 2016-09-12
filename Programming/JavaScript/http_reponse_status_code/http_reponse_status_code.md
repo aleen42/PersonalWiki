@@ -60,4 +60,4 @@ The server has fulfilled a request for the resource, and the response is a repre
 
 ### 3xx Redirection
 
-
+#### 300 Multiple Choices
