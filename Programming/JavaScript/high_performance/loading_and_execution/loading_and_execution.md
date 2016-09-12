@@ -92,3 +92,9 @@ Here is an example shown above. In browsers that don't support `defer`, the orde
 
 At the root of a document, the `<script>` element isn't any different than any other element on a page: references can be retrieved through the DOM, and they can be moved, removed from the document, and even created. That's why we can easiy using standard DOM methods to create a `<script>` element.
 
+```js
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = 'file1.js';
+document.getElementsByTagName('head')[0].appendChild(script);
+```
