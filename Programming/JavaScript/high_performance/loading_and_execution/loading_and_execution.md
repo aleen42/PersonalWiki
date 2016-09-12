@@ -54,3 +54,8 @@ Yahoo! User Interface (YUI) has given you a way to pull in any nubmer of JavaScr
 ### Nonblocking Scripts
 
 The secret to nonblocking scripts is to load the JavaScript source code after the page has finished loading. In technical terms, this means downloading the code after the `load` event of the `window` object has been triggered.
+
+#### Deferred Scripts
+
+HTML 4 defines an additional attribute for the `<script>` tag called `defer`
+
