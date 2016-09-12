@@ -218,3 +218,6 @@ The user has sent too many requests in a given amount of time.
 
 The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.
 
+#### 451 Unavailable For Legal Reasons
+
+A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource.
