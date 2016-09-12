@@ -113,3 +113,5 @@ The 4xx class of status code is intended for situations in which the client seem
 The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, too large size, invalid request message framing, or deceptive request routing)
 
 #### 401 Unauthorized
+
+Similar to `403 Fobidden`, but specifically for use when authentication is required and has failed or has not yet been provided
