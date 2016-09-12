@@ -90,3 +90,10 @@ Indicates that the resource has not been modified since the version specified by
 
 The requested resource is available only through a proxy, the address for which is provided in the response.
 
+#### 306 Switch Proxy
+
+No longer used.
+
+#### 307 Temporary Redirect
+
+
