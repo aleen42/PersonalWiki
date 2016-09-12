@@ -264,7 +264,9 @@ The server detected an infinite loop while processing the request
 
 #### 510 Not Extended
 
-Further extensions to the request are required for the server to fulfil it.
+Further extensions to the request are required for the server to fulfill it.
 
-#### 511Network Authentication Required
+#### 511 Network Authentication Required
+
+The client needs to authenticate to gain network access. Intended for use by intercepting proxies used to control access to the network (e.g., "captive portals" used to require agreement to Terms of Service before granting full Internet access via a Wi-Fi hotspot).
 
