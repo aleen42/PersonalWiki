@@ -17,7 +17,7 @@ The theory was that it's best to **keep as many style and behavior dependencies 
         <script type="text/javascript" src="file1.js"></script>
         <script type="text/javascript" src="file2.js"></script>
         <script type="text/javascript" src="file3.js"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
     </head>
 </html>
 ```
