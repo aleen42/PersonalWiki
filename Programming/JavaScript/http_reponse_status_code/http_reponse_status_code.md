@@ -204,3 +204,5 @@ The request failed due to failure of a previous request.
 
 #### 426 Upgrade Required
 
+The client should switch to a different protocol such as TLS/1.0, given in the [Upgrade header](https://en.wikipedia.org/wiki/Upgrade_header) field.
+
