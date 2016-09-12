@@ -82,3 +82,6 @@ Indicates that the server require the client to perform a temporary redirect.
 
 The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.
 
+#### 304 Not Modified
+
+Indicates that the resource has not been modified since the version specified by the request headers `If-Modified-Since` or `If-None-Match`.
