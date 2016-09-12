@@ -145,3 +145,6 @@ The client must first authenticate itself with the proxy.
 ### 408 Request Timeout
 
 The server timed out waiting for the request.
+
+### 409 Conflict
+
