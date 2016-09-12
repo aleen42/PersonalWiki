@@ -99,3 +99,5 @@ script.src = 'file1.js';
 
 document.getElementsByTagName('head')[0].appendChild(script);
 ```
+
+> It's generally safer to add new `<script>` nodes to the `<head>` element instead of the `<body>`, especially if this code is executing during page l
