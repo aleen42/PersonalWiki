@@ -201,3 +201,6 @@ The resource that is being accessed is locked.
 #### 424 Failed Dependency(WebDAV)
 
 The request failed due to failure of a previous request.
+
+#### 426 Upgrade Required
+
