@@ -134,6 +134,7 @@
                         * [Create a scene](./Programming/JavaScript/webgl/three/create_a_scene/create_a_scene.md)
                         * [Matrix transformations](./Programming/JavaScript/webgl/three/matrix_transformations/matrix_transformations.md)
                         * [Camera](./Programming/JavaScript/webgl/three/camera/camera.md)
+            * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
             * Categories
                 * Basics
                     * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
