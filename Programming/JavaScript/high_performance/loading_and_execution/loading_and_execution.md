@@ -48,3 +48,5 @@ Since each `<script>` tag blocks the page from rendering during initial download
 > **Never putting an inline script after a `<link>` tag**, because Steve Souders has found that an inline script placed after a `<link>` tag referencing an external stylesheet caused the browser to block while waiting for the stylesheet to download.
 
 Therefore, if a large website or web application has several required JavaScript files, you can use a build tool to concatenate these files together into a single file and import it. 
+
+Yahoo! User Interface (YUI) has given you a way to pull in any nubmer of JavaScrpit files by using **a combo-handled URL**
