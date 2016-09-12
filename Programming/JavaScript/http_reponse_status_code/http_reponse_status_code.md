@@ -186,4 +186,9 @@ The server cannot meet the requirements of the `Expect` request-header field.
 
 This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324.
 
-### 421 Misdirected Request
+#### 421 Misdirected Request
+
+The request was directed at a server that is not able to produce a response.
+
+#### 422 Unprocessable Entity(WebDAV)
+
