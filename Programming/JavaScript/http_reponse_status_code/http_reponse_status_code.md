@@ -185,3 +185,5 @@ The server cannot meet the requirements of the `Expect` request-header field.
 #### 418 I'm a teapot
 
 This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324.
+
+### 421 Misdirected Request
