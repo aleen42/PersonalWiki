@@ -17,3 +17,5 @@ A WebDAV request may contain many sub-requests involving **file operations**, re
 ### 2xx Success
 
 #### 200 OK
+
+Standard response for successful HTTP requests.
