@@ -31,4 +31,5 @@ JavaScript|To specify the behavior of web pages.
 * [Shim and Polyfills](./shim_and_polyfills/shim_and_polyfills.md)
 * [Strict Mode](./strict_mode/strict_mode.md)
 * [Module System Style](./module_system_style/module_system_style.md)
+* [High Performance](./high_performance/high_performance.md)
 * [ES6 features](./es6/es6.md)
