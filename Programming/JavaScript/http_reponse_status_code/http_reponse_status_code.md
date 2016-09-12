@@ -154,3 +154,8 @@ Indicates that the request could not be processed because of conflict in the req
 
 Indicates that the resource requested is no longer available and will not be available again.
 
+### 411 Length REquired
+
+The request did not specify the length of its content, which is required by the requested resource.
+
+### 412 Precondition Failed
