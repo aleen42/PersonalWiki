@@ -90,5 +90,5 @@ Here is an example shown above. In browsers that don't support `defer`, the orde
 
 #### Dynamic Script Elements
 
-At the root of a document, the `<script>` element isn't any diferent than any other element on a page: references can be retrieved through the DOM, and they can be moved, removed from the documen
+At the root of a document, the `<script>` element isn't any diferent than any other element on a page: references can be retrieved through the DOM, and they can be moved, removed from the document, and even created. That's why we can easiy using standard DOM methods to create a `<script>` element.
 
