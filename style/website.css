@@ -368,7 +368,21 @@ pre::-webkit-resizer {
     height: 1px;
 }
 
+.book-body h2::after {
+    width: 100%;
+}
 
+.book-body h3::after {
+    width: 70%;
+}
+
+.book-body h4::after {
+    width: 50%;
+}
+
+.book-body h5::after {
+    width: 30%;
+}
 
 .page-wrapper {
     margin-top: 50px !important;
