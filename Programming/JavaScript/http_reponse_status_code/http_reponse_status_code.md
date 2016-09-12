@@ -85,3 +85,8 @@ The response to the request can be found under another URI using a GET method. W
 #### 304 Not Modified
 
 Indicates that the resource has not been modified since the version specified by the request headers `If-Modified-Since` or `If-None-Match`. In such case, there is no need to retransmit(重發) the resource since the client still has a previously-downloaded copy.
+
+#### 305 Use Proxy
+
+The requested resource is available only through a proxy, the address for which is provided in the response.
+
