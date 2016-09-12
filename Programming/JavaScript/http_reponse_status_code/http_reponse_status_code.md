@@ -76,4 +76,9 @@ This and all future requests should be directed to the given URI.
 
 #### 302 Found
 
-Indicates that the server require the client to perform a temporary redirect.
+Indicates that the server require the client to perform a temporary redirect. 
+
+#### 303 See Other
+
+The response to the request can be found under another URI using a GET method.
+
