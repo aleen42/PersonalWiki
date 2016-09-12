@@ -171,3 +171,7 @@ The request is larger than the server is willing or able to process. Previously 
 The URI provided was too long for the server to process. Often the result of too much data being encoded as a query-string of a GET request, in which case it should be converted to a POST request.
 
 ### 415 Unsupported Media Type
+
+The request entity has a media type which the server or resource does not support.
+
+### 416 Range Not Stasfiable
