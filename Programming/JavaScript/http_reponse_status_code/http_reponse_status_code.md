@@ -256,5 +256,7 @@ Transparent content negotiation for the request results in a circular reference.
 
 #### 507 Insufficient Storage(WebDAV)
 
+The server is unable to store the representation needed to complete the request.
 
+#### 508 Loop Detected(WebDAV)
 
