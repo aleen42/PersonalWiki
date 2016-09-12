@@ -23,3 +23,13 @@ The theory was that it's best to **keep as many style and behavior dependencies 
 ```
 
 Because scripts block downloading of all resource types on the page, it's recommended **to place all `<script>` tags as close to the bottom of the `<body>` tag as possible** so as not to affect the download of the entire page.
+
+```html
+<html>
+    <head>
+        <title>Script Example</title>
+    
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+    </head>
+</html>
+```
