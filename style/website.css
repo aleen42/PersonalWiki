@@ -380,6 +380,7 @@ pre::-webkit-resizer {
     display: block;
     border-bottom: 1px #ccc solid;
     height: 1px;
+    opacity: 0.4;
 }
 
 .book-body h2::after {
