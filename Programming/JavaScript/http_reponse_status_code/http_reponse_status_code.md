@@ -2,6 +2,8 @@
 
 ### 1xx Infomational
 
+This class of status code indicates a provisional(臨時的) response, consisting only of the Status-Line and optional headers, and is terminated by an empty line. Since HTTP/1.0 did not define any 1xx status codes, servers must not[note 1] send a 1xx response to an HTTP/1.0 client except under experimental conditions.
+
 #### 100 Continue
 
 The Server has received the request headers and the client should proceed to send the request body (like a POST request). To have a server check the request's headers, a client must send `Expect: 100-continue` as a header in its initial request and receive a `100 Continue` status code in response before sending the body. The response `417 Expectation Failed` indicates the request should not be continued.
