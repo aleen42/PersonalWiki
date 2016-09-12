@@ -30,6 +30,13 @@ Because scripts block downloading of all resource types on the page, it's recomm
         <title>Script Example</title>
         <link rel="stylesheet" type="text/css" href="style.css"></link>
     </head>
-
+    <body>
+        <p>Hello World!</p>
+        
+        <!-- Example of inefficient script positioning -->
+        <script type="text/javascript" src="file1.js"></script>
+        <script type="text/javascript" src="file2.js"></script>
+        <script type="text/javascript" src="file3.js"></script>
+    </body>
 </html>
 ```
