@@ -142,4 +142,6 @@ The requested resource is capable of generating only content not acceptable acco
 
 The client must first authenticate itself with the proxy.
 
+### 408 Request Timeout
 
+The server timed out waiting for the request.
