@@ -39,3 +39,8 @@ Like the function `add()`, its Scope Chain will contain an object, which is poin
 
 ![](./add_scope_chain.png)
 
+Suppose that the following code is executed:
+
+```js
+var total = add(5, 10);
+```
