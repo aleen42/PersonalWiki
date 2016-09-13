@@ -35,3 +35,4 @@ function add(num1, num2) {
 }
 ```
 
+Like the function `add()`, 
