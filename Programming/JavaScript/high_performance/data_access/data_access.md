@@ -38,3 +38,4 @@ function add(num1, num2) {
 Like the function `add()`, its Scope Chain will contain an object, which is pointed to the Global object, which means that this function is created at the global scope:
 
 ![](./add_scope_chain.png)
+
