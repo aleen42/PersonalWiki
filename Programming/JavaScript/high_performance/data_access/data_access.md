@@ -22,3 +22,6 @@ A general trend has indicated that: **literal values and local variable access t
 
 ### Managing Scope
 
+When dealing with scope, we must consider performance as well. That's why we should understand exactly how scope works before, and how speed relates to scope.
+
+#### Scope Chains and Identifier Resolution
