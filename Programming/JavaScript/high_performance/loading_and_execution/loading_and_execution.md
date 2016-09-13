@@ -101,3 +101,19 @@ document.getElementsByTagName('head')[0].appendChild(script);
 ```
 
 > It's generally safer to add new `<script>` nodes to the `<head>` element instead of the `<body>`, especially if this code is executing during page load. That's because, Internet Explorer may experience an "operation aborted" error if all of the `<body>` contents have not yet been loaded.
+
+Because there will be problems if the code contains only interfaces to be used by other scripts, we need to track when the coe has been fully downloaded and ready for use. In Firefox, Opera, Chrome and Safari 3+, we can use `load` event to check this:
+
+```js
+var script = document.createElement('script');
+script.type = 'text/javascript';
+
+/** Firefox, Opera, Chrome, Safari 3+ */
+script.onload = function () {
+    alert('Script Loaded!');
+};
+
+script.src = 'file1.js';
+
+document.getElementsByTagName('head')[0].appendChild(script)
+```
