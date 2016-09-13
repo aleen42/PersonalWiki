@@ -19,3 +19,6 @@ Similar to other languages, though, where data is stored can greatly affect how 
     A string-indexed location within a JavaScript object.
 
 A general trend has indicated that: **literal values and local variable access tend to be faster than array item and object member access**. So the advice is to use literal values and local variables whenever possible, and limit use of array items and object members, which spped of execution is a concern.
+
+### Managing Scope
+
