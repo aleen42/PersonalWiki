@@ -27,3 +27,11 @@ When dealing with scope, we must consider performance as well. That's why we sho
 #### Scope Chains and Identifier Resolution
 
 In JavaScript, any function is represented as an object, which will have accessible properties or not accessible like [[Scope]]. The internal [[Scope]] property contains a collection of objects, representing **the scope in which the function was created**. This collection is named the function's **Scope Chain**, which will determine the data that a function can access. Objects in the Scope chain are called **Variable Objects**, each of which will contains entries for variables in the form of key-value pairs.
+
+```js
+function add(num1, num2) {
+    var sum = num1 + num2;
+    return sum;
+}
+```
+
