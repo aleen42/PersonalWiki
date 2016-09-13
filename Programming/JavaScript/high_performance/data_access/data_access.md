@@ -17,3 +17,5 @@ Similar to other languages, though, where data is stored can greatly affect how 
 - **Object members**
 
     A string-indexed location within a JavaScript object.
+
+A general trend has indicated that: **literal values and local variable access tend to be faster than array item and object member access**
