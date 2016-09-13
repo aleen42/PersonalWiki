@@ -12,7 +12,7 @@ The theory was that it's best to **keep as many style and behavior dependencies 
 <html>
     <head>
         <title>Script Example</title>
-        
+
         <!-- Example of inefficient script positioning -->
         <script type="text/javascript" src="file1.js"></script>
         <script type="text/javascript" src="file2.js"></script>
@@ -32,7 +32,7 @@ Because scripts block downloading of all resource types on the page, it's recomm
     </head>
     <body>
         <p>Hello World!</p>
-        
+
         <!-- Example of recommended script positioning -->
         <script type="text/javascript" src="file1.js"></script>
         <script type="text/javascript" src="file2.js"></script>
@@ -47,7 +47,7 @@ Since each `<script>` tag blocks the page from rendering during initial download
 
 > **Never putting an inline script after a `<link>` tag**, because Steve Souders has found that an inline script placed after a `<link>` tag referencing an external stylesheet caused the browser to block while waiting for the stylesheet to download.
 
-Therefore, if a large website or web application has several required JavaScript files, you can use a build tool to concatenate these files together into a single file and import it. 
+Therefore, if a large website or web application has several required JavaScript files, you can use a build tool to concatenate these files together into a single file and import it.
 
 Yahoo! User Interface (YUI) has given you a way to pull in any nubmer of JavaScrpit files by using **a combo-handled URL** like: http://yui.yahooapis.com/combo?2.7.0/build/yahoo/yahoo-min.js&2.7.0/build/event/event-min.js
 
@@ -86,7 +86,7 @@ A `<script>` tag with `defer` may be placed anywhere in the document. The JavaSc
 </html>
 ```
 
-Here is an example shown above. In browsers that don't support `defer`, the order of the alerts is "defer", "script", and "load", while in browsers that support `defer`, the order of the alerts is "script", "defer", and "load". 
+Here is an example shown above. In browsers that don't support `defer`, the order of the alerts is "defer", "script", and "load", while in browsers that support `defer`, the order of the alerts is "script", "defer", and "load".
 
 #### Dynamic Script Elements
 
@@ -123,7 +123,7 @@ While in Internet Explorer, we can use `readystatechange` event to check the pro
 - **"uninitialized"**: The default state
 - **"loading"**: Download has begun
 - **"loaded"**: Download has completed
-- **"interactive"**: Data is completely downloaded but isnot fully availabe
+- **"interactive"**: Data is completely downloaded but is not fully available
 - **"complete"**: All data is ready to be used
 
 As Internet Explorer is inconsistent with which of those values "loaded" and "complete" indicates the final state, the safest way to use this event is to check both of them, and to remove the event handler when either one occurs (to ensure that the event isn't handled twice):
@@ -133,11 +133,109 @@ var script = document.createElement('script');
 script.type = 'text/javascript';
 
 /** Internet Explorer */
-script.onload = function () {
-    alert('Script Loaded!');
+script.onreadystatechange = function () {
+    if (script.readyState === 'loaded' || script.readyState === 'complete') {
+        script.onreadystatechange = null;
+
+        alert('Script Loaded!');
+    }
 };
 
 script.src = 'file1.js';
 
 document.getElementsByTagName('head')[0].appendChild(script);
 ```
+
+Finally, if we encapsulate both of them:
+
+```js
+function loadScript(url, callback) {
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+
+    if (script.readyState) {
+        /** Internet Explorer */
+        script.onreadystatechange = function () {
+            if (script.readyState === 'loaded' || script.readyState === 'complete') {
+                script.onreadystatechange = null;
+
+                callback();
+            }
+        };
+    } else {
+        script.onload = function () {
+            callback();
+        };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+}
+```
+
+So in the case of loading scripts in an order, you can use this function like this:
+
+```js
+loadScript('file1.js', function () {
+    loadScript('file2.js', function () {
+        loadScript('file3.js', null);
+    });
+});
+```
+#### XMLHttpRequest Script Injection
+
+Using an XMLHttpRequest(XHR) object is another way to retrieve code from a JavaScript file. Then, we can use the `text` property of a script tag element to inject script into a page:
+
+```js
+var xhr = new XMLHttpRequest();
+xhr.open('get', 'file1.js', true);
+
+xhr.onreadystatechange = function () {
+    if （xhr.readyState === 4) {
+        if (xhr.status >= 200 && xhr.status < 300 || xhr.status === 304) {
+            var script = document.createElement('script');
+
+            script.type = 'text/javascript';
+            scirpt.text = xhr.responseText;
+
+            document.getElementsByTagName('head')[0].appendChild(script);
+        }
+    }
+};
+
+xhr.send(null);
+```
+
+The advantage of this approach is that:
+
+- You can download the JavaScript code without executing it immediately
+- Allow you to defer its execution until you're ready
+- Work in all modern browsers without exception cases
+
+The disadvantage is that:
+
+- Due to same origin policy, only JavaScript files located on the same domain can be loaded (CDN is not allowed)
+
+#### The LazyLoad library
+
+The lazyLoad library (available at http://github.com/rgrove/lazyload/) is a more powerful function of `loadScript()`, which can detect the correct order of loading multiple JavaScript files:
+
+````html
+<script type="text/javascript" src="lazyload-min.js"></script>
+<script type="text/javascript">
+    LazyLoad.js(['first.js', 'rest.js'], function () {
+        Application.init();
+    });
+</script>
+```
+
+### Summary
+
+Because of the blocking problem of JavaScript loading, there're some ways to minimize the performance impact of JavaScript:
+
+- Put all `<script>` tags at the bottom of the page, just inside of the closing `</body>`.
+- Group Scripts together.
+- Using several ways to download JavaScript in a non-blocking fashion:
+    - `defer` attribute
+    - Dynamically create `<script>` element
+    - Use `XMLHttpRequest` Object to download JavaScript files and inject code into the page
