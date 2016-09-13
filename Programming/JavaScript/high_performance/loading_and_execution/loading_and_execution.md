@@ -124,3 +124,4 @@ While in Internet Explorer, we can use `readystatechange` event to check the pro
 - **loading**: Download has begun
 - **loaded**: Download has completed
 - **interactive**: Data is completely downloaded but isnot fully availabe
+- **complete**: All data is ready to be used
