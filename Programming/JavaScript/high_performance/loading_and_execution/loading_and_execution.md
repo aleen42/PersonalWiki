@@ -115,5 +115,5 @@ script.onload = function () {
 
 script.src = 'file1.js';
 
-document.getElementsByTagName('head')[0].appendChild(script)
+document.getElementsByTagName('head')[0].appendChild(script);
 ```
