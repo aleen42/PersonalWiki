@@ -117,3 +117,10 @@ script.src = 'file1.js';
 
 document.getElementsByTagName('head')[0].appendChild(script);
 ```
+
+While in Internet Explorer, we can use `readystatechange` event to check the property `readyState` of a `<script>` element. There're 6 possible values for `readyState`:
+
+- **uninitialized**: The default state
+- **loading**: Download has begun
+- **loaded**: Download has completed
+- **interactive**: Data is completely downloaded but isnot fully availabe
