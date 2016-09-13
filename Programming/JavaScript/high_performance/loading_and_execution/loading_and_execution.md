@@ -120,8 +120,10 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 While in Internet Explorer, we can use `readystatechange` event to check the property `readyState` of a `<script>` element. There're 6 possible values for `readyState`:
 
-- **uninitialized**: The default state
-- **loading**: Download has begun
-- **loaded**: Download has completed
-- **interactive**: Data is completely downloaded but isnot fully availabe
-- **complete**: All data is ready to be used
+- **"uninitialized"**: The default state
+- **"loading"**: Download has begun
+- **"loaded"**: Download has completed
+- **"interactive"**: Data is completely downloaded but isnot fully availabe
+- **"complete"**: All data is ready to be used
+
+As Internet Explorer is inconsistent with which of those value "loaded" and "complete"
