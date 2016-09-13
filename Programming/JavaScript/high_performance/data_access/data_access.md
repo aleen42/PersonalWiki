@@ -26,4 +26,4 @@ When dealing with scope, we must consider performance as well. That's why we sho
 
 #### Scope Chains and Identifier Resolution
 
-In JavaScript, any function is represented as an object, which will have accessible properties or not accessible like [[Scope]].
+In JavaScript, any function is represented as an object, which will have accessible properties or not accessible like [[Scope]]. The internal [[Scope]] property contains a collection of objects, representing **the scope in which the function was created**.
