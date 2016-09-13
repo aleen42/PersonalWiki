@@ -159,6 +159,7 @@
                     * [High Performance](./Programming/JavaScript/high_performance/high_performance.md)
                         * JavaScript Loading
                             * [Loading and Execution](./Programming/JavaScript/high_performance/loading_and_execution/loading_and_execution.md)
+                            * [Data Access](./Programming/JavaScript/high_performance/data_access/data_access.md)
                     * [ES6 features](./Programming/JavaScript/es6/es6.md)
                         * [Promise](./Programming/JavaScript/es6/promise/promise.md)
                         * [Spread Operators](./Programming/JavaScript/es6/spread_operators/spread_operators.md)
