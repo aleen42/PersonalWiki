@@ -4,4 +4,4 @@ Similar to other languages, though, where data is stored can greatly affect how 
 
 - **Literal values**
     
-    Any value that represents just itself and is not stored in a particular location.
+    Any value that represents just itself and is not stored in a particular location. **strings**, **numbers**, **Booleans**, **objects**, **arrays**, **functions**, **regular expressions**, and the special values **null** and **undefeind** can be represented as literal.
