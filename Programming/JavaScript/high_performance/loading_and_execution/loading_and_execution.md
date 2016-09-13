@@ -126,4 +126,18 @@ While in Internet Explorer, we can use `readystatechange` event to check the pro
 - **"interactive"**: Data is completely downloaded but isnot fully availabe
 - **"complete"**: All data is ready to be used
 
-As Internet Explorer is inconsistent with which of those value "loaded" and "complete"
+As Internet Explorer is inconsistent with which of those values "loaded" and "complete" indicates the final state, the safest way to use this event is to check both of them, and to remove the event handler when either one occurs (to ensure that the event isn't handled twice):
+
+```js
+var script = document.createElement('script');
+script.type = 'text/javascript';
+
+/** Internet Explorer */
+script.onload = function () {
+    alert('Script Loaded!');
+};
+
+script.src = 'file1.js';
+
+document.getElementsByTagName('head')[0].appendChild(script);
+```
