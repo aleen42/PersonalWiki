@@ -42,3 +42,5 @@ function stopDrawingPath() {
 orig.addEventListener('mouseover', startDrawingPath, false);
 orig.addEventListener('mouseout', stopDrawingPath, false);
 ```
+
+### Canvas solution
