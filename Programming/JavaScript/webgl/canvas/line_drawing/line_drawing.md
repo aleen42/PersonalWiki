@@ -200,6 +200,12 @@ function drawOutput(drawObj) {
         context.beginPath();
 		context.lineCap = 'butt';
 		context.lineWidth = (j + 1) * 4 + 10;
+		
+		/** stroke the last line as solid white to get the glow effect */
+		if (j === 0) {
+		    context.strokeStyle = '#fff';
+		    context.lineWidth = 2;
+		}
     }
 }
 ```
