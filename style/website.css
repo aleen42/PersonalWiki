@@ -441,7 +441,6 @@ pre::-webkit-resizer {
     /** Part 4 */
 }
 
-
 @media (min-width: 720px) {
     .ace_scrollbar-h::-webkit-scrollbar-thumb, 
     .ace_scrollbar-v::-webkit-scrollbar-thumb {
