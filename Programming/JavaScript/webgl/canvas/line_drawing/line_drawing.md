@@ -107,6 +107,8 @@ function random_coord(type) {
 
 After that, there was an attempt at creating a simple animated drawing of a basic line art shape with the same glowing line technique.
 
+![](./bulb_animation.png))
+
 Because I wanted to be able to see the shape being drawn it had to be as a series of steps which could be broken down into manageable chunks. I also wanted the code to be flexible enough that I could change the shape it was drawing whenever I liked, without having to code up a complex series of steps each time. These two requirements got me thinking about the shorthand notation of a path used in SVG which uses single letters followed by one or more pairs of coordinates to draw lines and curves. 
 
 ```nginx
