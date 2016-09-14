@@ -100,6 +100,6 @@ function buildPath() {
     }
 }
 
-canvas.addEventListener('mouseover',startDrawingPath,false);
+canvas.addEventListener('mouseover', startDrawingPath, false);
 canvas.addEventListener('mouseout', stopDrawingPath, false);
 ```
