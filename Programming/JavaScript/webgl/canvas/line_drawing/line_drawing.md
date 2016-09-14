@@ -238,7 +238,7 @@ Then run:
 
 ```js
 (function () {
-    canv = document.getElementById("drawing");
+    canv = document.getElementById("glow");
 	
 	if (!canv || !canv.getContext)
 		return;
