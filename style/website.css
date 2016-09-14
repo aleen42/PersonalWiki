@@ -366,7 +366,8 @@ pre::-webkit-scrollbar-track {
     /** Part 3 */
 }
 
-iframe::-webkit-scrollbar-track-piece {
+iframe::-webkit-scrollbar-track-piece,
+pre::-webkit-scrollbar-track-piece {
     /** Part 4 */
 }
 
