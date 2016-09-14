@@ -24,6 +24,7 @@ function increaseLength() {
     var pathLength = orig.getTotalLength();
     length += distancePerPoint;
     orig.style.strokeDasharray = [length,pathLength].join(' ');
+    
     if (length >= pathLength) {
         clearInterval(timer);
     }
