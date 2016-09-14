@@ -211,6 +211,14 @@ function drawOutput(drawObj) {
 		
 		context.moveTo(draw_obj.buffer[0][0], draw_obj.buffer[0][1]);
 		
+		switch(drawObj.type) {
+		case 'c':
+		    context.bezierCurveTo(draw_obj.buffer[1][0], draw_obj.buffer[1][1],  draw_obj.buffer[2][0], draw_obj.buffer[2][1], draw_obj.buffer[3][0], draw_obj.buffer[3][1]);
+		    break;
+		}
+		case 'l':
+		    context.lineTo(draw_obj.buffer[1][0], draw_obj.buffer[1][1]);
+		    break;
     }
 }
 ```
