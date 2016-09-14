@@ -167,7 +167,12 @@ function animateDrawing() {
 		    currentPoint = i;
 		    break;
 		 }
-		    
+		 case 'l': {
+		    /** lineTo */
+		    drawPart.buffer.push(points[i + 1].split(','));
+		    currentPoint = i;
+		    break
+		 }
 		 }
     }
 }
