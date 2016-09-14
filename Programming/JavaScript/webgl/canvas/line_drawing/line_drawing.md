@@ -129,6 +129,6 @@ function animateDrawing() {
 	    buffer: new Array()
     };
     
-    
+    i = next_point;
 }
 ```
