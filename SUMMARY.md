@@ -133,6 +133,7 @@
                     * [Canvas](./Programming/JavaScript/webgl/canvas/canvas.md)
                         * Advanced
                             * [Animated Glowing Line Drawing](./Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md)
+                            * [Animate a progressive drawing of svg path](./Programming/JavaScript/webgl/canvas/animate_drawing_of_svg_path/animate_drawing_of_svg_path.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
                         * [Create a scene](./Programming/JavaScript/webgl/three/create_a_scene/create_a_scene.md)
