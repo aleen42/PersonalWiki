@@ -81,5 +81,7 @@ function random_coord(type) {
     /** the glow color */
     highlight = new Array(Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255));
 	step = 7;   /** amount each movement of coord is in canvas pixels */
+	
+	
 })();
 ```
