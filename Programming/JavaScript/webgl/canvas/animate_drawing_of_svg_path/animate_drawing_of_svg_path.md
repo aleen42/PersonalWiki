@@ -16,7 +16,7 @@ var timer;
 
 function startDrawingPath() {
     length = 0;
-    orig.style.stroke = '#00';
+    orig.style.stroke = '#000';
     timer = setInterval(increaseLength, 1000 / drawFPS);
 }
 
