@@ -20,4 +20,5 @@ Video Source: https://jmperezperez.com/assets/images/posts/contour.mp4
 
 One of the applications I like is path animation. This draws slowly the lines that compose the SVG. If you don’t know what this is about, please check [Polygon's reviews for PS4](http://www.polygon.com/a/ps4-review) and [Xbox One](http://www.polygon.com/a/xbox-one-review). The effect is achieved by applying transitions to the stroke-dashoffset of SVG polylines.
 
-Some time ago I played with this technique and the vector version of the Spotify logo:
+Some time ago I played with [this technique and the vector version of the Spotify logo](https://github.com/JMPerez/spotify-logo-svg-drawing-animation):
+
