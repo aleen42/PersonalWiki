@@ -44,3 +44,5 @@ orig.addEventListener('mouseout', stopDrawingPath, false);
 ```
 
 ### Canvas solution
+
+
