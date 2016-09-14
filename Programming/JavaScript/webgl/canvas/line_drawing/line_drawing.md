@@ -206,7 +206,10 @@ function drawOutput(drawObj) {
 		    context.strokeStyle = '#fff';
 		    context.lineWidth = 2;
 		} else {
-		    
+		    context.strokeStyle = 'rgba(' + highlight[0] + ',' + highlight[1] + ',' + highlight[2] + ',0.1)';
+		}
+		
+		context.moveTo(draw_obj.buffer[0][0], draw_obj.buffer[0][1]);
 		}
     }
 }
