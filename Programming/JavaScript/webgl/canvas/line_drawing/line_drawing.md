@@ -160,6 +160,12 @@ function animateDrawing() {
 		 case 'c': {
 		    /** curveTo */
 		    drawPart.buffer.push(points[i + 1].split(','));
+		    drawPart.buffer.push(points[i + 2].split(','));
+		    drawPart.buffer.push(points[i + 3].split(','));
+		    
+		    i += 2;
+		    currentPoint = i;
+		    break;
 		 }
 		    
 		 }
