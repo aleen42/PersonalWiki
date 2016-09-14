@@ -42,11 +42,10 @@ function draw_line() {
 	get_bounce_coord(cx2);
 	get_bounce_coord(cy2);
 
-	for(i=5; i>=0; i--)
-	{
+	for (i = 5; i >= 0; i--) {
 		context.beginPath();
 
-		// draw each line, the last line in each is always white
+		/** draw each line, the last line in each is always white */
 		context.lineWidth = (i+1)*4-2;
 		if(i==0)
 			context.strokeStyle = '#fff';
