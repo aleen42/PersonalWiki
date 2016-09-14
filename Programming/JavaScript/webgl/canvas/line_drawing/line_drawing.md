@@ -98,5 +98,19 @@ function random_coord(type) {
 })();
 ```
 
+<br />
+
 <iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/NRxJQE/?height=300&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/NRxJQE/'>NRxJQE</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
+
+<br />
+
+After that, there was an attempt at creating a simple animated drawing of a basic line art shape with the same glowing line technique.
+
+Because I wanted to be able to see the shape being drawn it had to be as a series of steps which could be broken down into manageable chunks. I also wanted the code to be flexible enough that I could change the shape it was drawing whenever I liked, without having to code up a complex series of steps each time. These two requirements got me thinking about the shorthand notation of a path used in SVG which uses single letters followed by one or more pairs of coordinates to draw lines and curves. 
+
+```nginx
+M 161.70443,272.07413
+C 148.01517,240.84549 134.3259,209.61686 120.63664,178.38822
+C 132.07442,172.84968 139.59482,171.3636 151.84309,171.76866
+```
