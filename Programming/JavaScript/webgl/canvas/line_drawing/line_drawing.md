@@ -19,9 +19,9 @@ A few random parameters are first set up to determine the color of the line, as 
 function get_bounce_coord(coord_array) {
 	coord_array[0] += step * coord_array[1];
 
-	if( (coord_array[0] > (canv.height - 2*step) && coord_array[2] == 'y') 
-	    || (coord_array[0] > (canv.width - 2*step) && coord_array[2] == 'x')
-		|| coord_array[0] < 2*step)	{
+	if( (coord_array[0] > (canv.height - 2 * step) && coord_array[2] === 'y') 
+	    || (coord_array[0] > (canv.width - 2 * step) && coord_array[2] === 'x')
+		|| coord_array[0] < 2 * step)	{
 		coord_array[1] *= -1;
 	}
 }
@@ -46,13 +46,14 @@ function draw_line() {
 		context.beginPath();
 
 		/** draw each line, the last line in each is always white */
-		context.lineWidth = (i+1)*4-2;
-		if(i==0)
+		context.lineWidth = (i + 1) * 4 - 2;
+		
+		if (i === 0) {
 			context.strokeStyle = '#fff';
-		else
-		{
-			context.strokeStyle = 'rgba('+highlight[0]+','+highlight[1]+','+highlight[2]+',0.2)';
+		} else {
+			context.strokeStyle = 'rgba(' + highlight[0] + ',' + highlight[1] + ',' + highlight[2] + ',0.2)';
 		}
+		
 		context.moveTo(x1[0], y1[0]);
 		context.bezierCurveTo(cx1[0],cy1[0],cx2[0],cy2[0],x2[0],y2[0]);
 		context.stroke();
