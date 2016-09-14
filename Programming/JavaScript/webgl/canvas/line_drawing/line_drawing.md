@@ -240,7 +240,7 @@ Then run:
 (function () {
     canv = document.getElementById("glow");
 	
-	if (!canv || !canv.getContext)
+	if (!canv || !canv.getContext) {
 		return;
 	}
 	
