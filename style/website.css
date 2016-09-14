@@ -371,7 +371,8 @@ pre::-webkit-scrollbar-track-piece {
     /** Part 4 */
 }
 
-iframe::-webkit-scrollbar-thumb {
+iframe::-webkit-scrollbar-thumb,
+pre::-webkit-scrollbar-thumb {
     /** Part 5 */
     background-color: rgba(0, 0, 0, 1);
     border-radius: 10px;
