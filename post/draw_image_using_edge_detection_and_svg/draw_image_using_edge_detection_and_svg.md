@@ -52,3 +52,11 @@ Then, there is the core process: detecting edges and creating SVG lines out of t
 I read about the [Canny edge detector](https://en.wikipedia.org/wiki/Canny_edge_detector) trying to find an algorithm that detected the edges from an image, and then found a JS implementation. [Canny JS](https://github.com/yuta1984/CannyJS) is one of them, and performs well. However, in the end I chose [Jade Misenas’s project](https://github.com/cmisenas/canny-edge-detection) because I could visualise better the steps of the algorithm and it resulted in longer lines with fewer gaps. This is important, since we need to be able to generate SVG lines by following the pixels that are part of the edge.
 
 By the way, if you want to learn more about edge detection, I recommend you to have a look at [the video Finding the Edges (Sobel Operator)](https://www.youtube.com/watch?v=uihBwtPIBxM), that explains one of the operators that can be used when performing edge detection.
+
+#### Tracing the edge
+
+To obtain the SVG lines I used Doodle3D’s Contour finding experiment, which I eventually simplified a bit. The idea is to traverse the canvas and, once we find a white pixel (edge), we follow the nearby pixels to compose the line.
+
+One we have a set of lines, we create one SVG polyline per contour, using the pixels as points. There are some improvements we can do here:
+
+
