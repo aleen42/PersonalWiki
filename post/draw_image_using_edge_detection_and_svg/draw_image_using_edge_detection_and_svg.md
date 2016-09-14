@@ -67,6 +67,6 @@ One we have a set of lines, we create one SVG polyline per contour, using the pi
 
 The effect is cool by itself and doesn’t take long to compute. The browser needs the image to create the SVG lines, but this could be stored somewhere and be served as inlined SVG or a standalone SVG file. And doing this we suddenly have found a way to start rendering an image without having downloaded it yet. Also, note that SVG is highly compressible and we have full control of how many lines and points we want to use to represent the image.
 
-If you have been following this blog, I have been talking lately about techniques to load images in a progressive way, with [the *blur up* technique used by Medium](https://jmperezperez.com/medium-image-progressive-loading-placeholder/) and the use of WebP as placeholders.
+If you have been following this blog, I have been talking lately about techniques to load images in a progressive way, with [the *blur up* technique used by Medium](https://jmperezperez.com/medium-image-progressive-loading-placeholder/) and the use of [WebP as placeholders](https://jmperezperez.com/webp-placeholder-images/).
 
 So I see this drawing effect as not only a fun thing to do with images, but also a way to provide a placeholder while the final image is downloaded.
