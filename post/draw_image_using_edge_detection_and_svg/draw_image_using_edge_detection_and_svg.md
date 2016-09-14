@@ -69,4 +69,4 @@ The effect is cool by itself and doesn’t take long to compute. The browser nee
 
 If you have been following this blog, I have been talking lately about techniques to load images in a progressive way, with [the *blur up* technique used by Medium](https://jmperezperez.com/medium-image-progressive-loading-placeholder/) and the use of [WebP as placeholders](https://jmperezperez.com/webp-placeholder-images/).
 
-So I see this drawing effect as not only a fun thing to do with images, but also a way to provide a placeholder while the final image is downloaded.
+So I see this drawing effect as not only a fun thing to do with images, but also a way to provide a *placeholder* while the final image is downloaded.
