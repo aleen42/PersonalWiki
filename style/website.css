@@ -342,12 +342,13 @@ pre::-webkit-resizer {
     /** Part 7 */
 }
 
-/** iframe and pr */
+/** iframe and pre */
 iframe {
     border: none;
 }
 
-iframe::-webkit-scrollbar {
+iframe::-webkit-scrollbar,
+pre::-webkit-scrollbar {
     /** if you want to style your own scroll bar, this pseudo should be written */
     /** Part 1 */
     width: 6px;
