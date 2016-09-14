@@ -50,4 +50,29 @@ In this case, you may choose to draw your path to an HTML5 canvas by sampling th
 Relevant code:
 
 ```js
+function startDrawingPath(){
+    points = [];
+    timer = setInterval(buildPath,1000/drawFPS);
+}
+
+/** Assumes that 'orig' is an SVG path */
+function buildPath(){
+    var nextPoint = points.length * distancePerPoint;
+    var pathLength = orig.getTotalLength();
+
+    if (nextPoint <= pathLength){
+        points.push(orig.getPointAtLength(nextPoint));
+        redrawCanvas();
+    } else {
+        stopDrawingPath();
+    }
+}
+
+function redrawCanvas(){
+  clearCanvas();
+  ctx.beginPath();
+  ctx.moveTo(points[0].x,points[0].y);
+  for (var i=1;i<points.length;i++) ctx.lineTo(points[i].x,points[i].y);
+  ctx.stroke();
+}
 ```
