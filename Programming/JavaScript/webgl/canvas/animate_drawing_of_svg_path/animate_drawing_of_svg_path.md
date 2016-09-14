@@ -47,7 +47,7 @@ orig.addEventListener('mouseout', stopDrawingPath, false);
 
 In this case, you may choose to draw your path to an HTML5 canvas by sampling the SVG path periodically and drawing to the canvas. (Note that the SVG path does not need to be displayed for this to happen; you can build an SVG path element entirely in JavaScript and sample it):
 
-
+Relevant code:
 
 ```js
 ```
