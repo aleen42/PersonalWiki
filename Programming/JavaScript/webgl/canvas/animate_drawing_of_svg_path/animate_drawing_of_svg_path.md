@@ -96,7 +96,8 @@ function buildPath() {
     var nextPoint = points.length * distancePerPoint;
     var pathLength = orig.getTotalLength();
 
-    if (nextPoint <= pathLength) {   points.push(orig.getPointAtLength(nextPoint));
+    if (nextPoint <= pathLength) {
+        points.push(orig.getPointAtLength(nextPoint));
         redrawCanvas();
     }
 }
