@@ -133,7 +133,7 @@ function animateDrawing(path) {
 	    buffer: new Array()
     };
     
-    i 
+    i = next_point;
     
     if (i >= points.length) {
         return false;
