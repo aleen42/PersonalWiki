@@ -342,37 +342,32 @@ pre::-webkit-resizer {
     /** Part 7 */
 }
 
-/** iframe and pre */
+/** iframe */
 iframe {
     border: none;
 }
 
-iframe::-webkit-scrollbar,
-pre::-webkit-scrollbar {
+iframe::-webkit-scrollbar {
     /** if you want to style your own scroll bar, this pseudo should be written */
     /** Part 1 */
     width: 6px;
     height: 6px;
 }
 
-iframe::-webkit-scrollbar-button,
-pre::-webkit-scrollbar-button {
+iframe::-webkit-scrollbar-button {
     /** Part 2 */
     display: none;
 }
 
-iframe::-webkit-scrollbar-track,
-pre::-webkit-scrollbar-track {
+iframe::-webkit-scrollbar-track {
     /** Part 3 */
 }
 
-iframe::-webkit-scrollbar-track-piece,
-pre::-webkit-scrollbar-track-piece {
+iframe::-webkit-scrollbar-track-piece {
     /** Part 4 */
 }
 
-iframe::-webkit-scrollbar-thumb,
-pre::-webkit-scrollbar-thumb {
+iframe::-webkit-scrollbar-thumb {
     /** Part 5 */
     background-color: rgba(0, 0, 0, 1);
     border-radius: 10px;
