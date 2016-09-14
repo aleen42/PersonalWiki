@@ -133,5 +133,11 @@ function animateDrawing() {
     };
     
     i = nextPoint;
+    
+    if (i >= points.length) {
+        return false;
+    } else {
+        setTimeout(animateDrawing, 30);
+    }
 }
 ```
