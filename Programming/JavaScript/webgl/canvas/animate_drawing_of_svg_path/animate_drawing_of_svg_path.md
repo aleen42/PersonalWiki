@@ -17,14 +17,16 @@ var timer;
 function startDrawingPath() {
   length = 0;
   orig.style.stroke = '#f60';
-  timer = setInterval(increaseLength,1000/drawFPS);
+  timer = setInterval(increaseLength, 1000 / drawFPS);
 }
 
 function increaseLength() {
-  var pathLength = orig.getTotalLength();
-  length += distancePerPoint;
-  orig.style.strokeDasharray = [length,pathLength].join(' ');
-  if (length >= pathLength) clearInterval(timer);
+    var pathLength = orig.getTotalLength();
+    length += distancePerPoint;
+    orig.style.strokeDasharray = [length,pathLength].join(' ');
+    if (length >= pathLength) {
+        clearInterval(timer);
+    }
 }
 
 function stopDrawingPath() {
