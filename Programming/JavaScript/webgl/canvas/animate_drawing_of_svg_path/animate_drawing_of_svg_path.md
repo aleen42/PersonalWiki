@@ -47,6 +47,9 @@ orig.addEventListener('mouseout', stopDrawingPath, false);
 
 In this case, you may choose to draw your path to an HTML5 canvas by sampling the SVG path periodically and drawing to the canvas. (Note that the SVG path does not need to be displayed for this to happen; you can build an SVG path element entirely in JavaScript and sample it):
 
+<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/JRGQwG/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/JRGQwG/'>JRGQwG</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
 Relevant code:
 
 ```js
