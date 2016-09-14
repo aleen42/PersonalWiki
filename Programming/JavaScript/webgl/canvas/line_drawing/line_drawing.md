@@ -18,7 +18,7 @@ function draw_line() {
 	context.fillStyle = "#000";
 	context.fillRect(0, 0, canv.width, canv.height);
 
-	// get the new coords based on each ones current trajectory
+	/** get the new coords based on each ones current trajectory */
 	get_bounce_coord(x1);
 	get_bounce_coord(y1);
 	get_bounce_coord(x2);
