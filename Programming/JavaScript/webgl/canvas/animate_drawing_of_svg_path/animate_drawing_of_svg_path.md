@@ -50,6 +50,15 @@ In this case, you may choose to draw your path to an HTML5 canvas by sampling th
 Relevant code:
 
 ```js
+var distancePerPoint = 10;
+var drawFPS = 30;
+
+var orig = document.querySelector('path');
+var points;
+var timer;
+var canvas = document.querySelector('canvas'),
+var ctx = canvas.getContext('2d');
+
 function startDrawingPath() {
     points = [];
     ctx.lineWidth = 10;
