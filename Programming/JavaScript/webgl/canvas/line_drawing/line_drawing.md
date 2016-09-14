@@ -124,6 +124,7 @@ As it turned out, that wasn't too difficult, and this is the result of that pars
 ```js
 var currentPoint = 0;
 var nextPoint = 0;
+var path = 'M 161.70443,272.07413 C 148.01517,240.84549 134.3259,209.61686 120.63664,178.38822 C 132.07442,172.84968 139.59482,171.3636 151.84309,171.76866'
 
 function animateDrawing() {
     var points = path.split(' ');
