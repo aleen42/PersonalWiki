@@ -60,4 +60,12 @@ function draw_line() {
 		context.closePath();
 	}
 }
+
+/**
+ * get a random x or y coordinate
+ */
+function random_coord(type) {
+	dimension = (type === 'x') ? canv.width : canv.height;
+	return Math.random() * (dimension - 2 * step) + step;
+}
 ```
