@@ -55,7 +55,7 @@ By the way, if you want to learn more about edge detection, I recommend you to h
 
 #### Tracing the edge
 
-To obtain the SVG lines I used Doodle3D’s Contour finding experiment, which I eventually simplified a bit. The idea is to traverse the canvas and, once we find a white pixel (edge), we follow the nearby pixels to compose the line.
+To obtain the SVG lines I used [Doodle3D’s Contour finding experiment](https://github.com/Doodle3D/Contour-finding-experiment), which I eventually simplified a bit. The idea is to traverse the canvas and, once we find a white pixel (edge), we follow the nearby pixels to compose the line.
 
 One we have a set of lines, we create one SVG polyline per contour, using the pixels as points. There are some improvements we can do here:
 
