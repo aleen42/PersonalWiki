@@ -156,6 +156,13 @@ function animateDrawing() {
 		 * the end, so it's extra increment is 2 (as i pair of coordinates is always assumed)
 		 * also here, m does nothing, so we ignore i
 		 */
+		 switch(drawPart.type) {
+		 case 'c': {
+		    /** curveTo */
+		    drawPart.buffer.push(points[i + 1].split(','));
+		 }
+		    
+		 }
     }
 }
 ```
