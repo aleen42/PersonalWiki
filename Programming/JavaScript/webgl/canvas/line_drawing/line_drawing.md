@@ -138,7 +138,7 @@ function animateDrawing() {
     if (i >= points.length) {
         return false;
     } else {
-        setTimeout(animateDrawing), 30);
+        setTimeout(animateDrawing, 30);
     }
     
     for (i = currentPoint; i <= nextPoint; i += 2) {
