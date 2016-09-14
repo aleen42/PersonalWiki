@@ -210,7 +210,7 @@ function drawOutput(drawObj) {
 		}
 		
 		context.moveTo(draw_obj.buffer[0][0], draw_obj.buffer[0][1]);
-		}
+		
     }
 }
 ```
