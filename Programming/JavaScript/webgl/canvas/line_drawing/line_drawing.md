@@ -124,7 +124,6 @@ As it turned out, that wasn't too difficult, and this is the result of that pars
 ```js
 var currentPoint = 0;
 var nextPoint = 0;
-var i = 0;
 
 function animateDrawing(path) {
     var points = path.split(' ');
