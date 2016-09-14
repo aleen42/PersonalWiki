@@ -157,7 +157,7 @@ function animateDrawing() {
 		 * also here, m does nothing, so we ignore i
 		 */
 		 switch(drawPart.type) {
-		 case 'c': {
+		 case 'c':
 		    /** curveTo */
 		    drawPart.buffer.push(points[i + 1].split(','));
 		    drawPart.buffer.push(points[i + 2].split(','));
@@ -166,13 +166,15 @@ function animateDrawing() {
 		    i += 2;
 		    currentPoint = i;
 		    break;
-		 }
-		 case 'l': {
+		 case 'l':
 		    /** lineTo */
 		    drawPart.buffer.push(points[i + 1].split(','));
 		    currentPoint = i;
-		    break
-		 }
+		    break;
+		 case 's':
+		 case 'q':
+		    /** smooth
+		 
 		 }
     }
 }
