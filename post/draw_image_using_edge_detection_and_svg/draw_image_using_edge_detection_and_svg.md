@@ -10,6 +10,8 @@ But SVG allows for even cooler features, thanks to the ability of modifying it u
 
 If you are like me and like to see the final result before going through a wall of text, here is a video that shows the result of applying this effect to a couple of images:
 
+Video Source: https://jmperezperez.com/assets/images/posts/contour.mp4
+
 <video controls="" style="max-width:100%">
   <source src="https://jmperezperez.com/assets/images/posts/contour.mp4" type="video/mp4">
 </video>
