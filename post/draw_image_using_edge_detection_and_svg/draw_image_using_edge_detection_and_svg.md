@@ -41,4 +41,4 @@ You can drag and drop any image. It will work better with images with areas with
 
 You may wonder how this works, who doesn’t?
 
-
+### Canvas
