@@ -195,5 +195,9 @@ This processes the string (copied straight out of the SVG source for a curved li
 The actual drawing is handled with this function, which uses the canvas context we defined above and draws out the line that is stored in the `buffer` array:
 
 ```js
-
+function drawOutput(drawObj) {
+    for (j = 5; j >= 0; j--) {
+        
+    }
+}
 ```
