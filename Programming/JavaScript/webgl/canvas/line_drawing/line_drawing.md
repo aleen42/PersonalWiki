@@ -249,6 +249,6 @@ Then run:
 	context.fillStyle = "#000";
 	context.fillRect(0, 0, canv.width, canv.height);
 
-	animate_drawing()
+	animateDrawing()
 })();
 ```
