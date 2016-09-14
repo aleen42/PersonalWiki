@@ -59,4 +59,7 @@ To obtain the SVG lines I used [Doodle3D’s Contour finding experiment](https:/
 
 One we have a set of lines, we create one SVG polyline per contour, using the pixels as points. There are some improvements we can do here:
 
+- Simplify polyline to remove points that don’t contribute to the line, that is, they can fall behind a longer segment. An example is having a horizontal line spanning through several pixels, that can be defined by 2 points instead of a line with 1 point per pixel. Doing this saves potentially lots of points, especially if there are lots of vertical or horizontal lines.
+- Smooth the polyline to match better arcs or diagonal lines that produce a stairstep-like line. In the project this is achieved by using half of the points to draw the image. The result is not that close to the border, but helps reducing those stairstep-like lines.
+- Use web workers to do the detection of the contour. This would prevent the browser from freezing for a few milliseconds.
 
