@@ -1,3 +1,3 @@
-## Animate a progressive drawing of svg path [Back](./../canvas.md)
+## Animate a progressive drawing of SVG path [Back](./../canvas.md)
 
 ### all-SVG solution
