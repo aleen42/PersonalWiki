@@ -32,3 +32,7 @@ This was based on [the SVG Animation (Polygon.com PS4 Review) pen by Derek Palla
 Then one day I started thinking of drawing the contours of bitmap images. I would detect the contours of an image using canvas, and then I would create segments of adjacent points. As expected, some smart people have already worked on these things before, and I pretty much just had to put it together.
 
 That’s how I created Contour. The project is [on GitHub](https://github.com/JMPerez/contour), so feel free to clone it and tweak it. And if you want to try it out right now, I have embedded it right here:
+
+IFrame Source: https://jmperezperez.com/contour/
+
+<iframe src="https://jmperezperez.com/contour/" width="100%" height="500"></iframe>
