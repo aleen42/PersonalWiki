@@ -381,8 +381,7 @@ iframe::-webkit-scrollbar-thumb:active {
     background-color: rgba(100, 0, 0, 1);
 }
 
-iframe::-webkit-scrollbar-corner,
-pre::-webkit-scrollbar-corner {
+iframe::-webkit-scrollbar-corner {
     /** Part 6 */
 }
 
