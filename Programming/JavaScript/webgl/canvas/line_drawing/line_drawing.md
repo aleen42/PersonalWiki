@@ -28,7 +28,7 @@ function get_bounce_coord(coord_array) {
 
 function draw_line() {
 	/** paint over the existing canvas */
-	context.fillStyle = "#000";
+	context.fillStyle = '#000';
 	context.fillRect(0, 0, canv.width, canv.height);
 
 	/** get the new coords based on each ones current trajectory */
