@@ -14,20 +14,20 @@ var orig = document.querySelector('path');
 var length;
 var timer;
 
-function startDrawingPath(){
+function startDrawingPath() {
   length = 0;
   orig.style.stroke = '#f60';
   timer = setInterval(increaseLength,1000/drawFPS);
 }
 
-function increaseLength(){
+function increaseLength() {
   var pathLength = orig.getTotalLength();
   length += distancePerPoint;
   orig.style.strokeDasharray = [length,pathLength].join(' ');
   if (length >= pathLength) clearInterval(timer);
 }
 
-function stopDrawingPath(){
+function stopDrawingPath() {
   clearInterval(timer);
   orig.style.stroke = '';
   orig.style.strokeDasharray = '';
