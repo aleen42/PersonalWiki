@@ -190,6 +190,6 @@ function animateDrawing() {
 }
 ```
 
-This processes the string (copied straight out of the SVG source for a curved line) and uses a timeout to draw it a bit at a time. First, the string is broken into instructions based on the space character. The code then checks the current point (which should be a letter as the path should start with a `moveTo` command), reads ahead the right number of coordinate pairs for that instruction, and then increments the `nextPoint` variable so that it doesn't attempt to redraw parts of the image it has drawn already
+This processes the string (copied straight out of the SVG source for a curved line) and uses a timeout to draw it a bit at a time. First, the string is broken into instructions based on the space character. The code then checks the current point (which should be a letter as the path should start with a `moveTo` command), reads ahead the right number of coordinate pairs for that instruction, and then increments the `nextPoint` variable so that it doesn't attempt to redraw parts of the image it has drawn already.
 
 
