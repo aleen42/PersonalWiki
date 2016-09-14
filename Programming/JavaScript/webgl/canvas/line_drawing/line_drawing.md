@@ -227,7 +227,7 @@ function drawOutput(drawObj) {
         }
         
         context.stroke();
-        context.cl
+        context.closePath();
     }
 }
 ```
