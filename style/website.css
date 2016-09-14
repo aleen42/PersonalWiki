@@ -383,11 +383,13 @@ pre::-webkit-scrollbar-thumb:hover {
     background-color: rgba(161, 0, 0, 1);
 }
 
-iframe::-webkit-scrollbar-thumb:active {
+iframe::-webkit-scrollbar-thumb:active,
+pre::-webkit-scrollbar-thumb:active {
     background-color: rgba(100, 0, 0, 1);
 }
 
-iframe::-webkit-scrollbar-corner {
+iframe::-webkit-scrollbar-corner,
+pre::-webkit-scrollbar-corner {
     /** Part 6 */
 }
 
