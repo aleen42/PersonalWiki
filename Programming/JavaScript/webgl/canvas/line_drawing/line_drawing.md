@@ -122,6 +122,9 @@ That's basically a `moveTo` command followed by two `curveTo` commands.
 As it turned out, that wasn't too difficult, and this is the result of that parser:
 
 ```js
+var currentPoint = 0;
+var nextPoint  0;
+
 function animateDrawing() {
     var points = path.split(' ');
 	var draw_part = {
