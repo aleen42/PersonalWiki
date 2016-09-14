@@ -205,6 +205,8 @@ function drawOutput(drawObj) {
 		if (j === 0) {
 		    context.strokeStyle = '#fff';
 		    context.lineWidth = 2;
+		} else {
+		    
 		}
     }
 }
