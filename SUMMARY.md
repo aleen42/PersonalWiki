@@ -132,7 +132,7 @@
                 * 2D
                     * [Canvas](./Programming/JavaScript/webgl/canvas/canvas.md)
                         * Advanced
-                            * [Animated Glowing Line Drawing](./line_drawing/line_drawing.md)
+                            * [Animated Glowing Line Drawing](./Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
                         * [Create a scene](./Programming/JavaScript/webgl/three/create_a_scene/create_a_scene.md)
