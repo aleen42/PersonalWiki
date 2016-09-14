@@ -67,11 +67,11 @@ function redrawCanvas() {
     ctx.stroke();
 }
 
-function clearCanvas(){
+function clearCanvas() {
 	ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
 
-function stopDrawingPath(){
+function stopDrawingPath() {
 	clearInterval(timer);
 	clearCanvas();
 }
