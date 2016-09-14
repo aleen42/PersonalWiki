@@ -355,12 +355,14 @@ pre::-webkit-scrollbar {
     height: 6px;
 }
 
-iframe::-webkit-scrollbar-button {
+iframe::-webkit-scrollbar-button,
+pre::-webkit-scrollbar-button {
     /** Part 2 */
     display: none;
 }
 
-iframe::-webkit-scrollbar-track {
+iframe::-webkit-scrollbar-track,
+pre::-webkit-scrollbar-track {
     /** Part 3 */
 }
 
