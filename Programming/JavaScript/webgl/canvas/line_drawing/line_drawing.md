@@ -82,6 +82,18 @@ function random_coord(type) {
     highlight = new Array(Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255));
 	step = 7;   /** amount each movement of coord is in canvas pixels */
 	
+	/** start and end coordinates for the line */
+	x1 = new Array(random_coord('x'), -1, 'x');
+	y1 = new Array(random_coord('y'), 1, 'y');
+	x2 = new Array(random_coord('x'), -1.5, 'x');
+	y2 = new Array(random_coord('y'), -1.5, 'y');
 	
+	/** coordinates for the control points of the bezier curve */
+	cx1 = new Array(random_coord('x'), 1, 'x');
+	cy1 = new Array(random_coord('y'), -1, 'y');
+	cx2 = new Array(random_coord('x'), -1, 'x');
+	cy2 = new Array(random_coord('y'), 1, 'y');
+	
+	timer = window.setInterval(draw_line, 30);
 })();
 ```
