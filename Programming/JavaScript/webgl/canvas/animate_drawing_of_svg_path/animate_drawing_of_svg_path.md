@@ -67,6 +67,15 @@ function redrawCanvas() {
     ctx.stroke();
 }
 
+function clearCanvas(){
+	ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+}
+
+function stopDrawingPath(){
+	clearInterval(timer);
+	clearCanvas();
+}
+
 /** Assumes that 'orig' is an SVG path */
 function buildPath() {
     var nextPoint = points.length * distancePerPoint;
