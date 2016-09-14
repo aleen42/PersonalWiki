@@ -126,7 +126,7 @@ var currentPoint = 0;
 var nextPoint = 0;
 var i = 0;
 
-function animateDrawing(pat) {
+function animateDrawing(path) {
     var points = path.split(' ');
 	var drawPart = {
 	    type: 'm',
