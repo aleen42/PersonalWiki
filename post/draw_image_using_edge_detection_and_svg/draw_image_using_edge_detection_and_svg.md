@@ -9,3 +9,5 @@ Back in the days SVG was barely used and supported. Some time after we started u
 But SVG allows for even cooler features, thanks to the ability of modifying it using CSS and JS. And with some clever techniques we can make fun things, like drawing the borders of an image.
 
 If you are like me and like to see the final result before going through a wall of text, here is a video that shows the result of applying this effect to a couple of images:
+
+
