@@ -52,6 +52,8 @@ Relevant code:
 ```js
 function startDrawingPath() {
     points = [];
+    ctx.lineWidth = 10;
+	ctx.strokeStyle = '#000';
     timer = setInterval(buildPath, 1000 / drawFPS);
 }
 
