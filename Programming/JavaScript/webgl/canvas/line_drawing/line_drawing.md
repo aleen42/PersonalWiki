@@ -173,7 +173,12 @@ function animateDrawing() {
 		    break;
 		 case 's':
 		 case 'q':
-		    /** smooth
+		    /** smooth curveTo */
+		    drawPart.buffer.push(points[i+1].split(','));
+			drawPart.buffer.push(points[i+2].split(','));
+			
+			i += 1;
+			current_point = i;
 		 
 		 }
     }
