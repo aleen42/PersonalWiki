@@ -55,6 +55,18 @@ function startDrawingPath(){
     timer = setInterval(buildPath,1000/drawFPS);
 }
 
+function redrawCanvas(){
+    clearCanvas();
+    ctx.beginPath();
+    ctx.moveTo(points[0].x,points[0].y);
+    
+    for (var i = 1; i < points.length; i++) {
+        ctx.lineTo(points[i].x, points[i].y);
+    }
+    
+    ctx.stroke();
+}
+
 /** Assumes that 'orig' is an SVG path */
 function buildPath(){
     var nextPoint = points.length * distancePerPoint;
@@ -66,17 +78,5 @@ function buildPath(){
     } else {
         stopDrawingPath();
     }
-}
-
-function redrawCanvas(){
-    clearCanvas();
-    ctx.beginPath();
-    ctx.moveTo(points[0].x,points[0].y);
-    
-    for (var i = 1; i < points.length; i++) {
-        ctx.lineTo(points[i].x, points[i].y);
-    }
-    
-    ctx.stroke();
 }
 ```
