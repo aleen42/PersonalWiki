@@ -149,6 +149,13 @@ function animateDrawing() {
         } else {
             drawPart.buffer.push(new Array(0, 0));
         }
+        
+        /**
+         * i should be incremented by the number of coordinate pairs it has beyond the first
+		 * for example, a bezier curve has 3 pairs of coordinates; the two control points &
+		 * the end, so it's extra increment is 2 (as i pair of coordinates is always assumed)
+		 * also here, m does nothing, so we ignore i
+		 */
     }
 }
 ```
