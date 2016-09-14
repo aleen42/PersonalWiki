@@ -373,8 +373,7 @@ iframe::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
-iframe::-webkit-scrollbar-thumb:hover,
-pre::-webkit-scrollbar-thumb:hover {
+iframe::-webkit-scrollbar-thumb:hover {
     background-color: rgba(161, 0, 0, 1);
 }
 
