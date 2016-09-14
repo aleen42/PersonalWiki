@@ -16,3 +16,4 @@ Video Source: https://jmperezperez.com/assets/images/posts/contour.mp4
   <source src="https://jmperezperez.com/assets/images/posts/contour.mp4" type="video/mp4">
 </video>
 
+### Animate SVGs to achieve a ***drawing*** effect
