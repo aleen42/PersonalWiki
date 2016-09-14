@@ -209,18 +209,18 @@ function drawOutput(drawObj) {
 		    context.strokeStyle = 'rgba(' + highlight[0] + ',' + highlight[1] + ',' + highlight[2] + ',0.1)';
 		}
 		
-		context.moveTo(draw_obj.buffer[0][0], draw_obj.buffer[0][1]);
+		context.moveTo(drawObj.buffer[0][0], drawObj.buffer[0][1]);
 		
 		switch(drawObj.type) {
 		case 'c':
-		    context.bezierCurveTo(draw_obj.buffer[1][0], draw_obj.buffer[1][1],  draw_obj.buffer[2][0], draw_obj.buffer[2][1], draw_obj.buffer[3][0], draw_obj.buffer[3][1]);
+		    context.bezierCurveTo(drawObj.buffer[1][0], drawObj.buffer[1][1],  drawObj.buffer[2][0], drawObj.buffer[2][1], drawObj.buffer[3][0], drawObj.buffer[3][1]);
 		    break;
 		case 'l':
-		    context.lineTo(draw_obj.buffer[1][0], draw_obj.buffer[1][1]);
+		    context.lineTo(drawObj.buffer[1][0], drawObj.buffer[1][1]);
 		    break;
         case 's':
         case 'q':
-            context.quadraticCurveTo(draw_obj.buffer[1][0], draw_obj.buffer[1][1],  draw_obj.buffer[2][0], draw_obj.buffer[2][1]);
+            context.quadraticCurveTo(drawObj.buffer[1][0], drawObj.buffer[1][1],  drawObj.buffer[2][0], drawObj.buffer[2][1]);
             break;
         default:
             break;
