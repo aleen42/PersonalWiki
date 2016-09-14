@@ -36,3 +36,9 @@ That’s how I created Contour. The project is [on GitHub](https://github.com/JM
 IFrame Source: https://jmperezperez.com/contour/
 
 <iframe src="https://jmperezperez.com/contour/" width="100%" height="500"></iframe>
+
+You can drag and drop any image. It will work better with images with areas with high contrast.
+
+You may wonder how this works, who doesn’t?
+
+
