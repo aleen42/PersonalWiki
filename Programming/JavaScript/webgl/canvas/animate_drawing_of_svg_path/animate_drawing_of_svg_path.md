@@ -68,7 +68,7 @@ function redrawCanvas() {
 }
 
 function clearCanvas(){
-	ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+	ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
 
 function stopDrawingPath(){
