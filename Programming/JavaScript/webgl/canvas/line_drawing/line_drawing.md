@@ -197,7 +197,9 @@ The actual drawing is handled with this function, which uses the canvas context 
 ```js
 function drawOutput(drawObj) {
     for (j = 5; j >= 0; j--) {
-        
+        context.beginPath();
+		context.lineCap = 'butt';
+		context.lineWidth = (j + 1) * 4 + 10;
     }
 }
 ```
