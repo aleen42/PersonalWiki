@@ -179,10 +179,12 @@ function animateDrawing() {
 			
 			i += 1;
 			current_point = i;
-			break
+			break;
 		 }
 		 default:
 		    break;
     }
+    
+    drawOutput(drawPart);
 }
 ```
