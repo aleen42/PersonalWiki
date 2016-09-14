@@ -41,10 +41,14 @@ You can drag and drop any image. It will work better with images with areas with
 
 You may wonder how this works, who doesn’t?
 
-### Canvas
+#### Canvas
 
 First, the image that you drop is drawn into a canvas that has a maximum size. If the image exceeds that size, it is downscaled. This allows us to process larger images without making the browser become super slow. The smallest the canvas, the fastest, but also the less accurate would be the SVG lines.
 
 Then, there is the core process: detecting edges and creating SVG lines out of them.
 
+#### Canny edge detector
 
+I read about the [Canny edge detector](https://en.wikipedia.org/wiki/Canny_edge_detector) trying to find an algorithm that detected the edges from an image, and then found a JS implementation. Canny JS is one of them, and performs well. However, in the end I chose Jade Misenas’s project because I could visualise better the steps of the algorithm and it resulted in longer lines with fewer gaps. This is important, since we need to be able to generate SVG lines by following the pixels that are part of the edge.
+
+By the way, if you want to learn more about edge detection, I recommend you to have a look at the video Finding the Edges (Sobel Operator), that explains one of the operators that can be used when performing edge detection.
