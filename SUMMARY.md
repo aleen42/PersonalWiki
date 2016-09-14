@@ -129,6 +129,8 @@
                 * [Worker](./Programming/JavaScript/web_api/worker/worker.md)
                 * [XMLHttpRequest](./Programming/JavaScript/web_api/xhr/xhr.md)
             * [WebGL](./Programming/JavaScript/webgl/webgl.md)
+                * 2D
+                    * [Canvas](./canvas/canvas.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
                         * [Create a scene](./Programming/JavaScript/webgl/three/create_a_scene/create_a_scene.md)
