@@ -132,12 +132,14 @@ function animateDrawing() {
 	    buffer: new Array()
     };
     
-    i = nextPoint;
+    var i = nextPoint;
     
     if (i >= points.length) {
         return false;
     } else {
         setTimeout(animateDrawing, 30);
     }
+    
+    for (i = current
 }
 ```
