@@ -32,4 +32,7 @@ function stopDrawingPath(){
   orig.style.stroke = '';
   orig.style.strokeDasharray = '';
 }
+
+orig.addEventListener('mouseover',startDrawingPath,false);
+orig.addEventListener('mouseout', stopDrawingPath, false);
 ```
