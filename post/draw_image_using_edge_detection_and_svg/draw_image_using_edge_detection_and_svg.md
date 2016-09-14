@@ -24,3 +24,4 @@ Some time ago I played with [this technique and the vector version of the Spotif
 
 <iframe height='300' scrolling='no' src='//codepen.io/jmperez/embed/rxxRRg/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/jmperez/pen/rxxRRg/'>Drawing SVGs - Spotify Logo</a> by José Manuel Pérez (<a href='http://codepen.io/jmperez'>@jmperez</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
+
