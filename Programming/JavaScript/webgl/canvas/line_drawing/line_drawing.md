@@ -127,7 +127,7 @@ var nextPoint = 0;
 
 function animateDrawing() {
     var points = path.split(' ');
-	var draw_part = {
+	var drawPart = {
 	    type: 'm',
 	    buffer: new Array()
     };
@@ -140,6 +140,8 @@ function animateDrawing() {
         setTimeout(animateDrawing, 30);
     }
     
-    for (i = current
+    for (i = currentPoint; i <= nextPoint; i += 2) {
+        drawPart.type = points[i].toLowerCase()
+    }
 }
 ```
