@@ -13,6 +13,19 @@ A few random parameters are first set up to determine the color of the line, as 
 ```
 
 ```js
+/**
+ * update the position and direction of movement for an end point on the line or one of the control points
+ */
+function get_bounce_coord(coord_array) {
+	coord_array[0] += step * coord_array[1];
+
+	if( (coord_array[0] > (canv.height - 2*step) && coord_array[2] == 'y') 
+	    || (coord_array[0] > (canv.width - 2*step) && coord_array[2] == 'x')
+		|| coord_array[0] < 2*step)	{
+		coord_array[1] *= -1;
+	}
+}
+
 function draw_line() {
 	/** paint over the existing canvas */
 	context.fillStyle = "#000";
