@@ -54,7 +54,7 @@ Relevant code:
 
 ```js
 var distancePerPoint = 10;
-var drawFPS = 30;
+var drawFPS = 60;
 
 var orig = document.querySelector('path');
 var points;
@@ -63,9 +63,10 @@ var canvas = document.querySelector('canvas');
 var ctx = canvas.getContext('2d');
 
 function startDrawingPath() {
+    clearCanvas();
     points = [];
-    ctx.lineWidth = 10;
-	ctx.strokeStyle = '#000';
+    ctx.lineWidth = 0.5;
+      ctx.strokeStyle = '#000';
     timer = setInterval(buildPath, 1000 / drawFPS);
 }
 
@@ -82,12 +83,12 @@ function redrawCanvas() {
 }
 
 function clearCanvas() {
-	ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
 
 function stopDrawingPath() {
-	clearInterval(timer);
-	clearCanvas();
+    clearInterval(timer);
+    clearCanvas();
 }
 
 /** Assumes that 'orig' is an SVG path */
@@ -95,11 +96,8 @@ function buildPath() {
     var nextPoint = points.length * distancePerPoint;
     var pathLength = orig.getTotalLength();
 
-    if (nextPoint <= pathLength){
-        points.push(orig.getPointAtLength(nextPoint));
+    if (nextPoint <= pathLength) {   points.push(orig.getPointAtLength(nextPoint));
         redrawCanvas();
-    } else {
-        stopDrawingPath();
     }
 }
 
