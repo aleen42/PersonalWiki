@@ -1,1 +1,1 @@
-## Animated Glowing Line Drawing [Back](./../canvas.md)
+## Animate a progressive drawing of svg path [Back](./../canvas.md)
