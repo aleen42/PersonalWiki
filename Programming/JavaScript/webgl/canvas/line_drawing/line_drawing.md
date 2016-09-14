@@ -132,7 +132,7 @@ function animateDrawing() {
 	    buffer: new Array()
     };
     
-    var i = nextPoint;
+    i = nextPoint;
     
     if (i >= points.length) {
         return false;
