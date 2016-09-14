@@ -15,9 +15,9 @@ var length;
 var timer;
 
 function startDrawingPath() {
-  length = 0;
-  orig.style.stroke = '#f60';
-  timer = setInterval(increaseLength, 1000 / drawFPS);
+    length = 0;
+    orig.style.stroke = '#f60';
+    timer = setInterval(increaseLength, 1000 / drawFPS);
 }
 
 function increaseLength() {
@@ -30,9 +30,9 @@ function increaseLength() {
 }
 
 function stopDrawingPath() {
-  clearInterval(timer);
-  orig.style.stroke = '';
-  orig.style.strokeDasharray = '';
+    clearInterval(timer);
+    orig.style.stroke = '';
+    orig.style.strokeDasharray = '';
 }
 
 orig.addEventListener('mouseover',startDrawingPath,false);
