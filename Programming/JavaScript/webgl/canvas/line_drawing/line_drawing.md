@@ -189,3 +189,7 @@ function animateDrawing() {
     nextPoint = i;
 }
 ```
+
+This processes the string (copied straight out of the SVG source for a curved line) and uses a timeout to draw it a bit at a time. First, the string is broken into instructions based on the space character.
+
+
