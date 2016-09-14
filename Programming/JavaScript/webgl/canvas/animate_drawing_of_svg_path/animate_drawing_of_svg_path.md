@@ -8,11 +8,11 @@ Relavant code:
 
 ```js
 var distancePerPoint = 1;
-var drawFPS          = 60;
+var drawFPS = 60;
 
-var orig = document.querySelector('path'), length, timer;
-orig.addEventListener('mouseover',startDrawingPath,false);
-orig.addEventListener('mouseout', stopDrawingPath, false);
+var orig = document.querySelector('path');
+var length;
+var timer;
 
 function startDrawingPath(){
   length = 0;
