@@ -222,7 +222,7 @@ function drawOutput(drawObj) {
         case 'q':
             context.quadraticCurveTo(draw_obj.buffer[1][0], draw_obj.buffer[1][1],  draw_obj.buffer[2][0], draw_obj.buffer[2][1]);
             break;
-        default;
+        default:
             break;
         }
         
