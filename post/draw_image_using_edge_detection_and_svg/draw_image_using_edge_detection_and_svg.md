@@ -42,3 +42,9 @@ You can drag and drop any image. It will work better with images with areas with
 You may wonder how this works, who doesn’t?
 
 ### Canvas
+
+First, the image that you drop is drawn into a canvas that has a maximum size. If the image exceeds that size, it is downscaled. This allows us to process larger images without making the browser become super slow. The smallest the canvas, the fastest, but also the less accurate would be the SVG lines.
+
+Then, there is the core process: detecting edges and creating SVG lines out of them.
+
+
