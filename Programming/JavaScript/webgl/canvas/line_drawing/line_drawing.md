@@ -179,9 +179,10 @@ function animateDrawing() {
 			
 			i += 1;
 			current_point = i;
+			break
 		 }
 		 default:
-		    break
+		    break;
     }
 }
 ```
