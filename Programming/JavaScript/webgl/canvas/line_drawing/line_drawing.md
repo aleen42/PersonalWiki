@@ -71,5 +71,11 @@ function random_coord(type) {
 
 (function() {
     canv = document.getElementById('glow');
+    
+    if (!canv || !canv.getContext) {
+        return;
+    }
+    
+    context = canv.getContext('2d');
 })();
 ```
