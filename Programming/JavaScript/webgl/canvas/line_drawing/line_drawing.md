@@ -125,7 +125,7 @@ As it turned out, that wasn't too difficult, and this is the result of that pars
 var currentPoint = 0;
 var nextPoint = 0;
 
-function animateDrawing(path) {
+function animateDrawing() {
     var points = path.split(' ');
 	var drawPart = {
 	    type: 'm',
