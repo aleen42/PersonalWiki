@@ -68,4 +68,8 @@ function random_coord(type) {
 	dimension = (type === 'x') ? canv.width : canv.height;
 	return Math.random() * (dimension - 2 * step) + step;
 }
+
+(function() {
+    canv = document.getElementById('glow');
+})();
 ```
