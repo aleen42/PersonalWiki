@@ -118,3 +118,17 @@ C 132.07442,172.84968 139.59482,171.3636 151.84309,171.76866
 ```
 
 That's basically a `moveTo` command followed by two `curveTo` commands.
+
+As it turned out, that wasn't too difficult, and this is the result of that parser:
+
+```js
+function animateDrawing() {
+    var points = path.split(' ');
+	var draw_part = {
+	    type: 'm',
+	    buffer: new Array()
+    };
+    
+    
+}
+```
