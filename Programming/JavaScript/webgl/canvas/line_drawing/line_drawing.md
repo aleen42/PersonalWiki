@@ -238,6 +238,17 @@ Then run:
 
 ```js
 (function () {
-    
+    canv = document.getElementById("drawing");
+	
+	if (!canv || !canv.getContext)
+		return;
+	}
+	
+	context = canv.getContext("2d");
+
+	context.fillStyle = "#000";
+	context.fillRect(0, 0, canv.width, canv.height);
+
+	animate_drawing()
 })();
 ```
