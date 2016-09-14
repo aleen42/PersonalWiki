@@ -141,7 +141,14 @@ function animateDrawing() {
     }
     
     for (i = currentPoint; i <= nextPoint; i += 2) {
-        drawPart.type = points[i].toLowerCase()
+        drawPart.type = points[i].toLowerCase();
+        drawPart.buffer.length = 0;
+        
+        if (i >= 2) {
+            drawPart.buffer.push(points[i - 1].split(','));
+        } else {
+            drawPart.buffer.push(new Array(0, 0));
+        }
     }
 }
 ```
