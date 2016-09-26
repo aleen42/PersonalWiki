@@ -67,6 +67,9 @@ function getPixel(i, imgData) {
     }
 }
 
+function calculateGray() {
+
+
 function grayscale(canvas) {
     var ctx = canvas.getContext('2d');
 
