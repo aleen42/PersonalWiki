@@ -526,6 +526,25 @@ function calcBetweenClassVariance(weight1, mean1, weight2, mean2) {
     return weight1 * weight2 * (mean1 - mean2) * (mean1 - mean2);
 };
 
+function calcWeight(histogram, s, e) {
+    var total = histogram.reduce(function(i, j) {
+        return i + j; }, 0);
+    var partHist = (s === e) ? [histogram[s]] : histogram.slice(s, e);
+    var part = partHist.reduce(function(i, j) {
+        return i + j; }, 0);
+    return parseFloat(part, 10) / total;
+};
+
+function calcMean(histogram, s, e) {
+    var partHist = (s === e) ? [histogram[s]] : histogram.slice(s, e);
+    var val = total = 0;
+    partHist.forEach(function(el, i) {
+        val += ((s + i) * el);
+        total += el;
+    });
+    return parseFloat(val, 10) / total;
+};
+
 function fastOtsu(canvas) {
     var histogram = exports.createHistogram(canvas);
     var start = 0;
