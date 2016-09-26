@@ -528,10 +528,14 @@ function calcBetweenClassVariance(weight1, mean1, weight2, mean2) {
 
 function calcWeight(histogram, s, e) {
     var total = histogram.reduce(function(i, j) {
-        return i + j; }, 0);
+        return i + j;
+    }, 0);
+    
     var partHist = (s === e) ? [histogram[s]] : histogram.slice(s, e);
     var part = partHist.reduce(function(i, j) {
-        return i + j; }, 0);
+        return i + j;
+    }, 0);
+    
     return parseFloat(part, 10) / total;
 };
 
