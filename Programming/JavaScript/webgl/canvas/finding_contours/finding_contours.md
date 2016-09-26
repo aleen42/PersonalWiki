@@ -213,7 +213,7 @@ Before using gradient, we are going to export a module, which is used for pixel 
         this.canvas = canvas;
 
         DIRECTIONS.map(function(d, idx) {
-            that.neighbors.push(that[d]());
+            this.neighbors.push(this[d]());
         }.bind(this));
     }
 
