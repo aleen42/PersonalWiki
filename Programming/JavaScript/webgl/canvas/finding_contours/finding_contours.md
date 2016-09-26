@@ -480,6 +480,6 @@ function nonMaximumSuppress (canvas, dirMap, gradMap) {
         }
     });
     
-    
+    ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
