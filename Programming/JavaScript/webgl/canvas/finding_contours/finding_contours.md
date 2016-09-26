@@ -630,7 +630,7 @@ function hysteresis(canvas) {
     var t2 = t1 / 2;
 
     /** first pass */
-    runImg(cavnas, null, function(current) {
+    runImg(canvas, null, function(current) {
         if (imgDataCopy.data[current] > t1 && realEdges[current] === undefined) {
             /** accept as a definite edge */
             var group = _traverseEdge(current, imgDataCopy, t2, []);
