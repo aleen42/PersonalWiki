@@ -510,7 +510,7 @@ function hysteresis(canvas) {
     /** low threshold value */
     var t2 = t1 / 2;
 
-    //first pass
+    /** first pass */
     console.time('Hysteresis Time');
     this.canvas.runImg(null, function(current) {
         if (imgDataCopy.data[current] > t1 && realEdges[current] === undefined) { //accept as a definite edge
@@ -521,7 +521,7 @@ function hysteresis(canvas) {
         }
     });
 
-    //second pass
+    /** second pass */
     this.canvas.runImg(null, function(current) {
         if (realEdges[current] === undefined) {
             that.canvas.setPixel(current, 0, imgDataCopy);
