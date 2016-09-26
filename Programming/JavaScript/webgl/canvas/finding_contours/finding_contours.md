@@ -50,7 +50,7 @@ function getRGBA(i, imgData) {
         r: imgData.data[start],
         g: imgData.data[start + 1],
         b: imgData.data[start + 2],
-        a：imgData.data[start + 3]
+        a: imgData.data[start + 3]
     };
 }
 
