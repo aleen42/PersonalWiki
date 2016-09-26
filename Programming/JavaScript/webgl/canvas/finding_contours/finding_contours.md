@@ -294,6 +294,8 @@ Before using gradient, we are going to export a module, which is used for pixel 
 }(this));
 ```
 
+Then here we are going to complete the gradient part:
+
 ```js
 function gradient(canvas, op) {
     var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
