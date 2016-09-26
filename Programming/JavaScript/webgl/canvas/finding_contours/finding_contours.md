@@ -304,6 +304,58 @@ function gradient(canvas, op) {
     var dirMap = [];
     var grapMap = [];
     
+    var SOBEL_X_FILTER = [
+        [-1, 0, 1],
+        [-2, 0, 2],
+        [-1, 0, 1]
+    ];
+    
+    var SOBEL_Y_FILTER = [
+        [1, 2, 1],
+        [0, 0, 0],
+        [-1, -2, -1]
+    ];
+    
+    var ROBERTS_X_FILTER = [
+        [1, 0],
+        [0, -1]
+    ];
+    
+    var ROBERTS_Y_FILTER = [
+        [0, 1],
+        [-1, 0]
+    ];
+    
+    var PREWITT_X_FILTER = [
+        [-1, 0, 1],
+        [-1, 0, 1],
+        [-1, 0, 1]
+    ];
+    
+    var PREWITT_Y_FILTER = [
+        [-1, -1, -1],
+        [0, 0, 0],
+        [1, 1, 1]
+    ];
+
+    var OPERATORS = {
+        'sobel': {
+            x: SOBEL_X_FILTER,
+            y: SOBEL_Y_FILTER,
+            len: SOBEL_X_FILTER.length
+        },
+        'roberts': {
+            x: ROBERTS_X_FILTER,
+            y: ROBERTS_Y_FILTER,
+            len: ROBERTS_Y_FILTER.length
+        },
+        "prewitt": {
+            x: PREWITT_X_FILTER,
+            y: PREWITT_Y_FILTER,
+            len: PREWITT_Y_FILTER.length
+        }
+    };
+    
     runImg(canvas, 3, function (current, neighbors) {
         var edgeX = 0;
         var edgeY = 0;
