@@ -554,11 +554,11 @@ function hysteresis(canvas) {
     });
 
     /** second pass */
-    this.canvas.runImg(null, function(current) {
+    runImg(canvas, null, function(current) {
         if (realEdges[current] === undefined) {
-            that.canvas.setPixel(current, 0, imgDataCopy);
+            setPixel(current, 0, imgDataCopy);
         } else {
-            that.canvas.setPixel(current, 255, imgDataCopy);
+            setPixel(current, 255, imgDataCopy);
         }
     });
     console.timeEnd('Hysteresis Time');
