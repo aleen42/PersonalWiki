@@ -18,7 +18,32 @@ function grayscale(canvas) {
 
     var imageDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var grayLevel;
-    
-    
 };
+
+function runImg(size, fn) {
+    for (var y = 0; y < this.height; y++) {
+        for (var x = 0; x < this.width; x++) {
+            var i = x * 4 + y * this.width * 4;
+            var matrix = getMatrix(x, y, size);
+            fn(i, matrix);
+        }
+    }
+
+    function getMatrix(cx, cy, size) {
+        /**
+         * will generate a 2d array of sizexsize given center x, center y, size, image width & height
+         */
+        if (!size) {
+            return;
+        }
+        var matrix = [];
+        for (var i = 0, y = -(size - 1) / 2; i < size; i++, y++) {
+            matrix[i] = [];
+            for (var j = 0, x = -(size - 1) / 2; j < size; j++, x++) {
+                matrix[i][j] = (cx + x) * 4 + (cy + y) * that.width * 4;
+            }
+        }
+        return matrix;
+    }
+}
 ```
