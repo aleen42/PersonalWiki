@@ -497,8 +497,11 @@ In this process, we will extract weak edges from the strong one. That's the impr
 
 ```js
 function _traverseEdge(current, imgData, threshold, traversed) { 
-    //traverses the current pixel until a length has been reached
-    var group = [current]; //initialize the group from the current pixel's perspective
+    /**
+     * traverses the current pixel until a length has been reached 
+     * initialize the group from the current pixel's perspective
+     */
+    var group = [current];
     var neighbors = getEdgeNeighbors(current, imgData, threshold, traversed); //pass the traversed group to the getEdgeNeighbors so that it will not include those anymore
     for (var i = 0; i < neighbors.length; i++) {
         group = group.concat(this._traverseEdge(neighbors[i], imgData, threshold, traversed.concat(group))); //recursively get the other edges connected
