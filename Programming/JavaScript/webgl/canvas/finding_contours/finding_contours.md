@@ -507,10 +507,12 @@ function _traverseEdge(current, imgData, threshold, traversed) {
     var neighbors = getEdgeNeighbors(current, imgData, threshold, traversed);
     
     for (var i = 0; i < neighbors.length; i++) {
-        /** recursively get the other edges connected *
+        /** recursively get the other edges connected */
         group = group.concat(_traverseEdge(neighbors[i], imgData, threshold, traversed.concat(group)));
     }
-    return group; //if the pixel group is not above max length, it will return the pixels included in that small pixel group
+    
+    /** if the pixel group is not above max length, it will return the pixels included in that small pixel group */
+    return group;
 }
 
 function hysteresis(canvas) {
