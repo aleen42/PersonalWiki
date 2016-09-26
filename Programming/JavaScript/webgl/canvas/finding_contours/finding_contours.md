@@ -527,11 +527,15 @@ function fastOtsu(canvas) {
     var histogram = exports.createHistogram(canvas);
     var start = 0;
     var end = histogram.g.length - 1;
-    var leftWeight, rightWeight,
-        leftMean, rightMean;
+    
+    var leftWeight;
+    var rightWeight;
+    var leftMean;
+    var rightMean;
+    
     var betweenClassVariances = [];
-    var max = -Infinity,
-        threshold;
+    var max = -Infinity;
+    var threshold;
 
     histogram.g.forEach(function(el, i) {
         leftWeight = exports.calcWeight(histogram.g, start, i);
