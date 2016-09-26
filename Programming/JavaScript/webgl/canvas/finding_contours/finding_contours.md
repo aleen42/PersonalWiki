@@ -496,6 +496,16 @@ function nonMaximumSuppress(canvas, dirMap, gradMap) {
 In this process, we will extract weak edges from the strong one. That's the improvement of the algorithm, Canny Edge Detection.
 
 ```js
+function getEdgeNeighbors(i, imgData, threshold, includedEdges) {
+    var neighbors = [],
+        pixel = new Pixel(i, imgData.width, imgData.height);
+    for (var j = 0; j < pixel.neighbors.length; j++)
+        if (imgData.data[pixel.neighbors[j]] >= threshold && (includedEdges === undefined || includedEdges.indexOf(pixel.neighbors[j]) === -1))
+            neighbors.push(pixel.neighbors[j]);
+
+    return neighbors;
+}
+
 function _traverseEdge(current, imgData, threshold, traversed) { 
     /**
      * traverses the current pixel until a length has been reached 
