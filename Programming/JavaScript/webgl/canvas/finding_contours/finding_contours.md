@@ -502,10 +502,10 @@ function getEdgeNeighbors(i, imgData, threshold, includedEdges) {
     
     for (var j = 0; j < pixel.neighbors.length; j++) {
         if (imgData.data[pixel.neighbors[j]] >= threshold && (includedEdges === undefined || includedEdges.indexOf(pixel.neighbors[j]) === -1)) {
-        
             neighbors.push(pixel.neighbors[j]);
         }
     }
+    
     return neighbors;
 }
 
