@@ -361,6 +361,15 @@ function gradient(canvas, op) {
         var edgeY = 0;
         var pixel = new Pixel(current, imgDataCopy.width, imgDataCopy.height);
         
+        if (!pixel.isBorder()) {
+            for (var i = 0; i < OPERATORS[op].len; i++) {
+                for (var j = 0; j < OPERATORS[op].len; j++) {
+                    edgeX += imgData.data[neighbors[i][j]] * OPERATORS[op]["x"][i][j];
+                    edgeY += imgData.data[neighbors[i][j]] * OPERATORS[op]["y"][i][j];
+                }
+            }
+        }
+        
     });
 }
 ```
