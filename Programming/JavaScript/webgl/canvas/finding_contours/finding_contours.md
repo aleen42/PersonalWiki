@@ -370,6 +370,10 @@ function gradient(canvas, op) {
             }
         }
         
+        dirMap[current] = roundDir(Math.atan2(edgeY, edgeX) * (180 / Math.PI));
+        gradMap[current] = Math.round(Math.sqrt(edgeX * edgeX + edgeY * edgeY));
+
+        setPixel(current, gradMap[current], imgDataCopy);
     });
 }
 ```
