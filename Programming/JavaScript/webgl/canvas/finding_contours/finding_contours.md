@@ -100,5 +100,9 @@ function grayscale(canvas) {
 Gaussian Blur is used to increase the accuracy of contours finding.
 
 ```js
-
+function gaussianBlur(canvs, sigma, size) {
+    var ctx = canvas.getContext('2d');
+    
+    var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
+}
 ```
