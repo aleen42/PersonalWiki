@@ -170,5 +170,7 @@ function gaussianBlur(canvs, sigma, size) {
             b: resultB
         }, imgDataCopy);
     });
+    
+    ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
