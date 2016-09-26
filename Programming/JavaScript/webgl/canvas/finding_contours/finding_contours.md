@@ -349,7 +349,7 @@ function gradient(canvas, op) {
             y: ROBERTS_Y_FILTER,
             len: ROBERTS_Y_FILTER.length
         },
-        "prewitt": {
+        'prewitt': {
             x: PREWITT_X_FILTER,
             y: PREWITT_Y_FILTER,
             len: PREWITT_Y_FILTER.length
