@@ -496,8 +496,14 @@ function nonMaximumSuppress(canvas, dirMap, gradMap) {
 In this process, we will extract weak edges from the strong one. That's the improvement of the algorithm, Canny Edge Detection.
 
 ```js
-function _traverseEdge() {
-}
+function _traverseEdge(current, imgData, threshold, traversed) { //traverses the current pixel until a length has been reached
+        var group = [current]; //initialize the group from the current pixel's perspective
+        var neighbors = getEdgeNeighbors(current, imgData, threshold, traversed); //pass the traversed group to the getEdgeNeighbors so that it will not include those anymore
+        for (var i = 0; i < neighbors.length; i++) {
+            group = group.concat(this._traverseEdge(neighbors[i], imgData, threshold, traversed.concat(group))); //recursively get the other edges connected
+        }
+        return group; //if the pixel group is not above max length, it will return the pixels included in that small pixel group
+    };
 
 function hysteresis(canvas) {
     var ctx = canvas.getContext('2d');
