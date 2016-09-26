@@ -231,9 +231,11 @@ Before using gradient, we are going to export a module, which is used for pixel 
     **/
 
     Pixel.prototype.n = function() {
-        // pixels are simply arrays in canvas image data
-        // where 1 pixel occupies 4 consecutive elements
-        // equal to r-g-b-a
+        /**
+         * pixels are simply arrays in canvas image data
+         * where 1 pixel occupies 4 consecutive elements
+         * equal to r-g-b-a
+         */
         return (this.index - this.width * 4);
     };
 
