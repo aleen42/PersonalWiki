@@ -537,7 +537,7 @@ function hysteresis(canvas) {
     var realEdges = [];
     
     /** high threshold value */
-    var t1 = fastOtsu(this.canvas);
+    var t1 = fastOtsu(canvas);
     
     /** low threshold value */
     var t2 = t1 / 2;
