@@ -298,6 +298,8 @@ Then here we are going to complete the gradient part:
 
 ```js
 function gradient(canvas, op) {
+    var ctx = canvas.getContext('2d');
+
     var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     
