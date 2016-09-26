@@ -45,7 +45,7 @@ function runImg(canvas, size, fn) {
     }
 }
 
-function getRGBA(i, imgData) {
+function getRGBA(start, imgData) {
     return {
         r: imgData.data[start],
         g: imgData.data[start + 1],
