@@ -511,7 +511,6 @@ function hysteresis(canvas) {
     var t2 = t1 / 2;
 
     /** first pass */
-    console.time('Hysteresis Time');
     this.canvas.runImg(null, function(current) {
         if (imgDataCopy.data[current] > t1 && realEdges[current] === undefined) { //accept as a definite edge
             var group = that._traverseEdge(current, imgDataCopy, t2, []);
