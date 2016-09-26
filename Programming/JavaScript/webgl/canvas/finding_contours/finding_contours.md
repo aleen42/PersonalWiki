@@ -164,7 +164,11 @@ function gaussianBlur(canvs, sigma, size) {
             }
         }
         
-        setPixel(current, { r: resultR, g: resultG, b: resultB }, imgDataCopy);
+        setPixel(current, {
+            r: resultR,
+            g: resultG,
+            b: resultB
+        }, imgDataCopy);
     });
 }
 ```
