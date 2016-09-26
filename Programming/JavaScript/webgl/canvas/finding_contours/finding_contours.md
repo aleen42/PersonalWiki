@@ -460,7 +460,7 @@ function getPixelNeighbors(dir) {
     return degrees[dir];
 };
 
-function nonMaximumSuppress (canvas, dirMap, gradMap) {
+function nonMaximumSuppress(canvas, dirMap, gradMap) {
     var ctx = canvas.getContext('2d');
     
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
