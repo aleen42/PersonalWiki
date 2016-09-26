@@ -114,6 +114,8 @@ function generateKernel(sigma, size) {
             kernel[i][j] = 1 / (2 * Math.PI * Math.pow(sigma, 2)) * Math.pow(E, -(Math.pow(Math.abs(x), 2) + Math.pow(Math.abs(y), 2)) / (2 * Math.pow(sigma, 2)));
         }
     }
+    
+    /** normalize the kernel to make its sum 1 */
 }
 
 function gaussianBlur(canvs, sigma, size) {
