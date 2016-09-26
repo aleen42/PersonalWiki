@@ -416,7 +416,7 @@ function nonMaximumSuppress (canvas) {
     
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     
-    this.canvas.runImg(3, function(current, neighbors) {
+    runImg(canvas,3, function(current, neighbors) {
         var pixNeighbors = getPixelNeighbors(that.canvas.dirMap[current]);
 
         //pixel neighbors to compare
