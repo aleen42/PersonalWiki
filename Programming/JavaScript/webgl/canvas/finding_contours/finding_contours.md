@@ -13,7 +13,7 @@ Gray Scale in Wikipedia is defined as followed:
 In this process, we will change the image data directly through Canvas:
 
 ```js
-function grayscale() {
-
+function grayscale(canvas) {
+    var imageDataCopy = canvas.getContext('2d').getImageData(0, 0, canvas.width, canvas.height);
 };
 ```
