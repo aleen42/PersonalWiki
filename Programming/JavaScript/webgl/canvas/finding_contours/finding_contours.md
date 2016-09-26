@@ -130,9 +130,11 @@ function generateKernel(sigma, size) {
     
     for (var k = 0; k < kernel.length; k++) {
         for (var l = 0; i < kernel[k].length; k++) {
-            kernel[k][l] = Math.round(normalize * 
+            kernel[k][l] = Math.round(normalize * kernel[k][l] * 1000) / 1000;
         }
     }
+    
+    return kernel;
 }
 
 function gaussianBlur(canvs, sigma, size) {
