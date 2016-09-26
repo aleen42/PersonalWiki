@@ -133,7 +133,7 @@ function generateKernel(sigma, size) {
     var normalize = 1 / sumArr(kernel);
     
     for (var k = 0; k < kernel.length; k++) {
-        for (var l = 0; i < kernel[k].length; k++) {
+        for (var l = 0; l < kernel[k].length; l++) {
             kernel[k][l] = Math.round(normalize * kernel[k][l] * 1000) / 1000;
         }
     }
