@@ -54,7 +54,7 @@ function getPixel(canvas, i, imgData) {
             a: 255
         };
     } else {
-        return this.getRGBA(i, imgData);
+        return getRGBA(i, imgData);
     }
 }
 
