@@ -104,7 +104,7 @@ function sumArr(arr) {
     var result = 0;
     
     arr.map(function(element, index) {
-        result += (/^\s*function Array/.test(String(element.constructor))) ? exports.sumArr(element) : element;
+        result += (/^\s*function Array/.test(String(element.constructor))) ?.sumArr(element) : element;
     });
 }
 
