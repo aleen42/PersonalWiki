@@ -84,6 +84,20 @@ function gaussianBlur(canvs, sigma, size) {
     var kernel = generateKernel(sigma, size);
     
     runImg(canvas, size, function (current, neighbors) {
+        var resultR = 0;
+        var resultG = 0;
+        var resultB = 0;
+        var pixel;
+            
+        for (var i = 0; i < size; i++) {
+            for (var j = 0; j < size; j++) {
+                pixel = getPixel(neighbors[i][j], imgDataCopy);
+                resultR += pixel.r * kernel[i][j]; //return the existing pixel value multiplied by the kernel
+                resultG += pixel.g * kernel[i][j];
+                resultB += pixel.b * kernel[i][j];
+            }
+        }
+        that.canvas.setPixel(current, { r: resultR, g: resultG, b: resultB }, imgDataCopy);
     });
 }
 ```
