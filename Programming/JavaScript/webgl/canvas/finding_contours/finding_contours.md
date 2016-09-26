@@ -20,10 +20,10 @@ function grayscale(canvas) {
     var grayLevel;
 };
 
-function runImg(size, fn) {
-    for (var y = 0; y < this.height; y++) {
-        for (var x = 0; x < this.width; x++) {
-            var i = x * 4 + y * this.width * 4;
+function runImg(canvas, size, fn) {
+    for (var y = 0; y < canvas.height; y++) {
+        for (var x = 0; x < canvas.width; x++) {
+            var i = x * 4 + y * canvas.width * 4;
             var matrix = getMatrix(x, y, size);
             fn(i, matrix);
         }
