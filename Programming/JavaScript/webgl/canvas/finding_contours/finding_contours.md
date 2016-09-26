@@ -406,6 +406,6 @@ function gradient(canvas, op) {
 
 ### Canny Non-maximum Suppression
 
-Non-maximum suppression is an edge thinning technique.
+Non-maximum suppression is an **edge thinning** technique.
 
 Non-Maximum suppression is applied to "thin" the edge. After applying gradient calculation, the edge extracted from the gradient value is still quite blurred. With respect to criterion 3, there should only be one accurate response to the edge. Thus non-maximum suppression can help to suppress all the gradient values to 0 except the local maximal, which indicates location with the sharpest change of intensity value.
