@@ -192,6 +192,7 @@ In this step, we are going to find the intensity gradient (*G*) of the image. Be
 
 ```js
 function gradient(canvas, op) {
+    var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
 }
 ```
