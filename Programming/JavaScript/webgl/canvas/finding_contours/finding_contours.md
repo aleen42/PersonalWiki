@@ -14,6 +14,8 @@ In this process, we will change the image data directly through Canvas:
 
 ```js
 function grayscale(canvas) {
+    var ctx = canvas.getContext('2d');
+
     var imageDataCopy = canvas.getContext('2d').getImageData(0, 0, canvas.width, canvas.height);
 };
 ```
