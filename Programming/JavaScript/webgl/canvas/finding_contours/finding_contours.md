@@ -94,3 +94,7 @@ function grayscale(canvas) {
     ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
+
+### Gaussian Blur
+
+Gaussian Blur is used to increase the accuracy of contours finding
