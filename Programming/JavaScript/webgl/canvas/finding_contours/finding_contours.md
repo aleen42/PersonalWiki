@@ -493,4 +493,4 @@ function nonMaximumSuppress(canvas, dirMap, gradMap) {
 
 ### Canny Hysteresis
 
-In this process, we will extract weak edges from the storng one.
+In this process, we will extract weak edges from the strong one. That's the improvement of the algorithm, Canny Edge Detection.
