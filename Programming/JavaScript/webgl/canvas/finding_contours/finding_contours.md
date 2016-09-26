@@ -297,6 +297,21 @@ Before using gradient, we are going to export a module, which is used for pixel 
 Then here we are going to complete the gradient part:
 
 ```js
+function roundDir(deg) {
+    /** rounds degrees to 4 possible orientations: horizontal, vertical, and 2 diagonals */
+    var deg = deg < 0 ? deg + 180 : deg;
+
+    if ((deg >= 0 && deg <= 22.5) || (deg > 157.5 && deg <= 180)) {
+        return 0;
+    } else if (deg > 22.5 && deg <= 67.5) {
+        return 45;
+    } else if (deg > 67.5 && deg <= 112.5) {
+        return 90;
+    } else if (deg > 112.5 && deg <= 157.5) {
+        return 135;
+    }
+};
+
 function gradient(canvas, op) {
     var ctx = canvas.getContext('2d');
 
