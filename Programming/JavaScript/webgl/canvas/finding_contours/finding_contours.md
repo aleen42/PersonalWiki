@@ -163,7 +163,8 @@ function gaussianBlur(canvs, sigma, size) {
                 resultB += pixel.b * kernel[i][j];
             }
         }
-        that.canvas.setPixel(current, { r: resultR, g: resultG, b: resultB }, imgDataCopy);
+        
+        setPixel(current, { r: resultR, g: resultG, b: resultB }, imgDataCopy);
     });
 }
 ```
