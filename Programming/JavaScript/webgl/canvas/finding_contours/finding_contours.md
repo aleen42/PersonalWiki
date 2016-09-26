@@ -17,5 +17,6 @@ function grayscale(canvas) {
     var ctx = canvas.getContext('2d');
 
     var imageDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    var grayLevel;
 };
 ```
