@@ -4,6 +4,70 @@ Here I want to talk about how to find contours of a bitmap image in Canvas, and 
 
 Firstly, the whole process of finding can be simply described as: **Gray Scale** -> **Gaussian Blur** -> **Canny Gradient** -> **Canny Non-maximum Suppression** -> **Canny Hysteresis** -> **Scanning**
 
+Before introducing all that process, we are going to set up some common functions first:
+
+```js
+function runImg(canvas, size, fn) {
+    for (var y = 0; y < canvas.height; y++) {
+        for (var x = 0; x < canvas.width; x++) {
+            var i = x * 4 + y * canvas.width * 4;
+            var matrix = getMatrix(x, y, size);
+            fn(i, matrix);
+        }
+    }
+
+    function getMatrix(cx, cy, size) {
+        /**
+         * will generate a 2d array of size x size given center x,
+         * center y, size, image width & height
+         */
+        if (!size) {
+            return;
+        }
+        
+        var matrix = [];
+        
+        for (var i = 0, y = -(size - 1) / 2; i < size; i++, y++) {
+            matrix[i] = [];
+            
+            for (var j = 0, x = -(size - 1) / 2; j < size; j++, x++) {
+                matrix[i][j] = (cx + x) * 4 + (cy + y) * canvas.width * 4;
+            }
+        }
+        
+        return matrix;
+    }
+}
+
+function getRGBA(start, imgData) {
+    return {
+        r: imgData.data[start],
+        g: imgData.data[start + 1],
+        b: imgData.data[start + 2],
+        a: imgData.data[start + 3]
+    };
+}
+
+function getPixel(i, imgData) {
+    if (i < 0 || i > imgData.data.length - 4) {
+        return {
+            r: 255,
+            g: 255,
+            b: 255,
+            a: 255
+        };
+    } else {
+        return getRGBA(i, imgData);
+    }
+}
+
+function setPixel(i, val, imgData) {
+    imgData.data[i] = typeof val === 'number' ? val : val.r;
+    imgData.data[i + 1] = typeof val === 'number' ? val : val.g;
+    imgData.data[i + 2] = typeof val === 'number' ? val : val.b;
+}
+```
+
 ### Gray Scale
 
 Gray Scale in Wikipedia is defined as followed:
