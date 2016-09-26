@@ -118,7 +118,7 @@ function generateKernel(sigma, size) {
     var kernel = [];
     
     /** Euler's number rounded of to 3 places */
-    var E = 2.78;
+    var E = 2.718;
     
     for (var y = -(size - 1) / 2, i = 0; i < size; y++, i++) {
         kernel[i] = [];
