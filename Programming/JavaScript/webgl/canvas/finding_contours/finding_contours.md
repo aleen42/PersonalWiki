@@ -83,6 +83,7 @@ function gaussianBlur(canvs, sigma, size) {
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var kernel = generateKernel(sigma, size);
     
-    runImg
+    runImg(canvas, size, function (current, neighbors) {
+    });
 }
 ```
