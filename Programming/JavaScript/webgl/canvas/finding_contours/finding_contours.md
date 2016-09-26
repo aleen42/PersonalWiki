@@ -268,19 +268,19 @@ Before using gradient, we are going to export a module, which is used for pixel 
     };
 
     Pixel.prototype.r = function() {
-        return this.cnvs[this.index];
+        return this.canvas[this.index];
     };
 
     Pixel.prototype.g = function() {
-        return this.cnvs[this.index + 1];
+        return this.canvas[this.index + 1];
     };;
 
     Pixel.prototype.b = function() {
-        return this.cnvs[this.index + 2];
+        return this.canvas[this.index + 2];
     };
 
     Pixel.prototype.a = function() {
-        return this.cnvs[this.index + 3];
+        return this.canvas[this.index + 3];
     };
 
     Pixel.prototype.isBorder = function() {
