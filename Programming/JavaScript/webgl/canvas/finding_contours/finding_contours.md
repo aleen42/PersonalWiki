@@ -568,11 +568,12 @@ function fastOtsu(canvas) {
     var threshold;
 
     histogram.g.forEach(function(el, i) {
-        leftWeight = exports.calcWeight(histogram.g, start, i);
-        rightWeight = exports.calcWeight(histogram.g, i, end + 1);
-        leftMean = exports.calcMean(histogram.g, start, i);
-        rightMean = exports.calcMean(histogram.g, i, end + 1);
+        leftWeight = calcWeight(histogram.g, start, i);
+        rightWeight = calcWeight(histogram.g, i, end + 1);
+        leftMean = calcMean(histogram.g, start, i);
+        rightMean = calcMean(histogram.g, i, end + 1);
         betweenClassVariances[i] = calcBetweenClassVariance(leftWeight, leftMean, rightWeight, rightMean);
+        
         if (betweenClassVariances[i] > max) {
             max = betweenClassVariances[i];
             threshold = i;
