@@ -156,7 +156,9 @@ function gaussianBlur(canvs, sigma, size) {
         for (var i = 0; i < size; i++) {
             for (var j = 0; j < size; j++) {
                 pixel = getPixel(neighbors[i][j], imgDataCopy);
-                resultR += pixel.r * kernel[i][j]; //return the existing pixel value multiplied by the kernel
+                
+                /** return the existing pixel value multiplied by the kernel */
+                resultR += pixel.r * kernel[i][j];
                 resultG += pixel.g * kernel[i][j];
                 resultB += pixel.b * kernel[i][j];
             }
