@@ -141,7 +141,7 @@ function generateKernel(sigma, size) {
     return kernel;
 }
 
-function gaussianBlur(canvs, sigma, size) {
+function gaussianBlur(canvas, sigma, size) {
     var ctx = canvas.getContext('2d');
     
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
