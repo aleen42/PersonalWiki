@@ -496,6 +496,22 @@ function nonMaximumSuppress(canvas, dirMap, gradMap) {
 In this process, we will extract weak edges from the strong one. That's the improvement of the algorithm, Canny Edge Detection.
 
 ```js
+function createHistogram(canvas) {
+    var histogram = {
+        g: [] },
+        size = 256,
+        total = 0,
+        imgData = cvs.getCurrImgData();
+    while (size--) histogram.g[size] = 0;
+    cvs.runImg(null, function(i) {
+        histogram.g[imgData.data[i]]++;
+        total++;
+    });
+    histogram.length = total;
+    return histogram;
+};
+
+
 function fastOtsu(canvas) {
     var histogram = exports.createHistogram(canvas);
     var start = 0;
