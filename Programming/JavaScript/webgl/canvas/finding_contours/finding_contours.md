@@ -18,5 +18,7 @@ function grayscale(canvas) {
 
     var imageDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var grayLevel;
+    
+    
 };
 ```
