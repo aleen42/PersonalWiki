@@ -45,6 +45,19 @@ function runImg(canvas, size, fn) {
     }
 }
 
+function getPixel(canvas, i, imgData) {
+    if (i < 0 || i > imgData.data.length - 4) {
+        return {
+            r: 255,
+            g: 255,
+            b: 255,
+            a: 255
+        };
+    } else {
+        return this.getRGBA(i, imgData);
+    }
+}
+
 function grayscale(canvas) {
     var ctx = canvas.getContext('2d');
 
