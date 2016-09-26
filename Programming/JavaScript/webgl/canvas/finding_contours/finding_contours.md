@@ -496,6 +496,9 @@ function nonMaximumSuppress(canvas, dirMap, gradMap) {
 In this process, we will extract weak edges from the strong one. That's the improvement of the algorithm, Canny Edge Detection.
 
 ```js
+function _traverseEdge() {
+}
+
 function hysteresis(canvas) {
     var ctx = canvas.getContext('2d');
     
@@ -511,8 +514,9 @@ function hysteresis(canvas) {
     var t2 = t1 / 2;
 
     /** first pass */
-    this.canvas.runImg(null, function(current) {
-        if (imgDataCopy.data[current] > t1 && realEdges[current] === undefined) { //accept as a definite edge
+    runImg(cavnas, null, function(current) {
+        if (imgDataCopy.data[current] > t1 && realEdges[current] === undefined) {
+            /** accept as a definite edge */
             var group = that._traverseEdge(current, imgDataCopy, t2, []);
             for (var i = 0; i < group.length; i++) {
                 realEdges[group[i]] = true;
