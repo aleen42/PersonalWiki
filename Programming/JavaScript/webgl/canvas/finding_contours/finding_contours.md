@@ -37,11 +37,12 @@ function runImg(canvas, size, fn) {
         if (!size) {
             return;
         }
+        
         var matrix = [];
         for (var i = 0, y = -(size - 1) / 2; i < size; i++, y++) {
             matrix[i] = [];
             for (var j = 0, x = -(size - 1) / 2; j < size; j++, x++) {
-                matrix[i][j] = (cx + x) * 4 + (cy + y) * that.width * 4;
+                matrix[i][j] = (cx + x) * 4 + (cy + y) * canvas.width * 4;
             }
         }
         return matrix;
