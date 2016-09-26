@@ -413,6 +413,53 @@ Non-Maximum suppression is applied to "thin" the edge. After applying gradient c
 In this algorithm, we need to use the value `dirMap` and `gradMap` calculated above.
 
 ```js
+function getPixelNeighbors(dir) {
+    var degrees = {
+        0: [
+            {
+                x: 1,
+                y: 2
+            },
+            {
+                x: 1,
+                y: 0
+            }
+        ],
+        45: [
+            {
+                x: 0,
+                y: 2
+            },
+            {
+                x: 2,
+                y: 0
+            }
+        ],
+        90: [
+            {
+                x: 0,
+                y: 1
+            },
+            {
+                x: 2,
+                y: 1
+            }
+        ],
+        135: [
+            {
+                x: 0,
+                y: 0
+            },
+            {
+                x: 2,
+                y: 2
+            }
+        ]
+    };
+    
+    return degrees[dir];
+};
+
 function nonMaximumSuppress (canvas, dirMap, gradMap) {
     var ctx = canvas.getContext('2d');
     
