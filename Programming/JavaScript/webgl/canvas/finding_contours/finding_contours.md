@@ -1,1 +1,1 @@
-## Animate a progressive drawing of SVG path [Back](./../canvas.md)
+## Finding Contours of a bitmap image [Back](./../canvas.md)
