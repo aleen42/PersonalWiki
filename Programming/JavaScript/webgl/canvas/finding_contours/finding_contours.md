@@ -185,3 +185,5 @@ function gaussianBlur(canvas, sigma, size) {
     ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
+
+### Canny Gradient
