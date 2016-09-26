@@ -188,4 +188,5 @@ function gaussianBlur(canvas, sigma, size) {
 
 ### Canny Gradient
 
-In this step, we are going to find the intensity gradient of the image.
+In this step, we are going to find the intensity gradient (*G*) of the image. Before that, we have to used the value for the first derivative in the horizontal direction (*G<sub>1</sub>*) and the vertical direction (*G<sub>2</sub>*)  
+
