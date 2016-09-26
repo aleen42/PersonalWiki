@@ -504,11 +504,11 @@ function hysteresis(canvas) {
     /** where real edges will be stored with the 1st pass */
     var realEdges = [];
     
-    /** high threshold value
-    t1 = fastOtsu(this.canvas);
+    /** high threshold value */
+    var t1 = fastOtsu(this.canvas);
     
     /** low threshold value */
-    t2 = t1 / 2;
+    var t2 = t1 / 2;
 
     //first pass
     console.time('Hysteresis Time');
