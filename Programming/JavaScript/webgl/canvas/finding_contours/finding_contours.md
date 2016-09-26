@@ -554,7 +554,7 @@ function calcMean(histogram, s, e) {
 };
 
 function fastOtsu(canvas) {
-    var histogram = exports.createHistogram(canvas);
+    var histogram = createHistogram(canvas);
     var start = 0;
     var end = histogram.g.length - 1;
     
