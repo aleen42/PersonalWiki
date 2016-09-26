@@ -213,21 +213,21 @@ Before using gradient, we are going to export a module, which is used for pixel 
         this.canvas = canvas;
 
         DIRECTIONS.map(function(d, idx) {
-            this.neighbors.push(thi[d]());
+            this.neighbors.push(this[d]());
         }.bind(this));
     }
 
     /**
-      This object was created to simplify getting the
-      coordinates of any of the 8 neighboring pixels
-      _______________
-      | NW | N | NE |
-      |____|___|____|
-      | W  | C | E  |
-      |____|___|____|
-      | SW | S | SE |
-      |____|___|____|
-      given the index, width and height of matrix
+     * This object was created to simplify getting the
+     * coordinates of any of the 8 neighboring pixels
+     * _______________
+     * | NW | N | NE |
+     * |____|___|____|
+     * | W  | C | E  |
+     * |____|___|____|
+     * | SW | S | SE |
+     * |____|___|____|
+     * given the index, width and height of matrix
     **/
 
     Pixel.prototype.n = function() {
