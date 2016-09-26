@@ -561,8 +561,7 @@ function hysteresis(canvas) {
             setPixel(current, 255, imgDataCopy);
         }
     });
-    console.timeEnd('Hysteresis Time');
 
-    return imgDataCopy;
+    ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
