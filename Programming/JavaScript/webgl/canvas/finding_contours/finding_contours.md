@@ -80,12 +80,14 @@ function calculateGray(pixel) {
 function grayscale(canvas) {
     var ctx = canvas.getContext('2d');
 
-    var imageDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var grayLevel;
     
     runImg(canvas, null, function (current) {
         grayLevel = calculateGray(getPixel(current, imgDataCopy));
         setPixel(current, grayLevel, imgDataCopy);
     });
+    
+    ctx.pugImageData(imgDataCopy, 0, 0);
 };
 ```
