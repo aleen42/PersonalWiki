@@ -307,7 +307,7 @@ function gradient(canvas, op) {
     runImg(canvas, 3, function (current, neighbors) {
         var edgeX = 0;
         var edgeY = 0;
-        var pixel = new 
+        var pixel = new Pixel(current, imgDataCopy.width, imgDataCopy.height);
         
     });
 }
