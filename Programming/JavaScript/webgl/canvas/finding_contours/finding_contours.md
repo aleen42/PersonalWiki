@@ -105,7 +105,7 @@ function grayscale(canvas) {
 
 ### Gaussian Blur
 
-Gaussian Blur is used to increase the accuracy of contours finding.
+Gaussian Blur is used to increase the accuracy of contours finding, which is also know as the first step of a canny edge detector.
 
 <br />
 
