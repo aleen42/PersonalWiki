@@ -45,7 +45,7 @@ function runImg(canvas, size, fn) {
     }
 }
 
-function getPixel(canvas, i, imgData) {
+function getPixel(i, imgData) {
     if (i < 0 || i > imgData.data.length - 4) {
         return {
             r: 255,
