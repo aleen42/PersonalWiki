@@ -205,17 +205,16 @@ Before using gradient, we are going to export a module, which is used for pixel 
         'sw'    
     ];
 
-    function Pixel(i, w, h, cnvs) {
-        var that = this;
+    function Pixel(i, w, h, canvas) {
         this.index = i;
         this.width = w;
         this.height = h;
         this.neighbors = [];
-        this.cnvs = cnvs;
+        this.canvas = cnvs;
 
         DIRECTIONS.map(function(d, idx) {
             that.neighbors.push(that[d]());
-        });
+        }.bind(this));
     }
 
     /**
