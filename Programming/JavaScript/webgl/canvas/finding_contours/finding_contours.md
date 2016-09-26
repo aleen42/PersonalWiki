@@ -469,14 +469,14 @@ function nonMaximumSuppress (canvas, dirMap, gradMap) {
         var pixNeighbors = getPixelNeighbors(dirMap[current]);
 
         /** pixel neighbors to compare */
-        var pix1 = that.canvas.gradMap[neighbors[pixNeighbors[0].x][pixNeighbors[0].y]];
-        var pix2 = that.canvas.gradMap[neighbors[pixNeighbors[1].x][pixNeighbors[1].y]];
+        var pix1 = gradMap[neighbors[pixNeighbors[0].x][pixNeighbors[0].y]];
+        var pix2 = gradMap[neighbors[pixNeighbors[1].x][pixNeighbors[1].y]];
 
-        if (pix1 > that.canvas.gradMap[current] ||
-            pix2 > that.canvas.gradMap[current] ||
-            (pix2 === that.canvas.gradMap[current] &&
-                pix1 < that.canvas.gradMap[current])) {
-            that.canvas.setPixel(current, 0, imgDataCopy);
+        if (pix1 > gradMap[current] ||
+            pix2 > gradMap[current] ||
+            (pix2 === gradMap[current] &&
+                pix1 < gradMap[current])) {
+            setPixel(current, 0, imgDataCopy);
         }
     });
 }
