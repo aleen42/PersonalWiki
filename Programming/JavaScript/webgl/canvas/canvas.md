@@ -6,4 +6,4 @@ A new html5 element for drawing graphics on a web page, via JavaScript.
 
 - [**Animated Glowing Line Drawing**](./line_drawing/line_drawing.md)
 - [**Animate a progressive drawing of SVG path**](./animate_drawing_of_svg_path/animate_drawing_of_svg_path.md)
-- **Finding Contours of a bitmap image**
+- [**Finding Contours of a bitmap image**](./finding_contours/finding_contours.md)
