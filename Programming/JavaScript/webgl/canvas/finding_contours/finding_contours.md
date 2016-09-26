@@ -31,7 +31,7 @@ function runImg(canvas, size, fn) {
 
     function getMatrix(cx, cy, size) {
         /**
-         * will generate a 2d array of sizexsize given center x,
+         * will generate a 2d array of size x size given center x,
          * center y, size, image width & height
          */
         if (!size) {
