@@ -419,7 +419,7 @@ function nonMaximumSuppress (canvas, dirMap, gradMap) {
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     
     runImg(canvas, 3, function(current, neighbors) {
-        var pixNeighbors = getPixelNeighbors(that.canvas.dirMap[current]);
+        var pixNeighbors = getPixelNeighbors(dirMap[current]);
 
         //pixel neighbors to compare
         var pix1 = that.canvas.gradMap[neighbors[pixNeighbors[0].x][pixNeighbors[0].y]];
