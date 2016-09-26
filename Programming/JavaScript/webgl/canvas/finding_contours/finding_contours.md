@@ -659,3 +659,7 @@ function hysteresis(canvas) {
     ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
+
+### Scanning
+
+With the image, which only has two kinds of pixels: 0 and 255, we can just scan each of them to generate a path with points.
