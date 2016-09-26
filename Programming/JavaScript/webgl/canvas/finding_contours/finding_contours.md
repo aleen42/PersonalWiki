@@ -319,7 +319,7 @@ function gradient(canvas, op) {
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     
     var dirMap = [];
-    var grapMap = [];
+    var gradMap = [];
     
     var SOBEL_X_FILTER = [
         [-1, 0, 1],
