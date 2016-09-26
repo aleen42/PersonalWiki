@@ -88,6 +88,6 @@ function grayscale(canvas) {
         setPixel(current, grayLevel, imgDataCopy);
     });
     
-    ctx.pugImageData(imgDataCopy, 0, 0);
+    ctx.putImageData(imgDataCopy, 0, 0);
 };
 ```
