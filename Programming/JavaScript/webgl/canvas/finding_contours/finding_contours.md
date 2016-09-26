@@ -545,7 +545,7 @@ function fastOtsu(canvas) {
         rightWeight = exports.calcWeight(histogram.g, i, end + 1);
         leftMean = exports.calcMean(histogram.g, start, i);
         rightMean = exports.calcMean(histogram.g, i, end + 1);
-        betweenClassVariances[i] = exports.calcBetweenClassVariance(leftWeight, leftMean, rightWeight, rightMean);
+        betweenClassVariances[i] = calcBetweenClassVariance(leftWeight, leftMean, rightWeight, rightMean);
         if (betweenClassVariances[i] > max) {
             max = betweenClassVariances[i];
             threshold = i;
