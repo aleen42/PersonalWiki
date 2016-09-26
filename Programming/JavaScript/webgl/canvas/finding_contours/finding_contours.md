@@ -377,6 +377,8 @@ function gradient(canvas, op) {
 
         setPixel(current, gradMap[current], imgDataCopy);
     });
+    
+    ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
 
