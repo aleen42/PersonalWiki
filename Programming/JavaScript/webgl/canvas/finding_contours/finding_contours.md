@@ -45,6 +45,15 @@ function runImg(canvas, size, fn) {
     }
 }
 
+function getRGBA(i, imgData) {
+    return {
+        r: imgData.data[start],
+        g: imgData.data[start + 1],
+        b: imgData.data[start + 2],
+        a：imgData.data[start + 3]
+    };
+}
+
 function getPixel(i, imgData) {
     if (i < 0 || i > imgData.data.length - 4) {
         return {
