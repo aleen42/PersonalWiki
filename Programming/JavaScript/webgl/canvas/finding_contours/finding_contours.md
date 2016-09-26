@@ -89,5 +89,5 @@ function grayscale(canvas) {
     });
     
     ctx.putImageData(imgDataCopy, 0, 0);
-};
+}
 ```
