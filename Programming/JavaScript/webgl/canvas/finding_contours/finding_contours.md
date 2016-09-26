@@ -409,3 +409,24 @@ function gradient(canvas, op) {
 Non-maximum suppression is an **edge thinning** technique.
 
 Non-Maximum suppression is applied to "thin" the edge. After applying gradient calculation, the edge extracted from the gradient value is still quite blurred. With respect to criterion 3, there should only be one accurate response to the edge. Thus non-maximum suppression can help to suppress all the gradient values to 0 except the local maximal, which indicates location with the sharpest change of intensity value.
+
+```js
+function nonMaximumSuppress () {
+    var imgDataCopy = this.canvas.getCurrImgData();
+    
+    this.canvas.runImg(3, function(current, neighbors) {
+        var pixNeighbors = getPixelNeighbors(that.canvas.dirMap[current]);
+
+        //pixel neighbors to compare
+        var pix1 = that.canvas.gradMap[neighbors[pixNeighbors[0].x][pixNeighbors[0].y]];
+        var pix2 = that.canvas.gradMap[neighbors[pixNeighbors[1].x][pixNeighbors[1].y]];
+
+        if (pix1 > that.canvas.gradMap[current] ||
+            pix2 > that.canvas.gradMap[current] ||
+            (pix2 === that.canvas.gradMap[current] &&
+                pix1 < that.canvas.gradMap[current])) {
+            that.canvas.setPixel(current, 0, imgDataCopy);
+        }
+    });
+}
+```
