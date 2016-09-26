@@ -190,6 +190,13 @@ function gaussianBlur(canvas, sigma, size) {
 
 In this step, we are going to find the intensity gradient (*G*) of the image. Before that, we have to used the value for the first derivative in the horizontal direction (*G<sub>x</sub>*) and the vertical direction (*G<sub>y</sub>*), returned by a edge detector (Roberts, Prewitt, Sobel, etc.). [Sobel](https://en.wikipedia.org/wiki/Sobel_operator) Detector is exactly what we used.
 
+<br />
+
+<iframe height='1322' scrolling='no' src='//codepen.io/aleen42/embed/WGjRXB/?height=1322&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/WGjRXB/'>WGjRXB</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
+<br />
+
 Before using gradient, we are going to export a module, which is used for pixel operations, named `Pixel`.
 
 ```js
