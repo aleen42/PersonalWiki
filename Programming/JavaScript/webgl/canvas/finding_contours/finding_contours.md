@@ -541,11 +541,15 @@ function calcWeight(histogram, s, e) {
 
 function calcMean(histogram, s, e) {
     var partHist = (s === e) ? [histogram[s]] : histogram.slice(s, e);
-    var val = total = 0;
+    
+    var val = 0;
+    var total = 0;
+    
     partHist.forEach(function(el, i) {
         val += ((s + i) * el);
         total += el;
     });
+    
     return parseFloat(val, 10) / total;
 };
 
