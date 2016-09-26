@@ -479,5 +479,7 @@ function nonMaximumSuppress (canvas, dirMap, gradMap) {
             setPixel(current, 0, imgDataCopy);
         }
     });
+    
+    
 }
 ```
