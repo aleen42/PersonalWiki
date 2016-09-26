@@ -502,9 +502,13 @@ function _traverseEdge(current, imgData, threshold, traversed) {
      * initialize the group from the current pixel's perspective
      */
     var group = [current];
-    var neighbors = getEdgeNeighbors(current, imgData, threshold, traversed); //pass the traversed group to the getEdgeNeighbors so that it will not include those anymore
+    
+    /** pass the traversed group to the getEdgeNeighbors so that it will not include those anymore */
+    var neighbors = getEdgeNeighbors(current, imgData, threshold, traversed);
+    
     for (var i = 0; i < neighbors.length; i++) {
-        group = group.concat(this._traverseEdge(neighbors[i], imgData, threshold, traversed.concat(group))); //recursively get the other edges connected
+        /** recursively get the other edges connected *
+        group = group.concat(_traverseEdge(neighbors[i], imgData, threshold, traversed.concat(group)));
     }
     return group; //if the pixel group is not above max length, it will return the pixels included in that small pixel group
 }
