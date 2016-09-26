@@ -50,5 +50,9 @@ function grayscale(canvas) {
 
     var imageDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var grayLevel;
+    
+    runImg(canvas, null, function (current) {
+        grayLevel = calculateGray(getPixel(canvas, current, imgDataCopy));
+    });
 };
 ```
