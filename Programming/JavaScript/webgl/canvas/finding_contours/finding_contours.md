@@ -20,7 +20,7 @@ function grayscale(canvas) {
     var grayLevel;
 };
 
-function runImg(canvas, size, fn) {
+function runImg(size, fn) {
     for (var y = 0; y < this.height; y++) {
         for (var x = 0; x < this.width; x++) {
             var i = x * 4 + y * this.width * 4;
