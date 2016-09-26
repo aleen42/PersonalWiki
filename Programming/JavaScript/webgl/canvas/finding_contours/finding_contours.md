@@ -522,6 +522,9 @@ function createHistogram(canvas) {
     return histogram;
 };
 
+function calcBetweenClassVariance(weight1, mean1, weight2, mean2) {
+        return weight1 * weight2 * (mean1 - mean2) * (mean1 - mean2);
+    };
 
 function fastOtsu(canvas) {
     var histogram = exports.createHistogram(canvas);
