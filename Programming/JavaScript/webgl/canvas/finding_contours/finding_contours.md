@@ -76,7 +76,7 @@ Gray Scale in Wikipedia is defined as followed:
 
 In this process, we will change the image data directly through Canvas:
 
-<iframe height='1292' scrolling='no' src='//codepen.io/aleen42/embed/ozWjEo/?height=1292&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/ozWjEo/'>ozWjEo</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+<iframe height='1315' scrolling='no' src='//codepen.io/aleen42/embed/bwWNRp/?height=1315&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/bwWNRp/'>bwWNRp</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
 ```js
