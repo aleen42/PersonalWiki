@@ -498,16 +498,27 @@ In this process, we will extract weak edges from the strong one. That's the impr
 ```js
 function createHistogram(canvas) {
     var histogram = {
-        g: [] },
-        size = 256,
-        total = 0,
-        imgData = cvs.getCurrImgData();
-    while (size--) histogram.g[size] = 0;
-    cvs.runImg(null, function(i) {
+        g: []
+    };
+        
+    var size = 256;
+    var total = 0;
+    
+    var ctx = canvas.getContext('2d');
+    
+    var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    
+    while (size--) {
+        histogram.g[size] = 0;
+    }
+    
+    runImg(canvas, null, function(i) {
         histogram.g[imgData.data[i]]++;
         total++;
     });
+    
     histogram.length = total;
+    
     return histogram;
 };
 
