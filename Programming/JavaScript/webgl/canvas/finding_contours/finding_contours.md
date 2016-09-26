@@ -115,7 +115,7 @@ function sumArr(arr) {
 }
 
 function generateKernel(sigma, size) {
-    var kenel = [];
+    var kernel = [];
     
     /** Euler's number rounded of to 3 places */
     var E = 2.78;
