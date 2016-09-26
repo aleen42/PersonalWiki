@@ -85,6 +85,7 @@ function grayscale(canvas) {
     
     runImg(canvas, null, function (current) {
         grayLevel = calculateGray(getPixel(current, imgDataCopy));
+        setPixel(current, grayLevel, imgDataCopy);
     });
 };
 ```
