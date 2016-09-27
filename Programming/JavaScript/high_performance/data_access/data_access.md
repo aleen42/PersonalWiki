@@ -48,3 +48,5 @@ var total = add(5, 10);
 Executing the `add()` function will trigger the creation of an internal object called **Execution Context**, which defines the environment in which a function is being executed. After a function has been completely executed, the execution context will be destroyed.
 
 An execution object will have its own scope chain, which will stores two objects: **Activation object** and **Global object**.
+
+![](./activation_object.png)
