@@ -45,4 +45,4 @@ Suppose that the following code is executed:
 var total = add(5, 10);
 ```
 
-Executing the `add()` function will trigger the creation of an internal object called **Execution Context**, which defines the environment in which a function is being executed. After a function has been completely executed, the execution context is destroyed.
+Executing the `add()` function will trigger the creation of an internal object called **Execution Context**, which defines the environment in which a function is being executed. After a function has been completely executed, the execution context will be destroyed.
