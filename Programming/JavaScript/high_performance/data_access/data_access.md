@@ -50,3 +50,5 @@ Executing the `add()` function will trigger the creation of an internal object c
 An execution object will have its own scope chain, which will stores two objects: **Activation object** and **Global object**. The activation object will contain entries for all local variables, named arguments, the **arguments** collection, and **this**.
 
 ![](./activation_object.png)
+
+What we can see above is that the activation object has been pushed to the front of the scope chain, and it will be destroyed as the exeuction context is destroyed.
