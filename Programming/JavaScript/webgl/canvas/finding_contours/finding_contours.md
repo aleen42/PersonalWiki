@@ -662,4 +662,7 @@ function hysteresis(canvas) {
 
 ### Scanning
 
-With the image, which only has two kinds of pixels: 0 and 255, we can just scan each of them to generate a path with points.
+With the image, which only has two kinds of pixels: 0 and 255, we can just scan each of them to generate a path with points. The algorithm can be described as followed:
+
+1. Loop for getting pixels, and check whether it's makred as seen and its value is 255.
+2. 
