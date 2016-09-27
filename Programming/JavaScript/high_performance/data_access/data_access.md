@@ -59,4 +59,4 @@ Variable identifying will search the scope chain, and is deemed to be undefined 
 
 #### Identifier Resolution Performance
 
-Consequently, local variables are always the fastest to access inside of a function, whereas global variables will generally be the slowest. As the depth 
+Consequently, local variables are always the fastest to access inside of a function, whereas global variables will generally be the slowest. As the depth grows, the time of this process will grow as well.
