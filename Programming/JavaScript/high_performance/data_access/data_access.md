@@ -45,4 +45,4 @@ Suppose that the following code is executed:
 var total = add(5, 10);
 ```
 
-Executing the `add()` function will trigger the creation of an internal object called 
+Executing the `add()` function will trigger the creation of an internal object called **Execution Context**
