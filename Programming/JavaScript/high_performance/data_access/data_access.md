@@ -55,4 +55,4 @@ What we can see above is that the activation object has been pushed to the front
 
 Variable identifying will search the scope chain, and is deemed to be undefined when none is matched. It's this search process that affects performance.
 
-> **Two variables with the same name may exist in different parts of the scope chain**. In that case, the identifer is bound to the variable that is found first in the scope chain traversal, and the first variable is said to shadow the second.
+> **Two variables with the same name may exist in different parts of the scope chain**. In that case, the identifier is bound to the variable that is found first in the scope chain traversal, and the first variable is said to shadow the second.
