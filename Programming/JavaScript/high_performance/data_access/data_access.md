@@ -52,3 +52,5 @@ An execution object will have its own scope chain, which will stores two objects
 ![](./activation_object.png)
 
 What we can see above is that the activation object has been pushed to the front of the scope chain, and it will be destroyed as the execution context is destroyed.
+
+Variable identifying will search the scope chain, and is deemed to be undefined when none is matched.
