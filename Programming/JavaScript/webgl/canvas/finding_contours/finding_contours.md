@@ -666,3 +666,12 @@ With the image, which only has two kinds of pixels: 0 and 255, we can just scan 
 
 1. Loop for getting pixels, and check whether it's marked as seen and its value is 255.
 2. When it's, find out a direction to generate a path as longest as possible. (Each pixel will be marked as seen, when a path is made of itself, while a path is a true path when its points has been more than a value, **6 ~ 10**.)
+
+### Drawing
+
+Since we have data of points, why don't we draw it out like this:
+
+![](http://share.soundtooth.cn/hua.gif)
+
+![](http://share.soundtooth.cn/sh.gif)
+![](http://share.soundtooth.cn/ji.gif)
