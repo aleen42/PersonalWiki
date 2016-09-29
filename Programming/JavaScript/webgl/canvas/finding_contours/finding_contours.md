@@ -671,8 +671,8 @@ With the image, which only has two kinds of pixels: 0 and 255, we can just scan 
 
 Since we have data of points, why don't we draw it out like this:
 
-http://share.soundtooth.cn/hua.gif
+http://share.soundtooth.cn/hua.gif (Almost 50Mb, So please wait)
 
-http://share.soundtooth.cn/sheng.gif
+http://share.soundtooth.cn/sheng.gif (Almost 50Mb, So please wait)
 
-http://share.soundtooth.cn/ji.gif
+http://share.soundtooth.cn/ji.gif (Almost 50Mb, So please wait)
