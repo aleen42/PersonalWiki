@@ -674,4 +674,5 @@ Since we have data of points, why don't we draw it out like this:
 ![](http://share.soundtooth.cn/hua.gif)
 
 ![](http://share.soundtooth.cn/sheng.gif)
+
 ![](http://share.soundtooth.cn/ji.gif)
