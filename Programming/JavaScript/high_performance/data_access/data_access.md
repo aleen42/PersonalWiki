@@ -196,4 +196,4 @@ function assignEvents() {
 }
 ```
 
-When `assignEvents()` is executed, an activation object is created that contains, among other thins, the `id` variable.
+When `assignEvents()` is executed, an activation object is created that contains, among other things, the `id` variable.
