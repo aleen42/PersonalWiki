@@ -107,6 +107,26 @@ function initUI() {
 
 #### Scope Chain Augmentation(強化)
 
-Though we won't change an execution context's scope chain, we can also temporarily augment the scope chain while it's being executed with two statements. The first of these is `with`, which is usually seen as a convenience to avoid writing the same code repeatly.
+Though we won't change an execution context's scope chain, we can also temporarily augment the scope chain while it's being executed with two statements. The first of these is `with`, which is usually seen as a convenience to avoid writing the same code repeatedly.
 
-
+```js
+function initUI() {
+    with (document) {
+        /** avoid! */
+        var bd = doc.body;
+        var links = doc.getElementsByTagName('a');
+        var i = 0; 
+        var len = links.length;
+        
+        while (i < len) {
+            update(links[i++]);
+        }
+        
+        doc.getElementById('go-btn').onclick = function () {
+            start();
+        };
+        
+        bd.className = 'active';   
+    }
+}
+```
