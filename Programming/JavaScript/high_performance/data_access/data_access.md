@@ -61,4 +61,17 @@ Variable identifying will search the scope chain, and is deemed to be undefined 
 
 Consequently, **local variables are always the fastest to access inside of a function, whereas global variables will generally be the slowest**. As the depth grows, the time of this process will grow as well.
 
-So, it's advisable to use local variables whenever possible to improve performance in browsers without optimizing JavaScript engines.
+So, it's advisable to use local variables whenever possible to improve performance in browsers without optimizing JavaScript engines. Consider the following example:
+
+```js
+function initUI() {
+    var bd = document.body;
+    var links = documet.getElementsByTagName('a');
+    var i = 0; 
+    var len = links.length;
+    
+    while (i < len) {
+        update（links[i++]);
+    }
+}
+```
