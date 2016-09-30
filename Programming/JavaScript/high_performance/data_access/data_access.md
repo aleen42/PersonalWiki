@@ -169,6 +169,7 @@ function exeucte(code) {
         return window;
     }
     
-    var w = subroutine();   /** what value is w? */
+    /** what value is w? */
+    var w = subroutine();
 }
 ```
