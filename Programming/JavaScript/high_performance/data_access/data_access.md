@@ -180,4 +180,4 @@ You will probably say that `w` should be the `window` object. However, it may no
 execute('var window = {};');
 ```
 
-Some optimizing JavaScript engines such as Safari's Nitro try to avid the traditional scope chain loopkup by indexing identifiers for faster resoultion.
+Some optimizing JavaScript engines such as Safari's Nitro try to avid the traditional scope chain loopkup by indexing identifiers for faster resoultion. When a dynamic scope is involved, however, this optimization is no longer valid.
