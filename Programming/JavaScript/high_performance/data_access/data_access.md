@@ -104,3 +104,7 @@ function initUI() {
     bd.className = 'active';
 }
 ```
+
+#### Scope Chain Augmentation(強化)
+
+
