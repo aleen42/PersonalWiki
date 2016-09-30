@@ -12,7 +12,7 @@ Here I want to talk about how to find contours of a bitmap image in Canvas, and 
 
 ![](./example2.png)
 
-![](./draw2.png)
+![](./draw2.jpg)
 
 ### 記
 
@@ -696,5 +696,3 @@ http://share.soundtooth.cn/sheng.gif (Almost 50Mb, So please wait)
 http://share.soundtooth.cn/ji.gif (Almost 50Mb, So please wait)
 
 So, where can you enjoy yourself with drawing contours with JavaScript? [**Here**](http://aleen42.github.io/example/draw/).
-
-<iframe src="http://aleen42.github.io/example/draw/"></iframe>
