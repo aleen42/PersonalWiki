@@ -87,7 +87,7 @@ This function contains three referencs to `document`, which is a global object. 
 ```js
 function initUI() {
     var bd = document.body;
-    var links = documet.getElementsByTagName('a');
+    var links = document.getElementsByTagName('a');
     var i = 0; 
     var len = links.length;
     
