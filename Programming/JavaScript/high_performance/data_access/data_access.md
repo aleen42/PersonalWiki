@@ -139,6 +139,7 @@ Besides `with` statement, the `try-catch` statement also has the same effect:
 try {
     throwError();
 } catch (e) {
+    /** scope chain is augmented
     console.log(e.message);
 }
 ```
