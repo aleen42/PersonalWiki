@@ -146,4 +146,13 @@ try {
 }
 ```
 
-However, since `try-catch` statement is still useful for us, we are recommended to use it when we have some error we do not know. To minimize the performance impact by executing as little code as necessary within it, we can use a function to handle this error. 
+However, since `try-catch` statement is still useful for us, we are recommended to use it when we have met some error we do not know. To minimize the performance impact by executing as little code as necessary within it, we can use a function to handle this error. 
+
+```js
+try {
+    throwError();
+} catch (e) {
+    /** scope chain is augmented here */
+    handleError(e);
+}
+```
