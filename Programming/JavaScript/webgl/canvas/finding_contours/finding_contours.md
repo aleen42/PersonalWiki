@@ -6,7 +6,7 @@ Here I want to talk about how to find contours of a bitmap image in Canvas, and 
 
 ![](./example1.png)
 
-![](./draw1.)
+![](./draw1.jpg)
 
 ### 笙
 
