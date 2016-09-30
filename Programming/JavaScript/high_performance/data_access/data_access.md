@@ -86,8 +86,9 @@ This function contains three referencs to `document`, which is a global object. 
 
 ```js
 function initUI() {
-    var bd = document.body;
-    var links = document.getElementsByTagName('a');
+    var doc = document;
+    var bd = doc.body;
+    var links = doc.getElementsByTagName('a');
     var i = 0; 
     var len = links.length;
     
@@ -95,7 +96,7 @@ function initUI() {
         update(links[i++]);
     }
     
-    document.getElementById('go-btn').onclick = function () {
+    doc.getElementById('go-btn').onclick = function () {
         start();
     };
     
