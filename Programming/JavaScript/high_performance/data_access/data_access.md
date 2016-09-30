@@ -66,7 +66,7 @@ So, it's advisable to use local variables whenever possible to improve performan
 ```js
 function initUI() {
     var bd = document.body;
-    var links = documet.getElementsByTagName('a');
+    var links = document.getElementsByTagName('a');
     var i = 0; 
     var len = links.length;
     
