@@ -133,6 +133,8 @@ function initUI() {
 
 Though this may seem more efficient, it actually creates a performance problem. While executing the `with` statement, the execution context's scope chain is temporarily augmented. A new variable object is created containing all of the properties of the specified object, like `document` here, which will be pushed to the front of the scope chain. That means local variables are now in the second scope chain object, make it more expensive to access.
 
+![](./scope_chain_augmentation.png)
+
 Besides `with` statement, the `try-catch` statement also has the same effect:
 
 ```js
