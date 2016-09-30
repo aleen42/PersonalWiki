@@ -207,3 +207,67 @@ Using closures will bring out another performance problem. When the closure defi
 ![](./closure_execution_context_scope_chain.png)
 
 To mitigate the execution speed impact, remember a principle: **store any frequently used out-of-scope variables in local variables, and then access the local variables directly**.
+
+### Object Members
+
+In JavaScript, functions are represented as objects, with methods, which is named members referencing a function, or properties, which is named members referencing a non-function data type.
+
+#### Prototypes
+
+Objects in JavaScript are based on `prototypes`. A prototype is an object that serves as the base of another object, defining and implementing members that a new object must have.
+
+An object is tied to its prototype by an internal property. Firefox, Safari, and Chrome expose this property to developers as `__proto__`; other browsers do not allow script access to this property.
+
+An object can have two types of members: **instance members (also called "own" members)**, and **prototype members**. Consider the following object `book`:
+
+```js
+var book = {
+    title: 'High Performance JavaScript',
+    publisher: 'Yahoo! Press'
+};
+
+console.log(book.toString());   /** => [object Object] */
+```
+
+The `book` object has two instance members: `title` and `publisher`, while `toString()` is a prototype member that `book` inherited from `Object`.
+
+![](./object_member.png)
+
+`hasOwnProperty` is a method to check whether an object has an instance member by given name. If you want to check whether an object has access to a property with a given name, you can use `in` operator.
+
+```js
+console.log(book.hasOwnProperty('title'));      /** => true     */
+console.log(book.hasOwnProperty('toString'));   /** => false    */
+
+console.log('title' in book);                   /** => true     */
+console.log('toString', in book);               /** => true     */
+```
+
+#### Prototype Chains
+
+By default, all objects are instances of Object and inherit all the basic method. In order to create a prototype of another type, we can define and use a constructor:
+
+```js
+function Book(title, publisher) {
+    this.title = title;
+    this.publisher = publisher;
+}
+
+Book.prototype.sayTitle = function () {
+    console.log(this.title);
+};
+
+var book1 = new Book('High Performance JavaScript', 'Yahoo! Press');
+var book2 = new Book('JavaScript: The Good Parts', 'Yahoo! Press');
+
+console.log(book1 instanceof Book);     /** => true                          */
+console.log(book1 instanceof Object);   /** => true                          */
+book1.sayTitle();                       /** => "High Performance JavaScript" */
+console.log(book1.toString());          /** => "[object Object]"             */
+```
+
+As we see above, `book1` and `book2` are both instances of `Book`, so the `__proto__` of them will point to the prototype of `Book`, and the `__proto__` of `Book.prototype` will point to the prototype of `Object`. This is a chain named **Prototype Chains**. The following picture has figured out the detailed information:
+
+![](./prototype_chains.png)
+
+Searching members will go through this chain. For example, when `book1.toString()` is called, the search must go deeper into the prototype to resolve the object member `toString`. Therefore, deeper the search go into, more overhead will be taken to complete this search.
