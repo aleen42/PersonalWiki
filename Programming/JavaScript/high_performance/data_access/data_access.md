@@ -152,7 +152,7 @@ However, since `try-catch` statement is still useful for us, we are recommended 
 try {
     throwError();
 } catch (e) {
-    /** scope chain is augmented here */
+    /** delegate to a handler method */
     handleError(e);
 }
 ```
