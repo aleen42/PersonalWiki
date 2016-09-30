@@ -3,17 +3,17 @@
 Similar to other languages, though, where data is stored can greatly affect how quickly it can be accessed later in JavaScript. There are **4 basic places** which data can be accessed:
 
 - **Literal values**
-    
-    Any value that represents just itself and is not stored in a particular location. **strings**, **numbers**, **Booleans**, **objects**, **arrays**, **functions**, **regular expressions**, and the special values **null** and **undefeind** can be represented as literal.
+
+    Any value that represents just itself and is not stored in a particular location. **strings**, **numbers**, **Booleans**, **objects**, **arrays**, **functions**, **regular expressions**, and the special values **null** and **undefined** can be represented as literal.
 
 - **Variables**
 
     Any developer-defined location for storing data.
-    
+
 - **Array items**
 
     A numerically indexed location within a JavaScript **Array** object.
-    
+
 - **Object members**
 
     A string-indexed location within a JavaScript object.
@@ -67,17 +67,17 @@ So, it's advisable to use local variables whenever possible to improve performan
 function initUI() {
     var bd = document.body;
     var links = document.getElementsByTagName('a');
-    var i = 0; 
+    var i = 0;
     var len = links.length;
-    
+
     while (i < len) {
         update(links[i++]);
     }
-    
+
     document.getElementById('go-btn').onclick = function () {
         start();
     };
-    
+
     bd.className = 'active';
 }
 ```
@@ -90,17 +90,17 @@ function initUI() {
     var doc = document;
     var bd = doc.body;
     var links = doc.getElementsByTagName('a');
-    var i = 0; 
+    var i = 0;
     var len = links.length;
-    
+
     while (i < len) {
         update(links[i++]);
     }
-    
+
     doc.getElementById('go-btn').onclick = function () {
         start();
     };
-    
+
     bd.className = 'active';
 }
 ```
@@ -115,17 +115,17 @@ function initUI() {
         /** avoid! */
         var bd = doc.body;
         var links = doc.getElementsByTagName('a');
-        var i = 0; 
+        var i = 0;
         var len = links.length;
-        
+
         while (i < len) {
             update(links[i++]);
         }
-        
+
         doc.getElementById('go-btn').onclick = function () {
             start();
         };
-        
+
         bd.className = 'active';   
     }
 }
@@ -164,11 +164,11 @@ Both the `with` statement and the `catch` clause of a `try-catch` statement, as 
 ```js
 function exeucte(code) {
     eval(code);
-    
-    fucntion subroutine() {
+
+    function subroutine() {
         return window;
     }
-    
+
     /** what value is w? */
     var w = subroutine();
 }
@@ -189,11 +189,21 @@ There may be a performance impact associated with using closures.
 ```js
 function assignEvents() {
     var id = 'xd19592';
-    
+
     document.getElementById('save-btn').onclick = function (event) {
         saveDocument(id);
     };
 }
 ```
 
-When `assignEvents()` is executed, an activation object is created that contains, among other things, the `id` variable.
+When `assignEvents()` is executed, an activation object is created that contains, among other things, the `id` variable. When the closure is created, its [[Scope]] will be also initialized with this object. That's where a side effect is.
+
+![](./closure_scope_chain.png)
+
+When there is a closure involved, though, the activation object can not be destroyed after the function has been executed, because a reference still exists, which results in more memory overhead. When it comes to a large web application, it will be a disaster for that application. Especially where **Internet Explorer** is concerned. IE implements DOM objects as non-native JavaScript objects, in which closures will cause memory leaks.
+
+Using closures will bring out another performance problem. When the closure defined above is executed, an execution context is created whose scope chain is initialized with the same two scope chain objects referenced in [[Scope]], in which **the activation object of this closure will become the first one in the scope chain**. It means that each time you access `id` and `saveDocument`, you have to access a lot of out-of-scope identifiers.
+
+![](./closure_execution_context_scope_chain.png)
+
+To mitigate the execution speed impact, remember a principle: **store any frequently used out-of-scope variables in local variables, and then access the local variables directly**.
