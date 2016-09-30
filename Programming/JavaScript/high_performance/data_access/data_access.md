@@ -159,7 +159,7 @@ try {
 
 #### Dynamic Scopes
 
-Both the `with` statement and the `catch` clause of a `try-catch` statement, as well as a function containing `eval()`, are all considered to be **Dynamic Scopes**. A dynamic scope is one that exists only thourgh execution of code and therefore cannot be dertermined simply by static analysis.
+Both the `with` statement and the `catch` clause of a `try-catch` statement, as well as a function containing `eval()`, are all considered to be **Dynamic Scopes**. A dynamic scope is one that exists only through execution of code and therefore cannot be dertermined simply by static analysis.
 
 ```js
 function exeucte(code) {
@@ -172,4 +172,10 @@ function exeucte(code) {
     /** what value is w? */
     var w = subroutine();
 }
+```
+
+Perhaps, you will say that `w` should be the `window` object. However, it may not when I call like this:
+
+```js
+execute('var window = {};');
 ```
