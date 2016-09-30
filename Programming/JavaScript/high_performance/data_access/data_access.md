@@ -107,4 +107,4 @@ function initUI() {
 
 #### Scope Chain Augmentation(強化)
 
-
+Though we won't change an execution context's scope chain, we can also temporarly augment the scope chain while it's being executed with two statements.
