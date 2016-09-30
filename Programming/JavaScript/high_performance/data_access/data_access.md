@@ -81,3 +81,5 @@ function initUI() {
     bd.className = 'active';
 }
 ```
+
+This function contains three referencs to `document`, which is a global object.
