@@ -6,7 +6,7 @@ Here I want to talk about how to find contours of a bitmap image in Canvas, and 
 
 ![](./example1.png)
 
-![](./draw1.png)
+![](./draw1.)
 
 ### 笙
 
@@ -18,7 +18,7 @@ Here I want to talk about how to find contours of a bitmap image in Canvas, and 
 
 ![](./example3.png)
 
-![](./draw3.png)
+![](./draw3.jpg)
 
 Firstly, the whole process of finding can be simply described as: **Gray Scale** -> **Gaussian Blur** -> **Canny Gradient** -> **Canny Non-maximum Suppression** -> **Canny Hysteresis** -> **Scanning**. As we all know, that's [Canny Edge Detection](https://en.wikipedia.org/wiki/Canny_edge_detector).
 
