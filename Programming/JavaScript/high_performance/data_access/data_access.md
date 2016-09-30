@@ -105,7 +105,7 @@ function initUI() {
 }
 ```
 
-#### Scope Chain Augmentation(強化)
+#### Scope Chain Augmentation(擴大化)
 
 Though we won't change an execution context's scope chain, we can also temporarily augment the scope chain while it's being executed with two statements. The first of these is `with`, which is usually seen as a convenience to avoid writing the same code repeatedly.
 
@@ -139,7 +139,7 @@ Besides `with` statement, the `try-catch` statement also has the same effect:
 try {
     throwError();
 } catch (e) {
-    /** scope chain is augmented
+    /** scope chain is augmented here */
     console.log(e.message);
 }
 ```
