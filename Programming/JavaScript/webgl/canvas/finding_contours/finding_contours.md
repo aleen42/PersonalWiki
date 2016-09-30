@@ -2,11 +2,23 @@
 
 Here I want to talk about how to find contours of a bitmap image in Canvas, and documenting it so that we can check it later when it's required.
 
-![](./example1.png) ![](./draw1.png)
+### 花
 
-![](./example2.png) ![](./draw2.png)
+![](./example1.png)
 
-![](./example3.png) ![](./draw3.png)
+![](./draw1.png)
+
+### 笙
+
+![](./example2.png)
+
+![](./draw2.png)
+
+### 記
+
+![](./example3.png)
+
+![](./draw3.png)
 
 Firstly, the whole process of finding can be simply described as: **Gray Scale** -> **Gaussian Blur** -> **Canny Gradient** -> **Canny Non-maximum Suppression** -> **Canny Hysteresis** -> **Scanning**. As we all know, that's [Canny Edge Detection](https://en.wikipedia.org/wiki/Canny_edge_detector).
 
