@@ -71,7 +71,13 @@ function initUI() {
     var len = links.length;
     
     while (i < len) {
-        update（links[i++]);
+        update(links[i++]);
     }
+    
+    document.getElementById('go-btn').onclick = function () {
+        start();
+    };
+    
+    bd.className = 'active';
 }
 ```
