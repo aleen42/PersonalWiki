@@ -174,7 +174,7 @@ function exeucte(code) {
 }
 ```
 
-Perhaps, you will say that `w` should be the `window` object. However, it may not when I call like this, and `w` will be equal to the local object `{}`:
+Perhaps, you will say that `w` should be the `window` object. However, it may not when I call like this, and `w` will be equal to the local object rather than the global one:
 
 ```js
 execute('var window = {};');
