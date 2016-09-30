@@ -82,4 +82,23 @@ function initUI() {
 }
 ```
 
-This function contains three referencs to `document`, which is a global object.
+This function contains three referencs to `document`, which is a global object. In order to reduce the cost of accessing it, we are recommended to code like that:
+
+```js
+function initUI() {
+    var bd = document.body;
+    var links = documet.getElementsByTagName('a');
+    var i = 0; 
+    var len = links.length;
+    
+    while (i < len) {
+        update(links[i++]);
+    }
+    
+    document.getElementById('go-btn').onclick = function () {
+        start();
+    };
+    
+    bd.className = 'active';
+}
+```
