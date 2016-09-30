@@ -131,4 +131,4 @@ function initUI() {
 }
 ```
 
-Though this may seem more efficient, it actually creates a performance problem. While executing the `with` statement, the execution context's scope chain is temporarily augmented. A new variable object is created containing all of the properties of the specified object
+Though this may seem more efficient, it actually creates a performance problem. While executing the `with` statement, the execution context's scope chain is temporarily augmented. A new variable object is created containing all of the properties of the specified object, like `document` here.
