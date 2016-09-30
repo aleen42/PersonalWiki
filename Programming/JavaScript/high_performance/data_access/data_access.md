@@ -86,6 +86,7 @@ This function contains three referencs to `document`, which is a global object. 
 
 ```js
 function initUI() {
+    /** store a reference to `document` in the local `doc` variable */
     var doc = document;
     var bd = doc.body;
     var links = doc.getElementsByTagName('a');
