@@ -279,4 +279,35 @@ to access like `window.location.href`. Each time a dot is encountered, the JavaS
 
 In some cases, we will use `[]` to access members of an object. Here is a point we should know:
 
-> In most browsers, there is no discernible(明顯的) difference between using `[]` and `.`.  However, in Safari, `.` notation is consistently faster than using `[]`.
+> In most browsers, there is no discernible(明顯的) difference between using `[]` notation and `.` notation.  However, in Safari, `.` notation is consistently faster than using `[]`.
+
+#### Caching Object Member Values
+
+Since performance issues related to object members has existed, it's advised to avoid using this only when necessary. For instance, there's no reason to read the value of an object member more than once in a single function:
+
+```js
+function hasEitherClass(ele, className1, className2) {
+    return ele.className === className1 || ele.className === className2;
+}
+```
+
+Instead, we should use a local variable, which can be accessed faster, to store this value:
+
+```js
+function hasEitherClass(ele, className1, className2) {
+    var className = ele.className;
+    return className === className1 || className === className2;
+}
+```
+
+> It's not recommended to use `this` technique for object method. Because when changing the value of `this` will lead to programmatic errors.
+
+### Summary
+
+There are four places to access data from: literal values, variables, array items, and object members. These locations all have different performance considerations.
+
+- Literal values and local variables can be accessed very quickly, whereas array items and object members take longer.
+- Accessing local variables is faster than out-of-scope variables, because they exist in the first variable object of the scope chain, while global variables are the slowest to access.
+- Avoid using `with`, `try-catch` or `eval()`.
+- Try to minimize nested object members.
+- The deeper into the prototype chain that a property or method exists, the slower it is to access.
