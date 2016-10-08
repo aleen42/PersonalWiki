@@ -270,4 +270,13 @@ As we see above, `book1` and `book2` are both instances of `Book`, so the `__pro
 
 ![](./prototype_chains.png)
 
-Searching members will go through this chain. For example, when `book1.toString()` is called, the search must go deeper into the prototype to resolve the object member `toString`. Therefore, deeper the search go into, more overhead will be taken to complete this search.
+Searching members will go through this chain. For example, when `book1.toString()` is called, the search must go deeper into the prototype to resolve the object member `toString`. Therefore, deeper the search go into, more overhead will be taken to complete this search. Just keep in mind that the process of looking up an instance member is still more expensive than accessing data from a literal or a local variable.
+
+#### Nested Members
+
+Nested members are normally seen in JavaScirpt, which we will use `.` notation
+to access like `window.location.href`. Each time a dot is encountered, the JavaScript engine will go through the object member resolution process. Obviously, the deeper the nested member, the slower the data is accessed. It means that, `location.href` is always faster than `window.loation.href`, which is faster than `window.location.href.toString()`.
+
+In some cases, we will use `[]` to access members of an object. Here is a point we should know:
+
+> In most browsers, there is no discernible(明顯的) difference between using `[]` and `.`.  However, in Safari, `.` notation is consistently faster than using `[]`.
