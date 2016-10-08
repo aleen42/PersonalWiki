@@ -13,7 +13,7 @@ Even if, Chrome with V8 engine, and other later engines have improved that situa
 ### Coding Technique
 
 - [**Data Access**](./data_access/data_access.md)
-- **DOM Scripting**
+- [**DOM Scripting**](./dom_scripting/dom_scripting.md)
 - **Algorithms and Flow Control**
 - **Responsive Interfaces**
 - **Ajax**
