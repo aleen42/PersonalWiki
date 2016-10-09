@@ -173,3 +173,55 @@ Speed|3.62x|1.75x|1.64x|1.28x|1.17x|1.06x
 Browsers|Safari 4|Chrome 2|Chrome 3|Opera 9.64|Opera 10
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 Speed|-1.13x|1.35x|-1.15x|1.19x|0.00x
+
+> As a side note, keep in mind that string concatenation is not optimal in older IE versions, but using an array to concatenate large strings will make innerHTML even faster in such browsers.
+
+#### Cloning Nodes
+
+Another way of updating page contents using DOM methods is to clone existing DOM with the method `element.clondNode()`. Cloning nodes is more efficient in most browsers. In comparison with creating elements:
+
+- Cloning is 2% faster in IE8, but not change in IE6 and IE7.
+- Up to 5.5% faster in Firefox 3.5 and Safari 4.
+- 6% faster in Opera. (but no savings in Opera 10)
+- 10% in Chrome 2 and 3% in Chrome 3.
+
+```js
+function tableClonedDOM() {
+    var i;
+    var table;
+    var thead;
+    var tbody;
+    var tr;
+    var th;
+    var td;
+    var a;
+    var ul;
+    var li;
+
+    var oth = document.createElement('th');
+    var otd = document.createElement('td');
+    var otr = document.createElement('tr');
+    var oa = document.createElement('a');
+    var oli = document.createElement('li');
+    var oul = document.createElement('ul');
+
+    tbody = document.createElement('tbody');
+
+    for (i = 1; i <= 1000; i++) {
+        tr = otr.cloneNode(false);
+        td = otd.cloneNode(false);
+        td.appendChild(document.createTextNode((i % 2) ? 'yes' : 'no'));
+        tr.appendChild(td);
+        td = otd.cloneNode(false);
+        td.appendChild(document.createTextNode(i));
+        tr.appendChild(td);
+        td = otd.cloneNode(false);
+        td.appendChild(document.createTextNode('my name is #' + i));
+        tr.appendChild(td);
+
+        /** ... the rest of the loop ... */
+    }
+
+    /** ... the rest of the table generation ... */
+}
+```
