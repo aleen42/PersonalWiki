@@ -92,4 +92,12 @@ function init() {
     animate();
 }
 
+/** Our preferred controls via DeviceOrientation */
+function setDeviceOrientationControls(e) {  
+    controls = new THREE.DeviceOrientationControls(camera, true);
+    controls.connect();
+    controls.update();
+    window.removeEventListener('deviceorientation', setDeviceOrientationControls, true);  
+}  
+
 ```
