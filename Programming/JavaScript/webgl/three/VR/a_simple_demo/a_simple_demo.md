@@ -54,6 +54,20 @@ function init() {
     scene.add(light);
     
     /** Create Floor */
+    var floorTexture = THREE.ImageUtils.loadTexture('img/grass.jpg');
+    floorTexture.wrapS = THREE.RepeatWrapping;
+    floorTexture.wrapT = THREE.RepeatWrapping;
+    floorTexture.repeat = new THREE.Vector2(50, 50);
+    
+    var floorMaterial = new THREE.MeshPhongMaterial({
+        map: floorTexture
+    });
+    
+    var floorGeometry = new THREE.PlaneBufferGeometry(1000, 1000);  
+    var floor = new THREE.Mesh(floorGeometry, floorMaterial);  
+    floor.rotation.x = -Math.PI / 2;  
+    scene.add(floor);  
+    
 }
 
 ```
