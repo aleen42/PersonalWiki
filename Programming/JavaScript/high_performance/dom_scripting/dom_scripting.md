@@ -164,7 +164,7 @@ Here is a sample task of creating a table of 1000 rows in two ways:
 
 The result of this task has been shown in the followed table:
 
-$$Speed = \frac {\frac 1{t_{innerHTML}} - \frac 1{t_{DOM}}}{\frac 1{t_{DOM}}}$$
+$$Speed = \frac {t_{DOM} - t_{innerHTML}}{t_{innerHTML}}$$
 
 Browsers|IE 6|IE 7|IE 8|Firefox 3|Firefox 3.5|Safari 3.2
 :----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
