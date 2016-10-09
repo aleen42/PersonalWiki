@@ -76,7 +76,9 @@
             "description": "update time:"
         },
         "resources": {
-            "type": "github"
+            "type": "github",
+            "repo": "aleen42/PersonalWiki",
+            "branch": "master"
         }
     }
 }
