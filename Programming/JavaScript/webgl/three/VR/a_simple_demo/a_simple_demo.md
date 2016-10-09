@@ -37,6 +37,16 @@ function init() {
     element = renderer.domElement;
     document.body.appendChild(renderer.domElement);
     
+    effect = new THREE.StereoEffect(renderer);
+    
+    /** Handle Mouse Control */
+    controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.target.set(
+        camera.position.x + 0.01,
+        camera.position.y,
+        camera.position.z
+    );
+    
 }
 
 ```
