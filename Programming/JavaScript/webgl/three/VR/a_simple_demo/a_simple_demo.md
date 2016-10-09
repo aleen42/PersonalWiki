@@ -46,6 +46,7 @@ function init() {
         camera.position.y,
         camera.position.z
     );
+    window.addEventListener('deviceorientation', setDeviceOrientationControls, true);  
     
 }
 
