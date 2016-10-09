@@ -21,7 +21,7 @@ var renderer;
 var effect;
 var element;
 var controls;
-var word = 'Aleen\'s VR World';
+var word = 'Ritter\'s VR World';
 
 init();
 
