@@ -15,7 +15,6 @@
         }
     },
     "plugins": [
-        "disqus",
         "github",
         "sharing",
         "ga",
@@ -28,9 +27,6 @@
         "ace"
     ],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "aleen42"
-        },
         "github": {
             "url": "https://github.com/aleen42/PersonalWiki"
         },
