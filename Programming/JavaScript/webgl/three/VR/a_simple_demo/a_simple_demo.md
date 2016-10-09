@@ -25,4 +25,9 @@ var word = 'Ritter\'s VR World';
 
 init();
 
+function init() {
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.001, 700);
+}
+
 ```
