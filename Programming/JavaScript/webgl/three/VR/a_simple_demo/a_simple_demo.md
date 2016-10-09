@@ -11,3 +11,16 @@ Firstly, we can see that the author has loaded some script files:
 <script type="text/javascript" src="js/DeviceOrientationControls.js"></script>
 <script type="text/javascript" src="js/helvetiker_regular.typeface.js"></script>
 ```
+
+Then here is the main code:
+
+```js
+var scene;
+var camera;
+var renderer;
+var effect;
+var element;
+var controls;
+var word = 'Ritter's VR World';
+
+```
