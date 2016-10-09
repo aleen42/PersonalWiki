@@ -10,7 +10,6 @@
 
 [![downloadPDF](https://img.shields.io/badge/download-PDF-%23a10000.svg)](https://www.gitbook.com/download/pdf/book/aleen42/personalwiki) [![downloadePub](https://img.shields.io/badge/download-ePub-%23a10000.svg)](https://www.gitbook.com/download/epub/book/aleen42/personalwiki) [![downloadePub](https://img.shields.io/badge/download-mobi-%23a10000.svg)](https://www.gitbook.com/download/mobi/book/aleen42/personalwiki) 
 
-
 ## Start Reading
 
 - Read on [**GitBook**](https://www.gitbook.com/read/book/aleen42/personalwiki)
