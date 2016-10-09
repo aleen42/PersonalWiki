@@ -48,7 +48,11 @@ function init() {
     );
     window.addEventListener('deviceorientation', setDeviceOrientationControls, true);
     
-
+    /** Create Light */
+    var light = new THREE.PointLight( 0xffffff, 1.2, 0);
+    light.position.set(0, 50, 0);
+    scene.add(light);
+    
     
 }
 
