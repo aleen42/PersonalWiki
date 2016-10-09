@@ -24,7 +24,8 @@
         "page-footer",
         "page-treeview",
         "mathjax",
-        "ace"
+        "ace",
+        "resources"
     ],
     "pluginsConfig": {
         "github": {
@@ -73,6 +74,9 @@
             "baseUri": "https://aleen42.gitbooks.io/personalwiki/content/",
             "copyrightColor": "#666",
             "description": "update time:"
+        },
+        "resources": {
+            "type": "github"
         }
     }
 }
