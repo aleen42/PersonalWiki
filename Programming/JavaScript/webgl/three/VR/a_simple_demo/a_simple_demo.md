@@ -23,6 +23,6 @@ var element;
 var controls;
 var word = 'Ritter\'s VR World';
 
-
+init();
 
 ```
