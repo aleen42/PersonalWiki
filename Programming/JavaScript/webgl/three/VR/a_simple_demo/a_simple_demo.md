@@ -97,7 +97,7 @@ function setDeviceOrientationControls(e) {
     controls = new THREE.DeviceOrientationControls(camera, true);
     controls.connect();
     controls.update();
-    window.removeEventListener('deviceorientation', setDeviceOrientationControls, true);  
+    window.removeEventListener('deviceorientation', setDeviceOrientationControls, true);
 }  
 
 ```
