@@ -105,7 +105,7 @@ i. Install WifiDog
 
 *Notice that: if your firmware does not have the package wifidog, you should re-build one. And choose wifidog in Network -> Captive Portals after `make menuconfig`.*
 
-![](wifidog_openwrt.png)
+![](./wifidog_openwrt.png)
 
 - DDWRT: has been installed by default
 

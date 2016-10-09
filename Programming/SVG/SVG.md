@@ -69,9 +69,9 @@
 ##### Step 3
 
 - use `<use>` to add `<animateTransform >` or `<animate>`.
-	
+
 	- **Scale with opacity**
-	
+
 	**Code**
 
 	```html
@@ -95,14 +95,14 @@
 			/>
 </use>
 ```
-	
+
 	**Show**
 
 	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/kXmvRL/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/kXmvRL/'>kXmvRL</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
 	- **x/y with opacity**
-	
+
 	**Code**
 
 	```html
@@ -130,14 +130,14 @@
 			/>
 </use>
 ```
-	
+
 	**Show**
 
 	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/oLOpPd/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/oLOpPd/'>oLOpPd</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
 	- **path(with auto rotate)**
-	
+
 	**Code**
 
 	```html
@@ -158,14 +158,14 @@
 			/>
 </use>
 ```
-	
+
 	**Show**
 
 	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/rLbpqr/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rLbpqr/'>rLbpqr</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
 	- **path(without auto rotate)**
-	
+
 	**Code**
 
 	```html
@@ -187,7 +187,7 @@
 			/>
 </use>
 ```
-	
+
 	**Show**
 
 	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/qNwpJx/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/qNwpJx/'>qNwpJx</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
@@ -197,7 +197,7 @@
 
 - what we can also do is to add event for **SVG** with **JavaScript**.
 
-	- JavaScript 
+	- JavaScript
 
 	```js
 var animate = document.getElementsByTagName("animate")[0];
@@ -209,7 +209,7 @@ if (animate) {
 ```
 
 	- SVG
-	
+
 	```html
     <svg id="svg">
     	<!--relization-->
@@ -221,15 +221,15 @@ if (animate) {
 - **Bezier Curve(貝塞爾曲線)**
 
 `calcMode="spline"`
-`calcMode="linear"` 
+`calcMode="linear"`
 
-<img src="interpSpline01.png">
+<img src="./interpSpline01.png">
 `keySplines="0 0 1 1"`
-<img src="interpSpline02.png">
+<img src="./interpSpline02.png">
 `keySplines="0.5 0 .5 1"`
-<img src="interpSpline03.png">
+<img src="./interpSpline03.png">
 `keySplines="0 .75 .25 1"`
-<img src="interpSpline04.png">
+<img src="./interpSpline04.png">
 `keySplines="1 0 .25 .25"`
 
 - **accumulate & additive**
@@ -253,8 +253,7 @@ if (animate) {
 	- `stroke-dasharray` 表示虛線描邊
 	- `stroke-dashoffset` 表示虛線的起始位置
 	- `stroke-opacity` 表示描邊透明度
-	
+
 - **restart**
 
 支持的參數有：`always` | `whenNotActive` | `never`, 默認值是`always`, 用於動畫開始後點擊事件對動畫的影響
-
