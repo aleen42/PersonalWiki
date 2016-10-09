@@ -53,7 +53,7 @@ function init() {
     light.position.set(0, 50, 0);
     scene.add(light);
     
-    
+    /** Create Floor */
 }
 
 ```
