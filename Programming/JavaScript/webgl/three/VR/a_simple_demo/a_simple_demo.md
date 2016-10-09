@@ -98,6 +98,23 @@ function setDeviceOrientationControls(e) {
     controls.connect();
     controls.update();
     window.removeEventListener('deviceorientation', setDeviceOrientationControls, true);
-}  
+}
 
+function animate() {
+    requestAnimationFrame(animate);
+  
+    var width = window.innerWidth;
+    var height = window.innerHeight;
+  
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+  
+    renderer.setSize(width, height);
+    effect.setSize(width, height);
+  
+    camera.updateProjectionMatrix();
+  
+    controls.update();
+    effect.render(scene, camera);
+}
 ```
