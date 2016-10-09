@@ -33,6 +33,10 @@ function init() {
     /** initiate the camera */
     scene.add(camera);
     
+    renderer = new THREE.WebGLRenderer();
+    element = renderer.domElement;
+    document.body.appendChild(renderer.domElement);
+    
 }
 
 ```
