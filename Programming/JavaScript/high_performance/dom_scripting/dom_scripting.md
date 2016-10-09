@@ -166,16 +166,10 @@ The result of this task has been shown in the followed table:
 
 $$Speed = \frac {\frac 1{t_{innerHTML}} - \frac 1{t_{DOM}}}{\frac 1{t_{DOM}}}$$
 
-Browsers|Speed
-:-------------:|:-------------
-IE 6|3.62x
-IE 7|1.75x
-IE 8|1.64x
-Firefox 3|1.28x
-Firefox 3.5|1.17x
-Safari 3.2|1.06x
-Safari 4|-1.13x
-Chrome 2|1.35x
-Chrome 3|-1.15x
-Opera 9.64|1.19x
-Opera 10|0.00x
+Browsers|IE 6|IE 7|IE 8|Firefox 3|Firefox 3.5|Safari 3.2
+:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Speed|3.62x|1.75x|1.64x|1.28x|1.17x|1.06x
+
+Browsers|Safari 4|Chrome 2|Chrome 3|Opera 9.64|Opera 10
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Speed|-1.13x|1.35x|-1.15x|1.19x|0.00x
