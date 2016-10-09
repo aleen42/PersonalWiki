@@ -137,9 +137,12 @@
                             * [Finding Contours of a bitmap image](./Programming/JavaScript/webgl/canvas/finding_contours/finding_contours.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
-                        * [Create a scene](./Programming/JavaScript/webgl/three/create_a_scene/create_a_scene.md)
-                        * [Matrix transformations](./Programming/JavaScript/webgl/three/matrix_transformations/matrix_transformations.md)
-                        * [Camera](./Programming/JavaScript/webgl/three/camera/camera.md)
+                        * Introduction
+                            * [Create a scene](./Programming/JavaScript/webgl/three/create_a_scene/create_a_scene.md)
+                            * [Matrix transformations](./Programming/JavaScript/webgl/three/matrix_transformations/matrix_transformations.md)
+                            * [Camera](./Programming/JavaScript/webgl/three/camera/camera.md)
+                        * Advanced
+                            * [Virtual Reality](./Programming/JavaScript/webgl/three/VR/VR.md)
             * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
             * Categories
                 * Basics
