@@ -120,3 +120,5 @@ function animate() {
     effect.render(scene, camera);
 }
 ```
+
+### Demo
