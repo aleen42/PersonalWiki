@@ -63,11 +63,33 @@ function init() {
         map: floorTexture
     });
     
-    var floorGeometry = new THREE.PlaneBufferGeometry(1000, 1000);  
-    var floor = new THREE.Mesh(floorGeometry, floorMaterial);  
-    floor.rotation.x = -Math.PI / 2;  
-    scene.add(floor);  
+    var floorGeometry = new THREE.PlaneBufferGeometry(1000, 1000);
+    var floor = new THREE.Mesh(floorGeometry, floorMaterial);
+    floor.rotation.x = -Math.PI / 2;
+    scene.add(floor);
     
+    /** Create Box */
+    var geometry = new THREE.BoxGeometry(6, 6, 6);
+    var material = new THREE.MeshNormalMaterial();
+    var cube = new THREE.Mesh(geometry, material);
+    cube.position.set(-15, 30, 10);
+    scene.add(cube);
+    
+    /** Create Text */
+    var textGeometry = new THREE.TextGeometry(word, {
+        size: 5,
+        height: 1
+    });
+    
+    var text = new THREE.Mesh(textGeometry, new THREE.MeshBasicMaterial({
+        color: 0xffffff
+    }));
+    
+    text.position.set(15, 15, -25);
+    text.rotation.set(0, 30, 0);
+    scene.add(text);
+  
+    animate();
 }
 
 ```
