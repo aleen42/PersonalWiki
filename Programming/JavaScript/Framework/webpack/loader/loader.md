@@ -37,7 +37,7 @@ require("!style!css!less!bootstrap/less/bootstrap.less");
 //    "css-loader" and then by the "style-loader".
 //    If configuration has some transforms bound to the file, they will not be applied.
 
-require("url-loader?mimetype=image/png!./file.png");
+require("url-loader?mimetype=image/png!file.png");
 ```
 
 #### Configuration
@@ -58,7 +58,7 @@ module.exports = {
             // => "style" and "css" loader is used for ".css" files
             // Alternative syntax:
             { test: /\.css$/, loaders: ["style", "css"] },
-            
+
             { test: /\.png$/, loader: "url-loader?mimetype=image/png" },
             /** or */
             {
@@ -93,7 +93,7 @@ webpack --module-bind jade --module-bind 'css=style!css' --module-bind "png=url-
 * [`apply`](https://github.com/mogelbrod/apply-loader): Executes a exported JavaScript function, optionally with arguments, and exports its return value.
 * [`callback`](https://github.com/Kreozot/callback-loader): Parses your JS, calls specified functions (which you implement in webpack context) and replaces them with the results
 * [`if-loader`](https://github.com/friskfly/if-loader): This is a preprocesser for the webpack module bundler. It support the `if` directive,similar to C `#ifdef` .
-* [`ifdef-loader`](https://github.com/nippur72/ifdef-loader): Preprocessor for .js/.ts files that allows conditional compilation via `// #if` and `// #endif`, while preserving sourcemaps. 
+* [`ifdef-loader`](https://github.com/nippur72/ifdef-loader): Preprocessor for .js/.ts files that allows conditional compilation via `// #if` and `// #endif`, while preserving sourcemaps.
 * [`source-map`](https://github.com/webpack/source-map-loader): Extract `sourceMappingURL` comments from modules and offer it to webpack
 * [`checksum`](https://github.com/naturalatlas/checksum-loader): Computes the checksum of a file
 * [`null`](https://github.com/webpack/null-loader): Emits an empty module.
@@ -169,7 +169,7 @@ webpack --module-bind jade --module-bind 'css=style!css' --module-bind "png=url-
 * [`babel`](https://github.com/babel/babel-loader): Turn ES6 code into vanilla ES5 using [Babel](https://github.com/babel/babel).
 * [`regenerator`](https://github.com/pjeby/regenerator-loader): Use ES6 generators via Facebook's [Regenerator](http://facebook.github.io/regenerator/) module.
 * [`livescript`](https://github.com/appedemic/livescript-loader): Loads LiveScript like JavaScript
-* [`sweetjs`](https://github.com/jlongster/sweetjs-loader): Use sweetjs macros. 
+* [`sweetjs`](https://github.com/jlongster/sweetjs-loader): Use sweetjs macros.
 * [`traceur`](https://github.com/jupl/traceur-loader): Use future JavaScript features with [Traceur](https://github.com/google/traceur-compiler).
 * [`ts`](https://github.com/TypeStrong/ts-loader): Loads TypeScript like JavaScript.
 * [`typescript`](https://github.com/andreypopp/typescript-loader): Loads TypeScript like JavaScript.
@@ -296,6 +296,6 @@ webpack --module-bind jade --module-bind 'css=style!css' --module-bind "png=url-
 * [`stylefmt`](https://github.com/tomasAlabes/stylefmt-loader) Preloader for fixing SASS/SCSS/PostCSS errors with style lint
 * [`scsslint`](https://github.com/domjtalbot/scsslint-loader): PreLoader for linting Scss using [scss-lint](https://github.com/brigade/scss-lint).
 * [`htmlhint`](https://github.com/mattlewis92/htmlhint-loader): PreLoader for linting HTML using [htmlhint-loader](https://github.com/mattlewis92/htmlhint-loader).
-* [`documentation`](https://github.com/domjtalbot/documentation-loader): Javascript documentation with [DocumentationJS](https://github.com/documentationjs/documentation) 
-* [`sassdoc`](https://github.com/domjtalbot/sassdoc-loader): Scss documentation with [SassDoc](https://github.com/SassDoc/sassdoc) 
+* [`documentation`](https://github.com/domjtalbot/documentation-loader): Javascript documentation with [DocumentationJS](https://github.com/documentationjs/documentation)
+* [`sassdoc`](https://github.com/domjtalbot/sassdoc-loader): Scss documentation with [SassDoc](https://github.com/SassDoc/sassdoc)
 * [`performance-loader`](https://github.com/maxkostow/performance-loader): profile module performance

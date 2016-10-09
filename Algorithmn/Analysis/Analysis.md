@@ -33,19 +33,19 @@
 	- Best-case(虛假的)
 
 - **Three** notations of **time**
-	- ***θ*** 
+	- ***θ***
 
 	<img src="./theta.png"> (drop **low-order** terms, and ignore **leading** constants)
 
 	<img src="./example.png">
-	
+
 	- ***Ω***
-	
+
 	<img src="./Omega.png">
 
 	- ***O***
 
-	<img src="O.png">
+	<img src="./O.png">
 
 ### Recursive Algorithmn
 - Substitution: 猜想 (通常通過畫Recursive Tree來給出猜想) 並證明
@@ -62,7 +62,7 @@
 
 <img src="./recursive_expression.png">
 
-- Master: 
+- Master:
 
 	<img src="./master.png">
 	=====
@@ -71,4 +71,3 @@
 	- <img src="./master2.png">
 
 	- <img src="./master3.png">
-
