@@ -457,7 +457,7 @@ iframe::-webkit-resizer {
     .book .book-body {
         margin: 0 !important;
     }
-    
+
     #book-search-input {
         margin-top: 0 !important;
     }
@@ -489,18 +489,18 @@ iframe::-webkit-resizer {
 }
 
 @media (min-width: 720px) {
-    .ace_scrollbar-h::-webkit-scrollbar-thumb, 
+    .ace_scrollbar-h::-webkit-scrollbar-thumb,
     .ace_scrollbar-v::-webkit-scrollbar-thumb {
         /** Part 5 */
         background-color: rgba(0, 0, 0, 1);
         border-radius: 10px;
     }
-    
+
     .ace_scrollbar-h::-webkit-scrollbar-thumb:hover,
     .ace_scrollbar-v::-webkit-scrollbar-thumb:hover {
         background-color: rgba(161, 0, 0, 1);
     }
-    
+
     .ace_scrollbar-h::-webkit-scrollbar-thumb:active,
     .ace_scrollbar-v::-webkit-scrollbar-thumb:active {
         background-color: rgba(100, 0, 0, 1);
@@ -508,18 +508,18 @@ iframe::-webkit-resizer {
 }
 
 @media (max-width: 720px) {
-    .ace_scrollbar-h::-webkit-scrollbar-thumb, 
+    .ace_scrollbar-h::-webkit-scrollbar-thumb,
     .ace_scrollbar-v::-webkit-scrollbar-thumb {
         /** Part 5 */
         background-color: rgba(0, 0, 0, 0.2);
         border-radius: 10px;
     }
-    
+
     .ace_scrollbar-h::-webkit-scrollbar-thumb:hover,
     .ace_scrollbar-v::-webkit-scrollbar-thumb:hover {
         background-color: rgba(161, 0, 0, 0.2);
     }
-    
+
     .ace_scrollbar-h::-webkit-scrollbar-thumb:active,
     .ace_scrollbar-v::-webkit-scrollbar-thumb:active {
         background-color: rgba(100, 0, 0, 0.2);
@@ -548,4 +548,9 @@ iframe::-webkit-resizer {
     border: 1px solid #EBEBEB !important;
 }
 
-
+/** mathjax */
+.mjx-chtml {
+    width: 100%;
+    text-align: center;
+    margin: 44px 0;
+}
