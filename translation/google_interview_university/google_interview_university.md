@@ -420,7 +420,7 @@
     - [ ] [使用堆栈 —— 后进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-stacks-last-first-out/149042/177120-4.html)
     - [ ] 可以不实现，因为使用数组来实现并不重要
 
-- ### 队列（Queue）
+### 队列（Queue）
     - [ ] [使用队列 —— 先进先出（视频）](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Using-queues-first-first-out/149042/177122-4.html)
     - [ ] [队列（视频）](https://www.coursera.org/learn/data-structures/lecture/EShpq/queue)
     - [ ] [原型队列/先进先出（FIFO）](https://en.wikipedia.org/wiki/Circular_buffer)
