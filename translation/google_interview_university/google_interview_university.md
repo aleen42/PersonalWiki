@@ -470,7 +470,7 @@
 
 ## 更多的知识
 
-- ### 二分查找（Binary search）
+### 二分查找（Binary search）
     - [ ] [二分查找（视频）](https://www.youtube.com/watch?v=D5SrAga1pno)
     - [ ] [二分查找（视频）](https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search)
     - [ ] [详情](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
@@ -478,7 +478,7 @@
         - 二分查找（在一个已排序好的整型数组中查找）
         - 迭代式二分查找
 
-- ### 按位运算（Bitwise operations）
+### 按位运算（Bitwise operations）
     - [ ] [Bits 速查表](https://github.com/jwasham/google-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf)
         - 你需要知道大量2的幂数值（从2^1 到 2^16 及 2^32）
     - [ ] 好好理解位操作符的含义：&、|、^、~、>>、<<
@@ -508,7 +508,7 @@
 
 ## 树（Trees）
 
-- ### 树 —— 笔记 & 背景
+### 树 —— 笔记 & 背景
     - [ ] [系列：基本树（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/ovovP/core-trees)
     - [ ] [系列：树（视频）](https://www.coursera.org/learn/data-structures/lecture/95qda/trees)
     - 基本的树形结构
@@ -530,7 +530,7 @@
         - 后序遍历（DFS：左、右、节点本身）
         - 先序遍历（DFS：节点本身、左、右）
 
-- ### 二叉查找树（Binary search trees）：BSTs
+### 二叉查找树（Binary search trees）：BSTs
     - [ ] [二叉查找树概览（视频）](https://www.youtube.com/watch?v=x6At0nzX92o&index=1&list=PLA5Lqm4uh9Bbq-E0ZnqTIa8LRaL77ica6)
     - [ ] [系列（视频）](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/p82sw/core-introduction-to-binary-search-trees)
         - 从符号表开始到 BST 程序
@@ -560,7 +560,7 @@
         - [ ] delete_value
         - [ ] get_successor // 返回给定值的后继者，若没有则返回-1
 
-- ### 堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）
+### 堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）
     - 可视化是一棵树，但通常是以线性的形式存储（数组、链表）
     - [ ] [堆](https://en.wikipedia.org/wiki/Heap_(data_structure))
     - [ ] [介绍（视频）](https://www.coursera.org/learn/data-structures/lecture/2OpTs/introduction)
@@ -589,7 +589,7 @@
         - [ ] heap_sort() —— 拿到一个未排序的数组，然后使用大顶堆进行就地排序
             - 注意：若用小顶堆可节省操作，但导致空间复杂度加倍。（无法做到就地）
 
-- ### 字典树（Tries）
+### 字典树（Tries）
     - 需要注意的是，字典树各式各样。有些有前缀，而有些则没有。有些使用字符串而不使用比特位来追踪路径。
     - 阅读代码，但不实现。
     - [ ] [数据结构笔记及编程技术](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Tries)
@@ -602,7 +602,7 @@
     - [ ] [标准教程（现实中的用例）（视频）](https://www.youtube.com/watch?v=TJ8SkcUSdbU)
     - [ ] [MIT，高阶数据结构，使用字符串追踪路径（可事半功倍）](https://www.youtube.com/watch?v=NinWEPPrkDQ&index=16&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
-- ### 平衡查找树（Balanced search trees）
+### 平衡查找树（Balanced search trees）
     - 掌握至少一种平衡查找树（并懂得如何实现）：
     - “在各种平衡查找树当中，AVL 树和2-3树已经成为了过去，而红黑树（red-black trees）看似变得越来越受人青睐。这种令人特别感兴趣的数据结构，亦称伸展树（splay tree）。它可以自我管理，且会使用轮换来移除任何访问过根节点的 key。” —— Skiena
     - 因此，在各种各样的平衡查找树当中，我选择了伸展树来实现。虽然，通过我的阅读，我发现在 Google 的面试中并不会被要求实现一棵平衡查找树。但是，为了胜人一筹，我们还是应该看看如何去实现。在阅读了大量关于红黑树的代码后，我才发现伸展树的实现确实会使得各方面更为高效。
@@ -656,7 +656,7 @@
         - [ ] [黑树（Black Tree）](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree)
         - [ ] [二分查找及红黑树的介绍](https://www.topcoder.com/community/data-science/data-science-tutorials/an-introduction-to-binary-search-and-red-black-trees/)
 
-- ### N 叉树（K 叉树、M 叉树）
+### N 叉树（K 叉树、M 叉树）
     - 注意：N 或 K 指的是分支系数（即树的最大分支数）：
         - 二叉树是一种分支系数为2的树
         - 2-3树是一种分支系数为3的树
@@ -792,7 +792,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
 
 ## Even More Knowledge
 
-- ### Recursion
+### Recursion
     - [ ] Stanford lectures on recursion & backtracking:
         - [ ] [Lecture 8 | Programming Abstractions (video)](https://www.youtube.com/watch?v=gl3emqCuueQ&list=PLFE6E58F856038C69&index=8)
         - [ ] [Lecture 9 | Programming Abstractions (video)](https://www.youtube.com/watch?v=uFJhEPrbycQ&list=PLFE6E58F856038C69&index=9)
@@ -803,7 +803,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [What Is Tail Recursion Why Is It So Bad?](https://www.quora.com/What-is-tail-recursion-Why-is-it-so-bad)
         - [ ] [Tail Recursion (video)](https://www.youtube.com/watch?v=L1jjXGfxozc)
 
-- ### Dynamic Programming
+### Dynamic Programming
     - This subject can be pretty difficult, as each DP soluble problem must be defined as a recursion relation, and coming up with it can be tricky.
     - I suggest looking at many examples of DP problems until you have a solid understanding of the pattern involved.
     - [ ] Videos:
@@ -828,7 +828,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [Global pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/UZ7o6/global-pairwise-sequence-alignment)
         - [ ] [Local pairwise sequence alignment (video)](https://www.coursera.org/learn/algorithmic-thinking-2/lecture/WnNau/local-pairwise-sequence-alignment)
 
-- ### Combinatorics (n choose k) & Probability
+### Combinatorics (n choose k) & Probability
     - [ ] [Math Skills: How to find Factorial, Permutation and Combination (Choose) (video)](https://www.youtube.com/watch?v=8RRo6Ti9d0U)
     - [ ] [Make School: Probability (video)](https://www.youtube.com/watch?v=sZkAAk9Wwa4)
     - [ ] [Make School: More Probability and Markov Chains (video)](https://www.youtube.com/watch?v=dNaJg-mLobQ)
@@ -838,7 +838,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - Just the videos - 41 (each are simple and each are short):
             - [ ] [Probability Explained (video)](https://www.youtube.com/watch?v=uzkc-qNVoOk&list=PLC58778F28211FA19)
 
-- ### NP, NP-Complete and Approximation Algorithms
+### NP, NP-Complete and Approximation Algorithms
     - Know about the most famous classes of NP-complete problems, such as traveling salesman and the knapsack problem,
         and be able to recognize them when an interviewer asks you them in disguise.
     - Know what NP-complete means.
@@ -859,7 +859,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [Jupyter Notebook](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
     - Pages 1048 - 1140 in CLRS if you have it.
 
-- ### Caches
+### Caches
     - [ ] LRU cache:
         - [ ] [The Magic of LRU Cache (100 Days of Google Dev) (video)](https://www.youtube.com/watch?v=R5ON3iwx78M)
         - [ ] [Implementing LRU (video)](https://www.youtube.com/watch?v=bq6N7Ym81iI)
@@ -868,7 +868,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [MIT 6.004 L15: The Memory Hierarchy (video)](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
         - [ ] [MIT 6.004 L16: Cache Issues (video)](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
 
-- ### Processes and Threads
+### Processes and Threads
     - [ ] Computer Science 162 - Operating Systems (25 videos):
         - for precesses and threads see videos 1-11
         - [Operating Systems and System Programming (video)](https://www.youtube.com/playlist?list=PL-XXv-cvA_iBDyz-ba4yDskqMDY6A1w_c)
@@ -906,7 +906,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     Scalability and System Design are very large topics with many topics and resources, since there is a lot to consider
     when designing a software/hardware system that can scale. Expect to spend quite a bit of time on this.
 
-- ### System Design, Scalability, Data Handling
+### System Design, Scalability, Data Handling
     - Considerations from Yegge:
         - scalability
             - Distill large data sets to single values
@@ -1047,7 +1047,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
             - [Design a URL-shortener system: copied from above](http://www.hiredintech.com/system-design/the-system-design-process/)
             - [Design a cache system](https://www.adayinthelifeof.nl/2011/02/06/memcache-internals/)
 
-- ### Papers
+### Papers
     - These are Google papers and well-known papers.
     - Reading all from end to end with full comprehension will likely take more time than you have. I recommend being selective on papers and their sections.
     - [ ] [1978: Communicating Sequential Processes](http://spinroot.com/courses/summer/Papers/hoare_1978.pdf)
@@ -1073,7 +1073,7 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
     - [ ] [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
     - [ ] [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-- ### Testing
+### Testing
     - To cover:
         - how unit testing works
         - what are mock objects
@@ -1092,15 +1092,15 @@ You'll get more graph practice in Skiena's book (see Books section below) and th
         - [ ] [Tao Of Testing](http://jasonpolites.github.io/tao-of-testing/ch3-1.1.html)
     - [ ] [How to write tests](http://jasonpolites.github.io/tao-of-testing/ch4-1.1.html)
 
-- ### Scheduling
+### Scheduling
     - in an OS, how it works
     - can be gleaned from Operating System videos
 
-- ### Implement system routines
+### Implement system routines
     - understand what lies beneath the programming APIs you use
     - can you implement them?
 
-- ### String searching & manipulations
+### String searching & manipulations
     - [ ] [Search pattern in text (video)](https://www.coursera.org/learn/data-structures/lecture/tAfHI/search-pattern-in-text)
     - [ ] Rabin-Karp (videos):
         - [Rabin Karps Algorithm](https://www.coursera.org/learn/data-structures/lecture/c0Qkw/rabin-karps-algorithm)
@@ -1287,18 +1287,18 @@ You're never really done.
 
 ## Additional Learning
 
-- ### Unicode
+### Unicode
     - [ ] [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets]( http://www.joelonsoftware.com/articles/Unicode.html)
     - [ ] [What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text](http://kunststube.net/encoding/)
 
-- ### Endianness
+### Endianness
     - [ ] [Big And Little Endian](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/endian.html)
     - [ ] [Big Endian Vs Little Endian (video)](https://www.youtube.com/watch?v=JrNF0KRAlyo)
     - [ ] [Big And Little Endian Inside/Out (video)](https://www.youtube.com/watch?v=oBSuXP-1Tc0)
         - Very technical talk for kernel devs. Don't worry if most is over your head.
         - The first half is enough.
 
-- ### Emacs and vi(m)
+### Emacs and vi(m)
     - suggested by Yegge, from an old Amazon recruiting post: Familiarize yourself with a unix-based code editor
     - vi(m):
         - [Editing With vim 01 - Installation, Setup, and The Modes (video)](https://www.youtube.com/watch?v=5givLEMcINQ&index=1&list=PL13bz4SHGmRxlZVmWQ9DvXo1fEg4UdGkr)
@@ -1319,7 +1319,7 @@ You're never really done.
         - [Writing C Programs With Emacs](http://www.cs.yale.edu/homes/aspnes/classes/223/notes.html#Writing_C_programs_with_Emacs)
         - [(maybe) Org Mode In Depth: Managing Structure (video)](https://www.youtube.com/watch?v=nsGYet02bEk)
 
-- ### Unix command line tools
+### Unix command line tools
     - suggested by Yegge, from an old Amazon recruiting post. I filled in the list below from good tools.
     - [ ] bash
     - [ ] cat
@@ -1333,7 +1333,7 @@ You're never really done.
     - [ ] [strace](https://en.wikipedia.org/wiki/Strace)
     - [ ] [tcpdump](https://danielmiessler.com/study/tcpdump/)
 
-- ### Information theory (videos)
+### Information theory (videos)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/informationtheory)
     - [ ] more about Markov processes:
         - [ ] [Core Markov Text Generation](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/waxgx/core-markov-text-generation)
@@ -1341,7 +1341,7 @@ You're never really done.
         - [ ] [Project = Markov Text Generation Walk Through](https://www.coursera.org/learn/data-structures-optimizing-performance/lecture/EUjrq/project-markov-text-generation-walk-through)
     - See more in MIT 6.050J Information and Entropy series below.
 
-- ### Parity & Hamming Code (videos)
+### Parity & Hamming Code (videos)
     - [ ] [Intro](https://www.youtube.com/watch?v=q-3BctoUpHE)
     - [ ] [Parity](https://www.youtube.com/watch?v=DdMcAUlxh1M)
     - [ ] Hamming Code:
@@ -1349,19 +1349,19 @@ You're never really done.
         - [Error correction](https://www.youtube.com/watch?v=JAMLuxdHH8o)
     - [ ] [Error Checking](https://www.youtube.com/watch?v=wbH2VxzmoZk)
 
-- ### Entropy
+### Entropy
     - also see videos below
     - make sure to watch information theory videos first
     - [ ] [Information Theory, Claude Shannon, Entropy, Redundancy, Data Compression & Bits (video)](https://youtu.be/JnJq3Py0dyM?t=176)
 
-- ### Cryptography
+### Cryptography
     - also see videos below
     - make sure to watch information theory videos first
     - [ ] [Khan Academy Series](https://www.khanacademy.org/computing/computer-science/cryptography)
     - [ ] [Cryptography: Hash Functions](https://www.youtube.com/watch?v=KqqOXndnvic&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=30)
     - [ ] [Cryptography: Encryption](https://www.youtube.com/watch?v=9TNI2wHmaeI&index=31&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
 
-- ### Compression
+### Compression
     - make sure to watch information theory videos first
     - [ ] Computerphile (videos):
         - [ ] [Compression](https://www.youtube.com/watch?v=Lto-ajuqW3w)
@@ -1373,7 +1373,7 @@ You're never really done.
     - [ ] [Compressor Head videos](https://www.youtube.com/playlist?list=PLOU2XLYxmsIJGErt5rrCqaSGTMyyqNt2H)
     - [ ] [(optional) Google Developers Live: GZIP is not enough!](https://www.youtube.com/watch?v=whGwm0Lky2s)
 
-- ### Networking (videos)
+### Networking (videos)
     - [ ] [Khan Academy](https://www.khanacademy.org/computing/computer-science/internet-intro)
     - [ ] [UDP and TCP: Comparison of Transport Protocols](https://www.youtube.com/watch?v=Vdc8TCESIg8)
     - [ ] [TCP/IP and the OSI Model Explained!](https://www.youtube.com/watch?v=e5DEVa9eSN0)
@@ -1385,7 +1385,7 @@ You're never really done.
     - [ ] [Video Series (21 videos)](https://www.youtube.com/playlist?list=PLEbnTDJUr_IegfoqO4iPnPYQui46QqT0j)
     - [ ] [Subnetting Demystified - Part 5 CIDR Notation](https://www.youtube.com/watch?v=t5xYI0jzOf4)
 
-- ### Computer Security
+### Computer Security
     - [MIT (23 videos)](https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Introduction, Threat Models](https://www.youtube.com/watch?v=GqmQg-cszw4&index=1&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Control Hijacking Attacks](https://www.youtube.com/watch?v=6bwzNg5qQ0o&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh&index=2)
@@ -1400,18 +1400,18 @@ You're never really done.
         - [ ] [Network Protocols](https://www.youtube.com/watch?v=QOtA76ga_fY&index=12&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
         - [ ] [Side-Channel Attacks](https://www.youtube.com/watch?v=PuVMkSEcPiI&index=15&list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh)
 
-- ### Garbage collection
+### Garbage collection
     - [ ] [Garbage collection (Java); Augmenting data str (video)](https://www.youtube.com/watch?v=StdfeXaKGEc&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=25)
     - [ ] [Compilers (video)](https://www.youtube.com/playlist?list=PLO9y7hOkmmSGTy5z6HZ-W4k2y8WXF7Bff)
     - [ ] [GC in Python (video)](https://www.youtube.com/watch?v=iHVs_HkjdmI)
     - [ ] [Deep Dive Java: Garbage Collection is Good!](https://www.infoq.com/presentations/garbage-collection-benefits)
     - [ ] [Deep Dive Python: Garbage Collection in CPython (video)](https://www.youtube.com/watch?v=P-8Z0-MhdQs&list=PLdzf4Clw0VbOEWOS_sLhT_9zaiQDrS5AR&index=3)
 
-- ### Parallel Programming
+### Parallel Programming
     - [ ] [Coursera (Scala)](https://www.coursera.org/learn/parprog1/home/week/1)
     - [ ] [Efficient Python for High Performance Parallel Computing (video)](https://www.youtube.com/watch?v=uY85GkaYzBk)
 
-- ### Design patterns
+### Design patterns
     - [ ] [Quick UML review (video)](https://www.youtube.com/watch?v=3cmzqZzwNDM&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc&index=3)
     - [ ] Learn these patterns:
         - [ ] strategy
@@ -1439,7 +1439,7 @@ You're never really done.
         - I know the canonical book is "Design Patterns: Elements of Reusable Object-Oriented Software", but Head First is great for beginners to OO.
     - [ ] [Handy reference: 101 Design Patterns & Tips for Developers](https://sourcemaking.com/design-patterns-and-tips)
 
-- ### Messaging, Serialization, and Queueing Systems
+### Messaging, Serialization, and Queueing Systems
     - [ ] [Thrift](https://thrift.apache.org/)
         - [Tutorial](http://thrift-tutorial.readthedocs.io/en/latest/intro.html)
     - [ ] [Protocol Buffers](https://developers.google.com/protocol-buffers/)
@@ -1461,37 +1461,37 @@ You're never really done.
     - [ ] [MessagePack](http://msgpack.org/index.html)
     - [ ] [Avro](https://avro.apache.org/)
 
-- ### Fast Fourier Transform
+### Fast Fourier Transform
     - [ ] [What is a Fourier transform? What is it used for?](http://www.askamathematician.com/2012/09/q-what-is-a-fourier-transform-what-is-it-used-for/)
     - [ ] [What is the Fourier Transform? (video)](https://www.youtube.com/watch?v=Xxut2PN-V8Q)
     - [ ] [Divide & Conquer: FFT (video)](https://www.youtube.com/watch?v=iTMn0Kt18tg&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=4)
     - [ ] [Understanding The FFT](http://jakevdp.github.io/blog/2013/08/28/understanding-the-fft/)
 
-- ### Bloom Filter
+### Bloom Filter
     - Given a Bloom filter with m bits and k hashing functions, both insertion and membership testing are O(k)
     - [Bloom Filters](https://www.youtube.com/watch?v=-SuTGoFYjZs)
     - [Bloom Filters | Mining of Massive Datasets | Stanford University](https://www.youtube.com/watch?v=qBTdukbzc78)
     - [Tutorial](http://billmill.org/bloomfilter-tutorial/)
     - [How To Write A Bloom Filter App](http://blog.michaelschmatz.com/2016/04/11/how-to-write-a-bloom-filter-cpp/)
 
-- ### van Emde Boas Trees
+### van Emde Boas Trees
     - [ ] [Divide & Conquer: van Emde Boas Trees (video)](https://www.youtube.com/watch?v=hmReJCupbNU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=6)
     - [ ] [MIT Lecture Notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2012/lecture-notes/MIT6_046JS12_lec15.pdf)
 
-- ### Augmented Data Structures
+### Augmented Data Structures
     - [ ] [CS 61B Lecture 39: Augmenting Data Structures](https://youtu.be/zksIj9O8_jc?list=PL4BBB74C7D2A1049C&t=950)
 
-- ### Skip lists
+### Skip lists
     - "These are somewhat of a cult data structure" - Skiena
     - [ ] [Randomization: Skip Lists (video)](https://www.youtube.com/watch?v=2g9OSRKJuzM&index=10&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
     - [ ] [For animations and a little more detail](https://en.wikipedia.org/wiki/Skip_list)
 
-- ### Network Flows
+### Network Flows
     - [ ] [Ford-Fulkerson in 5 minutes (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Ford-Fulkerson Algorithm (video)](https://www.youtube.com/watch?v=v1VgJmkEJW0)
     - [ ] [Network Flows (video)](https://www.youtube.com/watch?v=2vhN4Ice5jI)
 
-- ### Disjoint Sets & Union Find
+### Disjoint Sets & Union Find
     - [ ] [Disjoint Set](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
     - [ ] [UCB 61B - Disjoint Sets; Sorting & selection (video)](https://www.youtube.com/watch?v=MAEGXTwmUsI&list=PL-XXv-cvA_iAlnI-BQr9hjqADPBtujFJd&index=21)
     - [ ] Coursera (not needed since the above video explains it great):
@@ -1502,30 +1502,30 @@ You're never really done.
         - [ ] [Path Compression](https://www.coursera.org/learn/data-structures/lecture/Q9CVI/path-compression)
         - [ ] [Analysis Options](https://www.coursera.org/learn/data-structures/lecture/GQQLN/analysis-optional)
 
-- ### Math for Fast Processing
+### Math for Fast Processing
     - [ ] [Integer Arithmetic, Karatsuba Multiplication (video)](https://www.youtube.com/watch?v=eCaXlAaN2uE&index=11&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [The Chinese Remainder Theorem (used in cryptography) (video)](https://www.youtube.com/watch?v=ru7mWZJlRQg)
 
-- ### Treap
+### Treap
     - Combination of a binary search tree and a heap
     - [ ] [Treap](https://en.wikipedia.org/wiki/Treap)
     - [ ] [Data Structures: Treaps explained (video)](https://www.youtube.com/watch?v=6podLUYinH8)
     - [ ] [Applications in set operations](https://www.cs.cmu.edu/~scandal/papers/treaps-spaa98.pdf)
 
-- ### Linear Programming (videos)
+### Linear Programming (videos)
     - [ ] [Linear Programming](https://www.youtube.com/watch?v=M4K6HYLHREQ)
     - [ ] [Finding minimum cost](https://www.youtube.com/watch?v=2ACJ9ewUC6U)
     - [ ] [Finding maximum value](https://www.youtube.com/watch?v=8AA_81xI3ik)
 
-- ### Geometry, Convex hull (videos)
+### Geometry, Convex hull (videos)
     - [ ] [Graph Alg. IV: Intro to geometric algorithms - Lecture 9](https://youtu.be/XIAQRlNkJAw?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3164)
     - [ ] [Geometric Algorithms: Graham & Jarvis - Lecture 10](https://www.youtube.com/watch?v=J5aJEcOr6Eo&index=10&list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm)
     - [ ] [Divide & Conquer: Convex Hull, Median Finding](https://www.youtube.com/watch?v=EzeYI7p9MjU&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp&index=2)
 
-- ### Discrete math
+### Discrete math
     - see videos below
 
-- ### Machine Learning
+### Machine Learning
     - [ ] Why ML?
         - [ ] [How Google Is Remaking Itself As A Machine Learning First Company](https://backchannel.com/how-google-is-remaking-itself-as-a-machine-learning-first-company-ada63defcb70)
         - [ ] [Large-Scale Deep Learning for Intelligent Computer Systems (video)](https://www.youtube.com/watch?v=QSaZGT4-6EY)
@@ -1548,7 +1548,7 @@ You're never really done.
         - Great book: Data Science from Scratch: First Principles with Python: https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X
         - Data School: http://www.dataschool.io/
 
-- ### Go
+### Go
     - [ ] Videos:
         - [ ] [Why Learn Go?](https://www.youtube.com/watch?v=FTl0tl9BGdc)
         - [ ] [Go Programming](https://www.youtube.com/watch?v=CF9S4QZuV30)
