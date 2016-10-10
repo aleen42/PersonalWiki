@@ -1,1 +1,1 @@
-## A simple demo created by Ritter Liu [Back](./../VR.md)
+## WebVR Boilerplate [Back](./../VR.md)
