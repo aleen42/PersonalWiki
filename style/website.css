@@ -549,8 +549,8 @@ iframe::-webkit-resizer {
 }
 
 /** mathjax */
-.mjx-chtml {
-    width: 100%;
-    text-align: center;
-    margin: 44px 0;
+.MathJax_Preview + span {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 44px 0 !important;
 }
