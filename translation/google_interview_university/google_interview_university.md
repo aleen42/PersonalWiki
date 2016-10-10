@@ -44,7 +44,7 @@
     - [二分查找（Binary search）](#二分查找（binary-search）)
     - [按位运算（Bitwise operations）](#按位运算（bitwise-operations）)
 - [树（Trees）](#树（trees）)
-    - [树 —— 笔记 & 背景](#树--笔记--背景)
+    - [树 —— 笔记 & 背景](#树-——-笔记--背景)
     - [二叉查找树（Binary search trees）：BSTs](#二叉查找树（binary-search-trees）：bsts)
     - [堆（Heap） / 优先级队列（Priority Queue） / 二叉堆（Binary Heap）](#堆（heap）--优先级队列（priority-queue）--二叉堆（binary-heap）)
     - [字典树（Tries）](#字典树（tries）)
