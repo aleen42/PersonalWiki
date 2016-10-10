@@ -136,7 +136,7 @@
 
 [![future Googler sign](https://dng5l3qzreal6.cloudfront.net/2016/Oct/Screen_Shot_2016_10_04_at_10_13_24_AM-1475601104364.png)](https://github.com/jwasham/google-interview-university/blob/master/extras/future-googler.pdf)
 
-## 我得到了工作吗?
+## 我得到了工作吗？
 
 我还没去应聘。
 
