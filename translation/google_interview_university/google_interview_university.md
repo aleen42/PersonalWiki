@@ -440,7 +440,7 @@
         - dequeue：O(1)（链表和数组）
         - empty：O(1)（链表和数组）
 
-- ### 哈希表（Hash table）
+### 哈希表（Hash table）
     - [ ] 视频：
         - [ ] [链式哈希表（视频）](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
         - [ ] [Table Doubling 和 Karp-Rabin（视频）](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
