@@ -225,3 +225,157 @@ function tableClonedDOM() {
     /** ... the rest of the table generation ... */
 }
 ```
+
+#### HTML collections
+
+**HTML collections** are array-like object, which contains DOM node references. For instances, they are the values returned by the following methods:
+
+- `document.getElementsByName()`
+- `document.getElementsByClassName()`
+- `document.getElementsByTagName()`
+
+or the following properties:
+
+- `document.images`: All `img` elements on the page
+- `document.links`: All `a` elements
+- `document.forms`: All `form` elements
+- `document.forms[0].elements`: All fields in the first form on the page
+
+As defined in the DOM standard, HTML collections are "assumed to be *live*, meaning that they're automatically updated when the underlying document is updated". To demonstrate that an HTML collection is live, consider the following code:
+
+```js
+/** an accidentally infinite loop, because the property `length` of the variable, `alldivs`, are automatically increased. */
+var alldivs = document.getElementsByTagName('div');
+
+for (var i = 0; i < alldivs.length; i++) {
+    document.body.appendChild(document.createElement('div'));
+}
+```
+
+As we can see that, looping through an HTML collection may lead to a logic mistakes, and causing performance problem at the same time, because each accessing will lead to a query running on every iteration. Besides, with a sample task, we can demonstrate that loop over an array is significantly faster than looping through an HTML collection of the same size and content.
+
+Firstly, we will copy an HTML collection to an array using a method:
+
+```js
+function toArray(collection) {
+    for (var i = 0, a = [], len = collection.length; i < len; i++) {
+        a[i] = collection[i];
+    }
+
+    return a;
+}
+```
+
+Then, set up a collection and a copy of it into an array:
+
+```js
+var collection = document.getElementsByTagName('div');
+var arr = toArray(collection);
+```
+
+After that, we can create such simple task like this:
+
+```js
+/** slower */
+function loopCollection() {
+    for (var count = 0; count < collection.length; count++) {
+        /** do nothing */
+    }
+}
+
+/** faster */
+function loopArray() {
+    for (var count = 0; count < array.length; count++) {
+        /** do nothing */
+    }
+}
+```
+
+After calling two functions, we can get the result like that:
+
+$$Faster = \frac {t_{collection} - t_{array}}{t_{array}}$$
+
+Browsers|IE 6|IE 7|IE 8|Firefox 3|Firefox 3.5|Safari 3.2
+:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Faster|114x|191x|79x|14.2x|14.9x|2x
+
+Browsers|Safari 4|Chrome 2|Chrome 3|Opera 9.64|Opera 10
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Faster|3.6x|58x|7.9x|5.7x|3.5x
+
+So where is the cost? When the `length` property of that collection is accessed on every iteration, it causes the collection to be updated, which has occupied too much cost. The way to optimized this is to simply cache the length of that collection into a local variable, and use it instead:
+
+```js
+function loopCacheLengthColection() {
+    var collection = document.getElementsByTagName('div');
+    var len = collection.length;
+
+    for (var count = 0; count < len; count++) {
+        /** do nothing */
+    }
+}
+```
+
+> When the collection is a relatively small collection, caching the `length` property is good enough for performance, but if not, using a copied array is more faster. So consider using `toArray()` or `Array.from()` to convert an HTML collection into an copied array first, when it's large.
+
+What if accessing elements of an HTML collection? **Remember to cache it into a local variable**.
+
+```js
+/** slow */
+function collectionGlobal() {
+    var collection = document.getElementsByTagName('div');
+    var len = collection.length;
+    var name = '';
+
+    for (var count = 0; count < len; count++) {
+        name = document.getElementsByTagName('div')[count].nodeName;
+        name = document.getElementsByTagName('div')[count].nodeType;
+        name = document.getElementsByTagName('div')[count].tagName;
+    }
+
+    return name;
+}
+
+/** faster */
+function collectionLocal() {
+    var collection = document.getElementsByTagName('div');
+    var len = collection.length;
+    var name = '';
+
+    for (var count = 0; count < len; count++) {
+        name = collection[count].nodeName;
+        name = collection[count].nodeType;
+        name = collection[count].tagName;
+    }
+
+    return name;
+}
+
+/** fastest */
+function collectionNodeLocal() {
+    var collection = document.getElementsByTagName('div');
+    var len = collection.length;
+    var name = '';
+
+    for (var count = 0; count < len; count++) {
+        var element = collection[count];
+        name = element.nodeName;
+        name = element.nodeType;
+        name = element.tagName;
+    }
+
+    return name;
+}
+```
+
+How fast?
+
+Browsers|IE 6|IE 7|IE 8|Firefox 3|Firefox 3.5|Safari 3.2
+:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Faster (collectionLocal)|2.5x|2.95x|3.6x|2.35x|2.43x|179x
+Faster (collectionNodeLocal)|3.23x|3.65x|4.45x|3.62x|4.43x|228x
+
+Browsers|Safari 4|Chrome 2|Chrome 3|Opera 9.64|Opera 10
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+Faster (collectionLocal)|2.15x|4.74x|4.56x|345x|253x
+Faster (collectionNodeLocal)|2.74x|5.51x|6.15x|345x|324x
