@@ -54,8 +54,8 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 - **viewBoxY**: the `y` value of the attribute `viewBox` of that image
 
 ```js
-var dx = image.oriX + image.moveX - image.viewBoxX;
-var dy = image.oriY + image.moveY - image.viewBoxY;
+var dx = image.oriX + image.moveX;
+var dy = image.oriY + image.moveY;
 ```
 
 ***Note: remember that the `x` and `y` value of the attribute `viewBox` will also crop that SVG to show.***
