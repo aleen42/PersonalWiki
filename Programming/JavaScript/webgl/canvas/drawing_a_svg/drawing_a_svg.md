@@ -79,6 +79,9 @@ var drawFPS = 1000;
 var distancePerPoint = 1;
 var pointsArr = [];
 
+/** extract a path */
+var extract = paths[index].splice(0, 1);
+
 var pathTimer = setInterval(function () {
 	var nextPoint = pointsArr.length * distancePerPoint;
 	var pathLength = extract[0].getTotalLength();
