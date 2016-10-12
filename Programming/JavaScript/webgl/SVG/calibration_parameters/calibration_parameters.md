@@ -48,4 +48,7 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 #### Ratio
 
-
+```js
+var ratioX = (image.attrs.width / image.oriW) * calibrationParam;
+var ratioY = (image.attrs.height / image.oriH) * calibrationParam;
+```
