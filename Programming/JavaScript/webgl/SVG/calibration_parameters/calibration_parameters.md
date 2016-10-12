@@ -1,4 +1,4 @@
-## Drawing a SVG file [Back](./../SVG.md)
+## Calibration Parameters for drawing a SVG file [Back](./../SVG.md)
 
 ### Reading 
 
