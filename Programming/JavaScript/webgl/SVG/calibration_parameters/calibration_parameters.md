@@ -18,4 +18,4 @@ I find that only data of points is not enough, because the data should always de
 
 ![](./resize_svg2.png)
 
-As I change the size of this SVG, 
+As I change the size of this SVG, the data of points in paths won't change at the same time.
