@@ -8,4 +8,4 @@ In the last step of drawing, we will find that there exists a problem. As shown 
 
 ![](./panel.png)
 
-When I drop a SVG file into this panel, and start to draw it, I find that only data of points is not enough, because the data should always depend on some attributes of a SVG element.
+When I drop a SVG file into this panel, and start to draw it, I find that only data of points is not enough, because the data should always depend on some attributes of a SVG element, including `width`, `height`, and `viewBox`
