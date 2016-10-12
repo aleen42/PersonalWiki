@@ -101,6 +101,11 @@ for (var j = 0; j < pathLen; j++) {
     
         /** calculation of calibration parameters */
     
+        var calibrationParam = Math.max(image.oriW / image.svgW, image.oriH / image.svgH) * Math.min(image.svgW / image.viewBoxW, image.svgH / image.viewBoxH);
+        
+        var ratioX = (image.curW / image.oriW) * calibrationParam;
+        var ratioY = (image.curH / image.oriH) * calibrationParam;
+    
         data.x = data.x * ratioX + dx - image.viewBoxX;
 		data.y = data.y * ratioY + dy - image.viewBoxY;
         
