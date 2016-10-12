@@ -76,13 +76,13 @@ for (var j = 0; j < pathLen; j++) {
         /** extract points from a path */
         var data = pathNodes[j].getPointAtLength(k);
         
+        /** filter for cropping SVG */
         if (data.x >= dx &&
             data.x <= dx + image.curW &&
             data.y >= dy &&
             data.y <= dy + image.curH) {
             pointsArr[index].push();
         }
-        
     }
 }
 ```
