@@ -44,8 +44,12 @@ var paths = contents.match(/<path([\s\S]+?)\/>/g);
 Generally, the attribute `d` is represented as data of a `path`. To make it useful, I have converted this data into a legal DOM, `SVGPathElement`.
 
 ```js
-var pathNodes = [];
-var pathLen = paths.length;
-
-for 
+if (paths) {
+    var pathNodes = [];
+    var pathLen = paths.length;
+    
+    for (var i = 0; i < pathLen; i++) {
+        
+    }
+}
 ```
