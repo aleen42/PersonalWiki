@@ -84,9 +84,6 @@ var ratioY = (image.curH / image.oriH) * calibrationParam;
 
 For this reason, we should fill data of points before drawing like this:
 
-- **curW**: the current width of the image
-- **curH**: the current height of the image
-
 ```js
 var pointsArr = [];
 var pathLen = pathNodes.length;
