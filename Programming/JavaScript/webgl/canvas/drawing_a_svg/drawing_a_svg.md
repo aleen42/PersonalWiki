@@ -49,6 +49,7 @@ if (paths) {
     var pathLen = paths.length;
     
     for (var i = 0; i < pathLen; i++) {
+        /** create a legal DOM node, SVGPathElement */
         var pathNode = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     }
 }
