@@ -1,6 +1,8 @@
 ## Calibration Parameters for drawing a SVG file [Back](./../SVG.md)
 
-### Reading 
+Here what I wrote is all about recording the calculation of the calibration parameter when drawing a SVG file. Before that, you're supposed to know how to draw a SVG file with canvas in JavaScript.
+
+### How to draw
 
 Before drawing a SVG file, you need to read a SVG file with `FileReader` in JavaScript.
 
