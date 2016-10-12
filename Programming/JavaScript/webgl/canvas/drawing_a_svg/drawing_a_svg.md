@@ -64,6 +64,7 @@ if (paths) {
             .split('	').join('')
         );
         
+        pathNodes.push(pathNode);
     }
 }
 ```
