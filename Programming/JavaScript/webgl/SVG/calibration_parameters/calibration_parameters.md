@@ -27,3 +27,5 @@ Attributes like `width`, `height`, and `viewBox` of this SVG element will also a
     <!-- paths -->
 </svg>
 ```
+
+That's why I need a caliration paramter for updating data of points in paths.
