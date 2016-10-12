@@ -37,7 +37,7 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 - **Group**: a group for storing image and 4 respective circles, which is used for dragging to resize
 - **Image**: the image stored in a group
 
-    ![](./group.png)
+![](./1.png)
 
 
 #### Positions
