@@ -48,7 +48,11 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 #### Ratio
 
+Ratio is affected by some factors, and the `calibrationParam` is calculated as bellow:
+
 ```js
+var calibrationParam = Math.max(imgItem.oriW / imgItem.svgW, imgItem.oriH / imgItem.svgH) * Math.min(imgItem.svgW / imgItem.viewBoxW, imgItem.svgH / imgItem.viewBoxH);
+
 var ratioX = (image.attrs.width / image.oriW) * calibrationParam;
 var ratioY = (image.attrs.height / image.oriH) * calibrationParam;
 ```
