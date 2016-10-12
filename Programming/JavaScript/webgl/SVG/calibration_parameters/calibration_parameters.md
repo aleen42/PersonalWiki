@@ -58,38 +58,6 @@ var dx = image.oriX + image.moveX;
 var dy = image.oriY + image.moveY;
 ```
 
-***Note: remember that the `x` and `y` value of the attribute `viewBox` will also crop that SVG to show.***
-
-![](./3.png)
-
-For this reason, we should fill data of points before drawing like this:
-
-- **curW**: the current width of the image
-- **curH**: the current height of the image
-
-```js
-var pointsArr = [];
-var pathLen = pathNodes.length;
-
-for (var j = 0; j < pathLen; j++) {
-    var index = pointsArr[].push([]);
-    var pointsLen = pathNodes[j].getTotalLength();
-    
-    for (var k = 0; k < pointsLen; k++) {
-        /** extract points from a path */
-        var data = pathNodes[j].getPointAtLength(k);
-        
-        /** filter for cropping SVG */
-        if (data.x >= dx &&
-            data.x <= dx + image.curW &&
-            data.y >= dy &&
-            data.y <= dy + image.curH) {
-            pointsArr[index].push(data);
-        }
-    }
-}
-```
-
 #### Ratio
 
 Ratio is affected by some factors, and the `calibrationParam` is calculated as below:
