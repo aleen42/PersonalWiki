@@ -64,6 +64,7 @@ if (paths) {
             .split('	').join('')
         );
         
+        /** store it into an array */
         pathNodes.push(pathNode);
     }
 }
