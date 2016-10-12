@@ -32,3 +32,5 @@ canvas.addEventListener('drop', function (e) {
 ```
 
 ### Find out what we can draw
+
+In a SVG file, many kinds of tags has been defined for rendering shapes.
