@@ -157,5 +157,3 @@ for (var j = 0; j < pathLen; j++) {
 ### Demo
 
 Check [here](http://draw.soundtooth.cn/).
-
-<iframe src="http://draw.soundtooth.cn/" />
