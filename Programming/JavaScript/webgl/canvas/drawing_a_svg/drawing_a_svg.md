@@ -111,4 +111,4 @@ function drawPath(index) {
 
 ### Calibration parameters
 
-Something wrong has been talked about in a [later post](./../../svg/calibration_parameters/calibration_parameters.md).
+Something wrong has been talked about in a [later post](./../../SVG/calibration_parameters/calibration_parameters.md).
