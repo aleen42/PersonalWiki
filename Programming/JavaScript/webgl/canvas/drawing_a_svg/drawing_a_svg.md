@@ -10,12 +10,12 @@ Before drawing a SVG file, you need to read data from a SVG file with `FileReade
 var fileReader = new FileReader(); 
 ``` 
  
-`FileReader` is a Web API, which has given some methods for you to read a file.`readAsText` is one of methods, supported by this Web API, for reading file with its content, and `onload` is the event triggered when a file has been read: 
+`FileReader` is a Web API, which has given some methods for you to read a file.`readAsText` is one of methods, supported by this Web API, for reading file with its contents, and `onload` is the event triggered when a file has been read: 
  
 ```js 
 fileReader.onload = function (e) {
-    /** content of a SVG file */
-    var content = e.target.result;
+    /** contents of a SVG file */
+    var contents = e.target.result;
 }; 
  
 fileReader.read(file); 
