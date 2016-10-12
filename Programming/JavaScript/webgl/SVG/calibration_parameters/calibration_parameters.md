@@ -44,6 +44,8 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 `(dx,dy)` represent the current position of that image.
 
+![](./2.png)
+
 ```js
 
 ```
