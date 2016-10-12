@@ -118,3 +118,40 @@ for (var j = 0; j < pathLen; j++) {
     }
 }
 ```
+
+### Optimization
+
+```js
+var pointsArr = [];
+var pathLen = pathNodes.length;
+
+for (var j = 0; j < pathLen; j++) {
+    var index = pointsArr[].push([]);
+    var pointsLen = pathNodes[j].getTotalLength();
+    
+    for (var k = 0; k < pointsLen; k++) {
+        /** extract points from a path */
+        var data = pathNodes[j].getPointAtLength(k);
+    
+        /** calculation of calibration parameters */
+        var dx = image.oriX + image.moveX;
+        var dy = image.oriY + image.moveY;
+        
+        var calibrationParam = Math.max(image.oriW / image.svgW, image.oriH / image.svgH) * Math.min(image.svgW / image.viewBoxW, image.svgH / image.viewBoxH);
+        
+        var ratioX = (image.curW / image.oriW) * calibrationParam;
+        var ratioY = (image.curH / image.oriH) * calibrationParam;
+    
+        data.x = data.x * ratioX + dx - image.viewBoxX;
+		data.y = data.y * ratioY + dy - image.viewBoxY;
+        
+        /** filter for cropping SVG */
+        if (data.x >= dx &&
+            data.x <= dx + image.curW &&
+            data.y >= dy &&
+            data.y <= dy + image.curH) {
+            pointsArr[index].push(data);
+        }
+    }
+}
+```
