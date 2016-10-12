@@ -48,6 +48,8 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 - **oriX**: the original `x` value of the image
 - **oriY**: the original `y` value of the image
+- **moveX**: difference of the `x` value.
+- **moveY**: difference of the `y` value.
 
 ```js
 var dx = image.oriX + image.moveX - image.viewBoxX;
