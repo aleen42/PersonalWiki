@@ -84,7 +84,7 @@ for (var j = 0; j < pathLen; j++) {
             data.x <= dx + image.curW &&
             data.y >= dy &&
             data.y <= dy + image.curH) {
-            pointsArr[index].push();
+            pointsArr[index].push(data);
         }
     }
 }
