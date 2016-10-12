@@ -34,7 +34,10 @@ That's why I need a calibration parameter for updating data of points in paths.
 
 So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before calculation, there are some aspects needed to be explained.
 
-- Group: a group for storing image and 4 respective circles, which is used for dragging to resize.    
+- Group: a group for storing image and 4 respective circles, which is used for dragging to resize.
+
+    ![](./group.png)
+
 
 #### Positions
 
