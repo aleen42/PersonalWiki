@@ -57,6 +57,7 @@ if (paths) {
         tmpDiv.innerHTML = path[i];
         
         /** set it into the legal one */
+        pathNode.setAttribute('d', tmpDiv..childNodes[0].getAttribute('d').trim().split('\n').join('').split('	').join('')
         
     }
 }
