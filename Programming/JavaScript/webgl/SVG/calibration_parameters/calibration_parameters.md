@@ -42,7 +42,7 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 #### Positions
 
-`dx` and `dy` represent the 
+`(dx,dy)` represent the current position of that image.
 
 ```js
 
