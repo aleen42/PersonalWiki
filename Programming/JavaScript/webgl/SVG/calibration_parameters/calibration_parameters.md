@@ -98,6 +98,9 @@ for (var j = 0; j < pathLen; j++) {
     for (var k = 0; k < pointsLen; k++) {
         /** extract points from a path */
         var data = pathNodes[j].getPointAtLength(k);
+    
+        data.x = data.x * ratioX + dx - image.viewBoxX;
+		data.y = data.y * ratioY + dy - image.viewBoxY;
         
         /** filter for cropping SVG */
         if (data.x >= dx &&
