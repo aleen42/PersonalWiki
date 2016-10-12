@@ -30,3 +30,5 @@ canvas.addEventListener('drop', function (e) {
     var file = e.dataTransfer.files[0]; 
 }) 
 ```
+
+### Find out what we can draw
