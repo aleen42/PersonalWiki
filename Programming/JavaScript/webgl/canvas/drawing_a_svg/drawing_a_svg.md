@@ -82,19 +82,20 @@ var pointsArr = [];
 /** extract a path */
 function drawPath(index) {
     pointsArr = [];
+    
+    var extract = paths[index].splice(0, 1);
+
+    var pathTimer = setInterval(function () {
+    	var nextPoint = pointsArr.length * distancePerPoint;
+    	var pathLength = extract[0].getTotalLength();
+    
+    	if (nextPoint <= pathLength) {
+    		pointsArr.push(extract[0].getPointAtLength(nextPoint));
+    		redrawCanvas(index);
+    	} else {
+    		clearInterval(pathTimer);
+    		drawPath(index);
+    	}
+    }, 1000 / drawFPS);
 }
-var extract = paths[index].splice(0, 1);
-
-var pathTimer = setInterval(function () {
-	var nextPoint = pointsArr.length * distancePerPoint;
-	var pathLength = extract[0].getTotalLength();
-
-	if (nextPoint <= pathLength) {
-		pointsArr.push(extract[0].getPointAtLength(nextPoint));
-		redrawCanvas(index);
-	} else {
-		clearInterval(pathTimer);
-		drawPath(index);
-	}
-}, 1000 / drawFPS);
 ```
