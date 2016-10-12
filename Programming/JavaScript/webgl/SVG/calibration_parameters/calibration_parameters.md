@@ -145,13 +145,11 @@ for (var j = 0; j < pathLen; j++) {
         data.x = data.x * ratioX + dx - image.viewBoxX;
 		data.y = data.y * ratioY + dy - image.viewBoxY;
         
-        /** filter for cropping SVG */
-        if (data.x >= dx &&
-            data.x <= dx + image.curW &&
-            data.y >= dy &&
-            data.y <= dy + image.curH) {
-            pointsArr[index].push(data);
-        }
+        data.x = data.x >= dx && data.x <= dx + curW ? data.x : ((data.x < dx) ? dx : dx + curW);
+		data.y = data.y >= dy && data.y <= dy + curH ? data.y : ((data.y < dy) ? dy : dy + curH);
+        
+        /** filter with edge */
+        pointsArr[index].push(data);
     }
 }
 ```
