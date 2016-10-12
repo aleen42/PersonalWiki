@@ -65,6 +65,26 @@ var dy = image.oriY + image.moveY - image.viewBoxY;
 For this reason, we should fill data of points before drawing like this:
 
 ```js
+var pointsArr = [];
+var pathLen = pathNodes.length;
+
+for (var j = 0; j < pathLen; j++) {
+    var index = pointsArr[].push([]);
+    var pointsLen = pathNodes[j].getTotalLength();
+    
+    for (var k = 0; k < pointsLen; k++) {
+        /** extract points from a path */
+        var data = pathNodes[j].getPointAtLength(k);
+        
+        if (data.x >= dx &&
+            data.x <= dx + image.curW &&
+            data.y >= dy &&
+            data.y <= dy + image.curH) {
+            pointsArr[index].push();
+        }
+        
+    }
+}
 ```
 
 #### Ratio
