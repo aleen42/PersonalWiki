@@ -46,8 +46,8 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 ![](./2.png)
 
-- **oriW**: the original width of the image
-- **oriH**: the original height of the image
+- **oriX**: the original `x` value of the image
+- **oriY**: the original `y` value of the image
 
 ```js
 var dx = image.oriX + image.moveX - image.viewBoxX;
