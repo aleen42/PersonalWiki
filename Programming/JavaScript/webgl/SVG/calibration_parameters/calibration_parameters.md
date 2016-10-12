@@ -6,3 +6,4 @@ Here what I wrote is all about recording the calculation of the calibration para
 
 In the last step of drawing, we will find that there exists a problem. As shown below, there is a canvas area, which I call **a panel**.
 
+![](./panel.png)
