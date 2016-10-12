@@ -83,6 +83,7 @@ for (var j = 0; j < pathLen; j++) {
     var pointsLen = pathNodes[j].getTotalLength();
     
     for (var k = 0; k < pointsLen; k++) {
+        /** extract points from a path */
         pointsArr[index].push(pathNodes[j].getPointAtLength(k));
     }
 }
