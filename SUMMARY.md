@@ -135,6 +135,7 @@
                             * [Animated Glowing Line Drawing](./Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md)
                             * [Animate a progressive drawing of SVG path](./Programming/JavaScript/webgl/canvas/animate_drawing_of_svg_path/animate_drawing_of_svg_path.md)
                             * [Finding Contours of a bitmap image](./Programming/JavaScript/webgl/canvas/finding_contours/finding_contours.md)
+                    * [SVG](./Programming/JavaScript/webgl/SVG/SVG.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
                         * Introduction
