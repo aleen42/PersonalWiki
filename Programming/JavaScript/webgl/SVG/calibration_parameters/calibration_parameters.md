@@ -54,6 +54,8 @@ Ratio is affected by some factors, and the `calibrationParam` is calculated as b
 - **oriH**: the original height of the image
 - **svgW**: the width of the SVG element
 - **svgH**: the height of the SVG element
+- **viewBoxW**: the width of the attribute viewBox in that SVG element
+- **viewBoxH**: the height of the attribute viewBox in that SVG element
 
 ```js
 var calibrationParam = Math.max(image.oriW / image.svgW, image.oriH / image.svgH) * Math.min(image.svgW / image.viewBoxW, image.svgH / image.viewBoxH);
