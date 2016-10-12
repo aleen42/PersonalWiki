@@ -46,6 +46,6 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 ![](./2.png)
 
-```js
+#### Ratio
 
-```
+
