@@ -41,4 +41,11 @@ Since we are going to draw `path`s, data of these `path`s in a SVG file should b
 var paths = contents.match(/<path([\s\S]+?)\/>/g);
 ```
 
-Generally, the attribute `d` is represented as data of a `path`. To make it useful, I have 
+Generally, the attribute `d` is represented as data of a `path`. To make it useful, I have converted this data into a legal DOM, `SVGPathElement`.
+
+```js
+var pathNodes = [];
+var pathLen = paths.length;
+
+for 
+```
