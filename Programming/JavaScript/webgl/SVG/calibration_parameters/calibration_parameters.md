@@ -28,4 +28,4 @@ Attributes like `width`, `height`, and `viewBox` of this SVG element will also a
 </svg>
 ```
 
-That's why I need a calibration paramter for updating data of points in paths.
+That's why I need a calibration parameter for updating data of points in paths.
