@@ -46,6 +46,10 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 ![](./2.png)
 
+```js
+var dx = image.oriX + image.moveX - image.viewBoxX;
+```
+
 #### Ratio
 
 Ratio is affected by some factors, and the `calibrationParam` is calculated as below:
