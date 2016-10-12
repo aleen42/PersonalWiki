@@ -51,6 +51,9 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 Ratio is affected by some factors, and the `calibrationParam` is calculated as bellow:
 
 - **oriW**: the original width of the image
+- **oriH**: the original height of the image
+- **svgW**: the width of the SVG element
+- **svgH**: the height of the SVG element
 
 ```js
 var calibrationParam = Math.max(image.oriW / image.svgW, image.oriH / image.svgH) * Math.min(image.svgW / image.viewBoxW, image.svgH / image.viewBoxH);
