@@ -6,7 +6,7 @@ Before drawing a SVG file, you need to read a SVG file with `FileReader` in Java
 var fileReader = new FileReader();
 ```
 
-Then, `readAsText` is the method, supported by this Web API, for reading file with its content. `onload` is the event triggered when a file has been read:
+Then, `readAsText` is the method, supported by this Web API, for reading file with its content, and `onload` is the event triggered when a file has been read:
 
 ```js
 fileReader.read(file);
