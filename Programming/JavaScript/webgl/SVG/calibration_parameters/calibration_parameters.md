@@ -20,4 +20,4 @@ I find that only data of points is not enough, because the data should always de
 
 As I change the size of this SVG, data of points in paths won't change at the same time. What that means is that what I have drawn should be always in the same position.
 
-Attributes like `width`, `height`, and `viewBox` will also affect data of points.
+Attributes like `width`, `height`, and `viewBox` will also affect data of points like dragging.
