@@ -13,7 +13,8 @@ var fileReader = new FileReader();
 `FileReader` is a Web API, which has given some methods for you to read a file.`readAsText` is one of methods, supported by this Web API, for reading file with its content, and `onload` is the event triggered when a file has been read: 
  
 ```js 
-fileReader.onload = function (e) { 
+fileReader.onload = function (e) {
+    /** content of a SVG file */
     var content = e.target.result;
 }; 
  
