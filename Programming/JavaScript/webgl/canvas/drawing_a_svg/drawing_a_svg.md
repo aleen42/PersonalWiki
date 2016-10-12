@@ -53,6 +53,11 @@ if (paths) {
         var pathNode = document.createElementNS('http://www.w3.org/2000/svg', 'path');
         
         /** use a temporary div elements for reading the attribute `d` */
+        var tmpDiv = document.createElement('div');
+        tmpDiv.innerHTML = path[i];
+        
+        /** set it into the legal one */
+        
     }
 }
 ```
