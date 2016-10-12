@@ -32,4 +32,11 @@ That's why I need a calibration parameter for updating data of points in paths.
 
 ### Calculation
 
+So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`.
 
+#### Positions
+
+
+
+```js
+```
