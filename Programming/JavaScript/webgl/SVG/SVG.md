@@ -6,4 +6,4 @@
 
 ### Advanced
 
-- [**Calibration Parameters for drawing a svg file**](./calibration_parameters/calibration_parameters.md)
+- [**Calibration Parameters for drawing a SVG file**](./calibration_parameters/calibration_parameters.md)
