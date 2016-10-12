@@ -80,6 +80,9 @@ var distancePerPoint = 1;
 var pointsArr = [];
 
 /** extract a path */
+function drawPath(index) {
+    pointsArr = [];
+}
 var extract = paths[index].splice(0, 1);
 
 var pathTimer = setInterval(function () {
