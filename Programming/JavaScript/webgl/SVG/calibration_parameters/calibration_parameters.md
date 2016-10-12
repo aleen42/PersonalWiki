@@ -48,7 +48,7 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 #### Ratio
 
-Ratio is affected by some factors, and the `calibrationParam` is calculated as bellow:
+Ratio is affected by some factors, and the `calibrationParam` is calculated as below:
 
 - **oriW**: the original width of the image
 - **oriH**: the original height of the image
