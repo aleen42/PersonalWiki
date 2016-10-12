@@ -14,7 +14,7 @@ var fileReader = new FileReader();
  
 ```js 
 fileReader.onload = function (e) { 
-     
+    var content = e.target.result;
 }; 
  
 fileReader.read(file); 
