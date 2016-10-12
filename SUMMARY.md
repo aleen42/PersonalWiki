@@ -137,7 +137,7 @@
                             * [Finding Contours of a bitmap image](./Programming/JavaScript/webgl/canvas/finding_contours/finding_contours.md)
                     * [SVG](./Programming/JavaScript/webgl/SVG/SVG.md)
                         * Basic
-                            * [Introduction](./Programming/JavaScript/webgl/SVG/introduction.md)
+                            * [Introduction](./Programming/JavaScript/webgl/SVG/introduction/introduction.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
                         * Introduction
