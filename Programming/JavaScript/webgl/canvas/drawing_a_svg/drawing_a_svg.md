@@ -102,6 +102,7 @@ function drawPath(index) {
         ctx.lineTo(pointsArr[index][i].x, pointsArr[index][i].y);
     }
     
+    /** render */
     ctx.stroke();
 }
 ```
