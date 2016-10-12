@@ -17,6 +17,6 @@ Of course, if you would like to complete a interaction of dragging and dropping 
 ```js
 /** Drop Event Handler */
 canvas.addEventListener('drop', function (e) {
-    /** e is where we can extract out 
+    /** e is where we can extract out the `file` objecj */
 })
 ```
