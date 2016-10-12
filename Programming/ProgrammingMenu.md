@@ -4,7 +4,6 @@
 * [**C#**](./CSharp/CSharpMenu.md)
 * [**Java**](./Java/Java.md)
 * [**JavaScript**](./JavaScript/JavaScript.md)
-* [**SVG**](./SVG/SVG.md)
 * [**CSS**](./CSS/CSS.md)
 * [**HTML**](./HTML/HTML.md)
 * [**Ruby**](./ruby/ruby.md)
