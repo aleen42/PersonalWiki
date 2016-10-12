@@ -98,6 +98,10 @@ function drawPath(index) {
     ctx.beginPath();
     ctx.moveTo(pointsArr[index][0].x, pointsArr[index][0].y);
     
+    for (var i = 1; i < pointsArr[index].length; i++) {
+        ctx.lineTo(pointsArr[index][i].x, pointsArr[index][i].y);
+    }
     
+    ctx.stroke();
 }
 ```
