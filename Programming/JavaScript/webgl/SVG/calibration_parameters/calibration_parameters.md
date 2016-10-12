@@ -60,6 +60,8 @@ var dy = image.oriY + image.moveY - image.viewBoxY;
 
 ***Note: remember that the `x` and `y` value of the attribute `viewBox` will also crop that SVG to show.***
 
+![](./3.png)
+
 #### Ratio
 
 Ratio is affected by some factors, and the `calibrationParam` is calculated as below:
