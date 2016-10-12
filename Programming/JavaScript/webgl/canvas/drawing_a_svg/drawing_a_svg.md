@@ -4,7 +4,7 @@ This document is to talk about hw to draw a SVG file with canvas in JavaScript.
 
 ### Read data from a SVG file
 
-Before drawing a SVG file, you need to read a SVG file with `FileReader` in JavaScript. 
+Before drawing a SVG file, you need to read data from a SVG file with `FileReader` in JavaScript. 
  
 ```js 
 var fileReader = new FileReader(); 
