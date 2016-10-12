@@ -139,7 +139,7 @@
                         * Basic
                             * [Introduction](./Programming/JavaScript/webgl/SVG/introduction/introduction.md)
                         * Advanced
-                            * [Calibration Parameters for drawing a svg file](./Programming/JavaScript/webgl/SVG/calibration_parameters/calibration_parameters.md)
+                            * [Calibration Parameters for drawing a SVG file](./Programming/JavaScript/webgl/SVG/calibration_parameters/calibration_parameters.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
                         * Introduction
