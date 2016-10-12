@@ -62,6 +62,11 @@ var dy = image.oriY + image.moveY - image.viewBoxY;
 
 ![](./3.png)
 
+For this reason, we should fill data of points before drawing like this:
+
+```js
+```
+
 #### Ratio
 
 Ratio is affected by some factors, and the `calibrationParam` is calculated as below:
