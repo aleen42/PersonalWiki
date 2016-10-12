@@ -12,4 +12,4 @@ Then, `readAsText` is the method, supported by this Web API, for reading file wi
 fileReader.read(file);
 ```
 
-Of course, if you want to complete a interaction of dragging and dropping a file into a box, you can also use 
+Of course, if you would like to complete a interaction of dragging and dropping a file into a box, you can also use 
