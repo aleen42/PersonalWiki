@@ -69,3 +69,24 @@ if (paths) {
     }
 }
 ```
+
+### Extract points to draw
+
+If we have a legal SVG `path` element, we can call `getPointAtLength()` to extract points to draw:
+
+```js
+var drawFPS = 1000;
+
+var pathTimer = setInterval(function () {
+	var nextPoint = pointsArr.length * distancePerPoint;
+	var pathLength = extract[0].getTotalLength();
+
+	if (nextPoint <= pathLength) {
+		pointsArr.push(extract[0].getPointAtLength(nextPoint));
+		redrawCanvas(index);
+	} else {
+		clearInterval(pathTimer);
+		drawPath(index);
+	}
+}, 1000 / drawFPS);
+```
