@@ -75,8 +75,6 @@ if (paths) {
 If we have a legal SVG `path` element, we can call `getPointAtLength()` to extract points to draw:
 
 ```js
-var drawFPS = 1000;
-var distancePerPoint = 1;
 var pointsArr = [];
 
 /** extract a path */
