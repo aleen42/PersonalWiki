@@ -99,6 +99,8 @@ for (var j = 0; j < pathLen; j++) {
         /** extract points from a path */
         var data = pathNodes[j].getPointAtLength(k);
     
+        /** calculation of calibration parmeters */
+    
         data.x = data.x * ratioX + dx - image.viewBoxX;
 		data.y = data.y * ratioY + dy - image.viewBoxY;
         
