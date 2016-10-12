@@ -108,3 +108,7 @@ function drawPath(index) {
     ctx.stroke();
 }
 ```
+
+### Calibration parameters
+
+Something wrong has been talked about in a [later post](./../../svg/calibration_parameters/calibration_parameters.md).
