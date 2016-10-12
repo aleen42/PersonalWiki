@@ -48,6 +48,7 @@ So I have defined some parameters: `dx`, `dy`, `ratioX`, and `ratioY`. Before ca
 
 ```js
 var dx = image.oriX + image.moveX - image.viewBoxX;
+var dy = image.oriY + image.moveY - image.viewBoxY;
 ```
 
 #### Ratio
