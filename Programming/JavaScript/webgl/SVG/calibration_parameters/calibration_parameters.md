@@ -60,6 +60,6 @@ Ratio is affected by some factors, and the `calibrationParam` is calculated as b
 ```js
 var calibrationParam = Math.max(image.oriW / image.svgW, image.oriH / image.svgH) * Math.min(image.svgW / image.viewBoxW, image.svgH / image.viewBoxH);
 
-var ratioX = (image.attrs.width / image.oriW) * calibrationParam;
-var ratioY = (image.attrs.height / image.oriH) * calibrationParam;
+var ratioX = (image.curW / image.oriW) * calibrationParam;
+var ratioY = (image.curH / image.oriH) * calibrationParam;
 ```
