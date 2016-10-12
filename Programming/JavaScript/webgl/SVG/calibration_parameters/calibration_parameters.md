@@ -64,6 +64,9 @@ var dy = image.oriY + image.moveY - image.viewBoxY;
 
 For this reason, we should fill data of points before drawing like this:
 
+- **curW**: the current width of the image
+- **curH**: the current height of the image
+
 ```js
 var pointsArr = [];
 var pathLen = pathNodes.length;
