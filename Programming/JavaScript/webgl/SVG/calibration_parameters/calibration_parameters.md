@@ -6,4 +6,4 @@ Before drawing a SVG file, you need to read a SVG file with `FileReader` in Java
 var fileReader = new FileReader();
 ```
 
-Then, `readAsText` is the method supported by this Web API, for reading file with its content.
+Then, `readAsText` is the method, supported by this Web API, for reading file with its content.
