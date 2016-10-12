@@ -5,6 +5,7 @@
 ### 2D
 
 - [**Canvas**](./canvas/canvas.md)
+- [**SVG**](./SVG/SVG.md)
 
 ### 3D
 
