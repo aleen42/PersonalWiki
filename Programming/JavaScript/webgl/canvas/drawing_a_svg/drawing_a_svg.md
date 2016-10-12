@@ -79,6 +79,6 @@ var pointsArr = [];
 var pathLen = pathNodes.length;
 
 for (var j = 0; j < pathLen; j++) {
-    
+    pointsArr[].push([]);
 }
 ```
