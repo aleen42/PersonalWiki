@@ -181,7 +181,6 @@
                         * [Block Scope](./Programming/JavaScript/es6/block_scope/block_scope.md)
                         * [Variables Definition](./Programming/JavaScript/es6/definition/definition.md)
                         * [Global](./Programming/JavaScript/es6/global/global.md)
-        * [SVG](./Programming/SVG/SVG.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
