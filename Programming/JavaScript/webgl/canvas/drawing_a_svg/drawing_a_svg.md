@@ -76,6 +76,7 @@ If we have a legal SVG `path` element, we can call `getPointAtLength()` to extra
 
 ```js
 var drawFPS = 1000;
+var pointsArr = [];
 
 var pathTimer = setInterval(function () {
 	var nextPoint = pointsArr.length * distancePerPoint;
