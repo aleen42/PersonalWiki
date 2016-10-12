@@ -1,6 +1,6 @@
-## Calibration Parameters (校正參數) for drawing a SVG file [Back](./../SVG.md)
+## Drawing a SVG file [Back](./../SVG.md)
 
-### How to draw a SVG
+### Reading 
 
 Before drawing a SVG file, you need to read a SVG file with `FileReader` in JavaScript.
 
