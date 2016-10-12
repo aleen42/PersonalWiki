@@ -2,6 +2,8 @@
 
 This document is to talk about how to draw a SVG file with canvas in JavaScript.
 
+![](./demo.png)
+
 ### Read data from a SVG file
 
 Before drawing a SVG file, you need to read data from a SVG file with `FileReader` in JavaScript. 
