@@ -1,7 +1,6 @@
 ## Finding Contours of a bitmap image [Back](./../canvas.md)
 
 Here I want to talk about how to find contours of a bitmap image in Canvas, and documenting it so that we can check it later when it's required.
-
 ### 花
 
 ![](./example1.png)
@@ -695,4 +694,4 @@ http://share.soundtooth.cn/sheng.gif (Almost 50Mb, So please wait)
 
 http://share.soundtooth.cn/ji.gif (Almost 50Mb, So please wait)
 
-So, where can you enjoy yourself with drawing contours with JavaScript? [**Here**](http://aleen42.github.io/example/draw/).
+So, where can you enjoy yourself with drawing contours with JavaScript? [**Here**](http://draw.soundtooth.cn/).
