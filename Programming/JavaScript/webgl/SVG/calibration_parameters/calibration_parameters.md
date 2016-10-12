@@ -9,6 +9,10 @@ var fileReader = new FileReader();
 Then, `readAsText` is the method, supported by this Web API, for reading file with its content, and `onload` is the event triggered when a file has been read:
 
 ```js
+fileReader.onload = function (e) {
+    
+};
+
 fileReader.read(file);
 ```
 
