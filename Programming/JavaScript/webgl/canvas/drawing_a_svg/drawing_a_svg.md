@@ -78,5 +78,6 @@ If we have a legal SVG `path` element, we can call `getPointAtLength()` to extra
 var pointsArr = [];
 var pathLen = pathNodes.length;
 
-for 
+for (var j = 0; j < pathLen; j++) {
+}
 ```
