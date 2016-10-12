@@ -82,6 +82,8 @@ for (var j = 0; j < pathLen; j++) {
     var index = pointsArr[].push([]);
     var pointsLen = pathNodes[j].getTotalLength();
     
-    pointsArr[index].push();
+    for (var k = 0; k < pointsLen; k++) {
+        pointsArr[index].push();
+    }
 }
 ```
