@@ -38,4 +38,5 @@ In a SVG file, many kinds of tags has been defined for rendering vector shapes l
 Since we are going to draw `path`s, data of these `path`s in a SVG file should be extracted firstly:
 
 ```js
+var paths = contents.match(/<path([\s\S]+?)\/>/g);
 ```
