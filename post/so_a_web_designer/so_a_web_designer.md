@@ -64,3 +64,7 @@ Then there’s a time for envisioning the application.
 [Jacey Gulden](http://twitter.com/JaceyLeigh) smartly states: ‘Hanging on to older processes that include creating static wireframes and pixel-perfect mockups for design is counter-productive […]. Instead of spending time designing for […] device widths […], designers now have to focus on designing for content’.
 
 The static mockup has seen its time in the spotlight. We are designing for dynamic scenarios now, so we need dynamic prototypes.
+
+![](./unicorn03.jpg)
+
+
