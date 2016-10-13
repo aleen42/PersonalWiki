@@ -156,3 +156,16 @@ Back in the day it was an odd feeling for us. On one hand we felt like we were s
 
 We were redefining ourselves as designers.
 
+### Reference
+
+[1] Christian Cantrell – [Adobe Explores the Future of Responsive Digital Layout with National Geographic Content](http://blogs.adobe.com/webplatform/2013/05/06/adobe-explores-the-future-of-responsive-digital-layout-with-national-geographic-content/)
+
+[2] The New York Times – Reshaping New York
+
+[3] Teehan+Lax – A Place for Sharing Ideas and Stories
+
+[4] Storify
+
+[5] Spotify
+
+[6] Editorially
