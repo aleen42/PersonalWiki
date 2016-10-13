@@ -48,4 +48,4 @@ function convertCE(cx, cy) {
 
 ### Polylines & Polycircles
 
-For these both elements, what you should do is to extract out the attribute `points`. and recompose into a special format for `d` value of path elements.
+For these both elements, what you should do is to extract out the attribute `points`. and recompose them into a special format for `d` value of path elements.
