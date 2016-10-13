@@ -232,7 +232,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Josh Brewer](http://twitter.com/jbrewer) – [Photoshop you are a liar](http://vimeo.com/67897293)
 
-Josh Long – Responsive Web Design in the Browser Part 1: Kill Photoshop
+[Josh Long](http://twitter.com/joshlong) – [Responsive Web Design in the Browser Part 1: Kill Photoshop](http://blog.teamtreehouse.com/responsive-web-design-in-the-browser-part-1-kill-photoshop)
 
 #### Mockups
 
