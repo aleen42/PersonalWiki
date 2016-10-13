@@ -35,7 +35,6 @@ function convertCE(cx, cy) {
         break;
     default:
         return '';
-        break;
     }
 }
 ```
