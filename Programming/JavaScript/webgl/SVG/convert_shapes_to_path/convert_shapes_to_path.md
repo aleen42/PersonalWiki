@@ -21,5 +21,14 @@ R|RX
 Therefore, the calculation of `d` value in a `path` element can be easily completed like this:
 
 ```js
-function convertCE(cx,
+function convertCE(cx, cy) {
+    switch (arguments.length) {
+    case 3:
+        break;
+    case 4:
+        break;
+    default:
+        break;
+    }
+}
 ```
