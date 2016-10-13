@@ -23,6 +23,10 @@ Therefore, the calculation of `d` value in a `path` element can be easily comple
 ```js
 function convertCE(cx, cy) {
     function calcOuput(cx, cy, rx, ry) {
+        if (cx < 0 || cy < 0 || rx <= 0 || ry <= 0) {
+            return '';
+        }
+    
         var output = 'M' + (cx - rx).toString() + ',' + cy.toString();
         output += 'a' + rx.toString() + ',' + ry.toString() + ' 0 1,0 ' + (2 * rx).toString() + ',0';
 		output += 'a' + rx.toString() + ',' + ry.toString() + ' 0 1,0'  + (-2 * rx).toString() + ',0';
