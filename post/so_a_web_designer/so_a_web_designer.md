@@ -164,7 +164,7 @@ We were redefining ourselves as designers.
 
 [3] Teehan+Lax – [A Place for Sharing Ideas and Stories](http://www.teehanlax.com/story/medium/)
 
-[4] Storify
+[4] [Storify](http://storify.com/)
 
 [5] Spotify
 
