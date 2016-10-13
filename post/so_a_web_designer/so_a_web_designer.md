@@ -35,3 +35,5 @@ People like [Jared M. Spool](http://twitter.com/jmspool) are making public the i
 ![](./unicorn01.jpg)
 
 He makes a clear division between **Specialists** (experts in one field over others), **Generalists** (experts in more than one field) and **Compartmentalists** (having expertise in only one area). He argues that neglecting the possibility of expanding your boundaries and falling into the compartmentalist category is a career-limiting decision. Plus it’s no fun.
+
+Today’s way of things calls for a new kind of Web designer. A *Jack-of-All-Trades, master of none*. Startups are looking for the kind of folk that can follow the process end to end. Big enterprises for a more flexible worker that can move swiftly between the many aspects of a project, without hiding behind the barriers of their specialty.
