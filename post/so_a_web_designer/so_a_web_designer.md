@@ -208,7 +208,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Simon Foster](http://twitter.com/simonstretch) – [The Responsive Designer](http://simonfosterdesign.com/blog/web-design/the-responsive-designer/) ([Video](http://vimeo.com/52140609))
 
-Josh Long – I Have No Idea What I’m Doing with Responsive Web Design
+[Josh Long](http://twitter.com/joshlong) – [I Have No Idea What I’m Doing with Responsive Web Design](http://blog.teamtreehouse.com/i-have-no-idea-what-im-doing-with-responsive-web-design)
 
 #### The Tools
 
