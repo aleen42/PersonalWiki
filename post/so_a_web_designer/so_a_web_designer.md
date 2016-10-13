@@ -174,7 +174,7 @@ We were redefining ourselves as designers.
 
 [Oliver Reichenstein](http://twitter.com/iA) – [Design is How it Works](http://ia.net/blog/design-is-how-it-works/)
 
-Andy Rutledge – Web Design is Product Design
+[Andy Rutledge](http://twitter.com/andyrutledge) – Web Design is Product Design
 
 Jared M. Spool – Why the Valley Wants Designers that Can Code
 
