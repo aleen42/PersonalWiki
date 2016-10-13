@@ -141,7 +141,7 @@
                             * [Introduction](./Programming/JavaScript/webgl/SVG/introduction/introduction.md)
                         * Advanced
                             * [Calibration parameters for drawing a SVG file](./Programming/JavaScript/webgl/SVG/calibration_parameters/calibration_parameters.md)
-                            * [Convert all shapes/primitives into path element of SVG](./Programming/JavaScript/webgl/SVG/convert_shapes_to_path/convert_shapes_to_path.md)
+                            * [Convert all shapes/primitives into path elements of SVG](./Programming/JavaScript/webgl/SVG/convert_shapes_to_path/convert_shapes_to_path.md)
                 * 3D
                     * [three.js](./Programming/JavaScript/webgl/three/three.md)
                         * Introduction
