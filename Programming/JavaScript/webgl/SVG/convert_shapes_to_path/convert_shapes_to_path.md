@@ -4,3 +4,9 @@ In SVG, shapes/primitives are defined with different elements like `circle`, `el
 
 ### Circles & Ellipse
 
+`circle` and `ellipse` elements are similar to each other with both attributes as below:
+
+CX|CY
+--|--
+
+
