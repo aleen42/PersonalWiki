@@ -193,3 +193,41 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 [Tristan Denier](http://plus.google.com/118383960333364662671/posts) – [Redefining Web Designers, Web Developers, and Web Hybrids for the modern market](http://tristandenyer.com/redefining-web-designers-web-developers-and-web-hybrids-for-the-modern-market/)
 
 [Andy Budd](http://twitter.com/andybudd) – [Designing in the Browser is Not the Answer](http://www.andybudd.com/archives/2012/03/designing_in_the_browser_is_not_the_answ/)
+
+#### The Workflow
+
+Stephen Hay – Responsive Design Workflow @Mobilism 2012
+Miranda Mulligan – Your Survival is Designed
+Andy Clarke – Encouraging Better Client Participation In Responsive Design Projects (Article)
+Harry Roberts – Normalising designs for better quality CSS
+Jacey Gulden – Great Responsive Web Design is a Matter of Process
+Simon Foster – The Responsive Designer (Video)
+Josh Long – I Have No Idea What I’m Doing with Responsive Web Design
+
+#### The Tools
+
+Brad Frost – The Post-PSD Era
+Jason Santa Maria – A Real Web Design Application
+Tim Brown – Universal Typography @ Ready To Inspire
+Jeffrey Zeldman – An InDesign For HTML and CSS?
+John Nack – “CSS is the new Photoshop” (?)
+Project Meteor Manifesto
+Josh Long – Responsive Web Design in the Browser Part 2: The Tools
+
+#### Photoshop
+
+Javier Ghaemi – Is Photoshop Dead?
+Josh Brewer – Photoshop you are a liar
+Josh Long – Responsive Web Design in the Browser Part 1: Kill Photoshop
+
+#### Mockups
+
+Meagan Fisher – Make Your Mockup in Markup
+Dan Rubin – Hands-on Prototyping with HTML & CSS
+
+#### Designing in the Browser
+
+Divya Manian – Designing in the Browser @Front-Trends 2012
+Max Luzuriaga – Designing In-Browser: A Manifesto
+David Kizler – Deep dives into the browser
+Sarah Parmenter – I can’t design in the browser
