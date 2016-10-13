@@ -240,7 +240,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Dan Rubin](http://twitter.com/danrubin) – [Hands-on Prototyping with HTML & CSS](http://vimeo.com/35585893)
 
-#### Designing in the Browser’
+#### Designin' in the Browser
 
 [Divya Manian](http://twitter.com/divya) – [Designing in the Browser @Front-Trends 2012](http://vimeo.com/44297900)
 
