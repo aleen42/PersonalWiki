@@ -238,7 +238,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Meagan Fisher](http://twitter.com/owltastic) – [Make Your Mockup in Markup](http://24ways.org/2009/make-your-mockup-in-markup/)
 
-[Dan Rubin](http://twitter.com/danrubin) – Hands-on Prototyping with HTML & CSS
+[Dan Rubin](http://twitter.com/danrubin) – [Hands-on Prototyping with HTML & CSS](http://vimeo.com/35585893)
 
 #### Designing in the Browser
 
