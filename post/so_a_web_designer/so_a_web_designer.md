@@ -218,9 +218,9 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Tim Brown](http://twitter.com/timbrown) – [Universal Typography @ Ready To Inspire](http://vimeo.com/56276418)
 
-[Jeffrey Zeldman](http://twitter.com/zledman) – An InDesign For HTML and CSS?
+[Jeffrey Zeldman](http://twitter.com/zledman) – [An InDesign For HTML and CSS?](http://www.zeldman.com/2010/07/05/an-indesign-for-html-and-css/)
 
-John Nack – “CSS is the new Photoshop” (?)
+[John Nack](http://twitter.com/jnack) – “CSS is the new Photoshop” (?)
 
 Project Meteor Manifesto
 
