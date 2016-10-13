@@ -6,7 +6,7 @@ This document is to talk about how to draw a SVG file with canvas in JavaScript.
 
 ### Preview
 
-Just drag a svg file onto the box below:
+Just drag a svg file onto the box shown below:
 
 <br />
 
