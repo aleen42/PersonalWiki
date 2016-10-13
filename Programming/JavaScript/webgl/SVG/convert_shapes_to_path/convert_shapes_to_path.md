@@ -22,9 +22,12 @@ Therefore, the calculation of `d` value in a `path` element can be easily comple
 
 ```js
 function convertCE(cx, cy) {
+    var cx = cx;
+    var cy = cy;
+    
     switch (arguments.length) {
     case 3:
-        console.log(3);
+        
         break;
     case 4:
         console.log(4);
