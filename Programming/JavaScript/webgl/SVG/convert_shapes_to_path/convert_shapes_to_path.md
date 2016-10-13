@@ -90,7 +90,7 @@ function convertLine(x1, y1, x2, y2) {
 Rectangles will also have some attributes defined for positioning itself and deciding how big it's: `x`, `y`, `width`, and `height`.
 
 ```js
-function convertRectangles() {
+function convertRectangles(x, y, width, heig) {
     
 }
 ```
