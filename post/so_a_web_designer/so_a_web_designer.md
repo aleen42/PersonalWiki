@@ -108,7 +108,7 @@ To [Jason Santa Maria](http://twitter.com/jasonsantamaria), ‘How something beh
 
 The famous [Project Meteor](http://projectmeteor.org/) launched as a ‘campaign to demonstrate the demand for a modern web design app’. Some tools out there today do pretty good at handling the whole process, like [Macaw](http://macaw.co/), [Webflow](http://webflow.com/), or Adobe’s much expected [Brackets](http://brackets.io/).
 
-Devin Halladay considers tools like this ‘Are making the web designer lazy’.
+[Devin Halladay](http://twitter.com/devinhalladay) considers tools like this ‘Are making the web designer lazy’.
 
 To me all of them are good choices. There is space for everything, and I actually find it very amusing to find new tools while thinking of new projects. It’s the exciting bit.
 
