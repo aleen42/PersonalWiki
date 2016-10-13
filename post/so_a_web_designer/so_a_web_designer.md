@@ -37,3 +37,13 @@ People like [Jared M. Spool](http://twitter.com/jmspool) are making public the i
 He makes a clear division between **Specialists** (experts in one field over others), **Generalists** (experts in more than one field) and **Compartmentalists** (having expertise in *only* one area). He argues that neglecting the possibility of expanding your boundaries and falling into the compartmentalist category is a career-limiting decision. Plus it’s no fun.
 
 Today’s way of things calls for a new kind of Web designer. A *Jack-of-All-Trades, master of none*. Startups are looking for the kind of folk that can follow the process end to end. Big enterprises for a more flexible worker that can move swiftly between the many aspects of a project, without hiding behind the barriers of their specialty.
+
+### The Web of tomorrow
+
+A designer today has to be able to dodge dangers of many kinds. Today’s Web is dynamic, fast, adaptive, mobile-optimized, ready for the modern consumer, which is pretty much everywhere and thus totally unpredictable, very intelligent and thus easily annoyed; and capable of showing an unbelievable capacity to dive blindfolded, headfirst into information overload and not only survive but make something of it.
+
+We’ve been exposed to some groundbreaking design work recently:
+The journalistic community has seen incredible new layout techniques that may get to redefine the way content will be presented. [[1]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref1_natgeo) [[2]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref2_bloomsberg) [3]
+
+More and more services are going online. We are seeing smarter, faster, stronger web applications that are way closer to software than what a blog ever was. Plus many either benefit from the advantage of being an online tool. Many are based upon collaboration, and what better place than the web?
+[4] [5] [6]
