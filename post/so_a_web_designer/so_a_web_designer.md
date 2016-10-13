@@ -212,7 +212,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 #### The Tools
 
-Brad Frost – The Post-PSD Era
+[Brad Frost](http://twitter.com/brad_frost) – [The Post-PSD Era](http://bradfrostweb.com/blog/post/the-post-psd-era/)
 
 Jason Santa Maria – A Real Web Design Application
 
