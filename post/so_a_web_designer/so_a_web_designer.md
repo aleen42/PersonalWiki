@@ -152,4 +152,7 @@ The time you spend in learning to design **for** the Web comes back full circle.
 
 ![](./unicorn02.jpg)
 
+Back in the day it was an odd feeling for us. On one hand we felt like we were somehow breaking out a proven way of working. On the other hand it felt like we were gradually let in on a big secret. We were making up our own rules as we went along. We were making our journey more interesting and as we grew more confident, the result was becoming stronger.
+
+We were redefining ourselves as designers.
 
