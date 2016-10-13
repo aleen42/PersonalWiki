@@ -127,3 +127,8 @@ But not only typography can be worked in the browser. Ready to dive in?
 I’ve seen way too many comments on blog posts saying something like ‘But that’s not designing in the browser, you’re using an editor!’. So let’s clear some assumptions first. Designing in the browser is **not** about using the browser as the one and only tool for designing.
 
 > Let’s change the phrase “designing in the browser” to “deciding in the browser.” – [Dan Mall](http://the-pastry-box-project.net/dan-mall/2012-september-12/)
+
+It is all about having direct communication between design, code AND the browser. Start designing, see it in the browser. Change stuff, see it in the browser. And if you get to do it in mobile at the same time, all the better.
+
+There are a number of concerns in Web design that can be cleared straight away with this method. For instance, your site’s readability. It is a great way to gain time too: when you’re deep into designing for different states and screen sizes you tend to focus and lose that habit of moving stuff one pixel up or down. The perfectionist inside of you will be too busy checking relationships between elements, fine-tuning interaction details, etc. The big picture will benefit from this as well, as you are producing something that works, as opposed to a picture of it. It feels like moving from a flight simulator onto the real deal… kinda.
+
