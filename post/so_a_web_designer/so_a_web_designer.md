@@ -160,7 +160,7 @@ We were redefining ourselves as designers.
 
 [1] Christian Cantrell – [Adobe Explores the Future of Responsive Digital Layout with National Geographic Content](http://blogs.adobe.com/webplatform/2013/05/06/adobe-explores-the-future-of-responsive-digital-layout-with-national-geographic-content/)
 
-[2] The New York Times – Reshaping New York
+[2] The New York Times – [Reshaping New York](http://www.nytimes.com/newsgraphics/2013/08/18/reshaping-new-york/)
 
 [3] Teehan+Lax – A Place for Sharing Ideas and Stories
 
