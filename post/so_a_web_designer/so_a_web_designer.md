@@ -181,3 +181,14 @@ We were redefining ourselves as designers.
 [Julie Zhuo](http://twitter.com/joulee) – [How to Survive in Design (and in a Zombie Apocalypse)](http://medium.com/the-year-of-the-looking-glass/3edbdb0bbee8)
 
 Notes from [Kim Goodwin](http://twitter.com/kimgoodwin)’s – ‘[Silo-Busting with Scenarios](http://www.lukew.com/ff/entry.asp?1688)’ by [Luke Wroblewski](http://twitter.com/lukew)
+
+#### The Unicorn
+
+[Braden Kowitz](http://twitter.com/kowitz) – [Hiring a designer: hunting the unicorn](http://www.designstaff.org/articles/hiring-a-designer-2011-11-01.html)
+
+Jeffrey Dalton – The Hybrid Designer
+
+Jolie O’Dell – HOW TO: Be a Hybrid Designer/Developer
+
+Tristan Denier – Redefining Web Designers, Web Developers, and Web Hybrids for the modern market
+Andy Budd – Designing in the Browser is Not the Answer
