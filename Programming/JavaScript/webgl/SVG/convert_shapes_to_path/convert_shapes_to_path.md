@@ -91,7 +91,12 @@ Rectangles will also have some attributes defined for positioning itself and dec
 
 ```js
 function convertRectangles(x, y, width, height) {
-    if (parseFloat(x, 10) < 0 || parseFloat(y, 10) < 0 || parseFloat(width, 10) < 0 || parseFloat(height, 10) < 0) {
+    var x = parseFloat(x, 10);
+    var y = parseFloat(y, 10);
+    var width = parseFloat(width, 10);
+    var height = parseFloat(height, 10);
+
+    if (x < 0 || y < 0 || width < 0 || height < 0) {
         return '';
     }
     
