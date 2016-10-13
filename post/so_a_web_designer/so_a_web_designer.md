@@ -47,3 +47,9 @@ The journalistic community has seen incredible new layout techniques that may ge
 
 More and more services are going online. We are seeing smarter, faster, stronger web applications that are way closer to software than what a blog ever was. Plus many either benefit from the advantage of being an online tool. Many are based upon collaboration, and what better place than the web?
 [[4]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref4_storify) [[5]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref5_spotify) [[6]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref6_editorially)
+
+Experiments with 3D graphics that resemble high-end videogames, straight in the browser. And so on.
+
+We are not in a header-nav-content-sidebar-footer scenario anymore.
+
+The skills needed to achieve the Web of tomorrow will mutate with the scenario. So changing the way we do websites starts by revising our process.
