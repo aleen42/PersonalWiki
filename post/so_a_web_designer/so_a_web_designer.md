@@ -188,7 +188,7 @@ Notes from [Kim Goodwin](http://twitter.com/kimgoodwin)’s – ‘[Silo-Busting
 
 Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-designer)
 
-Jolie O’Dell – HOW TO: Be a Hybrid Designer/Developer
+[Jolie O’Dell](http://twitter.com/jolieodell) – [HOW TO: Be a Hybrid Designer/Developer](http://mashable.com/2010/09/08/hybrid-designer-developers/)
 
-Tristan Denier – Redefining Web Designers, Web Developers, and Web Hybrids for the modern market
+[Tristan Denier](http://plus.google.com/118383960333364662671/posts) – Redefining Web Designers, Web Developers, and Web Hybrids for the modern market
 Andy Budd – Designing in the Browser is Not the Answer
