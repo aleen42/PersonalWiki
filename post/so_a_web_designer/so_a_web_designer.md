@@ -190,5 +190,6 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Jolie O’Dell](http://twitter.com/jolieodell) – [HOW TO: Be a Hybrid Designer/Developer](http://mashable.com/2010/09/08/hybrid-designer-developers/)
 
-[Tristan Denier](http://plus.google.com/118383960333364662671/posts) – Redefining Web Designers, Web Developers, and Web Hybrids for the modern market
-Andy Budd – Designing in the Browser is Not the Answer
+[Tristan Denier](http://plus.google.com/118383960333364662671/posts) – [Redefining Web Designers, Web Developers, and Web Hybrids for the modern market](http://tristandenyer.com/redefining-web-designers-web-developers-and-web-hybrids-for-the-modern-market/)
+
+[Andy Budd](http://twitter.com/andybudd) – [Designing in the Browser is Not the Answer](http://www.andybudd.com/archives/2012/03/designing_in_the_browser_is_not_the_answ/)
