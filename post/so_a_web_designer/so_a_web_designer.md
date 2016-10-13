@@ -73,3 +73,12 @@ In her talk ‘[Designing in the browser](http://www.youtube.com/watch?v=h52uumn
 - Feature uncertainty: browsers differ when handling effects, even the syntax is different
 - Things never designed to interact together will end up interacting
 - No control over content: take Google+ as a modern dynamic application. Never will anyone be able to mockup something such as this on Photoshop without a million problems.
+
+So what better way to achieve this than diving straight into HTML? Here are some of her reasons. Out of the box, it makes you able to:
+
+- Design around content and user interaction
+- Design for complexity and uncertainty
+- Find where design breaks the user experience
+- Find where data breaks design
+- The outcome is a template ready for any use
+- Use print tools later on to optimize prototypes
