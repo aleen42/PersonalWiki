@@ -176,7 +176,7 @@ We were redefining ourselves as designers.
 
 [Andy Rutledge](http://twitter.com/andyrutledge) – [Web Design is Product Design](http://andyrutledge.com/web-design-is-product-design.php)
 
-[Jared M. Spool](http://twitter.com/jmspool) – Why the Valley Wants Designers that Can Code
+[Jared M. Spool](http://twitter.com/jmspool) – [Why the Valley Wants Designers that Can Code](http://www.uie.com/brainsparks/2011/05/31/why-the-valley-wants-designers-that-can-code/)
 
 Julie Zhuo – How to Survive in Design (and in a Zombie Apocalypse)
 
