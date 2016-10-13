@@ -23,6 +23,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[轉載] CSS Blend Modes could be the next big thing in Web Design**](./css_blend_mode/css_blend_mode.md)
 - [**[轉載] Basics of CSS Blend Modes**](./basics_of_css_blend_mode/basics_of_css_blend_mode.md)
 - [**[轉載] Drawing images using edge detection and SVG animation**](./draw_image_using_edge_detection_and_svg/draw_image_using_edge_detection_and_svg.md)
+- **[轉載] So, You're a Web Designer, Right?**
 
 ### Back-end
 
