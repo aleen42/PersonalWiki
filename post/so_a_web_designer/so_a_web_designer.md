@@ -169,3 +169,15 @@ We were redefining ourselves as designers.
 [5] [Spotify](http://play.spotify.com/)
 
 [6] [Editorially](http://editorially.com/)
+
+#### The Thinking
+
+[Oliver Reichenstein](http://twitter.com/iA) – [Design is How it Works](http://ia.net/blog/design-is-how-it-works/)
+
+Andy Rutledge – Web Design is Product Design
+
+Jared M. Spool – Why the Valley Wants Designers that Can Code
+
+Julie Zhuo – How to Survive in Design (and in a Zombie Apocalypse)
+
+Notes from Kim Goodwin’s – ‘Silo-Busting with Scenarios’ by Luke Wroblewski
