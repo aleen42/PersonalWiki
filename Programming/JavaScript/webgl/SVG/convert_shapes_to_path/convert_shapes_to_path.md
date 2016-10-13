@@ -11,5 +11,11 @@ In SVG, shapes/primitives are defined with different elements like `circle`, `el
 CX|CX
 CY|CY
 
+Differences between them are the attributes describing radius.
+
+**Circles**|**Ellipses**
+:-----:|:------:
+R|RX
+|RY
 
 
