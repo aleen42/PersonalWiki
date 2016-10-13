@@ -16,5 +16,5 @@ My journey into design started with typography, perhaps the only field where my 
 
 ### The Web, today
 
-
+[Andy Rutledge](http://twitter.com/andyrutledge) is bolder than me when he says: ‘A designer who does not write markup and css is not designing for the web, but drawing pictures’. He’s right.
 
