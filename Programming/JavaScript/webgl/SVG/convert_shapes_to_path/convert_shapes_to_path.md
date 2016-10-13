@@ -49,3 +49,10 @@ function convertCE(cx, cy) {
 ### Polylines & Polycircles
 
 For these both elements, what you should do is to extract out the attribute `points`. and recompose them into a special format for `d` value of path elements.
+
+```js
+/** pass the value of the attribute `points` into this function */
+function convertPoly(points, types) {
+    var points 
+}
+```
