@@ -178,6 +178,6 @@ We were redefining ourselves as designers.
 
 [Jared M. Spool](http://twitter.com/jmspool) – [Why the Valley Wants Designers that Can Code](http://www.uie.com/brainsparks/2011/05/31/why-the-valley-wants-designers-that-can-code/)
 
-Julie Zhuo – How to Survive in Design (and in a Zombie Apocalypse)
+[Julie Zhuo](http://twitter.com/joulee) – How to Survive in Design (and in a Zombie Apocalypse)
 
 Notes from Kim Goodwin’s – ‘Silo-Busting with Scenarios’ by Luke Wroblewski
