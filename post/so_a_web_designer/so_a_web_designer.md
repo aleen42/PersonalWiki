@@ -196,12 +196,18 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 #### The Workflow
 
-Stephen Hay – Responsive Design Workflow @Mobilism 2012
+[Stephen Hay](http://twitter.com/stephenhay) – [Responsive Design Workflow @Mobilism 2012](http://vimeo.com/45915667)
+
 Miranda Mulligan – Your Survival is Designed
+
 Andy Clarke – Encouraging Better Client Participation In Responsive Design Projects (Article)
+
 Harry Roberts – Normalising designs for better quality CSS
+
 Jacey Gulden – Great Responsive Web Design is a Matter of Process
+
 Simon Foster – The Responsive Designer (Video)
+
 Josh Long – I Have No Idea What I’m Doing with Responsive Web Design
 
 #### The Tools
