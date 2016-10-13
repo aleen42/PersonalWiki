@@ -67,4 +67,4 @@ The static mockup has seen its time in the spotlight. We are designing for dynam
 
 ![](./unicorn03.jpg)
 
-
+In her talk ‘[Designing in the browser](http://www.youtube.com/watch?v=h52uumn3sZc)’, the awesome Divya Manian said: ‘Print tools give you an illusion of control that doesn’t exist on the Web’. She goes on to point out a number of things a Photoshop mockup will never be able to account for:
