@@ -40,9 +40,5 @@ function convertCE(cx, cy) {
         return '';
         break;
     }
-    
-    var output = 'M' + (cx - 
-    
-    return 
 }
 ```
