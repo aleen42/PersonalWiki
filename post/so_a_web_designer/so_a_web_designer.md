@@ -166,6 +166,6 @@ We were redefining ourselves as designers.
 
 [4] [Storify](http://storify.com/)
 
-[5] Spotify
+[5] [Spotify](http://play.spotify.com/)
 
 [6] Editorially
