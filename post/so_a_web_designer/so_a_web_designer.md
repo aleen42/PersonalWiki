@@ -246,6 +246,6 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Max Luzuriaga](http://twitter.com/luzuriaga) – [Designing In-Browser: A Manifesto](http://webdesign.tutsplus.com/articles/designing-in-browser-a-manifesto/)
 
-[David Kizler](http://twitter.com/davidkizler) – Deep dives into the browser
+[David Kizler](http://twitter.com/davidkizler) – [Deep dives into the browser](http://designinthebrowser.com/articles-page/)
 
 Sarah Parmenter – I can’t design in the browser
