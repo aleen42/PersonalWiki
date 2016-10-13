@@ -168,4 +168,4 @@ We were redefining ourselves as designers.
 
 [5] [Spotify](http://play.spotify.com/)
 
-[6] Editorially
+[6] [Editorially](http://editorially.com/)
