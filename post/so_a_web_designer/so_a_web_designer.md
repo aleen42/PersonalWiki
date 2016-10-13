@@ -33,3 +33,5 @@ I haven’t been around long enough to have a clear view, but my guess would be 
 People like [Jared M. Spool](http://twitter.com/jmspool) are making public the interest of high-end companies in finding a new sort of profile. He calls it the **Unicorn**. He even went as far as creating the [Unicorn Institute](http://unicorninstitute.com/) to groom this sort of designer. He is defining a position, a new *Experience designer or UX Generalist*, whose skills make them ready for this entirely new scenario.
 
 ![](./unicorn01.jpg)
+
+He makes a clear division between **Specialists** (experts in one field over others), Generalists (experts in more than one field) and Compartmentalists (having expertise in only one area). He argues that neglecting the possibility of expanding your boundaries and falling into the compartmentalist category is a career-limiting decision. Plus it’s no fun.
