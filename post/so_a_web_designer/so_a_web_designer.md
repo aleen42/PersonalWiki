@@ -113,3 +113,5 @@ The famous [Project Meteor](http://projectmeteor.org/) launched as a ‘campaign
 To me all of them are good choices. There is space for everything, and I actually find it very amusing to find new tools while thinking of new projects. It’s the exciting bit.
 
 We shouldn’t be focusing on finding the perfect tool though, the panacea for the new designer. How about building a **set** of tools instead?
+
+> Take it apart, steal the parts that you like, and adapt them to your own way of work­ing. — Joni Korpi
