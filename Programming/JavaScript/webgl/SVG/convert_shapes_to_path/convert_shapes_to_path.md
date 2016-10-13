@@ -77,7 +77,7 @@ Easily can we calculate like this:
 
 ```js
 function convertLine(x1, y1, x2, y2) {
-    if (x1 < 0 || y1 < 0 || x2 < 0 || y2 < 0) {
+    if (parseFloat(x1, 10) < 0 || parseFloat(y1, 10) < 0 || parseFloat(x2, 10) < 0 || parseFloat(y2, 10) < 0) {
         return '';
     }
     
