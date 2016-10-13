@@ -35,7 +35,7 @@ canvas.addEventListener('drop', function (e) {
 
 ### Find out what we can draw
 
-In a SVG file, many kinds of tags has been defined for rendering vector shapes like `circle`, `rect`, `polyline`, `line`, `path`, etc. `path` elements are actually what we are going to draw, because any shape/primitive in a SVG is able to be converted into `path`. Later posts will mention how to do this in JavaScript.
+In a SVG file, many kinds of tags has been defined for rendering vector shapes like `circle`, `rect`, `polyline`, `line`, `path`, etc. `path` elements are actually what we are going to draw, because any shape/primitive in a SVG is able to be converted into `path`. [Later posts](./../../SVG/convert_shapes_to_path/convert_shapes_to_path.md) will mention how to do this in JavaScript.
 
 Since we are going to draw `path`s, data of these `path`s in a SVG file should be extracted firstly:
 
