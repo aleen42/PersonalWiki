@@ -18,3 +18,14 @@ My journey into design started with typography, perhaps the only field where my 
 
 [Andy Rutledge](http://twitter.com/andyrutledge) is bolder than me when he says: ‘A designer who does not write markup and css is not designing for the web, but drawing pictures’. He’s right.
 
+> ‘Most people make the mistake of thinking design is what it looks like. That’s not what we think design is. It’s not just what it looks like and feels like. Design is how it works’ – Steve Jobs
+
+It’s been about three years now since the Mobile-First/Responsive meteorite shook the Web community. It has been an arduous but beautiful process. Hard in rethinking the way we work but beautiful in that it opened up a wild ground for madly intense collaboration between everyone involved. We’ve seen every field of the profession coming together and sharing their wonders: techies on Progressive Enhancement, typographers on lettering, grids and layout, designers on workflow, content strategists on sensible structure, top-notch freelancers on how to handle clients… To remain on top of the situation, every kind of Web professional has had to cross enemy lines to create symbiotic partnerships, in some cases lifelong friendships. And of course, the up-and-coming generation finds itself full of strange creatures that don’t fall under any of the previous categories. They are something in and of themselves.
+
+> ‘Web Design is Product Design’ – Andy Rutledge
+
+Some time ago, thinking of a designer as just a ‘Graphic designer’ wouldn’t have made much sense. Designers were actively involved in obscure parts of the process. Carving wood, painting, modelling, sometimes building, gardening…
+
+**So who killed the product designer?**
+
+I haven’t been around long enough to have a clear view, but my guess would be compartmentalization. The sudden boom in demand might have driven companies to define enclosed cells of roles and responsibilities, or as [Kim Goodwin](http://twitter.com/kimgoodwin) puts it, ‘silos’; then to hire disposable professionals that would fit, silently contributing to the creation of a thick, standardized, leaden model that would stand the test of time and ensure high-level productivity.
