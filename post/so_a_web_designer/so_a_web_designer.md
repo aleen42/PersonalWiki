@@ -53,3 +53,14 @@ Experiments with 3D graphics that resemble high-end videogames, straight in the 
 We are not in a header-nav-content-sidebar-footer scenario anymore.
 
 The skills needed to achieve the Web of tomorrow will mutate with the scenario. So changing the way we do websites starts by revising our process.
+
+### In Search of the Holy Grail
+
+#### The First step is the hardest
+
+There’s always a phase to devise how to build a product. It is critical that designers and their teams are aware of the technology at their disposal and show little fear in trying something new. Most of the time all this new tech is out there to make our lives easier, and yet you see so many people reject it every day.
+
+Then there’s a time for envisioning the application.
+[Jacey Gulden](http://twitter.com/JaceyLeigh) smartly states: ‘Hanging on to older processes that include creating static wireframes and pixel-perfect mockups for design is counter-productive […]. Instead of spending time designing for […] device widths […], designers now have to focus on designing for content’.
+
+The static mockup has seen its time in the spotlight. We are designing for dynamic scenarios now, so we need dynamic prototypes.
