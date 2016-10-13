@@ -72,3 +72,15 @@ function convertPoly(points, types) {
 ### Lines
 
 Generally, `line` elements will have some attributes defined for positioning start and end points of a line: `x1`, `y1`, `x2`, and `y2`.
+
+Easily can we calculate like this:
+
+```js
+function convertLine(x1, y1, x2, y2) {
+    if (x1 < 0 || y1 < 0 || x2 < 0 || y2 < 0) {
+        return '';
+    }
+    
+    return 'M' + x1 + ',' + y1 + 'L' + x2 + ',' + y2;
+}
+```
