@@ -115,3 +115,9 @@ To me all of them are good choices. There is space for everything, and I actuall
 We shouldn’t be focusing on finding the perfect tool though, the panacea for the new designer. How about building a **set** of tools instead?
 
 > Take it apart, steal the parts that you like, and adapt them to your own way of work­ing. — Joni Korpi
+
+Luckily enough, there are great applications out there that handle specific parts of the process like no clairvoyant tool can do. There is Typecast, that lets you experiment with Web typography so easily that it makes you feel like an orchestra conductor. Then there’s Gridset, that can handle incredibly complex to downright simple responsive grids. And the Modular Scale, that started being really helpful for typography scaling and ended up visually teaching me to arrange layouts like I’d never done before. And so on. A designer can go crazy with all these shiny toys.
+
+If you agree with Oliver Reichenstein in that ‘Web Design is 95% Typography’, what is best than ditching Photoshop’s weird type rendering and using a browser based tool, so you can build and test straight where the magic happens? This is invaluable stuff.
+
+But not only typography can be worked in the browser. Ready to dive in?
