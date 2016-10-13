@@ -43,7 +43,7 @@ Today’s way of things calls for a new kind of Web designer. A *Jack-of-All-Tra
 A designer today has to be able to dodge dangers of many kinds. Today’s Web is dynamic, fast, adaptive, mobile-optimized, ready for the modern consumer, which is pretty much everywhere and thus totally unpredictable, very intelligent and thus easily annoyed; and capable of showing an unbelievable capacity to dive blindfolded, headfirst into information overload and not only survive but make something of it.
 
 We’ve been exposed to some groundbreaking design work recently:
-The journalistic community has seen incredible new layout techniques that may get to redefine the way content will be presented. [[1]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref1_natgeo) [[2]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref2_bloomsberg) [3]
+The journalistic community has seen incredible new layout techniques that may get to redefine the way content will be presented. [[1]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref1_natgeo) [[2]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref2_bloomsberg) [[3]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref3_teehanlax)
 
 More and more services are going online. We are seeing smarter, faster, stronger web applications that are way closer to software than what a blog ever was. Plus many either benefit from the advantage of being an online tool. Many are based upon collaboration, and what better place than the web?
 [4] [5] [6]
