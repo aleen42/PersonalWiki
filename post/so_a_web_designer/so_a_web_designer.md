@@ -220,11 +220,11 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Jeffrey Zeldman](http://twitter.com/zledman) – [An InDesign For HTML and CSS?](http://www.zeldman.com/2010/07/05/an-indesign-for-html-and-css/)
 
-[John Nack](http://twitter.com/jnack) – “CSS is the new Photoshop” (?)
+[John Nack](http://twitter.com/jnack) – [“CSS is the new Photoshop” (?)](http://blogs.adobe.com/jnack/2010/07/css-is-the-new-photoshop.html)
 
-Project Meteor Manifesto
+[Project Meteor Manifesto](http://projectmeteor.org/)
 
-Josh Long – Responsive Web Design in the Browser Part 2: The Tools
+[Josh Long](http://twitter.com/joshlong) – [Responsive Web Design in the Browser Part 2: The Tools](http://blog.teamtreehouse.com/responsive-web-design-in-the-browser-part-2-the-tools)
 
 #### Photoshop
 
