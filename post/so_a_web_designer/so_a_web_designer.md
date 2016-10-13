@@ -46,4 +46,4 @@ We’ve been exposed to some groundbreaking design work recently:
 The journalistic community has seen incredible new layout techniques that may get to redefine the way content will be presented. [[1]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref1_natgeo) [[2]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref2_bloomsberg) [[3]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref3_teehanlax)
 
 More and more services are going online. We are seeing smarter, faster, stronger web applications that are way closer to software than what a blog ever was. Plus many either benefit from the advantage of being an online tool. Many are based upon collaboration, and what better place than the web?
-[4] [5] [6]
+[[4]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref4_storify) [[5]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref5_spotify) [[6]](http://tympanus.net/codrops/2013/09/23/so-youre-a-web-designer-right/#ref6_editorially)
