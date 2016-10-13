@@ -34,4 +34,4 @@ People like [Jared M. Spool](http://twitter.com/jmspool) are making public the i
 
 ![](./unicorn01.jpg)
 
-He makes a clear division between **Specialists** (experts in one field over others), Generalists (experts in more than one field) and Compartmentalists (having expertise in only one area). He argues that neglecting the possibility of expanding your boundaries and falling into the compartmentalist category is a career-limiting decision. Plus it’s no fun.
+He makes a clear division between **Specialists** (experts in one field over others), **Generalists** (experts in more than one field) and Compartmentalists (having expertise in only one area). He argues that neglecting the possibility of expanding your boundaries and falling into the compartmentalist category is a career-limiting decision. Plus it’s no fun.
