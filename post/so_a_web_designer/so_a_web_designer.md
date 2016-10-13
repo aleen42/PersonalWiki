@@ -146,7 +146,7 @@ In Spain, a lot of us *speak* English. Most of us don't, really. It's more like 
 
 But the key lies in the method. What makes the fluent speakers different from those who plainly interpret languages? It's the lack of fear when challenged with a conversation. You learn to speak by speaking.
 
-As I see it, this is very related to a designer learning to code. After all, it's language we're talking about. It's not until you make that leap of faith that you're starting to truly learn how an application works. It might look scary but there's many people that have already done it and loved it.
+As I see it, this is very related to a designer learning to code. After all, it's language we're talking about. It's not until you make that *leap of faith* that you're starting to truly learn how an application works. It might look scary but there's many people that have already done it and loved it.
 
 The time you spend in learning to design **for** the Web comes back full circle.
 
