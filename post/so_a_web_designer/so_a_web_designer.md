@@ -186,7 +186,7 @@ Notes from [Kim Goodwin](http://twitter.com/kimgoodwin)’s – ‘[Silo-Busting
 
 [Braden Kowitz](http://twitter.com/kowitz) – [Hiring a designer: hunting the unicorn](http://www.designstaff.org/articles/hiring-a-designer-2011-11-01.html)
 
-Jeffrey Dalton – The Hybrid Designer
+Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-designer)
 
 Jolie O’Dell – HOW TO: Be a Hybrid Designer/Developer
 
