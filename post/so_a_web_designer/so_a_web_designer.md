@@ -125,3 +125,5 @@ But not only typography can be worked in the browser. Ready to dive in?
 ### Designing in the browser
 
 I’ve seen way too many comments on blog posts saying something like ‘But that’s not designing in the browser, you’re using an editor!’. So let’s clear some assumptions first. Designing in the browser is **not** about using the browser as the one and only tool for designing.
+
+> Let’s change the phrase “designing in the browser” to “deciding in the browser.” – [Dan Mall](http://the-pastry-box-project.net/dan-mall/2012-september-12/)
