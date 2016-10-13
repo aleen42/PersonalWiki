@@ -30,8 +30,7 @@ function convertCE(cx, cy) {
     case 3:
         return calcOuput(parseFloat(cx, 10), parseFloat(cy, 10), parseFloat(arguments[2], 10), parseFloat(arguments[2], 10));
     case 4:
-        var rx = parseFloat(arguments[2], 10);
-        var ry = parseFloat(arguments[3], 10);
+        return calcOuput(parseFloat(cx, 10), parseFloat(cy, 10), parseFloat(arguments[2], 10), parseFloat(arguments[3], 10));
         break;
     default:
         return '';
