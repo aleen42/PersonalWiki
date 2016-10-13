@@ -58,6 +58,8 @@ function convertPoly(points, types) {
     var pointsArr = points.
         /** clear redundant characters */
         .trim()
+        .split(' 	').join('')
+        .split(' 		').join('')
         .split(/\s+|,/);
     var x0 = pointsArr.shift();
     var y0 = pointsArr.shift();
