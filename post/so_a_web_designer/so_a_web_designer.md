@@ -68,3 +68,8 @@ The static mockup has seen its time in the spotlight. We are designing for dynam
 ![](./unicorn03.jpg)
 
 In her talk ‘[Designing in the browser](http://www.youtube.com/watch?v=h52uumn3sZc)’, the awesome [Divya Manian](http://twitter.com/divya) said: ‘Print tools give you an illusion of control that doesn’t exist on the Web’. She goes on to point out a number of things a Photoshop mockup will never be able to account for:
+
+- Pixel perfection: never happened
+- Feature uncertainty: browsers differ when handling effects, even the syntax is different
+- Things never designed to interact together will end up interacting
+- No control over content: take Google+ as a modern dynamic application. Never will anyone be able to mockup something such as this on Photoshop without a million problems.
