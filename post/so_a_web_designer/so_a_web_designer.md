@@ -180,4 +180,4 @@ We were redefining ourselves as designers.
 
 [Julie Zhuo](http://twitter.com/joulee) – [How to Survive in Design (and in a Zombie Apocalypse)](http://medium.com/the-year-of-the-looking-glass/3edbdb0bbee8)
 
-Notes from Kim Goodwin’s – ‘Silo-Busting with Scenarios’ by Luke Wroblewski
+Notes from [Kim Goodwin](http://twitter.com/kimgoodwin)’s – ‘[Silo-Busting with Scenarios](http://www.lukew.com/ff/entry.asp?1688)’ by Luke Wroblewski
