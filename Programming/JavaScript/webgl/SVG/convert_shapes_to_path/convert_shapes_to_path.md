@@ -24,8 +24,10 @@ Therefore, the calculation of `d` value in a `path` element can be easily comple
 function convertCE(cx, cy) {
     switch (arguments.length) {
     case 3:
+        console.log(3);
         break;
     case 4:
+        console.log(4);
         break;
     default:
         break;
