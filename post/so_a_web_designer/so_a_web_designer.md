@@ -84,3 +84,9 @@ So what better way to achieve this than diving straight into HTML? Here are some
 - Use print tools later on to optimize prototypes
 
 There are tools out there to prototype in HTML in a very visual and easy way, like [Easel](http://www.easel.io/), [Divshot](http://www.divshot.com/) or [JetStrap](http://jetstrap.com/).
+
+#### Good ol’ Photoshop and the Designer’s panacea
+
+> Fireworks and Photoshop can’t cut it for responsive design — they’re bringing a knife to a gun fight – Andy Clarke
+
+Yeah. [Andy Clarke](http://twitter.com/malarkey) also came up with one of the best reasons why Photoshop is no longer the best friend of the designer. Create a new document and it will ask you for its dimensions. Damn.
