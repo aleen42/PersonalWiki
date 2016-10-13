@@ -18,11 +18,11 @@ My journey into design started with typography, perhaps the only field where *my
 
 [Andy Rutledge](http://twitter.com/andyrutledge) is bolder than me when he says: 'A designer who does not write markup and css is not designing for the web, but drawing pictures'. He's right.
 
-> 'Most people make the mistake of thinking design is what it looks like. That's not what we think design is. It's not just what it looks like and feels like. Design is how it works' – Steve Jobs
+> *'Most people make the mistake of thinking design is what it looks like. That's not what we think design is. It's not just what it looks like and feels like. Design is how it works' – Steve Jobs*
 
 It's been about three years now since the Mobile-First/Responsive meteorite shook the Web community. It has been an arduous but beautiful process. Hard in rethinking the way we work but beautiful in that it opened up a wild ground for madly intense collaboration between everyone involved. We've seen every field of the profession coming together and sharing their wonders: techies on Progressive Enhancement, typographers on lettering, grids and layout, designers on workflow, content strategists on sensible structure, top-notch freelancers on how to handle clients… To remain on top of the situation, every kind of Web professional has had to cross enemy lines to create symbiotic partnerships, in some cases lifelong friendships. And of course, the up-and-coming generation finds itself full of strange creatures that don't fall under any of the previous categories. They are something in and of themselves.
 
-> 'Web Design is Product Design' – Andy Rutledge
+> *'Web Design is Product Design' – Andy Rutledge*
 
 Some time ago, thinking of a designer as just a 'Graphic designer' wouldn't have made much sense. Designers were actively involved in obscure parts of the process. Carving wood, painting, modelling, sometimes building, gardening…
 
@@ -87,7 +87,7 @@ There are tools out there to prototype in HTML in a very visual and easy way, li
 
 #### Good ol' Photoshop and the Designer's panacea
 
-> Fireworks and Photoshop can't cut it for responsive design — they're bringing a knife to a gun fight – Andy Clarke
+> *Fireworks and Photoshop can't cut it for responsive design — they're bringing a knife to a gun fight – Andy Clarke*
 
 Yeah. [Andy Clarke](http://twitter.com/malarkey) also came up with one of the best reasons why Photoshop is no longer the best friend of the designer. Create a new document and it will ask you for its dimensions. Damn.
 
@@ -114,7 +114,7 @@ To me all of them are good choices. There is space for everything, and I actuall
 
 We shouldn't be focusing on finding the perfect tool though, the *panacea* for the new designer. How about building a **set** of tools instead?
 
-> Take it apart, steal the parts that you like, and adapt them to your own way of working. — Joni Korpi
+> *Take it apart, steal the parts that you like, and adapt them to your own way of working. — Joni Korpi*
 
 Luckily enough, there are great applications out there that handle specific parts of the process like no *clairvoyant* tool can do. There is [Typecast](http://typecast.com/), that lets you experiment with Web typography so easily that it makes you feel like an orchestra conductor. Then there's [Gridset](http://gridsetapp.com/), that can handle incredibly complex to downright simple responsive grids. And the [Modular Scale](http://modularscale.com/), that started being really helpful for typography scaling and ended up visually teaching me to arrange layouts like I'd never done before. And so on. A designer can go crazy with all these shiny toys.
 
@@ -126,7 +126,7 @@ But not only typography can be worked in the browser. Ready to dive in?
 
 I've seen way too many comments on blog posts saying something like 'But that's not designing in the browser, you're using an editor!'. So let's clear some assumptions first. Designing in the browser is **not** about using the browser as the one and only tool for designing.
 
-> Let's change the phrase "designing in the browser" to "deciding in the browser." – [Dan Mall](http://the-pastry-box-project.net/dan-mall/2012-september-12/)
+> *Let's change the phrase "designing in the browser" to "deciding in the browser." – [Dan Mall](http://the-pastry-box-project.net/dan-mall/2012-september-12/)*
 
 It is all about having direct communication between design, code AND the browser. Start designing, see it in the browser. Change stuff, see it in the browser. And if you get to do it in mobile at the same time, all the better.
 
