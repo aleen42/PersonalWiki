@@ -18,4 +18,8 @@ Differences between them are the attributes describing radius.
 R|RX
 |RY
 
+Therefore, the calculation of `d` value in a `path` element can be easily completed like this:
 
+```js
+
+```
