@@ -90,3 +90,5 @@ There are tools out there to prototype in HTML in a very visual and easy way, li
 > Fireworks and Photoshop can’t cut it for responsive design — they’re bringing a knife to a gun fight – Andy Clarke
 
 Yeah. [Andy Clarke](http://twitter.com/malarkey) also came up with one of the best reasons why Photoshop is no longer the best friend of the designer. Create a new document and it will ask you for its dimensions. Damn.
+
+In a great short article -with a title pretty much straight to the point-, **Kill Photoshop**, [Josh Long](http://twitter.com/joshlong) provides a very intelligent number of reasons why Photoshop should be murdered:
