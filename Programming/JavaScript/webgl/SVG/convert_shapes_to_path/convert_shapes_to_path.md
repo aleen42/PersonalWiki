@@ -68,3 +68,7 @@ function convertPoly(points, types) {
     return types === 'polygon' ? output + 'z' : output; 
 }
 ```
+
+### Lines
+
+Generally, `line` elements will have some attributes defined for positioning start and end points of a li:
