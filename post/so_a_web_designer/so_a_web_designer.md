@@ -28,7 +28,7 @@ Some time ago, thinking of a designer as just a 'Graphic designer' wouldn't have
 
 **So who killed the product designer?**
 
-I haven't been around long enough to have a clear view, but my guess would be *compartmentalization*. The sudden boom in demand might have driven companies to define enclosed cells of roles and responsibilities, or as [Kim Goodwin](http://twitter.com/kimgoodwin) puts it, 'silos'; then to hire disposable professionals that would fit, silently contributing to the creation of a thick, standardized, leaden model that would stand the test of time and ensure high-level productivity.
+I haven't been around long enough to have a clear view, but my guess would be *compartmentalization*. The sudden boom in demand might have driven companies to define enclosed cells of roles and responsibilities, or as [Kim Goodwin](http://twitter.com/kimgoodwin) puts it, 'silos'; then to hire *disposable* professionals that would fit, silently contributing to the creation of a thick, standardized, leaden model that would stand the test of time and ensure high-level productivity.
 
 People like [Jared M. Spool](http://twitter.com/jmspool) are making public the interest of high-end companies in finding a new sort of profile. He calls it the **Unicorn**. He even went as far as creating the [Unicorn Institute](http://unicorninstitute.com/) to groom this sort of designer. He is defining a position, a new *Experience designer or UX Generalist*, whose skills make them ready for this entirely new scenario.
 
