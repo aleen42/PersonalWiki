@@ -198,9 +198,9 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Stephen Hay](http://twitter.com/stephenhay) – [Responsive Design Workflow @Mobilism 2012](http://vimeo.com/45915667)
 
-Miranda Mulligan – Your Survival is Designed
+[Miranda Mulligan](http://twitter.com/jmm) – [Your Survival is Designed](http://www.webstock.org.nz/talks/your-survival-is-designed/)
 
-Andy Clarke – Encouraging Better Client Participation In Responsive Design Projects (Article)
+[Andy Clarke](http://twitter.com/malarkey) – [Encouraging Better Client Participation In Responsive Design Projects](http://vimeo.com/55339166) ([Article](http://www.smashingmagazine.com/2012/09/28/better-client-participation-in-responsive-design-projects/))
 
 Harry Roberts – Normalising designs for better quality CSS
 
