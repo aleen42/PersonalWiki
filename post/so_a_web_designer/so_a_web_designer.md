@@ -121,3 +121,7 @@ Luckily enough, there are great applications out there that handle specific part
 If you agree with [Oliver Reichenstein](http://twitter.com/iA) in that ‘Web Design is 95% Typography’, what is best than ditching Photoshop’s weird type rendering and using a browser based tool, so you can build and test straight where the magic happens? This is invaluable stuff.
 
 But not only typography can be worked in the browser. Ready to dive in?
+
+### Designing in the browser
+
+I’ve seen way too many comments on blog posts saying something like ‘But that’s not designing in the browser, you’re using an editor!’. So let’s clear some assumptions first. Designing in the browser is **not** about using the browser as the one and only tool for designing.
