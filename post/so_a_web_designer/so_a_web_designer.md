@@ -14,3 +14,7 @@ Seasons came, seasons went and we started getting deeper and deeper into it. As 
 
 My journey into design started with typography, perhaps the only field where my man Felipe was not stunningly fluid. I never called myself ‘designer’, though, until I cut off from Adobe’s Creative Suite cold-turkey. Slowly but steadily my role evolved on to designing for functionality and interactivity, copywriting, structuring content, making layouts responsive, building strange custom web applications… **Then** I was designing. Felipe’s role evolved too, as he started getting gradually into development, my former side of things. It was from working together that we both expanded our notions and eventually our process. We were naturally responding to a new kind of situation.
 
+### The Web, today
+
+
+
