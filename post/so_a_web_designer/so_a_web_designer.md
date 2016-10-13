@@ -114,7 +114,7 @@ To me all of them are good choices. There is space for everything, and I actuall
 
 We shouldn't be focusing on finding the perfect tool though, the panacea for the new designer. How about building a **set** of tools instead?
 
-> Take it apart, steal the parts that you like, and adapt them to your own way of work­ing. — Joni Korpi
+> Take it apart, steal the parts that you like, and adapt them to your own way of working. — Joni Korpi
 
 Luckily enough, there are great applications out there that handle specific parts of the process like no clairvoyant tool can do. There is [Typecast](http://typecast.com/), that lets you experiment with Web typography so easily that it makes you feel like an orchestra conductor. Then there's [Gridset](http://gridsetapp.com/), that can handle incredibly complex to downright simple responsive grids. And the [Modular Scale](http://modularscale.com/), that started being really helpful for typography scaling and ended up visually teaching me to arrange layouts like I'd never done before. And so on. A designer can go crazy with all these shiny toys.
 
@@ -126,7 +126,7 @@ But not only typography can be worked in the browser. Ready to dive in?
 
 I've seen way too many comments on blog posts saying something like 'But that's not designing in the browser, you're using an editor!'. So let's clear some assumptions first. Designing in the browser is **not** about using the browser as the one and only tool for designing.
 
-> Let's change the phrase “designing in the browser” to “deciding in the browser.” – [Dan Mall](http://the-pastry-box-project.net/dan-mall/2012-september-12/)
+> Let's change the phrase "designing in the browser” to "deciding in the browser.” – [Dan Mall](http://the-pastry-box-project.net/dan-mall/2012-september-12/)
 
 It is all about having direct communication between design, code AND the browser. Start designing, see it in the browser. Change stuff, see it in the browser. And if you get to do it in mobile at the same time, all the better.
 
@@ -220,7 +220,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Jeffrey Zeldman](http://twitter.com/zledman) – [An InDesign For HTML and CSS?](http://www.zeldman.com/2010/07/05/an-indesign-for-html-and-css/)
 
-[John Nack](http://twitter.com/jnack) – [“CSS is the new Photoshop” (?)](http://blogs.adobe.com/jnack/2010/07/css-is-the-new-photoshop.html)
+[John Nack](http://twitter.com/jnack) – ["CSS is the new Photoshop” (?)](http://blogs.adobe.com/jnack/2010/07/css-is-the-new-photoshop.html)
 
 [Project Meteor Manifesto](http://projectmeteor.org/)
 
