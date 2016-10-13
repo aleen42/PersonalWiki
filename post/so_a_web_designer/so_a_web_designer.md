@@ -106,7 +106,7 @@ Some people are already looking for a strong contender.
 
 To [Jason Santa Maria](http://twitter.com/jasonsantamaria), ‘How something behaves is interdependent on how it looks, sounds, reads, moves, and responds.’. We’d need a tool that can account for all this pieces of the puzzle.
 
-The famous Project Meteor launched as a ‘campaign to demonstrate the demand for a modern web design app’. Some tools out there today do pretty good at handling the whole process, like Macaw, Webflow, or Adobe’s much expected Brackets.
+The famous [Project Meteor](http://projectmeteor.org/) launched as a ‘campaign to demonstrate the demand for a modern web design app’. Some tools out there today do pretty good at handling the whole process, like Macaw, Webflow, or Adobe’s much expected Brackets.
 
 Devin Halladay considers tools like this ‘Are making the web designer lazy’.
 
