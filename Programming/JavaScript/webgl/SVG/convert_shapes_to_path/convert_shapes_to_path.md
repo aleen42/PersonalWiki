@@ -27,7 +27,8 @@ function convertCE(cx, cy) {
     
     switch (arguments.length) {
     case 3:
-        var r = parseFloat(arguments[2], 10);
+        var rx = parseFloat(arguments[2], 10);
+        var ry = parseFloat(arguments[2], 10);
         break;
     case 4:
         var rx = parseFloat(arguments[2], 10);
@@ -36,5 +37,9 @@ function convertCE(cx, cy) {
     default:
         break;
     }
+    
+    var output = 'M' + (cx - 
+    
+    return 
 }
 ```
