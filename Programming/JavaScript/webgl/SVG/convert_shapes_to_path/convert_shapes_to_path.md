@@ -1,1 +1,1 @@
-## Calibration parameters for drawing a SVG file [Back](./../SVG.md)
+## Convert all shapes/primitives into path element of SVG [Back](./../SVG.md)
