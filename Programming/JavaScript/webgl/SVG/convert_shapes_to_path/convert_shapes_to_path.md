@@ -28,7 +28,7 @@ function convertCE(cx, cy) {
     
     switch (arguments.length) {
     case 3:
-        return calcOuput(cx, cy, rx, ry);
+        return calcOuput(parseFloat(cx, 10), parseFloat(cy, 10), rx, ry);
         var rx = parseFloat(arguments[2], 10);
         var ry = parseFloat(arguments[2], 10);
         break;
