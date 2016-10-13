@@ -142,8 +142,8 @@ for (var j = 0; j < pathLen; j++) {
         var ratioX = (image.curW / image.oriW) * calibrationParam;
         var ratioY = (image.curH / image.oriH) * calibrationParam;
     
-        data.x = data.x * ratioX + dx - image.viewBoxX;
-		data.y = data.y * ratioY + dy - image.viewBoxY;
+        data.x = (data.x - image.viewBoxX) * ratioX + dx;
+		data.y = (data.y - image.viewBoxY) * ratioY + dy;
         
         data.x = data.x >= dx && data.x <= dx + curW ? data.x : ((data.x < dx) ? dx : dx + curW);
 		data.y = data.y >= dy && data.y <= dy + curH ? data.y : ((data.y < dy) ? dy : dy + curH);
