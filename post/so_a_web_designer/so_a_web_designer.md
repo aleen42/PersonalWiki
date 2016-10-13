@@ -8,7 +8,7 @@
 
 ### The Web of yesterday
 
-When I started doing this we were what you'd call a petit-comitè. I called myself a developer and worked with a great graphic designer, one of a kind. Our roles were crystal clear back then.
+When I started doing this we were what you'd call a *petit-comitè*. I called myself a developer and worked with a great graphic designer, one of a kind. Our roles were crystal clear back then.
 
 Seasons came, seasons went and we started getting deeper and deeper into it. As our imagination kept moving forward, our websites grew more and more complicated. We soon found ourselves in a crossroads and we were forced to rethink our whole model.
 
