@@ -206,7 +206,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Jacey Gulden](http://twitter.com/JaceyLeigh) – [Great Responsive Web Design is a Matter of Process](http://medium.com/p/270048a88c70)
 
-Simon Foster – The Responsive Designer (Video)
+[Simon Foster](http://twitter.com/simonstretch) – [The Responsive Designer](http://simonfosterdesign.com/blog/web-design/the-responsive-designer/) ([Video](http://vimeo.com/52140609))
 
 Josh Long – I Have No Idea What I’m Doing with Responsive Web Design
 
