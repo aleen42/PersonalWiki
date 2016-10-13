@@ -101,3 +101,15 @@ In a great short article -with a title pretty much straight to the point-, **Kil
 6. Photoshop is Static
 7. Photoshop Has No Prototype Value
 8. You Start with Content, Not Style
+
+Some people are already looking for a strong contender.
+
+To [Jason Santa Maria](http://twitter.com/jasonsantamaria), ‘How something behaves is interdependent on how it looks, sounds, reads, moves, and responds.’. We’d need a tool that can account for all this pieces of the puzzle.
+
+The famous Project Meteor launched as a ‘campaign to demonstrate the demand for a modern web design app’. Some tools out there today do pretty good at handling the whole process, like Macaw, Webflow, or Adobe’s much expected Brackets.
+
+Devin Halladay considers tools like this ‘Are making the web designer lazy’.
+
+To me all of them are good choices. There is space for everything, and I actually find it very amusing to find new tools while thinking of new projects. It’s the exciting bit.
+
+We shouldn’t be focusing on finding the perfect tool though, the panacea for the new designer. How about building a set of tools instead?
