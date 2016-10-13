@@ -65,7 +65,7 @@ function convertPoly(points, types) {
     
     var output = 'M' + x0 + ',' + y0 + 'L' + pointsArr.join(' ');
     
-    return types === 'polygon' ? output + 'z' : output; 
+    return types === 'polygon' ? output + 'z' : output;
 }
 ```
 
