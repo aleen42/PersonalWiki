@@ -213,11 +213,17 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 #### The Tools
 
 Brad Frost – The Post-PSD Era
+
 Jason Santa Maria – A Real Web Design Application
+
 Tim Brown – Universal Typography @ Ready To Inspire
+
 Jeffrey Zeldman – An InDesign For HTML and CSS?
+
 John Nack – “CSS is the new Photoshop” (?)
+
 Project Meteor Manifesto
+
 Josh Long – Responsive Web Design in the Browser Part 2: The Tools
 
 #### Photoshop
