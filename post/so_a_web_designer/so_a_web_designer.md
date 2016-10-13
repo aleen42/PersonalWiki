@@ -214,7 +214,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Brad Frost](http://twitter.com/brad_frost) – [The Post-PSD Era](http://bradfrostweb.com/blog/post/the-post-psd-era/)
 
-Jason Santa Maria – A Real Web Design Application
+[Jason Santa Maria](http://twitter.com/jasonsantamaria) – [A Real Web Design Application](http://v4.jasonsantamaria.com/articles/a-real-web-design-application/)
 
 Tim Brown – Universal Typography @ Ready To Inspire
 
