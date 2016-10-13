@@ -248,4 +248,4 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [David Kizler](http://twitter.com/davidkizler) – [Deep dives into the browser](http://designinthebrowser.com/articles-page/)
 
-Sarah Parmenter – I can’t design in the browser
+[Sarah Parmenter](http://twitter.com/sazzy) – [I can’t design in the browser](http://www.sazzy.co.uk/2012/02/why-i-cant-design-in-the-browser/)
