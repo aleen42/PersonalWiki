@@ -82,3 +82,5 @@ So what better way to achieve this than diving straight into HTML? Here are some
 - Find where data breaks design
 - The outcome is a template ready for any use
 - Use print tools later on to optimize prototypes
+
+There are tools out there to prototype in HTML in a very visual and easy way, like [Easel](http://www.easel.io/), [Divshot](http://www.divshot.com/) or JetStrap.
