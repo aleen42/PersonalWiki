@@ -22,8 +22,8 @@ Therefore, the calculation of `d` value in a `path` element can be easily comple
 
 ```js
 function convertCE(cx, cy) {
-    var cx = cx;
-    var cy = cy;
+    var cx = parseFloat(cx, 10);
+    var cy = parseFloat(cy, 10);
     
     switch (arguments.length) {
     case 3:
