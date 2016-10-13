@@ -162,7 +162,7 @@ We were redefining ourselves as designers.
 
 [2] The New York Times – [Reshaping New York](http://www.nytimes.com/newsgraphics/2013/08/18/reshaping-new-york/)
 
-[3] Teehan+Lax – A Place for Sharing Ideas and Stories
+[3] Teehan+Lax – [A Place for Sharing Ideas and Stories](http://www.teehanlax.com/story/medium/)
 
 [4] Storify
 
