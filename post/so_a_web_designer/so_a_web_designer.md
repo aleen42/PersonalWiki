@@ -228,13 +228,14 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 #### Photoshop
 
-Javier Ghaemi – Is Photoshop Dead?
+Javier Ghaemi – [Is Photoshop Dead?](http://www.webdesignerdepot.com/2013/02/is-photoshop-dead/)
 Josh Brewer – Photoshop you are a liar
 Josh Long – Responsive Web Design in the Browser Part 1: Kill Photoshop
 
 #### Mockups
 
 Meagan Fisher – Make Your Mockup in Markup
+
 Dan Rubin – Hands-on Prototyping with HTML & CSS
 
 #### Designing in the Browser
