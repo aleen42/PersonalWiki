@@ -202,9 +202,9 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Andy Clarke](http://twitter.com/malarkey) – [Encouraging Better Client Participation In Responsive Design Projects](http://vimeo.com/55339166) ([Article](http://www.smashingmagazine.com/2012/09/28/better-client-participation-in-responsive-design-projects/))
 
-Harry Roberts – Normalising designs for better quality CSS
+[Harry Roberts](http://twitter.com/csswizardry) – [Normalising designs for better quality CSS](http://www.youtube.com/watch?v=ldx4ZFxMEeo&hd=1)
 
-Jacey Gulden – Great Responsive Web Design is a Matter of Process
+[Jacey Gulden](http://twitter.com/JaceyLeigh) – [Great Responsive Web Design is a Matter of Process](http://medium.com/p/270048a88c70)
 
 Simon Foster – The Responsive Designer (Video)
 
