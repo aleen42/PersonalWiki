@@ -94,5 +94,7 @@ function convertRectangles(x, y, width, height) {
     if (parseFloat(x, 10) < 0 || parseFloat(y, 10) < 0 || parseFloat(width, 10) < 0 || parseFloat(height, 10) < 0) {
         return '';
     }
+    
+    return 'M' + x + ',' + y + 'L' + (x + width) + ',' + y + ' ' + (x + width) + ',' + (y + height) + ' ' + x + ',' + (y + height) + 'z';
 }
 ```
