@@ -27,7 +27,7 @@ function convertCE(cx, cy) {
     
     switch (arguments.length) {
     case 3:
-        
+        var r = arguments[3];
         break;
     case 4:
         console.log(4);
