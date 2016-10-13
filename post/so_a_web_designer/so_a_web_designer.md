@@ -216,7 +216,7 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 [Jason Santa Maria](http://twitter.com/jasonsantamaria) – [A Real Web Design Application](http://v4.jasonsantamaria.com/articles/a-real-web-design-application/)
 
-Tim Brown – Universal Typography @ Ready To Inspire
+[Tim Brown](http://twitter.com/timbrown) – [Universal Typography @ Ready To Inspire](http://vimeo.com/56276418)
 
 Jeffrey Zeldman – An InDesign For HTML and CSS?
 
