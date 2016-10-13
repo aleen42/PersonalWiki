@@ -53,6 +53,6 @@ For these both elements, what you should do is to extract out the attribute `poi
 ```js
 /** pass the value of the attribute `points` into this function */
 function convertPoly(points, types) {
-    var points 
+    var pointsArr = points.split(/\s+|,/);
 }
 ```
