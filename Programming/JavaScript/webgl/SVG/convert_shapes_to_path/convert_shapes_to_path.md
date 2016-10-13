@@ -53,8 +53,14 @@ For these both elements, what you should do is to extract out the attribute `poi
 ```js
 /** pass the value of the attribute `points` into this function */
 function convertPoly(points, types) {
+    types = types || 'polyline';
+    
     var pointsArr = points.split(/\s+|,/);
     var x0 = pointsArr.shift();
     var y0 = pointsArr.shift();
+    
+    var output = 'M' + x0 + ',' + y0 + 'L' + pointsArr.join(' ');
+    
+    return types === 'polygon' ? output + 'z' : output; 
 }
 ```
