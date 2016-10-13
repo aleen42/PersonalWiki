@@ -55,7 +55,7 @@ For these both elements, what you should do is to extract out the attribute `poi
 function convertPoly(points, types) {
     types = types || 'polyline';
 
-    var pointsArr = points.
+    var pointsArr = points
         /** clear redundant characters */
         .split(' 	').join('')
         .trim()
