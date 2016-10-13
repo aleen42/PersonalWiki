@@ -242,7 +242,10 @@ Jeffrey Dalton – [The Hybrid Designer](http://drupalwatchdog.com/2/1/hybrid-de
 
 #### Designing in the Browser
 
-Divya Manian – Designing in the Browser @Front-Trends 2012
+[Divya Manian](http://twitter.com/divya) – [Designing in the Browser @Front-Trends 2012](http://vimeo.com/44297900)
+
 Max Luzuriaga – Designing In-Browser: A Manifesto
+
 David Kizler – Deep dives into the browser
+
 Sarah Parmenter – I can’t design in the browser
