@@ -26,7 +26,6 @@ function convertCE(cx, cy) {
     case 3:
         break;
     case 4:
-        
         break;
     default:
         break;
