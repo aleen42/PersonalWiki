@@ -82,4 +82,4 @@ Looking at the inspected code, you can see that the shadow DOM is pretty much th
 - [Intro to Shadow DOM](http://code.tutsplus.com/tutorials/intro-to-shadow-dom--net-34966)
 - [What the Heck is Shadow DOM?](http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/)
 - [Shadow DOM 101](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
-- Introduction to Shadow DOM (Video)
+- [Introduction to Shadow DOM (Video)](http://webcomponents.org/articles/introduction-to-shadow-dom/)
