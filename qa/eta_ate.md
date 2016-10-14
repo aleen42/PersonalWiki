@@ -1,6 +1,6 @@
 ## How to convert string between HTML entities and Ascii with JavaScript [Back](./qa.md)
 
-In order to convert a string text between HTML entities and Ascii, you need a table for transfor
+In order to convert a string text between HTML entities and Ascii, you need a table for transforming:
 
 ### Ascii to HTML entities
 
