@@ -265,3 +265,5 @@ The idea behind this technique is to use both the fill and the color properties 
 Suppose we want to style this minimal Codrops logo using two colors—one for the front drop and one for the back drop—for every instance of that logo.
 
 ![](./StylingSVGuse_codropsdrops.png)
+
+First, let’s start with the code for the above screenshot: we have the symbol containing our icon definition and then three `<use>` instances creating the three logo instances.
