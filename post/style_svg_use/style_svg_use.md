@@ -336,3 +336,11 @@ Each `<use>` element gets its own fill and color values. For each one, the fill 
 So what happened here is that the current color value was leaked into the innards of the `<use>` element, using the currentColor variable. Pretty neat, right?
 
 Here is the live demo for the above code:
+
+<br />
+
+<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/vXaKvR/?height=300&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/vXaKvR/'>vXaKvR</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
+
+<br />
+
