@@ -143,3 +143,9 @@ And even if you do have access to the SVG code and you can get rid of the presen
 1. Removing the attributes used to set certain properties will reset those properties to their initial browser-default values—which, in most cases, is all black fills and strokes (if we’re talking about colors, for example).
 2. By resetting all values you force yourself into specifying styles for all the properties set, so unless you want to do just that, then you don’t want to get rid of those presentation attributes.
 3. The presentation attributes that are initially available are a great fallback mechanism for when the external styles you set are not applied for any reason. If the CSS fails to load because something was messed up, your icon will at least have some default nice styles to fall back to. I highly recommend keeping them.
+
+OK so now we have those attributes but we also want to style different instances of our, say, icon, differently.
+
+The way to do that is to make sure we force the presentation attributes into inheriting the styles set on `<use>` or find a way to work around them overriding those values. And in order to do that, we need to take advantage of the CSS cascade.
+
+Let’s start with the simplest of examples and gradually move on to more complex scenarios.
