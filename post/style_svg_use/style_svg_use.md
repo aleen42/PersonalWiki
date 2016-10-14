@@ -258,7 +258,7 @@ Being able to force the presentation attributes to inherit from `<use>` styles i
 
 ### Using the CSS `currentColor` Variable For Styling `<use>` Content
 
-Using the CSS [`currentColor` variable ](http://tympanus.net/codrops/css_reference/color_value/#section_currentColor)in conjunction with the above technique, we can specify two different colors on an element, instead of just one. Fabrice Weinberg wrote about this technique on his Codepen blog a little less than a year ago.
+Using the CSS [`currentColor` variable ](http://tympanus.net/codrops/css_reference/color_value/#section_currentColor)in conjunction with the above technique, we can specify two different colors on an element, instead of just one. Fabrice Weinberg [wrote about this technique on his Codepen blog](http://codepen.io/FWeinb/blog/quick-tip-svg-use-style-two-colors) a little less than a year ago.
 
 The idea behind this technique is to use both the fill and the color properties on <use>, and then have these colors cascade into the contents of <use> by taking advantage of the variable nature of currentColor. Let’s jump right into a code example to see how this works.
 
