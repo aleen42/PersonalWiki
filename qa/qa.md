@@ -46,7 +46,7 @@
 - [**How to know the valueOf() method**](./value_of.md)
 - [**How to create a AJAX request wih XHR**](./../Programming/JavaScript/web_api/xhr/xhr.md#2-create-a-ajax-request-with-xhr)
 - [**How to convert string between Unicode and Ascii with JavaScript**](./uta_atu.md)
-- [**How to convert string between HTML entites and Ascii with JavaScript**](./eta_ate.md)
+- [**How to convert string between HTML entities and Ascii with JavaScript**](./eta_ate.md)
 - [**How to get current timestamp with JavaScript**](./timestamp.md)
 - [**How to preload resources with JavaScript**](./resloadjs.md)
 - [**How to detect whether a document is inside a iframe with JavaScript**](./iniframe_javascript.md)
