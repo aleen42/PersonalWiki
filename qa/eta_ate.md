@@ -3,7 +3,9 @@
 ### Ascii to HTML entities
 
 ```js
-var entityTabe = {};
+var entityTabe = {
+    
+};
 
 function A2E(str) {
     return str.replace(/[\u00A0-\u2666<>\&]/g, function(c) {
