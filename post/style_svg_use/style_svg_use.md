@@ -336,3 +336,5 @@ Each `<use>` element gets its own fill and color values. For each one, the fill 
 So what happened here is that the current color value was leaked into the innards of the `<use>` element, using the currentColor variable. Pretty neat, right?
 
 Here is the live demo for the above code:
+
+
