@@ -313,3 +313,5 @@ If we were to use the inherit keyword to force the presentation attributes into 
 	</symbol>
 </svg>
 ```
+
+Now, using fill and color properties on `<use>`, we style the drops:
