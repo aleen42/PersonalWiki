@@ -362,5 +362,5 @@ Variables, be it CSS variables or preprocessor variables, can have many usage ex
 
 We’ll start with one image defined in a symbol and instantiated with use and apply this technique to one image only; the concepts applied to style the contents of <use> in this example can be applied to as many <use> elements as you want.
 
-So, suppose we have the following cute hipster robot illustration designed by Freepik.
+So, suppose we have the following cute hipster robot illustration [designed by Freepik](http://www.freepik.com/free-vector/cute-vector-hipster-robot-character_714905.htm).
 
