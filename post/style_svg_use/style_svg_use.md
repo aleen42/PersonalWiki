@@ -163,3 +163,9 @@ By using the CSS [inherit keyword](http://tympanus.net/codrops/css_reference/inh
 </symbol>
 </svg>
 ```
+
+The ice cream icon’s contents (the path) are defined in a `<symbol>` element, which means that they won’t be directly rendered on the SVG canvas.
+
+Then, we render multiple instances of the icon using `<use>`.
+
+
