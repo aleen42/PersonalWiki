@@ -300,3 +300,16 @@ First, we need to insert the currentColor where we want that color value to be a
 	</symbol>
 </svg>
 ```
+
+Next we need to remove the fill presentation attribute from the other drop, and let it inherit the fill color from use without using the inherit technique.
+
+If we were to use the inherit keyword to force the presentation attributes into inheriting their values from use, both paths will inherit the same value and the currentColor will no longer have an effect. So, in this technique, we do need to remove the attribute we want to set in CSS, and only keep the one whose value we want to set using currentColor.
+
+```html
+<svg style="display: none;">
+	<symbol id="codrops" viewBox="0 0 23 30">
+		<path class="back" d="..."/>
+		<path class="front" fill="currentColor" d="..."/>
+	</symbol>
+</svg>
+```
