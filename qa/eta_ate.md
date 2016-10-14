@@ -4,12 +4,9 @@
 
 ```js
 function A2E(str) {
-    var reserved = '';
-    
-    for (var i = 0; i < str.length; i++) {
-        reserved += '&#' + str.charCodeAt(i) + ';';
-    }
-    
-    return reserved;
+    return str.replace(/[\u00A0-\u2666<>\&]/g, function(c) {
+        return '&' + 
+        (escapeHtmlEntities.entityTable[c.charCodeAt(0)] || '#'+c.charCodeAt(0)) + ';';
+    });
 }
 ```
