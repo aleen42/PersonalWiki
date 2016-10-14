@@ -389,3 +389,7 @@ The code for the robot contains the colors that make it up.
 </svg>
 ```
 
+Now, we are not going to use the CSS Variables as values for the fill attribute of each path; instead, we’re going to use them as fill color values using the CSS fill property, and we’re going to keep the fill attributes in place. **The attributes will be used as a fallback for browsers that don’t support CSS Variables**, so the image will still look as it initially did if the variables fail to work in those browsers.
+
+With the variables added, the above code will look like so:
+
