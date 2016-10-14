@@ -187,3 +187,7 @@ And we set the width and height of the icons from CSS. I am using the same dimen
 ```
 
 Using the above code, you get the following result:
+
+![](./Screen-Shot-2015-07-15-at-13.21.02.png)
+
+
