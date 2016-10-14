@@ -73,7 +73,7 @@ Now, if you're a designer, you might be thinking: "OK, I get it but is there a w
 
 Once you've enable shadow DOM inspection in the dev tools, you can see the cloned elements in the Elements panel, just like you would with normal DOM elements. The following image shows an example of a `<use>` element referencing the contents of a `<symbol>`. Notice the "#shadow-root" and the contents of that fragment when expanded—they are a copy of the contents of the `<symbol>`.
 
-> ![](shadow-dom.jpg)
+> ![](./shadow-dom.jpg)
 
 > Using Chrome's developer tools, you can inspect the contents of the &lt;use&gt; element inside the shadow DOM (see the "#shadow-root" in grey). This screenshot inspects the Codrops logo from an example we will go over in the next section.
 
