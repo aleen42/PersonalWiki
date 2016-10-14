@@ -214,8 +214,12 @@ svg path {
 
 And voila!—the colors we set on the `<use>` elements are now applied to the path in each one. Check the live demo out and play with the values creating more instances and changing their colors as you go:
 
+<br />
+
 <iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/wzxWxR/?height=300&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/wzxWxR/'>wzxWxR</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
+
+<br />
 
 Now this technique is useful when you want to force the contents of `<use>` to inherit the styles you set on it. But in most cases, this may not be exactly what you want. There are other styling scenarios, so we’ll go over some of them next.
 
