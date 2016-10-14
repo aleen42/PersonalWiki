@@ -247,3 +247,13 @@ path#myPath {
     all: inherit;
 }
 ```
+
+This works great in all browsers that support the all property (see property’s entry for details), however there is something important to keep in mind: **this declaration will set literally all of the properties on the element to inherit their values from their ancestor**, even those you might not have wanted to target. So unless you want to style all the properties of your element from your CSS, then you do not want to use this—it is **an extreme measure** and is particularly useful for when you want to “bare-bone” your element and have complete control over its styling properties in CSS, which may not be too often. If you use this declaration and don’t specify values for all of the properties in your CSS, they will go up and cascade until they find a value to inherit, which in most cases will be the default browser styles from the default user agent style sheet.
+
+Note that this will only affect the attributes that can be set in CSS, not the SVG-only attributes. So if an attribute can be set as a CSS property, it will be set to inherit, otherwise it won’t.
+
+---
+
+Being able to force the presentation attributes to inherit from `<use>` styles is powerful, but what if you have an icon with multiple elements and you don’t want all of those elements to inherit the same fill color from use? What if you want to apply multiple different fill colors to different use descendants? Setting one style on use no longer suffices. We need something else to help us cascade the right colors to the right elements.
+
+
