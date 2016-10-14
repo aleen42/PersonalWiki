@@ -224,3 +224,13 @@ Now this technique is useful when you want to force the contents of `<use>` to i
 A while back I was working on an icon referenced with use and I wanted one of the elements inside of it to inherit all the styles I set on `<use>` like `fill`, `stroke`, `stroke-width`, `opacity` and even `transform`. Basically, I wanted to be able to control all of those attributes from CSS while also keeping the presentation attributes in the markup as fallback.
 
 If you find yourself in such a scenario as well, you will probably find it time-consuming to have to do this in the CSS:
+
+```css
+path#myPath {
+    fill: inherit;
+    stroke: inherit;
+    stroke-width: inherit;
+    transform: inherit;
+    /* ... */
+}
+```
