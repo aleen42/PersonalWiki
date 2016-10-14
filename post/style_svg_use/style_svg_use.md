@@ -418,3 +418,8 @@ Since inline style tags override presentation attributes, browsers that support 
 
 Next, we need to define the values for the variables in CSS. First, the illustration will be instantiated using use:
 
+```html
+<svg width="340" height="536">
+    <use xlink:href="#robot" id="robot-1" />
+</svg>
+```
