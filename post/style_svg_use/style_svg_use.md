@@ -47,7 +47,7 @@ When you reference an element with `<use>`, the code might look something like t
 
 ```html
 <symbol id="my-icon" viewBox="0 0 30 30">
-	<!-- icon content / shapes here -->
+    <!-- icon content / shapes here -->
 </symbol>
 
 <use xlink:href="#my-icon" x="100" y="300" />
