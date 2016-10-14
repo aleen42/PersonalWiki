@@ -176,3 +176,14 @@ Then, we render multiple instances of the icon using `<use>`.
     <use class="ic-2" xlink:href="#ic" x="0" y="0" />
 </svg>
 ```
+
+And we set the width and height of the icons from CSS. I am using the same dimensions as the viewBox dimensions but they don’t have to be identical. However, to avoid getting any excess white space inside the SVG, make sure you maintain the same aspect ratio between them.
+
+```css
+.icon {
+    width: 100px;
+    height: 125px;
+}
+```
+
+Using the above code, you get the following result:
