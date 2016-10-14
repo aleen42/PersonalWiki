@@ -393,3 +393,28 @@ Now, we are not going to use the CSS Variables as values for the fill attribute 
 
 With the variables added, the above code will look like so:
 
+```html
+<svg style="display: none">
+    <symbol id="robot" viewBox="0 0 340 536">
+        <path d="..." fill="#fff" />
+        <path d="..." fill="#D1312C" />
+        <path d="..." fill="#1E8F90" style="fill: var(--primary-color)" />
+        <path d="..." fill="#1E8F90" style="fill: var(--primary-color)" />
+        <path d="..." fill="#fff" />
+        <path d="..." fill="#6A4933" style="fill: var(--tertiary-color)" />
+        <path d="..." fill="#1E8F90" style="fill: var(--primary-color)" />
+        <path d="..." fill="#6A4933" style="fill: var(--tertiary-color)" />
+        <path d="..." fill="#fff" />
+        <path d="..." fill="#6A4933" style="fill: var(--tertiary-color)" />
+        <path d="..." fill="#F2B42B" style="fill: var(--secondary-color)" />
+        <path d="..." fill="#fff" />
+       
+        <!-- rest of the shapes -->
+    </symbol>
+</svg>
+```
+
+Since inline style tags override presentation attributes, browsers that support CSS Variables will use those variables as fill colors for the shapes. Browsers that do not support CSS variables will use the fill attribute values instead.
+
+Next, we need to define the values for the variables in CSS. First, the illustration will be instantiated using use:
+
