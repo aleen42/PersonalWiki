@@ -45,7 +45,7 @@ Before we answer these questions, and since we only covered a quick overview of 
 
 When you reference an element with `<use>`, the code might look something like this:
 
-```svg
+```ht
 <symbol id="my-icon" viewBox="0 0 30 30">
 	<!-- icon content / shapes here -->
 </symbol>
