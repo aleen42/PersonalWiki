@@ -234,3 +234,10 @@ path#myPath {
     /* ... */
 }
 ```
+
+Looking at the above snippet, you can see a pattern and it would only make sense for us to be able to combine all of those properties into one property and set that property’s value to inherit.
+
+
+Fortunately, this is where the CSS all property helps. I have written about using the all property to style SVG `<use>` content in [property’s CSS Reference entry](http://tympanus.net/codrops/css_reference/all/), but it is worth a second look here since we’re in the right context.
+
+Using the all property, we can do this:
