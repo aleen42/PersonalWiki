@@ -444,7 +444,7 @@ Now, we mentioned that browsers that don't support CSS Variables are going to fa
 
 For our hipster robot here, we defined three variables, and only a few elements inside of the image did not get any variables because the colors used were complimentary and would go with pretty much any color theme used. So, if you display the above code in a browser that supports CSS variables (currently only Firefox) and remove the variable declarations from the CSS, you will end up with this:
 
-<a href="./Screen-Shot-2015-07-15-at-22.59.37.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./3.png" alt="Screen Shot 2015-07-15 at 22.59.37" width="772" height="1178" class="alignnone size-full wp-image-24472" srcset="./3.png 772w, ./3_1.png 197w" sizes="(max-width: 772px) 100vw, 772px"></a>
+<a href="./3.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./3.png" alt="Screen Shot 2015-07-15 at 22.59.37" width="772" height="1178" class="alignnone size-full wp-image-24472" srcset="./3.png 772w, ./3_1.png 197w" sizes="(max-width: 772px) 100vw, 772px"></a>
 
 If the values provided for the variables are either not set or invalid, the browser will default to its own colors, which is usually black for fill and stroke colors in SVG.
 
