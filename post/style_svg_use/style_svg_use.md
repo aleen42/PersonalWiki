@@ -241,3 +241,9 @@ Looking at the above snippet, you can see a pattern and it would only make sense
 Fortunately, this is where the CSS all property helps. I have written about using the all property to style SVG `<use>` content in [property’s CSS Reference entry](http://tympanus.net/codrops/css_reference/all/), but it is worth a second look here since we’re in the right context.
 
 Using the all property, we can do this:
+
+```css
+path#myPath {
+    all: inherit;
+}
+```
