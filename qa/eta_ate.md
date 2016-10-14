@@ -270,6 +270,30 @@ function A2E(str) {
 }
 ```
 
+### HTML entities to Ascii
+
+```js
+function E2A(str) {
+    function getKey(value) {
+        value = value.replace('&', '');
+        value = value.replace(';', '');
+
+        /** get the first key of a specific value */
+        for (var prop in entityTable) {
+            if (entityTable.hasOwnProperty(prop)) {
+                if (entityTable.prop === value || entityTable[prop] === value) {
+                    return String.fromCharCode(prop);
+                }
+            }
+        }
+
+        return null;
+    };
+
+    return str.replace(/&([\S]+);/g, getKey);
+}
+```
+
 #### Reference
 
 - http://stackoverflow.com/a/1354715
