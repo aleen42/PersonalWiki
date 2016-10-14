@@ -212,4 +212,6 @@ svg path {
 }
 ```
 
-And voila!—the colors we set on the <use> elements are now applied to the path in each one. Check the live demo out and play with the values creating more instances and changing their colors as you go:
+And voila!—the colors we set on the `<use>` elements are now applied to the path in each one. Check the live demo out and play with the values creating more instances and changing their colors as you go:
+
+
