@@ -52,3 +52,9 @@ When you reference an element with `<use>`, the code might look something like t
 
 <use xlink:href="#my-icon" x="100" y="300" />
 ```
+
+What is rendered on the screen is the icon whose content is defined inside `<symbol>`, but it’s not that content that got rendered, but rather the content of the `<use>`, which is a duplicate—or clone—of the `<symbol>`’s content.
+
+But the `<use>` element is only one element and it is self-closing—there is no content somewhere between an opening and closing use tag, so where has the `<symbol>` content been cloned?
+
+The answer to that is: **the Shadow DOM**. (Somehow the Shadow DOM always reminds me of the Batman. I don’t know why.)
