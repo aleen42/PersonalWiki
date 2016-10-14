@@ -282,6 +282,12 @@ First, let’s start with the code for the above screenshot: we have the symbol 
     <use xlink:href="#codrops" class="codrops-2"/>
 </svg>
 <svg height="90px" width="69px">
-<use xlink:href="#codrops" class="codrops-3"/>
+    <use xlink:href="#codrops" class="codrops-3"/>
 </svg>
 ```
+
+If we were to set the fill color on the `<use>` element for each instance, that color would be inherited by both paths (drops) and they would both end up having the same color—which is not what we want.
+
+So instead of specifying only the fill color and having it cascade the default way, we are going to use the currentColor variable to make sure the small drop in the front gets a different color value: the value specified using the color property.
+
+First, we need to insert the currentColor where we want that color value to be applied; it goes into the markup where the icon contents are defined, inside the `<symbol>`. So the code looks like this:
