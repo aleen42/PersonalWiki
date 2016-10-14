@@ -92,3 +92,25 @@ use path#line {
     stroke: #009966;
 }
 ```
+
+because we cannot access the shadow DOM using regular CSS selectors.
+
+There are a couple of special selectors that allow you to penetrate the shadow DOM boundaries to apply styles to nodes inside of it, but those selectors are not only not well supported, but they are limited compared to the long list of selectors provided in CSS for selecting and styling regular DOM elements.
+
+Moreover, we want a simpler way to style the contents of an SVG `<use>` without having to get our hands dirty with shadow DOM specifics—using simple CSS and SVG only.
+
+In order to achieve that and get a little more control over styling the contents of `<use>`, we need to think from a different angle, and start by leveraging the CSS cascade and taking advantage of its inheritance capabilities.
+
+### The Style Cascade
+
+Since SVG elements can be styled using CSS using one of three different ways: external CSS styles (in an external style sheet), internal style blocks (`<style>` elements) and inline styles (in a style attribute), it only makes sense that the cascade governs how these styles are applied to these elements.
+
+In addition to CSS properties, SVG elements can also be styled using presentation attributes. Presentation attributes are a shorthand for setting a CSS property on an element. Think of them as special style properties. Their nature is what makes them contribute to the style cascade, but maybe in a less expected way.
+
+In the following code snippet which simply displays a pink circle with a yellow stroke, stroke, stroke-width, and fill are all presentation attributes.
+
+```html
+<svg viewBox="0 0 100 100">
+    <circle fill="deepPink" stroke="yellow" stroke-width="5" cx="50" cy="50" r="10"></circle>
+</svg>
+```
