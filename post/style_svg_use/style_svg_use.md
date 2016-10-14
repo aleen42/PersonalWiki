@@ -168,4 +168,11 @@ The ice cream icon’s contents (the path) are defined in a `<symbol>` element, 
 
 Then, we render multiple instances of the icon using `<use>`.
 
-
+```html
+<svg class="icon" viewBox="0 0 100 125"> 
+    <use class="ic-1" xlink:href="#ic" x="0" y="0" />
+</svg>
+<svg class="icon" viewBox="0 0 100 125"> 
+    <use class="ic-2" xlink:href="#ic" x="0" y="0" />
+</svg>
+```
