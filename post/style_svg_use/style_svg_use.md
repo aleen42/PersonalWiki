@@ -256,4 +256,4 @@ Note that this will only affect the attributes that can be set in CSS, not the S
 
 Being able to force the presentation attributes to inherit from `<use>` styles is powerful, but what if you have an icon with multiple elements and you don’t want all of those elements to inherit the same fill color from use? What if you want to apply multiple different fill colors to different use descendants? Setting one style on use no longer suffices. We need something else to help us cascade the right colors to the right elements.
 
-
+### Using the CSS `currentColor` Variable For Styling `<use>` Content
