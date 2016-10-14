@@ -190,4 +190,4 @@ Using the above code, you get the following result:
 
 ![](./Screen-Shot-2015-07-15-at-13.21.02.png)
 
-
+Note that I have added a black border to the SVGs so you can see the boundaries of each one and to show you that the contents of the first SVG where we defined the icon contents are not rendered. This is to make a point here: **the SVG document where you define your symbols will still be rendered on the page, even if it contains no rendered shapes**. In order to avoid that, make sure you set display: none on the first SVG. If you don’t hide the SVG containing the icon definitions, it will be rendered even if you don’t explicitly set any dimensions for it—the browser will default to 300 pixels by 150 pixels, which is the default size for non-replaced elements in CSS, so you will end up with a white area on the page that you do not want.
