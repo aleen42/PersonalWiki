@@ -6,11 +6,11 @@
 
 ![](./StylingSVGuse.jpg)
 
-One of the most common use cases for SVG graphics is icon systems, and one of the most commonly-used SVG spriting techniques is one that uses the [SVG &lt;use&gt; element to “instantiate” the icons](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) anywhere they are needed in a document.
+One of the most common use cases for SVG graphics is icon systems, and one of the most commonly-used SVG spriting techniques is one that uses the [SVG &lt;use&gt; element to "instantiate" the icons](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) anywhere they are needed in a document.
 
 Instantiating icons or any other SVG element or image using the `<use>` element introduces some challenges when it comes to styling the instance of that element. The aim of this article is to give you an overview of some of the possible ways to work around the styling limitations introduced by `<use>`.
 
-But before we get started, let’s take a quick look into SVG’s main structuring and grouping elements that will gradually take us into the world of use, the shadow of its DOM, and then bring us back into the light with CSS. We’ll go over why styling `<use>` content can be challenging and ways to work around that.
+But before we get started, let's take a quick look into SVG's main structuring and grouping elements that will gradually take us into the world of use, the shadow of its DOM, and then bring us back into the light with CSS. We'll go over why styling `<use>` content can be challenging and ways to work around that.
 
 ### Quick Overview of SVG Structuring, Grouping and Referencing (Re-using) Elements in SVG
 
@@ -18,11 +18,11 @@ There are four main elements in SVG that are used to define, structure and refer
 
 The four main SVG grouping and referencing elements are: `<g>`, `<defs>`, `<use>` and `<symbol>`.
 
-The `<g>` element (short for “group”) is used for logically grouping together sets of related graphical elements. In terms of graphics editors, such as Adobe Illustrator, the `<g>` element serves a similar functionality as the Group Objects function. You can also think of a group as being similar to the concept of a layer in a graphics editor, since a layer is also a grouping of elements.
+The `<g>` element (short for "group") is used for logically grouping together sets of related graphical elements. In terms of graphics editors, such as Adobe Illustrator, the `<g>` element serves a similar functionality as the Group Objects function. You can also think of a group as being similar to the concept of a layer in a graphics editor, since a layer is also a grouping of elements.
 
 Grouping elements together is useful for when you want to apply a style and have that style be inherited by all the elements in the group, and is particularly useful for when you want to animate a group of elements while maintaining their spatial relationships with each other.
 
-The `<defs>` element is used to define elements that you want to reuse later. Defining elements with `<defs>` is useful for when you want to create sort of a “template” that you want to use multiple times throughout the document. Elements defined inside a `<defs>` element are not rendered on the canvas except if you “call” them somewhere in the document.
+The `<defs>` element is used to define elements that you want to reuse later. Defining elements with `<defs>` is useful for when you want to create sort of a "template" that you want to use multiple times throughout the document. Elements defined inside a `<defs>` element are not rendered on the canvas except if you "call" them somewhere in the document.
 
 `<defs>` is useful for defining many things, but one of the main use cases is defining patterns like gradients, for example, and then using those gradients as stroke fills on other SVG elements. It can be used to define any elements that you want to render anywhere on the canvas by reference.
 
@@ -32,11 +32,11 @@ The `<symbol>` element has an important advantage over the other two elements: i
 
 The `<use>` element is the element you use to reference any element defined elsewhere in the document. It lets you reuse existing elements, giving you a similar functionality to the copy-paste functionality in a graphics editor. It can be used to reuse a single element, or a group of elements defined with the `<g>` element, the `<defs>` element, or a `<symbol>`.
 
-To use an element you pass a reference to that element—an ID—inside the use‘s xlink:href attribute, and you position that element using x and y attributes. You can apply styles to the use element and those styles will cascade into the contents of the use element.
+To use an element you pass a reference to that element—an ID—inside the use's xlink:href attribute, and you position that element using x and y attributes. You can apply styles to the use element and those styles will cascade into the contents of the use element.
 
 But what is the content of `<use>`? Where is it cloned? And how does the CSS cascade work with that content?
 
-Before we answer these questions, and since we only covered a quick overview of SVG’s structuring and grouping elements, it’s worth mentioning a couple of articles to learn more about these elements and about the `viewBox` attribute used with `<symbol>`:
+Before we answer these questions, and since we only covered a quick overview of SVG's structuring and grouping elements, it's worth mentioning a couple of articles to learn more about these elements and about the `viewBox` attribute used with `<symbol>`:
 
 - [Structuring, Grouping, and Referencing in SVG — The `<g>`, `<use>`, `<defs>` and `<symbol>` Elements](http://sarasoueidan.com/blog/structuring-grouping-referencing-in-svg/)
 - [Understanding SVG Coordinate Systems (Part 1): The Viewport, `viewBox` and `PreserveAspectRatio`](http://sarasoueidan.com/blog/svg-coordinate-systems)
@@ -53,29 +53,29 @@ When you reference an element with `<use>`, the code might look something like t
 <use xlink:href="#my-icon" x="100" y="300" />
 ```
 
-What is rendered on the screen is the icon whose content is defined inside `<symbol>`, but it’s not that content that got rendered, but rather the content of the `<use>`, which is a duplicate—or clone—of the `<symbol>`’s content.
+What is rendered on the screen is the icon whose content is defined inside `<symbol>`, but it's not that content that got rendered, but rather the content of the `<use>`, which is a duplicate—or clone—of the `<symbol>`'s content.
 
 But the `<use>` element is only one element and it is self-closing—there is no content somewhere between an opening and closing use tag, so where has the `<symbol>` content been cloned?
 
-The answer to that is: **the Shadow DOM**. (Somehow the Shadow DOM always reminds me of the Batman. I don’t know why.)
+The answer to that is: **the Shadow DOM**. (Somehow the Shadow DOM always reminds me of the Batman. I don't know why.)
 
 #### What is the Shadow DOM?
 
-The Shadow DOM is similar to the normal DOM except that, instead of being part of the main document subtree, nodes in the Shadow DOM belong to a document fragment which is basically just another subtree of nodes which are not as vulnerable to scripts and styles as normal DOM nodes are. This gives authors a way to encapsulate and scope styles and scripts when creating modular components. If you’ve ever used the HTML5 video element or the range input type and wondered where the video controls or range slider components came from, then you’ve already come across the Shadow DOM before.
+The Shadow DOM is similar to the normal DOM except that, instead of being part of the main document subtree, nodes in the Shadow DOM belong to a document fragment which is basically just another subtree of nodes which are not as vulnerable to scripts and styles as normal DOM nodes are. This gives authors a way to encapsulate and scope styles and scripts when creating modular components. If you've ever used the HTML5 video element or the range input type and wondered where the video controls or range slider components came from, then you've already come across the Shadow DOM before.
 
-In the case of the SVG `<use>` element, the contents of the referenced element are cloned into a document fragment that is “hosted” by `<use>`. `<use>`, in this case, is called a Shadow Host.
+In the case of the SVG `<use>` element, the contents of the referenced element are cloned into a document fragment that is "hosted" by `<use>`. `<use>`, in this case, is called a Shadow Host.
 
 So, the contents of `<use>` (the clone or copy of whatever element it is referencing) are present inside a shadow document fragment.
 
-In other words, they are there, but they are not visible. They are just like normal DOM content, but instead of being available in the “high-level” DOM which is accessible by CSS selectors and JavaScript in the main document, they are copied into a document fragment that is hosted by `<use>`.
+In other words, they are there, but they are not visible. They are just like normal DOM content, but instead of being available in the "high-level" DOM which is accessible by CSS selectors and JavaScript in the main document, they are copied into a document fragment that is hosted by `<use>`.
 
-Now, if you’re a designer, you might be thinking: “OK, I get it but is there a way to inspect that sub-document to actually see into its contents?” The answer is: Yes! You can preview the contents of the shadow DOM using Chrome’s developer tools. (Inspecting the contents of a shadow DOM is currently not possible in Firefox.) But in order to do that, you need to first enable shadow DOM inspection in the “General” tab inside the Settings panel that can be opened by clicking on the Cog icon. You can learn more about how to do that here.
+Now, if you're a designer, you might be thinking: "OK, I get it but is there a way to inspect that sub-document to actually see into its contents?" The answer is: Yes! You can preview the contents of the shadow DOM using Chrome's developer tools. (Inspecting the contents of a shadow DOM is currently not possible in Firefox.) But in order to do that, you need to first enable shadow DOM inspection in the "General" tab inside the Settings panel that can be opened by clicking on the Cog icon. You can learn more about how to do that here.
 
-Once you’ve enable shadow DOM inspection in the dev tools, you can see the cloned elements in the Elements panel, just like you would with normal DOM elements. The following image shows an example of a `<use>` element referencing the contents of a `<symbol>`. Notice the “#shadow-root” and the contents of that fragment when expanded—they are a copy of the contents of the `<symbol>`.
+Once you've enable shadow DOM inspection in the dev tools, you can see the cloned elements in the Elements panel, just like you would with normal DOM elements. The following image shows an example of a `<use>` element referencing the contents of a `<symbol>`. Notice the "#shadow-root" and the contents of that fragment when expanded—they are a copy of the contents of the `<symbol>`.
 
 > ![](shadow-dom.jpg)
 
-> Using Chrome’s developer tools, you can inspect the contents of the &lt;use&gt; element inside the shadow DOM (see the “#shadow-root” in grey). This screenshot inspects the Codrops logo from an example we will go over in the next section.
+> Using Chrome's developer tools, you can inspect the contents of the &lt;use&gt; element inside the shadow DOM (see the "#shadow-root" in grey). This screenshot inspects the Codrops logo from an example we will go over in the next section.
 
 Looking at the inspected code, you can see that the shadow DOM is pretty much the same as the normal DOM, except that is has different characteristics when it comes to handling with CSS and JavaScript from the main document. There are also other differences between them, but the shadow DOM cannot possibly be covered in this section because it is too big of a concept, so if you want to read and learn more about it, I recommend the following articles:
 
@@ -84,7 +84,7 @@ Looking at the inspected code, you can see that the shadow DOM is pretty much th
 - [Shadow DOM 101](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
 - [Introduction to Shadow DOM (Video)](http://webcomponents.org/articles/introduction-to-shadow-dom/)
 
-For me, and considering how limited my interaction with the shadow DOM is, I think of it as being just like the normal DOM, except that it needs to be handled differently when it comes to accessing its elements for styling with CSS (and JavaScript). This is what matters to us as SVG developers: how the existence of the contents of `<use>` inside a shadow DOM affects that content when it comes to applying or changing styles, because we want to be able to style them. The whole point of using `<use>` is being able to create different “copies” of an element, and in a lot of cases, what we want is to be able to style each copy differently. For example, think about a logo with two styles (inverted color themes) or multi-coloured icons of which each has its own theme. So, it would only make sense for us to expect to be able to do that using CSS.
+For me, and considering how limited my interaction with the shadow DOM is, I think of it as being just like the normal DOM, except that it needs to be handled differently when it comes to accessing its elements for styling with CSS (and JavaScript). This is what matters to us as SVG developers: how the existence of the contents of `<use>` inside a shadow DOM affects that content when it comes to applying or changing styles, because we want to be able to style them. The whole point of using `<use>` is being able to create different "copies" of an element, and in a lot of cases, what we want is to be able to style each copy differently. For example, think about a logo with two styles (inverted color themes) or multi-coloured icons of which each has its own theme. So, it would only make sense for us to expect to be able to do that using CSS.
 That being said, we mentioned earlier that the contents of the shadow DOM are not vulnerable to CSS like the normal DOM is. So how do we style its content? We cannot target a path descendant of `<use>` like this:
 
 ```css
@@ -121,11 +121,11 @@ The SVG specification lists the SVG attributes that may be set as CSS properties
 
 In SVG 2, this list will include x, y, width, height, cx, cy and a few other presentation attributes that were not possible to set via CSS in SVG 1.1. The new list of attributes can be found in the SVG 2 specification.
 
-If you’re like me, then you would expect presentation attributes to have a higher specificity than all other style declarations. I mean, after all, external styles are overridden by internal styles in style blocks, and style block declarations are overridden by inline styles in a style attribute.. so it seems as though the more “internal” the styles get, the more specificity they have, and so when a property gets its own attribute, it makes it more powerful and thus it would override all other style declarations. Although that still makes sense to me, this is not how it really works.
+If you're like me, then you would expect presentation attributes to have a higher specificity than all other style declarations. I mean, after all, external styles are overridden by internal styles in style blocks, and style block declarations are overridden by inline styles in a style attribute.. so it seems as though the more "internal" the styles get, the more specificity they have, and so when a property gets its own attribute, it makes it more powerful and thus it would override all other style declarations. Although that still makes sense to me, this is not how it really works.
 
-As a matter of fact, presentation attributes count as low-level “author style sheets” and are overridden by any other style definitions: external style sheets, document style sheets and inline styles. The only power presentation attributes have in the style cascade is over inherited styles. That is, presentation attributes can only override inherited styles on an element, and are overridden by any other style declaration.
+As a matter of fact, presentation attributes count as low-level "author style sheets" and are overridden by any other style definitions: external style sheets, document style sheets and inline styles. The only power presentation attributes have in the style cascade is over inherited styles. That is, presentation attributes can only override inherited styles on an element, and are overridden by any other style declaration.
 
-Great, now that that’s been cleared up, let’s get back to the `<use>` element and its content.
+Great, now that that's been cleared up, let's get back to the `<use>` element and its content.
 
 We now know that we cannot set styles on the elements inside `<use>` using CSS selectors.
 
@@ -135,20 +135,20 @@ So a first attempt to change the fill color of an element inside `<use>` would b
 
 However, that brings up two issues:
 
-1. The fill color will be inherited by all the descendants of `<use>`, even those you may not want to style. (If you have only one element inside `<use>`, then this won’t be an issue.)
-2. If you’ve exported an SVG from a graphics editor and/or got an SVG from a designer who did that and for any reason you can’t touch the SVG code, then you’re likely to end up with SVG elements with presentation attributes applied (unless you explicitly specified that you don’t want this to happen upon exporting the SVG, but that’s another topic), and the values of these attributes are going to override any styles you apply on `<use>`. Now, I’m assuming that if you are specifying styles on `<use>` then you want those styles to be inherited by its descendants, so presentation attributes would be causing an inconvenience in this case.
+1. The fill color will be inherited by all the descendants of `<use>`, even those you may not want to style. (If you have only one element inside `<use>`, then this won't be an issue.)
+2. If you've exported an SVG from a graphics editor and/or got an SVG from a designer who did that and for any reason you can't touch the SVG code, then you're likely to end up with SVG elements with presentation attributes applied (unless you explicitly specified that you don't want this to happen upon exporting the SVG, but that's another topic), and the values of these attributes are going to override any styles you apply on `<use>`. Now, I'm assuming that if you are specifying styles on `<use>` then you want those styles to be inherited by its descendants, so presentation attributes would be causing an inconvenience in this case.
 
 And even if you do have access to the SVG code and you can get rid of the presentation attributes, **I highly recommend against that** because:
 
-1. Removing the attributes used to set certain properties will reset those properties to their initial browser-default values—which, in most cases, is all black fills and strokes (if we’re talking about colors, for example).
-2. By resetting all values you force yourself into specifying styles for all the properties set, so unless you want to do just that, then you don’t want to get rid of those presentation attributes.
+1. Removing the attributes used to set certain properties will reset those properties to their initial browser-default values—which, in most cases, is all black fills and strokes (if we're talking about colors, for example).
+2. By resetting all values you force yourself into specifying styles for all the properties set, so unless you want to do just that, then you don't want to get rid of those presentation attributes.
 3. The presentation attributes that are initially available are a great fallback mechanism for when the external styles you set are not applied for any reason. If the CSS fails to load because something was messed up, your icon will at least have some default nice styles to fall back to. I highly recommend keeping them.
 
 OK so now we have those attributes but we also want to style different instances of our, say, icon, differently.
 
 The way to do that is to make sure we force the presentation attributes into inheriting the styles set on `<use>` or find a way to work around them overriding those values. And in order to do that, we need to take advantage of the CSS cascade.
 
-Let’s start with the simplest of examples and gradually move on to more complex scenarios.
+Let's start with the simplest of examples and gradually move on to more complex scenarios.
 
 ### Overriding Presentation Attribute Values From CSS
 
@@ -164,20 +164,20 @@ By using the CSS [inherit keyword](http://tympanus.net/codrops/css_reference/inh
 </svg>
 ```
 
-The ice cream icon’s contents (the path) are defined in a `<symbol>` element, which means that they won’t be directly rendered on the SVG canvas.
+The ice cream icon's contents (the path) are defined in a `<symbol>` element, which means that they won't be directly rendered on the SVG canvas.
 
 Then, we render multiple instances of the icon using `<use>`.
 
 ```html
-<svg class="icon" viewBox="0 0 100 125"> 
+<svg class="icon" viewBox="0 0 100 125">
     <use class="ic-1" xlink:href="#ic" x="0" y="0" />
 </svg>
-<svg class="icon" viewBox="0 0 100 125"> 
+<svg class="icon" viewBox="0 0 100 125">
     <use class="ic-2" xlink:href="#ic" x="0" y="0" />
 </svg>
 ```
 
-And we set the width and height of the icons from CSS. I am using the same dimensions as the viewBox dimensions but they don’t have to be identical. However, to avoid getting any excess white space inside the SVG, make sure you maintain the same aspect ratio between them.
+And we set the width and height of the icons from CSS. I am using the same dimensions as the viewBox dimensions but they don't have to be identical. However, to avoid getting any excess white space inside the SVG, make sure you maintain the same aspect ratio between them.
 
 ```css
 .icon {
@@ -190,9 +190,9 @@ Using the above code, you get the following result:
 
 ![](./Screen-Shot-2015-07-15-at-13.21.02.png)
 
-Note that I have added a black border to the SVGs so you can see the boundaries of each one and to show you that the contents of the first SVG where we defined the icon contents are not rendered. This is to make a point here: **the SVG document where you define your symbols will still be rendered on the page, even if it contains no rendered shapes**. In order to avoid that, make sure you set display: none on the first SVG. If you don’t hide the SVG containing the icon definitions, it will be rendered even if you don’t explicitly set any dimensions for it—the browser will default to 300 pixels by 150 pixels, which is the default size for non-replaced elements in CSS, so you will end up with a white area on the page that you do not want.
+Note that I have added a black border to the SVGs so you can see the boundaries of each one and to show you that the contents of the first SVG where we defined the icon contents are not rendered. This is to make a point here: **the SVG document where you define your symbols will still be rendered on the page, even if it contains no rendered shapes**. In order to avoid that, make sure you set display: none on the first SVG. If you don't hide the SVG containing the icon definitions, it will be rendered even if you don't explicitly set any dimensions for it—the browser will default to 300 pixels by 150 pixels, which is the default size for non-replaced elements in CSS, so you will end up with a white area on the page that you do not want.
 
-Now let’s try to change the fill color for each icon instance:
+Now let's try to change the fill color for each icon instance:
 
 ```css
 use.ic-1 {
@@ -204,7 +204,7 @@ use.ic-2 {
 }
 ```
 
-The fill color of the icons still does not change because the inherited color values are being overridden by the fill="#000" on the path element. To prevent that from happening, let’s force the path into inheriting the color value:
+The fill color of the icons still does not change because the inherited color values are being overridden by the fill="#000" on the path element. To prevent that from happening, let's force the path into inheriting the color value:
 
 ```css
 svg path {
@@ -221,7 +221,7 @@ And voila!—the colors we set on the `<use>` elements are now applied to the pa
 
 <br />
 
-Now this technique is useful when you want to force the contents of `<use>` to inherit the styles you set on it. But in most cases, this may not be exactly what you want. There are other styling scenarios, so we’ll go over some of them next.
+Now this technique is useful when you want to force the contents of `<use>` to inherit the styles you set on it. But in most cases, this may not be exactly what you want. There are other styling scenarios, so we'll go over some of them next.
 
 #### Styling `<use>` Content with the CSS `all` Property
 
@@ -239,10 +239,10 @@ path#myPath {
 }
 ```
 
-Looking at the above snippet, you can see a pattern and it would only make sense for us to be able to combine all of those properties into one property and set that property’s value to inherit.
+Looking at the above snippet, you can see a pattern and it would only make sense for us to be able to combine all of those properties into one property and set that property's value to inherit.
 
 
-Fortunately, this is where the CSS all property helps. I have written about using the all property to style SVG `<use>` content in [property’s CSS Reference entry](http://tympanus.net/codrops/css_reference/all/), but it is worth a second look here since we’re in the right context.
+Fortunately, this is where the CSS all property helps. I have written about using the all property to style SVG `<use>` content in [property's CSS Reference entry](http://tympanus.net/codrops/css_reference/all/), but it is worth a second look here since we're in the right context.
 
 Using the all property, we can do this:
 
@@ -252,25 +252,25 @@ path#myPath {
 }
 ```
 
-This works great in all browsers that support the all property (see property’s entry for details), however there is something important to keep in mind: **this declaration will set literally all of the properties on the element to inherit their values from their ancestor**, even those you might not have wanted to target. So unless you want to style all the properties of your element from your CSS, then you do not want to use this—it is **an extreme measure** and is particularly useful for when you want to “bare-bone” your element and have complete control over its styling properties in CSS, which may not be too often. If you use this declaration and don’t specify values for all of the properties in your CSS, they will go up and cascade until they find a value to inherit, which in most cases will be the default browser styles from the default user agent style sheet.
+This works great in all browsers that support the all property (see property's entry for details), however there is something important to keep in mind: **this declaration will set literally all of the properties on the element to inherit their values from their ancestor**, even those you might not have wanted to target. So unless you want to style all the properties of your element from your CSS, then you do not want to use this—it is **an extreme measure** and is particularly useful for when you want to "bare-bone" your element and have complete control over its styling properties in CSS, which may not be too often. If you use this declaration and don't specify values for all of the properties in your CSS, they will go up and cascade until they find a value to inherit, which in most cases will be the default browser styles from the default user agent style sheet.
 
-Note that this will only affect the attributes that can be set in CSS, not the SVG-only attributes. So if an attribute can be set as a CSS property, it will be set to inherit, otherwise it won’t.
+Note that this will only affect the attributes that can be set in CSS, not the SVG-only attributes. So if an attribute can be set as a CSS property, it will be set to inherit, otherwise it won't.
 
 ---
 
-Being able to force the presentation attributes to inherit from `<use>` styles is powerful, but what if you have an icon with multiple elements and you don’t want all of those elements to inherit the same fill color from use? What if you want to apply multiple different fill colors to different use descendants? Setting one style on use no longer suffices. We need something else to help us cascade the right colors to the right elements.
+Being able to force the presentation attributes to inherit from `<use>` styles is powerful, but what if you have an icon with multiple elements and you don't want all of those elements to inherit the same fill color from use? What if you want to apply multiple different fill colors to different use descendants? Setting one style on use no longer suffices. We need something else to help us cascade the right colors to the right elements.
 
 ### Using the CSS `currentColor` Variable For Styling `<use>` Content
 
 Using the CSS [`currentColor` variable ](http://tympanus.net/codrops/css_reference/color_value/#section_currentColor)in conjunction with the above technique, we can specify two different colors on an element, instead of just one. Fabrice Weinberg [wrote about this technique on his Codepen blog](http://codepen.io/FWeinb/blog/quick-tip-svg-use-style-two-colors) a little less than a year ago.
 
-The idea behind this technique is to use both the fill and the color properties on `<use>`, and then have these colors cascade into the contents of `<use>` by taking advantage of the variable nature of currentColor. Let’s jump right into a code example to see how this works.
+The idea behind this technique is to use both the fill and the color properties on `<use>`, and then have these colors cascade into the contents of `<use>` by taking advantage of the variable nature of currentColor. Let's jump right into a code example to see how this works.
 
 Suppose we want to style this minimal Codrops logo using two colors—one for the front drop and one for the back drop—for every instance of that logo.
 
 ![](./StylingSVGuse_codropsdrops.png)
 
-First, let’s start with the code for the above screenshot: we have the symbol containing our icon definition and then three `<use>` instances creating the three logo instances.
+First, let's start with the code for the above screenshot: we have the symbol containing our icon definition and then three `<use>` instances creating the three logo instances.
 
 ```html
 <svg style="display: none;">
@@ -348,19 +348,19 @@ Here is the live demo for the above code:
 
 <br />
 
-This two-color variation technique is quite useful for simple bicoloured logos. In Fabrice’s article, he created three different variations of the Sass logo by changing the color of the text versus that of the background.
+This two-color variation technique is quite useful for simple bicoloured logos. In Fabrice's article, he created three different variations of the Sass logo by changing the color of the text versus that of the background.
 
-The currentColor keyword is the only available CSS variable in CSS today. However, if we had more variables, wouldn’t it make it possible for us to distribute and leak even more values into the `<use>` content? Yes, it would. Amelia Bellamy-Royds introduced this very concept in [a Codepen blog post](http://codepen.io/AmeliaBR/thoughts/customizable-svg-icons-css-variables) a little less than a year ago as well. Let’s take a look at how that works.
+The currentColor keyword is the only available CSS variable in CSS today. However, if we had more variables, wouldn't it make it possible for us to distribute and leak even more values into the `<use>` content? Yes, it would. Amelia Bellamy-Royds introduced this very concept in [a Codepen blog post](http://codepen.io/AmeliaBR/thoughts/customizable-svg-icons-css-variables) a little less than a year ago as well. Let's take a look at how that works.
 
 ### The Future: Styling &lt;use&gt; Content with CSS Custom Properties a.k.a CSS Variables
 
 Using [CSS Custom Properties (a.k.a CSS Variables)](http://www.w3.org/TR/css-variables/), you can style the contents of <use> without having to force the browser into overriding any presentation attribute values.
 
-As [defined on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables), CSS Variables are entities defined by authors, or users, of Web pages to contain specific values throughout a document. They are set using custom properties and are accessed using a specific functional notation var(). They are very similar to CSS preprocessor (like Sass) variables, but are more flexible and [can do things preprocessor variables can’t](http://www.sitepoint.com/css-variables-can-preprocessors-cant/). (An entry on CSS Variables will soon be added to the Codrops CSS Reference, so stay tuned.)
+As [defined on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables), CSS Variables are entities defined by authors, or users, of Web pages to contain specific values throughout a document. They are set using custom properties and are accessed using a specific functional notation var(). They are very similar to CSS preprocessor (like Sass) variables, but are more flexible and [can do things preprocessor variables can't](http://www.sitepoint.com/css-variables-can-preprocessors-cant/). (An entry on CSS Variables will soon be added to the Codrops CSS Reference, so stay tuned.)
 
-Variables, be it CSS variables or preprocessor variables, can have many usage examples, but theming (colors) is one of the most common use cases. And in this section we’ll go over how that can be done when styling SVGs.
+Variables, be it CSS variables or preprocessor variables, can have many usage examples, but theming (colors) is one of the most common use cases. And in this section we'll go over how that can be done when styling SVGs.
 
-We’ll start with one image defined in a symbol and instantiated with use and apply this technique to one image only; the concepts applied to style the contents of <use> in this example can be applied to as many <use> elements as you want.
+We'll start with one image defined in a symbol and instantiated with use and apply this technique to one image only; the concepts applied to style the contents of <use> in this example can be applied to as many <use> elements as you want.
 
 So, suppose we have the following cute hipster robot illustration [designed by Freepik](http://www.freepik.com/free-vector/cute-vector-hipster-robot-character_714905.htm).
 
@@ -383,13 +383,13 @@ The code for the robot contains the colors that make it up.
         <path d="..." fill="#6A4933" />
         <path d="..." fill="#F2B42B" />
         <path d="..." fill="#fff" />
-     
+
         <!-- rest of the shapes -->
     </symbol>
 </svg>
 ```
 
-Now, we are not going to use the CSS Variables as values for the fill attribute of each path; instead, we’re going to use them as fill color values using the CSS fill property, and we’re going to keep the fill attributes in place. **The attributes will be used as a fallback for browsers that don’t support CSS Variables**, so the image will still look as it initially did if the variables fail to work in those browsers.
+Now, we are not going to use the CSS Variables as values for the fill attribute of each path; instead, we're going to use them as fill color values using the CSS fill property, and we're going to keep the fill attributes in place. **The attributes will be used as a fallback for browsers that don't support CSS Variables**, so the image will still look as it initially did if the variables fail to work in those browsers.
 
 With the variables added, the above code will look like so:
 
@@ -408,7 +408,7 @@ With the variables added, the above code will look like so:
         <path d="..." fill="#6A4933" style="fill: var(--tertiary-color)" />
         <path d="..." fill="#F2B42B" style="fill: var(--secondary-color)" />
         <path d="..." fill="#fff" />
-       
+
         <!-- rest of the shapes -->
     </symbol>
 </svg>
@@ -440,7 +440,7 @@ You can still use the fill and color properties alongside these variables, but y
 
 You can have as many copies of the image as you want, and for each use define a set of different colors to be used, and end up with different themes. This is particularly useful for when you want to style a logo in different ways depending on the context, or for any other similar use cases.
 
-Now, we mentioned that browsers that don’t support CSS Variables are going to fall back to the initial styles defined in the presentation attributes, and browsers that do support the variables will use the variables in the fill properties to override the attributes. Great. But what happens if the browser does support CSS Variables but the author fails to provide them with a value for a specific variable or if the value they provided is invalid?
+Now, we mentioned that browsers that don't support CSS Variables are going to fall back to the initial styles defined in the presentation attributes, and browsers that do support the variables will use the variables in the fill properties to override the attributes. Great. But what happens if the browser does support CSS Variables but the author fails to provide them with a value for a specific variable or if the value they provided is invalid?
 
 For our hipster robot here, we defined three variables, and only a few elements inside of the image did not get any variables because the colors used were complimentary and would go with pretty much any color theme used. So, if you display the above code in a browser that supports CSS variables (currently only Firefox) and remove the variable declarations from the CSS, you will end up with this:
 
@@ -473,11 +473,11 @@ So, going over the above code for the robot, it will look like this:
 </svg>
 ```
 
-And that’s it. For any variable that fails to load its defined value or that does not have one, the browser will fall back to the initial color defined in the markup. Wonderful.
+And that's it. For any variable that fails to load its defined value or that does not have one, the browser will fall back to the initial color defined in the markup. Wonderful.
 
-Using this technique, you can now reference the robot anywhere you want on the page with `<use>`, and for every new instance define a set of variable values in the CSS, and you’ll have a different color theme per instance.
+Using this technique, you can now reference the robot anywhere you want on the page with `<use>`, and for every new instance define a set of variable values in the CSS, and you'll have a different color theme per instance.
 
-You can play with the above demo, create as many copies of the robot as you want and assign different variable values to them in this live demo, just make sure you use Firefox at this time because it’s the only browser supporting CSS Variables at the time of writing of this article:
+You can play with the above demo, create as many copies of the robot as you want and assign different variable values to them in this live demo, just make sure you use Firefox at this time because it's the only browser supporting CSS Variables at the time of writing of this article:
 
 <br />
 
@@ -501,4 +501,3 @@ We may even get other ways to style use content in the future as well since ther
 Dealing with the contents of reused SVG elements has been one of those SVG topics that many people seem to find some hardship with, because of the nature of how the cloned code behaves and where it is cloned to. There are a lot more topics to cover that are related to that, but those are topics for other articles.
 
 I hope you enjoyed this article and found it useful. Thank you for reading.
-
