@@ -290,7 +290,7 @@ function E2A(str) {
         return null;
     };
 
-    return str.replace(/&([\S]+);/g, getKey);
+    return str.replace(/&([\S]+?);/g, getKey);
 }
 ```
 
