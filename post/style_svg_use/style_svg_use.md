@@ -203,3 +203,11 @@ use.ic-2 {
     fill: #FDC646;
 }
 ```
+
+The fill color of the icons still does not change because the inherited color values are being overridden by the fill="#000" on the path element. To prevent that from happening, let’s force the path into inheriting the color value:
+
+```css
+svg path {
+    fill: inherit;
+}
+```
