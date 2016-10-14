@@ -149,3 +149,9 @@ OK so now we have those attributes but we also want to style different instances
 The way to do that is to make sure we force the presentation attributes into inheriting the styles set on `<use>` or find a way to work around them overriding those values. And in order to do that, we need to take advantage of the CSS cascade.
 
 Let’s start with the simplest of examples and gradually move on to more complex scenarios.
+
+### Overriding Presentation Attribute Values From CSS
+
+Presentation attributes are overridden by any other style declaration. We can take advantage of this and have an external style declaration force the presentation attribute into overriding its value with the inherited value from use.
+
+By using the CSS [inherit keyword](http://tympanus.net/codrops/css_reference/inherit), this becomes quite simple. Take a look at the following example where we have an ice cream icon made up of just one path whose fill color we want to change for different instances. The icon is Created by Erin Agnoli from the [Noun Project](http://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/thenounproject.com).
