@@ -451,3 +451,24 @@ If the values provided for the variables are either not set or invalid, the brow
 A way to avoid that is to provide **another fallback color for supporting browsers**. Indeed, the CSS variables syntax comes with a way to do just that: instead of providing only the variable name inside the var() function as an argument, you provide two comma-separated arguments: the variable name and a fallback color value—which in this case is the value we have in the presentation attributes.
 
 So, going over the above code for the robot, it will look like this:
+
+```html
+<svg style="display: none">
+    <symbol id="robot" viewBox="0 0 340 536">
+        <path d="..." fill="#fff" />
+        <path d="..." fill="#D1312C" />
+        <path d="..." fill="#1E8F90" style="fill: var(--primary-color, #1E8F90)" />
+        <path d="..." fill="#1E8F90" style="fill: var(--primary-color, #1E8F90)" />
+        <path d="..." fill="#fff" />
+        <path d="..." fill="#6A4933" style="fill: var(--tertiary-color, #6A4933)" />
+        <path d="..." fill="#1E8F90" style="fill: var(--primary-color, #1E8F90)" />
+        <path d="..." fill="#6A4933" style="fill: var(--tertiary-color, #6A4933)" />
+        <path d="..." fill="#fff" />
+        <path d="..." fill="#6A4933" style="fill: var(--tertiary-color, #6A4933)" />
+        <path d="..." fill="#F2B42B" style="fill: var(--secondary-color, #F2B42B)" />
+        <path d="..." fill="#fff" />
+
+        <!-- rest of the shapes -->
+    </symbol>
+</svg>
+```
