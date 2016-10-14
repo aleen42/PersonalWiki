@@ -352,3 +352,5 @@ This two-color variation technique is quite useful for simple bicoloured logos. 
 
 The currentColor keyword is the only available CSS variable in CSS today. However, if we had more variables, wouldn’t it make it possible for us to distribute and leak even more values into the `<use>` content? Yes, it would. Amelia Bellamy-Royds introduced this very concept in [a Codepen blog post](http://codepen.io/AmeliaBR/thoughts/customizable-svg-icons-css-variables) a little less than a year ago as well. Let’s take a look at how that works.
 
+### The Future: Styling &lt;use&gt; Content with CSS Custom Properties a.k.a CSS Variables
+
