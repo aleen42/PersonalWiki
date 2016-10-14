@@ -472,3 +472,10 @@ So, going over the above code for the robot, it will look like this:
     </symbol>
 </svg>
 ```
+
+And that’s it. For any variable that fails to load its defined value or that does not have one, the browser will fall back to the initial color defined in the markup. Wonderful.
+
+Using this technique, you can now reference the robot anywhere you want on the page with <use>, and for every new instance define a set of variable values in the CSS, and you’ll have a different color theme per instance.
+
+You can play with the above demo, create as many copies of the robot as you want and assign different variable values to them in this live demo, just make sure you use Firefox at this time because it’s the only browser supporting CSS Variables at the time of writing of this article:
+
