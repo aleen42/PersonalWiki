@@ -3,7 +3,7 @@
 ### Ascii to HTML entities
 
 ```js
-function A2U(str) {
+function A2E(str) {
     var reserved = '';
     
     for (var i = 0; i < str.length; i++) {
