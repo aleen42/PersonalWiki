@@ -38,4 +38,5 @@ But what is the content of `<use>`? Where is it cloned? And how does the CSS cas
 
 Before we answer these questions, and since we only covered a quick overview of SVG’s structuring and grouping elements, it’s worth mentioning a couple of articles to learn more about these elements and about the `viewBox` attribute used with `<symbol>`:
 
-
+- [Structuring, Grouping, and Referencing in SVG — The <g>, <use>, <defs> and <symbol> Elements](http://sarasoueidan.com/blog/structuring-grouping-referencing-in-svg/)
+- [Understanding SVG Coordinate Systems (Part 1): The Viewport, viewBox and PreserveAspectRatio](http://sarasoueidan.com/blog/svg-coordinate-systems)
