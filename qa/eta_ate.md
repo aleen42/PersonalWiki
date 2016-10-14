@@ -1,6 +1,6 @@
-## How to convert string between Unicode and Ascii with JavaScript [Back](./qa.md)
+## How to convert string between HTML entites and Ascii with JavaScript [Back](./qa.md)
 
-### Ascii to Unicode
+### Ascii to HTML entities
 
 ```js
 function A2U(str) {
