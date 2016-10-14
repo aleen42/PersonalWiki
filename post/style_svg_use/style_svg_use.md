@@ -58,3 +58,21 @@ What is rendered on the screen is the icon whose content is defined inside `<sym
 But the `<use>` element is only one element and it is self-closing—there is no content somewhere between an opening and closing use tag, so where has the `<symbol>` content been cloned?
 
 The answer to that is: **the Shadow DOM**. (Somehow the Shadow DOM always reminds me of the Batman. I don’t know why.)
+
+#### What is the Shadow DOM?
+
+The Shadow DOM is similar to the normal DOM except that, instead of being part of the main document subtree, nodes in the Shadow DOM belong to a document fragment which is basically just another subtree of nodes which are not as vulnerable to scripts and styles as normal DOM nodes are. This gives authors a way to encapsulate and scope styles and scripts when creating modular components. If you’ve ever used the HTML5 video element or the range input type and wondered where the video controls or range slider components came from, then you’ve already come across the Shadow DOM before.
+
+In the case of the SVG `<use>` element, the contents of the referenced element are cloned into a document fragment that is “hosted” by `<use>`. `<use>`, in this case, is called a Shadow Host.
+
+So, the contents of `<use>` (the clone or copy of whatever element it is referencing) are present inside a shadow document fragment.
+
+In other words, they are there, but they are not visible. They are just like normal DOM content, but instead of being available in the “high-level” DOM which is accessible by CSS selectors and JavaScript in the main document, they are copied into a document fragment that is hosted by `<use>`.
+
+Now, if you’re a designer, you might be thinking: “OK, I get it but is there a way to inspect that sub-document to actually see into its contents?” The answer is: Yes! You can preview the contents of the shadow DOM using Chrome’s developer tools. (Inspecting the contents of a shadow DOM is currently not possible in Firefox.) But in order to do that, you need to first enable shadow DOM inspection in the “General” tab inside the Settings panel that can be opened by clicking on the Cog icon. You can learn more about how to do that here.
+
+Once you’ve enable shadow DOM inspection in the dev tools, you can see the cloned elements in the Elements panel, just like you would with normal DOM elements. The following image shows an example of a `<use>` element referencing the contents of a `<symbol>`. Notice the “#shadow-root” and the contents of that fragment when expanded—they are a copy of the contents of the `<symbol>`.
+
+> ![](shadow-dom.jpg)
+
+> Using Chrome’s developer tools, you can inspect the contents of the &lt;use&gt; element inside the shadow DOM (see the “#shadow-root” in grey). This screenshot inspects the Codrops logo from an example we will go over in the next section.
