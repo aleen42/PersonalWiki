@@ -114,3 +114,23 @@ In the following code snippet which simply displays a pink circle with a yellow 
     <circle fill="deepPink" stroke="yellow" stroke-width="5" cx="50" cy="50" r="10"></circle>
 </svg>
 ```
+
+In SVG, a subset of all CSS properties may be set by SVG attributes, and vice versa. This means that not all CSS properties can be specified on an SVG element as presentation attributes, and not all presentation attributes available in SVG (there are a lot of them!) can be specified in CSS.
+
+The SVG specification lists the SVG attributes that may be set as CSS properties. Some of these attributes are shared with CSS (already available as CSS properties), such as opacity and transform, among others, while some are not, such as fill, stroke and stroke-width, among others.
+
+In SVG 2, this list will include x, y, width, height, cx, cy and a few other presentation attributes that were not possible to set via CSS in SVG 1.1. The new list of attributes can be found in the SVG 2 specification.
+
+If you’re like me, then you would expect presentation attributes to have a higher specificity than all other style declarations. I mean, after all, external styles are overridden by internal styles in style blocks, and style block declarations are overridden by inline styles in a style attribute.. so it seems as though the more “internal” the styles get, the more specificity they have, and so when a property gets its own attribute, it makes it more powerful and thus it would override all other style declarations. Although that still makes sense to me, this is not how it really works.
+
+As a matter of fact, presentation attributes count as low-level “author style sheets” and are overridden by any other style definitions: external style sheets, document style sheets and inline styles. The only power presentation attributes have in the style cascade is over inherited styles. That is, presentation attributes can only override inherited styles on an element, and are overridden by any other style declaration.
+
+Great, now that that’s been cleared up, let’s get back to the `<use>` element and its content.
+
+We now know that we cannot set styles on the elements inside `<use>` using CSS selectors.
+
+We also know that, just like with the `<g>` element, styles you apply to `<use>` will be inherited by all its descendants (those in the shadow DOM).
+
+So a first attempt to change the fill color of an element inside `<use>` would be to apply that fill color to the `<use>` element itself and let inheritance and the cascade do its thing.
+
+However, that brings up two issues:
