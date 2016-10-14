@@ -356,7 +356,7 @@ The currentColor keyword is the only available CSS variable in CSS today. Howeve
 
 Using [CSS Custom Properties (a.k.a CSS Variables)](http://www.w3.org/TR/css-variables/), you can style the contents of <use> without having to force the browser into overriding any presentation attribute values.
 
-As defined on MDN, CSS Variables are entities defined by authors, or users, of Web pages to contain specific values throughout a document. They are set using custom properties and are accessed using a specific functional notation var(). They are very similar to CSS preprocessor (like Sass) variables, but are more flexible and can do things preprocessor variables can’t. (An entry on CSS Variables will soon be added to the Codrops CSS Reference, so stay tuned.)
+As [defined on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables), CSS Variables are entities defined by authors, or users, of Web pages to contain specific values throughout a document. They are set using custom properties and are accessed using a specific functional notation var(). They are very similar to CSS preprocessor (like Sass) variables, but are more flexible and can do things preprocessor variables can’t. (An entry on CSS Variables will soon be added to the Codrops CSS Reference, so stay tuned.)
 
 Variables, be it CSS variables or preprocessor variables, can have many usage examples, but theming (colors) is one of the most common use cases. And in this section we’ll go over how that can be done when styling SVGs.
 
