@@ -220,3 +220,7 @@ And voila!—the colors we set on the `<use>` elements are now applied to the pa
 Now this technique is useful when you want to force the contents of `<use>` to inherit the styles you set on it. But in most cases, this may not be exactly what you want. There are other styling scenarios, so we’ll go over some of them next.
 
 #### Styling `<use>` Content with the CSS `all` Property
+
+A while back I was working on an icon referenced with use and I wanted one of the elements inside of it to inherit all the styles I set on `<use>` like `fill`, `stroke`, `stroke-width`, `opacity` and even `transform`. Basically, I wanted to be able to control all of those attributes from CSS while also keeping the presentation attributes in the markup as fallback.
+
+If you find yourself in such a scenario as well, you will probably find it time-consuming to have to do this in the CSS:
