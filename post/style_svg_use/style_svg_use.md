@@ -438,5 +438,16 @@ You can still use the fill and color properties alongside these variables, but y
 
 <a href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2015/07/Screen-Shot-2015-07-15-at-22.54.53.png"><img style="max-width: 400px" src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2015/07/Screen-Shot-2015-07-15-at-22.54.53.png" alt="Screen Shot 2015-07-15 at 22.54.53" width="796" height="1202" class="alignnone size-full wp-image-24471" srcset="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2015/07/Screen-Shot-2015-07-15-at-22.54.53.png 796w, http://tympanus.net/codrops/wp-content/uploads/2015/07/Screen-Shot-2015-07-15-at-22.54.53-199x300.png 199w" sizes="(max-width: 796px) 100vw, 796px"></a>
 
+You can have as many copies of the image as you want, and for each use define a set of different colors to be used, and end up with different themes. This is particularly useful for when you want to style a logo in different ways depending on the context, or for any other similar use cases.
 
+Now, we mentioned that browsers that don’t support CSS Variables are going to fall back to the initial styles defined in the presentation attributes, and browsers that do support the variables will use the variables in the fill properties to override the attributes. Great. But what happens if the browser does support CSS Variables but the author fails to provide them with a value for a specific variable or if the value they provided is invalid?
 
+For our hipster robot here, we defined three variables, and only a few elements inside of the image did not get any variables because the colors used were complimentary and would go with pretty much any color theme used. So, if you display the above code in a browser that supports CSS variables (currently only Firefox) and remove the variable declarations from the CSS, you will end up with this:
+
+<a href="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2015/07/Screen-Shot-2015-07-15-at-22.59.37.png"><img style="max-width: 400px" src="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2015/07/Screen-Shot-2015-07-15-at-22.59.37.png" alt="Screen Shot 2015-07-15 at 22.59.37" width="772" height="1178" class="alignnone size-full wp-image-24472" srcset="http://codropspz.tympanus.netdna-cdn.com/codrops/wp-content/uploads/2015/07/Screen-Shot-2015-07-15-at-22.59.37.png 772w, http://tympanus.net/codrops/wp-content/uploads/2015/07/Screen-Shot-2015-07-15-at-22.59.37-197x300.png 197w" sizes="(max-width: 772px) 100vw, 772px"></a>
+
+If the values provided for the variables are either not set or invalid, the browser will default to its own colors, which is usually black for fill and stroke colors in SVG.
+
+A way to avoid that is to provide **another fallback color for supporting browsers**. Indeed, the CSS variables syntax comes with a way to do just that: instead of providing only the variable name inside the var() function as an argument, you provide two comma-separated arguments: the variable name and a fallback color value—which in this case is the value we have in the presentation attributes.
+
+So, going over the above code for the robot, it will look like this:
