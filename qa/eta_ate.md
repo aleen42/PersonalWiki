@@ -1,9 +1,11 @@
 ## How to convert string between HTML entites and Ascii with JavaScript [Back](./qa.md)
 
+In order
+
 ### Ascii to HTML entities
 
 ```js
-var entityTabe = {
+var entityTable = {
     34 : 'quot', 
     38 : 'amp', 
     39 : 'apos', 
