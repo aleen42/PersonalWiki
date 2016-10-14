@@ -364,7 +364,7 @@ We'll start with one image defined in a `symbol` and instantiated with `use` and
 
 So, suppose we have the following cute hipster robot illustration [designed by Freepik](http://www.freepik.com/free-vector/cute-vector-hipster-robot-character_714905.htm).
 
-<a href="./Screen-Shot-2015-07-15-at-22.32.43.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./Screen-Shot-2015-07-15-at-22.32.43.png" alt="Screen Shot 2015-07-15 at 22.32.43" width="776" height="1186" class="alignnone size-full wp-image-24468" srcset="./Screen-Shot-2015-07-15-at-22.32.43.png 776w, ./Screen-Shot-2015-07-15-at-22.32.43-196x300.png 196w" sizes="(max-width: 776px) 100vw, 776px"></a>
+<a href="./1.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./1.png" alt="Screen Shot 2015-07-15 at 22.32.43" width="776" height="1186" class="alignnone size-full wp-image-24468" srcset="./1.png 776w, ./1_1.png 196w" sizes="(max-width: 776px) 100vw, 776px"></a>
 
 The code for the robot contains the colors that make it up.
 
