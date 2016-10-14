@@ -330,3 +330,9 @@ Now, using fill and color properties on `<use>`, we style the drops:
     color: #AEAFDD;
 }
 ```
+
+Each `<use>` element gets its own fill and color values. For each one, the fill color cascades and is inherited by the first path which does not have a fill attribute, and the value of the color property is used as a value for the fill attribute on the second path.
+
+So what happened here is that the current color value was leaked into the innards of the `<use>` element, using the currentColor variable. Pretty neat, right?
+
+Here is the live demo for the above code:
