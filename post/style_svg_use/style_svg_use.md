@@ -139,3 +139,7 @@ However, that brings up two issues:
 2. If you’ve exported an SVG from a graphics editor and/or got an SVG from a designer who did that and for any reason you can’t touch the SVG code, then you’re likely to end up with SVG elements with presentation attributes applied (unless you explicitly specified that you don’t want this to happen upon exporting the SVG, but that’s another topic), and the values of these attributes are going to override any styles you apply on `<use>`. Now, I’m assuming that if you are specifying styles on `<use>` then you want those styles to be inherited by its descendants, so presentation attributes would be causing an inconvenience in this case.
 
 And even if you do have access to the SVG code and you can get rid of the presentation attributes, **I highly recommend against that** because:
+
+1. Removing the attributes used to set certain properties will reset those properties to their initial browser-default values—which, in most cases, is all black fills and strokes (if we’re talking about colors, for example).
+2. By resetting all values you force yourself into specifying styles for all the properties set, so unless you want to do just that, then you don’t want to get rid of those presentation attributes.
+3. The presentation attributes that are initially available are a great fallback mechanism for when the external styles you set are not applied for any reason. If the CSS fails to load because something was messed up, your icon will at least have some default nice styles to fall back to. I highly recommend keeping them.
