@@ -423,3 +423,13 @@ Next, we need to define the values for the variables in CSS. First, the illustra
     <use xlink:href="#robot" id="robot-1" />
 </svg>
 ```
+
+Then, the variables will be defined on use so that they cascade into its contents. The colors you choose for the variables will make up the color scheme of the contents of your illustration. So, for the above robot, there were three main colors making up the graphic, so I named them primary, secondary and tertiary.
+
+```css
+#robot-1 {
+    --primary-color: #0099CC;
+    --secondary-color: #FFDF34;
+    --tertiary-color: #333;
+}
+```
