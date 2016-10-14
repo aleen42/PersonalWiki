@@ -257,3 +257,9 @@ Note that this will only affect the attributes that can be set in CSS, not the S
 Being able to force the presentation attributes to inherit from `<use>` styles is powerful, but what if you have an icon with multiple elements and you don’t want all of those elements to inherit the same fill color from use? What if you want to apply multiple different fill colors to different use descendants? Setting one style on use no longer suffices. We need something else to help us cascade the right colors to the right elements.
 
 ### Using the CSS `currentColor` Variable For Styling `<use>` Content
+
+Using the CSS [`currentColor` variable ](http://tympanus.net/codrops/css_reference/color_value/#section_currentColor)in conjunction with the above technique, we can specify two different colors on an element, instead of just one. Fabrice Weinberg wrote about this technique on his Codepen blog a little less than a year ago.
+
+The idea behind this technique is to use both the fill and the color properties on <use>, and then have these colors cascade into the contents of <use> by taking advantage of the variable nature of currentColor. Let’s jump right into a code example to see how this works.
+
+Suppose we want to style this minimal Codrops logo using two colors—one for the front drop and one for the back drop—for every instance of that logo.
