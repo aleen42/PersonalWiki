@@ -13,22 +13,3 @@ function A2E(str) {
     return reserved;
 }
 ```
-
-### Unicode to Ascii
-
-```js
-function U2A(str) {
-    var reserved = '';
-    var code = str.match(/&#(d+);/g);
-    
-    if (code === null) {
-        return str;
-    }
-    
-    for (var i = 0; i < code.length; i++) {
-        reserved += String.fromCharCode(code[i].replace(/[&#;]/g, ''));
-    }
-    
-    return reserved;
-}
-```
