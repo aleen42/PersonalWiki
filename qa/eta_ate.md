@@ -2,8 +2,6 @@
 
 In order to convert a string text between HTML entities and Ascii,you need a table for transforming:
 
-### Ascii to HTML entities
-
 ```js
 var entityTable = {
     34: 'quot',
@@ -260,7 +258,11 @@ var entityTable = {
     8250: 'rsaquo',
     8364: 'euro'
 };
+```
 
+### Ascii to HTML entities
+
+```js
 function A2E(str) {
     return str.replace(/[\u00A0-\u2666<>\&]/g, function(c) {
         return '&' + (entityTable[c.charCodeAt(0)] || '#' + c.charCodeAt(0)) + ';';
