@@ -464,7 +464,7 @@
             * [How to use powerful rem with responsive web app development](./qa/rem.md)
             * [How to know the valueOf() method](./qa/value_of.md)
             * [How to convert string between Unicode and Ascii with JavaScript](./qa/uta_atu.md)
-            * [How to convert string between HTML entites and Ascii with JavaScript](./qa/eta_ate.md)
+            * [How to convert string between HTML entities and Ascii with JavaScript](./qa/eta_ate.md)
             * [How to get current timestamp with JavaScript](./qa/timestamp.md)
             * [How to preload resources with JavaScript](./qa/resloadjs.md)
             * [How to detect whether a document is inside a iframe with JavaScript](./qa/iniframe_javascript.md)
