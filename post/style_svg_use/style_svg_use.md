@@ -315,3 +315,18 @@ If we were to use the inherit keyword to force the presentation attributes into 
 ```
 
 Now, using fill and color properties on `<use>`, we style the drops:
+
+```css
+.codrops-1 {
+    fill: #4BC0A5;
+    color: #A4DFD1;
+}
+.codrops-2 {
+    fill: #0099CC;
+    color: #7FCBE5;
+}
+.codrops-3 {
+    fill: #5F5EC0;
+    color: #AEAFDD;
+}
+```
