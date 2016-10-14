@@ -291,3 +291,12 @@ If we were to set the fill color on the `<use>` element for each instance, that 
 So instead of specifying only the fill color and having it cascade the default way, we are going to use the currentColor variable to make sure the small drop in the front gets a different color value: the value specified using the color property.
 
 First, we need to insert the currentColor where we want that color value to be applied; it goes into the markup where the icon contents are defined, inside the `<symbol>`. So the code looks like this:
+
+```html
+<svg style="display: none;">
+	<symbol id="codrops" viewBox="0 0 23 30">
+		<path class="back" fill="#aaa" d="..."/>
+		<path class="front" fill="currentColor" d="..."/>
+	</symbol>
+</svg>
+```
