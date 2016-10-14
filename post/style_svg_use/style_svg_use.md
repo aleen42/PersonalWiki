@@ -348,3 +348,7 @@ Here is the live demo for the above code:
 
 <br />
 
+This two-color variation technique is quite useful for simple bicoloured logos. In Fabrice’s article, he created three different variations of the Sass logo by changing the color of the text versus that of the background.
+
+The currentColor keyword is the only available CSS variable in CSS today. However, if we had more variables, wouldn’t it make it possible for us to distribute and leak even more values into the <use> content? Yes, it would. Amelia Bellamy-Royds introduced this very concept in a Codepen blog post a little less than a year ago as well. Let’s take a look at how that works.
+
