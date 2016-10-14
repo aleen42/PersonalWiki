@@ -486,5 +486,5 @@ You can play with the above demo, create as many copies of the robot as you want
 
 <br />
 
-
+If you view the demo in Firefox, you will see the blue + yellow version of the robot that we defined with CSS variables. Make sure you check the demo in Chrome to see how it falls back to the initial colors (green version), and try removing the variable declarations from the CSS in Firefox to also see how the fallback works.
 
