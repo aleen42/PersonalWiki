@@ -134,3 +134,8 @@ We also know that, just like with the `<g>` element, styles you apply to `<use>`
 So a first attempt to change the fill color of an element inside `<use>` would be to apply that fill color to the `<use>` element itself and let inheritance and the cascade do its thing.
 
 However, that brings up two issues:
+
+1. The fill color will be inherited by all the descendants of `<use>`, even those you may not want to style. (If you have only one element inside `<use>`, then this won’t be an issue.)
+2. If you’ve exported an SVG from a graphics editor and/or got an SVG from a designer who did that and for any reason you can’t touch the SVG code, then you’re likely to end up with SVG elements with presentation attributes applied (unless you explicitly specified that you don’t want this to happen upon exporting the SVG, but that’s another topic), and the values of these attributes are going to override any styles you apply on `<use>`. Now, I’m assuming that if you are specifying styles on `<use>` then you want those styles to be inherited by its descendants, so presentation attributes would be causing an inconvenience in this case.
+
+And even if you do have access to the SVG code and you can get rid of the presentation attributes, **I highly recommend against** that because:
