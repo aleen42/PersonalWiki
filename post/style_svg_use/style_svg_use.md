@@ -494,7 +494,6 @@ Phew. That was a lot.
 
 By taking advantage of the CSS cascade, styling the contents of `<use>`—though in a shadow DOM—can become less complicated. And with CSS variables (be it `currentColor` alone or the custom properties) we can penetrate the lines of the shadow DOM and customize our graphics to our liking while also providing very good fallback for when anything goes wrong.
 
-
 Personally, I am incredibly excited about the CSS Variables + SVG combination. I love how powerful they are together, especially given the great fallback mechanism we have with it. **They are currently only supported in Firefox, as we mentioned, but if you want to see them get wider support you can start by voting for them in other browsers such as on the [MS Edge User Voice forums](https://wpdev.uservoice.com/forums/257854-internet-explorer-platform/suggestions/6261292-css-variables)**.
 
 We may even get other ways to style `use` content in the future as well since there are already discussions going on about using CSS Variables as SVG parameters; so this article, though long, might have not covered everything there is to know about this topic. If you have any other ideas, please feel free to share them in the comments below.
