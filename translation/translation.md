@@ -22,6 +22,7 @@
 - [**OpenCV (C++ vs Python) vs MATLAB for Computer Vision**](./opencv_vs_matlab/opencv_vs_matlab.md)
 - [**Apollo-11**](./apollo_11/apollo_11.md)
 - [**Google Interview University**](./google_interview_university/google_interview_university.md)
+- [**Styling SVG &lt;use&gt; Content with CSS**](./style_svg_use/style_svg_use.md)
 
 #### Proofread
 
