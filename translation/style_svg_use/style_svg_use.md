@@ -8,44 +8,44 @@
 
 ![](./StylingSVGuse.jpg)
 
-One of the most common use cases for SVG graphics is icon systems, and one of the most commonly-used SVG spriting techniques is one that uses the [SVG &lt;use&gt; element to "instantiate" the icons](https://css-tricks.com/svg-sprites-use-better-icon-fonts/) anywhere they are needed in a document.
+图标体系（icon system）是 SVG 图形其中一个最为常用的例子。除此之外，使用 [SVG 元素来“实例化”文档中任何所需实例化的图标](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)，也是 SVG 所常用的 Sprite 技术其其中的一种用法。
 
-Instantiating icons or any other SVG element or image using the `<use>` element introduces some challenges when it comes to styling the instance of that element. The aim of this article is to give you an overview of some of the possible ways to work around the styling limitations introduced by `<use>`.
+由于使用 `<use>` 元素所实例的图标或任何其他 SVG 元素或图像，在制定元素实例的样式时总会遇到部分的问题。因此，书写本文的目的在于为你提供部分可行的方法来突破 `<use>` 元素所带来的局限。
 
-But before we get started, let's take a quick look into SVG's main structuring and grouping elements that will gradually take us into the world of `use`, the shadow of its DOM, and then bring us back into the light with CSS. We'll go over why styling `<use>` content can be challenging and ways to work around that.
+然而，在开始之前，我们来一起快速审视一下 SVG 的主要结构以及用于编组的元素。然后，逐渐地去深入了解 `use` 元素，即其影子 DOM。最后，我们才回到如何使用 CSS 去指定样式的话题上。除此之外，本文还会带你仔细地查看制定过程中所遇到的种种问题及其解决办法。
 
-### Quick Overview of SVG Structuring, Grouping and Referencing (Re-using) Elements in SVG
+### 关于 SVG 结构化、编组以及引用（重用）元素的概述
 
-There are four main elements in SVG that are used to define, structure and reference SVG code within the document. These elements make reusing elements easy, while maintaining clean and readable code. Because of the nature of SVG, some of these elements have the same functionality as certain commands in graphics editors.
+在 SVG 中主要有四种元素用于文档中 SVG 节点的定义、结构化和引用。它们使重用变得更为简单的同时，保持了代码的整洁性及可阅性。由于 SVG 的特性（nature），部分元素与图形编辑器中的一些命令都提供有相似的功能。
 
-The four main SVG grouping and referencing elements are: `<g>`, `<defs>`, `<use>` and `<symbol>`.
+这四种用于编组及引用的主要元素分别是：`<g>`、`<defs>`、`<use>` 和 `<symbol>`.
 
-The `<g>` element (short for "group") is used for logically grouping together sets of related graphical elements. In terms of graphics editors, such as Adobe Illustrator, the `<g>` element serves a similar functionality as the *Group Objects* function. You can also think of a group as being similar to the concept of a layer in a graphics editor, since a layer is also a grouping of elements.
+`<g>` 元素（简称“编组（group）”）是用于逻辑上归类相关图形元素的集合。对应于像 Adobe Illustrator 这样的图形编辑器，`<g>` 元素所提供的服务类似于“编组对象（Group Objects）”的功能。此外，由于在 AI 中，一个图层就是一组的元素。因此，你也可以把编组理解成图层的概念
 
-Grouping elements together is useful for when you want to apply a style and have that style be inherited by all the elements in the group, and is particularly useful for when you want to animate a group of elements while maintaining their spatial relationships with each other.
+把元素编在一组当中，有利于把样式制定于组中的所有元素，尤其当你想为组中的元素制定动画，而同时保持之间的空间关系时，尤为有效。
 
-The `<defs>` element is used to *define* elements that you want to reuse later. Defining elements with `<defs>` is useful for when you want to create sort of a "template" that you want to use multiple times throughout the document. Elements defined inside a `<defs>` element are not rendered on the canvas except if you "call" them somewhere in the document.
+`<defs>` 元素是用于*定义*未来希望被重用的元素。其有助于你创建“模板（template）”并在文档中使用多遍。值得注意的是，定义在 `<defs>` 中的元素并不会被渲染于画布上。除非，你在文档的某处“召唤”了它。
 
-`<defs>` is useful for defining many things, but one of the main use cases is defining patterns like gradients, for example, and then using those gradients as stroke fills on other SVG elements. It can be used to define any elements that you want to render anywhere on the canvas by reference.
+虽然，`<defs>` 可用于定义大量的元素，但是，其最主要的用途之一是去定义像斜率这样的范式（pattern）。举个例子，该范式可被引用到其他 SVG 元素的笔画及填充当中。除此之外，该范式还能被运用到画布上任何需要渲染的引用元素其定义当中。
 
-The `<symbol>` element combines the benefits of both the `<defs>` and the `<g>` elements in that it is used to group together elements that define a template that is going to be referenced elsewhere in the document. Unlike `<defs>`, `<symbol>` is not usually used to define patterns, but is mostly used to define symbols such as icons, for example, that are referenced throughout the document.
+`<symbol>` 元素集 `<defs>` 和 `<g>` 两者之大成。不仅能定义文档中随处可被引用的模板，还能将这些模板编组在一起。与 `<defs>` 不同的是，`<symbol>` 并不常用于定义范式。其主要用途在于定义像图标这样的符号，且可在文档中被引用。
 
-The `<symbol>` element has an important advantage over the other two elements: it accepts a `viewBox` attribute which allows it to scale-to-fit inside any viewport it is rendered in.
+与前两者相比，`<symbol>` 元素有着一个重要的优势：它可接受一个 `viewBox` 属性，使得所引用的元素可缩放以适合视窗（viewport）的大小。
 
-The `<use>` element is the element you use to reference any element defined elsewhere in the document. It lets you reuse existing elements, giving you a similar functionality to the copy-paste functionality in a graphics editor. It can be used to reuse a single element, or a group of elements defined with the `<g>` element, the `<defs>` element, or a `<symbol>`.
+`<use>` 元素则是用于引用文档中任何已经被定义的元素。它使得你可以重用任何已存在的元素，并让你可以像在图形编辑器中复制粘贴某个元素。也就是说，它可以用于重用一个单一元素或一组由 `<g>`、`<defs>` 或 `<symbol>` 所定义的元素。
 
-To use an element you pass a reference to that element—an ID—inside the `use`'s `xlink:href` attribute, and you position that element using `x` and `y` attributes. You can apply styles to the `use` element and those styles will cascade into the contents of the `use` element.
+为了重用某特定元素，你需要把元素的 ID 传至 `use` 的 `xlink:href` 属性当中，并通过 `x` 和 `y` 属性来放置。除此之外，你也可以把样式应用于该 `use` 元素中。而该样式同时会被应用于 `use` 元素中的内容。
 
-But what is the content of `<use>`? Where is it cloned? And how does the CSS cascade work with that content?
+可 `use` 元素中的内容到底是指什么呢？这些内容被克隆到哪里？以及 CSS 是如何把样式应用到这些内容上？
 
-Before we answer these questions, and since we only covered a quick overview of SVG's structuring and grouping elements, it's worth mentioning a couple of articles to learn more about these elements and about the `viewBox` attribute used with `<symbol>`:
+在我们回答这些问题之前，这里有一些文章值得我们先去阅读一下。通过阅读，我们可以对上述元素有着更为充分的了解，以及关于 `<symbol>` 元素中所使用到的 `viewBox` 属性：
 
-- [Structuring, Grouping, and Referencing in SVG — The `<g>`, `<use>`, `<defs>` and `<symbol>` Elements](http://sarasoueidan.com/blog/structuring-grouping-referencing-in-svg/)
-- [Understanding SVG Coordinate Systems (Part 1): The Viewport, `viewBox` and `PreserveAspectRatio`](http://sarasoueidan.com/blog/svg-coordinate-systems)
+- [SVG 中的结构化、编组和引用 —— `<g>`、`<use>`、`<defs>` 和 `<symbol>` 元素](http://sarasoueidan.com/blog/structuring-grouping-referencing-in-svg/)
+- [了解 SVG 的坐标系（第一部分）： 视窗、`viewBox` 属性和 `PreserveAspectRatio` 属性](http://sarasoueidan.com/blog/svg-coordinate-systems)
 
-### SVG &lt;use&gt; and The Shadow DOM
+### SVG 中的 &lt;use&gt; 元素及影子 DOM（The Shadow DOM）
 
-When you reference an element with `<use>`, the code might look something like this:
+当你使用 `<use>` 来引用一个元素时，代码可能会看起来像这样：
 
 ```html
 <symbol id="my-icon" viewBox="0 0 30 30">
@@ -55,36 +55,36 @@ When you reference an element with `<use>`, the code might look something like t
 <use xlink:href="#my-icon" x="100" y="300" />
 ```
 
-What is rendered on the screen is the icon whose content is defined inside `<symbol>`, but it's not *that* content that got rendered, but rather the content of the `<use>`, which is a duplicate—or clone—of the `<symbol>`'s content.
+在屏幕中所渲染的是一个图标。虽然，它的内容被定义在 `<symbol>` 里面，但所渲染的并非*该*内容，而是 `<use>` 元素中的一份拷贝内容。
 
-But the `<use>` element is only one element and it is self-closing—there is no content somewhere between an opening and closing `use` tag, so where has the `<symbol>` content been cloned?
+可我们只看到一个自闭元素 —— 其开闭标记内并没有任何的相关内容，那么，从 `<symbol>` 所拷贝出来的内容在哪里呢？
 
-The answer to that is: **the Shadow DOM**. (Somehow the Shadow DOM always reminds me of the Batman. I don't know why.)
+答案是：**影子 DOM**。（有时，我也不知道为什么影子 DOM 总会让我想起蝙蝠侠。)
 
-#### What is the Shadow DOM?
+#### 影子 DOM 为何物？
 
-The Shadow DOM is similar to the normal DOM except that, instead of being part of the main document subtree, nodes in the Shadow DOM belong to a *document fragment* which is basically just another subtree of nodes which are not as vulnerable to scripts and styles as normal DOM nodes are. This gives authors a way to encapsulate and scope styles and scripts when creating modular components. If you've ever used the HTML5 `video` element or the range input type and wondered where the video controls or range slider components came from, then you've already come across the Shadow DOM before.
+影子 DOM 大体与普通的 DOM 相似。不同处在于，普通的 DOM 是作为主文档子树（the main document subtree）中的一部分所存在，而影子 DOM 中的节点则是属于特定的一个*“文档片段（document fragment）”*。该片段大体上就是另一棵用于存放节点的子树。只不过，该子树下的节点并不能像普通的节点一样，轻易被脚本和样式所访问。这就为编程人员在创建模块化组件时，封装和指定脚本及样式的作用域提供了一种方法。若您曾经使用过 HTML5 的 `video` 元素或范围型 `input` 元素如 `input[type="number"]`，那么你应该会想视频的控制区或范围的选取组件到底是来自哪里？然后，你也许就会交叉地接触到影子 DOM。
 
-In the case of the SVG `<use>` element, the contents of the referenced element are cloned into a document fragment that is "hosted" by `<use>`. `<use>`, in this case, is called a *Shadow Host*.
+在 `<use>` 元素这种情况中，所引用的元素其内容就是被克隆至一段文档片段当中，而该片段的“主人”就是相关的 `<use>` 元素。所以，`<use>` 元素有时亦被称作为一名*影子主人（Shadow Host）*。
 
-So, the contents of `<use>` (the clone or copy of whatever element it is referencing) are present inside a shadow document fragment.
+所以至此，我们知道 `<use>` 的内容（包括所引用元素的任何克隆或拷贝）是被展现于一个影子的文档片段当中。
 
-In other words, they are *there*, but they are not visible. They are just like normal DOM content, but instead of being available in the "high-level" DOM which is accessible by CSS selectors and JavaScript in the main document, they are copied into a document fragment that is hosted by `<use>`.
+换句话说，他们是在*彼处*，可却无法被看见。宛如普通 DOM 的内容，而又无法被主文档中“高级”的 DOM，以 CSS 选择器及 JavaScript 的方式所触及。这是因为，它们被拷贝到了一份独立的文档片段当中，而该片段的主人就是 `<use>` 元素。
 
-Now, if you're a designer, you might be thinking: "OK, I get it but is there a way to inspect that sub-document to actually *see* into its contents?" The answer is: Yes! You can preview the contents of the shadow DOM using Chrome's developer tools. (Inspecting the contents of a shadow DOM is currently not possible in Firefox.) But in order to do that, you need to first enable shadow DOM inspection in the "General" tab inside the Settings panel that can be opened by clicking on the Cog icon. You can learn more about how to do that here.
+如今，若您是一位设计师，那么你也许会想：“好的，我清楚这点。但是否有一种方式可以去审查该子文档，并真正地*看到*它们的内容呢？”答案是：可以的！你可以通过使用 Chrome 浏览器的开发工具去预览影子 DOM 的内容。但是，你需要先在审查工具的设置面板中的“（一般）General” 选项中允许影子 DOM 的审查。（可通过点击齿轮图标）在此，若找不到选项，可查一下如何去允许。（Firefox 浏览器暂未支持）
 
-Once you've enable shadow DOM inspection in the dev tools, you can see the cloned elements in the Elements panel, just like you would with normal DOM elements. The following image shows an example of a `<use>` element referencing the contents of a `<symbol>`. Notice the "#shadow-root" and the contents of that fragment when expanded—they are a copy of the contents of the `<symbol>`.
+一旦你在开发工具中允许了影子 DOM 的审查，你就可以像审查普通 DOM 元素一样，在元素面板中看到所克隆的元素。以下图片所展示的就是 `<use>` 元素引用 `<symbol>` 元素内容的一个例子。需要注意的是，“#shadow-root” 所展开的片段内容就是 `<symbol>` 元素的一份拷贝。
 
 > ![](./shadow-dom.jpg)
 
-> Using Chrome's developer tools, you can inspect the contents of the &lt;use&gt; element inside the shadow DOM (see the "#shadow-root" in grey). This screenshot inspects the Codrops logo from an example we will go over in the next section.
+> 通过使用 Chrome 的开发者工具，你可以审查到影子 DOM 中的 &lt;use&gt; 元素（请查看一下灰色字的“#shadow-root”）。该截图中所审查的 Codrops 商标就是来自我们下一节的一个例子。
 
-Looking at the inspected code, you can see that the shadow DOM is pretty much the same as the normal DOM, except that is has different characteristics when it comes to handling with CSS and JavaScript from the main document. There are also other differences between them, but the shadow DOM cannot possibly be covered in this section because it is too big of a concept, so if you want to read and learn more about it, I recommend the following articles:
+看一下审查的代码，我们可以发现影子 DOM 与普通的 DOM 太过于相似，而其不同只存在于处理从主文档所引用的 CSS 和 JavaScript 文件时，所呈现的不同特征。当然，它们两者之前还有其他的不同之处，但在此处我们并不能涵盖到每一点。这是因为，影子 DOM 实在是一个太大的概念。而如果你想阅读并学习更多的相关知识，我可以推荐您阅读一下这些文章：
 
-- [Intro to Shadow DOM](http://code.tutsplus.com/tutorials/intro-to-shadow-dom--net-34966)
-- [What the Heck is Shadow DOM?](http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/)
-- [Shadow DOM 101](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
-- [Introduction to Shadow DOM (Video)](http://webcomponents.org/articles/introduction-to-shadow-dom/)
+- [谈影子 DOM ](http://code.tutsplus.com/tutorials/intro-to-shadow-dom--net-34966)
+- [影子 DOM 到底是何方神圣？](http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/)
+- [影子 DOM 101](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
+- [关于影子 DOM 的介绍（视频）](http://webcomponents.org/articles/introduction-to-shadow-dom/)
 
 For me, and considering how limited my interaction with the shadow DOM is, I think of it as being just like the normal DOM, except that it needs to be handled differently when it comes to accessing its elements for styling with CSS (and JavaScript). This is what matters to us as SVG developers: how the existence of the contents of `<use>` inside a shadow DOM affects that content when it comes to applying or changing styles, because we want to be able to style them. The whole point of using `<use>` is being able to create different "copies" of an element, and in a lot of cases, what we want is to be able to style each copy differently. For example, think about a logo with two styles (inverted color themes) or multi-coloured icons of which each has its own theme. So, it would only make sense for us to expect to be able to do that using CSS.
 That being said, we mentioned earlier that the contents of the shadow DOM are not vulnerable to CSS like the normal DOM is. So how *do* we style its content? We cannot target a path descendant of `<use>` like this:
