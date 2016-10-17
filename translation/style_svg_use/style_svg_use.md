@@ -5,5 +5,4 @@
 * 译者 : [aleen42](https://github.com/aleen42) 
 * 校对者 : 暂无
 * 状态 : 翻译中
-* <img src="./cover110.small.jpg"> 来源问题 : 2013年7月第110号问题
 
