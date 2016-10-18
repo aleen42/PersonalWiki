@@ -28,6 +28,9 @@
         "resources"
     ],
     "pluginsConfig": {
+        "disqus": {
+            "shortName": "personal"
+        },
         "github": {
             "url": "https://github.com/aleen42/PersonalWiki"
         },
