@@ -1,4 +1,4 @@
-## Styling SVG &lt;use&gt; Content with CSS - 使用 CSS 来制定 SVG 中 &lt;use&gt; 标签内容的样式 [**Back**](./../translation.md)
+## Styling SVG &lt;use&gt; Content with CSS - 使用 CSS 来制定 SVG &lt;use&gt; 元素中内容的样式 [**Back**](./../translation.md)
 
 > * 原文链接 : [Styling SVG &lt;use&gt; Content with CSS](http://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/)
 * 原文作者 : [Sara Soueidan](https://github.com/SaraSoueidan)
@@ -8,37 +8,37 @@
 
 ![](./StylingSVGuse.jpg)
 
-图标体系（icon system）是 SVG 图形其中一个最为常用的例子。除此之外，使用 [SVG 元素来“实例化”文档中任何所需实例化的图标](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)，也是 SVG 所常用的 Sprite 技术其其中的一种用法。
+图标系列（icon system）是 SVG 图形最为常用的例子之一。除此之外，使用 [SVG 元素来“实例化”文档中任何图标](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)，也是 SVG 所常用的 Sprite 技术，其其中的一种用法。
 
-由于使用 `<use>` 元素所实例的图标或任何其他 SVG 元素或图像，在制定元素实例的样式时总会遇到部分的问题。因此，书写本文的目的在于为你提供部分可行的方法来突破 `<use>` 元素所带来的局限。
+我们可以通过 `<use>` 元素去实例化图标、其他任何的 SVG 元素以及图像。然而，在制定它们的样式时往往会遇到了部分问题。因此，本文的目的在于为你提供部分可行的方法来绕开 `<use>` 元素所带来的局限性。
 
-然而，在开始之前，我们来一起快速审视一下 SVG 的主要结构以及用于编组的元素。然后，逐渐地去深入了解 `use` 元素，即其影子 DOM。最后，我们才回到如何使用 CSS 去指定样式的话题上。除此之外，本文还会带你仔细地查看制定过程中所遇到的种种问题及其解决办法。
+但在开始之前，我们还是来一起快速审视一下 SVG 的结构化和编组元素。然后，才逐渐地去深入了解 `use` 元素及其影子 DOM。最后，我们会回到如何使用 CSS 去制定样式的话题上。除此之外，本文还会带你仔细地研究制定样式过程中所遇到的种种问题，以及绕开它们的方法。
 
 ### 关于 SVG 结构化、编组以及引用（重用）元素的概述
 
-在 SVG 中主要有四种元素用于文档中 SVG 节点的定义、结构化和引用。它们使重用变得更为简单的同时，保持了代码的整洁性及可阅性。由于 SVG 的特性（nature），部分元素与图形编辑器中的一些命令都提供有相似的功能。
+在 SVG 中主要有四种元素用于定义、结构化和引用文档中 SVG 节点。它们使重用变得更为简单的同时，保持了代码的整洁性及可阅性。正因为 SVG 所具有的本质特性（nature），部分元素与图形编辑器中的一些命令都会提供有相似的功能。
 
-这四种用于编组及引用的主要元素分别是：`<g>`、`<defs>`、`<use>` 和 `<symbol>`.
+用于编组及引用的这四种主要元素分别是：`<g>`、`<defs>`、`<use>` 和 `<symbol>`.
 
-`<g>` 元素（简称“编组（group）”）是用于逻辑上归类相关图形元素的集合。对应于像 Adobe Illustrator 这样的图形编辑器，`<g>` 元素所提供的服务类似于“编组对象（Group Objects）”的功能。此外，由于在 AI 中，一个图层就是一组的元素。因此，你也可以把编组理解成图层的概念
+首先，`<g>` 元素（简称“编组（group）”）是用于逻辑上归类相关图形元素的集合。在像 Adobe Illustrator 这样的图形编辑器里，`<g>` 元素所提供的服务类似于“编组对象（Group Objects）”的功能。此外，在 AI 中一个图层就是一组的元素。因此，你也可以把编组理解成图层的概念
 
-把元素编在一组当中，有利于把样式制定于组中的所有元素，尤其当你想为组中的元素制定动画，而同时保持之间的空间关系时，尤为有效。
+把元素编在一组当中，有利于把样式制定于组中的所有元素。当你想为组中的元素制定动画且需要同时保持之间的空间关系时，尤为有效。
 
-`<defs>` 元素是用于*定义*未来希望被重用的元素。其有助于你创建“模板（template）”并在文档中使用多遍。值得注意的是，定义在 `<defs>` 中的元素并不会被渲染于画布上。除非，你在文档的某处“召唤”了它。
+其次，`<defs>` 元素是用于*定义*后面希望被重用的元素。其有助于你创建“模板（template）”并能在文档中使用多遍。值得注意的是，定义在 `<defs>` 中的元素并不会被渲染于画布上。除非，你在文档的某处“召唤”了它。
 
-虽然，`<defs>` 可用于定义大量的元素，但是，其最主要的用途之一是去定义像斜率这样的范式（pattern）。举个例子，该范式可被引用到其他 SVG 元素的笔画及填充当中。除此之外，该范式还能被运用到画布上任何需要渲染的引用元素其定义当中。
+虽然，`<defs>` 可用于定义大量的元素。但是，其最主要的用途之一是去定义像渐变阴影（gradient pattern）这样的范式（patterns）。举个例子，该范式可被引用到其他 SVG 元素的描边及填充当中。除此之外，该范式还能被运用到画布上任何需要渲染的引用元素中。
 
-`<symbol>` 元素集 `<defs>` 和 `<g>` 两者之大成。不仅能定义文档中随处可被引用的模板，还能将这些模板编组在一起。与 `<defs>` 不同的是，`<symbol>` 并不常用于定义范式。其主要用途在于定义像图标这样的符号，且可在文档中被引用。
+再且，`<symbol>` 元素是集 `<defs>` 和 `<g>` 两者之大成。不仅能定义在文档中随处可被引用的模板，还能将这些模板编组在一起。与 `<defs>` 不同的是，`<symbol>` 并不常用于定义范式。其主要用途在于定义像图标这样的符号，且可在文档中被引用。
 
-与前两者相比，`<symbol>` 元素有着一个重要的优势：它可接受一个 `viewBox` 属性，使得所引用的元素可缩放以适合视窗（viewport）的大小。
+与前两者相比，`<symbol>` 元素有着一个重要的优势：它可接受一个 `viewBox` 属性，使得所引用的元素缩放以适合视窗（viewport）的大小。
 
-`<use>` 元素则是用于引用文档中任何已经被定义的元素。它使得你可以重用任何已存在的元素，并让你可以像在图形编辑器中复制粘贴某个元素。也就是说，它可以用于重用一个单一元素或一组由 `<g>`、`<defs>` 或 `<symbol>` 所定义的元素。
+最后，`<use>` 元素则是用于引用文档中任何已被定义好的元素。它使得你可以重用任何已存在的元素，并让你可以像在图形编辑器中一样，随意复制粘贴某个元素。也就是说，它可以用于重用一个单一元素或一组由 `<g>`、`<defs>` 或 `<symbol>` 所定义的元素。
 
-为了重用某特定元素，你需要把元素的 ID 传至 `use` 的 `xlink:href` 属性当中，并通过 `x` 和 `y` 属性来放置。除此之外，你也可以把样式应用于该 `use` 元素中。而该样式同时会被应用于 `use` 元素中的内容。
+为了重用某特定元素，你需要把元素的 ID 传至 `use` 的 `xlink:href` 属性当中，并通过 `x` 和 `y` 属性来设定放置的地方。除此之外，你也可以把样式应用于该 `use` 元素中，而该样式同时也会被应用于 `use` 元素中的所有内容。
 
-可 `use` 元素中的内容到底是指什么呢？这些内容被克隆到哪里？以及 CSS 是如何把样式应用到这些内容上？
+可 `use` 元素中的内容到底指的是什么呢？这些内容都被克隆到哪里了？以及 CSS 是如何把样式应用到这些内容上的？
 
-在我们回答这些问题之前，这里有一些文章值得我们先去阅读一下。通过阅读，我们可以对上述元素有着更为充分的了解，以及关于 `<symbol>` 元素中所使用到的 `viewBox` 属性：
+在我们回答这些问题之前，这里有一些文章值得我们先去阅读一下。通过阅读，我们可以对上述元素，以及关于 `<symbol>` 元素中所使用到的 `viewBox` 属性有着更为充分的了解：
 
 - [SVG 中的结构化、编组和引用 —— `<g>`、`<use>`、`<defs>` 和 `<symbol>` 元素](http://sarasoueidan.com/blog/structuring-grouping-referencing-in-svg/)
 - [了解 SVG 的坐标系（第一部分）： 视窗、`viewBox` 属性和 `PreserveAspectRatio` 属性](http://sarasoueidan.com/blog/svg-coordinate-systems)
@@ -55,39 +55,38 @@
 <use xlink:href="#my-icon" x="100" y="300" />
 ```
 
-在屏幕中所渲染的是一个图标。虽然，它的内容被定义在 `<symbol>` 里面，但所渲染的并非*该*内容，而是 `<use>` 元素中的一份拷贝内容。
+在屏幕中所渲染的是一个图标。虽然，它的内容被定义在 `<symbol>` 里面。然而，所渲染的却是 `<use>` 元素中的拷贝内容，而非*该*元素中的内容。
 
-可我们只看到一个自闭元素 —— 其开闭标记内并没有任何的相关内容，那么，从 `<symbol>` 所拷贝出来的内容在哪里呢？
+可我们只看到一个自闭的 `<use>` 元素 —— 其开闭标识符内并没有任何的相关内容。那么，从 `<symbol>` 所拷贝出来的内容到底在哪里呢？
 
 答案是：**影子 DOM**。（有时，我也不知道为什么影子 DOM 总会让我想起蝙蝠侠。)
 
 #### 影子 DOM 为何物？
 
-影子 DOM 大体与普通的 DOM 相似。不同处在于，普通的 DOM 是作为主文档子树（the main document subtree）中的一部分所存在，而影子 DOM 中的节点则是属于特定的一个*“文档片段（document fragment）”*。该片段大体上就是另一棵用于存放节点的子树。只不过，该子树下的节点并不能像普通的节点一样，轻易被脚本和样式所访问。这就为编程人员在创建模块化组件时，封装和指定脚本及样式的作用域提供了一种方法。若您曾经使用过 HTML5 的 `video` 元素或范围型 `input` 元素如 `input[type="number"]`，那么你应该会想视频的控制区或范围的选取组件到底是来自哪里？然后，你也许就会交叉地接触到影子 DOM。
+影子 DOM 大体与普通的 DOM 相似。不同处在于，普通的 DOM 是作为主文档子树（the main document subtree）中的一部分所存在，而影子 DOM 中的节点则是属于特定的一个*“文档片段（document fragment）”*。该片段大体上就是另一棵用于存放节点的子树。只不过，该子树下的节点并不能像普通的节点一样，轻易被脚本和样式所访问到。也就是说，这为编程人员在创建模块化组件时，封装和指定脚本及样式的作用域，提供了一种方法。若您曾经使用过 HTML5 的 `video` 元素或范围型 `input` 元素如 `input[type="number"]`，那么你应该会想到这样的问题：视频的控制区或范围的选取组件到底是来自哪里？也许，这时你就会交叉地接触到影子 DOM。
 
 在 `<use>` 元素这种情况中，所引用的元素其内容就是被克隆至一段文档片段当中，而该片段的“主人”就是相关的 `<use>` 元素。所以，`<use>` 元素有时亦被称作为一名*影子主人（Shadow Host）*。
 
-所以至此，我们知道 `<use>` 的内容（包括所引用元素的任何克隆或拷贝）是被展现于一个影子的文档片段当中。
+至此，也就是说 `<use>` 元素中的内容（包括所引用元素的任何克隆或拷贝）是被展示在一个影子文档片段当中。
 
-换句话说，他们是在*彼处*，可却无法被看见。宛如普通 DOM 的内容，而又无法被主文档中“高级”的 DOM，以 CSS 选择器及 JavaScript 的方式所触及。这是因为，它们被拷贝到了一份独立的文档片段当中，而该片段的主人就是 `<use>` 元素。
+换句话说，它们的确是在*彼处*，可却无法被看见。宛如普通 DOM 的内容，而又无法被主文档中的“高级” DOM，以 CSS 选择器或 JavaScript 的方式所触及。这其实就是因为，它们被拷贝到了一份独立的文档片段当中，而该片段的主人就是该 `<use>` 元素。
 
-如今，若您是一位设计师，那么你也许会想：“好的，我清楚这点。但是否有一种方式可以去审查该子文档，并真正地*看到*它们的内容呢？”答案是：可以的！你可以通过使用 Chrome 浏览器的开发工具去预览影子 DOM 的内容。但是，你需要先在审查工具的设置面板中的“（一般）General” 选项中允许影子 DOM 的审查。（可通过点击齿轮图标）在此，若找不到选项，可查一下如何去允许。（Firefox 浏览器暂未支持）
+如今，若是一位设计师的您也许会想：“好的，我清楚了这点。但是否有一种方式可以去审查该子文档，并真正地*看到*它们的内容呢？”答案是：可以的！你可以通过使用 Chrome 浏览器的开发工具去预览影子 DOM 的内容。但是，你事先需要在审查工具设置面板的“（一般）General” 选项中允许影子 DOM 的审查（可通过点击齿轮图标）。在此，若你找不到选项，方可在网上查一下如何去允许。本文在此不会再细说（Firefox 浏览器暂未支持）。
 
-一旦你在开发工具中允许了影子 DOM 的审查，你就可以像审查普通 DOM 元素一样，在元素面板中看到所克隆的元素。以下图片所展示的就是 `<use>` 元素引用 `<symbol>` 元素内容的一个例子。需要注意的是，“#shadow-root” 所展开的片段内容就是 `<symbol>` 元素的一份拷贝。
+一旦你在开发工具中允许了影子 DOM 的审查，你就可以像审查普通 DOM 元素一样，在元素面板中看到所克隆的元素。以下图片所展示的就是 `<use>` 元素引用 `<symbol>` 元素内容的一个例子。需要注意的是，“#shadow-root” 所展开的片段就是 `<symbol>` 元素的一份拷贝内容。
 
 > ![](./shadow-dom.jpg)
 
 > 通过使用 Chrome 的开发者工具，你可以审查到影子 DOM 中的 &lt;use&gt; 元素（请查看一下灰色字的“#shadow-root”）。该截图中所审查的 Codrops 商标就是来自我们下一节的一个例子。
 
-看一下审查的代码，我们可以发现影子 DOM 与普通的 DOM 太过于相似，而其不同只存在于处理从主文档所引用的 CSS 和 JavaScript 文件时，所呈现的不同特征。当然，它们两者之前还有其他的不同之处，但在此处我们并不能涵盖到每一点。这是因为，影子 DOM 实在是一个太大的概念。而如果你想阅读并学习更多的相关知识，我可以推荐您阅读一下这些文章：
+通过审查到的代码，我们会发现影子 DOM 与普通的 DOM 太过于相似。其两者的不同点只在于，处理从主文档所引用的 CSS 和 JavaScript 文件时，所呈现出的不同特征。当然，它们两者之前还有其他的不同之处，但在此处我们并不会去涵盖到每一点。因为，影子 DOM 实在是一个太大的概念。若你想阅读并学习更多的相关知识，这里推荐有部分文章，可供参考：
 
 - [谈影子 DOM ](http://code.tutsplus.com/tutorials/intro-to-shadow-dom--net-34966)
 - [影子 DOM 到底是何方神圣？](http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/)
 - [影子 DOM 101](http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom/)
 - [关于影子 DOM 的介绍（视频）](http://webcomponents.org/articles/introduction-to-shadow-dom/)
 
-For me, and considering how limited my interaction with the shadow DOM is, I think of it as being just like the normal DOM, except that it needs to be handled differently when it comes to accessing its elements for styling with CSS (and JavaScript). This is what matters to us as SVG developers: how the existence of the contents of `<use>` inside a shadow DOM affects that content when it comes to applying or changing styles, because we want to be able to style them. The whole point of using `<use>` is being able to create different "copies" of an element, and in a lot of cases, what we want is to be able to style each copy differently. For example, think about a logo with two styles (inverted color themes) or multi-coloured icons of which each has its own theme. So, it would only make sense for us to expect to be able to do that using CSS.
-That being said, we mentioned earlier that the contents of the shadow DOM are not vulnerable to CSS like the normal DOM is. So how *do* we style its content? We cannot target a path descendant of `<use>` like this:
+对于我来说，影子 DOM 完全可被视作为普通的 DOM。只是因为考虑到影子 DOM 在交互上所带来的限制，因此我们在使用 CSS 渲染样式（以及 JavaScript）而导致要访问元素时，需要作出不同的处理。这一点对于我们这些 SVG 开发者来说是非常重要的：正因为我们希望能改变 `<use>` 元素中内容的样式，我们必须要明白这些存在于影子 DOM 的内容，当其样式产生了改变时，是如何影响到其本身。而也正因为使用 `<use>` 元素的意义在于，它可以对一个元素创建出不同的“拷贝”。因此，在很多场合下，我们都希望能为每一份拷贝制定出不同的样式。例如，一个图标可以有两种样式（反转的颜色风格）或多种颜色的图标可以各自有自己的主题等。因此，若能使用 CSS 来实现的话，这对于我们来说是莫大的意义。话虽如此，但在之前我早已提及，影子 DOM 的内容并不像普通的 DOM 一样，能轻易被 CSS 所触及。因此，我们该怎样*去*为其内容制定样式呢？事实上，我们并不能像这样去为 `<use>` 元素中的路径制定样式：
 
 ```css
 use path#line {
@@ -95,21 +94,21 @@ use path#line {
 }
 ```
 
-because we cannot access the shadow DOM using regular CSS selectors.
+这是因为，我们并不能通过常规的 CSS 选择器去访问到影子 DOM。
 
-There are a couple of special selectors that allow you to penetrate the shadow DOM boundaries to apply styles to nodes inside of it, but those selectors are not only not well supported, but they are limited compared to the long list of selectors provided in CSS for selecting and styling regular DOM elements.
+尽管目前已经有大量特殊的选择器，使你可以突破影子 DOM 的边界去为里面的内容制定样式，可是，这些选择器不仅得不到浏览器很好的支持，而且对比于那些用于选择及渲染常规 DOM 元素样式的选择器来，其局限性太大了。
 
-Moreover, we want a simpler way to style the contents of an SVG `<use>` without having to get our hands dirty with shadow DOM specifics—using simple CSS and SVG only.
+再且，我们希望的是使用一种更为简单的方式，去为一个 SVG `<use>` 元素中的内容制定样式，而不需要为了影子 DOM 而沾染双手 —— 也就是说，仅使用简单的 CSS 及 SVG。
 
-In order to achieve that and get a little more control over styling the contents of `<use>`, we need to think from a different angle, and start by leveraging the CSS cascade and taking advantage of its inheritance capabilities.
+为了实现这样的目的，并更为有效地控制 `<use>` 中内容的样式，我们需要换个角度去思考。然后，从影响 CSS 的层叠关系开始，利用其继承能力（inheritance capabilities）来解决问题。
 
-### The Style Cascade
+### 层叠样式（The Style Cascade）
 
-Since SVG elements can be styled using CSS using one of three different ways: external CSS styles (in an external style sheet), internal style blocks (`<style>` elements) and inline styles (in a `style` attribute), it only makes sense that the cascade governs how these styles are applied to these elements.
+既然 SVG 元素可以使用 CSS 的三种方式来进行样式的制定：外部 CSS 样式（来源于一个外部样式层叠表）、内部样式块（`<style>` 元素）及内敛样式（来源于 `style` 属性），那么，我们理应要了解层叠是如何去决定这些元素的样式。
 
-In addition to CSS properties, SVG elements can also be styled using *presentation attributes*. Presentation attributes are a shorthand for setting a CSS property on an element. Think of them as special style properties. Their nature is what makes them contribute to the style cascade, but maybe in a less expected way.
+除了 CSS 属性之外，SVG 元素还可以通过使用 *presentation 属性*来制定样式。 尽管，该属性是一种 CSS 属性的简写。但是，我们还是把其当作是一种特殊的样式属性吧。因为，它们本质上虽是使其样式层叠于层叠样式上，然而往往会差强人意。
 
-In the following code snippet which simply displays a pink circle with a yellow stroke, `stroke`, `stroke-width`, and `fill` are all presentation attributes.
+下面的代码小片段简单地展示了一个填充有粉色的圆形，及带有黄色的描边。`stroke`、`stroke-width` 和 `fill` 等这些属性都属于 presentation 属性。
 
 ```html
 <svg viewBox="0 0 100 100">
@@ -117,58 +116,58 @@ In the following code snippet which simply displays a pink circle with a yellow 
 </svg>
 ```
 
-In SVG, a subset of all CSS properties may be set by SVG attributes, and vice versa. This means that not all CSS properties can be specified on an SVG element as presentation attributes, and not all presentation attributes available in SVG (there are *a lot* of them!) can be specified in CSS.
+在 SVG 中，任何一个属于 CSS 属性的子集，或许能被一个 SVG 属性所设定，反之亦然。这就意味着，并非所有的 CSS 属性都可在一个 SVG 元素中被设定为 presentation 属性。反之，并非所有 SVG 中的 presentation 属性都可用于 CSS 中（只是**大部分**可用！）。
 
-The SVG specification lists the SVG attributes that may be set as CSS properties. Some of these attributes are shared with CSS (already available as CSS properties), such as `opacity` and `transform`, among others, while some are not, such as `fill`, `stroke` and `stroke-width`, among others.
+在 SVG 规格说明书所详细列出的 SVG 属性当中，并非所有的都可用于 CSS。部分属性是属于两者共用的（即也可以在 CSS 中使用的属性），例如其中的 `opacity` 和 `transform`。而部分则非如此，如其中的 `fill`、`stroke` 和 `stroke-width`。
 
-In SVG 2, this list will include `x`, `y`, `width`, `height`, `cx`, `cy` and a few other presentation attributes that were not possible to set via CSS in SVG 1.1. The new list of attributes can be found in the SVG 2 specification.
+相比于 SVG 1.1，SVG 2 还多添加了 `x`、`y`、`width`、`height`、`cx`、`cy` 及部分其他的 presentation 属性等这些可用于 CSS 的属性。具体新的属性列表可查看于 SVG 2 的规格说明书。
 
-If you're like me, then you would expect presentation attributes to have a higher specificity than all other style declarations. I mean, after all, external styles are overridden by internal styles in style blocks, and style block declarations are overridden by inline styles in a style attribute.. so it seems as though the more "internal" the styles get, the more specificity they have, and so when a property gets its own attribute, it makes it more powerful and thus it would override all other style declarations. Although that *still* makes sense to me, this is not how it really works.
+假如你像我一样，那么，你就会想这些 presentation 属性相比起其他样式声明来说，是否能拥有更高的特异性（specificity）？就像外部的样式可被样式块中的内部样式所重写，而内部样式会被内敛样式所重写一样。又好比所获取的样式越为“内部”，其特异性越高。若能这样，就意味着当元素获取了其自身的属性时，该属性就能强大到重写任何其他的样式声明。可是，这*仍*只是一个设想，而实际上并非如此。
 
-As a matter of fact, presentation attributes count as low-level "author style sheets" and are overridden by any other style definitions: external style sheets, document style sheets and inline styles. The only power presentation attributes have in the style cascade is over inherited styles. That is, presentation attributes can only override inherited styles on an element, and are overridden by any other style declaration.
+事实上，presentation 属性只是被认定为低级别的“编程人员层叠样式”，并可被任何其他的声明样式所重写：外部层叠样式、文档层叠样式以及内敛样式。而其唯一的能力，只是能重写元素中所继承的样式。总的来说，presentation 属性只能重写元素的继承样式而会被其他任何的样式声明所重写。
 
-Great, now that that's been cleared up, let's get back to the `<use>` element and its content.
+那好，既然我们弄清楚这点，那么就回到 `<use>` 元素及其内容上。
 
-We now know that we cannot set styles on the elements inside `<use>` using CSS selectors.
+我们目前知道，我们不能简单地通过使用 CSS 选择器来为 `<use>` 中的元素制定样式。
 
-We also know that, just like with the `<g>` element, styles you apply to `<use>` will be inherited by all its descendants (those in the shadow DOM).
+我们也知道，所应用于 `<use>` 的样式与 `<g>` 元素一样，会被所有的后代所继承（即在影子 DOM 中的后代节点）
 
-So a first attempt to change the `fill` color of an element inside `<use>` would be to apply that fill color to the `<use>` element itself and let inheritance and the cascade do its thing.
+因此，我们首先就要尝试一下通过改变 `<use>` 元素自身的填充颜色，来使其被继承。从而，去改变 `<use>` 中一个元素其 `fill` 属性的颜色。
 
-However, that brings up two issues:
+然而，结果却带给了我们两个问题：
 
-1. The fill color will be inherited by *all* the descendants of `<use>`, even those you may not want to style. (If you have only one element inside `<use>`, then this won't be an issue.)
-2. If you've exported an SVG from a graphics editor and/or got an SVG from a designer who did that and for any reason you can't touch the SVG code, then you're likely to end up with SVG elements with presentation attributes applied (unless you explicitly specified that you don't want this to happen upon exporting the SVG, but that's another topic), and the values of these attributes are going to override any styles you apply on `<use>`. Now, I'm assuming that if you are specifying styles on `<use>` then you *want* those styles to be inherited by its descendants, so presentation attributes would be causing an inconvenience in this case.
+1. 填充颜色会被 `<use>` 中*所有*的后代所继承，而有些你却并不希望如此。（当然如果 `<use>` 中只含有一个元素，那么这并不是一个问题）
+2. 如果你已经从一个图形编辑器中导出和/或导入来自一个设计师的 SVG，而由于种种原因却无法触碰到 SVG 的代码。那么这时候，这些已被定义好 presentation 属性的 SVG 元素，就会被你所制定在 `<use>` 的样式所重写（除非，你在导出的时候特意说明，而这又是另一个话题）。那么，现在我假设如果你想在 `<use>` 中定义样式，并*希望*让其被后代所继承。此时， presentation 属性就会造成种种的不便。
 
-And even if you *do* have access to the SVG code and you *can* get rid of the presentation attributes, **I highly recommend against that** because:
+就算，你*能*访问 SVG 代码，且*可以*避免这些 presentation 属性所带来的问题。但**我还是强烈地建议不要使用该种方法**。这是因为：
 
-1. Removing the attributes used to set certain properties will reset those properties to their initial browser-default values—which, in most cases, is all black fills and strokes (if we're talking about colors, for example).
-2. By resetting all values you force yourself into specifying styles for all the properties set, so unless you want to do just that, then you don't want to get rid of those presentation attributes.
-3. The presentation attributes that are initially available are a great fallback mechanism for when the external styles you set are not applied for any reason. If the CSS fails to load because something was messed up, your icon will at least have some default nice styles to fall back to. I highly recommend keeping them.
+1. 这些带来问题的属性在移除后，往往会被重置成浏览器的初始值。而大多数情况下，（举个例子，如果我们是讨论颜色的话）初始值往往会是黑色的填充及描边。
+2. 由于所有的值已被重置，因此你需要为各个属性重新去强制制定样式。因此，除非你想这样做，不然，你是不会希望去避开那些已被定义好的 presentation 属性。
+3. 对于当外部的样式由于某种原因而无法使用的时候，这些初期被设定好的 presentation 属性将会是一个很好的回退机制。也就是说，倘若 CSS 由于部分问题而无法加载。那么，你的图标至少还会是处于初始的默认样式。因此，我强烈地建议你能保留这些 prensetation 属性。
 
-OK so now we have those attributes but we also want to style different instances of our, say, icon, differently.
+可现在我们有这些属性的同时，还是希望能为不同的实例去制定不同的样式，比如说图标，那该怎么办？
 
-The way to do that is to make sure we *force* the presentation attributes into inheriting the styles set on `<use>` or find a way to work around them overriding those values. And in order to do *that*, we need to take advantage of the CSS cascade.
+方法就在于，保证能*强迫*把已定义好的 presentation 属性保留在所继承的样式里，或找到一种方法来绕开它们，以重写其值。为了做到*这样*的效果，我们需要利用上 CSS 的层叠关系。
 
-Let's start with the simplest of examples and gradually move on to more complex scenarios.
+让我们从简单的例子入手，并逐步走往更复杂的场景来讨论吧。
 
-### Overriding Presentation Attribute Values From CSS
+### 通过 CSS 来重写 Presentation 属性
 
-Presentation attributes are overridden by any other style declaration. We can take advantage of this and have an external style declaration force the presentation attribute into overriding its value with the inherited value from `use`.
+由于，Presentation 属性可被任何其他的样式声明所重写。因此，我们可以利用这点，来通过使用一个外部的样式声明，强迫 presentation 属性去继承 `use` 中重写的对应值。
 
-By using the CSS [`inherit` keyword](http://tympanus.net/codrops/css_reference/inherit), this becomes quite simple. Take a look at the following example where we have an ice cream icon made up of just one path whose fill color we want to change for different instances. The icon is Created by Erin Agnoli from the [Noun Project](http://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/thenounproject.com).
+通过使用 CSS 的 [`inherit` 关键字](http://tympanus.net/codrops/css_reference/inherit)将使这变得非常简单。请看一下下面的例子。该例子中有一个雪糕，而该雪糕只由一种路径所描绘。但是，我希望能改变该路径的填充颜色。该图标是由 Erin Agnoli 制作于项目 [Noun Project](http://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/thenounproject.com)。
 
 ```html
 <svg>
     <symbol id="ic">
         <path fill="#000" d="M81,40.933c0-4.25-3-7.811-6.996-8.673c-0.922-5.312-3.588-10.178-7.623-13.844  c-2.459-2.239-5.326-3.913-8.408-4.981c-0.797-3.676-4.066-6.437-7.979-6.437c-3.908,0-7.184,2.764-7.979,6.442  c-3.078,1.065-5.939,2.741-8.396,4.977c-4.035,3.666-6.701,8.531-7.623,13.844C22.002,33.123,19,36.682,19,40.933  c0,2.617,1.145,4.965,2.957,6.589c0.047,0.195,0.119,0.389,0.225,0.568l26.004,43.873c0.383,0.646,1.072,1.04,1.824,1.04  c0.748,0,1.439-0.395,1.824-1.04L77.82,48.089c0.105-0.179,0.178-0.373,0.225-0.568C79.855,45.897,81,43.549,81,40.933z   M49.994,11.235c2.164,0,3.928,1.762,3.928,3.93c0,2.165-1.764,3.929-3.928,3.929s-3.928-1.764-3.928-3.929  C46.066,12.997,47.83,11.235,49.994,11.235z M27.842,36.301c0.014,0,0.027,0,0.031,0c1.086,0,1.998-0.817,2.115-1.907  c0.762-7.592,5.641-13.791,12.303-16.535c1.119,3.184,4.146,5.475,7.703,5.475c3.561,0,6.588-2.293,7.707-5.48  c6.664,2.742,11.547,8.944,12.312,16.54c0.115,1.092,1.037,1.929,2.143,1.907c2.541,0.013,4.604,2.087,4.604,4.631  c0,1.684-0.914,3.148-2.266,3.958H25.508c-1.354-0.809-2.268-2.273-2.268-3.958C23.24,38.389,25.303,36.316,27.842,36.301z   M50.01,86.723L27.73,49.13h44.541L50.01,86.723z"/>
-</symbol>
+    </symbol>
 </svg>
 ```
 
-The ice cream icon's contents (the `path`) are defined in a `<symbol>` element, which means that they won't be directly rendered on the SVG canvas.
+雪糕图标的内容（该 `path`）是被定义于一个 `<symbol>` 元素当中。这就意味着，它不会被直接渲染到 SVG 的画布当中。
 
-Then, we render multiple instances of the icon using `<use>`.
+然后，我们通过使用 `<use>` 来渲染出多个不同的图标实例。
 
 ```html
 <svg class="icon" viewBox="0 0 100 125">
@@ -179,7 +178,7 @@ Then, we render multiple instances of the icon using `<use>`.
 </svg>
 ```
 
-And we set the width and height of the icons from CSS. I am using the same dimensions as the `viewBox` dimensions but they don't have to be identical. However, to avoid getting any excess white space inside the SVG, make sure you maintain the same aspect ratio between them.
+可以看到，图标的宽度和高度是制定于 CSS 中。而两实例的 `viewBox` 属性，其维度值也被设置成相同。当然，这并非需要完全相同。然而，为了避免 SVG 中任何额外空位所产生的影响，我们还是保证两者能拥有相同的分辨率。
 
 ```css
 .icon {
@@ -188,13 +187,13 @@ And we set the width and height of the icons from CSS. I am using the same dimen
 }
 ```
 
-Using the above code, you get the following result:
+运行上面的代码，可以得到下述的结果：
 
 ![](./Screen-Shot-2015-07-15-at-13.21.02.png)
 
-Note that I have added a black border to the SVGs so you can see the boundaries of each one and to show you that the contents of the first SVG where we defined the icon contents are not rendered. This is to make a point here: **the SVG document where you define your `symbol`s will still be rendered on the page, even if it contains no rendered shapes**. In order to avoid that, make sure you set `display: none` on the first SVG. If you don't hide the SVG containing the icon definitions, it will be rendered even if you don't explicitly set any dimensions for it—the browser will default to 300 pixels by 150 pixels, which is the default size for non-replaced elements in CSS, so you will end up with a white area on the page that you do not want.
+要注意的是，我为每一个 SVG 元素都添加有一条黑色的边界以便区分。而第一个 SVG 元素中只是定义了图标内容，但没有被渲染出来。这说明了一点：**SVG 文档仍然会把你定义 `symbol` 的地方给渲染出来。即便，其内容并没有被渲染出形状**。为了避免这样的问题，你必须保证把第一个 SVG 元素设置成 `display: none`。不然，尽管你不设置任何的维度值，浏览器仍然会以 CSS 中对于不可替换元素所设定的默认值300px比150px的分辨率，去渲染该元素，以至于你看到了一个空白的非预料区域。
 
-Now let's try to change the fill color for each icon instance:
+现在，我们尝试一下去改变每一个图标实例的填充颜色：
 
 ```css
 use.ic-1 {
@@ -206,7 +205,7 @@ use.ic-2 {
 }
 ```
 
-The fill color of the icons still does not change because the inherited color values are being overridden by the `fill="#000"` on the `path` element. To prevent that from happening, let's force the `path` into inheriting the color value:
+可以发现，填充颜色并为发生任何改变。因为，该理应被继承的颜色值被 `path` 元素中的 `fill="#000"` 所重写。为了避免这种状况，我们要强迫 `path` 去继承我们所定义的值：
 
 ```css
 svg path {
@@ -214,7 +213,7 @@ svg path {
 }
 ```
 
-And voila!—the colors we set on the `<use>` elements are now applied to the `path` in each one. Check the live demo out and play with the values creating more instances and changing their colors as you go:
+瞧！我们在 `<use>` 元素所定义的颜色被应用到了每一个对应的 `path` 当中。当然，你也可以通过下面所展示的一个 Demo，随意地去添加图标并更改成你所喜欢的颜色：
 
 <br />
 
@@ -223,13 +222,13 @@ And voila!—the colors we set on the `<use>` elements are now applied to the `p
 
 <br />
 
-Now this technique is useful when you want to force the contents of `<use>` to inherit the styles you set on it. But in most cases, this may not be exactly what you want. There are other styling scenarios, so we'll go over some of them next.
+如今，当你想强迫 `<use>` 元素中的内容去继承所设定的样式时，你就可以通过使用上述的方法来完成。但在绝大部分情况下，这也许并非你确切想要的。那么，往后再看看其他的场景下，我们想要的到底是什么。
 
-#### Styling `<use>` Content with the CSS `all` Property
+#### 通过 CSS 的 `all` 属性来订制 `<use>` 中内容的样式
 
-A while back I was working on an icon referenced with `use` and I wanted one of the elements inside of it to inherit all the styles I set on `<use>` like `fill`, `stroke`, `stroke-width`, `opacity` and even `transform`. Basically, I wanted to be able to control all of those attributes from CSS while also keeping the presentation attributes in the markup as fallback.
+过去有那么一次，我在使用 `use` 元素来引用图标的时候，曾希望其中的一个元素能继承所有制定在 `<use>` 上的样式，如 `fill`、`stroke`、`stroke-width`、`opacity` 乃至 `transform` 属性。更确切地说，就是想要控制所有的这些属性，并同时保持 markup 文档中 presentation 属性的值以便回退。
 
-If you find yourself in such a scenario as well, you will probably find it time-consuming to have to do this in the CSS:
+若你遇到过同样的情况时，也许你会发现用上述的方法在 CSS 中实现，会是一件非常耗时的事情：
 
 ```css
 path#myPath {
@@ -241,12 +240,11 @@ path#myPath {
 }
 ```
 
-Looking at the above snippet, you can see a pattern and it would only make sense for us to be able to combine *all* of those properties into one property and set that property's value to `inherit`.
+通过上面的代码片段，我们可以看到，在这个范式中，若能把*所有*的这些属性组合成一个新的属性，并赋值为 `inherit`，那该多好。不然，如此耗时的实现将会变得毫无意义。
 
+幸运的是，CSS 中的 `all` 属性帮我们解决了这样的问题。虽然，在“[CSS 所引用的属性词条](http://tympanus.net/codrops/css_reference/all/)”一文中，我早已谈及如何去使用 `all` 属性来制定 SVG `<use>` 元素中内容的样式。但是，在此我们还是回顾一下吧。毕竟，我们是在重点地讨论此话题。
 
-Fortunately, this is where the CSS `all` property helps. I have written about using the `all` property to style SVG `<use>` content in [property's CSS Reference entry](http://tympanus.net/codrops/css_reference/all/), but it is worth a second look here since we're in the right context.
-
-Using the `all` property, we can do this:
+有了 `all` 属性，我们就可以像这样去实现：
 
 ```css
 path#myPath {
@@ -254,25 +252,25 @@ path#myPath {
 }
 ```
 
-This works great in all browsers that support the `all` property (see property's entry for details), however there is something important to keep in mind: **this declaration will set literally *all* of the properties on the element to inherit their values from their ancestor**, even those you might not have wanted to target. So unless you want to style *all* the properties of your element from your CSS, then you do not want to use this—it is **an extreme measure** and is particularly useful for when you want to "bare-bone" your element and have complete control over its styling properties in CSS, which may not be too often. If you use this declaration and don't specify values for all of the properties in your CSS, they will go up and cascade until they find a value to inherit, which in most cases will be the default browser styles from the default user agent style sheet.
+该代码对于所有支持 `all` 属性的浏览器来说，是没有问题的（详情请参考属性词条一文）。但是，有一点我们需要记住的是：**该声明会把元素中的*所有*属性都设置成所赋的字面值，以继承其祖先的值**，甚至包括那些你并不想得到继承的属性。因此，除非你希望为*所有*的属性都制定样式，不然，你并不能这么做 —— 毕竟，这是一个**极端的手段**。它只针对于控制元素的整个骨架及其样式的指定，而这手段并不过于常见。若你非要使用该声明，而又没有为所有的属性声明其值。那么，这些属性将会沿着继承的关系，往上追溯并找到浏览器中来自默认用户层叠样式表中的默认样式。
 
-Note that this will only affect the attributes that can be set in CSS, not the SVG-only attributes. So if an attribute can be set as a CSS property, it will be set to `inherit`, otherwise it won't.
+注：该属性是会影响 CSS 中的所有属性，而不仅仅是 SVG 的属性。也就是说，只要一个属性能在 CSS 中生效，那么它就会被设置为 `inherit`。相反，则不会。
 
 ---
 
-Being able to force the presentation attributes to inherit from `<use>` styles is powerful, but what if you have an icon with multiple elements and you *don't* want *all* of those elements to inherit the same `fill` color from `use`? What if you want to apply multiple different fill colors to different `use` descendants? Setting one style on `use` no longer suffices. We need something else to help us cascade the right colors to the right elements.
+强迫 presentation 属性去继承 `<use>` 样式的方法的确非常强大。可若你有一个图标包含有不同的元素且*不*希望*所有*的这些元素都去继承 `use` 中的 `fill` 颜色值，那该怎么办？若你想对不同的 `use` 后代赋予不同的填充颜色，那又该怎么办？毕竟，在 `use` 中只制定一个样式这样的方法已然不再奏效。针对这样的状况，我们需要其他的方法来帮助我们把正确的颜色传递到正确的元素上。
 
-### Using the CSS `currentColor` Variable For Styling `<use>` Content
+### 使用 CSS 的 `currentColor` 变量来制定 `<use>` 元素中内容的样式
 
-Using the CSS [`currentColor` variable ](http://tympanus.net/codrops/css_reference/color_value/#section_currentColor)in conjunction with the above technique, we can specify two different colors on an element, instead of just one. Fabrice Weinberg [wrote about this technique on his Codepen blog](http://codepen.io/FWeinb/blog/quick-tip-svg-use-style-two-colors) a little less than a year ago.
+通过使用 CSS 的 [`currentColor` 变量](http://tympanus.net/codrops/css_reference/color_value/#section_currentColor)，连同上述的方法，我们就可以在一个元素中声明两种不同的颜色，而不仅仅一种。在不到一年前，Fabrice Weinberg [在他的 Codepen 博客上早已就相关的技术写了一篇文章](http://codepen.io/FWeinb/blog/quick-tip-svg-use-style-two-colors)，在这里可供我们参考。
 
-The idea behind this technique is to use both the `fill` and the `color` properties on `<use>`, and then have these colors cascade into the contents of `<use>` by taking advantage of the variable nature of `currentColor`. Let's jump right into a code example to see how this works.
+该技术的想法是要在 `<use>` 元素上同时使用 `fill` 和 `color` 两种属性。然后，通过利用 `currentColor` 属性的特性使得这些颜色能被 `<use>` 元素中的内容所继承。下面，让我们来直接看看一个代码例子中，是如何使用这种方法的。
 
-Suppose we want to style this minimal Codrops logo using two colors—one for the front drop and one for the back drop—for every instance of that logo.
+假设我们希望使用两种不同的颜色，去为下面的 Cordrops 小图标制定样式 —— 分别定制前面和后面的。
 
 ![](./StylingSVGuse_codropsdrops.png)
 
-First, let's start with the code for the above screenshot: we have the `symbol` containing our icon definition and then three `<use>` instances creating the three logo instances.
+首先，我们先来看看上述截图的代码：我们会使用 `symbol` 来包含图标的内容定义。然后，每一个图标实例都会对应着一个 `<use>` 实例。
 
 ```html
 <svg style="display: none;">
@@ -292,11 +290,11 @@ First, let's start with the code for the above screenshot: we have the `symbol` 
 </svg>
 ```
 
-If we were to set the `fill` color on the `<use>` element for each instance, that color would be inherited by both paths (drops) and they would both end up having the same color—which is not what we want.
+此时，若我们在 `<use>` 元素中都只设置 `fill` 颜色值的话，那么，颜色将会被每一个路径所继承以至于最后呈现出同样的颜色，而这并不是我们想要的。
 
-So instead of specifying only the `fill` color and having it cascade the default way, we are going to use the `currentColor` variable to make sure the small drop in the front gets a different color value: the value specified using the `color` property.
+因此，除了声明 `fill` 颜色之外，我们还会使用 `currentColor` 变量来保证上层的图标能得到一个不同的颜色值：该值需要通过使用 `color` 属性来声明。
 
-First, we need to insert the `currentColor` where we want that color value to be applied; it goes into the markup where the icon contents are defined, inside the `<symbol>`. So the code looks like this:
+首先，我们先把 `currentColor` 插入到我们希望被应用的地方；然后让其继承颜色至 `<symbol>` 元素中对图标所定义的内容。因此，代码将会变成：
 
 ```html
 <svg style="display: none;">
@@ -307,9 +305,9 @@ First, we need to insert the `currentColor` where we want that color value to be
 </svg>
 ```
 
-Next we need to remove the `fill` presentation attribute from the other drop, and let it inherit the `fill` color from `use` without using the `inherit` technique.
+然后，我们需要把其他图标中的 `fill` presentation 属性移除。然后，让其从 `use` 中继承 `fill` 的颜色值而并不需要使用 `inherit` 的技术。
 
-If we were to use the `inherit` keyword to force the presentation attributes into inheriting their values from `use`, both paths will inherit the same value and the `currentColor` will no longer have an effect. So, in this technique, we do need to remove the attribute we want to set in CSS, and only keep the one whose value we want to set using `currentColor`.
+倘若使用了 `inherit` 关键词去强迫 presentation 属性继承 `use` 中的值，那么，两条路径都会继承同样的值，而 `currentColor` 则不起效果。因此，在该方法中，我们需要移除 CSS 中我们所希望设置的属性，而只保留使用 `currentColor` 属性所设置的值。
 
 ```html
 <svg style="display: none;">
@@ -320,7 +318,7 @@ If we were to use the `inherit` keyword to force the presentation attributes int
 </svg>
 ```
 
-Now, using `fill` and `color` properties on `<use>`, we style the drops:
+现在，我们就可以通过使用 `<use>` 中的 `fill` 和 `color` 属性来制定图标的样式：
 
 ```css
 .codrops-1 {
@@ -337,11 +335,11 @@ Now, using `fill` and `color` properties on `<use>`, we style the drops:
 }
 ```
 
-Each `<use>` element gets its own `fill` and `color` values. For each one, the `fill` color cascades and is inherited by the first path which does not have a `fill` attribute, and the value of the `color` property is used as a value for the `fill` attribute on the second path.
+每一个 `<use>` 元素将会得到属于其自己的 `fill` 和 `color` 值。对于它们自身来说，`fill` 颜色值将会被继承到第一个没有设置 `fill` 属性的路径，而 `color` 属性的值则会被用作于第二个路径中的 `fill` 属性。
 
-So what happened here is that the current color value was *leaked* into the innards of the `<use>` element, using the `currentColor` variable. Pretty neat, right?
+这到底发生了什么事呢？其实，通过使用 `currentColor` 变量，当前的颜色值被“渗透”到 `<use>` 元素的内部。这难道不是一种非常简洁的做法吗？
 
-Here is the live demo for the above code:
+下面列出上述代码的 Demo，以供参考：
 
 <br />
 
@@ -350,25 +348,25 @@ Here is the live demo for the above code:
 
 <br />
 
-This two-color variation technique is quite useful for simple bicoloured logos. In Fabrice's article, he created three different variations of the Sass logo by changing the color of the text versus that of the background.
+对于这种简单的双颜色图标来说，双颜色变量这种方法的确非常有效。在 Fabrice 的文章中，他也是通过改变文本和背景的颜色，为 Sass 图标创建了三个不同的变量。
 
-The `currentColor` keyword is the only available CSS variable in CSS today. However, if we had more variables, wouldn't it make it possible for us to distribute and leak even more values into the `<use>` content? Yes, it would. Amelia Bellamy-Royds introduced this very concept in [a Codepen blog post](http://codepen.io/AmeliaBR/thoughts/customizable-svg-icons-css-variables) a little less than a year ago as well. Let's take a look at how that works.
+目前，`currentColor` 关键字的局限在于它只能在 CSS 中可用。而关键的问题在于，若我们有多个变量，我们可以渗透多个值到 `<use>` 的内容中吗？的确，这是可以的。Ameila Bellmay-Royds 在近一年内，也就相关技术书写了[一篇文章在 Codepen 的博客上](http://codepen.io/AmeliaBR/thoughts/customizable-svg-icons-css-variables)。让我们来看看，他到底是怎么样去渗透。
 
-### The Future: Styling &lt;use&gt; Content with CSS Custom Properties a.k.a CSS Variables
+### 未来：通过 CSS 自定义属性（即 CSS 变量）来制定 &lt;use&gt; 中内容的样式
 
-Using [CSS Custom Properties (a.k.a CSS Variables)](http://www.w3.org/TR/css-variables/), you can style the contents of `<use>` without having to force the browser into overriding any presentation attribute values.
+通过使用 [CSS 自定义属性（即 CSS 变量）](http://www.w3.org/TR/css-variables/)，我们可以在为 `<use>` 中的内容制定样式的同时，不必强迫浏览器去重写任何 presentation 属性的值。
 
-As [defined on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables), CSS Variables are entities defined by authors, or users, of Web pages to contain specific values throughout a document. They are set using custom properties and are accessed using a specific functional notation `var()`. They are very similar to CSS preprocessor (like Sass) variables, but are more flexible and [can do things preprocessor variables can't](http://www.sitepoint.com/css-variables-can-preprocessors-cant/). (An entry on CSS Variables will soon be added to the Codrops CSS Reference, so stay tuned.)
+正如 [MDN 所定义](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)的一样，CSS 变量是编程人员或用户在文档中定义的一个网页实体，并用于包含特定的值。它是由自定义属性所设定，并通过一个特殊的函数标识符 `var()` 所访问的。虽然，它与 CSS 预处理器（像 Sass）中的变量相似，但是，其具有更大的灵活性，且可以做[一些预处理器变量所完成不了的事情](http://www.sitepoint.com/css-variables-can-preprocessors-cant/)。（CSS 变量该词条将会很快被加入到 Codrops 所写“CSS 引用的属性词条”一文当中。因此，请继续关注我们的动态。）
 
-Variables, be it CSS variables or preprocessor variables, can have many usage examples, but theming (colors) is one of the most common use cases. And in this section we'll go over how that can be done when styling SVGs.
+尽管变量（也就是 CSS 变量或预处理器变量）可以有多种的用法。但是，主题化（颜色）却是其中最为常用的一种。在这一节，我们将会讨论如何使用它去为 SVG 制定样式。
 
-We'll start with one image defined in a `symbol` and instantiated with `use` and apply this technique to one image only; the concepts applied to style the contents of `<use>` in this example can be applied to as many `<use>` elements as you want.
+首先，这里有一张通过 `symbol` 元素定义的图片并通过 `use` 所实例化。下面，我们将仅对该图采用上述的技术；当然，若你喜欢的话，也可以为更多的元素进行样式上的制定。
 
-So, suppose we have the following cute hipster robot illustration [designed by Freepik](http://www.freepik.com/free-vector/cute-vector-hipster-robot-character_714905.htm).
+然后，假定我们采用的是一张[由 Freepik 所设计](http://www.freepik.com/free-vector/cute-vector-hipster-robot-character_714905.htm)的插图。该图中画有一部既可爱又时髦的机器人。
 
 <a href="./1.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./1.png" alt="Screen Shot 2015-07-15 at 22.32.43" width="776" height="1186" class="alignnone size-full wp-image-24468" srcset="./1.png 776w, ./1_1.png 196w" sizes="(max-width: 776px) 100vw, 776px"></a>
 
-The code for the robot contains the colors that make it up.
+下面的代码包含了其颜色组成的定义。
 
 ```html
 <svg style="display: none">
@@ -391,9 +389,9 @@ The code for the robot contains the colors that make it up.
 </svg>
 ```
 
-Now, we are *not* going to use the CSS Variables as values for the `fill` attribute of each path; instead, we're going to use them as fill color values using the CSS `fill` *property*, and we're going to keep the `fill` attributes in place. **The attributes will be used as a fallback for browsers that don't support CSS Variables**, so the image will still look as it initially did if the variables fail to work in those browsers.
+现在，我们并*不是*使用 CSS 变量直接作为 `fill` 属性的值；而是作为 CSS 中的 `fill` *属性*的值，并固定起来。这是因为，**该属性可作为一种回退机制，以防浏览器不支持 CSS 变量**。若有了回退的机制，即便变量无法工作起来，图片也仍然会展示其初始的模样。
 
-With the variables added, the above code will look like so:
+添加 CSS 变量后，上述的代码将会变成：
 
 ```html
 <svg style="display: none">
@@ -416,9 +414,9 @@ With the variables added, the above code will look like so:
 </svg>
 ```
 
-Since inline `style` tags override presentation attributes, browsers that support CSS Variables will use those variables as fill colors for the shapes. Browsers that do not support CSS variables will use the `fill` attribute values instead.
+既然，内敛 `style` 标识符会重写 presentation 属性。那么，支持 CSS 变量的浏览器也将会采用该变量来作为形状的填充颜色。相反，对于那些不支持的浏览器则只会采用 `fill` 属性的值。
 
-Next, we need to define the values for the variables in CSS. First, the illustration will be instantiated using `use`:
+接下来，我们需要在 CSS 中定义该变量。首先，使用 `use` 来实例化插图：
 
 ```html
 <svg width="340" height="536">
@@ -426,7 +424,7 @@ Next, we need to define the values for the variables in CSS. First, the illustra
 </svg>
 ```
 
-Then, the variables will be defined on `use` so that they cascade into its contents. The colors you choose for the variables will make up the color scheme of the contents of your illustration. So, for the above robot, there were three main colors making up the graphic, so I named them primary, secondary and tertiary.
+然后，在 `use` 中定义该变量以使得其可被 `use` 中的内容所继承。因为，为变量所选择的颜色均决定了该插图的颜色体系。因此，将会有三种主颜色体系来组成图片。我在这分别把它们称作 primary、secondary 和 tertiary。
 
 ```css
 #robot-1 {
@@ -436,23 +434,23 @@ Then, the variables will be defined on `use` so that they cascade into its conte
 }
 ```
 
-You can still use the `fill` and `color` properties alongside these variables, but you may not need to or simply not want to. So, given the above colors defined for the variables, the robot now looks like this:
+当然，你也可以在使用这些变量的同时，使用 `fill` 和 `color` 属性。但是，我认为你并不必要且无需费神。给定上述的颜色定义后，机器人将会变成：
 
 <a href="./2.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./2.png" alt="Screen Shot 2015-07-15 at 22.54.53" width="796" height="1202" class="alignnone size-full wp-image-24471" srcset="./2.png 796w, ./2_1.png 199w" sizes="(max-width: 796px) 100vw, 796px"></a>
 
-You can have as many copies of the image as you want, and for each `use` define a set of different colors to be used, and end up with different themes. This is particularly useful for when you want to style a logo in different ways depending on the context, or for any other similar use cases.
+若你喜欢的话，也拷贝多张图片，并为每一张中的 `use` 都定义一组不同的颜色，以实现不同的颜色主题。若要为一个图标在不同内容中制定不同的样式，或有着其他相似的需求时，这种方法将会变得特别有效。
 
-Now, we mentioned that browsers that don't support CSS Variables are going to fall back to the initial styles defined in the presentation attributes, and browsers that do support the variables will use the variables in the `fill` properties to override the attributes. Great. But what happens if the browser *does* support CSS Variables but the author fails to provide them with a value for a specific variable or if the value they provided is invalid?
+既然，我们知道若浏览器不支持 CSS 变量，该图片将会回退至起初定义在 presentation 属性的样式，而若支持，则会采用变量重写该值。好，那如果浏览器*是*支持 CSS 变量，可编程人员却没有为特定的变量给定值，或所给定的值无效，那会发生怎样的事情？我们可以测试一下。
 
-For our hipster robot here, we defined three variables, and only a few elements inside of the image did not get any variables because the colors used were complimentary and would go with pretty much any color theme used. So, if you display the above code in a browser that supports CSS variables (currently only Firefox) and remove the variable declarations from the CSS, you will end up with this:
+对于我们这里的时髦机器人来说，我们定义有三个变量，而仅有一些元素没用采用到这三个变量。那么，现在若我们在一个支持 CSS 变量的浏览器上展示图片（目前只有 Firefox），且移除 CSS 中的变量声明。我们会得到怎样的结果：
 
 <a href="./3.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./3.png" alt="Screen Shot 2015-07-15 at 22.59.37" width="772" height="1178" class="alignnone size-full wp-image-24472" srcset="./3.png 772w, ./3_1.png 197w" sizes="(max-width: 772px) 100vw, 772px"></a>
 
-If the values provided for the variables are either not set or invalid, the browser will default to its own colors, which is usually black for fill and stroke colors in SVG.
+可以发现，若值没有被设定或所设定的值无效时，浏览器会采用其默认的颜色。通常在 SVG 中，填充和描边的默认颜色会是黑色。
 
-A way to avoid that is to provide **another fallback color for supporting browsers**. Indeed, the CSS variables syntax comes with a way to do just that: instead of providing only the variable name inside the `var()` function as an argument, you provide two comma-separated arguments: the variable name and a fallback color value—which in this case is the value we have in the presentation attributes.
+为了避免该情况，我们需要另一种方式。那就是，为**支持的浏览器提供另一个颜色的回退机制**。实际上，CSS 变量的访问语法中提供有一种方法：那就是往 `var()` 中提供两个由逗号分隔的参数，而不仅仅是一个变量名：变量名和一个回退的颜色值 —— 在我们这个例子中指的是 presentation 属性的值。
 
-So, going over the above code for the robot, it will look like this:
+把代码修改后，会变成：
 
 ```html
 <svg style="display: none">
@@ -475,11 +473,11 @@ So, going over the above code for the robot, it will look like this:
 </svg>
 ```
 
-And that's it. For any variable that fails to load its defined value or that does not have one, the browser will fall back to the initial color defined in the markup. Wonderful.
+没错，就是这样。对于任何不能加载其值或无值的 CSS 变量，浏览器都会回退至定义在 markup 文档上的颜色。这方法真的是太美妙了。
 
-Using this technique, you can now reference the robot anywhere you want on the page with `<use>`, and for every new instance define a set of variable values in the CSS, and you'll have a different color theme per instance.
+通过这样的技术，如今在任何地方，你都可以使用 `<use>` 来引用机器人，并在 CSS 中为每一个新的实例定义一组不同的变量值。这样的话，每一个实例，就会有着不同的颜色主题。
 
-You can play with the above demo, create as many copies of the robot as you want and assign different variable values to them in this live demo, just make sure you use Firefox at this time because it's the only browser supporting CSS Variables at the time of writing of this article:
+当然，你可以通过下面的 Demo 去测试一下，可你这次需要保证所使用的是 Firefox 浏览器。因为，在写该文时，Firefox 是唯一一个能支持 CSS 变量的浏览器：
 
 <br />
 
@@ -488,18 +486,18 @@ You can play with the above demo, create as many copies of the robot as you want
 
 <br />
 
-If you view the demo in Firefox, you will see the blue + yellow version of the robot that we defined with CSS variables. Make sure you check the demo in Chrome to see how it falls back to the initial colors (green version), and try removing the variable declarations from the CSS in Firefox to also see how the fallback works.
+若你是在 Firefox 上浏览该 Demo，那么你将会看到的是一个蓝 + 黄版本的机器人。请查看一下在 Chrome 中，该机器人是否回退到初始的颜色（绿版本），并尝试在 Firefox 中清除一下通过 CSS 定义变量，然后看看回退的效果。
 
-### Summing Up
+### 总结
 
-Phew. That was a lot.
+咂。已经写了这么多东西了，是时候该总结一下。
 
-By taking advantage of the CSS cascade, styling the contents of `<use>`—though in a shadow DOM—can become less complicated. And with CSS variables (be it `currentColor` alone or the custom properties) we can penetrate the lines of the shadow DOM and customize our graphics to our liking while also providing very good fallback for when anything goes wrong.
+通过利用 CSS 的继承关系，我们可以为 `<use>` 的内容轻易地制定样式 —— 即便该内容是在影子 DOM 中。而通过 CSS 变量（也可以是 `currentColor` 属性或自定义属性），我们可以渗透到影子 DOM 的字里行间，并根据我们的喜好制定属于自己的图片。同时，还提供有较好的回退机制以防出错。
 
-Personally, I am incredibly excited about the CSS Variables + SVG combination. I love how powerful they are together, especially given the great fallback mechanism we have with it. **They are currently only supported in Firefox, as we mentioned, but if you want to see them get wider support you can start by voting for them in other browsers such as on the [MS Edge User Voice forums](https://wpdev.uservoice.com/forums/257854-internet-explorer-platform/suggestions/6261292-css-variables)**.
+个人而言，我对 CSS 变量 + SVG 这样的组合是感到极其的兴奋。因为，我喜欢它们在一起所产生出的强大力量，尤其是给定了一种美妙的回退机制。**即便如我所述，目前只在 Firefox 中支持。但是，若你想让其得到其他浏览器的广泛支持，你完全可以为其在 [MS Edge User Voice 论坛](https://wpdev.uservoice.com/forums/257854-internet-explorer-platform/suggestions/6261292-css-variables)上投票**。
 
-We may even get other ways to style `use` content in the future as well since there are already discussions going on about using CSS Variables as SVG parameters; so this article, though long, might have not covered everything there is to know about this topic. If you have any other ideas, please feel free to share them in the comments below.
+也许在将来，我们会找到其他的方法去制定 `use` 的内容。毕竟，关于使用 CSS 变量作为 SVG 参数的话题，已经存在有相关的讨论。因此，文章虽长，可未必会涵盖到该话题的方方面面。若您有任何的意见或看法，请不要拘谨。直接把你的想法通过下面的评论分享出来。
 
-Dealing with the contents of re`use`d SVG elements has been one of those SVG topics that many people seem to find some hardship with, because of the nature of how the cloned code behaves and where it is cloned to. There are a lot more topics to cover that are related to that, but those are topics for other articles.
+关于处理 SVG 元素中被重用的内容，已然成为众多 SVG 话题中的一个。许多人看似因为克隆代码的表现及其位置特性，而沉陷于困难之中。尽管，话题受人追捧。但是，由于与本文无关，因此，我就不在此细说。
 
-I hope you enjoyed this article and found it useful. Thank you for reading.
+希望你能享受这篇文章，并发现其可用之处。感谢您的阅读。
