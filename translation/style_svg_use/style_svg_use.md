@@ -4,7 +4,7 @@
 * 原文作者 : [Sara Soueidan](https://github.com/SaraSoueidan)
 * 译者 : [aleen42](https://github.com/aleen42)
 * 校对者 : 暂无
-* 状态 : 翻译中
+* 状态 : 待校对
 
 ![](./StylingSVGuse.jpg)
 
