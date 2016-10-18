@@ -442,7 +442,7 @@ path#myPath {
 
 既然，我们知道若浏览器不支持 CSS 变量，该图片将会回退至起初定义在 presentation 属性的样式，而若支持，则会采用变量重写该值。好，那如果浏览器*是*支持 CSS 变量，可编程人员却没有为特定的变量给定值，或所给定的值无效，那会发生怎样的事情？我们可以测试一下。
 
-对于我们这里的时髦机器人来说，我们定义有三个变量，而仅有一些元素没用采用到这三个变量。那么，现在若我们在一个支持 CSS 变量的浏览器上展示图片（目前只有 Firefox），且移除 CSS 中的变量声明。我们会得到怎样的结果：
+对于我们这里的时髦机器人来说，我们定义有三个变量，而仅有部分元素没采用到它们。那么，现在若我们在一个支持 CSS 变量的浏览器上展示图片（目前只有 Firefox），且移除 CSS 中的变量声明。我们会得到怎样的结果：
 
 <a href="./3.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./3.png" alt="Screen Shot 2015-07-15 at 22.59.37" width="772" height="1178" class="alignnone size-full wp-image-24472" srcset="./3.png 772w, ./3_1.png 197w" sizes="(max-width: 772px) 100vw, 772px"></a>
 
