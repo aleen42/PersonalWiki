@@ -91,7 +91,6 @@
 * [**Chris Gannon**](http://blog.gannon.tv/)
 * [**原デザインKenya Hara**, **原研哉**](http://www.ndc.co.jp/hara/en/)
 
-
 ### Books
 - Coder
     - [**Antirez's news**](./antirez/antirez.md)
