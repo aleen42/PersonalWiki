@@ -364,7 +364,7 @@ path#myPath {
 
 然后，假定我们采用的是一张[由 Freepik 所设计](http://www.freepik.com/free-vector/cute-vector-hipster-robot-character_714905.htm)的插图。该图中画有一部既可爱又时髦的机器人。
 
-<a href="./1.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./1.png" alt="Screen Shot 2015-07-15 at 22.32.43" width="776" height="1186" class="alignnone size-full wp-image-24468" srcset="./1.png 776w, ./1_1.png 196w" sizes="(max-width: 776px) 100vw, 776px"></a>
+<a href="./1.png"><img style="max-width: 51.94805194805195%;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./1.png" alt="Screen Shot 2015-07-15 at 22.32.43" width="776" height="1186" class="alignnone size-full wp-image-24468" srcset="./1.png 776w, ./1_1.png 196w" sizes="(max-width: 776px) 100vw, 776px"></a>
 
 下面的代码包含了其颜色组成的定义。
 
@@ -436,7 +436,7 @@ path#myPath {
 
 当然，你也可以在使用这些变量的同时，使用 `fill` 和 `color` 属性。但是，我认为你并不必要且无需费神。给定上述的颜色定义后，机器人将会变成：
 
-<a href="./2.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./2.png" alt="Screen Shot 2015-07-15 at 22.54.53" width="796" height="1202" class="alignnone size-full wp-image-24471" srcset="./2.png 796w, ./2_1.png 199w" sizes="(max-width: 796px) 100vw, 796px"></a>
+<a href="./2.png"><img style="max-width: 51.94805194805195%;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./2.png" alt="Screen Shot 2015-07-15 at 22.54.53" width="796" height="1202" class="alignnone size-full wp-image-24471" srcset="./2.png 796w, ./2_1.png 199w" sizes="(max-width: 796px) 100vw, 796px"></a>
 
 若你喜欢的话，也拷贝多张图片，并为每一张中的 `use` 都定义一组不同的颜色，以实现不同的颜色主题。若要为一个图标在不同内容中制定不同的样式，或有着其他相似的需求时，这种方法将会变得特别有效。
 
@@ -444,7 +444,7 @@ path#myPath {
 
 对于我们这里的时髦机器人来说，我们定义有三个变量，而仅有部分元素没采用到它们。那么，现在若我们在一个支持 CSS 变量的浏览器上展示图片（目前只有 Firefox），且移除 CSS 中的变量声明。我们会得到怎样的结果：
 
-<a href="./3.png"><img style="max-width: 400px;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./3.png" alt="Screen Shot 2015-07-15 at 22.59.37" width="772" height="1178" class="alignnone size-full wp-image-24472" srcset="./3.png 772w, ./3_1.png 197w" sizes="(max-width: 772px) 100vw, 772px"></a>
+<a href="./3.png"><img style="max-width: 51.94805194805195%;position: relative;display: block;margin: 10px auto;text-align: center;height: auto;" src="./3.png" alt="Screen Shot 2015-07-15 at 22.59.37" width="772" height="1178" class="alignnone size-full wp-image-24472" srcset="./3.png 772w, ./3_1.png 197w" sizes="(max-width: 772px) 100vw, 772px"></a>
 
 可以发现，若值没有被设定或所设定的值无效时，浏览器会采用其默认的颜色。通常在 SVG 中，填充和描边的默认颜色会是黑色。
 
