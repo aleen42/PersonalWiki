@@ -78,6 +78,12 @@
             "copyrightColor": "#666",
             "description": "update time:"
         },
+        "page-treeview": {
+            "copyright": "Copyright © aleen42",
+            "style": "markdown",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        },
         "resources": {
             "type": "github",
             "repo": "aleen42/PersonalWiki",
