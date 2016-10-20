@@ -226,7 +226,7 @@ function tableClonedDOM() {
 }
 ```
 
-#### HTML collections
+#### HTML Collections
 
 **HTML collections** are array-like object, which contains DOM node references. For instances, they are the values returned by the following methods:
 
@@ -423,7 +423,7 @@ function visitWithChildNodes() {
 
 These two approaches are mostly equal except in IE. In IE6, `nextSibling` is **16 times** faster than `childNodes`, while in IE7, it's **105 times** faster. Therefore, prefer to use `nextSibling` considering the older IE versions.
 
-##### **Element nodes**
+##### **Element Nodes**
 
 DOM properties such as `childNodes`, `firstChild` and `nextSibling` don't distinguish between element nodes and other node types, such as comments or text nodes, which are often just spaces between two tags. Due to this reason, when walking the DOM, you may have to check the type of node, in order to filter out non-element nodes. However, actually this checking is unnecessary DOM work, because most mordern browsers have offered APIs for you, and they are certainly better to be used. (**In IE6, it should be 24 times faster, while 124 times faster in IE7**, but older IE versions are only supported for `children` to access.)
 
@@ -568,11 +568,46 @@ tmp = computed.backgroundColor;
 tmp = computed.backgroundAttachment;
 ```
 
+But sometimes, we do need to request those layout information. What we should do is to assign it into a local variables and work with it.
+
+```js
+/** inefficient */
+function render() {
+    el.style.left = 1 + el.offsetLeft + 'px';
+    el.style.top = 1 + el.offsetTop + 'px';
+
+    if (el.offsetLeft < 500) {
+        requestAnimationFrame(render);
+    }
+}
+
+/** start the animation */
+requestAnimationFrame(render);
+```
+
+Instead of this inefficient way, we are going to code like this:
+
+```js
+var current = el.offsetLeft;
+
+function render() {
+    current++;
+    el.style.cssText = 'left: ' + current + 'px; top: ' + current + 'px;';
+
+    if (current < 500) {
+        requestAnimationFrame(render);
+    }
+}
+
+/** start the animation */
+requestAnimationFrame(render);
+```
+
 #### Minimizing Repaints and Reflows
 
 To reduce expensive cost on both two approaches, what you should do is to reduce their number. In another word, just to combine multiple DOM and style changes into a batch and apply them once.
 
-##### **Style changes**
+##### **Style Changes**
 
 Considering this:
 
@@ -603,7 +638,7 @@ var el = document.getElementById('content');
 el.className = 'active';
 ```
 
-##### **Batching DOM changes**
+##### **Batching DOM Changes**
 
 What if there are many changes applied to a DOM element, you can reduce reflows and repaints by following these steps:
 
