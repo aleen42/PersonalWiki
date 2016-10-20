@@ -743,3 +743,82 @@ Reflows sometimes affect only a small part of the render tree, but they can also
 If you have a significant number of elements with a `:hover`, the responsiveness will degrade (降低).
 
 For example, suppose that you have created a table with 500-1000 rows and 5 columns. For each row, you have also used `tr:hover` to highlight. You may find that the highlight is slow to apply, and the CPU usage increases to 80%-90%. So, please **avoid** it.
+
+### Event Delegation
+
+Another performance problem has arisen when lots of elements have attached one or more event handlers. Most attachments have their attaching phase happened at the `onload` (or `DOMContentReady`) event, **resulting in more processing time for loading** pages. In addition, the bowser need to keep track of each event handler, which **takes up memory**. Actually, a great number of event handlers might never be needed. For instance, users only clicked one button or link, but not all of them.
+
+Therefore, a simple and elegant technique for handling even delegation is to use event bubbling, to give this handler to their parents. It means that, you can attach only one handler on a wrapper element to handle all events that happen to the children.
+
+According to the DOM standard, each event has three phase:
+
+- Capturing
+- At target
+- Bubbling
+
+Even though capturing is not supported by IE, bubbling is good enough for the purpose of delegation.
+
+Considering the following case:
+
+```html
+<html>
+<head></head>
+<body>
+    <div>
+        <ul id="menu">
+            <li>
+                <a href="menu1.html">menu #1</a>
+            </li>
+            <li></li>
+            <li></li>
+            <!-- ... -->
+        </ul>
+    </div>
+</body>
+</html>
+```
+
+From the snippet code, we can se that a menu has included sort `li` elements, which has an `a` element for its child.
+
+When the user click the link of `menu #1`, the click event is first received by this `a` element and then bubbles up to `li`, then `ul`, then `div`, and so on, all the way to the top of the document and even the `window`. Suppose that you want to do something before the clicked `a` element starts to reload the page, and you can attach a click event listener in the wrapper, which is the `ul` element here, then inspect this event:
+
+```js
+document.getElementById('menu').onclick = function (e) {
+    /** x-browser target */
+    e = e || window.event;
+    var target = e.target || e.srcElement;
+
+    /** only interested in `href` attribute, and exit when it's not the target you want to handle */
+    if (target.nodeName !== 'A') {
+        return;
+    }
+
+    /**
+     *  do something
+     *  ...
+     */
+
+    /** prevent default action and stop propagation of events */
+    if (typeof e.preventDefault === 'function') {
+        e.preventDefault();
+        e.stopPropagation();
+    } else {
+        e.returnValue = false;
+        e.cancleBubble = true;
+    }
+};
+```
+
+As you saw, the event delegation technique is quite simple, and what you should do is only to inspect events to see whether they come from elements you're interested in.
+
+### Summary
+
+To reduce the performance cost related to DOM scripting, keep the following in mind:
+
+- Minimize DOM access, and try to work as much as possible in JavaScript.
+- Use local variable to store DOM references which you will use repeatedly.
+- Cache HTML collections `length` into a local variable when it's small, or convert it into an array when it's large.
+- Use faster APIs when available, such as `firstElementChild` or `querySelectorAll()`.
+- Reduce cases of reflows and reprints.
+- Using absolute positioning when animating
+- Use event delegation to minimize the number of event handlers.
