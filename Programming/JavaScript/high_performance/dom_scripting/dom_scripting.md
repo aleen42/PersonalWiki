@@ -737,3 +737,9 @@ Reflows sometimes affect only a small part of the render tree, but they can also
 1. Using absolute positioning to take elements out of flow of the page.
 2. Animate the element. (Even if it expands, there will only be a reflow of a small part of the page.)
 3. When the animation is done, restore the positioning, thereby pushing down the rest of the document only once.
+
+#### Avoid Using Pseudo Classes `:hover` of CSS
+
+If you have a significant number of elements with a `:hover`, the responsiveness will degrade (降低).
+
+For example, suppose that you have created a table with 500-1000 rows and 5 columns. For each row, you have also used `tr:hover` to highlight. You may find that the highlight is slow to apply, and the CPU usage increases to 80%-90%. So, please **avoid** it.
