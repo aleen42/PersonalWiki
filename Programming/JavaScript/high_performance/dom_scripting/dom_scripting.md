@@ -379,3 +379,57 @@ Browsers|Safari 4|Chrome 2|Chrome 3|Opera 9.64|Opera 10
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 Faster (collectionLocal)|2.15x|4.74x|4.56x|345x|253x
 Faster (collectionNodeLocal)|2.74x|5.51x|6.15x|345x|324x
+
+#### Walking the DOM
+
+The DOM API has provided multiple methods for accessing specific parts of the overall document structure. In case when you can choose between those approaches, it's beneficial to use the most efficient one.
+
+**Crawling (漫步於) the DOM**:
+
+When working with surrounding elements, we may recursively iterating over all children. In this case, not only `childNdoes` we can us, but also the `nextSibling`.
+
+Consider using these two approaches to do a nonrecursive visit of an element's childen:
+
+```js
+function visitWtihNextSibling() {
+    var el = documet.getElementById('content');
+    var ch = el.firstChild;
+    var name = '';
+
+    do {
+        name = ch.nodeName;
+    } while (ch = ch.nextSibling);
+
+    return name;
+}
+
+/** and */
+
+function visitWithChildNodes() {
+    var el = documet.getElementById('content');
+    var ch = el.childNodes;
+
+    /** remember to cache the length into a local variable, cause what `childNodes` return is an HTML collection. */
+    var len = ch.length;
+    var name = '';
+
+    for (var count = 0; count < len; count++) {
+        name = ch[count].nodeName.
+    }
+
+    return name;
+}
+```
+
+These two approaches are mostly equal except in IE. In IE6, `nextSibling` is **16 times** faster than `childNodes`, while in IE7, it's **105 times** faster. Therefore, prefer to use `nextSibling` considering the older IE versions.
+
+DOM properties such as `childNodes`, `firstChild` and `nextSibling` don't distinguish between element nodes and other node types, such as comments or text nodes, which are often just spaces between two tags. Due to this reason, when walking the DOM, you may have to check the type of node, in order to filter out non-element nodes. However, actually this checking is unnecessary DOM work, because most mordern browsers have offered APIs for you, and they are certainly better to be used.
+
+Property|Use as replacement for
+:-------|:---------------------
+children|childNodes
+childElementCount|childNodes.length
+firstElementChild|firstChild
+lastElementChild|lastChild
+nextElementSibling|nextSibling
+previousElementSibling|previousSibling
