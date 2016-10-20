@@ -384,7 +384,7 @@ Faster (collectionNodeLocal)|2.74x|5.51x|6.15x|345x|324x
 
 The DOM API has provided multiple methods for accessing specific parts of the overall document structure. In case when you can choose between those approaches, it's beneficial to use the most efficient one.
 
-**Crawling (漫步於) the DOM**:
+##### **Crawling (漫步於) the DOM**
 
 When working with surrounding elements, we may recursively iterating over all children. In this case, not only `childNdoes` we can us, but also the `nextSibling`.
 
@@ -423,7 +423,9 @@ function visitWithChildNodes() {
 
 These two approaches are mostly equal except in IE. In IE6, `nextSibling` is **16 times** faster than `childNodes`, while in IE7, it's **105 times** faster. Therefore, prefer to use `nextSibling` considering the older IE versions.
 
-DOM properties such as `childNodes`, `firstChild` and `nextSibling` don't distinguish between element nodes and other node types, such as comments or text nodes, which are often just spaces between two tags. Due to this reason, when walking the DOM, you may have to check the type of node, in order to filter out non-element nodes. However, actually this checking is unnecessary DOM work, because most mordern browsers have offered APIs for you, and they are certainly better to be used.
+##### **Element nodes**
+
+DOM properties such as `childNodes`, `firstChild` and `nextSibling` don't distinguish between element nodes and other node types, such as comments or text nodes, which are often just spaces between two tags. Due to this reason, when walking the DOM, you may have to check the type of node, in order to filter out non-element nodes. However, actually this checking is unnecessary DOM work, because most mordern browsers have offered APIs for you, and they are certainly better to be used. (**In IE6, it should be 24 times faster, while 124 times faster in IE7**, but older IE versions are only supported for `children` to access.)
 
 Property|Use as replacement for
 :-------|:---------------------
@@ -433,3 +435,67 @@ firstElementChild|firstChild
 lastElementChild|lastChild
 nextElementSibling|nextSibling
 previousElementSibling|previousSibling
+
+##### **The Selector API**
+
+Using `getElementById()` or `getElementsByTagName()` or both to identify an element in DOM will be an inefficient way for us. On the other hand, CSS selectors are a convenient way for us because of our familiarity with CSS. For this reason, recent browser versions has provided a method called `querySelectorAll()` as a native browser DOM method. Actually, by using this method, it's faster to identify elements than using JavaScript and DOM to iterate.
+
+```js
+var elements = document.querySelectorAll('#menu a');
+```
+
+Considering the code above, `elements` will contain a list of references to all `a` elements, which we called that a **NodeList** - another array-like object, but not an HTML collection. So, this can avoid the performance problem of HTML collections mentioned before.
+
+Without this approach, you may code like this. Such verbose you know:
+
+```js
+var elements = document.getElementById('menu').getElementsByTagName('a');
+```
+
+Another terrible thing is that `elements` will be an HTML collection. It means that you should have to convert it into an array before accessing. In cases that when you want to work with a union of several queries:
+
+With `querySelectorAll`:
+
+```js
+var errs = document.querySelectorAll('div.warning, div.notice');
+```
+
+With `getElementById` and `getElementsByTagName`:
+
+```js
+var errs = [];
+var divs = document.getElementsByTagName('div');
+var className = '';
+
+for (var i = 0, len = divs.length; i < len; i++) {
+    className = divs[i].className;
+
+    if (className === 'notice' || className === 'warning') {
+        errs.push(divs[i]);
+    }
+}
+```
+
+The first method should be faster than the second one, but how faster?
+
+Browsers|IE 8|Firefox 3.5|Safari 3.2|Safari 4
+:----:|:-----:|:-----:|:-----:|:-----:
+Faster|2.46x|2x|6.06x|2.13x
+
+Browsers|Chrome 2|Chrome 3|Opera 10
+:------:|:-----:|:-----:|:------:
+Faster|3.65x|3.45x|4.88x
+
+Familiar with `querySelectorAll`, `querySelector` is another convenient method for us to use, while it only return the first node matched.
+
+### Repaints and Reflows
+
+Once the browser has downloaded all the components of a page, HTML, markup, JavaScript, CSS, or images, it sill parse through them and **create two internal data structures**:
+
+- *A DOM tree*
+
+    A representation of the page structure
+
+- *A render tree*
+
+    A representation of how the page should be displayed
