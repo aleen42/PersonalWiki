@@ -502,6 +502,195 @@ Once the browser has downloaded all the components of a page, HTML, markup, Java
 
 Hidden DOM elements don't have a corresponding node in the render tree, and nodes in the render tree are called *frames* or *boxes* in accordance with (與 ...  相符) the CSS model that treats page elements as boxes with `margin`, `border`, `padding`, and position. With the DOM and the render tress constructed, the browser can display (or called 'paint') the elements on the page.
 
-When a DOM change affects the geometry of an element (width or height), such as a change in the thickness of the border or adding more text to a paragraph, resulting in an additional line, the browser needs to recalculate the geometry of the element. With the calculated result, the browser will invalidate the part of the render tree that was affected by the change and reconstructs the render tree. This process is know as **Reflow (回流，亦称重排)**. With the reflow completed, the browser will redraw the affected parts of the screen in a process called **Repaint (重繪)**.
+When a DOM change affects the geometry of an element (width or height), such as a change in the thickness of the border or adding more text to a paragraph, resulting in an additional line, the browser needs to recalculate the geometry of the element. With the calculated result, the browser will invalidate the part of the render tree that was affected by the change and reconstructs the render tree. This process is know as **Reflow (重排，亦称頁面回流)**. With the reflow completed, the browser will redraw the affected parts of the screen in a process called **Repaint (重繪)**.
 
-So before repainting, is that reflow necessary? The answer is no. Not all DOM changes affect the geometry. For instance, changing the background color of an element won't change its width or height. In that case, there is a repaint only (no reflow).
+So before repaints, are that reflows necessary? The answer is no. Not all DOM changes affect the geometry. For instance, changing the background color of an element won't change its width or height. In that case, there is a repaint only (no reflow).
+
+As both repaint and reflow are expensive operations, which will make the UI of a web application less responsive, it's important to reduce their occurrences whenever possible.
+
+A reflow will happen when:
+
+- Visible DOM elements are added or removed
+- Elements change position
+- Elements change size (changing in margin, padding, border thickness, width, height, etc.)
+- Contents change (text changes or image is replaced with one of a different size.)
+- Page renders initially
+- Browsers window is resized
+
+What you should notice is that **some changes may cause a reflow of the whole page**: for example, when a scroll bar appears.
+
+#### Queuing and Flushing Render Tree Changes
+
+Most browsers will optimize the reflow process by queuing changes and performing them in batches. However, sometimes the queue will be forced to be flushed by us (often involuntarily), in order to make all scheduled changes be applied right way. Flushing the queue happens when we retrieve any layout information like:
+
+- `offsetTop`, `offsetLeft`, `offsetWidth`, `offsetHeight`
+- `scrollTop`, `scrollLeft`, `scrollWidth`, `scrollHeight`
+- `clientTop`, `clientLeft`, `clientWidth`, `clientHeight`
+- `getComputedStyle()` (`currentStyle` in IE)
+
+The browser has to execute the pending changes in the rendering queue, and reflow in order to return correct layout information. For this reason, it's best not to use any properties shown below during the process of changing styles. Otherwise, it will result in some redundant reflow.
+
+Considering the following example:
+
+```js
+var computed;
+var tmp = '';
+var bodyStyle = documet.body.style;
+
+if (document.body.currentStyle) {
+    /** IE, Opera */
+    computed = document.body.currentStyle;
+} else {
+    /** W3C */
+    computed = document.defaultView.getComputedStyle(document.body, '');
+}
+
+/**
+ * Each time we retrieve an property, which is unrelated to the changing of color
+ * Yet the browser has to flush the render queue and reflow, due to your retrieving
+ */
+bodyStyle.color = 'red';
+tmp = computed.backgroundColor;
+bodyStyle.color = 'white';
+tmp = computed.backgroundImage;
+bodyStyle.color = 'green';
+tmp = computed.backgroundAttachment;
+```
+
+So, a better approach should avoid retrieving layout information while it's being changed.
+
+```js
+bodyStyle.color = 'red';
+bodyStyle.color = 'white';
+bodyStyle.color = 'green';
+tmp = computed.backgroundImage;
+tmp = computed.backgroundColor;
+tmp = computed.backgroundAttachment;
+```
+
+#### Minimizing Repaints and Reflows
+
+To reduce expensive cost on both two approaches, what you should do is to reduce their number. In another word, just to combine multiple DOM and style changes into a batch and apply them once.
+
+##### **Style changes**
+
+Considering this:
+
+```js
+/** the worst case will cause reflows three times, though most modern browser will optimize this into once */
+var el = document.getElementById('content');
+el.style.borderLeft = '1px';
+el.style.borderRight = '2px';
+el.style.padding = '5px';
+```
+
+A more efficient way is to combine all the changes and apply them at once, modifying the DOM only once, by using `cssText`:
+
+```js
+var el = document.getElementById('content');
+el.style.cssText = 'border-left: 1px; border-right: 2px; padding: 5px;';
+
+/** or keep the existing styles */
+el.style.cssText += 'border-left: 1px; border-right: 2px; padding: 5px;';
+```
+
+Another efficient way is to use class name to change styles of an element:
+
+```js
+var el = document.getElementById('content');
+
+/** with a slight performance hit, but keeping the script free of presentation code, cleaner and more maintainable */
+el.className = 'active';
+```
+
+##### **Batching DOM changes**
+
+What if there are many changes applied to a DOM element, you can reduce reflows and repaints by following these steps:
+
+1. Take the element off the document flow.
+2. Apply multiple changes.
+3. Bring the element back to the document.
+
+This process will cause two reflows - one at step 1 and one at step 3.
+
+When it comes to how, there are three basic ways to do it:
+
+- Hide the elements, apply changes, and show it again.
+- Use a document fragment to build a subtree outside of the live DOM and then copy it to the document.
+- Copy the original element into an off-document node, modify the copy, and then replace the original once you've done.
+
+Considering a list of links that must be updated by inserting two new links:
+
+```html
+<ul id="list__link">
+    <li><a href="http://phpied.com">Stoyan</a></li>
+    <li><a href="http://julienlecomte.com">Julien</a></li>
+</ul>
+```
+
+```js
+var data = [
+    {
+        name: 'Nicholas',
+        url: 'http://nczonline.net'
+    },
+    {
+        name: 'Ross',
+        url: 'http://techfoolery.net'
+    }
+];
+
+function appendDataToElement(appendToElement, data) {
+    var a;
+    var li;
+
+    for (var i = 0, max = data.length; i < max; i++) {
+        a = document.createElement('a');
+        a.href = data[i].url;
+        a.appendChild(document.createTextNode(data[i].name));
+
+        li = document.createElement('li');
+        li.appendChild(a);
+
+        appendToElement.appendChild(li);
+    }
+}
+```
+
+Without worrying about reflows, we will complete this task as followed:
+
+```js
+var ul = document.getElementById('list__link');
+appendDataToElement(ul, data);
+```
+
+However, when considering the expensive cost of reflows, we will optimize this with the three approaches mentioned above:
+
+- Hide the elements, apply changes, and show it again.
+
+    ```js
+    var ul = document.getElementById('list__link');
+    var previousDisplayStyle = ul.style.display;
+
+    ul.style.display = 'none';
+    appendDataToElement(ul, data);
+    ul.style.display = previousDisplayStyle;
+    ```
+
+- Use a document fragment to build a subtree outside of the live DOM and then copy it to the document. (least amount of DOM manipulations and reflows, **Recommended**)
+
+    ```js
+    var fragment = document.createDocumentFragment();
+    appendDataToElement(fragment, data);
+    document.getElementById('list__link').appendChild(fragment);
+    ```
+
+- Copy the original element into an off-document node, modify the copy, and then replace the original once you've done.
+
+    ```js
+    var old = document.getElementById('list__link');
+    var clone = old.cloneNode(true);
+
+    appendDataToElement(clone, data);
+    old.parentNode.replaceChild(clone, old);
+    ```
