@@ -729,3 +729,11 @@ However, when considering the expensive cost of reflows, we will optimize this w
     appendDataToElement(clone, data);
     old.parentNode.replaceChild(clone, old);
     ```
+
+#### Avoid Reflows for Animations
+
+Reflows sometimes affect only a small part of the render tree, but they can also affect a larger portion or even the whole tree. So, what a terrible disaster will appear, when an animation at the top of the page pushes down almost the whole pages. To avoid using this kind of animations, the followed steps are helpful for you:
+
+1. Using absolute positioning to take elements out of flow of the page.
+2. Animate the element. (Even if it expands, there will only be a reflow of a small part of the page.)
+3. When the animation is done, restore the positioning, thereby pushing down the rest of the document only once.
