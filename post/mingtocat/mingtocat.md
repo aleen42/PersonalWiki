@@ -1,1 +1,1 @@
-## [轉載] Drawing Audio Waveforms [Back](./../post.md)
+## [原創] Mingtoca [Back](./../post.md)
