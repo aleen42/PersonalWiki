@@ -27,6 +27,7 @@ Here I want to collect some awesome articles, written by others or me.
 
 ### Design
 
+- [**[原創] Mingtocat**](./mingtocat/mingtocat.md)
 - [**[轉載] So, You're a Web Designer, Right?**](./so_a_web_designer/so_a_web_designer.md)
 
 ### Back-end
