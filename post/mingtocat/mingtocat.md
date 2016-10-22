@@ -40,3 +40,6 @@ The belt was mainly designed with jades, and its color was usually red or yellow
 
 The boots would always be black boots named "Zao Boots (皂靴)".
 
+### References
+
+[1] 《Q版大明衣冠图志》，董进（撷芳主人），2014
