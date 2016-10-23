@@ -232,4 +232,10 @@ $each(items, function (value, index) {
 });
 ```
 
-In all cases, function-based iteration takes up to eight times as long as loop-based iteration, because of the overhead associated with an extra method being called on each array item.
+Even though function-based iteration represents a more convenient method for iteration, however, in all cases, function-based iteration takes up to eight times as long as loop-based iteration, because of the overhead associated with an extra method being called on each array item.
+
+### Conditionals
+
+Similar in nature to loops, conditionals determine how execution flows through JavaScript. Since different browsers have implemented different flow control optimizations, it's not always clear which technique to use.
+
+#### `if-else` Versus `switch`
