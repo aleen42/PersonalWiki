@@ -63,3 +63,173 @@ while (i < props.length) {
 ```
 
 > Note that: you should never use `for-in` to iterate over members of an array.
+
+Aside from `for-in` loop, all other loop types have the same performance characteristics. Therefore, type won't be a factor of performance, but there're actually two other factors you may consider:
+
+- Work done per iteration
+- Number of iterations
+
+##### **Decrease the work per iteration**
+
+A typical array-processing loop can be created using any of the three fast loop types.
+
+The code is most frequently written as follows:
+
+```js
+/** original loops */
+for (var i = 0; i < items.length; i++) {
+    process(item[i]);
+}
+
+var j = 0;
+while (j < items.length) {
+    process(items[j++]);
+}
+
+var k = 0;
+do {
+    process(items[k++]);
+} while (k < items.length);
+```
+
+Consider the code snippet above, `items.length` will always be accessed per iteration, and it's absolutely an optimizing point for us. Depending on the length of the array, we can save around 25% off the total loop execution time in most browsers (even up to 50% in IE).
+
+```js
+/** minimize numbers of accessing properties of objects by storing it into a local variable */
+for (var i = 0, len = items.length; i < len; i++) {
+    process(item[i]);
+}
+
+var j = 0;
+var count = items.length;
+while (j < count) {
+    process(items[j++]);
+}
+
+var k = 0;
+var num = items.length;
+do {
+    process(items[k++]);
+} while (k < num);
+```
+
+Besides that, reversing loop order is a common performance optimization in programming languages but generally isn't very well understood. In JavaScript, reversing a loop does result in a small performance improvement for loops, provided that you eliminate extra operations as a result:
+
+```js
+/** reverse loop order */
+for (var i = items.length; i--; ) {
+    process(item[i]);
+}
+
+var j = items.length;
+while (j--) {
+    process(items[j]);
+}
+
+/** remember not to access outside the array */
+var k = items.length - 1;
+do {
+    process(items[k]);
+} while (k--);
+```
+
+So why it's more faster? The control condition has been changed from two comparisons (is the iterator less than the total and is that equal to `true`) to just a single one (is that value `true`). Cutting down from two comparisons to one speeds up the loops even further. With reversing loop order and minimizing the number of accessing properties, the execution time can be up to 50%-60% faster than the original one.
+
+> Note that: decreasing the work down per iteration is most effective when the loop has a complexity of O(n). When it's more complex than O(n), it's advisable to decrease the number of iterations.
+
+##### **Decreasing the number of iterations**
+
+Even the fastest code in a loop body will add up when iterated thousands of times. Therefore, we also need to decrease the nubmer of iterations, and the most well know approach to do this is a pattern called *Duff's Device*.
+
+A typical implementation should look like this:
+
+```js
+/** credit: Jeff Greenberg */
+var iterations = Math.floor(items.length / 8);
+var startAt = itmes.length % 8;
+var i = 0;
+
+do {
+    switch (startAt) {
+    case 0: process(items[i++]);
+    case 7: process(items[i++]);
+    case 6: process(items[i++]);
+    case 5: process(items[i++]);
+    case 4: process(items[i++]);
+    case 3: process(items[i++]);
+    case 2: process(items[i++]);
+    case 1: process(items[i++]);
+    }
+
+    startAt = 0;
+} while (--iterations);
+```
+
+The basic idea behind this Duff's Device implementation is that each iteration through the loop is allowed a maximum of eight calls to `process()`.
+
+A slightly faster version of this algorithm is to remove the `switch` statement and to separate the remainder process from the main one:
+
+```js
+/** credit: Jeff Greenberg */
+var i = itmes.length % 8;
+
+while (i) {
+    process(items[i--]);
+}
+
+i = Math.floor(items.length / 8);
+
+while (i) {
+    process(items[i--]);
+    process(items[i--]);
+    process(items[i--]);
+    process(items[i--]);
+    process(items[i--]);
+    process(items[i--]);
+    process(items[i--]);
+    process(items[i--]);
+}
+```
+
+> Note that: if you have a loop at a large mounts of iterations, for instance, 500000, and the execution time with Duff's Device is up to 70% less than a regular loop.
+
+#### Function-Based Iteration
+
+`forEach()` is a function defined for you to iterate an array object, which will get three arguments for iterations, and it's implemented natively in Firefox, Chrome, and Safari:
+
+```js
+items.foreach(function (value, index, array) {
+    /** loop body */
+});
+```
+
+In addition, most JavaScript libraries have the logical equivalent:
+
+```js
+/** YUI 3 */
+Y.Array.each(items, function (value, index, array) {
+    /** loop body */
+});
+
+/** jQuery */
+jQuery.each(items, function (index, value) {
+    /** loop body */
+});
+
+/** Dojo */
+dojo.forEach(items, function (value, index, array) {
+    /** loop body */
+});
+
+/** Prototype */
+items.each(function (value, index) {
+    /** loop body */
+});
+
+/** MooTools */
+$each(items, function (value, index) {
+    /** loop body */
+});
+```
+
+In all cases, function-based iteration takes up to eight times as long as loop-based iteration, because of the overhead associated with an extra method being called on each array item.
