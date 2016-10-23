@@ -239,3 +239,67 @@ Even though function-based iteration represents a more convenient method for ite
 Similar in nature to loops, conditionals determine how execution flows through JavaScript. Since different browsers have implemented different flow control optimizations, it's not always clear which technique to use.
 
 #### `if-else` Versus `switch`
+
+The prevailing theory on using `if-else` or `switch` is based on the number of conditions, for easier readable code. As it turns out, the `switch` statement is faster in most cases when compared to `if-else`, but **significantly faster when the number of conditions is large**. Generally speaking, `if-else` is best used when there are two values or a few different ranges of values, and there're more than two values, the `switch` statement is the most optimal choice.
+
+#### Optimizing `if-else`
+
+When optimizing the `if-else` statement, the goal is always to minimize the number of conditions to evaluate before taking the correct path. Considering the following case:
+
+```js
+if (value < 5) {
+    /** do something */
+} else if (value > 5 && value < 10) {
+    /** do something */
+} else {
+    /** do something */
+}
+```
+
+This code is optimal only if `value` is most frequently less than 5, and get the correct path when only using one condition to evaluate. If not, you can optimize it to obey the principle: **More frequent the condition it is, sooner evaluated it should be**.
+
+#### Lookup Tables
+
+Sometimes, `if-else` or `switch` are both not the best choice for you, when there're a large number of conditions. In reverse, you should use a lookup tables, which can be created using arrays or regular objects. In addition, lookup tables will get code more readable for you:
+
+```js
+/** switch statement */
+switch (value) {
+    case 0: return result0;
+    case 1: return result1;
+    case 2: return result2;
+    case 3: return result3;
+    case 4: return result4;
+    case 5: return result5;
+    case 6: return result6;
+    case 7: return result7;
+    case 8: return result8;
+    case 9: return result9;
+    case 10: return result10;
+}
+
+/** lookup tables */
+var results = [result0, result1, result2, result3, result4, result5, result6, result7, result8, result9, result10];
+
+return results[value];
+```
+
+Lookup tables are most useful when there's logical mapping between a single key and a single value, while a `switch` statement is more appropriate when each key requires a unique action or set of actions to take place.
+
+Of course, when conditions are not enumerable, lookup tables or `switch` won't be a choice for you.
+
+### Recursion
+
+Complex algorithms are typically made easier by using recursion.
+
+```js
+function factorial(n) {
+    if (n === 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+```
+
+The problem with recursive functions is that missing a terminal condition can lead to the long execution time, blocking the user interface. Further, recursive functions are more likely to run into browser call stack size limit.
