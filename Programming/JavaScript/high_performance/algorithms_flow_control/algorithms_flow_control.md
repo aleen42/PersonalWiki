@@ -315,3 +315,49 @@ Limitation|3000|3000|21837|21837|1789|2232
 Browsers|Opera 9.62|Opera 10 Beta|Safari 2|Safari 3.2|Safari 4
 :------:|:-------:|:---------:|:------:|:------:|:--:
 Limitation|10000|10000|100|500|37448
+
+When the limitation has been exceeded by introducing too much recursion, the browser will error out with one of the following messages:
+
+- Internet Explorer: "Stack overflow at line x"
+- Firefox: "Too much recursion"
+- Safari: "Maximum call stack size exceeded"
+- Opera: "Abort (control stack overflow)"
+
+Perhaps the most interesting part of stack overflow errors is that they are actual JavaScript errors in some browsers, and can therefore be trapped using a `try-catch` statement. The exception type varies based on the browser being used:
+
+- Firefox: `InternalError`
+- Safari and Chrome: `RangeError`
+- Internet Explorer: generic `Error` type, and display a dialog box that looks like an alert.
+- Opera: won't throw an error, but stop the JavaScript engine
+
+> Note that: even though the error of exceeding limitation of call stack size can be trapped with a `try-catch` statement, it's not recommended.
+
+#### Recursion Patterns
+
+When throwing such kind of limitation error, the first step you should do is to identify where the problem is, and in this case, you should be aware of two Recursion patterns.
+
+The first one is:
+
+```js
+function recurse() {
+    recurse();
+}
+
+recurse();
+```
+
+The second one is:
+
+```js
+function first() {
+    second();
+}
+
+function second() {
+    first();
+}
+
+first();
+```
+
+Compared with the first one, the second pattern is far more difficult to identify bugs in large code bases. For the first one, limitation exceeding problem will occur when the terminal condition is wrong in most cases. However, if it's correct, then the algorithm contains too much recursion to safely be run in the browser. Then, you should change to use iteration, memorization, or both.
