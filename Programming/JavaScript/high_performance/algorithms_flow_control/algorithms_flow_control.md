@@ -361,3 +361,74 @@ first();
 ```
 
 Compared with the first one, the second pattern is far more difficult to identify bugs in large code bases. For the first one, limitation exceeding problem will occur when the terminal condition is wrong in most cases. However, if it's correct, then the algorithm contains too much recursion to safely be run in the browser. Then, you should change to use iteration, memorization, or both.
+
+#### Iteration
+
+Any algorithm that can be implemented using recursion can also be implemented using iteration. Using optimized loops in place of long-running recursive functions can result in  performance improvements due to the lower overhead of loops versus that of executing a function.
+
+As an example, a simple JavaScript implementation of merge sort is as followed:
+
+```js
+function merge(left, right) {
+    var result = [];
+
+    while (left.length > 0 && right.length > 0) {
+        if (left[0] < right[0]) {
+            result.push(left.shift());
+        } else {
+            result.push(right.shift());
+        }
+    }
+
+    return result.concat(left).concat(right);
+}
+
+function mergeSort(items) {
+    if (items.length === 1) {
+        return items;
+    }
+
+    var middle = Math.floor(items.length / 2);
+    var left = items.slice(0, middle);
+    var right = items.slice(middle);
+
+    return merge(mergeSort(left), mergeSort(right));
+}
+```
+
+An array of `n` items ends up calling `mergeSort()` 2 * n - 1, which means that an array with more than 1500 items would cause a stack overflow error in Firefox. In this case, we should implement it with iteration:
+
+```js
+/** example: [20, 10, 35, 5, 2, 7] */
+function mergeSort(items) {
+    if (items.length === 1) {
+        return items;
+    }
+
+    var work = [];
+
+    for (var i = 0, len = items.length; i < len; i++) {
+        work.push([items[i]]);
+    }
+
+    /** in case of odd number of items */
+    work.push([]);
+
+    /**
+     * work: [[20], [10], [35], [5], [2], [7], []]
+     * loop1: [[10, 20], [5, 35], [2, 7], [], [0], [7], []]
+     * loop2: [[5, 10, 20, 35], [2, 7], [], [], [0], [7], []]
+     * loop3: [[2, 5, 7, 10, 20, 35], [], [], [], [0], [7], []]
+     */
+    for (var lim = len; lim > 1; lim = Math.floor((lim + 1) / 2)) {
+        for (var j = 0, k = 0; k < lim; j++, k+= 2) {
+            work[j] = merge(work[k], work[k + 1]);
+        }
+
+        /** in case of odd number of items */
+        work[j] = [];
+    }
+
+    return work[0];
+}
+```
