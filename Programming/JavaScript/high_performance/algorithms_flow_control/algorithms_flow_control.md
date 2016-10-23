@@ -303,3 +303,15 @@ function factorial(n) {
 ```
 
 The problem with recursive functions is that missing a terminal condition can lead to the long execution time, blocking the user interface. Further, recursive functions are more likely to run into browser call stack size limit.
+
+#### Call Stack Limits
+
+The amount of recursion supported by JavaScript engines varies and is directly related to the size of the JavaScript call stack. Except for Internet Explorer, for which the call stack is related to available system memory, all other **browsers have static call stack limits**.
+
+Browsers|Firefox 3|Firefox 3.5|Chrome 1|Chrome 2|IE 7|IE 8
+:------:|:-------:|:---------:|:------:|:------:|:--:|:---:
+Limitation|3000|3000|21837|21837|1789|2232
+
+Browsers|Opera 9.62|Opera 10 Beta|Safari 2|Safari 3.2|Safari 4
+:------:|:-------:|:---------:|:------:|:------:|:--:
+Limitation|10000|10000|100|500|37448
