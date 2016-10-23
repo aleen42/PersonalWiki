@@ -14,7 +14,7 @@ Even if, Chrome with V8 engine, and other later engines have improved that situa
 
 - [**Data Access**](./data_access/data_access.md)
 - [**DOM Scripting**](./dom_scripting/dom_scripting.md)
-- **Algorithms and Flow Control**
+- [**Algorithms and Flow Control**](./algorithms_flow_control/algorithms_flow_control.md)
 - **Responsive Interfaces**
 - **Ajax**
 
