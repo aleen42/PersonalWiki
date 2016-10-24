@@ -182,7 +182,7 @@
                             * [DOM Scripting](./Programming/JavaScript/high_performance/dom_scripting/dom_scripting.md)
                             * [Algorithms and Flow Control](./Programming/JavaScript/high_performance/algorithms_flow_control/algorithms_flow_control.md)
                             * 
-                    * [ES6 fea
+                    * ES6 features
                         * [Promise](./Programming/JavaScript/es6/promise/promise.md)
                         * [Spread Operators](./Programming/JavaScript/es6/spread_operators/spread_operators.md)
                         * [Rest Parameters](./Programming/JavaScript/es6/rest_param/rest_param.md)
