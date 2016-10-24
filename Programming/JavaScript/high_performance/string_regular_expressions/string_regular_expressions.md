@@ -97,3 +97,65 @@ console.log(foldingDemo.toString());
 Since we have not often built strings from compile-time constants, it doesn't help very often at all.
 
 > The YUI Compressor performs this optimization at build time.
+
+#### Array Joining
+
+The `Array.prototype.join` method can be used to merge all elements of an array into a string and accepts a separator string to insert between each element. By passing an empty string, you can perform a simple concatenation of all elements in an array.
+
+In most browsers, using this way to concatenate strings is slower than other methods, but is the only efficient way to concatenate lots of strings in IE7 and earlier. To improve that, we're going to have a simple task:
+
+Considering the following code:
+
+```js
+var str = 'I\'m a thirty-five character string';
+var newStr = '';
+var appends = 5000;
+
+while (appends--) {
+    newStr += str;
+}
+```
+
+With changing the value of `appends`, we can have a statistic for how long this task will complete.
+
+| Appends (times)   | 5,000     |10,000|15,000|20,000
+| :------------- | :------------- |
+| Time (ms)       | 226       |3,955|15,537|32,352
+
+How about using array joining like this:
+
+```js
+var str = 'I\'m a thirty-five character string';
+var strs = [];
+var newStr;
+var appends = 5000;
+
+while (appends--) {
+    strs[strs.lenght] = str;
+}
+
+newStr = strs.join('');
+```
+
+| Appends (times)   | 5,000     |10,000|15,000|20,000
+| :------------- | :------------- |
+| Time (ms)       | 10       |20|30|40
+
+Apparently, the approach of using array joining has reduced so much time to complete this task. Why? IE7's native concatenation algorithm requires that the browser repeatedly copy and allocate memory for larger and larger strings each time through the loop. It's allocations that waste so much time.
+
+#### `String.prototype.concat`
+
+The `String.prototype.concat` is an convenient method, which accepts any number of arguments and appends each to the string.
+
+```js
+/** append one string */
+str = str.concat(s1);
+
+/** append three strings */
+str = str.concat(s1, s2, s3);
+
+/** using list and `apply` */
+str = String.prototype.concat.apply(str, array);
+```
+
+Everything has two coins, and `concat` has paid for its convenience. `concat` is a little slower than simple `+` and `+=` operations in most cases, and can be very slower in IE, Opera, and Chrome. The reason is same as using `+` and `+=` when building large strings in IE7 and earlier.
