@@ -360,7 +360,7 @@ function second() {
 first();
 ```
 
-Compared with the first one, the second pattern is far more difficult to identify bugs in large code bases. For the first one, limitation exceeding problem will occur when the terminal condition is wrong in most cases. However, if it's correct, then the algorithm contains too much recursion to safely be run in the browser. Then, you should change to use iteration, memorization, or both.
+Compared with the first one, the second pattern is far more difficult to identify bugs in large code bases. For the first one, limitation exceeding problem will occur when the terminal condition is wrong in most cases. However, if it's correct, then the algorithm contains too much recursion to safely be run in the browser. Then, you should change to use iteration, memoization (記憶化), or both.
 
 #### Iteration
 
@@ -416,9 +416,9 @@ function mergeSort(items) {
 
     /**
      * work: [[20], [10], [35], [5], [2], [7], []]
-     * loop1: [[10, 20], [5, 35], [2, 7], [], [0], [7], []]
-     * loop2: [[5, 10, 20, 35], [2, 7], [], [], [0], [7], []]
-     * loop3: [[2, 5, 7, 10, 20, 35], [], [], [], [0], [7], []]
+     * loop1: [[10, 20], [5, 35], [2, 7], [], [], [7], []]
+     * loop2: [[5, 10, 20, 35], [2, 7], [], [], [], [7], []]
+     * loop3: [[2, 5, 7, 10, 20, 35], [], [], [], [], [7], []]
      */
     for (var lim = len; lim > 1; lim = Math.floor((lim + 1) / 2)) {
         for (var j = 0, k = 0; k < lim; j++, k+= 2) {
@@ -432,3 +432,71 @@ function mergeSort(items) {
     return work[0];
 }
 ```
+
+Although the iterative version of merge sort may be somewhat slower than the recursive option, it does not have the call stack impact.
+
+#### Memoization
+
+Memoization is an approach to avoid work repetition by caching previous calculations for later use, which make it a useful technique for recursive algorithms. Sometimes, when recursive functions are called multiple times, there tends to be a lot of work duplication. Considering using `factorial()` like this:
+
+```js
+var fact6 = factorial(6);
+var fact5 = factorial(5);
+var fact4 = factorial(4);
+```
+
+Actually, the result of calling `factorial(4)` can be used when calling `factorial(5)`, as same as calling `factorial(6)`. Therefore, we can rewrite this code for reducing work duplication.
+
+```js
+function memfactorial(n) {
+    if (!memfactorial.cache) {
+        memfactorial.cache = {
+            0: 1,
+            1: 1
+        };
+    }
+
+    if (!memfactorial.cache.hasOwnProperty(n)) {
+        memfactorial.cache[n] = n * memfactorial(n - 1);
+    }
+
+    return memfactorial.cache[n];
+}
+```
+
+The memoization process may be slightly different for each recursive function, but generally the same pattern applies. However, generic memoization of this type is less optimal, because the `memoize()` function caches the result of a function call with specific arguments. Recursive calls, therefore, are saved only when the shell function is called multiple times with the same arguments. For this reason, it's better to manually implement memoization in those functions that have significant performance issues, rather than apply a generic memoization solution.
+
+```js
+function memoize(fundamental, cache) {
+    cache = cache || {};
+
+    var shell = function (arg) {
+        if (!cache.hasOwnProperty(arg)) {
+            cache[arg] = fundamental(arg);
+        }
+
+        return cache[arg];
+    }
+
+    return shell;
+}
+
+var memfactorial = memoize(factorial, { 0: 1, 1: 1 });
+
+memfactorial(6);
+
+/** when calculating 5, it still won't use the cache to fix the performance impact */
+memfactorial(5);
+```
+
+### Summary
+
+Just optimize your code, and notice the limitation of JavaScript. The larger the amount of code being executed, the larger the performance gain realized (被意識到).
+
+- `for`, `while` and `do-while` loops all are similar to each other.
+- Avoid using `for-in` unless you need to iterate over a number of unknown object properties.
+- Decrease the amount of work per iteration and decrease the number of loop iterations to improve loop performance.
+- `switch` is always faster than `if-else`, but not always the best solution.
+- Lookup tables are a faster alternative.
+- Notice that limitation of call stack.
+- When running into a stack overflow error, change the method to an iterative one, or make use of memoization to avoid work repetition.
