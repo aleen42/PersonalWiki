@@ -32,8 +32,15 @@
 
     In JavaScript, we can also match those seven control characters by: /\cG\x1B\cL\cJ\cM\cI\cK/, and using \cA through \cZ, you can match one of the 26 control characters too. The `c` must be lowercase, and the letter following the `c` is case insensitive, which is recommended to use an uppercase letter.
 
-    Besides, we can also use the 7-bit character set to match control characters: /\x07\x1B\x0C\x0A\x0D\x09\x0B/.
+    Besides, we can also use the 7-bit character set to match control characters: /\x07\x1B\x0C\x0A\x0D\x09\x0B/. ASCII table with 7-bit characters are described as followed:
 
 |0|1|2|3|4|5|6|7|8|9|A|B|C|D|E|F
 :-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
 0|NUL|SOH|STX|ETX|EOT|ENQ|ACK|BEL|BS|HT|LF|VT|FF|CR|SO|SI
+1|DLE|DC1|DC2|DC3|DC4|NAK|SYN|ETB|CAN|EM|SUB|ESC|FS|GS|RS|US
+2|SP|!|"|#|$|%|&|'|(|)|*|+|,|-|.|/
+3|0|1|2|3|4|5|6|7|8|9|:|;|<|=|>|?
+4|@|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O
+5|P|Q|R|S|T|U|V|W|X|Y|Z|[|\|]|^|_
+6|`|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o
+7|p|q|r|s|t|u|v|w|x|y|z|{|&#124;|}|~|DEL
