@@ -18,4 +18,4 @@ Before learning, here is a list of tools for working with Regular Expressions:
 - [**RegexPal** (Online)](http://regexpal.com)
 - [**RegexMagic**](http://www.regexmagic.com/RegexMagicCookbook.exe)
 - [**regex.larsolavtorvik.com** (Online)](http://regex.larsolavtorvik.com/)
-- 
+- ...
