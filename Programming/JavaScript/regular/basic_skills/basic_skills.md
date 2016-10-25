@@ -78,4 +78,6 @@
 
     A caret (^) placed immediately after the opening bracket `[` means to match any character that is *not* in the list.
 
-    A hyphen (-) creates a range when it's placed between two characters. To know exactly what they're, you may have to check the ASCII or Unicode character table. For example, /[A-z]/ is as same as /[A-Z\[\\\]\^&#95;&#96;a-z]/.
+    A hyphen (-) creates a range when it's placed between two characters. To know exactly what they're, you may have to check the ASCII or Unicode character table. For example, /[A-z]/ is as same as /[A-Z\[\\\]\^&#95;&#96;a-z]/. Actually, it's recommended to create rnges only between to digits or between two letters that are both uppercase or lowercase.
+
+    > Note that: Reversed ranges, such as [z-a] are not permitted
