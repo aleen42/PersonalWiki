@@ -44,5 +44,5 @@
 3|0|1|2|3|4|5|6|7|8|9|:|;|<|=|>|?
 4|@|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O
 5|P|Q|R|S|T|U|V|W|X|Y|Z|[|\|]|^|_
-6|`|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o
+6|&#96;|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o
 7|p|q|r|s|t|u|v|w|x|y|z|{|&#124;|}|~|DEL
