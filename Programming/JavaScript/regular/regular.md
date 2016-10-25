@@ -10,6 +10,6 @@ In the context of this book, a `regular expression` is a specific text pattern t
 
 With the proper regular expression, it takes just a few line of code, or maybe even one line, to extract something we want in a large text body. However, even if it's convenient, you are not supposed to abuse them where they're not really appropriate.
 
-There are so many regular expression flavors in a modern programming world, which can traced their history back to the Perl programming language. Their syntax is very similar, and mostly compatible, but not completely so.
+There are so many regular expression flavors in a modern programming world, which can traced their history back to the Perl programming language. Their syntax is very similar, and mostly compatible, but not completely so. According to the book, "[O`Reilly] Regular Expressions Cookbook", what flavors covered are respectively **.NET**, **Java**, **JavaScript**, **XRegExp**, **PCRE**, **Perl**, **Python** and **Ruby**
 
 
