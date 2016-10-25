@@ -12,4 +12,6 @@ With the proper regular expression, it takes just a few line of code, or maybe e
 
 There are so many regular expression flavors in a modern programming world, which can traced their history back to the Perl programming language. Their syntax is very similar, and mostly compatible, but not completely so. According to the book, "[O`Reilly] Regular Expressions Cookbook", what flavors covered are respectively **.NET**, **Java**, **JavaScript**, **XRegExp**, **PCRE**, **Perl**, **Python** and **Ruby**. Actually, **JavaScript** is the flavor that mainly talked about here.
 
-Before learning, here is a list of tools for working with Regular Expressions.
+Before learning, here is a list of tools for working with Regular Expressions:
+
+- **RegexBuddy**
