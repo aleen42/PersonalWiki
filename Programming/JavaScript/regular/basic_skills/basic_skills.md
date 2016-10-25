@@ -84,4 +84,79 @@
 
 - **Variation**
 
-    Actually, we can remove case sensitivity, by using `/i` like /[A-F0-9]/i or /[a-z0-9]/i for hexadecimal character
+    Actually, there are also some `shorthand character class` in JavaScript like \\w, \\s, and \\S.
+
+    /\\w/ is always identical to /[a-zA-Z0-9_]/
+
+    /\\s/ matches any whitespace character, which includes spaces, tabs, and line brakes.
+
+    /\\S\ matches any character not matched by /\\s/
+
+    In addition, we can remove case sensitivity, by using `/i` like /[A-F0-9]/i or /[a-z0-9]/i for matching hexadecimal character.
+
+### Match Any Character
+
+- **Problem**
+
+    Match a quoted character.
+
+    Provide one solution that allows any single character, except a line break, between the quotes.
+
+    Provide another that truly allows any character, including line breaks.
+
+- **Solution**
+    - Any character except line breaks
+
+        /'.'/
+
+    - Any character including line breaks
+
+        /[\\s\\S]/
+
+- **Discussion**
+
+    The dot notation `.` is one of the oldest and simplest regular expression features. Though it means to match any single character, it does not include a line break at all.
+
+    If you do want to allow your regular expression to span multiple lines, you can solve it by combining \\s and \\S into /[\\s\\S]/.
+
+    Since the dot has been so convenient, it is the most abused regular expressions feature. Therefore, use it only when you really want to allow any character. When not, use a character class of negated (否定的) character class.
+
+### Match Something at the Start and/or the End of a Line
+
+
+- **Problem**
+
+    Match the world **alpha**, but only if it occurs at the very beginning of the subject text.
+
+    Match the world **omega**, but only if it occurs at the very end of the subject text
+
+    Match the world **begin**, but only if it occurs at the beginning of a line.
+
+    Match the world **end**, but only if it occurs at the end of a line.
+
+- **Solution**
+    - Start of the subject
+
+        /^alpha/
+
+    - End of the subject
+
+        /omega$/
+
+    - Start of the line
+
+        /(^|\\n)begin/
+
+    - End of the line
+
+        /end(\\n|$)/
+
+- **Discussion**
+
+    The regular expression tokens `^`, `$` are called `anchors`, which is used to match at certain position in JavaScript, and `^` is used for matching the start of the subject text, while `$` is used for matching the end. However, if there is line break before, it will lose its function.
+
+    So what if we do want to match the start or the end of each line, we can use `\n`.
+
+- **Variation**
+
+    Actually, if you want to match the start or the end through lines, we can turn of the mode of searching in multiple lines with using `/m` like /^begin/m or /end$/m.
