@@ -187,3 +187,55 @@
     `\B` matches at every position in the subject text where `\b` does not match. If you want to match **staccato**, **category**, **bobcat** excluding **My cat is brown**, we can combine `\B` like **/\Bcat|cat\B/**.
 
     In JavaScript, we view only ASCII characters as `word characters`. That's why **/\w/** is identical to **/[a-zA-Z0-9_]/**.
+
+### Unicode Code Points, Categories, Blocks, and Scripts
+
+- **Problem**
+
+    Use a regular expression to find the trademark sign (™) by specifying its Unicode code point rather than copying and pasting an actual trademark sign. If you like, what you paste is just another literal character.
+
+    Create a regular expression that matches any character in the "Currency Symbol" Unicode category.
+
+    Create a regular expression that matches any character in the "Greek Extended" Unicode block.
+
+    Create a regular expression that matches any character that, according to the Unicode standard, is part of the Greek script. Unicode block.
+
+    Create a regular expression that matches a grapheme (書寫位), or what is commonly thought of as a character: a base character with all its combining marks.
+
+- **Solution**
+    - Unicode code point
+
+        **/\u2122/**
+
+    - Unicode category (**JavaScript not supported**)
+    - Unicode block (**JavaScript not supported**)
+    - Unicode script (**JavaScript not supported**)
+    - Unicode grapheme (**JavaScript not supported**)
+
+- **Discussion**
+
+    The Unicode code point U+2122 represents the "trademark sign" character.
+
+- **Variation**
+
+    If we do want to match all characters in the Unicode category, we can use **/[\u1F00-\u1FFF]/**
+
+### Match one of Several Alternatives
+
+- **Problem**
+
+    Create a regular expression that when applied repeatedly to the text **Mary, Jane, and Sue went to Mary's house** will match **Mary**, **Jane* *, **Sue**, and then **Mary** again.
+
+- **Solution**
+
+    **/Mary|Jane|Sue/**
+
+- **Discussion**
+
+    The vertical bar `|` splits the regular expression into multiple alternatives.
+
+    JavaScript has also used a regex-directed engine as same as other programming languages, which means that all possible permutations (交換) of the regular expression are attempted at each character position in the subject text, before the regex attempts at the next character position.
+
+    The other kind of engine is a text-directed engine. The key difference between those two kinds of engines is that the text-directed engine visits each character in the subject text only once, while the regex-directed may visits many times. This kind of engine is much faster, but support expressions only in the mathematical sense.
+
+    The order of the alternatives in the regular expression does not matter only when two of them can match the same position in the string. For example, **/Jane|Janet/** will match **Jane** in the sentence "My name is Janet.", while **/Janet|Jane/** will match **Janet**. Since Janet has been a word, we should use **/\bJane\b|\bJanet\b/** to solve this problem.
