@@ -8,4 +8,6 @@ In the context of this book, a `regular expression` is a specific text pattern t
 
 > All a practical programmer needs to remember is that some ivory tower (象牙塔) computer scientists get upset about their well-defined terminology being overloaded with technology that's far more useful in the real world.
 
-With the proper regular expression, it takes just a few line of code, or maybe even one line, to extract something we want in a large text body.
+With the proper regular expression, it takes just a few line of code, or maybe even one line, to extract something we want in a large text body. However, even if it's convenient, you are not supposed to abuse them where they're not really appropriate.
+
+
