@@ -4,4 +4,4 @@ In the context of this book, a `regular expression` is a specific text pattern t
 
 > #### History of the Term "Regular Expression"
 
-> The term `regular expression` comes from mathematics and computer science theory, where it reflects a trait of mathematical expressions called `regularity`
+> The term `regular expression` comes from mathematics and computer science theory, where it reflects a trait of mathematical expressions called `regularity`.
