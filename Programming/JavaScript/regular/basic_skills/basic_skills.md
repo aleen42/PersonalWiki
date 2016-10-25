@@ -36,7 +36,7 @@
 
     ASCII table with 7-bit characters are described as followed:
 
-\|0|1|2|3|4|5|6|7|8|9|A|B|C|D|E|F
+|0|1|2|3|4|5|6|7|8|9|A|B|C|D|E|F
 :-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
 0|NUL|SOH|STX|ETX|EOT|ENQ|ACK|BEL|BS|HT|LF|VT|FF|CR|SO|SI
 1|DLE|DC1|DC2|DC3|DC4|NAK|SYN|ETB|CAN|EM|SUB|ESC|FS|GS|RS|US
