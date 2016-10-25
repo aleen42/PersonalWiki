@@ -16,3 +16,4 @@ Before learning, here is a list of tools for working with Regular Expressions:
 
 - [**RegexBuddy**](http://www.regexbuddy.com/RegexBuddyCookbook.exe)
 - [**RegexPal**](http://regexpal.com)
+- [**RegexMagic**](http://www.regexmagic.com/RegexMagicCookbook.exe)
