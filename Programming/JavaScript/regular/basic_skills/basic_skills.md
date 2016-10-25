@@ -88,6 +88,8 @@
 
     **/\\w/** is always identical to **/[a-zA-Z0-9_]/**
 
+    **/\\W/** is identical to **/[^a-zA-Z0-9_]/**
+
     **/\\s/** matches any whitespace character, which includes spaces, tabs, and line brakes.
 
     **/\\S/** matches any character not matched by **/\\s/**
@@ -159,4 +161,29 @@
 
 - **Variation**
 
-    Actually, if you want to match the start or the end through lines, we can turn of the mode of searching in multiple lines with using `/m` like **/^begin/m** or **/end$/m**.
+    Actually, if you want to match the start or the end through lines, we can turn on the mode of searching in multiple lines with using `/m` like **/^begin/m** or **/end$/m**.
+
+### Match Whole Words
+
+- **Problem**
+
+    Create a regex that matches **cat** in **My cat is brown**, but not in **category** or **bobcat**.
+
+    Create another regex that matches **cat** in **staccato**, but not in **My cat is brown**, **category** or **bobcat**.
+
+- **Solution**
+    - Word boundaries
+
+        **/\bcat\b/**
+
+    - Non-boundaries
+
+        **/\Bcat\B/**
+
+- **Discussion**
+
+    `\b` is another anchor, which is called a `word boundary`, and used to match at the start or the end of a word. What we should remember is that line break characters are non-word characters, and it means that `\b` will match after a line break if the it's immediately followed by a word character like matching **cat** in the sentence **My cat\\n**. In addition, `\b` is unaffected by the multiple line mode `\m`.
+
+    `\B` matches at every position in the subject text where `\b` does not match. If you want to match **staccato**, **category**, **bobcat** excluding **My cat is brown**, we can combine `\B` like **/\Bcat|cat\B/**.
+
+    In JavaScript, we view only ASCII characters as `word characters`. That's why **/\w/** is identical to **/[a-zA-Z0-9_]/**.
