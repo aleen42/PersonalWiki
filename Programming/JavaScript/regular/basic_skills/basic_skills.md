@@ -69,3 +69,13 @@
     - Non-hexadecimal character
 
         /[^a-fA-F0-9]/
+
+- **Discussion**
+
+    The notation using square brackets `[]` is called a `character class`, and a character class matches a single character out of (來自) a list of possible characters.
+
+    Inside such a character class, only four characters have a special function: `\`, `^`, `-`, and `]`. As same as metacharacters, they should follow after `\` when you try to match them literally.
+
+    A caret (^) placed immediately after the opening bracket `[` means to match any character that is *not* in the list.
+
+    A hyphen (-) creates a range when it's placed between two characters. To know exactly what they're, you may have to check the ASCII or Unicode character table. For example, /[A-z]/ is as same as /[A-Z\[\\\]\^&#95;&#96;a-z]/.
