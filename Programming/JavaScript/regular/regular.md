@@ -19,3 +19,7 @@ Before learning, here is a list of tools for working with Regular Expressions:
 - [**RegexMagic**](http://www.regexmagic.com/RegexMagicCookbook.exe)
 - [**regex.larsolavtorvik.com** (Online)](http://regex.larsolavtorvik.com/)
 - ...
+
+Now, we start to talk about Regular Expressions in JavaScript with a category:
+
+
