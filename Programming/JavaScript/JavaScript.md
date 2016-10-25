@@ -21,6 +21,7 @@ JavaScript|To specify the behavior of web pages.
 * [Lexical Structure](./Lexical/Lexical.md)
 * [Types, Values, and Variables](./Type/Type.md)
 * [Array](./array/array.md)
+* [Regular Expressions](./regular/regular.md)
 
 #### Advanced
 
