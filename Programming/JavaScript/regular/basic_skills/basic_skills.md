@@ -46,3 +46,26 @@
 5|P|Q|R|S|T|U|V|W|X|Y|Z|[|\\|]|^|_
 6|&#96;|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o
 7|p|q|r|s|t|u|v|w|x|y|z|{|&#124;|}|~|DEL
+
+### Match One of Many Characters
+
+- **Problem**
+
+    Create one regular expression to match all common misspelling of **calendar**, and allow an `a` or `e` to be used in each of the vowel (元音) position.
+
+    Create another regular expression to match a single hexadecimal character.
+
+    Create a third regex to match a single character that is not a hexadecimal character.
+
+- **Solution**
+    - Calendar with misspellings
+
+        /c[ae]l[ae]nd[ae]r/
+
+    - Hexadecimal character
+
+        /[a-fA-F0-9]/
+
+    - Non-hexadecimal character
+
+        /[^a-fA-F0-9]/
