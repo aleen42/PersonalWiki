@@ -257,3 +257,13 @@
     **/\b(Mary|Jane|Sue)\b/**
 
     **/\b(\d\d\d\d)-(\d\d)-(\d\d)\b/**
+
+- **Discussion**
+
+    Since the alternative operator `|` has had the lowest precedence, **/\bMary|Jane|Sue\b/** are separated into three regexes: **/\bMary/**, **/Jane/**, and **/Sue\b/**. Therefore, you have to group your alternatives with `()`, called a `capturing group`.
+
+    As in **/\b(\d\d\d\d)-(\d\d)-(\d\d)\b/**, the regex **/\b\d\d\d-\d\d-\d\d\b/** does exactly the same, because there are no alternatives in this regex. What if we want to extract values of the year, the month, and the day? In this case, we should use such capturing groups.
+
+- **Variation**
+
+    Actually, using group notation `()` can also avoid capturing values when it's not needed, as long as we add a notation `?:` following the open parentheses like **\b(?:Mary|Jane|Sue)\b**, which won't capture any value for you in the subject text. The main benefit of this approach is that we can add them to an existing regex without upsetting the references to numbered capturing groups. Another benefit is performance.
