@@ -32,7 +32,9 @@
 
     In JavaScript, we can also match those seven control characters by: /\cG\x1B\cL\cJ\cM\cI\cK/, and using \cA through \cZ, you can match one of the 26 control characters too. The `c` must be lowercase, and the letter following the `c` is case insensitive, which is recommended to use an uppercase letter.
 
-    Besides, we can also use the 7-bit character set to match control characters: /\x07\x1B\x0C\x0A\x0D\x09\x0B/. ASCII table with 7-bit characters are described as followed:
+    Besides, we can also use the 7-bit character set to match control characters: /\x07\x1B\x0C\x0A\x0D\x09\x0B/. It's recommended to use the Unicode code rather than to use \x80 through \xFF, because various regex engine will interpret various meanings for them.
+
+    ASCII table with 7-bit characters are described as followed:
 
 |0|1|2|3|4|5|6|7|8|9|A|B|C|D|E|F
 :-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
