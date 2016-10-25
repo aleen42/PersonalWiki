@@ -15,3 +15,4 @@ There are so many regular expression flavors in a modern programming world, whic
 Before learning, here is a list of tools for working with Regular Expressions:
 
 - [**RegexBuddy**](http://www.regexbuddy.com/RegexBuddyCookbook.exe)
+- [**RegexPal**](http://regexpal.com)
