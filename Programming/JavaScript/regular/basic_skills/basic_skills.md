@@ -8,7 +8,7 @@
 
 - **Solution**:
 
-    /The punctuation characters in the ASCII table are: !"#\$%&'\(\)\*\+,-\./:;<=>\?@\[\\]\^_`\{\|}~/
+    **/The punctuation characters in the ASCII table are: !"#\$%&'\(\)\*\+,-\./:;<=>\?@\[\\]\^_`\{\|}~/**
 
 - **Discussion**
 
@@ -22,7 +22,7 @@
 
 - **Solution**
 
-    /\x07\x1B\f\n\r\t\v/
+    **/\x07\x1B\f\n\r\t\v/**
 
 - **Discussion**
 
@@ -30,9 +30,9 @@
 
 - **Variation**
 
-    In JavaScript, we can also match those seven control characters by: /\cG\x1B\cL\cJ\cM\cI\cK/, and using \cA through \cZ, you can match one of the 26 control characters too. The `c` must be lowercase, and the letter following the `c` is case insensitive, which is recommended to use an uppercase letter.
+    In JavaScript, we can also match those seven control characters by: **/\cG\x1B\cL\cJ\cM\cI\cK/**, and using **\cA** through **\cZ**, you can match one of the 26 control characters too. The `c` must be lowercase, and the letter following the `c` is case insensitive, which is recommended to use an uppercase letter.
 
-    Besides, we can also use the 7-bit character set to match control characters: /\x07\x1B\x0C\x0A\x0D\x09\x0B/. It's recommended to use the Unicode code rather than to use \x80 through \xFF, because various regex engine will interpret various meanings for them.
+    Besides, we can also use the 7-bit character set to match control characters: **/\x07\x1B\x0C\x0A\x0D\x09\x0B/**. It's recommended to use the Unicode code rather than to use **\x80** through **\xFF**, because various regex engine will interpret various meanings for them.
 
     ASCII table with 7-bit characters are described as followed:
 
@@ -60,15 +60,15 @@
 - **Solution**
     - Calendar with misspellings
 
-        /c[ae]l[ae]nd[ae]r/
+        **/c[ae]l[ae]nd[ae]r/**
 
     - Hexadecimal character
 
-        /[a-fA-F0-9]/
+        **/[a-fA-F0-9]/**
 
     - Non-hexadecimal character
 
-        /[^a-fA-F0-9]/
+        **/[^a-fA-F0-9]/**
 
 - **Discussion**
 
@@ -78,21 +78,21 @@
 
     A caret (^) placed immediately after the opening bracket `[` means to match any character that is *not* in the list.
 
-    A hyphen (-) creates a range when it's placed between two characters. To know exactly what they're, you may have to check the ASCII or Unicode character table. For example, /[A-z]/ is as same as /[A-Z\[\\\]\^&#95;&#96;a-z]/. Actually, it's recommended to create rnges only between to digits or between two letters that are both uppercase or lowercase.
+    A hyphen (-) creates a range when it's placed between two characters. To know exactly what they're, you may have to check the ASCII or Unicode character table. For example, **/[A-z]/** is as same as **/[A-Z\[\\\]\^&#95;&#96;a-z]/**. Actually, it's recommended to create ranges only between to digits or between two letters that are both uppercase or lowercase.
 
     > Note that: Reversed ranges, such as [z-a] are not permitted
 
 - **Variation**
 
-    Actually, there are also some `shorthand character class` in JavaScript like \\w, \\s, and \\S.
+    Actually, there are also some `shorthand character class` in JavaScript like **\\w**, **\\s**, and **\\S**.
 
-    /\\w/ is always identical to /[a-zA-Z0-9_]/
+    **/\\w/** is always identical to **/[a-zA-Z0-9_]/**
 
-    /\\s/ matches any whitespace character, which includes spaces, tabs, and line brakes.
+    **/\\s/** matches any whitespace character, which includes spaces, tabs, and line brakes.
 
-    /\\S\ matches any character not matched by /\\s/
+    **/\\S/** matches any character not matched by **/\\s/**
 
-    In addition, we can remove case sensitivity, by using `/i` like /[A-F0-9]/i or /[a-z0-9]/i for matching hexadecimal character.
+    In addition, we can remove case sensitivity, by using `/i` like **/[A-F0-9]/i** or **/[a-z0-9]/i** for matching hexadecimal character.
 
 ### Match Any Character
 
@@ -107,17 +107,17 @@
 - **Solution**
     - Any character except line breaks
 
-        /'.'/
+        **/'.'/**
 
     - Any character including line breaks
 
-        /[\\s\\S]/
+        **/[\\s\\S]/**
 
 - **Discussion**
 
     The dot notation `.` is one of the oldest and simplest regular expression features. Though it means to match any single character, it does not include a line break at all.
 
-    If you do want to allow your regular expression to span multiple lines, you can solve it by combining \\s and \\S into /[\\s\\S]/.
+    If you do want to allow your regular expression to span multiple lines, you can solve it by combining **\\s** and **\\S** into **/[\\s\\S]/**.
 
     Since the dot has been so convenient, it is the most abused regular expressions feature. Therefore, use it only when you really want to allow any character. When not, use a character class of negated (否定的) character class.
 
@@ -137,19 +137,19 @@
 - **Solution**
     - Start of the subject
 
-        /^alpha/
+        **/^alpha/**
 
     - End of the subject
 
-        /omega$/
+        **/omega$/**
 
     - Start of the line
 
-        /(^|\\n)begin/
+        **/(^|\\n)begin/**
 
     - End of the line
 
-        /end(\\n|$)/
+        **/end(\\n|$)/**
 
 - **Discussion**
 
@@ -159,4 +159,4 @@
 
 - **Variation**
 
-    Actually, if you want to match the start or the end through lines, we can turn of the mode of searching in multiple lines with using `/m` like /^begin/m or /end$/m.
+    Actually, if you want to match the start or the end through lines, we can turn of the mode of searching in multiple lines with using `/m` like **/^begin/m** or **/end$/m**.
