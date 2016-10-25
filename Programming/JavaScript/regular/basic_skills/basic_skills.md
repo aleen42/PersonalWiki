@@ -84,13 +84,17 @@
 
 - **Variation**
 
-    Actually, there are also some `shorthand character class` in JavaScript like **\\w**, **\\s**, and **\\S**.
+    Actually, there are also some `shorthand character class` in JavaScript like `\d`, `\D`, `\w`, `\W`, `\s`, and `\S`.
+
+    **/\\d/** matches any numeric character
+
+    **/\\D/** matches any non-numeric character
 
     **/\\w/** is always identical to **/[a-zA-Z0-9_]/**
 
     **/\\W/** is identical to **/[^a-zA-Z0-9_]/**
 
-    **/\\s/** matches any whitespace character, which includes spaces, tabs, and line brakes.
+    **/\\s/** matches any whitespace character, which includes spaces, tabs, and line brakes
 
     **/\\S/** matches any character not matched by **/\\s/**
 
@@ -239,3 +243,17 @@
     The other kind of engine is a text-directed engine. The key difference between those two kinds of engines is that the text-directed engine visits each character in the subject text only once, while the regex-directed may visits many times. This kind of engine is much faster, but support expressions only in the mathematical sense.
 
     The order of the alternatives in the regular expression does not matter only when two of them can match the same position in the string. For example, **/Jane|Janet/** will match **Jane** in the sentence "My name is Janet.", while **/Janet|Jane/** will match **Janet**. Since Janet has been a word, we should use **/\bJane\b|\bJanet\b/** to solve this problem.
+
+### Group and Capture Parts of the Match
+
+- **Problem**
+
+    Improve the regular expression for matching **Mary**, **Jane**, or **Sue** by forcing the match to be a whole world.
+
+    Create a regular expression that matches any date in yyyy-mm-dd format, and separately capture the year, the month, and the day.
+
+- **Solution**
+
+    **/\b(Mary|Jane|Sue)\b/**
+
+    **/\b(\d\d\d\d)-(\d\d)-(\d\d)\b/**
