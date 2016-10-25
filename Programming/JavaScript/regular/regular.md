@@ -22,4 +22,4 @@ Before learning, here is a list of tools for working with Regular Expressions:
 
 Now, we start to talk about Regular Expressions in JavaScript with a category:
 
-- **Basic Skills**
+- [**Basic Skills**](./basic_skills/basic_skills.md)
