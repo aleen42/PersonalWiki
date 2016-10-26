@@ -138,3 +138,5 @@ Take these things in mind when adding an image to an article:
 - Add OpenGraph and Twitter Card tags for the image
 - Don’t break the left reading line using an image
 - Use images in your XML sitemaps
+
+Next to image SEO and using images for user experience, images can also play an important role in conversion!
