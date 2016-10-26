@@ -92,3 +92,4 @@ I mentioned using the image for social sharing. If you add the right image tag t
 <meta property="og:image" content="http://example.com/link-to-image.jpg" />
 ```
 
+That will make sure the image is included in your share on Facebook (and OpenGraph is also used for [Pinterest](https://developers.pinterest.com/rich_pins_overview/), for instance).
