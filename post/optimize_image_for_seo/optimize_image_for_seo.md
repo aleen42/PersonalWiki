@@ -110,3 +110,15 @@ Let me be honest, this is a pet peeve of mine. Images shouldn’t break the left
 <p align="center">
     Maintain the left reading line; don’t align images to the left
 </p>
+
+If an image is used that is the same width as your textual column, that would be no problem. It will even help emphasizing the image more.
+
+Note that this has absolutely nothing to do with image SEO, but I saw an opportunity to express my opinion and used it :) I think it’s bad for user experience. Just to please me: don’t. Thanks a lot for that.
+
+### XML image sitemaps
+
+If you are a web developer, you might wonder about XML image sitemaps. I’d rather say images in XML sitemaps. Google is pretty [clear about this](https://support.google.com/webmasters/answer/178636?hl=en):
+
+> To give Google information about images on your site, you’ll need to add image-specific tags to a sitemap. You can use a separate sitemap to list images, or you can add image information to an existing sitemap. Use the method works for you!
+
+Every now and then, people ask us about XML image sitemaps. We don’t generate these in our plugin, but as Google states, instead these images are included in the page or post sitemaps. Just scroll down in our post sitemap and find that we have added images to all our latest posts (there is a column telling you that). Adding images to your XML sitemaps help Google index your images, so be sure to do so for better image SEO.
