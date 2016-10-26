@@ -340,13 +340,13 @@
 
     All the quantifiers used in the last section are *greedy*, which means that they try to repeat as many times as possible. This can make it hard to pair tags. Consider the following simple example:
 
-    ```
-<p>
-The very <em>first</em> task is to find the beginning of a paragraph.
-</p>
-<p>
-Then you have to find the end of the paragraph.
-</p>
+    ```html
+    <p>
+    The very <em>first</em> task is to find the beginning of a paragraph.
+    </p>
+    <p>
+    Then you have to find the end of the paragraph.
+    </p>
     ```
 
     We can't use a regex which simply stop when it encounters a `<` character.
