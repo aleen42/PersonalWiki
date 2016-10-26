@@ -95,9 +95,8 @@ I mentioned using the image for social sharing. If you add the right image tag t
 That will make sure the image is included in your share on Facebook (and OpenGraph is also used for [Pinterest](https://developers.pinterest.com/rich_pins_overview/), for instance).
 
 <p align="center">
-<img src="./post-to-facebook.png" alt="Social preview for Facebook sharing">
+    <img src="./post-to-facebook.png" alt="Social preview for Facebook sharing">
 </p>
-
 
 Our [WordPress SEO plugin](https://yoast.com/wordpress/plugins/seo/) has a [Social section](https://yoast.com/social-media-optimization-with-wordpress-seo-by-yoast/) where you can set and preview this image. Make sure to use a high-quality image, like the original image you use in the post, as higher quality / larger images tend to be used by the social platforms more often. If you have set this up correctly, and it doesn't work, try to flush Facebook's cache in the [URL Debugger](https://developers.facebook.com/tools/debug/).
 
