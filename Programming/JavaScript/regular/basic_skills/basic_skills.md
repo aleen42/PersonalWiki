@@ -418,3 +418,41 @@
         /** unable to find a word before a closing tag </b>. */
     }
     ```
+
+### Match One or Two Alternatives Based On a Condition
+
+- **Problem**
+
+    Create a regular expression that matches a comma-delimited list of the words **one, two, and three**. Each word can occur any number of times in the list, but each one must occur at least once.
+
+- **Solution**
+
+    **/\b(?:(?:(one)|(two)|(three))(?:,|\b)){3,}/**
+
+### Insert Literal Text into the Replacement Text
+
+- **Problem**
+
+    Search and replace any regular expression match literally with the eight characters: **$%\&#42;$1\1**.
+
+- **Solution**
+
+    `string.replace(//, '$%\&$$1\1')`
+
+- **Discussion**
+
+    In JavaScript, dollar signs (`$`) need to be escaped only when they are followed by a digit, ampersand (`&`), backtick (`\`), straight quote, underscore (`_`), plus sign (`+`), or another dollar sign (`$`). To escape a dollar sign, precede it with another dollar sign.
+
+### Insert the Regex Match into the Replacement Text
+
+- **Problem**
+
+    Replace a url with `<a>` wrapping it.
+
+- **Replacement**
+
+    `string.replace(/http:\S+/, '<a href="$&">$&</a>')`
+
+- **Discussion**
+
+    JavaScript has adopted the `$&` syntax to insert the regex match into the replacement text.
