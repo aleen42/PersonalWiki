@@ -398,23 +398,23 @@ Then you have to find the end of the paragraph.
     If you really want to simulate lookbehind:
 
     ```js
-var mainRegexp = /\w+(?=<\/b>)/;
-var lookbehind = /<b>$/;
+    var mainRegexp = /\w+(?=<\/b>)/;
+    var lookbehind = /<b>$/;
 
-if (match = mainRegexp.exec('<b>cat</b>')) {
-    /** found a word before a closing tag </b> */
-    var potentialMatch = mathc[0];
-    var leftCotext = match.input.substring(0, match.index);
+    if (match = mainRegexp.exec('<b>cat</b>')) {
+        /** found a word before a closing tag </b> */
+        var potentialMatch = mathc[0];
+        var leftCotext = match.input.substring(0, match.index);
 
-    if (lookbehind.exec(leftCotext)) {
-        /**
-         * lookbehind matched
-         * potentialMatch occurs betwen a pair of <b> tags
-         */
+        if (lookbehind.exec(leftCotext)) {
+            /**
+             * lookbehind matched
+             * potentialMatch occurs betwen a pair of <b> tags
+             */
+        } else {
+            /** loobehind failed: potentialMatch is no good */
+        }
     } else {
-        /** loobehind failed: potentialMatch is no good */
+        /** unable to find a word before a closing tag </b>. */
     }
-} else {
-    /** unable to find a word before a closing tag </b>. */
-}
-```
+    ```
