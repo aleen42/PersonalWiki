@@ -282,6 +282,40 @@
 
     Firstly, we can use a capturing group to capture the value of the year minus the century. After that, we can match the same text anywhere in the regex using a `backreference`, like `\1` for the first group, and `\10` for the group 10. With that backreference, the first capturing group will store a value to match later text literally.
 
-    If a capturing group is repeated, either by a quantifier (量詞) or by backtracking. The stored value will overwritten each time the capturing group matches something, and the backreference will also matches only the text that was last captured by the group.
+    If a capturing group is repeated, either by a quantifier `{}` or by backtracking. The stored value will overwritten each time the capturing group matches something, and the backreference will also matches only the text that was last captured by the group.
 
     Note that, a backreference only works after a capturing group. For example, the regular expressions **/\b\d\d\1-(\d\d)-\1\b/** and **/\b\d\d\1-\1-(\d\d)\b/** can never match anything generally. Nevertheless, in JavaScript, backreferences before a capturing group will always be successful to capture, because a group that has captured a zero-length match will cause `/1` to succeed like **/(^)\1/**. It means that, **/\b\d\d\1-(\d\d)-\1\b/** will match **20-12-12**, or **/\b\d\d\1-\1-(\d\d)\b/** will match **20--12**.
+
+### Repeat Part of the Regex a Certain Number of Times
+
+- **Problem**
+
+    Create regular expressions that match the following kinds of numbers:
+
+    - A googol (A decimal number with 100 digits.)
+    - A 32-bit hexadecimal number.
+    - A 32-bit hexadecimal number with an optional `h` suffix.
+    - A floating-point number with an optional integer part, a mandatory fractional (小數) part, and an optional exponent (指數冪).
+
+- **Solution**
+    - Googol
+
+        **/\b\d{100}\b/**
+
+    - Hexadecimal number
+
+        **/\b[a-fA-F0-9]{1,8}\b/**
+
+    - Hexadecimal number with optional suffix
+
+        **/\b[a-fA-F0-9]{1,8}h?\b/**
+
+    - Floating-point number
+
+        **/\b\d*\.\d+(?:e\d+)?\b/**
+
+- **Discussion**
+
+    The quantifier `{n}` means to repeat the preceding regex token `n` number of times, and **/ab{1}c/**, therefore, is same as **/abc/**. In addition, **/ab{0}c/** is same as **/ac/**.
+
+    The quantifier `{n, m}` means that a repeat range from `n` to `m`, in which `m` should be greater than `n`. What if `n` and `m` are equal, we will have fixed repetition. For example, **/\b\d{100,100}\b/** is same as **/\b\d{100}\b/**.
