@@ -78,7 +78,7 @@ The caption of the image is the text that accompanies the image. At most images 
 
 Do we add captions to all images? No. As mentioned, sometimes images just serve another purpose. Decide whether the image at hand is an image you want to use for SEO as well or not. Keeping over-optimization in mind, I’d say you should add a caption if it would make sense to the visitor if that caption is added. Think about the visitor first, don’t add a caption just for image SEO.
 
-Alt text and title text
+#### Alt text and title text
 
 The alt text is added to an image so there will be a descriptive text when the image for whatever reason can’t be displayed to the visitor. I can’t put it any better than Wikipedia: “In situations where the image is not available to the reader, perhaps because they have turned off images in their web browser or are using a screen reader due to a visual impairment, the alternative text ensures that no information or functionality is lost.” Be sure to add alt texts. Make sure the alt text includes your SEO keyword and relates to / describes the image.
 
