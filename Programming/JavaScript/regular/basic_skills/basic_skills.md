@@ -470,3 +470,19 @@
 - **Discussion**
 
     JavaScript support `$1` only in the replacement syntax. If a capturing group with the specified two-digit number exists in your regular expression, both digits are used for the capturing group, like `$10` for the tenth capturing group, if it exists. Otherwise, only `$1` make effect with a literal **0** following.
+
+    Of course, if the capturing group does not exist, your replacement expression will act like an literal.
+
+### Insert Match Context into the Replacement Text
+
+- **Problem**
+
+    Create replacement text that replaces the regex match with the text before the regex match, followed by the whole subject text, followed by the text after the regex match. For example, if **Match** is found in **BeforeMatchAfter**, replace the match with **BeforeBeforeMatchMatchAfterAfter**.
+
+- **Solution**
+
+    <code>string.replace(/Match/, $&#96;$&#96;$&$'$')</code>
+
+- **Discussion**
+
+    JavaScript use <code>$&#96;</code> and `$'` for left and right context, while `$&` for the whole regex match.
