@@ -67,3 +67,11 @@ The next step in image SEO should be to make sure that scaled image is served in
 You can still reduce the file size of these images by for instance removing the [EXIF data](http://en.wikipedia.org/wiki/Exchangeable_image_file_format). We recommend using tools like [ImageOptim](https://imageoptim.com/) or websites like [JPEGMini](http://www.jpegmini.com/) or [PunyPNG](http://www.punypng.com/). I’ve also heard great stories about [Kraken.io](https://yoast.com/out/kraken/), but I haven’t used that myself, to be honest.
 
 After you have uploaded the image, tools like [YSlow](http://yslow.org/) can tell you if your image optimization succeeded.
+
+### Adding the image to your article
+
+Don’t just stuff it in somewhere. I already mentioned adding it near / at / in related textual content. That simply helps a lot. It makes sure the content is relevant for the image as well, as it is the other way around.
+
+#### Captions
+
+The caption of the image is the text that accompanies the image. At most images in this article, it’s the text in the gray box below it. Why is that text important for image SEO as well? People use that text in scanning an article. Next to headings, people tend to scan the image and include the caption as well in that scan. Nielsen actually wrote back in 1997: “Elements that enhance scanning include headings, large type, bold text, highlighted text, bulleted lists, graphics, captions, topic sentences, and tables of contents.” In 2012, KissMetric even stated that “Captions under images are read on average 300% more than the body copy itself, so not using them, or not using them correctly, means missing out on an opportunity to engage a huge number of potential readers.”
