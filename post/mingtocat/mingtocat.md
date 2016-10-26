@@ -6,9 +6,11 @@
 <br />
 
 <p align="center">
-  <figure style="
-    text-align: center;
-"><img alt="Lerna" src="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/mingtocat/preview.gif" width="60%"><figcaption><strong>Mingtocat</strong>, an emperor in the Ming Dynasty of China</figcaption></figure>
+  <img alt="Lerna" src="./preview.gif" width="60%">
+</p>
+
+<p align="center">
+  <strong>Mingtocat</strong>, an emperor in the Ming Dynasty of China
 </p>
 
 <br />
