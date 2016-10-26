@@ -377,7 +377,7 @@ Then you have to find the end of the paragraph.
 
 - **Solution**
 
-    **/(?<=<b>)\w+(?=</b>)/**
+    **/(?&#60;=&#60;b&#62;)\w+(?=&#60;/b&#62;)/**
 
     Actually, JavaScript supports the lookahead `(?=</b>)`, but not the lookbehind `(?<=<b>)`.
 
@@ -389,4 +389,4 @@ Then you have to find the end of the paragraph.
 
     If the lookahead is in the middle of the regex, you can end up with capturing groups that match overlapping (重複的) parts of the subject text.
 
-    But what if we use a backreference outside the lookaround to a capturing group, which is created inside the lookaround. For example: apply **/(?=(\d+))\w+\1/** on **123x12**. The greedy `\d+` matches 123, and store the value in the first capturing group. The engine then exits the lookahead, resetting the match-in-progress to the start of the string, discarding the backtracking positions remembered by the greedy plus but keeping the 123 stored in the first capturing group. Then, the greedy `\w+` matches all **123x12**, and `\1` fails at the end of the string. Event with several backtracking attempts, it still fails to match. The final 12 would match ``\1` if the regex engine could return to the lookahead and give up **123** in favor of **12**, but the regex engine doesn't do that.
+    But what if we use a backreference outside the lookaround to a capturing group, which is created inside the lookaround. For example: apply **/(?=(\d+))\w+\1/** on **123x12**. The greedy `\d+` matches 123, and store the value in the first capturing group. The engine then exits the lookahead, resetting the match-in-progress to the start of the string, discarding the backtracking positions remembered by the greedy plus but keeping the 123 stored in the first capturing group. Then, the greedy `\w+` matches all **123x12**, and `\1` fails at the end of the string. Event with several backtracking attempts, it still fails to match. The final 12 would match `\1` if the regex engine could return to the lookahead and give up **123** in favor of **12**, but the regex engine doesn't do that.
