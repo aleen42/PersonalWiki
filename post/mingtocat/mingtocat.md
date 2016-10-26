@@ -6,7 +6,7 @@
 <br />
 
 <p align="center">
-  <img alt="Lerna" src="./preview.gif" width="60%">
+  <img alt="mingtocat" src="./preview.gif" width="60%">
 </p>
 
 <p align="center">
