@@ -122,3 +122,19 @@ If you are a web developer, you might wonder about XML image sitemaps. I’d rat
 > To give Google information about images on your site, you’ll need to add image-specific tags to a sitemap. You can use a separate sitemap to list images, or you can add image information to an existing sitemap. Use the method works for you!
 
 Every now and then, people ask us about XML image sitemaps. We don’t generate these in our plugin, but as Google states, instead these images are included in the page or post sitemaps. Just scroll down in our [post sitemap](https://yoast.com/post-sitemap.xml) and find that we have added images to all our latest posts (there is a column telling you that). Adding images to your XML sitemaps help Google index your images, so be sure to do so for better image SEO.
+
+### TL;DR
+
+Image SEO is the sum of a number of elements. With Google being able to recognize elements in the image better every day, it makes sense to make sure the image and all elements contribute to user experience as well as SEO. It would be foolish to try to fool Google.
+
+Take these things in mind when adding an image to an article:
+
+- Use a relevant image that matches your text
+- Pick the right file name for your image
+- Make sure image dimension match the image size as displayed
+- Reduce file size for faster loading
+- Add a caption for easier scanning of the page
+- Use an image alt text, title text is optional
+- Add OpenGraph and Twitter Card tags for the image
+- Don’t break the left reading line using an image
+- Use images in your XML sitemaps
