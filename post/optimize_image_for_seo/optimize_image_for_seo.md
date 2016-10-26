@@ -62,3 +62,8 @@ The next step in image SEO should be to make sure that scaled image is served in
     <img title="Screenshot of an image, half normal and half optimized by JPEGMini showing no difference in visual quality" src="./jpegmini-image-file-optimization.jpg" alt="Image SEO: Optimize image file size using JPEGMini">
 </p>
 <p slitn="center">Optimize image file size for instance using JPEGMini</p>
+
+
+You can still reduce the file size of these images by for instance removing the [EXIF data](http://en.wikipedia.org/wiki/Exchangeable_image_file_format). We recommend using tools like ImageOptim or websites like JPEGMini or PunyPNG. I’ve also heard great stories about Kraken.io, but I haven’t used that myself, to be honest.
+
+After you have uploaded the image, tools like YSlow can tell you if your image optimization succeeded.
