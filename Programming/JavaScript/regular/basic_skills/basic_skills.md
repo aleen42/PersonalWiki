@@ -334,7 +334,7 @@
 
 - **Solution**
 
-    **/&#60;p&#62;.&#42;?&#60;/p&#62;/**
+    **/&#60;p&#62;.&#42;?&#60;\/p&#62;/**
 
 - **Discussion**
 
@@ -351,7 +351,7 @@ Then you have to find the end of the paragraph.
 
     We can't use a regex which simply stop when it encounters a `<` character.
 
-    Take a look at one incorrect solution for this problem: **/&#60;p&#62;.&#42;&#60;/p&#62;/**.
+    Take a look at one incorrect solution for this problem: **/&#60;p&#62;.&#42;&#60;\/p&#62;/**.
 
     The only difference from the solution is that this lacks the extra question mark, causing the regex uses the same greedy asterisk (`*`), which means that both all paragraphs will be matched by this regex, until the end of the subject text. That also means that the regex will match text, which starts from the first `<p>` , and ends to the last `</p>`.
 
@@ -377,7 +377,7 @@ Then you have to find the end of the paragraph.
 
 - **Solution**
 
-    **/(?&#60;=&#60;b&#62;)\w+(?=&#60;/b&#62;)/**
+    **/(?&#60;=&#60;b&#62;)\w+(?=&#60;\/b&#62;)/**
 
     Actually, JavaScript supports the lookahead `(?=</b>)`, but not the lookbehind `(?<=<b>)`.
 
@@ -390,3 +390,31 @@ Then you have to find the end of the paragraph.
     If the lookahead is in the middle of the regex, you can end up with capturing groups that match overlapping (重複的) parts of the subject text.
 
     But what if we use a backreference outside the lookaround to a capturing group, which is created inside the lookaround. For example: apply **/(?=(\d+))\w+\1/** on **123x12**. The greedy `\d+` matches 123, and store the value in the first capturing group. The engine then exits the lookahead, resetting the match-in-progress to the start of the string, discarding the backtracking positions remembered by the greedy plus but keeping the 123 stored in the first capturing group. Then, the greedy `\w+` matches all **123x12**, and `\1` fails at the end of the string. Event with several backtracking attempts, it still fails to match. The final 12 would match `\1` if the regex engine could return to the lookahead and give up **123** in favor of **12**, but the regex engine doesn't do that.
+
+    Since JavaScript has not suppported the lookbehind, there's another solution to solve it by using capturing groups: **/(&#60;b&#62;)(\w+)(?=&#60;\/b&#62;)/**. When applied to **&#60;b&#62;cat&#60;\/b&#62;**, the overall regex match will be **&#60;b&#62;cat**. The first capturing group will hold **&#60;b&#62;**, and the second, **cat**, exactly what we want.
+
+    If the requirement is that you want to do a search-and-replace, simple use a backreference to the first capturing group to reinsert the opening tag into the replacement text, like `string.replace(/(<b>)(\w+)(?=<\/b>)/, '$1replacement');`.
+
+    If you really want to simulate lookbehind:
+
+    ```js
+var mainRegexp = /\w+(?=<\/b>)/;
+var lookbehind = /<b>$/;
+
+if (match = mainRegexp.exec('<b>cat</b>')) {
+    /** found a word before a closing tag </b> */
+    var potentialMatch = mathc[0];
+    var leftCotext = match.input.substring(0, match.index);
+
+    if (lookbehind.exec(leftCotext)) {
+        /**
+         * lookbehind matched
+         * potentialMatch occurs betwen a pair of <b> tags
+         */
+    } else {
+        /** loobehind failed: potentialMatch is no good */
+    }
+} else {
+    /** unable to find a word before a closing tag </b>. */
+}
+```
