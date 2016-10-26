@@ -18,6 +18,8 @@ It’s a simple recommendation: use images to every article you write online. It
 
 ### Finding the right image
 
+<img class="nopadding noborder alignright wp-image-293927 size-full" title="Image of employer welcoming the visitor" src="https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company.jpg" alt="Image SEO: This image isn't saying 'welcome to our&nbsp;company', it's saying 'welcome to a&nbsp;company'." width="250" height="216" srcset="https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company.jpg 250w, https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company-132x114.jpg 132w, https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company-159x137.jpg 159w" sizes="(max-width: 250px) 100vw, 250px">
+
 If you have the opportunity to add your own image, please do so. Your team page needs pictures of your team, not this dude on the right or one of his stock photo friends. Off topic: let alone that the dude might need a haircut.
 
 Your article needs an image that has the same subject as your article. If you would use an image, just to use an image and get a green bullet in our SEO plugin, you are doing it wrong. The image should reflect the topic of the post, or have illustrative purposes within the article, of course.
@@ -36,4 +38,4 @@ If there is no way to use images of your own, there are other ways to find more 
 
 Obvious alternatives for photos could be illustrations, like we sometimes use, or graphs, of course. An honorable mention should go to animated GIFs, as these seem to become more and more popular these days.
 
-<img class="nopadding noborder alignright wp-image-293927 size-full" title="Image of employer welcoming the visitor" src="https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company.jpg" alt="Image SEO: This image isn't saying 'welcome to our&nbsp;company', it's saying 'welcome to a&nbsp;company'." width="250" height="216" srcset="https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company.jpg 250w, https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company-132x114.jpg 132w, https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company-159x137.jpg 159w" sizes="(max-width: 250px) 100vw, 250px">
+
