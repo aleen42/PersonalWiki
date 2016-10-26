@@ -57,3 +57,8 @@ Loading times are an important UX and therefore SEO aspect. The faster the site,
 #### Reduce file size
 
 The next step in image SEO should be to make sure that scaled image is served in the smallest file size possible. There are tools for that. Of course you could just export the image an test what percentage of quality is acceptable, but I prefer (especially with retina and similar screens) to use 100% quality images.
+
+<p align="center">
+    <img class="nopadding wp-image-294041 size-full" title="Screenshot of an image, half normal and half optimized by JPEGMini showing no difference in visual quality" src="https://cdn-images.yoast.com/uploads/2015/01/jpegmini-image-file-optimization.jpg" alt="Image SEO: Optimize image file size using JPEGMini" width="500" height="260" srcset="https://cdn-images.yoast.com/uploads/2015/01/jpegmini-image-file-optimization.jpg 500w, https://cdn-images.yoast.com/uploads/2015/01/jpegmini-image-file-optimization-250x130.jpg 250w, https://cdn-images.yoast.com/uploads/2015/01/jpegmini-image-file-optimization-180x94.jpg 180w, https://cdn-images.yoast.com/uploads/2015/01/jpegmini-image-file-optimization-360x187.jpg 360w, https://cdn-images.yoast.com/uploads/2015/01/jpegmini-image-file-optimization-235x122.jpg 235w, https://cdn-images.yoast.com/uploads/2015/01/jpegmini-image-file-optimization-470x244.jpg 470w" sizes="(max-width: 500px) 100vw, 500px">
+</p>
+<p slitn="center">Optimize image file size for instance using JPEGMini</p>
