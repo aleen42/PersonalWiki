@@ -318,4 +318,10 @@
 
     The quantifier `{n}` means to repeat the preceding regex token `n` number of times, and **/ab{1}c/**, therefore, is same as **/abc/**. In addition, **/ab{0}c/** is same as **/ac/**.
 
-    The quantifier `{n, m}` means that a repeat range from `n` to `m`, in which `m` should be greater than `n`. What if `n` and `m` are equal, we will have fixed repetition. For example, **/\b\d{100,100}\b/** is same as **/\b\d{100}\b/**.
+    The quantifier `{n,m}` means that a repeat range from `n` to `m`, in which `m` should be greater than `n`. What if `n` and `m` are equal, we will have fixed repetition. For example, **/\b\d{100,100}\b/** is same as **/\b\d{100}\b/**.
+
+    The quantifier `{n,}` means that `n` or more characters should be matched, and **/\d{1,}/**, therefore, is same as **/\d+/**, and **/\d{0,}/** is same as **/\d*/**.
+
+    When it comes to optional character, sometimes we can choose the way of using `?` following the optional character. Actually, **/h?/** does the same as **/h{0,1}/**.
+
+    In addition to repetition of a character, we can also repeat a group with the quantifier, like **/(?:abc){3}/**, which does the same as **/abcabcabc/**. When considering about repeating a capturing group, what we should remember, mentioned above, is that the capturing group should stored the last captured value. For example, **/(\d\d){3}/** is same as **/\d\d\d\d(\d\d)/**. If you do want to capture all values, you should place the capturing group notation outside your repetition like **((?:\d\d){3})**.
