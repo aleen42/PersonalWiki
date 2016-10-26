@@ -86,4 +86,9 @@ When hovering an image, IE shows the alt text as a ‘tooltip’. Chrome show th
 
 [Read more: ‘Image SEO: alt tag and title tag optimization’ »](https://yoast.com/image-seo-alt-tag-and-title-tag-optimization/)
 
-I mentioned using the image for social sharing. If you add the right image tag to your <head> section like this:
+I mentioned using the image for social sharing. If you add the right image tag to your `<head>` section like this:
+
+```html
+<meta property="og:image" content="http://example.com/link-to-image.jpg" />
+```
+
