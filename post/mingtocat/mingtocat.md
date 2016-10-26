@@ -6,8 +6,8 @@
 <br />
 
 <p align="center">
-  <img alt="mingtocat" src="./preview.gif" width="60%">
-  <img alt="octocat" style="display:none" src="./preview.gif" width="60%">
+  <img alt="mingtocat" src="./preview.gif" width="60%" />
+  <img alt="octocat" style="display:none" src="./preview.gif" width="60%" />
 </p>
 
 <p align="center">
