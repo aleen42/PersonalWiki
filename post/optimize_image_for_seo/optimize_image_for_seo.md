@@ -38,4 +38,4 @@ If there is no way to use images of your own, there are other ways to find more 
 
 Obvious alternatives for photos could be illustrations, like we sometimes use, or graphs, of course. An honorable mention should go to [animated GIFs](http://blog.hubspot.com/blog/tabid/6307/bid/33560/The-Ultimate-Guide-to-Using-Animated-GIFs-in-Your-Marketing.aspx), as these seem to become more and more popular these days.
 
-
+<img class="nopadding wp-image-294024 size-full" title="Animated image of Barney Stinson and Robin Scherbatsky from the sitcom How I Met Your Mother doing a highfive." src="./how-i-met-your-highfive.gif" alt="Image SEO: Animated GIFs are popular these days" width="500" height="235">
