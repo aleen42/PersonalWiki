@@ -325,3 +325,46 @@
     When it comes to optional character, sometimes we can choose the way of using `?` following the optional character. Actually, **/h?/** does the same as **/h{0,1}/**.
 
     In addition to repetition of a character, we can also repeat a group with the quantifier, like **/(?:abc){3}/**, which does the same as **/abcabcabc/**. When considering about repeating a capturing group, what we should remember, mentioned above, is that the capturing group should stored the last captured value. For example, **/(\d\d){3}/** is same as **/\d\d\d\d(\d\d)/**. If you do want to capture all values, you should place the capturing group notation outside your repetition like **((?:\d\d){3})**.
+
+### Choose Minimal or Maximal Repetition
+
+- **Problem**
+
+    Match a pair of `<p>` tags, and text between them.
+
+- **Solution**
+
+    **/&#60;p&#62;.&#42;?&#60;/p&#62;/**
+
+- **Discussion**
+
+    All the quantifiers used in the last section are *greedy*, which means that they try to repeat as many times as possible. This can make it hard to pair tags. Consider the following simple example:
+
+    ```
+<p>
+The very <em>first</em> task is to find the beginning of a paragraph.
+</p>
+<p>
+Then you have to find the end of the paragraph.
+</p>
+    ```
+
+    We can't use a regex which simply stop when it encounters a `<` character.
+
+    Take a look at one incorrect solution for this problem: **/&#60;p&#62;.&#42;&#60;/p&#62;/**.
+
+    The only difference from the solution is that this lacks the extra question mark, causing the regex uses the same greedy asterisk (`*`), which means that both all paragraphs will be matched by this regex, until the end of the subject text. That also means that the regex will match text, which starts from the first `<p>` , and ends to the last `</p>`.
+
+    Why? The greedy `*` grabs as much text as possible. With each repetition of a quantifier beyond the quantifier's minimum, the regular expression stores a backtracking position, for the engine to go back in when the regex following the quantifier fails.
+
+    To solve this problem, there are `lazy quantifiers`. You can make any quantifier lazy by placing a question mark after it: **/&#42;?/**, **/+?/**, **/??/**, and **/{7,42}?/**. A lazy quantifier repeats as few times as needed, stores one backtracking position, and allows the regex to continue. When matches, it will does nothing but procrastinate (拖延) and not to search any more.
+
+    In order to know how exactly the operation of greedy and lazy repetition does behind, we can comparing how **/\d+\b/** and **/\d+?\b/** act on a couple of different subject texts.
+
+    If we use **/\d+\b/** on **1234**, `\d+` will match all the digits, `\b` then matches. If we use **/\d+?\b/**, `\d+?` will first matches only **1**, and `\b` fails between **1** and **2**, then `\d+?` expands to **12**, and `\b` still fails, until matching all digits, and `\b` succeeds.
+
+    What if the subject text is **1234X**. If using **/\d+\b/**, `\d+` still match **1234**, but then `\b` fails. `\d+` backtracks to **123**, `\b` still fails. This continues until all fails.
+
+    If using **/\d+?\b/**, `\d+?` first matches only **1**, and expands to **12** after `\b` failed to match between **1** and **2**. Continue to **1234**, `\b` still fails, and then `\d+?` tries to match **1234X**, but fails at the end.
+
+    With these descriptions, we can know that a regex with a greedy quantifier will first match as much text as possible, while a regex with a lazy quantifier will first match as less as possible.
