@@ -18,7 +18,7 @@ It’s a simple recommendation: use images to every article you write online. It
 
 ### Finding the right image
 
-<img class="nopadding noborder alignright wp-image-293927 size-full" title="Image of employer welcoming the visitor" src="./not-welcome-to-your-company.jpg" alt="Image SEO: This image isn't saying 'welcome to our&nbsp;company', it's saying 'welcome to a&nbsp;company'." width="250" height="216" srcset="./not-welcome-to-your-company.jpg 250w, https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company-132x114.jpg 132w, https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company-159x137.jpg 159w" sizes="(max-width: 250px) 100vw, 250px">
+<img class="nopadding noborder alignright wp-image-293927 size-full" title="Image of employer welcoming the visitor" src="./not-welcome-to-your-company.jpg" alt="Image SEO: This image isn't saying 'welcome to our&nbsp;company', it's saying 'welcome to a&nbsp;company'." width="250" height="216" srcset="https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company.jpg 250w, https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company-132x114.jpg 132w, https://cdn-images.yoast.com/uploads/2015/01/not-welcome-to-your-company-159x137.jpg 159w" sizes="(max-width: 250px) 100vw, 250px">
 
 If you have the opportunity to add your own image, please do so. Your team page needs pictures of your team, not this dude on the right or one of his stock photo friends. Off topic: let alone that the dude might need a haircut.
 
