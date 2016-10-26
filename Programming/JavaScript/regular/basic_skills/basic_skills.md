@@ -456,3 +456,17 @@
 - **Discussion**
 
     JavaScript has adopted the `$&` syntax to insert the regex match into the replacement text.
+
+### Insert Part of the Regex Match into the Replacement Text
+
+- **Problem**
+
+    Match any contiguous sequence of 10 digits, such as **1234567890**, and convert the sequence into a nicely formatted phone number, like **(123) 456-7890**.
+
+- **Solution**
+
+    `string.replace(/\b(\d{3})(\d{3})(\d{4})\b/, '($1) $2-$3')`
+
+- **Discussion**
+
+    JavaScript support `$1` only in the replacement syntax. If a capturing group with the specified two-digit number exists in your regular expression, both digits are used for the capturing group, like `$10` for the tenth capturing group, if it exists. Otherwise, only `$1` make effect with a literal **0** following.
