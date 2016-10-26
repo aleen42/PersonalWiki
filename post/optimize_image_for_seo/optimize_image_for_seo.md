@@ -38,7 +38,7 @@ If there is no way to use images of your own, there are other ways to find more 
 
 Obvious alternatives for photos could be illustrations, like we sometimes use, or graphs, of course. An honorable mention should go to [animated GIFs](http://blog.hubspot.com/blog/tabid/6307/bid/33560/The-Ultimate-Guide-to-Using-Animated-GIFs-in-Your-Marketing.aspx), as these seem to become more and more popular these days.
 
-<img title="Animated image of Barney Stinson and Robin Scherbatsky from the sitcom How I Met Your Mother doing a highfive." src="./how-i-met-your-highfive.gif" alt="Image SEO: Animated GIFs are popular these days">
+<p align="center"><img title="Animated image of Barney Stinson and Robin Scherbatsky from the sitcom How I Met Your Mother doing a highfive." src="./how-i-met-your-highfive.gif" alt="Image SEO: Animated GIFs are popular these days"></p>
 
 Animated GIFs are very popular these days. Don't go overboard. It'll make your post less attractive to read, as your reading will be interrupted by the movement in the image, of course. Like in the post [where I found the above image](http://www.emagine.com/b2b-blog/5-things-to-look-at-when-optimizing-your-post-for-seo-gifs/).
 
