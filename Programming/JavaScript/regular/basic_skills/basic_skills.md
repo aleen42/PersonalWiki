@@ -368,3 +368,25 @@ Then you have to find the end of the paragraph.
     If using **/\d+?\b/**, `\d+?` first matches only **1**, and expands to **12** after `\b` failed to match between **1** and **2**. Continue to **1234**, `\b` still fails, and then `\d+?` tries to match **1234X**, but fails at the end.
 
     With these descriptions, we can know that a regex with a greedy quantifier will first match as much text as possible, while a regex with a lazy quantifier will first match as less as possible.
+
+### Test for a Match without Adding It to the Overall Mathc
+
+- **Problem**
+
+    Find any word that occurs between a pair of HTML bold tags, without including the tags in the regex match.
+
+- **Solution**
+
+    **/(?<=<b>)\w+(?=</b>)/**
+
+    Actually, JavaScript supports the lookahead `(?=</b>)`, but not the lookbehind `(?<=<b>)`.
+
+- **Discussion**
+
+    Lookaround that looks forward is called `lookahead`, with `(?=...)` as its syntax. When the regular expression engine exits a lookaround group, it discards the text matched by the lookaround, because the text is discarded, any backtracking positions rembered by alternation or quantifiers inside the lookaround are also discarded. While the lookahead does not consume (消耗) any text, the regex engine will remember which part of the text was matched by any capturing groups inside the lookahead.
+
+    If the lookahead is at the end of the regex, you will indeed end up with capturing groups that matches text not matched by the regular expression itself.
+
+    If the lookahead is in the middle of the regex, you can end up with capturing groups that match overlapping (重複的) parts of the subject text.
+
+    But what if we use a backreference outside the lookaround to a capturing group, which is created inside the lookaround. For example: apply **/(?=(\d+))\w+\1/** on **123x12**. The greedy `\d+` matches 123, and store the value in the first capturing group. The engine then exits the lookahead, resetting the match-in-progress to the start of the string, discarding the backtracking positions remembered by the greedy plus but keeping the 123 stored in the first capturing group. Then, the greedy `\w+` matches all **123x12**, and `\1` fails at the end of the string. Event with several backtracking attempts, it still fails to match. The final 12 would match ``\1` if the regex engine could return to the lookahead and give up **123** in favor of **12**, but the regex engine doesn't do that.
