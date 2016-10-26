@@ -41,3 +41,19 @@ Obvious alternatives for photos could be illustrations, like we sometimes use, o
 <img class="nopadding wp-image-294024 size-full" title="Animated image of Barney Stinson and Robin Scherbatsky from the sitcom How I Met Your Mother doing a highfive." src="./how-i-met-your-highfive.gif" alt="Image SEO: Animated GIFs are popular these days">
 
 Animated GIFs are very popular these days. Don’t go overboard. It’ll make your post less attractive to read, as your reading will be interrupted by the movement in the image, of course. Like in the post [where I found the above image](http://www.emagine.com/b2b-blog/5-things-to-look-at-when-optimizing-your-post-for-seo-gifs/).
+
+### Preparing images for use in your article
+
+When you have found the right image to use, either an illustration, chart or photo, the next step is to optimize that image for use on your website. There are a number of things to take in consideration:
+
+#### Choose the right file name
+
+Image SEO starts with the right file name. Of course this is the first location to use that keyword. Without even looking at the actual image, you want Google to know what the image is about. It’s simple: if your image is a sunrise in Paris showing the Notre Dame, the file name shouldn’t be DSC4536.jpg, but notre-dame-paris-sunrise.jpg. The main keyword would be Notre Dame, as that is the main subject of the photo, that is why I added that at the beginning of the file name.
+
+#### Scale for image SEO
+
+Loading times are an important UX and therefore SEO aspect. The faster the site, the easier to visit and index a page is. Images can have a huge impact on loading times, especially when you load a huge image and show it really small, like using a 2500×1500 pixels image and showing it at 250×150 pixels size. The entire image will still have to be loaded. Scale the image to the size you want to show it. WordPress helps by providing the image in multiple sizes after upload already. Unfortunately that doesn’t mean the file size is optimized as well, that’s just the image size.
+
+#### Reduce file size
+
+The next step in image SEO should be to make sure that scaled image is served in the smallest file size possible. There are tools for that. Of course you could just export the image an test what percentage of quality is acceptable, but I prefer (especially with retina and similar screens) to use 100% quality images.
