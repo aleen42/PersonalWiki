@@ -1,4 +1,4 @@
-## [轉載] 5 Reasons Why Your Startup Needs a Security Consultant(安全顧問) [Back](./../post.md)
+## [轉載] Optimizing images for SEO [Back](./../post.md)
 
 > - Author: [Michiel Heijmans](https://yoast.com/about-us/michiel-heijmans/)
 - Origin: https://yoast.com/image-seo/
