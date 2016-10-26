@@ -66,4 +66,4 @@ The next step in image SEO should be to make sure that scaled image is served in
 
 You can still reduce the file size of these images by for instance removing the [EXIF data](http://en.wikipedia.org/wiki/Exchangeable_image_file_format). We recommend using tools like [ImageOptim](https://imageoptim.com/) or websites like [JPEGMini](http://www.jpegmini.com/) or [PunyPNG](http://www.punypng.com/). I’ve also heard great stories about [Kraken.io](https://yoast.com/out/kraken/), but I haven’t used that myself, to be honest.
 
-After you have uploaded the image, tools like YSlow can tell you if your image optimization succeeded.
+After you have uploaded the image, tools like [YSlow](http://yslow.org/) can tell you if your image optimization succeeded.
