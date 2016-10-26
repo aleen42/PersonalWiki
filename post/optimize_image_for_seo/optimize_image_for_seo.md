@@ -18,7 +18,7 @@ It’s a simple recommendation: use images to every article you write online. It
 
 ### Finding the right image
 
-<img class="nopadding noborder alignright wp-image-293927 size-full" title="Image of employer welcoming the visitor" src="./not-welcome-to-your-company.jpg" alt="Image SEO: This image isn't saying 'welcome to our&nbsp;company', it's saying 'welcome to a&nbsp;company'.">
+<img title="Image of employer welcoming the visitor" src="./not-welcome-to-your-company.jpg" alt="Image SEO: This image isn't saying 'welcome to our&nbsp;company', it's saying 'welcome to a&nbsp;company'.">
 
 If you have the opportunity to add your own image, please do so. Your team page needs pictures of your team, not this dude on the right or one of his stock photo friends. Off topic: let alone that the dude might need a haircut.
 
