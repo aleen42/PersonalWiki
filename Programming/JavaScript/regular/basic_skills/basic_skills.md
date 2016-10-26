@@ -267,3 +267,21 @@
 - **Variation**
 
     Actually, using group notation `()` can also avoid capturing values when it's not needed, as long as we add a notation `?:` following the open parentheses like **\b(?:Mary|Jane|Sue)\b**, which won't capture any value for you in the subject text. The main benefit of this approach is that we can add them to an existing regex without upsetting the references to numbered capturing groups. Another benefit is performance.
+
+### Match Previously Matched Text Again
+
+- **Problem**
+
+    Create a regular expression that matches "magical" dates in yyyy-mm-dd format. A date is magical if the year minus the century, the month, and the day of the month are the same numbers, like "2008-08-08".
+
+- **Solution**
+
+    **/\b\d\d(\d\d)-\1-\1\b/**
+
+- **Discussion**
+
+    Firstly, we can use a capturing group to capture the value of the year minus the century. After that, we can match the same text anywhere in the regex using a `backreference`, like `\1` for the first group, and `\10` for the group 10. With that backreference, the first capturing group will store a value to match later text literally.
+
+    If a capturing group is repeated, either by a quantifier (量詞) or by backtracking. The stored value will overwritten each time the capturing group matches something, and the backreference will also matches only the text that was last captured by the group.
+
+    Note that, a backreference only works after a capturing group. For example, the regular expressions **/\b\d\d\1-(\d\d)-\1\b/** and **/\b\d\d\1-\1-(\d\d)\b/** can never match anything generally. Nevertheless, in JavaScript, backreferences before a capturing group will always be successful to capture, because a group that has captured a zero-length match will cause `/1` to succeed like **/(^)\1/**. It means that, **/\b\d\d\1-(\d\d)-\1\b/** will match **20-12-12**, or **/\b\d\d\1-\1-(\d\d)\b/** will match **20--12**.
