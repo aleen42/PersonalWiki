@@ -20,7 +20,7 @@ It's a simple recommendation: use images to every article you write online. It'l
 
 <img title="Image of employer welcoming the visitor" src="./not-welcome-to-your-company.jpg" alt="Image SEO: This image isn't saying 'welcome to our&nbsp;company', it's saying 'welcome to a&nbsp;company'.">
 
-If you have the opportunity to add your own image, please do so. Your team page needs pictures of your team, not this dude on the right or one of his stock photo friends. Off topic: let alone that the dude might need a haircut.
+If you have the opportunity to add your own image, please do so. Your team page needs pictures of your team, not this dude on the right or one of his stock photo friends. *Off topic: let alone that the dude might need a haircut*.
 
 Your article needs an image that has the same subject as your article. If you would use an image, just to use an image and get a green bullet in our SEO plugin, you are doing it wrong. The image should reflect the topic of the post, or have illustrative purposes within the article, of course.
 
@@ -117,7 +117,7 @@ Note that this has absolutely nothing to do with image SEO, but I saw an opportu
 
 ### XML image sitemaps
 
-If you are a web developer, you might wonder about XML image sitemaps. I'd rather say images in XML sitemaps. Google is pretty [clear about this](https://support.google.com/webmasters/answer/178636?hl=en):
+If you are a web developer, you might wonder about XML image sitemaps. I'd rather say *images in XML sitemaps*. Google is pretty [clear about this](https://support.google.com/webmasters/answer/178636?hl=en):
 
 > To give Google information about images on your site, you'll need to add image-specific tags to a sitemap. You can use a separate sitemap to list images, or you can add image information to an existing sitemap. Use the method works for you!
 
