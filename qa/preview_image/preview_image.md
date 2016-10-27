@@ -4,5 +4,7 @@
 var path = '';
 var FileReader = window.FileReader;
 
+var clip = document.getElementById('imgContent');
+
 
 ```
