@@ -27,5 +27,5 @@ var fileHandler = function (e) {
     }
 };
 
-file.addEventListener('change', , false);
+file.addEventListener('change', fileHandler, false);
 ```
