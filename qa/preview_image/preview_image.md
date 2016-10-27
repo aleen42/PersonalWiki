@@ -18,7 +18,7 @@ file.addEventListener('change', function (e) {
         
         reader.readAsDataURL(file);
     } else {
-        
+        path = this.value;
     }
 }, false);
 ```
