@@ -4,7 +4,7 @@
 
 - **Problem**
 
-    Create a regular expression to exactly match the sentence: **The punctuation characters in the SCII table are: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~**.
+    Create a regular expression to exactly match the sentence: **The punctuation characters in the ASCII table are: !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~**.
 
 - **Solution**:
 
@@ -68,7 +68,7 @@
 
     - Non-hexadecimal character
 
-        **/[^a-fA-F0-9]/**
+        **/[&#94;a-fA-F0-9]/**
 
 - **Discussion**
 
@@ -92,7 +92,7 @@
 
     **/\\w/** is always identical to **/[a-zA-Z0-9_]/**
 
-    **/\\W/** is identical to **/[^a-zA-Z0-9_]/**
+    **/\\W/** is identical to **/[&#94;a-zA-Z0-9_]/**
 
     **/\\s/** matches any whitespace character, which includes spaces, tabs, and line brakes
 
@@ -228,7 +228,7 @@
 
 - **Problem**
 
-    Create a regular expression that when applied repeatedly to the text **Mary, Jane, and Sue went to Mary's house** will match **Mary**, **Jane* *, **Sue**, and then **Mary** again.
+    Create a regular expression that when applied repeatedly to the text **Mary, Jane, and Sue went to Mary's house** will match **Mary**, **Jane**, **Sue**, and then **Mary** again.
 
 - **Solution**
 
