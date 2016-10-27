@@ -23,6 +23,7 @@ file.addEventListener('change', function (e) {
         if (/"\w\W"/.test(path)) {
             path = path.slice(1, -1);
         }
+        
         clip.setAttribute('src', path);
     }
 }, false);
