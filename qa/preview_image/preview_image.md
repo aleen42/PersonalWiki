@@ -19,6 +19,11 @@ file.addEventListener('change', function (e) {
         reader.readAsDataURL(file);
     } else {
         path = e.target.value;
+        
+        if (/"\w\W"/.test(path)) {
+            path = path.slice(1, -1);
+        }
+        clip.attr("src", path);
     }
 }, false);
 ```
