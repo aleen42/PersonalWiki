@@ -10,6 +10,11 @@ var file = document.getElementById('file');
 file.addEventListener('change', function (e) {
     if (FileReader) {
         var reader = new FileReader();
+        var file = this.files[0];
+        
+        reader.onload = function (e) {
+            clip.attr('src', e.target.result);
+        }
     }
 }, false);
 ```
