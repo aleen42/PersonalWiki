@@ -123,3 +123,20 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 - **Discussion**
 
     JavaScript does not have a function for testing whether a regex matches a string entirely, so we have to choose another solution by adding `^` and `&` at the start and the end of the regular expression. Notice that, when using them to solve problems, you should guarantee that you have not used '/m' mode, which will result in matching at line breaks.
+
+### Retrieve the Matched Text
+
+- **Problem**
+
+    How to extract the text that was matched?
+
+- **Solution**
+
+    ```js
+    var result = subject.match(/\d+/);
+    result = result ? result[0] : '';
+    ```
+
+- **Discussion**
+
+    `String.prototype.match()` has accepted a regular expression object as its only parameter, which will return `null` when failed to match. Or if successful, it will return an array with the detail of the match. Normally, the first item of the array will return what it matched, and following items will include the value of capturing groups if existed. Notice that, with `/g` flag, `String.prototype.match()` will behave differently.
