@@ -26,7 +26,7 @@ var fileHandler = function (e) {
         clip.setAttribute('src', path);
     }
     
-    file.removeEventListener('change', fileHandler);)
+    file.removeEventListener('change', fileHandler);
 };
 
 file.addEventListener('change', fileHandler, false);
