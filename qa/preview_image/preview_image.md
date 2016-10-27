@@ -15,7 +15,6 @@ var fileHandler = function (e) {
             clip.setAttribute('src', e.target.result);
 
             /** if you want to get width and height of this image */
-
             console.log ('width: ' + (clip.width || clip.naturalWidth));
             console.log('height: ' + (clip.height || clip.naturalHeight));
         };
