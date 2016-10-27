@@ -3,8 +3,9 @@
 ```js
 var path = '';
 var FileReader = window.FileReader;
-
 var clip = document.getElementById('imgContent');
+
+var file = document.getElementById('file');
 
 
 ```
