@@ -6,8 +6,7 @@ var FileReader = window.FileReader;
 var clip = document.getElementById('imgContent');
 
 var file = document.getElementById('file');
-
-file.addEventListener('change', function (e) {
+var fileHandler = function (e) {
     if (FileReader) {
         var reader = new FileReader();
         var file = this.files[0];
@@ -26,5 +25,7 @@ file.addEventListener('change', function (e) {
         
         clip.setAttribute('src', path);
     }
-}, false);
+};
+
+file.addEventListener('change', , false);
 ```
