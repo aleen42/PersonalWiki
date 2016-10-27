@@ -81,3 +81,25 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 | m       | Search in multiple lines       |
 | g       | Search globally with more than two results       |
 | y       | Sticky mode       |
+
+### Test if a Match Can Be Found Within a Subject string
+
+- **Problem**
+
+    How to test whether a regular expression has matched something within a subject text?
+
+- **Solution**
+
+    ```js
+    if (/regex pattern/.test(subject)) {
+        /** successful match */
+    } else {
+        /** failed to match */
+    }
+    ```
+
+- **Discussion**
+
+    To test whether a regular expression can match part of a string, we can call the `test()` method of a regular expression object, which accepts the subject text as the only one parameter.
+
+    return `true` when successfully matching, while `false` when failed.
