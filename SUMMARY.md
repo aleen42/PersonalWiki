@@ -168,6 +168,7 @@
                         * [Methods of an array](./Programming/JavaScript/array/array_methods/array_methods.md)
                     * [Regular Expressions](./Programming/JavaScript/regular/regular.md)
                         * [Basic Skills](./Programming/JavaScript/regular/basic_skills/basic_skills.md)
+                        * [Programming with Regular Expression](./programming/programming.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
