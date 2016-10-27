@@ -476,6 +476,7 @@
             * [How to preload resources with JavaScript](./qa/resloadjs.md)
             * [How to detect whether a document is inside a iframe with JavaScript](./qa/iniframe_javascript.md)
             * [How to manage JavaScript projects with Lerna](./qa/js_projects_with_lerna.md)
+            * [How to preview an image after uploaded with file input and FileReader](./qa/preview_image/preview_image.md)
             * [Something about !DOCTYPE](./qa/doctype.md)
             * [Something about iframe](./qa/iframe.md)
             * [Differences between link and import](./qa/difference_between_link_and_import.md)
