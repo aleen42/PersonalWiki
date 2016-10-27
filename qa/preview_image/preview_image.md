@@ -1,1 +1,1 @@
-## How to json_encode Chinese in PHP [Back](./../qa.md)
+## How to preview an image after uploaded with file input and FileReader [Back](./../qa.md)
