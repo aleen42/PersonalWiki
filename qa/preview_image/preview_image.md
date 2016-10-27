@@ -14,7 +14,9 @@ file.addEventListener('change', function (e) {
         
         reader.onload = function (e) {
             clip.attr('src', e.target.result);
-        }
+        };
+        
+        reader.readAsDataURL(file);
     }
 }, false);
 ```
