@@ -103,3 +103,23 @@ This chapter mainly discusses about how to implement regular expressions with Ja
     To test whether a regular expression can match part of a string, we can call the `test()` method of a regular expression object, which accepts the subject text as the only one parameter.
 
     return `true` when successfully matching, while `false` when failed.
+
+### Test Whether a Regex Matches the entire Subject Text
+
+- **Problem**
+
+    What if I want to check whether a regular expression has matched the whole subject text?
+
+- **Solution**
+
+    ```js
+    if (/^regex pattern$/.test(subject)) {
+        /** successful match */
+    } else {
+        /** failed to match */
+    }
+    ```
+
+- **Discussion**
+
+    JavaScript does not have a function for testing whether a regex matches a string entirely, so we have to choose another solution by adding `^` and `&` at the start and the end of the regular expression. Notice that, when using them to solve problems, you should guarantee that you have not used '/m' mode, which will result in matching at line breaks.
