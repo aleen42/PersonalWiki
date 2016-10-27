@@ -13,7 +13,7 @@ file.addEventListener('change', function (e) {
         var file = this.files[0];
         
         reader.onload = function (e) {
-            clip.attr('src', e.target.result);
+            clip.setAttribute('src', e.target.result);
         };
         
         reader.readAsDataURL(file);
@@ -23,7 +23,7 @@ file.addEventListener('change', function (e) {
         if (/"\w\W"/.test(path)) {
             path = path.slice(1, -1);
         }
-        clip.attr("src", path);
+        clip.attr('src', path);
     }
 }, false);
 ```
