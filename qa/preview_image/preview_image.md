@@ -8,7 +8,7 @@ var clip = document.getElementById('imgContent');
 var file = document.getElementById('file');
 
 file.addEventListener('change', function (e) {
-    if (window.FileReader) {
+    if (FileReader) {
         var reader = new FileReader();
     }
 }, false);
