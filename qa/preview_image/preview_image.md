@@ -9,5 +9,5 @@ var file = document.getElementById('file');
 
 file.addEventListener('change', function (e) {
     
-});
+}, false);
 ```
