@@ -9,25 +9,28 @@ var fileInput = document.getElementById('file');
 var fileHandler = function (e) {
     if (FileReader) {
         var reader = new FileReader();
-	        var file = this.files[0];
-	        
-	        reader.onload = function (e) {
-	            clip.setAttribute('src', e.target.result);
+        var file = this.files[0];
+        
+        reader.onload = function (e) {
+            clip.setAttribute('src', e.target.result);
 
-	            alert('width: ' + (clip.width || clip.naturalWidth) + ', height: ' + (clip.height || clip.naturalHeight));
-	        };
-	        
-	        reader.readAsDataURL(file);
-	    } else {
-	        path = e.target.value;
-	        
-	        if (/"\w\W"/.test(path)) {
-	            path = path.slice(1, -1);
-	        }
-	        
-	        clip.setAttribute('src', path);
-	    }
-	};
+            /** if you want to get width and height of this image */
 
-	fileInput.addEventListener('change', fileHandler, false);
+            console.log ('width: ' + (clip.width || clip.naturalWidth));
+            console.log('height: ' + (clip.height || clip.naturalHeight));
+        };
+        
+        reader.readAsDataURL(file);
+    } else {
+        path = e.target.value;
+        
+        if (/"\w\W"/.test(path)) {
+            path = path.slice(1, -1);
+        }
+        
+        clip.setAttribute('src', path);
+    }
+};
+
+fileInput.addEventListener('change', fileHandler, false);
 ```
