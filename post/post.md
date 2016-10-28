@@ -25,6 +25,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[轉載] Basics of CSS Blend Modes**](./basics_of_css_blend_mode/basics_of_css_blend_mode.md)
 - [**[轉載] Drawing images using edge detection and SVG animation**](./draw_image_using_edge_detection_and_svg/draw_image_using_edge_detection_and_svg.md)
 - [**[轉載] Styling SVG &lt;use&gt; Content with CSS**](./style_svg_use/style_svg_use.md)
+- [**[轉載] 前端技術體系大局觀**](./whole_front_end/whole_front_end.md)
 
 ### Design
 
