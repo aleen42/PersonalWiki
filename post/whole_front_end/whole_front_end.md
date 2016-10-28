@@ -71,3 +71,8 @@
 
 ![](./v2-4965d74fec780c0988c05018f1758234_b.png)
 
+- 静态检查 - Eslint JSCS
+- Unit Test - Karma Jasmine Mocha
+- End to End Test - Protracker Nightwatch Selenium
+- 持续集成 - TravisCI CircleCI
+- 
