@@ -140,3 +140,30 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 - **Discussion**
 
     `String.prototype.match()` has accepted a regular expression object as its only parameter, which will return `null` when failed to match. Or if successful, it will return an array with the detail of the match. Normally, the first item of the array will return what it matched, and following items will include the value of capturing groups if existed. Notice that, with `/g` flag, `String.prototype.match()` will behave differently.
+
+### Determine the Position and Length of the Match
+
+- **Problem**
+
+    Instead of extracting the substring matched by the regular expression, we want to determine the starting position an length of the match.
+
+- **Solution**
+
+    ```js
+    var matchStart = -1;
+    var matchLen = -1;
+
+    /** same as `var match = subject.match(/\d+/);` */
+    var match = /\d+/.exec(subject);
+
+    if (match) {
+        matchStart = match.index;
+        matchStart = match[0].length;
+    }
+    ```
+
+- **Discussion**
+
+    Call the `exec()` method on a `RegExp` object will get an array with details about the match, if successful to match. This array has a few additional properties, in which `index` will stores the position in the subject string at which the regex match begins. Tshe first item in the array is what we match with a regular expression, and of course we can get the length of it.
+
+    Notice that: try not to use `lastIndex` property of the array, as it's undefined, but defined in the `RegExp` object. Besides, it's not recommended to use it in a `RegExp` object, because of the reliability through different browsers. If we do want to determine the end position, we can just add the value of `index` property, and the value of `length` property in the first item in the array.
