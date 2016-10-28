@@ -420,6 +420,7 @@
             * [[轉載] Basics of CSS Blend Modes](./post/basics_of_css_blend_mode/basics_of_css_blend_mode.md)
             * [[轉載] Drawing images using edge detection and SVG animation](./post/draw_image_using_edge_detection_and_svg/draw_image_using_edge_detection_and_svg.md)
             * [[轉載] Styling SVG use Content with CSS](./post/style_svg_use/style_svg_use.md)
+            * [[轉載] 前端技術體系大局觀](./pody/whole_front_end/whole_front_end.md)
         * Design
             * [[原創] Mingtocat](./post/mingtocat/mingtocat.md)
             * [[轉載] So, You're a Web Designer, Right?](./post/so_a_web_designer/so_a_web_designer.md)
