@@ -167,3 +167,26 @@ This chapter mainly discusses about how to implement regular expressions with Ja
     Call the `exec()` method on a `RegExp` object will get an array with details about the match, if successful to match. This array has a few additional properties, in which `index` will stores the position in the subject string at which the regex match begins. Tshe first item in the array is what we match with a regular expression, and of course we can get the length of it.
 
     Notice that: try not to use `lastIndex` property of the array, as it's undefined, but defined in the `RegExp` object. Besides, it's not recommended to use it in a `RegExp` object, because of the reliability through different browsers. If we do want to determine the end position, we can just add the value of `index` property, and the value of `length` property in the first item in the array.
+
+### Retrieve Part of the Matched Text
+
+- **Problem**
+
+    How to extract part of the matched text like extract **www.regexcookbook.com** from the string **Please visit http://www.regexcookbook.com**.
+
+- **Soltion**
+
+    ```js
+    var result = '';
+    var match = /http:\/\/([a-z9-9.-])/.exec(subject);
+
+    if (match) {
+        result = match[1];
+    } else {
+        result = '';
+    }
+    ```
+
+- **Discussion**
+
+    As explained in the previous recipe, the exec() method of a regular expression object returns an array with details about the match. Element zero in the array holds the overall regex match. Element one holds the text matched by the first capturing group, element two stores the second group’s match, etc. If nothing is matched, `RegExp.match()` will return `null`.
