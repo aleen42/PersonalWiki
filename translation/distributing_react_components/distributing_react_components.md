@@ -7,6 +7,8 @@
 * 校对者: [Aaaaaashu](https://github.com/Aaaaaashu)、[achilleo](https://github.com/achilleo)
 * 状态 : 完成
 
+[![xitu](https://camo.githubusercontent.com/c9c9db0a39b56738a62332f0791d58b1522fdf82/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f786974752e737667)](https://github.com/xitu/gold-miner)
+
 在我开源 [react-place](https://github.com/krasimir/react-place) 项目到时候，我注意到那么一个问题。那就是，准备构件发布有些复杂。因此，我决定在此记录该过程，以便日后遇到同样的问题时可查。
 
 在准备构件期间，你会惊奇地发现建立`jsx`文件并不意味着该构件可用于发布，或该构件对于其他开发人员来说是可用的东西。
