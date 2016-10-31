@@ -153,7 +153,6 @@ This chapter mainly discusses about how to implement regular expressions with Ja
     var matchStart = -1;
     var matchLen = -1;
 
-    /** same as `var match = subject.match(/\d+/);` */
     var match = /\d+/.exec(subject);
 
     if (match) {
@@ -178,7 +177,7 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 
     ```js
     var result = '';
-    var match = /http:\/\/([a-z9-9.-])/.exec(subject);
+    var match = /http:\/\/([a-z9-9.-]+)/.exec(subject);
 
     if (match) {
         result = match[1];
@@ -190,3 +189,58 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 - **Discussion**
 
     As explained in the previous recipe, the exec() method of a regular expression object returns an array with details about the match. Element zero in the array holds the overall regex match. Element one holds the text matched by the first capturing group, element two stores the second group’s match, etc. If nothing is matched, `RegExp.match()` will return `null`.
+
+### Retrieve a List of All Matches
+
+- **Problem**
+
+    In many cases, a regular expression that partially matches a string can find another match in the remainder of the string. How?
+
+- **Solution**
+
+    ```js
+    var list = subject.match(/\d+/g);
+    ```
+
+- **Discussion**
+
+    The `\g` flag tells the `match()` method to iterate over all matches in the string and put them into an array. Notice that, if nothing is matched, the `match()` method will return a `null` as usual rather than an empty array.
+
+### Iterate over All Matches
+
+- **Problem**
+
+    What if you want to iterate over all the matches
+
+- **Solution**
+
+    Remember to avoid the case of a regular expression yielding a zero-length match:
+
+    ```js
+    var regex = /\d+/g;
+    var match = null;
+
+    while (match = regex.exec(subject)) {
+        /** Don't let browsers get stuck in an infinite loop */
+        if (match.index === regex.lastIndex) {
+            regex.lastIndex++;
+        }
+
+        /**
+         * ...
+         * Here you can process the match stored in the match variable
+         */
+    }
+    ```
+
+- **Discussion**
+
+     `while (regexp.exec())` finds all numbers in the subject string when `regexp = /\d+/g`. If `regexp = /\d+/`, then `while (regexp.exec())` finds the first number in the string again and again, until your script crashes or is forcibly terminated by the browser.
+
+     While using `\g`, the regular expression updates the `lastIndex` property of the `RegExp` object on which you're calling `exec()`. Next time when you call `exec()`, the match attempt will begin at `lastIndex`. If you assign a new value to `lastIndex`, the match attempt will begin at the position you specified.
+
+     However, if you read the ECMA-262v3 standard for JavaScript literally, then `exec()` should set `lastIndex` to the first character after the match, which means that if the match is zero character long, it results in an infinite loop.
+
+     To avoid this case of problem, what we should do is to increment `lastIndex` if the `exec()` has not already done this.
+
+     Besides, we can also directly find out all the matched items with `String.prototype.match()`, and use `for` loop to iterate over the list.
