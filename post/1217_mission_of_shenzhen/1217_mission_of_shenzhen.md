@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  A <strong>memorial mission</strong> for 12.17 Shenzhen
+  A <strong>memorial mission</strong> for 12.17 Shenzhen (<strong>Uploading</storng>)
 </p>
 
 <br />
