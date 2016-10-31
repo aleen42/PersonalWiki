@@ -323,4 +323,10 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 
 - **Problem**
 
-    
+    How to run a search and replace that reinserts parts of the regex match back into the replacement. For example, match pairs of words delimited by an equals sign, and swap those words in the replacement.
+
+- **Solution**
+
+    ```js
+    result = subject.replace(/(\w+)=(\w+)/g, '$2=$1');
+    ```
