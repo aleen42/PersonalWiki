@@ -36,6 +36,14 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 
 ### Tasks
 
+任務主要分為六大部分 (詳細請查看[谷歌地圖](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs)):
+
+The task has been divided into 6 small one (more details in [Google map](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs)):
+
+![](./whole.png)
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs" width="100%" height="auto"></iframe>
+
 #### Memorial Missions for 12.17 Shenzhen - 001
 
 ![](./task1.png)
