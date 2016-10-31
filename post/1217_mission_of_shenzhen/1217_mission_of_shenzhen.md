@@ -48,6 +48,10 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 
 ![](./task3.png)
 
+#### Memorial Missions for 12.17 Shenzhen - 004
+
+![](./task4.png)
+
 #### Memorial Missions for 12.17 Shenzhen - 005
 
 ![](./task5.png)
