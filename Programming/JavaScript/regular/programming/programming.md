@@ -302,3 +302,25 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 - **Discussion**
 
     If you try to combine both regexes into one, you'll end up with something rather different like **/\d+(?=(?:(?!<b>).)*<\/b>)/g**. Though the regular expression just shown is a solution to the problem, it's hardly intuitive (直觀的).
+
+### Replace All Matches
+
+- **Problem**
+
+    Replace all **before** with the replacement text **after**.
+
+- **Solution**
+
+    ```js
+    result = subject.replace(/before/g, 'after');
+    ```
+
+- **Discussion**
+
+    To search and replace through a string using a regular expression, call the `replace()` method of that string.
+
+### Replace Matches Reusing Parts of the Match
+
+- **Problem**
+
+    
