@@ -26,3 +26,5 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 ### Area
 
 全任務主要在深圳市南山區松坪山, 即科技園北區附近進行. 據非官方統計, 完成該組任務可能歷時約 30 分鐘.
+
+任務所在地會經過有松坪山公園, 清華信息港, 同方信息港等, 意在讓各位體驗一下各信息港中, 深圳科技企業的辦公樓及附近環境.
