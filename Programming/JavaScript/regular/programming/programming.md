@@ -269,3 +269,36 @@ This chapter mainly discusses about how to implement regular expressions with Ja
         }
     }
     ```
+
+### Find a Match Within Another Match
+
+- **Problem**
+
+    Supposed that we want to match all numbers marked as bold, and you need to match all of them separately. For example, match **2**, **5**, **6**, and **7**.
+
+- **Solution**
+
+    ```js
+    var result = [];
+    var outerRegex = /<b>([\s\S]*?)<\/b>/g;
+    var innerRegex = /\d+/g;
+
+    var outerMatch;
+    var innerMatches;
+
+    while (outerMatch = outerRegex.exec(subject)) {
+        if (outerMatch.index === outerRegex.lastIndex) {
+            outerRegex.lastIndex++;
+        }
+
+        innerMatches = outerMatch[1].match(innerRegex);
+
+        if (innerMatches) {
+            result = result.concat(innerMatches);
+        }
+    }
+    ```
+
+- **Discussion**
+
+    If you try to combine both regexes into one, you'll end up with something rather different like **/\d+(?=(?:(?!<b>).)*<\/b>)/g**. Though the regular expression just shown is a solution to the problem, it's hardly intuitive (直觀的).
