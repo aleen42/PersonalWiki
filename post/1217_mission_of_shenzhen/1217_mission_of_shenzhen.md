@@ -17,6 +17,8 @@
 
 ![ingress](https://camo.githubusercontent.com/5ff6ca1350c61023b9dfbd6c3435f5bdd559cbd2/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f696e67726573732e737667) ![photoshop](https://camo.githubusercontent.com/a6cac25312ea83a7b827a571297b2d7798a8e8a0/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f70686f746f73686f702e737667) ![illustration](https://camo.githubusercontent.com/9dd35c2146b513a88c8f6d488f03aae719aa76c6/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f696c6c757374726174696f6e2e737667)
 
+### Description
+
 昔為漁者之村，今為賈商之城。始於秦，且屬南海郡所轄。漢有“東官”於南頭所設，而晉有寶安立縣之始。其新安之名，乃明萬曆元年（1573年）所賜，寓有“革新鼎安，轉危為安”之意。此乃何地？深圳也，亦名鹏城。
 
 Though it was a region of villages gathering sort of fishers yesterday, it has now become a modern city for business today. Date back to Qin dynasty, a county, named the Sounth China Sea Country, has already had jurisdiction over it. While in Han, ond kind of officeholders was set up at Nantou, which was called "Dung Gun (東官)". After that, the Baoan Country appeared during Jin dynasity right here. Nevertheless, where did the Xin'an Country arise? The answer is in the first year of Ming Wanli (1573). Actually, the name, Xin'an, also has a deep moral: Innovate to promote peace, while making any dangerous thing through. So, what is it exactly? That's Shenzhen, a.k.a the Peng City.
