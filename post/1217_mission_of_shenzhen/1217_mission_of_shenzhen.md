@@ -1,6 +1,4 @@
-## [原創] Mingtoca [Back](./../post.md)
-
-> If you like this post, please [star PersonalWiki](https://github.com/aleen42/personalwiki) for reading more articles, and if you like this design, please [star the project](https://github.com/aleen42/mingtocat) for support.
+## [原創] Memorial Missions for 12.17 Shenzhen [Back](./../post.md)
 
 <br />
 <br />
