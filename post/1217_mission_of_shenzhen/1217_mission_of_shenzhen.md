@@ -32,4 +32,4 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 ![](./map1.png)
 
 - [百度地圖](http://j.map.baidu.com/2qhkH)
-- [谷歌地圖](https://goo.gl/maps/hPV6rJkenwK2).
+- [谷歌地圖](https://goo.gl/maps/hPV6rJkenwK2)
