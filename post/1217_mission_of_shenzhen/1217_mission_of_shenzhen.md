@@ -55,3 +55,7 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 #### Memorial Missions for 12.17 Shenzhen - 005
 
 ![](./task5.png)
+
+#### Memorial Missions for 12.17 Shenzhen - 006
+
+![](./task6.png)
