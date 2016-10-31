@@ -244,3 +244,28 @@ This chapter mainly discusses about how to implement regular expressions with Ja
      To avoid this case of problem, what we should do is to increment `lastIndex` if the `exec()` has not already done this.
 
      Besides, we can also directly find out all the matched items with `String.prototype.match()`, and use `for` loop to iterate over the list.
+
+### Validate Matches in Procedural Code
+
+- **Problem**
+
+    With iteration over a list of matches, of course you can also extract out what you really want. For example, I want to retain those that are an integer multiple of 13.
+
+- **Solution**
+
+    ```js
+    var regex = /\d+/g;
+    var match = null;
+    var list = [];
+
+    while (match = regex.exec(subject)) {
+        /** Don't let browsers get stuck in an infinite loop */
+        if (match.index === regex.lastIndex) {
+            regex.lastIndex++;
+        }
+
+        if (match[0] % 13 === 0) {
+            list.push(match[0]);
+        }
+    }
+    ```
