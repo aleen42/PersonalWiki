@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>Mingtocat</strong>, an emperor in the Ming Dynasty of China
+  A <strong>memorial mission</strong> for 12.17 Shenzhen
 </p>
 
 <br />
