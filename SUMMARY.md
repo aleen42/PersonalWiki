@@ -423,6 +423,7 @@
             * [[轉載] 前端技術體系大局觀](./post/whole_front_end/whole_front_end.md)
         * Design
             * [[原創] Mingtocat](./post/mingtocat/mingtocat.md)
+            * [[原創] Memorial Missions for 12.17 Shenzhen](./post/1217_mission_of_shenzhen/1217_mission_of_shenzhen.md)
             * [[轉載] So, You're a Web Designer, Right?](./post/so_a_web_designer/so_a_web_designer.md)
         * Back-end
             * [[轉載] 99%的人都理解錯了HTTP中GET與POST的區別](./post/http_and_get/http_and_get.md)
