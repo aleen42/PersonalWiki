@@ -57,7 +57,7 @@ The task has been divided into 6 small one (more details in [Google map](https:/
 
 #### Memorial Missions for 12.17 Shenzhen - 002
 
-[![](./task2.png)]((https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/task2.png))
+[![](./task2.png)]((https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/task2.png)
 
 #### Memorial Missions for 12.17 Shenzhen - 003
 
