@@ -274,7 +274,7 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 
 - **Problem**
 
-    Supposed that we want to match all numbers marked as bold, and you need to match all of them separately. For example, match **2**, **5**, **6**, and **7**.
+    Supposed that we want to match all numbers marked as bold, and you need to match all of them separately.
 
 - **Solution**
 
@@ -301,7 +301,7 @@ This chapter mainly discusses about how to implement regular expressions with Ja
 
 - **Discussion**
 
-    If you try to combine both regexes into one, you'll end up with something rather different like **/\d+(?=(?:(?!<b>).)*<\/b>)/g**. Though the regular expression just shown is a solution to the problem, it's hardly intuitive (直觀的).
+    If you try to combine both regexes into one, you'll end up with something rather different like **/\d+(?=(?:(?!&lt;b&gt;).)*&lt;\/b&gt;)/g**. Though the regular expression just shown is a solution to the problem, it's hardly intuitive (直觀的).
 
 ### Replace All Matches
 
@@ -350,3 +350,54 @@ This chapter mainly discusses about how to implement regular expressions with Ja
     In JavaScript, a function is really just another object that can be assigned to a variable. Instead of passing a literal string or a variable that holds a string to the `String.prototype.replace()` function, we can pass a function that returns a string. This function is then called each time a replacement needs to be made.
 
     If a regular expression has one capturing group or more, you can pass more parameters to catch it. For example, the second parameter you passed will match the first capturing group's value.
+
+### Replace All Matches Within the Matches of Another Regex
+
+- **Problem**
+
+    What if we want to replace all matches within the matches of another regex? For example, replace all **before** marked as bold, with **after**.
+
+- **Solution**
+
+    ```js
+    result = subject.replac(/<b>.*?<\/b>/g, function (match) {
+        return match.replace(/before/g, 'after');
+    });
+    ```
+
+### Replace All Matches Between the Matches of Another Regex
+
+- **Problem**
+
+    Considering about replace straight double quotes with smart double quotes, but only the string outside of HTML tags. For example, convert **"text" &lt;span class="middle"&gt;"text"&lt;/span&gt; "text"** into **“text” &lt;span class="middle"&gt;“text”&lt;/span&gt; “text”**.
+
+- **Solution**
+
+    ```js
+    var result = '';
+
+    var outerRegex = /<[^<>]*>/g;
+    var innerRegex = /"([^"]*)"/g;
+
+    var outerMatch = null;
+    var lastIndex = 0;
+
+    while (outerMatch = outerRegex.exec(subject)) {
+        if (outerMatch.index === outerRegex.lastIndex) {
+            outerRegex.lastIndex++;
+        }
+
+        /** search and replace through the text between this match */
+        var textBetween = subject.slice(lastIndex, outerMatch.index);
+        result += textBetween.replace(innerRegex, '\u201C$1\u201D');
+
+        lastIndex = outerRegex.index + outerMatch[0].length;
+
+        /** append unchanged part */
+        result += outerMatch[0];
+    }
+
+    /** search and replace through the remainder after the last regex match */
+    var textAfter = subject.slice(lastIndex);
+    result += textAfter.replace(innerRegex, '\u201C$1\u201D');
+    ```
