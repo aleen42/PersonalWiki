@@ -4,7 +4,7 @@
 <br />
 
 <p align="center">
-  <img alt="ingress shenzhen mission day" title="Memorial Missions for 12.17 Shenzhen" src="./16-12-17MD_of_shenzhen.png" width="60%" />
+  <img alt="ingress shenzhen mission day" title="Memorial Missions for 12.17 Shenzhen" src="./16-12-17MD_of_shenzhen.png" width="75%" />
   <img alt="ingress shenzhen mission day" title="Memorial Missions for 12.17 Shenzhen" style="display:none;" src="./16-12-17MD_of_shenzhen.png" width="0%" />
 </p>
 
