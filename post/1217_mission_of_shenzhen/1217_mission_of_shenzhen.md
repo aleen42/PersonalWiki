@@ -27,11 +27,11 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 
 全任務主要在深圳市南山區松坪山, 即科技園北區附近進行. 據非官方統計, 完成該組任務可能歷時約 30 分鐘.
 
-The whole task is mainly in the region of the Song Ping Mountain, a.k.a the north of the Science and Technology Park, in Nanshan district, Shenzhen city, Guangdong province of China. According to a unofficial statistic, it may takes you around 30 minutes to complete.
+The whole task is mainly in the region of the Songpingshan, a.k.a the north of the Science and Technology Park, in Nanshan district, Shenzhen city, Guangdong province of China. According to a unofficial statistic, it may takes you around 30 minutes to complete.
 
 任務所在地會經過有松坪山公園, 清華信息港, 同方信息港等, 意在讓各位體驗一下各信息港中, 深圳科技企業的辦公樓及附近環境. 除此之外, 任務區域附近還設置有多個拼圖任務可供大家完成. 若有朋友組團聚餐的話, 松坪山附近可推薦有添星碼頭, KFC 等. 具體位置可定位於萬昌百貨:
 
-The mission will go through some places, like the Park of the Song Ping Mountain, the Qinghua Info Port, the Tongfang info port, and etc. It aims to give any players an experience around different kinds of info ports, the technology companies in Shenzhen, and their environments for work. In addition, there're different kinds of missions to complete nearby the region, in which there're also some places recommended for parties, such as Hong Kong Tianxing Wharf Cantonese Teahouse, KFC, and so on. You can search it exactly by searching WangChang Department Store.
+The mission will go through some places, like the Songpingshan Park, the Qinghua Info Port, the Tongfang info port, and etc. It aims to give any players an experience around different kinds of info ports, the technology companies in Shenzhen, and their environments for work. In addition, there're different kinds of missions to complete nearby the region, in which there're also some places recommended for parties, such as Hong Kong Tianxing Wharf Cantonese Teahouse, KFC, and so on. You can search it exactly by searching WangChang Department Store.
 
 ![](./map1.png)
 
