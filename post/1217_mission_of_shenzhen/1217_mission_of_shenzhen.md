@@ -119,4 +119,6 @@ The task has been divided into 6 small one (more details in [Google map](https:/
 
 ### Map
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs" width="100%" height="480px"></iframe>
+<p align="center">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs" width="60%" height="360px"></iframe>
+</p>
