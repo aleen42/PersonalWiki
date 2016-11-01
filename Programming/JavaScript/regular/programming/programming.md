@@ -542,3 +542,17 @@ This chapter mainly discusses about how to implement regular expressions with Ja
         return self;
     }();
     ```
+
+### Search Line by Line
+
+- **Problem**
+
+    How to search line by line with a regular expression?
+
+- **Solution**
+
+    Create an array for storing lines of a subject text:
+
+    ```js
+    var lines = subject.split(/\r?\n/);
+    ```
