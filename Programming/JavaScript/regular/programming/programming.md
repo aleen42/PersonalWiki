@@ -569,3 +569,5 @@ This chapter mainly discusses about how to implement regular expressions with Ja
         }
     }
     ```
+
+> Internet Explorer 8 and prior do not follow the JavaScript standard that requires nonparticipating groups to be `undefined` in the match object. IE8 stores empty strings for nonparticipating groups, making it impossible to distinguish between a group that did not participate, and one that participated and captured a zero-length string. This means the JavaScript solution will not work with IE8 and prior. This bug was fixed in Internet Explorer 9. 
