@@ -101,10 +101,20 @@ The task has been divided into 6 small one (more details in [Google map](https:/
 
 1. 巨大如意
 2. 同方信息港水幕
-3.
+3. 金色飛馬
+4. 水泥框架
+5. 嘉達亭子
+6. 白石
 
 [![](./task5.png)](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/task5.png)
 
 #### Memorial Missions for 12.17 Shenzhen - 006
+
+1. 中國銀行獅子
+2. 小笨象左護法
+3. 碟子噴水池
+4. 科技園北區怪石
+5. Strange Stone
+6. 綠背獅
 
 [![](./task6.png)](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/task6.png)
