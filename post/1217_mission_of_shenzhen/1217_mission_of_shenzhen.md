@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  A <strong>memorial mission</strong> for 12.17 Shenzhen (<strong>Uploading</storng>)
+  A <strong>memorial mission</strong> for 12.17 Shenzhen (<strong>Published</storng>)
 </p>
 
 <br />
@@ -55,8 +55,8 @@ The task has been divided into 6 small one (more details in [Google map](https:/
 
 1. 松坪山公園
 2. 松坪山公園籃球場
-3. 松坪山公園門球場
-4. 松坪山公園網球場
+3. 門球場
+4. 松坪山網球場
 5. 花壇
 6. 圓形劇場
 
@@ -79,7 +79,7 @@ The task has been divided into 6 small one (more details in [Google map](https:/
 2. 松坪山兒童遊樂場
 3. 馬賽克長蛇
 4. 羽毛球場
-5. 華瀚科技園
+5. 華翰科技園
 6. 清華信息港石碑
 
 [![](./task3.png)](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/task3.png)
@@ -87,18 +87,18 @@ The task has been divided into 6 small one (more details in [Google map](https:/
 #### Memorial Missions for 12.17 Shenzhen - 004
 
 1. 清華信息港
-2. 光韻達獅子
-3. 紫光信息港噴泉
-4. 紫光信息港柱子廣場
-5. 清華紫光園區平面圖
-6. 同方信息港噴泉
+2. 紫光信息港噴泉
+3. 紫光信息港柱子廣場
+4. 清華紫光園區平面圖
+5. 同方信息港噴泉
+6. 同方信息港水幕
 
 [![](./task4.png)](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/task4.png)
 
 #### Memorial Missions for 12.17 Shenzhen - 005
 
 1. 巨大如意
-2. 同方信息港水幕
+2. 同方信息港水幕 (由於重複 hack 可休憩約 5 分鐘)
 3. 金色飛馬
 4. 水泥框架
 5. 嘉達亭子
@@ -109,7 +109,7 @@ The task has been divided into 6 small one (more details in [Google map](https:/
 #### Memorial Missions for 12.17 Shenzhen - 006
 
 1. 中國銀行獅子
-2. 小笨象左護法
+2. 精雕大花瓶
 3. 碟子噴水池
 4. 科技園北區怪石
 5. Strange Stone
