@@ -556,3 +556,16 @@ This chapter mainly discusses about how to implement regular expressions with Ja
     ```js
     var lines = subject.split(/\r?\n/);
     ```
+
+    Then, iterate over this array:
+
+    ```js
+    var regex = /regex pattern/;
+    for (var i = 0; i < regex.length; i++) {
+        if (linex[i].match(regex)) {
+            /** match something */
+        } else {
+            /** failed to match */
+        }
+    }
+    ```
