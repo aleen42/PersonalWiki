@@ -49,7 +49,7 @@ The task has been divided into 6 small one (more details in [Google map](https:/
 
 [![](./whole.png)](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/whole.png)
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs" width="100%" height="auto"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs" width="100%" height="480px"></iframe>
 
 #### Memorial Missions for 12.17 Shenzhen - 001
 
