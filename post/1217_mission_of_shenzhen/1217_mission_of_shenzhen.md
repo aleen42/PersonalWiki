@@ -25,7 +25,7 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 
 ### Attentions
 
-- 第三個任務中最後一個po可能需要走近300米, 若實在太累直接上一部公交, 搭一站路即可
+- 第三個任務中最後一個po可能需要走近300米, 若實在太累直接在華瀚科技公交站隨便上一部公交, 搭一站路即可
 - 清華紫光同方信息港由於處於高樓之中, 因此可能會有飄的現象.
 
 <br />
