@@ -550,6 +550,7 @@ iframe::-webkit-resizer {
 
 .ace {
     border: 1px solid #EBEBEB !important;
+    margin: 2em 0 !importan;
 }
 
 /** mathjax */
