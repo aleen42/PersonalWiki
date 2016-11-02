@@ -31,7 +31,7 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 <br />
 
 - The last portal in the third task will need you to walk around 300 meters, and if you're really tired with it, you can actually just find any bus to go to the next station of Huahan Science and Technology.
-- Due to the high buildings of three info ports, your GPS info will occur phenomenons of non-accuracy 
+- Due to the high buildings of three info ports, your GPS info will occur phenomenons of non-accuracy. 
 
 
 ### Area
