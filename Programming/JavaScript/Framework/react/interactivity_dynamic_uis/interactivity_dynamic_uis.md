@@ -38,7 +38,7 @@ ReactDOM.render(
 );
 {%endace%}
 
-### Event Handling and Synthetic(人造) Events
+### Event Handling and Synthetic Events (合成事件)
 
 React has implemented **a synthetic event system** to ensure that all events behave similarly in all browsers with knowing how to bubble and capture events.
 
