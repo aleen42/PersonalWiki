@@ -23,6 +23,16 @@
 
 Though it was a region of villages gathering sort of fishers yesterday, it has now become a modern city for business today. Date back to Qin dynasty, a county, named the Sounth China Sea Country, has already had jurisdiction over it. While in Han, ond kind of officeholders was set up at Nantou, which was called "Dung Gun (東官)". After that, the Baoan Country appeared during Jin dynasity right here. Nevertheless, where did the Xin'an Country arise? The answer is in the first year of Ming Wanli (1573). Actually, the name, Xin'an, also has a deep moral: Innovate to promote peace, while making any dangerous thing through. So, what is it exactly? That's Shenzhen, a.k.a the Peng City.
 
+### Attentions
+
+- 第三個任務中最後一個po可能需要走近300米, 若實在太累直接上一部公交, 搭一站路即可
+- 清華紫光同方信息港由於處於高樓之中, 因此可能會有飄的現象.
+
+<br />
+
+- The last portal in the third task will need you to walk around 300 meters, and if you're really tired with it, you can actually just find any bus to go to the next station of Huahan Science and Technology.
+
+
 ### Area
 
 全任務主要在深圳市南山區松坪山, 即科技園北區附近進行. 據非官方統計, 完成該組任務可能歷時約59分鐘36秒.
