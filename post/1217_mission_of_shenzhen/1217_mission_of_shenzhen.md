@@ -58,9 +58,9 @@ The mission will go through some places, like the Songpingshan Park, the Qinghua
 
 任務主要分為六大部分 (詳細請查看[谷歌地圖](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs))，建议行走路线:
 
-The task has been divided into 6 small one (more details in [Google map](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs)), it's advised to walk throughthe blac:
+The task has been divided into 6 small one (more details in [Google map](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs)), it's advised to walk throughthe black path:
 
-[![](./whole.png)](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/whole.png)
+[![](./walk.png)](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/whole.png)
 
 #### Memorial Missions for 12.17 Shenzhen - 001
 
