@@ -31,7 +31,7 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 <br />
 
 - The last portal in the third task will need you to walk around 300 meters, and if you're really tired with it, you can actually just find any bus to go to the next station of Huahan Science and Technology.
-- Due to the high buildings of three info ports, your GPS info will occur phenomenons of non-accuracy. 
+- Due to the high buildings of three info ports, your GPS info will occur phenomenons of non-accuracy.
 
 
 ### Area
@@ -56,9 +56,9 @@ The mission will go through some places, like the Songpingshan Park, the Qinghua
 
 ### Tasks
 
-任務主要分為六大部分 (詳細請查看[谷歌地圖](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs))，建议行走路线:
+任務主要分為六大部分 (詳細請查看[谷歌地圖](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs))，建议沿著灰色線行走:
 
-The task has been divided into 6 small one (more details in [Google map](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs)), it's advised to walk throughthe black path:
+The task has been divided into 6 small one (more details in [Google map](https://www.google.com/maps/d/embed?mid=1N9Jhsabsrk3s-FmMt75Q5AvdxQs)), it's advised to walk through the grey path:
 
 [![](./walk.png)](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/1217_mission_of_shenzhen/walk.png)
 
