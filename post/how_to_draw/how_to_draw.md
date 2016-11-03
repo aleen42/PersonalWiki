@@ -405,4 +405,4 @@ function convertRectangles(x, y, width, height) {
 }
 ```
 
-So far I have already shown you how to convert all shape elements into `path` elements. Of course with `path`s, you can draw them all with the way provided above.
+So far I have already shown you how to convert all shape elements into `path`s. With them, you're of course able to draw them all with the way provided above.
