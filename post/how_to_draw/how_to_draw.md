@@ -16,3 +16,29 @@ C 132.07442,172.84968 139.59482,171.3636 151.84309,171.76866
 ```
 
 You may doubt that such data is only legal in an SVG element, named `path`, and how can we draw all kinds of pictures like JPG, PNG, or GIF. That's another topic going to be discussed later in this post. Before that, we can just simply draw an SVG file.
+
+### Drawing an SVG file
+
+What is SVG? Scalable Vector Graphics a.k.a SVG is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. In older IE browsers, such kind of files is not supported at all. If you're a designer, or an illustrator who usually used Adobe Illustration as one of your drawing tools, you may be already similar with those kinds of pictures. What the main difference is, an SVG is scalable and lossless, opposed to other formats of pictures.
+
+#### Extracting data from an SVG file
+
+As mentioned above, before drawing an SVG file, what you need to do is to read data from an SVG file. It's actually the duty of an object, named `FileReader` in JavaScript, of which the initialization code snippet should be look like this:
+
+```js
+if (FileReader) {
+    /** if the browser support FileReader Objects */
+    var fileReader = new FileReader();
+}
+```
+
+As a Web API, `FileReader` has given you a chance to read local files, in which `readAsText` is one of methods supported for reading contents with text format. As it may trigger the `onload` event set before being called, we can exactly read the content inside an event handler. So, the code of reading contents should be:
+
+```js
+fileReader.onload = function (e) {
+    /** contents of an SVG file */
+    var contents = e.target.result;
+};
+
+fileReader.readAsText(file);
+```
