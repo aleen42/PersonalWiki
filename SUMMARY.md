@@ -421,7 +421,7 @@
             * [[轉載] Drawing images using edge detection and SVG animation](./post/draw_image_using_edge_detection_and_svg/draw_image_using_edge_detection_and_svg.md)
             * [[轉載] Styling SVG use Content with CSS](./post/style_svg_use/style_svg_use.md)
             * [[轉載] 前端技術體系大局觀](./post/whole_front_end/whole_front_end.md)
-            * [[原創] How to draw in JavaScript?](./how_to_draw/how_to_draw.md)
+            * [[原創] How to draw in JavaScript?](./post/how_to_draw/how_to_draw.md)
         * Design
             * [[原創] Mingtocat](./post/mingtocat/mingtocat.md)
             * [[原創] Memorial Missions for 12.17 Shenzhen](./post/1217_mission_of_shenzhen/1217_mission_of_shenzhen.md)
