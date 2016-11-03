@@ -135,7 +135,7 @@
                             * [Animated Glowing Line Drawing](./Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md)
                             * [Animate a progressive drawing of SVG path](./Programming/JavaScript/webgl/canvas/animate_drawing_of_svg_path/animate_drawing_of_svg_path.md)
                             * [Finding Contours of a bitmap image](./Programming/JavaScript/webgl/canvas/finding_contours/finding_contours.md)
-                            * [Drawing a SVG file](./Programming/JavaScript/webgl/canvas/drawing_a_svg/drawing_a_svg.md)
+                            * [Drawing an SVG file](./Programming/JavaScript/webgl/canvas/drawing_an_svg/drawing_an_svg.md)
                     * [SVG](./Programming/JavaScript/webgl/SVG/SVG.md)
                         * Basic
                             * [Introduction](./Programming/JavaScript/webgl/SVG/introduction/introduction.md)
