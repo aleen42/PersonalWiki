@@ -1,6 +1,6 @@
 ## [原創] How to draw in JavaScript? [Back](./../post.md)
 
-<p align="center"><img src="./preview.png" alt="draw in javascript" /></p>
+<p align="center"><img width="70%" src="./preview.png" alt="draw in javascript" /></p>
 
 Since my company has given me a requirement of drawing in a browser programmatically, I would like to share some points with you about drawing in JavaScript. Actually, what we're going to draw? **Any picture**.
 
