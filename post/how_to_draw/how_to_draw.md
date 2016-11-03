@@ -4,3 +4,4 @@ Since my company has given me a requirement of drawing in a browser programmatic
 
 Note that this is a project which belongs to my company, and that's why I'm not going to *open* the source code in the public community.
 
+At the begining of the project, 
