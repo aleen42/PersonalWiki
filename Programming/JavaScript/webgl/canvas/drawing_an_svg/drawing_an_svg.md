@@ -1,4 +1,4 @@
-## Drawing a SVG file [Back](./../canvas.md)
+## Drawing an SVG file [Back](./../canvas.md)
 
 This document is to talk about how to draw a SVG file with canvas in JavaScript.
 
