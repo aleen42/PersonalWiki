@@ -4,4 +4,4 @@ Since my company has given me a requirement of drawing in a browser programmatic
 
 Note that this is a project which belongs to my company, and that's why I'm not going to *open* the source code in the public community.
 
-At the beginning of the project, I was actually inspired by the animation of glowing line drawing in [this article](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md).
+At the beginning of the project, I was actually inspired by the animation of glowing line drawing in [this article](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md). Before we draw any pictures, what we should know is data of paths.
