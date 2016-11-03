@@ -105,7 +105,7 @@ for (var j = 0; j < pathLen; j++) {
 With positions data of points, you an draw them with canvas like this:
 
 ```js
-/** draw the path with given index */
+/** draw the path with a given index */
 function drawPath(index) {
     var ctx = canvas.getContext('2d');
     ctx.beginPath();
