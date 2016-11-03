@@ -138,6 +138,32 @@ recursivelyExtract(SVGNode);
 
 It does seem so elegant to use that way, and at least it does for me, especially in the case with other elements to draw, I can just use a `switch` structure to extract different elements, rather than using several regular expressions. Generally, in an SVG file, also can shapes be defined as `circle`, `rect`, `polyline`, or `line`, not only as `path`. Therefore, how can we handle them? Just to convert them all into `path` elements with JavaScript, mentioned later.
 
+There was one problem as I developed the project, which should be paid more attention to. In data of paths, `m` and `M` is completely not the same, and in a compound path, there should be more than one `m` or `M`, so you have to split them out, to avoid drawing lines between two paths. It means that you have to distinguish these two notations after you confirm the path belongs to compound paths:
+
+```js
+function generatePathNode(d) {
+	var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+	path.setAttribute('d', d);
+	return path;
+};
+
+var d = children[i].getAttribute('d');
+
+/** to solve the problem of compound paths */
+var ds = d.match(/m[\s\S]+?(?=(?:m|$)+)/ig);
+var dsLen = ds.length;
+
+/** compound paths */
+if (dsLen > 1) {
+    /**
+     * distinguish m and M
+     * ...
+     */
+} else {
+    pathNodes.push(children[i]);
+}
+```
+
 ### Drawing in Canvas
 
 Now that paths has been extracted and stored in a local variable, the next step we should do is to draw them with points:
