@@ -174,3 +174,5 @@ function drawPath(index) {
     ctx.stroke();
 }
 ```
+
+Try to think about a problem: what if a path includes so many points to draw, how can we optimize it to draw fast? Perhaps, jumping to draw is a simple way to solve the problem, but how to jump is, however, another critical problem for you and me. Though I haven't found the perfect solution, I'm glad that you can give out any ideas.
