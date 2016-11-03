@@ -268,8 +268,8 @@ Now we know what all these parameters mean, and then we can start to calculate t
 To calculate the current position of graphics, we can use an expression like this:
 
 ```js
-var dx = oriX + moveX;
-var dy = oriY + moveY;
+var x = oriX + moveX;   /** current x value of the graphic */
+var y = oriY + moveY;   /** current y value of the graphic */
 ```
 
 And to calculate the difference of ratios, here is another expression:
@@ -284,4 +284,13 @@ var ratioY = (curH / oriH) * ratioParam;
 What we should remember is that the `x` and `y` value of the attribute `viewBox` will also affect graphics with cropping (as shown in Figure 2.4). Therefore, we need to filter them out of original points.
 
 <p align="center"><img width="70%" src="./2.png" alt="draw in javascript" /></p>
-<p align="center"><strong>Figure 2.1</strong> Cropped graphics</p>
+<p align="center"><strong>Figure 2.4</strong> Cropped graphics</p>
+
+For me, I have just rewrite them with a maximum or a minimum for the edge point. For example, if the position of points is out of the graphic, I will rewrite them by changing `x` or `y`, or even both when necessary, to the edge of graphics.
+
+```js
+point.x = point.x >= x && point.x <= x + curW ? point.x : ((point.x < x) ? x : x + curW);
+point.y = point.y >= y && point.y <= x + curH ? point.y : ((point.y < y) ? y : y + curH);
+```
+
+As far as I'm concerned, it's recommended to remove them rather than to rewrite when the number of points is large.
