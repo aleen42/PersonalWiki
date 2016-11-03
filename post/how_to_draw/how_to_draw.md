@@ -42,3 +42,16 @@ fileReader.onload = function (e) {
 
 fileReader.readAsText(file);
 ```
+
+With reading listener, you may consider whether we're going to upload a file with a button? Oh, that may be just a normal and unattractive way for interactions. Besides this, we can improve this way with dragging and dropping. It means that you can drag any pictures you want and drop it into the box for reading contents. Since Canvas is the first technical choice of my project, I would like to implement this way with setting up an event listener and registered for the `drop` event of a canvas.
+
+```js
+/** Drop Event Handler */
+canvas.addEventListener('drop', function (e) {
+    /** e is where we can extract out the `file` objecj */
+    var file = e.dataTransfer.files[0];
+
+    /** start to read file contents */
+    fileReader.readAsText(file);
+});
+```
