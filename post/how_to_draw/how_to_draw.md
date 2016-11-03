@@ -3,11 +3,11 @@
 <p align="center"><img width="70%" src="./preview.png" alt="draw in javascript" /></p>
 <p align="center"><strong>Figure 1.1</strong> A simple preview</p>
 
-Since my company has given me a requirement of drawing in a browser programmatically, simply shown as the figure 1.1 above, I would like to share some points with you about drawing in JavaScript. Actually, what we're going to draw? **Any kind of pictures**.
+Since my company has given me a requirement of drawing in a browser programmatically, simply shown as Figure 1.1 above, I would like to share some points with you about drawing in JavaScript. Actually, what we're going to draw? **Any kind of images and graphics**.
 
 Note that this is a project which belongs to my company, and that's why I'm not going to *open* the source code in the public community.
 
-At the beginning of the project, I was exactly inspired by the animation of drawing glowing line in [this article](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md). If you read it in details, you'll also find that before we draw any pictures, what we need is the data of paths, with which we are able to simulate the drawing. The format of those data should be like this:
+At the beginning of the project, I was exactly inspired by the animation of drawing glowing line in [this article](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md). If you read it in details, you'll also find that before we draw any graphics, what we need is the data of paths, with which we are able to simulate the drawing. The format of those data should be like this:
 
 ```nginx
 M 161.70443,272.07413
@@ -19,7 +19,9 @@ You may doubt that such data is only legal in an SVG element, named `path`, and 
 
 ### Drawing an SVG file
 
-What is SVG? Scalable Vector Graphics a.k.a SVG is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. In older IE browsers, such kind of files is not supported at all. If you're a designer, or an illustrator who usually used Adobe Illustration as one of your drawing tools, you may be already similar with those kinds of pictures. What the main difference is, an SVG is scalable and lossless, opposed to other formats of pictures.
+What is SVG? Scalable Vector Graphics a.k.a SVG is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. In older IE browsers, such kind of files is not supported at all. If you're a designer, or an illustrator who usually used Adobe Illustration as one of your drawing tools, you may be already similar with those kinds of graphics. What the main difference is, an SVG is scalable and lossless, opposed to other formats of pictures.
+
+Note that, generally pictures with SVG formats are called as **graphics**, while those with any other formats are called as **images**.
 
 #### Extracting data from an SVG file
 
@@ -43,7 +45,7 @@ fileReader.onload = function (e) {
 fileReader.readAsText(file);
 ```
 
-With reading listener, you may consider whether we're going to upload a file with a button? Oh, that may be just a normal and unattractive way for interactions. Besides this, we can improve this way with dragging and dropping. It means that you can drag any pictures you want and drop it into the box for reading contents. Since Canvas is the first technical choice of my project, I would like to implement this way with setting up an event listener and registered for the `drop` event of a canvas.
+With reading listener, you may consider whether we're going to upload a file with a button? Oh, that may be just a normal and unattractive way for interactions. Besides this, we can improve this way with dragging and dropping. It means that you can drag any graphics you want and drop it into the box for reading contents. Since Canvas is the first technical choice of my project, I would like to implement this way with setting up an event listener and registered for the `drop` event of a canvas.
 
 ```js
 /** Drop Event Handler */
@@ -176,3 +178,110 @@ function drawPath(index) {
 ```
 
 Try to think about a problem: what if a path includes so many points to draw, how can we optimize it to draw fast? Perhaps, jumping to draw is a simple way to solve the problem, but how to jump is, however, another critical problem for you and me. Though I haven't found the perfect solution, I'm glad that you can give out any ideas.
+
+```js
+function optimizeJump() {
+    var perfectJump = 1;
+
+    /**
+     * a algorithm to calculate the perfect jump value
+     * ...
+     */
+    return perfectJump;
+}
+
+function drawPath(index) {
+    var ctx = canvas.getContext('2d');
+    ctx.beginPath();
+
+    ctx.moveTo(pointsArr[index][0].x, pointsArr[index][0].y);
+
+    /** optimization with jumping to draw */
+    var perfectJump = optimizeJump();
+    for (var i = 1; i < pointsArr[index].length; i+= perfectJump) {
+        ctx.lineTo(pointsArr[index][i].x, pointsArr[index][i].y);
+    }
+
+    ctx.stroke();
+}
+```
+
+The algorithm is exactly the place we should think more about.
+
+### Calibration parameters
+
+As the requirement gets more and more complicated, we may find that data of paths cannot fit the case at all, when we want to scale and resize, or move graphics in Canvas.
+
+#### Why we need calibration parameters?
+
+Since you would like to scale and resize, or even move graphics in Canvas, it means that the data of paths should be changed corresponding to your actions. Unfortunately, it won't, and that's exactly why we need calibration parameters.
+
+<p align="center"><img width="70%" src="./panel.png" alt="draw in javascript" /></p>
+<p align="center"><strong>Figure 2.1</strong> A so-called panel</p>
+
+Figure 2.1 has shown you a highlight work area, which is called **a panel** by me, and it is that panel in which you can drop, drag and resize, or move graphics. In fact, it has included a Canvas object inside, which is implemented to satisfy your requirements. Supposed we have an SVG file (Figure 2.2) to draw, we can just drop it into the panel box, and rendered on the screen like Figure 2.3:
+
+<p align="center"><img width="50%" src="./example.svg" alt="draw in javascript" /></p>
+<p align="center"><strong>Figure 2.2</strong> An SVG file to draw</p>
+
+Such a wonderful logo, full with Chinese styles.
+
+<p align="center"><img width="70%" src="./1.png" alt="draw in javascript" /></p>
+<p align="center"><strong>Figure 2.3</strong> Rendered graphics </p>
+
+Except your operating on the graphic, some attributes of the SVG file will also affect data of paths, like `width`, `height`, and `viewBox`.
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 200 200">
+    <!-- paths -->
+</svg>
+```
+
+Therefore, the calculation of calibration parameters will have two factors: corresponding to **attributes** and **actions**.
+
+#### Calculation
+
+Before calculating, we're going to know about some defined variables, and what they actually represent for.
+
+Firstly, when it comes to the position of graphics:
+
+- **oriX**: the original `x` value of the graphic
+- **oriY**: the original `y` value of the graphic
+- **moveX**: difference of the `x` value after moving.
+- **moveY**: difference of the `y` value after moving.
+- **viewBoxX**: the `x` value of the attribute `viewBox` in that graphic
+- **viewBoxY**: the `y` value of the attribute `viewBox` in that graphic
+
+And then, the size of graphics:
+
+- **oriW**: the original width of the graphic
+- **oriH**: the original height of the graphic
+- **svgW**: the width of the SVG element
+- **svgH**: the height of the SVG element
+- **viewBoxW**: the width of the attribute `viewBox` in that SVG element
+- **viewBoxH**: the height of the attribute `viewBox` in that SVG element
+- **curW**: the current width of the graphic
+- **curH**: the current height of the graphic
+
+Now we know what all these parameters mean, and then we can start to calculate the calibration parameters.
+
+To calculate the current position of graphics, we can use an expression like this:
+
+```js
+var dx = oriX + moveX;
+var dy = oriY + moveY;
+```
+
+And to calculate the difference of ratios, here is another expression:
+
+```js
+var ratioParam = Math.max(oriW / svgW, oriH / svgH) * Math.min(svgW / viewBoxW, svgH / viewBoxH);
+
+var ratioX = (curW / oriW) * ratioParam;
+var ratioY = (curH / oriH) * ratioParam;
+```
+
+What we should remember is that the `x` and `y` value of the attribute `viewBox` will also affect graphics with cropping (as shown in Figure 2.4). Therefore, we need to filter them out of original points.
+
+<p align="center"><img width="70%" src="./2.png" alt="draw in javascript" /></p>
+<p align="center"><strong>Figure 2.1</strong> Cropped graphics</p>
