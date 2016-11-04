@@ -8,7 +8,7 @@ Since my company has given me a requirement of drawing in a browser programmatic
 Here is a demo for you, or you can directly click into http://draw.soundtooth.cn/. What you should is to drag any pictures and drop into the box with a red border, and then just click 'Process' button to start the process of drawing:
 
 <p align="center">
-<iframe width="100%" height="600px" src="https://aleen42.github.io/example/draw/" />
+<iframe width="100%" height="600px" src="https://aleen42.github.io/example/draw/"></iframe>
 </p>
 
 Note that this is a project which belongs to my company, and that's why I'm not going to *open* the source code in the public community.
