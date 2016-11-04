@@ -686,7 +686,6 @@ http://share.soundtooth.cn/ji.gif (Almost 50Mb, So please wait)
 
 So, where can you enjoy yourself with drawing contours with JavaScript? [**Here**](http://draw.soundtooth.cn/).
 
-<p>
-<p data-height="612" data-theme-id="21735" data-slug-hash="rrKdpV" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="rrKdpV" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrKdpV/">rrKdpV</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p align="center">
+<iframe width="100%" height="600px" src="https://aleen42.github.io/example/draw/" />
 </p>
