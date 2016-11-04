@@ -69,11 +69,11 @@ camera.position.z = 5;
 ```js
 function render() {
     requestAnimationFrame(render);
-    
+
     /** Animating */
     cube.rotate.x += 0.1;
     cube.rotate.y += 0.1;
-    
+
     renderer.render(scene, camera);
 }
 
@@ -84,5 +84,7 @@ This will create a loop that causes the renderer to draw the scene 60 times per 
 
 ### Demo
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/XKyKyV/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/XKyKyV/'>XKyKyV</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="328" data-theme-id="21735" data-slug-hash="XKyKyV" data-default-tab="html,result" data-user="aleen42" data-embed-version="2" data-pen-title="XKyKyV" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/XKyKyV/">XKyKyV</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>

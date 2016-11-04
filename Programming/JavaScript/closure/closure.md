@@ -5,12 +5,12 @@
 ```js
 function f() {
     var independentVariable = 'test';
-    
+
     function display() {
         /** using an independent variable `independentVariable` */
         console.log(independentVariable);
     }
-    
+
     display();
 }
 ```
@@ -20,11 +20,11 @@ function f() {
 ```js
 var counter = (function() {
     var privateCounter = 0;
-    
+
     function changeBy(val) {
         privateCounter += val;
     }
-    
+
     return {
         increment: function() {
             changeBy(1);
@@ -66,10 +66,10 @@ function setupHelp() {
         {'id': 'name', 'help': 'Your full name'},
         {'id': 'age', 'help': 'Your age (you must be over 16)'}
     ];
-    
+
     for (var i = 0; i < helpText.length; i++) {
         var item = helpText[i];
-        
+
         document.getElementById(item.id).onfocus = function() {
             showHelp(item.help);    /**
                                      * will always show the last help
@@ -82,8 +82,10 @@ function setupHelp() {
 setupHelp();
 ```
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/zKYdaZ/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/zKYdaZ/'>zKYdaZ</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="zKYdaZ" data-default-tab="js,result" data-user="aleen42" data-embed-version="2" data-pen-title="zKYdaZ" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/zKYdaZ/">zKYdaZ</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 Resolution is that you should return a closure function which will create a separate environment for themselves.
 
@@ -98,14 +100,14 @@ function setupHelp() {
         {'id': 'name', 'help': 'Your full name'},
         {'id': 'age', 'help': 'Your age (you must be over 16)'}
     ];
-    
+
     for (var i = 0; i < helpText.length; i++) {
         var item = helpText[i];
-        
+
         document.getElementById(item.id).onfocus = (function(help) {
             return function () {
                 showHelp(help);
-            }; 
+            };
         })(item.help);
     }
 }
@@ -113,8 +115,10 @@ function setupHelp() {
 setupHelp();
 ```
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/JRjyvQ/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/JRjyvQ/'>JRjyvQ</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="JRjyvQ" data-default-tab="js,result" data-user="aleen42" data-embed-version="2" data-pen-title="JRjyvQ" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/JRjyvQ/">JRjyvQ</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 ### Performance
 
@@ -124,11 +128,11 @@ It's not recommended to define functions inside another functions which will aff
 function MyObject(name, message) {
     this.name = name.toString();
     this.message = message.toString();
-    
+
     this.getName = function () {
         return this.name;
     };
-    
+
     this.getMessage = function () {
         return this.message;
     };
@@ -147,7 +151,7 @@ MyObject.prototype = {
     getName:  function () {
         return this.name;
     },
-    
+
     getMessage: function () {
         return this.message;
     }
@@ -170,4 +174,3 @@ function f(name, message) {
     };
 }
 ```
-

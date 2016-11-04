@@ -41,17 +41,17 @@ function runImg(canvas, size, fn) {
         if (!size) {
             return;
         }
-        
+
         var matrix = [];
-        
+
         for (var i = 0, y = -(size - 1) / 2; i < size; i++, y++) {
             matrix[i] = [];
-            
+
             for (var j = 0, x = -(size - 1) / 2; j < size; j++, x++) {
                 matrix[i][j] = (cx + x) * 4 + (cy + y) * canvas.width * 4;
             }
         }
-        
+
         return matrix;
     }
 }
@@ -93,12 +93,10 @@ Gray Scale in Wikipedia is defined as followed:
 
 In this process, we will change the image data directly through Canvas:
 
-<br />
-
-<iframe height='1315' scrolling='no' src='//codepen.io/aleen42/embed/bwWNRp/?height=1315&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/bwWNRp/'>bwWNRp</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="1513" data-theme-id="21735" data-slug-hash="bwWNRp" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="bwWNRp" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/bwWNRp/">bwWNRp</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 ```js
 function calculateGray(pixel) {
@@ -110,12 +108,12 @@ function grayscale(canvas) {
 
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var grayLevel;
-    
+
     runImg(canvas, null, function (current) {
         grayLevel = calculateGray(getPixel(current, imgDataCopy));
         setPixel(current, grayLevel, imgDataCopy);
     });
-    
+
     ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
@@ -124,81 +122,79 @@ function grayscale(canvas) {
 
 Gaussian Blur is used to increase the accuracy of contours finding, which is also know as the first step of a canny edge detector.
 
-<br />
-
-<iframe height='1292' scrolling='no' src='//codepen.io/aleen42/embed/ozWjEo/?height=1292&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/ozWjEo/'>ozWjEo</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="1513" data-theme-id="21735" data-slug-hash="ozWjEo" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="ozWjEo" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/ozWjEo/">ozWjEo</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 ```js
 function sumArr(arr) {
     var result = 0;
-    
+
     arr.map(function(element, index) {
         result += (/^\s*function Array/.test(String(element.constructor))) ? sumArr(element) : element;
     });
-    
+
     return result;
 }
 
 function generateKernel(sigma, size) {
     var kernel = [];
-    
+
     /** Euler's number rounded of to 3 places */
     var E = 2.718;
-    
+
     for (var y = -(size - 1) / 2, i = 0; i < size; y++, i++) {
         kernel[i] = [];
-        
+
         for (var x = -(size - 1) / 2, j = 0; j < size; x++, j++) {
             /** create kernel round to 3 decimal places */
             kernel[i][j] = 1 / (2 * Math.PI * Math.pow(sigma, 2)) * Math.pow(E, -(Math.pow(Math.abs(x), 2) + Math.pow(Math.abs(y), 2)) / (2 * Math.pow(sigma, 2)));
         }
     }
-    
+
     /** normalize the kernel to make its sum 1 */
     var normalize = 1 / sumArr(kernel);
-    
+
     for (var k = 0; k < kernel.length; k++) {
         for (var l = 0; l < kernel[k].length; l++) {
             kernel[k][l] = Math.round(normalize * kernel[k][l] * 1000) / 1000;
         }
     }
-    
+
     return kernel;
 }
 
 function gaussianBlur(canvas, sigma, size) {
     var ctx = canvas.getContext('2d');
-    
+
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var kernel = generateKernel(sigma, size);
-    
+
     runImg(canvas, size, function (current, neighbors) {
         var resultR = 0;
         var resultG = 0;
         var resultB = 0;
         var pixel;
-            
+
         for (var i = 0; i < size; i++) {
             for (var j = 0; j < size; j++) {
                 pixel = getPixel(neighbors[i][j], imgDataCopy);
-                
+
                 /** return the existing pixel value multiplied by the kernel */
                 resultR += pixel.r * kernel[i][j];
                 resultG += pixel.g * kernel[i][j];
                 resultB += pixel.b * kernel[i][j];
             }
         }
-        
+
         setPixel(current, {
             r: resultR,
             g: resultG,
             b: resultB
         }, imgDataCopy);
     });
-    
+
     ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
@@ -207,12 +203,10 @@ function gaussianBlur(canvas, sigma, size) {
 
 In this step, we are going to find the intensity gradient (*G*) of the image. Before that, we have to used the value for the first derivative in the horizontal direction (*G<sub>x</sub>*) and the vertical direction (*G<sub>y</sub>*), returned by a edge detector (Roberts, Prewitt, Sobel, etc.). [Sobel](https://en.wikipedia.org/wiki/Sobel_operator) Detector is exactly what we used.
 
-<br />
-
-<iframe height='1322' scrolling='no' src='//codepen.io/aleen42/embed/WGjRXB/?height=1322&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/WGjRXB/'>WGjRXB</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="1513" data-theme-id="21735" data-slug-hash="WGjRXB" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="WGjRXB" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/WGjRXB/">WGjRXB</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 Before using gradient, we are going to export a module, which is used for pixel operations, named `Pixel`.
 
@@ -341,38 +335,38 @@ function gradient(canvas, op) {
 
     var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    
+
     var dirMap = [];
     var gradMap = [];
-    
+
     var SOBEL_X_FILTER = [
         [-1, 0, 1],
         [-2, 0, 2],
         [-1, 0, 1]
     ];
-    
+
     var SOBEL_Y_FILTER = [
         [1, 2, 1],
         [0, 0, 0],
         [-1, -2, -1]
     ];
-    
+
     var ROBERTS_X_FILTER = [
         [1, 0],
         [0, -1]
     ];
-    
+
     var ROBERTS_Y_FILTER = [
         [0, 1],
         [-1, 0]
     ];
-    
+
     var PREWITT_X_FILTER = [
         [-1, 0, 1],
         [-1, 0, 1],
         [-1, 0, 1]
     ];
-    
+
     var PREWITT_Y_FILTER = [
         [-1, -1, -1],
         [0, 0, 0],
@@ -396,12 +390,12 @@ function gradient(canvas, op) {
             len: PREWITT_Y_FILTER.length
         }
     };
-    
+
     runImg(canvas, 3, function (current, neighbors) {
         var edgeX = 0;
         var edgeY = 0;
         var pixel = new Pixel(current, imgDataCopy.width, imgDataCopy.height);
-        
+
         if (!pixel.isBorder()) {
             for (var i = 0; i < OPERATORS[op].len; i++) {
                 for (var j = 0; j < OPERATORS[op].len; j++) {
@@ -410,13 +404,13 @@ function gradient(canvas, op) {
                 }
             }
         }
-        
+
         dirMap[current] = roundDir(Math.atan2(edgeY, edgeX) * (180 / Math.PI));
         gradMap[current] = Math.round(Math.sqrt(edgeX * edgeX + edgeY * edgeY));
 
         setPixel(current, gradMap[current], imgDataCopy);
     });
-    
+
     ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
@@ -427,12 +421,10 @@ Non-maximum suppression is an **edge thinning** technique.
 
 Non-Maximum suppression is applied to "thin" the edge. After applying gradient calculation, the edge extracted from the gradient value is still quite blurred. With respect to criterion 3, there should only be one accurate response to the edge. Thus non-maximum suppression can help to suppress all the gradient values to 0 except the local maximal, which indicates location with the sharpest change of intensity value.
 
-<br />
-
-<iframe height='1307' scrolling='no' src='//codepen.io/aleen42/embed/rrmyzw/?height=1307&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rrmyzw/'>rrmyzw</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="1513" data-theme-id="21735" data-slug-hash="rrmyzw" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="rrmyzw" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrmyzw/">rrmyzw</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 In this algorithm, we need to use the value `dirMap` and `gradMap` calculated above.
 
@@ -480,15 +472,15 @@ function getPixelNeighbors(dir) {
             }
         ]
     };
-    
+
     return degrees[dir];
 }
 
 function nonMaximumSuppress(canvas, dirMap, gradMap) {
     var ctx = canvas.getContext('2d');
-    
+
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    
+
     runImg(canvas, 3, function(current, neighbors) {
         var pixNeighbors = getPixelNeighbors(dirMap[current]);
 
@@ -503,7 +495,7 @@ function nonMaximumSuppress(canvas, dirMap, gradMap) {
             setPixel(current, 0, imgDataCopy);
         }
     });
-    
+
     ctx.putImageData(imgDataCopy, 0, 0);
 }
 ```
@@ -512,37 +504,35 @@ function nonMaximumSuppress(canvas, dirMap, gradMap) {
 
 In this process, we will extract weak edges from the strong one. That's the improvement of the algorithm, Canny Edge Detection.
 
-<br />
-
-<iframe height='1283' scrolling='no' src='//codepen.io/aleen42/embed/rrmybJ/?height=1283&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rrmybJ/'>rrmybJ</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="1513" data-theme-id="21735" data-slug-hash="rrmybJ" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="rrmybJ" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrmybJ/">rrmybJ</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 ```js
 function createHistogram(canvas) {
     var histogram = {
         g: []
     };
-        
+
     var size = 256;
     var total = 0;
-    
+
     var ctx = canvas.getContext('2d');
-    
+
     var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    
+
     while (size--) {
         histogram.g[size] = 0;
     }
-    
+
     runImg(canvas, null, function(i) {
         histogram.g[imgData.data[i]]++;
         total++;
     });
-    
+
     histogram.length = total;
-    
+
     return histogram;
 };
 
@@ -554,26 +544,26 @@ function calcWeight(histogram, s, e) {
     var total = histogram.reduce(function(i, j) {
         return i + j;
     }, 0);
-    
+
     var partHist = (s === e) ? [histogram[s]] : histogram.slice(s, e);
     var part = partHist.reduce(function(i, j) {
         return i + j;
     }, 0);
-    
+
     return parseFloat(part, 10) / total;
 };
 
 function calcMean(histogram, s, e) {
     var partHist = (s === e) ? [histogram[s]] : histogram.slice(s, e);
-    
+
     var val = 0;
     var total = 0;
-    
+
     partHist.forEach(function(el, i) {
         val += ((s + i) * el);
         total += el;
     });
-    
+
     return parseFloat(val, 10) / total;
 };
 
@@ -581,12 +571,12 @@ function fastOtsu(canvas) {
     var histogram = createHistogram(canvas);
     var start = 0;
     var end = histogram.g.length - 1;
-    
+
     var leftWeight;
     var rightWeight;
     var leftMean;
     var rightMean;
-    
+
     var betweenClassVariances = [];
     var max = -Infinity;
     var threshold;
@@ -597,7 +587,7 @@ function fastOtsu(canvas) {
         leftMean = calcMean(histogram.g, start, i);
         rightMean = calcMean(histogram.g, i, end + 1);
         betweenClassVariances[i] = calcBetweenClassVariance(leftWeight, leftMean, rightWeight, rightMean);
-        
+
         if (betweenClassVariances[i] > max) {
             max = betweenClassVariances[i];
             threshold = i;
@@ -610,46 +600,46 @@ function fastOtsu(canvas) {
 function getEdgeNeighbors(i, imgData, threshold, includedEdges) {
     var neighbors = [];
     var pixel = new Pixel(i, imgData.width, imgData.height);
-    
+
     for (var j = 0; j < pixel.neighbors.length; j++) {
         if (imgData.data[pixel.neighbors[j]] >= threshold && (includedEdges === undefined || includedEdges.indexOf(pixel.neighbors[j]) === -1)) {
             neighbors.push(pixel.neighbors[j]);
         }
     }
-    
+
     return neighbors;
 }
 
-function _traverseEdge(current, imgData, threshold, traversed) { 
+function _traverseEdge(current, imgData, threshold, traversed) {
     /**
-     * traverses the current pixel until a length has been reached 
+     * traverses the current pixel until a length has been reached
      * initialize the group from the current pixel's perspective
      */
     var group = [current];
-    
+
     /** pass the traversed group to the getEdgeNeighbors so that it will not include those anymore */
     var neighbors = getEdgeNeighbors(current, imgData, threshold, traversed);
-    
+
     for (var i = 0; i < neighbors.length; i++) {
         /** recursively get the other edges connected */
         group = group.concat(_traverseEdge(neighbors[i], imgData, threshold, traversed.concat(group)));
     }
-    
+
     /** if the pixel group is not above max length, it will return the pixels included in that small pixel group */
     return group;
 }
 
 function hysteresis(canvas) {
     var ctx = canvas.getContext('2d');
-    
+
     var imgDataCopy = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    
+
     /** where real edges will be stored with the 1st pass */
     var realEdges = [];
-    
+
     /** high threshold value */
     var t1 = fastOtsu(canvas);
-    
+
     /** low threshold value */
     var t2 = t1 / 2;
 
@@ -696,8 +686,7 @@ http://share.soundtooth.cn/ji.gif (Almost 50Mb, So please wait)
 
 So, where can you enjoy yourself with drawing contours with JavaScript? [**Here**](http://draw.soundtooth.cn/).
 
-<br />
-
-<iframe height='612' scrolling='no' src='//codepen.io/aleen42/embed/rrKdpV/?height=612&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rrKdpV/'>rrKdpV</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
+<p>
+<p data-height="612" data-theme-id="21735" data-slug-hash="rrKdpV" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="rrKdpV" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrKdpV/">rrKdpV</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>

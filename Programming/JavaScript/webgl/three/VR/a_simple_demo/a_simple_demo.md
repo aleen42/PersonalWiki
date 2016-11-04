@@ -31,16 +31,16 @@ function init() {
     scene = new THREE.Scene();
     camera = new THREE.PerspectiveCamera(90, window.innerWidth / window.innerHeight, 0.001, 700);
     camera.position.set(0, 15, 0);
-    
+
     /** initiate the camera */
     scene.add(camera);
-    
+
     renderer = new THREE.WebGLRenderer();
     element = renderer.domElement;
     document.body.appendChild(renderer.domElement);
-    
+
     effect = new THREE.StereoEffect(renderer);
-    
+
     /** Handle Mouse Control */
     controls = new THREE.OrbitControls(camera, renderer.domElement);
     controls.target.set(
@@ -49,48 +49,48 @@ function init() {
         camera.position.z
     );
     window.addEventListener('deviceorientation', setDeviceOrientationControls, true);
-    
+
     /** Create Light */
     var light = new THREE.PointLight( 0xffffff, 1.2, 0);
     light.position.set(0, 50, 0);
     scene.add(light);
-    
+
     /** Create Floor */
     var floorTexture = THREE.ImageUtils.loadTexture('img/grass.jpg');
     floorTexture.wrapS = THREE.RepeatWrapping;
     floorTexture.wrapT = THREE.RepeatWrapping;
     floorTexture.repeat = new THREE.Vector2(50, 50);
-    
+
     var floorMaterial = new THREE.MeshPhongMaterial({
         map: floorTexture
     });
-    
+
     var floorGeometry = new THREE.PlaneBufferGeometry(1000, 1000);
     var floor = new THREE.Mesh(floorGeometry, floorMaterial);
     floor.rotation.x = -Math.PI / 2;
     scene.add(floor);
-    
+
     /** Create Box */
     var geometry = new THREE.BoxGeometry(6, 6, 6);
     var material = new THREE.MeshNormalMaterial();
     var cube = new THREE.Mesh(geometry, material);
     cube.position.set(-15, 30, 10);
     scene.add(cube);
-    
+
     /** Create Text */
     var textGeometry = new THREE.TextGeometry(word, {
         size: 5,
         height: 1
     });
-    
+
     var text = new THREE.Mesh(textGeometry, new THREE.MeshBasicMaterial({
         color: 0xffffff
     }));
-    
+
     text.position.set(15, 15, -25);
     text.rotation.set(0, 30, 0);
     scene.add(text);
-  
+
     animate();
 }
 
@@ -104,18 +104,18 @@ function setDeviceOrientationControls(e) {
 
 function animate() {
     requestAnimationFrame(animate);
-  
+
     var width = window.innerWidth;
     var height = window.innerHeight;
-  
+
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
-  
+
     renderer.setSize(width, height);
     effect.setSize(width, height);
-  
+
     camera.updateProjectionMatrix();
-  
+
     controls.update();
     effect.render(scene, camera);
 }
@@ -123,9 +123,7 @@ function animate() {
 
 ### Demo
 
-<br />
-
-<iframe height='444' scrolling='no' src='//codepen.io/aleen42/embed/PGRWGg/?height=444&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/PGRWGg/'>PGRWGg</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="483" data-theme-id="21735" data-slug-hash="PGRWGg" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="PGRWGg" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/PGRWGg/">PGRWGg</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>

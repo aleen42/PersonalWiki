@@ -98,8 +98,10 @@
 
 	**Show**
 
-	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/kXmvRL/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/kXmvRL/'>kXmvRL</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+    <p>
+    <p data-height="533" data-theme-id="21735" data-slug-hash="kXmvRL" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="kXmvRL" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/kXmvRL/">kXmvRL</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </p>
 
 	- **x/y with opacity**
 
@@ -133,8 +135,10 @@
 
 	**Show**
 
-	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/oLOpPd/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/oLOpPd/'>oLOpPd</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+	<p>
+    <p data-height="300" data-theme-id="21735" data-slug-hash="oLOpPd" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="oLOpPd" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/oLOpPd/">oLOpPd</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </p>
 
 	- **path(with auto rotate)**
 
@@ -161,8 +165,10 @@
 
 	**Show**
 
-	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/rLbpqr/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rLbpqr/'>rLbpqr</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+	<p>
+    <p data-height="300" data-theme-id="21735" data-slug-hash="rLbpqr" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="rLbpqr" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rLbpqr/">rLbpqr</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </p>
 
 	- **path(without auto rotate)**
 
@@ -190,8 +196,10 @@
 
 	**Show**
 
-	<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/qNwpJx/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/qNwpJx/'>qNwpJx</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+	<p>
+    <p data-height="300" data-theme-id="21735" data-slug-hash="qNwpJx" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="qNwpJx" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/qNwpJx/">qNwpJx</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </p>
 
 ##### Step 4
 

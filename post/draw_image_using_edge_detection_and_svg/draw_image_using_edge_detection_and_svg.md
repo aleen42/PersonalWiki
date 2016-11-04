@@ -22,8 +22,10 @@ One of the applications I like is path animation. This draws slowly the lines th
 
 Some time ago I played with [this technique and the vector version of the Spotify logo](https://github.com/JMPerez/spotify-logo-svg-drawing-animation):
 
-<iframe height='300' scrolling='no' src='//codepen.io/jmperez/embed/rxxRRg/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/jmperez/pen/rxxRRg/'>Drawing SVGs - Spotify Logo</a> by José Manuel Pérez (<a href='http://codepen.io/jmperez'>@jmperez</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="428" data-theme-id="21735" data-slug-hash="rxxRRg" data-default-tab="html,result" data-user="jmperez" data-embed-version="2" data-pen-title="Drawing SVGs - Spotify Logo" class="codepen">See the Pen <a href="http://codepen.io/jmperez/pen/rxxRRg/">Drawing SVGs - Spotify Logo</a> by José Manuel Pérez (<a href="http://codepen.io/jmperez">@jmperez</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 This was based on [the SVG Animation (Polygon.com PS4 Review) pen by Derek Palladino](http://codepen.io/derekjp/pen/KIGFe/), who reproduced Polygon's drawings.
 

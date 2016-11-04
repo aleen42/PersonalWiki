@@ -18,15 +18,19 @@ You can blend `background-images` together, or blend them with background-color.
 }
 ```
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/rrBJQx/?height=300&theme-id=21735&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rrBJQx/'>Background Blending</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="rrBJQx" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="Background Blending" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrBJQx/">Background Blending</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 `multiply` is a nice and useful one, but there is also: `screen`, `overlay`, `darken`, `lighten`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`, `hue`, `saturation`, `color`, and `luminosity`. And also `normal` which reset it.
 
 Adobe (who works on [the spec](http://dev.w3.org/fxtf/compositing-1/) for this stuff, of course) created this Pen for playing with the different possibilities here:
 
-<iframe height='550' scrolling='no' src='//codepen.io/adobe/embed/FeiCp/?height=550&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/adobe/pen/FeiCp/'>CSS Element Background Blend Modes</a> by Adobe Web Platform (<a href='http://codepen.io/adobe'>@adobe</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="FeiCp" data-default-tab="result" data-user="adobe" data-embed-version="2" data-pen-title="CSS Element Background Blend Modes" class="codepen">See the Pen <a href="http://codepen.io/adobe/pen/FeiCp/">CSS Element Background Blend Modes</a> by Adobe Web Platform (<a href="http://codepen.io/adobe">@adobe</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 A single element can have more than one background, [stacked up](http://css-tricks.com/stacking-order-of-multiple-backgrounds/). Like:
 
@@ -40,8 +44,10 @@ A single element can have more than one background, [stacked up](http://css-tric
 
 Those can blend too simply by adding a `background-blend-mode`.
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/GjKQbP/?height=300&theme-id=21735&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/GjKQbP/'>Multiple Background Blending</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="GjKQbP" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="Multiple Background Blending" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/GjKQbP/">Multiple Background Blending</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 ### Arbitrary HTML Elements Blend Modes
 
@@ -83,13 +89,17 @@ h1 span:nth-child(1) {
 /* etc, on coloring */
 ```
 
-<iframe height='379' scrolling='no' src='//codepen.io/aleen42/embed/mAbxya/?height=379&theme-id=21735&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/mAbxya/'>Overlapping Letters</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="mAbxya" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="Overlapping Letters" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/mAbxya/">Overlapping Letters</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 Like I mentioned, real web text over image is a pretty sweet use case if you ask me:
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/RGbrPq/?height=300&theme-id=21735&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/RGbrPq/'>RGbrPq</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="RGbrPq" data-default-tab="css,result" data-user="aleen42" data-embed-version="2" data-pen-title="RGbrPq" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/RGbrPq/">RGbrPq</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 ### Canvas Blend Modes
 
@@ -106,13 +116,17 @@ ctx.globalCompositeOperation = 'multiply';
 
 That value can be any of those I listed above. Here's a simple demo:
 
-<iframe height='300' scrolling='no' src='//codepen.io/chriscoyier/embed/Kkliq/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/chriscoyier/pen/Kkliq/'>canvas blend modes</a> by Chris Coyier (<a href='http://codepen.io/chriscoyier'>@chriscoyier</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="Kkliq" data-default-tab="js,result" data-user="chriscoyier" data-embed-version="2" data-pen-title="canvas blend modes" class="codepen">See the Pen <a href="http://codepen.io/chriscoyier/pen/Kkliq/">canvas blend modes</a> by Chris Coyier (<a href="http://codepen.io/chriscoyier">@chriscoyier</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 And a fancy one where you can see the blending give the demo life:
 
-<iframe height='300' scrolling='no' src='//codepen.io/soulwire/embed/foktm/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/soulwire/pen/foktm/'>sketch.js Demo</a> by Justin Windle (<a href='http://codepen.io/soulwire'>@soulwire</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="foktm" data-default-tab="js,result" data-user="soulwire" data-embed-version="2" data-pen-title="sketch.js Demo" class="codepen">See the Pen <a href="http://codepen.io/soulwire/pen/foktm/">sketch.js Demo</a> by Justin Windle (<a href="http://codepen.io/soulwire">@soulwire</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 ### SVG Blend Modes
 
@@ -120,26 +134,28 @@ As you might suspect, SVG does have its own mechanism for doing this. One way to
 
 ```html
 <svg>
-    
+
     <defs>
-    
+
         <filter id="f1" x="0" y="0" width="1" height="1">
             <feImage xlink:href="#p1" result="p1"/>
             <feImage xlink:href="#p2" result="p2"/>
             <feBlend mode="multiply" in="p1" in2="p2" />
         </filter>
-        
+
         <path id="p1" d='M100 100 L200 100 L200 200 L100 200 Z' fill='#00FFFF'/>
         <path id="p2" d='M150 150 L250 150 L250 250 L150 250 Z' fill='#CC3300'/>
-        
+
     </defs>
-    
+
     <rect width="100%" height="100%" filter="url(#f1)"/>
 </svg>
 ```
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/ZpzxWZ/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/ZpzxWZ/'>ZpzxWZ</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="ZpzxWZ" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="ZpzxWZ" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/ZpzxWZ/">ZpzxWZ</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 And [a more complex example](http://codepen.io/chriscoyier/pen/tCykv).
 
@@ -147,8 +163,10 @@ The good news is that `mix-blend-mode` will work on inline SVG. So if you're usi
 
 Here's an example by Bennet that does just that:
 
-<iframe height='300' scrolling='no' src='//codepen.io/bennettfeely/embed/KDkCj/?height=300&theme-id=21735&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/bennettfeely/pen/KDkCj/'>KDkCj</a> by Bennett Feely (<a href='http://codepen.io/bennettfeely'>@bennettfeely</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="KDkCj" data-default-tab="html,result" data-user="bennettfeely" data-embed-version="2" data-pen-title="KDkCj" class="codepen">See the Pen <a href="http://codepen.io/bennettfeely/pen/KDkCj/">KDkCj</a> by Bennett Feely (<a href="http://codepen.io/bennettfeely">@bennettfeely</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 ### Browser Support
 

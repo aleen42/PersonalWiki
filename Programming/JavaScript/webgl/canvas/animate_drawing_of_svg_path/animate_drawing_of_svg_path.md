@@ -4,8 +4,10 @@
 
 Here is an all-SVG solution that involves progressively modifying the `stroke-dasharray` for the shape to draw a longer and longer 'dash' followed by an enormous(大量的) gap.
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/wzrLoA/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/wzrLoA/'>wzrLoA</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="wzrLoA" data-default-tab="js,result" data-user="aleen42" data-embed-version="2" data-pen-title="wzrLoA" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/wzrLoA/">wzrLoA</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 Relevant code:
 
@@ -27,7 +29,7 @@ function increaseLength() {
     var pathLength = orig.getTotalLength();
     length += distancePerPoint;
     orig.style.strokeDasharray = [length, pathLength].join(' ');
-    
+
     if (length >= pathLength) {
         clearInterval(timer);
     }
@@ -47,8 +49,10 @@ orig.addEventListener('mouseout', stopDrawingPath, false);
 
 In this case, you may choose to draw your path to an HTML5 canvas by sampling the SVG path periodically and drawing to the canvas. (Note that the SVG path does not need to be displayed for this to happen; you can build an SVG path element entirely in JavaScript and sample it):
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/JRGQwG/?height=300&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/JRGQwG/'>JRGQwG</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="JRGQwG" data-default-tab="js,result" data-user="aleen42" data-embed-version="2" data-pen-title="JRGQwG" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/JRGQwG/">JRGQwG</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 Relevant code:
 
@@ -74,11 +78,11 @@ function redrawCanvas() {
     clearCanvas();
     ctx.beginPath();
     ctx.moveTo(points[0].x, points[0].y);
-    
+
     for (var i = 1; i < points.length; i++) {
         ctx.lineTo(points[i].x, points[i].y);
     }
-    
+
     ctx.stroke();
 }
 
