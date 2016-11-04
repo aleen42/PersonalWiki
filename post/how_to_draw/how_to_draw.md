@@ -7,12 +7,10 @@ Since my company has given me a requirement of drawing in a browser programmatic
 
 Here is a demo for you, or you can directly click into http://draw.soundtooth.cn/. What you should is to drag any pictures and drop into the box with a red border, and then just click 'Process' button to start the process of drawing:
 
-<br />
-
-<iframe height='612' scrolling='no' src='//codepen.io/aleen42/embed/rrKdpV/?height=612&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rrKdpV/'>rrKdpV</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="658" data-theme-id="21735" data-slug-hash="rrKdpV" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="rrKdpV" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrKdpV/">rrKdpV</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 Note that this is a project which belongs to my company, and that's why I'm not going to *open* the source code in the public community.
 
@@ -588,12 +586,10 @@ function grayscale(canvas) {
 
 An example has been shown as followed:
 
-<br />
-
-<iframe height='383' scrolling='no' title='gLOgLM' src='//codepen.io/aleen42/embed/gLOgLM/?height=383&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/gLOgLM/'>gLOgLM</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="383" data-theme-id="21735" data-slug-hash="gLOgLM" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="gLOgLM" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/gLOgLM/">gLOgLM</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 #### Gaussian Blur
 
@@ -691,12 +687,10 @@ function gaussianBlur(canvas, sigma, size) {
 
 If you want to check the effect, you can change the sigma and size parameters to rerun the followed demo.
 
-<br />
-
-<iframe height='383' scrolling='no' title='LbYWYN' src='//codepen.io/aleen42/embed/LbYWYN/?height=383&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/LbYWYN/'>LbYWYN</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="383" data-theme-id="21735" data-slug-hash="LbYWYN" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="LbYWYN" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/LbYWYN/">LbYWYN</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 #### Canny Gradient
 
@@ -903,12 +897,10 @@ function gradient(canvas, op) {
 
 And the demo should look like this:
 
-<br />
-
-<iframe height='383' scrolling='no' title='aBbpWM' src='//codepen.io/aleen42/embed/aBbpWM/?height=383&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/aBbpWM/'>aBbpWM</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="383" data-theme-id="21735" data-slug-hash="aBbpWM" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="aBbpWM" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/aBbpWM/">aBbpWM</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 #### Canny Non-maximum Suppression
 
@@ -954,12 +946,10 @@ function nonMaximumSuppress(canvas, dirMap, gradMap) {
 
 After suppression, it seems greater than before:
 
-<br />
-
-<iframe height='383' scrolling='no' title='jVOBNe' src='//codepen.io/aleen42/embed/jVOBNe/?height=383&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/jVOBNe/'>jVOBNe</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="383" data-theme-id="21735" data-slug-hash="jVOBNe" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="jVOBNe" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/jVOBNe/">jVOBNe</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 #### Canny Hysteresis
 
@@ -1125,12 +1115,10 @@ function hysteresis(canvas) {
 
 Or what will it be after removing weak edges from strong ones?
 
-<br />
-
-<iframe height='383' scrolling='no' title='RowpLx' src='//codepen.io/aleen42/embed/RowpLx/?height=383&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/RowpLx/'>RowpLx</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="383" data-theme-id="21735" data-slug-hash="RowpLx" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="RowpLx" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/RowpLx/">RowpLx</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 Wow, it looks perfect for me.
 
