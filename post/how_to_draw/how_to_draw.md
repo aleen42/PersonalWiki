@@ -7,9 +7,8 @@ Since my company has given me a requirement of drawing in a browser programmatic
 
 Here is a demo for you, or you can directly click into http://draw.soundtooth.cn/. What you should is to drag any pictures and drop into the box with a red border, and then just click 'Process' button to start the process of drawing:
 
-<p>
-<p data-height="658" data-theme-id="21735" data-slug-hash="rrKdpV" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="rrKdpV" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrKdpV/">rrKdpV</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p align="center">
+<iframe width="100%" height="600px" src="https://aleen42.github.io/example/draw/" />
 </p>
 
 Note that this is a project which belongs to my company, and that's why I'm not going to *open* the source code in the public community.
