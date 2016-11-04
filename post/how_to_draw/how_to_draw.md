@@ -5,11 +5,12 @@
 
 Since my company has given me a requirement of drawing in a browser programmatically, simply shown as Figure 1.1 above, I would like to share some points with you about drawing in JavaScript. Actually, what we're going to draw? **Any kind of images and graphics**.
 
-Here is a demo for you, or you can directly click into http://draw.soundtooth.cn/:
+Here is a demo for you, or you can directly click into http://draw.soundtooth.cn/. What you should is to drag any pictures and drop into the box with a red border, and then just click 'Process' button to start the process of drawing:
 
 <br />
 
-
+<iframe height='612' scrolling='no' src='//codepen.io/aleen42/embed/rrKdpV/?height=612&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rrKdpV/'>rrKdpV</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 
 <br />
 
