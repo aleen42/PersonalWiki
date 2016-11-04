@@ -687,5 +687,5 @@ http://share.soundtooth.cn/ji.gif (Almost 50Mb, So please wait)
 So, where can you enjoy yourself with drawing contours with JavaScript? [**Here**](http://draw.soundtooth.cn/).
 
 <p align="center">
-<iframe width="100%" height="600px" src="https://aleen42.github.io/example/draw/" />
+<iframe width="100%" height="600px" src="https://aleen42.github.io/example/draw/"></iframe>
 </p>

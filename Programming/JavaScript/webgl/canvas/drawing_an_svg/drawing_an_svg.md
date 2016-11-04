@@ -9,7 +9,7 @@ This document is to talk about how to draw an SVG file with canvas in JavaScript
 Just drag and drop an SVG file onto the box shown below with a dark read border:
 
 <p align="center">
-<iframe width="100%" height="600px" src="https://aleen42.github.io/example/draw/" />
+<iframe width="100%" height="600px" src="https://aleen42.github.io/example/draw/"></iframe>
 </p>
 
 ### Read data from an SVG file
