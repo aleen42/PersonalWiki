@@ -9,9 +9,8 @@ Here is a demo for you, or you can directly click into http://draw.soundtooth.cn
 
 <br />
 
-<iframe height='612' scrolling='no' src='//codepen.io/aleen42/embed/rrKdpV/?height=612&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
-	See the Pen <a href="http://codepen.io/aleen42/pen/rrKdpV/">rrKdpV</a> by aleen42 (<a href="https://github.com/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.
-</iframe>
+<p data-height="658" data-theme-id="21735" data-slug-hash="rrKdpV" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="rrKdpV" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrKdpV/">rrKdpV</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 <br />
 
