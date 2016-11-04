@@ -214,12 +214,10 @@ svg path {
 
 And voila!—the colors we set on the `<use>` elements are now applied to the `path` in each one. Check the live demo out and play with the values creating more instances and changing their colors as you go:
 
-<br />
-
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/wzxWxR/?height=300&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/wzxWxR/'>wzxWxR</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="wzxWxR" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="wzxWxR" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/wzxWxR/">wzxWxR</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 Now this technique is useful when you want to force the contents of `<use>` to inherit the styles you set on it. But in most cases, this may not be exactly what you want. There are other styling scenarios, so we'll go over some of them next.
 
@@ -341,12 +339,10 @@ So what happened here is that the current color value was *leaked* into the inna
 
 Here is the live demo for the above code:
 
-<br />
-
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/vXaKvR/?height=300&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/vXaKvR/'>vXaKvR</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="vXaKvR" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="vXaKvR" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/vXaKvR/">vXaKvR</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 This two-color variation technique is quite useful for simple bicoloured logos. In Fabrice's article, he created three different variations of the Sass logo by changing the color of the text versus that of the background.
 
@@ -479,12 +475,10 @@ Using this technique, you can now reference the robot anywhere you want on the p
 
 You can play with the above demo, create as many copies of the robot as you want and assign different variable values to them in this live demo, just make sure you use Firefox at this time because it's the only browser supporting CSS Variables at the time of writing of this article:
 
-<br />
-
-<iframe height='495' scrolling='no' src='//codepen.io/aleen42/embed/rrArWW/?height=495&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/rrArWW/'>rrArWW</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
-
-<br />
+<p>
+<p data-height="352" data-theme-id="21735" data-slug-hash="rrArWW" data-default-tab="html,result" data-user="aleen42" data-embed-version="2" data-pen-title="rrArWW" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/rrArWW/">rrArWW</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 If you view the demo in Firefox, you will see the blue + yellow version of the robot that we defined with CSS variables. Make sure you check the demo in Chrome to see how it falls back to the initial colors (green version), and try removing the variable declarations from the CSS in Firefox to also see how the fallback works.
 

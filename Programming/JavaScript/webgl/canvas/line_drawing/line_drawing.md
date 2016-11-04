@@ -19,7 +19,7 @@ A few random parameters are first set up to determine the color of the line, as 
 function get_bounce_coord(coord_array) {
 	coord_array[0] += step * coord_array[1];
 
-	if( (coord_array[0] > (canv.height - 2 * step) && coord_array[2] === 'y') 
+	if( (coord_array[0] > (canv.height - 2 * step) && coord_array[2] === 'y')
 	    || (coord_array[0] > (canv.width - 2 * step) && coord_array[2] === 'x')
 		|| coord_array[0] < 2 * step)	{
 		coord_array[1] *= -1;
@@ -47,13 +47,13 @@ function draw_line() {
 
 		/** draw each line, the last line in each is always white */
 		context.lineWidth = (i + 1) * 4 - 2;
-		
+
 		if (i === 0) {
 			context.strokeStyle = '#fff';
 		} else {
 			context.strokeStyle = 'rgba(' + highlight[0] + ',' + highlight[1] + ',' + highlight[2] + ',0.2)';
 		}
-		
+
 		context.moveTo(x1[0], y1[0]);
 		context.bezierCurveTo(cx1[0],cy1[0],cx2[0],cy2[0],x2[0],y2[0]);
 		context.stroke();
@@ -71,41 +71,43 @@ function random_coord(type) {
 
 (function() {
     canv = document.getElementById('glow');
-    
+
     if (!canv || !canv.getContext) {
         return;
     }
-    
+
     context = canv.getContext('2d');
-    
+
     /** the glow color */
     highlight = new Array(Math.round(Math.random() * 255), Math.round(Math.random() * 255), Math.round(Math.random() * 255));
 	step = 7;   /** amount each movement of coord is in canvas pixels */
-	
+
 	/** start and end coordinates for the line */
 	x1 = new Array(random_coord('x'), -1, 'x');
 	y1 = new Array(random_coord('y'), 1, 'y');
 	x2 = new Array(random_coord('x'), -1.5, 'x');
 	y2 = new Array(random_coord('y'), -1.5, 'y');
-	
+
 	/** coordinates for the control points of the bezier curve */
 	cx1 = new Array(random_coord('x'), 1, 'x');
 	cy1 = new Array(random_coord('y'), -1, 'y');
 	cx2 = new Array(random_coord('x'), -1, 'x');
 	cy2 = new Array(random_coord('y'), 1, 'y');
-	
+
 	timer = window.setInterval(draw_line, 30);
 })();
 ```
 
-<iframe height='300' scrolling='no' src='//codepen.io/aleen42/embed/NRxJQE/?height=300&theme-id=21735&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/NRxJQE/'>NRxJQE</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="300" data-theme-id="21735" data-slug-hash="NRxJQE" data-default-tab="js,result" data-user="aleen42" data-embed-version="2" data-pen-title="NRxJQE" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/NRxJQE/">NRxJQE</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
 
 After that, there was an attempt at creating a simple animated drawing of a basic line art shape with the same glowing line technique.
 
 ![](./bulb_animation.png)
 
-Because I wanted to be able to see the shape being drawn it had to be as a series of steps which could be broken down into manageable chunks. I also wanted the code to be flexible enough that I could change the shape it was drawing whenever I liked, without having to code up a complex series of steps each time. These two requirements got me thinking about the shorthand notation of a path used in SVG which uses single letters followed by one or more pairs of coordinates to draw lines and curves. 
+Because I wanted to be able to see the shape being drawn it had to be as a series of steps which could be broken down into manageable chunks. I also wanted the code to be flexible enough that I could change the shape it was drawing whenever I liked, without having to code up a complex series of steps each time. These two requirements got me thinking about the shorthand notation of a path used in SVG which uses single letters followed by one or more pairs of coordinates to draw lines and curves.
 
 ```nginx
 M 161.70443,272.07413
@@ -129,25 +131,25 @@ function animateDrawing() {
 	    type: 'm',
 	    buffer: new Array()
     };
-    
+
     i = nextPoint;
-    
+
     if (i >= points.length) {
         return false;
     } else {
         setTimeout(animateDrawing), 30);
     }
-    
+
     for (i = currentPoint; i <= nextPoint; i += 2) {
         drawPart.type = points[i].toLowerCase();
         drawPart.buffer.length = 0;
-        
+
         if (i >= 2) {
             drawPart.buffer.push(points[i - 1].split(','));
         } else {
             drawPart.buffer.push(new Array(0, 0));
         }
-        
+
         /**
          * i should be incremented by the number of coordinate pairs it has beyond the first
 		 * for example, a bezier curve has 3 pairs of coordinates; the two control points &
@@ -160,7 +162,7 @@ function animateDrawing() {
 		    drawPart.buffer.push(points[i + 1].split(','));
 		    drawPart.buffer.push(points[i + 2].split(','));
 		    drawPart.buffer.push(points[i + 3].split(','));
-		    
+
 		    i += 2;
 		    currentPoint = i;
 		    break;
@@ -174,17 +176,17 @@ function animateDrawing() {
             /** smooth curveTo */
             drawPart.buffer.push(points[i + 1].split(','));
             drawPart.buffer.push(points[i + 2].split(','));
-            
+
             i += 1;
             current_point = i;
             break;
         default:
             break;
         }
-		 
+
 		drawOutput(drawPart);
     }
-    
+
     nextPoint = i;
 }
 ```
@@ -199,7 +201,7 @@ function drawOutput(drawObj) {
         context.beginPath();
 		context.lineCap = 'butt';
 		context.lineWidth = (j + 1) * 4 + 10;
-		
+
 		/** stroke the last line as solid white to get the glow effect */
 		if (j === 0) {
 		    context.strokeStyle = '#fff';
@@ -207,9 +209,9 @@ function drawOutput(drawObj) {
 		} else {
 		    context.strokeStyle = 'rgba(' + highlight[0] + ',' + highlight[1] + ',' + highlight[2] + ',0.1)';
 		}
-		
+
 		context.moveTo(drawObj.buffer[0][0], drawObj.buffer[0][1]);
-		
+
 		switch(drawObj.type) {
 		case 'c':
 		    context.bezierCurveTo(drawObj.buffer[1][0], drawObj.buffer[1][1],  drawObj.buffer[2][0], drawObj.buffer[2][1], drawObj.buffer[3][0], drawObj.buffer[3][1]);
@@ -224,7 +226,7 @@ function drawOutput(drawObj) {
         default:
             break;
         }
-        
+
         context.stroke();
         context.closePath();
     }
@@ -236,11 +238,11 @@ Then run:
 ```js
 (function () {
     canv = document.getElementById("glow");
-	
+
 	if (!canv || !canv.getContext) {
 		return;
 	}
-	
+
 	context = canv.getContext("2d");
 
 	context.fillStyle = "#000";
@@ -250,5 +252,7 @@ Then run:
 })();
 ```
 
-<iframe height='594' scrolling='no' src='//codepen.io/aleen42/embed/jrWRoW/?height=594&theme-id=21735&default-tab=js,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/aleen42/pen/jrWRoW/'>jrWRoW</a> by aleen42 (<a href='http://codepen.io/aleen42'>@aleen42</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+<p>
+<p data-height="952" data-theme-id="21735" data-slug-hash="jrWRoW" data-default-tab="js,result" data-user="aleen42" data-embed-version="2" data-pen-title="jrWRoW" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/jrWRoW/">jrWRoW</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
