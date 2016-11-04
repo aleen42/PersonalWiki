@@ -5,6 +5,14 @@
 
 Since my company has given me a requirement of drawing in a browser programmatically, simply shown as Figure 1.1 above, I would like to share some points with you about drawing in JavaScript. Actually, what we're going to draw? **Any kind of images and graphics**.
 
+Here is a demo for you, or you can directly click into http://draw.soundtooth.cn/:
+
+<br />
+
+
+
+<br />
+
 Note that this is a project which belongs to my company, and that's why I'm not going to *open* the source code in the public community.
 
 At the beginning of the project, I was exactly inspired by the animation of drawing glowing line in [this article](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md). If you read it in details, you'll also find that before we draw any graphics, what we need is the data of paths, with which we are able to simulate the drawing. The format of those data should be like this:
