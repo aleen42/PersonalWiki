@@ -71,17 +71,17 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
 
 - **Discussion**
 
-     If you want to limit matches to valid phone numbers according to the North American Numbering Plan, here are the basic rules:
+    If you want to limit matches to valid phone numbers according to the North American Numbering Plan, here are the basic rules:
 
-     - Area codes start with a number 2–9, followed by 0–8, and then any third digit.
-     - The second group of three digits, known as the central office or exchange code, starts with a number 2–9, followed by any two digits.
-     - The final four digits, known as the station code, have no restrictions.
+- Area codes start with a number 2–9, followed by 0–8, and then any third digit.
+- The second group of three digits, known as the central office or exchange code, starts with a number 2–9, followed by any two digits.
+- The final four digits, known as the station code, have no restrictions.
 
-     So the regex according to this rule should be: **/\(?([2-9][0-8][0-9])\)?[-. ]?([2-9][0-9]{2})[-. ]?([0-9]{4})/g**.
+    So the regex according to this rule should be: **/\(?([2-9][0-8][0-9])\)?[-. ]?([2-9][0-9]{2})[-. ]?([0-9]{4})/g**.
 
-     Besides, you can also allow an optional, leading "1" for the country code: **/(?:\+?1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})/g**.
+    Besides, you can also allow an optional, leading "1" for the country code: **/(?:\+?1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})/g**.
 
-     To allow matching phone numbers that omit the local area code, enclose the first group of digits together with its surrounding parentheses and following separator in an optional, non-capturing group: **/(?:\(?([0-9]{3})\)?[-. ]?)?([0-9]{3})[-. ]?([0-9]{4})/g**.
+    To allow matching phone numbers that omit the local area code, enclose the first group of digits together with its surrounding parentheses and following separator in an optional, non-capturing group: **/(?:\(?([0-9]{3})\)?[-. ]?)?([0-9]{3})[-. ]?([0-9]{4})/g**.
 
 ### Validate International Phone Numbers
 
@@ -144,7 +144,70 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
 
     You might think that something as conceptually trivial as a date should be an easy job for a regular expression. But it isn't, for two reasons.
 
-    - dates are such an everyday thing, humans are very sloppy with them.
-    - regular expressions work character by character rather than deal directly with numbers
+- dates are such an everyday thing, humans are very sloppy with them.
+- regular expressions work character by character rather than deal directly with numbers
 
     If you're going to validate an input, `^` and `$` are both what you should not use. Conversely, you should use a variation regex like: **/\b(1[0-2]|0[1-9])/(3[01]|[12][0-9]|0[1-9])/[0-9]{4}\b/**.
+
+### Validate Traditional Date Formats, Excluding Invalid Dates
+
+- **Problem**
+
+    How about weed out some invalid dates, such as Feb 31st.
+
+- **Solution**
+
+    One solution is to use code to validate what you have captured, but if you just use one regular expression, you can create a complex one like this:
+
+    **/^(?:(0?2)/([12][0-9]|0?[1-9])|(0?[469]|11)/(30|[12][0-9]|0?[1-9])|(0?[13578]|1[02])/(3[01]|[12][0-9]|0?[1-9]))/((?:[0-9]{2})?[0-9]{2})$/**
+
+    Respectively represents for:
+
+    - February (29 days every year)
+
+        **(0?2)/([12][0-9]|0?[1-9])**
+
+    - 30-day months:
+
+        **(0?[469]|11)/(30|[12][0-9]|0?[1-9])**
+
+    - 31-day months
+
+        **(0?[13578]|1[02])/(3[01]|[12][0-9]|0?[1-9]))**
+
+    - year
+
+        **((?:[0-9]{2})?[0-9]{2})**
+
+- **Discussion**
+
+    As it will be a complex regular expression, it's recommended to use code to do filtering for you rather than to create such a complex regex. If you do want to build this, you can have a analysis about it and use `|` to separate all cases.
+
+### Validate Traditional Time Formats
+
+- **Problem**
+
+    How to validate times in various traditional time formats, such as **hh:mm** and **hh:mm:ss** in both 12-hour and 24-hour formats.
+
+- **Solution**
+    - Hours and minutes, 12-hour clock:
+
+        **/^(1[0-2]|0?[1-9]):([0-5]?[0-9])( ?[AP]M)?$/**
+
+    - Hours and minutes, 24-hour clock:
+
+        **/^(2[0-3]|[01]?[0-9]):([0-5]?[0-9])$/**
+
+    - Hours, minutes and seconds, 12-hour clock:
+
+        **/^(1[0-2]|0?[1-9]):([0-5]?[0-9]):([0-5]?[0-9])( ?[AP]M)?$/**
+
+    - Hours, minutes and seconds, 24-hour clock:
+
+        **/^(2[0-3]|[01]?[0-9]):([0-5]?[0-9]):([0-5]?[0-9])$/**
+
+- **Discussion**
+
+    Validating times is considerably easier than validating dates. Every hour has 60 minutes, and every minute has 60 seconds. This means we don't need any complicated alternations in the regex.
+
+    If you want to search all the time, you can use like regular expressions like this: **/\b(2[0-3]|[01]?[0-9]):([0-5]?[0-9])\b/g**.
