@@ -68,7 +68,7 @@
 
     - Non-hexadecimal character
 
-        **/[&#94;a-fA-F0-9]/**
+        **/&#91;&#94;a-fA-F0-9&#93;/**
 
 - **Discussion**
 
@@ -92,7 +92,7 @@
 
     **/\\w/** is always identical to **/[a-zA-Z0-9_]/**
 
-    **/\\W/** is identical to **/[&#94;a-zA-Z0-9_]/**
+    **/\\W/** is identical to **/&#91;&#94;a-zA-Z0-9_&#93;/**
 
     **/\\s/** matches any whitespace character, which includes spaces, tabs, and line brakes
 
