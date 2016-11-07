@@ -13,3 +13,9 @@
 - create a project
 
 `laravel new [dirName]`
+
+#### Specific Version
+
+`composer create-project --prefer-dist laravel/laravel [dirName] 5.2`
+
+`laravel new [dirName] 5.2`
