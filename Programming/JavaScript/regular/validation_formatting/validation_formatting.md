@@ -211,3 +211,73 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
     Validating times is considerably easier than validating dates. Every hour has 60 minutes, and every minute has 60 seconds. This means we don't need any complicated alternations in the regex.
 
     If you want to search all the time, you can use like regular expressions like this: **/\b(2[0-3]|[01]?[0-9]):([0-5]?[0-9])\b/g**.
+
+### Validate ISO 8061 Dates and Times
+
+- **Problem**
+
+    Match dates and/or times in the official ISO 8601 format, which is the basis for many standardized date and time formats.
+
+- **Solution**
+    - **Dates**
+        - Match **YYYY-MM-DD** or **YYYYMMDD** but not **YYYY-MMDD** or **YYYYMM-DD**:
+
+        **/^([0-9]{4})(-?)(1[0-2]|0[1-9])\2(3[01]|0[1-9]|[12][0-9])$/**
+
+        - Match original date like **2008-243**:
+
+        **/^([0-9]{4})-?(36[0-6]|3[0-5][0-9]|[12][0-9]{2}|0[1-9][0-9]|00[1-9])$/**
+
+    - **Weeks**
+        - Match weeks of the year such as **2008-W35**:
+
+        **/^([0-9]{4})-?W(5[0-3]|[1-4][0-9]|0[1-9])$/**
+
+        - Match week dates like **2008-W35-6**:
+
+        **/^([0-9]{4})-?W(5[0-3]|[1-4][0-9]|0[1-9])-?([1-7])$/**
+
+    - **Times**
+        - Match hours and minutes with optional colon(`:`):
+
+        **/^(2[0-3]|[01][0-9]):?([0-5][0-9])$/**
+
+        - Match hours, minutes, and seconds like **17:21:59** with optional colon(`:`):
+
+        **/^(2[0-3]|[01][0-9]):?([0-5][0-9]):?([0-5][0-9])$/**
+
+        - Time zone designator (e.g., **Z, +07** or **+07:00**) with optional colons and minutes:
+
+        **/^(Z|[+-](?:2[0-3]|[01][0-9])(?::?(?:[0-5][0-9]))?)$/**
+
+        - Hours, minutes, and seconds with time zone designator (e.g., **17:21:59+07:00**) with optional colons and minutes:
+
+        **/^(2[0-3]|[01][0-9]):?([0-5][0-9]):?([0-5][0-9])(Z|[+-](?:2[0-3]|[01][0-9])(?::?(?:[0-5][0-9]))?)$/**
+
+    - **Date and Times**
+        - Calendar date with hours, minutes, and seconds (e.g., **2008-08-30 17:21:59** or **20080830 172159**) with required spaces between the date and the time, but optional hyphens and colons:
+
+        **/^([0-9]{4})-?(1[0-2]|0[1-9])-?(3[01]|0[1-9]|[12][0-9]) (2[0-3]|[01][0-9]):?([0-5][0-9]):?([0-5][0-9])$/**
+
+        - A more complicated solution is needed if we want to match date and time values that specify either all of the hyphens and colons, or none of them:
+
+        **/^(?:([0-9]{4})-?(1[0-2]|0[1-9])-?(3[01]|0[1-9]|[12][0-9]) (2[0-3]|[01][0-9]):?([0-5][0-9]):?([0-5][0-9])|([0-9]{4})(1[0-2]|0[1-9])(3[01]|0[1-9]|[12][0-9]) (2[0-3]|[01][0-9])([0-5][0-9])([0-5][0-9]))$/**
+
+    - **XML Schema dates and times**
+        - Date, with optional time zone (e.g., **2008-08-30** or **2008-08-30+07:00**) but required hyphens:
+
+        **/^(-?(?:[1-9][0-9]*)?[0-9]{4})-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])(Z|[+-](?:2[0-3]|[01][0-9]):[0-5][0-9])?$/**
+
+        - Time, with optional fractional seconds and time zone (e.g., **01:45:36** or **01:45:36.123+07:00**):
+
+        **/^(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])(\.[0-9]+)?(Z|[+-](?:2[0-3]|[01][0-9]):[0-5][0-9])?$/**
+
+        - Date and time, with optional fractional seconds and time zone (e.g., **2008-08-30T01:45:36** or **2008-08-30T01:45:36.123Z**).
+
+        **/^(-?(?:[1-9][0-9]*)?[0-9]{4})-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])T(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])(\.[0-9]+)?(Z|[+-](?:2[0-3]|[01][0-9]):[0-5][0-9])?$/**
+
+- **Discussion**
+
+    ISO 8601 defines a wide range of date and time formats. The regular expressions presented here cover the most common formats, but most systems that use ISO 8601 only use a subset. For example, in XML Schema dates and times, the hyphens and colons are mandatory (強制要求的). To make hyphens and colons mandatory, simply remove the question marks after them. To disallow hyphens and colons, remove the hyphens and colons along with the question mark that follows them.
+
+    None of the regexes here attempts to exclude invalid day and month combinations, such as February 31st. To do this, you can considering using code to filter for you.
