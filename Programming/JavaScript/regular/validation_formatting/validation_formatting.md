@@ -55,7 +55,7 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
 
 - **Discussion**
 
-    In China, a phone number will always have a number `1` at the first, so to validate more phone numbers, you can use a variation like **/(?:\(?\+86\)?)?[\s-]&#42;(1\d{2})[\s-]&#42;(\d{4})[\s-]&#42;(\d{4})/g**. Of course, this regex will have a problem when matching more than 11 numbers, which is actually not a Chinese phone number. Considering this problem, I'll improve it by restrict its head and tail like: **/([^(\d]+)(?:\(?\+86\)?)?[\s-]&#42;(1\d{2})[\s-]&#42;(\d{4})[\s-]&#42;(\d{4})(?=[^\d]+?)/g**, and the corresponding replacement is `$1(+86) $2 $3 $4`.
+    In China, a phone number will always have a number `1` at the first, so to validate more phone numbers, you can use a variation like **/(?:\(?\+86\)?)?[\s-]&#42;(1\d{2})[\s-]&#42;(\d{4})[\s-]&#42;(\d{4})/g**. Of course, this regex will have a problem when matching more than 11 numbers, which is actually not a Chinese phone number. Considering this problem, I'll improve it by restrict its head and tail like: **/(&#91;^(\d&#93;+)(?:\(?\+86\)?)?[\s-]&#42;(1\d{2})[\s-]&#42;(\d{4})[\s-]&#42;(\d{4})(?=&#91;^\d&#93;+?)/g**, and the corresponding replacement is `$1(+86) $2 $3 $4`.
 
 ### Validate and Format North American Phone Numbers
 
