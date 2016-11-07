@@ -559,3 +559,8 @@ iframe::-webkit-resizer {
     text-align: center !important;
     margin: 44px 0 !important;
 }
+
+blockquote {
+    color: #999 !important;
+    border-left: 2px solid #a10000 !importa;
+}
