@@ -330,4 +330,58 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
 
 - **Discussion**
 
-     We can't simply omit this class and change the preceding quantifier to `{0,5}`, because then the text would have to end with a line break to match at all. So long as the last line was empty, it would also allow matching six lines, since six lines are separated by five line breaks. That's not good.
+    We can't simply omit this class and change the preceding quantifier to `{0,5}`, because then the text would have to end with a line break to match at all. So long as the last line was empty, it would also allow matching six lines, since six lines are separated by five line breaks. That's not good.
+
+### Validate Affirmative (肯定的) Responses
+
+- **Problem**
+
+    How to check a configuration option or command-line response for a positive value? For example, you want to provide some flexibility in the accepted responses, so that **true**, **t**, **yes**, **y**, **okay**, **ok**, and **1** are all accepted in any combination of uppercase and lowercase.
+
+- **Solution**
+
+    **/^(?:1|t(?:rue)?|y(?:es)?|ok(?:ay)?)$/**
+
+### Validate ZIP Codes
+
+- **Problem**
+
+    How to validate a ZIP code (U.S. portal code)? For example, match **12345** and **12345-6789**.
+
+- **Solution**
+
+    **/^[0-9]{5}(?:-[0-9]{4})?$/**
+
+### Validate Canadian Postal codes
+
+- **Problem**
+
+    What if Canadian postal codes?
+
+- **Solution**
+
+    **/^(?!.&#42;[DFIOQU])[A-VXY][0-9][A-Z] ?[0-9][A-Z][0-9]$/**
+
+### Validate U.K. Postal Codes
+
+- **Problem**
+
+    What if postal codes of U.K.?
+
+- **Solution**
+
+    **/^[A-Z]{1,2}[0-9R][0-9A-Z]? [0-9][ABD-HJLNP-UW-Z]{2}$/**
+
+### Reformat Names From "FirstName LastName" to "LastName, FirstName"
+
+- **Problem**
+
+    How to convert people's names from the "FirstName LastName" format to "LastName, FirstName" for use in an alphabetical listing? Besides, names may contain a suffix, which is one of the values "Jr", "Jr.", "Sr", "Sr.", "II", "III", or "IV", with an optional preceding comma.
+
+- **Solution**
+
+    ```js
+    function formatName(name) {
+        return name.replace(/^(.+?) ([^\s,]+)(,? (?:[JS]r\.?|III?|IV))?$/i, '$2, $1$3');
+    }
+    ```
