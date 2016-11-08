@@ -313,3 +313,7 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
 - **Discussion**
 
     If you want to limit the length of an arbitrary (任意的) pattern, you can considering using a positive lookahead at the beginning of the pattern to ensure that the string is within the target length range like: **/^(?=[\\S\\s]{1,10}$)[\\S\\s]&#42;/**. It is important that the `$` anchor appears inside the lookahead because the maximum length test works only if we ensure that there are no more characters after we've reached the limit.
+
+    If you want a regex to match any string that contains between 10 and 100 non-whitespace character: **/^\\s&#42;(?:\\S\\s&#42;){10,100}$/**. By default, `\s` matches all Unicode white-space, and `\S` matches everything else.
+
+    Or if you want to limit the number of words: **/^\\W&#42;(?:\\w+\\b\\W&#42;){10,100}$/**. In JavaScript, `\w` will only match the ASCII characters A-Z, a-z, and &#95;, which means that it cannot correctly count words that contain non-ASCII letters and numbers. If you do want to count those words that contain, there's a possible workaround, which is to reframe he regex to count whitespace rather than word character sequences: **/^\\s&#42;(?:\\S+(?:\\s+|$)){10,100}$/**. In many cases, this will work the same as the previous solutions, although it's not exactly equivalent. For example, one difference is that compounds joined by a hyphen, such as "far-reaching", will now be counted as one word instead of two. The same applies to words with apostrophes, such as "don't".
