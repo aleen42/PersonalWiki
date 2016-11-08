@@ -317,3 +317,17 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
     If you want a regex to match any string that contains between 10 and 100 non-whitespace character: **/^\\s&#42;(?:\\S\\s&#42;){10,100}$/**. By default, `\s` matches all Unicode white-space, and `\S` matches everything else.
 
     Or if you want to limit the number of words: **/^\\W&#42;(?:\\w+\\b\\W&#42;){10,100}$/**. In JavaScript, `\w` will only match the ASCII characters A-Z, a-z, and &#95;, which means that it cannot correctly count words that contain non-ASCII letters and numbers. If you do want to count those words that contain, there's a possible workaround, which is to reframe he regex to count whitespace rather than word character sequences: **/^\\s&#42;(?:\\S+(?:\\s+|$)){10,100}$/**. In many cases, this will work the same as the previous solutions, although it's not exactly equivalent. For example, one difference is that compounds joined by a hyphen, such as "far-reaching", will now be counted as one word instead of two. The same applies to words with apostrophes, such as "don't".
+
+### Limit the Number of Lines in Text
+
+- **Problem**
+
+    How to check whether a string is composed of five of fewer lines, without regard for how many total characters appear in the string?
+
+- **Solution**
+
+    **/^(?:&#91;&#94;\\r\\n&#93;&#42;(?:\\r\\n?|\\n)){0,4}&#91;&#94;\\r\\n&#93;&#42;$/**
+
+- **Discussion**
+
+     We can't simply omit this class and change the preceding quantifier to `{0,5}`, because then the text would have to end with a line break to match at all. So long as the last line was empty, it would also allow matching six lines, since six lines are separated by five line breaks. That's not good.
