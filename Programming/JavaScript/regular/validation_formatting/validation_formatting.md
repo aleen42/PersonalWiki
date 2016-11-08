@@ -281,3 +281,35 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
     ISO 8601 defines a wide range of date and time formats. The regular expressions presented here cover the most common formats, but most systems that use ISO 8601 only use a subset. For example, in XML Schema dates and times, the hyphens and colons are mandatory (強制要求的). To make hyphens and colons mandatory, simply remove the question marks after them. To disallow hyphens and colons, remove the hyphens and colons along with the question mark that follows them.
 
     None of the regexes here attempts to exclude invalid day and month combinations, such as February 31st. To do this, you can considering using code to filter for you.
+
+### Limit Input to Alphanumeric Characters
+
+- **Problem**
+
+    How to limit users' responses to one or more alphanumeric English characters (letters A–Z and a–z, and digits 0–9).
+
+- **Solution**
+
+    **/^[A-Za-z0-9]+$/**
+
+- **Discussion**
+
+    When we want to limit the input to ASCII characters, we can use regular expressions like **/^[\\x00-\\x7F]+$/**.
+
+    Or limit input to ASCII non-control characters and line breaks by using **/^[\\n\\r\\x20-\\x7E]+/**.
+
+    Or limit input to shared ISO-8859-1 and Windows-1252 characters by using **/^[\\x00-\\x7F\\xA0-\\xFF]+$/**.
+
+### Limit the length of Texts
+
+- **Problem**
+
+    To test whether a string is composed of between 1 and 10 letters between A to Z.
+
+- **Solution**
+
+    **/^[A-Z]{1,10}$/**
+
+- **Discussion**
+
+    If you want to limit the length of an arbitrary (任意的) pattern, you can considering using a positive lookahead at the beginning of the pattern to ensure that the string is within the target length range like: **/^(?=[\\S\\s]{1,10}$)[\\S\\s]&#42;/**. It is important that the `$` anchor appears inside the lookahead because the maximum length test works only if we ensure that there are no more characters after we've reached the limit.
