@@ -60,6 +60,10 @@ npm install style-loader --save-dev
 npm install url-loader --save-dev
 ```
 
+```bash
+npm install css-loader --save
+```
+
 #### 4. Set up a configuration file for webpack `webpack.config.js`
 
 ```js
