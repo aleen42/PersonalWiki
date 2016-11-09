@@ -61,7 +61,8 @@ npm install url-loader --save-dev
 ```
 
 ```bash
-npm install babel-polyfill --save
+npm install font-awesome --save
+npm install underscore --save
 ```
 
 #### 4. Set up a configuration file for webpack `webpack.config.js`
