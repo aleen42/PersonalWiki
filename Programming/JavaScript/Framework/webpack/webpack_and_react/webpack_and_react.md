@@ -52,7 +52,7 @@ npm install react-dom --save
 ###### Optional
 
 ```bash
-npm  install css-loader --save-
+npm install css-loader --save-dev
 ```
 
 #### 4. Set up a configuration file for webpack `webpack.config.js`
