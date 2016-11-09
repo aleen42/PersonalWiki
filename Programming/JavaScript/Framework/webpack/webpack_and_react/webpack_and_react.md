@@ -61,7 +61,7 @@ npm install url-loader --save-dev
 ```
 
 ```bash
-npm install css-loader --save
+npm install babel-polyfill --save
 ```
 
 #### 4. Set up a configuration file for webpack `webpack.config.js`
