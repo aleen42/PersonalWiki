@@ -43,3 +43,5 @@ var MainComponent = React.createClass({
 });
 ```
 
+As we can see in the snippte
+
