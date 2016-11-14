@@ -24,5 +24,5 @@ $ bower install pjax
 
 ### Initialization
 
-After completing the installation, 
+After completing the installation, we're going to find out which sites should be the main entrance of our web applications.
 
