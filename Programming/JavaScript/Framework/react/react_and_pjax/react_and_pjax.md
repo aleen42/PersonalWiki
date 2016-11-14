@@ -210,4 +210,4 @@ If we sometimes have some scripts for "business logic" in a specific site, you c
 
 This document has mainly talked about how to combine Pjax with React appliations. Since there have been some terrible problems we may meet, we need to consider about a flexible way to work around them. As long as making good use of the Pjax module, animations are just another magic thing to implement between sites' switching.
 
-The document has not covered all problems in using Pjax with React, so if you have any problems, it's welcome to open an issue directly in the project of this book to make a discussion. Certainly, you can directly contact me with the email: **aleen42@vip.qq.com**.
+The document has not covered all problems in using Pjax with React, so if you have any problems, it's welcome to open an issue directly in [the project](https://github.com/aleen42/PersonalWiki) of this book to make a discussion. Certainly, you can directly contact me with the email: **aleen42@vip.qq.com**.
