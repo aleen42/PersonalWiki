@@ -205,3 +205,7 @@ window.resourcesRender.indexRender = function () {
 #### Others
 
 If we sometimes have some scripts for "business logic" in a specific site, you can use a similar way to store what we want and use it rather than reload scripts when users redirect to the same site through falling back, going forward, or links directly.
+
+### Summary
+
+This document has mainly talked about how to combine Pjax with React appliations. Since there have been some terrible problems we may meet, we need to consider about a flexi le way 
