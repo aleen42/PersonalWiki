@@ -161,6 +161,7 @@ Firstly, we're going to build sites with a similar constructor:
     <div class="container">
         <script type="text/javascript">
             /** the name of your site */
+            var viewName = 'index';
             
         	if (typeof window.resourcesRender['{{$viewName}}Render'] !== 'undefined') {
         		window.resourcesRender['{{$viewName}}Render'].apply();
