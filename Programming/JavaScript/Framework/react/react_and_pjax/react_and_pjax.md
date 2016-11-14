@@ -145,3 +145,5 @@ document.addEventListener('pjax:complete', handleComplete, false);
 ```
 
 ### Loading Scripts
+
+Loading scripts for each site is the largest problem I have ever met, and the document is too poor to introduce how to solve the problem.
