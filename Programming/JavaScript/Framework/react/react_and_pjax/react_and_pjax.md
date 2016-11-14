@@ -34,9 +34,11 @@ var Pjax = require('pjax');
 var MainComponent = React.createClass({
     /** ... */
     componentDidMount: function () {
-        new Pjax({
-            
-        });
+        /** new the Pjax object */
+			new Pjax({
+				selectors: ['.container'],
+				cacheBust: false
+			});
     },
     /** ... */
 });
