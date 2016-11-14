@@ -73,3 +73,7 @@ var MainComponent = React.createClass({
 
 The integrated module will only listen to every click on links, so if we want to load other sites within the bound `click` events on an element, we may have to find another way.
 
+For me, I have tried the way of creating `a` tags and trigger it as followed:
+
+
+
