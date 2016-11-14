@@ -163,7 +163,7 @@ Firstly, we're going to build sites with a similar constructor:
             /** the name of your site */
             var viewName = 'index';
             
-        	if (typeof window.resourcesRender['{{$viewName}}Render'] !== 'undefined') {
+        	if (typeof window.resourcesRender[viewName + 'Render'] !== 'undefined') {
         		window.resourcesRender['{{$viewName}}Render'].apply();
         	} else {
         		var script = document.createElement('script');
