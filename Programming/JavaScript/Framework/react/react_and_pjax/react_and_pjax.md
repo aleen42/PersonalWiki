@@ -88,7 +88,8 @@ var Pjax = require('pjax');
 
 var MainComponent = React.createClass({
     /** ... */
-    handleClick: fucntion (e) {
+    handleClick: function (e) {
+    
     },
     
     componentDidMount: function () {
