@@ -84,6 +84,26 @@ link.click();
 However, it does not work, because Pjax module will only listen to link elements rendered on the DOM tree. Therefore, I will render a hidden link element firstly, and trigger it with click listener:
 
 ```js
-<a className="trigger__html" ref="login" href="login"></a>
+var Pjax = require('pjax');
+
+var MainComponent = React.createClass({
+    /** ... */
+    componentDidMount: function () {
+        /** check whether Pjax has been already initiated */
+        if (!window._isPjaxSet) {
+			/** new the Pjax object */
+			new Pjax({
+				selectors: ['.container'],
+				cacheBust: false
+			});
+
+			window._isPjaxSet = true;
+		}
+    },
+    
+    render: function() {
+    
+    /** ... */
+});
 ```
 
