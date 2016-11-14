@@ -102,7 +102,10 @@ var MainComponent = React.createClass({
     },
     
     render: function() {
-    
+        return (<div>
+            <a href="login" ref="login"></a>
+        </div>);
+    }
     /** ... */
 });
 ```
