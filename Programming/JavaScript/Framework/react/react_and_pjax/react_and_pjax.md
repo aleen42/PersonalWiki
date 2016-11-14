@@ -160,14 +160,14 @@ Firstly, we're going to build sites with a similar constructor:
 <body>
     <div class="container">
         <script type="text/javascript">
-    	if (typeof window.resourcesRender['{{$viewName}}Render'] !== 'undefined') {
-    		window.resourcesRender['{{$viewName}}Render'].apply();
-    	} else {
-    		var script = document.createElement('script');
-    		script.src = '{{Config::get("app.url")}}build/{{$viewName}}.main.js';
-    
-    		document.querySelector('.container').appendChild(script);
-    	}
+        	if (typeof window.resourcesRender['{{$viewName}}Render'] !== 'undefined') {
+        		window.resourcesRender['{{$viewName}}Render'].apply();
+        	} else {
+        		var script = document.createElement('script');
+        		script.src = '{{Config::get("app.url")}}build/{{$viewName}}.main.js';
+        
+        		document.querySelector('.container').appendChild(script);
+        	}
     	</script>
     </div>
 </body>
