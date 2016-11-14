@@ -21,3 +21,5 @@ Or using bower:
 ```bash
 $ bower install pjax
 ```
+
+### Initiation
