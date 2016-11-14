@@ -193,7 +193,7 @@ var ReactDOM = require('react-dom');
 
 var Index = require('./components/index.jsx');
 
-/** push the render method into the global array object
+/** push the render method into the global array object */
 window.resourcesRender.indexRender = function () {
     ReactDOM.render(
         <Index></Index>,
