@@ -34,7 +34,9 @@ var Pjax = require('pjax');
 var MainComponent = React.createClass({
     /** ... */
     componentDidMount: function () {
-        
+        new Pjax({
+            
+        });
     },
     /** ... */
 });
