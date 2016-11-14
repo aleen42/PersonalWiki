@@ -10,4 +10,5 @@ Thanks to [MoOx](https://github.com/MoOx), he has provided [another project](htt
 
 ### Installation
 
-Since I have always used **Webpack** to bundle my project, CommonJS is the style which I prefer to use. 
+Since I have always used **Webpack** to bundle my project, CommonJS is the style which I prefer to use. Before importing the module, we should install it by typing the following command in projects:
+
