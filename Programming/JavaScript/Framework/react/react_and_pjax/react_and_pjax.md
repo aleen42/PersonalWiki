@@ -78,5 +78,6 @@ For me, I have tried the way of creating `a` tags and triggering it as followed:
 ```js
 var link = document.createElementById('a');
 link.attr = 'direct.html';
+link.click();
 ```
 
