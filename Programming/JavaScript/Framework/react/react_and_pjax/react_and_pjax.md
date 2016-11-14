@@ -81,5 +81,5 @@ link.attr = 'direct.html';
 link.click();
 ```
 
-However, it does not work.
+However, it does not work, because Pjax module will only listen to link elements rendered on the DOM tree.
 
