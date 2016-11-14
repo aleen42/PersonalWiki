@@ -181,4 +181,4 @@ Firstly, we're going to build sites with a similar constructor:
 </body>
 ```
 
-`window.resourcesRender` is a global array varaible for storing render methods for each sites, and if the method you want to call has already been stored in such an array, it means that you have already load the script file before, and it's not necessary to load it again, costing additional overheads.
+`window.resourcesRender` is a global array varaible for storing render methods for each sites, and if the method you want to call has already been stored in such an array, it means that you have already loaded the script file before, and it's not necessary to load it again, costing additional overheads.
