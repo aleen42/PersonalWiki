@@ -144,3 +144,4 @@ document.addEventListener('pjax:send', handleSend, false);
 document.addEventListener('pjax:complete', handleComplete, false);
 ```
 
+### Loading Scripts
