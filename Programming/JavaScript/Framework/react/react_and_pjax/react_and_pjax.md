@@ -160,6 +160,8 @@ Firstly, we're going to build sites with a similar constructor:
 <body>
     <div class="container">
         <script type="text/javascript">
+            /** the name of your site */
+            
         	if (typeof window.resourcesRender['{{$viewName}}Render'] !== 'undefined') {
         		window.resourcesRender['{{$viewName}}Render'].apply();
         	} else {
