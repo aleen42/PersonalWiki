@@ -181,4 +181,4 @@ Firstly, we're going to build sites with a similar constructor:
 </body>
 ```
 
-`window.resourcesRender` is a global array varaible for storging render methods for each sites.
+`window.resourcesRender` is a global array varaible for storing render methods for each sites.
