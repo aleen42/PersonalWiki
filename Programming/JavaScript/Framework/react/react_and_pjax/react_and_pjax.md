@@ -71,4 +71,4 @@ var MainComponent = React.createClass({
 
 ### Trigger links
 
-The integrated module will only listen to every click on links, so if we want to load other sites within the binded `click` events on an element, 
+The integrated module will only listen to every click on links, so if we want to load other sites within the binded `click` events on an element, we may have to find another way.
