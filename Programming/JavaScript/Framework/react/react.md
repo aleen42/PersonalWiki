@@ -61,3 +61,7 @@
 ### Redux
 
 - [**Redux + React**](./../redux/react_and_redux/react_and_redux.md)
+
+### Pjax
+
+- [**Pjax + React**](./react_and_pjax/react_and_pjax.md)
