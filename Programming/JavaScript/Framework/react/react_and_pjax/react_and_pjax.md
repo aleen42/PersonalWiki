@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <strong>Pjax</strong>, combined with powerfu
+    <strong>Pjax</strong>, combined with powerful React
 </p>
 
 <br />
