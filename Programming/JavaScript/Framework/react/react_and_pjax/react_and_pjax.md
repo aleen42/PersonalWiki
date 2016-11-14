@@ -185,4 +185,7 @@ Firstly, we're going to build sites with a similar constructor:
 
 #### Build the entrance for each site
 
+Also take the index site as an example, we can build the entrance like this:
 
+```js
+```
