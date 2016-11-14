@@ -120,3 +120,7 @@ var MainComponent = React.createClass({
 
 Sometimes, for loading large sites, we may be supposed to add an loading icon to tell users that it still works. Conveniently, we can implement this by simply attaching event handlers to listen to two events: `pjax:send` and `pjax:complete` respectively.
 
+```js
+
+```
+
