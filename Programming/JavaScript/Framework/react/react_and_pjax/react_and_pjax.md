@@ -29,7 +29,7 @@ After completing the installation, we're going to find out which sites should be
 Then, initialize the Pjax module in the function `componentDidMount`:
 
 ```js
-React.createClass({
+var MainComponent = React.createClass({
     
 });
 ```
