@@ -10,4 +10,4 @@ Thanks to [MoOx](https://github.com/MoOx), he has provided [another project](htt
 
 ### Installation
 
-Since I have always used **Webpack** to bundle my project, I prefer to use CommonJS style to 
+Since I have always used **Webpack** to bundle my project, CommonJS is the style I prefer to use. 
