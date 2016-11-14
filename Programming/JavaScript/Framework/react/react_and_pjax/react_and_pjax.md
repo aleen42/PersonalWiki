@@ -194,6 +194,8 @@ var ReactDOM = require('react-dom');
 var Index = require('./components/index.jsx');
 
 window.resourcesRender.indexRender = function () {
-    ReactDOM.render();
+    ReactDOM.render(
+        <Index></Index>
+    );
 };
 ```
