@@ -84,6 +84,6 @@ link.click();
 However, it does not work, because Pjax module will only listen to link elements rendered on the DOM tree. Therefore, I will render a hidden link element firstly, and trigger it with click listener:
 
 ```js
-<a className="trigger__html" ref="login" href="backstage"></a>
+<a className="trigger__html" ref="login" href="login"></a>
 ```
 
