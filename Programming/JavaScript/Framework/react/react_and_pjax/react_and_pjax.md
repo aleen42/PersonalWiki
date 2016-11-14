@@ -164,7 +164,7 @@ Firstly, we're going to build sites with a similar constructor:
             var viewName = 'index';
             
         	if (typeof window.resourcesRender[viewName + 'Render'] !== 'undefined') {
-        		window.resourcesRender['{{$viewName}}Render'].apply();
+        		window.resourcesRender[viewName + 'Render'].apply();
         	} else {
         		var script = document.createElement('script');
         		script.src = '{{Config::get("app.url")}}build/{{$viewName}}.main.js';
