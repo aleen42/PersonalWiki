@@ -170,7 +170,7 @@ Firstly, we're going to build sites with a similar constructor:
         		
         		/**
         		 * For example, the main entrace file of the site index is at the path:
-        		 * build/index.main
+        		 * build/index.main.js
         		 */
         		script.src = 'build/' + viewName + '.main.js';
         
@@ -180,3 +180,5 @@ Firstly, we're going to build sites with a similar constructor:
     </div>
 </body>
 ```
+
+`window.resourcesRender` is a global array varaible for storging render methods for each sites.
