@@ -118,3 +118,5 @@ var MainComponent = React.createClass({
 
 ### Loading
 
+Sometimes, for loading large sites, we may be supposed to add an loading icon to tell users that it still works.
+
