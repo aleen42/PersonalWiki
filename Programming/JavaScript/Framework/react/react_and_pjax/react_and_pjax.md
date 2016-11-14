@@ -122,7 +122,8 @@ Sometimes, for loading large sites, we may be supposed to add an loading icon to
 
 ```js
 function handleSend(e) {
-
+    document.querySeletor('loading').fadeIn();
+}
 
 /** listen to sending requests */
 document.addEventListener('pjax:send', handleSend, false);
