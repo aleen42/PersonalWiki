@@ -43,5 +43,5 @@ var MainComponent = React.createClass({
 });
 ```
 
-As we can see in the snippet, the constructor accepts an object, which specifies options of Pjax.
+As we can see in the snippet, the constructor accepts an object, which aims to specifies options of Pjax.
 
