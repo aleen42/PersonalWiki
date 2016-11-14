@@ -148,4 +148,4 @@ document.addEventListener('pjax:complete', handleComplete, false);
 
 Loading scripts for each site is the largest problem I have ever met, and the document is too poor to introduce how to solve the problem.
 
-As my react applications are always built with different sites, which should include a main entrance JavaScript file, if I'm just going to simply swap script tags inside the container, they're not be loaded and executed at all, even thouth the `src` attribute of script elements have been changed.
+As my react applications are always built with different sites, which should include aJavaScript file  s thea main entrance , if I'm just going to simply swap script tags inside the container, they're not be loaded and executed at all, even thouth the `src` attribute of script elements have been changed.
