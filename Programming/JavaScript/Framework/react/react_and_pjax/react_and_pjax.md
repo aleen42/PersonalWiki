@@ -122,7 +122,10 @@ Sometimes, for loading large sites, we may be supposed to add an loading icon to
 
 ```js
 function handleSend(e) {
-    /** before using fadeIn, you have to implement it as the prototype method of HTMLElement */
+    /**
+     * before using fadeIn, you have to implement it
+     * as the prototype method of HTMLElement
+     */
     document.querySeletor('loading').fadeIn();
 }
 
