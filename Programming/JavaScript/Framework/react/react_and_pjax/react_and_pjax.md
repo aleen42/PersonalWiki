@@ -204,4 +204,4 @@ window.resourcesRender.indexRender = function () {
 
 #### Others
 
-If we sometimes have some scripts for "business logic" in a specific site, you can use a similar way to store what 
+If we sometimes have some scripts for "business logic" in a specific site, you can use a similar way to store what we want and use it rather than reload scripts when users redirect to the same site through falling back, going forward, or links.
