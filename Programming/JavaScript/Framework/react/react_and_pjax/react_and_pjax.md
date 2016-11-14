@@ -22,4 +22,5 @@ Or using bower:
 $ bower install pjax
 ```
 
-### Initiation
+### Initialization
+
