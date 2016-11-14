@@ -68,3 +68,5 @@ var MainComponent = React.createClass({
     /** ... */
 });
 ```
+
+### Trigger links
