@@ -204,4 +204,4 @@ window.resourcesRender.indexRender = function () {
 
 #### Others
 
-Sometimes, if we have some scripts for "business logic" in a specific site, you can use a similar way to store what 
+If we sometimes have some scripts for "business logic" in a specific site, you can use a similar way to store what 
