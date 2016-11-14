@@ -126,6 +126,9 @@ function handleSend(e) {
     document.querySeletor('loading').fadeIn();
 }
 
+function handleComplete(e) {
+}
+
 /** listen to sending requests */
 document.addEventListener('pjax:send', handleSend, false);
 
