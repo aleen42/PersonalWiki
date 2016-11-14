@@ -208,4 +208,4 @@ If we sometimes have some scripts for "business logic" in a specific site, you c
 
 ### Summary
 
-This document has mainly talked about how to combine Pjax with React appliations. Since there have been some terrible problems we may meet, we need to consider about a flexi le way 
+This document has mainly talked about how to combine Pjax with React appliations. Since there have been some terrible problems we may meet, we need to consider about a flexible way 
