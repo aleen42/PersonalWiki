@@ -75,5 +75,7 @@ The integrated module will only listen to every click on links, so if we want to
 
 For me, I have tried the way of creating `a` tags and triggering it as followed:
 
-
+```js
+var link = document.createElementById('a');
+```
 
