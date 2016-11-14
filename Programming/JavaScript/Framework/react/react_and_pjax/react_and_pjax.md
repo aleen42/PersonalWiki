@@ -48,3 +48,5 @@ As we can see in the snippet, the constructor accepts an object, which aims to s
 
 It may still have some problems in using the code above, in the case when you try to re-render your main component. As the method `componentDidMount` being triggered several times, the application will create more than one Pjax object, resulting in re-executing previous code each time you load the page. Due to this terrible reason, you have to control it relying on a new flag named `window._isPjaxSet`. Certainly, you can name your flag with other names.
 
+```js
+```
