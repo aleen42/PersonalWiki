@@ -188,4 +188,5 @@ Firstly, we're going to build sites with a similar constructor:
 Also take the index site as an example, we can build the entrance like this:
 
 ```js
+var React = require('react');
 ```
