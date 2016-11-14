@@ -151,3 +151,10 @@ Loading scripts for each site is the largest problem I have ever met, and the do
 As my react applications are always built with different sites, which should include a JavaScript file as the main entrance, and if I'm just going to simply swap script tags inside the container, they're not be loaded and executed at all, even thouth the `src` attribute of script elements have already been changed.
 
 With few helps, I have finally find out a way to solve this problem, and that's why I took them into documentations to share with you.
+
+#### Build sites with a similar format
+
+Firstly, we're going to build sites with a similar constructor:
+
+```html
+```
