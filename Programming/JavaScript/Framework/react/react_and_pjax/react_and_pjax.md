@@ -201,3 +201,5 @@ window.resourcesRender.indexRender = function () {
     );
 };
 ```
+
+#### Other scripts
