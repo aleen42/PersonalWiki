@@ -43,5 +43,5 @@ var MainComponent = React.createClass({
 });
 ```
 
-As we can see in the snippet, the constructor accepts an object, which aims to specifies options of Pjax. In the member `selectors`, you have to initiate it with an array, in order to tell Pjax which elements to switch between sites. In other words, we will swap all elements with the class name `container`
+As we can see in the snippet, the constructor accepts an object, which aims to specifies options of Pjax. In the member `selectors`, you have to initiate it with an array, in order to tell Pjax which elements to switch between sites. In other words, we will swap all elements with the class name `container` when loading another sites.
 
