@@ -127,6 +127,8 @@ function handleSend(e) {
 }
 
 function handleComplete(e) {
+    /** before using fadeIn, you have to implement it as the prototype method of HTMLElement */
+    document.querySeletor('loading').fadeIn();
 }
 
 /** listen to sending requests */
