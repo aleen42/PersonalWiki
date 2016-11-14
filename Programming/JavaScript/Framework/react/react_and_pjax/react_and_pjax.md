@@ -189,4 +189,5 @@ Also take the index site as an example, we can build the entrance like this:
 
 ```js
 var React = require('react');
+var ReatDOM = require('react-dom');
 ```
