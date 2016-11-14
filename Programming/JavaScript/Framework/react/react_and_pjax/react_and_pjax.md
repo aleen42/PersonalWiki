@@ -24,3 +24,5 @@ $ bower install pjax
 
 ### Initialization
 
+After completing the installation, 
+
