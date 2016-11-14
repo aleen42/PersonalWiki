@@ -32,9 +32,11 @@ Then, initialize the Pjax module in the function `componentDidMount`:
 var Pjax = require('pjax');
 
 var MainComponent = React.createClass({
+    /** ... */
+    
     componentDidMount: function () {
         
-    }
+    },
 });
 ```
 
