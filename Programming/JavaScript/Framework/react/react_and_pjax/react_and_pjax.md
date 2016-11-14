@@ -10,4 +10,4 @@ Thanks to [MoOx](https://github.com/MoOx), he has provided [another project](htt
 
 ### Installation
 
-As I always use **Webpack** to bundle
+Since I always use **Webpack** to bundle my project, 
