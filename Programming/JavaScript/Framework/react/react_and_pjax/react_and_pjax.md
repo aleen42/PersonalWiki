@@ -36,8 +36,7 @@ var MainComponent = React.createClass({
     componentDidMount: function () {
         /** new the Pjax object */
 		new Pjax({
-			selectors: ['.container'],
-			cacheBust: false
+			selectors: ['.container']
 		});
     },
     /** ... */
