@@ -159,7 +159,7 @@ Firstly, we're going to build sites with a similar constructor:
 ```html
 <body>
     <div class="container">
-        
+        <script></script>
     </div>
 </body>
 ```
