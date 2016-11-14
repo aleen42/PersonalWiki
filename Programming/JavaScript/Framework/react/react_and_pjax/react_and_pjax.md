@@ -108,6 +108,7 @@ var MainComponent = React.createClass({
     render: function() {
         return (<div>
             <a href="login" ref="login" className="link__hidden"></a>
+            <div className="button__login" onClick={this.handleClick}></div>
         </div>);
     }
     /** ... */
