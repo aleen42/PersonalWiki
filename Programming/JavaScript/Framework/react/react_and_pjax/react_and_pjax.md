@@ -191,5 +191,5 @@ Also take the index site as an example, we can build the entrance like this:
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-
+var Index = require('./components/index.jsx');
 ```
