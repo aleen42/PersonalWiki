@@ -9,3 +9,5 @@ For some reasons, I have written this document to talk about how to use **Pjax**
 Thanks to [MoOx](https://github.com/MoOx), he has provided [another project](https://github.com/MoOx/pjax) for us to complete it without using jQuery. Before using that standalone JavaScript module, it's recommended to read more about it in its document. If you have done your job, here is the main points when combining with React.
 
 ### Installation
+
+As I always use **Webpack** to bundle
