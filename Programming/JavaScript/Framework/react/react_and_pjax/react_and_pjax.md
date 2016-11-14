@@ -116,3 +116,5 @@ var MainComponent = React.createClass({
 });
 ```
 
+### Loading
+
