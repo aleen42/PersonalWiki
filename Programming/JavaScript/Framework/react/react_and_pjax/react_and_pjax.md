@@ -70,3 +70,5 @@ var MainComponent = React.createClass({
 ```
 
 ### Trigger links
+
+The module we integrated will only listen to evey clicks on links
