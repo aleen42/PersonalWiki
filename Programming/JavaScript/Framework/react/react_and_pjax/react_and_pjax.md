@@ -81,3 +81,5 @@ link.attr = 'direct.html';
 link.click();
 ```
 
+However, it does not work.
+
