@@ -103,7 +103,7 @@ var MainComponent = React.createClass({
     
     render: function() {
         return (<div>
-            <a href="login" ref="login"></a>
+            <a href="login" ref="login" className="link__hidden"></a>
         </div>);
     }
     /** ... */
