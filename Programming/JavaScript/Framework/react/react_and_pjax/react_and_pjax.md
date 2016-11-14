@@ -167,6 +167,11 @@ Firstly, we're going to build sites with a similar constructor:
         		window.resourcesRender[viewName + 'Render'].apply();
         	} else {
         		var script = document.createElement('script');
+        		
+        		/**
+        		 * For example, the main entrace file of the site index is at the path:
+        		 * build/index.main
+        		 */
         		script.src = 'build/' + viewName + '.main.js';
         
         		document.querySelector('.container').appendChild(script);
