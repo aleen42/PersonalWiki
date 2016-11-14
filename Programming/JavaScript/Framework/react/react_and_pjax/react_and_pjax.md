@@ -195,7 +195,8 @@ var Index = require('./components/index.jsx');
 
 window.resourcesRender.indexRender = function () {
     ReactDOM.render(
-        <Index></Index>
+        <Index></Index>,
+        document.querySelector('.container')
     );
 };
 ```
