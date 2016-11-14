@@ -157,4 +157,9 @@ With few helps, I have finally find out a way to solve this problem, and that's 
 Firstly, we're going to build sites with a similar constructor:
 
 ```html
+<body>
+    <div class="container">
+    
+</div>
+</body>
 ```
