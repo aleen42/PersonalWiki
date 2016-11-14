@@ -13,5 +13,5 @@ Thanks to [MoOx](https://github.com/MoOx), he has provided [another project](htt
 Since I have always used **Webpack** to bundle my project, CommonJS is the style which I prefer to use. Before importing the module, we should firstly install it by typing the following command in projects:
 
 ```bash
-$ npm install 
+$ npm install pjax
 ```
