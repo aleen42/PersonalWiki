@@ -146,4 +146,4 @@ document.addEventListener('pjax:complete', handleComplete, false);
 
 ### Loading Scripts
 
-Loading scripts for each site is the largest problem I have ever met, and the document is too poor to introduce how to solve the problem.
+Loading scripts for each site is the largest problem I have ever met, and the document is too poor to introduce how to solve the problem. As my react applications are always built with different sites, which should include a main entrance JavaScript file, if I'm just going to simply swap script tags inside the container, they may not be loaded 
