@@ -57,7 +57,7 @@ function ajax(obj) {
     /** callback function */
     function callback() {
         if (xhr.status === 200) {
-            obj.success(xhr.reponseText);
+            obj.success(xhr.responseText);
         } else {
             obj.error(xhr.status, xhr.statusText);
         }
