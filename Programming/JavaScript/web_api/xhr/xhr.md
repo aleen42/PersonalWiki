@@ -38,8 +38,8 @@ function createXHR() {
 function param(obj) {
     var arr = [];
     
-    for (var i in data) {
-        arr.push(encodeURIComponent(i) + "=" + encodeURIComponent(data[i]));
+    for (var i in obj) {
+        arr.push(encodeURIComponent(i) + "=" + encodeURIComponent(obj[i]));
     }
     
     return arr.join('&');
