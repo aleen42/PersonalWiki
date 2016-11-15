@@ -47,13 +47,13 @@ function param(obj) {
 
 function ajax(obj) {
     var xhr = createXHR();
-    
+
     /** clear cache */
     obj.url = obj.url.indexOf('?') > 0 ? obj.url + '&_=' + new Date().getTime() : obj.url + '?_=' + new Date().getTime();
-    
+
     /** escape parameters */
     obj.data = param(obj.data);
-    
+
     /** callback function */
     function callback() {
         if (xhr.status === 200) {
@@ -62,28 +62,22 @@ function ajax(obj) {
             obj.error(xhr.status, xhr.statusText);
         }
     }
-    
-    /** whether it's async */
-    if (obj.async) {
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState === 4) {
-                callback();
-            }
-        };
-    }
-    
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4) {
+            callback();
+        }
+    };
+
     /** request */
     if (obj.type === 'POST') {
+        xhr.open('POST', obj.url, true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send(obj.data);
     } else if (obj.type === 'GET') {
         obj.url += '&' + obj.data;
-        xhr.send(null);
-    }
-    
-    /** whther it's sync */
-    if (!obj.async) {
-        callback();
+        xhr.open('GET', obj.url, true);
+        xhr.send();
     }
 }
 ```
