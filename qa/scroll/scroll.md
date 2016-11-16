@@ -8,6 +8,8 @@ Before animating, we should know when users scroll the bar firstly:
 
 ```js
 window.addEventListener('scroll', function () {
-    /** the Event handler for listening to the scrolling */	
+    /** the event handler for listening to the scrolling */	
 });
 ```
+
+With such a handler
