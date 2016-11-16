@@ -126,6 +126,8 @@ var MainComponent = React.createClass({
 });
 ```
 
+Actually, if you have more than one sites to initiate Pjax, this way is not appropriate for you, as you are not able to share the same flat between sites.
+
 ### Loading Experience
 
 Sometimes, for loading large sites, we may be supposed to add an loading icon to tell users that it still works. Conveniently, we can implement this by simply attaching event handlers to listen to two events: `pjax:send` and `pjax:complete` respectively.
