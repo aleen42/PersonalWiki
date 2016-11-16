@@ -237,7 +237,8 @@ var ReactDOM = require('react-dom');
 var Index = require('./components/index.jsx');
 
 /** push the render method into the global array object */
-window.resourcesRender.indexRender = function () {
+window.resourcesRender.indexRender = function (isNewPjax) {
+    isNewPjax = isNewPjax || fals
     ReactDOM.render(
         <Index></Index>,
         document.querySelector('.container')
