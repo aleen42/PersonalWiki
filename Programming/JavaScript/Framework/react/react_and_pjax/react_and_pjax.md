@@ -126,7 +126,38 @@ var MainComponent = React.createClass({
 });
 ```
 
-Actually, if you have more than one sites to initiate Pjax, this way is not appropriate for you, as you are not able to share the same flag between sites. For these reason, you may hae to change another way:
+Actually, if you have more than one sites to initiate Pjax, this way is not appropriate for you, as you are not able to share the same flag between sites. For these reason, you may have to change another way:
+
+var Pjax = require('pjax');
+
+var MainComponent = React.createClass({
+    /** ... */
+    handleClick: function (e) {
+        /** invoke the link */
+        this.refs.login.click();
+    },
+    
+    componentDidMount: function () {
+        /** check whether Pjax has been already initiated */
+        if (!window._isPjaxSet) {
+			/** new the Pjax object */
+			new Pjax({
+				selectors: ['.container'],
+				cacheBust: false
+			});
+
+			window._isPjaxSet = true;
+		}
+    },
+    
+    render: function() {
+        return (<div>
+            <a href="login" ref="login" className="link__hidden"></a>
+            <div className="button__login" onClick={this.handleClick}></div>
+        </div>);
+    }
+    /** ... */
+});
 
 ### Loading Experience
 
