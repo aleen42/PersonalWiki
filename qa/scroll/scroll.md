@@ -21,6 +21,7 @@ If you want to know when users scroll the bar to the top or to the bottom, we ca
 ```js
 /** scroll to the top */
 var oTop = document.body.scrollTop === 0 ? document.documentElement.scrollTop : document.body.scrollTop;
+var oHeight= document.body.scrollHeight === 0 ? document.documentElement.scrollHeight : document.body.scrollHeight;
 if (oTop === 0) {
     /** to the top */
 }
