@@ -34,4 +34,6 @@ if (oTop === oHeight - window.innerHeight) {
 
 ### Browser Support
 
+With testing, the code snippets mentioned above works in IE11+ or other browsers.
+
 
