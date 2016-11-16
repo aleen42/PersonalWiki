@@ -126,7 +126,7 @@ var MainComponent = React.createClass({
 });
 ```
 
-Actually, if you have more than one sites to initiate Pjax, this way is not appropriate for you, as you are not able to share the same fla between sites.
+Actually, if you have more than one sites to initiate Pjax, this way is not appropriate for you, as you are not able to share the same flag between sites. For these reason, you may hae to change another way:
 
 ### Loading Experience
 
