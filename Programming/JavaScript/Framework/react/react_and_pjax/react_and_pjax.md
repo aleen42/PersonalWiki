@@ -246,6 +246,8 @@ window.resourcesRender.indexRender = function (isNewPjax) {
         document.querySelector('.container')
     );
 };
+
+window.resourcesRender.indexRender(true);
 ```
 
 With the property `isNewPjax`, 
