@@ -14,4 +14,4 @@ window.addEventListener('scroll', function () {
 
 With such a handler, we will be triggered once users scroll.
 
-### Calculate when to the top and the bottom
+### When to the top and the bottom
