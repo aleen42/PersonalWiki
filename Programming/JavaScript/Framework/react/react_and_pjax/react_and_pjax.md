@@ -159,7 +159,7 @@ var MainComponent = React.createClass({
 });
 ```
 
-As you can see, we can set a property like `isNewPjax` before, to check whether the site should initiate a new Pjax object.
+As you can see, we can set a property like `isNewPjax` before, to check whether the site should initiate a new Pjax object. When to initiate is another topic talked later.
 
 ### Loading Experience
 
