@@ -34,7 +34,7 @@ $ bower install pjax
 
 ### Initialization
 
-After completing the installation, we're going to find out which sites should be the main entrance of our web applications. It also means that you should find out your main component which will be mounted at the begining.
+After completing the installation, we're going to find out which sites should be the main entrance of our web applications. It also means that you should find out your main component which will be mounted at the beginning.
 
 Then, initialize the Pjax module in the function `componentDidMount`:
 
