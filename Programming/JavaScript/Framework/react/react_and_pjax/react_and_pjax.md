@@ -140,7 +140,7 @@ var MainComponent = React.createClass({
     
     componentDidMount: function () {
         /** check whether Pjax has been already initiated */
-        if (!window._isPjaxSet) {
+        if (this.props.isNewPjax) {
 			/** new the Pjax object */
 			new Pjax({
 				selectors: ['.container'],
