@@ -139,7 +139,7 @@ var MainComponent = React.createClass({
     },
     
     componentDidMount: function () {
-        /** check whether a property has been delivered into the compon */
+        /** check whether a property has been delivered into the component */
         if (this.props.isNewPjax) {
 			/** new the Pjax object */
 			new Pjax({
