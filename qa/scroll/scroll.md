@@ -15,3 +15,9 @@ window.addEventListener('scroll', function () {
 With such a handler, we will be triggered once users scroll.
 
 ### When to the top and the bottom
+
+If you want to know when users scroll the bar to the top or to the bottom, we can calculate like the following:
+
+```js
+
+```
