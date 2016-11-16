@@ -52,7 +52,7 @@
 - [**How to detect whether a document is inside a iframe with JavaScript**](./iniframe_javascript.md)
 - [**How to manage JavaScript projects with Lerna**](./js_projects_with_lerna.md)
 - [**How to preview an image after uploaded with file input and FileReader**](./preview_image/preview_image.md)
-- [**Someting about scrollin**](./preview_image/preview_image.md)
+- [**Someting about scrolling**](./scroll/scroll.md)
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
 - [**Differences between &lt;link&gt; and &#64;import**](./difference_between_link_and_import.md)
