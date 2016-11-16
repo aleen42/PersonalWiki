@@ -31,3 +31,7 @@ if (oTop === oHeight - window.innerHeight) {
     /** to the bottom */
 }
 ```
+
+### Browser Support
+
+
