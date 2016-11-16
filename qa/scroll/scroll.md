@@ -5,5 +5,7 @@ For a more complicated user experience for browsing a website, sometimes we will
 ### How to listen to the scrolling of scroll-bars?
 
 ```js
-
+window.addEventListener('scroll', function () {
+	
+});
 ```
