@@ -6,6 +6,6 @@ For a more complicated user experience for browsing a website, sometimes we will
 
 ```js
 window.addEventListener('scroll', function () {
-	
+    /** the Event handler for listening to the scrolling */	
 });
 ```
