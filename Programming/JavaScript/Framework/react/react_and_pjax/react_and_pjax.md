@@ -102,7 +102,7 @@ var MainComponent = React.createClass({
         /** invoke the link */
         this.refs.login.click();
     },
-    
+
     componentDidMount: function () {
         /** check whether Pjax has been already initiated */
         if (!window._isPjaxSet) {
@@ -115,7 +115,7 @@ var MainComponent = React.createClass({
 			window._isPjaxSet = true;
 		}
     },
-    
+
     render: function() {
         return (<div>
             <a href="login" ref="login" className="link__hidden"></a>
@@ -137,7 +137,7 @@ var MainComponent = React.createClass({
         /** invoke the link */
         this.refs.login.click();
     },
-    
+
     componentDidMount: function () {
         /** check whether a property has been delivered into the component */
         if (this.props.isNewPjax) {
@@ -148,7 +148,7 @@ var MainComponent = React.createClass({
 			});
 		}
     },
-    
+
     render: function() {
         return (<div>
             <a href="login" ref="login" className="link__hidden"></a>
@@ -193,7 +193,7 @@ document.addEventListener('pjax:complete', handleComplete, false);
 
 Loading scripts for each site is the largest problem I have ever met, and the document is too poor to introduce how to solve the problem.
 
-As my react applications are always built with different sites, which should include a JavaScript file as the main entrance, and if I'm just going to simply swap script tags inside the container, they're not be loaded and executed at all, even thouth the `src` attribute of script elements have already been changed.
+As my react applications are always built with different sites, which should include a JavaScript file as the main entrance, and if I'm just going to simply swap script tags inside the container, they're not be loaded and executed at all, even though the `src` attribute of script elements have already been changed.
 
 With few helps, I have finally find out a way to solve this problem, and that's why I took them into documentations to share with you.
 
@@ -207,18 +207,18 @@ Firstly, we're going to build sites with a similar constructor:
         <script type="text/javascript">
             /** the name of your site */
             var viewName = 'index';
-            
+
         	if (typeof window.resourcesRender[viewName + 'Render'] !== 'undefined') {
         		window.resourcesRender[viewName + 'Render'].apply();
         	} else {
         		var script = document.createElement('script');
-        		
+
         		/**
         		 * For example, the main entrace file of the site index is at the path:
         		 * build/index.main.js
         		 */
         		script.src = 'build/' + viewName + '.main.js';
-        
+
         		document.querySelector('.container').appendChild(script);
         	}
     	</script>
@@ -226,7 +226,7 @@ Firstly, we're going to build sites with a similar constructor:
 </body>
 ```
 
-`window.resourcesRender` is a global array varaible for storing render methods for each sites, and if the method you want to call has already been stored in such an array, it means that you have already loaded the script file before, and it's not necessary to load it again, which should result in costing additional overheads.
+`window.resourcesRender` is a global array variable for storing render methods for each sites, and if the method you want to call has already been stored in such an array, it means that you have already loaded the script file before, and it's not necessary to load it again, which should result in costing additional overheads.
 
 #### Build the entrance for each site
 
@@ -250,7 +250,7 @@ window.resourcesRender.indexRender = function (isNewPjax) {
 window.resourcesRender.indexRender(true);
 ```
 
-With the property `isNewPjax`, we will only initiate the object Pjax when the JavaScript is loaded first time, and it means that the objct will be initiated at the first time rendering your site.
+With the property `isNewPjax`, we will only initiate the object Pjax when the JavaScript is loaded first time, and it means that the object will be initiated at the first time rendering your site.
 
 #### Others
 
@@ -258,6 +258,6 @@ If we sometimes have some scripts for "business logic" in a specific site, you c
 
 ### Summary
 
-This document has mainly talked about how to combine Pjax with React appliations. Since there have been some terrible problems we may meet, we need to consider about a flexible way to work around them. As long as making good use of the Pjax module, animations are just another magic thing to implement between sites' switching.
+This document has mainly talked about how to combine Pjax with React applications. Since there have been some terrible problems we may meet, we need to consider about a flexible way to work around them. As long as making good use of the Pjax module, animations are just another magic thing to implement between sites' switching.
 
 The document has not covered all problems in using Pjax with React, so if you have any problems, it's welcome to open an issue directly in [the project](https://github.com/aleen42/PersonalWiki) of this book to make a discussion. Certainly, you can directly contact me with the email: **aleen42@vip.qq.com**.
