@@ -126,8 +126,9 @@ var MainComponent = React.createClass({
 });
 ```
 
-Actually, if you have more than one sites to initiate Pjax, this way is not appropriate for you, as you are not able to share the same flag between sites. For these reason, you may have to change another way:
+Actually, if you have more than one sites to initiate Pjax, this way is not appropriate for you, as you are not able to share the same flag between sites. For th reason, you may have to change another way:
 
+```js
 var Pjax = require('pjax');
 
 var MainComponent = React.createClass({
@@ -158,6 +159,7 @@ var MainComponent = React.createClass({
     }
     /** ... */
 });
+```
 
 ### Loading Experience
 
