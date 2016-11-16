@@ -4,6 +4,8 @@ For a more complicated user experience for browsing a website, sometimes we will
 
 ### How to listen to the scrolling of scroll-bars?
 
+Before animating, we should know when users scroll the bar firstly:
+
 ```js
 window.addEventListener('scroll', function () {
     /** the Event handler for listening to the scrolling */	
