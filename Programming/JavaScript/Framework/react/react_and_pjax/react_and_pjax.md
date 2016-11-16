@@ -146,8 +146,6 @@ var MainComponent = React.createClass({
 				selectors: ['.container'],
 				cacheBust: false
 			});
-
-			window._isPjaxSet = true;
 		}
     },
     
