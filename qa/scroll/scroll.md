@@ -19,5 +19,5 @@ With such a handler, we will be triggered once users scroll.
 If you want to know when users scroll the bar to the top or to the bottom, we can calculate like the following:
 
 ```js
-
+/** scroll to the top */
 ```
