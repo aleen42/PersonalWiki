@@ -250,7 +250,7 @@ window.resourcesRender.indexRender = function (isNewPjax) {
 window.resourcesRender.indexRender(true);
 ```
 
-With the property `isNewPjax`, we will only initiate the object Pjax when the JavaScript is loaded first time, and it means that the objct will be intiated at the first time rendering your site.
+With the property `isNewPjax`, we will only initiate the object Pjax when the JavaScript is loaded first time, and it means that the objct will be initiated at the first time rendering your site.
 
 #### Others
 
