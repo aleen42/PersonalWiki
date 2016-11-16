@@ -238,9 +238,9 @@ var Index = require('./components/index.jsx');
 
 /** push the render method into the global array object */
 window.resourcesRender.indexRender = function (isNewPjax) {
-    isNewPjax = isNewPjax || fals
+    isNewPjax = isNewPjax || false;
     ReactDOM.render(
-        <Index></Index>,
+        <Index isNewPjax={isNewPjax}></Index>,
         document.querySelector('.container')
     );
 };
