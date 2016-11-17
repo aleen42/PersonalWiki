@@ -256,6 +256,110 @@ With the property `isNewPjax`, we will only initiate the object Pjax when the Ja
 
 If we sometimes have some scripts for "business logic" in a specific site, you can use a similar way to store what we want and use it rather than reload scripts when users redirect to the same site through falling back, going forward, or links directly.
 
+### Memory Leaks
+
+As Pjax would not like to release memory for you when switching DOM structure, you may have to worry about the problem of memory leaks, especially you have initiate some events within the contents which will be replaced. With this reason, we may have to focus on how to unbind this events.
+
+Firstly, we can release memory in the event handler `pjax:send`, which is called after any link is triggered, and before replacing contents. Then, setup a global variable named `releaseFunctions`, which is exactly an array to store functions that used to release memory:
+
+```js
+window.releaseFunctions = [];
+
+function handleSend(e) {
+    /** check whether to release */
+    var releaseFuncs = window.releaseFunctions;
+    var releaseFunctionsLen = releaseFuncs.length;
+
+    for (var i = 0; i < releaseFunctionsLen; i++) {
+        var fn = releaseFuncs[i];
+
+        if (Object.prototype.toString.call(fn).toLowerCase() === '[object function]') {
+            /** check whether it's a real function */
+            fn.call();
+        }
+    }
+
+    /** reset the array */
+    releaseFuncs = [];
+
+    /** Ohter operations ... */
+}
+
+/** listen to sending requests */
+document.addEventListener('pjax:send', handleSend, false);
+```
+
+With that array, we can easily handle releasing by pushing a function into the array.
+
+```js
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+var Index = require('./components/index.jsx');
+
+/** push the render method into the global array object */
+window.resourcesRender.indexRender = function (isNewPjax) {
+    isNewPjax = isNewPjax || false;
+    var container = document.querySelector('.container');
+
+    ReactDOM.render(
+        <Index isNewPjax={isNewPjax}></Index>,
+        container
+    );
+
+    /** setup release functions after calling render */
+    window.releaseFunctions.push(function () {
+        ReactDOM.unmountComponentAtNode(container);
+    });
+};
+
+window.resourcesRender.indexRender(true);
+```
+
+As we can see, after calling the method `ReactDOM.render()`, we can release memory of components by unmounting it with the method `ReactDOM.unmountComponentAtNode()`. With this method, components rendered in the container before will be unmounted, and at the same time, all events, which are bound to elements in components, are released at the same time. However, events bound to global object like `window`, `document`, etc. won't be released at all, so we should avoid using this way to add event listeners like the following case:
+
+```js
+export class MyComponent extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.handleResize = this.handleResize.bind(this);
+    }
+
+    handleResize(e) {
+        /** operation ... */
+    }
+
+    componentDidMount() {
+        window.addEventListener('resize', handleResize, false);
+    }
+
+    render() {
+        /** render part */
+    }
+}
+```
+
+If you do need to use this way, you should remember to release these events when components are going to be unmounted:
+
+```js
+export class MyComponent extends React.Component {
+    /** ... */
+
+    componentDidMount() {
+        window.addEventListener('resize', handleResize, false);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', handleResize);
+    }
+
+    /** ... */
+}
+```
+
+With the lifecycle method `componentWillUnmount()` of components, we can still release these events as well.
+
 ### Summary
 
 This document has mainly talked about how to combine Pjax with React applications. Since there have been some terrible problems we may meet, we need to consider about a flexible way to work around them. As long as making good use of the Pjax module, animations are just another magic thing to implement between sites' switching.
