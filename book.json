@@ -35,6 +35,9 @@
         "github": {
             "url": "https://github.com/aleen42/PersonalWiki"
         },
+        "github-edit": {
+            "repo": "aleen42/personalwiki"
+        },
         "sharing": {
             "facebook": true,
             "twitter": false,
