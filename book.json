@@ -16,6 +16,7 @@
     },
     "plugins": [
         "github",
+        "github-edit",
         "sharing",
         "ga",
         "injection",
