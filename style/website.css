@@ -401,6 +401,7 @@ iframe::-webkit-resizer {
     right: 0;
     width: 100%;
     z-index: 999 !important;
+    border-bottom: 1px solid #e6e9f0;
 }
 
 .book-body h2 {
