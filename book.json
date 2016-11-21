@@ -24,7 +24,7 @@
         "advanced-emoji",
         "page-footer",
         "page-treeview",
-        "mathjax",
+        "mathjax-full@>=0.6.2",
         "ace",
         "resources"
     ],
