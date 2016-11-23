@@ -21,7 +21,7 @@ per|true|10|to point out how many items for each page
 defaultCur|true|1|which page is the current page initially
 rage|true|2|the range of buttons for pages, shown around the current page
 isStep|true|false|show the stepping button or not
-isGoto|true|false|show the goto function or n
+isGoto|true|false|show the goto function or not
 
 ### Demo
 
