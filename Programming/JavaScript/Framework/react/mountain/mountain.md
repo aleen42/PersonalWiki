@@ -19,7 +19,7 @@ Therefore, inside the lifecycle method `componentDidMount` of the component `Mou
 
 ```js
 componentDieMount() {
-    if (Objct.prototype.toString.call(this.props.addTarget)) {
+    if (Objct.prototype.toString.call(this.props.addTarget).toLowerCase() === '[object function]') {
         /** check whether has methods for subscribing */
     }
 }
