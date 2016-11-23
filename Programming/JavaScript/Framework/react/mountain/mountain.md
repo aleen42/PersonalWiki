@@ -13,4 +13,4 @@ The whole component will receive two parameters with `props`:
 - `mountainNum`: the number referred to lines of mountains
 - `bottomPadding`: a pixel value for pointing out the height of the reserved area given for you to load contents of your footer
 
-
+When it comes to changing the amplitude of movement, you can pass a new pixel value to the property `moveMax` in the component `MouseMove`
