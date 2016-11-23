@@ -19,7 +19,7 @@ To create a familiar and reusable component for pagination, `Paginate` has arise
 total|false||how many items totally
 per|true|10|to point out how many items for each page
 defaultCur|true|1|which page is the current page initially
-rage|true|2|the range of pages shown around the current page
+rage|true|2|the range of buttons for pag shown around the current page
 	range: 2,
 	isStep: false,
 	isGoto: false
