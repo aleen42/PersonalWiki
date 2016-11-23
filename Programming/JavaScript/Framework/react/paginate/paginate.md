@@ -10,7 +10,7 @@
 
 ### Introduction
 
-To create a familiar and reusable component for pagination, I have created this component.
+To create a familiar and reusable component for pagination, `Paginate` has arised.
 
 ### Demo
 
