@@ -16,8 +16,8 @@ To create a familiar and reusable component for pagination, `Paginate` has arise
 
 **Property**|**Optional**|**Default**|**Description**
 :------:|:-----:|:----------
-total|true||how many items totally
-per|10|to point out how many items for each page
+total|false||how many items totally
+per|true|10|to point out how many items for each page
 	defaultCur: 1,
 	range: 2,
 	isStep: false,
