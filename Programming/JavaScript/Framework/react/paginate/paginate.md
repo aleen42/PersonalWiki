@@ -10,6 +10,8 @@
 
 ### Introduction
 
+To create a familiar and reusable component for pagination, I have created this component.
+
 ### Demo
 
 <p>
