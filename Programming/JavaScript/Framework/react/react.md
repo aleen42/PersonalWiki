@@ -1,6 +1,8 @@
 ## ReactJS [Back](./../Framework.md)
 
-![](./react.png)
+<p align=center">
+    <img alt="react" src="./react.png" width="75%"></img>
+</p>
 
 [ReactJS](https://facebook.github.io/react/) is a javascript library for building user interfaces, provided by Facebook.
 
