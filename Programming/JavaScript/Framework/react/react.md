@@ -1,15 +1,15 @@
 ## ReactJS [Back](./../Framework.md)
 
-<p align=center">
+<p align="center">
     <img alt="react" src="./react.png" width="75%"></img>
 </p>
 
-<p align=center">
+<p align="center">
 <a href="https://facebook.github.io/react/" target="_blank"><strong>ReactJS</strong></a> is a javascript library for building user interfaces, provided by Facebook.
 </p>
 
-<p align=center">
-    <img alt="react" src="./react-timeline.png" width="65%"></img>
+<p align="center">
+    <img alt="react" src="./react-timeline.png" width="50%"></img>
 </p>
 
 ### Quick Start
