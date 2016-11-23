@@ -31,6 +31,8 @@ componentDieMount() {
 
 ### Dependencies
 
+a list for showing the relationship between three mainly used components.
+
 > MouseMove
 
 >> Mountain
