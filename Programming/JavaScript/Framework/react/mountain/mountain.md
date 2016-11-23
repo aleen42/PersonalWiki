@@ -4,6 +4,10 @@
     <img alt="mountain" src="./mountain.png"></img>
 </p>
 
+<p align="center">
+<strong>Mountain</strong>, an awesome designed react component for you
+</p>
+
 ### Introduction
 
 **Mountain** is an awesome designed components for acting as a footer. It's mainly composed with several SVGs elements inside, and animated by listening to movements of your mouse.
