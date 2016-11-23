@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<strong>Mountain</strong>, an awesome designed react component for you
+<strong>Paginate</strong>, an reuse component for pagination
 </p>
 
 ### Introduction
