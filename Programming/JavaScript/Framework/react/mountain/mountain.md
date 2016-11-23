@@ -14,3 +14,13 @@ The whole component will receive two parameters with `props`:
 - `bottomPadding`: a pixel value for pointing out the height of the reserved area given for you to load contents of your footer
 
 When it comes to changing the amplitude of movements, you can pass a new pixel value to the property `moveMax` in the component `MouseMove`. As you may see, each line of mountains will perform differently according to your mouse's movements. That's because the component `MouseMove` has provided a method for child components to subscribe the event of `mouseMove`, so that they can implement a various actions themselves by calling this method, `addTarget()`.
+
+Therefore, inside the lifecycle method `componentDidMount` of the component `Mountain`, there is a code snippet like this:
+
+```js
+componentDieMount() {
+    if (Objct.prototype.toString.call(this.props.addTarget)) {
+        /** check whether has methods for subscribing */
+    }
+}
+```
