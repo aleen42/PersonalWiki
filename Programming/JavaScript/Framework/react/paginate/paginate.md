@@ -16,7 +16,8 @@ To create a familiar and reusable component for pagination, `Paginate` has arise
 
 **Property**|**Default**|**Description**
 :------:|:-----:|:----------
-per|10|to point out how many items for each pag
+total|true||how many items tot
+per|10|to point out how many items for each page
 	defaultCur: 1,
 	range: 2,
 	isStep: false,
