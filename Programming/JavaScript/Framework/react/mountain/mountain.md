@@ -22,7 +22,7 @@ componentDieMount() {
     if (Objct.prototype.toString.call(this.props.addTarget).toLowerCase() === '[object function]') {
         /** check whether has methods for subscribing */
         this.props.addTarget(this, function (x, y) {
-            /** current position of the mouse */
+            /** current position (x, y) of the mouse */
             console.log(x, y);
         });
     }
