@@ -75,3 +75,4 @@
 ### Components
 
 - [**Mountain**](./mountain/mountain.md)
+- [**Paginate**](./paginate/paginate.md)
