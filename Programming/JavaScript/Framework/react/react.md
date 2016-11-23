@@ -5,10 +5,8 @@
 </p>
 
 <p align=center">
-    <img alt="react" src="./react.png" width="75%"></img>
+<a href="https://facebook.github.io/react/" target="_blank"><strong>ReactJS</strong></a> is a javascript library for building user interfaces, provided by Facebook.
 </p>
-
-[ReactJS](https://facebook.github.io/react/) is a javascript library for building user interfaces, provided by Facebook.
 
 ![](./react-timeline.png)
 
