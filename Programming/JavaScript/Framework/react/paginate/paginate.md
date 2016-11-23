@@ -10,7 +10,7 @@
 
 ### Introduction
 
-To create a familiar and reusable component for pagination, `Paginate` has arisen.
+To create a familiar and reusable component for pagination, `Paginate` has arisen. This component is mainly designed with common functions of pagination like stepping buttons and goto.
 
 ### Demo
 
