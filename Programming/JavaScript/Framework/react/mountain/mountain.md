@@ -1,7 +1,7 @@
 ## Mountain [Back](./../react.md)
 
 <p align="center">
-    <img src="./mountain.pn"></img>
+    <img alt="mountain" src="./mountain.png"></img>
 </p>
 
 ### Introduction
