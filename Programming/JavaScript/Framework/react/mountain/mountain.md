@@ -5,4 +5,4 @@
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
-**Mountain** is an awesome designed components for acting as a footer. It's mainly composed with several SVGs elements inside, and animated by listening to the movement of your mouse.
+**Mountain** is an awesome designed components for acting as a footer. It's mainly composed with several SVGs elements inside, and animated by listening to the movement of your mouse. Perhaps, you will say that mountains have sharp edges, resulting in a strange sight. However, because of using SVG, a complicated SVG will make files much more huge.
