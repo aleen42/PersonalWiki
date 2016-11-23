@@ -9,7 +9,7 @@
 </p>
 
 <p align=center">
-    <img alt="react" src="./react-timeline.png" width="75%"></img>
+    <img alt="react" src="./react-timeline.png" width="65%"></img>
 </p>
 
 ### Quick Start
