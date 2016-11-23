@@ -5,7 +5,7 @@
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
-### Introductio
+### Introduction
 
 **Mountain** is an awesome designed components for acting as a footer. It's mainly composed with several SVGs elements inside, and animated by listening to movements of your mouse.
 
