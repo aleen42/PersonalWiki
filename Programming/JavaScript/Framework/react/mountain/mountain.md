@@ -9,4 +9,7 @@
 
 Perhaps, you may say that mountains have sharp edges, resulting in a strange sight. However, because of using SVG, a complicated SVG will make files much huger. As files getting huger and huger, you may have worse experience when viewing on browsers, because the length of content will affect the performance of rendering in browsers.
 
+The whole component will receive two parameters with `props`: 
+- `mountainNum`: the number referred to lines of mountains
+
 
