@@ -13,4 +13,4 @@ The whole component will receive two parameters with `props`:
 - `mountainNum`: the number referred to lines of mountains
 - `bottomPadding`: a pixel value for pointing out the height of the reserved area given for you to load contents of your footer
 
-When it comes to changing the amplitude of movement, you can pass a new pixel value to the property `moveMax` in the component `MouseMove`.
+When it comes to changing the amplitude of movement, you can pass a new pixel value to the property `moveMax` in the component `MouseMove`. As you may see, each line of mountains will perform differently according to your mouse's movement. That's because the component `MouseMove` has provided a method for child components to subscribe the event of `mouseMove`, so that they can implement a various actions themselves by calling this method, `addTarget`.
