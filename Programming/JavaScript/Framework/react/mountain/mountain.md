@@ -29,7 +29,7 @@ componentDieMount() {
 }
 ```
 
-### Relationships between compoenn
+### Relationships between components
 
 a list for showing the relationship between three mainly used components.
 
