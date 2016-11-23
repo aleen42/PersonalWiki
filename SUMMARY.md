@@ -107,7 +107,7 @@
                         * [Pjax + React](./Programming/JavaScript/Framework/react/react_and_pjax/react_and_pjax.md)
                     * Components
                         * [Mountain](./Programming/JavaScript/Framework/react/mountain/mountain.md)
-                        * [Paginate](./Programming/JavaScript/Framework/react/paginate/paginate
+                        * [Paginate](./Programming/JavaScript/Framework/react/paginate/paginate.md
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
