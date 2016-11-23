@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<strong>Paginate</strong>, an reuse component for pagination
+<strong>Paginate</strong>, an reusabe component for pagination
 </p>
 
 ### Introduction
