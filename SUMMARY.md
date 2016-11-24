@@ -108,6 +108,7 @@
                     * Components
                         * [Mountain](./Programming/JavaScript/Framework/react/mountain/mountain.md)
                         * [Paginate](./Programming/JavaScript/Framework/react/paginate/paginate.md)
+                        * [Rectangle Loading](./Programming/JavaScript/Framework/react/rect_loading/rect_loading.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
