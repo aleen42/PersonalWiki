@@ -12,6 +12,12 @@
 
 
 
+height: 50,
+	reactNumber: 5,
+	reactDelay: 0.12,
+	reactColor: '#000',
+	isHide: false
+
 ### Demo
 
 <p>
