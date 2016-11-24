@@ -8,6 +8,10 @@
 <strong>Rectangle Loading</strong>, just a reusable component for loading animation
 </p>
 
+### Property
+
+
+
 ### Demo
 
 <p>
