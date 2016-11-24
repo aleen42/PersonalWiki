@@ -5,5 +5,5 @@
 </p>
 
 <p align="center">
-<strong>Paginate</strong>, a reusable component for pagination
+<strong>Rectangle Loading</strong>, just a reusable component for loading animation
 </p>
