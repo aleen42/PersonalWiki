@@ -10,7 +10,9 @@
 
 ### Property
 
-
+**Property**|**Optional**|**Default**|**Description**
+:------:|:-----:|:----------
+height|false|50|the height of your loadi
 
 height: 50,
 	reactNumber: 5,
