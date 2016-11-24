@@ -76,4 +76,4 @@
 
 - [**Mountain**](./mountain/mountain.md)
 - [**Paginate**](./paginate/paginate.md)
-- [**Rectangle**](./paginate/paginate.md)
+- [**Rectangle Loading**](./paginate/paginate.md)
