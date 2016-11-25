@@ -10,8 +10,8 @@
 
 ### Property
 
-**Property**|**Optional**|**Default**|**Description**
-:------:|:-----:|:----------
+Property|Optional|Default|Description
+:------:|:-----:|:----------|:------
 height|false|50|the height of your loading area
 rectNumber|false|5|the number of rectangles
 rectDelay|false|0.12|the delay time of each retangles
