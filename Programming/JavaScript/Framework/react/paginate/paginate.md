@@ -15,13 +15,36 @@ To create a familiar and reusable component for pagination, `Paginate` has arise
 ### Property
 
 **Property**|**Optional**|**Default**|**Description**
-:------:|:-----:|:----------
+:------:|:-----:|:----------|:-------
 total|false||how many items totally
+callback|false||a callback function for grasping the current page and how many items for each pag
 per|true|10|to point out how many items for each page
 defaultCur|true|1|which page is the current page initially
 rage|true|2|the range of buttons for pages, shown around the current page
 isStep|true|false|show the stepping button or not
 isGoto|true|false|show the goto function or not
+
+### Usage
+
+The whole code is contained in the following codepen demo, and what you need to do is to copy the code of JavaScript, and save it as a `jsx` file, which may need a loader to parse like Babel. Then, before the defined class `Paginate`, just add a key word `export` so that you can import it elsewhere.
+
+```js
+export class Paginate extends React.Component {
+    /** ... */
+}
+```
+
+Then, you can use it by importing the component like:
+
+```js
+import { Paginate } from 'loading.jsx';
+
+/** you can also use <Loading /> */
+ReactDOM.render(
+    <Paginate total={100} callback></Paginate>,
+    document.querySelector('.container')
+);
+```
 
 ### Demo
 
