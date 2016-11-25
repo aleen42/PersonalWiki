@@ -28,6 +28,17 @@ export class Loading extends React.Component {
 }
 ```
 
+Then, you can use it by importing the component like:
+
+```js
+import { Loading } from 'loading.jsx';
+
+ReactDOM.render(
+    <Loading></Loading>,
+    document.querySelector('.container')
+)
+```
+
 ### Demo
 
 <p>
