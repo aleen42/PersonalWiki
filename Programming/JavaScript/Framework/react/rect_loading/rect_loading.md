@@ -36,7 +36,7 @@ import { Loading } from 'loading.jsx';
 ReactDOM.render(
     <Loading></Loading>,
     document.querySelector('.container')
-)
+);
 ```
 
 ### Demo
