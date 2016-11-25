@@ -43,7 +43,7 @@ import { Paginate } from 'loading.jsx';
 ReactDOM.render(
     <Paginate total={100} callback={
         function (cur, per) {
-            { /** load data from the server */ }
+            {/** load data from the server */}
         }
     }></Paginate>,
     document.querySelector('.container')
