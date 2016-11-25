@@ -18,6 +18,10 @@ rectDelay|false|0.12|the delay time of each retangles
 rectColor|false|#000|the color of rectangles
 isHide|false|false|to point out whether show the loading when rendering
 
+### Usage
+
+The whole code is contained in the following codepen demo, and what you need to do is to copy the code of JavaScript, and save it as a `jsx` file, which may need a loader to parse like Babel. Then, before the defined class `Loading`, just add a key word `export` so that you can import it elsewhere.
+
 ### Demo
 
 <p>
