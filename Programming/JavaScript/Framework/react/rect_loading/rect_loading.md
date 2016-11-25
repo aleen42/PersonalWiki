@@ -22,6 +22,12 @@ isHide|false|false|to point out whether show the loading when rendering
 
 The whole code is contained in the following codepen demo, and what you need to do is to copy the code of JavaScript, and save it as a `jsx` file, which may need a loader to parse like Babel. Then, before the defined class `Loading`, just add a key word `export` so that you can import it elsewhere.
 
+```js
+export class Loading extends React.Component {
+    /** ... */
+}
+```
+
 ### Demo
 
 <p>
