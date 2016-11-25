@@ -33,6 +33,7 @@ Then, you can use it by importing the component like:
 ```js
 import { Loading } from 'loading.jsx';
 
+/** you can also use <Loading /> */
 ReactDOM.render(
     <Loading></Loading>,
     document.querySelector('.container')
