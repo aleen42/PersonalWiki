@@ -37,7 +37,7 @@ export class Paginate extends React.Component {
 Then, you can use it by importing the component like:
 
 ```js
-import { Paginate } from 'loading.jsx';
+import { Paginate } from 'paginate.jsx';
 
 /** you can also use <Loading /> */
 ReactDOM.render(
