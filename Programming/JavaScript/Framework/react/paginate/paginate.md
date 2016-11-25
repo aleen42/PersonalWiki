@@ -17,7 +17,7 @@ To create a familiar and reusable component for pagination, `Paginate` has arise
 **Property**|**Optional**|**Default**|**Description**
 :------:|:-----:|:----------|:-------
 total|false||how many items totally
-callback|false||a callback function for grasping the current page and how many items for each pag
+callback|false||a callback function for grasping the current page and how many items for each page
 per|true|10|to point out how many items for each page
 defaultCur|true|1|which page is the current page initially
 rage|true|2|the range of buttons for pages, shown around the current page
@@ -41,7 +41,11 @@ import { Paginate } from 'loading.jsx';
 
 /** you can also use <Loading /> */
 ReactDOM.render(
-    <Paginate total={100} callback></Paginate>,
+    <Paginate total={100} callback={
+        function (cur, per) {
+            /** load data from servers */
+        }
+    }></Paginate>,
     document.querySelector('.container')
 );
 ```
