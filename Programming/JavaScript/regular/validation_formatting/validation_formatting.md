@@ -385,3 +385,73 @@ This chapter mainly discusses recipes (秘訣) for validating and formatting com
         return name.replace(/^(.+?) ([^\s,]+)(,? (?:[JS]r\.?|III?|IV))?$/i, '$2, $1$3');
     }
     ```
+
+### Validate Password Complexity
+
+- **Problem**
+
+    If you're tasked with ensuring that any passwords chosen by users need to meet a complexity requirements
+
+- **Solution**
+
+    There're several code example that show how to validate password with complex requirements:
+
+    - **Length bwetween 8 and 32 characters**
+
+    ```js
+    function validate(password) {
+        return /^[\s\S]{8,32}$/.test(password);
+    }
+    ```
+
+    - **ASCII visible and space characters only**
+
+    ```js
+    function validate(password) {
+        return /[\x20-\x7E]+/.test(password);
+    }
+    ```
+
+    - **One or more uppercase letters**
+
+    ```js
+    function validate(password) {
+        return /[A-Z]/.test(password);
+    }
+    ```
+
+    - **One or more lowercase letters**
+
+    ```js
+    function validate(password) {
+        return /[a-z]/.test(password);
+    }
+    ```
+
+    - **One or more number**
+
+    ```js
+    function validate(password) {
+        return /[0-9]/.test(password);
+    }
+    ```
+
+    - **One or more special characters**
+
+    ```js
+    function validate(password) {
+        return /[ !"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~]/.test(password);
+    }
+    ```
+
+    - **Disallow three or more sequential identical characters like 111111**
+
+    ```js
+    function validate(password) {
+        return !/([\s\S])\1\1/.test(password);
+    }
+    ```
+
+- **Discussion**
+
+    Using JavaScript to validate passwords in a web browser can be very beneficial for users, but make sure to also implement validation on the server, so that users are not able to disable JavaScript or to use custom scripts to circumvent (迴避) client-side validation.
