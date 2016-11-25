@@ -31,3 +31,80 @@ This chapter is mainly showing a variety of regular expression constructs and te
     /** replace cat with dog, and put back any additional matched characters */
     subject = subject.replace(regex, '$1dog$2');
     ```
+
+### Find any of multiple words
+
+- **Problems**
+
+    How to find any one out of a list of words, without having to search through the subject string multiple times?
+
+- **Solution**
+    - The simplest way is to just alternate between the words you want to match:
+
+        **/\\b(?:one|two|three)\\b/**
+
+    - A reusable way is to define a function:
+
+    ```js
+    function matchWords(subject, words) {
+        var regexMetachars = /[(){[*+?.\\^$|]/g;
+        var wordLen = words.length;
+
+        /**
+         *  Any regex metacharacters within the accepted words are escaped
+         *  with a backslash before searching.
+         */
+        for (var i = 0; i < wordLen; i++) {
+            words[i] = words[i].replace(regexMetachars, '\\$&');
+        }
+
+        var regex = new RegExp('\\b(?:' + words.join('|') + ')\\b', 'gi');
+
+        return subject.match(regex) || [];
+    }
+
+    matchWords(subject, ['one', 'two', 'three']);
+    ```
+
+- **Discussion**
+
+    As the regex engine attempts to match each word in the list from left to right, you may find a slight performance gain by placing words that are most likely to be found in the subject text near the beginning of the list.
+
+### Find similar words
+
+- **Problems**
+
+    There're several cases of finding similar words
+
+- **Solution**
+    - **Color or colour**
+
+        **/\\bcolou?r\\b/i**
+
+    - **Bat, cat, or rat**
+
+        **/\\b[bcr]at\\b/i**
+
+    - **Words ending with "phobia"**
+
+        **/\\b\\w*phobia\\b/i**
+
+    - **Steve, Steven, or Stephen**
+
+        **/\\bSte(?:ven?|phen)\\b/i**
+
+### Find all except a specific word
+
+- **Problem**
+
+    You may want to use a regular expression to match any word except **cat**.
+
+- **Solution**
+
+    You can use a negative lookahead in JavaScript:
+
+    **/\\b(?!cat\\b)\\w+\\b/i**
+
+- **Discussion**
+
+    Certainly, if you're trying t match any word that does not contain **cat**, you may need to use a slightly different way: **/\\b(?:(?!cat)\\w)+\\b/i**.
