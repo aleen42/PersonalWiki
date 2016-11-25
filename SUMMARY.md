@@ -176,6 +176,7 @@
                         * [Basic Skills](./Programming/JavaScript/regular/basic_skills/basic_skills.md)
                         * [Programming with Regular Expression](./Programming/JavaScript/regular/programming/programming.md)
                         * [Validation and Formatting](./Programming/JavaScript/regular/validation_formatting/validation_formatting.md)
+                        * [Words, Lines, and Special Characters](./Programming/JavaScript/regular/words_lines_special/words_lines_special.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
