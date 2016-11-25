@@ -14,7 +14,7 @@ To create a familiar and reusable component for pagination, `Paginate` has arise
 
 ### Property
 
-**Property**|**Optional**|**Default**|**Description**
+Property|Optional|Default|Description
 :------:|:-----:|:----------|:-------
 total|false||how many items totally
 callback|true||a callback function for grasping the current page and how many items for each page
