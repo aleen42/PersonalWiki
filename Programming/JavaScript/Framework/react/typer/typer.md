@@ -12,15 +12,10 @@
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
+text|false||an array to store texts which you want to show
 typeSpeed|true|100|the height of your loading area
 typeBackSpeed|true|25|the number of rectangles
 typeDelay|true|2000|the delay time of each retangles
-rectColor|true|#000|the color of rectangles
-
-
-typeSpeed: ,
-	typeBackSpeed: ,
-	typeDelay: 
 
 ### Usage
 
