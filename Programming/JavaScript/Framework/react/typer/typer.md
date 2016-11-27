@@ -12,15 +12,15 @@
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
-typeSpeed|true|50|the height of your loading area
-rectNumber|false|5|the number of rectangles
-rectDelay|false|0.12|the delay time of each retangles
-rectColor|false|#000|the color of rectangles
-isHide|false|false|to point out whether show the loading when rendering
+typeSpeed|true|100|the height of your loading area
+typeBackSpeed|true|25|the number of rectangles
+typeDelay|true|2000|the delay time of each retangles
+rectColor|true|#000|the color of rectangles
 
-typeSpeed: 100,
-	typeBackSpeed: 25,
-	typeDelay: 2000
+
+typeSpeed: ,
+	typeBackSpeed: ,
+	typeDelay: 
 
 ### Usage
 
