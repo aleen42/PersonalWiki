@@ -19,10 +19,10 @@ typeDelay|true|2000|the delay time of typing, 2000 means that the text will have
 
 ### Usage
 
-The whole code is contained in the following codepen demo, and what you need to do is to copy the code of JavaScript, and save it as a `jsx` file, which may need a loader to parse like Babel. Then, before the defined class `Loading`, just add a key word `export` so that you can import it elsewhere.
+The whole code is contained in the following codepen demo, and what you need to do is to copy the code of JavaScript, and save it as a `jsx` file, which may need a loader to parse like Babel. Then, before the defined class `Typer`, just add a key word `export` so that you can import it elsewhere.
 
 ```js
-export class Loading extends React.Component {
+export class Typer extends React.Component {
     /** ... */
 }
 ```
@@ -30,7 +30,7 @@ export class Loading extends React.Component {
 Then, you can use it by importing the component like:
 
 ```js
-import { Loading } from 'loading.jsx';
+import { Typer } from 'loading.jsx';
 
 /** you can also use <Loading /> */
 ReactDOM.render(
