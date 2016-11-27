@@ -12,11 +12,11 @@
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
-height|false|50|the height of your loading area
-rectNumber|false|5|the number of rectangles
-rectDelay|false|0.12|the delay time of each retangles
-rectColor|false|#000|the color of rectangles
-isHide|false|false|to point out whether show the loading when rendering
+height|true|50|the height of your loading area
+rectNumber|true|5|the number of rectangles
+rectDelay|true|0.12|the delay time of each retangles
+rectColor|true|#000|the color of rectangles
+isHide|true|false|to point out whether show the loading when rendering
 
 ### Usage
 
