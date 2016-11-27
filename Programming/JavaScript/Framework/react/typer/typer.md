@@ -13,7 +13,7 @@
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
 text|false||an array to store texts which you want to show
-typeSpeed|true|100|the height of your loading area
+typeSpeed|true|100|the speed of typing, one character per 100ms
 typeBackSpeed|true|25|the number of rectangles
 typeDelay|true|2000|the delay time of each retangles
 
