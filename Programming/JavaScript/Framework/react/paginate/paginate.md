@@ -1,7 +1,7 @@
 ## Paginate [Back](./../react.md)
 
 <p align="center">
-    <img alt="paginate" title="paginate" src="./preview.png"></img>
+    <img src="./preview.png" width="100%" alt="paginate" title="paginate" />
 </p>
 
 <p align="center">
