@@ -39,7 +39,7 @@ Then, you can use it by importing the component like:
 ```js
 import { Paginate } from 'paginate.jsx';
 
-/** you can also use <Loading /> */
+/** you can also use <Paginate total={100} /> */
 ReactDOM.render(
     <Paginate total={100} callback={
         function (cur, per) {
