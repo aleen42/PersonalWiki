@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<strong>Rectangle Loading</strong>, just a reusable component for loading animation
+<strong>Typer</strong>, a typing component for you to show text
 </p>
 
 ### Property
