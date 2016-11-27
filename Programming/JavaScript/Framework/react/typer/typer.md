@@ -34,7 +34,7 @@ import { Typer } from 'loading.jsx';
 
 /** you can also use <Loading /> */
 ReactDOM.render(
-    <Loading></Loading>,
+    <Typer></Typer>,
     document.querySelector('.container')
 );
 ```
