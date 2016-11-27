@@ -12,7 +12,7 @@
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
-typeSpeed|tru|50|the height of your loading area
+typeSpeed|true|50|the height of your loading area
 rectNumber|false|5|the number of rectangles
 rectDelay|false|0.12|the delay time of each retangles
 rectColor|false|#000|the color of rectangles
