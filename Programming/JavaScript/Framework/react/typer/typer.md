@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<strong>Typer</strong>, a typing component for you to show text
+<strong>Typer</strong>, a typing component for you to show contents
 </p>
 
 ### Property
