@@ -1,7 +1,7 @@
 ## Typer [Back](./../react.md)
 
 <p align="center">
-    <img alt="rectangle loading" title="rectangle loading" src="./preview.png"></img>
+    <img alt="typer" title="typer" src="./preview.png"></img>
 </p>
 
 <p align="center">
