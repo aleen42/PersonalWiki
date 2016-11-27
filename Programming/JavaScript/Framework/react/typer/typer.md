@@ -30,9 +30,9 @@ export class Typer extends React.Component {
 Then, you can use it by importing the component like:
 
 ```js
-import { Typer } from 'loading.jsx';
+import { Typer } from 'typer.jsx';
 
-/** you can also use <Loading /> */
+/** you can also use <Typer /> */
 ReactDOM.render(
     <Typer text={
         [
