@@ -34,7 +34,12 @@ import { Typer } from 'loading.jsx';
 
 /** you can also use <Loading /> */
 ReactDOM.render(
-    <Typer></Typer>,
+    <Typer text={
+        [
+            'text1',
+            'text2'
+        ]
+    }></Typer>,
     document.querySelector('.container')
 );
 ```
