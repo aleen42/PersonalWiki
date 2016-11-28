@@ -122,3 +122,5 @@ Particle = function(xPos, yPos){
     };
 };
 ```
+
+In the context of the script, this refers to each [particle](http://thenewcode.com/1133/Animation-Fundamentals-Understanding-Particles), as it is created:
