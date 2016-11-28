@@ -28,7 +28,7 @@ export class Navigation extends React.Component {
 Then, you can use it by importing the component like:
 
 ```js
-import { Navigation } from 'typer.jsx';
+import { Navigation } from 'navigation.jsx';
 
 /** you can also use <Typer /> */
 ReactDOM.render(
