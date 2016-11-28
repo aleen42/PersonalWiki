@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<strong>Typer</strong>, a typing component for you to show contents
+<strong>Multi-level navigation</strong>, a navigation component with funny animation.
 </p>
 
 ### Property
