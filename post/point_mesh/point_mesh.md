@@ -40,10 +40,10 @@ body {
 To ensure that the [`&lt;canvas&gt;`](http://thenewcode.com/1128/Web-Developer-Reading-List-The-Canvas-API) is always the full height and width of the viewport, the first part of the [JavaScript](http://thenewcode.com/1135/Web-Developer-Reading-List-JavaScript) at the end of the page is a resize function:
 
 ```js
-let resizeReset = function() {
+let resizeReset = function () {
     w = canvasBody.width = window.innerWidth;
     h = canvasBody.height = window.innerHeight;
-}
+}；
 ```
 
 ### Creating the Dots
