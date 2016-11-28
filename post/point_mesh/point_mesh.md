@@ -45,3 +45,7 @@ let resizeReset = function() {
     h = canvasBody.height = window.innerHeight;
 }
 ```
+
+### Creating the Dots
+
+`opts` is an object that contains a series of properties that act as default values for the script:
