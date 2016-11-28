@@ -120,7 +120,7 @@ Particle = function(xPos, yPos){
         if (this.y < 0) this.y = 0; 
     };
     
-    this.draw = function(){ 
+    this.draw = function () { 
         drawArea.beginPath();
         drawArea.arc(this.x, this.y, this.radius, 0, Math.PI*2);
         drawArea.closePath();
