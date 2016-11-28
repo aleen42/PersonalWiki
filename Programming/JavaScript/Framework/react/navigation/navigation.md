@@ -65,6 +65,8 @@ var data = {
 };
 ```
 
+As we can see, we should hold a `name` for each menu, and if menus have their own sub-menus, they can be constructed with a `children` object, which should be another array.
+
 ### Demo
 
 <p>
