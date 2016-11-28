@@ -130,3 +130,15 @@ In the context of the script, this refers to each [particle](http://thenewcode.c
 - this.update calculates the next coordinates for each particle. First, it checks if the particle is touching the border; if the particle goes past the dimensions of the canvas, it’s vector is changed, multiplied by -1 to produce the opposite direction
 - a window resize may leave a particle further across the perimeter than the border function will capture, so a series of if statements checks if that’s the case, resetting the position of the particle to the current limits of the canvas.
 - finally, the dots are drawn in place.
+
+To start it all moving, we need the following:
+
+```js
+function setup(){ 
+    particles = [];
+    for (let i = 0; i < opts.particleAmount; i++){
+        particles.push( new Particle() );
+    }
+    window.requestAnimationFrame(loop);
+}
+```
