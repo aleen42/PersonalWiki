@@ -157,7 +157,7 @@ The `setup` function creates a `particles` array, and fills it with a series of 
 That `loop` function looks like this:
 
 ```js
-function loop(){ 
+function loop() { 
     window.requestAnimationFrame(loop);
     drawArea.clearRect(0,0,w,h);
     
