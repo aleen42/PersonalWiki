@@ -9,7 +9,7 @@
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
-Perhaps one of the most recognizable visual motifs of the last several years is the animation style you should see above; I’m not sure it has a name, but I call it a *dynamic point mesh animation*. This is my variation on the style, derived from previous work by Daniel Mayovskiy.
+Perhaps one of the most recognizable visual motifs of the last several years is the animation style you should see above; I'm not sure it has a name, but I call it a *dynamic point mesh animation*. This is my variation on the style, derived from previous work by Daniel Mayovskiy.
 
 Frequently such animations are layered behind other content, so it makes sense to size this example to the same size as the viewport:
 
@@ -65,7 +65,7 @@ const opts = {
 
 The variants for speed and radius are used to add [randomness](http://thenewcode.com/82/Recipes-for-Randomness-in-JavaScript) to the size and movement of the mesh points; linkRadius is how close the points must come before they are joined with lines.
 
-The &lt;canvas&gt; element must be resized so that the particles always meet the edge of the browser window. The `resizeReset()` function is called once on script load, but needs to be throttled or “debounced” so that it doesn’t slow down the script during operation of the rest of the page:
+The &lt;canvas&gt; element must be resized so that the particles always meet the edge of the browser window. The `resizeReset()` function is called once on script load, but needs to be throttled or “debounced” so that it doesn't slow down the script during operation of the rest of the page:
 
 ```js
 let delay = 200, tid;
@@ -125,10 +125,10 @@ Particle = function(xPos, yPos){
 
 In the context of the script, this refers to each [particle](http://thenewcode.com/1133/Animation-Fundamentals-Understanding-Particles), as it is created:
 
-- the initial position, speed and angle of each particle are decided randomly; the particle’s color is determined from the associated option setting.
-- this.vector stores the direction of the particle: if `this.vector.x` is 1, it’s moving to the *right*; if `-1`, it’s moving to the *left*. Similarly, if `this.vector.y` is *negative*, it’s moving *up*, if *positive*, it’s moving *down*.
-- this.update calculates the next coordinates for each particle. First, it checks if the particle is touching the border; if the particle goes past the dimensions of the canvas, it’s vector is changed, multiplied by -1 to produce the opposite direction
-- a window resize may leave a particle further across the perimeter than the border function will capture, so a series of if statements checks if that’s the case, resetting the position of the particle to the current limits of the canvas.
+- the initial position, speed and angle of each particle are decided randomly; the particle's color is determined from the associated option setting.
+- this.vector stores the direction of the particle: if `this.vector.x` is 1, it's moving to the *right*; if `-1`, it's moving to the *left*. Similarly, if `this.vector.y` is *negative*, it's moving *up*, if *positive*, it's moving *down*.
+- this.update calculates the next coordinates for each particle. First, it checks if the particle is touching the border; if the particle goes past the dimensions of the canvas, it's vector is changed, multiplied by -1 to produce the opposite direction
+- a window resize may leave a particle further across the perimeter than the border function will capture, so a series of if statements checks if that's the case, resetting the position of the particle to the current limits of the canvas.
 - finally, the dots are drawn in place.
 
 To start it all moving, we need the following:
