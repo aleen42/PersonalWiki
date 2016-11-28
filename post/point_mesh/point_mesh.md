@@ -108,9 +108,11 @@ Particle = function(xPos, yPos){
         if (this.x >= w || this.x <= 0) { 
             this.vector.x *= -1;
         }
+        
         if (this.y >= h || this.y <= 0) {
             this.vector.y *= -1;
         }
+        
         if (this.x > w) this.x = w;
         if (this.y > h) this.y = h;
         if (this.x < 0) this.x = 0;
