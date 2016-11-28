@@ -232,3 +232,9 @@ let linkPoints = function(point1, hubs){
     }
 }
 ```
+
+### Conclusion
+
+The result (using aspects of ES6) is very efficient, and I encourage you to experiment with the various options in the script.
+
+Note that the animation can be brought to its knees by adding too many points and/or too great a link distance (which creates too many lines). It would also be nice to have the speed of the particles slow down as the viewport narrows: at small sizes, the particles appear to move faster in a more confined space.
