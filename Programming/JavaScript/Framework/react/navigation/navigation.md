@@ -1,4 +1,4 @@
-## Multilevel Navigation [Back](./../react.md)
+## Multi-level Navigation [Back](./../react.md)
 
 <p align="center">
     <img src="./preview.png" width="100%" alt="multilevel navigation" title="typer" />
