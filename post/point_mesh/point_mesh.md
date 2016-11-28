@@ -141,7 +141,7 @@ In the context of the script, `this` refers to each [particle](http://thenewcode
 To start it all moving, we need the following:
 
 ```js
-function setup(){ 
+function setup() { 
     particles = [];
     
     for (let i = 0; i < opts.particleAmount; i++){
