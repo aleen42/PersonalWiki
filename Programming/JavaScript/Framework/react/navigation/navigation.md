@@ -32,12 +32,7 @@ import { Navigation } from 'navigation.jsx';
 
 /** you can also use <Navigation /> */
 ReactDOM.render(
-    <Navigation text={
-        [
-            'text1',
-            'text2'
-        ]
-    }></Navigation>,
+    <Navigation data={data}></Navigation>,
     document.querySelector('.container')
 );
 ```
