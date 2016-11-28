@@ -99,7 +99,7 @@ Particle = function(xPos, yPos){
         y: Math.sin(this.directionAngle) * this.speed
     };
     
-    this.update = function(){ 
+    this.update = function () { 
         this.border(); 
         this.x += this.vector.x; 
         this.y += this.vector.y; 
