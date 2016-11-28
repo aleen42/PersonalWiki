@@ -234,3 +234,113 @@ This chapter is mainly showing a variety of regular expression constructs and te
         content.replace(/^(.*)$([\s\S]*?)(?:(?:\r?\n|\r)\1$)+/, '$1$2');
     }
     ```
+
+### Match complete lines that contain a word
+
+- **Problem**
+
+    You may want to match all lines that contain the word **error** anywhere within them. How?
+
+- **Solution**
+
+    **/^.&#42;\\berror\\b.&#42;$/i**
+
+### Match complete lines that do not contain a word
+
+- **Problem**
+
+    You may want to match complete lines that do not contain the word **error**. How?
+
+- **Solution**
+
+    **/^(?:(?!\\berror\\b).)&#42;$/i**
+
+- **Discussion**
+
+    As you can see, the negative lookahead (`(?!)`) and a dot (`.`) are repeated together using a non-capturing group, which is in order to ensure that the regex `\berror\b` fails at every position in the line.
+
+    > Testing a negative lookahead against every position in a line or string is rather inefficient, and when programming, it's more efficient to search through text line by line.
+
+### Trim leading and trailing (結尾的) whitespace
+
+- **Problem**
+
+    How to remove leading and trailing whitespace from a string?
+
+- **Solution**
+    - Trim the leading one
+
+        ```js
+        function trimLeadingWhitespace(subject) {
+            subject.replace('/^\s+/', '');
+        }
+        ```
+
+    - Trim the trailing one:
+
+        ```js
+        function trimTrialingWhitespace(subject) {
+            subject.replace('/\s+$/', '');
+        }
+        ```
+
+- **Discussion**
+
+    You may consider using `String.prototype.trim()` to complete the job for you, but for older browsers, you may also consider adding a polyfill for such a new method:
+
+    ```js
+    if (!String.prototype.trim) {
+        String.prototype.trim = function () {
+            return this.replace(/^\s+/, '').replace(/\s+$/, '');
+        };
+    }
+    ```
+
+    Certainly, there're also many other ways to trim a string, but the alternatives are usually slower than using two simple regular expression above.
+
+    ```js
+    function trim(subject) {
+        subject.replace(/^\s+|\s+$/g);
+    }
+    ```
+
+    ```js
+    function trim(subject) {
+        subject.replace(/^\s*([\s\S]*?)\s*$/, '$1');
+    }
+    ```
+
+    ```js
+    function trim(subject) {
+        subject.replace(/^\s*([\s\S]*\S)?\s*$/, '$1');
+    }
+    ```
+
+    ```js
+    function trim(subject) {
+        subject.replace(/^\s*(\S*(?:\s+\S+)*)\s*$/, '$1');
+    }
+    ```
+
+### Replace repeated whitespace with a single space
+
+- **Problem**
+
+    How to replace all types of whitespaces with a single space, such as any tabs, line breaks or other whitespace.
+
+- **Solution**
+    - **Clean any whitespace characters**
+
+    ```js
+    function convert(subject) {
+        subject.replace(/\s+/, ' ');
+    }
+    ```
+
+    - **Clean horizontal whitespace characters**
+
+    ```js
+    function convert(subject) {
+        subject.replace(/ \t\xA0/, ' ');
+    }
+    ```
