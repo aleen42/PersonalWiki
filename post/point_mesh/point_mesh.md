@@ -43,7 +43,7 @@ To ensure that the [`&lt;canvas&gt;`](http://thenewcode.com/1128/Web-Developer-R
 let resizeReset = function () {
     w = canvasBody.width = window.innerWidth;
     h = canvasBody.height = window.innerHeight;
-}；
+};
 ```
 
 ### Creating the Dots
