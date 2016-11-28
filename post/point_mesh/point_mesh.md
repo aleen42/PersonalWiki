@@ -195,7 +195,7 @@ To draw the lines, the `loop()` function is added to, becoming:
 ```js
 function loop(){ 
     window.requestAnimationFrame(loop);
-    drawArea.clearRect(0,0,w,h);
+    drawArea.clearRect(0, 0, w, h);
     
     for (let i = 0; i < particles.length; i++){
         particles[i].update();
