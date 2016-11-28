@@ -79,3 +79,72 @@ Since the regex engine has not known the meaning after a number, this chapter ha
     - Find a string of hexadecimal bytes:
 
         **/\\b(?:[0-9A-F]{2})+\\b/**
+
+### Binary Numbers
+
+- **Problem**
+
+    Detect a binary number from a string.
+
+- **Solution**
+    - Find a binary number in a string:
+
+        **/\\b[01]+\\b/**
+
+    - Check whether a text string holds just a binary number:
+
+        **/^[01]+$/**
+
+    - Find a binary number with a `0b` prefix:
+
+        **/\\b0b[01]+\\b/**
+
+    - Find a binary number with a `B` suffix:
+
+        **/\\b[01]+B\\b/i**
+
+    - Find a binary byte value or 8-bit number:
+
+        **/\\b[01]{8}\\b/**
+
+    - Find a binary word value or 16-bit number:
+
+        **/\\b[01]{16}\\b/**
+
+    - Find a string of bytes:
+
+        **/\\b(?:[01]{8})+\\b/**
+
+### Octal Numbers
+
+- **Problem**
+
+    Detect an octal number in a string.
+
+- **Solution**
+    - Find an octal number from a string:
+
+        **/\\b0[0-7]&#42;\\b/**
+
+    - Check whether a text string holds just an octal number:
+
+        **/^0[0-7]&#42;$/**
+
+    - Find an octal number with a `0o` prefix:
+
+        **/\\b0o[0-7]+\\b/**
+
+### Decimal Numbers
+
+- **Problem**
+
+    Detect an integer decimal number in a string.
+
+- **Solution**
+    - Find any positive integer decimal number without a leading zero from a string:
+
+        **/\\b(0|[1-9][0-9]&#42;)\\b/**
+
+    - Check whether a string holds just a positive integer decimal number without a leading zero:
+
+        **/^(0|[1-9][0-9]&#42;)$/**
