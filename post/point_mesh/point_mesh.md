@@ -105,7 +105,7 @@ Particle = function(xPos, yPos){
         this.y += this.vector.y; 
     };
     
-    this.border = function(){ 
+    this.border = function () { 
         if (this.x >= w || this.x <= 0) { 
             this.vector.x *= -1;
         }
