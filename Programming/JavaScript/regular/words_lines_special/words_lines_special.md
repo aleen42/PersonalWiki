@@ -14,7 +14,7 @@ This chapter is mainly showing a variety of regular expression constructs and te
 
 - **Discussion**
 
-    A problem can occur when working with international text in JavaScript, since this kind of regular expression flavors only consiers letters in the ASCII table to create a word boundary. In other words, word boundaries are found only at the positions between a match of **/[^A-Za-z0-9]|^/** and **/[A-Za-z0-9_]/**, or between **/[A-Za-z0-9_]/** and **/[^A-Za-z0-9_]|$/**. It means that `\b` is not helpful when searching within text that contains accented (異國的) letters or words that use non-Latin scripts.
+    A problem can occur when working with international text in JavaScript, since this kind of regular expression flavors only consiers letters in the ASCII table to create a word boundary. In other words, word boundaries are found only at the positions between a match of **/[&#94;A-Za-z0-9]|^/** and **/[A-Za-z0-9_]/**, or between **/[A-Za-z0-9_]/** and **/[&#94;A-Za-z0-9_]|$/**. It means that `\b` is not helpful when searching within text that contains accented (異國的) letters or words that use non-Latin scripts.
 
     For example, **/\\büber\\b/** will find a match within **darüber**, but not within **dar über**.
 
@@ -108,3 +108,73 @@ This chapter is mainly showing a variety of regular expression constructs and te
 - **Discussion**
 
     Certainly, if you're trying t match any word that does not contain **cat**, you may need to use a slightly different way: **/\\b(?:(?!cat)\\w)+\\b/i**.
+
+### Find any word not followed by a specific word
+
+- **Problem**
+
+    You may want to match any word that is not immediately followed by the word **cat**.
+
+- **Solution**
+
+    **/\\b\\w+\\b(?!\\W+cat\\b)/i**
+
+- **Discussion**
+
+    If you want to only match words that are followed by **cat** without including **cat**, you can use another regular expression: **/\\b\w+\\b(?=\W+cat\\b)/i**.
+
+### Find any word not preceded by a specific word
+
+- **Problem**
+
+    You may want to match any word that is not immediately preceded by the word **cat**.
+
+- **Solution**
+
+    In JavaScript, lookbehind is not supported and what we can do is just to simulate it:
+
+    ```js
+    var subject = 'My cat is fluffy';
+    var mainRegex = /\b\w+/g;
+    var lookbehind = /\bcat\W+$/i;
+    var lookbehindType = false; /** false for negative, true for positive */
+    var matches = [];
+    var match;
+    var leftContext;
+
+    while (match = mainRegex.exec(subject)) {
+        leftContext = subject.substring(0, match.index);
+
+        if (lookbehindType === lookbehind.test(leftContext)) {
+            matches.push(match[0]);
+        } else {
+            mainRegex.lastIndex = match.index + 1;
+        }
+    }
+
+    console.log(matches);   /** => ["My", "cat", "fluffly"] */
+    ```
+
+- **Discussion**
+
+    In JavaScript, we may need to use two different patterns to simulate the process of lookbehind. The first pattern inside the lookbehind is **/\\bcat\\W+/**, and the second pattern that  comes after it is **/\\b\\w+/**. If you're using the option `/m` for multiple line, you may prefer to use `$(?!\s)` rather than `$`, so that it can match only at the very end of the subject text.
+
+    The `lookbehindType` variable controls whether we're emulating positive or negative lookbehind, while `true` for positive and `false` for negative.
+
+    Once match, the part of the subject text before the match will be copied into a new string variable named `leftContext`.
+
+    By comparing the result of the lookbehind test to `lookbehindType`, we can determine whether the match meets the complete criteria for a successful match. Then if it's a successful match, then store it with an array. If not, just change the position for a next coming matching.
+
+### Find words near each other
+
+- **Problem**
+
+    How to search two words "word1" and "word2" near each other (less than five other words) with regular expressions?
+
+- **Solution**
+
+    **/\\b(?:word1\\W+(?:\\w+\\W+){0,5}?word2|word2\\W+(?:\\w+\\W+){0,5}?word1)\\b/i**
+
+- **Discussion**
+
+    If you simply want to test whether a list of words can be found anywhere in a subject string, you can use the regular expression: **/^(?=[\\s\\S]&#42;?\\bword1\\b)(?=[\\s\\S]&#42;?\\bword2\\b)[\\s\\S]&#42;/i**.
