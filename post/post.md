@@ -34,7 +34,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[原創] Mingtocat**](./mingtocat/mingtocat.md)
 - [**[原創] Memorial Missions for 12.17 Shenzhen**](./1217_mission_of_shenzhen/1217_mission_of_shenzhen.md)
 - [**[轉載] So, You're a Web Designer, Right?**](./so_a_web_designer/so_a_web_designer.md)
-- [**[轉載] Create a Dynamic Point Mesh Animation with HTML5 Canvas**](./so_a_web_designer/so_a_web_designer.md)
+- [**[轉載] Create a Dynamic Point Mesh Animation with HTML5 Canvas**](./point_mesh/point_mesh.md)
 
 ### Back-end
 
