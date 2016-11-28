@@ -1,7 +1,7 @@
 ## Multi-level Navigation [Back](./../react.md)
 
 <p align="center">
-    <img src="./preview.png" width="100%" alt="multilevel navigation" title="typer" />
+    <img src="./preview.png" width="100%" alt="multi-level navigation" title="typer" />
 </p>
 
 <p align="center">
