@@ -123,7 +123,7 @@ Particle = function(xPos, yPos){
 };
 ```
 
-In the context of the script, this refers to each [particle](http://thenewcode.com/1133/Animation-Fundamentals-Understanding-Particles), as it is created:
+In the context of the script, `this` refers to each [particle](http://thenewcode.com/1133/Animation-Fundamentals-Understanding-Particles), as it is created:
 
 - the initial position, speed and angle of each particle are decided randomly; the particle's color is determined from the associated option setting.
 - this.vector stores the direction of the particle: if `this.vector.x` is 1, it's moving to the *right*; if `-1`, it's moving to the *left*. Similarly, if `this.vector.y` is *negative*, it's moving *up*, if *positive*, it's moving *down*.
