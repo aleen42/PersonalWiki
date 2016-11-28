@@ -9,7 +9,7 @@
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
-Perhaps one of the most recognizable visual motifs of the last several years is the animation style you should see above; I'm not sure it has a name, but I call it a *dynamic point mesh animation*. This is my variation on the style, derived from previous work by Daniel Mayovskiy.
+Perhaps one of the most recognizable visual motifs of the last several years is the animation style you should see above; I'm not sure it has a name, but I call it a *dynamic point mesh animation*. This is my variation on the style, derived from previous work by [Daniel Mayovskiy](https://codepen.io/Godje/pen/zKazNq).
 
 Frequently such animations are layered behind other content, so it makes sense to size this example to the same size as the viewport:
 
