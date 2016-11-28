@@ -48,4 +48,4 @@ let resizeReset = function() {
 
 ### Creating the Dots
 
-`opts` is an object that contains a series of properties that act as default values for the script:
+`opts` is an [object](http://thenewcode.com/770/JavaScript-Fundamentals-Objects) that contains a series of properties that act as default values for the script:
