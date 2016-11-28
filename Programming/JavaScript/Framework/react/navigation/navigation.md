@@ -30,9 +30,9 @@ Then, you can use it by importing the component like:
 ```js
 import { Navigation } from 'navigation.jsx';
 
-/** you can also use <Typer /> */
+/** you can also use <Navigation /> */
 ReactDOM.render(
-    <Typer text={
+    <Navigation text={
         [
             'text1',
             'text2'
