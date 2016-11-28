@@ -82,7 +82,7 @@ let deBouncer = function() {
 };
 ```
 
-The Particle object is a fairly large function that generates each of the "dots":
+The `Particle` object is a fairly large function that generates each of the "dots":
 
 ```js
 Particle = function(xPos, yPos){ 
