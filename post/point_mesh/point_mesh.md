@@ -205,7 +205,7 @@ let checkDistance = function(x1, y1, x2, y2){
 };
 ```
 
-The checkDistance function determines the distance between each point; if that distance is less than linkDistance, the calculated opacity of the line will be greater than 0, and it will be drawn between the matching points.
+The checkDistance function determines the distance between each point; if that distance is less than linkDistance, the calculated [opacity](http://thenewcode.com/1081/CSS-alpha) of the line will be greater than 0, and it will be drawn between the matching points.
 
 Before we get there, the rgb color is broken into its components:
 
