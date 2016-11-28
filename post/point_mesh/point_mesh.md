@@ -158,7 +158,7 @@ function loop(){
 }
 ```
 
-The loop function clears the canvas area, updates each particle position, and draws it; the constant refreshing with requestAnimationFrame() creates the impression of animation.
+The `loop` function clears the canvas area, updates each particle position, and draws it; the constant refreshing with requestAnimationFrame() creates the impression of animation.
 
 Everything is started by calling the setup() function, after setting a few other constants and variables and initializing the resizeReset function:
 
