@@ -213,7 +213,7 @@ Before we get there, the [rgb color](http://thenewcode.com/1115/Using-RGB-Color-
 let rgb = opts.lineColor.match(/\d+/g);
 ```
 
-The linkPoints function checks each point against the other particles (referred to as "hubs" in the context of the function) and draws the line at the determined level of [opacity](http://thenewcode.com/1081/CSS-alpha), using template literals:
+The linkPoints function checks each point against the other particles (referred to as "hubs" in the context of the function) and draws the line at the determined level of [opacity](http://thenewcode.com/1081/CSS-alpha), using [template literals](http://thenewcode.com/1156/Better-JavaScript-Concatenation-with-Template-Literals):
 
 ```js
 let linkPoints = function(point1, hubs){ 
