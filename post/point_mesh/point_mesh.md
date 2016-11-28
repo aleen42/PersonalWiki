@@ -25,6 +25,7 @@ body {
     margin: 0rem;
     min-height: 100vh;
 }
+
 #canvas {
     position: absolute;
     display: block;
