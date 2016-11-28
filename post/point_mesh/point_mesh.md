@@ -16,3 +16,20 @@ Frequently such animations are layered behind other content, so it makes sense t
 ```html
 <canvas id="canvas"></canvas>
 ```
+
+The CSS:
+
+```css
+body {
+    background: #222;
+    margin: 0rem;
+    min-height: 100vh;
+}
+#canvas {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+```
