@@ -37,7 +37,7 @@ ReactDOM.render(
             'text1',
             'text2'
         ]
-    }></Typer>,
+    }></Navigation>,
     document.querySelector('.container')
 );
 ```
