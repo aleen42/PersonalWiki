@@ -66,3 +66,18 @@ const opts = {
 The variants for speed and radius are used to add [randomness](http://thenewcode.com/82/Recipes-for-Randomness-in-JavaScript) to the size and movement of the mesh points; linkRadius is how close the points must come before they are joined with lines.
 
 The &lt;canvas&gt; element must be resized so that the particles always meet the edge of the browser window. The `resizeReset()` function is called once on script load, but needs to be throttled or “debounced” so that it doesn’t slow down the script during operation of the rest of the page:
+
+```js
+let delay = 200, tid;
+
+window.addEventListener("resize", function(){
+        deBouncer();
+});
+
+let deBouncer = function() {
+    clearTimeout(tid);
+    tid = setTimeout(function() {
+        resizeReset();
+    }, delay);
+};
+```
