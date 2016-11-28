@@ -1,7 +1,7 @@
 ## Rectangle Loading [Back](./../react.md)
 
 <p align="center">
-    <img src="./preview.png" width="30%" alt="rectangle loading" title="rectangle loading" />
+    <img src="./preview.png" alt="rectangle loading" title="rectangle loading" />
 </p>
 
 <p align="center">
