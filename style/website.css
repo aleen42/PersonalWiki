@@ -296,7 +296,6 @@ pre::-webkit-resizer {
 
 /** body scroll bar */
 .book .book-body {
-    margin: 10px;
     background-color: transparent !important;
 }
 
