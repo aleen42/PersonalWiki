@@ -74,9 +74,9 @@ window.addEventListener("resize", function () {
     deBouncer();
 });
 
-let deBouncer = function() {
+let deBouncer = function () {
     clearTimeout(tid);
-    tid = setTimeout(function() {
+    tid = setTimeout(function () {
         resizeReset();
     }, delay);
 };
