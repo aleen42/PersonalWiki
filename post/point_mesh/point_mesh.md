@@ -49,3 +49,16 @@ let resizeReset = function() {
 ### Creating the Dots
 
 `opts` is an [object](http://thenewcode.com/770/JavaScript-Fundamentals-Objects) that contains a series of properties that act as default values for the script:
+
+```js
+const opts = { 
+        particleColor: "rgb(200,200,200)",
+        lineColor: "rgb(200,200,200)",
+        particleAmount: 40,
+        defaultSpeed: 1,
+        variantSpeed: 1,
+        defaultRadius: 2,
+        variantRadius: 2,
+        linkRadius: 200,
+}
+```
