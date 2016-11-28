@@ -169,3 +169,10 @@ let delay = 200, tid;
 resizeReset();
 setup();
 ```
+
+At this point, the animation will look like a series of dots moving around the canvas:
+
+<p>
+<p data-height="373" data-theme-id="21735" data-slug-hash="ObjqBe" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="Dynamic Point Animation with HTML5 Canvas" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/ObjqBe/">Dynamic Point Animation with HTML5 Canvas</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
