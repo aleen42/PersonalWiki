@@ -26,3 +26,4 @@ Now, we start to talk about Regular Expressions in JavaScript with a category:
 - [**Programming with Regular Expression**](./programming/programming.md)
 - [**Validation and Formatting**](./validation_formatting/validation_formatting.md)
 - [**Words, Lines, and Special Characters**](./words_lines_special/words_lines_special.md)
+- [**Numbers**](./numbers/numbers.md)
