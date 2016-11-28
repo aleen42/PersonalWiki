@@ -71,7 +71,7 @@ The `<canvas>` element must be resized so that the particles always meet the edg
 let delay = 200, tid;
 
 window.addEventListener("resize", function(){
-        deBouncer();
+    deBouncer();
 });
 
 let deBouncer = function() {
