@@ -34,3 +34,5 @@ body {
     z-index: -1;
 }
 ```
+
+> The [Codepen version of this code](https://codepen.io/dudleystorey/pen/NbNjjX) has a little more detail, including the CSS and markup for placing the text on top of the animation.
