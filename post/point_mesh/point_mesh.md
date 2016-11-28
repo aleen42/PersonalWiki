@@ -86,7 +86,7 @@ let deBouncer = function () {
 The `Particle` object is a fairly large function that generates each of the "dots":
 
 ```js
-Particle = function(xPos, yPos){ 
+Particle = function (xPos, yPos) { 
     this.x = Math.random() * w; 
     this.y = Math.random() * h;
     this.speed = opts.defaultSpeed + Math.random() * opts.variantSpeed; 
