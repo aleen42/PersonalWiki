@@ -12,7 +12,7 @@
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
-data|false||an object for defining the structure of your navigation
+data|false||an object for defining the structure of your navigation, which structure will be explained later.
 
 
 ### Usage
