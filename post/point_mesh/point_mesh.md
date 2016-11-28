@@ -145,7 +145,7 @@ function setup(){
 
 The `setup` function creates a `particles` array, and fills it with a series of particle elements before calling the `loop` function, using `requestionAnimationFrame`.
 
-That loop function looks like this:
+That `loop` function looks like this:
 
 ```js
 function loop(){ 
