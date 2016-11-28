@@ -37,6 +37,34 @@ ReactDOM.render(
 );
 ```
 
+Pay more attention to the object `data`, which should be constructed like this:
+
+```js
+var data = {
+	name: 'ALL',
+	children: [
+		{ name: 'item1', children: null },
+		{ name: 'item2', children: [
+			{ name: 'item12', children: null },
+			{ name: 'item13', children: null }
+		]},
+		{ name: 'item3', children: [
+			{ name: 'item4', children: null },
+			{ name: 'item5', children: [
+				{ name: 'item7', children: null },
+				{ name: 'item8', children: null }
+			]},
+			{ name: 'item6', children: [
+				{ name: 'item9', children: null }
+			]},
+			{ name: 'item10', children: [
+				{ name: 'item11', children: null }
+			]}
+		]}
+	]
+};
+```
+
 ### Demo
 
 <p>
