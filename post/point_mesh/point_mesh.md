@@ -204,3 +204,13 @@ let checkDistance = function(x1, y1, x2, y2){
     return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 };
 ```
+
+The checkDistance function determines the distance between each point; if that distance is less than linkDistance, the calculated opacity of the line will be greater than 0, and it will be drawn between the matching points.
+
+Before we get there, the rgb color is broken into its components:
+
+```js
+let rgb = opts.lineColor.match(/\d+/g);
+```
+
+The linkPoints function checks each point against the other particles (referred to as “hubs” in the context of the function) and draws the line at the determined level of opacity, using template literals:
