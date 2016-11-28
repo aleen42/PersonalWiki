@@ -142,9 +142,11 @@ To start it all moving, we need the following:
 ```js
 function setup(){ 
     particles = [];
+    
     for (let i = 0; i < opts.particleAmount; i++){
         particles.push( new Particle() );
     }
+    
     window.requestAnimationFrame(loop);
 }
 ```
