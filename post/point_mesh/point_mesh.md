@@ -52,13 +52,13 @@ let resizeReset = function() {
 
 ```js
 const opts = { 
-        particleColor: "rgb(200,200,200)",
-        lineColor: "rgb(200,200,200)",
-        particleAmount: 40,
-        defaultSpeed: 1,
-        variantSpeed: 1,
-        defaultRadius: 2,
-        variantRadius: 2,
-        linkRadius: 200,
+    particleColor: "rgb(200,200,200)",
+    lineColor: "rgb(200,200,200)",
+    particleAmount: 40,
+    defaultSpeed: 1,
+    variantSpeed: 1,
+    defaultRadius: 2,
+    variantRadius: 2,
+    linkRadius: 200,
 }
 ```
