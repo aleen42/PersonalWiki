@@ -1,7 +1,7 @@
 ## Typer [Back](./../react.md)
 
 <p align="center">
-    <img src="./preview.png" width="50%" alt="typer" title="typer" />
+    <img src="./preview.png" alt="typer" title="typer" />
 </p>
 
 <p align="center">
