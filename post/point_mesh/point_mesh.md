@@ -60,7 +60,7 @@ const opts = {
     defaultRadius: 2,
     variantRadius: 2,
     linkRadius: 200,
-}
+};
 ```
 
 The variants for speed and radius are used to add [randomness](http://thenewcode.com/82/Recipes-for-Randomness-in-JavaScript) to the size and movement of the mesh points; `linkRadius` is how close the points must come before they are joined with lines.
