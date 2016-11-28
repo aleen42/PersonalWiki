@@ -78,3 +78,4 @@
 - [**Paginate**](./paginate/paginate.md)
 - [**Rectangle Loading**](./rect_loading/rect_loading.md)
 - [**Typer**](./typer/typer.md)
+- [**Multi-level Navigation**](./navigation/navigation.md)
