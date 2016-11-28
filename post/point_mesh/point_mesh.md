@@ -142,3 +142,18 @@ function setup(){
     window.requestAnimationFrame(loop);
 }
 ```
+
+The setup function creates a particles array, and fills it with a series of particle elements before calling the loop function, using requestionAnimationFrame.
+
+That loop function looks like this:
+
+```js
+function loop(){ 
+    window.requestAnimationFrame(loop);
+    drawArea.clearRect(0,0,w,h);
+    for (let i = 0; i < particles.length; i++){
+        particles[i].update();
+        particles[i].draw();
+    }
+}
+```
