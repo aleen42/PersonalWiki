@@ -181,7 +181,7 @@ To create the mesh, we must add a little more code.
 
 ### Creating the Lines
 
-To draw the lines, the loop() function is added to, becoming:
+To draw the lines, the `loop()` function is added to, becoming:
 
 ```js
 function loop(){ 
