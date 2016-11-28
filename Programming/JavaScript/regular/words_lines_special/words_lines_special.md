@@ -178,3 +178,59 @@ This chapter is mainly showing a variety of regular expression constructs and te
 - **Discussion**
 
     If you simply want to test whether a list of words can be found anywhere in a subject string, you can use the regular expression: **/^(?=[\\s\\S]&#42;?\\bword1\\b)(?=[\\s\\S]&#42;?\\bword2\\b)[\\s\\S]&#42;/i**.
+
+### Find repeated words
+
+- **Problem**
+
+    You're editing a document and would like to check it for any incorrectly repeated words. You want to find these doubled words despite capitalization differences, such as with "The the". Besides, you may also want to allow different amounts of whitespace between words, even if it causes the words to extend across more than one line.
+
+- **Solution**
+
+    **/\\b([A-Z]+)\\s+\\1\\b/i**
+
+- **Discussion**
+
+    `\s+` matches any whitespace characters, such as spaces, tabs, or line breaks. If you want to restrict them that can separate repeated words to horizontal whitespace without line breaks, replace the `\s` with `[ \t\xA0]`, in which `\xA0` matches a no-break space, a.k.a `&nbsp;`.
+
+### Remove duplicate lines
+
+- **Problem**
+
+    You have a log file, database query output, or some other type of file or string with duplicate lines, and how to remove them?
+
+- **Solution**
+
+    There're three regex-based approaches that can be helpful:
+
+    - **Option 1: sort lines and remove them**
+
+    ```js
+    function replaceDuplicate(content) {
+        /**
+         * sort the content
+         * ...
+         */
+
+        /** remove with the following regular expression */
+        content.replace(/^(.*)(?:(?:\r?\n|\r)\1)+/, '$1');
+    }
+    ```
+
+    - **Option 2: Keep the last occurrence of each duplicate line in an unsorted file**
+
+    ```js
+    function replaceDuplicate(content) {
+        /** remove with the following regular expression */
+        content.replace(/^(.*)(?:\r?\n|\r)(?=[\s\S]*^\1$)/, '');
+    }
+    ```
+
+    - **Option 3: Keep the first occurrence of each duplicate line in an unsorted file**
+
+    ```js
+    function replaceDuplicate(content) {
+        /** remove with the following regular expression */
+        content.replace(/^(.*)$([\s\S]*?)(?:(?:\r?\n|\r)\1$)+/, '$1$2');
+    }
+    ```
