@@ -201,6 +201,7 @@ function loop(){
         particles[i].update();
         particles[i].draw();
     }
+    
     for (let i = 0; i < particles.length; i++){
         linkPoints(particles[i], particles);
     }
