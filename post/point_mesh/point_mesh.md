@@ -65,7 +65,7 @@ const opts = {
 
 The variants for speed and radius are used to add [randomness](http://thenewcode.com/82/Recipes-for-Randomness-in-JavaScript) to the size and movement of the mesh points; linkRadius is how close the points must come before they are joined with lines.
 
-The &lt;canvas&gt; element must be resized so that the particles always meet the edge of the browser window. The `resizeReset()` function is called once on script load, but needs to be throttled or “debounced” so that it doesn't slow down the script during operation of the rest of the page:
+The &lt;canvas&gt; element must be resized so that the particles always meet the edge of the browser window. The `resizeReset()` function is called once on script load, but needs to be throttled or "debounced" so that it doesn't slow down the script during operation of the rest of the page:
 
 ```js
 let delay = 200, tid;
@@ -82,7 +82,7 @@ let deBouncer = function() {
 };
 ```
 
-The Particle object is a fairly large function that generates each of the “dots”:
+The Particle object is a fairly large function that generates each of the "dots":
 
 ```js
 Particle = function(xPos, yPos){ 
@@ -213,7 +213,7 @@ Before we get there, the rgb color is broken into its components:
 let rgb = opts.lineColor.match(/\d+/g);
 ```
 
-The linkPoints function checks each point against the other particles (referred to as “hubs” in the context of the function) and draws the line at the determined level of opacity, using template literals:
+The linkPoints function checks each point against the other particles (referred to as "hubs" in the context of the function) and draws the line at the determined level of opacity, using template literals:
 
 ```js
 let linkPoints = function(point1, hubs){ 
