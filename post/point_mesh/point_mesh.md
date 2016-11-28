@@ -161,3 +161,11 @@ function loop(){
 The loop function clears the canvas area, updates each particle position, and draws it; the constant refreshing with requestAnimationFrame() creates the impression of animation.
 
 Everything is started by calling the setup() function, after setting a few other constants and variables and initializing the resizeReset function:
+
+```js
+const canvasBody = document.getElementById("canvas"),
+drawArea = canvasBody.getContext("2d");
+let delay = 200, tid;
+resizeReset();
+setup();
+```
