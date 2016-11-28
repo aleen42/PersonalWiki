@@ -194,7 +194,7 @@ To create the mesh, we must add a little more code.
 To draw the lines, the `loop()` function is added to, becoming:
 
 ```js
-function loop(){ 
+function loop() { 
     window.requestAnimationFrame(loop);
     drawArea.clearRect(0, 0, w, h);
     
