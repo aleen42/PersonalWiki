@@ -12,10 +12,8 @@
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
-text|false||an array to store texts which you want to show
-typeSpeed|true|100|the speed of typing, 100 means to type one character per 100ms
-typeBackSpeed|true|25|the speed of typing back, 25 means to type back one character per 25ms
-typeDelay|true|2000|the delay time of typing, 2000 means that the text will have hold to show for 2 seconds
+data|false||an object for defining the structure of your navigation
+
 
 ### Usage
 
