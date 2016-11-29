@@ -22,6 +22,7 @@ JavaScript|To specify the behavior of web pages.
 * [Types, Values, and Variables](./Type/Type.md)
 * [Array](./array/array.md)
 * [Regular Expressions](./regular/regular.md)
+* [Data Structure](./data_structure/data_structure.md)
 
 #### Advanced
 
