@@ -39,6 +39,7 @@ function remove(data) {
     
     if (index > 0) {
         this.dataStore.slice(index, 1);
+        return true;
     }
 }
 ```
