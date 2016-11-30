@@ -179,7 +179,9 @@ function remove(data) {
 }
 
 function removeNode(node, data) {
-    
+    if (node === null) {
+        reurn null;
+    }
 }
 ```
 
