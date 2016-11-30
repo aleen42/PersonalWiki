@@ -5,3 +5,5 @@ Sometimes, data will have a hierarchy, such as files in a file system, and for t
 ### Trees Defined
 
 A tree is made up of a set of **nodes** connected by **edges**. An example of a tree is a company's organiztional chart (*Figure 1*).
+
+
