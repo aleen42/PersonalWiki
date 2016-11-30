@@ -144,5 +144,7 @@ function getMax() {
     while (current.left !== null) {
         current = current.left;
     }
+    
+    return current.d
 }
 ```
