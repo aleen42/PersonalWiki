@@ -82,5 +82,7 @@ function union(set) {
     return tmpSet;
 }
 
-function interset
+function intersect(set) {
+    var tmpSet = new Set();
+}
 ```
