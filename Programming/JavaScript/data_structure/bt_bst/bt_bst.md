@@ -75,6 +75,7 @@ function insert(data) {
                 
                 if (current === null) {
                     parent.right = node;
+                    break;
                 }
             }
         }
