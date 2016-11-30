@@ -220,7 +220,7 @@ function getSmallest(node) {
         current = current.left;
     }
     
-    return 
+    return current;
 }
 ```
 
