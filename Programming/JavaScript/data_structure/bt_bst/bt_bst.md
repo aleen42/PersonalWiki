@@ -122,3 +122,7 @@ function postOrder(node) {
     }
 }
 ```
+
+### BST Searches
+
+
