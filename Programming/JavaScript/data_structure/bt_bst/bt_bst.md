@@ -215,6 +215,10 @@ function removeNode(node, data) {
 
 function getSmallest(node) {
     var current = node;
+    
+    while (current !== null) {
+        current = current.lef
+    }
 }
 ```
 
