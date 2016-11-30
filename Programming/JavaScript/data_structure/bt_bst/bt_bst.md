@@ -109,4 +109,8 @@ function preOrder(node) {
         inOrder(node.right);
     }
 }
+
+function postOrder(node) {
+    
+}
 ```
