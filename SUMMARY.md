@@ -181,6 +181,7 @@
                         * [Words, Lines, and Special Characters](./Programming/JavaScript/regular/words_lines_special/words_lines_special.md)
                         * [Numbers](./Programming/JavaScript/regular/numbers/numbers.md)
                     * [Data Structure](./Programming/JavaScript/data_structure/data_structure.md)
+                        * [Graphs](./graphs/graphs.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
