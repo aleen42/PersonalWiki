@@ -67,7 +67,7 @@ function union(set) {
     var tmpSet = new Set();
     var storeLen = this.dataStore.length;
     
-    for (var i = 0; i < this.dataStore.length; i++) {
+    for (var i = 0; i < storeLen; i++) {
         tmpSet.add(this.dataStore[i]);
     }
     
