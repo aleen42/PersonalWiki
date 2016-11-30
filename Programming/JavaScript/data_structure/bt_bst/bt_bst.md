@@ -56,6 +56,8 @@ function insert(data) {
     
     if (this.root = null) {
         this.root = node;
+    } else {
+        
     }
 }
 ```
