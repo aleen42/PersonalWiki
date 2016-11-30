@@ -129,7 +129,7 @@ function postOrder(node) {
 
 ```js
 function getMin() {
-    var current = this.node;
+    var current = this.root;
     
     while (current.left !== null) {
         current = current.left;
@@ -139,6 +139,6 @@ function getMin() {
 }
 
 function getMax() {
-    var current = this.root
+    var current = this.root;
 }
 ```
