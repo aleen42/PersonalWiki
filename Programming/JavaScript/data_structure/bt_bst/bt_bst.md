@@ -197,7 +197,8 @@ function removeNode(node, data) {
             return node.left;
         }
         
-        /** both left and right child is exsisted */
+        /** both the left and right child is exsisted */
+        
     } else if (data < node.data) {
         /** search recursively in the left tree */
         node.left = removeNode(node.left, data);
