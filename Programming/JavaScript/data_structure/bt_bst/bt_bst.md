@@ -49,6 +49,8 @@ function BST() {
     this.root = null;
     this.insert = insert;
     this.inOrder = inOrder;
+    this.preOrder = preOrder;
+    this.postOrder = postOrder;
 }
 
 function insert(data) {
