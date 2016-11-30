@@ -153,6 +153,12 @@ function getMax() {
 
 function find(data) {
     var current = this.root;
+    
+    while(current.data !== data) {
+        if (data < current.data) {
+            curent = current.left;
+        }
+    }
 }
 
 
