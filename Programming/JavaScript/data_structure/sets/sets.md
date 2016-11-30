@@ -38,7 +38,7 @@ function remove(data) {
     var index = this.dataStore.indexOf(data);
     
     if (index > 0) {
-        
+        this.dataStore.slice(index, 1);
     }
 }
 ```
