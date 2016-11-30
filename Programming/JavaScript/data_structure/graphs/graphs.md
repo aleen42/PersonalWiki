@@ -19,3 +19,11 @@ A graph whose pairs are ordered is called a directed graph (*Figure 1*), or just
 </p>
 
 A graph, which is not ordered, is called an unordered graph (*Figure 2*), or just a graph.
+
+<p align="center">
+    <img src"./a_digraph.png" title="diagraph" alt="diagraph" />
+</p>
+
+<p align="center">
+    <strong>Figure 1</strong> A diagraph (directed graph)
+</p>
