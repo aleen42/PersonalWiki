@@ -119,6 +119,6 @@ function subset(set) {
 }
 
 function difference(set) {
-    
+    var tmpSet = new Set();
 }
 ```
