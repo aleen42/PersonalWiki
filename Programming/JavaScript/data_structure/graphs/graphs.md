@@ -11,7 +11,7 @@ A graph consists of a set of **vertices** (頂點) and **edges**, which mainly c
 A graph whose pairs are ordered is called a directed graph (*Figure 1*), or just a digraph.
 
 <p align="center">
-    <img src"./a_digraph.png" title="diagraph" alt="diagraph" />
+    <img src="./a_digraph.png" title="diagraph" alt="diagraph" />
 </p>
 
 <p align="center">
