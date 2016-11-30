@@ -13,3 +13,6 @@ This chapter mainly covers some of them for you:
 - Binary Trees
 - Graphs
 
+As a developer in the computer science, you may know the famous sentences which says that:
+
+> Programs = Algorithms + Data Structures
