@@ -81,7 +81,11 @@ function addEdge(v, w) {
 /** a method for showing all vertices and what they connect to */
 function showGraph() {
     for (var i = 0; i < this.vertices; i++) {
+        putstr(i + ' -> ');
         
+        for (var j = 0; j < this.vertices; j++) {
+            
+        }
     }
 }
 ```
