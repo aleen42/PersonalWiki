@@ -186,7 +186,7 @@ function removeNode(node, data) {
     if (data === node.data) {
         /** no children */
         if (node.left === null && node.right === null) {
-            
+            return null;
         }
     }
 }
