@@ -33,4 +33,12 @@ function add(data) {
         return false;
     }
 }
+
+function remove(data) {
+    var index = this.dataStore.indexOf(data);
+    
+    if ( > 0) {
+        
+    }
+}
 ```
