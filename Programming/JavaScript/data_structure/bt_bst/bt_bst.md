@@ -14,4 +14,4 @@ A tree is made up of a set of **nodes** connected by **edges**. An example of a 
     <strong>Figure 1</strong> An organizational chart is a tree structure
 </p>
 
-The top node of a tree is called the **root** node. If a node is connected t other nodes below it, the preceding node is called the ****
+The top node of a tree is called the **root** node. If a node is connected t other nodes below it, the preceding node is called the **parent** node, while the following one is called the **child** nodes.
