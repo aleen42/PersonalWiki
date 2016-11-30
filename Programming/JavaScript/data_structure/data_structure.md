@@ -6,7 +6,8 @@ This chapter mainly covers some of them for you:
 
 - **Arrays**
 - **Lists**
-- **Stacks and queues**
+- **Stacks**
+- **Queues**
 - **Linked lists**
 - **Dictionaries**
 - **Hashing**
