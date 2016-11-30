@@ -11,5 +11,5 @@ A tree is made up of a set of **nodes** connected by **edges**. An example of a 
 </p>
 
 <p align="center">
-    <strong>Figure 1</strong> A diagraph (directed graph)
+    <strong>Figure 1</strong> An organizational chart is a tree structure
 </p>
