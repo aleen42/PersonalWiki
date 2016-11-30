@@ -64,7 +64,12 @@ function insert(data) {
             parent = current;
             
             if (data < current.data) {
-            
+                current = current.left;
+                
+                if (current === null) {
+                    parent.left = node;
+                    break;
+                }
             } eles {
             
             }
