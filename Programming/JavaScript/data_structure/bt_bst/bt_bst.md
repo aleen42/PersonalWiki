@@ -82,7 +82,7 @@ function insert(data) {
     }
 }
 
-/** to shw data in order */
+/** to show data in order */
 function inOrder() {
     
 }
