@@ -25,5 +25,5 @@ A graph, which is not ordered, is called an unordered graph (*Figure 2*), or jus
 </p>
 
 <p align="center">
-    <strong>Figure 1</strong> A diagraph (directed graph)
+    <strong>Figure 2</strong> An unordered graph
 </p>
