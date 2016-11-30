@@ -2,7 +2,7 @@
 
 Since the regex engine has not known the meaning after a number, this chapter has mainly matched all kinds of numbers with regular expressions.
 
-### Interget numbers
+### Integer numbers
 
 - **Problem**
 
