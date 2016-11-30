@@ -11,7 +11,7 @@ This chapter mainly covers some of them for you:
 - **Linked lists**
 - **Dictionaries**
 - **Hashing**
-- **Sets**
+- [**Sets**](./sets/sets/md)
 - [**Binary Trees and Binary Search Trees**](./bt_bst/bt_bst.md)
 - [**Graphs**](./graphs/graphs.md)
 
