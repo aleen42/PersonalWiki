@@ -16,5 +16,6 @@ function Set() {
     
     /** methods */
     this.add = add;
+    this.remove = remove;
 }
 ```
