@@ -165,6 +165,8 @@ function find(data) {
             return null;
         }
     }
+    
+    return curren
 }
 
 
