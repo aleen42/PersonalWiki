@@ -402,6 +402,13 @@ iframe::-webkit-resizer {
     z-index: 999 !important;
 }
 
+.book-body h1,
+.book-body h2,
+.book-body h3,
+.book-body h4 {
+    font-weight
+}
+
 .book-body h2 {
     padding: 30px 0 !important;
 }
