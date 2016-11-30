@@ -31,5 +31,6 @@ function add(data) {
         return true;
     } else {
         return false;
+    }
 }
 ```
