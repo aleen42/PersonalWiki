@@ -404,12 +404,12 @@ iframe::-webkit-resizer {
 
 .book-body h1,
 .book-body h2 {
-    font-weight: 60;    
+    font-weight: 600;    
 }
 
 .book-body h3,
 .book-body h4 {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .book-body h2 {
