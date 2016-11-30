@@ -110,6 +110,10 @@ function preOrder(node) {
     }
 }
 
+/**
+ * to show data in an order:
+ * left -> right -> parent
+ */
 function postOrder(node) {
     if (node !== null) {
         inOrder(node.left);
