@@ -6,4 +6,4 @@ In this chapter, we'll look at how networks are modeled with graphs in JavaScrip
 
 ### Graphs Definitions
 
-A graph consists of a set of **vertices** (頂點) and **edges**, which mainly consists of two kinds: A **digrapth** (directed graph) and an **unordered graph**. A graph whose pairs are ordered is called a directed graph, or just a digraph, while a graph is not ordered, it's called an unordered graph, or just a graph.
+A graph consists of a set of **vertices** (頂點) and **edges**, which mainly consists of two kinds: A **digrapth** (directed graph) and an **unordered graph**. A graph whose pairs are ordered is called a directed graph, or just a digraph, while a graph is not ordered, it's called an unorderred graph, or just a graph.
