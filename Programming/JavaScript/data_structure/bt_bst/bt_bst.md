@@ -212,5 +212,9 @@ function removeNode(node, data) {
         return node;
     }
 }
+
+function getSmallest(node) {
+    var current = node;
+}
 ```
 
