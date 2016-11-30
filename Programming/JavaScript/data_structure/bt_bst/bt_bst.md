@@ -191,6 +191,7 @@ function removeNode(node, data) {
     } else if (data < node.data) {
         /** search recursively in the left tree */
         node.left = removeNode(node.left, data);
+        return node;
     } else {
     
     }
