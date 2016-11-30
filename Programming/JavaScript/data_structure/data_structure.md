@@ -12,7 +12,7 @@ This chapter mainly covers some of them for you:
 - **Dictionaries**
 - **Hashing**
 - **Sets**
-- **Binary Trees and Binary Search Trees**
+- [**Binary Trees and Binary Search Trees**](./bt_bst/bt_bst.md)
 - [**Graphs**](./graphs/graphs.md)
 
 As a developer in the computer science, you may know the famous sentences which says that:
