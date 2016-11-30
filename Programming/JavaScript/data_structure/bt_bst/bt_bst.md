@@ -173,3 +173,6 @@ function find(data) {
 
 ### Removing nodes from a BST
 
+```js
+```
+
