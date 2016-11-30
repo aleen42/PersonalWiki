@@ -126,3 +126,13 @@ function postOrder(node) {
 ### BST Searches
 
 #### Searching for the Minimum and Maximum Value
+
+```js
+function getMin() {
+    var current= this.node;
+    
+    while (current.left !== null) {
+        current = current.left;
+    }
+}
+```
