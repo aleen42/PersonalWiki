@@ -83,7 +83,7 @@ function insert(data) {
 }
 
 /** to show data in order */
-function inOrder() {
+function inOrder(data) {
     
 }
 ```
