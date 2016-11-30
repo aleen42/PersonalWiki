@@ -63,6 +63,10 @@ function contain(data) {
     }
 }
 
+function size() {
+    return this.dataStore.length;
+}
+
 function union(set) {
     var tmpSet = new Set();
     var store = this.dataStore;
@@ -98,6 +102,6 @@ function intersect(set) {
 
 /** check whether it's a subset of the given set */
 function subset(set) {
-    if (
+    if (this.size() 
 }
 ```
