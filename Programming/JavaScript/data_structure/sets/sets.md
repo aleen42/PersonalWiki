@@ -14,5 +14,7 @@ A set is consider a **subset** of another set if all the members of the precedin
 function Set() {
     this.dataStore = [];
     
+    /** methods */
+    this.add = add;
 }
 ```
