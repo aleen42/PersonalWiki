@@ -34,3 +34,4 @@ A **cycle** is a path with at least one edge whose first and last vertices are t
 
 Two vertices are considered **strongly** connected (強連接) if there is a path from the first vertex to the second vertex, and vice versa (反之亦然). If the graph is a directed graph, and all its vertices are strongly connected, then the directed graph is considered strongly connected.
 
+### The Graph Class
