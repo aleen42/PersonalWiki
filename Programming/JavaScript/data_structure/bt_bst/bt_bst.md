@@ -46,6 +46,6 @@ function show() {
 
 ```js
 function BST() {
-    
+    this.root = null;
 }
 ```
