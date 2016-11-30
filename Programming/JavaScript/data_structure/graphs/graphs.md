@@ -4,4 +4,4 @@ The study of networks has become one of the great scientific hotbeds (熱點) of
 
 In this chapter, we'll look at how networks are modeled with graphs in JavaScript.
 
-### Graphs Definition
+### Graphs Definitions
