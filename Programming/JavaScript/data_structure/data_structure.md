@@ -4,14 +4,15 @@ As an experienced JavaScript developer moving to server-side programming, or in 
 
 This chapter mainly covers some of them for you:
 
-- Arrays and lists
-- Stacks and queues
-- Linked lists
-- Dictionaries
-- Hashing
-- Sets
-- Binary Trees
-- Graphs
+- **Arrays**
+- **Lists**
+- **Stacks and queues**
+- **Linked lists**
+- **Dictionaries**
+- **Hashing**
+- **Sets**
+- **Binary Trees**
+- **Graphs**
 
 As a developer in the computer science, you may know the famous sentences which says that:
 
