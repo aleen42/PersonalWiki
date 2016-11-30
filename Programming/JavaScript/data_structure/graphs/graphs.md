@@ -50,4 +50,4 @@ function Vertex(label) {
 
 For edges, we will use an **adjacency list** (鄰接表) or an array of adjacency list to represent. For example, if the vertex 2 is connected to vectices 0, 1, 3, and 4, the array `adj[2]` will store another array consists of `[0, 1, 3, 4]`.
 
-Another method for representing edges of a graph is called an **adjacency matrix** (鄰接矩陣).
+Another method for representing edges of a graph is called an **adjacency matrix** (鄰接矩陣). For example, if the vertex 2 is connected to vetices 0, 1, 3, and 4, then `adj[2][0]`, `adj[2][1]`, `adj[2][3]` and `adj[2][4]` are all assigned with 1, rather than 0.
