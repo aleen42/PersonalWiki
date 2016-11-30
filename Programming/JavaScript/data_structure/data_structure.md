@@ -13,7 +13,7 @@ This chapter mainly covers some of them for you:
 - **Hashing**
 - **Sets**
 - **Binary Trees**
-- **Graphs**
+- [**Graphs**](./graphs/graphs.md)
 
 As a developer in the computer science, you may know the famous sentences which says that:
 
