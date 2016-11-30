@@ -103,5 +103,10 @@ function inOrder(node) {
  * parent -> left -> right
  */
 function preOrder(node) {
+    if (node !== null) {
+    putstr(node.show() + ' ');
+        inOrder(node.left);
+        inOrder(node.right);
+    }
 }
 ```
