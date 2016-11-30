@@ -21,3 +21,5 @@ There is a special type of trees, called **binary trees**, restricting the numbe
 ### Binary Trees and Binary Search Trees
 
 Before talking about how to build a binary tree in JavaScript, there is something we should know.
+
+The child nodes of a parent node are referred 
