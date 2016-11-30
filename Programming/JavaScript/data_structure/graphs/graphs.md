@@ -47,3 +47,5 @@ function Vertex(label) {
 ```
 
 ### Edges
+
+For edges, we will use an **adjacency list** (鄰接表) or an array of adjacency list to represent.
