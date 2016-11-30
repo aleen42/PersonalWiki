@@ -111,6 +111,10 @@ function preOrder(node) {
 }
 
 function postOrder(node) {
-    
+    if (node !== null) {
+        inOrder(node.left);
+        inOrder(node.right);
+        putstr(node.show() + ' ');
+    }
 }
 ```
