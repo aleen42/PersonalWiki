@@ -194,6 +194,8 @@ function removeNode(node, data) {
         return node;
     } else {
         /** search recursively in the right tree */
+        node.right = removeNode(node.right, data);
+        return node;
     }
 }
 ```
