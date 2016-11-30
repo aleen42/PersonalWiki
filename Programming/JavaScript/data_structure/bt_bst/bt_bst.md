@@ -53,5 +53,9 @@ function BST() {
 
 function insert(data) {
     var node = new Node(data, null, null);
+    
+    if (this.root = null) {
+        this.root = node;
+    }
 }
 ```
