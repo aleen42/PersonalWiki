@@ -57,7 +57,8 @@ function insert(data) {
     if (this.root = null) {
         this.root = node;
     } else {
-        
+        var current = this.root;
+        var parent;
     }
 }
 ```
