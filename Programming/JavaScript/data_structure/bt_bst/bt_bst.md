@@ -159,6 +159,7 @@ function find(data) {
             current = current.left;
         } else {
             current = current.right;
+        }
         
         if (
     }
