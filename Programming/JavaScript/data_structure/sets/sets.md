@@ -89,7 +89,9 @@ function intersect(set) {
     var setStoreLen = setStore.length;
     
     for (var i = 0; i < setStoreLen; i++) {
-        tmpSet.add(setStore[i]);
+        if (this.contain(setStore[i])) {
+            tmpSet.add(setStore[i]);
+        }
     }
     
     return tmpSet;
