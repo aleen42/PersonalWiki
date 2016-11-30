@@ -17,12 +17,14 @@ function Set() {
     /** methods */
     this.add = add;
     this.remove = remove;
+    this.show = show;
+    
+    /** set operations */
     this.size = size;
     this.union = union;
     this.interset = interset;
     this.subset = subset;
     this.difference = difference;
-    this.show = show;
 }
 
 function add(data) {
