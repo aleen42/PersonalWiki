@@ -71,7 +71,11 @@ function insert(data) {
                     break;
                 }
             } eles {
-            
+                current = current.right;
+                
+                if (current === null) {
+                    parent.right = node;
+                }
             }
         }
     }
