@@ -24,4 +24,12 @@ function Set() {
     this.difference = difference;
     this.show = show;
 }
+
+function add(data) {
+    if (this.dataStore.indexOf(data) < 0) {
+        this.dataStore.add(data);
+        return true;
+    } else {
+        return false;
+}
 ```
