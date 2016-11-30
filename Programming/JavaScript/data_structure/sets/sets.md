@@ -108,7 +108,7 @@ function subset(set) {
         var store = this.dataStore;
         var storeLen = store.length;
         
-        for (var i = 0; i < setStoreLen; i++) {
+        for (var i = 0; i < storeLen; i++) {
             if (this.contain(setStore[i])) {
                 tmpSet.add(setStore[i]);
             }
