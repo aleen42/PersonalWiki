@@ -102,6 +102,8 @@ function intersect(set) {
 
 /** check whether it's a subset of the given set */
 function subset(set) {
-    if (this.size() 
+    if (this.size() > set.size()) {
+        return false;
+    }
 }
 ```
