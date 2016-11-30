@@ -95,4 +95,9 @@ function intersect(set) {
     
     return tmpSet;
 }
+
+/** check whether it's a subset of the given set */
+function subset(set) {
+    if (
+}
 ```
