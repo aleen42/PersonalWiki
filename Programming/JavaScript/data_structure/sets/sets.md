@@ -105,8 +105,8 @@ function subset(set) {
     if (this.size() > set.size()) {
         return false;
     } else {
-        var store = set.dataStore;
-        var storeLen = setStore.length;
+        var store = this.dataStore;
+        var storeLen = store.length;
         
         for (var i = 0; i < setStoreLen; i++) {
             if (this.contain(setStore[i])) {
