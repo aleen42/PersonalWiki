@@ -37,7 +37,7 @@ function add(data) {
 function remove(data) {
     var index = this.dataStore.indexOf(data);
     
-    if ( > 0) {
+    if (index > 0) {
         
     }
 }
