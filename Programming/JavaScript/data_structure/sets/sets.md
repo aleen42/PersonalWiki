@@ -104,6 +104,8 @@ function intersect(set) {
 function subset(set) {
     if (this.size() > set.size()) {
         return false;
+    } else {
+        
     }
 }
 ```
