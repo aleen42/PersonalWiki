@@ -175,6 +175,7 @@ function find(data) {
 
 ```js
 function remove(data) {
+    removeNode(this.root, data);
 }
 ```
 
