@@ -47,5 +47,7 @@ function show() {
 ```js
 function BST() {
     this.root = null;
+    this.insert = insert;
+    this.inOrder = inOrder;
 }
 ```
