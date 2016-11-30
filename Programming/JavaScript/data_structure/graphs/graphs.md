@@ -67,6 +67,8 @@ function Graph(v) {
         this.adj[i].push('');
     }
     
+    this.addEdge = addEdge;
+    this.toString = toString;
 }
 ```
 
