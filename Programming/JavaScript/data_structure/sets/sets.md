@@ -65,7 +65,8 @@ function contain(data) {
 
 function union(set) {
     var tmpSet = new Set();
-    var storeLen = this.dataStore.length;
+    var store = this.dataStore;
+    var storeLen = store.length;
     
     for (var i = 0; i < storeLen; i++) {
         tmpSet.add(this.dataStore[i]);
