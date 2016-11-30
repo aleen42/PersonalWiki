@@ -182,6 +182,10 @@ function removeNode(node, data) {
     if (node === null) {
         reurn null;
     }
+    
+    if (data === node.data) {
+        /** no children */
+    }
 }
 ```
 
