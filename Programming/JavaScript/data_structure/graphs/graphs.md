@@ -54,4 +54,11 @@ Another method for representing edges of a graph is called an **adjacency matrix
 
 ### Graphs
 
+Therefore, graphs can be designed as:
+
+```js
+function Graph(v) {
+    
+}
+```
 
