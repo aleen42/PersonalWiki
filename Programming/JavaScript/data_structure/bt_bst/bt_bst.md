@@ -224,3 +224,10 @@ function getSmallest(node) {
 }
 ```
 
+### Update a node
+
+```js
+update(node, data) {
+    /** remove the original node */
+}
+```
