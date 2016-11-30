@@ -18,6 +18,8 @@ The top node of a tree is called the **root** node. If a node is connected t oth
 
 There is a special type of trees, called **binary trees**, restricting the number of child nodes to no more than two.
 
+Visiting all nodes in a tree in some particular order is know as a **tree traversal**
+
 ### Binary Trees and Binary Search Trees
 
 Before talking about how to build a binary tree in JavaScript, there is something we should know.
