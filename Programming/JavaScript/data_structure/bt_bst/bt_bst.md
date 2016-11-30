@@ -151,4 +151,8 @@ function getMax() {
 
 #### Searching for a Specific Value
 
+function find(data) {
+    var current = this.root;
+}
+
 
