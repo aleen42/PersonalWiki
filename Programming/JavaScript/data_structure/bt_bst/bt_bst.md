@@ -41,3 +41,11 @@ function show() {
     return this.data;
 }
 ```
+
+### Binary Search Trees
+
+```js
+function BST() {
+    
+}
+```
