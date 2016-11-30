@@ -44,4 +44,8 @@ function remove(data) {
         return false;
     }
 }
+
+function show() {
+    return this.dataStore;
+}
 ```
