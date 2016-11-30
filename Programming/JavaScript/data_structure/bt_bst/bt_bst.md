@@ -149,6 +149,6 @@ function getMax() {
 }
 ```
 
-#### Searching for a Specific value
+#### Searching for a Specific Value
 
 
