@@ -82,7 +82,7 @@ function insert(data) {
     }
 }
 
-functio inOrder() {
+function inOrder() {
     
 }
 ```
