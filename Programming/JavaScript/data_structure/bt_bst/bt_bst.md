@@ -36,4 +36,8 @@ function Node(data, left, right) {
     
     this.show = show;
 }
+
+function show() {
+    return this.data;
+}
 ```
