@@ -64,6 +64,7 @@ function Graph(v) {
     
     for (var i = 0; i < this.vectices; i++) {
         this.adj[i] = [];
+        this.adj[i].push('');
     }
     
 }
