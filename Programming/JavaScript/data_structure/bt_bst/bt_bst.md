@@ -59,6 +59,10 @@ function insert(data) {
     } else {
         var current = this.root;
         var parent;
+        
+        for (;;) {
+            
+        }
     }
 }
 ```
