@@ -117,4 +117,8 @@ function subset(set) {
         return true;
     }
 }
+
+function difference(set) {
+    
+}
 ```
