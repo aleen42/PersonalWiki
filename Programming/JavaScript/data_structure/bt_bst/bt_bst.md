@@ -81,4 +81,8 @@ function insert(data) {
         }
     }
 }
+
+functio inOrder() {
+    
+}
 ```
