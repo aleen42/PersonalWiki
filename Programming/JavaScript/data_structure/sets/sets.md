@@ -109,7 +109,7 @@ function subset(set) {
         var storeLen = store.length;
         
         for (var i = 0; i < storeLen; i++) {
-            if (!set.contain(setStore[i])) {
+            if (!set.contain(store[i])) {
                 tmpSet.add(setStore[i]);
             }
         }
