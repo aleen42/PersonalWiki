@@ -84,6 +84,8 @@ function insert(data) {
 
 /** to show data in order */
 function inOrder(node) {
-    
+    if (node !== null) {
+        
+    }
 }
 ```
