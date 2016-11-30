@@ -78,7 +78,7 @@ function addEdge(v, w) {
     this.edges++;
 }
 
-/** a method for showing all vertices */
+/** a method for showing all vertices and what they connect to */
 function showGraph() {
 
 ```
