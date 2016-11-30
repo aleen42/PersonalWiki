@@ -141,10 +141,10 @@ function getMin() {
 function getMax() {
     var current = this.root;
     
-    while (current.left !== null) {
-        current = current.left;
+    while (current.right !== null) {
+        current = current.right;
     }
     
-    return current.d
+    return current.data;
 }
 ```
