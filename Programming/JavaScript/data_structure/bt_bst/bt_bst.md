@@ -201,6 +201,7 @@ function removeNode(node, data) {
         var tmpNode = getSmallest(node.right);
         node.data = tmpNode.data;
         node.right = removeNode(node.right, tmpNode.data);
+        return node;
     } else if (data < node.data) {
         /** search recursively in the left tree */
         node.left = removeNode(node.left, data);
