@@ -140,5 +140,9 @@ function getMin() {
 
 function getMax() {
     var current = this.root;
+    
+    while (current.left !== null) {
+        current = current.left;
+    }
 }
 ```
