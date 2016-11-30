@@ -87,7 +87,7 @@ function insert(data) {
 }
 
 /**
- * to show data in order:
+ * to show data in an order:
  * left -> parent -> right
  */
 
