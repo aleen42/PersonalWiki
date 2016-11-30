@@ -193,7 +193,7 @@ function removeNode(node, data) {
         node.left = removeNode(node.left, data);
         return node;
     } else {
-    
+        /** search recursively in the right tree */
     }
 }
 ```
