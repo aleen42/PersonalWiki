@@ -104,7 +104,7 @@ function inOrder(node) {
  */
 function preOrder(node) {
     if (node !== null) {
-    putstr(node.show() + ' ');
+        putstr(node.show() + ' ');
         inOrder(node.left);
         inOrder(node.right);
     }
