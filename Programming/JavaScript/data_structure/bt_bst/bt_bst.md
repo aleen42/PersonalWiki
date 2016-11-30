@@ -28,4 +28,7 @@ A binary search tree is a binary tree in which data with lesser values are store
 
 #### Nodes
 
+```js
+function Node(data, left, right) {
 
+```
