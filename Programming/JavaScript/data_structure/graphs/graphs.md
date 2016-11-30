@@ -39,3 +39,9 @@ Two vertices are considered **strongly** connected (強連接) if there is a pat
 Here we will discuss how to define a class for graphs.
 
 ### Vertices
+
+```js
+function Vertex(label) {
+    this.label = label;
+}
+```
