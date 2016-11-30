@@ -15,3 +15,5 @@ A tree is made up of a set of **nodes** connected by **edges**. An example of a 
 </p>
 
 The top node of a tree is called the **root** node. If a node is connected t other nodes below it, the preceding node is called the **parent** node, while the following one is called the **child** node. A ndoe without any child nodes is called a **leaf** node.
+
+There is a special type of trees, called **binary trees**, restricting the number of child nodes to no more than two. 
