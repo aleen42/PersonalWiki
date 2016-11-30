@@ -56,5 +56,9 @@ function show() {
 
 ```js
 function contain(data) {
+    if (this.data.indexOf(data) < 0) {
+        return false;
+    } else {
+        return true;
 }
 ```
