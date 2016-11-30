@@ -181,6 +181,7 @@
                         * [Words, Lines, and Special Characters](./Programming/JavaScript/regular/words_lines_special/words_lines_special.md)
                         * [Numbers](./Programming/JavaScript/regular/numbers/numbers.md)
                     * [Data Structure](./Programming/JavaScript/data_structure/data_structure.md)
+                        * [Binary Trees and Binary Search Trees](./Programming/JavaScript/data_structure/bt_bst/bt_bst.md)
                         * [Graphs](./Programming/JavaScript/data_structure/graphs/graphs.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
