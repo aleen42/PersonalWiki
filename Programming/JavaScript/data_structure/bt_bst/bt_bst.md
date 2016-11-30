@@ -177,5 +177,9 @@ function find(data) {
 function remove(data) {
     removeNode(this.root, data);
 }
+
+function removeNode(node, data) {
+    
+}
 ```
 
