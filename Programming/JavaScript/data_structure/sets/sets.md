@@ -53,3 +53,8 @@ function show() {
 ```
 
 ### Set Operations
+
+```js
+function contain(data) {
+}
+```
