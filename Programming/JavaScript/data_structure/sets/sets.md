@@ -78,5 +78,9 @@ function union(set) {
     for (var i = 0; i < setStoreLen; i++) {
         tmpSet.add(setStore[i]);
     }
+    
+    return tmpSet;
 }
+
+function interset
 ```
