@@ -21,7 +21,7 @@ A graph whose pairs are ordered is called a directed graph (*Figure 1*), or just
 A graph, which is not ordered, is called an unordered graph (*Figure 2*), or just a graph.
 
 <p align="center">
-    <img src"./an_unordered_graph.png" title="diagraph" alt="diagraph" />
+    <img src"./an_unordered_graph.png" title="unordered graph" alt="unordered graph" />
 </p>
 
 <p align="center">
