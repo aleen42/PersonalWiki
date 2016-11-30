@@ -188,6 +188,10 @@ function removeNode(node, data) {
         if (node.left === null && node.right === null) {
             return null;
         }
+    } else if (data < node.data) {
+        /** recursive to search in the left tree */
+    } else {
+    
     }
 }
 ```
