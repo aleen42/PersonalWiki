@@ -190,7 +190,7 @@ function removeNode(node, data) {
         }
         
         if (node.left === null) {
-            
+            return node.right;
         }
     } else if (data < node.data) {
         /** search recursively in the left tree */
