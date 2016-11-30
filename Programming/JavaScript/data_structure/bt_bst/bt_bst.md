@@ -198,7 +198,7 @@ function removeNode(node, data) {
         }
         
         /** both the left and the right child are exsisted */
-        var tmpNode = new Node(Math.max(node.left.data, node.right.data);
+        var tmpNode = new Node(Math.max(node.left.data, node.right.data));
     } else if (data < node.data) {
         /** search recursively in the left tree */
         node.left = removeNode(node.left, data);
