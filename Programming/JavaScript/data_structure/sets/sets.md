@@ -113,6 +113,8 @@ function subset(set) {
                 return false;
             }
         }
+        
+        return true;
     }
 }
 ```
