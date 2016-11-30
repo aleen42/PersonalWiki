@@ -230,6 +230,8 @@ function getSmallest(node) {
 update(node, data) {
     /** remove the original node */
     this.root = this.removeNode(this.root, node.data);
+    
+    /** insert after removing */
     this.insert(data);
 }
 ```
