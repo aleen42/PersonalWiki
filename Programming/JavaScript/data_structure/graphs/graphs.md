@@ -63,7 +63,8 @@ function Graph(v) {
     this.adj = [];
     
     for (var i = 0; i < this.vectices; i++) {
-
+        
+    }
     
 }
 ```
