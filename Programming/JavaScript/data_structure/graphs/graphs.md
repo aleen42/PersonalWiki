@@ -32,5 +32,5 @@ A **path** is a sequence of vertices in a graph such that all vertices in the pa
 
 A **cycle** is a path with at least one edge whose first and last vertices are the same. A simple cycle is one with no repeated edges or vertices for both directed and undirected graphs. Paths that repeat other vertices besides the first and last vertices are called **general cycles**. 
 
-Two vertices are considered **strongly** connected if there is a path from the first vertex to the second vertex, and vice versa (反之亦然). If the graph is a directed graph, and all its vertices are strongly connected, then the directed graph is considered strongly connected.
+Two vertices are considered **strongly** connected (強連接) if there is a path from the first vertex to the second vertex, and vice versa (反之亦然). If the graph is a directed graph, and all its vertices are strongly connected, then the directed graph is considered strongly connected.
 
