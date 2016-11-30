@@ -151,6 +151,7 @@ function getMax() {
 
 #### Searching for a Specific Value
 
+```js
 function find(data) {
     var current = this.root;
     
@@ -166,7 +167,7 @@ function find(data) {
         }
     }
     
-    return curren
+    return current;
 }
-
+```
 
