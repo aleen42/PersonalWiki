@@ -75,8 +75,8 @@ function union(set) {
         tmpSet.add(store[i]);
     }
     
-    for (var i = 0; i < set.data
+    for (var i = 0; i < setStoreLen; i++) {
     
-    for (var i = 0; i < 
+    }
 }
 ```
