@@ -60,7 +60,10 @@ Therefore, graphs can be designed as:
 function Graph(v) {
     this.vectices = v;
     this.edges = 0;
-    this.adj = []
+    this.adj = [];
+    
+    for (var i = 0; i < this.vectices; i++) {
+
     
 }
 ```
