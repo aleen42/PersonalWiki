@@ -90,7 +90,6 @@ function insert(data) {
  * to show data in an order:
  * left -> parent -> right
  */
-
 function inOrder(node) {
     if (node !== null) {
         inOrder(node.left);
@@ -99,6 +98,10 @@ function inOrder(node) {
     }
 }
 
+/**
+ * to show data in an order:
+ * parent -> left -> right
+ */
 function preOrder(node) {
 }
 ```
