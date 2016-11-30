@@ -174,7 +174,7 @@ function find(data) {
 ### Removing nodes from a BST
 
 ```js
-function remove(node) {
+function remove(data) {
 }
 ```
 
