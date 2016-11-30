@@ -60,5 +60,6 @@ function contain(data) {
         return false;
     } else {
         return true;
+    }
 }
 ```
