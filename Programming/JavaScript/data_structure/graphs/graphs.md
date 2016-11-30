@@ -6,4 +6,4 @@ In this chapter, we'll look at how networks are modeled with graphs in JavaScrip
 
 ### Graphs Definitions
 
-A graph consists of a set of **vertices** (頂點) and **edges**.
+A graph consists of a set of **vertices** (頂點) and **edges**, which mainly consists of two kinds: A **digrapth** (directed graph) and an **unordered graph**.
