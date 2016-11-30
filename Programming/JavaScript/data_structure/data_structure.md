@@ -17,4 +17,4 @@ As a developer in the computer science, you may know the famous sentences which 
 
 > Programs = Algorithms + Data Structures
 
-What it means is that any programs we created should usally require some types of structures to manage data.
+What it means is that any programs we created should usaully require some types of structures to manage data.
