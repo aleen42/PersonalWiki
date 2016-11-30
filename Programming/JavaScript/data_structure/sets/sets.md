@@ -120,5 +120,14 @@ function subset(set) {
 
 function difference(set) {
     var tmpSet = new Set();
+    var store = this.dataStore;
+    var storeLen = store.length;
+    
+    for (var i = 0; i < storeLen; i++) {
+        if (!set.contain(store[i])) {
+            tmpSet.add(store[i]);
+        }
+    }
+    
 }
 ```
