@@ -84,7 +84,6 @@ function union(set) {
 
 function intersect(set) {
     var tmpSet = new Set();
-    
     var setStore = set.dataStore;
     var setStoreLen = setStore.length;
     
