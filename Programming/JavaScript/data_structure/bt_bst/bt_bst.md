@@ -24,4 +24,4 @@ Before talking about how to build a binary tree in JavaScript, there is somethin
 
 The child nodes of a parent node are referred to as the **left** node and the **right** node.
 
-A binary search tree is a binary tree in which data with lesser values are stored in left nodes while greater ones in right nodes.
+A binary search tree is a binary tree in which data with lesser values are stored in left nodes while greater ones in right nodes. In another word, the value of the left node should be lesser than the parent node, and then lesser than the right node.
