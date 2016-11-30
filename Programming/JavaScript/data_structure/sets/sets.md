@@ -62,4 +62,12 @@ function contain(data) {
         return true;
     }
 }
+
+function union(set) {
+    var tmpSet = new Set();
+    
+    for (var i = 0; i < this.dataStore.length; i++) {
+        tmpSet.add(this.dataStore[i]);
+    }
+}
 ```
