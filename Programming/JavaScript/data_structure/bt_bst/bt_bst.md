@@ -50,4 +50,8 @@ function BST() {
     this.insert = insert;
     this.inOrder = inOrder;
 }
+
+function insert(data) {
+    var node = new Node(data, null, null);
+}
 ```
