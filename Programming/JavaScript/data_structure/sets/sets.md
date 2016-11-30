@@ -129,5 +129,6 @@ function difference(set) {
         }
     }
     
+    return tmpSet;
 }
 ```
