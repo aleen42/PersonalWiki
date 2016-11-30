@@ -403,7 +403,10 @@ iframe::-webkit-resizer {
 }
 
 .book-body h1,
-.book-body h2,
+.book-body h2 {
+    font-weight: 60;    
+}
+
 .book-body h3,
 .book-body h4 {
     font-weight: 400;
