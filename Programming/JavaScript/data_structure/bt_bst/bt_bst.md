@@ -61,7 +61,13 @@ function insert(data) {
         var parent;
         
         for (;;) {
+            parent = current;
             
+            if (data < current.data) {
+            
+            } eles {
+            
+            }
         }
     }
 }
