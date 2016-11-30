@@ -161,7 +161,9 @@ function find(data) {
             current = current.right;
         }
         
-        if (
+        if (current === null) {
+            return null;
+        }
     }
 }
 
