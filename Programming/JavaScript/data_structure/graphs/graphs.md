@@ -84,7 +84,7 @@ function showGraph() {
         putstr(i + ' -> ');
         
         for (var j = 0; j < this.vertices; j++) {
-            
+            putstr(this.adj[i][j] + ' ');
         }
     }
 }
