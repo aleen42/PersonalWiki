@@ -157,8 +157,8 @@ function find(data) {
     while(current.data !== data) {
         if (data < current.data) {
             current = current.left;
-            continue;
-        }
+        } else {
+            current = current.right;
         
         if (
     }
