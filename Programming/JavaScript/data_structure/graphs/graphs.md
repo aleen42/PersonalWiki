@@ -58,6 +58,9 @@ Therefore, graphs can be designed as:
 
 ```js
 function Graph(v) {
+    this.vectices = v;
+    this.edges = 0;
+    this.adj = []
     
 }
 ```
