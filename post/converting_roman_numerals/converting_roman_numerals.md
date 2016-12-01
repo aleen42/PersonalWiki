@@ -189,3 +189,5 @@ function fromRoman(str) {
     return result;
 }
 ```
+
+Please keep in mind that there are many ways to solve a problem and this solution is only one of many. There might be more efficient, beautiful or crafty solutions out there. If you have suggestions on how to improve this code, let me know in the comments. Until then, happy coding and enjoy the rest of your weekend.
