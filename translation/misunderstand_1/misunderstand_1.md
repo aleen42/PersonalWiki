@@ -159,4 +159,4 @@
 
 - Now that we have covered data selects and updates, we can take a look at deletes. A delete is very similar to an update; just like an update, it takes a number of parameters and does not return any results.
 - 既然我们已经谈过了数据的**查询和更新**，接下来看一看**数据删除**吧！**数据删除**同更新类似，同更新一样，它取得一些参数并不返回任何结果。
-- 在介绍了选择和更新数据之后，接下来我们看一看如何删除数据。删除与更新操作类似，它们都接收一组参数，而且都不返回结果。（动词提到前面）
+- 在介绍了**选择和更新**数据之后，接下来我们看一看如何删除数据。删除与更新操作类似，它们都接收一组参数，而且都不返回结果。（动词提到前面）
