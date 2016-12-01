@@ -16,4 +16,10 @@ Decimal|1|2|3|4|5|6|7|8|9|10
 :-----:|-|-|-|-|-|-|-|-|-|--
 Roman|I|II|III|IV|V|VI|VII|VIII|IX|X
 
-Let's take a look at two special cases 4 and 9. What happens here is that instead of adding values, we are subtracting the first value from the second. So the Roman numeral at 4 is effectively `5-1`. At 9 we are looking at `10-1`. In every other case, we are simply adding up all the numbers to build the sum. So VII is 5+1+1 = 7. As a rule of thumb, you should keep in mind that no letter should be repeated more than 3 times. If you are repeating it more than that, you should skip to the next letter and calculate the number using subtraction instead. Let's have a look at some examples
+Let's take a look at two special cases 4 and 9. What happens here is that instead of adding values, we are subtracting the first value from the second. So the Roman numeral at 4 is effectively `5-1`. At 9 we are looking at `10-1`. In every other case, we are simply adding up all the numbers to build the sum. So `VII` is `5+1+1 = 7`. As a rule of thumb, you should keep in mind that no letter should be repeated more than 3 times. If you are repeating it more than that, you should skip to the next letter and calculate the number using subtraction instead. Let's have a look at some examples
+
+
+Roman|LXVI|DXXX|XCVII|XXXIX|XIX
+:---:|----|----|-----|-----|---
+Calculation|50+10+5+1|500+10+10+10|100-10+5+1+1|10+10+10+10-1|10+10-1
+Result|66|530|97|39|19
