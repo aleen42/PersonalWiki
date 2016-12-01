@@ -45,8 +45,8 @@ First, our algorithm needs to know about the different Roman numerals. Let's add
 
 ```js
 function toRoman(num) {  
-  var decimal = [1000, 500, 100, 50, 10, 5, 1];
-  var roman = ["M", "D", "C", "L", "X", "V", "I"];
+    var decimal = [1000, 500, 100, 50, 10, 5, 1];
+    var roman = ["M", "D", "C", "L", "X", "V", "I"];
 }
 
 toRoman(24);  
@@ -86,5 +86,28 @@ toRoman(8) // returns 'VIII'
 toRoman(5) // returns 'V'  
 toRoman(3) // returns 'III'  
 toRoman(4) // returns 'IIII'  
-toRoman(9) // returns 'VIIII' 
+toRoman(9) // returns 'VIIII'
+```
+
+As our algorithm isn't as smart as we are, we need to fix this by adding in special cases for 4, 9, 40, 90 etc. to our arrays.
+
+```js
+function toRoman(num) {  
+    var result = '';
+    var decimal = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+    var roman = ["M", "CM","D","CD","C", "XC", "L", "XL", "X","IX","V","IV","I"];
+    
+    for (var i = 0;i<=decimal.length;i++) {
+        // looping over every element of our arrays
+        while (num%decimal[i] < num) {   
+            // keep trying the same number until it won't fit anymore      
+            result += roman[i];
+            // add the matching roman number to our result string
+            num -= decimal[i];
+            // remove the decimal value of the roman number from our number
+        }
+    }
+    
+    return result;
+}
 ```
