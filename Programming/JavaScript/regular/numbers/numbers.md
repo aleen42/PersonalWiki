@@ -323,4 +323,4 @@ Since the regex engine has not known the meaning after a number, this chapter ha
 
 - **Discussion**
 
-    If you want to convert a roman numerals to decimal one, you can check the [post: CONVERTING ROMAN NUMERALS](./../../../post/)
+    If you want to convert a roman numerals to decimal one, you can check the [post: CONVERTING ROMAN NUMERALS](./../../../../post/converting_roman_numerals/converting_roman_numerals.md)
