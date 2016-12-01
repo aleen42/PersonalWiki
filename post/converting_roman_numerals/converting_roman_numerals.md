@@ -64,7 +64,7 @@ function toRoman(num) {
     
     for (var i = 0; i <= decimal.length; i++) {
         // looping over every element of our arrays
-        while (num%decimal[i] < num) {   
+        while (num % decimal[i] < num) {   
             // keep trying the same number until we need to move to a smaller one     
             result += roman[i];
             // add the matching roman number to our result string
