@@ -60,7 +60,7 @@ Our algorithm could look something like this:
 function toRoman(num) {  
     var result = '';
     var decimal = [1000, 500, 100, 50, 10, 5, 1];
-    var roman = ["M", "D", "C", "L", "X", "V", "I"];
+    var roman = ['M', 'D', 'C', 'L', 'X', 'V', 'I'];
     
     for (var i = 0;i<=decimal.length;i++) {
         // looping over every element of our arrays
