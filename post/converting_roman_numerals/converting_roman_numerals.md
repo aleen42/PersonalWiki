@@ -46,7 +46,7 @@ First, our algorithm needs to know about the different Roman numerals. Let's add
 ```js
 function toRoman(num) {  
     var decimal = [1000, 500, 100, 50, 10, 5, 1];
-    var roman = ["M", "D", "C", "L", "X", "V", "I"];
+    var roman = ['M', 'D', 'C', 'L', 'X', 'V', 'I'];
 }
 
 toRoman(24);  
