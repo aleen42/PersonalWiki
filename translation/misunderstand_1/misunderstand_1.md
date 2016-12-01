@@ -182,3 +182,5 @@
 - The model is a great tool for communication between developers and users, and the better the communication is between those groups, the better the software will become, both in the short and the long run.
 - 模型是开发人员与用户之间极好的**沟通**工具，而且这二者之间的沟通越好，所开发出来的软件就会越好，无论从短期还是长期来讲，都是如此。
 - 模型是开发人员与用户之间**沟通**的极好工具，而且这二者之间的沟通越好，所开发出来的软件就会越好，无论从短期还是长期来讲，都是如此。
+
+> [分析]从英文原文看，整段的中心词是communication（沟通），因此中文里也应该尽量将这个词安排为中心词，即把它放在突出的位置上。前一句中的“沟通”是××词组中的一个“嵌入修饰词”，而后一句中的“沟通”则成为了定语，在句子中的地位有了明显提升，其中心词的地位也得到了落实。这样修改，恰好与后面的“沟通越好”保持一致，重点更突出，意思也更明确了。
