@@ -146,13 +146,13 @@
 好，下面就通过几个简单的英译中的句子，来体会一下“动词提到前面”。
 
 - Different Patterns for Dealing with the Main Logic
-- 主逻辑的不同处理模式
-- 处理主逻辑的不同模式（动词提到前面）
+- 主逻辑的不同**处理**模式
+- **处理**主逻辑的不同模式（动词提到前面）
 
 <br />
 
 - Spring supports a variety of remote access mechanisms
-- Spring对很多远程访问机制提供支持
+- Spring对很多远程访问机制提供**支持**
 - Spring**支持**很多远程访问机制（动词提到前面；感觉译者并非故意变换表达方式）
 
 <br />
