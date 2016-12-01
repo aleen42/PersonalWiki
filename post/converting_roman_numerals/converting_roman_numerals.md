@@ -53,3 +53,38 @@ toRoman(24);
 ```
 
 The idea behind our next step is simple. Let's take a number like 8 for example. We first check if it's dividable by 1000, 500 then 100 etc. - Once we find a value that is smaller or equal to our number, we will push the matching letter to our solution and subtract this value from our number. In the case of 8, it'd be `8-5 = 3`. Then we will again look for a match. The only number that matches our remainder of 3 now is I. We will once again add I to our result, subtract it from our number (3-1) and repeat the whole process until we reach 0. This will cause our algorithm to have pushed 1x `V` and 3x `I`. Combined the result will be `VIII`.
+
+Our algorithm could look something like this:
+
+```js
+function toRoman(num) {  
+    var result = '';
+    var decimal = [1000, 500, 100, 50, 10, 5, 1];
+    var roman = ["M", "D", "C", "L", "X", "V", "I"];
+    
+    for (var i = 0;i<=decimal.length;i++) {
+        // looping over every element of our arrays
+        while (num%decimal[i] < num) {   
+            // keep trying the same number until we need to move to a smaller one     
+            result += roman[i];
+            // add the matching roman number to our result string
+            num -= decimal[i];
+            // subtract the decimal value of the roman number from our number
+        }
+    }
+    
+    return result;
+}
+
+toRoman(8); 
+```
+
+Now this works fine for numbers that only need an addition. However, this algorithm breaks on numbers that require subtraction.
+
+```js
+toRoman(8) // returns 'VIII'  
+toRoman(5) // returns 'V'  
+toRoman(3) // returns 'III'  
+toRoman(4) // returns 'IIII'  
+toRoman(9) // returns 'VIIII' 
+```
