@@ -1,6 +1,6 @@
 ## Translation Works [**Back**](./../README.md)
 
-#### Translate
+### Translate
 
 > Notice that: anyone who wants to proofread my translation, can just fork my [GitHub Projects](https://github.com/aleen42/PersonalWiki), and find out the corresponding file and make a change. After modification, just pull a request for your changement, and after my merge, your name will be shown on my translation works.
 
@@ -24,7 +24,7 @@
 - [**Google Interview University**](./google_interview_university/google_interview_university.md)
 - [**Styling SVG &lt;use&gt; Content with CSS**](./style_svg_use/style_svg_use.md)
 
-#### Proofread
+### Proofread
 
 - [**Things I Wish I Were Told About React Native**](./things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
 - [**Making React Native apps accessible**](./making_react_native_apps_accessible/making_react_native_apps_accessible.md)
