@@ -136,3 +136,27 @@
 1. 在新增采购单这个页面里面，把新增采购单的表单和修改采购单放在一起进行**操作**。同时，对采购单的提交**处理**也是在该页面完成的。
 2. 这个新增采购单页面同时**处理**了新增和修改采购单的任务，另外也**处理**了提交任务。
 3. 这个新增采购单页面同时**处理**新增、修改和提交采购单的任务
+
+### 高级技巧
+
+如果你能够看到这里，说明学习态度很认真。所以，我打算把最后一招也告诉你——嘘，小声点，别让那些看了一半就离开的人听见：
+
+> （把名词转换为动词之后，）把动词提到句子前面来！
+
+好，下面就通过几个简单的英译中的句子，来体会一下“动词提到前面”。
+
+- Different Patterns for Dealing with the Main Logic
+- 主逻辑的不同处理模式
+- 处理主逻辑的不同模式（动词提到前面）
+
+<br />
+
+- Spring supports a variety of remote access mechanisms
+- Spring对很多远程访问机制提供支持
+- Spring**支持**很多远程访问机制（动词提到前面；感觉译者并非故意变换表达方式）
+
+<br />
+
+- Now that we have covered data selects and updates, we can take a look at deletes. A delete is very similar to an update; just like an update, it takes a number of parameters and does not return any results.
+- 既然我们已经谈过了数据的查询和更新，接下来看一看数据删除吧！数据删除同更新类似，同更新一样，它取得一些参数并不返回任何结果。
+- 在介绍了选择和更新数据之后，接下来我们看一看如何删除数据。删除与更新操作类似，它们都接收一组参数，而且都不返回结果。（动词提到前面）
