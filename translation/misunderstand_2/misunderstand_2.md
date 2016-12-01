@@ -42,3 +42,21 @@
 > IT may be safely assumed that, two thousand years ago, before Cæsar set foot in southern Britain, the whole country-side visible from the windows of the room in which I write, was in what is called "the state of nature." Except, it may be, by raising a few sepulchral mounds, such as those which still, here and there, break the flowing contours of the downs, man's hands had made no mark upon it; and the thin veil of vegetation which overspread the broad-backed heights and the shelving sides of the coombs was unaffected by his industry. （原文出处：[点击查看](http://aleph0.clarku.edu/huxley/CE9/E-EProl.html)） 
 
 > 赫胥黎独处一室之中，在英伦之南，背山而面野。槛外诸境，历历如在几下。乃悬想二千年前，当罗马大将恺彻未到时，此间有何景物。计惟有天造草昧，人功未施，其借征人境者，不过几处荒南坟，散见坡陀起伏间。而灌木丛林，蒙茸山麓，未经删治如今日者，则无疑也。（摘自《天演论》北京理工大学出版社，2010年3月第1版第1页。）
+
+评注二结束。
+
+> 严复在译例言第三段接着说：“故信、达而外，求其尔雅。此不仅期以行远已耳，实则精理微言，用汉以前字法、句法，则为达易；用近世利俗文字，则求达难。”意思是：准确、通顺之外，还要用文言。用文言不仅为了长久流传，更因为此书微言大义，只有用汉代以前的字法句法才能表达准确，用大众体则很难。
+
+> [8月17日16:33来自新浪微博](http://weibo.com/1639621773/yxAvoCHrz)
+
+评注三：由此可见，严复所说的“雅”是“尔雅”的（那种）“雅”。
+
+> 严复生活在1854－1921年，清末民初。他44岁译出赫胥黎《天演论》，并在该书译例言中提出“信、达、雅”的翻译标准。但事实上，严复求雅，原因在于他认为用汉以前古文“为达易”。以历史的眼光看，这显然是受时代偏见的局限。放在今天，公开提倡用古文翻译是不可想象的，除非要“译古如古”。
+
+> [8月17日16:54来自新浪微博](http://weibo.com/1639621773/yxADJsC9e)
+
+评注四：
+
+> 严复的时代局限是显而易见的。一方面，他所谓的“近世利俗文字”，应该指清末夹用口语的“通俗文言文”，而他根本无法预见白话文最终会取代文言文。另一方面，他说“用汉以前字法、句法，则为达易”。结果一百多年后，文言的《天演论》已经没有多少人能看懂了。这不能不说是历史跟严复开了一个大玩笑。
+
+> [8月17日17:13来自新浪微博](http://weibo.com/1639621773/yxALIFHA3)
