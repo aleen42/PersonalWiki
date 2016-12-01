@@ -30,3 +30,7 @@
 - [**Making React Native apps accessible**](./making_react_native_apps_accessible/making_react_native_apps_accessible.md)
 - [**How we "CSS" at BigCommerce**](./how_we_css_at_bigcommerce/how_we_css_at_bigcommerce.md)
 
+
+### Reference
+
+- **[轉載] 翻譯的誤區(一) 不知道把名詞轉為動詞 **
