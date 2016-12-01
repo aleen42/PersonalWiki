@@ -34,3 +34,4 @@
 ### Reference
 
 - [**[轉載] 翻譯的誤區(一) 不知道把名詞轉換為動詞**](./misunderstand_1/misunderstand_1.md)
+- [**[轉載] 翻譯的誤區(二) 認為“雅”是最高境界**](./misunderstand_1/misunderstand_1.md)
