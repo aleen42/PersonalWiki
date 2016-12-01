@@ -1,1 +1,1 @@
-## How we "CSS" at BigCommerce - 在BigCommerce我們如何編寫CSS [**Back**](./../translation.md)
+## [轉載] 翻譯的誤區(一) 不知道把名詞轉換為動詞 [**Back**](./../translation.md)
