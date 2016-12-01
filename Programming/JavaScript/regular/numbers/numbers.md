@@ -297,3 +297,30 @@ Since the regex engine has not known the meaning after a number, this chapter ha
         });
     }
     ```
+
+### Roman Numerals
+
+- **Problem**
+
+    You may want to match Roman numerals like IV, XIII, or MVIII.
+
+- **Solution**
+    - Roman numerals without validation:
+
+        **/^[MDCLXVI]+$/**
+
+    - Modern Roman numerals, strict:
+
+        **/^(?=[MDCLXVI])M&#42;(C[MD]|D?C{0,3})(X[CL]|L?X{0,3})(I[XV]|V?I{0,3})$/**
+
+    - Modern Roman numerals, flexible:
+
+        **/^(?=[MDCLXVI])M&#42;(C[MD]|D?C&#42;)(X[CL]|L?X&#42;)(I[XV]|V?I&#42;)$/**
+
+    - Simple Roman numerals:
+
+        **/^(?=[MDCLXVI])M&#42;D?C{0,4}L?X{0,4}V?I{0,4}$/**
+
+- **Discussion**
+
+    If you want to convert a roman numerals to decimal one, you can check the [post: CONVERTING ROMAN NUMERALS]()
