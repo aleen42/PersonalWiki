@@ -564,6 +564,7 @@
             * [How we "CSS" at BigCommerce](./translation/how_we_css_at_bigcommerce/how_we_css_at_bigcommerce.md)
         * References
             * [[轉載] 翻譯的誤區(一) 不知道把名詞轉換為動詞](./translation/misunderstand_1/misunderstand_1.md)
+            * [[轉載] 翻譯的誤區(二) 認為“雅”是最高境界](./translation/misunderstand_2/misunderstand_2.md)
 - Job
     * [Summary](./summary/summary.md)
         * Note
