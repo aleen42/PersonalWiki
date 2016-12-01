@@ -57,3 +57,16 @@
 - 不说 analyze the structure of the sentences（分析句子结构） 而说 make an analysis of the structure of the sentences（对句子结构进行分析）
 
 - 不说 lists the methods of the object（列出这个对象的方法） 而说 provides a list of methods of the object（提供了这个对象的方法列表）
+
+> 事实上，在英文科技文献（在某些作者眼里，技术书也属于科技文献）的写作中，一些口语化的动词，也必须代之以更正式的动词形式。例如，
+
+> - about->approximate（大约->近似）
+- get->obtain（得到->获取）
+- tell->claim（说->主张/声称）
+- enough->sufficient（够了->足以）
+- buy->purchase（买->购买）
+- understand->comprehend（明白->充分理解）
+
+<br 
+
+> 有人可能会说，我觉得上面两种翻译问题都不大啊。没错，如果一篇文章或书的一章一节内容里，有少数几句“西化”的句式，我也认为可以起到调节变化的作用，不失为一种表达技巧。但关键在于，这种句子不能多，不能泛滥。因为“西化”句式不是中文的常态。建议有兴趣的读者参考诗人兼翻译家余光中的《论中文的常态与变态》一文。
