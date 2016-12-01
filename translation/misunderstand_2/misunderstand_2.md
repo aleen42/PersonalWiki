@@ -39,6 +39,6 @@
 第二件事，我听庄绎传教授说《天演论》未能尽“信”尽“达”，所以在评注一中说“严复虽然提出了这个标准，但自己首先就没有落实”，这是我道听途说，人云亦云，惭愧三秒钟……因为在此之前我只看过几遍“译例言”，并未逐字逐句核验《天演论》英文原文和译文。为了减轻自己的愧疚感，现在就把原文前三句及对应译文贴在下面，以备后察。
 
 
-> IT may be safely assumed that, two thousand years ago, before Cæsar set foot in southern Britain, the whole country-side visible from the windows of the room in which I write, was in what is called "the state of nature." Except, it may be, by raising a few sepulchral mounds, such as those which still, here and there, break the flowing contours of the downs, man's hands had made no mark upon it; and the thin veil of vegetation which overspread the broad-backed heights and the shelving sides of the coombs was unaffected by his industry. （原文出处：点击查看） 
+> IT may be safely assumed that, two thousand years ago, before Cæsar set foot in southern Britain, the whole country-side visible from the windows of the room in which I write, was in what is called "the state of nature." Except, it may be, by raising a few sepulchral mounds, such as those which still, here and there, break the flowing contours of the downs, man's hands had made no mark upon it; and the thin veil of vegetation which overspread the broad-backed heights and the shelving sides of the coombs was unaffected by his industry. （原文出处：[点击查看](http://aleph0.clarku.edu/huxley/CE9/E-EProl.html)） 
 
 > 赫胥黎独处一室之中，在英伦之南，背山而面野。槛外诸境，历历如在几下。乃悬想二千年前，当罗马大将恺彻未到时，此间有何景物。计惟有天造草昧，人功未施，其借征人境者，不过几处荒南坟，散见坡陀起伏间。而灌木丛林，蒙茸山麓，未经删治如今日者，则无疑也。（摘自《天演论》北京理工大学出版社，2010年3月第1版第1页。）
