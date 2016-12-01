@@ -24,3 +24,30 @@ Calculation|50+10+5+1|500+10+10+10|100-10+5+1+1|10+10+10+10-1|10+10-1
 Result|66|530|97|39|19
 
 The biggest challenge is to know when to add and when to subtract. I always try to look out for a pattern where a lower number is placed before a higher number. Take for example `XCVII`. `X` is smaller than `C`, so we need to calculate `C - X` instead of `X + C`.
+
+Why do I give you such a lengthy introduction to this topic? I strongly believe that it's important to first really understand the pattern behind the problem you are trying to solve. If you try to write a Roman numeral converter without having recognized the patterns behind these numbers, you'll (most likely) end up writing code without logic. Long, buggy and unstructured code.
+
+With that being said, let's write some code!
+
+### CONVERTING ROMAN NUMERALS
+
+For the first part of our algorithm, we will take a decimal number and convert it into a Roman number.
+
+```js
+function toRoman(num) { 
+
+}
+
+toRoman(24);
+```
+
+First, our algorithm needs to know about the different Roman numerals. Let's add two arrays. One for the Roman numbers, one for or decimal numbers.
+
+```js
+function toRoman(num) {  
+  var decimal = [1000, 500, 100, 50, 10, 5, 1];
+  var roman = ["M", "D", "C", "L", "X", "V", "I"];
+}
+
+toRoman(24);  
+```
