@@ -180,6 +180,7 @@
                         * [Validation and Formatting](./Programming/JavaScript/regular/validation_formatting/validation_formatting.md)
                         * [Words, Lines, and Special Characters](./Programming/JavaScript/regular/words_lines_special/words_lines_special.md)
                         * [Numbers](./Programming/JavaScript/regular/numbers/numbers.md)
+                        * [Source Code and Log Files](./Programming/JavaScript/regular/source_code_and_log_files/source_code_and_log_files.md)
                     * [Data Structure](./Programming/JavaScript/data_structure/data_structure.md)
                         * [Sets](./Programming/JavaScript/data_structure/sets/sets.md)
                         * [Binary Trees and Binary Search Trees](./Programming/JavaScript/data_structure/bt_bst/bt_bst.md)
