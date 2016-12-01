@@ -51,3 +51,5 @@ function toRoman(num) {
 
 toRoman(24);  
 ```
+
+The idea behind our next step is simple. Let's take a number like 8 for example. We first check if it's dividable by 1000, 500 then 100 etc. - Once we find a value that is smaller or equal to our number, we will push the matching letter to our solution and subtract this value from our number. In the case of 8, it'd be `8-5 = 3`. Then we will again look for a match. The only number that matches our remainder of 3 now is I. We will once again add I to our result, subtract it from our number (3-1) and repeat the whole process until we reach 0. This will cause our algorithm to have pushed 1x `V` and 3x `I`. Combined the result will be `VIII`.
