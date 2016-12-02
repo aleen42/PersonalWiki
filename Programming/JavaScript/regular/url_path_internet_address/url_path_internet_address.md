@@ -219,3 +219,26 @@ What this chapter mainly concerns a wide range of programs is the various paths 
     - Accurate regex that captures the four parts of the IP address, disallowing leading zeros:
 
         **/^(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$/**
+
+### Matching IPv6 addresses
+
+- **Problem**
+
+    How to use regular expressions to match IPv6 addresses like **0:0:0:0:0:0:0:0**?
+
+- **Solution**
+    - Check whether the whole subject text is an IPv6 address using standard notation:
+
+        **/^(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}$/i**
+
+    - Check whether the whole subject text is an IPv6 address using mixed notation:
+
+        **/^(?:[A-F0-9]{1,4}:){6}(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$/i**
+
+    - Check whether the whole subject text is an IPv6 address using standard or compressed notation:
+
+        **/^(?:(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}|(?=(?:[A-F0-9]{0,4}:){0,7}[A-F0-9]{0,4}$)(([0-9A-F]{1,4}:){1,7}|:)((:[0-9A-F]{1,4}){1,7}|:)|(?:[A-F0-9]{1,4}:){7}:|:(:[A-F0-9]{1,4}){7})$/i**
+
+    - Check whether the whole subject text is an IPv6 address using compressed or noncompressed mixed notation:
+
+        **/^(?:(?:[A-F0-9]{1,4}:){6}|(?=(?:[A-F0-9]{0,4}:){0,6}(?:[0-9]{1,3}\\.){3}[0-9]{1,3}$)(([0-9A-F]{1,4}:){0,5}|:)((:[0-9A-F]{1,4}){1,5}:|:)|::(?:[A-F0-9]{1,4}:){5})(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/i**
