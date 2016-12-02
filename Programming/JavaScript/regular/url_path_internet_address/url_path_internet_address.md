@@ -139,3 +139,83 @@ What this chapter mainly concerns a wide range of programs is the various paths 
 - **Solution**
 
     **/^[^?#]+\\?([^#]+)/i**
+
+### Extracting the fragment from a URL
+
+- **Problem**
+
+    You want to extract the fragment from a string that holds a URL. For example, extract **top** from **http://www.regexcookbook.com#top** or from **/index.html#top**.
+
+- **Solution**
+
+    **/#(.+)/i**
+
+### Validating domain names
+
+- **Problem**
+
+    You want to check whether a string looks like it may be a valid, fully qualified domain name, or find such domain names in longest text.
+
+- **Solution**
+    - Check whether a string looks like a valid domain name:
+
+        **/^([a-z0-9]+(-[a-z0-9]+)&#42;\\.)+[a-z]{2,}$/i**
+
+    - Find valid domain names in longest text:
+
+        **/\\b([a-z0-9]+(-[a-z0-9]+)&#42;\\.)+[a-z]{2,}\\b/i**
+
+    - Check whether each part of the domain is not longer than 63 characters:
+
+        **/\\b((?=[a-z0-9-]{1,63}\\.)[a-z0-9]+(-[a-z0-9]+)&#42;\\.)+[a-z]{2,63}\\b/i**
+
+    - Allow internationalized domain names using the punycode (域名系統) notation:
+
+        **/\\b((xn--)?[a-z0-9]+(-[a-z0-9]+)&#42;\\.)+[a-z]{2,}\\b/i**
+
+    - Check whether each part of the domain is not longer than 63 characters, and allow internationalized domain names using the punycode notation:
+
+        **/\\b((?=[a-z0-9-]{1,63}\\.)(xn--)?[a-z0-9]+(-[a-z0-9]+)&#42;\\.)+[a-z]{2,63}\\b/i**
+
+### Matching IPv4 addresses
+
+- **Problem**
+
+    How to use regular expressions to match IPv4 addresses like **0.0.0.0**?
+
+- **Solution**
+    - Simple regex to check for an IP address:
+
+        **/^(?:[0-9]{1,3}\\.){3}[0-9]{1,3}$/**
+
+    - Accurate regex to check for an IP address, allowing leading zeros:
+
+        **/^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/**
+
+    - Accurate regex to check for an IP address, disallowing leading zeros:
+
+        **/^(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$/**
+
+    - Simple regex to extract IP addresses from longer text:
+
+        **/\\b(?:[0-9]{1,3}\\.){3}[0-9]{1,3}\\b/**
+
+    - Accurate regex to extract IP addresses from longer text, allowing leading zeros:
+
+        **/\\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b/**
+
+    - Accurate regex to extract IP addresses from longer text, disallowing leading zeros:
+
+        **/\\b(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\b/**
+
+    - Simple regex that captures the four parts of the IP address:
+
+        **/^([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})\\.([0-9]{1,3})$/**
+
+    - Accurate regex that captures the four parts of the IP address, allowing leading zeros:
+
+        **/^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/**
+
+    - Accurate regex that captures the four parts of the IP address, disallowing leading zeros:
+
+        **/^(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$/**
