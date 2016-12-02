@@ -28,3 +28,4 @@ Now, we start to talk about Regular Expressions in JavaScript with a category:
 - [**Words, Lines, and Special Characters**](./words_lines_special/words_lines_special.md)
 - [**Numbers**](./numbers/numbers.md)
 - [**Source Code and Log Files**](./source_code_and_log_files/source_code_and_log_files.md)
+- **URLs, Paths, and Internet Addresses**
