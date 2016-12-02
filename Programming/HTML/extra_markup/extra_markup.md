@@ -76,7 +76,7 @@
 
 ### 6. Grouping
 
-- ```<div>``` allows you to gropu a set of elements together in one block-level box.
+- ```<div>``` allows you to group a set of elements together in one block-level box.
 - ```<span>``` acts like an inline equivalent of the ```<div>``` and is used to contain a section of text, or to contain a number of inline elements.
 
 ### 7. IFrames
