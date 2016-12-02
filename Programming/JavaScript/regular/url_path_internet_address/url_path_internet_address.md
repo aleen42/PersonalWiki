@@ -242,3 +242,109 @@ What this chapter mainly concerns a wide range of programs is the various paths 
     - Check whether the whole subject text is an IPv6 address using compressed or noncompressed mixed notation:
 
         **/^(?:(?:[A-F0-9]{1,4}:){6}|(?=(?:[A-F0-9]{0,4}:){0,6}(?:[0-9]{1,3}\\.){3}[0-9]{1,3}$)(([0-9A-F]{1,4}:){0,5}|:)((:[0-9A-F]{1,4}){1,5}:|:)|::(?:[A-F0-9]{1,4}:){5})(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/i**
+
+    - Check whether the whole subject text is an IPv6 address:
+
+        **/^(?:(?:(?:[A-F0-9]{1,4}:){6}|(?=(?:[A-F0-9]{0,4}:){0,6}(?:[0-9]{1,3}\\.){3}[0-9]{1,3}$)(([0-9A-F]{1,4}:){0,5}|:)((:[0-9A-F]{1,4}){1,5}:|:)|::(?:[A-F0-9]{1,4}:){5})(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])|(?:[A-F0-9]{1,4}:){7}[A-F0-9]{1,4}|(?=(?:[A-F0-9]{0,4}:){0,7}[A-F0-9]{0,4}$)(([0-9A-F]{1,4}:){1,7}|:)((:[0-9A-F]{1,4}){1,7}|:)|(?:[A-F0-9]{1,4}:){7}:|:(:[A-F0-9]{1,4}){7})$/i**
+
+### Validate windows paths
+
+- **Problem**
+
+    You may want to check whether a string looks like a valid path to a folder or file on the Microsoft Windows operating system.
+
+- **Solution**
+    - Drive letter paths:
+
+        **/^[a-z]:\\\\(?:[&#94;\\\\/:&#42;?"<>|\\r\\n]+\\\\)&#42;[&#94;\\\\/:&#42;?"<>|\\r\\n]&#42;$/i**
+
+    - Drive letter and UNC paths
+
+        **/^(?:[a-z]:|\\\\\\\\[a-z0-9_.$ -]+\\\\[a-z0-9_.$ -]+)\\\\(?:[^\\\\/:&#42;?"<>|\\r\\n]+\\)&#42;[^\\\\/:&#42;?"<>|\\r\\n]&#42;$/i**
+
+    - Drive letter, UNC, and relative paths
+
+        **/^(?:(?:[a-z]:|\\\\\\\\[a-z0-9_.$ -]+\\\\[a-z0-9_.$ -]+)\\\\|\\\\?[&#94;\\\\/:&#42;?"<>|\\r\\n]+\\\\?)(?:[&#94;\\\\/:&#42;?"<>|\\r\\n]+\\\\)&#42;[&#94;\\\\/:&#42;?"<>|\\r\\n]&#42;$/i**
+
+### Split windows paths into their parts
+
+- **Problem**
+
+    If a string turns out to hold a valid Windows path, then you may want to extract the drive, folder, and filename parts of the path separately.
+
+- **Solution**
+    - Drive letter paths:
+
+        **/^([a-z]:)\\\\((?:[&#94;\\\\/:&#42;?"<>|\\r\\n]+\\\\)&#42;)([&#94;\\\\/:&#42;?"<>|\\r\\n]&#42;)$/i**
+
+    - Drive letter and UNC paths
+
+        **/^([a-z]:|\\\\\\\\[a-z0-9_.$ -]+\\\\[a-z0-9_.$ -]+)\\\\((?:[&#94;\\\\/:&#42;?"<>|\\r\\n]+\\\\)&#42;)([&#94;\\\\/:&#42;?"<>|\\r\\n]&#42;)$/i**
+
+    - Drive letter, UNC, and relative paths
+
+        **/^([a-z]:\\\\|\\\\\\\\[a-z0-9_.$ -]+\\\\[a-z0-9_.$ -]+\\\\|\\\\?)((?:[&#94;\\\\/:&#42;?"<>|\\r\\n]+\\\\)&#42;)([&#94;\\\\/:&#42;?"<>|\\r\\n]&#42;)$/i**
+
+### Extract the driver letter from a windows path
+
+- **Problem**
+
+    How to extract the drive letter from a windows path? For example, extract **c** from **c:\\folder\\file.ext**.
+
+- **Solution**
+
+    **/^([a-z]):/i**
+
+### Extract the server and share from a UNC path
+
+- **Problem**
+
+    How to extract the server and share from a UNC path? For example, extract **server** and **share** from **\\\\server\\share\\folder\\file.ext**.
+
+- **Solution**
+
+    **/^\\\\\\\\([a-z0-9_.$ -]+)\\\\([a-z0-9_.$ -]+)/i**
+
+### Extract the folder from a windows path
+
+- **Problem**
+
+    How to extract the folder from a windows path? For example, extract **\\folder\\subfolder\\** from **c:\\folder\\subfolder\\file.ext** or **\\\\server\\share\\folder\\subfolder\\file.ext**.
+
+- **Solution**
+
+    **/^([a-z]:|\\\\\\\\[a-z0-9_.$ -]+\\\\[a-z0-9_.$ -]+)?((?:\\\\|^)(?:[&#94;\\\\/:&#42;?"<>|\\r\\n]+\\\\)+)/i**
+
+### Extract the filename from a windows path
+
+- **Problem**
+
+    How to extract the filename from a windows path? For example, extract **file.ext** from **c:\\folder\\file.ext**.
+
+- **Solution**
+
+    **/[&#94;\\\\/:&#42;?"<>|\\r\\n]+$/i**
+
+### Extract the file extension from a windows path
+
+- **Problem**
+
+    How to extract the file extension from a windows path? For example, extract **.ext** from **c:\\folder\\file.ext**.
+
+- **Solution**
+
+    **/\\.[&#94;.\\\\/:&#42;?"<>|\\r\\n]+$/i**
+
+### Strip invalid characters from filenames
+
+- **Problem**
+
+    You may want to strip a string of characters that are not valid n windows filenames.
+
+- **Solution**
+
+    ```js
+    function stripInvalidCh(subject) {
+        subject = subject.replace(/[\\\/:"*?<>|]+/, '_');
+    }
+    ```
