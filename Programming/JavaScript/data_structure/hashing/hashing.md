@@ -108,3 +108,16 @@ In this section, we will look at two means of collisions resolution: **separate 
 #### Separate Chaining
 
 Separate chaining is a technique where each array element of a hash table stores another data structure, such as another array, so that it can physically store more than one piece of data in an array element.
+
+To implement such a technique, we should create the chains firstly:
+
+```js
+function buildChains() {
+    var table = this.table;
+    var tableLen = table.length;
+    
+    for (var i = 0; i < tableLen; i++) {
+        table[i] = [];
+    }
+}
+```
