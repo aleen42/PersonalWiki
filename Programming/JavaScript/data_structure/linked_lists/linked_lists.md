@@ -167,6 +167,7 @@ function LList() {
 
 Then, we have to change the method for displaying:
 
+```js
 function display() {
     var currentNode = this.head;
     
@@ -175,3 +176,4 @@ function display() {
         currentNode = currentNode.next;
     }
 }
+```
