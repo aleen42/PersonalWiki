@@ -127,6 +127,9 @@ function remove(item) {
     if (itemNode !== null) {
         itemNode.prev.next = itemNode.next;
         itemNode.next.prev = itemNode.prev;
+        
+        itemNode.prev = null;
+        itemNode.next = null;
     }
 }
 ```
