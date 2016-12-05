@@ -34,13 +34,6 @@ Marking the beginning of a linked list can be a problem. Many linked-list implem
 function Node(element) {
     this.element = element;
     this.next = null;
-    this.destroy = destroy;
-}
-
-function destroy() {
-    for (var i in this) {
-        delete this[i];
-    }
 }
 ```
 
