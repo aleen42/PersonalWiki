@@ -98,3 +98,7 @@ function get(key) {
     return this.table[this.betterHash(key)];
 }
 ```
+
+### Hash Collisions
+
+#### Seperate Chaining
