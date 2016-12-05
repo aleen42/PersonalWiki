@@ -86,6 +86,11 @@ function betterHash(data) {
 }
 ```
 
-### Hashing integer keys
+### Storing and retrieving data in a hash table
 
-
+```js
+function put(key, data) {
+    var pos = this.betterHash(key);
+    this.table[pos] = data;
+}
+```
