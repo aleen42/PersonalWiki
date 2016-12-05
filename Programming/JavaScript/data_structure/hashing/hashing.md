@@ -144,4 +144,15 @@ function put(key, data) {
         pointer[index + 1] = data;
     }
 }
+
+function get(key) {
+    var pos = this.betterHash(key);
+    var index = 0;
+    var poiner = this.table[pos];
+    
+    while (pointer[index] !== key) {
+        index += 2;
+    }
+    
+}
 ```
