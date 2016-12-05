@@ -68,4 +68,16 @@ function showDistro() {
 
 ### A better Hash Function
 
-To avoid collisions, you may need to make sure the array you're using for the hash table is sized to a prime number. With experimentation, we found that to store data `["David", "Jennifer", "Donnie", "Raymond", "Cynthia", "Mike", "Clayton", "Danny", "Jonathan"]` can be stored in a hash table sized with 137.
+To avoid collisions, you may need to make sure the array you're using for the hash table is sized to a prime number. With experimentation, we found that to store data `["David", "Jennifer", "Donnie", "Raymond", "Cynthia", "Mike", "Clayton", "Danny", "Jonathan"]` can be stored in a hash table sized with 137. Besides, we may also need a better hash function to avoid collisions:
+
+```js
+function betterHash(data) {
+    const H = 37;
+    var tota = 0;
+    var dataLen = data.length;
+    
+    for (var i = 0; i < data.length; i++) {
+        
+    }
+}
+```
