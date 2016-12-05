@@ -46,6 +46,12 @@ function count() {
         n++;
     }
     
+    /**
+     * in this case, you can not use this.dataStore.length
+     * as the returned result.
+     */
     return n;
+    
+    
 }
 ```
