@@ -52,4 +52,12 @@ function count() {
      */
     return n;
 }
+
+function clear() {
+    var dataStore = this.dataStore;
+    
+    for (var i in dataStore) {
+        delete dataStore[i];
+    }
+}
 ```
