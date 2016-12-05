@@ -52,7 +52,7 @@ function put(data) {
     this.table[pos] = data;
 }
 
-/** show the whole table
+/** show the whole table */
 function showDistro() {
 }
 ```
