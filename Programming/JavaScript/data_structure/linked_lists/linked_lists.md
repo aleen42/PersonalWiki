@@ -25,3 +25,14 @@ A linked list is a collection of objects called **nodes**, and each node is link
 </p>
 
 Marking the beginning of a linked list can be a problem. Many linked-list implementations include a special node, called the **head**, to denote (標誌) the beginning of a linked list. 
+
+### An object-based Linked List design
+
+#### Nodes
+
+```js
+function Node(element) {
+    this.element = element;
+    this.next = null;
+}
+```
