@@ -9,7 +9,7 @@ This chapter mainly covers some of them for you:
 - **Stacks**
 - **Queues**
 - **Linked lists**
-- **Dictionaries**
+- [**Dictionaries**](./dictionary/dictionary.md)
 - [**Hashing**](./hashing/hashing.md)
 - [**Sets**](./sets/sets.md)
 - [**Binary Trees and Binary Search Trees**](./bt_bst/bt_bst.md)
