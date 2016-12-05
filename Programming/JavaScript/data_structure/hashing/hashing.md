@@ -189,7 +189,7 @@ function put(key, data) {
     }
     
     table[pos] = key;
-    valTable[pos] = value;
+    valTable[pos] = d
 }
 ```
 
