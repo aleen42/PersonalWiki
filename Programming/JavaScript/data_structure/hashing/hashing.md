@@ -8,4 +8,4 @@ Although hash tables provide fast insertion, deletion and retrieval, they perfor
 
 Each data element is stored in the array based on an associated data element called **key**, which is mapped into a number in the range of 0 through the hash table size, using a **hashing function**.
 
-Ideally, the hash function stores each ke in its own array element. However, even with an efficient hash function, it's still possible for two keys to hash to the same value. That's called **collosion**
+Ideally, the hash function stores each ke in its own array element. However, even with an efficient hash function, it's still possible for two keys to hash to the same value. That's called **collision**
