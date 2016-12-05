@@ -145,3 +145,40 @@ The lightweight INI file format is commonly used for configuration files. It is 
         ```js
         subject = '<p>' + subject + '</p>';
         ```
+
+### Find a specific attribute in XML-style tags
+
+- **Problem**
+
+    How to find a specific attribute such as **id** within an (X)HTML or XML file?
+
+- **Solution**
+    - Tags that contain an id attribute (quick and dirty):
+
+        **/<[&#94;>]+\\sid\\b[&#94;>]&#42;>/i**
+
+    - Tags that contain an id attribute (more reliable):
+
+        **/<(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')+?\\sid\\s&#42;=\\s&#42;("[&#94;"]&#42;"|'[&#94;']&#42;')(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;>/i**
+
+    - `<div>` tags that contain an id attribute:
+
+        **/<div\s(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;?\\bid\\s&#42;=\\s&#42;("[&#94;"]&#42;"|'[&#94;']&#42;')(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;>/i**
+
+    - Tags that contain an id attribute with the value "my-id":
+
+        **/<(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')+?\\sid\\s&#42;=\\s&#42;(?:"my-id"|'my-id')(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;>/i**
+
+    - Tags that contain "my-class" within their class attribute value:
+
+        ```js
+        function match(subject) {
+            var result = /^(?:[^>"']|"[^"]*"|'[^']*')+?\sclass\s*=\s*("[^"]*"|'[^']*')/gi.exec(subject) || [];
+            var resultLen = result.length;
+            var results = [];
+
+            for (var i = 0; i < resultLen; i++) {
+                results.concat(result[i].match(/["'\s]my-class["'\s]/i) || []);
+            }
+        }
+        ```
