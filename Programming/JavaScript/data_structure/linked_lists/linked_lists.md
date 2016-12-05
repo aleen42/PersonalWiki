@@ -120,6 +120,14 @@ function insert(element, item) {
     tmpNode.prev = itemNode;
     itemNode.next = tmpNode;
 }
+
+function remove(item) {
+    var itemNode = this.find(item);
+    
+    if (itemNode !== null) {
+        itemNode.prev.next = itemNode.next;
+    }
+}
 ```
 
 
