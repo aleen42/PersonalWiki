@@ -26,4 +26,12 @@ function find(key) {
 function remove(key) {
     delete this.dataStore[key];
 }
+
+function showAll() {
+    var dataStore = this.dataStore;
+
+    for (var i in dataStore) {
+        console.log(i + ' -> ' + dataStore[i]);
+    }
+}
 ```
