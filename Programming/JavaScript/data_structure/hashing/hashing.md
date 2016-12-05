@@ -181,13 +181,15 @@ Change the method `put()` and `get()`:
 ```js
 function put(key, data) {
     var pos = this.betterHash(key);
-    var pointer = this.table[pos];
-    var valPointer = this.values[pos];
+    var table = this.table;
+    var valTable = this.values;
     
-    if (pointer === undefined) {
-        pointer = key;
-        pointer = [
+    while (table[pos] !== undefined) {
+        pos++;
     }
+    
+    table[pos] = key;
+    valTable[pos] = value;
 }
 ```
 
