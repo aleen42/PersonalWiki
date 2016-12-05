@@ -66,4 +66,12 @@ function clear() {
 
 Even if there is a method to sort for any Array object, it only works well with integer indexes but not string keys. Therefore, we can use another method `Object.keys()` function to solve this problem, which should return a sorted list of keys.
 
+```js
+function showAll() {
+    var dataStore = this.dataStore;
 
+    for (var i in Object.keys(dataStore) {
+        console.log(i + ' -> ' + dataStore[i]);
+    }
+}
+```
