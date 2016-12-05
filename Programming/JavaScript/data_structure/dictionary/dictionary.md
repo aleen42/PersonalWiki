@@ -14,4 +14,16 @@ function Dictionary() {
     this.remove = remove;
     this.showAll = showAll;
 }
+
+function add(key, value) {
+    this.dataStore[key] = value;
+}
+
+function find(key) {
+    return this.dataStore[key];
+}
+
+function remove(key) {
+    delete this.dataStore[key];
+}
 ```
