@@ -51,4 +51,8 @@ function put(data) {
     var pos = this.simpleHash(data);
     this.table[pos] = data;
 }
+
+/** show the whole table
+function showDistro() {
+}
 ```
