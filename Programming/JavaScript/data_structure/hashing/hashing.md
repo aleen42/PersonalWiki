@@ -190,13 +190,15 @@ function get(key) {
     var table = this.table;
     var valTable = this.values;
     
-    while (table[pos] !== key) {
+    while (table[pos] !== undefined && table[pos] !== key) {
         if (table[pos] === key) {
             return valTable[pos];
         } else {
             pos++;
         }
     }
+    
+    return undefined;
 }
 ```
 
