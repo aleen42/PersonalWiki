@@ -68,10 +68,17 @@ function insert(element, item) {
     var tmpNode = new Node(element);
     var itemNode = this.find(item);
     
-    var prevNextNode = itemNode.next;
-    
-    itemNode.next = tmpNode;
     tmpNode.next = prevNextNode;
+    itemNode.next = tmpNode;
+}
+
+function display() {
+    var currentNode = this.head;
     
+    while (currentNode.next !== null) {
+        console.log(currentNode.next.element);
+        
+        currentNode = currentNode.next;
+    }
 }
 ```
