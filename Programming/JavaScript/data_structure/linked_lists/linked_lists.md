@@ -48,6 +48,18 @@ function LList() {
     this.display = display;
 }
 
+function find(item) {
+    var curNode = this.head;
+    
+    for (;;) {
+        if (curNode.element !== item) {
+            curNode = curNode.next;
+        } else {
+            break;
+        }
+    }
+}
+
 function insert(element, item) {
     var tmpNode = new Node(element)
 }
