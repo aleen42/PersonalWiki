@@ -23,3 +23,5 @@ A linked list is a collection of objects called **nodes**, and each node is link
 <p align="center">
     <strong>Figure 1</strong> A linked list
 </p>
+
+Marking the beginning of a linked list can be a problem. Many linked-list implementations include a special node, called the **head**, to denote the beginning of a linked list. 
