@@ -25,7 +25,7 @@ function HashTable() {
 
 #### Choosing a Hash Function
 
-The choice of a hash function depends on the data type of the key.
+The choice of a hash function depends on the data type of the key. If your key is an integer, then the simplest hash function is to return the key within the size of the array. However, the array size should be a prime number (質數), like 137. Also, if the keys are random integers, then the hash function should more evenly distribute the keys. This type of hashing is known as **modular** hashing.
 
 
 
