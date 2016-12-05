@@ -36,7 +36,11 @@ function simpleHash(data) {
     var total = 0;
     var dataLen = data.length;
     
-    for (var i = 0; i < 
+    for (var i = 0; i < dataLen; i++) {
+        total += data.charCodeAt(i);
+    }
+    
+    return total % this.table.length;
 }
 ```
 
