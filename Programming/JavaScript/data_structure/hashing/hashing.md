@@ -184,5 +184,19 @@ function put(key, data) {
     table[pos] = key;
     valTable[pos] = data;
 }
+
+function get(key) {
+    var pos = this.betterHash(key);
+    var table = this.table;
+    var valTable = this.values;
+    
+    while (table[pos] !== key) {
+        if (table[pos] === key) {
+            return valTable[pos];
+        } else {
+            pos++;
+        }
+    }
+}
 ```
 
