@@ -54,8 +54,12 @@ function find(item) {
     for (;;) {
         if (curNode.element !== item) {
             curNode = curNode.next;
+            
+            if (curNode === null) {
+                return null;
+            }
         } else {
-            break;
+            return curNode;
         }
     }
 }
