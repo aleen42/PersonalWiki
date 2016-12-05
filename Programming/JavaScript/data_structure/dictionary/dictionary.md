@@ -61,3 +61,9 @@ function clear() {
     }
 }
 ```
+
+### Adding Sorting to the Dictionary Class
+
+Even if there is a method to sort for any Array object, it only works well with integer indexes but not string keys. Therefore, we can use another method `Object.keys()` function to solve this problem, which should return a sorted list of keys.
+
+
