@@ -121,3 +121,5 @@ function buildChains() {
     }
 }
 ```
+
+Next, change the method `put()` and `get()` so that they can work with separate chaining.
