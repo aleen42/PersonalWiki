@@ -164,3 +164,14 @@ function LList() {
     this.display = display;
 }
 ```
+
+Then, we have to change the method for displaying:
+
+function display() {
+    var currentNode = this.head;
+    
+    while (currentNode.next !== null && currentNode.next.element !== 'head') {
+        console.log(currentNode.next.element);
+        currentNode = currentNode.next;
+    }
+}
