@@ -54,5 +54,9 @@ function put(data) {
 
 /** show the whole table */
 function showDistro() {
+    var n = 0;
+    var tableLen = this.table.length;
+    
+    for (
 }
 ```
