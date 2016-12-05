@@ -182,3 +182,26 @@ The lightweight INI file format is commonly used for configuration files. It is 
             }
         }
         ```
+
+### Add a cellspacing attribute to &lt;table&gt; tags that do not already include it
+
+- **Problem**
+
+    You may want to search through an (X)HTML file and add `cellspacing="0"` to all tables that do not already include a `cellspacing` attribute.
+
+- **Solution**
+    - Simplistic:
+
+        ```js
+        function insert(subject) {
+            subject = subject.replace(/<table\b(?![^>]*?\scellspacing\b)([^>]*)>/i, '<table cellspacing="0"$1>');
+        }
+        ```
+
+    - More reliable:
+
+        ```js
+        function insert(subject) {
+            subject = subject.replace(/<table\b(?!(?:[^>"']|"[^"]*"|'[^']*')*?\scellspacing\b)((?:[^>"']|"[^"]*"|'[^']*')*)>/i, '<table cellspacing="0"$1>');
+        }
+        ```
