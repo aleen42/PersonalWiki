@@ -149,10 +149,14 @@ function get(key) {
     var pos = this.betterHash(key);
     var index = 0;
     var poiner = this.table[pos];
+    var len = pointer.length;
     
-    while (pointer[index] !== key) {
-        index += 2;
+    for (var i = 0; i < len; i += 2) {
+        if (pointer[i] === key) {
+            return pointer[i + 1];
+        }
     }
     
+    return undefined;
 }
 ```
