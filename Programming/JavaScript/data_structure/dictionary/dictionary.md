@@ -35,3 +35,17 @@ function showAll() {
     }
 }
 ```
+
+### Auxiliary (輔助性) Functions for the Dictionary Class
+
+```js
+function count() {
+    var n = 0;
+    
+    for (var i in this.dataStore) {
+        n++;
+    }
+    
+    return n;
+}
+```
