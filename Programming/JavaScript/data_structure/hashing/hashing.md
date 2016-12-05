@@ -168,6 +168,8 @@ A second technique for handling collisions is called **linear probing** (線性�
 ```js
 function HashTable() {
     this.values = [];
+    
+    /** others */
 }
 ```
 
