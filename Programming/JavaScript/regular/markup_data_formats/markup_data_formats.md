@@ -194,7 +194,7 @@ The lightweight INI file format is commonly used for configuration files. It is 
 
         ```js
         function insert(subject) {
-            subject = subject.replace(/<table\b(?![^>]*?\scellspacing\b)([^>]*)>/i, '<table cellspacing="0"$1>');
+            subject = subject.replace(/<table\b(?![^>]*?\scellspacing\b)([^>]*)>/ig, '<table cellspacing="0"$1>');
         }
         ```
 
@@ -202,6 +202,145 @@ The lightweight INI file format is commonly used for configuration files. It is 
 
         ```js
         function insert(subject) {
-            subject = subject.replace(/<table\b(?!(?:[^>"']|"[^"]*"|'[^']*')*?\scellspacing\b)((?:[^>"']|"[^"]*"|'[^']*')*)>/i, '<table cellspacing="0"$1>');
+            subject = subject.replace(/<table\b(?!(?:[^>"']|"[^"]*"|'[^']*')*?\scellspacing\b)((?:[^>"']|"[^"]*"|'[^']*')*)>/ig, '<table cellspacing="0"$1>');
+        }
+        ```
+
+### Remove XML-style comments
+
+- **Problem**
+
+    You may want to remove comments from an (X)HTML or XML document.
+
+- **Solution**
+
+    ```js
+    function removeComments(subject) {
+        subject = subject.replace(/<!--[\s\S]*?-->/ig, '');
+    }
+    ```
+
+- **Discussion**
+
+    If we want to match valid XML comments, we can use the regular expression to solve it: **/<!--[&#94;-]&#42;(?:-[&#94;-]+)&#42;--\s&#42;>/ig**, while if we want to match valid HTML comments, we can use another regex: **/<!--(?!-?>)[&#94;-]&#42;(?:-[&#94;-]+)&#42;-->/ig**.
+
+### Find words within XML-style comments
+
+- **Problem**
+
+    How to find all occurrences of the word **TODO** within (X)HTML or XML comments?
+
+- **Solution**
+
+    **/\\bTODO\\b(?=(?:(?!<!--)[\\s\\S])&#42;?-->)/i**
+
+### Change the delimiter (定界符) used in CSV files
+
+- **Problem**
+
+    You want to change all field-delimiting commas in a CSV file to tabs.
+
+- **Solution**
+
+    ```js
+    function commas2Tabs(subject) {
+        var regex = /(,|\r?\n|^)([^",\r\n]+|"(?:[^"]|"")*")?/g;
+        var result = '';
+        var match;
+
+        while (match = regex.exec(subject)) {
+            /** check the value of backreference 1 */
+            if (match[1] === ',') {
+                /**
+                 * Add a tab (in place of the matched comma) and backreference 2 to the result.
+                 * If backreference 2 is undefiend use an empty string instead.
+                 */
+                result += '\t' + (match[2] || '');
+            } else {
+                /** add the entire match to the result */
+                result += match[0];
+            }
+
+            /**
+             * If there is an empty match, prevent some browsers from getting stuck in an infinite loop
+             */
+            if (match.index === regex.lastIndex) {
+                regex.lastIndex++;
+            }
+        }
+
+        subject = result;
+    }
+    ```
+
+### Extract CSV fields from a specific column
+
+- **Problem**
+
+    How to extract every field from the third column of a CSV file?
+
+- **Solution**
+
+    ```js
+    function getCSVColumn(csv, index) {
+        var regex = /(,|\r?\n|^)([^",\r\n]+|"(?:[^"]|"")*")?/g;
+        var result = [];
+        var columnIndex = 0;
+        var match;
+
+        while (match = regex.exec(csv)) {
+            /**
+             *  Check the value of backreference 1. If it's a comma,
+             *  increment columnIndex. Otherwise, reset it to zero.
+             */
+            if (match[1] === ',') {
+                columnIndex++;
+            } else {
+                columnIndex = 0;
+            }
+
+            if (columnIndex === index) {
+                /** Add the field (backref 2) at the end of the result array */
+                result.push(match[2]);
+            }
+
+            /**
+             * If there is an empty match, prevent some browsers from getting
+             * stuck in an infinite loop
+             */
+            if (match.index === regex.lastIndex) {
+                regex.lastIndex++;
+            }
+        }
+
+        csv = result;
+    }
+    ```
+
+- **Discussion**
+
+    Although using code to iterate over a string one CSV field at a time allows for extra flexibility, if you're using a text editor t get the job done, you may be limited to just search-and-replace:
+
+    - Match a CSV record and capture the field in column 1 to backreference 1:
+
+        ```js
+        function replace(subject) {
+            subject = subject.replace(/^([^",\r\n]+|"(?:[^"]|"")*")?(?:,(?:[^",\r\n]+|"(?:[^"]|"")*")?)*/m, '$1');
+        }
+        ```
+
+    - Match a CSV record and capture the field in column 2 to backreference 1:
+
+        ```js
+        function replace(subject) {
+            subject = subject.replace(/^(?:[^",\r\n]+|"(?:[^"]|"")*")?,([^",\r\n]+|"(?:[^"]|"")*")?(?:,(?:[^",\r\n]+|"(?:[^"]|"")*")?)*/m, '$1');
+        }
+        ```
+
+    - Match a CSV record and capture the field in column 3 or higher to backreference 1
+
+        ```js
+        function replace(subject) {
+            subject = subject.replace(/^(?:[^",\r\n]+|"(?:[^"]|"")*")?(?:,(?:[^",\r\n]+|"(?:[^"]|"")*")?){1},([^",\r\n]+|"(?:[^"]|"")*")?(?:,(?:[^",\r\n]+|"(?:[^"]|"")*")?)*/m, '$1');
         }
         ```
