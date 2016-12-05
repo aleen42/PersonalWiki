@@ -105,6 +105,6 @@ A collision occurs when a hash function generates the same key for two or more v
 
 In this section, we will look at two means of collisions resolution: **seperate chaining** and **linear probing**.
 
-#### Seperate Chaining
+#### Separate Chaining
 
-
+Separate chaining is a technique where each array element of a hash table 
