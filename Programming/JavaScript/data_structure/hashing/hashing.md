@@ -134,5 +134,7 @@ function put(key, data) {
         pointe[index] = key;
         pointer[index + 1] = data;
     }
+    
+    index++;
 }
 ```
