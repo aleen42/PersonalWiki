@@ -65,3 +65,7 @@ function showDistro() {
     }
 }
 ```
+
+### A better Hash Function
+
+To avoid collisions, you may need to make sure the array you're using for the hash table is sized to a prime number.
