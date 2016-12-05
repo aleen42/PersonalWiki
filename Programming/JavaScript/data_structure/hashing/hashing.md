@@ -133,8 +133,15 @@ function put(key, data) {
     if (pointer[index] === undefined) {
         pointe[index] = key;
         pointer[index + 1] = data;
+    } else {
+        index++;
+        
+        while (pointer[index] !== undefined) {
+            index++;
+        }
+        
+        pointe[index] = key;
+        pointer[index + 1] = data;
     }
-    
-    index++;
 }
 ```
