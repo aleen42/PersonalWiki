@@ -60,7 +60,7 @@ function showDistro() {
     
     for (var i = 0; i < tableLen; i++) {
         if (table[i] !== undefined) {
-            print(i + ': ' + table[i]);
+            console.log(i + ': ' + table[i]);
         }
     }
 }
