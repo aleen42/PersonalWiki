@@ -51,7 +51,5 @@ function count() {
      * as the returned result.
      */
     return n;
-    
-    
 }
 ```
