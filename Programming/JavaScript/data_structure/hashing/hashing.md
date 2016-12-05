@@ -93,4 +93,8 @@ function put(key, data) {
     var pos = this.betterHash(key);
     this.table[pos] = data;
 }
+
+function get(key) {
+    return this.table[this.betterHash(key)];
+}
 ```
