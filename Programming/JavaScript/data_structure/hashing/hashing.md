@@ -25,7 +25,7 @@ function HashTable() {
 
 #### Choosing a Hash Function
 
-
+The choice of a hash function depends on the data type of the key.
 
 
 
