@@ -176,3 +176,18 @@ function HashTable() {
 }
 ```
 
+Change the method `put()` and `get()`:
+
+```js
+function put(key, data) {
+    var pos = this.betterHash(key);
+    var pointer = this.table[pos];
+    var valPointer = this.values[pos];
+    
+    if (pointer === undefined) {
+        pointer = key;
+        pointer = [
+    }
+}
+```
+
