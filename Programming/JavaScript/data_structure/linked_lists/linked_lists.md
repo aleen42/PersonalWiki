@@ -105,3 +105,11 @@ function remove(item) {
     }
 }
 ```
+
+### Doubly Linked Lists
+
+Although traversing a linked list from the first node to the last node is straightforward, it is not as easy to traverse a linked list backward. So, we define another specific structure named **doubly linked lists**, which has added an additional pointer `prev` for searching backward, compared with normal linked lists.
+
+
+
+
