@@ -109,4 +109,17 @@ function Node(element) {
 }
 ```
 
+Then, changing some normal methods:
+
+```js
+function insert(element, item) {
+    var tmpNode = new Node(element);
+    var itemNode = this.find(item);
+ 
+    tmpNode.next = itemNode.next;
+    tmpNode.prev = itemNode;
+    itemNode.next = tmpNode;
+}
+```
+
 
