@@ -70,7 +70,7 @@ Even if there is a method to sort for any Array object, it only works well with 
 function showAll() {
     var dataStore = this.dataStore;
 
-    for (var i in Object.keys(dataStore).sorted) {
+    for (var i in Object.keys(dataStore).sort()) {
         console.log(i + ' -> ' + dataStore[i]);
     }
 }
