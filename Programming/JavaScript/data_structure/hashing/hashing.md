@@ -85,3 +85,7 @@ function betterHash(data) {
     return parseInt(total);
 }
 ```
+
+### Hashing integer keys
+
+
