@@ -77,7 +77,6 @@ function display() {
     
     while (currentNode.next !== null) {
         console.log(currentNode.next.element);
-        
         currentNode = currentNode.next;
     }
 }
