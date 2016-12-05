@@ -102,3 +102,5 @@ function get(key) {
 ### Hash Collisions
 
 #### Seperate Chaining
+
+A collision occurs when a hash function generates the same key for two or more values
