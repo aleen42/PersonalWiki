@@ -131,6 +131,7 @@ function put(key, data) {
     var pointer = this.table[pos];
     
     if (pointer[index] === undefined) {
+        pointe[index] = key;
         pointer[index + 1] = data;
     }
 }
