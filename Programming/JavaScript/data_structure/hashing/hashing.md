@@ -162,3 +162,12 @@ function get(key) {
 ```
 
 #### Linear Probing
+
+A second technique for handling collisions is called **linear probing** (線性探測). With such a technique, when there is a collision, the program simple looks to see if the next element of the hash table is empty. If so, then store the key and value.
+
+```js
+function HashTable() {
+    this.values = [];
+}
+```
+
