@@ -107,4 +107,4 @@ In this section, we will look at two means of collisions resolution: **separate 
 
 #### Separate Chaining
 
-Separate chaining is a technique where each array element of a hash table stores another data structure, such as another array, so that it can physically store more than one piece of data in an array element
+Separate chaining is a technique where each array element of a hash table stores another data structure, such as another array, so that it can physically store more than one piece of data in an array element.
