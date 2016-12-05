@@ -4,4 +4,4 @@ A dictionary is a data structure that stores data as **key-value** pairs. In Jav
 
 ### The Dictionary Class
 
-The basic for the Dictionary class is the **Array** class rather than the Object class, because we also want to sort the keys of a dictionary.
+The basic for the Dictionary class is the **Array** class rather than the Object class, because we also want to sort the keys of a dictionary, which Object can not support.
