@@ -93,8 +93,6 @@ function remove(item) {
         }
         
         currentNode.next = itemNode.next;
-        
-        itemNode.destroy();
     }
 }
 ```
