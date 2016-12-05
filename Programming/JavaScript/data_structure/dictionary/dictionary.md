@@ -9,5 +9,9 @@ The basic for the Dictionary class is the **Array** class rather than the Object
 ```js
 function Dictionary() {
     this.dataStore = [];
+    this.add = add;
+    this.find = find;
+    this.remove = remove;
+    this.showAll = showAll;
 }
 ```
