@@ -93,7 +93,7 @@ function insert(data) {
 function inOrder(node) {
     if (node !== null) {
         inOrder(node.left);
-        putstr(node.show() + ' ');
+        console.log(node.show() + ' ');
         inOrder(node.right);
     }
 }
@@ -104,7 +104,7 @@ function inOrder(node) {
  */
 function preOrder(node) {
     if (node !== null) {
-        putstr(node.show() + ' ');
+        console.log(node.show() + ' ');
         inOrder(node.left);
         inOrder(node.right);
     }
@@ -118,7 +118,7 @@ function postOrder(node) {
     if (node !== null) {
         inOrder(node.left);
         inOrder(node.right);
-        putstr(node.show() + ' ');
+        console.log(node.show() + ' ');
     }
 }
 ```
