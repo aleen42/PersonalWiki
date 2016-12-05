@@ -47,4 +47,8 @@ function LList() {
     this.remove = remove;
     this.display = display;
 }
+
+function insert(element, item) {
+    var tmpNode = new Node(element)
+}
 ```
