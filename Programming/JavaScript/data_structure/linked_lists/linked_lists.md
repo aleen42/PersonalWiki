@@ -16,4 +16,10 @@ For these reasons, sometimes, if we don't need random access to the elements of 
 
 A linked list is a collection of objects called **nodes**, and each node is linked to a successor node in the list using an object reference (Figure 1).
 
-linked_list.png
+<p align="center">
+    <img src="./linked_list.png" title="a linked list" alt="a linked list" />
+</p>
+
+<p align="center">
+    <strong>Figure 1</strong> A linked list
+</p>
