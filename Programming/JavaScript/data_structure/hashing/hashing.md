@@ -10,6 +10,6 @@ Each data element is stored in the array based on an associated data element cal
 
 Ideally, the hash function stores each ke in its own array element. However, even with an efficient hash function, it's still possible for two keys to hash to the same value, and that's called **collision**. For this reason, we need a strategy for handling collisions when they occur.
 
-### A hash table class
+### A Hash Table class
 
 
