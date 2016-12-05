@@ -99,7 +99,16 @@ function remove(item) {
 
 ### Doubly Linked Lists
 
-Although traversing a linked list from the first node to the last node is straightforward, it is not as easy to traverse a linked list backward. So, we define another specific structure named **doubly linked lists**, which has added an additional pointer `prev` for searching backward, compared with normal linked lists.
+
+<p align="center">
+    <img src="./doubly_linked_lists.png" title="a doubly linked list" alt="a doubly linked list" />
+</p>
+
+<p align="center">
+    <strong>Figure 1</strong> A doubly linked list
+</p>
+
+Although traversing a linked list from the first node to the last node is straightforward, it is not as easy to traverse a linked list backward. So, we define another specific structure named **doubly linked lists** (Figure 2), which has added an additional pointer `prev` for searching backward, compared with normal linked lists.
 
 ```js
 function Node(element) {
