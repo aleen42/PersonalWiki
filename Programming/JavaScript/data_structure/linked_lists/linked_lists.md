@@ -138,7 +138,7 @@ function remove(item) {
 
 A circularly linked list is similar to a singly linked list and has the same type of nodes. The only difference is that a circularly linked list, when created, has its head node’s next property point back to itself.
 
-```
+```js
 function LList() {
     this.head = new Node('head');
     this.head.next = this.head;
