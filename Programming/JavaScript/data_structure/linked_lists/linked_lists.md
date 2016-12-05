@@ -34,6 +34,13 @@ Marking the beginning of a linked list can be a problem. Many linked-list implem
 function Node(element) {
     this.element = element;
     this.next = null;
+    this.destroy = destroy;
+}
+
+function destroy() {
+    for (var i in this) {
+        delete this[i];
+    }
 }
 ```
 
@@ -78,6 +85,23 @@ function display() {
     while (currentNode.next !== null) {
         console.log(currentNode.next.element);
         currentNode = currentNode.next;
+    }
+}
+
+function remove(item) {
+    var itemNode = this.find(item);
+    
+    if (itemNode !== null) {
+        /** find the prev node */
+        var currentNode = this.head;
+        
+        while (currentNode.next !== itemNode) {
+            currentNode = currentNode.next;
+        }
+        
+        currentNode.next = itemNode.next;
+        
+        itemNode.destroy();
     }
 }
 ```
