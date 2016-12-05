@@ -65,6 +65,13 @@ function find(item) {
 }
 
 function insert(element, item) {
-    var tmpNode = new Node(element)
+    var tmpNode = new Node(element);
+    var itemNode = this.find(item);
+    
+    var prevNextNode = itemNode.next;
+    
+    itemNode.next = tmpNode;
+    tmpNode.next = prevNextNode;
+    
 }
 ```
