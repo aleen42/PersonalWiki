@@ -130,19 +130,12 @@ function put(key, data) {
     var index = 0;
     var pointer = this.table[pos];
     
-    if (pointer[index] === undefined) {
-        pointe[index] = key;
-        pointer[index + 1] = data;
-    } else {
+    while (pointer[index] !== undefined) {
         index++;
-        
-        while (pointer[index] !== undefined) {
-            index++;
-        }
-        
-        pointe[index] = key;
-        pointer[index + 1] = data;
     }
+    
+    pointe[index] = key;
+    pointer[index + 1] = data;
 }
 
 function get(key) {
@@ -189,7 +182,7 @@ function put(key, data) {
     }
     
     table[pos] = key;
-    valTable[pos] = d
+    valTable[pos] = data;
 }
 ```
 
