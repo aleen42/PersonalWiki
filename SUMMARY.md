@@ -184,6 +184,7 @@
                         * [URLs, Paths, and Internet Addresses](./Programming/JavaScript/regular/url_path_internet_address/url_path_internet_address.md)
                         * [Markup and Data Formats](./Programming/JavaScript/regular/markup_data_formats/markup_data_formats.md)
                     * [Data Structure](./Programming/JavaScript/data_structure/data_structure.md)
+                        * [Hashing](./Programming/JavaScript/data_structure/hashing/hashing.md)
                         * [Sets](./Programming/JavaScript/data_structure/sets/sets.md)
                         * [Binary Trees and Binary Search Trees](./Programming/JavaScript/data_structure/bt_bst/bt_bst.md)
                         * [Graphs](./Programming/JavaScript/data_structure/graphs/graphs.md)
