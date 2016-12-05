@@ -123,3 +123,15 @@ function buildChains() {
 ```
 
 Next, change the method `put()` and `get()` so that they can work with separate chaining.
+
+```js
+function put(key, data) {
+    var pos = this.betterHash(key);
+    var index = 0;
+    var pointer = this.table[pos];
+    
+    if (pointer[index] === undefined) {
+        pointer[index + 1] = data;
+    }
+}
+```
