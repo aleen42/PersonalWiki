@@ -79,5 +79,9 @@ function betterHash(data) {
     for (var i = 0; i < dataLen; i++) {
         total += H * total + data.charCodeAt(i);
     }
+    
+    total = total % this.table.length;
+    
+    return parseInt(total);
 }
 ```
