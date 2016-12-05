@@ -10,7 +10,7 @@ This chapter mainly covers some of them for you:
 - **Queues**
 - **Linked lists**
 - **Dictionaries**
-- **Hashing**
+- [**Hashing**](./hashing/hashing.md)
 - [**Sets**](./sets/sets.md)
 - [**Binary Trees and Binary Search Trees**](./bt_bst/bt_bst.md)
 - [**Graphs**](./graphs/graphs.md)
