@@ -99,7 +99,6 @@ function remove(item) {
 
 ### Doubly Linked Lists
 
-
 <p align="center">
     <img src="./doubly_linked_lists.png" title="a doubly linked list" alt="a doubly linked list" />
 </p>
@@ -144,6 +143,14 @@ function remove(item) {
 ```
 
 ### Circularly Linked Lists
+
+<p align="center">
+    <img src="./circularly_linked_lists.png" title="a circularly linked list" alt="a circularly linked list" />
+</p>
+
+<p align="center">
+    <strong>Figure 3</strong> A circularly linked list
+</p>
 
 A **circularly linked list** is similar to a singly linked list and has the same type of nodes. The only difference is that a circularly linked list, when created, has its head node's next property point back to itself.
 
