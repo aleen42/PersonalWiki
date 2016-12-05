@@ -344,3 +344,39 @@ The lightweight INI file format is commonly used for configuration files. It is 
             subject = subject.replace(/^(?:[^",\r\n]+|"(?:[^"]|"")*")?(?:,(?:[^",\r\n]+|"(?:[^"]|"")*")?){1},([^",\r\n]+|"(?:[^"]|"")*")?(?:,(?:[^",\r\n]+|"(?:[^"]|"")*")?)*/m, '$1');
         }
         ```
+
+### Match INI section headers
+
+- **Problem**
+
+    You may want to match all section headers in an INI file.
+
+- **Solution**
+
+    **/^\\[[&#94;\\]\\r\\n]+]/m**
+
+- **Discussion**
+
+    If you only want to find a specific section header, that's even easier.
+
+        **/^\\[Section1]/m**
+
+### Match INI section blocks
+
+- **Problem**
+
+    You may need to match each complete INI section block in order to split up an INI file or process each block separately.
+
+- **Solution**
+
+    **/^\\[[&#94;\\]\\r\\n]+](?:\\r?\\n(?:[&#94;[\\r\\n].&#42;)?)&#42;/m**
+
+### Match INI name-value pairs
+
+- **Problem**
+
+    You may want to match INI parameter name-value pairs (e.g., **item1=value1**), separating each match into two parts using capturing groups.
+
+- **Solution**
+
+    **/^([&#94;=;\\r\\n]+)=([&#94;;\\r\\n]&#42;)/m**
