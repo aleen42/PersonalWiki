@@ -103,8 +103,8 @@ function get(key) {
 
 A collision occurs when a hash function generates the same key for two or more values.
 
-In this section, we will look at two means of collisions resolution: **seperate chaining** and **linear probing**.
+In this section, we will look at two means of collisions resolution: **separate chaining** and **linear probing**.
 
 #### Separate Chaining
 
-Separate chaining is a technique where each array element of a hash table 
+Separate chaining is a technique where each array element of a hash table stores another data structure, such as another array, so that it can physically store more than one piece of data in an array element
