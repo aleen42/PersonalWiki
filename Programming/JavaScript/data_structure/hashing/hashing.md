@@ -12,4 +12,15 @@ Ideally, the hash function stores each ke in its own array element. However, eve
 
 ### A Hash Table class
 
+```js
+function HashTable() {
+    this.table = new Array(137);
+    
+    this.simpleHash = simpleHash;
+    this.showDistro = showDistro;
+    
+    this.put = put;
+}
+```
+
 
