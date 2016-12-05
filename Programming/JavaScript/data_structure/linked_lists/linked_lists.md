@@ -11,3 +11,9 @@ In many programming languages, **arrays are fixed in length**, so it is hard to 
 The main problem with using JavaScript arrays, however, is that arrays in JavaScript are implemented as objects, causing them to be less efficient than arrays built in languages such as C++ and Java.
 
 For these reasons, sometimes, if we don't need random access to the elements of a list, we can use linked list to enhance the performance of JavaScript.
+
+### Linked Lists Defined
+
+A linked list is a collection of objects called **nodes**, and each node is linked to a successor node in the list using an object reference (Figure 1).
+
+linked_list.png
