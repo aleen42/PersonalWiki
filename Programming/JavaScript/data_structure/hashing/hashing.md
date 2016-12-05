@@ -160,3 +160,5 @@ function get(key) {
     return undefined;
 }
 ```
+
+#### Linear Probing
