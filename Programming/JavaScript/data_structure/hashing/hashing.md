@@ -23,6 +23,9 @@ function HashTable() {
 }
 ```
 
-#### Choosing a hash function
+#### Choosing a Hash Function
+
+
+
 
 
