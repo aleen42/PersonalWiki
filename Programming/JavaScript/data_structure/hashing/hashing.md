@@ -101,6 +101,10 @@ function get(key) {
 
 ### Hash Collisions
 
+A collision occurs when a hash function generates the same key for two or more values.
+
+In this section, we will look at two means of collisions resolution: **seperate chaining** and **linear probing**.
+
 #### Seperate Chaining
 
-A collision occurs when a hash function generates the same key for two or more values
+
