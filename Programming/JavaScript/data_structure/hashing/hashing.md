@@ -31,5 +31,12 @@ In many applications, the keys are strings. Choosing a hash function to work wit
 
 A simple hash function that seems to work well well is to sum the ASCII value of the letters in the key.
 
-
+```js
+function simpleHash(data) {
+    var total = 0;
+    var dataLen = data.length;
+    
+    for (var i = 0; i < 
+}
+```
 
