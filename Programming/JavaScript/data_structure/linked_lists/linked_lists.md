@@ -110,6 +110,12 @@ function remove(item) {
 
 Although traversing a linked list from the first node to the last node is straightforward, it is not as easy to traverse a linked list backward. So, we define another specific structure named **doubly linked lists**, which has added an additional pointer `prev` for searching backward, compared with normal linked lists.
 
-
+```js
+function Node(element) {
+    this.element = element;
+    this.next = null;
+    this.prev = null;
+}
+```
 
 
