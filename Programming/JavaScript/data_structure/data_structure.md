@@ -4,7 +4,7 @@ As an experienced JavaScript developer moving to server-side programming, or in 
 
 This chapter mainly covers some of them for you:
 
-- **Arrays**
+- [**Arrays**](./array/array.md)
 - [**Lists**](./list/list.md)
 - [**Stacks**](./stack/stack.md)
 - [**Queues**](./queue/queue.md)
