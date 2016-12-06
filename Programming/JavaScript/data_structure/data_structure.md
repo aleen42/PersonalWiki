@@ -7,7 +7,7 @@ This chapter mainly covers some of them for you:
 - **Arrays**
 - **Lists**
 - **Stacks**
-- [](./queue/queue.md)**Queues**
+- [**Queues**](./queue/queue.md)
 - [**Linked Lists**](./linked_lists/linked_lists.md)
 - [**Dictionaries**](./dictionary/dictionary.md)
 - [**Hashing**](./hashing/hashing.md)
