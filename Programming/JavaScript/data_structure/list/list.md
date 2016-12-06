@@ -118,4 +118,14 @@ function next() {
         this.pos++;
     }
 }
+
+function curPos() {
+    return this.pos;
+}
+
+function moveTo(pos) {
+    if (Object.prototype.toString.call(pos).toLowerCase() === '[object number]' && pos > 0 && pos < this.size - 1) {
+        this.pos = pos;
+    }
+}
 ```
