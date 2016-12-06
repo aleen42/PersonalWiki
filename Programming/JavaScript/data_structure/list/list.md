@@ -59,6 +59,11 @@ function find(element) {
     return -1;
 }
 
+function clear() {
+    this.dataStore.splice(0, this.size);
+    this.size = 0;
+}
+
 function remove(element) {
     var index = this.find(element);
     
