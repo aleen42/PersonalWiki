@@ -45,7 +45,6 @@ function toString() {
     }
     
     return retStr;
-    
 }
 ```
 
