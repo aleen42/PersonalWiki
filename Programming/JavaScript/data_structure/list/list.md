@@ -31,4 +31,20 @@ function List() {
 function append(element) {
     this.dataStore[size++] = element;
 }
+
+function find(element) {
+    /** return this.dataStore.indexOf(element); */
+    var dataStore = this.dataStore;
+    var dataStoreLen = dataStore.length;
+    
+    for (var i = 0; i < dataStoreLen; i++) {
+        if (dataStore[i] === element) {
+            return i;
+        }
+    }
+    
+    return -1;
+    
+    
+}
 ```
