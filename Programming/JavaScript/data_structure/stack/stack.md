@@ -19,6 +19,10 @@ function push(element) {
 }
 
 function pop() {
+    if (this.top === 0) {
+        return null;
+    }
+
     return this.dataStore.splice(--this.top, 1);
 }
 ```
