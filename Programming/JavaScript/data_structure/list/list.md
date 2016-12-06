@@ -71,6 +71,12 @@ function remove(element) {
     if (index > -1) {
         this.dataStore.splice(index + 1, 1);
         this.size--;
+        
+        /** check position */
+        if (this.pos > this.size) {
+            this.pos = this.size;
+        }
+        
         return true;
     } else {
         return false;
