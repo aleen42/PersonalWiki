@@ -77,8 +77,8 @@ function remove(element) {
         this.size--;
         
         /** check position */
-        if (this.pos > this.size) {
-            this.pos = this.size;
+        if (this.pos > this.size - 1) {
+            this.pos = this.size - 1;
         }
         
         return true;
