@@ -184,6 +184,7 @@
                         * [URLs, Paths, and Internet Addresses](./Programming/JavaScript/regular/url_path_internet_address/url_path_internet_address.md)
                         * [Markup and Data Formats](./Programming/JavaScript/regular/markup_data_formats/markup_data_formats.md)
                     * [Data Structure](./Programming/JavaScript/data_structure/data_structure.md)
+                        * [Lists](./Programming/JavaScript/data_structure/list/list.md)
                         * [Stacks](./Programming/JavaScript/data_structure/stack/stack.md)
                         * [Queues](./Programming/JavaScript/data_structure/queue/queue.md)
                         * [Linked Lists](./Programming/JavaScript/data_structure/linked_lists/linked_lists.md)
