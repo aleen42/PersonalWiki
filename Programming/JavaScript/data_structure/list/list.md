@@ -57,4 +57,12 @@ function remove(element) {
         return false;
     }
 }
+
+function length() {
+    return this.size;
+}
+
+function toString() {
+    return this.dataStore;
+}
 ```
