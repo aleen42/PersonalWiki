@@ -14,7 +14,7 @@ function Queue() {
     this.front = front;
     this.back = back;
     this.toString = toString;
-    this.empty = empty;
+    this.isEmpty = isEmpty;
 }
 
 function enqueue(element) {
@@ -45,6 +45,10 @@ function toString() {
     }
     
     return retStr;
+}
+
+function isEmpty() {
+    return (this.dataStore.length === 0 ? true : false);
 }
 ```
 
