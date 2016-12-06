@@ -54,5 +54,28 @@ function isEmpty() {
 
 ### Priority Queues
 
-A **priority queue** is one where elements are removed from the queue based on a priority constraint.
+A **priority queue** is one where elements are removed from the queue based on a priority constraint. Due to the priority, we will need another attribute to represent for it:
+
+```js
+function enqueue(element, weight) {
+    this.dataStore.push({
+        element,
+        weight
+    });
+}
+
+function dequeue() {
+    var dataStore = this.dataStore;
+    var dataStoreLen = dataStore.length;
+    
+    var index = 0;
+    var priority = dataStore[index].weight;
+    
+    for (var i = 0; i < dataStoreLen; i++) {
+        index = (dataStore[i].weight < priority ? i : index);
+    }
+    
+    return dataStore.splice(index, 1);
+}
+```
 
