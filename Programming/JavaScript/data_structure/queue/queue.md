@@ -33,5 +33,19 @@ function back() {
     var dataStore = this.dataStore;
     return dataStore[dataStore.length - 1];
 }
+
+/** to show all elements of an queue */
+function toString() {
+    var retStr = '';
+    var dataStore = this.dataStore;
+    var dataStoreLen = dataStore.length;
+    
+    for (var i = 0; i < dataStoreLen; i++) {
+        retStr += dataStore[i] + '\n';
+    }
+    
+    return retStr;
+    
+}
 ```
 
