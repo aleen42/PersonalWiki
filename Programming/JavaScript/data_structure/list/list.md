@@ -44,7 +44,15 @@ function find(element) {
     }
     
     return -1;
+}
+
+function remove(element) {
+    var index = this.find(element);
     
-    
+    if (index > -1) {
+        this.dataStore.splice(index, 1);
+    } else {
+        return false;
+    }
 }
 ```
