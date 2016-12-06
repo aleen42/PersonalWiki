@@ -27,4 +27,8 @@ function List() {
     this.getElement = getElement;
     this.isContain = isContain;
 }
+
+function append(element) {
+    this.dataStore[size++] = element;
+}
 ```
