@@ -13,6 +13,7 @@ function Stack() {
     this.pop = pop;
     this.peek = peek;
     
+    this.clear = clear;
     this.length = length;
 }
 
