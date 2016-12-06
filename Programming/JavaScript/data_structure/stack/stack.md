@@ -15,6 +15,6 @@ function Stack() {
 }
 
 function push(element) {
-    this.dataStore[this.top] = element;
+    this.dataStore[this.top++] = element;
 }
 ```
