@@ -32,6 +32,19 @@ function append(element) {
     this.dataStore[size++] = element;
 }
 
+/** insert the element after the item */
+function insert(element, item) {
+    var index = this.find(item);
+    
+    if (index > -1) {
+        this.dataStore.splice(index, 0, element);
+        this.size++;
+        return true;
+    } else {
+        return false;
+    }
+}
+
 function find(element) {
     /** return this.dataStore.indexOf(element); */
     var dataStore = this.dataStore;
@@ -50,7 +63,7 @@ function remove(element) {
     var index = this.find(element);
     
     if (index > -1) {
-        this.dataStore.splice(index, 1);
+        this.dataStore.splice(index + 1, 1);
         this.size--;
         return true;
     } else {
