@@ -131,4 +131,8 @@ function moveTo(pos) {
         return false;
     }
 }
+
+function getElement() {
+    return this.dataStore[this.pos];
+}
 ```
