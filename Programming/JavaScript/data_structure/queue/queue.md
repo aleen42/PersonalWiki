@@ -24,5 +24,14 @@ function enqueue(element) {
 function dequeue() {
     this.dataStore.shift();
 }
+
+function front() {
+    return this.dataStore[0];
+}
+
+function back() {
+    var dataStore = this.dataStore;
+    return dataStore[dataStore.length - 1];
+}
 ```
 
