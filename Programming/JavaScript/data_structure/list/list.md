@@ -126,6 +126,9 @@ function curPos() {
 function moveTo(pos) {
     if (Object.prototype.toString.call(pos).toLowerCase() === '[object number]' && pos > 0 && pos < this.size - 1) {
         this.pos = pos;
+        return true;
+    } else {
+        return false;
     }
 }
 ```
