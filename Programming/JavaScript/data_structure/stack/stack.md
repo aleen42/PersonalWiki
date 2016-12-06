@@ -17,4 +17,8 @@ function Stack() {
 function push(element) {
     this.dataStore[this.top++] = element;
 }
+
+function pop() {
+    return this.dataStore.splice(--this.top, 1);
+}
 ```
