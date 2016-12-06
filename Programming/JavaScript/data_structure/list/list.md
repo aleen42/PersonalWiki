@@ -106,4 +106,16 @@ function front() {
 function end() {
     this.pos = this.size - 1;
 }
+
+function prev() {
+    if (this.pos > 0) {
+        this.pos--;
+    }
+}
+
+function next() {
+    if (this.pos < this.size - 1) {
+        this.pos++;
+    }
+}
 ```
