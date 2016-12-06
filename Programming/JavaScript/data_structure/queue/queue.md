@@ -78,4 +78,3 @@ function dequeue() {
     return dataStore.splice(index, 1);
 }
 ```
-
