@@ -13,4 +13,8 @@ function Stack() {
     this.pop = pop;
     this.peek = peek;
 }
+
+function push(element) {
+    this.dataStore[this.top] = element;
+}
 ```
