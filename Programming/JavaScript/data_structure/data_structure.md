@@ -6,7 +6,7 @@ This chapter mainly covers some of them for you:
 
 - **Arrays**
 - **Lists**
-- **Stacks**
+- [**Stacks**](./stack/stack.md)
 - [**Queues**](./queue/queue.md)
 - [**Linked Lists**](./linked_lists/linked_lists.md)
 - [**Dictionaries**](./dictionary/dictionary.md)
