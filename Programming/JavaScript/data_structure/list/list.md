@@ -13,9 +13,13 @@ function List() {
     this.clear = clear;
     this.find = find;
     this.toString = toString;
+    
+    /** Changement Operations */
     this.insert = insert;
     this.append = append;
     this.remove = remove;
+    
+    /** Traversing */
     this.front = front;
     this.end = end;
     this.prev = prev;
