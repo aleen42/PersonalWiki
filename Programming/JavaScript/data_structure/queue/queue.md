@@ -52,3 +52,7 @@ function isEmpty() {
 }
 ```
 
+### Priority Queues
+
+A **priority queue** is one where elements are removed from the queue based on a priority constraint.
+
