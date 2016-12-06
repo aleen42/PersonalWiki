@@ -25,4 +25,8 @@ function pop() {
 
     return this.dataStore.splice(--this.top, 1);
 }
+
+function peek() {
+    return this.dataStore[this.top - 1];
+}
 ```
