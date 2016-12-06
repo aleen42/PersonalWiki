@@ -62,6 +62,7 @@ function find(element) {
 function clear() {
     this.dataStore.splice(0, this.size);
     this.size = 0;
+    this.pos = 0;
 }
 
 function remove(element) {
