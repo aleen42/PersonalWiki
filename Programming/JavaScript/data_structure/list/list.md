@@ -94,4 +94,8 @@ function length() {
 function toString() {
     return this.dataStore;
 }
+
+function isContain(element) {
+    return (this.find(element) > -1);
+}
 ```
