@@ -16,4 +16,9 @@ function Queue() {
     this.toString = toString;
     this.empty = empty;
 }
+
+function enqueue(data) {
+    this.dataStore.push(data);
+}
 ```
+
