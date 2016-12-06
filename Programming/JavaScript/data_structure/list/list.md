@@ -98,4 +98,12 @@ function toString() {
 function isContain(element) {
     return (this.find(element) > -1);
 }
+
+function front() {
+    this.pos = 0;
+}
+
+function end() {
+    this.pos = this.size - 1;
+}
 ```
