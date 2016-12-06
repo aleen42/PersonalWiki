@@ -17,8 +17,12 @@ function Queue() {
     this.empty = empty;
 }
 
-function enqueue(data) {
-    this.dataStore.push(data);
+function enqueue(element) {
+    this.dataStore.push(element);
+}
+
+function dequeue() {
+    this.dataStore.shift();
 }
 ```
 
