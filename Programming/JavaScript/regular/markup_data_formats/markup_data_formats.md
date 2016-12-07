@@ -33,23 +33,23 @@ The lightweight INI file format is commonly used for configuration files. It is 
 - **Solution**
     - Quick and dirty:
 
-        **/<[&#94;>]&#42;>/**
+        **/&lt;[&#94;&gt;]&#42;&gt;/**
 
     - Allow `>` in attribute values:
 
-        **/<(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;>/**
+        **/&lt;(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;&gt;/**
 
     - (X)HTML tags (loose):
 
-        **/<\\/?([A-Za-z][&#94;\\s>\\/]&#42;)(?:=\\s&#42;(?:"[&#94;"]&#42;"|'[&#94;']&#42;'|[&#94;\\s>]+)|[&#94;>])&#42;(?:>|$)/**
+        **/&lt;\\/?([A-Za-z][&#94;\\s&gt;\\/]&#42;)(?:=\\s&#42;(?:"[&#94;"]&#42;"|'[&#94;']&#42;'|[&#94;\\s&gt;]+)|[&#94;&gt;])&#42;(?:&gt;|$)/**
 
     - (X)HTML tags (strict):
 
-        **/<(?:([A-Z][-:A-Z0-9]&#42;)(?:\s+[A-Z][-:A-Z0-9]&#42;(?:\s&#42;=\s&#42;(?:"[&#94;"]&#42;"|'[&#94;']&#42;'|[&#94;"'`=<>\s]+))?)&#42;\s&#42;\\/?|\\/([A-Z][-:A-Z0-9]&#42;)\s&#42;)>/**
+        **/&lt;(?:([A-Z][-:A-Z0-9]&#42;)(?:\s+[A-Z][-:A-Z0-9]&#42;(?:\s&#42;=\s&#42;(?:"[&#94;"]&#42;"|'[&#94;']&#42;'|[&#94;"'`=&lt;&gt;\s]+))?)&#42;\s&#42;\\/?|\\/([A-Z][-:A-Z0-9]&#42;)\s&#42;)&gt;/**
 
     - XML tags (strict):
 
-        **/<(?:([_:A-Z][-.:\\w]&#42;)(?:\\s+[_:A-Z][-.:\\w]&#42;\\s&#42;=\\s&#42;(?:"[&#94;"]&#42;"|'[&#94;']&#42;'))&#42;\\s&#42;\\/?|\\/([_:A-Z][-.:\\w]&#42;)\\s&#42;)>/**
+        **/&lt;(?:([_:A-Z][-.:\\w]&#42;)(?:\\s+[_:A-Z][-.:\\w]&#42;\\s&#42;=\\s&#42;(?:"[&#94;"]&#42;"|'[&#94;']&#42;'))&#42;\\s&#42;\\/?|\\/([_:A-Z][-.:\\w]&#42;)\\s&#42;)&gt;/**
 
 - **Discussion**
 
@@ -75,7 +75,7 @@ The lightweight INI file format is commonly used for configuration files. It is 
 
 - **Discussion**
 
-    If you want to match any tag from a list of tag names, you can use the regex like this: **/<(\/?)([bi]|em|big)\b((?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;)>/ig**.
+    If you want to match any tag from a list of tag names, you can use the regex like this: **/&lt;(\/?)([bi]|em|big)\b((?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;)&gt;/ig**.
 
 ### Remove all XML-style tags except &lt;em&gt; and &lt;strong&gt;
 
@@ -155,19 +155,19 @@ The lightweight INI file format is commonly used for configuration files. It is 
 - **Solution**
     - Tags that contain an id attribute (quick and dirty):
 
-        **/<[&#94;>]+\\sid\\b[&#94;>]&#42;>/i**
+        **/&lt;[&#94;&gt;]+\\sid\\b[&#94;&gt;]&#42;&gt;/i**
 
     - Tags that contain an id attribute (more reliable):
 
-        **/<(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')+?\\sid\\s&#42;=\\s&#42;("[&#94;"]&#42;"|'[&#94;']&#42;')(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;>/i**
+        **/&lt;(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')+?\\sid\\s&#42;=\\s&#42;("[&#94;"]&#42;"|'[&#94;']&#42;')(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;&gt;/i**
 
     - `<div>` tags that contain an id attribute:
 
-        **/<div\s(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;?\\bid\\s&#42;=\\s&#42;("[&#94;"]&#42;"|'[&#94;']&#42;')(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;>/i**
+        **/&lt;div\s(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;?\\bid\\s&#42;=\\s&#42;("[&#94;"]&#42;"|'[&#94;']&#42;')(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;&gt;/i**
 
     - Tags that contain an id attribute with the value "my-id":
 
-        **/<(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')+?\\sid\\s&#42;=\\s&#42;(?:"my-id"|'my-id')(?:[&#94;>"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;>/i**
+        **/&lt;(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')+?\\sid\\s&#42;=\\s&#42;(?:"my-id"|'my-id')(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;&gt;/i**
 
     - Tags that contain "my-class" within their class attribute value:
 
@@ -222,7 +222,7 @@ The lightweight INI file format is commonly used for configuration files. It is 
 
 - **Discussion**
 
-    If we want to match valid XML comments, we can use the regular expression to solve it: **/<!--[&#94;-]&#42;(?:-[&#94;-]+)&#42;--\s&#42;>/ig**, while if we want to match valid HTML comments, we can use another regex: **/<!--(?!-?>)[&#94;-]&#42;(?:-[&#94;-]+)&#42;-->/ig**.
+    If we want to match valid XML comments, we can use the regular expression to solve it: **/&lt;!--[&#94;-]&#42;(?:-[&#94;-]+)&#42;--\s&#42;&gt;/ig**, while if we want to match valid HTML comments, we can use another regex: **/&lt;!--(?!-?&gt;)[&#94;-]&#42;(?:-[&#94;-]+)&#42;--&gt;/ig**.
 
 ### Find words within XML-style comments
 
@@ -232,7 +232,7 @@ The lightweight INI file format is commonly used for configuration files. It is 
 
 - **Solution**
 
-    **/\\bTODO\\b(?=(?:(?!<!--)[\\s\\S])&#42;?-->)/i**
+    **/\\bTODO\\b(?=(?:(?!&lt;!--)[\\s\\S])&#42;?--&gt;)/i**
 
 ### Change the delimiter (定界符) used in CSV files
 

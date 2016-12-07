@@ -263,3 +263,9 @@ So the resolution should be changed like this:
 **/&lt;html&gt;(?=([\\s\\S]&#42;?&lt;head&gt;))\\1(?=([\\s\\S]&#42;?&lt;title&gt;))\\2(?=([\\s\\S]&#42;?&lt;\\/title&gt;))\\3(?=([\\s\\S]&#42;?&lt;\\/head&gt;))\\4(?=([\\s\\S]&#42;?&lt;body&gt;))\\5(?=([\\s\\S]&#42;?&lt;\\/body&gt;))\\6[\\s\\S]&#42;?&lt;\\/html&gt;/**
 
 Now, if there is no trailing `</html>` and the last `[\s\S]*?` expands to the end of the string, the regex immediately fails because there are no backtracking points to return to.
+
+A quantifier is nested when it occurs within a grouping that is itself repeated by a quantifier (e.g., `(x+)*`). Even if it's not actually a performance hazard (危險), it can still easily create a massive number of ways to divide text between the inner and outer quantifiers while attempting to match a string.
+
+Considering the following regex which is mainly used to match HTML tags:
+
+**/&lt;(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;&gt;/**
