@@ -122,3 +122,43 @@ Which produces:
 
 <p align="center"><img src="./Screen_Shot_2016-11-17_at_12.03.22_PM.png" /></p>
 
+So that's obviously not super useful but you can set it to different values to control what gets thresholded by the model.
+
+### Tiny YOLO
+
+Tiny YOLO is based off of the [Darknet reference network](http://pjreddie.com/darknet/imagenet/#reference) and is much faster but less accurate than the normal YOLO model. To use the version trained on VOC:
+
+```bash
+wget http://pjreddie.com/media/files/tiny-yolo-voc.weights
+./darknet detector test cfg/voc.data cfg/tiny-yolo-voc.cfg tiny-yolo-voc.weights data/dog.jpg
+```
+
+Which, ok, it's not perfect, but boy it sure is fast. On GPU it runs at >200 FPS.
+
+<p align="center"><img src="./Screen_Shot_2016-11-26_at_11.22.46_PM.png" /></p>
+
+### Real-Time Detection on a Webcam
+
+Running YOLO on test data isn't very interesting if you can't see the result. Instead of running it on a bunch of images let's run it on the input from a webcam!
+
+To run this demo you will need to compile [Darknet with CUDA and OpenCV](http://pjreddie.com/darknet/install/#cuda). Then run the command:
+
+```bash
+./darknet detector demo cfg/coco.data cfg/yolo.cfg yolo.weights
+```
+
+YOLO will display the current FPS and predicted classes as well as the image with bounding boxes drawn on top of it.
+
+You will need a webcam connected to the computer that OpenCV can connect to or it won't work. If you have multiple webcams connected and want to select which one to use you can pass the flag `-c <num>` to pick (OpenCV uses webcam `0` by default).
+
+You can also run it on a video file if OpenCV can read the video:
+
+```bash
+./darknet detector demo cfg/coco.data cfg/yolo.cfg yolo.weights <video file>
+```
+
+That's how we made the YouTube video above.
+
+### What Happened to the Old YOLO Site?
+
+If you are using YOLO version 1 you can still find the site here: http://pjreddie.com/darknet/yolov1/
