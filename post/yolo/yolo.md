@@ -29,3 +29,7 @@ We use a totally different approach. We apply a single neural network to the ful
 <p align="center"><img src="./model2.png" /></p>
 
 Our model has several advantages over classifier-based systems. It looks at the whole image at test time so its predictions are informed by global context in the image. It also makes predictions with a single network evaluation unlike systems like [R-CNN](https://github.com/rbgirshick/rcnn) which require thousands for a single image. This makes it extremely fast, more than 1000x faster than R-CNN and 100x faster than [Fast R-CNN](https://github.com/rbgirshick/fast-rcnn). See our [paper](http://arxiv.org/abs/1506.02640) for more details on the full system.
+
+#### What's New in Version 2?
+
+YOLOv2 uses a few tricks to improve training and increase performance. Like Overfeat and SSD we use a fully-convolutional model, but we still train on whole images, not hard negatives. Like Faster R-CNN we adjust priors on bounding boxes instead of predicting the width and height outright. However, we still predict the `x` and `y` coordinates directly. The full details are in our paper soon to be released on Arxiv, stay tuned!
