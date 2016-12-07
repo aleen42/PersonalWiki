@@ -236,7 +236,11 @@ If you want to change the regex to match individual paragraph, you can replace t
 
 However, if matching the same target with producing the same result, using lazy quantifier should be slower than the greedy one:
 
-![lazy greedy quantifiers](./greedy_lazy.png)
+Target:|**&lt;p&gt;Para 1.&lt;\\/p&gt;**
+:------|:-------
+Greedy quantifier|Lazy quantifier:
+**/&lt;p&gt;.&#42;&lt;\\/p&gt;/i**|**/&lt;p&gt;.&#42;?&lt;\\/p&gt;/i**
+<ol><li>&lt;</li><li>&lt;p</li><li>&lt;p&gt;</li><li>&lt;p&gt;Para 1.&lt;/p&gt;</li><li>&lt;p&gt;Para 1.&lt;/p&gt;  <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.&lt;/p</li><li>&lt;p&gt;Para 1.&lt;/p <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.&lt;/</li><li>&lt;p&gt;Para 1.&lt;/ <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.&lt;</li><li>&lt;p&gt;Para 1.&lt; <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.</li><li>&lt;p&gt;Para 1.&lt;</li><li>&lt;p&gt;Para 1.&lt;/</li><li>&lt;p&gt;Para 1.&lt;/p</li><li>&lt;p&gt;Para 1.&lt;/p&gt; <strong>[success]</strong></li></ol>|<ol><li>&lt;</li><li>&lt;p</li><li>&lt;p&gt;</li><li>&lt;p&gt; <strong>[zero-length match]</strong></li><li>&lt;p&gt; <strong>[backtrack]</strong></li><li>&lt;p&gt;P</li><li>&lt;p&gt;P <strong>[backtrack]</strong></li><li>&lt;p&gt;Pa</li><li>&lt;p&gt;Pa <strong>[backtrack]</strong></li><li>&lt;p&gt;Par</li><li>&lt;p&gt;Par <strong>[backtrack]</strong></li><li>&lt;p&gt;Para</li><li>&lt;p&gt;Para <strong>[backtrack]</strong></li><li>&lt;p&gt;Para&nbsp;</li><li>&lt;p&gt;Para&nbsp; <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1</li><li>&lt;p&gt;Para 1 <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.</li><li>&lt;p&gt;Para 1.&lt;</li><li>&lt;p&gt;Para 1.&lt;/</li><li>&lt;p&gt;Para 1.&lt;/p</li><li>&lt;p&gt;Para 1.&lt;/p&gt; <strong>[success]</strong></li></ol>
 
 #### Runaway backtracking
 
