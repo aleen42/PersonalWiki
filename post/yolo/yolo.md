@@ -33,3 +33,77 @@ Our model has several advantages over classifier-based systems. It looks at the 
 #### What's New in Version 2?
 
 YOLOv2 uses a few tricks to improve training and increase performance. Like Overfeat and SSD we use a fully-convolutional model, but we still train on whole images, not hard negatives. Like Faster R-CNN we adjust priors on bounding boxes instead of predicting the width and height outright. However, we still predict the `x` and `y` coordinates directly. The full details are in our paper soon to be released on Arxiv, stay tuned!
+
+### Detection Using A Pre-Trained Model
+
+This post will guide you through detecting objects with the YOLO system using a pre-trained model. If you don't already have Darknet installed, you should [do that first](http://pjreddie.com/darknet/install/). Or instead of reading all that just run:
+
+```bash
+git clone https://github.com/pjreddie/darknet
+cd darknet
+make
+```
+
+Easy!
+
+You already have the config file for YOLO in the `cfg/` subdirectory. You will have to download the pre-trained weight file [here (258 MB)](http://pjreddie.com/media/files/yolo.weights). Or just run this:
+
+```bash
+wget http://pjreddie.com/media/files/yolo.weights
+```
+
+Then run the detector!
+
+```bash
+./darknet detect cfg/yolo.cfg yolo.weights data/dog.jpg
+```
+
+You will see some output like this:
+
+```bash
+layer     filters    size              input                output
+    0 conv     32  3 x 3 / 1   416 x 416 x   3   ->   416 x 416 x  32
+    1 max          2 x 2 / 2   416 x 416 x  32   ->   208 x 208 x  32
+    .......
+   29 conv    425  1 x 1 / 1    13 x  13 x1024   ->    13 x  13 x 425
+   30 detection
+Loading weights from yolo.weights...Done!
+data/dog.jpg: Predicted in 0.016287 seconds.
+car: 54%
+bicycle: 51%
+dog: 56%
+```
+
+<p align="center"><img src="./Screen_Shot_2016-11-17_at_11.14.54_AM.png" /></p>
+
+Darknet prints out the objects it detected, its confidence, and how long it took to find them. We didn't compile Darknet with `OpenCV` so it can't display the detections directly. Instead, it saves them in `predictions.png`. You can open it to see the detected objects. Since we are using Darknet on the CPU it takes around 6-12 seconds per image. If we use the GPU version it would be much faster.
+
+I've included some example images to try in case you need inspiration. Try `data/eagle.jpg`, `data/dog.jpg`, `data/person.jpg`, or `data/horses.jpg`!
+
+The `detect` command is shorthand for a more general version of the command. It is equivalent to the command:
+
+```bash
+./darknet detector test cfg/coco.data cfg/yolo.cfg yolo.weights data/dog.jpg
+```
+
+You don't need to know this if all you want to do is run detection on one image but it's useful to know if you want to do other things like run on a webcam (which you will see [later on](http://pjreddie.com/darknet/yolo/#demo)).
+
+#### Multiple Images
+
+Instead of supplying an image on the command line, you can leave it blank to try multiple images in a row. Instead you will see a prompt when the config and weights are done loading:
+
+```bash
+./darknet detect cfg/yolo.cfg yolo.weights
+layer     filters    size              input                output
+    0 conv     32  3 x 3 / 1   416 x 416 x   3   ->   416 x 416 x  32
+    1 max          2 x 2 / 2   416 x 416 x  32   ->   208 x 208 x  32
+    .......
+   29 conv    425  1 x 1 / 1    13 x  13 x1024   ->    13 x  13 x 425
+   30 detection
+Loading weights from yolo.weights ...Done!
+Enter Image Path:
+```
+
+Enter an image path like `data/horses.jpg` to have it predict boxes for that image.
+
+<p align="center"><img src="./Screen_Shot_2016-11-17_at_12.26.06_PM.png" /></p>
