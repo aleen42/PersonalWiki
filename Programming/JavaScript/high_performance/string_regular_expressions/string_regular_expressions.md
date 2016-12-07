@@ -162,4 +162,40 @@ Everything has two coins, and `concat` has paid for its convenience. `concat` is
 
 ### Regular Expression Optimization
 
+Incautiously crafted regexes can be a major performance bottleneck, but there is a lot you can do to improve regex efficiency. Just because two regexes match the same text does not mean they do at the same speed.
 
+#### How Regular Expressions Work
+
+Before focusing on the improvement of performance, it's important to understand how regular expressions work.
+
+- Step 1: Compilation
+
+    When you create a regex object (using a regex literal or `RegExp` object), the browser will checks your pattern for errors and then converts it into a native code routine that is used to actually perform matches. (**If you assign the regex to a local variable, you can avoid performing this step more than once**)
+
+- Step 2: Setting the starting position
+
+    When a regex is firstly put to use, the first step is to determine the position within the target string, where to search (the start of the string or the position specified by the regex's `lastIndex` property).
+
+    When a regex has succeed or failed to match, the position will be the next one character after where the last attempt started.
+
+    Optimizations that browser makers build into their regex engines can help avoid a lot of unnecessary work in this step.
+
+    - If a regex starts with `^`, IE and Chrome can usually determine that a match cannot be found after the start of a string and avoid foolishly searching subsequent positions.
+    - If all possible matches contain `x` as the third character, recent version of Chrome will determine this, quickly search for the next `x`, and set the starting position two characters back from where it's found.
+    - ...
+
+- Step 3: Matching each regex token
+
+    Since the regex has known where to start, it steps through the text and the regex pattern. When a particular token failed to match, the regex tries to **backtrack** to a prior point in the match attempt and follow other possible paths through the regex.
+
+- Step 4: Success or failure
+
+    If a complete match is found at the current position in the string, the regex declares success.
+
+    If all possible paths through the regex has been attempted but a match was not found, the regex engine goes back to step 2 and try again at the next one character.
+
+    Only after cycling each character in the string and no matches have been found does the regex declare overall failure.
+
+#### Understanding backtracking
+
+Backtracking is a fundamental component of regexes' matching process, but it's, however, computationally expensive and can easily get out of hand if you're not careful.
