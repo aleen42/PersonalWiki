@@ -199,3 +199,41 @@ Before focusing on the improvement of performance, it's important to understand 
 #### Understanding backtracking
 
 Backtracking is a fundamental component of regexes' matching process, but it's, however, computationally expensive and can easily get out of hand if you're not careful.
+
+For each quantifier and alternation, a **decision** must be made about how to proceed. With a qualifier (such as `*`, `+?`, or `{2,}`), the regex must decide when to try matching additional characters. With alternation (via the `|` operator), it must also try one option from those available.
+
+Each time the regex makes such a decision, it remembers the other options to return to later if necessary. If the chosen option can not find a match or anything later in the regex fails, the regex will backtrack to the last decision point where untried options remain and chooses one. This is the process of **backtracking**.
+
+##### **Alternation and backtracking**
+
+Consider the following case:
+
+```js
+/h(ello|appy) hippo/.test('hello there, happy hippo');
+```
+
+There are two main processes of backtracking we should focus on:
+
+- Match attempt at character 1:
+
+    ![case1](./case1.png)
+
+- Match attempt at character 14:
+
+    ![case2](./case2.png)
+
+##### **Repetition and backtracking**
+
+The next case shows how backtracking works with repetition quantifier.
+
+```js
+/<p>.*<\/p>/.test('<p>Para 1.</p><img src="small.jpg" /><p>Para 2.</p><div>Div. </div>');
+```
+
+This regex will firstly match the whole string from character 4 within the dot `.` qualifier, and then try backtracking to match `<`. Since `</` has been matched at the `</div>` tag, the character `p` does not match the character `d`. So, it still try backtracking continually until it match `</p>` after the string "Para 2.". Therefore, the matched result should be "**&lt;p&gt;Para 1.&lt;/p&gt;&lt;img src="small.jpg" /&gt;&lt;p&gt;Para 2.&lt;/p&gt;**".
+
+If you want to change the regex to match individual paragraph, you can replace the greedy quantifier `*` with the lazy one `*?`. With the lazy quantifier, the regex engine will skip matching `.*?` and directly try to match `</p>`. If it fails, it will backtrack to match the next fewest number of characters, and finally match "**&lt;p&gt;Para 1.&lt;/p&gt;**".
+
+However, if matching the same target with producing the same result, using lazy quantifier should be slower than the greedy one:
+
+![lazy greedy quantifiers](./greedy_lazy.png)
