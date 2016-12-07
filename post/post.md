@@ -48,3 +48,4 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[轉載] Facial Landmark Detection**](./facial_landmark/facial_landmark.md)
 - [**[轉載] Face Morph Using OpenCV — C++ / Python**](./face_morph/face_morph.md)
 - [**[轉載] Face Swap using OpenCV ( C++ / Python )**](./face_swap/face_swap.md)
+- [**[轉載] YOLO: Real-Time Object Detection**](./yolo/yolo.md)
