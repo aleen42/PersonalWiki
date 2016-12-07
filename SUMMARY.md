@@ -461,6 +461,7 @@
             * [[轉載] Facial Landmark Detection](./post/facial_landmark/facial_landmark.md)
             * [[轉載] Face Morph Using OpenCV — C++ / Python](./post/face_morph/face_morph.md)
             * [[轉載] Face Swap using OpenCV ( C++ / Python )](./post/face_swap/face_swap.md)
+            * [[轉載] YOLO: Real-Time Object Detection](./post/yolo/yolo.md)
 - Questions & Answer
     * [Q&A](./qa/qa.md)
         * Common QA
