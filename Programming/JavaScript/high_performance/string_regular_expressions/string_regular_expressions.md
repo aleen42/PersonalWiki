@@ -237,3 +237,25 @@ If you want to change the regex to match individual paragraph, you can replace t
 However, if matching the same target with producing the same result, using lazy quantifier should be slower than the greedy one:
 
 ![lazy greedy quantifiers](./greedy_lazy.png)
+
+#### Runaway backtracking
+
+When a regular expression cost browsers seconds, minutes, or longer to execute, the problem is most likely a bad case of runaway backtracking. Consider the following regex which is mainly used to match an entire HTML file:
+
+**/&lt;html&gt;[\\s\\S]&#42;?&lt;head&gt;[\\s\\S]&#42;?&lt;title&gt;[\\s\\S]&#42;?&lt;\\/title&gt;[\\s\\S]&#42;?&lt;\\/head&gt; [\\s\\S]&#42;?&lt;body&gt;[\\s\\S]&#42;?&lt;\\/body&gt;[\\s\\S]&#42;?&lt;\\/html&gt;/**
+
+This regex works fine when matching a suitable HTML string, but it turns ugly when the string is missing one or more required tags, such as `</html>`, `</body>`, or `</head>`, as the `[\s\S]*?` will expands to the end of the string more than once. Therefore, we have to use another more specific regular expression for optimization:
+
+**/&lt;html&gt;(?:(?!&lt;head&gt;)[\\s\\S])&#42;&lt;head&gt;(?:(?!&lt;title&gt;)[\\s\\S])&#42;&lt;title&gt; (?:(?!&lt;\\/title&gt;)[\\s\\S])&#42;&lt;\\/title&gt;(?:(?!&lt;\\/head&gt;)[\\s\\S])&#42;&lt;\\/head&gt; (?:(?!&lt;body&gt;)[\\s\\S])&#42;&lt;body&gt;(?:(?!&lt;\\/body&gt;)[\\s\\S])&#42;&lt;\\/body&gt; (?:(?!&lt;\\/html&gt;)[\\s\\S])&#42;&lt;\\/html&gt;/**
+
+Even if the regex has removed the potential for runaway backtracking and allowed to fail at matching incomplete HTML strings in linear time, it still has some problems of efficiency above repeating a lookahead for each matched character.
+
+Some regex flavors, including .NET, Java, and Perl, support a feature called **atomic grouping**. As soon as a regex exit such an atomic group, any backtracking positions within the group are thrown away, which means that we can reduce the times of backtracking. However, in JavaScript, we need to use another way to emulate (模擬) atomic groups by using lookahead and backreferences.
+
+**/(?=(pattern to make atomic))\\1/**
+
+So the resolution should be changed like this:
+
+**/&lt;html&gt;(?=([\\s\\S]&#42;?&lt;head&gt;))\\1(?=([\\s\\S]&#42;?&lt;title&gt;))\\2(?=([\\s\\S]&#42;? &lt;\\/title&gt;))\\3(?=([\\s\\S]&#42;?&lt;\\/head&gt;))\\4(?=([\\s\\S]&#42;?&lt;body&gt;))\\5 (?=([\\s\\S]&#42;?&lt;\\/body&gt;))\\6[\\s\\S]&#42;?&lt;\\/html&gt;/**
+
+Now, if there is no trailing `</html>` and the last `[\s\S]*?` expands to the end of the string, the regex immediately fails because there are no backtracking points to return to.
