@@ -160,4 +160,6 @@ str = String.prototype.concat.apply(str, array);
 
 Everything has two coins, and `concat` has paid for its convenience. `concat` is a little slower than simple `+` and `+=` operations in most cases, and can be very slower in IE, Opera, and Chrome. The reason is same as using `+` and `+=` when building large strings in IE7 and earlier.
 
-### Regular Expression Op
+### Regular Expression Optimization
+
+
