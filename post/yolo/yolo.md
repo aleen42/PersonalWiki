@@ -107,3 +107,18 @@ Enter Image Path:
 Enter an image path like `data/horses.jpg` to have it predict boxes for that image.
 
 <p align="center"><img src="./Screen_Shot_2016-11-17_at_12.26.06_PM.png" /></p>
+
+Once it is done it will prompt you for more paths to try different images. Use `Ctrl-C` to exit the program once you are done.
+
+#### Changing The Detection Threshold
+
+By default, YOLO only displays objects detected with a confidence of .25 or higher. You can change this by passing the `-thresh <val>` flag to the `yolo` command. For example, to display all detection you can set the threshold to 0:
+
+```bash
+./darknet detect cfg/yolo.cfg yolo.weights data/dog.jpg -thresh 0
+```
+
+Which produces:
+
+<p align="center"><img src="./Screen_Shot_2016-11-17_at_12.03.22_PM.png" /></p>
+
