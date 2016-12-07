@@ -246,11 +246,11 @@ Greedy quantifier|Lazy quantifier:
 
 When a regular expression cost browsers seconds, minutes, or longer to execute, the problem is most likely a bad case of runaway backtracking. Consider the following regex which is mainly used to match an entire HTML file:
 
-**/&lt;html&gt;[\\s\\S]&#42;?&lt;head&gt;[\\s\\S]&#42;?&lt;title&gt;[\\s\\S]&#42;?&lt;\\/title&gt;[\\s\\S]&#42;?&lt;\\/head&gt; [\\s\\S]&#42;?&lt;body&gt;[\\s\\S]&#42;?&lt;\\/body&gt;[\\s\\S]&#42;?&lt;\\/html&gt;/**
+**/&lt;html&gt;[\\s\\S]&#42;?&lt;head&gt;[\\s\\S]&#42;?&lt;title&gt;[\\s\\S]&#42;?&lt;\\/title&gt;[\\s\\S]&#42;?&lt;\\/head&gt;[\\s\\S]&#42;?&lt;body&gt;[\\s\\S]&#42;?&lt;\\/body&gt;[\\s\\S]&#42;?&lt;\\/html&gt;/**
 
 This regex works fine when matching a suitable HTML string, but it turns ugly when the string is missing one or more required tags, such as `</html>`, `</body>`, or `</head>`, as the `[\s\S]*?` will expands to the end of the string more than once. Therefore, we have to use another more specific regular expression for optimization:
 
-**/&lt;html&gt;(?:(?!&lt;head&gt;)[\\s\\S])&#42;&lt;head&gt;(?:(?!&lt;title&gt;)[\\s\\S])&#42;&lt;title&gt; (?:(?!&lt;\\/title&gt;)[\\s\\S])&#42;&lt;\\/title&gt;(?:(?!&lt;\\/head&gt;)[\\s\\S])&#42;&lt;\\/head&gt; (?:(?!&lt;body&gt;)[\\s\\S])&#42;&lt;body&gt;(?:(?!&lt;\\/body&gt;)[\\s\\S])&#42;&lt;\\/body&gt; (?:(?!&lt;\\/html&gt;)[\\s\\S])&#42;&lt;\\/html&gt;/**
+**/&lt;html&gt;(?:(?!&lt;head&gt;)[\\s\\S])&#42;&lt;head&gt;(?:(?!&lt;title&gt;)[\\s\\S])&#42;&lt;title&gt;(?:(?!&lt;\\/title&gt;)[\\s\\S])&#42;&lt;\\/title&gt;(?:(?!&lt;\\/head&gt;)[\\s\\S])&#42;&lt;\\/head&gt;(?:(?!&lt;body&gt;)[\\s\\S])&#42;&lt;body&gt;(?:(?!&lt;\\/body&gt;)[\\s\\S])&#42;&lt;\\/body&gt;(?:(?!&lt;\\/html&gt;)[\\s\\S])&#42;&lt;\\/html&gt;/**
 
 Even if the regex has removed the potential for runaway backtracking and allowed to fail at matching incomplete HTML strings in linear time, it still has some problems of efficiency above repeating a lookahead for each matched character.
 
@@ -260,6 +260,6 @@ Some regex flavors, including .NET, Java, and Perl, support a feature called **a
 
 So the resolution should be changed like this:
 
-**/&lt;html&gt;(?=([\\s\\S]&#42;?&lt;head&gt;))\\1(?=([\\s\\S]&#42;?&lt;title&gt;))\\2(?=([\\s\\S]&#42;? &lt;\\/title&gt;))\\3(?=([\\s\\S]&#42;?&lt;\\/head&gt;))\\4(?=([\\s\\S]&#42;?&lt;body&gt;))\\5 (?=([\\s\\S]&#42;?&lt;\\/body&gt;))\\6[\\s\\S]&#42;?&lt;\\/html&gt;/**
+**/&lt;html&gt;(?=([\\s\\S]&#42;?&lt;head&gt;))\\1(?=([\\s\\S]&#42;?&lt;title&gt;))\\2(?=([\\s\\S]&#42;?&lt;\\/title&gt;))\\3(?=([\\s\\S]&#42;?&lt;\\/head&gt;))\\4(?=([\\s\\S]&#42;?&lt;body&gt;))\\5(?=([\\s\\S]&#42;?&lt;\\/body&gt;))\\6[\\s\\S]&#42;?&lt;\\/html&gt;/**
 
 Now, if there is no trailing `</html>` and the last `[\s\S]*?` expands to the end of the string, the regex immediately fails because there are no backtracking points to return to.
