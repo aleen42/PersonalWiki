@@ -23,6 +23,7 @@ JavaScript|To specify the behavior of web pages.
 * [Array](./array/array.md)
 * [Regular Expressions](./regular/regular.md)
 * [Data Structure](./data_structure/data_structure.md)
+* [Parameters Passing](./parameter/parameter.md)
 
 #### Advanced
 
