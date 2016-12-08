@@ -194,6 +194,7 @@
                         * [Sets](./Programming/JavaScript/data_structure/sets/sets.md)
                         * [Binary Trees and Binary Search Trees](./Programming/JavaScript/data_structure/bt_bst/bt_bst.md)
                         * [Graphs](./Programming/JavaScript/data_structure/graphs/graphs.md)
+                    * [Parameters Passing](./Programming/JavaScript/parameter/parameter.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
