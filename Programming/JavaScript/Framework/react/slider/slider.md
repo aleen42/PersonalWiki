@@ -55,7 +55,7 @@ var items = [
 
 As we can see, title and description can be set as texts or any HTML text, as I have used `dangersoulySetInnerHTML` to set the contents for you.
 
-### Style
+### Styles
 
 What styles the component needs is as followed:
 
@@ -133,6 +133,10 @@ What styles the component needs is as followed:
 	visibility: visible; 
 }
 ```
+
+### External Depencies
+
+As 
 
 ### Demo
 
