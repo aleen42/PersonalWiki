@@ -39,32 +39,18 @@ ReactDOM.render(
 );
 ```
 
-Pay more attention to the object `data`, which should be constructed like this:
+Pay more attention to the object `items`, which should be constructed like this:
 
 ```js
-var data = {
-	name: 'ALL',
-	children: [
-		{ name: 'item1', children: null },
-		{ name: 'item2', children: [
-			{ name: 'item12', children: null },
-			{ name: 'item13', children: null }
-		]},
-		{ name: 'item3', children: [
-			{ name: 'item4', children: null },
-			{ name: 'item5', children: [
-				{ name: 'item7', children: null },
-				{ name: 'item8', children: null }
-			]},
-			{ name: 'item6', children: [
-				{ name: 'item9', children: null }
-			]},
-			{ name: 'item10', children: [
-				{ name: 'item11', children: null }
-			]}
-		]}
-	]
-};
+var items = [
+    {
+        title: 'any HTML text is supported',
+        description: 'any HTML text is supported'
+    }, {
+        title: 'item2',
+        description: 'the item 2'
+    }
+];
 ```
 
 As we can see, we should hold a `name` for each menu, and if menus have their own sub-menus, they can be constructed with a `children` object, which should be another array.
