@@ -8,7 +8,7 @@
 <strong>Rectangle Loading</strong>, just a reusable component for loading animation
 </p>
 
-### Property
+### Properties
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
@@ -38,6 +38,70 @@ ReactDOM.render(
     <Loading></Loading>,
     document.querySelector('.container')
 );
+```
+
+### Styles
+
+What styles the component needs is as followed:
+
+```css
+.loading {
+	font-size: 10px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+
+	box-sizing: border-box;
+}
+
+.loading > div:nth-child(1) {
+	/** IE shoule be greater than 2px to render */
+	margin-left: 2px;
+}
+
+.loading > div {
+	height: 100%;
+	width: 3px;
+	/** IE shoule be greater than 2px to render */
+	margin-right: 2px;
+	display: inline-block;
+	-webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+	animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.loading__hide {
+	display: none;
+	/*opacity: 0;*/
+}
+
+@-webkit-keyframes stretchdelay {
+	0%,
+	40%,
+	100% {
+		-webkit-transform: scaleY(0.4)
+	}
+	20% {
+		-webkit-transform: scaleY(1.0)
+	}
+}
+
+@keyframes stretchdelay {
+	0%,
+	40%,
+	100% {
+		transform: scaleY(0.4);
+		-webkit-transform: scaleY(0.4);
+	}
+	20% {
+		transform: scaleY(1.0);
+		-webkit-transform: scaleY(1.0);
+	}
+}
 ```
 
 ### Demo
