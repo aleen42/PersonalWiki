@@ -111,6 +111,7 @@
                         * [Rectangle Loading](./Programming/JavaScript/Framework/react/rect_loading/rect_loading.md)
                         * [Typer](./Programming/JavaScript/Framework/react/typer/typer.md)
                         * [Multi-level Navigation](./Programming/JavaScript/Framework/react/navigation/navigation.md)
+                        * [Slider](./Programming/JavaScript/Framework/react/slider/slider.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
