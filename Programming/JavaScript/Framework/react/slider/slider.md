@@ -55,6 +55,85 @@ var items = [
 
 As we can see, title and description can be set as texts or any HTML text, as I have used `dangersoulySetInnerHTML` to set the contents for you.
 
+### Style
+
+What styles the component needs is as followed:
+
+```css
+.slider__container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+.fa {
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	opacity: 0.3;
+	cursor: pointer;
+
+	height: 74px;
+	line-height: 74px;
+	width: 20%;
+	top: 50%;
+	margin-top: -37px;
+	text-align: center;
+
+	font-size: 3em;
+	position: absolute;
+}
+
+.fa:hover {
+	opacity: 1;
+}
+
+.fa-angle-right {
+	right: 0;
+}
+
+.fa-angle-left {
+	left: 0;
+}
+
+.content__item {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	top: 50%;
+	margin-top: -37px;
+}
+
+.content__item .title {
+	opacity: 0;
+	visibility: hidden;
+	font-size: 3em;
+}
+
+.content__item .description {
+	opacity: 0;
+	visibility: hidden;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.content__item--current .title {
+	opacity: 1;
+	visibility: visible; 
+}
+
+.content__item--current .description {
+	opacity: 1;
+	visibility: visible; 
+}
+```
+
 ### Demo
 
 <p>
