@@ -5,15 +5,17 @@
 ###Code
 
 ```js
-var svg = new Walkway({
-	selector: '#path',
-	duration: '2000',
-	easing: function(t){
-		return t * t;	//Easing Function
-	}
-});
-
-svg.draw();
+var el = document.getElementById("logo")
+dynamics.animate(el, {
+	translateX: 350,
+	scale: 2,
+	opacity: 0.5
+}, {
+	type: dynamics.spring,
+	frequency: 200,
+	friction: 200,
+	duration: 1500
+})
 
 ```
 ###Download
