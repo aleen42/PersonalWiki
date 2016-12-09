@@ -48,6 +48,70 @@ ReactDOM.render(
 
 What styles the component needs is as followed:
 
+```css
+.cursor__container {
+	width: 80%;
+	margin-left: -40%;
+	top: 20%;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.cursor,
+.cursor__text {
+	font-size: 16px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.cursor__text::before {
+	font-size: 14px;
+	font-weight: normal;
+	content: "Having fun with ";
+}
+
+.cursor {
+	font-size: 16px;
+	-webkit-animation: blink 0.7s ease-out;
+	-moz-animation: blink 0.7s ease-out;
+	-o-animation: blink 0.7s ease-out;
+	-ms-animation: blink 0.7s ease-out;
+	animation: blink 0.7s ease-out;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blink {
+	0%,
+	100% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+}
+
+@keyframes blink {
+	0%,
+	100% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+}
+```
+
 ### Demo
 
 <p>
