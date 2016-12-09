@@ -50,6 +50,70 @@ ReactDOM.render(
 );
 ```
 
+### Styles
+
+What styles the component needs is as followed:
+
+```css
+.paginate__item {
+	list-style: none;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin: 0 3px;
+	border-radius: 5px;
+	background-color: #f7f7f7;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.paginate__item--cursor {
+	cursor: pointer;
+}
+
+.paginate__item--acitve {
+	background-color: #a10000;
+	color: #f7f7f7;
+	
+	-webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.paginate__step {
+	width: 80px;
+}
+
+.paginate__step--cursor {
+	cursor: pointer;
+}
+
+.paginate__number {
+	outline: none;
+	border-radius: 5px;
+	width: 50px;
+	height: 28px;
+	line-height: 30px;
+	padding: 0 3px;
+	border: 1px solid #f7f7f7;
+	text-align: center;
+}
+
+.paginate__goto {
+	width: 80px;
+}
+
+.goto__wrapper {
+	margin-left: 30px;
+}
+```
+
 ### Demo
 
 <p>
