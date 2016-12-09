@@ -136,8 +136,8 @@ What styles the component needs is as followed:
 
 ### External Depencies
 
-- Dynamic.js
-- FontAwesome.css
+- [Dynamic.js](https://rawgit.com/aleen42/PersonalWiki/master/Programming/JavaScript/Framework/dynamics/dynamics.min.js)
+- [FontAwesome.css](https://rawgit.com/FortAwesome/Font-Awesome/master/css/font-awesome.min.css)
 
 ### Demo
 
