@@ -19,7 +19,7 @@ curIndex|true|0|the first item by default
 
 ### Usage
 
-The whole code is contained in the following codepen demo, and what you need to do is to copy the code of JavaScript, and save it as a `jsx` file, which may need a loader to parse like Babel. Then, before the defined class `Slider`, just add a key word `export` so that you can import it elsewhere.
+The whole code is contained in the following codepen demo, and what you need to do is to copy the code of JavaScript, and save it as a `jsx` file, which may need a loader to parse like Babel. Then, before the defined class `Slider`, just add a key word `export` so that you can import it elsewhere. You can also download [**here**](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Programming/JavaScript/Framework/react/slider/slider.jsx).
 
 ```js
 export class Slider extends React.Component {
