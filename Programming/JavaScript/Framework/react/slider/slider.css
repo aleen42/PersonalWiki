@@ -59,6 +59,8 @@
 	opacity: 0;
 	visibility: hidden;
 	color: rgba(0, 0, 0, 0.4);
+    width: 50%;
+    margin: 10px auto 0 auto;
 }
 
 .content__item--current .title {
