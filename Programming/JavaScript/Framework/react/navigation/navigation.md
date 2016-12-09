@@ -8,7 +8,7 @@
 <strong>Multi-level Navigation</strong>, a navigation component with funny animation.
 </p>
 
-### Property
+### Properties
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
@@ -66,6 +66,14 @@ var data = {
 ```
 
 As we can see, we should hold a `name` for each menu, and if menus have their own sub-menus, they can be constructed with a `children` object, which should be another array.
+
+### Styles
+
+What styles the component needs is as followed:
+
+```css
+
+```
 
 ### Demo
 
