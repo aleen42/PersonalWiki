@@ -67,12 +67,12 @@ What styles the component needs is as followed:
 	position: relative;
 }
 
-ul {
+.slider__contents {
 	list-style: none;
 	margin: 0;
 }
 
-.fa {
+.slider__button {
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
@@ -90,15 +90,15 @@ ul {
 	position: absolute;
 }
 
-.fa:hover {
+.slider__button:hover {
 	opacity: 1;
 }
 
-.fa-angle-right {
+.slider__button--right {
 	right: 0;
 }
 
-.fa-angle-left {
+.slider__button--left {
 	left: 0;
 }
 
