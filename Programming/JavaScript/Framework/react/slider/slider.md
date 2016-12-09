@@ -8,7 +8,7 @@
 <strong>Slider</strong>, a slider component with funny animation.
 </p>
 
-### Property
+### Properties
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
@@ -136,7 +136,8 @@ What styles the component needs is as followed:
 
 ### External Depencies
 
-As 
+- Dynamic.js
+- FontAwesome.css
 
 ### Demo
 
