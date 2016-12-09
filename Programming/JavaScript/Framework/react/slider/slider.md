@@ -121,16 +121,18 @@ What styles the component needs is as followed:
 	opacity: 0;
 	visibility: hidden;
 	color: rgba(0, 0, 0, 0.4);
+	width: 50%;
+	margin: 10px auto 0 auto;
 }
 
 .content__item--current .title {
 	opacity: 1;
-	visibility: visible; 
+	visibility: visible;
 }
 
 .content__item--current .description {
 	opacity: 1;
-	visibility: visible; 
+	visibility: visible;
 }
 ```
 
