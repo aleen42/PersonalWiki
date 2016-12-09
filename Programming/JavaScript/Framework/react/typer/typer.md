@@ -8,7 +8,7 @@
 <strong>Typer</strong>, a typing component for you to show contents
 </p>
 
-### Property
+### Properties
 
 Property|Optional|Default|Description
 :------:|:-----:|:----------|:------
@@ -43,6 +43,10 @@ ReactDOM.render(
     document.querySelector('.container')
 );
 ```
+
+### Styles
+
+What styles the component needs is as followed:
 
 ### Demo
 
