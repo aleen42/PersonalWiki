@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<strong>Multi-level Navigation</strong>, a navigation component with funny animation.
+<strong>Slider</strong>, a slider component with funny animation.
 </p>
 
 ### Property
