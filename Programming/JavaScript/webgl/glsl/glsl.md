@@ -89,5 +89,12 @@ GL.prototype.activeTexture = function (i) {
     WebGL.activeTexture(this.gl, i);
 };
 
+GL.prototype.updateTexture = function (source) {
+    WebGL.updateTexture(this.gl, source);
+};
 
+GL.prototype.draw = function () {
+    WebGL.setRectangle(this.gl, -1, -1, 2, 2);
+    this.gl.drawArrays(this.gl.TRIANGLES, 0, 6);
+};
 ```
