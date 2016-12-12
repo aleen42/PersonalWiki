@@ -15,12 +15,14 @@ Before using this language, we should set up some utils to use before.
 **webgl.js** is a JavaScript file, which will export some application programming interfaces of WebGL.
 
 ```js
-export
+/** ES 6 */
+export function getContext()
 ```
 
 If you want to import all the interfaces, you can use it by importing like this:
 
 ```js
+/** ES 6 */
 import * as WebGL from './webgl.js';
 ```
 
