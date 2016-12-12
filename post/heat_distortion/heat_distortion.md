@@ -84,3 +84,17 @@ float distortion=sin(position.y*frequency)*amplitude;
 vec4 color=texture2D(texture,vec2(position.x+distortion, position.y));
 ```
 
+<p align="center">
+    <img src="./distortion-sine.jpg" />
+</p>
+
+To animate it, we may do the following: send to the shader a value that increments every frame, and use that value in the sine function.
+To send a value every frame, we can use the JS function requestAnimationFrame:
+
+```js
+(function draw(){
+    // do something every frame
+    requestAnimationFrame(draw);
+}());
+```
+
