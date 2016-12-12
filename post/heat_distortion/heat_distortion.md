@@ -140,3 +140,17 @@ In the JS file:
 });
 ```
 
+... and in the shader:
+
+```glsl
+// ...
+float speed=0.03;
+float distortion=sin(position.y*frequency+time*speed)*amplitude;
+vec4 color=texture2D(texture,vec2(position.x+distortion, position.y));
+```
+
+Notice though that the distortion is being applied to the entire image. One way to do so only on certain areas is to use another texture as a map, and paint areas brighter or darker proportionally to how strong or weak we want the distortion to be.
+
+<p align="center">
+    <img src="./distortion-map.jpg" />
+</p>
