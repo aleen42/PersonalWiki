@@ -1,4 +1,4 @@
-## The WebGL potential - WebGL的潜在性 [**Back**](./../translation.md)
+## The WebGL potential - WebGL的潜力 [**Back**](./../translation.md)
 
 > * 原文链接 : [The WebGL potential](http://typedarray.org/the-webgl-potential/)
 * 原文作者 : [typedarray.org](http://typedarray.org/)
@@ -6,7 +6,7 @@
 * 校对者 : 暂无
 * 状态 : 待校对
 
-### WebGL的潜在性
+### WebGL的潜力
 
 &#160; &#160; &#160; &#160;由于 WebGL 支持性将更加广泛的谣言，特别是 IE 浏览器，因此，关于真正跨平台的一组 GPU API 的承诺基本上已经出现。我个人认为，这承诺如果实现，那么将会对在 web 上许多的东西产生影响，特别是关于人们怎么开发交互性的内容。但是，我也希望这能推进 web 前进。
 
