@@ -129,14 +129,14 @@ In the JS file:
 ```js
 // ...
 (function draw(elapsed){
-  // ...
-
-  // get the location of the "time" variable in the shader
-  var location=gl.getUniformLocation(program,"time");
-  // send the time value
-  gl.uniform1f(location,time);
-
-  // ...
+    // ...
+    
+    // get the location of the "time" variable in the shader
+    var location=gl.getUniformLocation(program,"time");
+    // send the time value
+    gl.uniform1f(location,time);
+    
+    // ...
 });
 ```
 
