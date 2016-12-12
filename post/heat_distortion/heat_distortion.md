@@ -187,3 +187,10 @@ vec2 parallax=mouse*0.005;
 vec2 distortedPosition=vec2(position.x+distortion*map, position.y);
 vec4 color=texture2D(texture,distortedPosition+parallax);
 ```
+
+Now we just need a depth map. This will probably be a different map than the one we used before. So, instead of loading two textures, one for each map, we can add both maps on the same image file, each in a separate channel – that is, one in the red channel and one in the green channel. This way we can save loading time and system memory.
+
+<p align="center">
+    <img src="./both-maps-297x300.jpg" />
+</p>
+
