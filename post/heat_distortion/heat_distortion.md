@@ -52,7 +52,7 @@ void main(){
     <img src="./distortion-normal.jpg" />
 </p>
 
-Instead of simply getting the pixel from the current position though, we can apply some transform the position value to get the pixel from a different position. For example:
+Instead of simply getting the pixel from the current position though, we can apply some transform the `position` value to get the pixel from a different position. For example:
 
 ```glsl
 ...
