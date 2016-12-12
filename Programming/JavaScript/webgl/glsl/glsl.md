@@ -64,5 +64,7 @@ export default function GL(canvas, options, vert, farg) {
     this.height = canvas.height;
     
     this.gl = WebGL.getContext(canvas, options);
+    this.program = this.createProgram(vert, frag);
+    this.useProgram(this.program);
 }
 ```
