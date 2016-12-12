@@ -55,7 +55,7 @@ void main(){
 Instead of simply getting the pixel from the current position though, we can apply some transform the position value to get the pixel from a different position. For example:
 
 ```glsl
-...
+// ...
 float distortion=position.y*0.2;
 vec4 color=texture2D(texture,vec2(position.x+distortion,position.y));
 ```
@@ -73,7 +73,7 @@ Now, to get a simple but interesting distortion, we could vary the position base
 Here we will add to the x position a sine curve based on the y position.
 
 ```glsl
-...
+// ...
 // Since the position usually goes from 0 to 1, we have to multiply the result
 // of the sine by a small value so to not make the effect too harsh.
 // For the same reason, we have to multiply the value inside the sine function
