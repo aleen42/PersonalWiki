@@ -20,17 +20,17 @@ Today we want to show you how to create some realistic looking heat haze distort
 
 ### Overview
 
-For this article, we’ll pick apart one of the demos to give you an overview of how it works.
+For this article, we'll pick apart one of the demos to give you an overview of how it works.
 
-This effect uses **WebGL**. We’ve already seen WebGL being used in [some](http://tympanus.net/codrops/2016/04/26/the-aviator-animating-basic-3d-scene-threejs/) [experiments](http://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/) posted here on Codrops. [Here you can see an introduction on how it works](http://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/#WebGL_20). For a more in-depth explanation, take a look at the [WebGL Fundamentals](http://webglfundamentals.org/) page, look into [](http://learningwebgl.com/blog/)Learning WebGL, or start right away with [three.js](http://threejs.org/) or [pixi.js](http://www.pixijs.com/).
+This effect uses **WebGL**. We've already seen WebGL being used in [some](http://tympanus.net/codrops/2016/04/26/the-aviator-animating-basic-3d-scene-threejs/) [experiments](http://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/) posted here on Codrops. [Here you can see an introduction on how it works](http://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/#WebGL_20). For a more in-depth explanation, take a look at the [WebGL Fundamentals](http://webglfundamentals.org/) page, look into [](http://learningwebgl.com/blog/)Learning WebGL, or start right away with [three.js](http://threejs.org/) or [pixi.js](http://www.pixijs.com/).
 
 The important thing to have in mind for this effect is how fragment shaders, or pixel shaders, work: it runs a function for every pixel of the area that is being processed – in our case, the entire canvas – and returns a color, which will be set for the said pixel. In order to be able to do what we want with the shader, we can send information to it, such as the current pixel position, images (as textures), mouse position, etc.
 
-Let’s look into a few aspects of the demo to get an idea of how we can use it.
+Let's look into a few aspects of the demo to get an idea of how we can use it.
 
 ### Distortion
 
-The heart of this effect is the heat haze distortion. First let’s have a look at how we can draw a regular image, and then we’ll look into how we can distort it.
+The heart of this effect is the heat haze distortion. First let's have a look at how we can draw a regular image, and then we'll look into how we can distort it.
 
 This is how we can get the color of a pixel in a texture in the same position as the pixel being processed currently by the shader:
 
@@ -98,7 +98,7 @@ To send a value every frame, we can use the JS function requestAnimationFrame:
 }());
 ```
 
-Now let’s step aside for a moment. One thing we have to keep in mind for animations in general: the frequency of updates, that is, frames per second, is often inconsistent and unpredictable. The device might hang for a moment, the device might be a bit slow – or, as sometimes is the case when one tries to run old games on modern hardware, far too fast – etc. So, a good way to compensate for that is to check how long it has been since the last frame has been drawn and take that into account when we draw the next frame. For example:
+Now let's step aside for a moment. One thing we have to keep in mind for animations in general: the frequency of updates, that is, frames per second, is often inconsistent and unpredictable. The device might hang for a moment, the device might be a bit slow – or, as sometimes is the case when one tries to run old games on modern hardware, far too fast – etc. So, a good way to compensate for that is to check how long it has been since the last frame has been drawn and take that into account when we draw the next frame. For example:
 
 ```js
 var fps=60; // target frame rate
@@ -156,7 +156,7 @@ Notice though that the distortion is being applied to the entire image. One way 
     <img src="./distortion-map.jpg" />
 </p>
 
-Note that the edges are blurry – this is to attenuate the effect and keep from distorting things we don’t want to.
+Note that the edges are blurry – this is to attenuate the effect and keep from distorting things we don't want to.
 
 Then, we can multiply the amount of the distortion by the brightness of the current pixel of the map.
 
@@ -214,9 +214,9 @@ Keep in mind though that this is a quick and dirty way to do the depth effect. A
 
 ### Content
 
-So far, we’ve seen that we can use images and do pretty much anything we like with them. So what about adding text to it?
+So far, we've seen that we can use images and do pretty much anything we like with them. So what about adding text to it?
 
-We can’t draw HTML content to a canvas object – neither in WebGL nor in its 2d context. Creating text on canvas is tricky, and while loading a bitmap containing the text is possible, it has its problems: limited resolution, file size, harder to author, etc
+We can't draw HTML content to a canvas object – neither in WebGL nor in its 2d context. Creating text on canvas is tricky, and while loading a bitmap containing the text is possible, it has its problems: limited resolution, file size, harder to author, etc
 
 A solution is to use SVG – we can draw externally loaded SVG files to a canvas object, and then use that canvas as a texture. SVG files are easier to maintain, are light when compared to bitmaps and are resolution independent, and could even possibly be generated by the server on the fly.
 
@@ -257,6 +257,6 @@ Then, when drawing the text, we can use yet another map to determine if anything
     <img src="./TextAntilope.jpg" />
 </p>
 
-And that’s our final result. We’ve take this first example and explained it in detail, but there are many more possibilities, including distortion effects for water, like you can see in the last demo.
+And that's our final result. We've take this first example and explained it in detail, but there are many more possibilities, including distortion effects for water, like you can see in the last demo.
 
-**And that’s it! Hope you enjoyed this effect and find it inspiring!**
+**And that's it! Hope you enjoyed this effect and find it inspiring!**
