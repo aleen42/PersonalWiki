@@ -18,7 +18,8 @@ Before using this language, we should set up some utils to use before.
 /** ES 5 */
 module.exports = {
     getContext: function getContext(canvas, options) { /** ... */ },
-    createProgram
+    createProgram: function createProgram(gl, vertexScript, fragScript){ /** ... */ },
+    
 }
 
 /** ES 6 */
