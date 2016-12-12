@@ -26,6 +26,7 @@ module.exports = {
 export function getContext(canvas, options = {}) { /** ... */ }
 export function createProgram(gl, vertexScript, fragScript) { /** ... */ }
 export function createShader(gl, script, type) { /** ... */ }
+export function createTexture(gl, source, i, wrap = null) { /** ... */ }
 ```
 
 If you want to import all the interfaces, you can use it by importing like this:
