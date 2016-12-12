@@ -15,6 +15,8 @@ Before using this language, we should set up some utils to use before.
 **webgl.js** is a JavaScript file, which will export some application programming interfaces of WebGL.
 
 ```js
+/** ES 5 */
+
 /** ES 6 */
 export function getContext()
 ```
