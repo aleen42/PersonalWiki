@@ -260,3 +260,7 @@ Then, when drawing the text, we can use yet another map to determine if anything
 And that's our final result. We've take this first example and explained it in detail, but there are many more possibilities, including distortion effects for water, like you can see in the last demo.
 
 **And that's it! Hope you enjoyed this effect and find it inspiring!**
+
+### Source Code Analysis (from my ow)
+
+
