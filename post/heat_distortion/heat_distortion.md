@@ -70,3 +70,17 @@ Now, to get a simple but interesting distortion, we could vary the position base
     <img src="./sine.png" />
 </p>
 
+Here we will add to the x position a sine curve based on the y position.
+
+```glsl
+...
+// Since the position usually goes from 0 to 1, we have to multiply the result
+// of the sine by a small value so to not make the effect too harsh.
+// For the same reason, we have to multiply the value inside the sine function
+// by a large value if we want a higher frequency of the curves.
+float frequency=100.0;
+float amplitude=0.003;
+float distortion=sin(position.y*frequency)*amplitude;
+vec4 color=texture2D(texture,vec2(position.x+distortion, position.y));
+```
+
