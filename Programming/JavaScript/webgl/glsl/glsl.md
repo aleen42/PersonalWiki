@@ -69,7 +69,11 @@ export default function GL(canvas, options, vert, farg) {
 }
 
 GL.prototype.createProgram = function (vert, frag) {
-    let program = WebGL.createProgram(this,gl, vert, frag);
-    return program;
+    return WebGL.createProgram(this,gl, vert, frag);
+};
+
+GL.prototype.useProgram = function (program) {
+    this.program = program;
+    this.gl.useProgram(program);
 };
 ```
