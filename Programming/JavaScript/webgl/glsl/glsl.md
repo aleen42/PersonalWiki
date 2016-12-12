@@ -29,6 +29,7 @@ export function createShader(gl, script, type) { /** ... */ }
 export function createTexture(gl, source, i, wrap = null) { /** ... */ }
 export function createUniform(gl, program, type, name, ...args) { /** ... */ }
 export function activeTexture(gl, i) { /** ... */ }
+export function updateTexture(gl,source) { /** ... */ }
 ```
 
 If you want to import all the interfaces, you can use it by importing like this:
