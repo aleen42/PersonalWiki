@@ -14,4 +14,4 @@ Before using this language, we should set up some utils to use before.
 
 #### gl-obj.js
 
-This is a JavaScript file, which aims to create an 
+This is a JavaScript file, which aims to create an WebGL object, which takes **vertex shaders**, and **fragment shader** as inputs.
