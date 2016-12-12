@@ -21,7 +21,7 @@ module.exports = {
     createProgram: function (gl, vertexScript, fragScript){ /** ... */ },
     createShader: function (gl, script, type) { /** ... */ },
     createTexture: function (gl, source, i, wrap) { /** ... */ },
-    createUniform: function (gl, program, type, name, ...args) { /** ... */ },
+    createUniform: function (gl, program, type, name) { /** ... */ },
     activeTexture: function (gl, i) { /** ... */ },
     updateTexture: function (gl, source) { /** ... */ },
     setRectangle: function (gl, x, y, width, height) { /** ... */ }
