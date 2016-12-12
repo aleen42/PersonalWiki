@@ -54,3 +54,11 @@ import * as WebGL from './webgl.js';
 #### gl-obj.js
 
 **gl-obj.js** is a JavaScript file, which aims to create an WebGL object, which takes [**vertex shaders**](https://www.opengl.org/wiki/Vertex_Shader), and [**fragment shader**](https://www.opengl.org/wiki/Fragment_Shader) as inputs.
+
+```js
+import * as WebGL from './webgl.js';
+
+export default function GL(canvsa, options, vert, farg) {
+    
+}
+```
