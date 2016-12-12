@@ -12,7 +12,7 @@
 
 #### 使用 WebGL 也可以处理二维图像
 
-<img src="./grotto-uv.png"> 
+<p align="center"><img src="./grotto-uv.png"></p>
 
 &#160; &#160; &#160; &#160;实际上，[WebGL](http://www.khronos.org/webgl/) 是一组针对 OpenGL ES 2.0 功能集所开放的基本 JavaScript 底层接口（其背后实际上运用了 OpenGL/ES 2.0 或 DirectX 的技术）。可是，大家却误以为 WebGL 仅仅可以处理三维图像。其实，利用这些底层接口不仅能使我们像 [three.js](https://github.com/mrdoob/three.js/) 那样，重新构建出三维图像中的高级结构，而且，还能简化二维图像中的基元，以便我们去处理二维图像。我们都知道，两个三角形能够形成一个方形，且该方形能承接一个纹理。这就是为什么二维图形 GPU 加速能出现我们的眼前。大部分像 [Cocos2D-x](http://www.cocos2d-x.org/) 或 [Pixi.js](https://github.com/GoodBoyDigital/pixi.js) 等框架都是通过回退到 Canvas 去实现加速，这是因为 WebGL 无法做到的。你需要滤波、颗粒度效果吗？通过使用像 WebGL 提供的一个可编程管道（着色程序），我们也能实现图像的可再生化。
 
