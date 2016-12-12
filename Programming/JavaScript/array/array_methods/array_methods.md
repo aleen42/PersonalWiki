@@ -268,20 +268,20 @@ console.log(Array.from('foo'));         /** => ["f", "o", "o"]      */
 if (!Array.from) {
     Array.from = (function () {
         var toStr = Object.prototype.toString;
-    
+
         var isCallable = function (fn) {
             return typeof fn === 'function' || toStr.call(fn) === '[object Function]';
         };
-    
+
         var toInteger = function (value) {
             var number = Number(value);
             if (isNaN(number)) { return 0; }
             if (number === 0 || !isFinite(number)) { return number; }
             return (number > 0 ? 1 : -1) * Math.floor(Math.abs(number));
         };
-        
+
         var maxSafeInteger = Math.pow(2, 53) - 1;
-        
+
         var toLength = function (value) {
             var len = toInteger(value);
             return Math.min(Math.max(len, 0), maxSafeInteger);
@@ -294,7 +294,7 @@ if (!Array.from) {
 
             // 2. Let items be ToObject(arrayLike).
             var items = Object(arrayLike);
-            
+
             // 3. ReturnIfAbrupt(items).
             if (arrayLike == null) {
                 throw new TypeError("Array.from requires an array-like object - not null or undefined");
@@ -303,14 +303,14 @@ if (!Array.from) {
             // 4. If mapfn is undefined, then let mapping be false.
             var mapFn = arguments.length > 1 ? arguments[1] : void undefined;
             var T;
-            
+
             if (typeof mapFn !== 'undefined') {
                 // 5. else      
                 // 5. a If IsCallable(mapfn) is false, throw a TypeError exception.
                 if (!isCallable(mapFn)) {
                     throw new TypeError('Array.from: when provided, the second argument must be a function');
                 }
-                
+
                 // 5. b. If thisArg was supplied, let T be thisArg; else let T be undefined.
                 if (arguments.length > 2) {
                     T = arguments[2];
@@ -330,19 +330,19 @@ if (!Array.from) {
             var k = 0;
             // 17. Repeat, while k < len… (also steps a - h)
             var kValue;
-            
+
             while (k < len) {
                 kValue = items[k];
-                
+
                 if (mapFn) {
                     A[k] = typeof T === 'undefined' ? mapFn(kValue, k) : mapFn.call(T, kValue, k);
                 } else {
                     A[k] = kValue;
                 }
-                
+
                 k += 1;
             }
-            
+
             // 18. Let putStatus be Put(A, "length", len, true).
             A.length = len;
             // 20. Return A.
@@ -388,25 +388,25 @@ console.log([12, 5, 8, 130, 44].filter(function (item, i) {
 if (!Array.prototype.filter) {
     Array.prototype.filter = function (fun /*, thisArg */) {
         "use strict";
-        
+
         if (this === void 0 || this === null) {
             throw new TypeError();
         }
-        
+
         var t = Object(this);
         var len = t.length >>> 0;
-        
+
         if (typeof fun !== "function") {
             throw new TypeError();
         }
-        
+
         var res = [];
         var thisArg = arguments.length >= 2 ? arguments[1] : void 0;
-        
+
         for (var i = 0; i < len; i++) {
             if (i in t) {
                 var val = t[i];
-                
+
                 // NOTE: Technically this should Object.defineProperty at
                 //       the next index, as push can be affected by
                 //       properties on Object.prototype and Array.prototype.
@@ -417,8 +417,60 @@ if (!Array.prototype.filter) {
                 }
             }
         }
-        
+
         return res;
+    };
+}
+```
+
+#### 5. `some(callback, thisArg)`
+
+`some(callback, thisArg)` is used to test whether some element in the array passes the test implementation by the provided function.
+
+- **callback**: a provided function which take three arguments:
+    - **currentValue**: the current element being passed
+    - **index**: the index of the current element being passed
+    - **array**: the array some() was called upon
+- **thisArg**(optional): `this` for `mapFn`.
+
+```js
+function isBiggerThan10(element, index, array) {
+    return element > 10;
+}
+
+console.log([2, 5, 8, 1, 4].some(isBiggerThan10));  /** => false */
+console.log([12, 5, 8, 1, 4].some(isBiggerThan10)); /** => true */
+```
+
+**polyfill:**
+
+```js
+// Production steps of ECMA-262, Edition 5, 15.4.4.17
+// Reference: http://es5.github.io/#x15.4.4.17
+if (!Array.prototype.some) {
+    Array.prototype.some = function(fun/*, thisArg*/) {
+        'use strict';
+
+        if (this == null) {
+            throw new TypeError('Array.prototype.some called on null or undefined');
+        }
+
+        if (typeof fun !== 'function') {
+            throw new TypeError();
+        }
+
+        var t = Object(this);
+        var len = t.length >>> 0;
+
+        var thisArg = arguments.length >= 2 ? arguments[1] : void 0;
+
+        for (var i = 0; i < len; i++) {
+            if (i in t && fun.call(thisArg, t[i], i, t)) {
+                return true;
+            }
+        }
+
+        return false;
     };
 }
 ```
