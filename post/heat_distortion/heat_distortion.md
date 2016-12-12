@@ -98,3 +98,27 @@ To send a value every frame, we can use the JS function requestAnimationFrame:
 }());
 ```
 
+Now let’s step aside for a moment. One thing we have to keep in mind for animations in general: the frequency of updates, that is, frames per second, is often inconsistent and unpredictable. The device might hang for a moment, the device might be a bit slow – or, as sometimes is the case when one tries to run old games on modern hardware, far too fast – etc. So, a good way to compensate for that is to check how long it has been since the last frame has been drawn and take that into account when we draw the next frame. For example:
+
+```js
+var fps=60; // target frame rate
+var frameDuration=1000/fps; // how long, in milliseconds, a regular frame should take to be drawn
+var time=0; // time value, to be sent to shaders, for example
+var lastTime=0; // when was the last frame drawn
+(function draw(elapsed){
+    // how long ago has the last frame been rendered
+    var delta=elapsed-lastTime;
+    lastTime=elapsed;
+    
+    // how much of a frame did the last frame take
+var step=delta/frameDuration;
+// add it to the time counter
+time+=step;
+
+// now for example we can compensate the speed of an animation
+ball.x += 20*step;
+
+requestAnimationFrame(draw);
+}(0));
+```
+
