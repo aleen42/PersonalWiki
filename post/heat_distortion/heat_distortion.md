@@ -46,12 +46,25 @@ void main(){
 }
 ```
 
-![](./distortion-normal.jpg)
-
+<p align="center">
+    <img src="./distortion-normal.jpg" />
+</p>
 
 Instead of simply getting the pixel from the current position though, we can apply some transform the position value to get the pixel from a different position. For example:
 
 ```glsl
-
+...
+float distortion=position.y*0.2;
+vec4 color=texture2D(texture,vec2(position.x+distortion,position.y));
 ```
+
+<p align="center">
+    <img src="./distortion-slant.jpg" />
+</p>
+
+Now, to get a simple but interesting distortion, we could vary the position based on a sine wave.
+
+<p align="center">
+    <img src="./sine.png" />
+</p>
 
