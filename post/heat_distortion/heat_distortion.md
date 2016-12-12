@@ -194,3 +194,18 @@ Now we just need a depth map. This will probably be a different map than the one
     <img src="./both-maps-297x300.jpg" />
 </p>
 
+In the code, we refer to each one of them by their respective channels:
+
+```glsl
+...
+// get the current map pixel
+vec4 maps=texture2D(mapsTexture,pos);
+
+// get each map value
+float depthMap=maps.r;
+float distortionMap=maps.g;
+...
+
+vec2 distortedPosition=vec2(position.x+distortion*distortionMap, position.y);
+vec4 color=texture2D(texture,distortedPosition+parallax*depthMap);
+```
