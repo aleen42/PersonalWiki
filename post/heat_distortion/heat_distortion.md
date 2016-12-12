@@ -122,7 +122,7 @@ var lastTime=0; // when was the last frame drawn
 }(0));
 ```
 
-So now we can send the time value to our shader every frame and use it to animate the sine wave.
+So now we can send the `time` value to our shader every frame and use it to animate the sine wave.
 
 In the JS file:
 
