@@ -8,7 +8,9 @@
 
 > A tutorial on how to use fragment shaders in WebGL to create an animated heat haze distortion effect on images and text.
 
-![](./DistortionEffect_800x600.jpg)
+<p align="center">
+    <img src="./DistortionEffect_800x600.jpg" />
+</p>
 
 Today we want to show you how to create some realistic looking heat haze distortion effects using fragment shaders in WebGL. The idea is to add a subtle animated distortion to a static image and some text.
 
