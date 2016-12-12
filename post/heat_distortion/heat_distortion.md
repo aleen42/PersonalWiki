@@ -55,7 +55,7 @@ void main(){
 Instead of simply getting the pixel from the current position though, we can apply some transform the position value to get the pixel from a different position. For example:
 
 ```glsl
-// ...
+...
 float distortion=position.y*0.2;
 vec4 color=texture2D(texture,vec2(position.x+distortion,position.y));
 ```
@@ -73,7 +73,7 @@ Now, to get a simple but interesting distortion, we could vary the position base
 Here we will add to the x position a sine curve based on the y position.
 
 ```glsl
-// ...
+...
 // Since the position usually goes from 0 to 1, we have to multiply the result
 // of the sine by a small value so to not make the effect too harsh.
 // For the same reason, we have to multiply the value inside the sine function
@@ -127,23 +127,24 @@ So now we can send the time value to our shader every frame and use it to animat
 In the JS file:
 
 ```js
-// ...
+...
 (function draw(elapsed){
-    // ...
+    ...
     
     // get the location of the "time" variable in the shader
     var location=gl.getUniformLocation(program,"time");
     // send the time value
     gl.uniform1f(location,time);
     
-    // ...
+    
+    ...
 });
 ```
 
 ... and in the shader:
 
 ```glsl
-// ...
+...
 float speed=0.03;
 float distortion=sin(position.y*frequency+time*speed)*amplitude;
 vec4 color=texture2D(texture,vec2(position.x+distortion, position.y));
@@ -154,3 +155,15 @@ Notice though that the distortion is being applied to the entire image. One way 
 <p align="center">
     <img src="./distortion-map.jpg" />
 </p>
+
+Note that the edges are blurry – this is to attenuate the effect and keep from distorting things we don’t want to.
+
+Then, we can multiply the amount of the distortion by the brightness of the current pixel of the map.
+
+```glsl
+...
+// if our map is grayscale, we only need to get the value of one channel
+// (in this case, red) to get the brightness
+float map=texture2D(map,position).r;
+vec4 color=texture2D(texture,vec2(position.x+distortion*map, position.y));
+```
