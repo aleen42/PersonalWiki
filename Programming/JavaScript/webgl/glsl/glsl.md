@@ -41,6 +41,9 @@ export function setRectangle(gl, x, y, width, height) { /** ... */ }
 If you want to import all the interfaces, you can use it by importing like this:
 
 ```js
+/** ES 5 */
+const WebGL = require('./webgl.js');
+
 /** ES 6 */
 import * as WebGL from './webgl.js';
 ```
