@@ -18,7 +18,7 @@
 
 &#160; &#160; &#160; &#160;曾几何时，我们[在 Flash 中开发 Stage3D 库时](http://www.youtube.com/watch?v=c0IwvN4IdH4)，便想着要尽可能地去暴露底层的接口，以使得开发者可以从顶层灵活地开发框架。特别是对于游戏开发者来说，他们过往曾迫切需要通过区分颗粒度的等级来控制一切，并保持有高效的性能。可是，在另一方面我们却了解到，大部分开发者会热衷于使用他们熟悉的高层 API 分离基元，而并非底层的 GPU 基元。所以，[Starling](http://gamua.com/starling) 框架由此诞生。正如 Rivio 通过使用该框架，把 [Angry Birds](https://apps.facebook.com/angrybirds/?fb_source=timeline) 快速地集成于 Facebook 中那样，它不仅能基于 Stage3D ，快速地应用于二维图像的开发。而且，还能像 Zynga 那样，集成 [Ruby Blast](https://apps.facebook.com/rubyblast/?fb_source=search&ref=ts&fref=ts)。
 
-&#160; &#160; &#160; &#160;当然，WebGL 除了有助于开发游戏之外，它还能增强网页中用户交互的体验，如我们所多年熟知的数字化营销型网站 [thefwa.com](http://www.thefwa.com/) 或传统通过 Flash 所实现网站。不仅如此，它还彻底变更了开发者构件移动端应用的方式。所有你在手机上所能欣赏到的平缓 UI 组件，全都是通过 GPU 加速的，且由 OpenGL ES 2.0（iOS、Android）或 DirectX（Windows 8）所提供服务支持。当然，我希望能有越来越多的 UI 框架出现，以提供基于 WebGL 上通过 GPU 快速加速的 UI 组件。[Feathers](http://feathersui.com/) 就是一个很好的例子。
+&#160; &#160; &#160; &#160;当然，WebGL 除了有助于开发游戏之外，它还能增强网页中用户交互的体验，如我们所多年熟知的数字化营销型网站 [thefwa.com](http://www.thefwa.com/) 或传统通过 Flash 所实现网站等。除此之外，WebGL 还彻底改变了开发者构建移动端应用的方式。所有你在手机上所能欣赏到的平缓 UI 组件，全都是通过 GPU 加速的，且由 OpenGL ES 2.0（iOS、Android）或 DirectX（Windows 8）所提供服务支持。当然，我希望能有越来越多的 UI 框架出现，以提供基于 WebGL 上通过 GPU 快速加速的 UI 组件。[Feathers](http://feathersui.com/) 就是一个很好的例子。
 
 &#160; &#160; &#160; &#160;这意味着我们都通过 WebGL 去完成所有的事情？并不是，这取决于实际的情况。对于多文本内容来说，使用一个由 CSS 定义样式的传统 DOM，会更加的有效，像一个新闻页面、一个论坛或简单的表单应用。CPU 是善于处理像字体编译或矩阵计算等其他事情。因此，如果我们能结合好两者（基于 CPU 或 GPU 的编译器），这将会是一个很强大的混合。
 
