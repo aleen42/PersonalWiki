@@ -19,8 +19,13 @@ Before using this language, we should set up some utils to use before.
 module.exports = {
     getContext: function (canvas, options) { /** ... */ },
     createProgram: function (gl, vertexScript, fragScript){ /** ... */ },
-    createShader: function (gl, script, type) { /** ... */ }
-}
+    createShader: function (gl, script, type) { /** ... */ },
+    createTexture: function (gl, source, i, wrap) { /** ... */ },
+    createUniform: function (gl, program, type, name, ...args) { /** ... */ },
+    activeTexture: function (gl, i) { /** ... */ },
+    updateTexture: function (gl, source) { /** ... */ },
+    setRectangle: function (gl, x, y, width, height) { /** ... */ }
+};
 
 /** ES 6 */
 export function getContext(canvas, options = {}) { /** ... */ }
