@@ -261,6 +261,6 @@ And that's our final result. We've take this first example and explained it in d
 
 **And that's it! Hope you enjoyed this effect and find it inspiring!**
 
-### Source Code Analysis (from my ow)
+### Source Code Analysis (from my own sigh)
 
 
