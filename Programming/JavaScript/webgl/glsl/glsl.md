@@ -16,9 +16,13 @@ Before using this language, we should set up some utils to use before.
 
 ```js
 /** ES 5 */
+module.exports = {
+    getContext: function getContext(canvas, options) { /** ... */ },
+    createProgram
+}
 
 /** ES 6 */
-export function getContext()
+export function getContext() { /** ... */ }
 ```
 
 If you want to import all the interfaces, you can use it by importing like this:
