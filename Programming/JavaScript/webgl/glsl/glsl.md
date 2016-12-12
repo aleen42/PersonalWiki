@@ -15,6 +15,7 @@ Before using this language, we should set up some utils to use before.
 **webgl.js** is a JavaScript file, which will export some application programming interfaces of WebGL.
 
 ```js
+export
 ```
 
 If you want to import all the interfaces, you can use it by importing like this:
