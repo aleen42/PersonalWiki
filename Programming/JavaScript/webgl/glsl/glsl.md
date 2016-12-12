@@ -63,6 +63,6 @@ export default function GL(canvas, options, vert, farg) {
     this.width = canvas.width;
     this.height = canvas.height;
     
-    this.gl = 
+    this.gl = WebGL.getContext(canvas, options);
 }
 ```
