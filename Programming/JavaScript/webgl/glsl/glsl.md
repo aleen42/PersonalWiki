@@ -58,7 +58,11 @@ import * as WebGL from './webgl.js';
 ```js
 import * as WebGL from './webgl.js';
 
-export default function GL(canvsa, options, vert, farg) {
+export default function GL(canvas, options, vert, farg) {
+    this.canvas = canvas;
+    this.width = canvas.width;
+    this.height = canvas.height;
     
+    this.gl = 
 }
 ```
