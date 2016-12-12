@@ -76,4 +76,8 @@ GL.prototype.useProgram = function (program) {
     this.program = program;
     this.gl.useProgram(program);
 };
+
+GL.prototype.createTextture(source, i, wrap) {
+    return WebGL.createTexture(this.gl, source, i, wrap);
+};
 ```
