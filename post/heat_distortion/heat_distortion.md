@@ -25,3 +25,23 @@ This effect uses **WebGL**. We’ve already seen WebGL being used in [some](http
 The important thing to have in mind for this effect is how fragment shaders, or pixel shaders, work: it runs a function for every pixel of the area that is being processed – in our case, the entire canvas – and returns a color, which will be set for the said pixel. In order to be able to do what we want with the shader, we can send information to it, such as the current pixel position, images (as textures), mouse position, etc.
 
 Let’s look into a few aspects of the demo to get an idea of how we can use it.
+
+### Distortion
+
+The heart of this effect is the heat haze distortion. First let’s have a look at how we can draw a regular image, and then we’ll look into how we can distort it.
+
+This is how we can get the color of a pixel in a texture in the same position as the pixel being processed currently by the shader:
+
+```js
+// "attribute", "varying" and "uniform" variables are values passed down from
+// other parts of the code: the program, the vertex shader, etc.
+varying vec2 position;
+uniform sampler2D texture;
+
+void main(){
+    // Get the color of the pixel at the current position
+    vec4 color=texture2D(texture,position);
+
+    gl_FragColor=color;
+}
+```
