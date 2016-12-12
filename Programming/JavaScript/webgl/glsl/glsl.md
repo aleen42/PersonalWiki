@@ -14,7 +14,7 @@ Before using this language, we should set up some utils to use before.
 
 **webgl.js** is a JavaScript file, which will export some application programming interfaces of WebGL. Specific implementation can be checked in the following file:
 
-- webgl_es5.js
+- [webgl_es5.js](./webgl_es5.js)
 - webgl_es6.js
 
 ```js
