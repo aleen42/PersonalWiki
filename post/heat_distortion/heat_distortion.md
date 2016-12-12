@@ -111,14 +111,32 @@ var lastTime=0; // when was the last frame drawn
     lastTime=elapsed;
     
     // how much of a frame did the last frame take
-var step=delta/frameDuration;
-// add it to the time counter
-time+=step;
-
-// now for example we can compensate the speed of an animation
-ball.x += 20*step;
-
-requestAnimationFrame(draw);
+    var step=delta/frameDuration;
+    // add it to the time counter
+    time+=step;
+    
+    // now for example we can compensate the speed of an animation
+    ball.x += 20*step;
+    
+    requestAnimationFrame(draw);
 }(0));
+```
+
+So now we can send the time value to our shader every frame and use it to animate the sine wave.
+
+In the JS file:
+
+```js
+// ...
+(function draw(elapsed){
+  // ...
+
+  // get the location of the "time" variable in the shader
+  var location=gl.getUniformLocation(program,"time");
+  // send the time value
+  gl.uniform1f(location,time);
+
+  // ...
+});
 ```
 
