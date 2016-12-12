@@ -32,7 +32,7 @@ The heart of this effect is the heat haze distortion. First let’s have a look 
 
 This is how we can get the color of a pixel in a texture in the same position as the pixel being processed currently by the shader:
 
-```js
+```glsl
 // "attribute", "varying" and "uniform" variables are values passed down from
 // other parts of the code: the program, the vertex shader, etc.
 varying vec2 position;
@@ -45,3 +45,13 @@ void main(){
     gl_FragColor=color;
 }
 ```
+
+![](./distortion-normal.jpg)
+
+
+Instead of simply getting the pixel from the current position though, we can apply some transform the position value to get the pixel from a different position. For example:
+
+```glsl
+
+```
+
