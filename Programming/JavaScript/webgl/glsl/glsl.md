@@ -77,7 +77,17 @@ GL.prototype.useProgram = function (program) {
     this.gl.useProgram(program);
 };
 
-GL.prototype.createTextture(source, i, wrap) {
+GL.prototype.createTexture = function (source, i, wrap) {
     return WebGL.createTexture(this.gl, source, i, wrap);
 };
+
+GL.prototype.createUniform = function (type, name, ...v) {
+    WebGL.createUniform(this.gl, this.program, type, name, ...v);
+};
+
+GL.prototype.activeTexture = function (i) {
+    WebGL.activeTexture(this.gl, i);
+};
+
+
 ```
