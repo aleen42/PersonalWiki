@@ -238,9 +238,9 @@ function loadSVG(file,canvas){
 }
 ```
 
-Now we can use that canvas just like any other texture.
+Now we can use that `canvas` just like any other texture.
 
-A trick to facilitate the positioning of the texture we just created into the WebGL container is to create and position the canvas just like any other element – that is, with HTML and CSS – and get its final position with getBoundingClientRect, and then send it to the shader.
+A trick to facilitate the positioning of the texture we just created into the WebGL container is to create and position the `canvas` just like any other element – that is, with HTML and CSS – and get its final position with `getBoundingClientRect`, and then send it to the shader.
 
 ```js
 var title=document.querySelector('canvas');
