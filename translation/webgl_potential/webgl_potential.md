@@ -14,7 +14,7 @@
 
 <p align="center"><img src="./grotto-uv.png"></p>
 
-&#160; &#160; &#160; &#160;[WebGL](http://www.khronos.org/webgl/) 是一组针对 OpenGL ES 2.0 功能集所开放的基本 JavaScript 底层接口（其背后实际上运用了 OpenGL/ES 2.0 或 DirectX 的技术）。然而，大家却误以为 WebGL 仅仅可以处理三维图像。其实，我们不仅能像 [three.js](https://github.com/mrdoob/three.js/) 那样，利用这些底层接口重构出三维图像中的高级结构。而且，还能简化二维图像中的基元，以便我们去处理二维图像。众所周知，两个三角形能够形成一个矩形，且该矩形能承载一段纹理内容。这便是 GPU 加速渲染二维图形的原理。那么，诸如 [Cocos2D-x](http://www.cocos2d-x.org/) 或 [Pixi.js](https://github.com/GoodBoyDigital/pixi.js) 等大部分的二维图形框架为何会选择回退到 Canvas 去实现加速呢？这正是因为 WebGL 并不能力所能及。你需要滤波、颗粒度效果吗？通过使用像 WebGL 提供的一个可编程管道（着色程序），我们也能实现图像的可再生化。
+&#160; &#160; &#160; &#160;[WebGL](http://www.khronos.org/webgl/) 是一组针对 OpenGL ES 2.0 功能集所开放的基本 JavaScript 底层接口（其背后实际上运用了 OpenGL/ES 2.0 或 DirectX 的技术）。然而，大家却误以为 WebGL 仅仅可以处理三维图像。其实，我们不仅能像 [three.js](https://github.com/mrdoob/three.js/) 那样，利用这些底层接口重构出三维图像中的高级结构。而且，还能简化二维图像中的基元，以便我们去处理二维图像。众所周知，两个三角形能够形成一个矩形，且该矩形能承载一段纹理内容。这便是 GPU 加速渲染二维图形的原理。当 WebGL 不能力所能及时，也是诸如 [Cocos2D-x](http://www.cocos2d-x.org/) 或 [Pixi.js](https://github.com/GoodBoyDigital/pixi.js) 等大部分的二维图形框架选择回退到 Canvas 去实现加速的原因。这正是因为 WebGL 并不能力所能及。你需要滤波、颗粒度效果吗？通过使用像 WebGL 提供的一个可编程管道（着色程序），我们也能实现图像的可再生化。
 
 &#160; &#160; &#160; &#160;在我们[为 Flash 开发 Stage3D 库时](http://www.youtube.com/watch?v=c0IwvN4IdH4)，我们就想着尽可能地揭露低级的基元，以使得人们可以在这基础上开发他们所需要的框架。特别是对于游戏开发者来说，他们迫切需要通过颗粒度等级来控制所有的一切事物，并获得超乎想象的高性能。另一方面，我们了解到大部分开发者会热衷于使用他们熟悉的高级别 API 分离基元，而不是低级别的 GPU 基元。因此，我们创造出了 [Starling](http://gamua.com/starling)。它可以基于 Stage3D 之上，快速成为二维图像内容的框架。Rivio 通过使用该框架，把 [Angry Birds](https://apps.facebook.com/angrybirds/?fb_source=timeline) 装载于 Facebook 中。此外，Zynga 最近也通过该框架装载了 [Ruby Blast](https://apps.facebook.com/rubyblast/?fb_source=search&ref=ts&fref=ts)。
 
