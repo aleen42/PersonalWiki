@@ -167,3 +167,23 @@ Then, we can multiply the amount of the distortion by the brightness of the curr
 float map=texture2D(map,position).r;
 vec4 color=texture2D(texture,vec2(position.x+distortion*map, position.y));
 ```
+
+### Depth
+
+The depth/parallax effect works much the same way – get a color value from a slightly different position based on a map and some values. In this case, the values are the mouse x and y position.
+
+```js
+...
+document.addEventListener('mousemove',function(event){
+    var location=gl.getUniformLocation(program,"mouse");
+    // send the mouse position as a vec2
+    gl.uniform2f(location,event.clientX/canvas.width,event.clientY/canvas.height);
+});
+```
+
+```glsl
+...
+vec2 parallax=mouse*0.005;
+vec2 distortedPosition=vec2(position.x+distortion*map, position.y);
+vec4 color=texture2D(texture,distortedPosition+parallax);
+```
