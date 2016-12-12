@@ -237,3 +237,26 @@ function loadSVG(file,canvas){
     svg.src=file;
 }
 ```
+
+Now we can use that canvas just like any other texture.
+
+A trick to facilitate the positioning of the texture we just created into the WebGL container is to create and position the canvas just like any other element – that is, with HTML and CSS – and get its final position with getBoundingClientRect, and then send it to the shader.
+
+```js
+var title=document.querySelector('canvas');
+var bounds=title.getBoundingClientRect();
+var location=gl.getUniformLocation(program,"contentPosition");
+gl.uniform2f(location,bounds.left,bounds.top);
+var location=gl.getUniformLocation(program,"contentSize");
+gl.uniform2f(location,bounds.width,bounds.height);
+```
+
+Then, when drawing the text, we can use yet another map to determine if anything goes over the text:
+
+<p align="center">
+    <img src="./TextAntilope.jpg" />
+</p>
+
+And that’s our final result. We’ve take this first example and explained it in detail, but there are many more possibilities, including distortion effects for water, like you can see in the last demo.
+
+**And that’s it! Hope you enjoyed this effect and find it inspiring!**
