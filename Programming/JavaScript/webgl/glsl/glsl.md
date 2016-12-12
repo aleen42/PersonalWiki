@@ -17,9 +17,9 @@ Before using this language, we should set up some utils to use before.
 ```js
 /** ES 5 */
 module.exports = {
-    getContext: function getContext(canvas, options) { /** ... */ },
-    createProgram: function createProgram(gl, vertexScript, fragScript){ /** ... */ },
-    
+    getContext: function (canvas, options) { /** ... */ },
+    createProgram: function (gl, vertexScript, fragScript){ /** ... */ },
+    createShader: function (gl, script, type) { /** ... */ }
 }
 
 /** ES 6 */
