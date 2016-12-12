@@ -5,3 +5,13 @@
 GLSL shaders are not stand-alone applications, because they require an application that utilizes the OpenGL APIs, which is available on many different platforms (e.g., GNU/Linux, Mac OS X, Windows).
 
 In this document, I will note that how to use it in JavaScript.
+
+### Utils
+
+Before using this language, we should set up some utils to use before.
+
+#### webgl.js
+
+#### gl-obj.js
+
+This is a JavaScript file, which aims to create an 
