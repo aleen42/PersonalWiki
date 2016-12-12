@@ -22,7 +22,7 @@ module.exports = {
 }
 
 /** ES 6 */
-export function getContext() { /** ... */ }
+export function getContext(canvas, options = {}) { /** ... */ }
 ```
 
 If you want to import all the interfaces, you can use it by importing like this:
