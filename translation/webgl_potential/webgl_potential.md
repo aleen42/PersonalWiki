@@ -13,7 +13,7 @@
 #### 使用 WebGL 也可以处理二维图像
 
 <p align="center">
-    <img src="./grotto-uv.png">
+    <img src="./grotto-uv.png" />
 </p>
 
 &#160; &#160; &#160; &#160;[WebGL](http://www.khronos.org/webgl/) 是一组针对 OpenGL ES 2.0 功能集所开放的基本 JavaScript 底层接口（其背后实际上运用了 OpenGL/ES 2.0 或 DirectX 的技术）。然而，大家却误以为 WebGL 仅仅可以处理三维图像。其实，我们不仅能像 [three.js](https://github.com/mrdoob/three.js/) 那样，利用这些底层接口重构出三维图像中的高级结构。而且，还能简化二维图像中的基元，以便我们去处理二维图像。众所周知，两个三角形便能够形成一个矩形，且该矩形能承载一段纹理内容。而这便是 GPU 加速渲染二维图形的原理。此外，当 WebGL 无法力所能及的时候，这也是诸如 [Cocos2D-x](http://www.cocos2d-x.org/) 或 [Pixi.js](https://github.com/GoodBoyDigital/pixi.js) 等大部分二维图形框架基于 Canvas 的一种回退机制。也许你会问，若我想实现复杂的滤波或颗粒度效果呢？对此，WebGL 也提供了一种可编程管道（着色块（shader））的方式，以实现图像的可再生化（reproducible ）。
@@ -39,7 +39,7 @@
 #### 高层框架的重要性
 
 <p align="center">
-    <img src="./logo-300x1441.png">
+    <img src="./logo-300x1441.png" />
 </p>
 
 &#160; &#160; &#160; &#160;大多数开发者会采用一些自己所熟知的高层框架来完成产品的开发并同时使产品保持有良好的性能，而非深入探究 WebGL 中的 GPU 编程细节。正因 WebGL 对于大多数 Web 开发者来说，缺乏友善的使用方式，所以，诸如此类高层的框架则显得尤为重要。当然，这实际上还源于 WebGL 在90年代是通过水平面的方式，从 OpenGL 直接引用到 JavaScript，因而导致目前的状况。
@@ -54,7 +54,10 @@
 
 #### 推动 Web 领域的发展
 
-<img src="./Unreal-Engine-UDK-11-300x187.jpg">
+<p align="center">
+    <img src="./Unreal-Engine-UDK-11-300x187.jpg" />
+</p>
+
 
 &#160; &#160; &#160; &#160;在 Flash 的 Stage3D 框架出现之前，主要的瓶颈位是图像通道的问题。ActionScript 3 是曾经能足够快地实现大部分的展示列表或依托 BitmapData 以位块去传输内容。但是，自从 Stage3D 的推出后，情况发生了改变。 ActionScript 3 对于开发者而言成为了一种限制。因此，开发者们开始开发高级框架，并把大量的昂贵代码移植出来。而其中的这些代码，在传统上来说，是仅能基于原生的 ActionScript 3 运行的。除此之外，原来的这些像树的遍历，边界或矩阵计算的代码等都只是运行在 ActionScript 3 层上。这将会给 VM 和 CPU 带来巨大的压力。
 
