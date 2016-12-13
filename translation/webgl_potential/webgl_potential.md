@@ -62,5 +62,5 @@
 
 &#160; &#160; &#160; &#160;协同地利用 CPU 和 GPU 去运行代码，是获取高性能的一种方式。因为，当 CPU 资源被占满时，GPU 若不能及时地去处理过剩的计算任务，那么，性能显然会骤降。这样的情况对于在 JavaScript 中使用 WebGL 的开发者来说，无疑是一种压力。这就是为何我们建议在使用 WebGL 之前需要引用 [asm.js](http://asmjs.org/) 以支持像 [Unreal engine](http://www.youtube.com/watch?feature=player_embedded&v=XsyogXtyU9o) 这样的图形引擎。当然，我冀望该建议能最终推进 JavaScript 性能上的发展。不管你对 asm.js 喜欢与否，通过它，我们才有机会去尝试解决那些，与未来内容开发密切相关的问题。
 
-&#160; &#160; &#160; &#160;如果你对 asm.js 感兴趣，John Resig 刚为这写了一篇很好的[文章](http://ejohn.org/blog/asmjs-javascript-compile-target/)。
+&#160; &#160; &#160; &#160;若您对 asm.js 感兴趣，不妨阅读一下 John Resig 最近所写的一篇[文章](http://ejohn.org/blog/asmjs-javascript-compile-target/)。
 
