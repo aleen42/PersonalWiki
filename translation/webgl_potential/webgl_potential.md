@@ -60,7 +60,7 @@
 
 &#160; &#160; &#160; &#160;在 Flash 的 Stage3D 框架出现之前，Web 领域中图像处理的主要瓶颈在于图像通道的处理上。当然，ActionScript 3 提供了一种可行的方案，使得大部分的展示列表得以实现，或使得图像能依托 BitmapData 以位块的形式去传输内容。但是，Stage3D 的推出使得该情况骤然改变。由于 ActionScript 3 成为了开发者开发过程中的一种限制，因此，开发者从那时候就开始逐步开发高层的框架，并把大量的核心代码移植出来。不然，这些代码只能传统地依赖于原生 ActionScript 3 而运行。倘若如此，诸如树的遍历、边界访问或矩阵计算的代码终将会给 VM 和 CPU 带来巨大的压力。
 
-&#160; &#160; &#160; &#160;协同地利用 CPU 和 GPU 去运行代码，是获取高性能的一种方式。因为，当 CPU 资源被占满时，GPU 若不能及时地去处理过剩的计算任务，那么，性能显然会骤降。这样的情况对于在 JavaScript 中使用 WebGL 的开发者来说，无疑是一种压力。这就是为何我们建议在使用 WebGL 之前需要引用 [asm.js](http://asmjs.org/) 以支持像 [Unreal engine](http://www.youtube.com/watch?feature=player_embedded&v=XsyogXtyU9o) 这样的图形引擎。当然，我冀望该建议能最终推进 JavaScript 性能上的发展。不管你对 asm.js 喜欢与否，它的出现，给予了我们一丝的希望。因为通过它，我们有机会去尝试解决与未来内容开发密切相关的问题。
+&#160; &#160; &#160; &#160;协同地利用 CPU 和 GPU 去运行代码，是获取高性能的一种方式。因为，当 CPU 资源被占满时，GPU 若不能及时地去处理过剩的计算任务，那么，性能显然会骤降。这样的情况对于在 JavaScript 中使用 WebGL 的开发者来说，无疑是一种压力。这就是为何我们建议在使用 WebGL 之前需要引用 [asm.js](http://asmjs.org/) 以支持像 [Unreal engine](http://www.youtube.com/watch?feature=player_embedded&v=XsyogXtyU9o) 这样的图形引擎。当然，我冀望该建议能最终推进 JavaScript 性能上的发展。不管你对 asm.js 喜欢与否，它的出现，给予了我们一丝的希望。因为通过它，我们有机会去尝试解决那些，与未来内容开发密切相关的问题。
 
 &#160; &#160; &#160; &#160;如果你对 asm.js 感兴趣，John Resig 刚为这写了一篇很好的[文章](http://ejohn.org/blog/asmjs-javascript-compile-target/)。
 
