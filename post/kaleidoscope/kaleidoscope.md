@@ -199,7 +199,7 @@ function createPolygon(obj, sides, startDeg) {
     /** an array for storing points of this regular polygon */
 	var pos = [];
 	
-	/**
+	/** the radius of the given ci
 	const radius = document.querySelector('.svg__container').clientWidth / 2;
 
 	for (var i = 0; i < sides; i++) {
