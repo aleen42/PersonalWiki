@@ -73,7 +73,7 @@ After calculating, we can easily get that:
 
 <p align="center"><img src="./mathtran2.png" alt="kaleidoscope" /></p>
 
-Besides, we should also solve the case when a square is embedded with another square, while another square is embedded with another square (Figure 3). 
+Besides, we should also solve the case when a square is embedded with another square, while another square is embedded with another square (Figure 3). To work around this complicated problem of calculation, I have used relative motions instead
 
 Then, for the first item, I have implement by the following code:
 
