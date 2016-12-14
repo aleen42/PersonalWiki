@@ -46,7 +46,7 @@ const scale = 0.5;
 const target = document.querySelector('.item');
 
 target.style.transformOrigin = 'center';
-target.style.transform = 'scale('') rotateZ(deg)';
+target.style.transform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 ```
 
 ### Demo
