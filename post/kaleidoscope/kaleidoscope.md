@@ -11,6 +11,8 @@ Without reading the article, I have just created it through several processes. H
 
 #### How to create?
 
+At the start, I have utilized the features of `div`, which is an HTML elements with a shape of rectangles.
+
 ### Demo
 
 <p>
