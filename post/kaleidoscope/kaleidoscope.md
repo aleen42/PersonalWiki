@@ -189,9 +189,10 @@ function createPolygon(obj, sides, startDeg) {
 	/** generate group to embed other group */
 	var group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
 	
-	/** the polygon you want to creat
+	/** the polygon you want to create */
 	var polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
 
+    /** an array for storing points of this regular po
 	var pos = [];
 	const radius = document.querySelector('.svg__container').clientWidth / 2;
 
