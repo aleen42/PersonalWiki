@@ -88,6 +88,10 @@ Besides, we should also solve the case when a square is embedded with another sq
 </div>
 ```
 
+Then rotate the second and the third squares with scaling at the same ti:
+
+```
+
 Then, for the first item, I have implement by the following code:
 
 ```js
