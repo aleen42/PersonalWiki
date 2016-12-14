@@ -155,7 +155,13 @@ Certainly, we can easily generate squares by setting the width and the height wi
 <p align="center"><img src="./figure4.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 4</strong> A triangle</p>
 
-In SVG, we can easily create a polygon by using `polygon` tags, with setting the attribute `points` to set up each vertex. For instance, the Figure 4 can use 
+In SVG, we can easily create a polygon by using `polygon` tags, with setting the attribute `points` to set up each vertex. For instance, the triangle in the Figure 4 can be created like this:
+
+```html
+<svg>
+    <polygon stroke="#000" fill="none" points="x0,y0 x"></polygon>
+</svg>
+```
 
 ### Demo
 
