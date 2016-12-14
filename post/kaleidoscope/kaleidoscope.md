@@ -17,7 +17,7 @@ Then, to simulate such rotating animation, I would like to use `transform` and `
 
 ```css
 .item {
-    transform: scale(0.5) rotate(45deg);
+    transform: scale(0.5) rotateZ(45deg);
     transform-origin: center;
     
     /** other browsers */
@@ -35,7 +35,7 @@ Then, to simulate such rotating animation, I would like to use `transform` and `
 }
 ```
 
-The code snippet above has shown us how to use such two properties to animate our elements.
+The code snippet above has shown us how to use such two properties to animate our elements. With setting `scale(0.5)` and 
 
 ### Demo
 
