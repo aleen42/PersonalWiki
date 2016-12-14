@@ -21,16 +21,16 @@ Then, to simulate such rotating animation, I would like to use `transform` and `
     transform-origin: center;
     
     /** other browsers */
-    -webkit-transform: scale(0.5) rotate(45deg);
+    -webkit-transform: scale(0.5) rotateZ(45deg);
     -webkit-transform-origin: center;
     
-    -moz-transform: scale(0.5) rotate(45deg);
+    -moz-transform: scale(0.5) rotateZ(45deg);
     -moz-transform-origin: center;
     
-    -ms-transform: scale(0.5) rotate(45deg);
+    -ms-transform: scale(0.5) rotateZ(45deg);
     -ms-transform-origin: center;
     
-    -o-transform: scale(0.5) rotate(45deg);
+    -o-transform: scale(0.5) rotateZ(45deg);
     -o-transform-origin: center;
 }
 ```
@@ -46,7 +46,7 @@ const scale = 0.5;
 const target = document.querySelector('.item');
 
 target.style.transformOrigin = 'center';
-target.style.transform = 'scale'
+target.style.transform = 'scale('') rotateZ(deg)';
 ```
 
 ### Demo
