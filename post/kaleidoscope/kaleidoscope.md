@@ -181,7 +181,34 @@ Then, here is the equation:
 
 After that, just create regular polygons with ***θ***:
 
+```js
+function createPolygon(obj, sides, startDeg) {
+    /** the degree of 
+	startDeg = startDeg || 0;
+	
+	var group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+	var polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
 
+	var pos = [];
+	const radius = document.querySelector('.svg__container').clientWidth / 2;
+
+	for (var i = 0; i < sides; i++) {
+		const deg = 360 / sides * i + startDeg;
+		const x = radius * (1 - Math.sin(deg * Math.PI / 180));
+		const y = radius * (1 - Math.cos(deg * Math.PI / 180));
+
+		pos.push(x + ',' + y);
+	}
+
+	polygon.setAttribute('points', pos.join(' '));
+	group.appendChild(polygon);
+	obj.appendChild(group);
+	
+	group.style.transformOrigin = radius + 'px ' + radius + 'px';
+	
+	return group;
+}
+```
 
 ### Demo
 
