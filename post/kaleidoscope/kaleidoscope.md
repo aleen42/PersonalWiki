@@ -17,7 +17,12 @@ Then, to simulate such rotating animation, I would like to use `transform` and `
 
 ```css
 .item {
-    transform: 
+    transform: scale(0.5) rotate(45deg);
+    transform-origin: center;
+    
+    /** other browsers */
+    -webkit-transform: scale(0.5) rotate(45deg);
+    -webkit-transform-origin: center;
 }
 ```
 
