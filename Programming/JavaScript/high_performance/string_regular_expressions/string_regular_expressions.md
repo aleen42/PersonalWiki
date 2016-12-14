@@ -317,7 +317,7 @@ red&#124;raw|r(?:ea&#124;aw)
 
 - **Expose required tokens**
 
-    If you want the regex engine to make smart decisions about how to optimize a search routine, try to make it easy to determine which tokens are required. For example, expose `^` like **/^(ab|cd)/**, but not **/(^ab|^cd)/**
+    If you want the regex engine to make smart decisions about how to optimize a search routine, try to make it easy to determine which tokens are required. For example, expose `^` like **/^(ab|cd)/**, but not **/(^ab|^cd)/**.
 
 - **Use appropriate quantifiers**
 
