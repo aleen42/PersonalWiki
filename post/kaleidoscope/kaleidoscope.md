@@ -173,7 +173,7 @@ In addition, can such polygons be generated within a circle with a specific radi
 <p align="center"><img src="./figure6.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 6</strong> The specific cordinates</p>
 
-Before calculating, to make more clear, I have draw the Figure 6 which has shown coordinates for us, and the relationship between ***θ*** and ***(x,y)*** is what we should solve later.
+Before calculating, to make it more clear, I have drawn the Figure 6 which has shown coordinates for us, and in whithe relationship between ***θ*** and ***(x,y)*** is what we should solve later.
 
 ### Demo
 
