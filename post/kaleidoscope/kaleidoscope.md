@@ -129,18 +129,18 @@ for (var i = 0; i < num; i++) {
 
 /** start to animiate */
 setInterval(function () {
-	t += stepT * dir;
+	theta += stepT * dir;
 
-	if (Math.abs(t) > 90) {
+	if (Math.abs(theta) > 90) {
 		dir *= -1;
-		t = (Math.abs(t) - 90) * dir;
+		theta = (Math.abs(theta) - 90) * dir;
 	}
 
-	var tan = parseFloat(Math.tan(Math.abs(t) * Math.PI / 180).toFixed(2));
-	var scaleRatio = Math.sqrt(1 + tan * tan) / (1 + tan);
+	const tan = parseFloat(Math.tan(Math.abs(theta) * Math.PI / 180).toFixed(2));
+	const scaleRatio = Math.sqrt(1 + tan * tan) / (1 + tan);
 
 	for (var i = 0; i < num; i++) {
-		document.querySelector('.rect' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + t + 'deg)';
+		document.querySelector('.rect' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + theta + 'deg)';
 	}
 }, dur);
 ```
