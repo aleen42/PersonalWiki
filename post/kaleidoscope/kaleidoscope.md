@@ -254,6 +254,46 @@ What if the number of sides is 4, 5, 6, and etc.? You may find that all of them 
 
 <p align="center"><img src="./mathtran6.png" alt="kaleidoscope" /></p>
 
+Then, just complete it with JavaScript:
+
+```js
+const sides = 5;
+var parent = document.querySelectorAll('.svg__container')[1];
+
+const stepT = 0.8;
+const dur = 10;
+const num = 7;
+
+var t = 0;
+var dir = 1;
+
+/** append mutinested pol
+for (var i = 0; i < num; i++) {
+	parent = createPolygon(parent, sides);
+	parent.setAttribute('class', 'polygon polygon' + (i + 1));
+}
+
+/** start to animate */
+setInterval(function () {
+	t += stepT * dir;
+	
+	const innerCornerDeg = Math.round(360 / sides);
+	
+	if (Math.abs(t) > innerCornerDeg) {
+		dir *= -1;
+		t = (Math.abs(t) - innerCornerDeg) * dir;
+	}
+
+	const sita = Math.abs(t) * Math.PI / 180;
+	const scaleRatio = Math.sin((180 - innerCornerDeg) * Math.PI / 180) / (Math.sin(sita) + Math.sin(innerCornerDeg * Math.PI / 180 - sita));
+	// var scaleRatio = sin / Math.sin(Math.PI / 3) * (1 + (Math.sin(2 * Math.PI / 3 - t) / sin));
+
+	for (var i = 1; i < num; i++) {
+		document.querySelector('.polygon--third' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + t + 'deg)';
+	}
+}, dur);
+```
+
 
 ### Demo
 
