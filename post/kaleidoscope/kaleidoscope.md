@@ -220,6 +220,9 @@ function createPolygon(obj, sides, startDeg) {
 	/** return the group so that we can create multinested elements recursively */
 	return group;
 }
+
+/** equilateral triangles */
+const sides = 3;
 ```
 
 ### Demo
