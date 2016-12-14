@@ -454,6 +454,7 @@
             * [[轉載] Create a Dynamic Point Mesh Animation with HTML5 Canvas](./post/point_mesh/point_mesh.md)
             * [[轉載] ALGORITHM SUNDAYS: CONVERTING ROMAN NUMERALS](./post/converting_roman_numerals/converting_roman_numerals.md)
             * [[轉載] Animated Heat Distortion Effects with WebGL](./post/heat_distortion/heat_distortion.md)
+            * [[原創] Kaleidoscope](./post/kaleidoscope/kaleidoscope.md)
         * Design
             * [[原創] Mingtocat](./post/mingtocat/mingtocat.md)
             * [[原創] Memorial Missions for 12.17 Shenzhen](./post/1217_mission_of_shenzhen/1217_mission_of_shenzhen.md)
