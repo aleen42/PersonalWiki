@@ -293,7 +293,7 @@ setInterval(function () {
 }, dur);
 ```
 
-If you want to use it in React as a component, you can check the POC [**here**](http://codepen.io/aleen42/pen/JbmBjK).
+If you want to use it in **React** as a component, you can check the POC [**here**](http://codepen.io/aleen42/pen/JbmBjK).
 
 
 ### Demo
