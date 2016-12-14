@@ -69,6 +69,10 @@ Then as the Figure 2 shown, how to calculate a proper value of ***a*** for `scal
 
 <p align="center"><img src="./mathtran1.png" alt="kaleidoscope" /></p>
 
+After calculating, we can easily get that:
+
+<p align="center"><img src="./mathtran2.png" alt="kaleidoscope" /></p>
+
 ### Demo
 
 <p>
