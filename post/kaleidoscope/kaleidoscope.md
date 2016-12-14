@@ -275,16 +275,16 @@ for (var i = 0; i < num; i++) {
 
 /** start to animate */
 setInterval(function () {
-	t += stepT * dir;
+	theta += stepT * dir;
 	
 	const innerCornerDeg = Math.round(360 / sides);
 	
-	if (Math.abs(t) > innerCornerDeg) {
+	if (Math.abs(theta) > innerCornerDeg) {
 		dir *= -1;
-		t = (Math.abs(t) - innerCornerDeg) * dir;
+		theta = (Math.abs(theta) - innerCornerDeg) * dir;
 	}
 
-	const sita = Math.abs(t) * Math.PI / 180;
+	const sita = Math.abs(theta) * Math.PI / 180;
 	const scaleRatio = Math.sin((180 - innerCornerDeg) * Math.PI / 180) / (Math.sin(sita) + Math.sin(innerCornerDeg * Math.PI / 180 - sita));
 	// var scaleRatio = sin / Math.sin(Math.PI / 3) * (1 + (Math.sin(2 * Math.PI / 3 - t) / sin));
 
