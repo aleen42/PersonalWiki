@@ -273,3 +273,32 @@ Considering the following regex which is mainly used to match HTML tags:
 In comparison with a naive solution **/&lt;[&#94;&gt;]&#42;&gt;/**, it also accounts for `>` characters occur within attribute values. So far, there's no risk of runaway backtracking, despite the nested `*` quantifier. Look at the first alternative in the non-capturing group: `[^>"']`, and this can match only one character at a time, which seems a little inefficient. So, how about adding `+` quantifier at the end of this alternative? A disaster is going to be happened.
 
 If the regex matches an opening `<` character, but there is no following `>` that would allows the match attempt to complete successfully, runaway backtracking will happen. As the huge number of ways the new inner quantifier `+` can be combined with the outer quantifier `*`, there're plenty of  ways to attempt before giving up. **Watch out**!
+
+> Because a regex's performance can be wildly different depending on the text it's applied to, there's no straightforward way to benchmark regexes against each other. To help catching runaway backtracking early, it's recommended to always test regexes with long strings that contain partial (不完整的) matches.
+
+#### More ways to improve regular expression efficiency
+
+There're some different additional regex efficiency techniques:
+
+- **Focus on failing faster**
+
+    Slow regex processing is usually caused by slow failure rather than slow matching. It means that if you're using a regex to match small parts of a large string, the regex will fail at many more positions than it will succeed.
+
+- **Start regexes with simple, required tokens**
+
+    Ideally, the leading token in a regex should be fast to test and rule out as many obviously nonmatching positions as possible, such as **anchors** (`^` or `$`), **specific characters** (`x` or `\u263A`), **character classes** (`[a-z]`, or `\d`), and **word boundaries** (`\b`). If possible, avoid starting regexes with groupings or optional tokens, and avoid top-level alternation.
+
+- **Make quantified patterns and their following token mutually exclusive (彼此獨立)**
+
+    When the characters that adjacent tokens or subexpressions are able to match overlap, the number of ways to try will increase. So, make patterns as specific as possible, and do not use `.*?` when you really mean `[^"\r\n]*`.
+
+- **Reduce the amount and reach of alternation**
+
+    Alternation using the `|` may require that all alternation options be tested at every position in a string. Therefore, you can reduce th need for alternation by using character classes and optional components, or by pushing the alternation further back into the regex.
+
+Instead of|Use
+:---------|:--
+cat&#124;bat|[cb]at
+red&#124;read|rea?d
+red&#124;raw|r(?:ea&#124;aw)
+(.&#124;\\r&#124;\\n)|[\\s\\S]
