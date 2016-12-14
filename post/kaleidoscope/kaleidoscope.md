@@ -148,7 +148,7 @@ setInterval(function () {
 
 #### How to create regular polygons?
 
-From the preceding section, we can see that we have just implemented for squares, but I wonder how to use it in other regular polygons like equilateral triangles or even pentagons. Before discussing this problem, we should create such regular poly
+From the preceding section, we can see that we have just implemented for squares, but I wonder how to use it in other regular polygons like equilateral triangles or even pentagons. Before discussing the problem, we should create such regular polygons at first.
 
 ### Demo
 
