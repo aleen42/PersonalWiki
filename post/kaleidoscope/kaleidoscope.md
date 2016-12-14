@@ -170,7 +170,7 @@ Utilizing this feature, what we should do to generate regular polygons is just t
 
 In addition, can such polygons be generated within a circle with a specific radius (Figure 5)? Apparently, the answer is yes.
 
-
+Before calculating, to make more clear, I have draw the Figure 6 which has shown coordinates for us, and the raltionship between ***θ*** and ***(x***
 
 ### Demo
 
