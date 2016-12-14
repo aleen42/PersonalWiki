@@ -165,7 +165,7 @@ In SVG, we can easily create a polygon by using `polygon` tags, with setting the
 
 Utilizing this feature, what we should do to generate regular polygons is just to solve positions of each vertex.
 
-In addition, can such polygons be generated within a circle
+In addition, can such polygons be generated within a circle with a specific radius (Figure 5)?
 
 ### Demo
 
