@@ -166,7 +166,7 @@ In SVG, we can easily create a polygon by using `polygon` tags, with setting the
 Utilizing this feature, what we should do to generate regular polygons is just to solve positions of each vertex.
 
 <p align="center"><img src="./figure5.png" alt="kaleidoscope" /></p>
-<p align="center"><strong>Figure 5</strong> A generated equilateral triangles within a specific circle</p>
+<p align="center"><strong>Figure 5</strong> An equilateral triangles within a specific circle</p>
 
 In addition, can such polygons be generated within a circle with a specific radius (Figure 5)?
 
