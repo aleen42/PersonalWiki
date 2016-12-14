@@ -294,7 +294,11 @@ There're some different additional regex efficiency techniques:
 
 - **Reduce the amount and reach of alternation**
 
-    Alternation using the `|` may require that all alternation options be tested at every position in a string. Therefore, you can reduce th need for alternation by using character classes and optional components, or by pushing the alternation further back into the regex.
+    Alternation using the `|` may require that all alternation options be tested at every position in a string. Therefore, you can reduce the need for alternation by using character classes and optional components, or by pushing the alternation further back into the regex.
+
+    Character classes are faster than alternation because they're implemented using bit vectors (or other fast implementations) rather than backtracking.
+
+    When alternation is necessary, put frequently occurring alternatives first if this does not affect what the regex matches.
 
 Instead of|Use
 :---------|:--
