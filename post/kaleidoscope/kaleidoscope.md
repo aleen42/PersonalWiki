@@ -23,6 +23,15 @@ Then, to simulate such rotating animation, I would like to use `transform` and `
     /** other browsers */
     -webkit-transform: scale(0.5) rotate(45deg);
     -webkit-transform-origin: center;
+    
+    -moz-transform: scale(0.5) rotate(45deg);
+    -moz-transform-origin: center;
+    
+    -ms-transform: scale(0.5) rotate(45deg);
+    -ms-transform-origin: center;
+    
+    -o-transform: scale(0.5) rotate(45deg);
+    -o-transform-origin: center;
 }
 ```
 
