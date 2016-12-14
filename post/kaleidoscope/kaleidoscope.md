@@ -214,9 +214,10 @@ function createPolygon(obj, sides, startDeg) {
 	group.appendChild(polygon);
 	obj.appendChild(group);
 	
-	/** set up the origin position of your transformat
+	/** set up the origin position of your transformation */
 	group.style.transformOrigin = radius + 'px ' + radius + 'px';
 	
+	/** return the group so that we can create multinested elements recursively 
 	return group;
 }
 ```
