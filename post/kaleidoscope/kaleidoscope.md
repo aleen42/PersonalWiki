@@ -91,9 +91,18 @@ Besides, we should also solve the case when a square is embedded with another sq
 Then rotate the second and the third squares with scaling at the same time:
 
 ```css
+.rect2 {
+    transform: scale(0.5) rotateZ(45deg);
+    transform-origin: center;
+}
+
+.rect3 {
+    transform: scale(0.5) rotateZ(45deg);
+    transform-origin: center;
+}
 ```
 
-Then, for the first item, I have implement by the following code:
+Then, that's done! Easy right? The following code is implemented for this item:
 
 ```js
 /** the difference of degree in each duration */
