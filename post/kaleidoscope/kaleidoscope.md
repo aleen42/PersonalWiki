@@ -264,7 +264,7 @@ const stepT = 0.8;
 const dur = 10;
 const num = 7;
 
-var thet = 0;
+var theta = 0;
 var dir = 1;
 
 /** append mutinested polygons */
