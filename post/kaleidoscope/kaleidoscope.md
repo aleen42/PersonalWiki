@@ -52,14 +52,14 @@ target.style.transform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 target.style.WebkitTransformOrigin = 'center';
 target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 
-target.style.WebkitTransformOrigin = 'center';
-target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.MozTransformOrigin = 'center';
+target.style.MozTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 
-target.style.WebkitTransformOrigin = 'center';
-target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.MsTransformOrigin = 'center';
+target.style.MsTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 
-target.style.WebkitTransformOrigin = 'center';
-target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.OTransformOrigin = 'center';
+target.style.OTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 ```
 
 ### Demo
