@@ -114,7 +114,9 @@ const dur = 10;
 /** the number of mutinested squares */
 const num = 6;
 
-var t = 0;
+var theta = 0;
+
+/** direction to change */
 var dir = 1;
 
 for (var i = 0; i < num; i++) {
