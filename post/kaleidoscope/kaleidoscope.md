@@ -114,12 +114,13 @@ const dur = 10;
 /** the number of mutinested squares */
 const num = 6;
 
-/** the current value of theta 
+/** the current value of theta */
 var theta = 0;
 
 /** direction to change */
 var dir = 1;
 
+/** append mutinested squares 
 for (var i = 0; i < num; i++) {
 	var div = document.createElement('div');
 	div.className = 'rect rect' + (i + 1);
