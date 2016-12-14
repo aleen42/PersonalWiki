@@ -150,7 +150,7 @@ setInterval(function () {
 
 From the preceding section, we can see that we have just implemented for squares, but I wonder how to use it in other regular polygons like equilateral triangles or even pentagons. Before discussing the problem, we should create such regular polygons at first.
 
-Certainly, we can easily generate squares by setting the width and the height with a same value, but what if generating other egular polygons? **SVG** is my choice.
+Certainly, we can easily generate squares by setting the width and the height with a same value, but what if generating other regular polygons? **SVG** is my choice.
 
 <p align="center"><img src="./figure4.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 4</strong> A triangle</p>
@@ -162,6 +162,8 @@ In SVG, we can easily create a polygon by using `polygon` tags, with setting the
     <polygon stroke="#000" fill="none" points="x0,y0 x1,y1 x2,y2"></polygon>
 </svg>
 ```
+
+Utilizing this feature, what we should do to genearte regular polygons is just to solve positions of each vertex.
 
 ### Demo
 
