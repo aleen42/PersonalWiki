@@ -7,6 +7,6 @@ In Chinese, we will name kaleidoscopes as "萬花筒", which is a toy showing co
 
 ### Introduction
 
-Without reading the article, I have just created it through several processes. 
+Without reading the article, I have just created it through several processes. How to create, how to create regular polygons, and how to make it reusable for all kinds of regular polygons.
 
 
