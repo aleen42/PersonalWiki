@@ -102,7 +102,7 @@ Then rotate the second and the third squares with scaling at the same time:
 }
 ```
 
-Then, that's done! Easy right? The following code is implemented for this item:
+Then, that's done! Easy right? The following code is implemented for this square item:
 
 ```js
 /** the difference of degree in each duration */
