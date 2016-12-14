@@ -152,6 +152,8 @@ From the preceding section, we can see that we have just implemented for squares
 
 Certainly, we can easily generate sqaures by setting the width and the height with a same value, but what if generating other egular polygons? **SVG** is my choice.
 
+In SVG, we can easily create a polygon by using `polygon` tags, with setting the attribute `points` to set up each vertex.
+
 ### Demo
 
 <p>
