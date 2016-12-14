@@ -179,6 +179,10 @@ Then, here is the equation:
 
 <p align="center"><img src="./mathtran3.png" alt="kaleidoscope" /></p>
 
+After that, just create any regular polygons with ***θ***:
+
+
+
 ### Demo
 
 <p>
