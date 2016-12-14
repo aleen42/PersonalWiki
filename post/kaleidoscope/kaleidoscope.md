@@ -73,6 +73,42 @@ After calculating, we can easily get that:
 
 <p align="center"><img src="./mathtran2.png" alt="kaleidoscope" /></p>
 
+Then, for the first item, I have implement by the following code:
+
+```js
+/** the difference of degree in each duration */
+const stepT = 0.5;
+
+/** the time (ms) to update the sita value /
+const dur = 10;
+const num = 6;
+
+var t = 0;
+var dir = 1;
+
+for (var i = 0; i < num; i++) {
+	var div = document.createElement('div');
+	div.className = 'rect rect' + (i + 1);
+	document.querySelector('.rect' + i).appendChild(div);
+}
+
+setInterval(function () {
+	t += stepT * dir;
+	t = t % 90;
+
+	if (t === 0) {
+		dir *= -1;
+	}
+
+	var tan = parseFloat(Math.tan(Math.abs(t) * Math.PI / 180).toFixed(2));
+	var scaleRatio = Math.sqrt(1 + tan * tan) / (1 + tan);
+
+	for (var i = 0; i < num; i++) {
+		document.querySelector('.rect' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + t + 'deg)';
+	}
+}, dur);
+```
+
 ### Demo
 
 <p>
