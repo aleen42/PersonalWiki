@@ -13,7 +13,13 @@ Without reading the article, I have just created it through several processes. H
 
 At the start, I have utilized the feature of `div`, which is an HTML elements with a shape of rectangles. With setting a same value for the property `width` and `height` of these elements, I can easily generate a square like the first item from the left side in the Figure 1.
 
-Then, to simulate such rotating animation, I would like to use `transform` and `transform-origin` property to implement it, rather than use Canvas, as Canvas is something complicated, which always confuses me.
+Then, to simulate such rotating animation, I would like to use `transform` and `transform-origin` property to implement it, rather than use Canvas, as Canvas is something complicated, which has been always confusing me.
+
+```css
+.item {
+    transform: 
+}
+```
 
 ### Demo
 
