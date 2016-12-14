@@ -181,6 +181,10 @@ Then, here is the equation:
 
 After that, just create regular polygons with ***θ***:
 
+```css
+<svg class="svg__container"></svg>
+```
+
 ```js
 function createPolygon(obj, sides, startDeg) {
     /** the degree of the start position */
@@ -192,8 +196,10 @@ function createPolygon(obj, sides, startDeg) {
 	/** the polygon you want to create */
 	var polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
 
-    /** an array for storing points of this regular po
+    /** an array for storing points of this regular polygon */
 	var pos = [];
+	
+	/**
 	const radius = document.querySelector('.svg__container').clientWidth / 2;
 
 	for (var i = 0; i < sides; i++) {
