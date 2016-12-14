@@ -111,7 +111,7 @@ const stepT = 0.5;
 /** the time (ms) to update the sita value */
 const dur = 10;
 
-/** the number 
+/** the number of mutinested squares */
 const num = 6;
 
 var t = 0;
