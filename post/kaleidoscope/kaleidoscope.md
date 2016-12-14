@@ -223,6 +223,11 @@ function createPolygon(obj, sides, startDeg) {
 
 /** equilateral triangles */
 const sides = 3;
+
+for (var i = 0; i < num; i++) {
+	parent = createPolygon(parent, sides, 45);
+	parent.setAttribute('class', 'polygon polygon' + (i + 1));
+}
 ```
 
 ### Demo
