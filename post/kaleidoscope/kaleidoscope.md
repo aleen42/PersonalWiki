@@ -240,9 +240,9 @@ for (var i = 0; i < num; i++) {
 Now that we can generate any side of regular polygons (the number of sides should be more than 3), it's time to solve the problem mentioned above? To make it reusable.
 
 <p align="center"><img src="./figure7.png" alt="kaleidoscope" /></p>
-<p align="center"><strong>Figure 7</strong> The case of equilaterial t</p>
+<p align="center"><strong>Figure 7</strong> The case of equilaterial triangles</p>
 
-Firstly, we should solve the case when the side is 3 (Figure 7).
+Firstly, we should solve the case in which **side** is 3 (Figure 7).
 
 ### Demo
 
