@@ -284,8 +284,8 @@ setInterval(function () {
 		theta = (Math.abs(theta) - innerCornerDeg) * dir;
 	}
 
-	const sita = Math.abs(theta) * Math.PI / 180;
-	const scaleRatio = Math.sin((180 - innerCornerDeg) * Math.PI / 180) / (Math.sin(sita) + Math.sin(innerCornerDeg * Math.PI / 180 - sita));
+	const thetaValue = Math.abs(theta) * Math.PI / 180;
+	const scaleRatio = Math.sin((180 - innerCornerDeg) * Math.PI / 180) / (Math.sin(thetaValue) + Math.sin(innerCornerDeg * Math.PI / 180 - thetaValue));
 	// var scaleRatio = sin / Math.sin(Math.PI / 3) * (1 + (Math.sin(2 * Math.PI / 3 - t) / sin));
 
 	for (var i = 1; i < num; i++) {
