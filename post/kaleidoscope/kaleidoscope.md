@@ -40,6 +40,7 @@ The code snippet above has shown us how to use such two properties to animate ou
 If using JavaScript to change this value dynamically, we can code like this:
 
 ```js
+/** sita is the rotating degree */
 const sita = 45; 
 const target = document.queryS
 ```
