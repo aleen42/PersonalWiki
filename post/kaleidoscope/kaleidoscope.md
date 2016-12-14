@@ -235,6 +235,8 @@ for (var i = 0; i < num; i++) {
 }
 ```
 
+#### How to make it reusable?
+
 ### Demo
 
 <p>
