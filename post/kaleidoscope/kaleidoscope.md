@@ -130,10 +130,10 @@ for (var i = 0; i < num; i++) {
 /** start to animiate */
 setInterval(function () {
 	t += stepT * dir;
-	t = t % 90;
 
-	if (t === 0) {
+	if (Math.abs(t) > 90) {
 		dir *= -1;
+		t = (Math.abs(t) - 90) * dir;
 	}
 
 	var tan = parseFloat(Math.tan(Math.abs(t) * Math.PI / 180).toFixed(2));
