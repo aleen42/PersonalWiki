@@ -35,7 +35,7 @@ Then, to simulate such rotating animation, I would like to use `transform` and `
 }
 ```
 
-The code snippet above has shown us how to use such two properties to animate our elements. With setting `scale(0.5)` and 
+The code snippet above has shown us how to use such two properties to animate our elements. With setting `scale(0.5)` and `rotateZ(45deg)`, the element will be scaled by half, and rotate 45 degrees clockwise.
 
 ### Demo
 
