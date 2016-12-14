@@ -50,8 +50,16 @@ target.style.transform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 
 /** other browsers */
 target.style.WebkitTransformOrigin = 'center';
-target.style.transform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 
+target.style.WebkitTransformOrigin = 'center';
+target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+
+target.style.WebkitTransformOrigin = 'center';
+target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+
+target.style.WebkitTransformOrigin = 'center';
+target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 ```
 
 ### Demo
