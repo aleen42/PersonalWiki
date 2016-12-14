@@ -242,7 +242,9 @@ Now that we can generate any side of regular polygons (the number of sides shoul
 <p align="center"><img src="./figure7.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 7</strong> The case of equilaterial triangles</p>
 
-Firstly, we should solve the case in which the number of sides is 3 (Figure 7).
+Firstly, we should solve the case in which the number of sides is 3 (Figure 7). Based on the Law of Sine, it's easily to get the following equation:
+
+<p align="center"><img src="./mathtran4.png" alt="kaleidoscope" /></p>
 
 ### Demo
 
