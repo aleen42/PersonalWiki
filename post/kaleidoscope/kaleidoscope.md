@@ -153,7 +153,7 @@ From the preceding section, we can see that we have just implemented for squares
 Certainly, we can easily generate squares by setting the width and the height with a same value, but what if generating other egular polygons? **SVG** is my choice.
 
 <p align="center"><img src="./figure4.png" alt="kaleidoscope" /></p>
-<p align="center"><strong>Figure 3</strong> A triangle</p>
+<p align="center"><strong>Figure 4</strong> A triangle</p>
 
 In SVG, we can easily create a polygon by using `polygon` tags, with setting the attribute `points` to set up each vertex. For instance, the Figure 4 can use 
 
