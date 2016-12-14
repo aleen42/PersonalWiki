@@ -120,13 +120,14 @@ var theta = 0;
 /** direction to change */
 var dir = 1;
 
-/** append mutinested squares 
+/** append mutinested squares */
 for (var i = 0; i < num; i++) {
 	var div = document.createElement('div');
 	div.className = 'rect rect' + (i + 1);
 	document.querySelector('.rect' + i).appendChild(div);
 }
 
+/** start to animiate */
 setInterval(function () {
 	t += stepT * dir;
 	t = t % 90;
