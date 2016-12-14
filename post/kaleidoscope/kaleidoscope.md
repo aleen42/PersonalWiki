@@ -246,6 +246,10 @@ Firstly, we should solve the case in which the number of sides is 3 (Figure 7). 
 
 <p align="center"><img src="./mathtran4.png" alt="kaleidoscope" /></p>
 
+Then solve it:
+
+<p align="center"><img src="./mathtran5.png" alt="kaleidoscope" /></p>
+
 ### Demo
 
 <p>
