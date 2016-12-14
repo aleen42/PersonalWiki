@@ -163,7 +163,9 @@ In SVG, we can easily create a polygon by using `polygon` tags, with setting the
 </svg>
 ```
 
-Utilizing this feature, what we should do to genearte regular polygons is just to solve positions of each vertex.
+Utilizing this feature, what we should do to generate regular polygons is just to solve positions of each vertex.
+
+In addition, can such polygons be generated within a circle
 
 ### Demo
 
