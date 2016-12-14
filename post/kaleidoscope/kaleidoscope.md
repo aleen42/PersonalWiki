@@ -46,7 +46,7 @@ const scaleRatio = 0.5;
 const target = document.querySelector('.item');
 
 target.style.transformOrigin = 'center';
-target.style.transform = 'scale(' + scaleRatio + ') rotateZ(' + sita + 'deg)';
+target.style.transform = 'scale(' + scaleRatio + ') rotateZ(' + theta + 'deg)';
 
 /** other browsers */
 target.style.WebkitTransformOrigin = 'center';
