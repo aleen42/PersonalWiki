@@ -114,6 +114,7 @@ const dur = 10;
 /** the number of mutinested squares */
 const num = 6;
 
+/** the current value of theta 
 var theta = 0;
 
 /** direction to change */
