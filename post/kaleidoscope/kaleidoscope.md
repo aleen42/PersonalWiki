@@ -286,7 +286,6 @@ setInterval(function () {
 
 	const thetaValue = Math.abs(theta) * Math.PI / 180;
 	const scaleRatio = Math.sin((180 - innerCornerDeg) * Math.PI / 180) / (Math.sin(thetaValue) + Math.sin(innerCornerDeg * Math.PI / 180 - thetaValue));
-	// var scaleRatio = sin / Math.sin(Math.PI / 3) * (1 + (Math.sin(2 * Math.PI / 3 - t) / sin));
 
 	for (var i = 1; i < num; i++) {
 		document.querySelector('.polygon' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + t + 'deg)';
