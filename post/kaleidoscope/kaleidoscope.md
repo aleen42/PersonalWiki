@@ -146,6 +146,8 @@ setInterval(function () {
 }, dur);
 ```
 
+#### How to make it reusable?
+
 ### Demo
 
 <p>
