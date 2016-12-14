@@ -288,7 +288,7 @@ setInterval(function () {
 	const scaleRatio = Math.sin((180 - innerCornerDeg) * Math.PI / 180) / (Math.sin(thetaValue) + Math.sin(innerCornerDeg * Math.PI / 180 - thetaValue));
 
 	for (var i = 1; i < num; i++) {
-		document.querySelector('.polygon' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + thet + 'deg)';
+		document.querySelector('.polygon' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + theta + 'deg)';
 	}
 }, dur);
 ```
