@@ -150,6 +150,8 @@ setInterval(function () {
 
 From the preceding section, we can see that we have just implemented for squares, but I wonder how to use it in other regular polygons like equilateral triangles or even pentagons. Before discussing the problem, we should create such regular polygons at first.
 
+Cetainly, we can easily generate sqaures by setting the w
+
 ### Demo
 
 <p>
