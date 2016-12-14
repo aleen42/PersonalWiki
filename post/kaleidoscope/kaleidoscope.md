@@ -146,7 +146,7 @@ setInterval(function () {
 }, dur);
 ```
 
-#### How to make it reusable?
+#### How to create regular polygons?
 
 ### Demo
 
