@@ -306,3 +306,15 @@ cat&#124;bat|[cb]at
 red&#124;read|rea?d
 red&#124;raw|r(?:ea&#124;aw)
 (.&#124;\\r&#124;\\n)|[\\s\\S]
+
+- **Use non-capturing groups**
+
+    Capturing groups spend time and memory in remembering backreferences and keeping them up to date. If you don't need a backreference, avoid this overhead by using a non-capturing group `(?:)`.
+
+- **Capture interesting text to reduce postprocessing**
+
+    If you need to reference parts of a match, then, by all means, capture those parts and use the backreferences produced, rather than manually process the result.
+
+- **Expose required tokens**
+
+    If you want the regex engine to make smart decisions about how to optimize a search routine, try to make it easy to determine which tokens are required. For example, expose `^` like **/^(ab|cd)/**, but not **/(^ab|^cd)/**
