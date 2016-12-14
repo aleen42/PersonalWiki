@@ -21,6 +21,8 @@ Then, to simulate such rotating animation, I would like to use `transform` and `
 }
 ```
 
+The code snippet above has shown us how to use such two properties to animate our elements.
+
 ### Demo
 
 <p>
