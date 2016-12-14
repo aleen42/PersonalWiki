@@ -181,7 +181,7 @@ Then, here is the equation:
 
 After that, just create regular polygons with ***θ***:
 
-```css
+```html
 <svg class="svg__container"></svg>
 ```
 
