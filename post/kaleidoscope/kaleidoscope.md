@@ -199,7 +199,7 @@ function createPolygon(obj, sides, startDeg) {
     /** an array for storing points of this regular polygon */
 	var pos = [];
 	
-	/** the radius of the given ci
+	/** the radius of the given circle */
 	const radius = document.querySelector('.svg__container').clientWidth / 2;
 
 	for (var i = 0; i < sides; i++) {
@@ -214,6 +214,7 @@ function createPolygon(obj, sides, startDeg) {
 	group.appendChild(polygon);
 	obj.appendChild(group);
 	
+	/** set up the origin position of your transformat
 	group.style.transformOrigin = radius + 'px ' + radius + 'px';
 	
 	return group;
