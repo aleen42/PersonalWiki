@@ -318,3 +318,15 @@ red&#124;raw|r(?:ea&#124;aw)
 - **Expose required tokens**
 
     If you want the regex engine to make smart decisions about how to optimize a search routine, try to make it easy to determine which tokens are required. For example, expose `^` like **/^(ab|cd)/**, but not **/(^ab|^cd)/**
+
+- **Use appropriate quantifiers**
+
+    Using the more appropriate quantifier type (based on the anticipated amount of backtracking) in cases where they are equally correct can significantly improve performance, especially with long strings.
+
+- **Reuse regexes by assigning them to variables**
+
+    Assigning regexes to variables lets you avoid repeatedly compiling them, especially within loops.
+
+- **Split complex regexes into simpler pieces**
+
+    Avoid doing too much with a single regex. It's hard to maintain and are prone (易於遭受) to backtracking-related problems.
