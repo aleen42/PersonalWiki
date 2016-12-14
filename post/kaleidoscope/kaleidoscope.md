@@ -237,7 +237,7 @@ for (var i = 0; i < num; i++) {
 
 #### How to make it reusable?
 
-Now then we can generate any side of regular polygons (the number of sides should be more than 3)
+Now that we can generate any side of regular polygons (the number of sides should be more than 3), 
 
 ### Demo
 
