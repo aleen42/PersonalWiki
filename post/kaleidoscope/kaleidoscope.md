@@ -264,10 +264,10 @@ const stepT = 0.8;
 const dur = 10;
 const num = 7;
 
-var t = 0;
+var thet = 0;
 var dir = 1;
 
-/** append mutinested pol
+/** append mutinested polygons */
 for (var i = 0; i < num; i++) {
 	parent = createPolygon(parent, sides);
 	parent.setAttribute('class', 'polygon polygon' + (i + 1));
