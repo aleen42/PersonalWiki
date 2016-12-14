@@ -9,6 +9,6 @@
 * [RadixSort](./RadixSort/RadixSort.md)
 * [BucketSort](./BucketSort/BucketSort.md)
 
-### Demo
+### POC
 
-http://codepen.io/aleen42/pen/aBKZzq
+
