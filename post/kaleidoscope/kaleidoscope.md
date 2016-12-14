@@ -62,6 +62,8 @@ target.style.OTransformOrigin = 'center';
 target.style.OTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
 ```
 
+Then as the Figure 2 shown, how to calculate a proper value of `scale` with `sita` as the variable, in order that vertexes of the item can stay on each side of the preceding square.
+
 ### Demo
 
 <p>
