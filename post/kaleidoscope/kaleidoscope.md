@@ -136,6 +136,7 @@ setInterval(function () {
 		theta = (Math.abs(theta) - 90) * dir;
 	}
 
+    /** calculate the scaleRatio */
 	const tan = parseFloat(Math.tan(Math.abs(theta) * Math.PI / 180).toFixed(2));
 	const scaleRatio = Math.sqrt(1 + tan * tan) / (1 + tan);
 
