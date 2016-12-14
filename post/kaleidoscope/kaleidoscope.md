@@ -159,7 +159,7 @@ In SVG, we can easily create a polygon by using `polygon` tags, with setting the
 
 ```html
 <svg>
-    <polygon stroke="#000" fill="none" points="x0,y0 x"></polygon>
+    <polygon stroke="#000" fill="none" points="x0,y0 x1,y1 x2,y2"></polygon>
 </svg>
 ```
 
