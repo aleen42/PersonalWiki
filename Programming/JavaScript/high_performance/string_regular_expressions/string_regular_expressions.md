@@ -269,3 +269,7 @@ A quantifier is nested when it occurs within a grouping that is itself repeated 
 Considering the following regex which is mainly used to match HTML tags:
 
 **/&lt;(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;&gt;/**
+
+In comparison with a naive solution **/&lt;[&#94;&gt;]&#42;&gt;/**, it also accounts for `>` characters occur within attribute values. So far, there's no risk of runaway backtracking, despite the nested `*` quantifier. Look at the first alternative in the non-capturing group: `[^>"']`, and this can match only one character at a time, which seems a little inefficient. So, how about adding `+` quantifier at the end of this alternative? A disaster is going to be happened.
+
+If the regex matches an opening `<` character, but there is no following `>` that would allows the match attempt to complete successfully, runaway backtracking will happen. As the huge number of ways the new inner quantifier `+` can be combined with the outer quantifier `*`, there're plenty of  ways to attempt before giving up. **Watch out**!
