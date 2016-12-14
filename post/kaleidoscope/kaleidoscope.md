@@ -65,7 +65,7 @@ target.style.OTransform = 'scale(' + scaleRatio + ') rotateZ(' + theta + 'deg)';
 <p align="center"><img src="./figure2.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 2</strong> The relationship between sita and scale</p>
 
-Then as the Figure 2 shown, how to calculate a proper value of ***a*** for `scale` with ***θ*** for `theta` as the variable, in order that vertexes of the item can stay on each side of another square? We may just have to solve the following equation:
+Then as the Figure 2 shown, how to calculate a proper value of `scaleRatio` (***a***) with `theta` (***θ*** as the variable, in order that vertexes of the item can stay on each side of another square? We may just have to solve the following equation:
 
 <p align="center"><img src="./mathtran1.png" alt="kaleidoscope" /></p>
 
