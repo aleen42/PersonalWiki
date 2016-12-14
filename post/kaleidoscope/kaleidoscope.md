@@ -97,7 +97,7 @@ Then rotate the second and the third squares with scaling at the same time:
 }
 
 .rect3 {
-    transform: scale(0.7316630894490342) rotateZ(15deg);
+    transform: scale(0.8155975296668455) rotateZ(15deg);
     transform-origin: center;
 }
 ```
