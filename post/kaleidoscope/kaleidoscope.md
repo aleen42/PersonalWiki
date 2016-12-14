@@ -252,7 +252,7 @@ Then solve it:
 
 What if the number of sides is 4, 5, 6, and etc.? You may find that all of them should obey the following rule, where ***n*** stands for the number of sides:
 
-
+<p align="center"><img src="./mathtran6.png" alt="kaleidoscope" /></p>
 
 
 ### Demo
