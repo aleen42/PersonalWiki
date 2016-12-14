@@ -289,7 +289,7 @@ setInterval(function () {
 	// var scaleRatio = sin / Math.sin(Math.PI / 3) * (1 + (Math.sin(2 * Math.PI / 3 - t) / sin));
 
 	for (var i = 1; i < num; i++) {
-		document.querySelector('.polygon--third' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + t + 'deg)';
+		document.querySelector('.polygon' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + t + 'deg)';
 	}
 }, dur);
 ```
