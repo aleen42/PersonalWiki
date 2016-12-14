@@ -186,8 +186,10 @@ function createPolygon(obj, sides, startDeg) {
     /** the degree of the start position */
 	startDeg = startDeg || 0;
 	
-	/** generate group to embed other group *
+	/** generate group to embed other group */
 	var group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+	
+	/** the polygon you want to creat
 	var polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
 
 	var pos = [];
