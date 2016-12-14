@@ -79,7 +79,7 @@ Then, for the first item, I have implement by the following code:
 /** the difference of degree in each duration */
 const stepT = 0.5;
 
-/** the time (ms) to update the sita value /
+/** the time (ms) to update the sita value */
 const dur = 10;
 const num = 6;
 
