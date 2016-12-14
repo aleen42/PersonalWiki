@@ -78,7 +78,15 @@ As we can see, the value of `scale` can be calculated with `sita` as the variabl
 <p align="center"><img src="./figure3.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 3</strong> Multinested squares</p>
 
-Besides, we should also solve the case when a square is embedded with another square, while another square is embedded with another square (Figure 3). To work around this complicated problem of calculation, I have used relative motions instead
+Besides, we should also solve the case when a square is embedded with another square, while another square is embedded with another square (Figure 3). To work around this complicated problem of calculation, I have used relative motions instead. For example, I will create this three squares like this:
+
+```html
+<div class="rect rect1">
+    <div class="rect rect2">
+        <div class="rect rect3"></div>
+    </div>
+</div>
+```
 
 Then, for the first item, I have implement by the following code:
 
