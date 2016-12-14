@@ -92,12 +92,12 @@ Then rotate the second and the third squares with scaling at the same time:
 
 ```css
 .rect2 {
-    transform: scale(0.5) rotateZ(45deg);
+    transform: scale(0.5) rotateZ(15deg);
     transform-origin: center;
 }
 
 .rect3 {
-    transform: scale(0.5) rotateZ(45deg);
+    transform: scale(0.5) rotateZ(30deg);
     transform-origin: center;
 }
 ```
