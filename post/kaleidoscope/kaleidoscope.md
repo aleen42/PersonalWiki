@@ -250,6 +250,8 @@ Then solve it:
 
 <p align="center"><img src="./mathtran5.png" alt="kaleidoscope" /></p>
 
+What if the number of sides is 4, 5, 6, and etc.?
+
 ### Demo
 
 <p>
