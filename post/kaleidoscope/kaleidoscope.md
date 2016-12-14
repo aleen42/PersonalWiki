@@ -88,7 +88,7 @@ Besides, we should also solve the case when a square is embedded with another sq
 </div>
 ```
 
-Then rotate the second and the third squares with scaling at the same time:
+Then rotate the second and the third square with scaling at the same time:
 
 ```css
 .rect2 {
