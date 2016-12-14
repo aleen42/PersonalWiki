@@ -250,7 +250,7 @@ Then solve it:
 
 <p align="center"><img src="./mathtran5.png" alt="kaleidoscope" /></p>
 
-What if the number of sides is 4, 5, 6, and etc.? You may found that all of them should obey the following rule, where ***n*** stands for the number of sides:
+What if the number of sides is 4, 5, 6, and etc.? You may find that all of them should obey the following rule, where ***n*** stands for the number of sides:
 
 
 
