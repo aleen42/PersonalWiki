@@ -42,7 +42,11 @@ If using JavaScript to change this value dynamically, we can code like this:
 ```js
 /** sita is the rotating degree */
 const sita = 45; 
-const target = document.queryS
+const scale = 0.5;
+const target = document.querySelector('.item');
+
+target.style.transformOrigin = 'center';
+target.style.transform = 'scale'
 ```
 
 ### Demo
