@@ -40,26 +40,26 @@ The code snippet above has shown us how to use such two properties to animate ou
 If using JavaScript to change this value dynamically, we can code like this:
 
 ```js
-/** sita is the rotating degree */
-const sita = 45; 
-const scale = 0.5;
+/** theta is the rotating degree */
+const theta = 45; 
+const scaleRatio = 0.5;
 const target = document.querySelector('.item');
 
 target.style.transformOrigin = 'center';
-target.style.transform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.transform = 'scale(' + scaleRatio + ') rotateZ(' + sita + 'deg)';
 
 /** other browsers */
 target.style.WebkitTransformOrigin = 'center';
-target.style.WebkitTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.WebkitTransform = 'scale(' + scaleRatio + ') rotateZ(' + theta + 'deg)';
 
 target.style.MozTransformOrigin = 'center';
-target.style.MozTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.MozTransform = 'scale(' + scaleRatio + ') rotateZ(' + theta + 'deg)';
 
 target.style.MsTransformOrigin = 'center';
-target.style.MsTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.MsTransform = 'scale(' + scaleRatio + ') rotateZ(' + theta + 'deg)';
 
 target.style.OTransformOrigin = 'center';
-target.style.OTransform = 'scale(' + scale + ') rotateZ(' + sita + 'deg)';
+target.style.OTransform = 'scale(' + scaleRatio + ') rotateZ(' + theta + 'deg)';
 ```
 
 <p align="center"><img src="./figure2.png" alt="kaleidoscope" /></p>
