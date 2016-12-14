@@ -183,7 +183,7 @@ After that, just create regular polygons with ***θ***:
 
 ```js
 function createPolygon(obj, sides, startDeg) {
-    /** the degree of 
+    /** the degree of the start position */
 	startDeg = startDeg || 0;
 	
 	var group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
