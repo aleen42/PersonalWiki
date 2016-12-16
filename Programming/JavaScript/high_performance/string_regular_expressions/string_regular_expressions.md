@@ -330,3 +330,7 @@ red&#124;raw|r(?:ea&#124;aw)
 - **Split complex regexes into simpler pieces**
 
     Avoid doing too much with a single regex. It's hard to maintain and are prone (易於遭受) to backtracking-related problems.
+
+#### When not to use regular expressions
+
+When used with care, regexes are very fast. However, they're usually overkill when you are merely searching for literal strings. This is especially true if you know in advance which part of a string you want to test.
