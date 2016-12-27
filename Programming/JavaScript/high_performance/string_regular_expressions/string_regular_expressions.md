@@ -334,3 +334,28 @@ red&#124;raw|r(?:ea&#124;aw)
 #### When not to use regular expressions
 
 When used with care, regexes are very fast. However, they're usually overkill when you are merely searching for literal strings. This is especially true if you know in advance which part of a string you want to test.
+
+For instance, in the case when you want to check a literal string whether it's end with a semicolon (**;**). If you use regex like
+
+```js
+var isEndUpWithSemicolon = /;$/.test(str);
+```
+
+Then, the regex engine is not smart enough to directly check the end of the string, and iterate over the whole string instead. Therefore, a better approach to skip the iteration is to use literal operations:
+
+```js
+var isEndUpWithSemicolon = (str.charAt(str.length - 1) === ';');
+```
+
+Or you can also use `split`:
+
+```js
+var isEndUpWithSemicolon = (str.split('')[str.length - 1] === ';');
+```
+
+Or use `splice`:
+
+```js
+var strLen = str.length;
+var isEndUpWithSemicolon = (str.slice(strLen - 1, strLen) === ';');
+```
