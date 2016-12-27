@@ -409,3 +409,43 @@ String.prototype.trim = function () {
 ```
 
 Unless there's more trailing whitespace than other text, this generally ends up being faster than the previous solution that used a lazy quantifier. In fact, it's so much faster that in IE, Safari, Chrome, and Opera 10, it even beats using two substitutions, as those browsers have all contain special optimization for greedy repetition. However, it's considerably slower in Firefox, and Opera 9, so at least for now, using two substitutions still holds up better cross-browser features.
+
+##### **Trimming without regular expressions**
+
+We may also consider the performance of trimming without using regular expressions:
+
+```js
+String.prototype.trim = function () {
+    var start = 0;
+    var end = this.length - 1;
+    var ws = ' \n\r\t\f\x0b\xa0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u200b\u2028\u2029\u202f\u205f\u3000\ufeff';
+
+    while (ws.indexOf(this.charAt(start)) > -1) {
+        start++;
+    }
+
+    while (end > start && ws.indexOf(this.charAt(end)) > -1) {
+        end--;
+    }
+
+    return this.slice(start, end + 1);
+};
+```
+
+The `ws` variable in this code includes all whitespace characters as defined by ECMAScript 5. Although it's not affected by the overall length of the string, it has its own weakness: **long leading and trailing whitespace**.
+
+To work around this problem, we may use another final approach to combine regex's universal efficiency at trimming leading whitespace with nonregex method's speed at trimming trailing characters:
+
+```js
+String.prototype.trim = function () {
+    var str = this.replace(/^\s+/, '');
+    var end = str.length - 1;
+    var ws = /\s/;
+
+    while (ws.test(str, charAt(end))) {
+        end--;
+    }
+
+    return str.slice(0, end + 1);
+};
+```
