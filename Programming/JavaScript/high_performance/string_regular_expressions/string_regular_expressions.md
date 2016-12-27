@@ -359,3 +359,53 @@ Or use `splice`:
 var strLen = str.length;
 var isEndUpWithSemicolon = (str.slice(strLen - 1, strLen) === ';');
 ```
+
+#### String Trimming
+
+Removing leading and trailing whitespace from a string is a simple but common task. Trimming strings is not a common performance bottleneck, but it serves as a decent case study for regex optimization since there are a variety of ways to implement it.
+
+##### **Trimming with regular expressions**
+
+```js
+if (!String.prototype.trim) {
+    String.prototype.trim = function () {
+        return this.replace(/^\s+/, '').replace(/\s+$/, '');
+    };
+}
+```
+
+In Firefox, you can give it a performance boost of roughly 35% by replacing second regex **/\\s+$/** with **/\\s\\s&#42;$/**. Therefore, the most efficient way of trimming with regular expressions is using the follow one snippet:
+
+```js
+if (!String.prototype.trim) {
+    String.prototype.trim = function () {
+        return this.replace(/^\s+/, '').replace(/\s\s*$/, '');
+    };
+}
+```
+
+There're also several ways to implement trimming, but all of them are invariably slower than using two simple substitutions when working with long string.
+
+```js
+String.prototype.trim = function() {
+    return this.replace(/^\s+|\s+$/g, '');
+};
+```
+
+Alternation options is needed to be tested at each character, making execution slower.
+
+```js
+String.prototype.trim = function () {
+    return this.replace(/^\s*([\s\S]*?)\s*$/, '$1');
+};
+```
+
+The lazy quantifier `?` inside the capturing group in the snippet above has done a lot things, which tends to make this option slower, especially slower in Opera 9.x and earlier.
+
+```js
+String.prototype.trim = function () {
+    return this.replace(/^\s*(\S*(\s+\S+)*)\s*$/, '$1');
+};
+```
+
+Unless there's more trailing whitespace than other text, this generally ends up being faster than the previous solution that used a lazy quantifier. In fact, it's so much faster that in IE, Safari, Chrome, and Opera 10, it even beats using two substitutions, as those browsers have all contain special optimization for greedy repetition. However, it's considerably slower in Firefox, and Opera 9, so at least for now, using two substitutions still holds up better cross-browser features.
