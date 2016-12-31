@@ -449,3 +449,15 @@ String.prototype.trim = function () {
     return str.slice(0, end + 1);
 };
 ```
+
+The simplicity of using two regex substitutions provides consistently respectable performance crossing different platforms, and it's arguably the best solution, while the solution above is exceptionally fast with long strings at the cost of slightly longer code.
+
+### Summary
+
+Intensive string operations and incautiously crafted regexes can be major performance:
+
+- When concatenating numerous or large strings, array joining is the only method with reasonable performance in IE7 and earlier.
+- If you don't need to worry about IE7 and earlier, use simple `+` and `+=` operators instead.
+- Runaway backtracking can cause a regex crashing the browser, which you should pay more attention to.
+- Regexes are not always the best tool in the case especially when you're searching for literal strings.
+- When trimming a string, using two simple regexes offers a good way for you, while looping from the end of the string or combining this with regexes is a good alternative that is less affected by overall string length.
