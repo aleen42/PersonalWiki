@@ -70,3 +70,9 @@ function createTreeNodes(dataModel, parent, level, count, callback) {
     }
 }
 ```
+
+嘿嘿，代码写得可能有些复杂了，简单的做法就是嵌套几个for循环来创建树状结构数据，在这里我就不多说了，接下来我们来探究第二个问题。
+
+### 2. 在[2D拓扑](http://www.hightopo.com/)下模拟[3D树](http://www.hightopo.com/)状结构每层的半径计算
+
+
