@@ -243,3 +243,72 @@ function countRadius(root, minR) {
 }
 ```
 
+下面就来看看效果吧~
+
+![](./7.png)
+
+哈哈，看来我们分析对了，果然就不再重叠了，那我们来看看再多一层节点会是怎么样的壮观场景呢？
+
+![](./8.png)
+
+哦，NO！这不是我想看到的效果，又重叠了，好讨厌。
+
+不要着急，我们再来仔细分析分析下，在前面，我们提到过一个名词——领域半径，什么是领域半径呢？很简单，就是可以容纳下自身及其所有孩子节点的最小半径，那么问题就来了，末端节点的领域半径为我们指定的最小半径，那么倒数第二层的领域半径是多少呢？并不是我们前面计算出来的半径，而应该加上末端节点自身的领域半径，因为它们之间存在着包含关系，子节点的领域必须包含于其父亲节点的领域中，那我们在看看上图，是不是感觉末端节点的领域被侵占了。那么我们前面计算出来的半径代表着什么呢？前面计算出来的半径其实代表着孩子节点的布局半径，在布局的时候是通过该半径来布局的。
+
+OK，那我们来总结下，节点的领域半径是其下每层节点的布局半径之和，而布局半径需要根据其孩子节点个数及其领域半径共同决定。
+
+好了，我们现在知道问题的所在了，那么我们的代码该如何去实现呢？接着往下看：
+
+```js
+/**
+ * 就按节点领域半径及布局半径
+ * @param {ht.Node} root - 根节点对象
+ * @param {Number} minR - 最小半径
+ */
+function countRadius(root, minR) {
+    minR = (minR == null ? 25 : minR);
+
+    // 若果是末端节点，则设置其布局半径及领域半径为最小半径
+    if (!root.hasChildren()) {
+        root.a('radius', minR);
+        root.a('totalRadius', minR);
+        return;
+    }
+
+    // 遍历孩子节点递归计算半径
+    var children = root.getChildren();
+    children.each(function(child) {
+        countRadius(child, minR);
+    });
+
+    var child0 = root.getChildAt(0);
+    // 获取孩子节点半径
+    var radius = child0.a('radius'),
+        totalRadius = child0.a('totalRadius');
+
+    // 计算子节点的1/2张角
+    var degree = Math.PI / children.size();
+    // 计算父亲节点的布局半径
+    var pRadius = totalRadius / Math.sin(degree);
+
+    // 缓存父亲节点的布局半径
+    root.a('radius', pRadius);
+    // 缓存父亲节点的领域半径
+    root.a('totalRadius', pRadius + totalRadius);
+    // 缓存其孩子节点的布局张角
+    root.a('degree', degree * 2);
+}
+```
+
+在代码中我们将节点的领域半径缓存起来，从下往上一层一层地叠加上去。接下来我们一起验证其正确性：
+
+![](./9.png)
+
+搞定，就是这样子了，[2D拓扑](http://www.hightopo.com/)上面的布局搞定了，那么接下来该出动3D拓扑啦~
+
+### 3. 加入z轴坐标，呈现3D下的树状结构
+
+[3D拓扑](http://www.hightopo.com/)上面布局无非就是多加了一个坐标系，而且这个坐标系只是控制节点的高度而已，并不会影响到节点之间的重叠，所以接下来我们来改造下我们的程序，让其能够在3D上正常布局。
+
+也不需要太大的改造，我们只需要修改下布局器并且将[2D拓扑](http://www.hightopo.com/)组件改成3D拓扑组件就可以了。
+
