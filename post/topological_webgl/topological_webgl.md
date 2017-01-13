@@ -312,3 +312,71 @@ function countRadius(root, minR) {
 
 也不需要太大的改造，我们只需要修改下布局器并且将[2D拓扑](http://www.hightopo.com/)组件改成3D拓扑组件就可以了。
 
+```js
+/**
+ * 布局树
+ * @param {ht.Node} root - 根节点
+ */
+function layout(root) {
+    // 获取到所有的孩子节点对象数组
+    var children = root.getChildren().toArray();
+    // 获取孩子节点个数
+    var len = children.length;
+    // 计算张角
+    var degree = root.a('degree');
+    // 根据三角函数计算绕父亲节点的半径
+    var r = root.a('radius');
+    // 获取父亲节点的位置坐标
+    var rootPosition = root.p3();
+
+    children.forEach(function(child, index) {
+        // 根据三角函数计算每个节点相对于父亲节点的偏移量
+        var s = Math.sin(degree * index),
+            c = Math.cos(degree * index),
+            x = s * r,
+            z = c * r;
+
+        // 设置孩子节点的位置坐标
+        child.p3(x + rootPosition[0], rootPosition[1] - 100, z + rootPosition[2]);
+
+        // 递归调用布局孩子节点
+        layout(child);
+    });
+}
+```
+
+上面是改造成3D布局后的布局器代码，你会发现和2D的布局器代码就差一个坐标系的的计算，其他的都一样，看下在3D上布局的效果：
+
+![](./10.png)
+
+恩，有模有样的了，在文章的开头，我们可以看到每一层的节点都有不同的颜色及大小，这些都是比较简单，在这里我就不做深入的讲解，具体的代码实现如下：
+
+```js
+var level = 4,
+    size = (level + 1) * 20;
+
+var root = createNode(dataModel);
+root.setName('root');
+root.p(100, 100);
+
+root.s('shape3d', 'sphere');
+root.s('shape3d.color', randomColor());
+root.s3(size, size, size);
+
+var colors = {},
+    sizes = {};
+createTreeNodes(dataModel, root, level - 1, 5, function(data, level, num) {
+    if (!colors[level]) {
+        colors[level] = randomColor();
+        sizes[level] = (level + 1) * 20;
+    }
+
+    size = sizes[level];
+
+    data.setName('item-' + level + '-' + num);
+    // 设置节点形状为球形
+    data.s('shape3d', 'sphere');
+    data.s('shape3d.color', colors[level]);
+    data.s3(size, size, size);
+});
+```
