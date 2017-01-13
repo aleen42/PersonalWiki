@@ -120,3 +120,126 @@ function layout(root, minR) {
     });
 }
 ```
+
+在代码中，你会发现我将末端半径默认设置为25了，如此，我们通过调用layout()方法就可以对结构树进行布局了，其布局效果如下：
+
+![](./3.png)
+
+从效果图可以看得出，末端节点的默认半径并不是很理想，布局出来的效果连线都快看不到了，因此我们可以增加末端节点的默认半径来解决布局太密的问题，如将默认半径设置成40的效果图如下:
+
+![](./4.png)
+
+现在两层的树状分布解决了，那么我们来看看三层的树状分布该如何处理。
+
+将第二层和第三层看成一个整体，那么其实三层的树状结构跟两层是一样的，不同的是在处理第二层节点时，应该将其看做一个两层的树状结构来处理，那么像这种规律的处理用递归最好不过了，因此我们将代码稍微该着下，在看看效果如何：
+
+![](./5.png)
+
+不行，节点都重叠在一起了，看来简单的递归是不行的，那么具体的问题出在哪里呢？
+
+仔细分析了下，发现父亲节点的领域半径是由其孩子节点的领域半径决定的，因此在布局时需要知道自身节点的领域半径，而且节点的位置取决于父亲节点的领域半径及位置信息，这样一来就无法边计算半径边布局节点位置了。
+
+那么现在只能将半径的计算和布局分开来，做两步操作了，我们先来分析下节点半径的计算：
+
+首先需要明确最关键的条件，父亲节点的半径取决于其孩子节点的半径，这个条件告诉我们，只能从下往上计算节点半径，因此我们设计的递归函数必须是先递归后计算，废话不多说，我们来看下具体的代码实现：
+
+```js
+/**
+ * 就按节点领域半径
+ * @param {ht.Node} root - 根节点对象
+ * @param {Number} minR - 最小半径
+ */
+function countRadius(root, minR) {
+    minR = (minR == null ? 25 : minR);
+
+    // 若果是末端节点，则设置其半径为最小半径
+    if (!root.hasChildren()) {
+        root.a('radius', minR);
+        return;
+    }
+
+    // 遍历孩子节点递归计算半径
+    var children = root.getChildren();
+    children.each(function(child) {
+        countRadius(child, minR);
+    });
+
+    var child0 = root.getChildAt(0);
+    // 获取孩子节点半径
+    var radius = child0.a('radius');
+
+    // 计算子节点的1/2张角
+    var degree = Math.PI / children.size();
+    // 计算父亲节点的半径
+    var pRadius = radius / Math.sin(degree);
+
+    // 设置父亲节点的半径及其孩子节点的布局张角
+    root.a('radius', pRadius);
+    root.a('degree', degree * 2);
+}
+```
+
+OK，半径的计算解决了，那么接下来就该解决布局问题了，布局树状结构数据需要明确：孩子节点的坐标位置取决于其父亲节点的坐标位置，因此布局的递归方式和计算半径的递归方式不同，我们需要先布局父亲节点再递归布局孩子节点，具体看看代码吧：
+
+```js
+/**
+ * 布局树
+ * @param {ht.Node} root - 根节点
+ */
+function layout(root) {
+    // 获取到所有的孩子节点对象数组
+    var children = root.getChildren().toArray();
+    // 获取孩子节点个数
+    var len = children.length;
+    // 计算张角
+    var degree = root.a('degree');
+    // 根据三角函数计算绕父亲节点的半径
+    var r = root.a('radius');
+    // 获取父亲节点的位置坐标
+    var rootPosition = root.p();
+
+    children.forEach(function(child, index) {
+        // 根据三角函数计算每个节点相对于父亲节点的偏移量
+        var s = Math.sin(degree * index),
+            c = Math.cos(degree * index),
+            x = s * r,
+            y = c * r;
+
+        // 设置孩子节点的位置坐标
+        child.p(x + rootPosition.x, y + rootPosition.y);
+
+        // 递归调用布局孩子节点
+        layout(child);
+    });
+}
+```
+
+代码写完了，接下来就是见证奇迹的时刻了，我们来看看效果图吧：
+
+![](./6.png)
+
+不对呀，代码应该是没问题的呀，为什么显示出来的效果还是会重叠呢？不过仔细观察我们可以发现相比上个版本的布局会好很多，至少这次只是末端节点重叠了，那么问题出在哪里呢？
+
+不知道大家有没有发现，排除节点自身的大小，倒数第二层节点与节点之间的领域是相切的，那么也就是说节点的半径不仅和其孩子节点的半径有关，还与其孙子节点的半径有关，那我们把计算节点半径的方法改造下，将孙子节点的半径也考虑进去再看看效果如何，改造后的代码如下：
+
+```js
+/**
+ * 就按节点领域半径
+ * @param {ht.Node} root - 根节点对象
+ * @param {Number} minR - 最小半径
+ */
+function countRadius(root, minR) {
+    /** ... */
+    
+    var child0 = root.getChildAt(0);
+    // 获取孩子节点半径
+    var radius = child0.a('radius');
+
+    var child00 = child0.getChildAt(0);
+    // 半径加上孙子节点半径，避免节点重叠
+    if (child00) radius += child00.a('radius');
+    
+    /** ... */
+}
+```
+
