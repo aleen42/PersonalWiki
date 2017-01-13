@@ -75,4 +75,48 @@ function createTreeNodes(dataModel, parent, level, count, callback) {
 
 ### 2. 在[2D拓扑](http://www.hightopo.com/)下模拟[3D树](http://www.hightopo.com/)状结构每层的半径计算
 
+在3D下的树状结构体最大的问题就在于，每个节点的层次及每层节点围绕其父亲节点的半径计算。现在树状结构数据已经有了，那么接下来就该开始计算半径了，我们从两层树状结构开始推算：
 
+![](./2.png)
+
+我现在先创建了两层的树状结构，所有的子节点是一字排开，并没有环绕其父亲节点，那么我们该如何去确定这些孩子节点的位置呢？
+
+首先我们得知道，每个末端节点都有一圈属于自己的领域，不然节点与节点之间将会存在重叠的情况，所以在这里，我们假定末端节点的领域半径为25，那么两个相邻节点之间的最短距离将是两倍的节点领域半径，也就是50，而这些末端节点将均匀地围绕在其父亲节点四周，那么相邻两个节点的张角就可以确认出来，有了张角，有了两点间的距离，那么节点绕其父亲节点的最短半径也就能计算出来了，假设张角为a，两点间最小距离为b，那么最小半径r的计算公式为：
+
+r = b / 2 / sin(a / 2);
+
+那么接下来我么就来布局下这个树，代码是这样写的：
+
+```js
+/**
+ * 布局树
+ * @param {ht.Node} root - 根节点
+ * @param {Number} [minR] - 末端节点的最小半径
+ */
+function layout(root, minR) {
+    // 设置默认半径
+    minR = (minR == null ? 25 : minR);
+    // 获取到所有的孩子节点对象数组
+    var children = root.getChildren().toArray();
+    // 获取孩子节点个数
+    var len = children.length;
+    // 计算张角
+    var degree = Math.PI * 2 / len;
+    // 根据三角函数计算绕父亲节点的半径
+    var sin = Math.sin(degree / 2),
+        r = minR / sin;
+    // 获取父亲节点的位置坐标
+    var rootPosition = root.p();
+
+    children.forEach(function(child, index) {
+        // 根据三角函数计算每个节点相对于父亲节点的偏移量
+        var s = Math.sin(degree * index),
+            c = Math.cos(degree * index),
+            x = s * r,
+            y = c * r;
+
+        // 设置孩子节点的位置坐标
+        child.p(x + rootPosition.x, y + rootPosition.y);
+    });
+}
+```
