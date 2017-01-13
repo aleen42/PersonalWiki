@@ -380,3 +380,11 @@ createTreeNodes(dataModel, root, level - 1, 5, function(data, level, num) {
     data.s3(size, size, size);
 });
 ```
+
+在这里引入了一个随机生成颜色值的方法，对每一层随机生成一种颜色，并将节点的形状改成了球形，让页面看起来美观些（其实很丑）。
+
+![](./11.png)
+
+提个外话，节点上可以贴上图片，还可以设置文字的朝向，可以根据用户的视角动态调整位置，等等一系列的拓展，这些大家都可以去尝试，相信都可以做出一个很漂亮的[3D树](http://www.hightopo.com/)出来。
+
+到此，整个Demo的制作就结束了，今天的篇幅有些长，感谢大家的耐心阅读，在设计上或则是表达上有什么建议或意见欢迎大家提出，[点击这里](http://www.hightopo.com/demo/blog_3dtree_20150908/3D-tree.html)可以访问[HT for Web](http://www.hightopo.com/)官网上的[手册](http://www.hightopo.com/guide/readme.html)。
