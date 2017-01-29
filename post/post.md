@@ -38,6 +38,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[原創] Mingtocat**](./mingtocat/mingtocat.md)
 - [**[原創] Memorial Missions for 12.17 Shenzhen**](./1217_mission_of_shenzhen/1217_mission_of_shenzhen.md)
 - [**[轉載] So, You're a Web Designer, Right?**](./so_a_web_designer/so_a_web_designer.md)
+- [**[轉載] Discover the Full Story of City's Buildings**](./discover_city/discover_city.md)
 
 ### Back-end
 
