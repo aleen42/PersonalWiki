@@ -9,13 +9,13 @@ The purpose of the "Discover the Full Story" campaign, designed by [Saatchi &amp
 Our knowledge is just the tip of the iceberg. The project draws attention to Muscovites and tourists on the history of Moscow, its architectural heritage, inviting to visit the museum and view the complete history of the city's buildings.
 
 <p align="center">
-<img src="http://imglf0.ph.126.net/5GuF5HIT4caFaxhEEc7FGg==/3177008062233481665.jpg"/>
+<img src="./3177008062233481665.jpg"/>
 </p>
 <p align="center">
-<img src="http://imglf1.ph.126.net/hbcGn9udSIN5iPk_5j5IIw==/6597230295356500030.jpg"/>
+<img src="./6597230295356500030.jpg"/>
 </p>
 <p align="center">
-<img src="http://imglf0.ph.126.net/HrwLx2XlgxdySZSkbSvofQ==/1365716587100394165.jpg"/>
+<img src="./1365716587100394165.jpg"/>
 </p>
 <p align="center">
 <img src="http://imglf0.ph.126.net/hX2rzPL0GG18kHdKI0-29g==/6619542684816849582.jpg"/>
