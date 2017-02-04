@@ -4,7 +4,7 @@
 * 原文作者：[ireaderinokun](https://twitter.com/ireaderinokun)
 * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 * 译者： [熊贤仁](https://github.com/FrankXiong)
-* 校对者： [Professor-Z](https://github.com/Professor-Z) [aleen42](https://github.com/aleen42)
+* 校对者： [Professor-Z](https://github.com/Professor-Z)、[aleen42](https://github.com/aleen42)
 
 ## 1. 特性查询（Feature Queries）
 
