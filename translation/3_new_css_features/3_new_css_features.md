@@ -130,7 +130,7 @@ const rootEl = document.documentElement;
 rootEl.style.setProperty('--theme-colour','plum');
 ```
 
-### 兼容性
+#### 兼容性
 
  ![](http://i1.piimg.com/567571/fe40f3b4ec633b1c.jpg)
 
