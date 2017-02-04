@@ -6,7 +6,7 @@
 * 译者： [熊贤仁](https://github.com/FrankXiong)
 * 校对者： [Professor-Z](https://github.com/Professor-Z)、[aleen42](https://github.com/aleen42)
 
-## 1. 特性查询（Feature Queries）
+### 1. 特性查询（Feature Queries）
 
 不久前，我写过一篇关于特性查询的文章 —— [《一个我十分期待的CSS特性 - the one CSS feature I really want》](https://bitsofco.de/the-one-css-feature/)。如今果然出现了。除了 IE浏览器之外，所有主流浏览器（包括 Opera Mini）均已支持特性查询。
 
@@ -25,15 +25,15 @@
 }
 ```
 
-### 兼容性
+#### 兼容性
 
 ![](http://i1.piimg.com/567571/bd5cfc239fccdda6.jpg)
 
-## 2. 栅格布局（Grid Layout）
+### 2. 栅格布局（Grid Layout）
 
 [CSS 栅格布局模块（CSS Grid Layout Module）](https://drafts.csswg.org/css-grid/) 定义了一个用于创建基于栅格布局的系统。它和 [弹性盒子布局模块（Flexbible Box Layout Module）](https://www.w3.org/TR/css-flexbox-1/) 有些相似，但由于其专为页面布局而设计，因此拥有许多不同的特性。
 
-### 显式定位元素
+#### 显式定位元素
 
 一个栅格由栅格容器（由 `display: grid` 所创建）和栅格项（子元素）组成。在 CSS 中，我们可以简单且显式地组织栅格项的位置及顺序，并独立于 markup 语言中元素的位置。
 
@@ -79,7 +79,7 @@
 }
 ```
 
-### 弹性长度
+#### 弹性长度
 
 CSS 栅格模块引入了一个新的长度单位：`fr` ，用于表示栅格容器中所剩空间的占比。
 
@@ -90,7 +90,7 @@ CSS 栅格模块引入了一个新的长度单位：`fr` ，用于表示栅格�
 }
 ```
 
-### 槽（Gutters）
+#### 槽（Gutters）
 
 我们可以使用 `grid-row-gap`，`grid-column-gap`，和 `grid-gap` 属性来为栅格布局明确地定义槽。这些属性接受一个 [`<length-percentage>` 数据类型](https://bitsofco.de/generic-css-data-types/#percentages) 作为值，以表示内容区大小的相对百分比。
 
@@ -102,13 +102,13 @@ CSS 栅格模块引入了一个新的长度单位：`fr` ，用于表示栅格�
 }
 ```
 
-### 兼容性
+#### 兼容性
 
 CSS 栅格模块最早将在今年三月份被浏览器们支持。
 
 ![](http://i1.piimg.com/567571/229e6ea502a22d93.jpg)
 
-## 3. 原生变量（Native Variables）
+### 3. 原生变量（Native Variables）
 
 最后，原生 CSS 变量（[层叠变量模块（Cascading Variables Module）的自定义属性](https://drafts.csswg.org/css-variables/)）来了。该模块引入了一个用于创建用户自定义变量的方法，变量可被赋值给 CSS 属性。
 
@@ -130,12 +130,12 @@ const rootEl = document.documentElement;
 rootEl.style.setProperty('--theme-colour','plum');
 ```
 
-## 兼容性
+### 兼容性
 
  ![](http://i1.piimg.com/567571/fe40f3b4ec633b1c.jpg)
 
 
-## 关于兼容性？
+### 关于兼容性？
 
 如你所见，以上所有特性目前都没有被所有浏览器完全支持，那么我们如何在生产环境中舒服地用上他们呢？渐进增强（Progressive Enhancement）！去年的前端开发者大会上，我就曾就如何在 CSS 中进行渐进增强做过一次分享。点击下面可以看到
 
