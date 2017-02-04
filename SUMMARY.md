@@ -582,6 +582,7 @@
             * [Things I Wish I Were Told About React Native](./translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
             * [Making React Native apps accessible](./translation/making_react_native_apps_accessible/making_react_native_apps_accessible.md)
             * [How we "CSS" at BigCommerce](./translation/how_we_css_at_bigcommerce/how_we_css_at_bigcommerce.md)
+            * [3 New CSS Features to Learn in 2017](.//3_new_css_features/3_new_css_features.md)
         * References
             * [[轉載] 翻譯的誤區(一) 不知道把名詞轉換為動詞](./translation/misunderstand_1/misunderstand_1.md)
             * [[轉載] 翻譯的誤區(二) 認為“雅”是最高境界](./translation/misunderstand_2/misunderstand_2.md)
