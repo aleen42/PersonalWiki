@@ -32,3 +32,19 @@ If you look up pictures of water drops on a window in detail (or, of course, obs
 
 You’ll also see that drops that are close to each other get merged – and if it gets past a certain size, it falls down, leaving a small trail.
 To simulate this behavior, we’ll have to render a lot of drops, and update the refraction on them on every frame, and do all this with a decent frame rate, we’ll need a pretty good performance – so, to be able to use hardware accelerated graphics, **we’ll use WebGL**.
+
+### WebGL
+
+WebGL is a JavaScript API for rendering 2D and 3D graphics, allowing the use of the GPU for better performance. It is based on OpenGL ES, and the shaders aren’t written in JS at all, but rather in a language called GLSL.
+All in all, that makes it look difficult to use if you’re coming from exclusively web development — it’s not only a new language, but new concepts as well — but once you grasp some key concepts it will become much easier.
+In this article we will only show a basic example of how to use it; for a more in depth explanation, check out the excellent WebGl Fundamentals page.
+The first thing we need is a canvas element. WebGL renders on canvas, and it is a rendering context like the one we get with `canvas.getContext('2d')`.
+
+```html
+<canvas id="container" width="800" height="600"></canvas>
+```
+
+```js
+var canvas = document.getElementById("container");
+var gl = canvas.getContext("webgl");
+```
