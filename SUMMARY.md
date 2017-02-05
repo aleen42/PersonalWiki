@@ -456,6 +456,7 @@
             * [[轉載] Animated Heat Distortion Effects with WebGL](./post/heat_distortion/heat_distortion.md)
             * [[原創] Kaleidoscope](./post/kaleidoscope/kaleidoscope.md)
             * [[轉載] HTML5的WebGL實現的3D和2D拓撲樹](./post/topological_webgl/topological_webgl.md)
+            * [[轉載] Rain & Water Effect Experiments](./post/rain/rain.md)
         * Design
             * [[原創] Mingtocat](./post/mingtocat/mingtocat.md)
             * [[原創] Memorial Missions for 12.17 Shenzhen](./post/1217_mission_of_shenzhen/1217_mission_of_shenzhen.md)
