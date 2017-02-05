@@ -37,7 +37,7 @@ To simulate this behavior, we’ll have to render a lot of drops, and update the
 
 WebGL is a JavaScript API for rendering 2D and 3D graphics, allowing the use of the GPU for better performance. It is based on OpenGL ES, and the shaders aren’t written in JS at all, but rather in a language called GLSL.
 All in all, that makes it look difficult to use if you’re coming from exclusively web development — it’s not only a new language, but new concepts as well — but once you grasp some key concepts it will become much easier.
-In this article we will only show a basic example of how to use it; for a more in depth explanation, check out the excellent WebGl Fundamentals page.
+In this article we will only show a basic example of how to use it; for a more in depth explanation, check out the excellent [WebGl Fundamentals](http://webglfundamentals.org/) page.
 The first thing we need is a canvas element. WebGL renders on canvas, and it is a rendering context like the one we get with `canvas.getContext('2d')`.
 
 ```html
@@ -50,3 +50,6 @@ var gl = canvas.getContext("webgl");
 ```
 
 Then we’ll need a program, which is comprised of a *vertex shader* and a *fragment shader*. Shaders are functions: a vertex shader will be run once per vertex, and the fragment shader is called once per pixel. Their jobs are to return coordinates and colors, respectively. **This is the heart of our WebGL application.**
+
+First we’ll create our shaders. This is the vertex shader; we’ll make no changes on the vertices and will simply let the data pass through it:
+
