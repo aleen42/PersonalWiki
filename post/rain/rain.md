@@ -161,4 +161,10 @@ There’s a reason for the color: we’ll be using a technique similar to [norma
     <img src="./drop-color.png" />
 </p>
 
+From this image, we’ll use data from the green channel to get the X position, and from the red channel to get the Y position.
+
+<p align="center">
+    <img src="./drop-color2.png" />
+</p>
+
 
