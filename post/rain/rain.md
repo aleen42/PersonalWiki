@@ -28,7 +28,7 @@ If you look up pictures of water drops on a window in detail (or, of course, obs
     <img src="./755px-GGB_reflection_in_raindrops.jpg" />
 </p>
 <p aling="center">
-    <i>Image credits: Wikipedia, <a href="https://en.wikipedia.org/wiki/File:GGB_reflection_in_raindrops.jpg" target="_blank">GGB reflection in raindrop</a></i>
+    <em>Image credits: Wikipedia, <a href="https://en.wikipedia.org/wiki/File:GGB_reflection_in_raindrops.jpg" target="_blank">GGB reflection in raindrop</a></em>
 </p>
 
 You’ll also see that drops that are close to each other get merged – and if it gets past a certain size, it falls down, leaving a small trail.
