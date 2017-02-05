@@ -12,7 +12,7 @@
     <img src="./RainEffects.jpg" />
 </p>
 
-Today we’d like to share some WebGL experiments with you. The idea is to create a very realistic looking rain effect and put it in different scenarios. In this article, we’ll give an overview of the general tricks and techniques used to make this effect.
+Today we'd like to share some WebGL experiments with you. The idea is to create a very realistic looking rain effect and put it in different scenarios. In this article, we'll give an overview of the general tricks and techniques used to make this effect.
 
 ```
 Please note that the effect is highly experimental and might not work as expected in all browsers. Best viewed in Chrome.
@@ -31,15 +31,15 @@ If you look up pictures of water drops on a window in detail (or, of course, obs
     <em>Image credits: Wikipedia, <a href="https://en.wikipedia.org/wiki/File:GGB_reflection_in_raindrops.jpg" target="_blank">GGB reflection in raindrop</a></em>
 </p>
 
-You’ll also see that drops that are close to each other get merged – and if it gets past a certain size, it falls down, leaving a small trail.
+You'll also see that drops that are close to each other get merged – and if it gets past a certain size, it falls down, leaving a small trail.
 
-To simulate this behavior, we’ll have to render a lot of drops, and update the refraction on them on every frame, and do all this with a decent frame rate, we’ll need a pretty good performance – so, to be able to use hardware accelerated graphics, **we’ll use WebGL**.
+To simulate this behavior, we'll have to render a lot of drops, and update the refraction on them on every frame, and do all this with a decent frame rate, we'll need a pretty good performance – so, to be able to use hardware accelerated graphics, **we'll use WebGL**.
 
 ### WebGL
 
-WebGL is a JavaScript API for rendering 2D and 3D graphics, allowing the use of the GPU for better performance. It is based on OpenGL ES, and the *shaders* aren’t written in JS at all, but rather in a language called GLSL.
+WebGL is a JavaScript API for rendering 2D and 3D graphics, allowing the use of the GPU for better performance. It is based on OpenGL ES, and the *shaders* aren't written in JS at all, but rather in a language called GLSL.
 
-All in all, that makes it look difficult to use if you’re coming from exclusively web development — it’s not only a new language, but new concepts as well — but once you grasp some key concepts it will become much easier.
+All in all, that makes it look difficult to use if you're coming from exclusively web development — it's not only a new language, but new concepts as well — but once you grasp some key concepts it will become much easier.
 
 In this article we will only show a basic example of how to use it; for a more in depth explanation, check out the excellent [WebGl Fundamentals](http://webglfundamentals.org/) page.
 
@@ -54,9 +54,9 @@ var canvas = document.getElementById("container");
 var gl = canvas.getContext("webgl");
 ```
 
-Then we’ll need a program, which is comprised of a *vertex shader* and a *fragment shader*. Shaders are functions: a vertex shader will be run once per vertex, and the fragment shader is called once per pixel. Their jobs are to return coordinates and colors, respectively. **This is the heart of our WebGL application.**
+Then we'll need a program, which is comprised of a *vertex shader* and a *fragment shader*. Shaders are functions: a vertex shader will be run once per vertex, and the fragment shader is called once per pixel. Their jobs are to return coordinates and colors, respectively. **This is the heart of our WebGL application.**
 
-First we’ll create our shaders. This is the vertex shader; we’ll make no changes on the vertices and will simply let the data pass through it:
+First we'll create our shaders. This is the vertex shader; we'll make no changes on the vertices and will simply let the data pass through it:
 
 ```html
 <script id="vert-shader" type="x-shader/x-vertex">
@@ -85,7 +85,7 @@ And this is the fragment shader. This one sets the color of each pixel based on 
 </script>
 ```
 
-Now we’ll link the shaders to the WebGL context:
+Now we'll link the shaders to the WebGL context:
 
 ```js
 function createShader(gl,source,type){
@@ -108,7 +108,7 @@ gl.linkProgram(program);
 gl.useProgram(program);
 ```
 
-Then, we’ll have to create an object in which we will render our shader. Here we will just create rectangle — specifically, two triangles.
+Then, we'll have to create an object in which we will render our shader. Here we will just create rectangle — specifically, two triangles.
 
 ```js
 // create rectangle
@@ -147,32 +147,32 @@ After that, you can play with the shaders to get a hang of how it works. You can
 
 ### Raindrops
 
-Now let’s see how to make the raindrop effect. First, let’s see how a single raindrop looks:
+Now let's see how to make the raindrop effect. First, let's see how a single raindrop looks:
 
 <p align="center">
     <img src="./drop1.png" />
 </p>
 
 Now, there are a couple of things going on here.
-The alpha channel looks like this because we’ll use a technique similar to the one in the [Creative Gooey Effects](http://tympanus.net/codrops/2015/03/10/creative-gooey-effects/) article to make the raindrops stick together.
+The alpha channel looks like this because we'll use a technique similar to the one in the [Creative Gooey Effects](http://tympanus.net/codrops/2015/03/10/creative-gooey-effects/) article to make the raindrops stick together.
 
 <p align="center">
     <img src="./drop-merged.png" />
 </p>
 
-There’s a reason for the color: we’ll be using a technique similar to [normal mapping](https://en.wikipedia.org/wiki/Normal_mapping) to make the refraction effect. We’ll use the color of the raindrop to get the coordinates of the texture we’ll see through the drop. This is how it looks without the mask:
+There's a reason for the color: we'll be using a technique similar to [normal mapping](https://en.wikipedia.org/wiki/Normal_mapping) to make the refraction effect. We'll use the color of the raindrop to get the coordinates of the texture we'll see through the drop. This is how it looks without the mask:
 
 <p align="center">
     <img src="./drop-color.png" />
 </p>
 
-From this image, we’ll use data from the green channel to get the X position, and from the red channel to get the Y position.
+From this image, we'll use data from the green channel to get the X position, and from the red channel to get the Y position.
 
 <p align="center">
     <img src="./drop-color2.png" />
 </p>
 
-Now we can write our shader and use both that data and the drop’s position to flip and distort the texture right behind the raindrop.
+Now we can write our shader and use both that data and the drop's position to flip and distort the texture right behind the raindrop.
 
 <p align="center">
     <img src="./screen1_dropdetail.jpg" />
@@ -180,11 +180,11 @@ Now we can write our shader and use both that data and the drop’s position to 
 
 ### Raining
 
-After creating our raindrop, we’ll make our rain simulation.
+After creating our raindrop, we'll make our rain simulation.
 
-Making the raindrops interact with each other can get heavy fast — the number of calculations increase exponentially with each new drop — so we’ll have to optimize a little bit.
+Making the raindrops interact with each other can get heavy fast — the number of calculations increase exponentially with each new drop — so we'll have to optimize a little bit.
 
-In this demo, I’m splitting between large and small drops. The small drops are rendered on a separate `canvas` and are not kept track of. That way, I can make thousands of them and not get any slower. The downside is that they are static, and since we are making new ones every frame, they accumulate. To fix that, we’ll use our bigger drops.
+In this demo, I'm splitting between large and small drops. The small drops are rendered on a separate `canvas` and are not kept track of. That way, I can make thousands of them and not get any slower. The downside is that they are static, and since we are making new ones every frame, they accumulate. To fix that, we'll use our bigger drops.
 
 Since the big drops do move, we can use them to erase smaller drops underneath them. Erasing in canvas is tricky: we have to actually *draw* something, but use `globalCompositeOperation='destination-out'`. So, every time a big drop moves, we draw a circle on the small drops canvas using that composite operation to clean the drops and make the effect more realistic.
 
@@ -192,13 +192,13 @@ Since the big drops do move, we can use them to erase smaller drops underneath t
     <img src="./screen2_droptrail.jpg" />
 </p>
 
-Finally, we’ll render them all on a big `canvas` and use that as a texture for our WebGL shader.
+Finally, we'll render them all on a big `canvas` and use that as a texture for our WebGL shader.
 
 <p align="center">
     <img src="./raindrops-no-texture.jpg" />
 </p>
 
-To make things lighter, we’ll take advantage of the fact that the background is out of focus, so we’ll use a small texture for it and stretch it out; in WebGL, texture size directly impacts performance. We’ll have to use a different, in-focus texture for the raindrops themselves. Blur is an expensive operation, and doing it in real time should be avoided – but since the raindrops are small, we can make that texture small as well.
+To make things lighter, we'll take advantage of the fact that the background is out of focus, so we'll use a small texture for it and stretch it out; in WebGL, texture size directly impacts performance. We'll have to use a different, in-focus texture for the raindrops themselves. Blur is an expensive operation, and doing it in real time should be avoided – but since the raindrops are small, we can make that texture small as well.
 
 <p align="center">
     <img src="./texture-drizzle-fg.png" />
@@ -210,6 +210,6 @@ To make things lighter, we’ll take advantage of the fact that the background i
 
 ### Conclusion
 
-To make realistic looking effects like raindrops we need to consider many tricky details. Taking apart a real world effect first is the key to every effect recreation. Once we know how things work in reality, we can map that behavior to the virtual world. With WebGL we can aim for good performance for this kind of simulation (we can use hardware accelerated graphics) so it’s a good choice for this kind of effect.
+To make realistic looking effects like raindrops we need to consider many tricky details. Taking apart a real world effect first is the key to every effect recreation. Once we know how things work in reality, we can map that behavior to the virtual world. With WebGL we can aim for good performance for this kind of simulation (we can use hardware accelerated graphics) so it's a good choice for this kind of effect.
 
 **We hope you enjoyed this experiment and find it inspiring!**
