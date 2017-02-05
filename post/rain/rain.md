@@ -157,5 +157,8 @@ The alpha channel looks like this because we’ll use a technique similar to the
 
 There’s a reason for the color: we’ll be using a technique similar to [normal mapping](https://en.wikipedia.org/wiki/Normal_mapping) to make the refraction effect. We’ll use the color of the raindrop to get the coordinates of the texture we’ll see through the drop. This is how it looks without the mask:
 
+<p align="center">
+    <img src="./drop-color.png" />
+</p>
 
 
