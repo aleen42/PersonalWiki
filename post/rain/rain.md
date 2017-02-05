@@ -207,3 +207,9 @@ To make things lighter, we’ll take advantage of the fact that the background i
 <p align="center">
     <img src="./texture-drizzle-bg.png" />
 </p>
+
+### Conclusion
+
+To make realistic looking effects like raindrops we need to consider many tricky details. Taking apart a real world effect first is the key to every effect recreation. Once we know how things work in reality, we can map that behavior to the virtual world. With WebGL we can aim for good performance for this kind of simulation (we can use hardware accelerated graphics) so it’s a good choice for this kind of effect.
+
+**We hope you enjoyed this experiment and find it inspiring!**
