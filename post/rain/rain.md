@@ -37,7 +37,7 @@ To simulate this behavior, we’ll have to render a lot of drops, and update the
 
 ### WebGL
 
-WebGL is a JavaScript API for rendering 2D and 3D graphics, allowing the use of the GPU for better performance. It is based on OpenGL ES, and the shaders aren’t written in JS at all, but rather in a language called GLSL.
+WebGL is a JavaScript API for rendering 2D and 3D graphics, allowing the use of the GPU for better performance. It is based on OpenGL ES, and the *shaders* aren’t written in JS at all, but rather in a language called GLSL.
 
 All in all, that makes it look difficult to use if you’re coming from exclusively web development — it’s not only a new language, but new concepts as well — but once you grasp some key concepts it will become much easier.
 
