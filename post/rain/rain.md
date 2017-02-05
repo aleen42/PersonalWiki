@@ -48,3 +48,5 @@ The first thing we need is a canvas element. WebGL renders on canvas, and it is 
 var canvas = document.getElementById("container");
 var gl = canvas.getContext("webgl");
 ```
+
+Then we’ll need a program, which is comprised of a *vertex shader* and a *fragment shader*. Shaders are functions: a vertex shader will be run once per vertex, and the fragment shader is called once per pixel. Their jobs are to return coordinates and colors, respectively. **This is the heart of our WebGL application.**
