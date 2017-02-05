@@ -41,8 +41,7 @@ WebGL is a JavaScript API for rendering 2D and 3D graphics, allowing the use of 
 
 All in all, that makes it look difficult to use if you’re coming from exclusively web development — it’s not only a new language, but new concepts as well — but once you grasp some key concepts it will become much easier.
 
-In this article we will only show a basic example of how to use it; for a more in depth explanation, check out the excellent [WebGl Fundamentals](http://webglfundamentals.org/) page
-.
+In this article we will only show a basic example of how to use it; for a more in depth explanation, check out the excellent [WebGl Fundamentals](http://webglfundamentals.org/) page.
 
 The first thing we need is a canvas element. WebGL renders on canvas, and it is a rendering context like the one we get with `canvas.getContext('2d')`.
 
