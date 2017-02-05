@@ -197,3 +197,13 @@ Finally, we’ll render them all on a big canvas and use that as a texture for o
 <p align="center">
     <img src="./raindrops-no-texture.jpg" />
 </p>
+
+To make things lighter, we’ll take advantage of the fact that the background is out of focus, so we’ll use a small texture for it and stretch it out; in WebGL, texture size directly impacts performance. We’ll have to use a different, in-focus texture for the raindrops themselves. Blur is an expensive operation, and doing it in real time should be avoided – but since the raindrops are small, we can make that texture small as well.
+
+<p align="center">
+    <img src="./texture-drizzle-fg.png" />
+</p>
+
+<p align="center">
+    <img src="./texture-drizzle-bg.png" />
+</p>
