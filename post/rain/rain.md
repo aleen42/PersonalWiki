@@ -125,3 +125,15 @@ var positionLocation = gl.getAttribLocation(program, "a_position");
 gl.enableVertexAttribArray(positionLocation);
 gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);
 ```
+
+Finally, we render the whole thing:
+
+```js
+gl.drawArrays(gl.TRIANGLES, 0, 6);
+```
+
+And this is the result:
+
+<p align="center">
+    <imt src="./webgl-1.png" />
+</p>
