@@ -14,9 +14,7 @@
 
 Today we'd like to share some WebGL experiments with you. The idea is to create a very realistic looking rain effect and put it in different scenarios. In this article, we'll give an overview of the general tricks and techniques used to make this effect.
 
-```
-Please note that the effect is highly experimental and might not work as expected in all browsers. Best viewed in Chrome.
-```
+> Please note that the effect is highly experimental and might not work as expected in all browsers. Best viewed in Chrome.
 
 ### Getting Started
 
