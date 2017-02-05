@@ -188,4 +188,12 @@ In this demo, I’m splitting between large and small drops. The small drops are
 
 Since the big drops do move, we can use them to erase smaller drops underneath them. Erasing in canvas is tricky: we have to actually *draw* something, but use `globalCompositeOperation='destination-out'`. So, every time a big drop moves, we draw a circle on the small drops canvas using that composite operation to clean the drops and make the effect more realistic.
 
+<p align="center">
+    <img src="./screen2_droptrail.jpg" />
+</p>
 
+Finally, we’ll render them all on a big canvas and use that as a texture for our WebGL shader.
+
+<p align="center">
+    <img src="./raindrops-no-texture.jpg" />
+</p>
