@@ -64,3 +64,18 @@ First we’ll create our shaders. This is the vertex shader; we’ll make no cha
     }
 </script>
 ```
+
+And this is the fragment shader. This one sets the color of each pixel based on its coordinates.
+
+```html
+<script id="frag-shader" type="x-shader/x-fragment">
+    precision mediump float;
+    
+    void main() {
+    // current coordinates
+    vec4 coord = gl_FragCoord;
+    // sets the color
+    gl_FragColor = vec4(coord.x/800.0,coord.y/600.0, 0.0, 1.0);
+    }
+</script>
+```
