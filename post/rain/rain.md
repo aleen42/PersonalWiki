@@ -135,5 +135,18 @@ gl.drawArrays(gl.TRIANGLES, 0, 6);
 And this is the result:
 
 <p align="center">
-    <imt src="./webgl-1.png" />
+    <img src="./webgl-1.png" />
 </p>
+
+After that, you can play with the shaders to get a hang of how it works. You can see a lot of great shader examples on [ShaderToy](http://shadertoy.com/).
+
+### Raindrops
+
+Now let’s see how to make the raindrop effect. First, let’s see how a single raindrop looks:
+
+<p align="center">
+    <img src="./drop1.png" />
+</p>
+
+
+
