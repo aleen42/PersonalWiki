@@ -167,4 +167,12 @@ From this image, we’ll use data from the green channel to get the X position, 
     <img src="./drop-color2.png" />
 </p>
 
+Now we can write our shader and use both that data and the drop’s position to flip and distort the texture right behind the raindrop.
+
+<p align="center">
+    <img src="./screen1_dropdetail.jpg" />
+</p>
+
+
+
 
