@@ -192,7 +192,7 @@ Since the big drops do move, we can use them to erase smaller drops underneath t
     <img src="./screen2_droptrail.jpg" />
 </p>
 
-Finally, we’ll render them all on a big canvas and use that as a texture for our WebGL shader.
+Finally, we’ll render them all on a big `canvas` and use that as a texture for our WebGL shader.
 
 <p align="center">
     <img src="./raindrops-no-texture.jpg" />
