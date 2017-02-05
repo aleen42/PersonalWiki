@@ -53,3 +53,14 @@ Then we’ll need a program, which is comprised of a *vertex shader* and a *frag
 
 First we’ll create our shaders. This is the vertex shader; we’ll make no changes on the vertices and will simply let the data pass through it:
 
+```html
+<script id="vert-shader" type="x-shader/x-vertex">
+    // gets the current position
+    attribute vec4 a_position;
+    
+    void main() {
+        // returns the position
+        gl_Position = a_position;
+    }
+</script>
+```
