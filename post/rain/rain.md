@@ -1,14 +1,14 @@
 ## [轉載] Rain & Water Effect Experiments [Back](./../post.md)
 
 > - Author: [Lucas Bebber](https://github.com/lbebber)
-- Origin: https://tympanus.net/codrops/2016/05/03/animated-heat-distortion-effects-webgl/
-- Time: May, 3rd, 2016
+- Origin: https://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/
+- Time: Nov, 4th, 2015
 
 <br />
 
 > Some experimental rain and water drop effects made with WebGL and shown in different demo scenarios.
 
-<p aling="center">
+<p align="center">
     <img src="./RainEffects.jpg" />
 </p>
 
@@ -24,10 +24,10 @@ If we want to make an effect based on the real world, the first step is to disse
 
 If you look up pictures of water drops on a window in detail (or, of course, observed them in real life already), you will notice that, due to refraction, the raindrops appear to turn the image behind them upside down.
 
-<p aling="center">
+<p align="center">
     <img src="./755px-GGB_reflection_in_raindrops.jpg" />
 </p>
-<p aling="center">
+<p align="center">
     <em>Image credits: Wikipedia, <a href="https://en.wikipedia.org/wiki/File:GGB_reflection_in_raindrops.jpg" target="_blank">GGB reflection in raindrop</a></em>
 </p>
 
@@ -62,7 +62,7 @@ First we'll create our shaders. This is the vertex shader; we'll make no changes
 <script id="vert-shader" type="x-shader/x-vertex">
     // gets the current position
     attribute vec4 a_position;
-    
+
     void main() {
         // returns the position
         gl_Position = a_position;
@@ -75,7 +75,7 @@ And this is the fragment shader. This one sets the color of each pixel based on 
 ```html
 <script id="frag-shader" type="x-shader/x-fragment">
     precision mediump float;
-    
+
     void main() {
         // current coordinates
         vec4 coord = gl_FragCoord;
@@ -93,7 +93,7 @@ function createShader(gl,source,type){
     source = document.getElementById(source).text;
     gl.shaderSource(shader, source);
     gl.compileShader(shader);
-    
+
     return shader;
 }
 
