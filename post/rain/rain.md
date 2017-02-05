@@ -79,3 +79,26 @@ And this is the fragment shader. This one sets the color of each pixel based on 
     }
 </script>
 ```
+
+Now we’ll link the shaders to the WebGL context:
+
+```js
+function createShader(gl,source,type){
+    var shader = gl.createShader(type);
+    source = document.getElementById(source).text;
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+
+return shader;
+}
+
+var vertexShader = createShader(gl, 'vert-shader', gl.VERTEX_SHADER);
+var fragShader = createShader(gl, 'frag-shader', gl.FRAGMENT_SHADER);
+
+var program = gl.createProgram();
+gl.attachShader(program, vertexShader);
+gl.attachShader(program, fragShader);
+
+gl.linkProgram(program);
+gl.useProgram(program);
+```
