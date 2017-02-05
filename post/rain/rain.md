@@ -181,6 +181,6 @@ Making the raindrops interact with each other can get heavy fast — the number 
 
 In this demo, I’m splitting between large and small drops. The small drops are rendered on a separate canvas and are not kept track of. That way, I can make thousands of them and not get any slower. The downside is that they are static, and since we are making new ones every frame, they accumulate. To fix that, we’ll use our bigger drops.
 
-Since the big drops do move, we can use them to erase smaller drops underneath them. Erasing in canvas is tricky: we have to actually draw something, but use `globalCompositeOperation='destination-out'`. So, every time a big drop moves, we draw a circle on the small drops canvas using that composite operation to clean the drops and make the effect more realistic.
+Since the big drops do move, we can use them to erase smaller drops underneath them. Erasing in canvas is tricky: we have to actually *draw* something, but use `globalCompositeOperation='destination-out'`. So, every time a big drop moves, we draw a circle on the small drops canvas using that composite operation to clean the drops and make the effect more realistic.
 
 
