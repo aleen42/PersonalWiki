@@ -148,5 +148,8 @@ Now let’s see how to make the raindrop effect. First, let’s see how a single
     <img src="./drop1.png" />
 </p>
 
+Now, there are a couple of things going on here.
+The alpha channel looks like this because we’ll use a technique similar to the one in the [Creative Gooey Effects](http://tympanus.net/codrops/2015/03/10/creative-gooey-effects/) article to make the raindrops stick together.
+
 
 
