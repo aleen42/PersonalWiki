@@ -2,5 +2,5 @@
 
 In underscore, you may have to know this important function, which is named `createAssigner()`. Before discussing about what it has done, we may also have to know another three APIs calling this function firstly. They're `_.extend()`, `_.extendOwn()`, and `_.defaults()`.
 
-Firstly, when we want to merge all properties from an object b to an object a, we may remember the function `Object.assign(a, b)`. That's exactly what `_.extend()` has done. And `_.extendOwn()`will only copy own properties of one object to another one. When it comes to `_.defaults()`, it's familiar with `_.extend()`, but what the difference is `_.defaults()` will check whether there're repeated properties while copying. If so, the second property will not overide the first one.
+Firstly, when we want to merge all properties from an object b to an object a, we may remember the function `Object.assign(a, b)`. That's exactly what `_.extend()` has done. And `_.extendOwn()`will only copy own properties of one object to another one. When it comes to `_.defaults()`, it's familiar with `_.extend()`, but what the difference is `_.defaults()` will check whether there're repeated properties while copying. If so, the second property will not override the first one.
 
