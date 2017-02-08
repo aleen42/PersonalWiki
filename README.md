@@ -29,7 +29,7 @@ In fact, Einstein claimed never to memorize anything which could be looked up in
 
 ##### Code Statistic from GitHub projects (lines)
 
-![](https://img.shields.io/badge/%20%20Code-%20%20%20%20141,371-017277.svg)
+![](https://img.shields.io/badge/%20%20Code-%20%20%20%20141,371-%23a10000.svg)
 
 ![](https://img.shields.io/badge/%20%20HTML-%20%20%20%2039,425-00666b.svg)
 ![](https://img.shields.io/badge/%20%20Java-%20%20%20%2025,366-003d40.svg)
