@@ -132,6 +132,7 @@
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
                     * [Compatibility problems of `for ... in`](./Programming/JavaScript/Framework/underscore/for_in_compatibility/for_in_compatibility.md)
+                    * [The internal function: `createAssigner()`](./Programming/JavaScript/Framework/underscore/createAssigner/createAssigner.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
