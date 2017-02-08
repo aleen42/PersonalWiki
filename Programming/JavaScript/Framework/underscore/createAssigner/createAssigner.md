@@ -4,3 +4,10 @@ In underscore, you may have to know this important function, which is named `cre
 
 Firstly, when we want to merge all properties from an object b to an object a, we may remember the function `Object.assign(a, b)`. That's exactly what `_.extend()` has done. And `_.extendOwn()`will only copy own properties of one object to another one. When it comes to `_.defaults()`, it's familiar with `_.extend()`, but what the difference is `_.defaults()` will check whether there are repeated properties while copying. If so, the second property will not override the first one.
 
+For these three APIs, underscore has implemented them all by calling `createAssigner()`:
+
+```js
+_.extend = createAssigner(_.allKeys);
+_.extendOwn = createAssigner(_.keys);
+_.defaults = createAssigner(_.allKeys, true);
+```
