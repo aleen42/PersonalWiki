@@ -30,21 +30,7 @@ In fact, Einstein claimed never to memorize anything which could be looked up in
 ##### Code Statistic from GitHub projects (lines)
 
 ![](https://img.shields.io/badge/%20%20Code-%20%20%20%20141,371-%23a10000.svg)
-
-![](https://img.shields.io/badge/%20%20HTML-%20%20%20%2039,425-00666b.svg)
-![](https://img.shields.io/badge/%20%20Java-%20%20%20%2025,366-003d40.svg)
-![](https://img.shields.io/badge/%20%20JavaScript-%20%20%20%2018,483-00595e.svg)
-![](https://img.shields.io/badge/%20%20C%23-%20%20%20%2016,960-003d40.svg)
-![](https://img.shields.io/badge/%20%20C-%20%20%20%2011,337-05575b.svg)
-![](https://img.shields.io/badge/%20%20PostScript-%20%20%20%209,601-01939a.svg)
-![](https://img.shields.io/badge/%20%20Visual%20Basic-%20%20%20%207,361-00595e.svg)
-![](https://img.shields.io/badge/%20%20CSS-%20%20%20%204,231-023541.svg)
-![](https://img.shields.io/badge/%20%20Shell-%20%20%20%204,023-003d40.svg)
-![](https://img.shields.io/badge/%20%20PHP-%20%20%20%202,349-00595e.svg)
-![](https://img.shields.io/badge/%20%20C%2B%2B-%20%20%20%202,130-02888e.svg)
-![](https://img.shields.io/badge/%20%20Python-%20%20%20%2073-076c70.svg)
-![](https://img.shields.io/badge/%20%20Makefile-%20%20%20%2019-02888e.svg)
-![](https://img.shields.io/badge/%20%20ApacheConf-%20%20%20%2013-00595e.svg)
+![](https://img.shields.io/badge/%20%20JavaScript-%20%20%20%2018,483-f2dd52.svg)
 
 ##### Menus
 
