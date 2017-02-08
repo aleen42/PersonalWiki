@@ -66,3 +66,5 @@ var createAssigner = function(keysFunc, undefinedOnly) {
     };
 };
 ```
+
+As `undefinedOnly` will accept `null` when this function is called, the author has check the number of `arguments` to make decisions about what should be returned.
