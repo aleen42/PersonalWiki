@@ -1,9 +1,8 @@
 ## Common type inference(類型判斷) and some useful tutorials [Back](./../underscore.md)
 
+### Type Inference(類型判斷)
 
-## Type Inference(類型判斷)
-
-### Array
+#### Array
 
 Firstly, we will talk about the type inference of arrays. And in my post, ["Javascript中判断数组的正确姿势"](./../../../../../post/array_inference_in_javascript/array_inference_in_javascript.md), I have done an analysis for different kinds of ways in inferring about their advantages/disadvantages.
 
@@ -28,7 +27,7 @@ _.isArray = nativeIsArray || function(obj) {
 
 `nativeIsArray` has been pointed to the method `Array.isArray` in ES5, while `toString` has been pointed to the method `Object.prototype.toString`.
 
-### Object
+#### Object
 
 In underscore, both **function** and **object variables** are treated as an object, only without **null**.
 
@@ -42,7 +41,7 @@ _.isObject = function(obj) {
 };
 ```
 
-### Arguments, Function, String, Number, Date, RegExp, Error
+#### Arguments, Function, String, Number, Date, RegExp, Error
 
 All of those type can be inferred by calling `Object.prototype.toString.call`:
 
@@ -73,9 +72,9 @@ if (!_.isArguments(arguments)) {
 }
 ```
 
-## Utility Class Inference(工具類判斷)
+### Utility Class Inference(工具類判斷)
 
-### DOM Elements
+#### DOM Elements
 
 You can just infer an element whether it's a DOM element by ensuring that it's not a `null` and `nodeType` is 1:
 
@@ -89,7 +88,7 @@ _.isElement = function(obj) {
 };
 ```
 
-### NaN
+#### NaN
 
 NaN has belonged to **Number** type, and `Object.prototype.toString.call(NaN)` should be `[object Number]`. Besides, NaN is not equal to itself, so we can infer it like this: (Some bugs, see [#13](https://github.com/hanzichi/underscore-analysis/issues/13))
 
