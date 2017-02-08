@@ -1,1 +1,1 @@
-## Compatibility problems of `for ... in ` [Back](./../underscore.md)
+## The internal function: `createAssigner()` [Back](./../underscore.md)
