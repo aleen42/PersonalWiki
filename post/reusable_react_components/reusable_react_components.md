@@ -1,5 +1,9 @@
 ## [原創] How to make React components actually reusable [Back](./../post.md)
 
+<p align="center">
+    <img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/800/1*5jIE1tOzVSuz5NPHsfeQ8w.png">
+</p>
+
 Recently, I have translated an article written by [Alex Grigoryan](https://medium.com/@lexgrigoryan?source=post_header_lockup), which is mainly to describe how Walmart achieved reusablility with React Components. Due to this translation, I also want to write another article here to summarize how we can actually make this happen.
 
 Firstly, before the discussion, we should know about one point, which is claimed by the author - **reusability is a process that touches every stage of development and every level of an organization. Therefore, we can not implement it through just technique approaches**.
