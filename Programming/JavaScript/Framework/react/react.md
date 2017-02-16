@@ -57,7 +57,7 @@
 
 ### Adavanced
 
-- [**How to make React components actually reusable**](./../../../../post/reusable_react_components/reusable_react_components.md)
+- [**How to make React components actually reusable**](./../../../../../post/reusable_react_components/reusable_react_components.md)
 
 ### Webpack
 
