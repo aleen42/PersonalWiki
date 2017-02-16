@@ -33,7 +33,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**[原創] Kaleidoscope**](./kaleidoscope/kaleidoscope.md)
 - [**[轉載] HTML5的WebGL實現的3D和2D拓撲樹**](./topological_webgl/topological_webgl.md)
 - [**[轉載] Rain & Water Effect Experiments**](./rain/rain.md)
-- **[原創] How to make React components ractually reusable**
+- **[原創] How to make React components actually reusable**
 
 ### Design
 
