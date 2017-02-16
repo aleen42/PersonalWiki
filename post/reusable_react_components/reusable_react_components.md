@@ -9,5 +9,5 @@ Then, here is a list of todo items, which can helpfully facilitate reusabilitiy 
 - components need to be versioned, easy to install, and upgradeable.
 - provide a prototype for linting, transpilation, and bundling.
 - create a stable Continuous Integration/Continuous Deployment system to solve the problem of dependencies within components.
-- create a explorer system to make components able to be searched by other teams
+- create a explorer system to make components able to be searched by other teams.
 
