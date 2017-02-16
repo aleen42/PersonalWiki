@@ -55,6 +55,10 @@
 - [**Use React with other libraris**](./use_react_with_other_libraries/use_react_with_other_libraries.md)
 - [**Dangerously Set innerHTML**](./dangerously_set_innerhtml/dangerously_set_innerhtml.md)
 
+### Adavanced
+
+- [**How to make React components actually reusable**](./../../../../postreusable_react_components/reusable_react_components.md)
+
 ### Webpack
 
 - [**Webpack + React**](./../webpack/webpack_and_react/webpack_and_react.md)
