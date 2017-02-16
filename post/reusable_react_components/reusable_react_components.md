@@ -10,5 +10,5 @@ Then, here is a list of todo items, which can helpfully facilitate reusabilitiy 
 - provide a prototype for linting, transpilation, and bundling.
 - create a stable Continuous Integration/Continuous Deployment system to solve the problem of dependencies within components.
 - create a explorer system to make components able to be searched by other teams.
-- have a proposal system to let developers discuss a new component they're going to create
+- have a proposal system to let developers discuss a new component they're going to create, so that other teams can give out their sugge
 
