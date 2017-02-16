@@ -6,5 +6,7 @@ Firstly, before the discussion, we should know about one point, which is claimed
 
 Then, here is a list of todo items, which can helpfully facilitate reusabilitiy of React components:
 
-- 
+- components need to be versioned, easy to install, and upgradeable.
+- provide a prototype for linting, transpilation, and bundling.
+- reate a stable Continuous Integration/Continuous Deployment system to solve 
 
