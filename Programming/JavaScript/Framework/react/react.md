@@ -59,10 +59,10 @@
 
 - [**How to make React components actually reusable**](./../../../../post/reusable_react_components/reusable_react_components.md)
 - [**Distributing React components**](./../../../../translation/distributing_react_components/distributing_react_components.md)
-- [**Your Timeline for Learning React**](./your_timeline_for_learning_react/your_timeline_for_learning_react.md)
-- [**Improve Angular Performance with React**](./improve_angular_performance_with_react/improve_angular_performance_with_react.md)
-- [**Things I Wish I Were Told About React Native**](./things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
-- [**Making React Native apps accessible**](./making_react_native_apps_accessible/making_react_native_apps_accessible.md)
+- [**Your Timeline for Learning React**](./../../../../translation/your_timeline_for_learning_react/your_timeline_for_learning_react.md)
+- [**Improve Angular Performance with React**](./../../../../translation/improve_angular_performance_with_react/improve_angular_performance_with_react.md)
+- [**Things I Wish I Were Told About React Native**](./../../../../translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
+- [**Making React Native apps accessible**](./../../../../translation/making_react_native_apps_accessible/making_react_native_apps_accessible.md)
 
 ### Webpack
 
