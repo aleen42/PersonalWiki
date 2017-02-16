@@ -1,1 +1,1 @@
-## [原創] Kaleidoscope [Back](./../post.md)
+## [原創] How to make React components actually reusable [Back](./../post.md)
