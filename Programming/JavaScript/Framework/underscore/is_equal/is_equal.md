@@ -62,3 +62,9 @@ return +a === 0 ? 1 / +a === 1 / b : +a === +b;
 // 要注意 NaN 这个 special number
 // NaN 和 NaN 被认为 equal
 ```
+
+How about `Date` and `Boolean` objects?
+
+```js
+return +a === +b;
+```
