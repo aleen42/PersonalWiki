@@ -38,4 +38,4 @@ var _b = '' + b; // => /a/
 return _a === _b; // => true
 ```
 
-In the case when `a` and `b` are both `Number` object, underscore will handle a special case in which `NaN` is only equal to `NaN` but not any other `Number` objects.
+In the case when `a` and `b` are both `Number` objects, underscore will handle a special case in which `NaN` is only equal to `NaN` but not any other `Number` objects.
