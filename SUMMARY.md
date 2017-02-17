@@ -216,7 +216,6 @@
                             * [Algorithms and Flow Control](./Programming/JavaScript/high_performance/algorithms_flow_control/algorithms_flow_control.md)
                             * [Strings and Regular Expressions](./Programming/JavaScript/high_performance/string_regular_expressions/string_regular_expressions.md)
                     * [ES6 features](./Programming/JavaScript/es6/es6.md)
-                        * [Constants](./Programming/JavaScript/es6/constants/constants.md)
                         * [Block Scope](./Programming/JavaScript/es6/block_scope/block_scope.md)
                         * [Arrow Functions](./Programming/JavaScript/es6/arrow_functions/arrow_functions.md)
                         * [Promise](./Programming/JavaScript/es6/promise/promise.md)
