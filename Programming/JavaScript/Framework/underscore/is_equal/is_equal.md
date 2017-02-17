@@ -25,3 +25,15 @@ if (a == null || b == null) {
     return a === b;
 }
 ```
+
+If `a` is a RegExp object, while `b` is a String, then undercore will convert them into both String to judge whether they are equal:
+
+```js
+var a = /a/;
+var b = new RegExp("a");
+
+var _a = '' + a; // => /a/
+var _b = '' + b; // => /a/
+
+console.log(_a === _b); // => true
+```
