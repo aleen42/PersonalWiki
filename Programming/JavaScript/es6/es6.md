@@ -1,6 +1,6 @@
 ## ECMAScript 6 (ES6) [Back](./../JavaScript.md)
 
-This featuring is maily based on http://es6-features.org/.
+This featuring is mainly based on http://es6-features.org/.
 
 ### Constants
 
