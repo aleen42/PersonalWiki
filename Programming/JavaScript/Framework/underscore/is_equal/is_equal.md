@@ -68,3 +68,5 @@ How about `Date` and `Boolean` objects?
 ```js
 return +a === +b;
 ```
+
+For the `Array` and `Object`, underscore has adopted a recursive comparison to judge. When there is a various key-value pair, then return `false`.
