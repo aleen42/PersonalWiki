@@ -26,7 +26,7 @@ if (a == null || b == null) {
 }
 ```
 
-If `a` is a RegExp object, while `b` is a String, then undercore will convert them into both String to judge whether they are equal:
+If `a` is a `RegExp` object, while `b` is a `String`, then undercore will convert them into both `String` to judge whether they are equal:
 
 ```js
 var a = /a/;
@@ -37,3 +37,5 @@ var _b = '' + b; // => /a/
 
 return _a === _b; // => true
 ```
+
+In the case when `a` and `b` are both `Number` object, underscore will handle a special case in which `NaN` is only equal to `NaN` but not any other `Number` objects.
