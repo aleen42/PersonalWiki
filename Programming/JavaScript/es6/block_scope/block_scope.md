@@ -169,7 +169,7 @@ Therefore, **again recommend that not to declare functions in a block as possibl
 }
 ```
 
-Another case you shouold pay attention to is that a block scope should be define with the notation `{}`:
+Another case you should pay attention to is that a block scope should be define with the notation `{}`:
 
 ```js
 'use strict';
