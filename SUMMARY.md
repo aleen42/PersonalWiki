@@ -218,6 +218,7 @@
                     * [ES6 features](./Programming/JavaScript/es6/es6.md)
                         * [Constants](./Programming/JavaScript/es6/constants/constants.md)
                         * [Block Scope](./Programming/JavaScript/es6/block_scope/block_scope.md)
+                        * [Arrow Functions](./Programming/JavaScript/es6/arrow_functions/arrow_functions.md)
                         * [Promise](./Programming/JavaScript/es6/promise/promise.md)
                         * [Spread Operators](./Programming/JavaScript/es6/spread_operators/spread_operators.md)
                         * [Rest Parameters](./Programming/JavaScript/es6/rest_param/rest_param.md)
