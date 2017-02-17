@@ -1,6 +1,5 @@
 ## ECMAScript 6 (ES6) [Back](./../JavaScript.md)
 
-
 - [**Block Scope**](./block_scope/block_scope.md)
 - [**Arrow Functions**](./arrow_functions/arrow_functions.md)
 - [**Promise**](./promise/promise.md)
