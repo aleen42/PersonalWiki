@@ -16,9 +16,9 @@ const PI = 3.141593;
  * and only in global context and not in a block scope
  */
 Object.defineProperty(typeof global === 'object' ? global : window, "PI", {
-    value:        3.141593,
-    enumerable:   true,
-    writable:     false,
+    value: 3.141593,
+    enumerable: true,
+    writable: false,
     configurable: false
 });
 ```
