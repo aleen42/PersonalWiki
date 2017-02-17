@@ -10,3 +10,4 @@ Here I will note what other people grasp from this library according to summarie
 - [**Common type inference and some useful tutorials**](./type_inference_and_tutorials/type_inference_and_tutorials.md)
 - [**Compatibility problems of `for ... in`**](./for_in_compatibility/for_in_compatibility.md)
 - [**The internal function: `createAssigner()`**](./createAssigner/createAssigner.md)
+- [**How to compare the equality of two elements**](./is_equal/is_equal.md)
