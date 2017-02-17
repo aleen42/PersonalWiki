@@ -41,5 +41,22 @@ return _a === _b; // => true
 In the case when `a` and `b` are both `Number` objects, underscore will handle a special case in which `NaN` is only equal to `NaN` but not any other `Number` objects:
 
 ```js
+// `NaN`s are equivalent, but non-reflexive.
+// Object(NaN) is equivalent to NaN
+// 如果 +a !== +a 
+// 那么 a 就是 NaN
+// 判断 b 是否也是 NaN 即可
+if (+a !== +a) return +b !== +b;
 
+// An `egal` comparison is performed for other numeric values.
+// 排除了 NaN 干扰
+// 还要考虑 0 的干扰
+// 用 +a 将 Number() 形式转为基本类型
+// 如果 a 为 0，判断 1 / +a === 1 / b
+// 否则判断 +a === +b
+return +a === 0 ? 1 / +a === 1 / b : +a === +b;
+
+// 如果 a 为 Number 类型
+// 要注意 NaN 这个 special number
+// NaN 和 NaN 被认为 equal
 ```
