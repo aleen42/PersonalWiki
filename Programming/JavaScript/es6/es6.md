@@ -2,7 +2,6 @@
 
 This featuring is mainly based on http://es6-features.org/.
 
-- [**Constants**](./constants/constants.md)
 - [**Block Scope**](./block_scope/block_scope.md)
 - [**Arrow Functions**](./arrow_functions/arrow_functions.md)
 - [**Promise**](./promise/promise.md)
