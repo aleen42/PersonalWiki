@@ -35,5 +35,5 @@ var b = new RegExp("a");
 var _a = '' + a; // => /a/
 var _b = '' + b; // => /a/
 
-return (_a === _b); // => true
+return _a === _b; // => true
 ```
