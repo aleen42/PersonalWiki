@@ -17,3 +17,11 @@ if (a === b) {
 }
 ```
 
+What if one of `a` and `b` is `null` or `undefined`:
+
+```js
+// A strict comparison is necessary because `null == undefined`.
+if (a == null || b == null) {
+    return a === b;
+}
+```
