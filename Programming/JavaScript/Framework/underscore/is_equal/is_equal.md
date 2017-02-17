@@ -46,7 +46,9 @@ In the case when `a` and `b` are both `Number` objects, underscore will handle a
 // 如果 +a !== +a 
 // 那么 a 就是 NaN
 // 判断 b 是否也是 NaN 即可
-if (+a !== +a) return +b !== +b;
+if (+a !== +a) {
+    return +b !== +b;
+}
 
 // An `egal` comparison is performed for other numeric values.
 // 排除了 NaN 干扰
