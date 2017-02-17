@@ -4,6 +4,8 @@ This featuring is mainly based on http://es6-features.org/.
 
 ### Constants
 
+- [**Constants**](./constants/constants.md)
+
 - [**Promise**](./promise/promise.md)
 - [**Spread Operators**](./spread_operators/spread_operators.md)
 - [**Rest Parameters**](./rest_param/rest_param.md)
