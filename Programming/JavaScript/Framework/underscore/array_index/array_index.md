@@ -25,23 +25,23 @@ To implement such two familiar functions, underscore has create a so called pred
  * dir === -1 means to find in a negative sequence
  */
 function createPredicateIndexFinder(dir) {
-  // 经典闭包
-  return function(array, predicate, context) {
-    predicate = cb(predicate, context);
-
-    var length = getLength(array);
-
-    // 根据 dir 变量来确定数组遍历的起始位置
-    var index = dir > 0 ? 0 : length - 1;
-
-    for (; index >= 0 && index < length; index += dir) {
-      // 找到第一个符合条件的元素
-      // 并返回下标值
-      if (predicate(array[index], index, array)) return index;
-    }
-
-    return -1;
-  };
+    /** return a closure function */
+    return function(array, predicate, context) {
+        predicate = cb(predicate, context);
+        
+        var length = getLength(array);
+        
+        /** set the start position according to dir */
+        var index = dir > 0 ? 0 : length - 1;
+        
+        for (; index >= 0 && index < length; index += dir) {
+          // 找到第一个符合条件的元素
+          // 并返回下标值
+          if (predicate(array[index], index, array)) return index;
+        }
+        
+        return -1;
+    };
 }
 
 // Returns the first index on an array-like that passes a predicate test
