@@ -46,10 +46,7 @@ _.pick = function(object, oiteratee, context) {
          */
         iteratee = optimizeCb(oiteratee, context);
     } else {
-      // 如果第二个参数不是函数
-      // 则后面的 keys 可能是数组
-      // 也可能是连续的几个并列的参数
-      // 用 flatten 将它们展开
+      /** the second parameter may be an array or a list of separative keys */
       keys = flatten(arguments, false, false, 1);
 
       // 也转为 predicate 函数判断形式
