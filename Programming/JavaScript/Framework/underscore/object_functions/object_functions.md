@@ -46,16 +46,15 @@ _.pick = function(object, oiteratee, context) {
          */
         iteratee = optimizeCb(oiteratee, context);
     } else {
-      /**
-       * the second parameter may be an array or a list of separative keys,
-       * so underscore has used _.flatten to convert them all into an array
-       */
-      keys = flatten(arguments, false, false, 1);
-
-      // 也转为 predicate 函数判断形式
-      // 将指定 key 转化为 predicate 函数
-      iteratee = function(value, key, obj) { return key in obj; };
-      obj = Object(obj);
+        /**
+         * the second parameter may be an array or a list of separative keys,
+         * so underscore has used _.flatten to convert them all into an array.
+         */
+        keys = flatten(arguments, false, false, 1);
+        
+        /** also create a function for iterate */
+        iteratee = function(value, key, obj) { return key in obj; };
+        obj = Object(obj);
     }
 
     for (var i = 0, length = keys.length; i < length; i++) {
