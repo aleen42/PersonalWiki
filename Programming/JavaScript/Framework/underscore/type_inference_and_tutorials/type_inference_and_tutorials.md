@@ -66,6 +66,7 @@ However, `isArguments` will return `[object Object]` under IE 9, so we can infer
  */
 if (!_.isArguments(arguments)) {
     _.isArguments = function(obj) {
+        /** If it's under IE 9, then to judge whetehr it has the method called callee */
         return _.has(obj, 'callee');
     };
 }
