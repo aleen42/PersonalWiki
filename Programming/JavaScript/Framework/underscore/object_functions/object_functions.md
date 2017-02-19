@@ -52,7 +52,7 @@ _.pick = function(object, oiteratee, context) {
          */
         keys = flatten(arguments, false, false, 1);
         
-        /** also create a function for iterate */
+        /** also create a function for iteration */
         iteratee = function(value, key, obj) { return key in obj; };
         obj = Object(obj);
     }
