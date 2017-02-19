@@ -24,7 +24,7 @@ Then, let's go to have a look at the function they call:
  * _.defaults = createAssigner(_.allKeys, true);
  */
 var createAssigner = function(keysFunc, undefinedOnly) {
-    /** return a clousure function *
+    /** return a clousure function */
     return function(obj) {
         var length = arguments.length;
         // 只传入了一个参数（或者 0 个？）
