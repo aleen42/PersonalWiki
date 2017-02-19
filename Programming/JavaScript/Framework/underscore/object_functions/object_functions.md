@@ -64,6 +64,7 @@ _.pick = function(object, oiteratee, context) {
         /** if the iterative function returns `true`, then push it into the copy */
         if (iteratee(value, key, obj)) result[key] = value;
     }
+    
     return result;
   };
 ```
