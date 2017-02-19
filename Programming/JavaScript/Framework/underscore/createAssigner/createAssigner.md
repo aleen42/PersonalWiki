@@ -30,8 +30,7 @@ var createAssigner = function(keysFunc, undefinedOnly) {
         /** if the object is null or the second paramter has not been provided */
         if (length < 2 || obj == null) return obj;
         
-        // 枚举第一个参数除外的对象参数
-        // 即 arguments[1], arguments[2] ...
+        /** iteration of sources */
         for (var index = 1; index < length; index++) {
             // source 即为对象参数
             var source = arguments[index],
