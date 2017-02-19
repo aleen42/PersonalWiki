@@ -1,1 +1,1 @@
-## Certain object functions like `pick()` and `creat()` [Back](./../underscore.md)
+## Certain object functions like `pick()` and `create()` [Back](./../underscore.md)
