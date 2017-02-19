@@ -15,7 +15,14 @@ _.defaults = createAssigner(_.allKeys, true);
 Then, let's go to have a look at the function they call:
 
 ```js
-// An internal function for creating assigner functions.
+/**
+ * An internal function for creating assigner functions.
+ * There're three methods using this internal function
+ * _.extend & _.extendOwn & _.defaults
+ * _.extend = createAssigner(_.allKeys);
+ * _.extendOwn = _.assign = createAssigner(_.keys);
+ * _.defaults = createAssigner(_.allKeys, true);
+ */
 // 有三个方法用到了这个内部函数
 // _.extend & _.extendOwn & _.defaults
 // _.extend = createAssigner(_.allKeys);
