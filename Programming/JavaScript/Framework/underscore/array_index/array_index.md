@@ -117,10 +117,10 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
              */
             idx = sortedIndex(array, item);
             
-            // 如果正好插入的位置的值和 item 刚好相等
-            // 说明该位置就是 item 第一次出现的位置
-            // 返回下标
-            // 否则即是没找到，返回 -1
+            /**
+             * if the item is equal to the item with the position idx,
+             * then it means that this is the first place of item you're searching
+             */
             return array[idx] === item ? idx : -1;
         }
         
