@@ -68,3 +68,24 @@ _.pick = function(object, oiteratee, context) {
     return result;
 };
 ```
+
+As for `_.create()`, it's always used to create a new object, with given prototype and own properties:
+
+```js
+var Person = function() {};
+
+Person.prototype = {
+    show: function() {
+        alert(this.name);
+    }
+};
+
+var me = _.create(Person.prototype, {name: 'hanzichi'});
+
+console.log(me);
+
+// Object {name: "hanzichi"}
+//   name: "hanzichi"
+//   __proto__: Object
+//     show: function()
+```
