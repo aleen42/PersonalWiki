@@ -96,19 +96,17 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
         var i = 0, length = getLength(array);
         
         /** if idx is a Number type, then we can just search in a loop way */
-        // 如果 idx 为 Number 类型
-        // 则规定查找位置的起始点
-        // 那么第三个参数不是 [isSorted]
-        // 所以不能用二分查找优化了
-        // 只能遍历查找
         if (typeof idx == 'number') {
-        if (dir > 0) { // 正向查找
-        // 重置查找的起始位置
-        i = idx >= 0 ? idx : Math.max(idx + length, i);
-        } else { // 反向查找
-        // 如果是反向查找，重置 length 属性值
-        length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
-        }
+            if (dir > 0) {
+                /**
+                 * search in a positive sequence
+                 * reset the start position
+                 */
+                i = idx >= 0 ? idx : Math.max(idx + length, i);
+            } else { // 反向查找
+            // 如果是反向查找，重置 length 属性值
+            length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
+            }
         } else if (sortedIndex && idx && length) {
         // 能用二分查找加速的条件
         // 有序 & idx !== 0 && length !== 0
