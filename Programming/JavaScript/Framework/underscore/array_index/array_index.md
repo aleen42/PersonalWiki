@@ -11,6 +11,5 @@ var isEven = function(num) {
     return !(num & 1);
 };
 
-var idx = _.findIndex(arr, isEven);
-// => 3
+var idx = _.findIndex(arr, isEven); /** => 3 */
 ```
