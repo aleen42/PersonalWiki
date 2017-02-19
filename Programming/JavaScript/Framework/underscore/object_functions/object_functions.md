@@ -76,7 +76,7 @@ var Person = function() {};
 
 Person.prototype = {
     show: function() {
-        alert(this.name);
+        console.log(this.name);
     }
 };
 
