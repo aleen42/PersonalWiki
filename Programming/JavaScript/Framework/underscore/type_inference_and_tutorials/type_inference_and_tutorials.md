@@ -17,9 +17,11 @@ function isArray(a) {
 While underscore has given the following code:
 
 ```js
-// Is a given value an array?
-// Delegates to ECMA5's native Array.isArray
-// 判断是否为数组
+/** 
+ * Is a given value an array?
+ * Delegates to ECMA5's native Array.isArray
+ * to judge whether it's an array
+ */
 _.isArray = nativeIsArray || function(obj) {
     return toString.call(obj) === '[object Array]';
 };
