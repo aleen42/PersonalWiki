@@ -86,11 +86,12 @@ When it comes to `_.indexOf()` and `_.lastIndexOf()`, we should know that it's n
  * _.lastIndexOf = createIndexFinder(-1, _.findLastIndex);
  */
 function createIndexFinder(dir, predicateFind, sortedIndex) {
-
-// API 调用形式
-// _.indexOf(array, value, [isSorted]) 
-// _.indexOf(array, value, [fromIndex]) 
-// _.lastIndexOf(array, value, [fromIndex]) 
+    /**
+     * three ways to call this API
+     * _.indexOf(array, value, [isSorted]) 
+     * _.indexOf(array, value, [fromIndex]) 
+     * _.lastIndexOf(array, value, [fromIndex]) 
+     */
 return function(array, item, idx) {
   var i = 0, length = getLength(array);
 
