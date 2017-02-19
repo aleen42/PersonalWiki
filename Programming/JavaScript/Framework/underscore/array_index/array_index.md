@@ -8,7 +8,7 @@ Firstly, it's easy to know that both `_.findIndex()` and `_.findLastIndex()` are
 var arr = [1, 3, 5, 2, 4, 6];
 
 var isEven = function(num) {
-    return !(num & 1);
+    return !(num & 1); /** `num & 1` is same as `num % 2`
 };
 
 var idx = _.findIndex(arr, isEven); /** => 3 */
