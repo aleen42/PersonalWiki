@@ -66,5 +66,5 @@ _.pick = function(object, oiteratee, context) {
     }
     
     return result;
-  };
+};
 ```
