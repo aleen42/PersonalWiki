@@ -1,6 +1,5 @@
 ## underscore.js [Back](./../Framework.md)
 
-
 <p align="center">
     <img width="50%" src="./underscore.png" />
 </p>
