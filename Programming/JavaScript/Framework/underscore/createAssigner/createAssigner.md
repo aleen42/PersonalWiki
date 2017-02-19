@@ -40,16 +40,7 @@ var createAssigner = function(keysFunc, undefinedOnly) {
             /** iterate key-value pairs */
             for (var i = 0; i < l; i++) {
                 var key = keys[i];
-                // _.extend 和 _.extendOwn 方法
-                // 没有传入 undefinedOnly 参数，即 !undefinedOnly 为 true
-                // 即肯定会执行 obj[key] = source[key] 
-                // 后面对象的键值对直接覆盖 obj
-                // ==========================================
-                // _.defaults 方法，undefinedOnly 参数为 true
-                // 即 !undefinedOnly 为 false
-                // 那么当且仅当 obj[key] 为 undefined 时才覆盖
-                // 即如果有相同的 key 值，取最早出现的 value 值
-                // *defaults 中有相同 key 的也是一样取首次出现的
+                /** if `undefinedOnly` has not been provided, it means that the original key-value pair can be overriden by the source object */ 
                 if (!undefinedOnly || obj[key] === void 0) 
                     obj[key] = source[key];
             }
