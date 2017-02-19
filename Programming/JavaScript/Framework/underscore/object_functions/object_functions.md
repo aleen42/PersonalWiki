@@ -9,8 +9,11 @@ _.pick({
     userid: 'moe1'
 }, 'name', 'age'); /** => {name: 'moe', age: 50} */
 
-_.pick({name: 'moe', age: 50, userid: 'moe1'}, ['name', 'age']);
-=> {name: 'moe', age: 50}
+_.pick({
+    name: 'moe',
+    age: 50,
+    userid: 'moe1'
+}, ['name', 'age']); /** => {name: 'moe', age: 50} */
 
 _.pick({name: 'moe', age: 50, userid: 'moe1'}, function(value, key, object) {
   return _.isNumber(value);
