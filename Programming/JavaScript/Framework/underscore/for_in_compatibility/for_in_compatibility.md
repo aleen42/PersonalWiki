@@ -58,7 +58,7 @@ function collectNonEnumProps(obj, keys) {
     var nonEnumIdx = nonEnumerableProps.length;
     var constructor = obj.constructor;
 
-    // proto 是否是继承的 prototype
+    /** check whether `proto` is inherited */
     var proto = (_.isFunction(constructor) && constructor.prototype) || ObjProto;
 
     // Constructor is a special case.
