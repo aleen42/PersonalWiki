@@ -54,5 +54,5 @@ _.findIndex = createPredicateIndexFinder(1);
 _.findLastIndex = createPredicateIndexFinder(-1);
 ```
 
-Then, how about `_.sortIndex()`? When there is a ordered array, and if we want to find out where to insert an item so that the array can keep itself ordered, `_.sortIndex()` is the choice.
+Then, how about `_.sortIndex()`? When there is a ordered array, and if we want to find out where to insert an item so that the array can keep itself ordered, `_.sortIndex()` is the choice. Apparently, we can implement such a function by using binary searching algorithm.
 
