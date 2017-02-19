@@ -56,3 +56,24 @@ _.findLastIndex = createPredicateIndexFinder(-1);
 
 Then, how about `_.sortIndex()`? When there is a ordered array, and if we want to find out where to insert an item so that the array can keep itself ordered, `_.sortIndex()` is the choice. Apparently, we can implement such a function by using binary searching algorithm.
 
+```js
+/**_.sortedIndex(list, value, [iteratee], [context]) */
+_.sortedIndex = function(array, obj, iteratee, context) {
+  // 注意 cb 方法
+  // iteratee 为空 || 为 String 类型（key 值）时会返回不同方法
+  iteratee = cb(iteratee, context, 1);
+
+  // 经过迭代函数计算的值
+  var value = iteratee(obj);
+
+  var low = 0, high = getLength(array);
+
+  while (low < high) {
+    var mid = Math.floor((low + high) / 2);
+    if (iteratee(array[mid]) < value) low = mid + 1; else high = mid;
+  }
+
+  return low;
+};
+```
+
