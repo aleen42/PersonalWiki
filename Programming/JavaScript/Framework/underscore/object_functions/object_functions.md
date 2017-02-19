@@ -25,3 +25,5 @@ _.pick({
 ```
 
 As we can see, `_.pick()` will receive an object as the first parameter, while the second one has three situations: **Function**, **Array** or **Separative Parameters**.
+
+Let's see how underscore handle those three conditions smartly:
