@@ -39,6 +39,8 @@ _.pick = function(object, oiteratee, context) {
     /** if the second parameter is a function */
     if (_.isFunction(oiteratee)) {
         keys = _.allKeys(obj);
+        
+        /** optimizeCb is to redefine `this` according to the paramter `context` */
         iteratee = optimizeCb(oiteratee, context);
     } else {
       // 如果第二个参数不是函数
