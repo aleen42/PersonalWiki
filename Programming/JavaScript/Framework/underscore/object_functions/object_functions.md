@@ -103,10 +103,11 @@ var me = null;
 
 if (Object.create) {
     me = Object.create(Person.prototype);
-
-    
 } else {
+    var _Person = function() {};
+    _Person.prototype = Person.prototype;
     
+    me = new _Person();
 }
 
 _.extendOwn(me, { name: 'hanzichi' });
