@@ -84,10 +84,6 @@ var me = _.create(Person.prototype, {
     name: 'hanzichi'
 });
 
-console.log(me.name);
-
-// Object {name: "hanzichi"}
-//   name: "hanzichi"
-//   __proto__: Object
-//     show: function()
+console.log(me.name); /** => "hanzichi" */
+me.show(); /** => "hanzichi" */
 ```
