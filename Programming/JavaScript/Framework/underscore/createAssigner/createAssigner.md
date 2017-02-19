@@ -37,7 +37,7 @@ var createAssigner = function(keysFunc, undefinedOnly) {
             keys = keysFunc(source),
             l = keys.length;
             
-            /** iterate the key-value pairs */
+            /** iterate key-value pairs */
             for (var i = 0; i < l; i++) {
                 var key = keys[i];
                 // _.extend 和 _.extendOwn 方法
