@@ -19,8 +19,7 @@ _.pick({
     name: 'moe',
     age: 50,
     userid: 'moe1'
-}, function(value, key, object) {
+}, function (value, key, object) {
     return _.isNumber(value);
-});
-=> {age: 50}
+}); /** => {age: 50} */
 ```
