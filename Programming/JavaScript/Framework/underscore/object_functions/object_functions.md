@@ -87,3 +87,24 @@ var me = _.create(Person.prototype, {
 console.log(me.name); /** => "hanzichi" */
 me.show(); /** => "hanzichi" */
 ```
+
+The most complicated one of this function is to check whether browsers support ES5:
+
+```js
+var Person = function() {};
+
+Person.prototype = {
+    show: function() {
+        console.log(this.name);
+    }
+};
+
+if (Object.createObject) {
+    var me = Object.create(Person.prototype);
+
+    _.extendOwn(me, {name: 'hanzichi'});
+}
+
+console.log(me.name); /** => "hanzichi" */
+me.show(); /** => "hanzichi" */
+```
