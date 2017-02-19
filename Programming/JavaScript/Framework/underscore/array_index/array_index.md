@@ -59,20 +59,20 @@ Then, how about `_.sortIndex()`? When there is a ordered array, and if we want t
 ```js
 /**_.sortedIndex(list, value, [iteratee], [context]) */
 _.sortedIndex = function(array, obj, iteratee, context) {
-  /** iteratee can be null or a function */
-  iteratee = cb(iteratee, context, 1);
-
-  /** the value returned by the iterative function */
-  var value = iteratee(obj);
-
-  var low = 0, high = getLength(array);
-
-  while (low < high) {
-    var mid = Math.floor((low + high) / 2);
-    if (iteratee(array[mid]) < value) low = mid + 1; else high = mid;
-  }
-
-  return low;
+    /** iteratee can be null or a function */
+    iteratee = cb(iteratee, context, 1);
+    
+    /** the value returned by the iterative function */
+    var value = iteratee(obj);
+    
+    var low = 0, high = getLength(array);
+    
+    while (low < high) {
+        var mid = Math.floor((low + high) / 2);
+        if (iteratee(array[mid]) < value) low = mid + 1; else high = mid;
+    }
+    
+    return low;
 };
 ```
 
