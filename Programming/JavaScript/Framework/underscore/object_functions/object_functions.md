@@ -61,7 +61,7 @@ _.pick = function(object, oiteratee, context) {
         var key = keys[i];
         var value = obj[key];
         
-        /** if the iterative function returns `true` */
+        /** if the iterative function returns `true`, then push it into the copy */
         if (iteratee(value, key, obj)) result[key] = value;
     }
     return result;
