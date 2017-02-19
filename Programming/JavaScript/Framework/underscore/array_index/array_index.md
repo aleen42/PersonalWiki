@@ -50,9 +50,7 @@ function createPredicateIndexFinder(dir) {
  */
 _.findIndex = createPredicateIndexFinder(1);
 
-// 从后往前找到数组中 `第一个满足条件` 的元素，并返回下标值
-// 没找到返回 -1
-// _.findLastIndex(array, predicate, [context]) 
+/** _.findLastIndex(array, predicate, [context]) */
 _.findLastIndex = createPredicateIndexFinder(-1);
 
 ```
