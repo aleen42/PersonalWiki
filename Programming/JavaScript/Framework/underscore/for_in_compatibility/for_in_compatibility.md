@@ -38,11 +38,9 @@ for (var k in obj) {
 Therefore, in underscore.js, there is a method named `hasEnumBug` to get bug from IE8:
 
 ```js
-// Keys in IE < 9 that won't be iterated by `for key in ...` and thus missed.
-// IE < 9 下 不能用 for key in ... 来枚举对象的某些 key
-// 比如重写了对象的 `toString` 方法，这个 key 值就不能在 IE < 9 下用 for in 枚举到
-// IE < 9，{toString: null}.propertyIsEnumerable('toString') 返回 false
-// IE < 9，重写的 `toString` 属性被认为不可枚举
+/**
+ * Keys in IE < 9 that won't be iterated by `for key in ...` and thus missed.
+ * And use `toString` to judge whether it can be overriden */
 var hasEnumBug = !{toString: null}.propertyIsEnumerable('toString');
 ```
 
