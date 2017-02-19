@@ -67,6 +67,7 @@ _.sortedIndex = function(array, obj, iteratee, context) {
     
     var low = 0, high = getLength(array);
     
+    /** binary searching */
     while (low < high) {
         var mid = Math.floor((low + high) / 2);
         if (iteratee(array[mid]) < value) low = mid + 1; else high = mid;
