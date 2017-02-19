@@ -61,11 +61,10 @@ function collectNonEnumProps(obj, keys) {
     /** check whether `proto` is inherited */
     var proto = (_.isFunction(constructor) && constructor.prototype) || ObjProto;
 
-    // Constructor is a special case.
-    // `constructor` 属性需要特殊处理
-    // 如果 obj 有 `constructor` 这个 key
-    // 并且该 key 没有在 keys 数组中
-    // 存入数组
+    /**
+     * Constructor is a special case.
+     * if the object has `constructor` but the key is not included in the array `keys`, then save it in it
+     */
     var prop = 'constructor';
     if (_.has(obj, prop) && !_.contains(keys, prop)) keys.push(prop);
     
