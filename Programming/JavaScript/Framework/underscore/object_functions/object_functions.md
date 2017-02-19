@@ -46,7 +46,10 @@ _.pick = function(object, oiteratee, context) {
          */
         iteratee = optimizeCb(oiteratee, context);
     } else {
-      /** the second parameter may be an array or a list of separative keys */
+      /**
+       * the second parameter may be an array or a list of separative keys,
+       * so underscore has used _.flatten to convert them all into an array
+       */
       keys = flatten(arguments, false, false, 1);
 
       // 也转为 predicate 函数判断形式
