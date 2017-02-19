@@ -36,7 +36,7 @@ _.pick = function(object, oiteratee, context) {
     /** if object is null then return an empty object */
     if (obj == null) return result;
 
-    // 如果第二个参数是函数
+    /** if the second parameter is a function */
     if (_.isFunction(oiteratee)) {
       keys = _.allKeys(obj);
       iteratee = optimizeCb(oiteratee, context);
