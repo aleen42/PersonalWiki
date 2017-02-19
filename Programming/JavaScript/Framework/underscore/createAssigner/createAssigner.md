@@ -32,11 +32,8 @@ var createAssigner = function(keysFunc, undefinedOnly) {
         
         /** iteration of sources */
         for (var index = 1; index < length; index++) {
-            // source 即为对象参数
             var source = arguments[index],
-            // 提取对象参数的 keys 值
-            // keysFunc 参数表示 _.keys 
-            // 或者 _.allKeys
+            /** use different `keysFunc` to extract keys from a sorce object */
             keys = keysFunc(source),
             l = keys.length;
             
