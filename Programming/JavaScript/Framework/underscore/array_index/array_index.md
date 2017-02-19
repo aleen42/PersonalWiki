@@ -103,9 +103,12 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
                  * reset the start position
                  */
                 i = idx >= 0 ? idx : Math.max(idx + length, i);
-            } else { // 反向查找
-            // 如果是反向查找，重置 length 属性值
-            length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
+            } else {
+                /** 
+                 * search in a negative sequence
+                 * reset the length
+                 */
+                length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
             }
         } else if (sortedIndex && idx && length) {
         // 能用二分查找加速的条件
