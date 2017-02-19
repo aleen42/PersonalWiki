@@ -62,7 +62,7 @@ _.sortedIndex = function(array, obj, iteratee, context) {
   /** iteratee can be null or a function */
   iteratee = cb(iteratee, context, 1);
 
-  // 经过迭代函数计算的值
+  /** the value returned by the iterative function */
   var value = iteratee(obj);
 
   var low = 0, high = getLength(array);
