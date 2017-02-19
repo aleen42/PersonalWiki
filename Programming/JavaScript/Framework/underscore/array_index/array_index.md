@@ -77,3 +77,5 @@ _.sortedIndex = function(array, obj, iteratee, context) {
 };
 ```
 
+When it comes to `_.indexOf()` and `_.lastIndexOf()`, we should know that it's not compatible
+
