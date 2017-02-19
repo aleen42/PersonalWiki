@@ -95,6 +95,7 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
     return function(array, item, idx) {
         var i = 0, length = getLength(array);
         
+        /** if idx is a Number type, then we can just use iteration to search */
         // 如果 idx 为 Number 类型
         // 则规定查找位置的起始点
         // 那么第三个参数不是 [isSorted]
