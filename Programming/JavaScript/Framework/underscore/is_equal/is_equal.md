@@ -54,7 +54,9 @@ if (+a !== +a) {
     return +b !== +b;
 }
 
-// An `egal` comparison is performed for other numeric values.
+/**
+ * An `egal` comparison is performed for other numeric values.
+ * If a is zero, then check `1 / +a === 1 / b` to make sure b is not `-0`
 // 排除了 NaN 干扰
 // 还要考虑 0 的干扰
 // 用 +a 将 Number() 形式转为基本类型
