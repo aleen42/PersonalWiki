@@ -139,17 +139,12 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
     };
 }
 
-// Return the position of the first occurrence of an item in an array,
-// or -1 if the item is not included in the array.
-// If the array is large and already in sort order, pass `true`
-// for **isSorted** to use binary search.
-// _.indexOf(array, value, [isSorted]) 
-// 找到数组 array 中 value 第一次出现的位置
-// 并返回其下标值
-// 如果数组有序，则第三个参数可以传入 true
-// 这样算法效率会更高（二分查找）
-// [isSorted] 参数表示数组是否有序
-// 同时第三个参数也可以表示 [fromIndex] （见下面的 _.lastIndexOf）
+/**
+ * Return the position of the first occurrence of an item in an array,
+ * or -1 if the item is not included in the array.
+ * If the array is large and already in sort order, pass `true`
+ * for **isSorted** to use binary search.
+ */
 _.indexOf = createIndexFinder(1, _.findIndex, _.sortedIndex);
 
 // 和 _indexOf 相似
