@@ -23,11 +23,6 @@ Then, let's go to have a look at the function they call:
  * _.extendOwn = _.assign = createAssigner(_.keys);
  * _.defaults = createAssigner(_.allKeys, true);
  */
-// 有三个方法用到了这个内部函数
-// _.extend & _.extendOwn & _.defaults
-// _.extend = createAssigner(_.allKeys);
-// _.extendOwn = _.assign = createAssigner(_.keys);
-// _.defaults = createAssigner(_.allKeys, true);
 var createAssigner = function(keysFunc, undefinedOnly) {
     // 返回函数
     // 经典闭包（undefinedOnly 参数在返回的函数中被引用）
