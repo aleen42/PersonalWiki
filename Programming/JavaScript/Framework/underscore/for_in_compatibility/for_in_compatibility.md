@@ -47,7 +47,7 @@ var hasEnumBug = !{ toString: null }.propertyIsEnumerable('toString');
 Besides, underscore.js has listed out all the familiar situation in the set `nonEnumerableProps`.
 
 ```js
-// IE < 9 下不能用 for in 来枚举的 key 值集合
+/** the keys which can not be iterated with for ... in */
 var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString', 'propertyIsEnumerable', 'hasOwnProperty', 'toLocaleString'];
 ```
 
