@@ -14,4 +14,4 @@ var isEven = function(num) {
 var idx = _.findIndex(arr, isEven); /** => 3 */
 ```
 
-As we can see, the method will return the element which has matched the given condition.
+As we can see, the method `_.findIndex()` will return the element which has matched the given condition. Conversely, `_.findLastIndex()` is used to find the last element which has matched the conditions you provided.
