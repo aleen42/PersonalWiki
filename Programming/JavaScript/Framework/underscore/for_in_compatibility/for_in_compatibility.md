@@ -40,7 +40,7 @@ Therefore, in underscore.js, there is a method named `hasEnumBug` to get bug fro
 ```js
 /**
  * Keys in IE < 9 that won't be iterated by `for key in ...` and thus missed.
- * And use `toString` to judge whether it can be overriden */
+ * And the but can be judged by checking whether it can be overriden */
 var hasEnumBug = !{ toString: null }.propertyIsEnumerable('toString');
 ```
 
