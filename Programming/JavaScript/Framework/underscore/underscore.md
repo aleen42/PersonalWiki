@@ -11,3 +11,4 @@ Here I will note what other people grasp from this library according to summarie
 - [**Compatibility problems of `for ... in`**](./for_in_compatibility/for_in_compatibility.md)
 - [**The internal function: `createAssigner()`**](./createAssigner/createAssigner.md)
 - [**How to compare the equality of two elements**](./is_equal/is_equal.md)
+- Certain object functions like `pick()` and `create()`
