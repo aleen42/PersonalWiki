@@ -57,16 +57,9 @@ if (+a !== +a) {
 /**
  * An `egal` comparison is performed for other numeric values.
  * If a is zero, then check `1 / +a === 1 / b` to make sure b is not `-0`
-// 排除了 NaN 干扰
-// 还要考虑 0 的干扰
-// 用 +a 将 Number() 形式转为基本类型
-// 如果 a 为 0，判断 1 / +a === 1 / b
-// 否则判断 +a === +b
+ * If a is not zero, thenjust check `+a === +b`
+ */
 return +a === 0 ? 1 / +a === 1 / b : +a === +b;
-
-// 如果 a 为 Number 类型
-// 要注意 NaN 这个 special number
-// NaN 和 NaN 被认为 equal
 ```
 
 How about `Date` and `Boolean` objects?
