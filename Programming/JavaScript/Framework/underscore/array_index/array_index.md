@@ -39,6 +39,7 @@ function createPredicateIndexFinder(dir) {
           if (predicate(array[index], index, array)) return index;
         }
         
+        /** return -1 if nothing is found */
         return -1;
     };
 }
