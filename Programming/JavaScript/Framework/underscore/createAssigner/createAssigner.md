@@ -51,7 +51,7 @@ var createAssigner = function(keysFunc, undefinedOnly) {
             }
         }
         
-        // 返回已经继承后面对象参数属性的第一个参数对象
+        /** return the modified object */
         return obj;
     };
 };
