@@ -147,10 +147,7 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
  */
 _.indexOf = createIndexFinder(1, _.findIndex, _.sortedIndex);
 
-// 和 _indexOf 相似
-// 反序查找
-// _.lastIndexOf(array, value, [fromIndex]) 
-// [fromIndex] 参数表示从倒数第几个开始往前找
+/** search in a negative sequence */
 _.lastIndexOf = createIndexFinder(-1, _.findLastIndex);
 ```
 
