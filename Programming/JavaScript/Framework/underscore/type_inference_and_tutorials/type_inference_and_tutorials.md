@@ -36,6 +36,7 @@ In underscore, both **function** and **object variables** are treated as an obje
 /**
  * Is a given variable an object?
  * An object can be also a function */
+ */
 _.isObject = function(obj) {
     var type = typeof obj;
     return type === 'function' || type === 'object' && !!obj;
