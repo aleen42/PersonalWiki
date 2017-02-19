@@ -7,9 +7,7 @@ _.pick({
     name: 'moe',
     age: 50,
     userid: 'moe1'
-}, 'name', 'age');
-
-/** => {name: 'moe', age: 50} */
+}, 'name', 'age'); /** => {name: 'moe', age: 50} */
 
 _.pick({name: 'moe', age: 50, userid: 'moe1'}, ['name', 'age']);
 => {name: 'moe', age: 50}
