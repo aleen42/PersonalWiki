@@ -132,7 +132,7 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
         
         /** search in a loop way */
         for (idx = dir > 0 ? i : length - 1; idx >= 0 && idx < length; idx += dir) {
-        if (array[idx] === item) return idx;
+            if (array[idx] === item) return idx;
         }
         
         return -1;
