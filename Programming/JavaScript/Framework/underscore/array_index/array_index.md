@@ -130,10 +130,7 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
             return idx >= 0 ? idx + i : -1;
         }
         
-        // O(n) 遍历数组
-        // 寻找和 item 相同的元素
-        // 特判排除了 item 为 NaN 的情况
-        // 可以放心地用 `===` 来判断是否相等了
+        /** search in a loop way */
         for (idx = dir > 0 ? i : length - 1; idx >= 0 && idx < length; idx += dir) {
         if (array[idx] === item) return idx;
         }
