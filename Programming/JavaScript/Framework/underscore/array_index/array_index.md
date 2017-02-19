@@ -124,9 +124,7 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
             return array[idx] === item ? idx : -1;
         }
         
-        // 特判，如果要查找的元素是 NaN 类型
-        // 如果 item !== item
-        // 那么 item => NaN
+        /** special case: item is NaN */
         if (item !== item) {
             idx = predicateFind(slice.call(array, i, length), _.isNaN);
             return idx >= 0 ? idx + i : -1;
