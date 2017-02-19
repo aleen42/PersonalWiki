@@ -10,8 +10,10 @@ For the expression `a === b`, there are two situations resulting in `true`:
 If this expression returns `true`, we can say that `a` is 99% likely equal to the element `b`, except a special case. According to the article  http://wiki.ecmascript.org/doku.php?id=harmony:egal, people think that `0` is actually not equal to `-0`, but in JavaScript, `0 === -0` will return unexpected `true`.
 
 ```js
-// Identical objects are equal. `0 === -0`, but they aren't identical.
-// See the [Harmony `egal` proposal](http://wiki.ecmascript.org/doku.php?id=harmony:egal).
+/**
+ * Identical objects are equal. `0 === -0`, but they aren't identical.
+ * See the [Harmony `egal` proposal](http://wiki.ecmascript.org/doku.php?id=harmony:egal).
+ */
 if (a === b) {
     return a !== 0 || 1 / a === 1 / b;
 }
