@@ -52,5 +52,7 @@ _.findIndex = createPredicateIndexFinder(1);
 
 /** _.findLastIndex(array, predicate, [context]) */
 _.findLastIndex = createPredicateIndexFinder(-1);
-
 ```
+
+Then, how about `_.sortIndex()`? When there is a ordered array, and if we want to find out where to insert an item so that the array can keep itself ordered, `_.sortIndex()` is the choice.
+
