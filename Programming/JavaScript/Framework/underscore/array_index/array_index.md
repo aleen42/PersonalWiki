@@ -77,5 +77,9 @@ _.sortedIndex = function(array, obj, iteratee, context) {
 };
 ```
 
-When it comes to `_.indexOf()` and `_.lastIndexOf()`, we should know that it's not compatible
+When it comes to `_.indexOf()` and `_.lastIndexOf()`, we should know that it's not compatible under IE9, and the implementation of underscore can be taken as a polyfill case to learn (by also using a predict function to create):
+
+```js
+
+```
 
