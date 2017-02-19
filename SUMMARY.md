@@ -134,6 +134,7 @@
                     * [Compatibility problems of `for ... in`](./Programming/JavaScript/Framework/underscore/for_in_compatibility/for_in_compatibility.md)
                     * [The internal function: `createAssigner()`](./Programming/JavaScript/Framework/underscore/createAssigner/createAssigner.md)
                     * [How to compare the equality of two elements](./Programming/JavaScript/Framework/underscore/is_equal/is_equal.md)
+                    * [Certain object functions like `pick()` and `create()`](./Programming/JavaScript/Framework/underscore/object_functions/object_functions.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
