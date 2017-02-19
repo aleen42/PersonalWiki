@@ -111,17 +111,17 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
                 length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
             }
         } else if (sortedIndex && idx && length) {
-        // 能用二分查找加速的条件
-        // 有序 & idx !== 0 && length !== 0
-        
-        // 用 _.sortIndex 找到有序数组中 item 正好插入的位置
-        idx = sortedIndex(array, item);
-        
-        // 如果正好插入的位置的值和 item 刚好相等
-        // 说明该位置就是 item 第一次出现的位置
-        // 返回下标
-        // 否则即是没找到，返回 -1
-        return array[idx] === item ? idx : -1;
+            // 能用二分查找加速的条件
+            // 有序 & idx !== 0 && length !== 0
+            
+            // 用 _.sortIndex 找到有序数组中 item 正好插入的位置
+            idx = sortedIndex(array, item);
+            
+            // 如果正好插入的位置的值和 item 刚好相等
+            // 说明该位置就是 item 第一次出现的位置
+            // 返回下标
+            // 否则即是没找到，返回 -1
+            return array[idx] === item ? idx : -1;
         }
         
         // 特判，如果要查找的元素是 NaN 类型
