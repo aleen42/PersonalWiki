@@ -17,3 +17,42 @@ var idx = _.findIndex(arr, isEven); /** => 3 */
 As we can see, the method `_.findIndex()` will return the element which has matched the given condition. Conversely, `_.findLastIndex()` is used to find the last element which has matched the conditions which you provide.
 
 To implement such two familiar functions, underscore has create a so called predicate function to decide how to search: positive or negative.
+
+```js
+/**
+ * Generator function to create the findIndex and findLastIndex functions
+ * dir === 1 means to find in a positive sequence
+ * dir === -1 means to find in a negative sequence
+ */
+function createPredicateIndexFinder(dir) {
+  // 经典闭包
+  return function(array, predicate, context) {
+    predicate = cb(predicate, context);
+
+    var length = getLength(array);
+
+    // 根据 dir 变量来确定数组遍历的起始位置
+    var index = dir > 0 ? 0 : length - 1;
+
+    for (; index >= 0 && index < length; index += dir) {
+      // 找到第一个符合条件的元素
+      // 并返回下标值
+      if (predicate(array[index], index, array)) return index;
+    }
+
+    return -1;
+  };
+}
+
+// Returns the first index on an array-like that passes a predicate test
+// 从前往后找到数组中 `第一个满足条件` 的元素，并返回下标值
+// 没找到返回 -1
+// _.findIndex(array, predicate, [context]) 
+_.findIndex = createPredicateIndexFinder(1);
+
+// 从后往前找到数组中 `第一个满足条件` 的元素，并返回下标值
+// 没找到返回 -1
+// _.findLastIndex(array, predicate, [context]) 
+_.findLastIndex = createPredicateIndexFinder(-1);
+
+```
