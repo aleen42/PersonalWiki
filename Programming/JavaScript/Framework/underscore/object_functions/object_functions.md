@@ -23,3 +23,5 @@ _.pick({
     return _.isNumber(value);
 }); /** => {age: 50} */
 ```
+
+As we can see, `_.pick()` will receive an object as the first parameter, while the second one has three situations.
