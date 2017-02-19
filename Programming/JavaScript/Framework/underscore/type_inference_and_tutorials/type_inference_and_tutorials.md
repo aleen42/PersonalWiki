@@ -60,13 +60,10 @@ _.each(['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error'],
 However, `isArguments` will return `[object Object]` under IE 9, so we can infer by checking existence of the attribute `callee`. You know, `arguments.callee` can return the method of current `arguments`.
 
 ```js
-// Define a fallback version of the method in browsers (ahem, IE < 9), where
-// there isn't any inspectable "Arguments" type.
-// _.isArguments 方法在 IE < 9 下的兼容
-// IE < 9 下对 arguments 调用 Object.prototype.toString.call 方法
-// 结果是 [object Object]
-// 而并非我们期望的 [object Arguments]。
-// so 用是否含有 callee 属性来判断
+/**
+ * Define a fallback version of the method in browsers (ahem, IE < 9), where
+ * there isn't any inspectable "Arguments" type.
+ */
 if (!_.isArguments(arguments)) {
     _.isArguments = function(obj) {
         return _.has(obj, 'callee');
