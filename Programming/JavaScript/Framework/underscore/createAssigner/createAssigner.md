@@ -24,10 +24,7 @@ Then, let's go to have a look at the function they call:
  * _.defaults = createAssigner(_.allKeys, true);
  */
 var createAssigner = function(keysFunc, undefinedOnly) {
-    // 返回函数
-    // 经典闭包（undefinedOnly 参数在返回的函数中被引用）
-    // 返回的函数参数个数 >= 1
-    // 将第二个开始的对象参数的键值对 "继承" 给第一个参数
+    /** return a clousure function *
     return function(obj) {
         var length = arguments.length;
         // 只传入了一个参数（或者 0 个？）
