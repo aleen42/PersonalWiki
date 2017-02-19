@@ -99,7 +99,7 @@ Person.prototype = {
     }
 };
 
-if (Object.createObject) {
+if (Object.create) {
     var me = Object.create(Person.prototype);
 
     _.extendOwn(me, {name: 'hanzichi'});
