@@ -71,8 +71,11 @@ function collectNonEnumProps(obj, keys) {
     /** check the `nonEnumerableProps` array */
     while (nonEnumIdx--) {
         prop = nonEnumerableProps[nonEnumIdx];
+        /** 
+         * obj[prop] !== proto[prop] is used to check whether the property is from the inherited prototype
+         *
         // prop in obj 应该肯定返回 true 吧？是否不必要？
-        // obj[prop] !== proto[prop] 判断该 key 是否来自于原型链
+        //  判断该 key 是否来自于原型链
         if (prop in obj && obj[prop] !== proto[prop] && !_.contains(keys, prop)) {
             keys.push(prop);
         }
