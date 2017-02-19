@@ -35,8 +35,7 @@ function createPredicateIndexFinder(dir) {
         var index = dir > 0 ? 0 : length - 1;
         
         for (; index >= 0 && index < length; index += dir) {
-          // 找到第一个符合条件的元素
-          // 并返回下标值
+          /** return the index if matched */
           if (predicate(array[index], index, array)) return index;
         }
         
