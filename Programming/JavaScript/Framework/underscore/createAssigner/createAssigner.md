@@ -27,8 +27,7 @@ var createAssigner = function(keysFunc, undefinedOnly) {
     /** return a clousure function */
     return function(obj) {
         var length = arguments.length;
-        // 只传入了一个参数（或者 0 个？）
-        // 或者传入的第一个参数是 null
+        /** if the object is null or the second paramter has not been provided */
         if (length < 2 || obj == null) return obj;
         
         // 枚举第一个参数除外的对象参数
