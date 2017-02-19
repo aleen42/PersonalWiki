@@ -91,9 +91,10 @@ _.isElement = function(obj) {
 NaN has belonged to **Number** type, and `Object.prototype.toString.call(NaN)` should be `[object Number]`. Besides, NaN is not equal to itself, so we can infer it like this: (Some bugs, see [#13](https://github.com/hanzichi/underscore-analysis/issues/13))
 
 ```js
-// Is the given value `NaN`? (NaN is the only number which does not equal itself).
-// 判断是否是 NaN
-// NaN 是唯一的一个 `自己不等于自己` 的 number 类型
+/**
+ * Is the given value `NaN`? (NaN is the only number which does not equal itself).
+ * NaN is a Number object which is not equal to itself
+ */
 _.isNaN = function(obj) {
     return _.isNumber(obj) && obj !== +obj;
 };
