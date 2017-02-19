@@ -128,8 +128,8 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
         // 如果 item !== item
         // 那么 item => NaN
         if (item !== item) {
-        idx = predicateFind(slice.call(array, i, length), _.isNaN);
-        return idx >= 0 ? idx + i : -1;
+            idx = predicateFind(slice.call(array, i, length), _.isNaN);
+            return idx >= 0 ? idx + i : -1;
         }
         
         // O(n) 遍历数组
