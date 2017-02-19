@@ -80,7 +80,9 @@ Person.prototype = {
     }
 };
 
-var me = _.create(Person.prototype, {name: 'hanzichi'});
+var me = _.create(Person.prototype, {
+    name: 'hanzichi'
+});
 
 console.log(me);
 
