@@ -111,10 +111,10 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
                 length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
             }
         } else if (sortedIndex && idx && length) {
-            // 能用二分查找加速的条件
-            // 有序 & idx !== 0 && length !== 0
-            
-            // 用 _.sortIndex 找到有序数组中 item 正好插入的位置
+            /**
+             * if sortedIndex has been passed and both idx and length are not zero
+             * then use binary searching to acculate searching
+             */
             idx = sortedIndex(array, item);
             
             // 如果正好插入的位置的值和 item 刚好相等
