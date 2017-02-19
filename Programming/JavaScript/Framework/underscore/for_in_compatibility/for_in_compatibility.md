@@ -68,7 +68,7 @@ function collectNonEnumProps(obj, keys) {
     var prop = 'constructor';
     if (_.has(obj, prop) && !_.contains(keys, prop)) keys.push(prop);
     
-    // nonEnumerableProps 数组中的 keys
+    /** check the `nonEnumerableProps` array */
     while (nonEnumIdx--) {
         prop = nonEnumerableProps[nonEnumIdx];
         // prop in obj 应该肯定返回 true 吧？是否不必要？
