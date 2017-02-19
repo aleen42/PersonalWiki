@@ -58,10 +58,11 @@ _.pick = function(object, oiteratee, context) {
     }
 
     for (var i = 0, length = keys.length; i < length; i++) {
-      var key = keys[i];
-      var value = obj[key];
-      // 满足条件
-      if (iteratee(value, key, obj)) result[key] = value;
+        var key = keys[i];
+        var value = obj[key];
+        
+        /** if the iterative function returns `true` */
+        if (iteratee(value, key, obj)) result[key] = value;
     }
     return result;
   };
