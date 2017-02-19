@@ -37,7 +37,7 @@ var createAssigner = function(keysFunc, undefinedOnly) {
             keys = keysFunc(source),
             l = keys.length;
             
-            // 遍历该对象的键值对
+            /** iterate the key-value pairs */
             for (var i = 0; i < l; i++) {
                 var key = keys[i];
                 // _.extend 和 _.extendOwn 方法
