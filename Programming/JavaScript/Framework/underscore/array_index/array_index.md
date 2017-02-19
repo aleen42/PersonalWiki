@@ -113,7 +113,7 @@ function createIndexFinder(dir, predicateFind, sortedIndex) {
         } else if (sortedIndex && idx && length) {
             /**
              * if sortedIndex has been passed and both idx and length are not zero
-             * then use binary searching to acculate searching
+             * then use binary searching to acculate
              */
             idx = sortedIndex(array, item);
             
