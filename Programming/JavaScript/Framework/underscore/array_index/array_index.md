@@ -44,10 +44,10 @@ function createPredicateIndexFinder(dir) {
     };
 }
 
-// Returns the first index on an array-like that passes a predicate test
-// 从前往后找到数组中 `第一个满足条件` 的元素，并返回下标值
-// 没找到返回 -1
-// _.findIndex(array, predicate, [context]) 
+/**
+ * Returns the first index on an array-like that passes a predicate test
+ * _.findIndex(array, predicate, [context])
+ */
 _.findIndex = createPredicateIndexFinder(1);
 
 // 从后往前找到数组中 `第一个满足条件` 的元素，并返回下标值
