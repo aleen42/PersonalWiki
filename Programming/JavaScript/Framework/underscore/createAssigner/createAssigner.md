@@ -40,7 +40,12 @@ var createAssigner = function(keysFunc, undefinedOnly) {
             /** iterate key-value pairs */
             for (var i = 0; i < l; i++) {
                 var key = keys[i];
-                /** if `undefinedOnly` has not been provided, it means that the original key-value pair can be overriden by the source object */ 
+                /**
+                 * If `undefinedOnly` has not been provided,
+                 * it means that the original key-value pair
+                 * can be overriden by the source object.
+                 * If it does has been provided, then check whether the key has already exisited
+                 */ 
                 if (!undefinedOnly || obj[key] === void 0) 
                     obj[key] = source[key];
             }
