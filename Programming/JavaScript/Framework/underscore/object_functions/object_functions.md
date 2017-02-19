@@ -33,7 +33,7 @@ _.pick = function(object, oiteratee, context) {
     /** result is the created copy to return */
     var result = {}, obj = object, iteratee, keys;
 
-    // 容错
+    /** if object is null then return an empty object */
     if (obj == null) return result;
 
     // 如果第二个参数是函数
