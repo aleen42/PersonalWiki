@@ -80,10 +80,8 @@ You can just infer an element whether it's a DOM element by ensuring that it's n
 
 ```js
 // Is a given value a DOM element?
-// 判断是否为 DOM 元素
 _.isElement = function(obj) {
-    // 确保 obj 不是 null 
-    // 并且 obj.nodeType === 1
+    /** make sure object is not `null` and the property `nodeType` of this object is `1 */
     return !!(obj && obj.nodeType === 1);
 };
 ```
