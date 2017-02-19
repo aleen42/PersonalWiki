@@ -81,7 +81,7 @@ You can just infer an element whether it's a DOM element by ensuring that it's n
 ```js
 // Is a given value a DOM element?
 _.isElement = function(obj) {
-    /** make sure object is not `null` and the property `nodeType` of this object is `1 */
+    /** make sure object is not `null` and the property `nodeType` of this object is `1` */
     return !!(obj && obj.nodeType === 1);
 };
 ```
