@@ -25,5 +25,6 @@ function unique(arr) {
         }
     }
     
+    return res;
 }
 ```
