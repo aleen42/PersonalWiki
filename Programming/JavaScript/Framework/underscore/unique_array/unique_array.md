@@ -33,10 +33,8 @@ If we don't consider the compatibility of browsers, we can use `Array.prototype.
 
 ```js
 function unique(arr) {
-    var res = [];
-    
-    arr.filter(function (item, index, array) {
-        return res.indexOf(item) < 0;
+    var res = arr.filter(function (item, index, array) {
+        return array.indexOf(item) === index;
     });
     
     return res;
