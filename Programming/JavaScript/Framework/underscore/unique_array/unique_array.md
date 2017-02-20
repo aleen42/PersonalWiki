@@ -19,6 +19,10 @@ function unique(arr) {
                 break;
             }
         }
+        
+        if (j === res_len) {
+            res.push(item);
+        }
     }
     
 }
