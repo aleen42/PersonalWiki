@@ -40,3 +40,15 @@ function unique(arr) {
     return res;
 }
 ```
+
+Sorting is another advanced way to improve your algorithms:
+
+```js
+function unique(arr) {
+    return arr.concat([]).sort().filter(function (item, index, array) {
+        return !index || item !== array[index - 1];
+    });
+}
+```
+
+
