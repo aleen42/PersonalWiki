@@ -28,3 +28,17 @@ function unique(arr) {
     return res;
 }
 ```
+
+If we don't consider the compatibility of browsers, we can use `Array.prototype.indexOf()` and `Array.prototype.filter()` to simplify it:
+
+```js
+function unique(arr) {
+    var res = [];
+    
+    arr.filter(function (item, index, array) {
+        return res.indexOf(item) < 0;
+    });
+    
+    return res;
+}
+```
