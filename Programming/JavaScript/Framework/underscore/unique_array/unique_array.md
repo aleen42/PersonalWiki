@@ -61,6 +61,6 @@ function unique(arr) {
 
 underscore.js has implemented `_.unique()` by considering whether the array is sorted by accepting a Boolean value `isSorted` as the second parameters, which is optional. If you have a look on it, you may find that it's familiar with the first implementation: **using two loops to make an array unique**.
 
-However, there is a problem which is still can not be solved. If there is two objects which have the same key-value pairs, the algorithm above still can not figure it out.
+However, there is a problem which is still can not be solved. If there is two objects which have the same key-value pairs, which is considered as same, the algorithm above still can not figure it out.
 
 
