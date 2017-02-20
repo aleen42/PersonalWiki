@@ -51,4 +51,4 @@ function unique(arr) {
 }
 ```
 
-
+However, there is a problem which is still can not be solved. If there is two objects which have the same key-value pairs, the algorithm above still can not figure it out.
