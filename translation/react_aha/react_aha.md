@@ -16,7 +16,7 @@
 
 而大概就在两周前，我竟偶然地发现到[这则 Reddit](https://www.reddit.com/r/reactjs/comments/5gmywc/what_were_the_biggest_aha_moments_you_had_while/)与我的想法如出一辙，并致使我写下了该篇文章。文章中不仅记录了我所发现的这些瞬息，而且还转载有这则 Reddit 中分享的其他瞬息。因而希望能帮助学习者以新的方式去了解 React 的概念。
 
-### 瞬息 #1：Props 之于组件（Components）正如参数之于函数。 ###
+### 瞬息 #1：Props 之于组件（Components）正如参数之于函数。
 
 React 的其中一个妙处在于，你可以通过自身对 JavaScript 函数的直观性感受来确定何时何地应该去创建一个 React 组件。但不同之处在于，函数要接受一些参数并返回一个确切的值，而组件则是接受一些参数并返回一个用于绘制 UI 界面的对象存储结构。
 
@@ -24,7 +24,7 @@ React 的其中一个妙处在于，你可以通过自身对 JavaScript 函数�
 
 就开发 UI 而言，这的确是一种漂亮的思考方式。因为，如今你的 UI 仅仅是由不同的函数调用所构成。而这难道不是你构建应用时早已司空见惯的一种方法吗？换而言之，从此你就可以利用上所有关于函数组合的优势去构建 UI。
 
-### 瞬息 #2：既然，在 React 中整个应用的 UI 都是可以使用函数组合来进行构建。那么，JSX 则是这些函数上的一种抽象。 ###
+### 瞬息 #2：既然，在 React 中整个应用的 UI 都是可以使用函数组合来进行构建。那么，JSX 则是这些函数上的一种抽象。
 
 每当我回顾第一次使用 React 时，脑海里总会涌现出同样的一个反应：“即便 React 看起来好酷，但我一点都不喜欢 JSX。这是因为它破坏了我的关注点分离（Separation of Concerns）。”
 
@@ -40,7 +40,7 @@ React 的其中一个妙处在于，你可以通过自身对 JavaScript 函数�
 
 其次，既然 JSX 仅仅就是 JavaScript，那么你就可以运用上 JavaScript 的任何一切优势，如程序的编写、约束及调试。此外，你还可以利用上 HTML 的声明特性（以及关联点）。
 
-### 瞬息 #3：组件与 DOM 节点并非相当。 ###
+### 瞬息 #3：组件与 DOM 节点并非相当。
 
 当你首次学习 React 时，总会被教到那么一点，“组件是 React 的积木。它们可被用于输入，并返回部分的 UI（描述符模式，the Descriptor Pattern）”
 
@@ -74,7 +74,7 @@ render () {
 
 关于该原则的进一步探究，我推荐阅读 Ryan Florence 所制作的[关于 React Rally 的讨论](https://www.youtube.com/watch?v=kp-NOggyz54)。
 
-### 瞬息 #4：当两个组件需要共享 State 时，抽取该值而并非尝试去进行同步。 ###
+### 瞬息 #4：当两个组件需要共享 State 时，抽取该值而并非尝试去进行同步。
 
 一个以组件为基础的框架结构本来就难于在组件间分享 State。可如果两个组件同时依赖于同一个 State，那么该 State 应存放在哪呢？
 
@@ -84,7 +84,7 @@ Redux 所提出的办法是把共享的 State 存放在另一个名为 “Store�
 
 而 React 本身的解决办法是寻找所有这些组件的最近父组件，并让该父组件来管理共享的 State。然后，再把其传递给所需的子组件。尽管两种方案各有优劣之处，但重要的是我们能意识到它俩的存在。
 
-### 瞬息 #5：React 中继承（Inheritance）并非必要，因为通过组合（Composition）就可以完成组件的包裹（Containment）和特化（Specialization）。 ###
+### 瞬息 #5：React 中继承（Inheritance）并非必要，因为通过组合（Composition）就可以完成组件的包裹（Containment）和特化（Specialization）。
 
 我们有理由相信，React 对采用函数式编程的原则总是抱有阔达的态度。关于 React 从继承走向组合的例子是其 0.13 版本的发行，这就使得我们更为清晰地发现， React 过去所做的并非是为 ES6 类（Class）下定义的 Mixins 提供支持。
 
@@ -104,7 +104,7 @@ Redux 所提出的办法是把共享的 State 存放在另一个名为 “Store�
 
 更多详情请查看《[描述型组件与容器组件](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.q9tui51xz)》。
 
-### 瞬息 #7：若你想保持大部分组件的纯净，无 State 组件会更为容易地去维护。 ###
+### 瞬息 #7：若你想保持大部分组件的纯净，无 State 组件会更为容易地去维护。
 
 这是分离描述型组件与容器组件的另一大优势。
 
