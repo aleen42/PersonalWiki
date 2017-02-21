@@ -586,6 +586,7 @@
             * [Styling SVG &lt;use&gt; Content with CSS](./translation/style_svg_use/style_svg_use.md)
             * [Align SVG Icons to Text and Say Goodbye to Font Icons](./translation/align_svg/align_svg.md)
             * [React "Aha" Moments](./translation/react_aha/react_aha.md)
+            * [How to Achieve Reusability with React Components](./translation/react_reusable_components/react_reusable_components.md)
         * Proofread
             * [Things I Wish I Were Told About React Native](./translation/things_i_wish_i_were_told_about_react/things_i_wish_i_were_told_about_react.md)
             * [Making React Native apps accessible](./translation/making_react_native_apps_accessible/making_react_native_apps_accessible.md)
