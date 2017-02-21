@@ -25,6 +25,7 @@
 - [**Styling SVG &lt;use&gt; Content with CSS**](./style_svg_use/style_svg_use.md)
 - [**Align SVG Icons to Text and Say Goodbye to Font Icons**](./align_svg/align_svg.md)
 - [**React "Aha" Moments**](./react_aha/react_aha.md)
+- [**How to Achieve Reusability with React Components**](./react_reusable_components/react_reusable_components.md)
 
 ### Proofread
 
