@@ -14,3 +14,5 @@ var flatten = function(input, shallow, strict, startIndex) {
     // ...
 };
 ```
+
+As we can see above, the method has accepted four parameters, of which the `input` is the first one to get a given array. Then, `shallow` is a Boolean value for checking whether to flatten just one layer of the array. 
