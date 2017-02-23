@@ -11,6 +11,6 @@ Before analyzing the method `_.flatten()` of underscore, we should consider how 
 
 ```js
 var flatten = function(input, shallow, strict, startIndex) {
-  // ...
+    // ...
 };
 ```
