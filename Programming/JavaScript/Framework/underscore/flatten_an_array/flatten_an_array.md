@@ -52,9 +52,7 @@ var flatten = function(input, shallow, strict, startIndex) {
             // value 值肯定是一个数组
             var j = 0, len = value.length;
             
-            // 这一步貌似没有必要
-            // 毕竟 JavaScript 的数组会自动扩充
-            // 但是这样写，感觉比较好，对于元素的 push 过程有个比较清晰的认识
+            /** update the length ? */
             output.length += len;
             
             // 将 value 数组的元素添加到 output 数组中
