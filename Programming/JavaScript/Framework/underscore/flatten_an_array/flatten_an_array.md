@@ -40,10 +40,10 @@ var flatten = function(input, shallow, strict, startIndex) {
         
         /** if the value is an array of an argument, then flatten it */
         if (isArrayLike(value) && (_.isArray(value) || _.isArguments(value))) {
-            // flatten current level of array or arguments object
-            // (!shallow === true) => (shallow === false)
-            // 则表示需深度展开
-            // 继续递归展开
+            /**
+             * flatten current level of array or arguments object
+             * if `shallow` is false, then flatten recursively to reassign the value
+             */
             if (!shallow) 
                 // flatten 方法返回数组
                 // 将上面定义的 value 重新赋值
