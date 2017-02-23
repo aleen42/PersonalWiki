@@ -85,3 +85,16 @@ _.union = function() {
 ```
 
 `_.difference()`, `_.pick()`, and `_.omit` have also used `flatten()` to implement. Therefore, one of the most elegant things of underscore is that it has created many predicate methods to implement hundreds of functions.
+
+```js
+/**
+ * Take the difference between one array and a number of other arrays.
+ * Only the elements present in just the first array will remain.
+ */
+_.difference = function(array) {
+    var rest = flatten(arguments, true, true, 1);
+    return _.filter(array, function(value){
+        return !_.contains(rest, value);
+    });
+};
+```
