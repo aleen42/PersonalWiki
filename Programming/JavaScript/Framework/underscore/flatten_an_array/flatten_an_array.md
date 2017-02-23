@@ -24,4 +24,6 @@ var ans = flatten([5, 6, [1, 2], [3, 4]], true, true);
 console.log(ans); /** => [1, 2, 3, 4] */
 ```
 
+Therefore, if giving `false` to `shallow` and `true` to `strict` at the same time, the method should always return an empty array.
+
 
