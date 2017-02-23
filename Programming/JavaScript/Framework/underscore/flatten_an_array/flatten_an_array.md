@@ -38,7 +38,7 @@ var flatten = function(input, shallow, strict, startIndex) {
     for (var i = startIndex || 0, length = getLength(input); i < length; i++) {
         var value = input[i];
         
-        /** if the value is an array of an argument */
+        /** if the value is an array of an argument, then flatten it */
         if (isArrayLike(value) && (_.isArray(value) || _.isArguments(value))) {
             // flatten current level of array or arguments object
             // (!shallow === true) => (shallow === false)
