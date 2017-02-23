@@ -80,6 +80,6 @@ _.flatten = function(array, shallow) {
 
 ```js
 _.union = function() {
-    return unique(flatten(arguments, true, true));
+    return _.uniq(flatten(arguments, true, true));
 };
 ```
