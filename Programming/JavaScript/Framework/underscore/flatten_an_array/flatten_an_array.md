@@ -58,13 +58,7 @@ var flatten = function(input, shallow, strict, startIndex) {
                 output[idx++] = value[j++];
             }
         } else if (!strict) { 
-            // (!strict === true) => (strict === false)
-            // 如果是深度展开，即 shallow 参数为 false
-            // 那么当最后 value 不是数组，是基本类型时
-            // 肯定会走到这个 else-if 判断中
-            // 而如果此时 strict 为 true，则不能跳到这个分支内部
-            // 所以 shallow === false 如果和 strict === true 搭配
-            // 调用 flatten 方法得到的结果永远是空数组 []
+            /** if `strict` is false then do not ignore the element which is not an array */
             output[idx++] = value;
         }
     }
