@@ -76,4 +76,10 @@ _.flatten = function(array, shallow) {
 };
 ```
 
-`_.union()` has also called `flatten()` to complete its duty to combine different sets (arrays with only unique elements)
+`_.union()` has also called `flatten()` to complete its duty to combine different sets (arrays with only unique elements):
+
+```js
+_.union = function() {
+    return unique(flatten(arguments, true, true)0;
+};
+```
