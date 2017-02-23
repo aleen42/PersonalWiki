@@ -52,7 +52,7 @@ var flatten = function(input, shallow, strict, startIndex) {
             // value 值肯定是一个数组
             var j = 0, len = value.length;
             
-            /** update the length ? */
+            /** update the length? */
             output.length += len;
             
             // 将 value 数组的元素添加到 output 数组中
