@@ -47,9 +47,7 @@ var flatten = function(input, shallow, strict, startIndex) {
             if (!shallow) 
                 value = flatten(value, shallow, strict);
             
-            // 递归展开到最后一层（没有嵌套的数组了）
-            // 或者 (shallow === true) => 只展开一层
-            // value 值肯定是一个数组
+            /** value shoule be an array */
             var j = 0, len = value.length;
             
             /** update the length? */
