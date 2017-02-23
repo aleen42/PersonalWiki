@@ -6,3 +6,9 @@ Flattening an array means to simplify an array with extracting embedded array of
 [[[1, 2], [1, 2, 3]], [1, 2]] => [1, 2, 1, 2, 3, 1, 2] /** flatten in a deep way */
 [[[1, 2], [1, 2, 3]], [1, 2]] => [[1, 2], [1, 2, 3], 1, 2] /** flatten only one layer */
 ```
+
+Before analyzing the method `_.flatten()` of underscore, we should consider how to call this method firstly:
+
+```js
+
+```
