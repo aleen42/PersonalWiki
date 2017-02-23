@@ -84,4 +84,4 @@ _.union = function() {
 };
 ```
 
-`_.difference()`, `_.pick()`, and `_.omit` have also used `flatten()` to implement. Therefore, the most elegant thing of underscore is that it has created many predicate methods to implement hundreds of functions.
+`_.difference()`, `_.pick()`, and `_.omit` have also used `flatten()` to implement. Therefore, one of the most elegant thing of underscore is that it has created many predicate methods to implement hundreds of functions.
