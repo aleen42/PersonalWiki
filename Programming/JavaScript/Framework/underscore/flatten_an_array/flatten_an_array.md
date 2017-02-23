@@ -34,7 +34,7 @@ var flatten = function(input, shallow, strict, startIndex) {
    */
   var output = [], idx = 0;
 
-  // 根据 startIndex 变量确定需要展开的起始位置
+  /** start from a given startIndex or 0 by default */
   for (var i = startIndex || 0, length = getLength(input); i < length; i++) {
     var value = input[i];
     // 数组 或者 arguments
