@@ -20,7 +20,8 @@ As we can see above, the method has accepted four parameters, of which the `inpu
 `strict` is also a Boolean value, but it's hard to understand. If `strict` is given a `true` value, then it means that each flattening will ignore any elements which is not an array. For example:
 
 ```js
-var ans = _.flatten([5, 6, [1, 2], [3, 4]], true, true);
+var ans = flatten([5, 6, [1, 2], [3, 4]], true, true);
+console.log(ans); /** => [1, 2, 3, 4] */
 ```
 
 
