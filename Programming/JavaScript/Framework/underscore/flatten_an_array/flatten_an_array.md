@@ -83,3 +83,5 @@ _.union = function() {
     return _.uniq(flatten(arguments, true, true));
 };
 ```
+
+`_.difference()`, `_.pick()`, and `_.omit` have also used `flatten()` to implement
