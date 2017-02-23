@@ -10,5 +10,7 @@ Flattening an array means to simplify an array with extracting embedded array of
 Before analyzing the method `_.flatten()` of underscore, we should consider how to call this method firstly:
 
 ```js
-
+var flatten = function(input, shallow, strict, startIndex) {
+  // ...
+};
 ```
