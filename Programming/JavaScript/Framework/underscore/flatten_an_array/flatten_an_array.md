@@ -53,7 +53,7 @@ var flatten = function(input, shallow, strict, startIndex) {
             /** update the length? */
             output.length += len;
             
-            // 将 value 数组的元素添加到 output 数组中
+            /** push all elements of this value to the output array */
             while (j < len) {
                 output[idx++] = value[j++];
             }
