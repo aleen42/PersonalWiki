@@ -45,8 +45,6 @@ var flatten = function(input, shallow, strict, startIndex) {
              * if `shallow` is false, then flatten recursively to reassign the value
              */
             if (!shallow) 
-                // flatten 方法返回数组
-                // 将上面定义的 value 重新赋值
                 value = flatten(value, shallow, strict);
             
             // 递归展开到最后一层（没有嵌套的数组了）
