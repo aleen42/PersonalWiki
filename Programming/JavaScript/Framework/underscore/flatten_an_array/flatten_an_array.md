@@ -67,4 +67,11 @@ var flatten = function(input, shallow, strict, startIndex) {
 };
 ```
 
+So `_.flatten()` has been completed by the following code snippet:
 
+```js
+_.flatten = function(array, shallow) {
+    /** given array and whether to flatten just one layer */
+    return flatten(array, shallow, false);
+};
+```
