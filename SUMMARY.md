@@ -137,6 +137,7 @@
                     * [Certain object functions like `pick()` and `create()`](./Programming/JavaScript/Framework/underscore/object_functions/object_functions.md)
                     * [How to find items in an array](./Programming/JavaScript/Framework/underscore/array_index/array_index.md)
                     * [How to get an array unique](./Programming/JavaScript/Framework/underscore/unique_array/unique_array.md)
+                    * [Flatten an array](./Programming/JavaScript/Framework/underscore/flatten_an_array/flatten_an_array.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
