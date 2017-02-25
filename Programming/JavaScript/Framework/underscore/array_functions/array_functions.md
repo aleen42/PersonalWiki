@@ -10,4 +10,4 @@ _.compact = function(array) {
 };
 ```
 
-`_.filter()` is similar to `Array.prototype.filter()`, and it's used to filter out some elements under a given condition.
+`_.filter()` is similar to `Array.prototype.filter()`, and it's used to filter out some elements under a given condition, as the function `_.identity` describes.
