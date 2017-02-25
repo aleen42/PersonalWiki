@@ -31,3 +31,15 @@ Number(undefined); /** => NaN */
 Number({}); /** => NaN */
 Number("abc"); /** => NaN */
 ```
+
+Then, ES6 has imported `Number.isNaN()` to judge strictly:
+
+```js
+isNaN = function (value) {
+    return Number(value) === NaN;
+};
+
+Number.isNaN = Number.isNaN || function (value) {
+    return typeof value === 'number' && isNaN(value);
+};
+```
