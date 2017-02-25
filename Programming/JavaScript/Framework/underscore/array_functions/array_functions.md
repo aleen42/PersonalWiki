@@ -64,7 +64,7 @@ _.without = function(array) {
     if (this === 'difference') {
         rest = _.flatten(arguments, false, false, 1);
     } else {
-        rest = Array.prototype.slice.call(aru
+        rest = Array.prototype.slice.call(arugments, 1);
     }
     
     return _.filter(array, function(value) {
@@ -76,6 +76,7 @@ _.difference = function(array) {
     /** filter out arguments which is not an array firstly */
     var args = _.flatten(arguments, true, true, 1);
 
+    /** let the method `_.without()` know that whether it's called by `_.difference()` */
     return _.without.apply('difference', args.unshift(array));
 };
 ```
