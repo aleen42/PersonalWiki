@@ -48,6 +48,10 @@ _.difference = function(array) {
         return !_.contains(rest, value);
     });
 };
+
+_.without = function(array) {
+    return _.difference(array, slice.call(arguments, 1));
+};
 ```
 
 
