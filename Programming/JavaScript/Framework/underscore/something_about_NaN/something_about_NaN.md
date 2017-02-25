@@ -22,3 +22,12 @@ isNaN(undefined); /** => true */
 isNaN({}); /** => true */
 isNaN('number'); /** => true */
 ```
+
+That's because the value passed into the method will be firstly converted into Number types:
+
+```js
+Number(NaN); /** => NaN */
+Number(undefined); /** => NaN */
+Number({}); /** => NaN */
+Number("abc"); /** => NaN */
+```
