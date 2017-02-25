@@ -78,7 +78,8 @@ _.difference = function(array) {
 
     /**
      * let the method `_.without()` know that whether it's called by `_.difference()`,
-     * if so, then flatten all the arrays from arguments
+     * if so, then flatten all the arrays from argments,
+     * if not, then do not flatten.
      */
     return _.without.apply('difference', args.unshift(array));
 };
