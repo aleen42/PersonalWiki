@@ -59,13 +59,7 @@ How about implementing it in a reversed way:
 
 ```js
 _.without = function(array) {
-    var rest = null;
-    
-    if (this === 'difference') {
-        rest = _.flatten(arguments, false, false, 1);
-    } else {
-        rest = Array.prototype.slice.call(arugments, 1);
-    }
+    var rest = (this == 'difference') ? _.flatten(arguments, false, false, 1) : Array.prototype.slice.call(arugments, 1);
     
     return _.filter(array, function(value) {
         return !_.contains(rest, value);
