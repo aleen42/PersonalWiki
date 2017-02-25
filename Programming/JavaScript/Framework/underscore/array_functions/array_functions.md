@@ -50,7 +50,7 @@ _.difference = function(array) {
 };
 
 _.without = function(array) {
-    /** put arguments except the array into an array */
+    /** put arguments except the given array into an array */
     return _.difference(array, slice.call(arguments, 1));
 };
 ```
