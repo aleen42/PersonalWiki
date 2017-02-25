@@ -38,7 +38,7 @@ The difference between these two methods is that `_.without()` will accept singl
 /** _.difference(array, *others) */
 _.difference = function(array) {
     /**
-     * because the `strict` accept `true`, an argument like 10 when 
+     * because the `strict` property has accepted `true`, an argument like 10 when 
      * calling _.difference(arr, [1, 2], 10); will be ignored
      */
     var rest = flatten(arguments, true, true, 1);
