@@ -17,4 +17,4 @@ Here I will note what other people grasp from this library according to summarie
 - [**How to find items in an array**](./array_index/array_index.md)
 - [**How to get an array unique**](./unique_array/unique_array.md)
 - [**Flatten an array**](./flatten_an_array/flatten_an_array.md)
-- [**Certain array functions like `compact()`, `difference()` and `without()`**](./array_functions/array_functions.md)
+- [**Certain array functions like `compact()`, `difference()`, and `without()`**](./array_functions/array_functions.md)
