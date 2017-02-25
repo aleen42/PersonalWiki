@@ -76,7 +76,10 @@ _.difference = function(array) {
     /** filter out arguments which is not an array firstly */
     var args = _.flatten(arguments, true, true, 1);
 
-    /** let the method `_.without()` know that whether it's called by `_.difference()` */
+    /**
+     * let the method `_.without()` know that whether it's called by `_.difference()`,
+     * if so, then flatten all the arrays from arguments
+     */
     return _.without.apply('difference', args.unshift(array));
 };
 ```
