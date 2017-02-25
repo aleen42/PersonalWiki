@@ -49,3 +49,11 @@ However, this implementation still have a problem:
 ```js
 Number.isNaN(new Number(NaN)); /** => false */
 ```
+
+Therefore, underescore has fixed by implementing this:
+
+```js
+_.isNaN = function (obj) {
+    return Object.prototype.toString.call(obj) === '[object Number]' && obj !== +obj;
+}
+```
