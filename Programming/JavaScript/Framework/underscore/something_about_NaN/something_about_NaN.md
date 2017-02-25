@@ -57,3 +57,10 @@ _.isNaN = function (obj) {
     return Object.prototype.toString.call(obj) === '[object Number]' && obj !== +obj;
 };
 ```
+
+But this causes a huge problem:
+
+```js
+_.isNaN(new Number(0)); /** => true */
+_.isNaN(new Number(1)); /** => true */
+```
