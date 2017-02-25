@@ -55,7 +55,7 @@ _.without = function(array) {
 };
 ```
 
-How about implementing it in a reversed way (we have to consider more about arguments when calling both them):
+How about implementing it in a reversed way (we have to consider more about arguments when calling both of them):
 
 ```js
 _.without = function(array) {
