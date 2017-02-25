@@ -31,3 +31,5 @@ var arr = [1, 2, 3, 4, 5];
 var result = _.difference(arr, [1, 2, 3], [5, 6]);
 console.log(result); /** => [4] */
 ```
+
+The difference between these two methods is that `_.without()` will accept single values separated by a comma, while `_.difference()` will accept values constructed with arrays 
