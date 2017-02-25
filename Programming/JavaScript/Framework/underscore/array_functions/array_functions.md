@@ -65,4 +65,8 @@ _.without = function(array) {
         return !_.contains(rest, value);
     });
 };
+
+_.difference = function(array) {
+    return _.without.apply(null, array);
+};
 ```
