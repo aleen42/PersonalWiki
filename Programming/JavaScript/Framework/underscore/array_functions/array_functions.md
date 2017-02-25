@@ -32,4 +32,23 @@ var result = _.difference(arr, [1, 2, 3], [5, 6]);
 console.log(result); /** => [4] */
 ```
 
-The difference between these two methods is that `_.without()` will accept single values separated by a comma, while `_.difference()` will accept values constructed with arrays. 
+The difference between these two methods is that `_.without()` will accept single values separated by a comma, while `_.difference()` will accept values constructed with arrays. Therefore, if we have implemented `_.difference()`, we can just implement `_.without()` by calling `_.difference()` after putting arguments into an array:
+
+```js
+/** _.difference(array, *others) */
+_.difference = function(array) {
+    /**
+     * because the `shallow` accept `true`, an argument like 10 when 
+     * calling _.difference(arr, [1, 2], 10); will be ignored
+     */
+    var rest = flatten(arguments, true, true, 1);
+    
+    // 遍历 array，过滤
+    return _.filter(array, function(value){
+    // 如果 value 存在在 rest 中，则过滤掉
+    return !_.contains(rest, value);
+    });
+};
+```
+
+
