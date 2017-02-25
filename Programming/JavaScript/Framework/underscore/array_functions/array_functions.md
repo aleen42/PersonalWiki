@@ -70,6 +70,6 @@ _.difference = function(array) {
     /** filter out arguments which is not an array firstly */
     var args = _.flatten(arguments, true, true, 1);
 
-    return _.without.apply(null, args.unshift(array));
+    return _.without.apply(this, args.unshift(array));
 };
 ```
