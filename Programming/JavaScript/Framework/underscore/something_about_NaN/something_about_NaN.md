@@ -55,5 +55,5 @@ Therefore, underescore has fixed by implementing this:
 ```js
 _.isNaN = function (obj) {
     return Object.prototype.toString.call(obj) === '[object Number]' && obj !== +obj;
-}
+};
 ```
