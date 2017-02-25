@@ -13,3 +13,12 @@ Although `NaN` is a Number, it is not equal to itself:
 console.log(NaN == NaN); /** => false */
 console.log(NaN === NaN); /** => false */
 ```
+
+However, the global method `isNaN` will always return true when judging whether a value is `NaN`:
+
+```js
+isNaN(NaN); /** => true */
+isNaN(undefined); /** => true */
+isNaN({}); /** => true */
+isNaN('number'); /** => true */
+```
