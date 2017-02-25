@@ -43,3 +43,9 @@ Number.isNaN = Number.isNaN || function (value) {
     return typeof value === 'number' && isNaN(value);
 };
 ```
+
+However, this implementation still have a problem:
+
+```js
+Number.isNaN(new Number(NaN)); /** => false */
+```
