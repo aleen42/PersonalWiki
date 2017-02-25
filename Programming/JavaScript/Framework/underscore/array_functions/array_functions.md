@@ -67,6 +67,7 @@ _.without = function(array) {
 };
 
 _.difference = function(array) {
+    /** flatten the element which is not an array in the arguments */
     var args = _.flatten(arguments, true, true, 1);
 
     return _.without.apply(null, array, args);
