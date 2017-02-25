@@ -17,3 +17,17 @@ _.identity = function(value) {
     return value;
 };
 ```
+
+Both `_.without()` and `_.difference()` is used to filter out some elements from an array with given specific values:
+
+```js
+var arr = [1, 2, 3, 4, 5];
+var result = _.without(arr, 1, 2, 3);
+console.log(result); /** => [4, 5] */
+```
+
+```js
+var arr = [1, 2, 3, 4, 5];
+var result = _.difference(arr, [1, 2, 3], [5, 6]);
+console.log(result); /** => [4] */
+```
