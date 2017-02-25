@@ -67,6 +67,6 @@ _.without = function(array) {
 };
 
 _.difference = function(array) {
-    return _.without.apply(null, argument);
+    return _.without.apply(null, arguments);
 };
 ```
