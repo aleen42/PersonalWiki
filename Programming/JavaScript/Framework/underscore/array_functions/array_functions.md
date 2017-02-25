@@ -11,3 +11,9 @@ _.compact = function(array) {
 ```
 
 `_.filter()` is similar to `Array.prototype.filter()`, and it's used to filter out some elements under a given condition, as the function `_.identity` describes. If this function accepts an element of the array and return a `true` value, then the element can be kept into the array.
+
+```js
+_.identity = function(value) {
+    return value;
+};
+```
