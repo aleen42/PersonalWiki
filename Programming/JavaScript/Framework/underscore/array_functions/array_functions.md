@@ -43,10 +43,10 @@ _.difference = function(array) {
      */
     var rest = flatten(arguments, true, true, 1);
     
-    // 遍历 array，过滤
+    /** use `_.filter()` to filter out */
     return _.filter(array, function(value){
-    // 如果 value 存在在 rest 中，则过滤掉
-    return !_.contains(rest, value);
+        // 如果 value 存在在 rest 中，则过滤掉
+        return !_.contains(rest, value);
     });
 };
 ```
