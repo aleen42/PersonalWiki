@@ -6,3 +6,10 @@ Before talking about something about `NaN`, we should know that what it means. A
 console.log(Object.prototype.toString.call(NaN)); /** => "[object number]" */
 console.log(Object.prototype.toString.call(Number.NaN)); /** => "[object number]" */
 ```
+
+Although `NaN` is a Number, it is not equal to itself:
+
+```js
+console.log(NaN == NaN); /** => false */
+console.log(NaN === NaN); /** => false */
+```
