@@ -64,3 +64,11 @@ But this causes a huge problem:
 _.isNaN(new Number(0)); /** => true */
 _.isNaN(new Number(1)); /** => true */
 ```
+
+Therefore, the most elegant way to implement this method should be:
+
+```js
+_.isNaN = function (obj) {
+    return Object.prototype.toString.call(obj) === '[object Number]' && isNaN(obj);
+};
+```
