@@ -60,5 +60,9 @@ How about implementing it in a reversed way:
 ```js
 _.without = function(array) {
     var rest = arguments.slice(1);
+    
+    return _.filter(array, function(value) {
+        return !_.contains(rest, value);
+    });
 };
 ```
