@@ -64,3 +64,7 @@ promiseObj.catch(function () {
 
 ### How the task be executed?
 
+Consider the following code snippet, and think about the order it execute.
+
+```js
+```
