@@ -31,4 +31,4 @@ According to [whatwg](https://html.spec.whatwg.org/multipage/webappapis.html#tas
 - Using a resource
 - Realting to DOM manipulation
 
-Each time an event loop takes a task from the macrotasks, and execute it until all tasks has been done. Then, all the available tasks from the microtasks will be executed in the end of this event loop. If there're still some new tasks registered during executing, these new tasks will be handled in the a nex
+Each time an event loop takes a task from the macrotasks, and execute it until all tasks has been done. Then, all the available tasks from the microtasks will be executed in the end of this event loop. If there're still some new tasks registered during executing, these new tasks will be handled in a next event loop.
