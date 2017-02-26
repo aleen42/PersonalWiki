@@ -50,7 +50,7 @@ However, this implementation still have a problem:
 Number.isNaN(new Number(NaN)); /** => false */
 ```
 
-Therefore, underescore has fixed by implementing this:
+Therefore, underscore has fixed by implementing this:
 
 ```js
 _.isNaN = function (obj) {
