@@ -87,4 +87,6 @@ new Promise(function executor(resolve) {
 console.log(5);
 ```
 
+A microtask will be executed in the end of the current event loop, while a macrotask will be executed in the next event
+
 So the console log should be: `2, 3, 5, 4, 1`.
