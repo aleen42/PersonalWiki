@@ -69,7 +69,7 @@ Consider the following code snippet, and think about the order it execute.
 ```js
 setTimeout(function() {
     console.log(1)
-}, 0); /** belongs to a microtask */
+}, 0); /** belongs to a macrotask */
 
 new Promise(function executor(resolve) {
     /** this function will be executed at once */
@@ -81,7 +81,7 @@ new Promise(function executor(resolve) {
     /** even though the following console is executed after resolving, it's still faster to be executed */
     console.log(3);
 }).then(function() {
-    /** belongs to a macrotask */
+    /** belongs to a microtask */
     console.log(4);
 });
 console.log(5);
