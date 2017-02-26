@@ -61,3 +61,6 @@ promiseObj.catch(function () {
 ### Compatibility
 
 **Q / Bluebird / Async / co / then / Babel** has supported asynchronous programming.
+
+### How the task be executed?
+
