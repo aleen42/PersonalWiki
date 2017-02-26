@@ -1,4 +1,4 @@
-## Events Loop [Back](./../JavaScript.md)
+## Event Loops [Back](./../JavaScript.md)
 
 ### Introduction
 
