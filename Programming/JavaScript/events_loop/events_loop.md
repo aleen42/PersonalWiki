@@ -23,7 +23,7 @@ When it comes to task queues, there're mainly two types of queues: **microtasks*
 
 ### Advanced Analysis
 
-According to [whatwg](https://html.spec.whatwg.org/multipage/webappapis.html#task-queue), a task queue is an ordered list of **tasks**, which are algorithms that are responsible for such works as:
+According to [whatwg](https://html.spec.whatwg.org/multipage/webappapis.html#task-queue), an event loop will have one or more task queues, while a task queue is an ordered list of **tasks**, which are algorithms that are responsible for such works as:
 
 - Events
 - Parsing
