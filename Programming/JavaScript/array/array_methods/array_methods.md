@@ -90,7 +90,7 @@ console.log(a.sort(sortby));            /** => [5, 4, 3, 2, 1]          */
 #### 7. `slice(start, end)` & `splice(index, howmany, item1, item2, ..., itemX)`
 
 `slice(start, end)` is used to get items of an array from the start to the end. (**not include the end**)
-`splice(index, howmany, item1, item2, ..., itemX)` is used to add/remove items of an array from the index, and add before deleting howmany items.
+`splice(index, howmany, item1, item2, ..., itemX)` is used to add/remove items of an array from the index, and add before deleting how many items.
 
 - end(optional): specify when to end, which is equivalent to the (length + 1) of the array.
 
