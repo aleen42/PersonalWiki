@@ -23,5 +23,11 @@ When it comes to task queues, there're mainly two types of queues: **microtasks*
 
 ### Advanced Analysis
 
-According to [whatwg](https://html.spec.whatwg.org/multipage/webappapis.html#task-queue)
+According to [whatwg](https://html.spec.whatwg.org/multipage/webappapis.html#task-queue), a task queue is an ordered list of **tasks**, which are algorithms that are responsible for such works as:
+
+- Events
+- Parsing
+- Callbacks
+- Using a resource
+- Realting to DOM manipulation
 
