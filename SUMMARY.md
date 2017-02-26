@@ -231,6 +231,7 @@
                         * [Destructuring Assignment](./Programming/JavaScript/es6/destructuring_assignment/destructuring_assignment.md)
                         * [Variables Definition](./Programming/JavaScript/es6/definition/definition.md)
                         * [Global](./Programming/JavaScript/es6/global/global.md)
+                    * [Events Loop](./events_loop/events_loop.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
