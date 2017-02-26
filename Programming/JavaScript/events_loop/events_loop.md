@@ -6,7 +6,7 @@ The multi-threading technology has given us a way to handle works that may take 
 
 In brief, when you calling `setTimeout`, `http.get`, or `fs.readFile`, Node.js will deliver these tasks to another potential thread to do so, so that it can continue to execute other codes. Generally, these functions will also accept a callback function to call after completing the tasks you set before. When tasks are set up, these tasks will be stored in a queue, named **task queues**, waiting for being executed. When the task has been completed, Node.js will use a loop to execute related callback functions, and the loop is called **event loops**.
 
-When it comes to Tasks Queue, there're mainly two types of queues: **microtasks** and **macrotasks**.
+When it comes to task queues, there're mainly two types of queues: **microtasks** and **macrotasks**.
 
 **microtasks**:
 
