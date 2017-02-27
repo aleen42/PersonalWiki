@@ -20,11 +20,11 @@ Similar to other languages, though, where data is stored can greatly affect how 
 
 A general trend has indicated that: **literal values and local variable access tend to be faster than array item and object member access**. So the advice is to use literal values and local variables whenever possible, and limit use of array items and object members, which speed of execution is a concern.
 
-### Managing Scope
+### 1. Managing Scope
 
 When dealing with scope, we must consider performance as well. That's why we should understand exactly how scope works before, and how speed relates to scope.
 
-#### Scope Chains and Identifier Resolution
+#### 1.1 Scope Chains and Identifier Resolution
 
 In JavaScript, any function is represented as an object, which will have accessible properties or not accessible like [[Scope]]. The internal [[Scope]] property contains a collection of objects, representing **the scope in which the function was created**. This collection is named the function's **Scope Chain**, which will determine the data that a function can access. Objects in the Scope chain are called **Variable Objects**, each of which will contains entries for variables in the form of key-value pairs.
 
@@ -57,7 +57,7 @@ Variable identifying will search the scope chain, and is deemed to be undefined 
 
 > **Two variables with the same name may exist in different parts of the scope chain**. In that case, the identifier is bound to the variable that is found first in the scope chain traversal, and the first variable is said to shadow the second.
 
-#### Identifier Resolution Performance
+#### 1.2 Identifier Resolution Performance
 
 Consequently, **local variables are always the fastest to access inside of a function, whereas global variables will generally be the slowest**. As the depth grows, the time of this process will grow as well.
 
@@ -105,7 +105,7 @@ function initUI() {
 }
 ```
 
-#### Scope Chain Augmentation(擴大化)
+#### 1.3 Scope Chain Augmentation(擴大化)
 
 Though we won't change an execution context's scope chain, we can also temporarily augment the scope chain while it's being executed with two statements. The first of these is `with`, which is usually seen as a convenience to avoid writing the same code repeatedly.
 
@@ -157,7 +157,7 @@ try {
 }
 ```
 
-#### Dynamic Scopes
+#### 1.4 Dynamic Scopes
 
 Both the `with` statement and the `catch` clause of a `try-catch` statement, as well as a function containing `eval()`, are all considered to be **Dynamic Scopes**. A dynamic scope is one that exists only through execution of code and therefore cannot be determined simply by static analysis.
 
@@ -208,11 +208,11 @@ Using closures will bring out another performance problem. When the closure defi
 
 To mitigate the execution speed impact, remember a principle: **store any frequently used out-of-scope variables in local variables, and then access the local variables directly**.
 
-### Object Members
+### 2. Object Members
 
 In JavaScript, functions are represented as objects, with methods, which is named members referencing a function, or properties, which is named members referencing a non-function data type.
 
-#### Prototypes
+#### 2.1 Prototypes
 
 Objects in JavaScript are based on `prototypes`. A prototype is an object that serves as the base of another object, defining and implementing members that a new object must have.
 
@@ -243,7 +243,7 @@ console.log('title' in book);                   /** => true     */
 console.log('toString', in book);               /** => true     */
 ```
 
-#### Prototype Chains
+#### 2.2 Prototype Chains
 
 By default, all objects are instances of Object and inherit all the basic method. In order to create a prototype of another type, we can define and use a constructor:
 
@@ -272,7 +272,7 @@ As we see above, `book1` and `book2` are both instances of `Book`, so the `__pro
 
 Searching members will go through this chain. For example, when `book1.toString()` is called, the search must go deeper into the prototype to resolve the object member `toString`. Therefore, deeper the search go into, more overhead will be taken to complete this search. Just keep in mind that the process of looking up an instance member is still more expensive than accessing data from a literal or a local variable.
 
-#### Nested Members
+#### 2.3 Nested Members
 
 Nested members are normally seen in JavaScirpt, which we will use `.` notation
 to access like `window.location.href`. Each time a dot is encountered, the JavaScript engine will go through the object member resolution process. Obviously, the deeper the nested member, the slower the data is accessed. It means that, `location.href` is always faster than `window.loation.href`, which is faster than `window.location.href.toString()`.
@@ -302,7 +302,7 @@ function hasEitherClass(ele, className1, className2) {
 
 > It's not recommended to use `this` technique for object method. Because when changing the value of `this` will lead to programmatic errors.
 
-### Summary
+### 3.Summary
 
 There are four places to access data from: literal values, variables, array items, and object members. These locations all have different performance considerations.
 
