@@ -281,7 +281,7 @@ In some cases, we will use `[]` to access members of an object. Here is a point 
 
 > In most browsers, there is no discernible(明顯的) difference between using `[]` notation and `.` notation.  However, in Safari, `.` notation is consistently faster than using `[]`.
 
-#### Caching Object Member Values
+#### 2.4 Caching Object Member Values
 
 Since performance issues related to object members has existed, it's advised to avoid using this only when necessary. For instance, there's no reason to read the value of an object member more than once in a single function:
 
@@ -302,7 +302,7 @@ function hasEitherClass(ele, className1, className2) {
 
 > It's not recommended to use `this` technique for object method. Because when changing the value of `this` will lead to programmatic errors.
 
-### 3.Summary
+### 3. Summary
 
 There are four places to access data from: literal values, variables, array items, and object members. These locations all have different performance considerations.
 
