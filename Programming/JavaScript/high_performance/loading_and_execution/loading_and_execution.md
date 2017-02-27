@@ -90,7 +90,7 @@ Here is an example shown above. In browsers that don't support `defer`, the orde
 
 #### 3.2 Dynamic Script Elements
 
-At the root of a document, the `<script>` element isn't any different than any other element on a page: references can be retrieved through the DOM, and they can be moved, removed from the document, and even created. That's why we can easiy using standard DOM methods to create a `<script>` element.
+At the root of a document, the `<script>` element isn't any different than any other element on a page: references can be retrieved through the DOM, and they can be moved, removed from the document, and even created. That's why we can easily using standard DOM methods to create a `<script>` element.
 
 ```js
 var script = document.createElement('script');
@@ -102,7 +102,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 > It's generally safer to add new `<script>` nodes to the `<head>` element instead of the `<body>`, especially if this code is executing during page load. That's because, Internet Explorer may experience an "operation aborted" error if all of the `<body>` contents have not yet been loaded.
 
-Because there will be problems if the code contains only interfaces to be used by other scripts, we need to track when the coe has been fully downloaded and ready for use. In Firefox, Opera, Chrome and Safari 3+, we can use `load` event to check this:
+Because there will be problems if the code contains only interfaces to be used by other scripts, we need to track when the code has been fully downloaded and ready for use. In Firefox, Opera, Chrome and Safari 3+, we can use `load` event to check this:
 
 ```js
 var script = document.createElement('script');
