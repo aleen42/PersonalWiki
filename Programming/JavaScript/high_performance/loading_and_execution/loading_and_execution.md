@@ -2,7 +2,7 @@
 
 In fact, most browsers use a single process for both user interface (UI) updates and JavaScript execution, so only one can happen at any given moment in time. If we loaded JavaScript between a document, no matter using closed tag or `src` attribute, the browser has to block the user interaction to load and execute the script.
 
-### Script Positioning
+### 1. Script Positioning
 
 Traditionally, `<script>` tags that are used to load external JavaScript files have appeared in the `<head>`, along with `<link>` tags to load external CSS files and other metainformation(元信息s) about the page.
 
@@ -41,7 +41,7 @@ Because scripts block downloading of all resource types on the page, it's recomm
 </html>
 ```
 
-### Grouping Scripts
+### 2. Grouping Scripts
 
 Since each `<script>` tag blocks the page from rendering during initial download, it's helpful **to limit the total number of `<script>` tags** contained in the page. This applies to both inline scripts as well as those in external files. That's **to reduce the delay while the code is executed**.
 
@@ -51,11 +51,11 @@ Therefore, if a large website or web application has several required JavaScript
 
 Yahoo! User Interface (YUI) has given you a way to pull in any nubmer of JavaScrpit files by using **a combo-handled URL** like: http://yui.yahooapis.com/combo?2.7.0/build/yahoo/yahoo-min.js&2.7.0/build/event/event-min.js
 
-### Nonblocking Scripts
+### 3. Nonblocking Scripts
 
 The secret to nonblocking scripts is to load the JavaScript source code after the page has finished loading. In technical terms, this means downloading the code after the `load` event of the `window` object has been triggered.
 
-#### Deferred Scripts
+#### 3.1 Deferred Scripts
 
 HTML 4 defines an additional attribute for the `<script>` tag called `defer`. The `defer` attribute indicates that the script contained within the element is not going to modify the DOM and therefore execution can be safely deferred until a later point in time.
 
@@ -88,7 +88,7 @@ A `<script>` tag with `defer` may be placed anywhere in the document. The JavaSc
 
 Here is an example shown above. In browsers that don't support `defer`, the order of the alerts is "defer", "script", and "load", while in browsers that support `defer`, the order of the alerts is "script", "defer", and "load".
 
-#### Dynamic Script Elements
+#### 3.2 Dynamic Script Elements
 
 At the root of a document, the `<script>` element isn't any different than any other element on a page: references can be retrieved through the DOM, and they can be moved, removed from the document, and even created. That's why we can easiy using standard DOM methods to create a `<script>` element.
 
@@ -182,7 +182,7 @@ loadScript('file1.js', function () {
     });
 });
 ```
-#### XMLHttpRequest Script Injection
+#### 3.3 XMLHttpRequest Script Injection
 
 Using an XMLHttpRequest(XHR) object is another way to retrieve code from a JavaScript file. Then, we can use the `text` property of a script tag element to inject script into a page:
 
@@ -216,7 +216,7 @@ The disadvantage is that:
 
 - Due to same origin policy, only JavaScript files located on the same domain can be loaded (CDN is not allowed)
 
-#### The LazyLoad library
+#### 3.4 The LazyLoad library
 
 The lazyLoad library (available at http://github.com/rgrove/lazyload/) is a more powerful function of `loadScript()`, which can detect the correct order of loading multiple JavaScript files:
 
@@ -229,7 +229,7 @@ The lazyLoad library (available at http://github.com/rgrove/lazyload/) is a more
 </script>
 ```
 
-### Summary
+### 4. Summary
 
 Because of the blocking problem of JavaScript loading, there're some ways to minimize the performance impact of JavaScript:
 
