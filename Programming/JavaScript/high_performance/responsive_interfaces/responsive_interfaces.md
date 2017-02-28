@@ -97,4 +97,4 @@ In either case, creating a timer creates a pause in the UI thread as it switches
 
 JavaScript timers delays are often imprecise, which means that they are unreliable for measuring actual time passed.
 
-Setting timer delays of less than 15 can cause browser locking in IE, so the smallest recommended delay is 25 milliseconds (which will end up as either 15 or 30) to ensure a delay of at least 15 milliseconds.
+Setting timer delays of less than 15 can cause browser locking in IE, so the smallest recommended delay is 25 milliseconds (which will end up as either 15 or 30) to ensure a delay of at least 15 milliseconds. This minimum timer delay also helps to avoid timer resolution issues in other browsers and on other systems
