@@ -6,4 +6,4 @@ Most browsers have a single process that is shared between JavaScript execution 
 
 ### 1. The Browser UI Thread
 
-The so-called process shared by JavaScript and user interface updates is frequently referred to as the browser UI thread (though it's not accurate for all browsers)
+The so-called process shared by JavaScript and user interface updates is frequently referred to as the browser UI thread (though it's not accurate for all browsers).
