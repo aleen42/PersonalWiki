@@ -116,3 +116,21 @@ There are two factors determining whether a loop can be done asynchronously usin
 - Does the processing have to be done synchronously?
 - Does the data have to be processed sequentially?
 
+If the answer to both of these questions is "no", then it's a good candidate for using timers to slit up the work:
+
+```js
+var todo = items.concat();
+
+setTimeout(function () {
+    /** get next item in the array and process it */
+    process(todo.shift());
+    
+    /** if there is more items to process, create anothertimer */
+    if (todo.length > 0) {
+        setTimeout(arguments.callee, 25);
+    } else {
+        callback(items);
+    }
+}, 25);
+```
+
