@@ -51,7 +51,7 @@ for (var prop in obj) {
 
 #### 1.1 Loop Performance
 
-Of the four loop types provided by JavaScript, only one of them is significantly slower than the other: the **`for-in`** loop. A `for-in` loop can end up as much as seven times slower than the other loop types. For this reason, it's recommended to avoid using it unless you intent to iterate over an unknown umber of object properties. If you have known list of properties to iterate over, it's faster to use another type of loop: (Furthurmore, there is also a compatibility problem with using `for-in`, check the analysis of )
+Of the four loop types provided by JavaScript, only one of them is significantly slower than the other: the **`for-in`** loop. A `for-in` loop can end up as much as seven times slower than the other loop types. For this reason, it's recommended to avoid using it unless you intent to iterate over an unknown umber of object properties. If you have known list of properties to iterate over, it's faster to use another type of loop: (Furthurmore, there is also a compatibility problem with using `for-in`, check [the analysis of underscore](./../../Framework/underscore/for_in_compatibility/for_in_compatibility.md))
 
 ```js
 var props = ['prop1', 'prop2'];
