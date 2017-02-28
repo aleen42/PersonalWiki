@@ -44,4 +44,6 @@ Browsers place limits on the amount of time that JavaScript take to execute, so 
 
 To create a good user experience, a script should be executed as fast as possible. Brendan Eich, creator of JavaScript, is quoted as having once said, "[JavaScript] that executes in whole seconds is probably doing something wrong...". So what is an appropriate amount of time to execute a script?
 
-**100 milliseconds**
+**100 milliseconds**, why?
+
+This number comes from research conducted by Robert Miller in 1968, while a usability expert Jakob Nielson has also claimed that if the interface responses to user input within 100 milliseconds, the user fells that he is "directly manipulating the objects in the user interface".
