@@ -66,4 +66,4 @@ setTimeout(function() {
 }, 250);
 ```
 
-Like the snippet above, the timer should wait for end of the function `task()`.
+Like the snippet above, the timer should wait for the end of the function `task()`.
