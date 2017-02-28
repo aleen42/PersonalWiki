@@ -26,5 +26,6 @@ Consider the case where a button click results in a message being displayed on t
     </script>
 </body>
 </html>
-107
 ```
+
+Once the button is clicked, it will create and add two new tasks to a queue, waiting for being executed.
