@@ -49,3 +49,5 @@ To create a good user experience, a script should be executed as fast as possibl
 This number comes from research conducted by Robert Miller in 1968, while a usability expert Jakob Nielson has also claimed that if the interface responses to user input within 100 milliseconds, the user fells that he is "directly manipulating the objects in the user interface".
 
 ### 2. Yielding with Timers
+
+Despite best efforts, there will be times when a JavaScript tasks cannot be completed in 100 milliseconds or less because of its complexity. In these cases, it is a good choice to given the UI a chance to update itself before cotinuing to execute the rest of code.
