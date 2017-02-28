@@ -28,4 +28,4 @@ Consider the case where a button click results in a message being displayed on t
 </html>
 ```
 
-Once the button is clicked, it will create and add two new tasks to a queue, waiting for being executed.
+Once the button is clicked, it will create and add two new tasks to a queue, waiting for being executed. The first task is to change the appearance of the button to indicate it was clicked, while second one is to execute the JavaScript code.
