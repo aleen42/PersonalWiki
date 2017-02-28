@@ -32,4 +32,4 @@ Once the button is clicked, it will create and add two new tasks to a queue, wai
 
 #### 1.1 Browser Limits
 
-Browsers place limits on the amount of time that JavaScript take to execute, so that it won't block the UI thread forever.
+Browsers place limits on the amount of time that JavaScript take to execute, so that it won't block the UI thread forever. There're two such limits: the **call stack size limit** and the **long-running script limit**.
