@@ -41,3 +41,7 @@ Browsers place limits on the amount of time that JavaScript take to execute, so 
 - Opera has no long-running script limit and will continue to execute JavaScript code until it has finished, though, due to Opera's architecture, this will not cause system instability while the execution is completed.
 
 #### 1.2 How Long Is Too Long?
+
+To create a good user experience, a script should be executed as fast as possible. Brendan Eich, creator of JavaScript, is quoted as having once said, "[JavaScript] that executes in whole seconds is probably doing something wrong...". So what is an appropriate amount of time to execute a script?
+
+**100 milliseconds**
