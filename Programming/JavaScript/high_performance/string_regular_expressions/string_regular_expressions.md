@@ -4,7 +4,7 @@ This chapter mainly helps you understand how regular expression engines internal
 
 Also in this chapter, we will learn about the fastest cross-browser methods for concatenating and trimming strings, discover how to increase regex performance by reducing backtracking, and any other tips and tricks for efficiently processing strings and regular expressions.
 
-### String Concatenation
+### 1. String Concatenation
 
 String concatenation is a common task for us to build a string, and how to optimize it? For starters, there is more than one way to merge strings
 
@@ -20,7 +20,7 @@ String concatenation is a common task for us to build a string, and how to optim
 
 All of these methods are fast when concatenating a few strings, nevertheless as the length and number of strings that must be merged increases, some methods start to show their strength.
 
-#### `+` and `+=` Operators
+#### 1.1 `+` and `+=` Operators
 
 Several techniques maximize the efficiency of these operators.
 
@@ -98,7 +98,7 @@ Since we have not often built strings from compile-time constants, it doesn't he
 
 > The YUI Compressor performs this optimization at build time.
 
-#### Array Joining
+#### 1.2 Array Joining
 
 The `Array.prototype.join` method can be used to merge all elements of an array into a string and accepts a separator string to insert between each element. By passing an empty string, you can perform a simple concatenation of all elements in an array.
 
@@ -143,7 +143,7 @@ newStr = strs.join('');
 
 Apparently, the approach of using array joining has reduced so much time to complete this task. Why? IE7's native concatenation algorithm requires that the browser repeatedly copy and allocate memory for larger and larger strings each time through the loop. It's allocations that waste so much time.
 
-#### `String.prototype.concat`
+#### 1.3 `String.prototype.concat`
 
 The `String.prototype.concat` is an convenient method, which accepts any number of arguments and appends each to the string.
 
@@ -160,11 +160,11 @@ str = String.prototype.concat.apply(str, array);
 
 Everything has two coins, and `concat` has paid for its convenience. `concat` is a little slower than simple `+` and `+=` operations in most cases, and can be very slower in IE, Opera, and Chrome. The reason is same as using `+` and `+=` when building large strings in IE7 and earlier.
 
-### Regular Expression Optimization
+### 2. Regular Expression Optimization
 
 Incautiously crafted regexes can be a major performance bottleneck, but there is a lot you can do to improve regex efficiency. Just because two regexes match the same text does not mean they do at the same speed.
 
-#### How Regular Expressions Work
+#### 2.1 How Regular Expressions Work
 
 Before focusing on the improvement of performance, it's important to understand how regular expressions work.
 
@@ -196,7 +196,7 @@ Before focusing on the improvement of performance, it's important to understand 
 
     Only after cycling each character in the string and no matches have been found does the regex declare overall failure.
 
-#### Understanding backtracking
+#### 2.2 Understanding backtracking
 
 Backtracking is a fundamental component of regexes' matching process, but it's, however, computationally expensive and can easily get out of hand if you're not careful.
 
@@ -204,7 +204,7 @@ For each quantifier and alternation, a **decision** must be made about how to pr
 
 Each time the regex makes such a decision, it remembers the other options to return to later if necessary. If the chosen option can not find a match or anything later in the regex fails, the regex will backtrack to the last decision point where untried options remain and chooses one. This is the process of **backtracking**.
 
-##### **Alternation and backtracking**
+##### 2.2.1 **Alternation and backtracking**
 
 Consider the following case:
 
@@ -222,7 +222,7 @@ There are two main processes of backtracking we should focus on:
 
     ![case2](./case2.png)
 
-##### **Repetition and backtracking**
+##### 2.2.2 **Repetition and backtracking**
 
 The next case shows how backtracking works with repetition quantifier.
 
@@ -242,7 +242,7 @@ Greedy quantifier|Lazy quantifier:
 **/&lt;p&gt;.&#42;&lt;\\/p&gt;/i**|**/&lt;p&gt;.&#42;?&lt;\\/p&gt;/i**
 <ol><li>&lt;</li><li>&lt;p</li><li>&lt;p&gt;</li><li>&lt;p&gt;Para 1.&lt;/p&gt;</li><li>&lt;p&gt;Para 1.&lt;/p&gt;  <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.&lt;/p</li><li>&lt;p&gt;Para 1.&lt;/p <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.&lt;/</li><li>&lt;p&gt;Para 1.&lt;/ <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.&lt;</li><li>&lt;p&gt;Para 1.&lt; <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.</li><li>&lt;p&gt;Para 1.&lt;</li><li>&lt;p&gt;Para 1.&lt;/</li><li>&lt;p&gt;Para 1.&lt;/p</li><li>&lt;p&gt;Para 1.&lt;/p&gt; <strong>[success]</strong></li></ol>|<ol><li>&lt;</li><li>&lt;p</li><li>&lt;p&gt;</li><li>&lt;p&gt; <strong>[zero-length match]</strong></li><li>&lt;p&gt; <strong>[backtrack]</strong></li><li>&lt;p&gt;P</li><li>&lt;p&gt;P <strong>[backtrack]</strong></li><li>&lt;p&gt;Pa</li><li>&lt;p&gt;Pa <strong>[backtrack]</strong></li><li>&lt;p&gt;Par</li><li>&lt;p&gt;Par <strong>[backtrack]</strong></li><li>&lt;p&gt;Para</li><li>&lt;p&gt;Para <strong>[backtrack]</strong></li><li>&lt;p&gt;Para&nbsp;</li><li>&lt;p&gt;Para&nbsp; <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1</li><li>&lt;p&gt;Para 1 <strong>[backtrack]</strong></li><li>&lt;p&gt;Para 1.</li><li>&lt;p&gt;Para 1.&lt;</li><li>&lt;p&gt;Para 1.&lt;/</li><li>&lt;p&gt;Para 1.&lt;/p</li><li>&lt;p&gt;Para 1.&lt;/p&gt; <strong>[success]</strong></li></ol>
 
-#### Runaway backtracking
+#### 2.3 Runaway backtracking
 
 When a regular expression cost browsers seconds, minutes, or longer to execute, the problem is most likely a bad case of runaway backtracking. Consider the following regex which is mainly used to match an entire HTML file:
 
@@ -276,7 +276,7 @@ If the regex matches an opening `<` character, but there is no following `>` tha
 
 > Because a regex's performance can be wildly different depending on the text it's applied to, there's no straightforward way to benchmark regexes against each other. To help catching runaway backtracking early, it's recommended to always test regexes with long strings that contain partial (不完整的) matches.
 
-#### More ways to improve regular expression efficiency
+#### 2.4 More ways to improve regular expression efficiency
 
 There're some different additional regex efficiency techniques:
 
@@ -331,7 +331,7 @@ red&#124;raw|r(?:ea&#124;aw)
 
     Avoid doing too much with a single regex. It's hard to maintain and are prone (易於遭受) to backtracking-related problems.
 
-#### When not to use regular expressions
+#### 2.5 When not to use regular expressions
 
 When used with care, regexes are very fast. However, they're usually overkill when you are merely searching for literal strings. This is especially true if you know in advance which part of a string you want to test.
 
@@ -360,11 +360,11 @@ var strLen = str.length;
 var isEndUpWithSemicolon = (str.slice(strLen - 1, strLen) === ';');
 ```
 
-#### String Trimming
+#### 2.6 String Trimming
 
 Removing leading and trailing whitespace from a string is a simple but common task. Trimming strings is not a common performance bottleneck, but it serves as a decent case study for regex optimization since there are a variety of ways to implement it.
 
-##### **Trimming with regular expressions**
+##### 2.6.1 **Trimming with regular expressions**
 
 ```js
 if (!String.prototype.trim) {
@@ -410,7 +410,7 @@ String.prototype.trim = function () {
 
 Unless there's more trailing whitespace than other text, this generally ends up being faster than the previous solution that used a lazy quantifier. In fact, it's so much faster that in IE, Safari, Chrome, and Opera 10, it even beats using two substitutions, as those browsers have all contain special optimization for greedy repetition. However, it's considerably slower in Firefox, and Opera 9, so at least for now, using two substitutions still holds up better cross-browser features.
 
-##### **Trimming without regular expressions**
+##### 2.6.2 **Trimming without regular expressions**
 
 We may also consider the performance of trimming without using regular expressions:
 
@@ -452,7 +452,7 @@ String.prototype.trim = function () {
 
 The simplicity of using two regex substitutions provides consistently respectable performance crossing different platforms, and it's arguably the best solution, while the solution above is exceptionally fast with long strings at the cost of slightly longer code.
 
-### Summary
+### 3. Summary
 
 Intensive string operations and incautiously crafted regexes can be major performance:
 
