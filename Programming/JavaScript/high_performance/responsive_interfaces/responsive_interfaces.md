@@ -29,3 +29,7 @@ Consider the case where a button click results in a message being displayed on t
 ```
 
 Once the button is clicked, it will create and add two new tasks to a queue, waiting for being executed. The first task is to change the appearance of the button to indicate it was clicked, while second one is to execute the JavaScript code. After tasks are completed, the function `handleClick()` will also result in a new task to update UI. What if users tries to interact with the page while a task is being executed? In fact, most browsers stop creating tasks while JavaScript code is being executed.
+
+#### 1.1 Browser Limits
+
+
