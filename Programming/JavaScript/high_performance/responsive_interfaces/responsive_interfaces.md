@@ -54,4 +54,4 @@ Despite best efforts, there will be times when a JavaScript tasks cannot be comp
 
 #### 2.1 Timer Basics
 
-Timers are created in JavaScript using either `setTimeout()` or `setInterval()`, which both accept the same arguments: a function to execute and the amount of time to wait before executing it.
+Timers are created in JavaScript using either `setTimeout()` or `setInterval()`, which both accept the same arguments: a function to execute and the amount of time to wait before executing it. The difference between them is that `setTimeout()` creates a timer that executes just once, whereas the `setInterval()` function creates a timer that repeats periodically.
