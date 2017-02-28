@@ -88,3 +88,6 @@ button.onclick = function () {
 ```
 
 What if the function `anotherTask()` has taken more than 50 milliseconds to complete? Actually, the string 'what' should be printed out after the function `anotherTask()` completed. Why? That's because the function passed to the timer belongs to macrotasks, which should be executed in a next event loop. It means that it should wait for the function `anotherTask()` in the current event loop.
+
+In either case, creating a timer creates a pause in the UI thread as it switches from one task to the next. Consequently, timer code resets all of the relevant browser limits, including the long-running script timer. Further, the call stack is reset to zero inside of the timer code. These characteristics make timers the ideal cross-browser solution for long-running JavaScript code.
+
