@@ -39,3 +39,5 @@ Browsers place limits on the amount of time that JavaScript take to execute, so 
 - Safari has a default limit of 5 seconds; this setting cannot be altered, but you can disable the timer by enabling the *Develop* menu and selecting *Disable Runaway JavaScript Timer*.
 - Chrome has no separate long-running script limit and instead relies on its generic crash detection system to handle such instances.
 - Opera has no long-running script limit and will continue to execute JavaScript code until it has finished, though, due to Opera's architecture, this will not cause system instability while the execution is completed.
+
+#### 1.2 How Long Is Too Long?
