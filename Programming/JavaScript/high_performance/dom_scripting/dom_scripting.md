@@ -1,16 +1,16 @@
 ## DOM Scripting [Back](./../high_performance.md)
 
-### DOM
+### 1. DOM
 
 The Document Object Method (DOM) is a language-independent application interface (API) for working with XML and HTML documents.
 
-#### Inherently Slow
+#### 1.1 Inherently Slow
 
 An excellent analogy is to think of DOM as a piece of land and JavaScript (meaning ECMAScript) as another piece of land, both connected with a toll(收費的) bridge.
 
 Once you access to the DOM, you need to pay for it. **More you work, more you pay**.
 
-### Dom Access and Modification
+### 2. Dom Access and Modification
 
 Modifying elements is even more expensive than accessing, because browsers have to recalculate changes in the page geometry. A disaster will appear when you do it in loops, and especially in loops over HTML collections. For instance, the following code has accessed the document element twice: once to read the value, and once to write.
 
@@ -36,7 +36,7 @@ function innerHTMLLoop() {
 }
 ```
 
-#### innerHTML vs DOM methods
+#### 2.1 innerHTML vs DOM methods
 
 Here is a sample task of creating a table of 1000 rows in two ways:
 
@@ -176,7 +176,7 @@ Speed|-1.13x|1.35x|-1.15x|1.19x|0.00x
 
 > As a side note, keep in mind that string concatenation is not optimal in older IE versions, but using an array to concatenate large strings will make innerHTML even faster in such browsers.
 
-#### Cloning Nodes
+#### 2.2 Cloning Nodes
 
 Another way of updating page contents using DOM methods is to clone existing DOM with the method `element.clondNode()`. Cloning nodes is more efficient in most browsers. In comparison with creating elements:
 
@@ -226,7 +226,7 @@ function tableClonedDOM() {
 }
 ```
 
-#### HTML Collections
+#### 2.3 HTML Collections
 
 **HTML collections** are array-like object, which contains DOM node references. For instances, they are the values returned by the following methods:
 
@@ -380,11 +380,11 @@ Browsers|Safari 4|Chrome 2|Chrome 3|Opera 9.64|Opera 10
 Faster (collectionLocal)|2.15x|4.74x|4.56x|345x|253x
 Faster (collectionNodeLocal)|2.74x|5.51x|6.15x|345x|324x
 
-#### Walking the DOM
+#### 2.4 Walking the DOM
 
 The DOM API has provided multiple methods for accessing specific parts of the overall document structure. In case when you can choose between those approaches, it's beneficial to use the most efficient one.
 
-##### **Crawling (漫步於) the DOM**
+##### 2.4.1 **Crawling (漫步於) the DOM**
 
 When working with surrounding elements, we may recursively iterating over all children. In this case, not only `childNdoes` we can us, but also the `nextSibling`.
 
@@ -423,7 +423,7 @@ function visitWithChildNodes() {
 
 These two approaches are mostly equal except in IE. In IE6, `nextSibling` is **16 times** faster than `childNodes`, while in IE7, it's **105 times** faster. Therefore, prefer to use `nextSibling` considering the older IE versions.
 
-##### **Element Nodes**
+##### 2.4.2 **Element Nodes**
 
 DOM properties such as `childNodes`, `firstChild` and `nextSibling` don't distinguish between element nodes and other node types, such as comments or text nodes, which are often just spaces between two tags. Due to this reason, when walking the DOM, you may have to check the type of node, in order to filter out non-element nodes. However, actually this checking is unnecessary DOM work, because most mordern browsers have offered APIs for you, and they are certainly better to be used. (**In IE6, it should be 24 times faster, while 124 times faster in IE7**, but older IE versions are only supported for `children` to access.)
 
@@ -436,7 +436,7 @@ lastElementChild|lastChild
 nextElementSibling|nextSibling
 previousElementSibling|previousSibling
 
-##### **The Selector API**
+##### 2.4.3 **The Selector API**
 
 Using `getElementById()` or `getElementsByTagName()` or both to identify an element in DOM will be an inefficient way for us. On the other hand, CSS selectors are a convenient way for us because of our familiarity with CSS. For this reason, recent browser versions has provided a method called `querySelectorAll()` as a native browser DOM method. Actually, by using this method, it's faster to identify elements than using JavaScript and DOM to iterate.
 
@@ -488,7 +488,7 @@ Faster|3.65x|3.45x|4.88x
 
 Familiar with `querySelectorAll`, `querySelector` is another convenient method for us to use, while it only return the first node matched.
 
-### Repaints and Reflows
+### 3. Repaints and Reflows
 
 Once the browser has downloaded all the components of a page, HTML, markup, JavaScript, CSS, or images, it sill parse through them and **create two internal data structures**:
 
@@ -519,7 +519,7 @@ A reflow will happen when:
 
 What you should notice is that **some changes may cause a reflow of the whole page**: for example, when a scroll bar appears.
 
-#### Queuing and Flushing Render Tree Changes
+#### 3.1 Queuing and Flushing Render Tree Changes
 
 Most browsers will optimize the reflow process by queuing changes and performing them in batches. However, sometimes the queue will be forced to be flushed by us (often involuntarily), in order to make all scheduled changes be applied right way. Flushing the queue happens when we retrieve any layout information like:
 
@@ -603,11 +603,11 @@ function render() {
 requestAnimationFrame(render);
 ```
 
-#### Minimizing Repaints and Reflows
+#### 3.2 Minimizing Repaints and Reflows
 
 To reduce expensive cost on both two approaches, what you should do is to reduce their number. In another word, just to combine multiple DOM and style changes into a batch and apply them once.
 
-##### **Style Changes**
+##### 3.2.1 **Style Changes**
 
 Considering this:
 
@@ -638,7 +638,7 @@ var el = document.getElementById('content');
 el.className = 'active';
 ```
 
-##### **Batching DOM Changes**
+##### 3.2.2 **Batching DOM Changes**
 
 What if there are many changes applied to a DOM element, you can reduce reflows and repaints by following these steps:
 
@@ -730,7 +730,7 @@ However, when considering the expensive cost of reflows, we will optimize this w
     old.parentNode.replaceChild(clone, old);
     ```
 
-#### Avoid Reflows for Animations
+#### 3.3 Avoid Reflows for Animations
 
 Reflows sometimes affect only a small part of the render tree, but they can also affect a larger portion or even the whole tree. So, what a terrible disaster will appear, when an animation at the top of the page pushes down almost the whole pages. To avoid using this kind of animations, the followed steps are helpful for you:
 
@@ -738,13 +738,13 @@ Reflows sometimes affect only a small part of the render tree, but they can also
 2. Animate the element. (Even if it expands, there will only be a reflow of a small part of the page.)
 3. When the animation is done, restore the positioning, thereby pushing down the rest of the document only once.
 
-#### Avoid Using Pseudo Classes `:hover` of CSS
+#### 3.4 Avoid Using Pseudo Classes `:hover` of CSS
 
 If you have a significant number of elements with a `:hover`, the responsiveness will degrade (降低).
 
 For example, suppose that you have created a table with 500-1000 rows and 5 columns. For each row, you have also used `tr:hover` to highlight. You may find that the highlight is slow to apply, and the CPU usage increases to 80%-90%. So, please **avoid** it.
 
-### Event Delegation
+### 4. Event Delegation
 
 Another performance problem has arisen when lots of elements have attached one or more event handlers. Most attachments have their attaching phase happened at the `onload` (or `DOMContentReady`) event, **resulting in more processing time for loading** pages. In addition, the bowser need to keep track of each event handler, which **takes up memory**. Actually, a great number of event handlers might never be needed. For instance, users only clicked one button or link, but not all of them.
 
@@ -811,7 +811,7 @@ document.getElementById('menu').onclick = function (e) {
 
 As you saw, the event delegation technique is quite simple, and what you should do is only to inspect events to see whether they come from elements you're interested in.
 
-### Summary
+### 5. Summary
 
 To reduce the performance cost related to DOM scripting, keep the following in mind:
 
