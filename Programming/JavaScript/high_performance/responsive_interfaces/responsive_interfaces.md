@@ -50,4 +50,4 @@ This number comes from research conducted by Robert Miller in 1968, while a usab
 
 ### 2. Yielding with Timers
 
-Despite best efforts, there will be times when a JavaScript tasks cannot be completed in 100 milliseconds or less because of its complexity. In these cases, it is a good choice to given the UI a chance to update itself before cotinuing to execute the rest of code.
+Despite best efforts, there will be times when a JavaScript tasks cannot be completed in 100 milliseconds or less because of its complexity. In these cases, it is a good choice to stop JavaScript execution and give the UI a chance to update itself before cotinuing to execute the rest of code.
