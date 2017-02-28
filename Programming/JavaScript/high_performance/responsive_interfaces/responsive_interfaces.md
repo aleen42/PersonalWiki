@@ -100,3 +100,5 @@ JavaScript timers delays are often imprecise, which means that they are unreliab
 Setting timer delays of less than 15 can cause browser locking in IE, so the smallest recommended delay is 25 milliseconds (which will end up as either 15 or 30) to ensure a delay of at least 15 milliseconds. This minimum timer delay also helps to avoid timer resolution issues in other browsers and on other systems.
 
 #### 2.3 Array Processing with Timers
+
+One common cause of long-running scripts is loops that takes too long to execute.
