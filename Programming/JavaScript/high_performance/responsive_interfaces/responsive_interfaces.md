@@ -82,7 +82,7 @@ button.onclick = function () {
         /** do something */
         console.log('what');
     }, 50);
-    
+
     anotherTask();
 };
 ```
@@ -124,9 +124,10 @@ var todo = items.concat();
 setTimeout(function () {
     /** get next item in the array and process it */
     process(todo.shift());
-    
-    /** if there is more items to process, create anothertimer */
+
+    /** if there is more items to process, create another timer */
     if (todo.length > 0) {
+        /** `arguments.callee` points to the function which the code is executing */
         setTimeout(arguments.callee, 25);
     } else {
         callback(items);
@@ -134,3 +135,25 @@ setTimeout(function () {
 }, 25);
 ```
 
+> Generally speaking, it's best to use at least 25 milliseconds because smaller delays leave too little time for most UI updates.
+
+Of course we can encapsulate this functionality:
+
+```js
+function processArray(items, process, callback) {
+    /** create a clone */
+    var todo = items.concat();
+
+    setTimeout(function () {
+        process(todo.shift());
+
+        if (todo.length > 0) {
+            setTimeout(arguments.callee, 25);
+        } else {
+            callback(items);
+        }
+    }, 25);
+}
+```
+
+> One side effect of using timers to process arrays is that the total time to process the array increases. Nevertheless, it's a necessary trade-off to avoid a poor user experience by locking up the browser.
