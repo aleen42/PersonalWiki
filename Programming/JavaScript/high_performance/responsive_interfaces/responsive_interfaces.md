@@ -87,4 +87,4 @@ button.onclick = function () {
 };
 ```
 
-What if the function `anotherTask()` has taken more than 50 milliseconds to complete? Actually, the string 'what' should be printed out after the function `anotherTask()` completed. Why? That's because the function passed to the timer belongs to a macrotask, which should be executed in a next event loop. It means that it should wait for the function `anotherTask()` in the current event loop.
+What if the function `anotherTask()` has taken more than 50 milliseconds to complete? Actually, the string 'what' should be printed out after the function `anotherTask()` completed. Why? That's because the function passed to the timer belongs to macrotasks, which should be executed in a next event loop. It means that it should wait for the function `anotherTask()` in the current event loop.
