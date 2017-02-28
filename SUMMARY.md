@@ -222,6 +222,7 @@
                             * [DOM Scripting](./Programming/JavaScript/high_performance/dom_scripting/dom_scripting.md)
                             * [Algorithms and Flow Control](./Programming/JavaScript/high_performance/algorithms_flow_control/algorithms_flow_control.md)
                             * [Strings and Regular Expressions](./Programming/JavaScript/high_performance/string_regular_expressions/string_regular_expressions.md)
+                            * [Responsive Interfaces](./Programming/JavaScript/high_performance/responsive_interfaces/responsive_interfaces.md)
                     * [ES6 features](./Programming/JavaScript/es6/es6.md)
                         * [Block Scope](./Programming/JavaScript/es6/block_scope/block_scope.md)
                         * [Arrow Functions](./Programming/JavaScript/es6/arrow_functions/arrow_functions.md)
