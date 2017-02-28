@@ -157,3 +157,72 @@ function processArray(items, process, callback) {
 ```
 
 > One side effect of using timers to process arrays is that the total time to process the array increases. Nevertheless, it's a necessary trade-off to avoid a poor user experience by locking up the browser.
+
+#### 2.4 Splitting Up Tasks
+
+If a single function takes too long to execute, check to see whether it can be broken down into a series of smaller functions that complete in smaller amounts of time. This is often as simple as considering a single line of code as an atomic task, even though multiple lines of code typically can be grouped together into a single task.
+
+Some functions are already easily broken down based on the other functions they call. For example:
+
+```js
+function saveDocument(id) {
+    /** save the document */
+    openDocument(id);
+    writeText(id);
+    closeDocument(id);
+
+    /** update the UI to indicate success */
+    updateUI(id);
+}
+```
+
+If this function is taking too long, it can easily be split up into a series of smaller steps:
+
+```js
+function saveDocument(id) {
+    var tasks = [openDocument, writeText, closeDocument, updateUI];
+
+    setTimeout(function () {
+        /** execute the next task */
+        var task = tasks.shift();
+        task(id);
+
+        /** determine if there is more */
+        if (tasks.length > 0) {
+            setTimeout(arguments.callee, 25);
+        }
+    }, 25);
+}
+```
+
+How about encapsulating it:
+
+```js
+function mutiStep(steps, args, callback) {
+    var tasks = steps.concat();
+
+    setTimeout(function () {
+        /** execute the next task */
+        var task = tasks.shift();
+        task.apply(null, args || []);
+
+        /** determine if there is more */
+        if (tasks.length > 0) {
+            setTimeout(arguments.callee, 25);
+        } else {
+            callback();
+        }
+    }, 25);
+}
+```
+
+Therefore, we can use this function to complete the functionality above:
+
+```js
+function saveDocument(id) {
+    var tasks = [openDocument, writeText, closeDocument, updateUI];
+    mutlStep(tasks, id, function () {
+        console.log('save done');
+    });
+}
+```
