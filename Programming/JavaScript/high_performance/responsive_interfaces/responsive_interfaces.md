@@ -59,11 +59,20 @@ Timers are created in JavaScript using either `setTimeout()` or `setInterval()`,
 What you should be aware of them is that they start to count at the time they're called.
 
 ```js
-task();
+var button = document.getElementById('my-button');
+button.onclick = function () {
+    task();
 
-setTimeout(function() {
-    /** do something */
-}, 250);
+    setTimeout(function() {
+        /** do something */
+    }, 250);
+};
 ```
 
-Like the snippet above, the timer should wait for the end of the function `task()` before sarting to count.
+Like the snippet above, the timer should wait for the end of the function `task()` before starting to count.
+
+Taking another code as an example:
+
+```js
+
+```
