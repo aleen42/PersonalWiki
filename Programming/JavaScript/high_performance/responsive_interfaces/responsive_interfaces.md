@@ -92,3 +92,7 @@ What if the function `anotherTask()` has taken more than 50 milliseconds to comp
 In either case, creating a timer creates a pause in the UI thread as it switches from one task to the next. Consequently, timer code resets all of the relevant browser limits, including the long-running script timer. Further, the call stack is reset to zero inside of the timer code. These characteristics make timers the ideal cross-browser solution for long-running JavaScript code.
 
 > The `setInterval()` function is almost the same as `setTimeout()`, except that the former repeatedly adds JavaScript tasks into the UI queue. The main difference is that it will not add a JavaScript task into the UI queue if a task created by the same `setInterval()` call is already present in the UI queue.
+
+#### 2.2 Timer Precision
+
+JavaScript timers delays are often imprecise, which means that they are unreliable for measuring actual time passed.
