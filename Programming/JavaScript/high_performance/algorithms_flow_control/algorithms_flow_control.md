@@ -4,7 +4,7 @@ The overall structure of code will determine as to how fast it will be executed.
 
 This chapter will have some coding techniques discussed for optimizing the performance.
 
-### Loops
+### 1. Loops
 
 In any programming language, the majority of code execution time is spent within loops, and in JavaScript, you can use a loop structure with different ways.
 
@@ -49,7 +49,7 @@ for (var prop in obj) {
 }
 ```
 
-#### Loop Performance
+#### 1.1 Loop Performance
 
 Of the four loop types provided by JavaScript, only one of them is significantly slower than the other: the **`for-in`** loop. A `for-in` loop can end up as much as seven times slower than the other loop types. For this reason, it's recommended to avoid using it unless you intent to iterate over an unknown umber of object properties. If you have known list of properties to iterate over, it's faster to use another type of loop:
 
@@ -69,7 +69,7 @@ Aside from `for-in` loop, all other loop types have the same performance charact
 - Work done per iteration
 - Number of iterations
 
-##### **Decrease the work per iteration**
+##### 1.1.1 **Decrease the work per iteration**
 
 A typical array-processing loop can be created using any of the three fast loop types.
 
@@ -137,7 +137,7 @@ So why it's more faster? The control condition has been changed from two compari
 
 > Note that: decreasing the work down per iteration is most effective when the loop has a complexity of O(n). When it's more complex than O(n), it's advisable to decrease the number of iterations.
 
-##### **Decreasing the number of iterations**
+##### 1.1.2 **Decreasing the number of iterations**
 
 Even the fastest code in a loop body will add up when iterated thousands of times. Therefore, we also need to decrease the nubmer of iterations, and the most well know approach to do this is a pattern called *Duff's Device*.
 
@@ -193,7 +193,7 @@ while (i) {
 
 > Note that: if you have a loop at a large mounts of iterations, for instance, 500000, and the execution time with Duff's Device is up to 70% less than a regular loop.
 
-#### Function-Based Iteration
+#### 1.2 Function-Based Iteration
 
 `forEach()` is a function defined for you to iterate an array object, which will get three arguments for iterations, and it's implemented natively in Firefox, Chrome, and Safari:
 
@@ -234,15 +234,15 @@ $each(items, function (value, index) {
 
 Even though function-based iteration represents a more convenient method for iteration, however, in all cases, function-based iteration takes up to eight times as long as loop-based iteration, because of the overhead associated with an extra method being called on each array item.
 
-### Conditionals
+### 2. Conditionals
 
 Similar in nature to loops, conditionals determine how execution flows through JavaScript. Since different browsers have implemented different flow control optimizations, it's not always clear which technique to use.
 
-#### `if-else` Versus `switch`
+#### 2.1 `if-else` Versus `switch`
 
 The prevailing theory on using `if-else` or `switch` is based on the number of conditions, for easier readable code. As it turns out, the `switch` statement is faster in most cases when compared to `if-else`, but **significantly faster when the number of conditions is large**. Generally speaking, `if-else` is best used when there are two values or a few different ranges of values, and there're more than two values, the `switch` statement is the most optimal choice.
 
-#### Optimizing `if-else`
+#### 2.2 Optimizing `if-else`
 
 When optimizing the `if-else` statement, the goal is always to minimize the number of conditions to evaluate before taking the correct path. Considering the following case:
 
@@ -258,7 +258,7 @@ if (value < 5) {
 
 This code is optimal only if `value` is most frequently less than 5, and get the correct path when only using one condition to evaluate. If not, you can optimize it to obey the principle: **More frequent the condition it is, sooner evaluated it should be**.
 
-#### Lookup Tables
+#### 2.3 Lookup Tables
 
 Sometimes, `if-else` or `switch` are both not the best choice for you, when there're a large number of conditions. In reverse, you should use a lookup tables, which can be created using arrays or regular objects. In addition, lookup tables will get code more readable for you:
 
@@ -288,7 +288,7 @@ Lookup tables are most useful when there's logical mapping between a single key 
 
 Of course, when conditions are not enumerable, lookup tables or `switch` won't be a choice for you.
 
-### Recursion
+### 3. Recursion
 
 Complex algorithms are typically made easier by using recursion.
 
@@ -304,7 +304,7 @@ function factorial(n) {
 
 The problem with recursive functions is that missing a terminal condition can lead to the long execution time, blocking the user interface. Further, recursive functions are more likely to run into browser call stack size limit.
 
-#### Call Stack Limits
+#### 3.1 Call Stack Limits
 
 The amount of recursion supported by JavaScript engines varies and is directly related to the size of the JavaScript call stack. Except for Internet Explorer, for which the call stack is related to available system memory, all other **browsers have static call stack limits**.
 
@@ -332,7 +332,7 @@ Perhaps the most interesting part of stack overflow errors is that they are actu
 
 > Note that: even though the error of exceeding limitation of call stack size can be trapped with a `try-catch` statement, it's not recommended.
 
-#### Recursion Patterns
+#### 3.2 Recursion Patterns
 
 When throwing such kind of limitation error, the first step you should do is to identify where the problem is, and in this case, you should be aware of two Recursion patterns.
 
@@ -362,7 +362,7 @@ first();
 
 Compared with the first one, the second pattern is far more difficult to identify bugs in large code bases. For the first one, limitation exceeding problem will occur when the terminal condition is wrong in most cases. However, if it's correct, then the algorithm contains too much recursion to safely be run in the browser. Then, you should change to use iteration, memoization (記憶化), or both.
 
-#### Iteration
+#### 3.3 Iteration
 
 Any algorithm that can be implemented using recursion can also be implemented using iteration. Using optimized loops in place of long-running recursive functions can result in  performance improvements due to the lower overhead of loops versus that of executing a function.
 
@@ -435,7 +435,7 @@ function mergeSort(items) {
 
 Although the iterative version of merge sort may be somewhat slower than the recursive option, it does not have the call stack impact.
 
-#### Memoization
+#### 3.4 Memoization
 
 Memoization is an approach to avoid work repetition by caching previous calculations for later use, which make it a useful technique for recursive algorithms. Sometimes, when recursive functions are called multiple times, there tends to be a lot of work duplication. Considering using `factorial()` like this:
 
@@ -489,7 +489,7 @@ memfactorial(6);
 memfactorial(5);
 ```
 
-### Summary
+### 4. Summary
 
 Just optimize your code, and notice the limitation of JavaScript. The larger the amount of code being executed, the larger the performance gain realized (被意識到).
 
