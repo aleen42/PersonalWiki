@@ -102,3 +102,17 @@ Setting timer delays of less than 15 can cause browser locking in IE, so the sma
 #### 2.3 Array Processing with Timers
 
 One common cause of long-running scripts is loops that takes too long to execute. If you have already tried all loop optimization techniques, then timers are alternatives that can be used to optimize. The basic approach is to split up the loop's work into a series of timers.
+
+Typical loops follow a simple pattern, such as:
+
+```js
+for (var i = 0, len = items.length; i < len; i++) {
+    process(item[i]);
+}
+```
+
+There are two factors determining whether a loop can be done asynchronously using timers:
+
+- Does the processing have to be done synchronously?
+- Does the data have to be processed
+
