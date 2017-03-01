@@ -17,7 +17,7 @@ Even if, Chrome with V8 engine, and other later engines have improved that situa
 - [**Algorithms and Flow Control**](./algorithms_flow_control/algorithms_flow_control.md)
 - [**Strings and Regular Expressions**](./string_regular_expressions/string_regular_expressions.md)
 - [**Responsive Interfaces**](./responsive_interfaces/responsive_interfaces.md)
-- **Ajax**
+- [**Ajax**](./ajax/ajax.md)
 
 ### Deployment
 
