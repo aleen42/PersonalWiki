@@ -290,3 +290,96 @@ To create a worker, you have to create an entirely separate JavaScript file, and
 ```js
 var worker = new Worker('./code.js');
 ```
+
+#### 3.2 Worker Communication
+
+Communication between different workers can be implemented by using `postMessage()` to post and a event handler `onmessage` to receive.
+
+```js
+var worker = new Worker('./code.js');
+
+worker.onmessage = function (event) {
+    console.log('Message: ' + event.data);
+};
+
+worker.postMessage('Aleen');
+```
+
+In the JavaScript file `code.js`:
+
+```js
+self.onmessage = function (event) {
+    self.postMessage('Hello, ' + event.data);
+};
+```
+
+With using `postMessage()`, you can only pass primitive values (like `null`, `undefined`, `Number`, `Boolean`, and `String`) as well as instances of `Object` and `Array`.
+
+> Safari 4's implementation of workers only allows you to pass strings using `postMessage()`. The specification was updated after that point to allow serializable data to be passed through, which is how Firefox 3.5 implements workers.
+
+#### 3.3 Loading External Files
+
+If you want to load one or more external file into a worker, `importScripts()` is your choice to do so:
+
+```js
+/** ./code.js */
+importScripts('file1.js', 'file2.js');
+```
+
+Since you imported, the context of these two files have been available in the context of this worker.
+
+Web workers are suitable for any long-running scripts that work on pure data and that have no ties to the browser UI. For example, parsing a large JSON string will be a long-running task, which is difficult to break into small chunks with timers, so a worker is the ideal solution.
+
+```js
+var worker = new Worker('jsonparse.js');
+
+/** when the data is available, then handle it */
+worker.onmessage = function (event) {
+    /** data */
+    var jsonData = event.data;
+
+    /** operation with the data */
+    evaluteData(jsonData);
+};
+
+/** pass in the large JSON string to parse */
+worker.postMessage(jsonText);
+```
+
+Then the parse should act like the following snippet:
+
+```js
+/** handle passed text */
+self.onmessage = function (event) {
+    /** extract the text */
+    var jsonText = event.data;
+
+    /** parse it */
+    var jsonData = JSON.parse(jsonText);
+
+    /** send back */
+    self.postMessage(jsonData);
+};
+```
+
+Note that it's not necessary to use timers to split up tasks any more, because it has been executed in a separated thread without affecting the UI thread.
+
+>  Keep in mind that this presently works only in Firefox 3.5 and later, as Safari 4 and Chrome 3's implementations allow strings to be passed only between page and worker
+
+Except parsing a large JSON text, workers are also beneficial for:
+
+- Encoding/decoding a large string
+- Complex mathematical calculations (like image or video processing)
+- Sorting a large array
+
+Any time a process takes longer than 100 milliseconds to complete, you should consider whether a worker solution is more appropriate than a timer-based one. This, of course, is based on browser capabilities.
+
+### 4. Summary
+
+JavaScript code executing and the UI updates have shared the same process, which means that they are restricted by each other. In order to keep a good user experience, we should consider approaches to execute code in a proper way:
+
+- No JavaScript task should take longer than 100 milliseconds to execute.
+- Timers is a alternative to split up long-running scripts into a series of smaller tasks to run.
+- Web workers are a feature in newer browsers that allows us to execute JavaScript code outside the UI thread.
+
+The more complex the web application, the more critical it is to manage the UI thread in a proactive (積極主動的) manner. No JavaScript code is so important that it should adversely affect the user’s experience.
