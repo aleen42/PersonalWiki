@@ -221,8 +221,72 @@ Therefore, we can use this function to complete the functionality above:
 ```js
 function saveDocument(id) {
     var tasks = [openDocument, writeText, closeDocument, updateUI];
-    mutlStep(tasks, id, function () {
+
+    /** remember to use an array to wrapper id */
+    mutlStep(tasks, [id], function () {
         console.log('save done');
     });
 }
+```
+
+#### 2.5 Timed Code
+
+Sometimes executing one task at a time is inefficient. For example, a single task takes only 1 milliseconds, but there is a delay of 25 milliseconds between tasks. If there're 1000 tasks to be executed, it means that you will have to use 1000 x (25 + 1) = 26,000 milliseconds to complete the entire process. What if we process tasks in batches of 50, then it will only takes (1000 / 50) x (25 + 50) = 1,500 milliseconds to complete them. Apparently, we can use less time to complete the work without impacting user experience at the same time.
+
+If keeping 100 milliseconds in mind as the absolute maximum amount of time for executing code, it's recommended o cut that number in half and never let any code execute for longer than 50 milliseconds continuously.
+
+Therefore, based on this recommendation, we can use Date object to optimize our splitting:
+
+```js
+function timeProcessArray(items, process, callback) {
+    /** create a clone */
+    var todo = items.concat();
+
+    setTimeout(function () {
+        var start = +new Date();
+
+        do {
+            process(todo.shift());
+        } while(todo.length > 0 && (+new Date() - start < 50));
+
+        if (todo.length > 0) {
+            setTimeout(arguments.callee, 25);
+        } else {
+            callback(items);
+        }
+    }, 25);
+}
+```
+
+#### 2.6 Timers and Performance
+
+Even though timers can make a huge difference in the performance of JavaScript code, abusing it can also have a negative effect reversely. Especially when multiple repeating timers are being created at the same time, all of these timers compete for time to execute. Neil Thomas of Google Mobile found that low-frequency repeating timers, occurring at intervals of one second or greater, had little effect to overall web application responsiveness.
+
+Therefore, it's recommended to create a single repeating timer that performs multiple operations with each execution.
+
+### 3. Web Workers
+
+Since JavaScript was introduced, there has been no way to execute code outside of the browser UI thread. The web workers API had changed this when HTML5 arose.
+
+Each new worker spawns its own thread to execute JavaScript code, which means that not only will code execute in a worker without affecting the UI thread, but it also won't affect code executing in other workers.
+
+#### 3.1 Worker Environment
+
+Part of the reason that JavaScript and UI updates share the same process is because one can affect the other quite frequently, and so executing these tasks out of order results in a bad user experience. Web workers could result in user interface errors by making changes to the DOM from an outside thread, but each worker has its own global environment that has only a subset of JavaScript features available.
+
+The environment of a worker is made up of:
+
+- A `navigator` object, which contains four properties: `appName`, `appVersion`, `userAgent`, and `platform`.
+- A `location` object, which is same as `window`, except all properties are read-only.
+- A `self` object, which points to the global worker object.
+- An `importScripts()` method that is used to load external JavaScript for use in the worker.
+- All ECMAScript objects, such as `Object`, `Array`, `Date`, etc..
+- The `XMLHttpRequest` constructor.
+- The `setTimeout()` and `setInterval()` timers.
+- A `close()` method that stops the worker immediately.
+
+To create a worker, you have to create an entirely separate JavaScript file, and use the following code to create your worker by providing a specific path of your JavaScript file:
+
+```js
+var worker = new Worker('./code.js');
 ```
