@@ -68,3 +68,45 @@ However, there are still some drawbacks about using XMLHttpRequest. Because of t
 Then, when using XHR to request data, what is the best choice between GET and POST. For requests that don't change the server state and only pull back data (this is called an **idempotent action (冪等動作)**), use GET, because GET requests are cached to improve performance.
 
 POST should be used to fetch data only when the length of the URL and the parameters are close to or exceed 2,048 characters, as the limitation of IE.
+
+##### 1.1.2 **Dynamic script tag insertion**
+
+The most power of using this technique is allowing you to fetch data from a crossed domain. Of course, it's just a hack.
+
+```js
+var scriptElement = document.createElement('script');
+script.src = 'http://any-domain.com/javascript/lib.js';
+document.getElementsByTagName('head')[0].appendChild(scriptElement);
+```
+
+However, this way offers less control than XHR. You can only use GET, and you don't have access to the response headers or to the entire response as a string. Because it's being used as the source for a script tag, it **must** be a executable JavaScript source. Any data, regardless of the format, must be enclosed in a callback function. For example, how to transfer data with JSON format:
+
+```js
+function jsonCallback(jsonString) {
+    var str = jsonString;
+
+    if (Object.prototype.toString.call(str) !== '[object String]') {
+        /** ensure that the jsonString is a string */
+        str = JSON.stringify(str);
+    }
+
+    var data = JSON.parse(str);
+
+    /** start to process the data */
+    /** ... */
+}
+
+var scriptElement = document.createElement('script');
+script.src = 'http://any-domain.com/javascript/lib.js';
+document.getElementsByTagName('head')[0].appendChild(scriptElement);
+```
+
+Then the file of `lib.js` can be coded like this:
+
+```js
+jsonCallback('{ "status": 1, "colors": [ "#fff", "#000", "#ff0000" ] }');
+```
+
+Despite these limitations, this technique an be extremely fast, even faster than XHR, because it's not treated as a string that must be further processed.
+
+There is another important problem that you should pay more attention to when using this technique. Any code that you incorporate into your page using dynamic script tag insertion will have complete control over the page, like modifying any content, redirecting users to another site, or even track their actions and send the data to a third party. Therefore, **be careful about importing code from an external source**.
