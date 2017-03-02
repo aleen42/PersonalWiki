@@ -530,6 +530,7 @@
             * [How to detect whether a document is inside a iframe with JavaScript](./qa/iniframe_javascript.md)
             * [How to manage JavaScript projects with Lerna](./qa/js_projects_with_lerna.md)
             * [How to preview an image after uploaded with file input and FileReader](./qa/preview_image/preview_image.md)
+            * [How to calculate the FPS value of a page](./qa/fps_of_a_page/fps_of_a_page.md)
             * [Someting about scrolling](./qa/scroll/scroll.md)
             * [Something about !DOCTYPE](./qa/doctype.md)
             * [Something about iframe](./qa/iframe.md)
