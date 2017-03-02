@@ -224,3 +224,57 @@ function getLatestPacket() {
 There are some drawbacks when using this technique, the biggest one of which is that none of the fetched resources are cached in the browser. Another downside is that older versions of IE do not support `readyState` 3 or base64 data setting for images.
 
 Despite this downsides, MXHR has also significantly improved overall page performance by reducing HTTP requests, which is one of the most extreme bottlenecks in Ajax.
+
+#### 1.2 Sending Data
+
+There are times when you don't care about retrieving data, and instead only want to send it to the server. In such situation, there are two techniques that are widely used: **XHR** and **beacons**.
+
+##### 1.2.1 **XMLHttpRequest**
+
+When sending data to the server side, we can also use `onerror` to catch failures during the process:
+
+```js
+var xhr = new XMLHttpRequest();
+xhr.onerror = function () {
+    /** resend or any other handled operations */
+};
+```
+
+When it comes to performance, it's faster to use GET to send data back to server with using XHR. This is because, for small amounts of data, a GET request is sent to the server in a single packet. A POST, on the other hand, is sent in a minimum of two packets, one for the headers and another for the POST body.
+
+##### 1.2.2 **Beacons**
+
+This technique is very similar to dynamic script insertion. JavaScript is used to create a new `Image` object, with the `src` property set to the URL of a script on your server. Data we want to send can be set as parameters following this URL.
+
+```js
+var url = './status_tracker.php';
+var params = [
+    'step=2',
+    'time=1248027312'
+];
+
+(new Image()).src = url + '?' + params.join('&');
+```
+
+Note that no `img` element has to be created or inserted into the DOM.
+
+Even though you can catch errors from the server side, it is the most efficient way to send information back to the server. To work around this, you can use a smart way like listening for the `Image` object's `load` event, which will tell you if the server successfully received the data. Furthermore, you can also check the width and height of the image that the server returned for a state. For instance, a width of 1 can be represented for "success", while 2 for "try again".
+
+```js
+var beacon = new Image();
+beacon.src = url + '?' + params.join('&');
+
+beacon.onload = function () {
+    if (this.width === 1) {
+        /** successfully */
+    } else if (this.width === 2) {
+        /** failed and try again */
+    }
+};
+
+beacon.onerror = function () {
+    /** failed and try again */
+};
+```
+
+If you don't need to return data in your response, you should send a response code of **204 No Content** and no message body. This will prevent the client from waiting for a message body that will never come.
