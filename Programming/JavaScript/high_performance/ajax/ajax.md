@@ -110,3 +110,117 @@ jsonCallback('{ "status": 1, "colors": [ "#fff", "#000", "#ff0000" ] }');
 Despite these limitations, this technique an be extremely fast, even faster than XHR, because it's not treated as a string that must be further processed.
 
 There is another important problem that you should pay more attention to when using this technique. Any code that you incorporate into your page using dynamic script tag insertion will have complete control over the page, like modifying any content, redirecting users to another site, or even track their actions and send the data to a third party. Therefore, **be careful about importing code from an external source**.
+
+##### 1.1.3 **Multipart XHR**
+
+The newest of the techniques mentioned here, multipart XHR (MXHR) allows you to pass multiple resources from the server to the client side using only one HTTP request. The basic of this technique is to packaging up the resources with separating by some agreed-upon strings.
+
+Let's take an example to explain it. First, a request is made to the server for several image resources:
+
+```js
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+        splitImages(xhr.responseText);
+    }
+};
+```
+
+Next, on the server side, the images are read and converted into strings:
+
+```php
+$images = ['kitten.jpg', 'sunset.jpg', 'baby.jpg'];
+foreach ($images as $image) {
+    $image_fh = fopen($image, 'r');
+    $image_data = fread($image_fh, filesize($image));
+
+    fclose($image_fh);
+    $payloads[] = base64_encode($image_data);
+}
+
+/** combine all these into a string with a character as separator */
+
+echo implode(chr(1), $payloads);
+```
+
+Then, come back to the client side, we can split up this images data like this:
+
+```js
+function splitImages(imageString) {
+    var imageData = imageString.split('\u0001');
+    var imageElement;
+
+    for (var i = 0, len = imageData.length; i < len; i++) {
+        imageElement = document.createElement('img');
+        imageElement.src = 'data:image/jpeg;base64,' + imageData[i];
+        document.getElementById('container').appendChild(imageElement);
+    }
+}
+```
+
+Certainly, you can also take strings for JavaScript code, CSS styles, and images and convert them into resources the browser can use:
+
+```js
+/** handle images with different mineType */
+function handleImageData(data, mineType) {
+    var img = document.createElement('img');
+    img.src = 'data:' + mineType + ';base64,' + data;
+
+    return img;
+}
+
+/** handle CSS styles */
+function handleCSS(data) {
+    var style = document.createElement('style');
+    style.type = 'text/css';
+
+    style.innerText = data;
+    document.getElementsByTagName('head')[0].appendChild(style);
+}
+
+/** handle JavaScript code */
+function handleJavaScript(data) {
+    eval(data);
+}
+```
+
+As MXHR responses grow larger, it becomes necessary to process each resource as it is received, rather than waiting for the entire response:
+
+```js
+var xhr = new XMLHttpRequest();
+var getLatestPacketInterval;
+var lastLength = 0;
+
+xhr.open('GET', 'rollup_images.php', true);
+xhr.onreadystatechange = function () {
+    if (readyState === 3 && getLatestPacketInterval === null) {
+        /** start polling */
+        getLatestPacketInterval = setInterval(function () {
+            getLatestPacket();
+        }, 25);
+    }
+
+    if (readyState === 4) {
+        /** stop polling */
+        clearInterval(getLatestPacketInterval);
+
+        /** get the last packet */
+        getLatestPacket();
+    }
+};
+
+xhr.send(null);
+
+function getLatestPacket() {
+    var length = xhr.responseText.length;
+    var packet = xhr.reponseText.substring(lastLength, length);
+
+    /** process packet and handle images when hitting the agreed-upon character */
+    processPacket(packet);
+    lastLength = length;
+}
+```
+
+There are some drawbacks when using this technique, the biggest one of which is that none of the fetched resources are cached in the browser. Another downside is that older versions of IE do not support `readyState` 3 or base64 data setting for images.
+
+Despite this downsides, MXHR has also significantly improved overall page performance by reducing HTTP requests, which is one of the most extreme bottlenecks in Ajax.
