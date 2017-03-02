@@ -1,1 +1,1 @@
-## How to preview an image after uploaded with file input and FileReader [Back](./../qa.md)
+## How to calculate the FPS value of a page [Back](./../qa.md)
