@@ -148,12 +148,9 @@ Most of the dependencies were installed using brew.
 
 In file **CMakeLists.txt** ( red text was replaced with green text ).
 
-<s>find_package( OpenCV 3.0 REQUIRED )</s>
-
+> <s>find_package( OpenCV 3.0 REQUIRED )</s>
 find_package( OpenCV 3.0 REQUIRED HINTS /path/to/opencv )
-
 INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
-
 INCLUDE_DIRECTORIES(/opt/X11/include)
 
 In file **exe/SimpleCLM/SimpleCLM.cpp**
