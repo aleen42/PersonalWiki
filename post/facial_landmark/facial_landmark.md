@@ -16,9 +16,9 @@
 
 If Picasso was alive today, he would have definitely added one more professional to that list — a computer vision engineer!
 
-As computer vision engineers and researchers we have been trying to understand the human face since the very early days. The most obvious application of facial analysis is Face Recognition. But to be able to identify a person in an image we first need to find where in the image a face is located. Therefore, face detection — locating a face in an image and returning a bounding rectangle / square that contains the face — was a hot research area. In 2001, Paul Viola and Michael Jones pretty much nailed the problem with their seminal paper titled “[Rapid Object Detection using a Boosted Cascade of Simple Features.](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf)” In the early days of OpenCV and to some extent even now, the killer application of OpenCV was a good implementation of the Viola and Jones face detector.
+As computer vision engineers and researchers we have been trying to understand the human face since the very early days. The most obvious application of facial analysis is Face Recognition. But to be able to identify a person in an image we first need to find where in the image a face is located. Therefore, face detection — locating a face in an image and returning a bounding rectangle / square that contains the face — was a hot research area. In 2001, Paul Viola and Michael Jones pretty much nailed the problem with their seminal paper titled "[Rapid Object Detection using a Boosted Cascade of Simple Features.](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf)" In the early days of OpenCV and to some extent even now, the killer application of OpenCV was a good implementation of the Viola and Jones face detector.
 
-Once you have a bounding box around the face, the obvious research problem is to see if you can find the location of different facial features ( e.g. corners of the eyes, eyebrows, and the mouth, the tip of the nose etc ) accurately. Facial feature detection is also referred to as “facial landmark detection”, “facial keypoint detection” and “face alignment” in the literature, and you can use those keywords in Google for finding additional material on the topic.
+Once you have a bounding box around the face, the obvious research problem is to see if you can find the location of different facial features ( e.g. corners of the eyes, eyebrows, and the mouth, the tip of the nose etc ) accurately. Facial feature detection is also referred to as "facial landmark detection", "facial keypoint detection" and "face alignment" in the literature, and you can use those keywords in Google for finding additional material on the topic.
 
 ### Applications of Facial Keypoint Detection
 
@@ -37,7 +37,7 @@ Once you know a few landmark points, you can also estimate the pose of the head.
 Facial landmarks can be used to align faces that can then be morphed to produce in-between images. An example is shown in Figure 1.
 
 <p align="center">
-    <img src="./Bush-Schwarzenegger-Morph.jpg"></img>
+    <img src="./Bush-Schwarzenegger-Morph.jpg" width="480"></img>
 </p>
 
 <p align="center">
@@ -51,7 +51,7 @@ Facial landmarks can be used to align faces that can then be morphed to produce 
 At my company ( [TAAZ.com](http://www.taaz.com/) ) we had written our own facial landmark detector. The detected landmarks were used to the calculate contours of the mouth, eyes etc. to render makeup virtually. An example is shown in Figure 2.
 
 <p align="center">
-    <img src="./taaz-before-after.jpg"></img>
+    <img src="./taaz-before-after.jpg" width="640"></img>
 </p>
 
 <p align="center">
@@ -116,7 +116,7 @@ If the above line does not give an error, you are all set.
 
 In case you run into any compilation issues, there are [additional instructions at Dlib.net](http://dlib.net/compile.html)
 
-##### **How to run Dlib’s facial landmark detector ?**
+##### **How to run Dlib's facial landmark detector ?**
 
 After you have built the examples, to run the facial landmark detector using a webcam, do the following.
 
@@ -138,7 +138,7 @@ If you want to run it on a single image, you can try
 
 [CLM-framework](https://github.com/TadasBaltrusaitis/CLM-framework), also known as the Cambridge Face Tracker, is a C++ library for facial keypoint detection and head pose estimation. You can see how well it works in the included video. Compiling this library on OSX was bit of a challenge but it was not too bad. The library depends on OpenCV 3 and requires X11.
 
-There are two important ways in which Dlib beats CLM-Framework. First, DLib is much faster than CLM-Framework. Second, Dlib’s license allows you to use it in commercial applications. If I had to pick, I would use Dlib. Interestingly, CLM-Framework depends on Dlib!
+There are two important ways in which Dlib beats CLM-Framework. First, DLib is much faster than CLM-Framework. Second, Dlib's license allows you to use it in commercial applications. If I had to pick, I would use Dlib. Interestingly, CLM-Framework depends on Dlib!
 
 ##### **How to compile CLM-Framework ?**
 
@@ -158,11 +158,11 @@ INCLUDE_DIRECTORIES(/opt/X11/include)
 
 In file **exe/SimpleCLM/SimpleCLM.cpp**
 
-<s>writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC(‘D’,’I’,’V’,’X’), 30, captured_image.size(), true);</s>
+<s>writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC('D','I','V','X'), 30, captured_image.size(), true);</s>
 
-writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC(‘M’,’P’,’4′,’V’), 15, captured_image.size(), true);
+writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC('M','P','4′,'V'), 15, captured_image.size(), true);
 
-##### **How to run CLM-Framework’s Facial Feature Detector ?**
+##### **How to run CLM-Framework's Facial Feature Detector ?**
 
 After compiling CLM-Framework, the executables are in the **bin** directory. For the webcam demo shown in this post, you can use
 
