@@ -278,3 +278,150 @@ beacon.onerror = function () {
 ```
 
 If you don't need to return data in your response, you should send a response code of **204 No Content** and no message body. This will prevent the client from waiting for a message body that will never come.
+
+### 2. Data Formats
+
+When considering data transmission, you must take into several factors: feature set, compatibility, performance, and direction (retrieve or send data). When considering data formats, the only scale you need for comparison is speed.
+
+In this section, each of the data formats will be compared based on the file size of the list, the speed of parsing it, and the ease with which it's formed on the server.
+
+#### 2.1 XML
+
+When Ajax first becomes popular, XML was the data format of choice, which had many advantages: extreme interoperability (互用性, with excellent support on both the server side and the client side), strict formatting, and easy validation.
+
+However, compared with other formats, XML is extremely verbose. To create a piece of data, you must require a lot of structure. In general, in order to parse XML, not only must you know the particulars of the structure ahead of time, but you must also know exactly how to pull apart of the structure and reassemble it into a JavaScript object.
+
+To make it easier to parse XML, a more efficient approach is to encode data as an attribute of a tag.
+
+##### 2.1.1 **XPath**
+
+XPath can be much faster than `getElementsByTagName` when parsing an XML document. However, as it is not universally supported, you may have to write fallback code when using the older style of DOM traversal.
+
+##### 2.1.2 **Response sizes and parse times**
+
+Format|Size|Download time|Parse time|Total load time
+------|----|-------------|----------|----------
+Verbose XML|582,960 bytes|999.4ms|434.1ms|1342.5ms
+Simple XML|437,960 bytes|475.1ms|83.1ms|558.2ms
+
+Even though simple XML is faster than the verbose one, it's still slower than any other faster format. What it means is that XML has no place in high-performance Ajax, unless this is the only format of data.
+
+#### 2.2 JSON
+
+JSON is a lightweight and easily-to-parse data format written using JavaScript object and array literal syntax. JSON data is executable JavaScript code, which can be parsed with using `eavl()` or `JSON.parse()`.
+
+> Using `eval()` in your code is dangerous, especially when using it to evaluate third-party JSON data. Whenever possible, use the `JSON.parse()` to parse a JSON string natively.
+
+##### 2.2.1 **JSON-P**
+
+When XHR is used, JSON data is returned as a string, which can be evaluated by using `eval()` or `JSON.parse()`. However, when using dynamic script tag insertion, JSON data is treated as just another JavaScript file and executed as native code. In order to accomplish this, the data must be wrapper in a callback function, a.k.a JSON with padding, or JSON-P.
+
+According to some tests, the fastest JSON format is JSON-P formed using arrays. But what you should take in mind is that do not encode any sensitive data in JSON-P, as it can be called by anyone with using dynamic script tag insertion.
+
+##### 2.2.2 **Should you use JSON?**
+
+JSON is a cornerstone of high-performance Ajax, especially when it's used with dynamic script insertion. Lower size of structure, with lower parse time.
+
+#### 2.3 HTML
+
+Often the data you are requesting will be turned in to HTML for display on the page. One technique is forming all of the HTML on the server and then passing it to the client, where it can be dropped in the place with `innerHTML` by JavaScript.
+
+The problem with this technique is that HTML is a verbose data format, which is even more than XML. Therefore, you should use this technique only when the client-side CPU is more limited than bandwidth.
+
+#### 2.4 Custom Formatting
+
+The ideal data format is one that includes just enough structure to allow you to separate individual fields from each other, like using a separator. One of the most important decisions when using this way is what to use as the separators.
+
+In most cases, los-number ASCII characters work well and are easy to represent in most server-side language.
+
+In JavaScript, we can separate such string like this:
+
+```js
+/** Regular Expression Delimiter */
+var rows = xhr.responseText.split(/\u0001/);
+
+/** String Delimiter (safer in older version of browsers) */
+var rows = xhr.responseText.split('\u0001');
+```
+
+If you want to receive huge amounts of data in the client side, this will be your best choice.
+
+### 3. Ajax Performance Guidelines
+
+Once you have selected the most appropriate transmission technique and data format depending on requirements, you can start to consider other optimization techniques.
+
+#### 3.1 Cache Data
+
+To prevent an unnecessary request, there are two main ways:
+
+- On the server side, set HTTP headers that ensure the response will be cached in the browser.
+- On the client side, store fetched data locally so that it does not have to be requested again.
+
+##### 3.1.1 **Setting HTTP headers**
+
+The `Expires` header tells the browser how long a response can be cached, the value of which should be a date:
+
+```
+Expires:    Mon, 28 Jul 2014 23:30:00 GMT
+```
+
+The server side can set up such a header to clearly tell the browser to cache responses for a certain time.
+
+##### 3.1.2 **Storing data locally**
+
+Instead o relying on the browser to handle caching, you can also do it in a more manual fashion by strong the responses locally. For example, store them with URL as key into a JavaScript object, so that you can reuse them without requesting again.
+
+### 4. Limitations
+
+All JavaScript libraries have given us access to an Ajax object, which normalizes the differences between browsers and gives us a consistent interface, so that we can focus more on our projects rather than the details of how XHR works in different browsers. However, it also means that we cannot access the full power of XMLHttpRequest.
+
+To use XMLHttpRequest object without worrying about the problem of compatibility, here we will encapsulate a function to return a more powerful XMLHttpRequest object, which we can then interact with directly:
+
+```js
+function createXHR() {
+    var msXMLProgId = [
+         'MSXML2.XMLHTTP.6.0',        'MSXML3.XMLHTTP',        'Microsoft.XMLHTTP',  /** Doesn't support readyState 3. */    'MSXML2.XMLHTTP.3.0' /** Doesn't support readyState 3. */
+    ];
+
+    var xhr;
+
+    try {
+        xhr = new XMLHttpRequest(); /** try the standard way at first */
+    } catch (e) {
+        for (var i = 0, len = msXMLProgId.length; i < len; i++) {
+            try {
+                xhr = new ActiveXObject(msXMLProgId[i]);
+            } catch (e2) {}
+        }
+    } finally {
+        return xhr;
+    }
+}
+```
+
+### 5. Summary
+
+High-performance Ajax consists of knowing the specific requirements of your situation and selecting the correct data format and transmission technique to match.
+
+As data formats, we should consider that:
+
+- Plain text and HTML are highly situational, but they can save CPU cycles on the client side.
+- XML is widely available and supported, but it's verbose and slow to parse.
+- JSON is lightweight and quick to parse.
+- If you want to transfer huge amounts of data, it's best to use custom formats, designed by both the client and the server side.
+
+When requesting data:
+
+- XHR gives you the most control and flexibility, even though it treats data as string, slowing down the parse time.
+- Dynamic script tag insertion allows for cross-domain request and native execution of JavaScript and JSON, though you cannot control more.
+- Multipart XHR can be used to reduce the number of requests, though it does not cache any received resource.
+
+When sending data:
+
+- image beacons are a simple and efficient approach.
+- XHR can also be used to send large amounts of data in POST.
+
+There're several guidelines for improving Ajax:
+
+- Reduce the number of requests you make, either by concatenating files, or by using MXHR.
+- Using Ajax to improve the loading time of pages.
