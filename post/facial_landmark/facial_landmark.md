@@ -5,7 +5,7 @@
 - Time: Oct, 18th, 2015
 
 <p align="center">
-    <img src="./Facial-Feature-Detection-1024x577.jpg"></img>
+    <img src="./Facial-Feature-Detection-1024x577.jpg" width="600"></img>
 </p>
 
 <p align="center">
