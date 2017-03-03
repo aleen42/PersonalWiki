@@ -149,15 +149,18 @@ Most of the dependencies were installed using brew.
 In file **CMakeLists.txt** ( red text was replaced with green text ).
 
 > <s>find_package( OpenCV 3.0 REQUIRED )</s>
-find_package( OpenCV 3.0 REQUIRED HINTS /path/to/opencv )
-INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
-INCLUDE_DIRECTORIES(/opt/X11/include)
+
+> find_package( OpenCV 3.0 REQUIRED HINTS /path/to/opencv )
+
+> INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
+
+> INCLUDE_DIRECTORIES(/opt/X11/include)
 
 In file **exe/SimpleCLM/SimpleCLM.cpp**
 
-<s>writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC('D','I','V','X'), 30, captured_image.size(), true);</s>
+> <s>writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC('D','I','V','X'), 30, captured_image.size(), true);</s>
 
-writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC('M','P','4′,'V'), 15, captured_image.size(), true);
+> writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC('M','P','4′,'V'), 15, captured_image.size(), true);
 
 ##### **How to run CLM-Framework's Facial Feature Detector ?**
 
