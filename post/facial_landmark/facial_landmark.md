@@ -84,11 +84,11 @@ I personally like Dlib more than any other facial feature detection & tracking l
 
 ##### **How to compile Dlib ?**
 
-1. Download a copy from github
+i. Download a copy from github
 ```bash
 git clone https://github.com/davisking/dlib.git
 ```
-2. Build examples ( OSX / Linux )
+ii. Build examples ( OSX / Linux )
 ```bash
 cd dlib/examples
 mkdir build
@@ -97,17 +97,17 @@ cmake ..
 cmake --build . --config Release
 ```
 These examples are a great way to start using dlib. Make a copy of an example cpp file, modify it, modify examples/CMakeLists.txt and compile again using the instructions above. Easy!
-3. Compile dlib python module
+iii. Compile dlib python module
 ```bash
 cd dlib/python_examples
 ./compile_dlib_python_module.bat
 ```
-4. Set PYTHONPATH environment variable
+iv. Set PYTHONPATH environment variable
 ```bash
 # Put the following line in .bashrc or .profile
 export PYTHONPATH=/path/to/dlib/python_examples:$PYTHONPATH
 ```
-5. Test python module
+v. Test python module
 ```bash
 python -c "import dlib"
 ```
