@@ -22,7 +22,9 @@ $$M (x, y) = ( 1 - \alpha ) I (x, y) + \alpha J (x , y)$$
 
 However, using the above equation to generate a blend between the image of Secretary Hillary Clinton and Senator Ted Cruz with $$\alpha$$ set to 0.5, you will get the following terrible results.
 
-![](./1.jpg)
+<p align="center">
+    <img src="./1.jpg" width="614"></img>
+</p>
 
 The resulting image is disturbing, but it also screams a solution at you. It begs you to somehow align the eyes and the mouth before blending the images. You get similar disturbing results when you try to blend two different political ideologies without first aligning the minds, but I digress.
 
@@ -44,7 +46,9 @@ Morphing two faces can be done using the following steps. For simplicity, we wil
 
 #### 1. Find Point Correspondences using Facial Feature Detection
 
-![](./2.jpg)
+<p align="center">
+    <img src="./2.jpg" width="615"></img>
+</p>
 
 Let's start by obtaining corresponding points. First, we can get a lot of points by automatically ( or manually ) by [detecting facial feature points](http://www.learnopencv.com/facial-landmark-detection/). I used dlib to detect 68 corresponding points. Next, I added four more points ( one on the right hand side ear, one on the neck, and two on the shoulders ). Finally, I added the corners of the image and half way points between those corners as corresponding points as well. Needless to say, one can add a few more points around the head and neck to get even better results, or remove the manually clicked points to get slightly worse ( but fully automatic ) results.
 
@@ -68,7 +72,9 @@ From the previous step we have two sets of 80 points — one set per image. We c
 
 It shows that points 38, 40 and 37 form a triangle and so on. The triangulation is shown on the two images below.
 
-![](./3.jpg)
+<p align="center">
+    <img src="./3.jpg" width="615"></img>
+</p>
 
 Notice the triangles in the two images capture approximately similar regions. We had started with point correspondences and now, because of triangulation, we have triangle ( or region ) correspondences.
 
@@ -89,8 +95,14 @@ The results of applying the above technique are shown below. The image in the ce
 
 Most facial features are very well aligned. The part of the image outside the face is not so well aligned because we have fewer corresponding points in that region. One can manually add additional points to fix mis-alignments and get better results.
 
-![](./4.jpg)
+<p align="center">
+    <img src="./4.jpg" width="614"></img>
+</p>
 
-![](./5.jpg)
+<p align="center">
+    <img src="./5.jpg" width="614"></img>
+</p>
 
-![](./6.jpg)
+<p align="center">
+    <img src="./6.jpg" width="614"></img>
+</p>
