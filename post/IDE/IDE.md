@@ -111,7 +111,7 @@
 
 那么组件数据源可表述为:
 
-```json
+```js
 {
     0: { text: '注册', size: 'large' },
     1: { value: '', label: '姓名', type: 'text' },
@@ -145,7 +145,7 @@ store.set('3.type', 'loading') // 将 Button 设为 loading 状态
 
 得到的数据源:
 
-```json
+```js
 {
     name: { value: '', label: '姓名', type: 'text' },
     password: { value: '', label: '密码', type: 'password' },
