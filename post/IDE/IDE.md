@@ -213,3 +213,23 @@ function validateRule(state) {
     }
 }
 ```
+
+有了输入源，接下来仍然按之前思路将验证数据源映射到组件数据源上:
+
+```js
+function mapValidationToInput({validation}) {
+    const hasFeedback = validation.get('name') !== undefined
+    return {
+        status: hasFeedback ? (validation.get('name').valid ? 'valid': 'invalid') : 'normal',
+        help: hasFeedback ? validation.get('name').message : ''
+    }
+}
+```
+
+到这里，我们已经完全看到用专属的数据源处理专有问题，最后映射到组件数据源上去所产生的效果了。它能很好地将所有将交互细节和业务逻辑划分。
+
+我们进一步注意到，无论异步控制、表单验证还是权限，只要组件遵循某种属性命名规则，那么所有的映射函数就都可以写成固定的！
+
+因此，如果我们为组件制定一个属性接口规范，就可以利用提供更有好的方式自动生成映射代码了。例如，规定带验证功能的表单类的属性接口必须有:
+- status: 'normal' | 'valid' | 'invalid'
+- help : '' 那么上面例子里面的映射函数，就只需要用户填写 validateRule 就够了，映射函数将 valid/message 字段映射到组件的 status/help 属性上。
