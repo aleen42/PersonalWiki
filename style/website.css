@@ -404,7 +404,7 @@ iframe::-webkit-resizer {
 
 .book-body h1,
 .book-body h2 {
-    font-weight: 600 !important;    
+    font-weight: 600 !important;
 }
 
 .book-body h3,
@@ -563,7 +563,7 @@ iframe::-webkit-resizer {
 }
 
 /** mathjax */
-.MathJax_Preview + span {
+p.comments-section:first-child + span.mjx-chtml {
     width: 100% !important;
     text-align: center !important;
     margin: 44px 0 !important;
