@@ -60,7 +60,10 @@
 
 来看它和页面以及组件的的关系。我们最终希望用户在点击页面上的某个组件或者组件树上的节点时，就能查看、配置这个组件上的属性，逻辑绑定到它触发的事件上。
 
-![组建与属性](https://zos.alipayobjects.com/rmsportal/uMMIizInErTFLUCCSRgQ.png)
+
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/uMMIizInErTFLUCCSRgQ.png" alt="组建与属性"></img>
+</p>
 
 因此它对组件的需求是：组件必须暴露出自己的所有属性和事件，让外部可读。
 
