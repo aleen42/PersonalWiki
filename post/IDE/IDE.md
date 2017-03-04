@@ -99,3 +99,14 @@
     <button text="提交"></button>
 </div>
 ```
+
+那么组件数据源可表述为:
+
+```json
+{
+    0: { text: '注册', size: 'large' },
+    1: { value: '', label: '姓名', type: 'text' },
+    2: { value: '', label: '密码', type: 'password' },
+    3: { text: '提交', type: 'normal' }
+}
+```
