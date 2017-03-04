@@ -200,7 +200,9 @@ function mapAjaxToButton({ajaxStates}) {
     <img src="https://zos.alipayobjects.com/rmsportal/RatpXXxLIEZaejNQynnK.png" alt="数据源架构1"></img>
 </p>
 
-打开这个思路后，你会发现几乎其他所有问题，都可以用这个方案来解了！为专有的问题领域建立专有的数据源，同时建立数据源到组件数据源的映射关系。即能扩展能力，又能分离代码。 我们再看权限控制的例子。如果用户不具有某权限时就把button disable 掉，映射关系我们可以写成:
+打开这个思路后，你会发现几乎其他所有问题，都可以用这个方案来解了！为专有的问题领域建立专有的数据源，同时建立数据源到组件数据源的映射关系。即能扩展能力，又能分离代码。
+
+我们再看权限控制的例子。如果用户不具有某权限时就把button disable 掉，映射关系我们可以写成:
 
 ```js
 function mapAuthToButton({auth}) {
