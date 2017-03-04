@@ -196,3 +196,9 @@ function mapAuthToButton({auth}) {
     return { disabled: !auth.has('xxx') }
 }
 ```
+
+非常直观。 再看表单验证状态。建立验证数据结果的数据源，让用户配置哪些组件需要进行校验，校验时机(例如正在输入或者离开焦点时)。例如：
+
+```html
+<input bind="name" onblur={state == {validation.validate(state)}} />
+```
