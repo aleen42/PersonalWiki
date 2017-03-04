@@ -143,3 +143,21 @@ store.set('3.type', 'loading') // 将 Button 设为 loading 状态
     submit: { text: '提交', disabled: false }
 }
 ```
+
+再看看用户的提交逻辑如何写(这个逻辑绑定在 Button 的 onClick 事件上):
+
+```js
+// 通过注入的方式把数据源管理对象交给用户
+function({store}) {
+    store.set('submit', {disabled: true}) // 为了防止重复提交
+    ajax({
+        url : 'xxx',
+        data: {
+            name: store.get('name').value,
+            password: store.get('password').value
+        }
+    }).finally(() => {
+        store.set('submit', {disabled: false})
+    })
+}
+```
