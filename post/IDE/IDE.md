@@ -308,13 +308,21 @@ function mapValidationToInput({validation}) {
 
 最后放出几张用户制作的页面:
 
-![](https://zos.alipayobjects.com/rmsportal/UFPodqepPyaaIKEzcaYE.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/UFPodqepPyaaIKEzcaYE.png" alt=""></img>
+</p>
 
-![](https://zos.alipayobjects.com/rmsportal/ZLZarjdupwqdayQoUNGV.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/ZLZarjdupwqdayQoUNGV.png" alt=""></img>
+</p>
 
-![](https://zos.alipayobjects.com/rmsportal/ltxwmVOWHSOqChxmeGxy.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/ltxwmVOWHSOqChxmeGxy.png" alt=""></img>
+</p>
 
-![](https://zos.alipayobjects.com/rmsportal/sNfBuThtstskLoPbJyVR.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/sNfBuThtstskLoPbJyVR.png" alt=""></img>
+</p>
 
 ### 答读者问
 
