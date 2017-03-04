@@ -60,7 +60,6 @@
 
 来看它和页面以及组件的的关系。我们最终希望用户在点击页面上的某个组件或者组件树上的节点时，就能查看、配置这个组件上的属性，逻辑绑定到它触发的事件上。
 
-
 <p align="center">
     <img src="https://zos.alipayobjects.com/rmsportal/uMMIizInErTFLUCCSRgQ.png" alt="组件与属性"></img>
 </p>
