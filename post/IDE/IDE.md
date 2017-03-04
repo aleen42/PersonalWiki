@@ -199,6 +199,17 @@ function mapAuthToButton({auth}) {
 
 非常直观。 再看表单验证状态。建立验证数据结果的数据源，让用户配置哪些组件需要进行校验，校验时机(例如正在输入或者离开焦点时)。例如：
 
-```htm
-<input bind="name" onblur={state == {validation.validate(state)}} />
+```html
+<input bind="name" onblur={state => {validation.validate(state)}} />
+```
+
+validator 映射写法的和前面的例子异区同工，用户希望的当然是我只需要告诉你什么情况下是通过，什么不通过即可，同时也可以加上一些必要的message:
+
+```js
+function validateRule(state) {
+    return {
+        valid: state.value !== 'xxx',
+        message: state.value !== 'xxx' ? 'success' : 'value must be xxx'
+    }
+}
 ```
