@@ -235,3 +235,10 @@ function mapValidationToInput({validation}) {
 - help : ''
 
 那么上面例子里面的映射函数，就只需要用户填写 validateRule 就够了，映射函数将 valid/message 字段映射到组件的 status/help 属性上。
+
+至此，最后剩下的处理复杂场景中的大量业务数据的这一问题也迎刃而解了，同样建立一个业务数据源，声明业务数据与组件数据的映射关系即可。
+
+![数据源架构2](https://zos.alipayobjects.com/rmsportal/fYMQMhvVgwPrfyFVbugp.png) 
+
+讲完了逻辑的设计，最后再提一下组件的规范，正如前面所说，所有的组件状态是由应用框架保存的。这和我们现实中常见的经验相悖。现实中的组件通常是数据、行为、渲染逻辑三部分写在一起，使用 class 或者工厂方法来创建。如果是全面由框架接管，则应该打散，全部写成声明式。虽然不符经验，但是声明式的组件定义解决了《理想的应用框架》中提到的组件库的两个终极问题，“覆写和扩展”。具体可参见以开源的组件规范 github.com/sskyy/react-lego，这里不再展开。
+
