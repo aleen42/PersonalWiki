@@ -161,3 +161,38 @@ function({store}) {
     })
 }
 ```
+
+稍微好了一点，但是任何开发者都仍然会觉得这段代码太脏，它既处理了业务逻辑又处理了渲染逻辑，项目膨胀之后这样的代码不利于维护。
+
+我们需要一种机制来分离不同类型的处理逻辑，让代码更易维护。这个出发点也正是启发后面设计的关键！ 为什么这样说？让我们来看看之前谈到的复杂场景，其中提到了大量的交互状态是复杂场景的特点之一，常见的交互有：
+
+- 异步状态控制，如上面 button 在发请求时要设为 disable 防止重复提交
+- 权限控制
+- 表单验证状态 
+
+如何分离这些交互细节？或者换个更具体的问题，你觉得用户怎样写这些逻辑会最爽？仍然以上面的场景为例子，用户当然希望他代码中的ajax一发送，按钮就自动变成 disable，一结束又自动变回来。这对我们来说不就是 ajax 状态和组件状态之间的自动映射吗？我们能不能提供一种机制让用户给 ajax 命名，同时可以写映射关系，如:
+
+```js
+ajax('login', {name: 'xxx', password: 'xxx'})
+```
+
+映射关系:
+
+```js
+function mapAjaxToButton({ajaxStates}) {
+    // ajaxStates 由框架提供，保存着所有的ajax 状态
+    return { disabled: ajaxStates.login === 'pending' }
+}
+```
+
+这样，刚才处理 ajax 的脏代码就完全分离出来了。我们再看看这个方案中几个概念的关系。
+
+![数据源架构1](https://zos.alipayobjects.com/rmsportal/RatpXXxLIEZaejNQynnK.png)
+
+打开这个思路后，你会发现几乎其他所有问题，都可以用这个方案来解了！为专有的问题领域建立专有的数据源，同时建立数据源到组件数据源的映射关系。即能扩展能力，又能分离代码。 我们再看权限控制的例子。如果用户不具有某权限时就把button disable 掉，映射关系我们可以写成:
+
+```js
+function mapAuthToButton({auth}) {
+    return { disabled: !auth.has('xxx') }
+}
+```
