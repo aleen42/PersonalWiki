@@ -118,3 +118,28 @@
 store.get('1.value') // 读取第一个 Input 的值
 store.set('3.type', 'loading') // 将 Button 设为 loading 状态
 ```
+
+这个写法可以实现需求，但有两个问题:
+- 用组件的位置作为索引不友好，不能适应变化。例如组件的位置调整了一下顺序，代码里就得相应改动。
+- 在用户的业务逻辑中，并不是所有组件的数据用户都需要，例如Title。
+
+为何不让用户自己给想要数据的组件取名？这可以一次性解决这两个问题。
+
+```html
+<div>
+    <title>注册</title>
+    <input bind="name" label="姓名">
+    <input bind="password" label="密码" type="password">
+    <button bind="submit" text="提交"></button>
+</div>
+```
+
+得到的数据源:
+
+```json
+{
+    name: { value: '', label: '姓名', type: 'text' },
+    password: { value: '', label: '密码', type: 'password' },
+    submit: { text: '提交', disabled: false }
+}
+```
