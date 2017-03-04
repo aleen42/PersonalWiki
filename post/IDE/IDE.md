@@ -38,11 +38,15 @@
 
 页面编辑:
 
-![页面编辑](https://zos.alipayobjects.com/rmsportal/blelrkgUdVBVTucDuuoT.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/blelrkgUdVBVTucDuuoT.png" alt="页面编辑"></img>
+</p>
 
 逻辑编辑:
 
-![逻辑编辑](https://zos.alipayobjects.com/rmsportal/sgarfasRwViOjDvvePUv.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/sgarfasRwViOjDvvePUv.png" alt="逻辑编辑"></img>
+</p>
 
 接下来分部分细化形态，梳理关系，来得到一个明确的架构图。
 
@@ -65,7 +69,9 @@
 
 理清了所有关系后，来看看整体架构：
 
-![整体架构](https://zos.alipayobjects.com/rmsportal/QRMIwUZyhvduxcXkxkOu.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/QRMIwUZyhvduxcXkxkOu.png" alt="整体架构"></img>
+</p>
 
 这其中将 IDE 底层和业务层进行了拆分，IDE 底层提供窗口、快捷键、Tab 等常用功能，IDE 上业务层才用来处理和可视化相关的内容。其中也包括为了提供更好体验，却又不适合放到组件、和应用框架中的胶水代码，例如组件属性的说明，示例等等。IDE 的架构设计将会在另一篇文章中介绍。
 
@@ -187,7 +193,9 @@ function mapAjaxToButton({ajaxStates}) {
 
 这样，刚才处理 ajax 的脏代码就完全分离出来了。我们再看看这个方案中几个概念的关系。
 
-![数据源架构1](https://zos.alipayobjects.com/rmsportal/RatpXXxLIEZaejNQynnK.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/RatpXXxLIEZaejNQynnK.png" alt="数据源架构1"></img>
+</p>
 
 打开这个思路后，你会发现几乎其他所有问题，都可以用这个方案来解了！为专有的问题领域建立专有的数据源，同时建立数据源到组件数据源的映射关系。即能扩展能力，又能分离代码。 我们再看权限控制的例子。如果用户不具有某权限时就把button disable 掉，映射关系我们可以写成:
 
@@ -238,7 +246,9 @@ function mapValidationToInput({validation}) {
 
 至此，最后剩下的处理复杂场景中的大量业务数据的这一问题也迎刃而解了，同样建立一个业务数据源，声明业务数据与组件数据的映射关系即可。
 
-![数据源架构2](https://zos.alipayobjects.com/rmsportal/fYMQMhvVgwPrfyFVbugp.png) 
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/fYMQMhvVgwPrfyFVbugp.png" alt="数据源架构2"></img>
+</p>
 
 讲完了逻辑的设计，最后再提一下组件的规范，正如前面所说，所有的组件状态是由应用框架保存的。这和我们现实中常见的经验相悖。现实中的组件通常是数据、行为、渲染逻辑三部分写在一起，使用 class 或者工厂方法来创建。如果是全面由框架接管，则应该打散，全部写成声明式。虽然不符经验，但是声明式的组件定义解决了《理想的应用框架》中提到的组件库的两个终极问题，“覆写和扩展”。具体可参见以开源的组件规范 github.com/sskyy/react-lego，这里不再展开。
 
@@ -280,11 +290,15 @@ function mapValidationToInput({validation}) {
 
 运行时分析示例:
 
-![运行时分析示例](https://zos.alipayobjects.com/rmsportal/OIfpEOEOBKztoNsioCpF.png)
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/OIfpEOEOBKztoNsioCpF.png" alt="运行时分析示例"></img>
+</p>
 
 静态依赖分析示例:
 
-![静态依赖分析示例](https://zos.alipayobjects.com/rmsportal/WUzCOpYpluTVHClaLSPj.png) 
+<p align="center">
+    <img src="https://zos.alipayobjects.com/rmsportal/WUzCOpYpluTVHClaLSPj.png" alt="静态依赖分析示例"></img>
+</p>
 
 想到了这里，才算真正找到了活路。文章的前半部分，我强调过从头思考，原因很简单，任何时候经验都是可能成为束缚的。就像从框架开发者的角度来说，放弃了灵活性，把自己局限在一定范围内简直是逆行倒施，但正是这样的局限才有可能在开发速度上和可维护性上带来质的飞升。
 
