@@ -232,4 +232,6 @@ function mapValidationToInput({validation}) {
 
 因此，如果我们为组件制定一个属性接口规范，就可以利用提供更有好的方式自动生成映射代码了。例如，规定带验证功能的表单类的属性接口必须有:
 - status: 'normal' | 'valid' | 'invalid'
-- help : '' 那么上面例子里面的映射函数，就只需要用户填写 validateRule 就够了，映射函数将 valid/message 字段映射到组件的 status/help 属性上。
+- help : ''
+
+那么上面例子里面的映射函数，就只需要用户填写 validateRule 就够了，映射函数将 valid/message 字段映射到组件的 status/help 属性上。
