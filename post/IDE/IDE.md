@@ -110,3 +110,11 @@
     3: { text: '提交', type: 'normal' }
 }
 ```
+
+用户的读写操作可以设计成这样:
+
+```js
+// 借用 redux 中的 store 作为数据源的名字
+store.get('1.value') // 读取第一个 Input 的值
+store.set('3.type', 'loading') // 将 Button 设为 loading 状态
+```
