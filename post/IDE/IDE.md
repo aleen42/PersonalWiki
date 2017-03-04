@@ -62,7 +62,7 @@
 
 
 <p align="center">
-    <img src="https://zos.alipayobjects.com/rmsportal/uMMIizInErTFLUCCSRgQ.png" alt="组建与属性"></img>
+    <img src="https://zos.alipayobjects.com/rmsportal/uMMIizInErTFLUCCSRgQ.png" alt="与属性"></img>
 </p>
 
 因此它对组件的需求是：组件必须暴露出自己的所有属性和事件，让外部可读。
