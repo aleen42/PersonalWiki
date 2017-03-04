@@ -470,6 +470,7 @@
             * [[轉載] HTML5的WebGL實現的3D和2D拓撲樹](./post/topological_webgl/topological_webgl.md)
             * [[轉載] Rain & Water Effect Experiments](./post/rain/rain.md)
             * [[原創] How to make React components actually reusable](./post/reusable_react_components/reusable_react_components.md)
+            * [[轉載] 前端服务化——页面搭建工具的死与生](./post/IDE/IDE.md)
         * Design
             * [[原創] Mingtocat](./post/mingtocat/mingtocat.md)
             * [[原創] Memorial Missions for 12.17 Shenzhen](./post/1217_mission_of_shenzhen/1217_mission_of_shenzhen.md)
