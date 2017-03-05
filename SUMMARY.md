@@ -224,6 +224,7 @@
                             * [Strings and Regular Expressions](./Programming/JavaScript/high_performance/string_regular_expressions/string_regular_expressions.md)
                             * [Responsive Interfaces](./Programming/JavaScript/high_performance/responsive_interfaces/responsive_interfaces.md)
                             * [Ajax](./Programming/JavaScript/high_performance/ajax/ajax.md)
+                            * [Programming Practices](./Programming/JavaScript/high_performance/practices/practices.md)
                     * [ES6 features](./Programming/JavaScript/es6/es6.md)
                         * [Block Scope](./Programming/JavaScript/es6/block_scope/block_scope.md)
                         * [Arrow Functions](./Programming/JavaScript/es6/arrow_functions/arrow_functions.md)
