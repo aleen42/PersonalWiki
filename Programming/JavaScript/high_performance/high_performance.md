@@ -22,7 +22,7 @@ Even if, Chrome with V8 engine, and other later engines have improved that situa
 
 ### Deployment
 
-- **Building and Deploying**
+- [**Building and Deploying**](./building_and_deploying/building_and_deploying.md)
 
 ### Testing
 
