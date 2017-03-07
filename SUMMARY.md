@@ -225,7 +225,7 @@
                             * [Responsive Interfaces](./Programming/JavaScript/high_performance/responsive_interfaces/responsive_interfaces.md)
                             * [Ajax](./Programming/JavaScript/high_performance/ajax/ajax.md)
                             * [Programming Practices](./Programming/JavaScript/high_performance/practices/practices.md)
-                        * Building and Deploying
+                        * Deployment
                             * [Building and Deploying](./Programming/JavaScript/high_performance/building_and_deploying/building_and_deploying.md)
                     * [ES6 features](./Programming/JavaScript/es6/es6.md)
                         * [Block Scope](./Programming/JavaScript/es6/block_scope/block_scope.md)
