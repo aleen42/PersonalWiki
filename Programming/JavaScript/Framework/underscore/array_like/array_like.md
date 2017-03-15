@@ -16,6 +16,8 @@ var isArrayLike = function (collection) {
 
 The answer is so simple. If an object has the property `length`, it's assumed as array-like objects. According to https://tc39.github.io/ecma262/#sec-number.max_safe_integer, `Math.pow(2, 53) - 1` is equal to `Number.MAX_SAFE_INTEGER`, which represents for the maximum of a safe integer value.
 
+> Note that: the maximum of the length of an array or an array-like object is `Math.pow(2, 32) - 1`.
+
 As defined, **NodeLists**, **HTML Collections**, and **Strings** all belong to array-like objects.
 
 When it comes to converting them into a real array, the most simple way is to create a new array and push all items into it:
