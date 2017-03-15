@@ -58,3 +58,8 @@ function shuffle(arr) {
     }
 }
 ```
+
+To learn it in advance, we can read some articles:
+
+- [Fisher–Yates Shuffle](https://bost.ocks.org/mike/shuffle/)
+- [How to randomize (shuffle) a JavaScript array?](http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
