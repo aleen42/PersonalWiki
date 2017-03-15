@@ -20,4 +20,4 @@ Here I will note what other people grasp from this library according to summarie
 - [**Certain array functions like `compact()`, `difference()`, and `without()`**](./array_functions/array_functions.md)
 - [**NaN?**](./something_about_NaN/something_about_NaN.md)
 - [**Array-like Objects**](./array_like/array_like.md)
-- [**How to random the order of an array**](./random_order/random_order.md)
+- [**How to shuffle an array**](./random_order/random_order.md)
