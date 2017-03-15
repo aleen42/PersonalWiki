@@ -5,11 +5,13 @@ In JavaScript, we will always know that all the things are constructed as object
 For this kind of objects, we can access items within them through using operators `[]`, and we can also get the length of this objects by accessing the property of `length`. However, they are always not supported for using operations of an array like `Array.prototype.push()`. So how does array-like objects defined in underscore?
 
 ```js
-var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;
+var MAX_SAFE_INTEGER = Math.pow(2, 53) - 1;
 var getLength = property('length');
 
 var isArrayLike = function (collection) {
     var length = getLength(collection);
-    return typeof length === 'number' && length >= 0 && length <= MAX_ARRAY_INDEX;
+    return typeof length === 'number' && length >= 0 && length <= MAX_SAFE_INTEGER;
 };
 ```
+
+The answer is so simple. If an object is not an array, and it has the property `length`, it's assumed as array-like objects. According to https://tc39.github.io/ecma262/#sec-number.max_safe_integer 
