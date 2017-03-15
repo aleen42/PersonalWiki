@@ -46,6 +46,15 @@ function shuffle(arr) {
 function shuffle(arr) {
     var len = arr.length;
     
-    for (var i = len - 1; i >= 0
+    for (var i = len - 1; i >= 0; i++) {
+        var index = Math.floor(Math.random() * i);
+        
+        if (i !== index) {
+            /** swap */
+            var temp = arr[index];
+            arr[index] = arr[i];
+            arr[i] = temp;
+        }
+    }
 }
 ```
