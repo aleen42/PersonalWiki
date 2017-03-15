@@ -42,7 +42,7 @@ function arrayFrom(collections) {
 }
 ```
 
-Or even use literal to make it more simple:
+Or we can even use a literal to make it more simple:
 
 ```js
 function arrayFrom(collections) {
