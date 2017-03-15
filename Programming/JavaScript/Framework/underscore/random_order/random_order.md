@@ -29,6 +29,13 @@ function shuffle(arr) {
     
     for (var i = 0; i < len; i++) {
         var index = Math.floor(Math.random() * i);
+        
+        if (i !== index) {
+            /** swap */
+            var temp = arr[index];
+            arr[index] = arr[i];
+            arr[i] = temp;
+        }
     }
 }
 ```
