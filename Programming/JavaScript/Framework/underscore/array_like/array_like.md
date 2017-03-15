@@ -16,4 +16,4 @@ var isArrayLike = function (collection) {
 
 The answer is so simple. If an object is not an array, and it has the property `length`, it's assumed as array-like objects. According to https://tc39.github.io/ecma262/#sec-number.max_safe_integer, `Math.pow(2, 53) - 1` is equal to `Number.MAX_SAFE_INTEGER`, which represents for the maximum of a safe integer value.
 
-As defined, **NodeLists**, **HTML Collections**, and **Strings** all belong to array-like objects/
+As defined, **NodeLists**, **HTML Collections**, and **Strings** all belong to array-like objects.
