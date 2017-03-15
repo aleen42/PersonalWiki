@@ -39,3 +39,13 @@ function shuffle(arr) {
     }
 }
 ```
+
+- **Forward**:
+
+```js
+function shuffle(arr) {
+    var len = arr.length;
+    
+    for (var i = len - 1; i >= 0
+}
+```
