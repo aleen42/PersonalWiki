@@ -41,3 +41,13 @@ function arrayFrom(collections) {
     return arr;
 }
 ```
+
+Or even use literal to make it more simple:
+
+```js
+function arrayFrom(collections) {
+    var arr = [].slice.call(collections);
+    
+    return arr;
+}
+```
