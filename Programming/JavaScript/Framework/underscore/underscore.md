@@ -19,3 +19,4 @@ Here I will note what other people grasp from this library according to summarie
 - [**Flatten an array**](./flatten_an_array/flatten_an_array.md)
 - [**Certain array functions like `compact()`, `difference()`, and `without()`**](./array_functions/array_functions.md)
 - [**NaN?**](./something_about_NaN/something_about_NaN.md)
+- [**Array-like Objects**](./array_like/array_like.md)
