@@ -141,7 +141,7 @@
                     * [Certain array functions like `compact()`, `difference()`, and `without()`](./Programming/JavaScript/Framework/underscore/array_functions/array_functions.md)
                     * [NaN?](./Programming/JavaScript/Framework/underscore/something_about_NaN/something_about_NaN.md)
                     * [Array-like Objects](./Programming/JavaScript/Framework/underscore/array_like/array_like.md)
-                    * [How to random the order of an array](./Programming/JavaScript/Framework/underscore/random_order/random_order.md)
+                    * [How to shuffle an array](./Programming/JavaScript/Framework/underscore/random_order/random_order.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
