@@ -51,3 +51,13 @@ function arrayFrom(collections) {
     return arr;
 }
 ```
+
+ES6 has also provided an alternative for you:
+
+```js
+function arrayFrom(collections) {
+    var arr = Array.from(collections);
+    
+    return arr;
+}
+```
