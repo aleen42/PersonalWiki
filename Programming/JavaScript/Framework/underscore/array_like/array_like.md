@@ -31,3 +31,13 @@ function arrayFrom(collections) {
     return arr;
 }
 ```
+
+If you don't need to consider the compatibility of older version IE, you can just use `Array.prototype.slice()` to complete it:
+
+```js
+function arrayFrom(collections) {
+    var arr = Array.prototype.slice.call(collections);
+    
+    return arr;
+}
+```
