@@ -19,4 +19,4 @@ function shuffle(arr) {
 
 In this common way, the algorithm mainly costs in accessing the array and extracting items. If the time of `Array.prototype.splice()` can be represented by `O(n)`, then the time of whole algorithm should be represented as `O(n^2)`. That's not fast!
 
-
+To complete it in a more elegant way, we should considering the solution [**Fisher-Yates Shuffle**](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).
