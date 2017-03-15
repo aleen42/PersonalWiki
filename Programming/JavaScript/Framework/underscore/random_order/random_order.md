@@ -5,5 +5,12 @@ Shuffling an array is a normal problem in coding, which can be used in many case
 ```js
 function shuffle(arr) {
     var ret = [];
+    
+    while (arr.length) {
+        var index = Math.floor(Math.random() * arr.length);
+        
+        ret.push(arr[index]);
+        arr.splice(index, 1);
+    }
 }
 ```
