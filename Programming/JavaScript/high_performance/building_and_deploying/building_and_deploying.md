@@ -40,8 +40,16 @@ Offline application cache offered by HTML 5 can be another alternative for cachi
 
 The manifest file uses a special syntax to list offline resources and must be served using the `text/cache-manifest` mime type at the same time.
 
-#### 2.1 Using a Content Delivery Network (CDN)
+### 3. Using a Content Delivery Network (CDN)
 
 A content delivery network (CDN) is a network of computers distributed geographically across the Internet that is responsible for delivering content to end users. With serving closer to the user, CDNs are able to decrease network latency to improve performance of loading sources.
 
-#### 2.2 Deploying JavaScript Resources
+### 4. Summary
+
+The build and deployment process can have an impact on the performance of a JavaScript-based application. The most important steps of this process are:
+
+- Combining JavaScript files to reduce the number of HTTP requests
+- Minifying JavaScript files using the YUI Compressor
+- Serving JavaScript file compressed (gzip encoding)
+- Setting appropriate HTTP headers to cache resources
+- Using a CDN to serve JavaScipt files.
