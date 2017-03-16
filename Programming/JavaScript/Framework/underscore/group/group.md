@@ -121,3 +121,38 @@ function countBy(arr, conditions) {
     return result;
 }
 ```
+
+After comparing these three methods, we can actually abstract them with an internal method, like what underscore has done.
+
+```js
+function group(handle) {
+    return function (arr, conditions) {
+        /** to return an object */
+        var result = {};
+        
+        /** if the `conditions` is a property name */
+        if (Object.prototype.toString.call(conditions) === '[object String]') {
+            /** override conditions */
+            const keyName = conditions;
+            
+            conditions = function (item) {
+                return item[keyName];
+            };
+        }
+        
+        /** iterate the array */
+        for (var i = 0, len = arr.length; i < len; i++) {
+            var key = conditions(arr[i]);
+            
+            /** make a counter */
+            if (result[key] === void 0) {
+                result[key] = 0;
+            }
+            
+            result[key]++;
+        }
+        
+        return result;
+    };
+}
+```
