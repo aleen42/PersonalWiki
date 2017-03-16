@@ -176,4 +176,4 @@ var countBy = goup(function (result, key, value) {
 });
 ```
 
-It's elegant!
+It's an elegant way!
