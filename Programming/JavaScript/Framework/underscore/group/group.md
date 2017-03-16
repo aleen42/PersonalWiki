@@ -13,4 +13,13 @@ _.groupBy(['one', 'two', 'three'], 'length');
 /** => { 3: ['one', 'two'], 5: ['three'] } */
 ```
 
-It's apparent that the second parameters passed to the method has decided how to group a given array. 
+It's apparent that the second parameters passed to the method has decided how to group a given array. Without looking at the implementation of underscore, we can also easily complete it by us:
+
+```js
+function groupBy(arr, conditions) {
+    /** closuren */
+    return function () {
+        
+    };
+}
+```
