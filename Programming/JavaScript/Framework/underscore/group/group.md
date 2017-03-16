@@ -27,7 +27,7 @@ function groupBy(arr, conditions) {
             /** override conditions */
             conditions = function () {
                 return conditions;
-            }
+            };
         }
         
         /** iterate the array */
