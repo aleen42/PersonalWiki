@@ -153,11 +153,25 @@ function group(handle) {
 }
 
 var groupBy = group(function (result, key, value) {
-    /** make a counter */
+    /** create an array to store objects */
     if (result[key] === void 0) {
         result[key] = [];
     }
     
     result.push[value];
+});
+
+var indexBy = group(function (result, key, value) {
+    /** without creating an array */
+    result[key] = value;
+});
+
+var countBy = goup(function (result, key, value) {
+    /** make a counter */
+    if (result[key] === void 0) {
+        result[key] = 0;
+    }
+    
+    result[key]++;
 });
 ```
