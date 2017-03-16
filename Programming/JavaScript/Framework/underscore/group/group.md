@@ -25,7 +25,7 @@ function groupBy(arr, conditions) {
         /** override conditions */
         const keyName = conditions;
         
-        conditions = function () {
+        conditions = function (item) {
             return keyName;
         };
     }
