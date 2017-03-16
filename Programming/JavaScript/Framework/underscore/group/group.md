@@ -44,3 +44,14 @@ function groupBy(arr, conditions) {
     return result;
 }
 ```
+
+What about `_.indexBy()`:
+
+```js
+_.indexBy([1.1, 1.2, 2.1], function (num) {
+    return Math.floor(num);
+}); /** => { 1: [1.1, 1.2], 2: [2.1] } */
+
+_.indexBy(['one', 'two', 'three'], 'length');
+/** => { 3: 'two', 5: 'three' } */
+```
