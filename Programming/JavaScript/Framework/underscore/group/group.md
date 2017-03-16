@@ -17,29 +17,28 @@ It's apparent that the second parameters passed to the method has decided how to
 
 ```js
 function groupBy(arr, conditions) {
-    /** closuren */
-    return function () {
-        /** to return an object */
-        var result = {};
+    /** to return an object */
+    var result = {};
+    
+    /** if the `conditions` is a property name */
+    if (Object.prototype.toString.call(conditions) === '[object String]') {
+        /** override conditions */
+        conditions = function () {
+            return conditions;
+        };
+    }
+    
+    /** iterate the array */
+    for (var i = 0, len = arr.length; i < len; i++) {
+        var key = condition(arr[i]);
         
-        /** if the `conditions` is a property name */
-        if (Object.prototype.toString.call(conditions) === '[object String]') {
-            /** override conditions */
-            conditions = function () {
-                return conditions;
-            };
+        if (result[key] === void 0) {
+            result[key] = [];
         }
         
-        /** iterate the array */
-        for (var i = 0, len = arr.length; i < len; i++) {
-            var key = condition(arr[i]);
-            
-            if (result[key] === void 0) {
-                result[key] = [];
-            }
-            
-            result[key].push(arr[i]);
-        }
-    };
+        result[key].push(arr[i]);
+    }
+    
+    return result;
 }
 ```
