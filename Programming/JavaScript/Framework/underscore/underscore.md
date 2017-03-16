@@ -21,3 +21,4 @@ Here I will note what other people grasp from this library according to summarie
 - [**NaN?**](./something_about_NaN/something_about_NaN.md)
 - [**Array-like Objects**](./array_like/array_like.md)
 - [**How to shuffle an array**](./random_order/random_order.md)
+- [**Group**](./group/group.md)
