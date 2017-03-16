@@ -88,3 +88,36 @@ function indexBy(arr, conditions) {
     return result;
 }
 ```
+
+When it comes to `_.countBy()`, the key is also same with other two methods discussed above, and corresponding object is used to store the number of objects bound to this key in a given array.
+
+```js
+function countBy(arr, conditions) {
+    /** to return an object */
+    var result = {};
+    
+    /** if the `conditions` is a property name */
+    if (Object.prototype.toString.call(conditions) === '[object String]') {
+        /** override conditions */
+        const keyName = conditions;
+        
+        conditions = function (item) {
+            return item[keyName];
+        };
+    }
+    
+    /** iterate the array */
+    for (var i = 0, len = arr.length; i < len; i++) {
+        var key = conditions(arr[i]);
+        
+        /** make a counter */
+        if (result[key] === void 0) {
+            result[key] = 0;
+        }
+        
+        result[key]++;
+    }
+    
+    return result;
+}
+```
