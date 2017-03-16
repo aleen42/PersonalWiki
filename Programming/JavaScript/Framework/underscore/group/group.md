@@ -175,3 +175,5 @@ var countBy = goup(function (result, key, value) {
     result[key]++;
 });
 ```
+
+It's elegant!
