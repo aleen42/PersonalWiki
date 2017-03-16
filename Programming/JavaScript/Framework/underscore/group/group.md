@@ -19,7 +19,21 @@ It's apparent that the second parameters passed to the method has decided how to
 function groupBy(arr, conditions) {
     /** closuren */
     return function () {
+        /** to return an object */
+        var result = {};
         
+        /** if the `conditions` is a property name */
+        if (Object.prototype.toString.call(conditions) === '[object String]') {
+            /** override conditions */
+            conditions = function () {
+                return conditions;
+            }
+        }
+        
+        /** iterate the array */
+        for (var i = 0, len = arr.length; i < len; i++) {
+            
+        }
     };
 }
 ```
