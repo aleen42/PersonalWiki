@@ -144,10 +144,20 @@ function group(handle) {
         for (var i = 0, len = arr.length; i < len; i++) {
             var key = conditions(arr[i]);
             
+            /** to handle in three various situations */
             handle(result, key);
         }
         
         return result;
     };
 }
+
+var groupBy = group(function (result, key, value) {
+    /** make a counter */
+    if (result[key] === void 0) {
+        result[key] = [];
+    }
+    
+    result.push[value];
+});
 ```
