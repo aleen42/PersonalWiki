@@ -145,7 +145,7 @@ function group(handle) {
             var key = conditions(arr[i]);
             
             /** to handle in three various situations */
-            handle(result, key);
+            handle(result, key, arr[i]);
         }
         
         return result;
