@@ -2,7 +2,7 @@
 
 `group()` is an internal function in underscore, which is mainly used to implement three APIs: `_.groupBy()`, `_.indexBy()`, and `_.countBy()`.
 
-Firstly, the following snippet be described how to use `_.groupBy()` to group an array according to some conditions:
+Firstly, the following snippet has described how to use `_.groupBy()` to group an array according to some conditions:
 
 ```js
 _.groupBy([1.1, 1.2, 2.1], function (num) {
@@ -12,3 +12,5 @@ _.groupBy([1.1, 1.2, 2.1], function (num) {
 _.groupBy(['one', 'two', 'three'], 'length');
 /** => { 3: ['one', 'two'], 5: ['three'] } */
 ```
+
+It's apparent that the second parameters passed to the method has decided how to group a given array. 
