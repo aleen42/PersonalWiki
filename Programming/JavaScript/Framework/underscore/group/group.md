@@ -32,7 +32,13 @@ function groupBy(arr, conditions) {
         
         /** iterate the array */
         for (var i = 0, len = arr.length; i < len; i++) {
+            var key = condition(arr[i]);
             
+            if (result[key] === void 0) {
+                result[key] = [];
+            }
+            
+            result[key].push(arr[i]);
         }
     };
 }
