@@ -81,6 +81,7 @@ function indexBy(arr, conditions) {
     for (var i = 0, len = arr.length; i < len; i++) {
         var key = conditions(arr[i]);
         
+        /** without creating an array */
         result[key] = arr[i];
     }
     
