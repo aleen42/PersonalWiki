@@ -26,7 +26,7 @@ function groupBy(arr, conditions) {
         const keyName = conditions;
         
         conditions = function (item) {
-            return keyName;
+            return item[keyName];
         };
     }
     
