@@ -48,7 +48,7 @@ function groupBy(arr, conditions) {
 What about `_.indexBy()`:
 
 ```js
-_.indexBy([1.1, 1.2, 2.1], 'age'); /** => { 1: [1.1, 1.2], 2: [2.1] } */
+_.indexBy([{ name: 'Peter', age: 40 }, name: 'Aleen', age: 24 }], 'age'); /** => { 1: [1.1, 1.2], 2: [2.1] } */
 
 _.indexBy(['one', 'two', 'three'], 'length');
 /** => { 3: 'two', 5: 'three' } */
