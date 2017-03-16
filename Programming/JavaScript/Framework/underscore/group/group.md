@@ -61,3 +61,33 @@ _.indexBy(['one', 'two', 'three'], 'length');
 ```
 
 As you can see, it's familiar with `_.groupBy()`, and the difference between them is that elements are always unique under the index. If there are more than two elements under the same index, the latter element will override the former one.
+
+```js
+function groupBy(arr, conditions) {
+    /** to return an object */
+    var result = {};
+    
+    /** if the `conditions` is a property name */
+    if (Object.prototype.toString.call(conditions) === '[object String]') {
+        /** override conditions */
+        const keyName = conditions;
+        
+        conditions = function (item) {
+            return item[keyName];
+        };
+    }
+    
+    /** iterate the array */
+    for (var i = 0, len = arr.length; i < len; i++) {
+        var key = conditions(arr[i]);
+        
+        if (result[key] === void 0) {
+            result[key] = [];
+        }
+        
+        result[key].push(arr[i]);
+    }
+    
+    return result;
+}
+```
