@@ -9,5 +9,6 @@ _.groupBy([1.1, 1.2, 2.1], function (num) {
     return Math.floor(num);
 }); /** => { 1: [1.1, 1.2], 2: [2.1] } */
 
-_.groupBy(['one', 'two', 'three'], 'length'); /** => { 3: ['one', 'two'], 5: ['three'] } */
+_.groupBy(['one', 'two', 'three'], 'length');
+/** => { 3: ['one', 'two'], 5: ['three'] } */
 ```
