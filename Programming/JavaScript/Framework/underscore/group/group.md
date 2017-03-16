@@ -23,10 +23,10 @@ function groupBy(arr, conditions) {
     /** if the `conditions` is a property name */
     if (Object.prototype.toString.call(conditions) === '[object String]') {
         /** override conditions */
-        const key = conditions;
+        const keyName = conditions;
         
         conditions = function () {
-            return key;
+            return keyName;
         };
     }
     
