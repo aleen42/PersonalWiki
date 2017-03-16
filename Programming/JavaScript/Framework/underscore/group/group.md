@@ -144,12 +144,7 @@ function group(handle) {
         for (var i = 0, len = arr.length; i < len; i++) {
             var key = conditions(arr[i]);
             
-            /** make a counter */
-            if (result[key] === void 0) {
-                result[key] = 0;
-            }
-            
-            result[key]++;
+            handle(result, key);
         }
         
         return result;
