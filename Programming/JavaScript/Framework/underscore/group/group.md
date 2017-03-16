@@ -48,8 +48,16 @@ function groupBy(arr, conditions) {
 What about `_.indexBy()`:
 
 ```js
-_.indexBy([{ name: 'Peter', age: 40 }, name: 'Aleen', age: 24 }], 'age'); /** => { 1: [1.1, 1.2], 2: [2.1] } */
+_.indexBy([{ name: 'Peter', age: 40 }, { name: 'Aleen', age: 24 }], 'age');
+/**
+ * => {
+ *       24: { name: 'Aleen', age: 24 },
+ *       40: { name: 'Peter', age: 40 }
+ *    }
+ */
 
 _.indexBy(['one', 'two', 'three'], 'length');
 /** => { 3: 'two', 5: 'three' } */
 ```
+
+As you can see, it's familiar with `_.groupBy()`, and the difference between them is that elements are always unique under the index. If there are more than two elements under the same index, the latter element will override the former one.
