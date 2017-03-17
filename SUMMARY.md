@@ -230,7 +230,7 @@
                             * [Programming Practices](./Programming/JavaScript/high_performance/practices/practices.md)
                         * Deployment
                             * [Building and Deploying](./Programming/JavaScript/high_performance/building_and_deploying/building_and_deploying.md)
-                        * 
+                        * Testing
                             * [Tools](./Programming/JavaScript/high_performance/tools/tools.md)
                     * [ES6 features](./Programming/JavaScript/es6/es6.md)
                         * [Block Scope](./Programming/JavaScript/es6/block_scope/block_scope.md)
