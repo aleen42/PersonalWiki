@@ -4,7 +4,7 @@ Having the right software is essential for identifying bottlenecks in both loadi
 
 This chapter mainly focuses on some of free tools available for:
 
-- **Profilling**
+- **Profiling**
 
     Timing various functions and operations during script execution to identify areas for optimization
 
