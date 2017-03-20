@@ -23,3 +23,23 @@ Then check the report of a JavaScript file with running:
 ```bash
 ./node_modules/.bin/eslint file.js
 ```
+
+### Globally
+
+If you want to use ESLint in any project you have, you can just install it globally:
+
+```bash
+npm install -g eslint
+```
+
+Then set up a configuration for a project:
+
+```bash
+eslint --init
+```
+
+Then also check the report in the same way:
+
+```js
+eslint file.js
+```
