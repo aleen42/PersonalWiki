@@ -144,6 +144,7 @@
                     * [How to shuffle an array](./Programming/JavaScript/Framework/underscore/random_order/random_order.md)
                     * [Group](./Programming/JavaScript/Framework/underscore/group/group.md)
                 * [ESLint](./Programming/JavaScript/Framework/eslint/eslint.md)
+                    * [Installation](./Programming/JavaScript/Framework/eslint/installation/installation.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
