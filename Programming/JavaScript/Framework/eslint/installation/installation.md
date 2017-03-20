@@ -11,3 +11,15 @@ If you want it to be installed in a single project, it's recommended to install 
 ```bash
 npm install eslint --save-dev
 ```
+
+Then set up a configuration file:
+
+```bash
+./node_modules/.bin/eslint --init
+```
+
+Then check the report of a JavaScript file with running:
+
+```bash
+./node_modules/.bin/eslint file.js
+```
