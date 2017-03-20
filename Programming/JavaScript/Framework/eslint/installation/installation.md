@@ -40,6 +40,6 @@ eslint --init
 
 Then also check the report in the same way:
 
-```js
+```bash
 eslint file.js
 ```
