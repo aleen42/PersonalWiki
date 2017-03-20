@@ -16,3 +16,5 @@ Once running this command, a file named `.eslintrc` will be automatically create
     }
 }
 ```
+
+The names `semi` and `quotes` are the names of [rules](http://eslint.org/docs/rules) in ESLint.
