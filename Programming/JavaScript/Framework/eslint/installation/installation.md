@@ -9,5 +9,5 @@ So when should we install it globally or locally? It depends on the case whether
 If you want it to be installed in a single project, it's recommended to install locally:
 
 ```bash
-npm install eslint --save
+npm install eslint --save-dev
 ```
