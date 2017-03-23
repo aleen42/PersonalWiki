@@ -17,3 +17,5 @@ And then, remember not to run the following snippet directly:
 ```bash
 npm install -g npm
 ```
+
+If you want to upgrade Node.js, you may just have to redownload a new installer from https://nodejs.org/en/download to override it.
