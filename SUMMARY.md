@@ -502,6 +502,7 @@
             * [How to use browser better](./qa/better_browser.md)
             * [How PGP encryption works](./qa/pgp.md)
             * [How to use Gitbook to write something](./qa/gitbook.md)
+            * [How to specify a ssh key for some git operations on a certain domain](./qa/specify_ssh_on_git.md)
             * [What is Gist](./qa/gist.md)
             * [Sublime Text 3 Pluggin](./qa/sublimepluggin.md)
             * [Some commands of SVN](./qa/svncommands.md)
