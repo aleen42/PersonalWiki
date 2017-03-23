@@ -7,5 +7,10 @@ Firstly, there is a list of sites for remember:
 - OA: http://oa.mailtech.cn/ (OA system for original works)
 - Lunkr: http://www.lunkr.cn/ (used for internal communications)
 - GitLab: http://git.mailtech.cn/ (used for storing projects)
+- Developing Center: http://rd.mailtech.cn/ (used for checking some documents and depoying status)
 - Wiki: http://wiki.mailtech.cn/ (detailed information about any transactions in the company)
 - Email System: http://mt.icoremail.net/ (for receiving and sending emails)
+
+Then, how to develop?
+
+
