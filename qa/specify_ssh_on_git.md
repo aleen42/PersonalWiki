@@ -11,4 +11,4 @@ Host git.company.com
     IdentityFile ~/.ssh/certain
 ```
 
-In this file, it's apparent to see that the private key `certain` has been specified for git operations around projects on the domain **git.company.com**
+In this file, it's apparent to see that the private key `certain` has been specified for git operations around projects on the domain **git.company.com**.
