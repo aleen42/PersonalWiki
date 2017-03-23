@@ -8,6 +8,7 @@
 - [**How PGP encryption works**](./pgp.md)
 - [**How to use Gitbook to write something**](./gitbook.md)
 - [**What is Gist**](./gist.md)
+- [**How to specify a ssh key for some git operations on a certain domain**](./specify_ssh_on_git/specify_ssh_on_git.md)
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of SVN**](./svncommands.md)
 - [**Some common problems of ssh keys in GitHub**](./github_ssh.md)
