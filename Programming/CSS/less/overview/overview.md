@@ -197,4 +197,9 @@ Arithmetical operations `+`, `-`, `*`, `/` can operate on any number, color or v
 @conversion-2: 2 - 3cm - 5mm; /** => -1.5cm */
 
 @incompatible-conversion: 2 + 5px - 3mm; /** => 4px */
+
+/** variables */
+@base: 5%;
+@filter: @base * 2; /** => 10% */
+@other: @base + @filter; /** => 15% */
 ```
