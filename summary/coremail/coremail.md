@@ -29,5 +29,5 @@ To setup configurations for the Tomcat server, you can run the script:
 node {project_root}/dev/setup.js
 ```
 
-Then, specify where the Tomcat has been installed according some official document.
+Then, specify where the Tomcat has been installed according some official documents.
 
