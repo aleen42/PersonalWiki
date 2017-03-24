@@ -181,6 +181,6 @@ Will be converted into CSS like this:
 }
 
 @font-face {
-        src: made-up-url;
-    }
+    src: made-up-url;
+}
 ```
