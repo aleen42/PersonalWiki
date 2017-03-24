@@ -37,4 +37,4 @@ When it comes to the structure of this project, there are three sub-projects:
 - **templage.NG**
 - **wmsvr**
 
-As a front-end developer, what I should focus on is the project **template.NG**, which mainly used to develop templates of Coremail system.
+As a front-end developer, what I should focus on is the project **template.NG**, which mainly used to develop templates of Coremail system. In the folder `web`, there are different kinds of templates developed before like `coremail.pad`, `coremail.XT` series, etc. And in the folder `web.modules`, you can see that `coremail.XT5` is under development.
