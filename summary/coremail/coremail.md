@@ -17,6 +17,11 @@ Firstly, there is a list of sites for remember:
 
 Then, how to develop?
 
+#### Local installation
+
+Main projects is `cmj`:
+
+As 
 
 
 
