@@ -43,5 +43,6 @@ Mixins are a way of including a bunch of properties from one rule-set into anoth
 .post a {
     color: red;
     .bordered;
+    #id;
 }
 ```
