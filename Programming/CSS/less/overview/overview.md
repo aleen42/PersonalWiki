@@ -16,3 +16,7 @@
     color: #6c94be;
 }
 ```
+
+***Note that variables are actually "constants" in that they can only be defined once.***
+
+### 
