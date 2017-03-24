@@ -285,9 +285,9 @@ The difference is they do not have to be declared before being used:
 @var: red;
 
 #page {
-    @var: white;
     #header {
         color: @var; /** => white */
     }
+    @var: white;
 }
 ```
