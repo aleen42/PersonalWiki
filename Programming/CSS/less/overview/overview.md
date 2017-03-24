@@ -28,6 +28,10 @@ Mixins are a way of including a bunch of properties from one rule-set into anoth
     border-top: dotted 1px black;
     border-bottom: solid 2px black;
 }
+
+#id {
+    border: solid 1px black;
+}
 ```
 
 ```less
