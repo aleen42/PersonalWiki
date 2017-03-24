@@ -10,3 +10,9 @@
     color: @light-blue;
 }
 ```
+
+```css
+#header {
+    color: #6c94be;
+}
+```
