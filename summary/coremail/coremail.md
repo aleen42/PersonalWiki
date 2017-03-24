@@ -45,4 +45,4 @@ When developing XT5, it's recommended to read documents firstly:
 - When developing JavaScript or HTML, use `gulp watch:dev:js` to watch building process
 - When developing Less, use `gulp watch:dev:css` to watch building process
 - When modifying `moduleHierarchy.js`, use `gulp watch:xt5:hierarchy`
-- When developing all, use `gulp watch:dev`
+- When developing all, use `gulp dev`
