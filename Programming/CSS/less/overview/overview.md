@@ -157,3 +157,16 @@ We can code it with Less:
     }
 }
 ```
+
+Remaining non-conditional directives, for example `@font-face` or `@keyframes`, are bubbled up too. Their bodies do not change:
+
+```less
+
+#a {
+    color: blue;
+    @font-face {
+        src: made-up-url;
+    }
+    padding: 2;
+}
+```
