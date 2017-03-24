@@ -98,3 +98,21 @@ Like the following CSS:
     visibility: hidden;
 }
 ```
+
+We can code it with Less:
+
+```less
+.clearfix {
+    display: block;
+    zoom: 1;
+    &:after {
+        content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+}
+
+```
