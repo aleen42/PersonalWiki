@@ -36,3 +36,5 @@ When it comes to the structure of this project, there are three sub-projects:
 - **javalib2**
 - **templage.NG**
 - **wmsvr**
+
+As a front-end developer, what I should focus on is the project **template.NG**, which mainly used to develop templates of Coremail system.
