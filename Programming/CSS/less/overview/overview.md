@@ -210,4 +210,6 @@ Multiplication and division do not convert numbers, as it would not be meaningfu
 @base: 2cm * 3mm; /** => 6cm */
 ```
 
+In the case when calculating color values, there should be cases in which values are bigger than `ff` or smaller than `00`. They will be rounded to either `ff` or `00`. Alpha values calculating is same as colov values, like `1.1` will be rounded to `1.0`.
+
 
