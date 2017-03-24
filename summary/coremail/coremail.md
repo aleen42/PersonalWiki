@@ -31,3 +31,8 @@ node {project_root}/dev/setup.js
 
 Then, specify where the Tomcat has been installed according some official documents.
 
+When it comes to the structure of this project, there are three sub-projects:
+
+- **javalib2**
+- **templage.NG**
+- **wmsvr**
