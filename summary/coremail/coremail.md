@@ -23,5 +23,9 @@ The main projects is `cmj`, and install it locally according to [the document](h
 
 As you can see, it's a Java project, and it means that you may have to use a Java IDE to develop, among which **IDEA** is the choice of this company.
 
+To setup configurations for the Tomcat server, you can run the script:
 
+```bash
+node {project_root}/dev/setup.js
+```
 
