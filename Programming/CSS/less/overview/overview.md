@@ -249,5 +249,17 @@ Sometimes, we can use Less to bundle some mixins and variables under a rule bloc
             background-color: white
         }
     }
+    .tag {
+        display: inline-block;
+    }
+}
+```
+
+Then if we want to reuse the rule of `.button`, we can code like this:
+
+```less
+.item {
+    color: red;
+    #bundle > .button;
 }
 ```
