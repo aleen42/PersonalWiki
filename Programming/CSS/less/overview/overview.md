@@ -46,3 +46,21 @@ Mixins are a way of including a bunch of properties from one rule-set into anoth
     #id;
 }
 ```
+
+### Nested Rules
+
+Less gives you the ability to use nesting instead of, or in combination with cascading.
+
+Like the following CSS:
+
+```css
+#header {
+  color: black;
+}
+#header .navigation {
+  font-size: 12px;
+}
+#header .logo {
+  width: 300px;
+}
+```
