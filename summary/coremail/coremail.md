@@ -19,7 +19,7 @@ Then, how to develop?
 
 #### Local installation
 
-Main projects is `cmj`:
+The main projects is `cmj`, and install it locally according to the document.
 
 As 
 
