@@ -21,7 +21,7 @@ Then, how to develop?
 
 The main projects is `cmj`, and install it locally according to [the document](http://git.mailtech.cn/coremail/cmj).
 
-As you can see, it's a Java project, and it means that you may have to use a Java IDE to develop, among which IDEA is the choice of this company.
+As you can see, it's a Java project, and it means that you may have to use a Java IDE to develop, among which **IDEA** is the choice of this company.
 
 
 
