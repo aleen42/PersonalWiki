@@ -177,10 +177,13 @@ Will be converted into CSS like this:
 ```css
 #a {
     color: blue;
-    padding: 2;
 }
 
 @font-face {
     src: made-up-url;
+}
+
+#a {
+    padding: 2;
 }
 ```
