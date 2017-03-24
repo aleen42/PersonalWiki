@@ -86,7 +86,7 @@ Like the following CSS:
 ```css
 .clearfix {
     display: block;
-zoom: 1;
+    zoom: 1;
 }
 
 .clearfix:after {
