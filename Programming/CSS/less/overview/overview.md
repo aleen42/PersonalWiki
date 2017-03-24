@@ -203,3 +203,11 @@ Arithmetical operations `+`, `-`, `*`, `/` can operate on any number, color or v
 @filter: @base * 2; /** => 10% */
 @other: @base + @filter; /** => 15% */
 ```
+
+Multiplication and division do not convert numbers, as it would not be meaningful in most cases.
+
+```less
+@base: 2cm * 3mm; /** => 6cm */
+```
+
+
