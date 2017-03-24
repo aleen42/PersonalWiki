@@ -132,4 +132,28 @@ Like the following CSS:
         color: red;
     }
 }
+
+@media tv {
+    .item {
+        color: black;
+    }
+}
+```
+
+We can code it with Less:
+
+```less
+.item {
+    @media screen {
+        color: green;
+        
+        @media (min-width: 768px) {
+            color: red;
+        }
+    }
+    
+    @media tv {
+        color: black;
+    }
+}
 ```
