@@ -19,4 +19,13 @@
 
 ***Note that variables are actually "constants" in that they can only be defined once.***
 
-### 
+### Mixins
+
+Mixins are a way of including a bunch of properties from one rule-set into another rule-set.
+
+```less
+.bordered {
+    border-top: dotted 1px black;
+    border-bottom: solid 2px black;
+}
+```
