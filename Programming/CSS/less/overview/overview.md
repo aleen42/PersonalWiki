@@ -29,3 +29,15 @@ Mixins are a way of including a bunch of properties from one rule-set into anoth
     border-bottom: solid 2px black;
 }
 ```
+
+```less
+#menu a {
+    color: #111;
+    .bordered;
+}
+
+.post a {
+    color: red;
+    .bordered;
+}
+```
