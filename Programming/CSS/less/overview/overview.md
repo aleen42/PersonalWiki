@@ -127,7 +127,7 @@ Like the following CSS:
     }
 }
 
-@media screen (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .item {
         color: red;
     }
