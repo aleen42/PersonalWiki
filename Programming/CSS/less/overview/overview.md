@@ -123,7 +123,7 @@ Like the following CSS:
 ```css
 @media screen {
     .item {
-        color: green
+        color: green;
     }
 }
 
