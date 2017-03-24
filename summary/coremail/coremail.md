@@ -38,3 +38,9 @@ When it comes to the structure of this project, there are three sub-projects:
 - **wmsvr**
 
 As a front-end developer, what I should focus on is the project **template.NG**, which mainly used to develop templates of Coremail system. In the folder `web`, there are different kinds of templates developed before like `coremail.pad`, `coremail.XT` series, etc. And in the folder `web.modules`, you can see that `coremail.XT5` is under development.
+
+When developing XT5, it's recommended to read documents firstly:
+
+- As it uses webpack v1.x to build dependencies, ES6 is not supported at all
+- When developing JavaScript or HTML, use `gulp watch:dev:js` to watch building process
+- When developing Less, use `gulp watch:dev:css` to watch building process
