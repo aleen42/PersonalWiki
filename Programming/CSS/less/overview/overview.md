@@ -187,3 +187,14 @@ Will be converted into CSS like this:
     padding: 2;
 }
 ```
+
+### Operations
+
+Arithmetical operations `+`, `-`, `*`, `/` can operate on any number, color or variable. If possible, these operations will firstly convert them into numbers, like `px`, `cm`, or `%`.
+
+```less
+@conversion-1: 5cm + 10mm; /** => 6cm */
+@conversion-2: 2 - 3cm - 5mm; /** => -1.5cm */
+
+@incompatible-conversion: 2 + 5px - 3mm; /** => 4px */
+```
