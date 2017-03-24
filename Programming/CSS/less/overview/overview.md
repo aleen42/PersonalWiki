@@ -278,3 +278,16 @@ Variables and mixins are first looked for locally, and if they aren't found, the
     }
 }
 ```
+
+The difference is they do not have to be declared before being used:
+
+```less
+@var: red;
+
+#page {
+    @var: white;
+    #header {
+        color: @var; /** => white */
+    }
+}
+```
