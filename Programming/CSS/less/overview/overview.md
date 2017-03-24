@@ -114,5 +114,22 @@ We can code it with Less:
         visibility: hidden;
     }
 }
+```
 
+When it comes to directives like `@media` or `@keyframe`, we can also use this rule to nest them:
+
+Like the following CSS:
+
+```css
+@media screen {
+    .item {
+        color: green
+    }
+}
+
+@media screen (min-width: 768px) {
+    .item {
+        color: red;
+    }
+}
 ```
