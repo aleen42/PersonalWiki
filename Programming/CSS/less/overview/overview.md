@@ -1,6 +1,6 @@
 ## Overview [Back](./../less.md)
 
-### Variables
+### 1. Variables
 
 ```less
 @nice-blue: #5B83AD;
@@ -19,7 +19,7 @@
 
 ***Note that variables are actually "constants" in that they can only be defined once.***
 
-### Mixins
+### 2. Mixins
 
 Mixins are a way of including a bunch of properties from one rule-set into another rule-set.
 
@@ -47,7 +47,7 @@ Mixins are a way of including a bunch of properties from one rule-set into anoth
 }
 ```
 
-### Nested Rules
+### 3. Nested Rules
 
 Less gives you the ability to use nesting instead of, or in combination with cascading.
 
@@ -188,7 +188,7 @@ Will be converted into CSS like this:
 }
 ```
 
-### Operations
+### 4. Operations
 
 Arithmetical operations `+`, `-`, `*`, `/` can operate on any number, color or variable. If possible, these operations will firstly convert them into numbers, like `px`, `cm`, or `%`.
 
@@ -220,3 +220,34 @@ In the case when calculating color values, there should be cases in which values
 }
 ```
 
+### 5. Functions 
+
+Less provides a variety of functions which transform colors, manipulate strings and do maths.
+
+```less
+@base: #f04615;
+@width: 0.5;
+
+.class {
+    width: percentage(@width); /** => 50% */
+    color: saturate(@base, 5%);
+    background-color: spin(lighten(@base, 25%), 8);
+}
+```
+
+### 6. Namespaces and Accessors
+
+Sometimes, we can use Less to bundle some mixins and variables under a rule block like `#bundle` for later reuse:
+
+```less
+#bundle {
+    .button {
+        display: block;
+        border: 1px solid black;
+        background-color: grey;
+        &:hover {
+            background-color: white
+        }
+    }
+}
+```
