@@ -78,3 +78,23 @@ We can code it with Less:
     }
 }
 ```
+
+When bundling pseudo-selectors, you can use `&` to reference the current selector parent:
+
+Like the following CSS:
+
+```css
+.clearfix {
+    display: block;
+zoom: 1;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+```
