@@ -2,6 +2,8 @@
 
 This note is mainly used to remember some developming details and working details in the Coremail inc..
 
+### Domains
+
 Firstly, there is a list of sites for remember:
 
 - OA: http://oa.mailtech.cn/ (OA system for original works)
@@ -11,6 +13,10 @@ Firstly, there is a list of sites for remember:
 - Wiki: http://wiki.mailtech.cn/ (detailed information about any transactions in the company)
 - Email System: http://mt.icoremail.net/ (for receiving and sending emails)
 
+### Development
+
 Then, how to develop?
+
+
 
 
