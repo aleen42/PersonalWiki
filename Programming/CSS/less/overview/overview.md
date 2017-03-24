@@ -55,12 +55,26 @@ Like the following CSS:
 
 ```css
 #header {
-  color: black;
+    color: black;
 }
 #header .navigation {
-  font-size: 12px;
+    font-size: 12px;
 }
 #header .logo {
-  width: 300px;
+    width: 300px;
+}
+```
+
+We can code it with Less:
+
+```less
+#header {
+    color: black;
+    .navigation {
+        font-size: 12px;
+    }
+    .logo {
+        width: 30px;
+    }
 }
 ```
