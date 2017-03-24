@@ -19,7 +19,7 @@ Then, how to develop?
 
 #### Local installation
 
-The main projects is `cmj`, and install it locally according to the document.
+The main projects is `cmj`, and install it locally according to [the document](http://git.mailtech.cn/coremail/cmj).
 
 As 
 
