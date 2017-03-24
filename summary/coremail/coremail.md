@@ -46,3 +46,6 @@ When developing XT5, it's recommended to read documents firstly:
 - When developing Less, use `gulp watch:dev:css` to watch building process
 - When modifying `moduleHierarchy.js`, use `gulp watch:xt5:hierarchy`
 - When developing all, use `gulp dev`
+
+There're some APIs to know on the wiki: http://rd.mailtech.cn/rd/coremail/wmdocs.php
+
