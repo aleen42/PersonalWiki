@@ -56,7 +56,7 @@ There are 3 basic back-end modules of Coremail System:
     - data are stored in databases and file systems
     - Mbox will store some information with files:
         - The basic info of an email
-        - Indexing position
+        - Indexing position (msid/mid)
         - Size
         - Time (Create, Sent, Modified)
         - Extend Info
