@@ -72,7 +72,7 @@ As for the front-end, there are also some modules to server:
 
 - **mtasvr**
     - mainly used to handle delivering operations and make **deliveragent** to do the real delivering.
-    - use Antispam DB to detect spams. 
+    - use **querysvr** and Antispam DB to detect spams. 
 - **pop3svr**
 - **...**
 
