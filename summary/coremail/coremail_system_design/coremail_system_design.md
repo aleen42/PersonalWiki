@@ -73,17 +73,11 @@ There are 3 basic back-end modules of Coremail System:
 As for the front-end, there are also some modules to server:
 
 - **mtasvr**
+    - mainly used to handle delivering operations and make **deliveragent** to do the real delivering.
+    - 
 - **pop3svr**
 - **...**
 
 As for the server side, there is also a server:
 
 - **adminsvr**
-
-#### 3.2 Other Modules
-
-##### 3.2.1 **mtasvr**
-
-This module is used to handle delivering operations and make **deliveragent** to do the real delivering.
-
-
