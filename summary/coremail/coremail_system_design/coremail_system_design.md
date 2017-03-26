@@ -50,8 +50,12 @@ There are 3 basic back-end modules of Coremail System:
 - **udsvr**
 - **mdsvr**
 
-As for front-end, there are also some modules to server:
+As for the front-end, there are also some modules to server:
 
 - **mtasvr**
 - **pop3svr**
 - **...**
+
+As for the server side, there is a server:
+
+- **adminsvr**
