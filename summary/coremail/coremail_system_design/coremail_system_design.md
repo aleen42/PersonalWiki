@@ -1,1 +1,3 @@
 ## The design of Coremail system	[Back](./../coremail.md)
+
+When it comes to a email system, it should be based on a file system. Take a email user as an example: the structure of such a user can be described as a file system tree.
