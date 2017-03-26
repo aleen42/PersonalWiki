@@ -46,9 +46,10 @@ The main thought of improving such a system is to use multiple devices to store 
 
 There are 3 basic back-end modules of Coremail System:
 
-- **mssvr**
+- **mdsvr (Meta Data Server)**: mainly used for indexing users to acess which servers.
 - **udsvr**
-- **mdsvr (Meta Data Server)**: mainly used for indexing of us
+- **mssvr**
+
 
 As for the front-end, there are also some modules to server:
 
