@@ -41,3 +41,7 @@ So how to work around those problems?
 - Hot copy
 
 The main thought of improving such a system is to use multiple devices to store data, and dividing data of users and emails at the same time.
+
+### 3. Coremail Syst
+
+
