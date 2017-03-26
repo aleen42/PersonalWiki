@@ -48,7 +48,7 @@ There are 3 basic back-end modules of Coremail System:
 
 - **mssvr**
 - **udsvr**
-- **mdsvr (Meta Data Server)**
+- **mdsvr (Meta Data Server)**: mainly used for indexing of us
 
 As for the front-end, there are also some modules to server:
 
