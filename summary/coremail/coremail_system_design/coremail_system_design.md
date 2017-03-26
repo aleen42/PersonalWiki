@@ -64,7 +64,7 @@ There are 3 basic back-end modules of Coremail System:
         - Sender
         - ...
 - **mssvr (Message Servers)**
-    - mainly used to
+    - mainly used to store emails
 
 
 As for the front-end, there are also some modules to server:
