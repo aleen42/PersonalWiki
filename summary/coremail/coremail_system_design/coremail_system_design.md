@@ -24,6 +24,18 @@ With more and more users using an email system, there should be some system bott
 - Network
 - Memory
 
+### 2. Normal Solutions
+
 So how to work around those problems?
 
+#### 2.1 Vertical
 
+- To enhance hardware devices directly
+- Optimize algorithms
+- Optimize code
+
+#### 2.2 Horizontal
+
+- Load balance
+- Functions decomposition
+- Hot cop
