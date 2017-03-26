@@ -24,7 +24,7 @@ With more and more users using an email system, there should be some system bott
 - Network
 - Memory
 
-### 2. Normal Solutions
+### 2. Normal Improvment
 
 So how to work around those problems?
 
@@ -38,4 +38,4 @@ So how to work around those problems?
 
 - Load balance
 - Functions decomposition
-- Hot cop
+- Hot copy
