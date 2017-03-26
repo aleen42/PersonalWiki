@@ -52,6 +52,7 @@ There are 3 basic back-end modules of Coremail System:
     - a user index information will be only stored in two devices (a loop principle, **n** and **(n + 1) % n**)
     - COS overlay
 - **udsvr (User Data Servers)**
+    - mainly used for storing us
 - **mssvr**
 
 
