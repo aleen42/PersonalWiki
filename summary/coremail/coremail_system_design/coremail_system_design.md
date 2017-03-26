@@ -53,7 +53,16 @@ There are 3 basic back-end modules of Coremail System:
     - COS overlay
 - **udsvr (User Data Servers)**
     - mainly used for storing user data and indexing emails (Mbox)
-    - sotred in databses and file systems.
+    - sotred in databses and file systems
+    - Mbox will store some information:
+        - The basic info of an email
+        - Indexing position
+        - Size
+        - Time (Create, Sent, Modified)
+        - Extend Info
+        - Title
+        - Sender
+        - ...
 - **mssvr**
 
 
