@@ -44,6 +44,8 @@ The main thought of improving such a system is to use multiple devices to store 
 
 ### 3. Coremail System
 
+#### 3.1 Main Moudles
+
 There are 3 basic back-end modules of Coremail System:
 
 - **mdsvr (Meta Data Servers)**
@@ -77,3 +79,11 @@ As for the front-end, there are also some modules to server:
 As for the server side, there is also a server:
 
 - **adminsvr**
+
+#### 3.2 Other Modules
+
+##### 3.2.1 **mtasvr**
+
+This module is used to handle delivering operations and make **deliveraget** to do the real del
+
+
