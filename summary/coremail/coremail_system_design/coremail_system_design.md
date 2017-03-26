@@ -1,5 +1,7 @@
 ## The design of Coremail system	[Back](./../coremail.md)
 
+### 1. Introduction
+
 When it comes to an email system, it should be based on a file system. Take an email user as an example: the structure of such a user can be described as a file system tree.
 
 - Aleen42
@@ -21,3 +23,7 @@ With more and more users using an email system, there should be some system bott
 - CPU
 - Network
 - Memory
+
+So how to work aroud them?
+
+
