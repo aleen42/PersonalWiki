@@ -2,7 +2,7 @@
 
 This note is mainly used to remember some developming details and working details in the Coremail inc..
 
-### Domains
+### 1. Domains
 
 Firstly, there is a list of sites for remember:
 
@@ -13,7 +13,7 @@ Firstly, there is a list of sites for remember:
 - Wiki: http://wiki.mailtech.cn/ (detailed information about any transactions in the company)
 - Email System: http://mt.icoremail.net/ (for receiving and sending emails)
 
-### Development
+### 2. Development
 
 Then, how to develop?
 
@@ -49,7 +49,7 @@ When developing XT5, it's recommended to read documents firstly:
 
 There're some APIs to know on the wiki: http://rd.mailtech.cn/rd/coremail/wmdocs.php
 
-### Advanced
+### 3. Advanced
 
 - [**The design of Coremail system**](./coremail_system_design/coremail_system_design.md)
 
