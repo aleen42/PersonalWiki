@@ -49,3 +49,7 @@ When developing XT5, it's recommended to read documents firstly:
 
 There're some APIs to know on the wiki: http://rd.mailtech.cn/rd/coremail/wmdocs.php
 
+### Advanced
+
+- [**The design of Coremail system**](./coremail_system_design/coremail_system_design.md)
+
