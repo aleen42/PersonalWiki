@@ -50,6 +50,7 @@ There are 3 basic back-end modules of Coremail System:
     - mainly used for indexing users (udid) to access which User Data Servers
     - only a database, which will be cached in memories and files (access first)
     - a user index information will be only stored in two devices (a loop principle, **n** and **(n + 1) % n**)
+    - COS overlay
 - **udsvr (User Data Servers)**
 - **mssvr**
 
