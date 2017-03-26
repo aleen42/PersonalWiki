@@ -56,6 +56,6 @@ As for the front-end, there are also some modules to server:
 - **pop3svr**
 - **...**
 
-As for the server side, there is a server:
+As for the server side, there is also a server:
 
 - **adminsvr**
