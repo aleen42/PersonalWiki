@@ -79,3 +79,9 @@ As for the front-end, there are also some modules to server:
 As for the server side, there is also a server:
 
 - **adminsvr**
+
+
+Connections between different servers:
+
+- Meta Data Servers use UDP protocol
+- Others use TCP protocol
