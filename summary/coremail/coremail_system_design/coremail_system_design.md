@@ -84,6 +84,6 @@ As for the server side, there is also a server:
 
 ##### 3.2.1 **mtasvr**
 
-This module is used to handle delivering operations and make **deliveraget** to do the real del
+This module is used to handle delivering operations and make **deliveragent** to do the real delivering.
 
 
