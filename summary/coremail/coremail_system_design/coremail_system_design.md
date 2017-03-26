@@ -85,3 +85,4 @@ Connections between different servers:
 
 - Meta Data Servers use UDP protocol
 - Others use TCP protocol
+- Data is transffered with an internal designed data format
