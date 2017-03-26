@@ -48,7 +48,7 @@ There are 3 basic back-end modules of Coremail System:
 
 - **mdsvr (Meta Data Servers)**
     - mainly used for indexing users (udid) to access which User Data Servers
-    - only a database, which will be cached in memories and files
+    - only a database, which will be cached in memories and files (acces
     - 
 - **udsvr (User Data Servers)**
 - **mssvr**
