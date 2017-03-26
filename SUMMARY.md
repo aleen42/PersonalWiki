@@ -637,4 +637,4 @@
                 * [Architecture](./summary/architecture/architecture.md)
                 * [Protocol Stack](./summary/gsm/stack/stack.md)
             * [Coremail](./summary/coremail/coremail.md)
-                * [The design of Coremail system](./coremail_system_design/coremail_system_design.md)
+                * [The design of Coremail system](./summary/coremail/coremail_system_design/coremail_system_design.md)
