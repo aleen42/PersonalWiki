@@ -44,8 +44,6 @@ The main thought of improving such a system is to use multiple devices to store 
 
 ### 3. Coremail System
 
-#### 3.1 Main Moudles
-
 There are 3 basic back-end modules of Coremail System:
 
 - **mdsvr (Meta Data Servers)**
