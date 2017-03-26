@@ -16,6 +16,8 @@ The features of such a tree are that:
 With more and more users using an email system, there should be some system bottlenecks arising:
 
 - Disk
+    - Space has been occupied
+    - I/O Block
 - CPU
 - Network
 - Memory
