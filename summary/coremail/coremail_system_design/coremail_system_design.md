@@ -10,5 +10,5 @@ When it comes to a email system, it should be based on a file system. Take a ema
 
 The features of such a tree are that:
 
-- All data is stored in an node, to mainain easily
+- All data is stored in an node, to maintain easily
 - Difficult to extend
