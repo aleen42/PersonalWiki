@@ -7,3 +7,8 @@ When it comes to a email system, it should be based on a file system. Take a ema
     - .Outbox (已發送)
     - .Span (已接收)
     - .Trash (垃圾箱)
+
+The features of such a tree are that:
+
+- All data is stored in an node, to mainain easily
+- Difficult to extend
