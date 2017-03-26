@@ -24,6 +24,6 @@ With more and more users using an email system, there should be some system bott
 - Network
 - Memory
 
-So how to work aroud them?
+So how to work around those problems?
 
 
