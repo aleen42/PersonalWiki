@@ -12,7 +12,7 @@ Firstly, there is a list of sites for remember:
 - Developing Center: http://rd.mailtech.cn/ (used for checking some documents and depoying status)
 - Wiki: http://wiki.mailtech.cn/ (detailed information about any transactions in the company)
 - Email System: http://mt.icoremail.net/ (for receiving and sending emails)
-- SHR Syst
+- SHR System: http://218.107.63.241:7888/shr/home.do
 
 ### 2. Development
 
