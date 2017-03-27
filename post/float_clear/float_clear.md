@@ -64,7 +64,17 @@ When we have set float elements in a container, the container will not automatic
     /** try to hide this additional element */
     visibility: hidden;
     height: 0;
-    font-size:
+    font-size: 0;
+}
+
+* html .clearfix {
+    /** IE7 */
+    zoom: 1;
+}
+
+*:first-child + html .clearfix {
+    /** IE6 */
+    ZOOM
 }
 ```
 
