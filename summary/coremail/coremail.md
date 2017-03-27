@@ -49,6 +49,11 @@ When developing XT5, it's recommended to read documents firstly:
 
 There're some APIs to know on the wiki: http://rd.mailtech.cn/rd/coremail/wmdocs.php
 
+If you want to test in different platforms, you can use the following lists of remote machines:
+
+IE8: **rdtest-ie8-01**
+IE9: **rdtest-ie9-01**
+
 ### 3. Advanced
 
 - [**The design of Coremail system**](./coremail_system_design/coremail_system_design.md)
