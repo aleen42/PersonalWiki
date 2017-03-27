@@ -52,6 +52,22 @@ If we set `clear: right;` to `div4`, you'll find that `div4` will follow behind 
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
+### Self-clear
+
+When we have set float elements in a container, the container will not automatically responsive to these elements. To make the container self-clear, even in an older version of browser, we may have to clear fix for them:
+
+```css
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+    /** try to hide this additional element */
+    visibility: hidden;
+    height: 0;
+    font-size:
+}
+```
+
 ### Summary
 
 For front-end developer, the difficulty of layout is to put different types of elements into one line. Both `float` and `clear` have provided you a way to handle it.
