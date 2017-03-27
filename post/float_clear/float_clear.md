@@ -74,7 +74,7 @@ When we have set float elements in a container, the container will not automatic
 
 *:first-child + html .clearfix {
     /** IE6 */
-    ZOOM
+    zoom: 1;
 }
 ```
 
