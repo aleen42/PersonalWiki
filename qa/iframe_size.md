@@ -1,4 +1,4 @@
-## How to calculate the size of an iFrame [Back](./../qa.md)
+## How to calculate the size of an iFrame [Back](./qa.md)
 
 ```js
 var calcPageHeight = function(doc) {
