@@ -51,5 +51,5 @@ Despite of these syntax, you can also contain more than one selectors with comma
 
 
 ```less
-.e:extend(.f, .c) {}
+.e:extend(.f, .g) {}
 ```
