@@ -17,3 +17,14 @@ For selectors, we can code like this:
     margin: 0 auto;
 }
 ```
+
+As for URLs:
+
+```less
+/** Variables */
+@images: "../img";
+
+.item {
+    background-image: url('@{images}/white-sand.png');
+}
+```
