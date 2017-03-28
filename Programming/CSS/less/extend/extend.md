@@ -37,3 +37,9 @@ The snippet above will be converted into such a css style:
     &:extend(.b);
 }
 ```
+
+```less
+.a {
+    &:extend(.b);
+}
+```
