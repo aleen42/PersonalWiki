@@ -9,3 +9,4 @@ Less is a CSS pre-processor, meaning that it extends the CSS language, adding fe
 During the process of learning it, you may need to compare Less with CSS in an [online editor](http://less2css.org/).
 
 - [**Overview**](./overview/overview.md)
+- [**Variables**](./variables/variables.md)
