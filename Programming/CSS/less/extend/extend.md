@@ -46,3 +46,10 @@ The snippet above will be converted into such a css style:
     // extends only instances where the selector will be output as just ".d"
 }
 ```
+
+Despite of these syntax, you can also contain more than one selectors with comma as separators:
+
+
+```less
+.e:extend(.f, .c) {}
+```
