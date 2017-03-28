@@ -251,6 +251,7 @@
             * [Less](./Programming/CSS/less/less.md)
                 * [Overview](./Programming/CSS/less/overview/overview.md)
                 * [Variables](./Programming/CSS/less/variables/variables.md)
+                * [Extend](./Programming/CSS/less/extend/extend.md)
             * Categories
                 * [External CSS](./Programming/CSS/external/external.md)
                 * [Internal CSS](./Programming/CSS/internal/internal.md)
