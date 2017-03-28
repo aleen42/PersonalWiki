@@ -39,3 +39,16 @@ When it comes to `@import` statements:
 /** Usage */
 @import '@{themes}/tidal-wave.less';
 ```
+
+Properties:
+
+```less
+/** Variables */
+@property: color;
+
+/** Usage */
+.widget {
+    @{property}: #0ee;
+    background-@{property}: #999;
+}
+```
