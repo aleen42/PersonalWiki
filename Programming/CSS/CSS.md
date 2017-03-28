@@ -1,6 +1,8 @@
 ## CSS [Back](./../ProgrammingMenu.md)
 
-<img src="./logo.jpg">
+<p align="center">
+    <img width="50%" src="./logo.jpg">
+</p>
 
 - **Cascading Style Sheets (CSS)** is to specify presentations of web pages.
 - we can use it to place all the components.
