@@ -294,7 +294,7 @@ The difference is they do not have to be declared before being used:
 
 ### 8. Importing
 
-Importing works pretty much as expected. You can import a .less file, and all the variables in it will be available.
+Importing works pretty much as expected. You can import a `.less` file, and all the variables in it will be available.
 
 ```less
 @import "library"; /** library.less */
