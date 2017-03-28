@@ -10,3 +10,4 @@ During the process of learning it, you may need to compare Less with CSS in an [
 
 - [**Overview**](./overview/overview.md)
 - [**Variables**](./variables/variables.md)
+- [**Extend**](./extend/extend.md)
