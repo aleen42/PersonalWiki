@@ -14,6 +14,8 @@ var calcPageWidth = function(doc, win) {
          * so that the scroll bar won't be outside the container
          */
         var cWidth = Math.min(doc.body.clientWidth, doc.documentElement.clientWidth);
+        /** also set body width to fix existence of scrollbars. */
+        /** doc.body.style.width = cWidth - 30 + 'px'; */
 
         return cWidth;
     } else {
