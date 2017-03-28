@@ -24,7 +24,18 @@ As for URLs:
 /** Variables */
 @images: "../img";
 
+/** Usage */
 .item {
     background-image: url('@{images}/white-sand.png');
 }
+```
+
+When it comes to `@import` statements:
+
+```less
+/** Variables */
+@themes: "../../src/themes";
+
+/** Usage */
+@import '@{themes}/tidal-wave.less";
 ```
