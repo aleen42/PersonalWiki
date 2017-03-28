@@ -22,7 +22,7 @@ As for URLs:
 
 ```less
 /** Variables */
-@images: '../img;
+@images: '../img';
 
 /** Usage */
 .item {
