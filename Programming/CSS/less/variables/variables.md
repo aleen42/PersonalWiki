@@ -4,7 +4,7 @@
 
 How about using variables despite of only values, such as selector names, property names, URLS and `@import` statements.
 
-For selectors, we can code like this:
+#### 1.1 Selectors
 
 ```less
 /** Variables */
@@ -18,7 +18,7 @@ For selectors, we can code like this:
 }
 ```
 
-As for URLs:
+#### 1.2 URLs
 
 ```less
 /** Variables */
@@ -30,7 +30,7 @@ As for URLs:
 }
 ```
 
-When it comes to `@import` statements:
+#### 1.3 Import Statements
 
 ```less
 /** Variables */
@@ -40,7 +40,7 @@ When it comes to `@import` statements:
 @import '@{themes}/tidal-wave.less';
 ```
 
-Properties:
+#### 1.4 Properties
 
 ```less
 /** Variables */
@@ -51,4 +51,12 @@ Properties:
     @{property}: #0ee;
     background-@{property}: #999;
 }
+```
+
+#### 1.5 Variable Names
+
+```less
+@fnord: "I am fnord.";
+@var: "fnord";
+content: @@var;
 ```
