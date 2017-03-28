@@ -26,3 +26,14 @@ The snippet above will be converted into such a css style:
     color: red;
 }
 ```
+
+### 1.1 Extend Syantax
+
+```less
+.a:extend(.b) {}
+
+/** the above block does the same thing as the below block */
+.a {
+    &:extend(.b);
+}
+```
