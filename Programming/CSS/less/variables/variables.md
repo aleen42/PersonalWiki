@@ -1,10 +1,10 @@
 ## Variables [Back](./../less.md)
 
-### 1. Variable Interpolation (內插)
+### Variable Interpolation (內插)
 
 How about using variables despite of only values, such as selector names, property names, URLS and `@import` statements.
 
-#### 1.1 Selectors
+#### 1. Selectors
 
 ```less
 /** Variables */
@@ -18,7 +18,7 @@ How about using variables despite of only values, such as selector names, proper
 }
 ```
 
-#### 1.2 URLs
+#### 2. URLs
 
 ```less
 /** Variables */
@@ -30,7 +30,7 @@ How about using variables despite of only values, such as selector names, proper
 }
 ```
 
-#### 1.3 Import Statements
+#### 3. Import Statements
 
 ```less
 /** Variables */
@@ -40,7 +40,7 @@ How about using variables despite of only values, such as selector names, proper
 @import '@{themes}/tidal-wave.less';
 ```
 
-#### 1.4 Properties
+#### 4. Properties
 
 ```less
 /** Variables */
@@ -53,7 +53,7 @@ How about using variables despite of only values, such as selector names, proper
 }
 ```
 
-#### 1.5 Variable Names
+#### 5. Variable Names
 
 ```less
 @fnord: "I am fnord.";
