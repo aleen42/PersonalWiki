@@ -34,8 +34,8 @@ When it comes to `@import` statements:
 
 ```less
 /** Variables */
-@themes: "../../src/themes";
+@themes: '../../src/themes';
 
 /** Usage */
-@import '@{themes}/tidal-wave.less";
+@import '@{themes}/tidal-wave.less';
 ```
