@@ -39,7 +39,10 @@ The snippet above will be converted into such a css style:
 ```
 
 ```less
-.a {
-    &:extend(.b);
+.c:extend(.d all) {
+    // extends all instances of ".d" e.g. ".x.d" or ".d.x"
+}
+.c:extend(.d) {
+    // extends only instances where the selector will be output as just ".d"
 }
 ```
