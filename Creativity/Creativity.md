@@ -1,6 +1,6 @@
 ## Creativity [Back](./../README.md)
 
-<p align="center">More than a coder, more than a designer</p>
+<p align="center"><strong>More than a coder, more than a designer</strong></p>
 
 - 能用編程實現一個程序的人, 我泛指**Coder**.
 - 能用工具畫出一張圖的人, 我泛指**Designer**.
