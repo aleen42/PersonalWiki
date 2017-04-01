@@ -1,8 +1,8 @@
 ## [轉載] Optimizing images for SEO [Back](./../post.md)
 
 > - Author: [Michiel Heijmans](https://yoast.com/about-us/michiel-heijmans/)
-- Origin: https://yoast.com/image-seo/
-- Time: Oct, 12nd, 2016
+> - Origin: https://yoast.com/image-seo/
+> - Time: Oct, 12nd, 2016
 
 <br />
 
