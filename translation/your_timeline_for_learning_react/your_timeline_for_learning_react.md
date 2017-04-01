@@ -1,10 +1,10 @@
 ## Your Timeline for Learning React - 為你定制的 React 學習路線 [**Back**](./../translation.md)
 
 > * 原文链接 : [Your Timeline for Learning React](https://daveceddia.com/timeline-for-learning-react/)
-* 原文作者 : [DAVE CEDDIA](https://daveceddia.com/timeline-for-learning-react/)
-* 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者 : [aleen42](http://aleen42.github.io/)
-* 校对者: [llp0574](https://github.com/llp0574), [jiaowoyongqi](https://github.com/jiaowoyongqi)
+> * 原文作者 : [DAVE CEDDIA](https://daveceddia.com/timeline-for-learning-react/)
+> * 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者 : [aleen42](http://aleen42.github.io/)
+> * 校对者: [llp0574](https://github.com/llp0574), [jiaowoyongqi](https://github.com/jiaowoyongqi)
 
 [![xitu](https://camo.githubusercontent.com/c9c9db0a39b56738a62332f0791d58b1522fdf82/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f786974752e737667)](https://github.com/xitu/gold-miner)
 
