@@ -1,8 +1,8 @@
 ## [轉載] Leverage Browser Caching [Back](./../post.md)
 
 > - Author: Google Documents
-- Origin: https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
-- Time: Apr, 8th, 2015
+> - Origin: https://developers.google.com/speed/docs/insights/LeverageBrowserCaching
+> - Time: Apr, 8th, 2015
 
 
 This rule triggers when **PageSpeed Insights** detects that the response from your server **does not include caching headers** or if the resources are specified to be **cached for only a short time**.
