@@ -35,4 +35,6 @@ var subscription = subject.subscribe({
 });
 
 subject.onNext(56); /** => currentValue: 56 */
+subject.onCompleted();
+subject.dispose();
 ```
