@@ -1,10 +1,10 @@
 ## Styling SVG &lt;use&gt; Content with CSS - 使用 CSS 来制定 SVG &lt;use&gt; 元素中内容的样式 [**Back**](./../translation.md)
 
 > * 原文链接 : [Styling SVG &lt;use&gt; Content with CSS](http://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/)
-* 原文作者 : [Sara Soueidan](https://github.com/SaraSoueidan)
-* 译者 : [aleen42](https://github.com/aleen42)
-* 校对者 : 暂无
-* 状态 : 待校对
+> * 原文作者 : [Sara Soueidan](https://github.com/SaraSoueidan)
+> * 译者 : [aleen42](https://github.com/aleen42)
+> * 校对者 : 暂无
+> * 状态 : 待校对
 
 ![](./StylingSVGuse.jpg)
 
