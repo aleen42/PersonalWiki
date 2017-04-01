@@ -20,7 +20,7 @@ function getScrollbarWidth() {
     
     var widthWithScroll = inner.offsetWidth;
     
-    // remove divs
+    /** remove divs */
     outer.parentNode.removeChild(outer);
     
     return widthNoScroll - widthWithScroll;
