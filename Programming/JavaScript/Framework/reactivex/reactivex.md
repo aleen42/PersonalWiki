@@ -55,6 +55,15 @@ var counterObservable = Rx.Observable.interval(1000) /** => 1000 milliseconds */
     .take(counterDuration)
     .startWith(-1)
     .map(function (curTime) {
-       return (;
+       return (counterDuration - curTime);
     });
+
+var counterObserver = counterObservable.subscribe({
+    onNext: functon (timeLeft) {
+        console.log('time left: ' + timeLeft + 's'); 
+    },
+    onCompleted: function () {
+        console.log('timeout');
+    }
+});
 ```
