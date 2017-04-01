@@ -1,11 +1,11 @@
 ## How we "CSS" at BigCommerce - 在BigCommerce我們如何編寫CSS [**Back**](./../translation.md)
 
-* 原文链接 : [How we "CSS" at BigCommerce](http://www.bigeng.io/how-we-css-at-bigcommerce/)
-* 原文作者 : [Simon Taggart](http://www.bigeng.io/author/simon-taggart/)
-* 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者 : [shenxn](https://github.com/shenxn)
-* 校对者: [bobmayuze](https://github.com/bobmayuze)，[aleen42](https://github.com/aleen42)，[Evaxtt](https://github.com/Evaxtt)
-* 状态 : 翻译完成
+> * 原文链接 : [How we "CSS" at BigCommerce](http://www.bigeng.io/how-we-css-at-bigcommerce/)
+> * 原文作者 : [Simon Taggart](http://www.bigeng.io/author/simon-taggart/)
+> * 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者 : [shenxn](https://github.com/shenxn)
+> * 校对者: [bobmayuze](https://github.com/bobmayuze)，[aleen42](https://github.com/aleen42)，[Evaxtt](https://github.com/Evaxtt)
+> * 状态 : 翻译完成
 
 [我们的《SASS风格指南 - SASS Style Guide》现在已经可以在GitHub上找到](https://github.com/bigcommerce/sass-style-guide)
 
