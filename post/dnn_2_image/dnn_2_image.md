@@ -1,8 +1,8 @@
 ## [轉載] 從圖像到知識: 深度神經網絡實現圖像理解的原理解析 [Back](./../post.md)
 
 > - Author: [xinchrome](http://www.cnblogs.com/xinchrome/)
-- Origin: http://www.cnblogs.com/xinchrome/p/5661884.html
-- Time: Jul, 11st, 2016
+> - Origin: http://www.cnblogs.com/xinchrome/p/5661884.html
+> - Time: Jul, 11st, 2016
 
 &nbsp; &nbsp; &nbsp; &nbsp;**摘要**：本文将详细解析深度神经网络识别图形图像的基本原理。针对卷积神经网络，本文将详细探讨网络中每一层在图像识别中的原理和作用，例如卷积层(convolutional layer)，采样层(pooling layer)，全连接层(hidden layer)，输出层(softmax output layer)。针对递归神经网络，本文将解释它在序列数据上表现出的强大能力。针对通用的深度神经网络模型，本文也将详细探讨网络的前馈和学习过程。卷积神经网络和递归神经网络的结合形成的深度学习模型甚至可以自动生成针对图片的文字描述。作为近年来重新兴起的技术，深度学习已经在诸多人工智能领域取得了令人瞩目的进展，但是神经网络模型的可解释性仍然是一个难题，本文从原理的角度探讨了用深度学习实现图像识别的基本原理，详细解析了从图像到知识的转换过程。
 
