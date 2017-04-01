@@ -1,9 +1,9 @@
 ## Google Interview University - 一套完整的学习手册帮助自己准备 Google 的面试 [**Back**](./../translation.md)
 
 > * 原文地址：[Google Interview University](https://github.com/jwasham/google-interview-university)
-* 原文作者：[John Washam](https://github.com/jwasham)
-* 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者：[aleen42](https://github.com/aleen42)，[Newton](https://github.com/Newt0n)，[bobmayuze](https://github.com/bobmayuze)，[Jaeger](https://github.com/laobie)，[sqrthree](https://github.com/sqrthree)
+> * 原文作者：[John Washam](https://github.com/jwasham)
+> * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者：[aleen42](https://github.com/aleen42)，[Newton](https://github.com/Newt0n)，[bobmayuze](https://github.com/bobmayuze)，[Jaeger](https://github.com/laobie)，[sqrthree](https://github.com/sqrthree)
 
 [![xitu](https://camo.githubusercontent.com/c9c9db0a39b56738a62332f0791d58b1522fdf82/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f786974752e737667)](https://github.com/xitu/gold-miner)
 
