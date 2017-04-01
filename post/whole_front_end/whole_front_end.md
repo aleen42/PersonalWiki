@@ -1,8 +1,8 @@
 ## [轉載] 前端技術體系大局觀 [Back](./../post.md)
 
 > - Author: [张鑫](https://www.zhihu.com/people/zhangxin840)
-- Origin: https://zhuanlan.zhihu.com/p/23185351
-- Time: Oct, 25th, 2016
+> - Origin: https://zhuanlan.zhihu.com/p/23185351
+> - Time: Oct, 25th, 2016
 
 ![](./v2-ae9f857074809a33e0b075e51424bd62_b.png)
 
