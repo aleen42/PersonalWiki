@@ -2,7 +2,9 @@
 
 <p align="center">
     <img src="./logo.png" />
-    <p>ReactiveX</p>
+</p>
+<p align="center">
+    ReactiveX
 </p>
 
 [**ReactiveX**](http://reactivex.io/) is a library for composing asynchronous and event-based programs by using observable sequences.
