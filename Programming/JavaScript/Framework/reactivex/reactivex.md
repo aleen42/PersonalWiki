@@ -51,7 +51,9 @@ try {
 
 ```js
 var counterDuration = 60; /** => 60 seconds */
-var counterObservable = Rx.Observable.interval(1000) /** => 1000 milliseconds */
+var counterObservable = Rx.Observable
+    .fromEvent('.btn', 'click')
+    .interval(1000) /** => 1000 milliseconds */
     .take(counterDuration)
     .startWith(-1)
     .map(function (curTime) {
