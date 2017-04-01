@@ -15,4 +15,4 @@ The author of Rx has claimed that Rx can not be called as "functional reactive p
 
 When it comes to the topic why to use Rx, the most important reason in my opinion is that it can free us from tangled webs of callbacks, so that code can be more readable.
 
-With reading the article, "[2 minute introduction to Rx](2 minute introduction to Rx)", written by André Staltz, we can easily get that Rx is actually a functional tool for operating events in a event stream
+With reading the article, "[2 minute introduction to Rx](2 minute introduction to Rx)", written by André Staltz, we can easily get that Rx is actually a functional tool for operating events in a event stream through an object named **Observables*.*
