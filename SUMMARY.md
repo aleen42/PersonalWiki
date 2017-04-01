@@ -146,6 +146,7 @@
                 * [ESLint](./Programming/JavaScript/Framework/eslint/eslint.md)
                     * [Installation](./Programming/JavaScript/Framework/eslint/installation/installation.md)
                     * [Configuration](./Programming/JavaScript/Framework/eslint/configuration/configuration.md)
+                * [ReactiveX](./Programming/JavaScript/Framework/reactivex/reactivex.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
