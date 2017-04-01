@@ -1,8 +1,8 @@
 ## [轉載] Javascript中判斷數組的正確姿勢 [Back](./../post.md)
 
 > - Author: [hanzichi · 韩子迟](https://github.com/hanzichi)
-- Origin: http://www.cnblogs.com/zichi/p/5103842.html
-- Time: Jan, 5th, 2016
+> - Origin: http://www.cnblogs.com/zichi/p/5103842.html
+> - Time: Jan, 5th, 2016
 
 在 Javascript 中，如何判断一个变量是否是数组？
 
