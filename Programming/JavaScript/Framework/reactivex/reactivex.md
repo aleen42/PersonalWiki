@@ -46,3 +46,15 @@ try {
 
 /** => Object has been disposed */
 ```
+
+### As a event listner and counter
+
+```js
+var counterDuration = 60; /** => 60 seconds */
+var counterObservable = Rx.Observable.interval(1000) /** => 1000 milliseconds */
+    .take(counterDuration)
+    .startWith(-1)
+    .map(function (curTime) {
+       console.log('left: ' + (counterDuration - span)); 
+    });
+```
