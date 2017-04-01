@@ -24,8 +24,15 @@ var subject = Rx.BehaviorSubject(42);
 var subscription = subject.subscribe({
     onNext: function (x) {
         /** handle data */
-        
+        console.log('currentValue: ' + subjct.getValue());
+    },
+    onError: function (err) {
+        console.log('Error: ' + err);
+    },
+    onCompleted: function () {
+        console.log('Completed');
     }
-
 });
+
+subject.onNext(56); /** => currentValue: 56 */
 ```
