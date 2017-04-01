@@ -55,6 +55,6 @@ var counterObservable = Rx.Observable.interval(1000) /** => 1000 milliseconds */
     .take(counterDuration)
     .startWith(-1)
     .map(function (curTime) {
-       console.log('left: ' + (counterDuration - span)); 
+       return counterDuration - span;
     });
 ```
