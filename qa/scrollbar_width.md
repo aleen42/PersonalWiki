@@ -1,1 +1,1 @@
-## How to detect IE version with JavaScript [Back](./qa.md)
+## How to calculate the width of a scrollbar in browsers [Back](./qa.md)
