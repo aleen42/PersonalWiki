@@ -1,11 +1,11 @@
 ## Things I Wish I Were Told About React Native - 一些關於原生React我希望被告知的東西 [**Back**](./../translation.md)
 
 > * 原文链接 : [Things I Wish I Were Told About React Native](http://ruoyusun.com/2015/11/01/things-i-wish-i-were-told-about-react-native.html)
-* 原文作者 : [Ruoyu Sun](https://twitter.com/insraq)
-* 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者 : [huanglizhuo](https://github.com/huanglizhuo) 
-* 校对者: [Void Main](https://github.com/void-main)  [aleen42](https://github.com/aleen42) 
-* 状态 :  翻译结束
+> * 原文作者 : [Ruoyu Sun](https://twitter.com/insraq)
+> * 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者 : [huanglizhuo](https://github.com/huanglizhuo) 
+> * 校对者: [Void Main](https://github.com/void-main)  [aleen42](https://github.com/aleen42) 
+> * 状态 :  翻译结束
 
 ## No. 1 读文档（一定要读）
   1   我之所以把它列在第一位是因为这真的是最节省时间的一条。等你真正读了文档，尤其是["指导"](https://facebook.github.io/react-native/docs/style.html#content)这节，那么我相信你应该会对下面的大部分建议有所了解。但人们更愿意通过实践学习而不是读文档-我之前也是这样做的。我浪费的大把的时间在下面的事情上，而不是读文档。因此我希望这篇文章可以节约你不少的时间。
