@@ -1,11 +1,11 @@
 ## Distributing React components - 如何發佈一個React組件 [**Back**](./../translation.md)
 
 > * 原文链接 : [Distributing React components](http://krasimirtsonev.com/blog/article/distributing-react-components-babel-browserify-webpack-uglifyjs)
-* 原文作者 : [Krasimir ](http://krasimirtsonev.com/blog/)
-* 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者 : [aleen42](http://aleen42.github.io/)
-* 校对者: [Aaaaaashu](https://github.com/Aaaaaashu)、[achilleo](https://github.com/achilleo)
-* 状态 : 完成
+> * 原文作者 : [Krasimir ](http://krasimirtsonev.com/blog/)
+> * 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者 : [aleen42](http://aleen42.github.io/)
+> * 校对者: [Aaaaaashu](https://github.com/Aaaaaashu)、[achilleo](https://github.com/achilleo)
+> * 状态 : 完成
 
 [![xitu](https://camo.githubusercontent.com/c9c9db0a39b56738a62332f0791d58b1522fdf82/68747470733a2f2f7261776769742e636f6d2f616c65656e34322f6261646765732f6d61737465722f7372632f786974752e737667)](https://github.com/xitu/gold-miner)
 
