@@ -1,11 +1,11 @@
-## Making React Native apps accessible - 使得React原生應用變得可讀 [**Back**](./../translation.md)
+> ## Making React Native apps accessible - 使得React原生應用變得可讀 [**Back**](./../translation.md)
 
 > * 原文链接 : [Making React Native apps accessible | Engineering Blog | Facebook Code | Facebook](https://code.facebook.com/posts/435862739941212/making-react-native-apps-accessible/)
-* 原文作者 : [Chace Liang](https://www.facebook.com/chaceliang)
-* 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者 : [void-main](https://github.com/void-main)
-* 校对者: [aleen42](https://github.com/aleen42)
-* 状态 :  翻译完成
+> * 原文作者 : [Chace Liang](https://www.facebook.com/chaceliang)
+> * 译文出自 : [掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者 : [void-main](https://github.com/void-main)
+> * 校对者: [aleen42](https://github.com/aleen42)
+> * 状态 :  翻译完成
 
 
 最近，随着面向 Web 的 React 框架和面向移动端的 React Native 框架相继发布，我们为开发者提供了一个可用于构建应用的全新前端框架。构建成熟产品的一个关键因素就是确保每个人都能使用它，乃至于那些有视觉缺陷或其它残障的用户。为 React 和 React Native 设计的无障碍(Accessibility)API使你基于React开发的应用可以被那些需要辅助工具，比如为盲人或视觉受损的用户设计的读屏器，的用户使用。
