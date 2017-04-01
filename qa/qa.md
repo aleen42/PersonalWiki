@@ -56,7 +56,7 @@
 - [**How to calculate the FPS value of a page**](./fps_of_a_page/fps_of_a_page.md)
 - [**How to calculate the size of an iFrame**](./iframe_size.md)
 - [**How to detect IE version with JavaScript**](./detect_ie.md)
-- **How to calculate the width of a scrollb**
+- [**How to calculate the width of a scrollbar in browsers**](./scrollbar_width.md)
 - [**Someting about scrolling**](./scroll/scroll.md)
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
