@@ -1,10 +1,10 @@
 ## 3 New CSS Features to Learn in 2017 - 2017 年要去学的 3 个 CSS 新属性 [**Back**](./../translation.md)
 
 > * 原文地址：[3 New CSS Features to Learn in 2017](https://bitsofco.de/3-new-css-features-to-learn-in-2017/)
-* 原文作者：[ireaderinokun](https://twitter.com/ireaderinokun)
-* 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者： [熊贤仁](https://github.com/FrankXiong)
-* 校对者： [Professor-Z](https://github.com/Professor-Z)、[aleen42](https://github.com/aleen42)
+> * 原文作者：[ireaderinokun](https://twitter.com/ireaderinokun)
+> * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者： [熊贤仁](https://github.com/FrankXiong)
+> * 校对者： [Professor-Z](https://github.com/Professor-Z)、[aleen42](https://github.com/aleen42)
 
 ### 1. 特性查询（Feature Queries）
 
