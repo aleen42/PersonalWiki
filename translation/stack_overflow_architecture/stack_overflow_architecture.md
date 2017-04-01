@@ -1,10 +1,10 @@
 ## Stack Overflow: The Architecture - Stack Overflow的系统架构 [**Back**](./../translation.md)
 
 > * 原文链接 : [Stack Overflow: The Architecture - 2016](http://nickcraver.com/blog/2016/02/17/stack-overflow-the-architecture-2016-edition/)
-* 原文作者 : [Nick Craver](https://github.com/NickCraver)
-* 译者 : [aleen42](https://github.com/aleen42) 
-* 校对者: 暂无
-* 状态 :  待校对
+> * 原文作者 : [Nick Craver](https://github.com/NickCraver)
+> * 译者 : [aleen42](https://github.com/aleen42) 
+> * 校对者: 暂无
+> * 状态 :  待校对
 
 &#160; &#160; &#160; &#160;为了弄明白我要说的这些东西到底是在“做”什么，我一开始将会以 Stack Overflow 更新的数据作出说明。与之前[2013年11份的数据](http://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/)相比，这里有一份2016年2月9日的统计数据及之间的数据差异。
 - **209,420,973**（+61,336,090）HTTP 请求到达我们的负载均衡器
