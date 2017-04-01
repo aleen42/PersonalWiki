@@ -1,8 +1,8 @@
 ## [轉載] Drawing images using edge detection and SVG animation [Back](./../post.md)
 
 > - Author: [José M. Pérez](https://jmperezperez.com/about-me/)
-- Origin: https://jmperezperez.com/drawing-edges-svg/
-- Time: Dec, 18th, 2015
+> - Origin: https://jmperezperez.com/drawing-edges-svg/
+> - Time: Dec, 18th, 2015
 
 Back in the days SVG was barely used and supported. Some time after we started using them as an alternative to classic bitmaps for some icons, and finally we discovered it was the holy grail for providing responsive graphics. The flat and clean design trends have also make SVG as a very useful image format.
 
