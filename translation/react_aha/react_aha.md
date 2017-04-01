@@ -1,10 +1,10 @@
 ## React "Aha" Moments - React 中“灵光乍现”的那些瞬息 [**Back**](./../translation.md)
 
 > * 原文地址：[React “Aha” Moments](https://medium.freecodecamp.com/react-aha-moments-4b92bd36cc4e#.jxiocbkv5)
-* 原文作者：[Tyler McGinnis](https://medium.freecodecamp.com/@tylermcginnis?source=post_header_lockup)
-* 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
-* 译者： [aleen42](https://github.com/aleen42)
-* 校对者：[Tina92](https://github.com/Tina92)、[sqrthree](https://github.com/sqrthree)
+> * 原文作者：[Tyler McGinnis](https://medium.freecodecamp.com/@tylermcginnis?source=post_header_lockup)
+> * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 译者： [aleen42](https://github.com/aleen42)
+> * 校对者：[Tina92](https://github.com/Tina92)、[sqrthree](https://github.com/sqrthree)
 
 <img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/800/0*6nyVYm78oKNBrvd8.jpg">
 
