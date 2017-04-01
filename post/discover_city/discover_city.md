@@ -1,8 +1,8 @@
 ## [轉載] Discover the Full Story of City's Buildings [Back](./../post.md)
 
 > - Author: [The Design Inspiration](https://github.com/gorkamolero)
-- Origin: http://thedesigninspiration.com/articles/discover-the-full-story-of-citys-buildings/ 
-- Time: Jun, 28th, 2014
+> - Origin: http://thedesigninspiration.com/articles/discover-the-full-story-of-citys-buildings/ 
+> - Time: Jun, 28th, 2014
 
 The purpose of the "Discover the Full Story" campaign, designed by [Saatchi &amp; Saatchi Russia](http://saatchi.ru/ru-ru/), is to tell about the wonderful museum in collections that reflect the architectural heritage of a thousand-year history of Russia. This shows us that there is a different story behind the facade of each building.
 
