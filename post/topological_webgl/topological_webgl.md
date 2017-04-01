@@ -1,8 +1,8 @@
 ## [轉載] HTML5的WebGL實現的3D和2D拓撲樹 [Back](./../post.md)
 
 > - Author: Eric
-- Origin: http://www.hightopo.com/blog/453.html
-- Time: Feb, 24th, 2016
+> - Origin: http://www.hightopo.com/blog/453.html
+> - Time: Feb, 24th, 2016
 
 在[HT for Web](http://www.hightopo.com/)中2D和3D应用都支持树状结构数据的展示，展现效果各异，2D上的树状结构在展现层级关系明显，但是如果数据量大的话，看起来就没那么直观，找到指定的节点比较困难，而3D上的树状结构在展现上配合[HT for Web](http://www.hightopo.com/)的弹力布局组件会显得比较直观，一眼望去可以把整个树状结构数据看个大概，但是在弹力布局的作用下，其层次结构看得就不是那么清晰了。所以这时候结构清晰的[3D树](http://www.hightopo.com/)的需求就来了，那么这个3D树具体长成啥样呢，我们来一起目睹下~
 
