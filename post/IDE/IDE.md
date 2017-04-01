@@ -1,8 +1,8 @@
 ## [轉載] 前端服务化——页面搭建工具的死与生 [Back](./../post.md)
 
 > - Author: [sskyy](https://github.com/sskyy)
-- Origin: http://www.cnblogs.com/sskyy/p/6496287.html
-- Time: Mar, 3rd, 2017
+> - Origin: http://www.cnblogs.com/sskyy/p/6496287.html
+> - Time: Mar, 3rd, 2017
 
 ### 引言
 
