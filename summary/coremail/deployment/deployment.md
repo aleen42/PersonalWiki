@@ -24,4 +24,4 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
     - program list
     - program id (UDID, MSID)
     - program weight (MSWeight)
-    - configuration overidding
+    - configuration overriding
