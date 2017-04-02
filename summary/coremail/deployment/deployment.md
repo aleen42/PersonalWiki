@@ -9,3 +9,10 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
 - **global.cf**
     - information of license
     - switches of global functions
+- **datasources.cf**
+    - types of databases
+    - host/port
+    - user/password
+    - name of databases
+    - character set
+    - connection amounts/timeout
