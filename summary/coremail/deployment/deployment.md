@@ -41,3 +41,7 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
         - which server side service to connect
         - information of connection (maximum of connection, timeout)
         - version of protocols
+- **iplimit.cf**
+    - the name of configuration items
+    - amounts of IP
+    - IP addreses
