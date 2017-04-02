@@ -62,4 +62,4 @@ If you want to test in different platforms, you can use the following lists of r
 
 - [**The design of Coremail system**](./coremail_system_design/coremail_system_design.md)
 - [**The structure of providers in Coremail**](./coremail_providers_structure/coremail_providers_structure.md)
-
+- .[](./deployment/deployment.md)
