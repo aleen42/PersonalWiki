@@ -17,5 +17,5 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
     - character set
     - connection counts/timeout
 - **userschema.cf**
-    - custom character field
+    - custom character field (separated with comma)
 - 
