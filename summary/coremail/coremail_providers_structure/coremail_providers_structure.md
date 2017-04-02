@@ -7,4 +7,4 @@ Providers means the running and managing part of a whole Coremail system, which 
 >>> Organization Units (Departments)
 >>>> Users (entity, non-entity)
 
-Any user will have a level of service (COS), which can also used to identified users.
+Any user will have a level of service (COS), which can also be used to identified users.
