@@ -63,7 +63,7 @@ There are 3 basic back-end modules of Coremail System:
         - Title
         - Sender
         - ...
-- **mssvr (Message Servers)**
+- **mssvr (Mail Storage Servers)**
     - mainly used to store emails
     - a file will have multiple emails from a single user
 
