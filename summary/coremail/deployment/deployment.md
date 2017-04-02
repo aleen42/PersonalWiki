@@ -6,3 +6,6 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
     - host id
     - information of **adminsvr**
     - environmental parameters
+- **global.cf**
+    - information of license
+    - switches of global functions
