@@ -15,4 +15,4 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
     - user/password
     - name of databases
     - character set
-    - connection amounts/timeout
+    - connection counts/timeout
