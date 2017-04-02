@@ -31,3 +31,10 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
     - information of logs
     - server to connect other programs
     - specific configuration of programs
+- **services.cf**
+    - the name of configuration items
+    - server side servers
+        - types of service
+        - information of connection
+        - connection limitation
+    - client side servers
