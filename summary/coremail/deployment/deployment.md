@@ -53,3 +53,7 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
         - user lists
         - COS lists, COS id
 - **language.cf**, **res.cf**, **res_{locale}.cf**
+    - style of languages
+    - attribute name
+    - attribute alternative
+    - tags
