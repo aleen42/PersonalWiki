@@ -47,3 +47,8 @@ Configuration files of Coremail systems are always formatted with `.ini` extensi
     - IP addreses
 - **resources.cf**
     - host lists
+- **policy.cf**
+    - weak password policy
+    - users grouping
+        - user lists
+        - COS lists, COS id
