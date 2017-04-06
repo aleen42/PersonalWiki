@@ -93,5 +93,6 @@ Despite of using `ngApp` directive to boostrap an AngularJS application, we can 
     </script>
 </body>
 </html>
-
 ```
+
+> Note: should not use the `ngApp` directive when manually bootstrapping applica
