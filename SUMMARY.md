@@ -643,7 +643,7 @@
                 * [Architecture](./summary/architecture/architecture.md)
                 * [Protocol Stack](./summary/gsm/stack/stack.md)
             * [Coremail](./summary/coremail/coremail.md)
-                * [*Workflow](./summary/coremail/workflow/workflow.md)
+                * [Workflow](./summary/coremail/workflow/workflow.md)
                 * [The design of Coremail system](./summary/coremail/coremail_system_design/coremail_system_design.md)
                 * [The structure of providers in Coremail](./summary/coremail/coremail_providers_structure/coremail_providers_structure.md)
                 * [Deployment of Coremail system](./summary/coremail/deployment/deployment.md)
