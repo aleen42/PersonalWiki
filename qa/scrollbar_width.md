@@ -26,3 +26,22 @@ function getScrollbarWidth() {
     return widthNoScroll - widthWithScroll;
 }
 ```
+
+If you want to calculate with jQuery, use the following snippet:
+
+```js
+function () {
+    var parent = $('<div style="'
+           + 'width: 50px;'
+           + 'height: 50px;'
+           + 'overflow: auto'
+           + '"><div/></div>')
+        .appendTo('body');
+    var child  = parent.children();
+    var width  = child.innerWidth() - child.height(99).innerWidth();
+
+    parent.remove();
+
+    return width;
+}
+```
