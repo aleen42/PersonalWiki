@@ -49,3 +49,7 @@ With running Karma, it will read the configuration file `karma.conf.js` located 
 2. Execute all the unite tests in these browsers
 3. Report the result of tests in the terminal
 4. Watch all JavaScript files in the project, and re-run tests whenever any change happens
+
+### 4. Running E2E Tests
+
+E2E (end-to-end) tests are used to ensure that the application behaves as expected. How? It will simulate real user interactions in the browser
