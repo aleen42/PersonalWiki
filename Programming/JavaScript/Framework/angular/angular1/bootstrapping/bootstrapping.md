@@ -95,4 +95,4 @@ Despite of using `ngApp` directive to boostrap an AngularJS application, we can 
 </html>
 ```
 
-> Note: should not use the `ngApp` directive when manually bootstrapping applica
+> Note: should not use the `ngApp` directive when manually bootstrapping applicatons.
