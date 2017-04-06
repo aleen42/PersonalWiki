@@ -78,5 +78,5 @@ With running Protractor, it will read the configuration file at `e2e-tests/protr
 
 - Open up a Chrome browser to connect to the application
 - Execute all the E2E tests in this browser
-- Report the result of thests in the the terminal
+- Report the result of tests in the the terminal
 - Close the browser and exit
