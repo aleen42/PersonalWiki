@@ -14,3 +14,8 @@ Then set up the tutorial by running:
 npm install
 ```
 
+Then run it up at this step:
+
+```bash
+npm start
+```
