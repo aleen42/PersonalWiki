@@ -36,3 +36,11 @@ As you can see, an HTML page displays just a text "Nothing here yet!", which is 
     </body>
 </html>
 ```
+
+### 1. Code Explaination
+
+#### 1.1 The attribute `ng-app`
+
+The `ng-app` attribute represents an AngularJS directive, named `ngAPP`. In AngularJS, custom attributes are named with `kebab-case`, while the corresponding directives, which represents them, are named with `camelCase`.
+
+
