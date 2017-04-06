@@ -41,6 +41,22 @@ As you can see, an HTML page displays just a text "Nothing here yet!", which is 
 
 #### 1.1 The attribute `ng-app`
 
-The `ng-app` attribute represents an AngularJS directive, named `ngAPP`. In AngularJS, custom attributes are named with `kebab-case`, while the corresponding directives, which represents them, are named with `camelCase`.
+```html
+<html ng-app>
+```
 
+The `ng-app` attribute represents an AngularJS directive, named `ngAPP`. In AngularJS, custom attributes are named with `kebab-case`, while the corresponding directives, which represents them, are named with `camelCase`. The `ngApp` directive is used to specify the root element of the application.
 
+#### 1.2 The script `angular.js`
+
+```html
+<script src="bower_components/angular/angular.js"></script>
+```
+
+The script will register a callback and executed by the browser. After executed, AngularJS looks for the `ngApp` directive, and bootstrap the application once it's found.
+
+#### 1.3 Double-curly binding with an expression
+
+```
+Nothing here {{'yet' + '!'}}
+```
