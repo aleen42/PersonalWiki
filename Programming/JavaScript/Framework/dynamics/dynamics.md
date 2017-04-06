@@ -2,7 +2,7 @@
 
 - [**Dynamics.js**](http://dynamicsjs.com/) is a JavaScript library to create physics-based animations.
 
-###Code
+### Code
 
 ```js
 var el = document.getElementById("logo")
@@ -18,5 +18,7 @@ dynamics.animate(el, {
 })
 
 ```
-###Download
+
+### Download
+
 - Just Click [**here**](./dynamics.min.js) to download.
