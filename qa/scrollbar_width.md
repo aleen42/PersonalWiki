@@ -30,7 +30,7 @@ function getScrollbarWidth() {
 If you want to calculate with jQuery, use the following snippet:
 
 ```js
-function () {
+function getScrollbarWidth() {
     var parent = $('<div style="'
            + 'width: 50px;'
            + 'height: 50px;'
