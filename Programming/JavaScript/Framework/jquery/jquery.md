@@ -1,6 +1,6 @@
 ## JQuery [Back](./../Framework.md)
 
-- [**JQuery.js**](https://jquery.com/) is a fast, small, and feature-rich JavaScript library.
+[**JQuery.js**](https://jquery.com/) is a fast, small, and feature-rich JavaScript library.
 
 ### Code
 
