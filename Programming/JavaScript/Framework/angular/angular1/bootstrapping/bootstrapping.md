@@ -96,3 +96,15 @@ Despite of using `ngApp` directive to boostrap an AngularJS application, we can 
 ```
 
 > Note: should not use the `ngApp` directive when manually bootstrapping applications.
+
+During the bootstrap phase, there are 3 important things that happen:
+
+1. The [injector](https://docs.angularjs.org/api/auto/service/$injector) that will be used for dependency injection is created.
+2. The injector will then create the [root scope](https://docs.angularjs.org/api/ng/service/$rootScope) that will become the context for the model of our application.
+3. AngularJS will then "compile" the DOM starting at the ngApp root element, processing any directives and bindings found along the way.
+
+Once an application is bootstrapped, it will then wait for incoming browser events (such as mouse clicks, key presses or incoming HTTP responses) that might change the model. Once such an event occurs, AngularJS detects if it caused any model changes and if changes are found, AngularJS will reflect them in the view by updating all of the affected bindings.
+
+<p align="center">
+    <img src="./tutorial_00.png" />
+</p>
