@@ -8,4 +8,4 @@ Sometimes, we will construct our `package.json` to set up dependencies which wil
 
 - caret (`^`):
 
-    this notation matches the most recent major versino. For instance, `^1.2.3` matches all `1.x.x` versions, but not `2.0.0`.
+    this notation matches the most recent major version. For instance, `^1.2.3` matches all `1.x.x` versions, but not `2.0.0`.
