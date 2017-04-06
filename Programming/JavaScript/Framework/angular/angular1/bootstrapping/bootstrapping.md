@@ -20,4 +20,19 @@ Then run it up at this step:
 npm start
 ```
 
-As you can see, an HTML page displays just a text "Nothing here yet!", which is actually constructed in `app/index.html`.
+As you can see, an HTML page displays just a text "Nothing here yet!", which is actually constructed in `app/index.html`:
+
+```html
+<!doctype html>
+<html lang="en" ng-app>
+    <head>
+        <meta charset="utf-8">
+        <title>My HTML File</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <script src="bower_components/angular/angular.js"></script>
+    </head>
+    <body>
+        <p>Nothing here {{'yet' + '!'}}</p>
+    </body>
+</html>
+```
