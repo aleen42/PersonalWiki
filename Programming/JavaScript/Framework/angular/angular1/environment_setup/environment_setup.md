@@ -43,9 +43,9 @@ Unit tests focus on testing small isolated parts of application. The angular-pho
 npm test
 ```
 
-With running Karma, it will read the configuration file `karma.conf.js` located at the root of the project directory, which tells Karama to:
+With running Karma, it will read the configuration file `karma.conf.js` located at the root of the project directory, which tells Karma to:
 
-1. Open up instances of the Chrome and Firefox browsers and connect them to Karama
+1. Open up instances of the Chrome and Firefox browsers and connect them to Karma
 2. Execute all the unite tests in these browsers
 3. Report the result of tests in the terminal
 4. Watch all JavaScript files in the project, and re-run tests whenever any change happens
