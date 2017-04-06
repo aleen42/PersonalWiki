@@ -1,7 +1,7 @@
 ## Modernizer [Back](./../Framework.md)
 
 <p align="center">
-    <img src="./logo.png" width="70%" />
+    <img src="./logo.png" width="30%" />
 </p>
 
 ![modernizr](https://cdn.rawgit.com/aleen42/badges/master/src/modernizr.svg)
