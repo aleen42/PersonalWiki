@@ -67,3 +67,31 @@ This line demonstrates two core features of AngularJS's templating capabilities:
 - A simple expression used in this binding: `'yet' + '!'`
 
 The binding tells AngularJS that it should evaluate an expression and insert the result into the DOM in place of the binding. As we will see in the next step, rather than a one-time insert, a binding will result in efficient continuous updates whenever the result of the expression evaluation changes.
+
+### 2. Bootstrapping AngularJS Applications
+
+Despite of using `ngApp` directive to boostrap an AngularJS application, we can also use a script to bootstrap it in a manual way:
+
+```html
+<!doctype html>
+<html>
+<body>
+    <div ng-controller="MyController">
+        Hello {{greetMe}}!
+    </div>
+    <script src="http://code.angularjs.org/snapshot/angular.js"></script>
+    
+    <script>
+        angular.module('myApp', [])
+            .controller('MyController', ['$scope', function ($scope) {
+                $scope.greetMe = 'World';
+            }]);
+        
+        angular.element(function() {
+            angular.bootstrap(document, ['myApp']);
+        });
+    </script>
+</body>
+</html>
+
+```
