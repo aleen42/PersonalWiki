@@ -1,6 +1,10 @@
 ## node.js [Back](./../Framework.md)
 
-![](./node.png)
+<p align="center">
+    <img src="./node.png" />
+</p>
+
+![](https://cdn.rawgit.com/aleen42/badges/master/src/node.svg)
 
 ### Basic
 
