@@ -7,14 +7,11 @@
 
 - SVG
 
-<svg version="1.1" id="loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="background:#a10000;" width="100%" height="50%" viewBox="0 -45 400 250" xml:space="preserve">
-<path id="path1" style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M200.198,34.273c-15.919,0-30.338,6.227-41.5,16.227H187.5v17H180
+<svg version="1.1" id="loader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="background:#a10000;" width="100%" height="50%" viewBox="0 -45 400 250" xml:space="preserve"><path id="path1" style="fill:none;stroke:#000000;stroke-miterlimit:10;"d="M200.198,34.273c-15.919,0-30.338,6.227-41.5,16.227H187.5v17H180
 	h-35.196c-3.067,5-5.355,11-6.711,17H187.5v18h-50.736c0.279,4,1.152,10,2.551,15H200h60.646c1.399-5,2.272-10,2.551-15H209.5v-18
-	h52.368c-1.356-6-3.643-12-6.711-17h-35.196H209.5v-17h31.764c-11.163-10-25.562-15.977-41.481-15.977"/>
-<path id="path2" style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M209.5,160.134c18-2.905,33.225-12.634,42.771-26.634H208h-13
+	h52.368c-1.356-6-3.643-12-6.711-17h-35.196H209.5v-17h31.764c-11.163-10-25.562-15.977-41.481-15.977"/><path id="path2" style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M209.5,160.134c18-2.905,33.225-12.634,42.771-26.634H208h-13
 	h-48.63c9.419,14,24.13,23.463,41.13,26.515v14.44c-38-5.712-67.083-38.587-67.083-78.288c0-43.723,35.569-79.167,79.292-79.167
-	s78.979,35.444,78.979,79.167c0,40.278-30.188,73.53-69.188,78.52V160.134z"/>
-</svg>
+	s78.979,35.444,78.979,79.167c0,40.278-30.188,73.53-69.188,78.52V160.134z"/></svg>
 
 
 - DrawSVG
