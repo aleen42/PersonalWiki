@@ -148,6 +148,7 @@
                     * [Configuration](./Programming/JavaScript/Framework/eslint/configuration/configuration.md)
                 * [ReactiveX](./Programming/JavaScript/Framework/reactivex/reactivex.md)
                 * [Angular](./Programming/JavaScript/Framework/angular/angular.md)
+                    * [AngularJS (1.x)](./Programming/JavaScript/Framework/angular/angular1/angular1.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
