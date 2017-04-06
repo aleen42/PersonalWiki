@@ -2,6 +2,8 @@
 
 ![](./what-is-webpack.png)
 
+![webpack](https://cdn.rawgit.com/aleen42/badges/master/src/webpack.svg)
+
 **Webpack** is a modular bundler (打包機) which is usually used to convert modules with dependencies into static assets.
 
 ### Tutorials
