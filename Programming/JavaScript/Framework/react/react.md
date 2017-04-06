@@ -12,6 +12,8 @@
     <img alt="react" src="./react-timeline.png" width="50%"></img>
 </p>
 
+![react](https://cdn.rawgit.com/aleen42/badges/master/src/react.svg)
+
 ### Quick Start
 
 - [**Quick Started**](./quick_started/quick_started.md)
