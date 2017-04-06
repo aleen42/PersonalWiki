@@ -1,9 +1,9 @@
 ## Walkway [Back](./../Framework.md)
 
-- **Walkway.js** is a light weight js framework for drawing svg.
+**Walkway.js** is a light weight js framework for drawing svg.
 - [**Example**](http://aleen42.github.io/example/Walkway/example.html)
 
-###Code
+### Code
 
 ```js
 var svg = new Walkway({
@@ -15,7 +15,7 @@ var svg = new Walkway({
 });
 
 svg.draw();
-
 ```
-###Download
+
+### Download
 - Just Click [**here**](./walkway.min.js) to download.
