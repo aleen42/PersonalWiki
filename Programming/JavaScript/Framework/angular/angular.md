@@ -4,6 +4,8 @@
     <img src="./logo.png" />
 </p>
 
+![angular](https://cdn.rawgit.com/aleen42/badges/master/src/angular.svg)
+
 All we know that Angular is a large JavaScript framework for building client-side application, and what it can actually help developers to do so? According to the official document, we can easily know that it can:
 
 - extend HTML's syntax to build up components
