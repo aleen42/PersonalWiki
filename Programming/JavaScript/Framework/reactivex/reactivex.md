@@ -7,7 +7,7 @@
     ReactiveX
 </p>
 
-![reactx](https://cdn.rawgit.com/aleen42/badges/master/src/reactx.svg)
+![reactivex](https://cdn.rawgit.com/aleen42/badges/master/src/reactivex.svg)
 
 [**ReactiveX**](http://reactivex.io/) is a library for composing asynchronous and event-based programs by using observable sequences.
 
