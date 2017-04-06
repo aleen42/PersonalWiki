@@ -19,3 +19,5 @@ Then run it up at this step:
 ```bash
 npm start
 ```
+
+As you can see, an HTML page displays just a text "Nothing here yet!", which is actually constructed in `app/index.html`.
