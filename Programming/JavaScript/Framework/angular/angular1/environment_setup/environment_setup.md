@@ -7,3 +7,9 @@ git clone --depth=16 https://github.com/angular/angular-phonecat.git
 ```
 
 > the `--depth=16` option tells Git to pull down only the last 16 commits, which make it faster to download
+
+After then, install all dependencies through `npm`:
+
+```bash
+npm install
+```
