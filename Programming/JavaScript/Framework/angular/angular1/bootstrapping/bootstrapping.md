@@ -60,3 +60,10 @@ The script will register a callback and executed by the browser. After executed,
 ```
 Nothing here {{'yet' + '!'}}
 ```
+
+This line demonstrates two core features of AngularJS's templating capabilities:
+
+- A binding, denoted by double-curlies: `{{ }}`
+- A simple expression used in this binding: `'yet' + '!'`
+
+The binding tells AngularJS that it should evaluate an expression and insert the result into the DOM in place of the binding. As we will see in the next step, rather than a one-time insert, a binding will result in efficient continuous updates whenever the result of the expression evaluation changes.
