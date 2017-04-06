@@ -17,7 +17,6 @@ After then, install all dependencies through `npm`:
 - Karma
 - Protractor
 
-
 ```bash
 npm install -g bower
 ````
