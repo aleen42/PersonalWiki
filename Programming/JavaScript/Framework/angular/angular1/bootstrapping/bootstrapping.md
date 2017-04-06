@@ -8,5 +8,10 @@ git checkout -f setp-0
 
 > Note: when you learn other tutorials in the future, you can change the corresponding number.
 
+Then set up the tutorial by running:
 
+```bash
+npm install
+
+```
 
