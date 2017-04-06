@@ -16,6 +16,6 @@ To take it in conclusion, it helps you to do almost everything.
 
 Angular has developed with two versions, 1.x or 2. As they are around totally different, I have noted them respectively.
 
-- **AngularJS (1.x)**
+- [**AngularJS (1.x)**](./angular1/angular1.md)
 - **Angular (2)**
 
