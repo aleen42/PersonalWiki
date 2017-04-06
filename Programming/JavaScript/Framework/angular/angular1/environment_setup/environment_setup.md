@@ -54,8 +54,22 @@ With running Karma, it will read the configuration file `karma.conf.js` located 
 
 E2E (end-to-end) tests are used to ensure that the application behaves as expected. How? It will simulate real user interactions in the browser.
 
-E2E tests are kept in the `e2e-tests` directory, run by [Protractor](https://github.com/angular/protractor):
+E2E tests are kept in the `e2e-tests` directory, run by [Protractor](https://github.com/angular/protractor).
+
+Before running applications, we may need to install some drivers relied by Protractor:
 
 ```bash
 npm run update-webdriver
+```
+
+Then, make sure we have started up a running application:
+
+```bash
+npm start
+```
+
+Then, run it:
+
+```bash
+npm run protractor
 ```
