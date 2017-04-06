@@ -14,3 +14,4 @@ Angular has developed with two versions, 1.x or 2. As they are around totally di
 
 - **AngularJS (1.x)**
 - **Angular (2)**
+
