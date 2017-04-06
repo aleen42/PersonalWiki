@@ -17,5 +17,6 @@
 * [**three.js**](./../webgl/three/three.md)
 * [**ESLint**](./eslint/eslint.md)
 * [**ReactiveX**](./reactivex/reactivex.md)
+* [**Angular**](./angular/angular.md)
 * Headroom
 
