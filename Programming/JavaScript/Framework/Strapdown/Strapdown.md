@@ -1,11 +1,11 @@
 ## Strapdown [Back](./../Framework.md)
 
-- [**Strapdown.js**](http://strapdownjs.com/) makes it embarrassingly simple to create elegant **Markdown** documents. 
+[**Strapdown.js**](http://strapdownjs.com/) makes it embarrassingly simple to create elegant **Markdown** documents. 
 
-###Code
+### Code
 
-```
-`<xmp theme="united" style="display:none;">`
+```html
+<xmp theme="united" style="display:none;">
 # Markdown text goes in here
 
 ## Chapter 1
@@ -20,8 +20,9 @@ aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volup
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
 culpa qui officia deserunt mollit anim id est laborum.
 
-`</xmp>`
-`<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>`
+</xmp>
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
 ```
-###Download
+### Download
+
 - Just Click [**here**](https://raw.githubusercontent.com/aleen42/strapdown/gh-pages/src/strapdown.js) to download.
