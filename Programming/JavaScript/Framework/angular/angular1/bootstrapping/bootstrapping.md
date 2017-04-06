@@ -12,6 +12,5 @@ Then set up the tutorial by running:
 
 ```bash
 npm install
-
 ```
 
