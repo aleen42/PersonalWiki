@@ -14,7 +14,7 @@
 ### Code
 
 ```html
-`<script src="js/modernizr.custom.js"></script>`
+<script src="js/modernizr.custom.js"></script>
 ```
 
 ### Download
