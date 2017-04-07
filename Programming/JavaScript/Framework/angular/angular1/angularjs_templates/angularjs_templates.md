@@ -31,5 +31,10 @@ As we can see in the snippet above, we have used two new directives: `ngRepeat`,
 
 With using `ngRepeat`:
 
-- The repeater directive tells AngularJS to create a `<li>` element for each phone in the list
+- The repeater directive tells AngularJS to create a `<li>` element for each phone in the list.
 - The expressions wrapped in curly braces `{{phone.name}}`, and `{{phone.snippet}}` will be replaced by the value of these expressions.
+
+With using `ngController`:
+
+- `PhoneListController` is in charge of the DOM sub-tree under (and including) the `<body>` element.
+- The expressions above are set up in the controller `PhoneListController`
