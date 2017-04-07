@@ -152,6 +152,7 @@
                         * [Environment Setup](./Programming/JavaScript/Framework/angular/angular1/environment_setup/environment_setup.md)
                         * [Bootstrapping](./Programming/JavaScript/Framework/angular/angular1/bootstrapping/bootstrapping.md)
                         * [Static Template](./Programming/JavaScript/Framework/angular/angular1/static_template/static_template.md)
+                        * [AngularJS Templates](./Programming/JavaScript/Framework/angular/angular1/angularjs_templates/angularjs_templates.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
