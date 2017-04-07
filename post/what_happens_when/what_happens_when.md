@@ -145,17 +145,17 @@ sends the character to the `window manager` (DWM, metacity, i3, etc), so the
 The graphical API of the window  that receives the character prints the
 appropriate font symbol in the appropriate focused field.
 
-Parse URL
----------
+### Parse URL
 
-* The browser now has the following information contained in the URL (Uniform
-  Resource Locator):
+- The browser now has the following information contained in the URL (Uniform Resource Locator):
 
-    - `Protocol`  "http"
-        Use 'Hyper Text Transfer Protocol'
+> - `Protocol`  "http"
 
-    - `Resource`  "/"
-        Retrieve main (index) page
+>   Use 'Hyper Text Transfer Protocol'
+
+> - `Resource`  "/"
+
+>   Retrieve main (index) page
 
 
 Is it a URL or a search term?
