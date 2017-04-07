@@ -9,4 +9,4 @@ However, there are still a couple of areas we can do better:
 
 These two problems has led us to use **components**.
 
-Since the combination (**template** + **controller**) is such a common pattern, AngularJS provides an easy way to combine them together into reusable and isolated entities.
+Since the combination (**template** + **controller**) is such a common pattern, AngularJS provides an easy way to combine them together into reusable and isolated entities, a.k.a **components**.
