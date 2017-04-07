@@ -26,5 +26,4 @@ The view should be constructed like this in the app:
         </ul>
     </body>
 </html>
-
 ```
