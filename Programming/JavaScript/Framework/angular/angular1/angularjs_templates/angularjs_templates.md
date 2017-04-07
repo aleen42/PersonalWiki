@@ -37,4 +37,4 @@ With using `ngRepeat`:
 With using `ngController`:
 
 - `PhoneListController` is in charge of the DOM sub-tree under (and including) the `<body>` element.
-- The expressions above are set up in the controller `PhoneListController`
+- The expressions above are set up in the controller `PhoneListController`.
