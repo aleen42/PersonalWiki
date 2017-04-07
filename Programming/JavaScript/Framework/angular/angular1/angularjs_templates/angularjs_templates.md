@@ -38,3 +38,5 @@ With using `ngController`:
 
 - `PhoneListController` is in charge of the DOM sub-tree under (and including) the `<body>` element.
 - The expressions above are set up in the controller `PhoneListController`.
+ 
+> Note: we have also specified an AngularJS module `phonecatApp` for the directive `ngApp`, which contains the controller.
