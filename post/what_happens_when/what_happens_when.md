@@ -183,7 +183,7 @@ search engine that it came from a particular browser's url bar.
   HSTS list.  The first HTTP request to the website by a user will receive a
   response requesting that the user only send HTTPS requests.  However, this
   single HTTP request could potentially leave the user vulnerable to a
-  `downgrade attack`_, which is why the HSTS list is included in modern web
+  [downgrade attack](http://en.wikipedia.org/wiki/SSL_stripping), which is why the HSTS list is included in modern web
   browsers.)
 
 ### DNS lookup
