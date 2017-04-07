@@ -122,8 +122,7 @@ This code looks within the 3rd parameter that was passed to `SendMessage`
 (`wParam`) and, because it is `VK_RETURN` knows the user has hit the ENTER
 key.
 
-(On OS X) A `KeyDown` NSEvent is sent to the app
---------------------------------------------------
+### (On OS X) A `KeyDown` NSEvent is sent to the app
 
 The interrupt signal triggers an interrupt event in the I/O Kit kext keyboard
 driver. The driver translates the signal into a key code which is passed to the
@@ -135,8 +134,7 @@ this queue by threads with sufficient privileges calling the
 handled by, an `NSApplication` main event loop, via an `NSEvent` of
 `NSEventType` `KeyDown`.
 
-(On GNU/Linux) the Xorg server listens for keycodes
----------------------------------------------------
+### (On GNU/Linux) the Xorg server listens for keycodes
 
 When a graphical `X server` is used, `X` will use the generic event
 driver `evdev` to acquire the keypress. A re-mapping of keycodes to scancodes
