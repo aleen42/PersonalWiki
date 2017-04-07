@@ -459,8 +459,7 @@ and IIS for Windows.
   is running on PHP, the server uses PHP to interpret the index file, and
   streams the output to the client.
 
-Behind the scenes of the Browser
-----------------------------------
+### Behind the scenes of the Browser
 
 Once the server supplies the resources (HTML, CSS, JS, images, etc.)
 to the browser it undergoes the below process:
@@ -469,8 +468,7 @@ to the browser it undergoes the below process:
 * Rendering - Construct DOM Tree → Render Tree → Layout of Render Tree →
   Painting the render tree
 
-Browser
--------
+### Browser
 
 The browser's functionality is to present the web resource you choose, by
 requesting it from the server and displaying it in the browser window.
