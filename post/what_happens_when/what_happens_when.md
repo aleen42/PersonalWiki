@@ -340,38 +340,31 @@ This send and receive happens multiple times following the TCP connection flow:
    * The other sides ACKs the FIN packet and sends its own FIN
    * The closer acknowledges the other side's FIN with an ACK
 
-TLS handshake
--------------
+### TLS handshake
+
 * The client computer sends a `ClientHello` message to the server with its
   Transport Layer Security (TLS) version, list of cipher algorithms and
   compression methods available.
-
 * The server replies with a `ServerHello` message to the client with the
   TLS version, selected cipher, selected compression methods and the server's
   public certificate signed by a CA (Certificate Authority). The certificate
   contains a public key that will be used by the client to encrypt the rest of
   the handshake until a symmetric key can be agreed upon.
-
 * The client verifies the server digital certificate against its list of
   trusted CAs. If trust can be established based on the CA, the client
   generates a string of pseudo-random bytes and encrypts this with the server's
   public key. These random bytes can be used to determine the symmetric key.
-
 * The server decrypts the random bytes using its private key and uses these
   bytes to generate its own copy of the symmetric master key.
-
 * The client sends a `Finished` message to the server, encrypting a hash of
   the transmission up to this point with the symmetric key.
-
 * The server generates its own hash, and then decrypts the client-sent hash
   to verify that it matches. If it does, it sends its own `Finished` message
   to the client, also encrypted with the symmetric key.
-
 * From now on the TLS session transmits the application (HTTP) data encrypted
   with the agreed symmetric key.
 
-HTTP protocol
--------------
+### HTTP protocol
 
 If the web browser used was written by Google, instead of sending an HTTP
 request to retrieve the page, it will send a request to try and negotiate with
@@ -395,7 +388,7 @@ specified in the `GET` request will either be `HTTP/1.0` or `HTTP/0.9`.)
 HTTP/1.1 defines the "close" connection option for the sender to signal that
 the connection will be closed after completion of the response. For example,
 
-    Connection: close
+> Connection: close
 
 HTTP/1.1 applications that do not support persistent connections MUST include
 the "close" connection option in every message.
@@ -436,14 +429,14 @@ resolving the other domain, and follows all steps up to this point for that
 domain. The `Host` header in the request will be set to the appropriate
 server name instead of `google.com`.
 
-HTTP Server Request Handle
---------------------------
+### HTTP Server Request Handle
+
 The HTTPD (HTTP Daemon) server is the one handling the requests/responses on
 the server side. The most common HTTPD servers are Apache or nginx for Linux
 and IIS for Windows.
 
 * The HTTPD (HTTP Daemon) receives the request.
-* The server breaks down the request to the following parameters:
+* ***The server breaks down the request to the following parameters:***
    * HTTP Request Method (either `GET`, `HEAD`, `POST`, `PUT`,
      `DELETE`, `CONNECT`, `OPTIONS`, or `TRACE`). In the case of a URL
      entered directly into the address bar, this will be `GET`.
