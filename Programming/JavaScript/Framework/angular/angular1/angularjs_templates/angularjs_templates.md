@@ -16,7 +16,7 @@ The view should be constructed like this in the app:
         <script src="bower_components/angular/angular.js"></script>
         <script src="app.js"></script>
     </head>
-    <body ng-controller="PhoneListcontroller">
+    <body ng-controller="PhoneListController">
         <ul>
             <li ng-repeat="phone in phones">
                 <span>{{phone.name}}</span>
@@ -46,5 +46,24 @@ With using `ngController`:
 The data **model** is now instantiated within the **controller**, which is simply a constructor function that takes a `$scope` parameter.
 
 ```js
+/** app.js */
+/** Define the `phonecatApp` module */
 
+var phonecatApp = angular.module('phonecatApp', []);
+
+/** Define the controller within the module */
+phonecatApp.controller('PhoneListController', function PhoneListController ($scope) {
+    $scope.phones = [
+        {
+            name: 'Nexus S',
+            snippet: 'Fast just got faster with Nexus S.'
+        }, {
+            name: 'Motorola XOOM™ with Wi-Fi',
+            snippet: 'The Next, Next Generation tablet.'
+        }, {
+            name: 'MOTOROLA XOOM™',
+            snippet: 'The Next, Next Generation tablet.'
+        }
+    ];
+});
 ```
