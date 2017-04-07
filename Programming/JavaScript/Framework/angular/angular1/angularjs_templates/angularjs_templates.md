@@ -8,7 +8,6 @@ In AngularJS, the **view** is a projection of the model through the HTML templat
 
 The view should be constructed like this in the app:
 
-
 ```html
 <!doctype html>
 <html lang="en" ng-app="phonecatApp">
