@@ -9,4 +9,22 @@ However, there are still a couple of areas we can do better:
 
 These two problems has led us to use **components**.
 
-Since the combination (**template** + **controller**) is such a common pattern, AngularJS provides an easy way to combine them together into reusable and isolated entities, a.k.a **components**. To eliminate risk of effect from other parts of the application, AngularJS has also created a so-called **isolate scope** for each instance of components. 
+Since the combination (**template** + **controller**) is such a common pattern, AngularJS provides an easy way to combine them together into reusable and isolated entities, a.k.a **components**. To eliminate risk of effect from other parts of the application, AngularJS has also created a so-called **isolate scope** for each instance of components.
+
+### 1. Creating
+
+To create a component, we use the method `component()` of an AngularJS module, and we must provide the name of the component and the Component Definition Object (CDO).
+
+The simplest way to create a component is just to construct CDO with a template and a controller.
+
+```js
+var CDO = {
+    template: 'Hello, {{$ctrl.user}}!',
+    controller: function GreetUserController() {
+        this.user = 'world';
+    }
+};
+
+angular.module('myApp')
+    .component(CDO);
+```
