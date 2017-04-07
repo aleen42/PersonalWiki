@@ -111,4 +111,4 @@ browsers: ['Chrome'],
 /** ... */
 ```
 
-> Note: make sure you do not minimize the brwoser that Karma opend, because on some OS, memory assigned to a minimized browser is limited, which results in a extremely slow
+> Note: make sure you do not minimize the brwoser that Karma opend, because on some OS, memory assigned to a minimized browser is limited, which results in a extremely slow testing running.
