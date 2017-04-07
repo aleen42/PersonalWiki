@@ -630,15 +630,3 @@ the Google homepage. Scripts can cause additional network requests to be
 performed, as well as modify the page or its layout, causing another round of
 page rendering and painting.
 
-- [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/)
-- ["CSS lexical and syntax grammar"](http://www.w3.org/TR/CSS2/grammar.html)
-- [Punycode](https://en.wikipedia.org/wiki/Punycode)
-- [Ethernet](http://en.wikipedia.org/wiki/IEEE_802.3)
-- [WiFi](https://en.wikipedia.org/wiki/IEEE_802.11)
-- [Cellular data network](https://en.wikipedia.org/wiki/Cellular_data_communication_protocol)
-- [analog-to-digital converter](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
-- [network node](https://en.wikipedia.org/wiki/Computer_network#Network_nodes)
-- [varies by OS](https://en.wikipedia.org/wiki/Hosts_%28file%29#Location_in_the_file_system)
-- [简体中文](https://github.com/skyline75489/what-happens-when-zh_CN)
-- [downgrade attack](http://en.wikipedia.org/wiki/SSL_stripping)
-- [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
