@@ -17,20 +17,12 @@ The view should be constructed like this in the app:
         <script src="bower_components/angular/angular.js"></script>
         <script src="app.js"></script>
     </head>
-    <body>
+    <body ng-controller="PhoneListcontroller">
         <ul>
-        <li>
-        <span>Nexus S</span>
-        <p>
-        Fast just got faster with Nexus S.
-        </p>
-        </li>
-        <li>
-        <span>Motorola XOOM™ with Wi-Fi</span>
-        <p>
-        The Next, Next Generation tablet.
-        </p>
-        </li>
+            <li ng-repeat="phone in phones">
+                <span>{{phone.name}}</span>
+                <p>{{phone.snippet}}</p>
+            </li>
         </ul>
     </body>
 </html>
