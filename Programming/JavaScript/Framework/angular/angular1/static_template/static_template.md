@@ -20,3 +20,5 @@ After checkout the code, we can see that in this step, we will have two lists of
     </li>
 </ul>
 ```
+
+And how to use AngularJS to dynamically generate the same list?
