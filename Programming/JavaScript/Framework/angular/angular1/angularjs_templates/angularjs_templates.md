@@ -108,5 +108,7 @@ This tutorial project has been pre-configured to run unit tests using Karma, to 
 ```js
 /** ... */
 browsers: ['Chrome'],
-/** ... *
+/** ... */
 ```
+
+> Note: make sure you do not minimize the brwoser that Karma opend, because on some OS, memory assigned to a minimized browser is limited, which results in a extremely slow
