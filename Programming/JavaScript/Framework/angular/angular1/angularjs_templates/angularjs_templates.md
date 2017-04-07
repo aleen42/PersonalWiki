@@ -27,4 +27,9 @@ The view should be constructed like this in the app:
 </html>
 ```
 
-As we can see in the snippet above, we have used two new directives: `ngRepeat`, and `ngController`
+As we can see in the snippet above, we have used two new directives: `ngRepeat`, and `ngController`.
+
+With using `ngRepeat`:
+
+- The repeater directive tells AngularJS to create a `<li>` element for each phone in the list
+- The expressions wrapped in curly braces `{{phone.name}}`, and `{{phone.snippet}}` will be replaced by the value of these expressions.
