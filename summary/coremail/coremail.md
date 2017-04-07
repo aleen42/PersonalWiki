@@ -58,6 +58,11 @@ If you want to test in different platforms, you can use the following lists of r
 - IE8: **rdtest-ie8-01**
 - IE9: **rdtest-ie9-01**
 
+Webmail template:
+
+- 5.0.5: 192.168.201.183@user09/123 
+- 5.0.6: 192.168.200.191@test9/123
+
 ### 3. Advanced
 
 - [**Workflow**](./workflow/workflow.md)
