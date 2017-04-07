@@ -29,4 +29,6 @@ angular.module('myApp')
     .component('greetUser', CDO);
 ```
 
-Then we can use it in views whenever we want by including `<greet-user></greet-user>`
+Then we can use it in views whenever we want by including `<greet-user></greet-user>`.
+
+> Note: this simple way is extremely useful when creating "presentational" components, that do not attach any behavior to the template.
