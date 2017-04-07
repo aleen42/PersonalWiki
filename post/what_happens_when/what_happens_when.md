@@ -518,8 +518,8 @@ The components of the browsers are:
   support storage mechanisms such as localStorage, IndexedDB, WebSQL and
   FileSystem.
 
-HTML parsing
-------------
+### HTML parsing
+
 
 The rendering engine starts getting the contents of the requested
 document from the networking layer. This will usually be done in 8kB chunks.
@@ -566,8 +566,7 @@ set to "complete" and a "load" event is fired.
 Note there is never an "Invalid Syntax" error on an HTML page. Browsers fix
 any invalid content and go on.
 
-CSS interpretation
-------------------
+### CSS interpretation
 
 * Parse CSS files, `<style>` tag contents, and `style` attribute
   values using `"CSS lexical and syntax grammar"`_
@@ -576,8 +575,7 @@ CSS interpretation
 * A CSS parser can be top-down or bottom-up when a specific parser generator
   is used.
 
-Page Rendering
---------------
+### Page Rendering
 
 * Create a 'Frame Tree' or 'Render Tree' by traversing the DOM nodes, and
   calculating the CSS style values for each node.
@@ -610,23 +608,19 @@ Page Rendering
   via Direct3D/OpenGL. The GPU command buffer(s) are flushed to the GPU for
   asynchronous rendering and the frame is sent to the window server.
 
-GPU Rendering
--------------
+### GPU Rendering
 
 * During the rendering process the graphical computing layers can use general
   purpose `CPU` or the graphical processor `GPU` as well.
-
 * When using `GPU` for graphical rendering computations the graphical
   software layers split the task into multiple pieces, so it can take advantage
   of `GPU` massive parallelism for float point calculations required for
   the rendering process.
 
 
-Window Server
--------------
+### Window Server
 
-Post-rendering and user-induced execution
------------------------------------------
+### Post-rendering and user-induced execution
 
 After rendering has completed, the browser executes JavaScript code as a result
 of some timing mechanism (such as a Google Doodle animation) or user
@@ -636,15 +630,15 @@ the Google homepage. Scripts can cause additional network requests to be
 performed, as well as modify the page or its layout, causing another round of
 page rendering and painting.
 
-.. _`Creative Commons Zero`: https://creativecommons.org/publicdomain/zero/1.0/
-.. _`"CSS lexical and syntax grammar"`: http://www.w3.org/TR/CSS2/grammar.html
-.. _`Punycode`: https://en.wikipedia.org/wiki/Punycode
-.. _`Ethernet`: http://en.wikipedia.org/wiki/IEEE_802.3
-.. _`WiFi`: https://en.wikipedia.org/wiki/IEEE_802.11
-.. _`Cellular data network`: https://en.wikipedia.org/wiki/Cellular_data_communication_protocol
-.. _`analog-to-digital converter`: https://en.wikipedia.org/wiki/Analog-to-digital_converter
-.. _`network node`: https://en.wikipedia.org/wiki/Computer_network#Network_nodes
-.. _`varies by OS` : https://en.wikipedia.org/wiki/Hosts_%28file%29#Location_in_the_file_system
-.. _`简体中文`: https://github.com/skyline75489/what-happens-when-zh_CN
-.. _`downgrade attack`: http://en.wikipedia.org/wiki/SSL_stripping
-.. _`OSI Model`: https://en.wikipedia.org/wiki/OSI_model
+- [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/)
+- ["CSS lexical and syntax grammar"](http://www.w3.org/TR/CSS2/grammar.html)
+- [Punycode](https://en.wikipedia.org/wiki/Punycode)
+- [Ethernet](http://en.wikipedia.org/wiki/IEEE_802.3)
+- [WiFi](https://en.wikipedia.org/wiki/IEEE_802.11)
+- [Cellular data network](https://en.wikipedia.org/wiki/Cellular_data_communication_protocol)
+- [analog-to-digital converter](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
+- [network node](https://en.wikipedia.org/wiki/Computer_network#Network_nodes)
+- [varies by OS](https://en.wikipedia.org/wiki/Hosts_%28file%29#Location_in_the_file_system)
+- [简体中文](https://github.com/skyline75489/what-happens-when-zh_CN)
+- [downgrade attack](http://en.wikipedia.org/wiki/SSL_stripping)
+- [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
