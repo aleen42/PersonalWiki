@@ -157,17 +157,14 @@ appropriate font symbol in the appropriate focused field.
 
 >   Retrieve main (index) page
 
-
-Is it a URL or a search term?
------------------------------
+### Is it a URL or a search term?
 
 When no protocol or valid domain name is given the browser proceeds to feed
 the text given in the address box to the browser's default web search engine.
 In many cases the url has a special piece of text appended to it to tell the
 search engine that it came from a particular browser's url bar.
 
-Convert non-ASCII Unicode characters in hostname
-------------------------------------------------
+### Convert non-ASCII Unicode characters in hostname
 
 * The browser checks the hostname for characters that are not in `a-z`,
   `A-Z`, `0-9`, `-`, or `.`.
@@ -175,8 +172,8 @@ Convert non-ASCII Unicode characters in hostname
   the browser would apply `Punycode`_ encoding to the hostname portion of the
   URL.
 
-Check HSTS list
----------------
+### Check HSTS list
+
 * The browser checks its "preloaded HSTS (HTTP Strict Transport Security)"
   list. This is a list of websites that have requested to be contacted via
   HTTPS only.
@@ -189,8 +186,7 @@ Check HSTS list
   `downgrade attack`_, which is why the HSTS list is included in modern web
   browsers.)
 
-DNS lookup
-----------
+### DNS lookup
 
 * Browser checks if the domain is in its cache. (to see the DNS Cache in
   Chrome, go to `chrome://net-internals/#dns <chrome://net-internals/#dns>`_).
@@ -208,8 +204,7 @@ DNS lookup
   the `ARP process` below for the default gateway IP.
 
 
-ARP process
------------
+### ARP process
 
 In order to send an ARP (Address Resolution Protocol) broadcast the network
 stack library needs the target IP address to look up. It also needs to know the
@@ -224,13 +219,11 @@ If the entry is not in the ARP cache:
   the subnets on the local route table. If it is, the library uses the
   interface associated with that subnet. If it is not, the library uses the
   interface that has the subnet of our default gateway.
-
 * The MAC address of the selected network interface is looked up.
-
 * The network library sends a Layer 2 (data link layer of the `OSI model`_)
   ARP request:
 
-`ARP Request`::
+`ARP Request`:
 
     Sender MAC: interface:mac:address:here
     Sender IP: interface.ip.goes.here
@@ -256,14 +249,12 @@ Switch:
   CAM/MAC table to see which port has the MAC address we are looking for. If
   the switch has no entry for the MAC address it will rebroadcast the ARP
   request to all other ports.
-
 * If the switch has an entry in the MAC/CAM table it will send the ARP request
   to the port that has the MAC address we are looking for.
-
 * If the router is on the same "wire", it will respond with an `ARP Reply`
   (see below)
 
-`ARP Reply`::
+`ARP Reply`:
 
     Sender MAC: target:mac:address:here
     Sender IP: target.ip.goes.here
@@ -279,8 +270,8 @@ the default gateway it can resume its DNS process:
   requested and that flows up the list of DNS servers until the SOA is reached,
   and if found an answer is returned.
 
-Opening of a socket
--------------------
+### Opening of a socket
+
 Once the browser receives the IP address of the destination server, it takes
 that and the given port number from the URL (the HTTP protocol defaults to port
 80, and HTTPS to port 443), and makes a call to the system library function
