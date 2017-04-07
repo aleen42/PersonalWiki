@@ -15,7 +15,7 @@ Since the combination (**template** + **controller**) is such a common pattern, 
 
 To create a component, we use the method `component()` of an AngularJS module, and we must provide the name of the component and the Component Definition Object (CDO).
 
-The simplest way to create a component is just to construct CDO with a template and a controller.
+The simplest way to create a component, like `greetUser`, is just to construct CDO with a template and a controller.
 
 ```js
 var CDO = {
