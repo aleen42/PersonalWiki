@@ -28,3 +28,5 @@ var CDO = {
 angular.module('myApp')
     .component('greetUser', CDO);
 ```
+
+Then we can use it in views whenever we want by including `<greet-user></greet-user>`
