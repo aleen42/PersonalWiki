@@ -569,7 +569,7 @@ any invalid content and go on.
 ### CSS interpretation
 
 * Parse CSS files, `<style>` tag contents, and `style` attribute
-  values using `"CSS lexical and syntax grammar"`_
+  values using ["CSS lexical and syntax grammar"](http://www.w3.org/TR/CSS2/grammar.html)
 * Each CSS file is parsed into a `StyleSheet object`, where each object
   contains CSS rules with selectors and objects corresponding CSS grammar.
 * A CSS parser can be top-down or bottom-up when a specific parser generator
