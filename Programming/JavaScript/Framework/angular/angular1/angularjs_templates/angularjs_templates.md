@@ -98,3 +98,15 @@ describe('PhoneListController', function () {
 Before each test, we have used the method `beforeEach` to tell AngularJS to load the module `phonecatApp`. Calling `inject` is to tell AngularJS to inject the `$controller` service into our test function. Then this service can be used to create an instance of the `PhoneListController`, with which we can do the test.
 
 > Note: in this tutorial, we have used the `.spec` suffix, so that the test file `something.spec.js` can be called by a corresponding file `something.js`. (Another common convention is to use a `_spec` or `_test` suffix like `something_spec.js` or `something_test.js`)
+
+#### 3.2 Writing and Running Tests
+
+This tutorial project has been pre-configured to run unit tests using Karma, to run a watching for testing, you shoule execute: `npm test` 
+
+> Note: Karma will start new instances of Chrome and Firefox browsers to test, and if you want to specify it yourself, you can just configure it in the file `karma.conf.js`.
+
+```js
+/** ... */
+browsers: ['Chrome'],
+/** ... *
+```
