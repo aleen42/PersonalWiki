@@ -26,5 +26,5 @@ var CDO = {
 };
 
 angular.module('myApp')
-    .component(CDO);
+    .component('greetUser', CDO);
 ```
