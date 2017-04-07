@@ -193,7 +193,7 @@ search engine that it came from a particular browser's url bar.
 * If not found, the browser calls `gethostbyname` library function (varies by
   OS) to do the lookup.
 * `gethostbyname` checks if the hostname can be resolved by reference in the
-  local `hosts` file (whose location `varies by OS`_) before trying to
+  local `hosts` file (whose location [varies by OS](https://en.wikipedia.org/wiki/Hosts_%28file%29#Location_in_the_file_system)) before trying to
   resolve the hostname through DNS.
 * If `gethostbyname` does not have it cached nor can find it in the `hosts`
   file then it makes a request to the DNS server configured in the network
