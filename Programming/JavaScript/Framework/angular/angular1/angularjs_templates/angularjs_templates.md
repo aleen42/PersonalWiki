@@ -67,3 +67,10 @@ phonecatApp.controller('PhoneListController', function PhoneListController ($sco
 });
 ```
 
+By providing context for our data model, the controller allows us to establish data-binding between the model and the view.
+
+The concept of a scope in AngularJS is very important, which allows the template, data model, and controller to work together. With scopes, AnglarJS has separated both models and views, but keep in sync. It means that any changes in models or views will be reflected in both of them.
+
+<p align="center">
+    <img src="./tutorial_02.png" />
+</p>
