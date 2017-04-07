@@ -220,7 +220,7 @@ If the entry is not in the ARP cache:
   interface associated with that subnet. If it is not, the library uses the
   interface that has the subnet of our default gateway.
 * The MAC address of the selected network interface is looked up.
-* The network library sends a Layer 2 (data link layer of the )
+* The network library sends a Layer 2 (data link layer of the [OSI model](https://en.wikipedia.org/wiki/OSI_model))
   ARP request:
 
 `ARP Request`:
@@ -292,9 +292,9 @@ named `socket` and requests a TCP socket stream - `AF_INET/AF_INET6` and
 
 At this point the packet is ready to be transmitted through either:
 
-* `Ethernet`_
-* `WiFi`_
-* `Cellular data network`_
+* [Ethernet](http://en.wikipedia.org/wiki/IEEE_802.3)
+* [WiFi](https://en.wikipedia.org/wiki/IEEE_802.11)
+* [Cellular data network](https://en.wikipedia.org/wiki/Cellular_data_communication_protocol)
 
 For most home or small business Internet connections the packet will pass from
 your computer, possibly through a local network, and then through a modem
