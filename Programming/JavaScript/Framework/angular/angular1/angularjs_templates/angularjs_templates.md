@@ -40,3 +40,11 @@ With using `ngController`:
 - The expressions above are set up in the controller `PhoneListController`.
  
 > Note: we have also specified an AngularJS module `phonecatApp` for the directive `ngApp`, which contains the controller.
+
+### 2. Model and Controller
+
+The data **model** is now instantiated within the **controller**, which is simply a constructor function that takes a `$scope` parameter.
+
+```js
+
+```
