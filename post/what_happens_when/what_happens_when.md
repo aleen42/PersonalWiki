@@ -17,7 +17,7 @@ please!
 
 This is all licensed under the terms of the [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
-Read this in `简体中文`_ (simplified Chinese). NOTE: this has not been reviewed
+Read this in [简体中文](https://github.com/skyline75489/what-happens-when-zh_CN) (simplified Chinese). NOTE: this has not been reviewed
 by the alex/what-happens-when maintainers.
 
 Table of Contents
