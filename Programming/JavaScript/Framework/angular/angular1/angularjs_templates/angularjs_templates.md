@@ -74,3 +74,25 @@ The concept of a scope in AngularJS is very important, which allows the template
 <p align="center">
     <img src="./tutorial_02.png" />
 </p>
+
+### 3. Testing
+
+#### 3.1 Testing Controllers
+
+In tests, we use an AngularJS service, called `$controller`, which will retrieve a controller by name.
+
+```js
+/** app.spec.js */
+describe('PhoneListController', function () {
+    beforeEach(module('phonecatApp'));
+    
+    it('should create a `phones` modle with 3 phones', inject(function ($controller) {
+        var scope = {};
+        var ctrl = $controller('PhoneListController', { $scope: scpoe });
+        
+        expect(scope.phones.length).toBe(3);
+    }));
+});
+```
+
+Before each test, we have used the method `beforeEach` to tell AngularJS to load the module `phonecatApp`. Calling `inject` is to tell AngularJS to inject the `$controller` service into our test function. Then this service can be used to create an instance of the `PhoneListController`, with which we can do the test
