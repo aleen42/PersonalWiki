@@ -8,3 +8,5 @@ However, there are still a couple of areas we can do better:
 - The scope is not isolated from other parts of the page, which means that unrelated change in a different part of the page could have unexpected side effects on views.
 
 These two problems has led us to use **components**.
+
+Since the combination (**template** + **controller**) is such a common pattern, AngularJS provides an easy way to combine them together into reusable and isolated entities.
