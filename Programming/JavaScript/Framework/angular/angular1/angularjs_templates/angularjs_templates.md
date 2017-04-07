@@ -10,7 +10,29 @@ The view should be constructed like this in the app:
 
 
 ```html
-<html ng-app="phonecatApp">
-    
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+    <head>
+        <!-- ... -->
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <ul>
+        <li>
+        <span>Nexus S</span>
+        <p>
+        Fast just got faster with Nexus S.
+        </p>
+        </li>
+        <li>
+        <span>Motorola XOOM™ with Wi-Fi</span>
+        <p>
+        The Next, Next Generation tablet.
+        </p>
+        </li>
+        </ul>
+    </body>
 </html>
+
 ```
