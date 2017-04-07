@@ -7,3 +7,4 @@ A great way to get introduced to AngularJS is to work through a tutorial, which 
 ### Introductions
 
 - [**Bootstrapping**](./bootstrapping/bootstrapping.md)
+- [**Static Template**](./static_template/static_template.md)
