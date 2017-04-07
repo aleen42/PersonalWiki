@@ -5,3 +5,12 @@ For AngularJS applications, we encourage the use of the [Model-View-Controller (
 ### 1. View and Template
 
 In AngularJS, the **view** is a projection of the model through the HTML template, which means that whenever the model changes, AngularJS refreshes the appropriate binding points, which updates the view.
+
+The view should be constructed like this in the app:
+
+
+```html
+<html ng-app="phonecatApp">
+    
+</html>
+```
