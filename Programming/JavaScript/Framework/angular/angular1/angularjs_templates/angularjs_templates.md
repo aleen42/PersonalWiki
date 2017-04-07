@@ -26,3 +26,5 @@ The view should be constructed like this in the app:
     </body>
 </html>
 ```
+
+As we can see in the snippet above, we have used two new directives: `ngRepeat`, and `ngController`
