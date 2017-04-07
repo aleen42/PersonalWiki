@@ -48,7 +48,6 @@ The data **model** is now instantiated within the **controller**, which is simpl
 ```js
 /** app.js */
 /** Define the `phonecatApp` module */
-
 var phonecatApp = angular.module('phonecatApp', []);
 
 /** Define the controller within the module */
@@ -67,3 +66,4 @@ phonecatApp.controller('PhoneListController', function PhoneListController ($sco
     ];
 });
 ```
+
