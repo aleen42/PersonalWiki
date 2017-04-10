@@ -127,10 +127,10 @@ describe('PhoneList', function () {
     
     describe('PoneListController', function () {
         it('should create a `phones` modle with 3 phones', inject(function ($controller) {
-        var $ctrl = $controller('phoneList');
-
-        expect($ctrl.phones.length).toBe(3);
-    }));
+            var $ctrl = $controller('phoneList');
+    
+            expect($ctrl.phones.length).toBe(3);
+        }));
     });
 });
 ```
