@@ -37,7 +37,6 @@ angular.module('phoneList')
 ```js
 /** app/app.module.js */
 app.module('phonecatApp', [
-    'phoneList',
-
+    'phoneList'
 ]);
 ```
