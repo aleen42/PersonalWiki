@@ -48,3 +48,6 @@ By passing `phoneList` inside the dependencies array when defining the `phonecat
 ### 2. External Templates
 
 As we knew before, we can specify a template by passing a inline string to the property `template` in the CDO. However, we may also find that it's not ideal especially when we need to build a large template. For this case, AngularJS has provided us another property `templateUrl` to allow us writing HTML code in a single file and reference it in the CDO.
+
+```js
+```
