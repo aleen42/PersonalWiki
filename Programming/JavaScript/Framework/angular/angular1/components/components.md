@@ -58,3 +58,24 @@ Take the app `PhonecatApp` as an example, we can use components like this:
 angular.module('phonecatApp', []);
 ```
 
+```js
+/** phone-list.component.js */
+angular.module('phonecatApp')
+    .component('phoneList', {
+        /** CDO */
+        template:
+            '<ul>'
+                + '<li ng-repeat="phone in $ctrl.phones">'
+                    + '<span>{{phone.name}}</span>'
+                    + '<p>{{phone.snippet}}</p>'
+                + '</li>'
+            + '</ul>',
+        controller: function PhoneListController() {
+            this.phones = [
+                {
+                }
+            ];
+        }
+    });
+```
+
