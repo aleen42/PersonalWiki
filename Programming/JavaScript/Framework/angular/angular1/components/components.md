@@ -102,4 +102,36 @@ With using components, we have gained that:
 
 ### 3. Testing Components
 
-With combining a controller with a template into a componet, how can we process the unit test?
+With combining a controller with a template into a component, how can we process the unit test? Before that , we may code like the following snpipet:
+
+```js
+/** app.spec.js */
+describe('PhoneListController', function () {
+    beforeEach(module('phonecatApp'));
+
+    it('should create a `phones` modle with 3 phones', inject(function ($controller) {
+        var $scope = {};
+        var $ctrl = $controller('PhoneListController', { $scope: $scpoe });
+
+        expect($scope.phones.length).toBe(3);
+    }));
+});
+```
+
+And now you can change it like this:
+
+```js
+/** phone-list.component.spec.js */
+describe('PhoneList', function () {
+    beforeEach(module('phonecatApp'));
+    
+    describe('PoneListController', function () {
+        it('should create a `phones` modle with 3 phones', inject(function ($controller) {
+        var $ctrl = $controller('phoneList');
+
+        expect($ctrl.phones.length).toBe(3);
+    }));
+    });
+});
+```
+
