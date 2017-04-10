@@ -1,1 +1,1 @@
-## Dirctory and File Organization of AngularJS Applications [Back](./../angular1.md)
+## Directory and File Organization of AngularJS Applications [Back](./../angular1.md)
