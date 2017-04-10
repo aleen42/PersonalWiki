@@ -38,6 +38,7 @@ Then we can use it in views whenever we want by including `<greet-user></greet-u
 Take the app `PhonecatApp` as an example, we can use components like this:
 
 ```html
+<!-- app/index.html -->
 <html ng-app="phonecatApp">
 <head>
     <!-- ... -->
@@ -50,5 +51,10 @@ Take the app `PhonecatApp` as an example, we can use components like this:
     <phone-list></phone-list>
 </body>
 </html>
+```
+
+```js
+/** app.js */
+angular.module('phonecatApp', []);
 ```
 
