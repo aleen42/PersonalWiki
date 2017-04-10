@@ -74,7 +74,7 @@ angular.module('phoneList')
 
 ```html
 <ul>
-    <li ng-repeat="phone in phones">
+    <li ng-repeat="phone in $ctrl.phones">
         <span>{{phone.name}}</span>
         <p>{{phone.snippet}}</p>
     </li>
