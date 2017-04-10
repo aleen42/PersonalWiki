@@ -87,3 +87,10 @@ angular.module('phonecatApp')
     });
 ```
 
+With using components, we have gained that:
+
+- make phone list reusable
+- make the main view (`app/index.html`) more cleaner
+- make component safe by isolating it
+- make component easier to test by isolating it
+
