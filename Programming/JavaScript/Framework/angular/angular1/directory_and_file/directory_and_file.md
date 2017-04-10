@@ -50,4 +50,24 @@ By passing `phoneList` inside the dependencies array when defining the `phonecat
 As we knew before, we can specify a template by passing a inline string to the property `template` in the CDO. However, we may also find that it's not ideal especially when we need to build a large template. For this case, AngularJS has provided us another property `templateUrl` to allow us writing HTML code in a single file and reference it in the CDO.
 
 ```js
+/** app/phone-list/phone-list.component.js */
+angular.module('phoneList')
+    .component('phoneList', {
+        /** Note: the URL can be relative */
+        templateUrl: 'phone-list/phone-list.template.html',
+        controller: function PhoneListController() {
+            this.phones = [
+                {
+                    name: 'Nexus S',
+                    snippet: 'Fast just got faster with Nexus S.'
+                }, {
+                    name: 'Motorola XOOM™ with Wi-Fi',
+                    snippet: 'The Next, Next Generation tablet.'
+                }, {
+                    name: 'MOTOROLA XOOM™',
+                    snippet: 'The Next, Next Generation tablet.'
+                }
+            ];
+        }
+    });
 ```
