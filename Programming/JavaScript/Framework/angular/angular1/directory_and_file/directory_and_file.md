@@ -11,6 +11,8 @@ As applications grows, it becomes a burden to maintain if you put all things int
 
 >> app.js
 
+### 1. Using Modules
+
 What if another project wants to use the component `phoneList`? We can make it as a module, which can be used anywhere with just copying the directory `phone-list/`.
 
 > app/
