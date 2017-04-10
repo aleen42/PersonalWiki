@@ -71,3 +71,13 @@ angular.module('phoneList')
         }
     });
 ```
+
+```html
+<ul ng-repeats="phone in phones">
+    <li>
+        <span>{{phone.name}}</span>
+        <p>{{phone}}</p>
+    </li>
+</ul>
+
+```
