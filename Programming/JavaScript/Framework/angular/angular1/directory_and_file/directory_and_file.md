@@ -73,8 +73,8 @@ angular.module('phoneList')
 ```
 
 ```html
-<ul ng-repeats="phone in phones">
-    <li>
+<ul>
+    <li ng-repeat="phone in phones">
         <span>{{phone.name}}</span>
         <p>{{phone.snippet}}</p>
     </li>
