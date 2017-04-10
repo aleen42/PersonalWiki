@@ -126,7 +126,7 @@ describe('PhoneList', function () {
     /** Load the module that contains the `phoneList` component before each test */
     beforeEach(module('phonecatApp'));
     
-    /** test the co
+    /** test the controller */
     describe('PoneListController', function () {
         it('should create a `phones` modle with 3 phones', inject(function ($controller) {
             var $ctrl = $controller('phoneList');
