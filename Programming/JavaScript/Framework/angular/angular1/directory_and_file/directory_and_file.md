@@ -33,3 +33,11 @@ angular.module('phoneList')
         /** .s.. */
     });
 ```
+
+```js
+/** app/app.module.js */
+app.module('phonecatApp', [
+    'phoneList',
+
+]);
+```
