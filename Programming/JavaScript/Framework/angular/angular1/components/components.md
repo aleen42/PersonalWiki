@@ -98,3 +98,5 @@ With using components, we have gained that:
     <img src="./tutorial_03.png" />
 </p>
 
+> Note: when naming a file, it's recommended to distinguish different types of entities by suffix, like `.component`. In other words, a `someComponent` is recommended to declared in the file named `some-component.component.js`.
+
