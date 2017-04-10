@@ -40,3 +40,5 @@ app.module('phonecatApp', [
     'phoneList'
 ]);
 ```
+
+By passing `phoneList` inside the dependencies array when defining the `phonecatApp` module, AngularJS will make all entities registered on `phoneList` available on phonecatApp as well.
