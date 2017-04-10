@@ -94,3 +94,7 @@ With using components, we have gained that:
 - make component safe by isolating it
 - make component easier to test by isolating it
 
+<p align="center">
+    <img src="./tutorial_03.png" />
+</p>
+
