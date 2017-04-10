@@ -79,5 +79,4 @@ angular.module('phoneList')
         <p>{{phone.snippet}}</p>
     </li>
 </ul>
-
 ```
