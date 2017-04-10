@@ -154,6 +154,7 @@
                         * [Static Template](./Programming/JavaScript/Framework/angular/angular1/static_template/static_template.md)
                         * [AngularJS Templates](./Programming/JavaScript/Framework/angular/angular1/angularjs_templates/angularjs_templates.md)
                         * [Components](./Programming/JavaScript/Framework/angular/angular1/components/components.md)
+                        * [Directory and File Organization of AngularJS Applications](./Programming/JavaScript/Framework/angular/angular1/directory_and_file/directory_and_file.md)
             * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
