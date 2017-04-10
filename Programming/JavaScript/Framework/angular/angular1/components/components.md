@@ -100,3 +100,6 @@ With using components, we have gained that:
 
 > Note: when naming a file, it's recommended to distinguish different types of entities by suffix, like `.component`. In other words, a `someComponent` is recommended to declared in the file named `some-component.component.js`.
 
+### 3. Testing Components
+
+With combining a controller with a template into a componet, how can we process the unit test?
