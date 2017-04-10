@@ -123,8 +123,10 @@ And now you can change it like this:
 ```js
 /** phone-list.component.spec.js */
 describe('PhoneList', function () {
+    /** Load the module that contains the `phoneList` component before each test */
     beforeEach(module('phonecatApp'));
     
+    /** test the controller */
     describe('PoneListController', function () {
         it('should create a `phones` modle with 3 phones', inject(function ($controller) {
             var $ctrl = $controller('phoneList');
