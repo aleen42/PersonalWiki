@@ -6,7 +6,7 @@ As applications grows, it becomes a burden to maintain if you put all things int
 
 > app/
 >> phone-list/
->>>phone-list.component.js
->>><br />phone-list.component.spec.js
->> app.js
+>>> phone-list.component.js
+>>> <br />phone-list.component.spec.js
+>> <br />app.js
 
