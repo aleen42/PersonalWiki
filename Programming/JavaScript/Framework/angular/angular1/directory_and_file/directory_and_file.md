@@ -11,3 +11,25 @@ As applications grows, it becomes a burden to maintain if you put all things int
 
 >> app.js
 
+What if another project wants to use the component `phoneList`? We can make it as a module, which can be used anywhere with just copying the directory `phone-list/`.
+
+> app/
+>> phone-list/
+>>> phone-list.module.js
+>>> <br />phone-list.component.js
+>>> <br />phone-list.component.spec.js
+
+>> app.module.js
+
+```js
+/** app/phone-list/phone-list.module.js */
+angular.module('phoneList', []);
+```
+
+```js
+/** app/phone-list/phone-list.component.js */
+angular.module('phoneList')
+    .component('phonList', {
+        /** .s.. */
+    });
+```
