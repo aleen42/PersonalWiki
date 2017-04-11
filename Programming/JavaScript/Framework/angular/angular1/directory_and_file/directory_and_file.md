@@ -80,3 +80,18 @@ angular.module('phoneList')
     </li>
 </ul>
 ```
+
+### 3. Final Structure
+
+After all refactoring, the structure of applications should be:
+
+> app/
+>> phone-list/
+>>> phone-list.module.js
+>>> <br />phone-list.component.js
+>>> <br />phone-list.component.spec.js
+>>> <br />phone-list.template.html
+
+>> app.css
+>> <br />app.module.js
+>> <br />index.htm
