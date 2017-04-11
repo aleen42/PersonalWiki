@@ -83,7 +83,7 @@ angular.module('phoneList')
 
 ### 3. Final Structure
 
-After all refactoring, the structure of applications should be:
+After all refactorings, the structure of applications should be:
 
 > app/
 >> phone-list/
@@ -94,4 +94,4 @@ After all refactoring, the structure of applications should be:
 
 >> app.css
 >> <br />app.module.js
->> <br />index.htm
+>> <br />index.html
