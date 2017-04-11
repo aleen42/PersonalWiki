@@ -15,6 +15,7 @@ $ export LESSCHARSET=utf-8 # git log will use `less` to paginate information, wh
 Then, change some configuration files in the folder `etc`, and add some lines right behind files as the following guide:
 
 - `/etc/gitconfig`:
+
     ```
     [gui]
         encoding = utf-8
@@ -24,6 +25,7 @@ Then, change some configuration files in the folder `etc`, and add some lines ri
         pathnameencoding = gbk
     ```
 - `/etc/git-completion.bash`:
+    
     ```
     alias ls="ls --show-control-chars --color"
     ```
