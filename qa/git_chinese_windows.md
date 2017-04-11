@@ -7,7 +7,6 @@ Then, change some configuration files in the folder `etc`:
 - `/etc/gitconfig`:
 
     add the following snippet right behind the file
-    
     ```
 [gui]
     encoding = utf-8
