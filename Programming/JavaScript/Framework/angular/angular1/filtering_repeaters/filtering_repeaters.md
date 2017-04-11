@@ -33,4 +33,4 @@ As we can see, the snippet above has imported an `input` element for inputting t
     <img src="./tutorial_05.png" />
 </p>
 
-- **Filter function**: As we have bound the value of the input box to the variable `$ctrl.query`, the `filter` function can easily get this value to filter out a new array automatically.
+- **Filter function**: As we have bound the value of the input box to the variable `$ctrl.query`, the `filter` function can easily get this value to filter out a new array automatically whenever the value is changed.
