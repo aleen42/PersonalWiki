@@ -28,3 +28,9 @@ Firstly, we are going to change the template of the component:
 As we can see, the snippet above has imported an `input` element for inputting text to filter contents. The most important thing is that we have used the `filter` function of AngularJS. With using that core feature, we have two things to focus on:
 
 - **Data binding**: by assigning the attribute `ng-model` with `ngModel` directive, AngularJS binds the value of the input box to the data model so that we can keep them in sync.
+
+<p align="center">
+    <img src="./tutorial_05.png" />
+</p>
+
+- ****
