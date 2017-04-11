@@ -11,3 +11,4 @@ A great way to get introduced to AngularJS is to work through a tutorial, which 
 - [**AngularJS Templates**](./angularjs_templates/angularjs_templates.md)
 - [**Components**](./components/components.md)
 - [**Directory and File Organization of AngularJS Applications**](./directory_and_file/directory_and_file.md)
+- [**Filtering Repeaters**](./filtering_repeaters/filtering_repeaters.md)
