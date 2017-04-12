@@ -37,4 +37,11 @@ As we can see, the snippet above has imported an `input` element for inputting t
 
 When it comes to testing, it's not easy to use unit tests to test templates, DOM manipulation or interoperability of components. Therefore, we need to write some E2E tests. As the search feature was fully implemented via templates and data binding, we will write the E2E test to ensure that the feature works.
 
-
+```js
+/** e2e-tests/scenarios.js */
+describe('PhoneCat Application', function () {
+    describe('phoneList', function () {
+        
+    });
+});
+```
