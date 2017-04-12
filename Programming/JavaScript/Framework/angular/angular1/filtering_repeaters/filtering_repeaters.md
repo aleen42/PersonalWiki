@@ -60,3 +60,5 @@ describe('PhoneCat Application', function () {
     });
 });
 ```
+
+Much like Karma is the test runner for unit tests, we use Protractor to run E2E tests with `npm run protractor`,
