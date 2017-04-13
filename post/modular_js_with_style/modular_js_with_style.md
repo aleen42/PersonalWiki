@@ -425,7 +425,7 @@ function foo(){
 exports.foo = foo;
 ```
 
-##### **exports 的基本用法**
+##### exports 的基本用法
 
 ```js
 // 定义我们希望暴露的更多行为
@@ -453,7 +453,7 @@ var foobar = require('./foobar').foobar,
 test.bar(); // 'Hello bar'
 ```
 
-##### **第一个 CJS 例子的 AMD 等价写法**
+##### 第一个 CJS 例子的 AMD 等价写法
 
 ```js
 define(['package/lib'], function(lib){
@@ -469,7 +469,7 @@ define(['package/lib'], function(lib){
 });
 ```
 
-##### **使用多个依赖项**
+##### 使用多个依赖项
 
 ###### app.js
 
@@ -502,7 +502,7 @@ exports.helloWorld = function(){
 }
 ```
 
-##### **哪些加载器和框架支持 CJS?**
+##### 哪些加载器和框架支持 CJS?
 
 ###### 浏览器端：
 
@@ -518,7 +518,7 @@ exports.helloWorld = function(){
 - Perseverehttp://www.persvr.org/
 - Wakandahttp://www.wakandasoft.com/
 
-##### **CJS 适用于浏览器吗？**
+##### CJS 适用于浏览器吗？
 
 有些开发者觉得 CommonJS 更适合于服务器端开发，这一定程度上说明了为什么在目前这个 Harmony 到来前的时代，对于哪个格式更适合用来作为事实标准存在某种程度的**分歧**。不利于 CJS 的论据包括：很多处理面向服务器端特性的 CommonJS API 根本无法用 JavaScript 在浏览器级别实现——比如 io、system 以及 js 就因为其天生的功能特性无法实现。
 
@@ -554,7 +554,7 @@ CommonJS 则采用了服务器优先的策略，采取同步行为、没有 John
 
 尽管可能还会有另一个模块格式的想法令人有些气馁，但是你还是可能会有兴趣看一些 AMD/CJS 混合模块和通用 AMD/CJS 模块相关工作的例子。
 
-##### **基本 AMD 混合格式（John Hann）** 
+##### 基本 AMD 混合格式（John Hann） 
 
 ```js
 define( function (require, exports, module){
@@ -566,7 +566,7 @@ define( function (require, exports, module){
 });
 ```
 
-##### **AMD/CommonJS 通用模块定义（变体 2，[UMDjs](https://github.com/umdjs/umd)）**
+##### AMD/CommonJS 通用模块定义（变体 2，[UMDjs](https://github.com/umdjs/umd)）
 
 ```js
 /**
@@ -599,7 +599,7 @@ define( function (require, exports, module){
 }));
 ```
 
-##### **可扩展的 UMD 插件（Thomas Davis 和我自己修改的变体）**
+##### 可扩展的 UMD 插件（Thomas Davis 和我自己修改的变体）
 
 ###### core.js
 

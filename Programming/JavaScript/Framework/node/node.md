@@ -8,7 +8,7 @@
 
 ### Basic
 
-##### **i.** Update the version of `node` and `npm`
+##### i. Update the version of `node` and `npm`
 
 - check the version
 
@@ -35,7 +35,7 @@ sudo npm install -g npm@latest
 sudo npm install -g npm@lts
 ```
 
-##### **ii.** Require models
+##### ii. Require models
 
 - install models
 
@@ -56,7 +56,7 @@ sudo npm install -g <model_name>
 var request = require('request');
 ```
 
-##### **iii.** Run the script
+##### iii. Run the script
 
 ```sh
 node script.js
