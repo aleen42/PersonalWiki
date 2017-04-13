@@ -60,7 +60,7 @@ define(
 
 ```js
 // 这里的 module_id（myModule）仅作为示例使用
- 
+
 define('myModule',
     ['foo', 'bar'],
     // 模块定义函数
@@ -378,7 +378,7 @@ define.amd = {
 
 ##### 哪些脚本加载器和框架支持 AMD?
 
-######　浏览器端：
+###### 浏览器端：
 
 - RequireJS http://requirejs.org
 - curl.js http://github.com/unscriptable/curl
@@ -387,7 +387,7 @@ define.amd = {
 - PINF http://github.com/pinf/loader-js
 - (还有更多)
 
-######　服务器端
+###### 服务器端
 
 - RequireJS http://requirejs.org
 - PINF http://github.com/pinf/loader-js
