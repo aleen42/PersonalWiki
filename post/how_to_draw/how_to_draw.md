@@ -244,7 +244,7 @@ The algorithm is exactly the place we should think more about.
 
 As the requirement gets more and more complicated, we may find that data of paths cannot fit the case at all, when we want to scale and resize, or move graphics in Canvas.
 
-##### **Why we need calibration parameters?**
+##### Why we need calibration parameters?
 
 Since you would like to scale and resize, or even move graphics in Canvas, it means that the data of paths should be changed corresponding to your actions. Unfortunately, it won't, and that's exactly why we need calibration parameters.
 
@@ -271,7 +271,7 @@ Except your operating on the graphic, some attributes of the SVG file will also 
 
 Therefore, the calculation of calibration parameters will have two factors: corresponding to **attributes** and **actions**.
 
-##### **Calculation**
+##### Calculation
 
 Before calculating, we're going to know about some defined variables, and what they actually represent for.
 
@@ -331,7 +331,7 @@ As far as I'm concerned, it's recommended to remove them rather than to rewrite 
 
 At this moment, we have already known how to draw `path` elements in JavaScript, but as mentioned above, some shapes are defined with other elements like `rect`, `polyline`, `circle`, and so on. To draw them all, we should convert them into paths before. In this chapter, I will introduce how to do this.
 
-##### **Circles & Ellipses**
+##### Circles & Ellipses
 
 circle and ellipse elements are similar to each other with both attributes shown in Table 2.1:
 
@@ -379,7 +379,7 @@ function convertCE(cx, cy) {
 }
 ```
 
-##### **Polylines & Polycircles**
+##### Polylines & Polycircles
 
 For these both elements, what you should do is to extract out the attribute `points`. and recompose them into a special format for `d` value of path elements.
 
@@ -402,7 +402,7 @@ function convertPoly(points, types) {
 }
 ```
 
-##### **Lines**
+##### Lines
 
 Generally, `line` elements will have some attributes defined for positioning start and end points of a line: `x1`, `y1`, `x2`, and `y2`.
 
@@ -418,7 +418,7 @@ function convertLine(x1, y1, x2, y2) {
 }
 ```
 
-##### **Rectangles**
+##### Rectangles
 
 Rectangles will also have some attributes defined for positioning itself and deciding how big it's: `x`, `y`, `width`, and `height`.
 

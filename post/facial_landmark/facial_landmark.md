@@ -82,7 +82,7 @@ In the video below, you can see two of the libraries, **Dlib** and **CLM-framewo
 
 I personally like Dlib more than any other facial feature detection & tracking library because the code is very clean, well documented, the license permits use in commercial applications, the algorithm they have chosen to implement is very fast and accurate, and you can easily integrate the library in your C++ project by just including the header files.
 
-##### **How to compile Dlib ?**
+##### How to compile Dlib ?
 
 i. Download a copy from github
 ```bash
@@ -116,7 +116,7 @@ If the above line does not give an error, you are all set.
 
 In case you run into any compilation issues, there are [additional instructions at Dlib.net](http://dlib.net/compile.html)
 
-##### **How to run Dlib's facial landmark detector ?**
+##### How to run Dlib's facial landmark detector ?
 
 After you have built the examples, to run the facial landmark detector using a webcam, do the following.
 
@@ -140,7 +140,7 @@ If you want to run it on a single image, you can try
 
 There are two important ways in which Dlib beats CLM-Framework. First, DLib is much faster than CLM-Framework. Second, Dlib's license allows you to use it in commercial applications. If I had to pick, I would use Dlib. Interestingly, CLM-Framework depends on Dlib!
 
-##### **How to compile CLM-Framework ?**
+##### How to compile CLM-Framework ?
 
 Compiling CLM-Framework was a bit involved for OSX. For windows and linux there are detailed instructions here. For compiling version 1.3.0 on OSX, I used the instructions for linux but made the following changes.
 
@@ -162,7 +162,7 @@ In file **exe/SimpleCLM/SimpleCLM.cpp**
 
 > writerFace = VideoWriter(tracked_videos_output[f_n], CV_FOURCC('M','P','4′,'V'), 15, captured_image.size(), true);
 
-##### **How to run CLM-Framework's Facial Feature Detector ?**
+##### How to run CLM-Framework's Facial Feature Detector ?
 
 After compiling CLM-Framework, the executables are in the **bin** directory. For the webcam demo shown in this post, you can use
 
