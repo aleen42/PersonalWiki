@@ -44,8 +44,8 @@ AMD 最初是一份 CommonJS 列表中模块格式的规范草案，但因为没
 
 ```js
 define(
-    module_id /*可选*/, 
-    [dependencies] /*可选*/, 
+    module_id /*可选*/,
+    [dependencies] /*可选*/,
     definition function /*用来初始化模块或对象的函数*/
 );
 ```
@@ -56,19 +56,19 @@ define(
 
 回到定义的方法签名，dependencies 参数代表了一组对所定义的模块来说必须的依赖项。第三个参数（'definition function'）是一个用来为你的模块执行初始化的函数。一个最简单的模块可以以如下方式定义：
 
-#####　**理解 AMD：define()**
+##### 理解 AMD：define()
 
 ```js
 // 这里的 module_id（myModule）仅作为示例使用
  
-define('myModule', 
-    ['foo', 'bar'], 
+define('myModule',
+    ['foo', 'bar'],
     // 模块定义函数
     // 依赖项（foo 和 bar）被映射为函数的参数
     function ( foo, bar ) {
         // 返回一个定义了模块导出接口的值
         // （也就是我们想要导出后进行调用的功能）
-    
+
         // 在这里创建模块
         var myModule = {
             doStuff:function(){
@@ -78,12 +78,12 @@ define('myModule',
 
         return myModule;
 });
- 
+
 // 另一个例子可以是...
-define('myModule', 
-    ['math', 'graph'], 
+define('myModule',
+    ['math', 'graph'],
     function ( math, graph ) {
- 
+
         // 请注意这是一个和 AMD 有些许不同的模式，但用几种不同的方式
         // 来定义模块也是可以的，因为语法在某些方面还是比较灵活的
         return {
@@ -96,31 +96,31 @@ define('myModule',
 
 另一方面，*require* 则主要用来在顶层 JavaScript 文件中或需要动态读取依赖时加载代码。用法的一个实例如下：
 
-#####　**理解 AMD：require()**
+##### 理解 AMD：require()
 
 ```js
 // 假设 'foo' 和 'bar' 是两个外部模块
 // 在本例中，这两个模块被加载后的 'exports' 被当做两个参数传递到了回调函数中
 // 所以可以像这样来访问他们
- 
+
 require(['foo', 'bar'], function ( foo, bar ) {
     // 这里写其余的代码
     foo.doSomething();
 });
 ```
 
-#####　**动态加载的依赖项**
+##### 动态加载的依赖项
 
 ```js
 define(function ( require ) {
     var isReady = false, foobar;
- 
+
     // 请注意在模块定义内部内联的 require 语句
     require(['foo', 'bar'], function (foo, bar) {
         isReady = true;
         foobar = foo() + bar();
     });
- 
+
     // 我们仍可以返回一个模块
     return {
         isReady: isReady,
@@ -129,7 +129,7 @@ define(function ( require ) {
 });
 ```
 
-#####　**理解 AMD：插件**
+##### 理解 AMD：插件
 
 下面的例子定义了一个 AMD 兼容的插件：
 
@@ -140,7 +140,7 @@ define(function ( require ) {
 // page-load or dynamically.
 // 在 AMD 中，我们可以加载几乎任意类型的资源，包括文本文件以及 HTML。这让我们
 // 同时能够在页面加载时以在及此后动态地得到可用于皮肤组件的模板依赖项。
- 
+
 define(['./templates', 'text!./template.md', 'css!./template.css'],
     function( templates, template ){
         console.log(templates);
@@ -150,10 +150,10 @@ define(['./templates', 'text!./template.md', 'css!./template.css'],
 
 > 注：尽管在上面的例子中在加载 CSS 依赖时已经包含了 css!，但我们要牢记这个方法需要注意的地方：无法真正确认何时 CSS 会被加载完毕。根据你构建代码方式的不同，可能会导致 CSS 作为一个依赖项加入到优化完的文件中，所以在这种情况下将 CSS 作为依赖项来加载需要倍加小心。
 
-#####　**使用 require.js 加载 AMD 模块**
+##### 使用 require.js 加载 AMD 模块
 
 ```js
-require(['app/myModule'], 
+require(['app/myModule'],
     function( myModule ){
         // 启动主模块，用来轮流加载其它模块
         var module = new myModule();
@@ -161,10 +161,10 @@ require(['app/myModule'],
 });
 ```
 
-#####　**使用 curl.js 加载 AMD 模块**
+##### 使用 curl.js 加载 AMD 模块
 
 ```js
-curl(['app/myModule.js'], 
+curl(['app/myModule.js'],
     function( myModule ){
         // 启动主模块，用来轮流加载其它模块
         var module = new myModule();
@@ -172,12 +172,12 @@ curl(['app/myModule.js'],
 });
 ```
 
-#####　**包含需要延迟加载的依赖项的模块**
+##### 包含需要延迟加载的依赖项的模块
 
 ```js
 // 这可以兼容 jQuery 的 Deferred 实现、future.js（语法稍有不同）或多种其它实现
 define(['lib/Deferred'], function( Deferred ){
-    var defer = new Deferred(); 
+    var defer = new Deferred();
 
     require(['lib/templates/?index.html','lib/data/?stats'],
         function( template, data ){
@@ -188,7 +188,7 @@ define(['lib/Deferred'], function( Deferred ){
 });
 ```
 
-#####　**为什么 AMD 对于编写模块化 JavaScript 是一个更好的选择？**
+##### 为什么 AMD 对于编写模块化 JavaScript 是一个更好的选择？
 
 - 为如何定义高灵活性的模块提供了一个清晰的方案。
 - 相对目前我们很多人使用的全局命名空间加注入 `<script>` 标签的解决方案来说，要简洁得多。它有一个简洁的方式来声明独立的模块以及他们可能包含的依赖项。
@@ -232,8 +232,8 @@ define(["dijit/Tooltip"], function( Tooltip ){
 
 ```js
 define(["dojo/cookie", "dijit/Tooltip"], function( cookie, Tooltip ){
-    var cookieValue = cookie("cookieName"); 
-    new Tree(...); 
+    var cookieValue = cookie("cookieName");
+    new Tree(...);
 });
 ```
 
@@ -256,41 +256,41 @@ define(["dojo", "dijit", "dojo/cookie", "dijit/Tooltip"], function(dojo, dijit){
 
 下面有几个这些模式的实例：
 
-#####　**装饰者（Decorator）模式：**
+##### 装饰者（Decorator）模式：
 
 ```js
 // mylib/UpdatableObservable：dojo/store/Observable 的一个装饰者
 define(['dojo', 'dojo/store/Observable'], function ( dojo, Observable ) {
     return function UpdatableObservable ( store ) {
         var observable = dojo.isFunction(store.notify) ? store : new Observable(store);
- 
+
         observable.updated = function( object ) {
             dojo.when(object, function ( itemOrArray ) {
                 dojo.forEach( [].concat(itemOrArray), this.notify, this );
             });
         };
- 
+
         return observable; // 让 `new` 成为可选的
     };
 });
- 
- 
+
+
 // 装饰者使用者
 // mylib/UpdatableObservable 的一个使用者
- 
+
 define(['mylib/UpdatableObservable'], function ( makeUpdatable ) {
     var observable, updatable, someItem;
     // ... 获取或得到 `observable` 的代码
- 
+
     // ... 让 observable store 也变得 updatable
     updatable = makeUpdatable(observable); // `new` is optional!
- 
+
     // ... 之后，当一条 cometd 消息带着新的数据项到达时
     updatable.updated(updatedItem);
 });
 ```
 
-#####　**适配器（Adapter）模式**
+##### 适配器（Adapter）模式
 
 ```js
 // 'mylib/Array' 将 `each` 函数适配为仿 jQuery 的接口:
@@ -303,7 +303,7 @@ define(['dojo/_base/lang', 'dojo/_base/array'], function (lang, array) {
         }
     });
 });
- 
+
 // 适配器使用者
 // 'myapp/my-module':
 define(['mylib/Array'], function ( array ) {
@@ -315,7 +315,7 @@ define(['mylib/Array'], function ( array ) {
 
 #### jQuery 下的 AMD 模块
 
-#####　**基础**
+##### 基础
 
 不像 Dojo，jQuery 真就是只来自一个文件。然而因为其类库的本质是基于插件的，我们下面还是可以展示一下定义一个使用它的 AMD 模块是多么直截了当。
 
@@ -325,14 +325,14 @@ define(['js/jquery.js','js/jquery.color.js','js/underscore.js'],
         // 这里我们传入了 jQuery、color 插件以及 Underscore
         // 我们在全局作用域中无法访问其中的任何一个，但我们可以轻易地在
         // 下面引用他们。
- 
+
         // 伪随机生成一个颜色数组，选中打乱后数组中的第一项
         var shuffleColor = _.first(_.shuffle(['#666','#333','#111']));
- 
+
         // 给页面中任意 class 带有 'item' 的元素用随机得到的颜色为
         // background-color 添加动画效果
         $('.item').animate({'backgroundColor': shuffleColor });
-        
+
         return {};
         // 我们返回的东西可以被其它模块所使用
 });
@@ -340,7 +340,7 @@ define(['js/jquery.js','js/jquery.color.js','js/underscore.js'],
 
 但是这个例子中有一些缺失的地方，也就是注册的概念。
 
-#####　**将 jQuery 注册为一个异步兼容的模块**
+##### 将 jQuery 注册为一个异步兼容的模块
 
 jQuery 1.7 增加的一个关键特性，就是支持将 jQuery 注册为一个异步模块。有很多兼容的脚本加载器（包括 RequireJS 和 curl）都可以用一个异步模块格式来加载模块，这也就表示不需要太多 hack 就能让一切运行起来。
 
@@ -355,7 +355,7 @@ jQuery 1.7 增加的一个关键特性，就是支持将 jQuery 注册为一个�
 ```js
 // 让文档中存在多个 jQuery 的全局实例，以便测试 .noConflict()
 
-var jQuery = this.jQuery || "jQuery", 
+var jQuery = this.jQuery || "jQuery",
 $ = this.$ || "$",
 originaljQuery = jQuery,
 original$ = $,
@@ -372,11 +372,11 @@ define.amd = {
 };
 ```
 
-#####　**更智能的 jQuery 插件**
+##### 更智能的 jQuery 插件
 
 最近我在这里讨论了一些关于如何用通用模块定义（UMD，Universal Module Definition）来编写 jQuery 的思路和例子。UMD 定义那些既能在客户端又能在服务器端工作的模块，这样的模块同时也能和目前可用的主流脚本加载器一同工作。虽然这仍然是一个许多概念都还没最终确定的新领域，还是不妨看看标题为 AMD 与 CommonJS 的章节中的代码示例。如果你觉得我们哪里还可以改进，请告诉我。
 
-#####　**哪些脚本加载器和框架支持 AMD?**
+##### 哪些脚本加载器和框架支持 AMD?
 
 ######　浏览器端：
 
@@ -410,17 +410,17 @@ define.amd = {
 
 从高一点的层次来看，他们主要包含两个部分：一个名叫 `exports` 的自由变量，它包含模块希望提供给其它模块的对象；以及一个 `require` 函数，让模块用来导入其它模块的导出。
 
-#####　**理解 CJS：require() 与 exports**
+##### 理解 CJS：require() 与 exports
 
 ```js
 // package/lib 是我们须要的一个依赖项
 var lib = require('package/lib');
- 
+
 // 我们的模块的一些行为
 function foo(){
     lib.log('hello world!');
 }
- 
+
 // 把 foo 导出（暴露）给其它模块
 exports.foo = foo;
 ```
@@ -438,18 +438,18 @@ function foobar(){
         console.log('Hello bar');
     };
 }
- 
+
 // 把 foobar 暴露给其它模块
 exports.foobar = foobar;
- 
- 
+
+
 // 一个使用了 'foobar' 的应用
- 
+
 // 相对于使用文件与模块文件所在的同一目录路径获取模块
- 
+
 var foobar = require('./foobar').foobar,
     test   = new foobar();
- 
+
 test.bar(); // 'Hello bar'
 ```
 
@@ -460,8 +460,8 @@ define(['package/lib'], function(lib){
     // 我们的模块的一些行为
     function foo(){
         lib.log('hello world!');
-    } 
- 
+    }
+
     // 把 foo 导出（暴露）给其它模块
     return {
         foobar: foo
@@ -476,11 +476,11 @@ define(['package/lib'], function(lib){
 ```js
 var modA = require('./foo');
 var modB = require('./bar');
- 
+
 exports.app = function(){
     console.log('Im an application!');
 }
- 
+
 exports.foo = function(){
     return modA.helloWorld();
 }
@@ -554,12 +554,12 @@ CommonJS 则采用了服务器优先的策略，采取同步行为、没有 John
 
 尽管可能还会有另一个模块格式的想法令人有些气馁，但是你还是可能会有兴趣看一些 AMD/CJS 混合模块和通用 AMD/CJS 模块相关工作的例子。
 
-##### 基本 AMD 混合格式（John Hann） 
+##### 基本 AMD 混合格式（John Hann）
 
 ```js
 define( function (require, exports, module){
     var shuffler = require('lib/shuffle');
- 
+
     exports.randomize = function( input ){
         return shuffler.shuffle(input);
     };
@@ -581,7 +581,7 @@ define( function (require, exports, module){
     define('id', function (require, exports) {
         //如果有兼容项，把它们加载进来
         var a = require('a');
- 
+
         //给 exports 绑定属性。
         exports.name = value;
     });
@@ -614,7 +614,7 @@ define( function (require, exports, module){
         hasDefine = typeof define === 'function' && define.amd,
         // hasDefine = typeof define === 'function',
         hasExports = typeof module !== 'undefined' && module.exports;
- 
+
     if ( hasDefine ){ // AMD 模块
         define(theModule);
     } else if ( hasExports ) { // Node.js 模块
@@ -627,9 +627,9 @@ define( function (require, exports, module){
     module.plugins = [];
     module.highlightColor = "yellow";
     module.errorColor = "red";
- 
+
     // 在这里定义 core 模块并返回公用 API
-    
+
     // 这是 core 的方法 highlightAll() 和所有插件使用的 highlight 方法
     // 用来把元素高亮显示为不同颜色
     module.highlight = function(el,strColor){
@@ -644,7 +644,7 @@ define( function (require, exports, module){
         highlightAll:function(){
             module.highlight('div', module.highlightColor);
         }
-    }; 
+    };
 });
 ```
 
@@ -660,7 +660,7 @@ define( function (require, exports, module){
         define(theModule);
     } else if ( hasExports ) { // Node.js 模块
         module.exports = theModule;
-    } else { 
+    } else {
 	// 分配到常见的命名空间，或简单地分配到全局对象（window）
         // for 循环用来处理扁平文件/全局模块扩展名
         var obj = null;
@@ -675,7 +675,7 @@ define( function (require, exports, module){
             }
             obj = scope[packageName];
         }
- 
+
     }
 })('core.plugin', function () {
     // 在这里定义你的模块并返回公用 API
@@ -696,20 +696,20 @@ define( function (require, exports, module){
 
 ```js
 $(function(){
- 
+
     // 'core' 插件在本例中被暴露在了一个命名空间 core 下，我们
     // 先将它缓存起来
     var core = $.core;
- 
+
     // 然后使用一些原生的 core 功能来用黄色高亮页面中所有的 div
     core.highlightAll();
- 
+
     // 访问被载入 core 模块的 'plugin' 命名空间的插件（扩展）：
- 
+
     // 把页面中的第一个 div 设为绿色背景。
     core.plugin.setGreen("div:first");
     // 这里我们通过一个在其之后加载的插件从底层使用 core 的 'highlight' 方法
- 
+
     // 把最后一个 div 的背景色设为我们在 core 模块/插件中定义的
     // 'errorColor' 属性的颜色。如果你更仔细地查看代码，就会发现
     // 在 core 和其它插件间使用属性和方法是多么简单
@@ -739,21 +739,21 @@ module staff{
         bake: function( item ){
             console.log('Woo! I just baked ' + item);
         }
-    }; 
+    };
 }
- 
+
 module skills{
     export var specialty = "baking";
     export var experience = "5 years";
 }
- 
+
 module cakeFactory{
     // 指定依赖项
     import baker from staff;
- 
+
     // 通过通配符导入所有东西
     import * from skills;
- 
+
     export var oven = {
         makeCupcake: function( toppings ){
             baker.bake('cupcake', toppings);
@@ -799,7 +799,7 @@ export function close(hnd) { ... };
 ```js
 // compiler/LexicalHandler.js
 module file from 'io/File';
- 
+
 import { open, close } from file;
 export function scan(in) {
     try {
@@ -812,7 +812,7 @@ export function scan(in) {
 ```js
 module lexer from 'compiler/LexicalHandler';
 module stdlib from '@std';
- 
+
 //... scan(cmdline[0]) ...
 ```
 
@@ -831,32 +831,32 @@ class Cake{
         public cakeSize = cakeSize;
         public toppings = toppings;
         private price = price;
- 
+
     }
- 
+
     // 作为 ES.next 对于减少不必要的到处使用 function 的努力的一部
     // 分，你会看到它在如同下面那样的使用场景中被抛弃了。在这里一个标
     // 识符后面紧跟一个参数列表和一个定义了新方法的主体。
- 
+
     addTopping( topping ){
         public(this).toppings.push(topping);
     }
- 
+
     // Getter 可以通过在标识符、方法名以及花括号主体前
     // 声明一个 get 来定义。
     get allToppings(){
         return public(this).toppings;
     }
- 
+
     get qualifiesForDiscount(){
         return private(this).price > 5;
     }
- 
+
     // 与 getter 类似，setter 也能通过在标识符前使用 'set'
     // 关键字来定义。
     set cakeSize( cSize ){
         if( cSize < 0 ){
-            throw new Error('Cake must be a valid size - 
+            throw new Error('Cake must be a valid size -
             either small, medium or large');
         }
 
