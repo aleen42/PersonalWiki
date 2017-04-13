@@ -56,7 +56,7 @@ While `background-blend-mode` is strictly for blending backgrounds, we'd ideally
 
 Implementation of the `mix-blend-mode` property is more complex than `background-blend-mode` so it is taking a bit more time, but don't let that get you down. Blend modes will be here soon!
 
-###　Can I use blend modes now?
+### Can I use blend modes now?
 
 - **Chrome**: Supports `background-blend-mode` and `mix-blend-mode`.
 - **Firefox**: Supports `background-blend-mode` and `mix-blend-mode`.
