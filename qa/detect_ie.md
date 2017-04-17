@@ -27,7 +27,7 @@ const isIE9 = !!(document.all && !window.atob && document.addEventListener);
 const isIE10 = !!(document.all && window.atob);
 ```
 
-However, if developer has implemented some objects by adding shims or polyfills, this may has some problems. Therefore, we can also use `userAgent` to detect the version of IE:
+However, if developer has implemented some objects by adding shims or polyfills, this may has some problems. Furthermore, the methods provided above has not supported IE11 at all. Therefore, we need to use `userAgent` to detect the version of IE:
 
 ```js
 function isIE(version) {
