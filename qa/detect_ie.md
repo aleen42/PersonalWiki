@@ -9,12 +9,22 @@ const isIE6 = isIE && !window.XMLHttpRequest;
 const isIE7 = isIE && !isIE6 && !ieMode || ieMode === 7;
 const isIE8 = isIE && ieMode === 8;
 const isIE9 = isIE && ieMode === 9;
+const isIE10 = isIE && ieMode === 10;
 ```
 
 
 **browsers**|IE6|IE7|IE8|IE8 Compatibility Mode|IE9|IE9 Compatibility Mode
 :----:|:-:|:-:|:-:|:------------:|:-:|:------------:
 **documentMode**|undefined|undefined|8|7|9|7
+
+Or use other objects to detect:
+
+```js
+const isIE6 = document.all && !windo.XMLHttpRequest && document.compatMode;
+const isIE7 = document.all && !document.querySelector && window.XMLHttpRequest;
+const isIE8 = document.all && !document.XMLHttpRequest && document.compatMode;
+const isIE9 = document.all && !document.XMLHttpRequest && document.compatMode;
+```
 
 However, if developer has implemented some objects by adding shims or polyfills, this may has some problems. Therefore, we can also use `userAgent` to detect the version of IE:
 
