@@ -56,7 +56,7 @@ function isIE(version) {
         return currentVersion >= versionNumber;
     case '-':
         return currentVersion <= versionNumber;
-    case '':
+    case void 0:
         return currentVersion === versionNumber;
     default:
         return currentVersion === versionNumber;
