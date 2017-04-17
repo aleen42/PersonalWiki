@@ -37,15 +37,19 @@ function isIE(version) {
     })();
 
     var isIE = currentVersion > 0;
-    
     /**
-     * 支持 IE6 ~ 11 的版本检测：
-     * '6+'： 表示检测是否为 IE6 以上
+     * support version detect between IE6 and IE11
+     * '6+': means to detect whether it's IE6 or later
+     * '11': means to detect whether it's IE11
+     * '8-': means to detect whether it's IE8 or older
      */
     var operations = /^(1[0-1]|[6-9])(\+|-)?$/.exec(version);
 
     if (version === void 0 || operations === null) {
-        // 若没有传 version 或 version 不符合规则，则只判断是否是 IE 浏览器即可
+        /**
+         * if there is no version detection,
+         * or the regex has failed to, just return whether it's IE
+         */
         return isIE;
     }
 
