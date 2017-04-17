@@ -55,6 +55,7 @@ function isIE(version) {
 
     var versionNumber = parseInt(operations[1], 10);
     var versionOperator = operations[2];
+    
     switch (versionOperator) {
     case '+':
         return currentVersion >= versionNumber;
