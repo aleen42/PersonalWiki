@@ -72,12 +72,12 @@ The binding tells AngularJS that it should evaluate an expression and insert the
 
 Despite of using `ngApp` directive to boostrap an AngularJS application, we can also use a script to bootstrap it in a manual way:
 
-```html
+```
 <!doctype html>
 <html>
 <body>
     <div ng-controller="MyController">
-        Hello { {greetMe} }!
+        Hello {{greetMe}}!
     </div>
     <script src="http://code.angularjs.org/snapshot/angular.js"></script>
     
