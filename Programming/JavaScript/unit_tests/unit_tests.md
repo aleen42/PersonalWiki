@@ -59,14 +59,14 @@ So what is the differences between them?
             <td>Methods</td>
             <td>
                 <ul>
-                    <li><pre>ok(state, message)</pre></li>
-                    <li><pre>equal(actual, expected, message)</pre></li>
-                    <li><pre>notEqual(actual, expected, message)</pre></li>
-                    <li><pre>deepEqual(actual, expected, message)</pre></li>
-                    <li><pre>notDeepEqual(actual, expected, message)</pre></li>
-                    <li><pre>strictEqual(actual, expected, message)</pre></li>
-                    <li><pre>notStrictEqual(actual, expected, message)</pre></li>
-                    <li><pre>raises(actual, expected, message)</pre></li>
+                    <li><code>ok(state, message)</code></li>
+                    <li><code>equal(actual, expected, message)</code></li>
+                    <li><code>notEqual(actual, expected, message)</code></li>
+                    <li><code>deepEqual(actual, expected, message)</code></li>
+                    <li><code>notDeepEqual(actual, expected, message)</code></li>
+                    <li><code>strictEqual(actual, expected, message)</code></li>
+                    <li><code>notStrictEqual(actual, expected, message)</code></li>
+                    <li><code>raises(actual, expected, message)</code></li>
                 </ul>
             </td>
             <td>
