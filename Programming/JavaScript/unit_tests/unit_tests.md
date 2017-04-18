@@ -6,17 +6,15 @@ Unit tests should be a large topic in the computer science when taking about tes
 
 So, how to write unit tests, and run it?
 
-### 2. Test Cases Writing
+### 2. Frameworks
 
-Before running our cases for testing, we may need to write it at first. There're so many tools for writing such cases, among them I usually use **Jasmine** or **Chai**.
+When it comes to frameworks of unit tests, JavaScript developers usually make a decision among following:
 
-#### 2.1 
+- **QUnit**
+- **Jasmine**
+- **Mocha**
 
-### 3. Test Cases Running
 
-### 3.1. Mocha
-
-[**Mocha**](https://mochajs.org/) is a funny test framework, which allows you run test cases with multiple features like leak detection, string difference supporting, etc.
 
 ### 2. Karma
 
