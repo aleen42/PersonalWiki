@@ -28,8 +28,8 @@ Firstly, we may need to change the template:
                 <li ng-repeat="phone in $ctrl.phones
                     | filter:$ctrl.query
                     | orderBy:$ctrl.orderProp">
-                    <span>{{phone.name}}</span>
-                    <p>{{phone.snippet}}</p>
+                    <span>{% raw %}{{phone.name}}{% endraw %}</span>
+                    <p>{% raw %}{{phone.snippet}}{% endraw %}</p>
                 </li>
             </ul>
         </div>
