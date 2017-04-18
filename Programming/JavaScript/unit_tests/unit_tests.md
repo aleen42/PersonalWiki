@@ -23,7 +23,7 @@ So what is the differences between them?
         <th>Jasmine</th>
         <th>Mocha</th>
     </thead>
-    <tbody>
+    <tbody vertical-align="top">
         <tr>
             <td>Features</td>
             <td>
