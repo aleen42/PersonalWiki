@@ -102,7 +102,7 @@ For **QUnit**, we can code like this snippet:
 
 ```js
 /** test.spec.js */
-test('case1', function () {
+test('case', function () {
     ok(1 == '1', 'Passed!');
 });
 ```
@@ -115,6 +115,13 @@ describe('case1', function () {
     it('should not be equal', function () {
         expect(1).not.toEqual('1');
     });
+});
+
+/** ignore the following thest */
+xdescribe('case2', function () {
+    it('should be equal', function () {
+        expect(1).toEqual('1');
+    })
 });
 ```
 
