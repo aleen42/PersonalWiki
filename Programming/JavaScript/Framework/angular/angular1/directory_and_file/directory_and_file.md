@@ -75,8 +75,8 @@ angular.module('phoneList')
 ```html
 <ul>
     <li ng-repeat="phone in $ctrl.phones">
-        <span>{{phone.name}}</span>
-        <p>{{phone.snippet}}</p>
+        <span>{% raw %}{{phone.name}}{% endraw %}</span>
+        <p>{% raw %}{{phone.snippet}}{% endraw %}</p>
     </li>
 </ul>
 ```
