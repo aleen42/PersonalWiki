@@ -16,8 +16,8 @@ Firstly, we are going to change the template of the component:
             <!--Body content-->
             <ul class="phones">
                 <li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query">
-                    <span>{{phone.name}}</span>
-                    <p>{{phone.snippet}}</p>
+                    <span>{% raw %}{{phone.name}}{% endraw %}</span>
+                    <p>{% raw %}{{phone.snippet}}{% endraw %}</p>
                 </li>
             </ul>
         </div>
