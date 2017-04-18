@@ -11,8 +11,8 @@ So, how to write unit tests, and run it?
 When it comes to frameworks of unit tests, JavaScript developers usually make a decision among following:
 
 - **QUnit**
-- **Jasmine** ![jasmine](https://cdn.rawgit.com/aleen42/badges/master/src/jasmine.svg)
-- **Mocha** ![mocha](https://cdn.rawgit.com/aleen42/badges/master/src/mocha.svg)
+- **Jasmine**
+- **Mocha**
 
 So what is the differences between them?
 
@@ -20,8 +20,8 @@ So what is the differences between them?
     <thead>
         <th></th>
         <th>QUnit</th>
-        <th>Jasmine</th>
-        <th>Mocha</th>
+        <th>Jasmine <img src="https://cdn.rawgit.com/aleen42/badges/master/src/jasmine.svg" alt="jasmine" title="jasmine"/></th>
+        <th>Mocha <img src="https://cdn.rawgit.com/aleen42/badges/master/src/mocha.svg" alt="mocha" title="mocha"/></th>
     </thead>
     <tbody>
         <tr>
