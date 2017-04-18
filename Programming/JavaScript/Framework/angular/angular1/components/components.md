@@ -19,7 +19,7 @@ The simplest way to create a component, like `greetUser`, is just to construct C
 
 ```js
 var CDO = {
-    template: 'Hello, {{$ctrl.user}}!',
+    template: 'Hello, {% raw %}{{$ctrl.user}}{% endraw %}!',
     controller: function GreetUserController() {
         this.user = 'world';
     }
@@ -66,8 +66,8 @@ angular.module('phonecatApp')
         template:
             '<ul>'
                 + '<li ng-repeat="phone in $ctrl.phones">'
-                    + '<span>{{phone.name}}</span>'
-                    + '<p>{{phone.snippet}}</p>'
+                    + '<span>{% raw %}{{phone.name}}{% endraw %}</span>'
+                    + '<p>{% raw %}{{phone.snippet}}{% endraw %}</p>'
                 + '</li>'
             + '</ul>',
         controller: function PhoneListController() {
