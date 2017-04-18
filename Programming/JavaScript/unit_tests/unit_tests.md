@@ -87,7 +87,9 @@ So what is the differences between them?
             </td>
             <td>
                 <ul>
-
+                    <li>Assert: <code>var assert = chai.assert;</code></li>
+                    <li>Expect: <code>var expect = chai.expect;</code></li>
+                    <li>Should: <code>var should = chai.should(); /** notice should is a function */</code></li>
                 </ul>
             </td>
         </tr>
