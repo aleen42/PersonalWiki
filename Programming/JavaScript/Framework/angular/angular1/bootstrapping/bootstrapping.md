@@ -32,7 +32,7 @@ As you can see, an HTML page displays just a text "Nothing here yet!", which is 
         <script src="bower_components/angular/angular.js"></script>
     </head>
     <body>
-        <p>Nothing here {{'yet' + '!'}}</p>
+        <p>Nothing here {% raw %}{{'yet' + '!'}}{% endraw %}</p>
     </body>
 </html>
 ```
@@ -58,12 +58,12 @@ The script will register a callback and executed by the browser. After executed,
 #### 1.3 Double-curly binding with an expression
 
 ```
-Nothing here {{'yet' + '!'}}
+Nothing here {% raw %}{{'yet' + '!'}}{% endraw %}
 ```
 
 This line demonstrates two core features of AngularJS's templating capabilities:
 
-- A binding, denoted by double-curlies: `{{ }}`
+- A binding, denoted by double-curlies: `{% raw %}{{ }}{% endraw %}`
 - A simple expression used in this binding: `'yet' + '!'`
 
 The binding tells AngularJS that it should evaluate an expression and insert the result into the DOM in place of the binding. As we will see in the next step, rather than a one-time insert, a binding will result in efficient continuous updates whenever the result of the expression evaluation changes.
@@ -77,7 +77,7 @@ Despite of using `ngApp` directive to boostrap an AngularJS application, we can 
 <html>
 <body>
     <div ng-controller="MyController">
-        Hello {{greetMe}}!
+        Hello {% raw %}{{greetMe}}{% endraw %}!
     </div>
     <script src="http://code.angularjs.org/snapshot/angular.js"></script>
     
