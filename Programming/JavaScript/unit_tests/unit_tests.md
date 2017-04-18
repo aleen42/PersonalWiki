@@ -25,7 +25,7 @@ So what is the differences between them?
     </thead>
     <tbody>
         <tr>
-            <td>Features</td>
+            <td><strong>Features</strong></td>
             <td>
                 <ul>
                     <li>Similar to server-side frameworks(JUnit, Nunit)</li>
@@ -56,7 +56,45 @@ So what is the differences between them?
             </td>
         </tr>
         <tr>
-            <td>Methods</td>
+            <td><strong>Methods</strong></td>
+            <td>
+                <ul>
+                    <li><code>ok(state, message)</code></li>
+                    <li><code>equal(actual, expected, message)</code></li>
+                    <li><code>notEqual(actual, expected, message)</code></li>
+                    <li><code>deepEqual(actual, expected, message)</code></li>
+                    <li><code>notDeepEqual(actual, expected, message)</code></li>
+                    <li><code>strictEqual(actual, expected, message)</code></li>
+                    <li><code>notStrictEqual(actual, expected, message)</code></li>
+                    <li><code>raises(actual, expected, message)</code></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><code>expect(x).(not.)toEqual(y);</code></li>
+                    <li><code>expect(x).(not.)toBe(y);</code></li> 
+                    <li><code>expect(x ).(not.)toMatch(pattern);</code></li>
+                    <li><code>expect(x ).(not.)toBeDefined();</code></li>
+                    <li><code>Expect(x).(not.)toBeUndefined();</code></li>
+                    <li><code>expect(x ).(not.)toBeNull();</code></li>
+                    <li><code>expect(x ).(not.)toBeTruthy();</code></li>
+                    <li><code>expect(x ).(not.)toBeFalsy();</code></li>
+                    <li><code>expect(x ).(not.)toContain(y);</code></li>
+                    <li><code>expect(x ).(not.)toBeLessThan(y);</code></li>
+                    <li><code>expect(x ).(not.)toBeGreaterThan(y);</code></li>
+                    <li><code>expect(function(){ fn ();}).(not.)toThrow(ex);</code></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Assert: <code>var assert = chai.assert;</code></li>
+                    <li>Expect: <code>var expect = chai.expect;</code></li>
+                    <li>Should: <code>var should = chai.should(); /** notice should is a function */</code></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>Summary</strong></td>
             <td>
                 <ul>
                     <li><code>ok(state, message)</code></li>
