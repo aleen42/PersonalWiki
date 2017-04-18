@@ -45,13 +45,6 @@ So what is the differences between them?
             <td>
                 <ul>
                     <li>Open Source Framework</li>
-                    <li>Behavior Driven Development framework</li>
-                    <li>Supports both client-side and server-side testing</li>
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Open Source Framework</li>
                     <li>Started in Node</li>
                     <li>Supports both client-side and server-side testing</li>
                     <li>Supports both BDD and TDD style tests</li>
