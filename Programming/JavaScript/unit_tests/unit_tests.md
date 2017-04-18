@@ -96,6 +96,28 @@ So what is the differences between them?
     </tbody>
 </table>
 
+As shown in the table above, we can apparently know the main different features among theses three frameworks, and different methods we may use to create test cases. Then, how to create cases explicitly?
+
+For **QUnit**, we can code like this snippet:
+
+```js
+/** test.spec.js */
+test('case1', function () {
+    ok(1 == '1', 'Passed!');
+});
+```
+
+As for **Jasmine**:
+
+```js
+/** test.spec.js */
+describe('case1', function () {
+    it('should not be equal', function () {
+        expect(1).not.toEqual('1');
+    });
+});
+```
+
 ### 3. Karma
 
 When learning AngularJS (Angular 1.x), we may know that the official tutorial of AngularJS has adopted Karma to run unit tests. If we also want to use Karma, we may have to set up a configuration file firstly, named `karma.conf.js`.
