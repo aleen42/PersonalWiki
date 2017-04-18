@@ -55,6 +55,31 @@ So what is the differences between them?
                 </ul>
             </td>
         </tr>
+        <tr>
+            <td>Methods</td>
+            <td>
+                <ul>
+                    <li><pre>ok(state, message)</pre></li>
+                    <li><pre>equal(actual, expected, message)</pre></li>
+                    <li><pre>notEqual (actual, expected, message)</pre></li>
+                    <li><pre>deepEqual (actual, expected, message)</pre></li>
+                    <li><pre>notDeepEqual(actual, expected, message)</pre></li>
+                    <li><pre>strictEqual (actual, expected, message)</pre></li>
+                    <li><pre>notStrictEqual(actual, expected, message)</pre></li>
+                    <li><pre>raises (actual, expected, message)</pre></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    
+                </ul>
+            </td>
+            <td>
+                <ul>
+
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
