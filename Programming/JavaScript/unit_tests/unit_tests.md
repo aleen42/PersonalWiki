@@ -96,13 +96,13 @@ So what is the differences between them?
         <tr>
             <td><strong>Summary</strong></td>
             <td>
-                <p></p>
+                <p>It's easy to use, because you just need to include two files before running tests.</p>
             </td>
             <td>
-                <p></p>
+                <p>It's easier to use, because all things has been wrapped in a package.</p>
             </td>
             <td>
-                <p></p>
+                <p>It's flexible but not easy to use, as you have to choose assertion framework, like Chai, which is the most popular alternative.</p>
             </td>
         </tr>
     </tbody>
