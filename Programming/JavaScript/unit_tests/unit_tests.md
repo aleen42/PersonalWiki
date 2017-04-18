@@ -125,6 +125,17 @@ xdescribe('case2', function () {
 });
 ```
 
+When it comes to **Mocha**, it's similar to Jasmine:
+
+```js
+/** test.spec.js */
+describe('case', function () {
+    it('should not be equal', function () {
+        expect(1).to.equal(1);
+    });
+});
+```
+
 ### 3. Karma
 
 When learning AngularJS (Angular 1.x), we may know that the official tutorial of AngularJS has adopted Karma to run unit tests. If we also want to use Karma, we may have to set up a configuration file firstly, named `karma.conf.js`.
