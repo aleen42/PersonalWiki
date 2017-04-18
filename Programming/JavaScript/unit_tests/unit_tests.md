@@ -71,7 +71,18 @@ So what is the differences between them?
             </td>
             <td>
                 <ul>
-                    
+                    <li><code>expect(x).(not.)toEqual(y);</code></li>
+                    <li><code>expect(x).(not.)toBe(y);</code></li> 
+                    <li><code>expect(x ).(not.)toMatch(pattern);</code></li>
+                    <li><code>expect(x ).(not.)toBeDefined();</code></li>
+                    <li><code>Expect(x).(not.)toBeUndefined();</code></li>
+                    <li><code>expect(x ).(not.)toBeNull();</code></li>
+                    <li><code>expect(x ).(not.)toBeTruthy();</code></li>
+                    <li><code>expect(x ).(not.)toBeFalsy();</code></li>
+                    <li><code>expect(x ).(not.)toContain(y);</code></li>
+                    <li><code>expect(x ).(not.)toBeLessThan(y);</code></li>
+                    <li><code>expect(x ).(not.)toBeGreaterThan(y);</code></li>
+                    <li><code>expect(function(){ fn ();}).(not.)toThrow(ex);</code></li>
                 </ul>
             </td>
             <td>
