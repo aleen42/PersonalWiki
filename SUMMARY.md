@@ -566,6 +566,7 @@
             * [How to calculate the size of an iFrame](./qa/iframe_size.md)
             * [How to detect IE version with JavaScript](./qa/detect_ie.md)
             * [How to calculate the width of a scrollbar in browsers](./qa/scrollbar_width.md)
+            * [How to hide input[file] in IE8](./qa/hide_inputfile_ie8.md)
             * [Someting about scrolling](./qa/scroll/scroll.md)
             * [Something about !DOCTYPE](./qa/doctype.md)
             * [Something about iframe](./qa/iframe.md)
