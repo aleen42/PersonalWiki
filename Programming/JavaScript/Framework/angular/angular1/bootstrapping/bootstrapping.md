@@ -77,7 +77,7 @@ Despite of using `ngApp` directive to boostrap an AngularJS application, we can 
 <html>
 <body>
     <div ng-controller="MyController">
-        Hello {% raw %}{{greetMe}}{% endraw %}!
+        Hello {%raw%}{{greetMe}}{%endraw%}!
     </div>
     <script src="http://code.angularjs.org/snapshot/angular.js"></script>
     
