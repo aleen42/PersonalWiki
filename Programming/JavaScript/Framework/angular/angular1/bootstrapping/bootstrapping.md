@@ -58,7 +58,7 @@ The script will register a callback and executed by the browser. After executed,
 #### 1.3 Double-curly binding with an expression
 
 ```
-Nothing here {% raw %}{{'yet' + '!'}}{% endraw %}
+Nothing here {{'yet' + '!'}}
 ```
 
 This line demonstrates two core features of AngularJS's templating capabilities:
