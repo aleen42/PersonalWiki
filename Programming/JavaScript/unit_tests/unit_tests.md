@@ -19,7 +19,7 @@ So what is the differences between them?
 <table>
     <thead>
         <th></th>
-        <th>QUnit</th>
+        <th>QUnit <img src="https://cdn.rawgit.com/aleen42/badges/master/src/qunit.svg" alt="qunit" title="qunit"/></th>
         <th>Jasmine <img src="https://cdn.rawgit.com/aleen42/badges/master/src/jasmine.svg" alt="jasmine" title="jasmine"/></th>
         <th>Mocha <img src="https://cdn.rawgit.com/aleen42/badges/master/src/mocha.svg" alt="mocha" title="mocha"/></th>
     </thead>
