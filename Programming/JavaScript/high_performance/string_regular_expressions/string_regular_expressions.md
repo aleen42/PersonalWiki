@@ -118,9 +118,9 @@ while (appends--) {
 
 With changing the value of `appends`, we can have a statistic for how long this task will complete.
 
-| Appends (times)   | 5,000     |10,000|15,000|20,000
-| :------------- | :------------- |
-| Time (ms)       | 226       |3,955|15,537|32,352
+|Appends (times)|5,000|10,000|15,000|20,000
+|:--------------|:----|:-----|:-----|:-----
+|Time (ms)|226|3,955|15,537|32,352
 
 How about using array joining like this:
 
