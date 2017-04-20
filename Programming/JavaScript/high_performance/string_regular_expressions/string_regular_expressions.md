@@ -137,9 +137,9 @@ while (appends--) {
 newStr = strs.join('');
 ```
 
-| Appends (times)   | 5,000     |10,000|15,000|20,000
-| :------------- | :------------- |
-| Time (ms)       | 10       |20|30|40
+|Appends (times)|5,000|10,000|15,000|20,000
+|:--------------|:----|:-----|:-----|:---
+|Time (ms)|10|20|30|40
 
 Apparently, the approach of using array joining has reduced so much time to complete this task. Why? IE7's native concatenation algorithm requires that the browser repeatedly copy and allocate memory for larger and larger strings each time through the loop. It's allocations that waste so much time.
 
