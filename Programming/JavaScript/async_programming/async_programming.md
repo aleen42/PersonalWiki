@@ -91,6 +91,39 @@ function loadAvatarImage(id) {
     var profile = loadProfile(id);
     return loadImage(profile.imageUrl);
 }
+
+var image = loadAvatarImage(1);
 ```
 
-As we can see, this is a common way to do the task, which belongs to the direct style.
+As we can see, this is a common way to do the task, which belongs to the direct style. To convert it into CPS, we should follow these several steps:
+
+1. implement each function again with accepting a callback function as a last argument:
+    ```js
+    function loadProfile(id, callback) {
+        /** calculating ... */
+        callback(profile);
+    }
+    
+    function loadImage(url, callback) {
+        /** calculating ... */
+        callback(image);
+    }
+    
+    function loadAvatarImage(id, callback) {
+        loadProfile(id, function (profile) {
+            loadImage(profile.imageUrl, function (image) {
+                callback(image);
+            });
+        });
+    }
+    ```
+2. call these functions with passing a callback function:
+    ```js
+    loadAvatrImage(1, function (img) {
+        var image = img;
+    });
+    ```
+
+
+
+
