@@ -122,11 +122,17 @@ As we can see, this is a common way to do the task, which belongs to the direct 
 3. call it by passing a callback function to handle the returned result:
     ```js
     var image;
-    loadAvatrImage(1, function (img) {
+    loadAvatarImage(1, function (img) {
         image = img;
     });
     ```
 
 Now then, since we have used callback function to handle the result, we don't need to wait for the assignment anymore, and we can just continue to let the code to do anything else.
 
+In additional, what if we want to use a loop flow to load avatar images for two users, the common way to implement it is to use direct style like this:
 
+```js
+for (var i = 0; i < 2; i++) {
+    loadAvatar
+}
+```
