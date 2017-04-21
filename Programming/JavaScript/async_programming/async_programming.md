@@ -148,8 +148,8 @@ In the case of such a loop flow, we can also convert them into CPS style by step
 1. generate a recursive function for the loop flow:
     ```js
     function loopToLoad(i, arr) {
-        if (i < arr.length) {
-            loopToLoad(i++, arr);
+        if (i < arr.length - 1) {
+            loopToLoad(i + 1, arr);
         } else {
             console.log('done');
         }
