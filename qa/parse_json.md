@@ -4,7 +4,7 @@ As we all know, if there is data returned with JSON formatting when doing Ajax r
 
 Originally, if the request header `Content-Type` is set with `text/plain` or `text/html`, there is no problem with using `JSON.parse()`. However, when we set it with `application/json` or `text/x-json`, do not use `JSON.parse()` to parse the returned data, as it throws an error.
 
-Despite of this case, we should also focus on using a plugin, named `jQuery-File-Upload`. According to [its official wiki](https://github.com/blueimp/jQuery-File-Upload/wiki/Setup#content-type-negotiation), it has negotiated to `Content-Type` in IE8/IE9, causing another problem: `done` handler cannot be triggered when complete uploading, as the following snipet shown:
+Despite of this case, we should also focus on using a plugin, named `jQuery-File-Upload`. According to [its official wiki](https://github.com/blueimp/jQuery-File-Upload/wiki/Setup#content-type-negotiation), it has negotiated to `Content-Type` in IE8/IE9, causing another problem: `done` handler cannot be triggered when complete uploading, as the following snippet shown:
 
 ```js
 /** jquery.fileupload.js */
@@ -21,3 +21,5 @@ jqXHR = jqXHR || (
     that._onDone(result, textStatus, jqXHR, options);
 });
 ```
+
+It means that you cannot know when the uploading has been completed.
