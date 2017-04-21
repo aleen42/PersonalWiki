@@ -163,7 +163,9 @@ In the case of such a loop flow, we can also convert them into CPS style by step
     ```js
     function forEachLoad(i, arr, next, done) {
         if (i < arr.length) {
-            next(arr[i], 
+            next(arr[i], i, function () {
+                forEachLoad(i + 1, arr, next, done);
+            });
         } else {
             done();
         }
