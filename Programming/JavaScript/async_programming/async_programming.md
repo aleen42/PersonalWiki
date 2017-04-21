@@ -119,13 +119,14 @@ As we can see, this is a common way to do the task, which belongs to the direct 
         });
     }
     ```
-2. call it by passing a callback function to handle the returned result:
+3. call it by passing a callback function to handle the returned result:
     ```js
+    var image;
     loadAvatrImage(1, function (img) {
-        var image = img;
+        image = img;
     });
     ```
 
-
+Now, since we have used callback function to handle the result, we don't need to wait for assignment anymore, and continue to let the code do anything else.
 
 
