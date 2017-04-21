@@ -293,18 +293,19 @@ get('/foo').then((data1, error) => {
 Or how about using Async/Await supported by ES7?
 
 ```js
-async function get(url) {
+function get(url) {
     /** requesting some data */
     return data;
 }
 
-get('/foo').then((data1, error) => {
-    return get(data1.url);
-}).then((data2, error) => {
-    return get(data2.url);
-}).then((data3, error) => {
-    return get(data3.url);
-}).catch(e) {
-    console.log(e);
-};
+(async function () {
+    try {
+        let data1 = await get('/foo');
+        let data2 = await get(data1.url);
+        let data3 = await get(data2.url);
+        /** ... */
+    } catch (e) {
+        console.log(e);
+    }
+})();
 ```
