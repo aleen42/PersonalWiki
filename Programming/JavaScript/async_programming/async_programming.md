@@ -71,7 +71,7 @@ add(a, b, function (sum) {
 
 #### 2.2 How to convert into CPS?
 
-For any code with direct style, we can convert it into corresponding CPS style mechanically, like applying a mathematical theory. In the following case, we will implement a task that loads the avatar image from a user. The main process is:
+For any code with direct style, we can convert it into corresponding CPS mechanically, like applying a mathematical theory. In the following case, we will implement a task that loads the avatar image from a user. The main process is:
 
 1. loading profile according to the user id and then 
 2. loading avatar images according to the profile
@@ -145,7 +145,7 @@ for (var i = 0, len = ids.length; i < len; i++) {
 }
 ```
 
-In the case of such a loop flow, we can also convert them into CPS style by stepping as followed:
+In the case of such a loop flow, we can also convert them into CPS by stepping as followed:
 
 1. generate a recursive function for the loop flow:
     ```js
@@ -190,7 +190,7 @@ Wow, awesome for loops without worrying about the large size of an array!
 
 ##### **2.2.1 CPS converting for try-catch blocks**
 
-Similarly, if we try to do some long time task within try-catch blocks, we can also use CPS style to eliminate the waiting for the returned result.
+Similarly, if we try to do some long time task within try-catch blocks, we can also use CPS to eliminate the waiting for the returned result.
 
 ```js
 function div(dividend, divisor) {
@@ -207,3 +207,5 @@ try {
     console.log(`Catches: ${e}`);
 }
 ```
+
+Convert it into CPS 
