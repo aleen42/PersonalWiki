@@ -129,6 +129,8 @@ As we can see, this is a common way to do the task, which belongs to the direct 
 
 Now then, since we have used callback function to handle the result, we don't need to wait for the assignment anymore, and we can just continue to let the code to do anything else.
 
+##### 2.2.1 CPS converting for loop flow
+
 In additional, what if we want to use a loop flow to load avatar images for two users, the common way to implement it is to use direct style like this:
 
 ```js
