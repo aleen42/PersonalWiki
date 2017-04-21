@@ -220,5 +220,12 @@ Convert it into CPS:
         }
     }
     ```
-2. 
+2. passing two callback functions:
+    ```js
+    div(1, 0, function (result) {
+        console.log(result);
+    }, function (e) {
+        console.log(e);
+    });
+    ```
 
