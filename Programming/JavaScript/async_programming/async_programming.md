@@ -309,3 +309,5 @@ function get(url) {
     }
 })();
 ```
+
+Wow, both of them can eliminate the disgusting nested structure.
