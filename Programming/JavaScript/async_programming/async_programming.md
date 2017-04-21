@@ -143,14 +143,15 @@ for (var i = 0, len = ids.length; i < len; i++) {
 
 In the case of such a loop flow, we can also convert them into CPS style by stepping as followed:
 
-1. generate a loop function, and accept two types of callback functions:
+1. generate a recursive function for the loop flow:
     ```js
-    /**
-     * next: 
-     */
-    function loopToLoad(i, next) {
-        if (i < 2) {
-            next(i++);
+    function loopToLoad(i, arr) {
+        loadAvatarImage(i, function (img) {
+            images[i] = img;
+        });
+        
+        if (i < arr.length - 1) {
+            loopToLoad(++i, arr);
         }
     }
     ```
