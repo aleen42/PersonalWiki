@@ -138,6 +138,8 @@ for (var i = 0, len = ids.length; i < len; i++) {
     loadAvatarImage(i, function (img) {
         images[i] = img;
     });
+    
+    console.log('done');
 }
 ```
 
@@ -146,14 +148,19 @@ In the case of such a loop flow, we can also convert them into CPS style by step
 1. generate a recursive function for the loop flow:
     ```js
     function loopToLoad(i, arr) {
-        loadAvatarImage(i, function (img) {
-            images[i] = img;
-        });
-        
         if (i < arr.length - 1) {
             loopToLoad(++i, arr);
         }
+        
+        loadAvatarImage(i, function (img) {
+            images[i] = img;
+        });
     }
     ```
-2. 
+2. creating forEach-like function:
+    ```js
+    function forEachLoad(i, arr, callback) {
+        if 
+    }
+    ```
 
