@@ -148,7 +148,7 @@ In the case of such a loop flow, we can also convert them into CPS style by step
 1. generate a recursive function for the loop flow:
     ```js
     function loopToLoad(i, arr) {
-        if (i < arr.length - 1) {
+        if (i < arr.length) {
             loopToLoad(i + 1, arr);
         } else {
             console.log('done');
@@ -162,8 +162,8 @@ In the case of such a loop flow, we can also convert them into CPS style by step
 2. creating forEach-like function by extracting `next`, and `done`:
     ```js
     function forEachLoad(i, arr, next, done) {
-        if (i < arr.length - 1) {
-            forEachLoad(arr[i], i, next, done);
+        if (i < arr.length) {
+            next(arr[i], 
         } else {
             done();
         }
