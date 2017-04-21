@@ -188,7 +188,7 @@ In the case of such a loop flow, we can also convert them into CPS by stepping a
 
 Wow, awesome for loops without worrying about the large size of an array!
 
-##### **2.2.1 CPS converting for try-catch blocks**
+##### **2.2.2 CPS converting for try-catch blocks**
 
 Similarly, if we try to do some long time task within try-catch blocks, we can also use CPS to eliminate the waiting for the returned result.
 
