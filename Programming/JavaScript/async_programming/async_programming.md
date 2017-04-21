@@ -195,7 +195,7 @@ Similarly, if we try to do some long time task within try-catch blocks, we can a
 ```js
 function div(dividend, divisor) {
     if (divisor === 0) {
-        throw Error("Division by zero");
+        throw Error('Division by zero');
     }
     
     return dividend / divisor;
@@ -208,4 +208,17 @@ try {
 }
 ```
 
-Convert it into CPS 
+Convert it into CPS:
+
+1. complete the function again by extracting `success`, and `failure`:
+    ```js
+    function div(dividend, divisor, success, failure) {
+        if (divisor === 0) {
+            failure(Error('Division by zero'));
+        } else {
+            success(dividend / divisor);
+        }
+    }
+    ```
+2. 
+
