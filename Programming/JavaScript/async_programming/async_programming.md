@@ -55,7 +55,7 @@ function add(prev, next, callback) {
 }
 ```
 
-How can we make use of continuation-passing style in JavaScript? There is no doubt that we don't need to wait for the return of calling adding function, especially efficient in the case when the adding task costs too much.
+What is the difference with using continuation-passing style in JavaScript? There is no doubt that we don't need to wait for the return of calling adding function any more, which is especially efficient in the case when the adding task costs too much.
 
 ```js
 /** calculation of result have to wait for the return of adding `a` and `b` */
