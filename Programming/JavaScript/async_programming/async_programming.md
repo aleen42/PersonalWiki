@@ -237,6 +237,11 @@ As we analyzed how to convert into CPS, there are two main features of CPS:
     
     It means that control flows has been inverted as it's passed explicitly. In another word, callback function has changed the original control flows in the process of stacks. For instance, we can control when to call callback functions within CPS, which means that the function caller has lost control of flows (_**In direct style, flows should go back to the callee.**_)
 
-- So-called "continuation"
+- **So-called "continuation"**
 
-    In my opinion, "continuation" refers to the function which has eliminated return operations, and accept a callback fucntion at the same time.
+    In my opinion, "continuation" refers to the function which has eliminated return operations, and accept a callback function at the same time.
+    
+Pros|Cons
+:---|:---
+1. Control of flows|1. Callback Hell
+2. Without using `while/for`, `try/catch`, and even `return`|2. Exposed API, which is hard to maintain
