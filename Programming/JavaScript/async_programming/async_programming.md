@@ -61,7 +61,7 @@ What can we make use of continuation-passing style in JavaScript? There is no do
 /** calculation of result have to wait for the return of adding `a` and `b` */
 result = c + add(a, b);
 
-/** if use continuation-passing style */
+/** if using continuation-passing style, no waiting anymore */
 add(a, b, function (sum) {
     result = c + sum;
 };
