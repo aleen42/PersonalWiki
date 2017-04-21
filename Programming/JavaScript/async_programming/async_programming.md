@@ -235,6 +235,8 @@ As we analyzed how to convert into CPS, there are two main features of CPS:
 
 - **Inversion of control flows (控制流反轉)**
     
-    It means that control flows has been inverted as it's passed explicitly. In another word, callback function has changed the original control flows in the process of stacks.
+    It means that control flows has been inverted as it's passed explicitly. In another word, callback function has changed the original control flows in the process of stacks. For instance, we can control when to call callback functions within CPS, which means that the function caller has lost control of flows (_**In direct style, flows should go back to the callee.**_)
 
 - So-called "continuation"
+
+    In my opinion, "continuation" refers to the function which has exliminate return operations, and accept a callback fucntion at the same time.
