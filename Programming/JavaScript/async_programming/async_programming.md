@@ -132,8 +132,9 @@ Now then, since we have used callback function to handle the result, we don't ne
 In additional, what if we want to use a loop flow to load avatar images for two users, the common way to implement it is to use direct style like this:
 
 ```js
+var ids = [1, 2];
 var images = [];
-for (var i = 0; i < 2; i++) {
+for (var i = 0, len = ids.length; i < len; i++) {
     loadAvatarImage(i, function (img) {
         images[i] = img;
     });
