@@ -22,4 +22,4 @@ jqXHR = jqXHR || (
 });
 ```
 
-It means that you cannot know when the uploading has been completed.
+It means that you cannot know when the uploading has been completed. Details has been described in [an item](http://stackoverflow.com/questions/10122165/blueimp-jquery-file-upload-done-complete-callbacks-not-working-for-ie-9) of StackOverflow.
