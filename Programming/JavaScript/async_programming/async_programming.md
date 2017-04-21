@@ -77,5 +77,18 @@ For any code with direct style, we can convert it into corresponding CPS style m
 2. loading avatar images according to the profile
 
 ```js
-load 
+function loadProfile(id) {
+    /** calculating ... */
+    return profile;
+}
+
+function loadImage(url) {
+    /** calculating ... */
+    return image;
+}
+
+function loadAvatarImage(id) {
+    var profile = loadProfile(id);
+    return loadImage(profile.imageUrl);
+}
 ```
