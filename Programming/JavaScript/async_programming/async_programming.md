@@ -41,3 +41,28 @@ With considering two ways of calculating above, it's apparently that the second 
 
 Before discussing how to code in JavaScript with asynchronous programming skills, it is recommended to know a style in functional programming firstly, named **Continuation-Passing Style**, a.k.a **CPS**. In this style, control flows are passed explicitly, contrasted with direct style.
 
+Also take the adding task with example:
+
+```js
+/** direct style */
+function add(prev, next) {
+    return prev + next;
+}
+
+/** continuation-passing style */
+function add(prev, next, callback) {
+    callback(prev + next);
+}
+```
+
+What can we make use of continuation-passing style in JavaScript? There is no doubt that we don't need to wait for the return of calling adding function, especially efficient in the case when adding costs too much.
+
+```js
+/** calculation of result have to wait for the return of adding `a` and `b` */
+result = c + add(a, b);
+
+/** if use continuation-passing style */
+add(a, b, function (sum) {
+    result = c + sum;
+};
+```
