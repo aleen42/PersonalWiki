@@ -570,6 +570,7 @@
             * [Someting about scrolling](./qa/scroll/scroll.md)
             * [Something about !DOCTYPE](./qa/doctype.md)
             * [Something about iframe](./qa/iframe.md)
+            * [Something about parsing JSON](./q/parse_json.md)
             * [Differences between link and import](./qa/difference_between_link_and_import.md)
             * [Differences between Cookie, localStorage, and sessionStorage](./qa/difference_between_storage.md)
             * [What's the difference between tilde(`~`) and caret(`^`) in package.json?](./qa/tlide_and_caret.md)
