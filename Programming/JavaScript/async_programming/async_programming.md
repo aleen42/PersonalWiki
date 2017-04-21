@@ -36,3 +36,7 @@ With considering two ways of calculating above, it's apparently that the second 
 
 
 > Even if it is asynchronous, remember that it does not mean to use multiple threads.
+
+### 2. Continuation-Passing Style (CPS)
+
+Before discussing how to code in JavaScript with asynchronous programming skills, it is recommended to know a style in functional programming firstly, named **Continuation-Passing Style**, a.k.a **CPS**.
