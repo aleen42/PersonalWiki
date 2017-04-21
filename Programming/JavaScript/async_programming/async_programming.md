@@ -85,4 +85,6 @@ function layer2(params2) {
      */
     return result2;
 }
+
+layer1('test');
 ```
