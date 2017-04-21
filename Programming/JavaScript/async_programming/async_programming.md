@@ -92,3 +92,5 @@ function loadAvatarImage(id) {
     return loadImage(profile.imageUrl);
 }
 ```
+
+As we can see, this is a common way to do the task, which belongs to the direct style.
