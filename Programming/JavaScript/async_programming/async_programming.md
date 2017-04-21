@@ -136,6 +136,22 @@ var images = [];
 for (var i = 0; i < 2; i++) {
     loadAvatarImage(i, function (img) {
         images[i] = img;
-    }
+    });
 }
 ```
+
+In the case of such a loop flow, we can also convert them into CPS style by stepping as followed:
+
+1. generate a loop function, and accept two types of callback functions:
+    ```js
+    /**
+     * next: 
+     */
+    function loopToLoad(i, next) {
+        if (i < 2) {
+            next(i++);
+        }
+    }
+    ```
+2. 
+
