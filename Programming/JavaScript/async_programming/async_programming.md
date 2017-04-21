@@ -239,4 +239,4 @@ As we analyzed how to convert into CPS, there are two main features of CPS:
 
 - So-called "continuation"
 
-    In my opinion, "continuation" refers to the function which has exliminate return operations, and accept a callback fucntion at the same time.
+    In my opinion, "continuation" refers to the function which has eliminated return operations, and accept a callback fucntion at the same time.
