@@ -41,7 +41,7 @@ With considering two ways of calculating above, it's obvious that the second way
 
 Before discussing how to code in JavaScript with asynchronous programming skills, it is recommended to know a style in functional programming firstly, named **Continuation-Passing Style**, a.k.a **CPS**. In this style, control flows are passed explicitly, contrasted with direct style.
 
-Also take the adding task with example:
+Also take the adding task as an example:
 
 ```js
 /** direct style */
