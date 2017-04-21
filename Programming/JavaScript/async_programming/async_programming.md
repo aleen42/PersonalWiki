@@ -39,4 +39,4 @@ With considering two ways of calculating above, it's apparently that the second 
 
 ### 2. Continuation-Passing Style (CPS)
 
-Before discussing how to code in JavaScript with asynchronous programming skills, it is recommended to know a style in functional programming firstly, named **Continuation-Passing Style**, a.k.a **CPS**.
+Before discussing how to code in JavaScript with asynchronous programming skills, it is recommended to know a style in functional programming firstly, named **Continuation-Passing Style**, a.k.a **CPS**. In this style, control flows are passed explicitly, and it's contrasted with direct style.
