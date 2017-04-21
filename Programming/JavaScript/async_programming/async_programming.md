@@ -250,7 +250,7 @@ When it comes to the question whether we should use it, the answer is always tha
 
 ### 3. Nested Structures
 
-Assume that there is a case when we need to request some data, and use this data to request other data, and again and again, even with CPS, the nested structure should be absolutely confusing:
+Assume that there is a case when we need to request some data, and use this data to request other data, and again and again, even with CPS, the nested structure should be absolutely confusing.
 
 ```js
 function get(url, callback) {
@@ -268,3 +268,26 @@ get('/foo', function (data1, error) {
     });
 });
 ```
+
+So, how about using Promise supported by ES6?
+
+```js
+function get(url) {
+    return new Promise((resolve, reject) => {
+        /** request some data */
+        resolve(data, error);
+    });
+}
+
+get('/foo').then((data1, error) => {
+    return get(data1.url);
+}).then((data2, error) => {
+    return get(data2.url);
+}).then((data3, error) => {
+    return get(data3.url);
+}).catch(e) {
+    console.log(e);
+};
+```
+
+
