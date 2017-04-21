@@ -241,6 +241,8 @@ As we analyzed how to convert into CPS, there are two main features of CPS:
 
     In my opinion, "continuation" refers to the function which has eliminated return operations, and accept a callback function at the same time.
     
+When it comes to the question whether we should use it? The answer is always that it depends.
+    
 **Pros**|**Cons**
 :---|:---
 1. Control of flows|1. Callback Hell
