@@ -67,7 +67,7 @@ add(a, b, function (sum) {
 };
 ```
 
-Sometimes, we may need to nested functions with more than one layers like that:
+Sometimes, we may need to calling functions in a nested way with more than one layers like that:
 
 ```js
 function layer1(params1) {
