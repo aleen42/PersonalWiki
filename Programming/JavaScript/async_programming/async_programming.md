@@ -159,11 +159,11 @@ In the case of such a loop flow, we can also convert them into CPS style by step
         });
     }
     ```
-2. creating forEach-like function by extracting `next`, and `done`:
+2. creating forEach-like function by extracting `visitor`, and `done`:
     ```js
-    function forEachLoad(i, arr, next, done) {
+    function forEachLoad(i, arr, visitor, done) {
         if (i < arr.length) {
-            next(arr[i], i, function () {
+            visitor(arr[i], i, function () {
                 forEachLoad(i + 1, arr, next, done);
             });
         } else {
