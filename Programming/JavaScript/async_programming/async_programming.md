@@ -150,6 +150,8 @@ In the case of such a loop flow, we can also convert them into CPS style by step
     function loopToLoad(i, arr) {
         if (i < arr.length - 1) {
             loopToLoad(++i, arr);
+        } else {
+            console.log('done');
         }
         
         loadAvatarImage(i, function (img) {
