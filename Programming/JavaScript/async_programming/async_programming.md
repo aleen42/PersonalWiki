@@ -21,7 +21,7 @@ The first way is as shown in the following snippet (**a common way**):
 var result = d + (c + (a + b));
 ```
 
-And the second way is:
+And the second way is (**a asynchronous way**):
 
 ```js
 /**
@@ -32,7 +32,7 @@ And the second way is:
 var result = (d + c) + (a + b);
 ```
 
+With considering two ways of calculating above, it's apparently that the second way is faster. Why? That's because each adding of the first way has relied on the result of previous step, while tasking of adding `c` and `d` is completely isolated from adding `a` and `b`. Therefore, the second way has saved some time by executing them in parallel.
 
 
-
-> It's asynchronous, but remember that it does not mean to use multiple threads.
+> Even if it is asynchronous, to remember that it does not mean to use multiple threads.
