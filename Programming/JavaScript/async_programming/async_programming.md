@@ -108,7 +108,9 @@ As we can see, this is a common way to do the task, which belongs to the direct 
         /** calculating ... */
         callback(image);
     }
-    
+    ```
+2. changing the process of loading by passing callback functions and pass the final result to the accepted callback function:
+    ```js
     function loadAvatarImage(id, callback) {
         loadProfile(id, function (profile) {
             loadImage(profile.imageUrl, function (image) {
@@ -117,7 +119,7 @@ As we can see, this is a common way to do the task, which belongs to the direct 
         });
     }
     ```
-2. call these functions with passing a callback function:
+2. call it by passing a callback function to handle the returned result:
     ```js
     loadAvatrImage(1, function (img) {
         var image = img;
