@@ -190,7 +190,7 @@ Wow, awesome for loops without worrying about the large size of an array!
 
 ##### **2.2.1 CPS converting for try-catch blocks**
 
-Similarly, if we try to do some long time task within try-catch blocks, we can also use CPS style to eliminate the watiting for returned result.
+Similarly, if we try to do some long time task within try-catch blocks, we can also use CPS style to eliminate the waiting for the returned result.
 
 ```js
 function div(dividend, divisor) {
