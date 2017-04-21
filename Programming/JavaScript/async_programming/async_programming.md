@@ -6,7 +6,7 @@ In the computer science, I have always grasped that "Asynchronous" is a word for
 
 You may ask why we should use such a asynchronous programming skill. As JavaScript is almost run in a thread, and its executing blocks the UI thread at the same time, resulting in a really "disastrous" user experience, asynchronous programming allows developers to write code in a asynchronous way to improve performance of JavaScript code. With making great use of CPU resources to prevent from wasting calculation units, the effect is always impressive. For example, a long time task will occupy CPU without calculating anymore, like parsing a large JSON, reading a file, or requesting something in a bad network status.
 
-Before using such a skill to handle multitasking, be sure that tasks are non-preemptive (非優先級的), also means they're not related to each other. If one task relies on the result of another task, it's absolutely impossible to improve them by converting into in a asynchronous way. To explain it more apparently, I will take the following case as an example:
+Certainly, asynchronous programming skill does not work in any cases. Before using such a skill to handle multitasking, be sure that tasks are non-preemptive (非優先級的), also means they're not related to each other. If one task relies on the result of another task, it's absolutely impossible to improve them by converting into in a asynchronous way. To explain it more apparently, I will take the following case as an example:
 
 Assume that we have four variables `a`, `b`, `c`, and `d` respectively, and then considering a simple task, in which we want to add them together.
 
