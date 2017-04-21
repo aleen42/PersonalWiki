@@ -66,25 +66,3 @@ add(a, b, function (sum) {
     result = c + sum;
 };
 ```
-
-Sometimes, we may need to calling functions in a nested way with more than one layers like that:
-
-```js
-function layer1(params1) {
-    /**
-     * calculating
-     * ...
-     */
-    return layer2(params1);
-}
-
-function layer2(params2) {
-    /**
-     * calculating
-     * ...
-     */
-    return result2;
-}
-
-layer1('test');
-```
