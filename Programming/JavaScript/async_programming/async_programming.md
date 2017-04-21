@@ -229,7 +229,7 @@ Convert it into CPS:
     });
     ```
 
-### 2.3 Features
+#### 2.3 Features
 
 As we analyzed how to convert into CPS, there are two main features of CPS:
 
@@ -247,3 +247,6 @@ When it comes to the question whether we should use it, the answer is always tha
 :---|:---
 1. Control of flows|1. Callback Hell
 2. Without using `while/for`, `try/catch`, and even `return`|2. Exposed API, which is hard to maintain
+
+### 3. $.deffered()
+
