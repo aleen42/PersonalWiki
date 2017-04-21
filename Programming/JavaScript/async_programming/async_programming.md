@@ -70,3 +70,12 @@ add(a, b, function (sum) {
 ```
 
 #### 2.2 How to convert into CPS?
+
+For any code with direct style, we can convert it into corresponding CPS style mechanically, like applying a mathematical theory. In the following case, we will implement a task that loads the avatar image from a user. The main process is:
+
+1. loading profile according to the user id and then 
+2. loading avatar images according to the profile
+
+```js
+load 
+```
