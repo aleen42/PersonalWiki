@@ -244,9 +244,9 @@ As we analyzed how to convert into CPS, there are two main features of CPS:
 When it comes to the question whether we should use it, the answer is always that it depends.
     
 **Pros**|**Cons**
-:---|:---
-1. Control of flows|1. Callback Hell
-2. Without using `while/for`, `try/catch`, and even `return`|2. Exposed API, which is hard to maintain
+:-------|:-------
+Control of flows|Callback Hell
+Without using `while/for`, `try/catch`, and even `return`|Exposed API, which is hard to maintain
 
 ### 3. Nested Structures
 
