@@ -127,6 +127,6 @@ As we can see, this is a common way to do the task, which belongs to the direct 
     });
     ```
 
-Now, since we have used callback function to handle the result, we don't need to wait for assignment anymore, and continue to let the code do anything else.
+Now then, since we have used callback function to handle the result, we don't need to wait for assignment anymore, and continue to let the code to do anything else.
 
 
