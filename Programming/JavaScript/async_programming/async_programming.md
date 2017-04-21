@@ -159,9 +159,9 @@ In the case of such a loop flow, we can also convert them into CPS style by step
         });
     }
     ```
-2. creating forEach-like function:
+2. creating forEach-like function by extracting `next`, and `done`:
     ```js
-    function forEachLoad(i, arr, callback) {
+    function forEachLoad(i, arr, next, done) {
         if 
     }
     ```
