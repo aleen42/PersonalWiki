@@ -21,5 +21,18 @@ The first way is as shown in the following snippet (**a common way**):
 var result = d + (c + (a + b));
 ```
 
+And the second way is:
+
+```js
+/**
+ * 1. calculating the adding of `a` and `b`,
+ *    and the adding of `c` and `d` at the same time
+ * 2. calculating the adding of two results of step 1
+ */
+var result = (d + c) + (a + b);
+```
+
+
+
 
 > It's asynchronous, but remember that it does not mean to use multiple threads.
