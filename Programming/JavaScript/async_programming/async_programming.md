@@ -186,8 +186,24 @@ In the case of such a loop flow, we can also convert them into CPS style by step
     });
     ```
 
-Wow, awesome for loops without worriying about the large size of an array!
+Wow, awesome for loops without worrying about the large size of an array!
 
 ##### **2.2.1 CPS converting for try-catch blocks**
 
+Similarly, if we try to do some long time task within try-catch blocks, we can also use CPS style to eliminate the watiting for returned result.
 
+```js
+function div(dividend, divisor) {
+    if (divisor === 0) {
+        throw Error("Division by zero");
+    }
+    
+    return dividend / divisor;
+}
+
+try {
+    console.log(div(1, 0));
+} catch (e) {
+    console.log(`Catches: ${e}`);
+}
+```
