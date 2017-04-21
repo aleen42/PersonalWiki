@@ -248,5 +248,23 @@ When it comes to the question whether we should use it, the answer is always tha
 1. Control of flows|1. Callback Hell
 2. Without using `while/for`, `try/catch`, and even `return`|2. Exposed API, which is hard to maintain
 
-### 3. $.deffered()
+### 3. Nested Structures
 
+Assume that there is a case when we need to request some data, and use this data to request other data, and again and again, even with CPS, the nested structure should be absolutely confusing:
+
+```js
+function get(url, callback) {
+    /** request some data */
+    callback(data, error);
+}
+
+get('/foo', function (data1, error) {
+    get(data1.url, function (data2, error) {
+        get(data2.url, function (data3, error) {
+            get(data3.url, function (data4, error) {
+                /** nest again and again ... */
+            });
+        });
+    });
+});
+```
