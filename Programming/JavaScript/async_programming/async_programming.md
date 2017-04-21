@@ -162,7 +162,22 @@ In the case of such a loop flow, we can also convert them into CPS style by step
 2. creating forEach-like function by extracting `next`, and `done`:
     ```js
     function forEachLoad(i, arr, next, done) {
-        if (i 
+        if (i < arr.length - 1) {
+            forEachLoad(arr[i], i, next, done);
+        } else {
+            done();
+        }
     }
     ```
-
+3. passing two types of callback functions:
+    ```js
+    forEachLoad(0, ids, function (item, index, next) {
+        loadAvatarImage(i, function (img) {
+            images[i] = img;
+        });
+        
+        next();
+    }, function () {
+        console.log('done');
+    });
+    ```
