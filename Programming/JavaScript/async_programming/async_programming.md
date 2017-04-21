@@ -229,3 +229,9 @@ Convert it into CPS:
     });
     ```
 
+### 2.3 Features
+
+As we analyzed how to convert into CPS, there are two main features of CPS:
+
+1. Inversion of control flows
+2. So-called "continuation"
