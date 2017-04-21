@@ -173,7 +173,7 @@ In the case of such a loop flow, we can also convert them into CPS style by step
     ```js
     forEachLoad(0, ids, function (item, index, next) {
         loadAvatarImage(i, function (img) {
-            images[i] = img;
+            images[index] = img;
         });
         
         next();
