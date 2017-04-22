@@ -2,7 +2,7 @@
 
 ### 1. Introduction
 
-In the computer science, I have always grasped that "Asynchronous" is a word for describing working states between threads. If the job of one thread does not affect another one, it indicates to be asynchronous. In this chapter, this word is mostly used for representing a skill of programming.
+In computer science, I have always grasped that "Asynchronous" is a word for describing working states between threads. If the job of one thread does not affect another one, it indicates to be asynchronous. In this chapter, this word is mostly used for representing a skill of programming.
 
 You may ask why we should use such a asynchronous programming skill. As JavaScript is almost run in a thread, and its executing blocks the UI thread at the same time, resulting in a really "disastrous" user experience, asynchronous programming allows developers to write code in a asynchronous way to improve performance of JavaScript code. With making great use of CPU resources to prevent from wasting calculation units, the effect is always impressive. For example, a long time task will occupy CPU without calculating anymore, like parsing a large JSON, reading a file, or requesting something in a bad network status.
 
@@ -311,3 +311,7 @@ function get(url) {
 ```
 
 Wow, both of them can eliminate the disgusting nested structure.
+
+### 4. Coroutine
+
+In the last section, we have already discussed how to use language syntax features supported by ES6 or ES7 to solve the problem of complicated nested structures, also called "Callback Hell" in JavaScript, when using CPS. If we div into the design of languages, we can grasped that it is actually realted to a concept in computer science
