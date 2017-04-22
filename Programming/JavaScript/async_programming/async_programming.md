@@ -319,3 +319,11 @@ In the last section, we have already discussed how to use language syntax featur
 Coroutines can control where execution continues after they yield, but through accepting a callback function, we can only transfer the control back to the function caller. It means that the called function itself cannot decide where to continue to execute code, except calling callback function. Therefore, there is another concept to describe such a situation, named **Generators**, a.k.a semicoroutines (半協程).
 
 With knowing what they are, why are there such concepts? That's because not all cases can be handled by using multiple threads. Assuming that there are so many tasks to do in a project, if we use one thread to handle one task only, it cost too much on switching contexts between threads. To take it in conclusion, Coroutines has allowed us to make use of CPU resources in only one thread without worring about the cost of switching contexts.
+
+### 5. References
+
+- [1] ["By example: Continuation-passing style in JavaScript"](http://matt.might.net/articles/by-example-continuation-passing-style/)
+- [2] ["解读Promise & Async Functions & Koa@v2"](https://github.com/SamHwang1990/blog/issues/10)
+- [3] ["Learning Asynchronous Programming"](https://github.com/lwr/learning-async)
+- [4] ["Coroutine"](https://en.wikipedia.org/wiki/Coroutine)
+- [5] ["Continuation-passing style"](https://en.wikipedia.org/wiki/Continuation-passing_style)
