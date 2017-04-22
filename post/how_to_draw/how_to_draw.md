@@ -544,7 +544,7 @@ function setPixel(i, val, imgData) {
 }
 ```
 
-#### 2.1Gray Scale
+#### 2.1 Gray Scale
 
 Now, we are on the journey of finding contours, and all examples given by Codepen can be run by clicking *Run* buttons. Due to its complexity, you have to wait a moment before reults are displayed on the screen.
 
@@ -590,7 +590,7 @@ An example has been shown as followed:
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
-#### Gaussian Blur
+#### 2.2 Gaussian Blur
 
 Gaussian Blur is a way used to increase the accuracy of contours finding, and it's also know as the first step of a Canny Edge Detector.
 
@@ -691,7 +691,7 @@ If you want to check the effect, you can change the sigma and size parameters to
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
-#### Canny Gradient
+#### 2.3 Canny Gradient
 
 In this step, we are going to find the intensity gradient (G) of the image. Before that, we have to used the value for the first derivative in the horizontal direction (Gx) and the vertical direction (Gy), returned by a edge detector (Roberts, Prewitt, Sobel, etc.). *Sobel Detector* is exactly what we used.
 
@@ -901,7 +901,7 @@ And the demo should look like this:
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
-#### Canny Non-maximum Suppression
+#### 2.4 Canny Non-maximum Suppression
 
 Non-Maximum suppression is applied to "thin" the edge. As you can see, after applying gradient calculation, the edge extracted from the gradient value is still quite blurred. With respect to criterion 3, there should only be one accurate response to the edge. Thus non-maximum suppression can help to suppress all the gradient values to 0 except the local maximal, which indicates location with the sharpest change of intensity value.
 
@@ -950,7 +950,7 @@ After suppression, it seems greater than before:
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
 
-#### Canny Hysteresis
+#### 2.5 Canny Hysteresis
 
 However, there're also so-called "weak" edges needed to be process. Canny Hysteresis is an improved solution for Canny Edge Detection.
 
@@ -1121,7 +1121,7 @@ Or what will it be after removing weak edges from strong ones?
 
 Wow, it looks perfect for me.
 
-#### Scanning
+#### 2.6 Scanning
 
 With the image, which only has two kinds of pixels: 0 and 255, we can just scan each of them to generate a path with points. The algorithm can be described as followed:
 
@@ -1130,7 +1130,7 @@ With the image, which only has two kinds of pixels: 0 and 255, we can just scan 
 
 After scanning, we will extract out data of paths like SVGs have, and of course you can also draw it as well.
 
-### Summary
+### 3. Summary
 
 The article has talked about how to draw in JavaScript in details, no matter SVG files or any images of PNG, JPG, or GIF. The core idea to implement such requirements is to convert them all into data of paths with a specific format. As long as we can extract out such data, of course can we simulate to draw pictures in JavaScript.
 
@@ -1138,7 +1138,7 @@ The article has talked about how to draw in JavaScript in details, no matter SVG
 - When it comes to other elements like `rect`, we can convert them before.
 - Using Canny Edge Detection to detect contours in any bitmap images, so that we can draw them.
 
-### Reference
+### 4. Reference
 
 - [1] ["Animated Glowing Line Drawing"](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md), 2016
 - [2] ["Finding Contours of a bitmap image"](./../../Programming/JavaScript/webgl/canvas/finding_contours/finding_contours.md), 2016
