@@ -327,6 +327,7 @@ To clear the differences among Processes, Threads, and Coroutines, I have import
 overhead|Heavy|Normal Heavy|Few, which can be ignored
 occupied resources|File Descriptor / Memory|Stack|Closure
 run on|/|CPU Core / HT|Thread / Distributed Computers
+cost of switching contexts|/|High|Low
 
 ### 5. References
 
