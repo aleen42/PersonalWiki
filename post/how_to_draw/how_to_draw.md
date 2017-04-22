@@ -23,13 +23,13 @@ C 132.07442,172.84968 139.59482,171.3636 151.84309,171.76866
 
 You may doubt that such data is only legal in an SVG element, named `path`, and how can we draw all kinds of pictures like JPG, PNG, or GIF. That's another topic going to be discussed later in this post. Before that, we can just simply draw an SVG file.
 
-### Drawing an SVG file
+### 1. Drawing an SVG file
 
 What is SVG? Scalable Vector Graphics a.k.a SVG is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. In older IE browsers, such kind of files is not supported at all. If you're a designer, or an illustrator who usually used Adobe Illustration as one of your drawing tools, you may be already similar with those kinds of graphics. What the main difference is, an SVG is scalable and lossless, opposed to other formats of pictures.
 
 Note that, generally pictures with SVG formats are called as **graphics**, while those with any other formats are called as **images**.
 
-#### Extracting data from an SVG file
+#### 1.1 Extracting data from an SVG file
 
 As mentioned above, before drawing an SVG file, what you need to do is to read data from an SVG file. It's actually the duty of an object, named `FileReader` in JavaScript, of which the initialization code snippet should be look like this:
 
@@ -64,7 +64,7 @@ canvas.addEventListener('drop', function (e) {
 });
 ```
 
-#### Processing data
+#### 1.2 Processing data
 
 Now we know the data is already stored in the variable `contents`, and how can we process it, which is only text for us. At the beginning, I have tried to use regular expressions to extract path nodes:
 
@@ -170,7 +170,7 @@ if (dsLen > 1) {
 }
 ```
 
-#### Drawing in Canvas
+#### 1.3 Drawing in Canvas
 
 Now that paths has been extracted and stored in a local variable, the next step we should do is to draw them with points:
 
@@ -240,11 +240,11 @@ function drawPath(index) {
 
 The algorithm is exactly the place we should think more about.
 
-#### Calibration parameters
+#### 1.4 Calibration parameters
 
 As the requirement gets more and more complicated, we may find that data of paths cannot fit the case at all, when we want to scale and resize, or move graphics in Canvas.
 
-##### Why we need calibration parameters?
+##### **1.4.1 Why we need calibration parameters?**
 
 Since you would like to scale and resize, or even move graphics in Canvas, it means that the data of paths should be changed corresponding to your actions. Unfortunately, it won't, and that's exactly why we need calibration parameters.
 
@@ -271,7 +271,7 @@ Except your operating on the graphic, some attributes of the SVG file will also 
 
 Therefore, the calculation of calibration parameters will have two factors: corresponding to **attributes** and **actions**.
 
-##### Calculation
+##### **1.4.2 Calculation**
 
 Before calculating, we're going to know about some defined variables, and what they actually represent for.
 
