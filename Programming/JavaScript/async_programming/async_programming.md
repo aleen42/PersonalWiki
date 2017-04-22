@@ -329,6 +329,7 @@ occupied resources|File Descriptor / Memory|Stack|Closure
 run on|/|CPU Core / HT|Thread / Distributed Computers
 cost of switching contexts|/|High|Low
 multitasking mode|/|Preemptive|Cooperative
+pending|/|block / wakeup|suspend / resume
 
 ### 5. References
 
