@@ -73,6 +73,7 @@ In fact, Einstein claimed never to memorize anything which could be looked up in
     - [**Kenya Hara**](./kenyahara/kenyahara.md)
 
 ### Translation
+
 - [**Translation Works**](./translation/translation.md)
 
 ### Job
