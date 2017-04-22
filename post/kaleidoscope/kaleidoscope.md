@@ -5,11 +5,11 @@
 
 In Chinese, we will name kaleidoscopes as "萬花筒", which is a toy showing colorful shapes of thousands of flowers. Today, inspired by the project, [spring loaders](https://github.com/claudiocalautti/spring-loaders), I have tried myself to create a similar component with CSS and SVG, rather than Canvas. As the Figure 1 shown, that's my **kaleidoscope**.
 
-### Introduction
+### 1. Introduction
 
 Without reading the article, I have just created it through several processes. How to create, how to create regular polygons, and how to make it reusable for all kinds of regular polygons.
 
-#### How to create?
+#### 1.1 How to create?
 
 At the start, I have utilized the feature of `div`, which is an HTML elements with a shape of rectangles. With setting a same value for the property `width` and `height` of these elements, I can easily generate a square like the first item from the left side in the Figure 1.
 
@@ -146,7 +146,7 @@ setInterval(function () {
 }, dur);
 ```
 
-#### How to create regular polygons?
+#### 1.2 How to create regular polygons?
 
 From the preceding section, we can see that we have just implemented for squares, but I wonder how to use it in other regular polygons like equilateral triangles or even pentagons. Before discussing the problem, we should create such regular polygons at first.
 
@@ -235,7 +235,7 @@ for (var i = 0; i < num; i++) {
 }
 ```
 
-#### How to make it reusable?
+#### 1.3 How to make it reusable?
 
 Now that we can generate any side of regular polygons (the number of sides should be more than 3), it's time to solve the problem mentioned above? To make it reusable.
 
@@ -296,7 +296,7 @@ setInterval(function () {
 If you want to use it in **React** as a component, you can check the POC [**here**](http://codepen.io/aleen42/pen/JbmBjK).
 
 
-### Demo
+### 2. Demo
 
 <p>
 <p data-height="568" data-theme-id="21735" data-slug-hash="mOzbWW" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="mOzbWW" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/mOzbWW/">mOzbWW</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
