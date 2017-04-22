@@ -418,7 +418,7 @@ function convertLine(x1, y1, x2, y2) {
 }
 ```
 
-##### Rectangles
+##### **1.5.4 Rectangles**
 
 Rectangles will also have some attributes defined for positioning itself and deciding how big it's: `x`, `y`, `width`, and `height`.
 
@@ -439,7 +439,7 @@ function convertRectangles(x, y, width, height) {
 
 So far I have already shown you how to convert all shape elements into `path`s. With them, you're of course able to draw them all with the way provided above.
 
-### Drawing non-SVG pictures a.k.a images
+### 2. Drawing non-SVG pictures a.k.a images
 
 Except for SVG files, we are also have an expectation for drawing pictures with formats like PNG, JPG, or GIF. Only composed with pixel data, we cannot directly make use of it. Because of this reason, I have tried to use a normal technology in the region of Computer Vision, and that's Canny Edge Detection. With such detection, we can easily find contours of a bitmap image.
 
@@ -544,7 +544,7 @@ function setPixel(i, val, imgData) {
 }
 ```
 
-#### Gray Scale
+#### 2.1Gray Scale
 
 Now, we are on the journey of finding contours, and all examples given by Codepen can be run by clicking *Run* buttons. Due to its complexity, you have to wait a moment before reults are displayed on the screen.
 
