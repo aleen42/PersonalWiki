@@ -402,7 +402,7 @@ function convertPoly(points, types) {
 }
 ```
 
-##### Lines
+##### **1.5.3 Lines**
 
 Generally, `line` elements will have some attributes defined for positioning start and end points of a line: `x1`, `y1`, `x2`, and `y2`.
 
