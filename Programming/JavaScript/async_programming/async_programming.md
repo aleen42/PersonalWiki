@@ -325,7 +325,7 @@ To clear the differences among Processes, Threads, and Coroutines, I have import
 |**Processes**|**Threads**|**Coroutines**
 :---|:--------|:----------|:-------------
 overhead|Heavy|Normal Heavy|Few, which can be ignored
-occupied resources|
+occupied resources|File Descriptor / Memory|Stack|Closure
 
 ### 5. References
 
