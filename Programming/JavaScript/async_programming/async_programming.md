@@ -318,4 +318,4 @@ In the last section, we have already discussed how to use language syntax featur
 
 Coroutines can control where execution continues after they yield, but through accepting a callback function, we can only transfer the control back to the function caller. It means that the called function itself cannot decide where to continue to execute code, except calling callback function. Therefore, there is another concept to describe such a situation, named **Generators**, a.k.a semicoroutines (半協程).
 
-With knowing what they are, why are there such concepts? That's because not all cases can be handled by using mutiple threads. 
+With knowing what they are, why are there such concepts? That's because not all cases can be handled by using multiple threads. Assuming that there are so many tasks to do in a project, if we use one thread to handle one task only, it cost too much on switching contexts between threads.
