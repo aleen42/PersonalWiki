@@ -327,11 +327,11 @@ point.y = point.y >= y && point.y <= x + curH ? point.y : ((point.y < y) ? y : y
 
 As far as I'm concerned, it's recommended to remove them rather than to rewrite them when the number of points is large.
 
-#### Convert all shapes into path elements
+#### 1.5 Convert all shapes into path elements
 
 At this moment, we have already known how to draw `path` elements in JavaScript, but as mentioned above, some shapes are defined with other elements like `rect`, `polyline`, `circle`, and so on. To draw them all, we should convert them into paths before. In this chapter, I will introduce how to do this.
 
-##### Circles & Ellipses
+##### **1.5.1 Circles & Ellipses**
 
 circle and ellipse elements are similar to each other with both attributes shown in Table 2.1:
 
@@ -379,7 +379,7 @@ function convertCE(cx, cy) {
 }
 ```
 
-##### Polylines & Polycircles
+##### **1.5.2 Polylines & Polycircles**
 
 For these both elements, what you should do is to extract out the attribute `points`. and recompose them into a special format for `d` value of path elements.
 
