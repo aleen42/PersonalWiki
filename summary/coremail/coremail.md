@@ -13,6 +13,7 @@ Firstly, there is a list of sites for remember:
 - Wiki: http://wiki.mailtech.cn/ (detailed information about any transactions in the company)
 - Email System: http://mt.icoremail.net/ (for receiving and sending emails)
 - SHR System: http://218.107.63.241:7888/shr/home.do
+- SSL VPN: https://sslvpn.coremail.cn:8510/
 
 ### 2. Development
 
