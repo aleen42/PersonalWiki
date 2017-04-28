@@ -20,9 +20,9 @@ Then, change some configuration files in the folder `etc`, and add some lines ri
     [gui]
         encoding = utf-8
     [i18n]
-        commitencoding = gbk
+        commitencoding = utf-8
     [svn]
-        pathnameencoding = gbk
+        pathnameencoding = utf-8
     ```
 - `/etc/git-completion.bash`:
     
