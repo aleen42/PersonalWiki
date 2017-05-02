@@ -59,6 +59,7 @@
 - [**How to detect IE version with JavaScript**](./detect_ie.md)
 - [**How to calculate the width of a scrollbar in browsers**](./scrollbar_width.md)
 - [**How to hide input[file] in IE8**](./hide_inputfile_ie8.md)
+- [**How to build up Android development environment when using Ionic and Cordova to build APP**](./android_ionic_cordova.md)
 - [**Someting about scrolling**](./scroll/scroll.md)
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
