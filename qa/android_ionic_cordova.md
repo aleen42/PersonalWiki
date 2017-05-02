@@ -5,7 +5,7 @@ This note is referenced to an answer on Stack Overflow: http://stackoverflow.com
 Before you can build Android applications, you must install the Android SDK. Installing the Android SDK also installs the AVD Manager, a graphical user interface for creating and managing Android Virtual Devices (AVDs).
 
 1. From the [Android web site](http://developer.android.com/sdk/index.html), download the correct version of the Android SDK for your operating system.
-2.Unzip the archive to a location of your choosing. For example, on Linux or Mac, you can place it in the root of your user directory. See the [Android Developers](http://developer.android.com/sdk/installing/index.html) web site for additional installation details.
+2. Unzip the archive to a location of your choosing. For example, on Linux or Mac, you can place it in the root of your user directory. See the [Android Developers](http://developer.android.com/sdk/installing/index.html) web site for additional installation details.
 3. Configure the `ANDROID_HOME` environment variable based on the location of the Android SDK. Additionally, consider adding `ANDROID_HOME/tools`, and `ANDROID_HOME/platform-tools` to your PATH.
 
 ### Mac OS X
