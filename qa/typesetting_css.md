@@ -51,3 +51,8 @@ In order to enhance it, there is a table to show the differences between those v
 Word wrapping means whether to break a word into another line when this word is too long to fill in the container. If we want to break, we can set the attribute `word-wrap` or `overflow-wrap` with `break-word`. `word-wrap` is the original private attribute of Microsoft, and it has been renamed as `overflow-wrap` in CSS3.
 
 Another attribute named `word-break` is used to specify how to break this word if it is too long to fill in. If we set it with `break-all`, the browser is allowed to break any character of CJK (Chinese/Japanese/Korean) contents into a new line. And if we set it with `kee-all`, the browser is not allowed to break any character of CJK contents.
+
+<p>
+<p data-height="683" data-theme-id="21735" data-slug-hash="mmBRZZ" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="示例" class="codepen">See the Pen <a href="https://codepen.io/aleen42/pen/mmBRZZ/">示例</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</p>
