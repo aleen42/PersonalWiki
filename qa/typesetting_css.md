@@ -46,6 +46,8 @@ In order to enhance it, there is a table to show the differences between those v
 `pre-wrap`|keeped|keeped|yes
 `pre-line`|keeped|merged|yes
 
-### 2. Word Wrapping
+### 3. Word Wrapping
 
-There are two attributes to decide whether a word should be broken into a another line
+Word wrapping means whether to break a word into another line when this word is too long to fill in the container. If we want to break, we can set the attribute `word-wrap` or `overflow-wrap` with `break-word`. `word-wrap` is the original private attribute of Microsoft, and it has been renamed as `overflow-wrap` in CSS3.
+
+Another attribute named `word-break` is used to specify how to break this word if it is too long to fill in. If we set it with `break-all`, the browser is allowed to break any character of CJK (Chinese/Japanese/Korean) contents into a new line. And if we set it with `kee-all`, the browser is not allowed to break any character of CJK contents.
