@@ -36,6 +36,16 @@ white-space: inherit
 - `pre-wrap` means that keep white spaces and break into another line in three cases: a line-break character, a `<br>` element, or necessary to break
 - `pre-line` means to merge white spaces, and break into another line in three cases as the same as the previous one.
 
+In order to enhance it, there is a table to show the differences between those values:
+
+|Line-break characters|White Spaces|Breaking into new lines automatically
+:-:|:-----------------|:-----------|:----------------------
+`normal`|merged|merged|yes
+`nowrap`|merged|merged|no
+`pre`|keeped|keeped|no
+`pre-wrap`|keeped|keeped|yes
+`pre-line`|keeped|merged|yes
+
 ### 2. Word Wrapping
 
 There are two attributes to decide whether a word should be broken into a another line
