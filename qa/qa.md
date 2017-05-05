@@ -64,6 +64,7 @@
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
 - [**Something about parsing JSON**](./parse_json.md)
+- [**Something about typesetting in CSS**](./typesetting_css.md)
 - [**Differences between &lt;link&gt; and &#64;import**](./difference_between_link_and_import.md)
 - [**Differences between Cookie, localStorage, and sessionStorage**](./difference_between_storage.md)
 - [**What's the difference between tilde(`~`) and caret(`^`) in package.json?**](./tlide_and_caret.md)
