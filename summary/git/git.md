@@ -1,12 +1,5 @@
 ## Git 開發流程	[Back](./../summary.md)
 
-<img src="./logo.jpg">
-
-<br />
-<br />
-<br />
-<br />
-
 ### Branch(分支概念)
 
 <img src="./branch.png">
