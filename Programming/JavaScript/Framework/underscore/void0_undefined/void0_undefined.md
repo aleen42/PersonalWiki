@@ -38,4 +38,6 @@ What is `void` in [MDN statemet](https://developer.mozilla.org/en-US/docs/Web/Ja
 
 That means `void` will always return undefined, which can completely take the place of `undefined`. Actually, `void 0`, `void 1` and `void "hello world"` are all same. The most important thing is that `void` can't be overridden.
 
-Although undefined can generally be trusted in modern JavaScript environments, there is one trivial advantage of void 0: it's shorter. The difference is not enough to worry about when writing code but it can add up enough over large code bases that most code minifiers replace `undefined` with `void 0` to reduce the number of bytes sent to the browser.
+Although `undefined` can generally be trusted in modern JavaScript environments, there is one trivial advantage of `void 0`: it's shorter. The difference is not enough to worry about when writing code but it can add up enough over large code bases that most code minifiers replace `undefined` with `void 0` to reduce the number of bytes sent to the browser.
+
+However, the disadvantages of using `void 0` is that it has reduced readability of code, and it's recommended to avoid using both `void 0` and `undefined` in our code, despite of the special situation when writing minifier tools, or frameworks.
