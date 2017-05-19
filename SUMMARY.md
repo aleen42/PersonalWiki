@@ -667,3 +667,4 @@
                 * [The design of Coremail system](./summary/coremail/coremail_system_design/coremail_system_design.md)
                 * [The structure of providers in Coremail](./summary/coremail/coremail_providers_structure/coremail_providers_structure.md)
                 * [Deployment of Coremail system](./summary/coremail/deployment/deployment.md)
+                * [Secondary Development](./summary/coremail/secondary_development/secondary_development.md)
