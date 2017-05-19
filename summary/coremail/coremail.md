@@ -70,3 +70,4 @@ Webmail template:
 - [**The design of Coremail system**](./coremail_system_design/coremail_system_design.md)
 - [**The structure of providers in Coremail**](./coremail_providers_structure/coremail_providers_structure.md)
 - [**Deployment of Coremail system**](./deployment/deployment.md)
+- [**Secondary Development**](./secondary_development/secondary_development.md)
