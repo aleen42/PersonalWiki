@@ -13,7 +13,11 @@ After development completed, we may also have to package the project as followin
 <property name="wmsvr.dir" location="../cmj/wmsvr"/>
 <strip-developing src="../cmj/cmj/cmlib/web" dest="${webapp.uncompressed.dir}"/>
 ```
-2. Run the script:
+2. Modify the file named **build.sh**:
+```bash
+__JAVALIB_DIR=`dirname "$0"`/../cmj/javalib2
+```
+3. Run the script:
 ```bash
 bash build.sh
 ```
