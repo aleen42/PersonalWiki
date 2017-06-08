@@ -129,7 +129,9 @@
 	- 偽彩色: 每個像素的顏色要通過調色板來查找RGB決定
 	- 直彩色: 每個像素的顏色通過查找基色強度, 然後變換得到的RGB決定
 - 抖動顯示(dithering): 通過半色調點(Halftone Spots)模擬產生灰度色調
+
 <img src="./dithering.png">
+
 - 流行的圖片文件格式
 	- **BMP**: the major system standard graphics file format for Microsoft Windows, used in Microsoft Paint and other programs. Many sub-variants within the BMP standard.
 		- Windows採用的圖像文件存儲格式
