@@ -319,9 +319,7 @@
 	- 採用DCT(離散余弦變換)為基礎的有損壓縮算法
 	- 採用預測編碼技術為基礎的DPCM無損壓縮算法
 - JPEG模式:
-	- Lossless Mode: 基於DPCM的無損編碼模式(**三鄰域二維預測編碼**和**熵編碼**), 壓縮比可達2:1
-    <img src="./dpcm.png">
-	<img src="./3neighbourhood2dimention.png">
+	- Lossless Mode: 基於DPCM的無損編碼模式(**三鄰域二維預測編碼**和**熵編碼**), 壓縮比可達2:1 <img src="./dpcm.png"> <img src="./3neighbourhood2dimention.png">
     - Sequential Mode: 基於DCT的有損順序編碼模式, 壓縮比可達10:1
     <img src="./Sequential_jpeg.png">
 		- 核心壓縮編碼步驟:
