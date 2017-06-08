@@ -333,8 +333,7 @@
 		- 分類:
 			- Spectral Selection: 按頻段遞增
 			- Successive Approximation: 按位遞增
-	- Hierarchical Mode: 基於DCT的分層編碼模式
-	<img src="./Hierarchical_jpeg.png">
+	- Hierarchical Mode: 基於DCT的分層編碼模式 <img src="./Hierarchical_jpeg.png">
 		- 步驟:
 			1. 降低原始圖像的空間分辨率
 			2. 對已降低分辨率的圖像按照順序編碼進行壓縮存儲
