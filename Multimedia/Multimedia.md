@@ -534,8 +534,7 @@
 				- 2D Mesh Geometry Coding: 將圖形分成若干網格 
 				- 3D Model-Based Coding:
 					- Face Object Coding and Animation
-					- Body Object Coding and Animation
-			<img src="./layer_of_video_object.png">
+					- Body Object Coding and Animation <img src="./layer_of_video_object.png">
 			- 基於運動補償的VOP編碼步驟:
 				- 運動估計
 				- 基於運動補償的預測
