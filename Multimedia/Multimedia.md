@@ -501,12 +501,9 @@
 			- MPEG-1音頻: 規定聲音數據的編碼的解碼
 			- MPEG-1一致性測試: 說明如何測試比特數據流和幾碼是否滿足MPEG-1規定
 			- MPEG-1軟件模擬
-			- **I**幀: 內幀
-			<img src="./i_frame_coding1.png">
-			- **P**幀: 單向預測幀
-			<img src="./p_frame_coding1.png">
-			- **B**幀: 雙向預測幀
-			<img src="./b_frame_coding1.png">
+			- **I**幀: 內幀 <img src="./i_frame_coding1.png">
+			- **P**幀: 單向預測幀 <img src="./p_frame_coding1.png">
+			- **B**幀: 雙向預測幀 <img src="./b_frame_coding1.png">
 			- 應用: VCD, MP3, 局域網視頻傳輸
 		- MPEG-2: 運動圖像及伴音通用編碼(1994)
 			- 基於塊的壓縮算法, 使用**圖層**的方法
