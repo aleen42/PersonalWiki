@@ -799,7 +799,6 @@
 			- 功能管理和可靠性方面比較完善
 			- 沿用傳統的電話信令模式, 其集中式控制模式便於管理
 - 常用的無線通信網絡
-	- 無線通信網: 2G/3G
-	<img src="./wireless_network_standards.png">
+	- 無線通信網: 2G/3G <img src="./wireless_network_standards.png">
 	- 無限局域網: IEEE 802.11
 	- 藍牙: 短距離無線通信
