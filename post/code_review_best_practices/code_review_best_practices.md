@@ -14,11 +14,11 @@ Briefly, a code review is a discussion between two or more developers about chan
 
 - [**Single Responsibility Principle**](http://en.wikipedia.org/wiki/Single_responsibility_principle): The idea that a class should have one-and-only-one responsibility. Harder than one might expect. I usually apply this to methods too. If we have to use “and” to finish describing what a method is capable of doing, it might be at the wrong level of abstraction.
 
-Open/Closed Principle: If the language is object-oriented, are the objects open for extension but closed for modification? What happens if we need to add another one of x?
+- [**Open/Closed Principle**](http://en.wikipedia.org/wiki/Open/closed_principle): If the language is object-oriented, are the objects open for extension but closed for modification? What happens if we need to add another one of `x`?
 
-Code duplication: I go by the “three strikes” rule. If code is copied once, it’s usually okay although I don’t like it. If it’s copied again, it should be refactored so that the common functionality is split out.
+- **Code duplication**: I go by the [“three strikes”](http://c2.com/cgi/wiki?ThreeStrikesAndYouRefactor) rule. If code is copied once, it’s usually okay although I don’t like it. If it’s copied again, it should be refactored so that the common functionality is split out.
 
-Squint-test offenses: If I squint my eyes, does the shape of this code look identical to other shapes? Are there patterns that might indicate other problems in the code’s structure?
+- [**Squint-test offenses**](http://robertheaton.com/2014/06/20/code-review-without-your-eyes/): If I squint my eyes, does the shape of this code look identical to other shapes? Are there patterns that might indicate other problems in the code’s structure?
 
 Code left in a better state than found: If I’m changing an area of the code that’s messy, it’s tempting to add in a few lines and leave. I recommend going one step further and leaving the code nicer than it was found.
 
