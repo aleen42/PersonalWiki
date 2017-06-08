@@ -20,10 +20,31 @@ Briefly, a code review is a discussion between two or more developers about chan
 
 - [**Squint-test offenses**](http://robertheaton.com/2014/06/20/code-review-without-your-eyes/): If I squint my eyes, does the shape of this code look identical to other shapes? Are there patterns that might indicate other problems in the code’s structure?
 
-Code left in a better state than found: If I’m changing an area of the code that’s messy, it’s tempting to add in a few lines and leave. I recommend going one step further and leaving the code nicer than it was found.
+- **Code left in a better state than found**: If I’m changing an area of the code that’s messy, it’s tempting to add in a few lines and leave. I recommend going one step further and leaving the code nicer than it was found.
 
-Potential bugs: Are there off-by-one errors? Will the loops terminate in the way we expect? Will they terminate at all?
+- **Potential bugs**: Are there off-by-one errors? Will the loops terminate in the way we expect? Will they terminate at all?
 
-Error handling: Are errors handled gracefully and explicitly where necessary? Have custom errors been added? If so, are they useful?
+- **Error handling**: Are errors handled gracefully and explicitly where necessary? Have custom errors been added? If so, are they useful?
 
-Efficiency: If there’s an algorithm in the code, is it using an efficient implementation? For example, iterating over a list of keys in a dictionary is an inefficient way to locate a desired value.
+- **Efficiency**: If there’s an algorithm in the code, is it using an efficient implementation? For example, iterating over a list of keys in a dictionary is an inefficient way to locate a desired value.
+
+#### Style
+
+- **Method names**: Naming things is one of the hard problems in computer science. If a method is named `get_message_queue_name` and it is actually doing something completely different like sanitizing HTML from the input, then that’s an inaccurate method name. And probably a misleading function.
+
+- **Variable names**: `foo` or `bar` are probably not useful names for data structures. `e` is similarly not useful when compared to `exception`. Be as verbose as you need (depending on the language). Expressive variable names make it easier to understand code when we have to revisit it later.
+
+- **Function length**: My rule of thumb is that a function should be less than 20 or so lines. If I see a method above 50, I feel it’s best that it be cut into smaller pieces.
+
+- **Class length**: I think classes should be under about 300 lines total and ideally less than 100. It’s likely that large classes can be split into separate objects, which makes it easier to understand what the class is supposed to do.
+
+- **File length**: For Python files, I think around 1000 lines of code is about the most we should have in one file. Anything above that is a good sign that it should be split into smaller, more focused files. As the size of a file goes up, discoverability goes down.
+
+- **Docstrings**: For complex methods or those with longer lists of arguments, is there a docstring explaining what each of the arguments does, if it’s not obvious?
+
+- **Commented code**: Good idea to remove any commented out lines.
+
+- **Number of method arguments**: For the methods and functions, do they have 3 or fewer arguments? Greater than 3 is probably a sign that it could be grouped in a different way.
+
+- **Readability**: Is the code easy to understand? Do I have to pause frequently during the review to decipher it?
+
