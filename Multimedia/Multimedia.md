@@ -320,8 +320,7 @@
 	- 採用預測編碼技術為基礎的DPCM無損壓縮算法
 - JPEG模式:
 	- Lossless Mode: 基於DPCM的無損編碼模式(**三鄰域二維預測編碼**和**熵編碼**), 壓縮比可達2:1 <img src="./dpcm.png"> <img src="./3neighbourhood2dimention.png">
-    - Sequential Mode: 基於DCT的有損順序編碼模式, 壓縮比可達10:1
-    <img src="./Sequential_jpeg.png">
+    - Sequential Mode: 基於DCT的有損順序編碼模式, 壓縮比可達10:1 <img src="./Sequential_jpeg.png">
 		- 核心壓縮編碼步驟:
 			- 使用FDCT(Forward Discrete Cosine Transform)正向離散余弦變換把空間域表示的圖變成頻率域表示的圖.
 			- 使用加權函數對DCT系數進行量化. (加權函數對於人的視覺是最佳的)
