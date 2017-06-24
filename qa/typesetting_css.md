@@ -38,7 +38,7 @@ white-space: inherit
 
 In order to enhance it, there is a table to show the differences between those values:
 
-|Line-break characters|White Spaces|Breaking into new lines automatically
+&nbsp;|Line-break characters|White Spaces|Breaking into new lines automatically
 :-:|:-----------------|:-----------|:----------------------
 `normal`|merged|merged|yes
 `nowrap`|merged|merged|no
