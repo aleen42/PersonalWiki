@@ -279,3 +279,19 @@ In the Lunkr Server:
 /home/coremail/bin/sautil sync-region-oab sub_rtan --syncOrgs=a
 /home/coremail/bin/udsyncutil --syncorg @sub_rtan orglist=a
 ```
+
+After that, you can check whether it's successful to synchronize, like checking the user `pwxu@test.cn`:
+
+```bash
+$ /home/coremail/bin/sautil userinfo pwxu@test.cn
+   user : pwxu@test.cn / pwxu@test.cn
+    tdn : un=pwxu,dn=test.cn,dd=84,ou=(org=sub_rtan-a;pro=1),id=42059
+     ou : test.cn
+   udid : 1 - Centos6x64/127.0.0.1
+ status : 0 - ACTIVE
+ region : sub_rtan,cen05
+    gid : 0 - @all
+    cos : 1 - 缺省服务
+ policy : global
+```
+
