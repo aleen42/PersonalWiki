@@ -295,4 +295,4 @@ $ /home/coremail/bin/sautil userinfo pwxu@test.cn
  policy : global
 ```
 
-Finally, login the Webadmin application of the Lunkr Server and open the certain organization to change `SIO ID` to `1`.
+Finally, log in the Webadmin application of the Lunkr Server and open the certain organization to change `SIO ID` to `1`.
