@@ -43,7 +43,7 @@ After that, just start all served applications:
 
 ### 2. Sync organizations of Coremail
 
-Since then, you have installed a server for Lunkr in the previous section, and now you may need to synchronize data of certain organizations in Coremail with `udsyncutil`.
+Since then, you have installed a server for Lunkr in the previous section, and now you may need to synchronize data of certain organizations in Coremail with `udsyncutil`. In the following tutorial, I will take the organization, which organization id is `a`, as an example.
 
 #### 2.1 Install a package
 
@@ -256,4 +256,8 @@ For the Coremail Server:
     ```bash
     /home/coremail/bin/sysutil --svr-cmd @all udsyncsvr reload
     /home/coremail/bin/coremail restart udsyncutil udsvr udsyncsvr
+    ```
+4. Register the Lunkr Server:
+    ```bash
+    /home/coremail/bin/sautil callapi "{cmd:23,org_id:org_id,attrs:{org_region_id:cen05}}"
     ```
