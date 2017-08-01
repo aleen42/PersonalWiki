@@ -147,7 +147,7 @@ Set the center region of the Lunkr Server:
 
 ```bash
 try to add lunkrcenter region
-remote region host ip [223.252.214.39]: 192.168.200.166   # the IP of the Lunkr Server
+remote region host ip [223.252.214.39]: 192.168.201.210   # the IP of the Lunkr Server
 read configure [global/RegionMaster] from global.cf...
 remote region sync port [6630]:
 add configure [mtasvr/FreeIPList=192.168.200.166] to programs.cf...
@@ -213,11 +213,20 @@ For the Lunkr Server:
     Person.User.DeleteStrategy="1"
     SyncUserKeys="alias,privacy_level"
     SyncPersonTypes="U"
-    SyncLocalOrg="xxxx-*"
+    SyncLocalOrg="sub_rtan-*"
     SyncRemoteOrg="**"
-    APIHost="udsync:/xxxxx"
+    APIHost="udsync:/sub_rtan"
     SyncType="coremail-api"
-    UdSyncSetting="xxx.xxx.xxx.xxx:6630
-    MailHost="http://xxxx.xxx" # 客户的web登录页面，必须要配置成https
+    UdSyncSetting="192.168.200.130:6630"
     ```
-2. 
+2. Configure `iplimit.cf`:
+    ```bash
+    [udsynclimit]
+    iprange1="0.0.0.0-255.255.255.255:r:0:10000"
+    iprange2="127.0.0.1:a:0:10000"
+    iprange3="10.12.1.123:a:0:10000"
+    iprange4="223.252.214.39:a:0:10000"
+    iprange5="192.168.200.130:a:0:10000"
+    ```
+3. 
+
