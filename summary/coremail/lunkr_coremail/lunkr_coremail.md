@@ -1,6 +1,6 @@
 ## Lunkr + Coremail	[Back](./../coremail.md)
 
-This article is mainly used for deploying a **Lunkr Server** (192.168.200.130) with a **Coremail Server** (192.168.201.210).
+This article is mainly used for deploying a **Lunkr Server** (192.168.201.210) with a **Coremail Server** (192.168.200.130).
 
 ### 1. Deploy a Lunkr server
 
