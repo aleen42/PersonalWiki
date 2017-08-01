@@ -1,6 +1,6 @@
 ## Lunkr + Coremail	[Back](./../coremail.md)
 
-This article is mainly used for deploying Lunkr servers with Coremail.
+This article is mainly used for deploying a **Lunkr Server** (192.168.200.130) with a **Coremail Server** (192.168.201.210).
 
 ### 1. Deploy a Lunkr server
 
@@ -189,3 +189,35 @@ Finally, check whether it's successful:
 telnet 0 6630
 ```
 
+#### 2.2 Configure
+
+After installing the package above, it's time to configure in both of the Lunkr Server and the Coremail Server.
+
+For the Lunkr Server:
+
+1. Configure `region.cf`:
+    ```bash
+    [sub_rtan]
+    NodeType="mirror"
+    EnableRealTimeSyncFlags="1"
+    EnableAutoForceSyncFlags="1"
+    UpdateDomainConf="0"
+    CheckRegionIPStat="0"
+    SyncAdminType="OA,OUA"
+    SyncPrivacyLevel="1"
+    SyncLocalOrgCosId="1:1000"
+    SkipUDCmdList="!1004"
+    UdSyncDefCOS="1"
+    Person.Contact.DeleteStrategy="1"
+    Person.MailList.DeleteStrategy="1"
+    Person.User.DeleteStrategy="1"
+    SyncUserKeys="alias,privacy_level"
+    SyncPersonTypes="U"
+    SyncLocalOrg="xxxx-*"
+    SyncRemoteOrg="**"
+    APIHost="udsync:/xxxxx"
+    SyncType="coremail-api"
+    UdSyncSetting="xxx.xxx.xxx.xxx:6630
+    MailHost="http://xxxx.xxx" # 客户的web登录页面，必须要配置成https
+    ```
+2. 
