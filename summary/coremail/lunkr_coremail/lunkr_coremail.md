@@ -231,6 +231,6 @@ For the Lunkr Server:
     ```
 3. Restart:
     ```bash
-    /home/coremail restart all
+    /home/coremail/bin/coremail restart all
     ```
 
