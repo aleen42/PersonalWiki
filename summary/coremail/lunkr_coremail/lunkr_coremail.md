@@ -226,6 +226,7 @@ For the Lunkr Server:
     iprange2="127.0.0.1:a:0:10000"
     iprange3="10.12.1.123:a:0:10000"
     iprange4="223.252.214.39:a:0:10000"
+    # set the following lin
     iprange5="192.168.200.130:a:0:10000"
     ```
 3. 
