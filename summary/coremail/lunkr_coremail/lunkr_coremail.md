@@ -261,3 +261,21 @@ For the Coremail Server:
     ```bash
     /home/coremail/bin/sautil callapi "{cmd:23,org_id:org_id,attrs:{org_region_id:cen05}}"
     ```
+
+#### 2.3 Start to synchronize
+
+In the Coremail Server:
+
+```bash
+cd /home/coremail/bin
+./cim-sync-setting.sh
+```
+
+Then choose **2**, and type **#a** after that.
+
+In the Lunkr Server:
+
+```bash
+/home/coremail/bin/sautil sync-region-oab sub_rtan --syncOrgs=a
+/home/coremail/bin/udsyncutil --syncorg @sub_rtan orglist=a
+```
