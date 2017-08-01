@@ -45,7 +45,9 @@ After that, just start all served applications:
 
 Since then, you have installed a server for Lunkr in the previous section, and now you may need to synchronize data of certain organizations in Coremail with `udsyncutil`.
 
-Before doing this step, download the related package from the following path:
+#### 2.1 Install a package
+
+Before the process of synchronizing, download the related package from the following path:
 
 `\\192.168.209.6\qc\cim\release\04.customer\CIM-9140\cmXT5.0.x_lunkr_cm_proxy_RHEL6_x86_64.tar.gz`
 
@@ -180,3 +182,10 @@ T:3923334944(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:61
 upload configure region.cf ok!
 Reloading server ...
 ```
+
+Finally, check whether it's successful:
+
+```bash
+telnet 0 6630
+```
+
