@@ -140,3 +140,43 @@ try to reload all udsyncsvr...
 /home/coremail/bin/sysutil --svr-cmd @all udsyncsvr reload  OK
 try to call coremail to restart udsvr mdsvr mssvr rmiserver udsyncutil
 ```
+
+Set the center region of the Lunkr Server:
+
+```bash
+try to add lunkrcenter region
+remote region host ip [223.252.214.39]: 192.168.200.166   # the IP of the Lunkr Server
+read configure [global/RegionMaster] from global.cf...
+remote region sync port [6630]:
+add configure [mtasvr/FreeIPList=192.168.200.166] to programs.cf...
+T:2255746848(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure programs.cf ok!
+add configure [mtasvr/SpamInfoTrustedIPList=192.168.200.166] to programs.cf...
+T:481294112(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure programs.cf ok!
+update configure [lunkrcenter/UdSyncSetting=192.168.200.166:6630] to region.cf...
+T:2374903584(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure region.cf ok!
+update configure [lunkrcenter/SyncUserObjType=@all] to region.cf...
+T:3572606752(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure region.cf ok!
+update configure [lunkrcenter/SkipUDCmdList=!1004] to region.cf...
+T:3530835744(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure region.cf ok!
+update configure [lunkrcenter/EnableAutoForceSyncFlags=1] to region.cf...
+T:2125133600(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure region.cf ok!
+update configure [lunkrcenter/EnableRealTimeSyncFlags=1] to region.cf...
+T:3650447136(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure region.cf ok!
+update configure [lunkrcenter/CheckRegionIPStat=0] to region.cf...
+T:264840992(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure region.cf ok!
+update configure [lunkrcenter/UpdateDomainConf=0] to region.cf...
+T:1526380320(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure region.cf ok!
+update configure [lunkrcenter/IsLunkrRegion=1] to region.cf...
+T:3923334944(17:02:45)[System.Socket:Debug] SocketID:3 reconnect to 127.0.0.1:6130 send presend code[305], timeout:410 OK
+upload configure region.cf ok!
+Reloading server ...
+```
