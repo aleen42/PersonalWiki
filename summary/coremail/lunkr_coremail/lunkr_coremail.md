@@ -234,3 +234,18 @@ For the Lunkr Server:
     /home/coremail/bin/coremail restart all
     ```
 
+For the Coremail Server:
+
+1. Configure `region.cf`:
+    ```bash
+    [cen05]   # the node name of the Lunkr Server, which can be found in the `global.cf`
+    IsLunkrRegion="1"
+    UpdateDomainConf="0"
+    CheckRegionIPStat="0"
+    EnableRealTimeSyncFlags="1"
+    EnableAutoForceSyncFlags="1"
+    SkipUDCmdList="!1004"
+    SyncUserObjType="@all"
+    UdSyncSetting="192.168.202.210:6630"
+    ```
+2. 
