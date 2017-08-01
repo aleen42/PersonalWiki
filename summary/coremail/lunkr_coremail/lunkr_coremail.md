@@ -224,10 +224,7 @@ For the Lunkr Server:
     [udsynclimit]
     iprange1="0.0.0.0-255.255.255.255:r:0:10000"
     iprange2="127.0.0.1:a:0:10000"
-    iprange3="10.12.1.123:a:0:10000"
-    iprange4="223.252.214.39:a:0:10000"
-    # set the following line
-    iprange5="192.168.200.130:a:0:10000"
+    iprange3="192.168.200.130:a:0:10000"
     ```
 3. Restart:
     ```bash
@@ -248,4 +245,11 @@ For the Coremail Server:
     SyncUserObjType="@all"
     UdSyncSetting="192.168.202.210:6630"
     ```
-2. 
+2. Configure `iplimit.cf`:
+    ```bash
+    [udsynclimit]
+    iprange="192.168.201.210:a:1:12345"
+    iprange1="0.0.0.0-255.255.255.255:r:0:10000"
+    iprange2="127.0.0.1:a:0:10000"
+    ```
+3. 
