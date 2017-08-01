@@ -252,4 +252,8 @@ For the Coremail Server:
     iprange1="0.0.0.0-255.255.255.255:r:0:10000"
     iprange2="127.0.0.1:a:0:10000"
     ```
-3. 
+3. Restart:
+    ```bash
+    /home/coremail/bin/sysutil --svr-cmd @all udsyncsvr reload
+    /home/coremail/bin/coremail restart udsyncutil udsvr udsyncsvr
+    ```
