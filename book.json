@@ -86,11 +86,6 @@
             "style": "markdown",
             "minHeaderCount": "2",
             "minHeaderDeep": "2"
-        },
-        "resources": {
-            "type": "github",
-            "repo": "aleen42/PersonalWiki",
-            "branch": "master"
         }
     }
 }
