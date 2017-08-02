@@ -24,8 +24,7 @@
         "page-footer",
         "page-treeview",
         "mathjax",
-        "ace",
-        "resources"
+        "ace"
     ],
     "pluginsConfig": {
         "disqus": {
