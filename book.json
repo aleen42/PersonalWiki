@@ -1,4 +1,5 @@
 {
+    "engine": "3.0.0-pre.0",
     "structure": {
         "readme": "README.md"
     },
