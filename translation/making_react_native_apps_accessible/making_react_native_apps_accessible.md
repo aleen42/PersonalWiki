@@ -31,23 +31,23 @@
 
 使用 React Native 的无障碍 API 我们可以轻松实现这个效果。我们只需要在父组件上设置 `accessible={true}`，然后无障碍API就会收集所有子组件的无障碍标签。
 
-
-    <View
-      accessible={true}
-      style={{
-        flex: 1,
-        backgroundColor: 'white',
-        padding: 10,
-        paddingTop: 30,
-      }}>
-      <Text>Hacker and Looper, Page Post Engagement</Text>
-      <Text>29,967 Post Engagements</Text>
-      <AdsManagerStatus
-        accessibilityLabel={'Status ' + this.props.status}
-        status={this.props.status}
-      />
-    </View>
-
+```html
+<View
+  accessible={true}
+  style={{
+    flex: 1,
+    backgroundColor: 'white',
+    padding: 10,
+    paddingTop: 30,
+  }}>
+  <Text>Hacker and Looper, Page Post Engagement</Text>
+  <Text>29,967 Post Engagements</Text>
+  <AdsManagerStatus
+    accessibilityLabel={'Status ' + this.props.status}
+    status={this.props.status}
+  />
+</View>
+```
 
 嵌套的 UI 元素，例如列表行里的开关，也需要特定的无障碍支持。当用户使用读屏器选择了列表中的某一行，我们需要读出这一行中的所有信息，并且告知用户这一行中有可以操作的元素。无障碍 API 提供了从系统中获取无障碍环境以及监听系统设置变化的能力。因此，我们只需简单地改变父元素的行为，就可以通过像 VoiceOver 或者 TalkBack 这样的读屏器来通知用户(示例："双击这一行来改切换里的开关状态")。在广告管理应用中，我们是用这种开关来切换通知设置项的。当这一行被选中的时候，它就会说："允许广告。开启。双击来切换设置"。
 
