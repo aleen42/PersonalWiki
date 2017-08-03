@@ -58,32 +58,32 @@
 通过 React Native 的无障碍 API，使得我们可以查询某系统的无障碍状态：
 
 
-    AccessibilityInfo.fetch().done((enabled) => {
-      this.setState({
+```js
+AccessibilityInfo.fetch().done((enabled) => {
+    this.setState({
         AccessibilityEnabled: enabled,
-      });
     });
-
-
+});
+```
 
 我们也可以监听无障碍状态变化：
 
-
-    componentDidMount: function() {
-      AccessibilityInfo.addEventListener(
-        'change',
-        this._handleAccessibilityChange
-      );
-      ...   
-    },
+```js
+componentDidMount: function() {
+  AccessibilityInfo.addEventListener(
+    'change',
+    this._handleAccessibilityChange
+  );
+  /** ... */
+},
     
-    _handleAccessibilityChange: function(isEnabled: boolean) {
-      this.setState({
+    
+_handleAccessibilityChange: function(isEnabled: boolean) {
+    this.setState({
         AccessibilityEnabled: isEnabled,
-      });
-    },
-
-
+    });
+},
+```
 
 通过这些 API，我们的产品团队可以根据系统当前的无障碍设置信息来控制触摸事件。例如，在上面的截图中，有许多控制推送通知的开关。如果用户正在使用读屏器，我们就会朗读这一行中的所有信息，包括开关和状态，例如，"允许广告，开启状态"——然后用户就可以通过双击选中区域，比如双击这一行，来切换状态。
 
