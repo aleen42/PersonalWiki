@@ -87,22 +87,17 @@ _handleAccessibilityChange: function(isEnabled: boolean) {
 
 通过这些 API，我们的产品团队可以根据系统当前的无障碍设置信息来控制触摸事件。例如，在上面的截图中，有许多控制推送通知的开关。如果用户正在使用读屏器，我们就会朗读这一行中的所有信息，包括开关和状态，例如，"允许广告，开启状态"——然后用户就可以通过双击选中区域，比如双击这一行，来切换状态。
 
+```js
+var onSwitchValueChange = this.props.onValueChange;
+var onRowPress = null;
+if (this.state.isAccessibilityEnabled) {
+    onSwitchValueChange = null;
+    onRowPress = this.props.onValueChange;
+}
 
-    var onSwitchValueChange = this.props.onValueChange;
-    var onRowPress = null;
-    if (this.state.isAccessibilityEnabled) {
-      onSwitchValueChange = null;
-      onRowPress = this.props.onValueChange;
-    }
-    
-    var switch = <Switch onValueChange={onSwitchValueChange} ... />
-    return
-      <InfoRow
-        action={switch}
-        onPress={onRowPress}
-        ...
-      />
-
+var switch = <Switch onValueChange={onSwitchValueChange} ... />
+return <InfoRow action={switch} onPress={onRowPress} ... />
+```
 
 React Native 为你在 iOS 和 Android 平台开发应用提供了一种强大的方式，而且，它还能使你能有效地复用代码。通过 React Native 无障碍 API，你可以确保你的产品同样能使得有残疾或需要使用辅助工具的用户得到精致的体验。
 
