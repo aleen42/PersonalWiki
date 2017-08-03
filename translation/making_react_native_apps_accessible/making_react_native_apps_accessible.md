@@ -95,8 +95,8 @@ if (this.state.isAccessibilityEnabled) {
     onRowPress = this.props.onValueChange;
 }
 
-var switch = <Switch onValueChange={onSwitchValueChange} ... />
-return <InfoRow action={switch} onPress={onRowPress} ... />
+var switch = <Switch onValueChange={onSwitchValueChange} ... />;
+return <InfoRow action={switch} onPress={onRowPress} ... />;
 ```
 
 React Native 为你在 iOS 和 Android 平台开发应用提供了一种强大的方式，而且，它还能使你能有效地复用代码。通过 React Native 无障碍 API，你可以确保你的产品同样能使得有残疾或需要使用辅助工具的用户得到精致的体验。
