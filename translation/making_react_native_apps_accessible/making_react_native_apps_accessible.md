@@ -34,12 +34,12 @@
 ```html
 <View
   accessible={true}
-  style={{
+  style={ {
     flex: 1,
     backgroundColor: 'white',
     padding: 10,
     paddingTop: 30,
-  }}>
+  } }>
   <Text>Hacker and Looper, Page Post Engagement</Text>
   <Text>29,967 Post Engagements</Text>
   <AdsManagerStatus
