@@ -39,5 +39,5 @@ ReactDOM.render(
 
 `componentDidMount` is called after the component is mounted and has a DOM representation. This is often a place where you would attach generic DOM events.
 
-***Notice that the event callback is bound to the react component and not the original element. React automatically binds methods to the current component instance for you through a process of [autobinding](https://aleen42.gitbooks.io/personalwiki/content/Programming/JavaScript/Framework/react/interactivity_dynamic_uis/interactivity_dynamic_uis.html#autobinding).***
+***Notice that the event callback is bound to the react component and not the original element. React automatically binds methods to the current component instance for you through a process of [autobinding](https://aleen42.github.io/PersonalWiki/Programming/JavaScript/Framework/react/interactivity_dynamic_uis/interactivity_dynamic_uis.html#autobinding).***
 

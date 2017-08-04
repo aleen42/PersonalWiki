@@ -63,7 +63,7 @@ amplify.store('name', 'Aleen');
 /** Store an object */
 const website = {
     name: 'PersonalWiki',
-    url: 'https://aleen42.gitbooks.io/personalwiki/content/'
+    url: 'https://aleen42.github.io/PersonalWiki/'
 };
 amplify.store('websiet', website);
 ```

@@ -188,3 +188,6 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 Programming/PHP/crash/example/example/Code/CampaignAction.class.php
+
+# IDEA
+.idea
