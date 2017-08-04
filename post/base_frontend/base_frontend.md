@@ -68,7 +68,7 @@ JS模块化方案很多，AMD/CommonJS/UMD/ES6 Module等，对应的框架和工
 - 大规模：多人甚至多团队合作开发；
 - 高性能：CDN部署、[缓存控制](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)、[文件指纹](https://developers.google.com/speed/docs/insights/LeverageBrowserCaching)、缓存复用、请求合并、按需加载、同步/异步加载、移动端[首屏CSS内嵌](https://developers.google.com/speed/docs/insights/mobile)、HTTP 2.0服务端[资源推送](http://chimera.labs.oreilly.com/books/1230000000545/ch12.html#HTTP2_PUSH)。
 
-> 扩展阅读：[大公司里怎样开发和部署前端代码？](https://aleen42.gitbooks.io/personalwiki/content/post/frontend_code_in_big_company/frontend_code_in_big_company.html)
+> 扩展阅读：[大公司里怎样开发和部署前端代码？](https://aleen42.github.io/PersonalWiki/post/frontend_code_in_big_company/frontend_code_in_big_company.html)
 
 这些无疑是一系列严肃的系统工程问题。
 

@@ -13,8 +13,8 @@ window.onload = function () {
     div.id = 'particles-js';
     document.getElementsByClassName('book')[0].appendChild(div);
 
-    getScript('https://aleen42.gitbooks.io/personalwiki/content/src/jquery-2.1.4.min.js');
-    getScript('https://aleen42.gitbooks.io/personalwiki/content/src/application.js');
+    getScript('https://aleen42.github.io/PersonalWiki/src/jquery-2.1.4.min.js');
+    getScript('https://aleen42.github.io/PersonalWiki/src/application.js');
     
     setTimeout(function () {
         div.setAttribute('style', 'opacity:1;');

@@ -4,4 +4,4 @@ In the first line of a HTML document, we'll always see a special tag named, `<!D
 
 For **HTML5**, we just specify like this: `<!DOCTYPE html>`. That's because **HTML5** does not belongs to **Standard Generalized Markup Language** (SGML) any more. That means that we don't need to use **Document Type Definition** (DTD) to include.
 
-More details in https://aleen42.gitbooks.io/personalwiki/content/Programming/HTML/extra_markup/extra_markup.html#2-doctypes
+More details in https://aleen42.github.io/PersonalWiki/Programming/HTML/extra_markup/extra_markup.html#2-doctypes
