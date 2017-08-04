@@ -560,10 +560,12 @@ iframe::-webkit-resizer {
 
     .book.with-summary .book-header .btn {
         padding: 20px 15px !important;
+        height: auto;
     }
 
     .book.with-summary .page-wrapper,
-    .book.with-summary a.navigation {
+    .book.with-summary a.navigation,
+    .book.with-summary .dropdown {
         display: none;
     }
 
