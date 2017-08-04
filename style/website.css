@@ -111,7 +111,6 @@ a.navigation,
     position: fixed;
     width: 25%;
     top: 0;
-    border: 1px solid rgba(0, 0, 0, 0.07);
     font-size: 16px;
     background-color: #a10000;
     color: #000;
@@ -125,7 +124,7 @@ a.navigation,
     position: absolute;
     border-bottom: transparent 6px solid;
     border-left: transparent 6px solid;
-    right: -1px;
+    right: 0;
     top: -1px;
 }
 
@@ -304,7 +303,7 @@ pre::-webkit-resizer {
     border: none !important;
     box-shadow: -8px 6px 18px #000 inset;
     left: -25%;
-    margin-top: 51px;
+    margin-top: 52px;
     width: 25%;
 }
 
@@ -449,7 +448,7 @@ iframe::-webkit-resizer {
     position: fixed;
     background-color: rgba(255,255,255,0.7);
     top: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     transition: width 250ms ease;
     z-index: 999 !important;
@@ -526,6 +525,49 @@ iframe::-webkit-resizer {
 
     #book-search-input {
         margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #book-search-input {
+        width: 80%;
+    }
+
+    .book .book-summary {
+        left: -80%;
+        width: 80%;
+    }
+
+    .book.with-summary .book-body {
+        -webkit-transform: translateX(calc(400% + 2px));
+        -moz-transform: translateX(calc(400% + 2px));
+        -ms-transform: translateX(calc(400% + 2px));
+        -o-transform: translateX(calc(400% + 2px));
+        transform: translateX(calc(400% + 2px));
+        width: 20%;
+    }
+
+    .book.with-summary .book-header {
+        width: 100%;
+        text-align: center;
+    }
+
+    .book.with-summary .js-toolbar-action {
+        width: 100% !important;
+        font-size: 1.6em !important;
+    }
+
+    .book.with-summary .book-header .btn {
+        padding: 20px 15px !important;
+    }
+
+    .book.with-summary .page-wrapper,
+    .book.with-summary a.navigation {
+        display: none;
+    }
+
+    .book.with-summary .book-body .body-inner {
+        position: relative;
     }
 }
 
