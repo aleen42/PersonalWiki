@@ -1,5 +1,5 @@
 {
-    "engine": "3.1.0",
+    "engines": "3.1.0",
     "structure": {
         "readme": "README.md"
     },
