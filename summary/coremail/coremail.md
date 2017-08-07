@@ -72,3 +72,4 @@ Webmail template:
 - [**Deployment of Coremail system**](./deployment/deployment.md)
 - [**Secondary Development**](./secondary_development/secondary_development.md)
 - [**Lunkr + Coremail**](./lunkr_coremail/lunkr_coremail.md)
+- [**Shell for replacing files of XT3**](./shell_xt3_replacement/shell_xt3_replacement.md)
