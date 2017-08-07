@@ -14,9 +14,9 @@ In fact, Einstein claimed never to memorize anything which could be looked up in
 
 - Read on [**GitBook**](https://aleen42.github.io/PersonalWiki/)
 - Downloads:
-    - [**PDF**](https://www.gitbook.com/download/pdf/book/aleen42/personalwiki)
-    - [**ePub**](https://www.gitbook.com/download/epub/book/aleen42/personalwiki)
-    - [**mobi**](https://www.gitbook.com/download/mobi/book/aleen42/personalwiki)
+    - [**PDF**](https://www.gitbook.com/download/pdf/book/aleen42/wiki)
+    - [**ePub**](https://www.gitbook.com/download/epub/book/aleen42/wiki)
+    - [**mobi**](https://www.gitbook.com/download/mobi/book/aleen42/wiki)
 
 ### Coder
 
