@@ -670,3 +670,4 @@
                 * [Deployment of Coremail system](./summary/coremail/deployment/deployment.md)
                 * [Secondary Development](./summary/coremail/secondary_development/secondary_development.md)
                 * [Lunkr + Coremail](./summary/coremail/lunkr_coremail/lunkr_coremail.md)
+                * [Shell for replacing files of XT3](./summary/coremail/shell_xt3_replacement/shell_xt3_replacement.md)
