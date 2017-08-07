@@ -77,3 +77,46 @@ rm install.sh
 echo "Completed"
 
 ```
+
+### Tutorial
+
+If you want to use this shell, create it or download it from 192.168.209.6:
+
+```bash
+lftp -e 'mget /qc/cm/customer/民生银行/CMCU-15182/package/*; bye' -u "mailtechgz\\<账号>,<密码>" "ftp://192.168.209.6/"
+```
+
+Then change the mod:
+
+```bash
+chmod +x install.sh
+```
+
+Create a file `files.txt` to specify which files to replace:
+
+```bash
+# files.txt
+
+webapp/WEB-INF/lang/XT3/resource.js
+webapp/WEB-INF/lang/XT3/resource_zh_CN.js
+webapp/WEB-INF/lang/XT3/resource_zh_TW.js
+webapp/WEB-INF/lang/common/pref/preference.properties
+webapp/WEB-INF/lang/common/pref/preference_zh_CN.properties
+webapp/WEB-INF/lang/common/pref/preference_zh_TW.properties
+webapp/WEB-INF/tags/XT3/mainLayout.tag
+webapp/WEB-INF/tags/common/listSettings.tag
+webapp/WEB-INF/tags/common/prefDoPreference.tag
+webapp/XT3/assets/*/css/var1.css
+webapp/XT3/assets/*/images/loading.gif
+webapp/XT3/assets/*/images/to_top.png
+webapp/XT3/assets/*/js/ajax/list.js
+webapp/XT3/mbox/searchlist.jsp
+webapp/XT3/pref/preference.jsp
+webapp/XT3/mbox/list.jsp
+```
+
+And then run the script:
+
+```bash
+./install.sh
+```
