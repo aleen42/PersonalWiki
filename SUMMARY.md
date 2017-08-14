@@ -570,6 +570,7 @@
             * [How to calculate the width of a scrollbar in browsers](./qa/scrollbar_width.md)
             * [How to hide input&lsqb;file&rsqb; in IE8](./qa/hide_inputfile_ie8.md)
             * [How to build up Android development environment when using Ionic and Cordova to build APP](./qa/android_ionic_cordova.md)
+            * [How to deploy a shadowsocks server on a Vultr VPS](./qa/shadowsocks_on_vultr.md)
             * [Someting about scrolling](./qa/scroll/scroll.md)
             * [Something about !DOCTYPE](./qa/doctype.md)
             * [Something about iframe](./qa/iframe.md)
