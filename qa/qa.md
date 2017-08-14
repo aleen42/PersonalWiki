@@ -28,6 +28,7 @@
 - [**How to free cached memory in Ubuntu**](./free_cached_memory_in_Ubuntu.md)
 - [**How to use curl in Linux**](./curl.md)
 - [**How to install double-boot Ubuntu in a Macbook Air**](./double_boot_system.md)
+- [**How to deploy a shadowsocks server on a Vultr VPS**](./shadowsocks_on_vultr.md)
 - [**Why does the shell script always break down when running for statement**](./shellfor.md)
 - [**Some commands of Linux**](./linuxcommands.md)
 - [**Some problems of building gr-rsm**](./build_gr_rsm.md)
