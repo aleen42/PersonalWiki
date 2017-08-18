@@ -25,11 +25,15 @@ Finally run it:
 
 ### 2. Set the password
 
-![](./shadowsocks1.jpeg)
+<p align="center">
+  <img alt="set_password" title="mingtocat" src="./shadowsocks1.jpeg" width="60%" />
+</p>
 
 ### 3. Set the port
 
-![](./shadowsocs2.jpg)
+<p align="center">
+  <img alt="set_port" title="mingtocat" src="./shadowsocs2.jpg" width="60%" />
+</p>
 
 ### 4. TCP Fast Open
 
