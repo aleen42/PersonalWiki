@@ -22,3 +22,33 @@ Finally run it:
 ```bash
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 ```
+
+### 2. Set the password
+
+![](./shadowsocks1.jpeg)
+
+### 3. Set the port
+
+![](./shadowsocs2.jpg)
+
+### 4. TCP Fast Open
+
+To enhance the speed of connection, you can do more with followed steps:
+
+1. Add the followed line into the file `/etc/rc.local`:
+    ```bash
+    #/etc/rc.local
+    echo 3 > /proc/sys/net/ipv4/tcp_fastopen
+    ```
+2. Add the followed line into the file `/etc/sysctl.conf`:
+    ```bash
+    # /etc/sysctl.conf
+    net.ipv4.tcp_fastopen = 3
+    ```
+3. Modified the attribute `fast_open` with `true` in the file `/etc/shadowsocks.json`
+4. Restart the server of Shadowsocks:
+    ```bash
+    
+    ```
+
+
