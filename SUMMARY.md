@@ -1,15 +1,15 @@
 # Summary
 
-- [About](./README.md)
-- [Traffic](./traffic.md)
-- [MIT](./MIT.md)
-- [Hacker](./hacker.md)
-- [Contribution](./contribution.md)
-- Coder
+* [About](./README.md)
+* [Traffic](./traffic.md)
+* [MIT](./MIT.md)
+* [Hacker](./hacker.md)
+* [Contribution](./contribution.md)
+* Coder
     * [Programming Language](./Programming/ProgrammingMenu.md)
         * [C/C++](./Programming/c/c.md)
             * [cJSON](./Programming/c/CJson/CJson.md)
-            * [conversion between string, char&#42;, const char&#42;](./qa/Programming/c/conversion_of_str/conversion_of_str.md)
+            * [conversion between string, char*, const char*](./qa/Programming/c/conversion_of_str/conversion_of_str.md)
         * [C#](./Programming/CSharp/CSharpMenu.md)
             * [Args](./Programming/CSharp/Args/Args.md)
             * [BitOperation](./Programming/CSharp/BitOperation/BitOperation.md)
@@ -131,14 +131,14 @@
                 * [underscore.js](./Programming/JavaScript/Framework/underscore/underscore.md)
                     * [Use void 0 rather than undefined](./Programming/JavaScript/Framework/underscore/void0_undefined/void0_undefined.md)
                     * [Common Type Inference and some useful tutorials](./Programming/JavaScript/Framework/underscore/type_inference_and_tutorials/type_inference_and_tutorials.md)
-                    * [Compatibility problems of `for ... in`](./Programming/JavaScript/Framework/underscore/for_in_compatibility/for_in_compatibility.md)
-                    * [The internal function: `createAssigner()`](./Programming/JavaScript/Framework/underscore/createAssigner/createAssigner.md)
+                    * [Compatibility problems of for ... in](./Programming/JavaScript/Framework/underscore/for_in_compatibility/for_in_compatibility.md)
+                    * [The internal function: createAssigner()](./Programming/JavaScript/Framework/underscore/createAssigner/createAssigner.md)
                     * [How to compare the equality of two elements](./Programming/JavaScript/Framework/underscore/is_equal/is_equal.md)
-                    * [Certain object functions like `pick()` and `create()`](./Programming/JavaScript/Framework/underscore/object_functions/object_functions.md)
+                    * [Certain object functions like pick() and create()](./Programming/JavaScript/Framework/underscore/object_functions/object_functions.md)
                     * [How to find items in an array](./Programming/JavaScript/Framework/underscore/array_index/array_index.md)
                     * [How to get an array unique](./Programming/JavaScript/Framework/underscore/unique_array/unique_array.md)
                     * [Flatten an array](./Programming/JavaScript/Framework/underscore/flatten_an_array/flatten_an_array.md)
-                    * [Certain array functions like `compact()`, `difference()`, and `without()`](./Programming/JavaScript/Framework/underscore/array_functions/array_functions.md)
+                    * [Certain array functions like compact(), difference(), and without()](./Programming/JavaScript/Framework/underscore/array_functions/array_functions.md)
                     * [NaN?](./Programming/JavaScript/Framework/underscore/something_about_NaN/something_about_NaN.md)
                     * [Array-like Objects](./Programming/JavaScript/Framework/underscore/array_like/array_like.md)
                     * [How to shuffle an array](./Programming/JavaScript/Framework/underscore/random_order/random_order.md)
@@ -268,7 +268,7 @@
             * Categories
                 * [External CSS](./Programming/CSS/external/external.md)
                 * [Internal CSS](./Programming/CSS/internal/internal.md)
-                * [Selector](./Programming/CSS/selector/selector.md)    
+                * [Selector](./Programming/CSS/selector/selector.md)
         * [HTML](./Programming/HTML/HTML.md)
             * Categories
                 * [Structure](./Programming/HTML/structure/structure.md)
@@ -308,29 +308,29 @@
             * [DC](./Algorithmn/Analysis/DC/DC.md)
                 * [MergeSort](./Algorithmn/Sort/MergeSort/MergeSort.md)
                 * [QuickSort](./Algorithmn/Sort/QuickSort/QuickSort.md)
-        	* [DP](./Algorithmn/Analysis/DP/DP.md)
+            * [DP](./Algorithmn/Analysis/DP/DP.md)
                 * [Assembly-line Scheduling Problem](./Algorithmn/Analysis/DP/Assembly/Assembly.md)
                 * [Matrix-chain Multiplication Problem](./Algorithmn/Analysis/DP/Matrix/Matrix.md)
                 * [Longest Common Subsequence Problem](./Algorithmn/Analysis/DP/LCS/LCS.md)
                 * [Max Sum Problem](./Algorithmn/Analysis/DP/MaxSum/MaxSum.md)
                 * [0-1 Knapsack Problem](./Algorithmn/Analysis/DP/Knapsack/Knapsack.md)
                 * Single-source Shortest Path Problem
-                	* [Bellman-Ford Algorithmn](./Algorithmn/Analysis/DP/Bellman/Bellman.md)
+                    * [Bellman-Ford Algorithmn](./Algorithmn/Analysis/DP/Bellman/Bellman.md)
                 * All-Pairs Shortest Path Problem
-                	* [DP Algorithmn](./Algorithmn/Analysis/DP/DP/DP.md)
-                	* [Floyd-Warshall Algorithmn](./Algorithmn/Analysis/DP/Floyd/Floyd.md)
-        	* [Greedy](./Algorithmn/Analysis/Greedy/Greedy.md)
-        	    * [Activity-Selection Problem](./Algorithmn/Analysis/Greedy/Activity/Activity.md)
+                    * [DP Algorithmn](./Algorithmn/Analysis/DP/DP/DP.md)
+                    * [Floyd-Warshall Algorithmn](./Algorithmn/Analysis/DP/Floyd/Floyd.md)
+            * [Greedy](./Algorithmn/Analysis/Greedy/Greedy.md)
+                * [Activity-Selection Problem](./Algorithmn/Analysis/Greedy/Activity/Activity.md)
                 * [Fractional Knapsack Problem](./Algorithmn/Analysis/Greedy/Knapsack/Knapsack.md)
                 * Single-source Shortest Path Problem
-                	* [Dijkstra Algorithmn](./Algorithmn/Analysis/Greedy/Dijkstra/Dijkstra.md)
-        	* [Search](./Algorithmn/Analysis/Search/Search.md)
-        	    * Back-Tracking
-                	- [N-Queen Problem](./Algorithmn/Analysis/Search/NQueen/NQueen.md)
+                    * [Dijkstra Algorithmn](./Algorithmn/Analysis/Greedy/Dijkstra/Dijkstra.md)
+            * [Search](./Algorithmn/Analysis/Search/Search.md)
+                * Back-Tracking
+                    * [N-Queen Problem](./Algorithmn/Analysis/Search/NQueen/NQueen.md)
                 * Branch & Bound
-                	* [15-Puzzle Problem](./Algorithmn/Analysis/Search/15Puzzle/15Puzzle.md)
-        	* [Random](./Algorithmn/Analysis/Random/Random.md)
-        	    * Genetic Algorithmn
+                    * [15-Puzzle Problem](./Algorithmn/Analysis/Search/15Puzzle/15Puzzle.md)
+            * [Random](./Algorithmn/Analysis/Random/Random.md)
+                * Genetic Algorithmn
                 * Simulated Annealing Algorithmn
         * [Sort](./Algorithmn/Sort/Sort.md)
             * [Overview](./Algorithmn/Sort/Overview/Overview.md)
@@ -349,7 +349,7 @@
         * [Computability](./Algorithmn/Computability/Computability.md)
     * [Thought](./Thought/ThoughtMenu.md)
         * Coder
-            * [OOP](./Thought/OOP/OOP.md)(Object-oriented Programming)
+            * [OOP](./Thought/OOP/OOP.md)
         * Designer
             * [The laws of Elegance](./Thought/elegant/elegant.md)
             * The laws of Simplicity
@@ -378,8 +378,8 @@
                 * [IO](./Network/Coding/IO/IO.md)
         * 5 Layers - the structure of  Network
             * [Application Layer](./Network/Application/Application.md)
-                * [DNS](./Network/Application/dns/dns.md) (Domain Name System)
-                * [RPC](./Network/Application/rpc/rpc.md) (Remote Porcedure Call)
+                * [DNS](./Network/Application/dns/dns.md)
+                * [RPC](./Network/Application/rpc/rpc.md)
             * [Transport Layer](./Network/Transport/Transport.md)
                 * [Out of band(OOB, 帶外數據)](./Network/Transport/OOB/OOB.md)
             * Network Layer
@@ -426,16 +426,16 @@
             * [Object Diagram](./Architecture/document/object/object.md)
             * [State Diagram](./Architecture/document/state/state.md)
             * Interaction Diagram
-	        * [Activity Diagram](./Architecture/document/activity/activity.md)
-	        * [State Diagram](./Architecture/document/state/state.md)
-	        * [Communication Diagram](./Architecture/document/communication/communication.md)
-	        * [Sequence Diagram](./Architecture/document/sequence/sequence.md)
-	        * [Timing Diagram](./Architecture/document/timing/timing.md)
-	        * [Interaction Overview Diagram](./Architecture/document/interaction/interaction.md)
-        	* [Package Diagram](./Architecture/document/package/package.md)
-        	* [Component Diagram](./Architecture/document/component/component.md)
-        	* [Deployment Diagram](./Architecture/document/deployment/deployment.md)
-	        * [Use-case Diagram](./Architecture/document/usecase/usecase.md)
+            * [Activity Diagram](./Architecture/document/activity/activity.md)
+            * [State Diagram](./Architecture/document/state/state.md)
+            * [Communication Diagram](./Architecture/document/communication/communication.md)
+            * [Sequence Diagram](./Architecture/document/sequence/sequence.md)
+            * [Timing Diagram](./Architecture/document/timing/timing.md)
+            * [Interaction Overview Diagram](./Architecture/document/interaction/interaction.md)
+            * [Package Diagram](./Architecture/document/package/package.md)
+            * [Component Diagram](./Architecture/document/component/component.md)
+            * [Deployment Diagram](./Architecture/document/deployment/deployment.md)
+            * [Use-case Diagram](./Architecture/document/usecase/usecase.md)
         * [Architecture Tradeoff Analyse Method](./Architecture/ATAM/ATAM.md)
     * [Project Management](./projectManagement/projectManagement.md)
         * [Introduction](./projectManagement/introduction/introduction.md)
@@ -458,13 +458,13 @@
         * [A successful Git branching model](./git/model/model.md)
     * [Video & Image](./vi/vi.md)
         * [OpenCV](./vi/opencv/opencv.md)
-- Designer
+* Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
         * Awards
     * [WeByDo](http://www.webydo.com/)
     * [Falcoon](./falcoon/falcoon.md)
-- Posts
+* Posts
     * [Posts](./post/post.md)
         * Common Posts
             * [[轉載] 5 Reasons Why Your Startup Needs a Security Consultant](./post/security_consultant/security_consultant.md)
@@ -516,7 +516,7 @@
             * [[轉載] Face Morph Using OpenCV — C++ / Python](./post/face_morph/face_morph.md)
             * [[轉載] Face Swap using OpenCV ( C++ / Python )](./post/face_swap/face_swap.md)
             * [[轉載] YOLO: Real-Time Object Detection](./post/yolo/yolo.md)
-- Questions & Answer
+* Questions & Answer
     * [Q&A](./qa/qa.md)
         * Common QA
             * [How to use browser better](./qa/better_browser.md)
@@ -568,7 +568,7 @@
             * [How to calculate the size of an iFrame](./qa/iframe_size.md)
             * [How to detect IE version with JavaScript](./qa/detect_ie.md)
             * [How to calculate the width of a scrollbar in browsers](./qa/scrollbar_width.md)
-            * [How to hide input&lsqb;file&rsqb; in IE8](./qa/hide_inputfile_ie8.md)
+            * [How to hide input[file] in IE8](./qa/hide_inputfile_ie8.md)
             * [How to build up Android development environment when using Ionic and Cordova to build APP](./qa/android_ionic_cordova.md)
             * [How to deploy a shadowsocks server on a Vultr VPS](./qa/shadowsocks_on_vultr.md)
             * [Someting about scrolling](./qa/scroll/scroll.md)
@@ -578,9 +578,9 @@
             * [Something about typesetting in CSS](./qa/typesetting_css.md)
             * [Differences between link and import](./qa/difference_between_link_and_import.md)
             * [Differences between Cookie, localStorage, and sessionStorage](./qa/difference_between_storage.md)
-            * [What's the difference between tilde(`~`) and caret(`^`) in package.json?](./qa/tlide_and_caret.md)
+            * [What's the difference between tilde(~) and caret(^) in package.json?](./qa/tlide_and_caret.md)
             * [What's new in HTML5](./qa/what_new_html5.md)
-        *  Back-end
+        * Back-end
             * [How to solve the lib problem when using xampp to shell_exec c++ files](./qa/xamppcpp.md)
             * [How to add dns for a server](./qa/adddns.md)
             * [How to enable Navicat with remote accessing database](./qa/navicateremoteaccess.md)
@@ -603,18 +603,18 @@
             * [How to detect squares in an image with OpenCV](./qa/detectSquares.md)
             * [How to use ffmpeg in c/c++](./qa/ffmpeg_c_cpp.md)
             * [Some problems of releasing memory in C++](./qa/cppreleasing.md)
-- Idols
+* Idols
     * [Sara Soueidan](http://sarasoueidan.com/)
     * [Chris Gannon](http://blog.gannon.tv/)
     * [原デザインKenya Hara, 原研哉](http://www.ndc.co.jp/hara/en/)
-- Books
+* Books
     * Coder
-    	* [Antirez's news](./antirez/antirez.md)
-     	* [Gates Notes](http://www.gatesnotes.com/books)
-     	* [Front-End](./frontend/frontend.md)
+        * [Antirez's news](./antirez/antirez.md)
+            * [Gates Notes](http://www.gatesnotes.com/books)
+            * [Front-End](./frontend/frontend.md)
     * Designer
-    	* [Kenya Hara](./kenyahara/kenyahara.md)
-- Translation
+        * [Kenya Hara](./kenyahara/kenyahara.md)
+* Translation
     * [Translation Works](./translation/translation.md)
         * Translate
             * [Distributing React components](./translation/distributing_react_components/distributing_react_components.md)
@@ -633,7 +633,7 @@
             * [OpenCV (C++ vs Python) vs MATLAB for Computer Vision](./translation/opencv_vs_matlab/opencv_vs_matlab.md)
             * [Apollo-11](./translation/apollo_11/apollo_11.md)
             * [Google Interview University](./translation/google_interview_university/google_interview_university.md)
-            * [Styling SVG &lt;use&gt; Content with CSS](./translation/style_svg_use/style_svg_use.md)
+            * [Styling SVG <use> Content with CSS](./translation/style_svg_use/style_svg_use.md)
             * [Align SVG Icons to Text and Say Goodbye to Font Icons](./translation/align_svg/align_svg.md)
             * [React "Aha" Moments](./translation/react_aha/react_aha.md)
             * [How to Achieve Reusability with React Components](./translation/react_reusable_components/react_reusable_components.md)
@@ -645,7 +645,7 @@
         * References
             * [[轉載] 翻譯的誤區(一) 不知道把名詞轉換為動詞](./translation/misunderstand_1/misunderstand_1.md)
             * [[轉載] 翻譯的誤區(二) 認為“雅”是最高境界](./translation/misunderstand_2/misunderstand_2.md)
-- Job
+* Job
     * [Summary](./summary/summary.md)
         * Note
             * [Ffmpeg](./summary/ffmpeg/ffmpeg.md)
@@ -672,3 +672,4 @@
                 * [Secondary Development](./summary/coremail/secondary_development/secondary_development.md)
                 * [Lunkr + Coremail](./summary/coremail/lunkr_coremail/lunkr_coremail.md)
                 * [Shell for replacing files of XT3](./summary/coremail/shell_xt3_replacement/shell_xt3_replacement.md)
+
