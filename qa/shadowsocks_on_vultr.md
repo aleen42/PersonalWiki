@@ -48,7 +48,7 @@ To enhance the speed of connection, you can do more with followed steps:
 3. Modified the attribute `fast_open` with `true` in the file `/etc/shadowsocks.json`
 4. Restart the server of Shadowsocks:
     ```bash
-    
+    /etc/init.d/shadowsocks restart
     ```
 
 
