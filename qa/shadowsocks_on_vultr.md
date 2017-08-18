@@ -37,7 +37,7 @@ To enhance the speed of connection, you can do more with followed steps:
 
 1. Add the followed line into the file `/etc/rc.local`:
     ```bash
-    #/etc/rc.local
+    # /etc/rc.local
     echo 3 > /proc/sys/net/ipv4/tcp_fastopen
     ```
 2. Add the followed line into the file `/etc/sysctl.conf`:
