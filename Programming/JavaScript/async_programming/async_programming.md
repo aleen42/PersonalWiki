@@ -322,7 +322,7 @@ With knowing what they are, why are there such concepts? That's because not all 
 
 To clear the differences among Processes, Threads, and Coroutines, I have imported a table from an project, named ["Learning Asynchronous Programming"](https://github.com/lwr/learning-async).
 
-|**Processes**|**Threads**|**Coroutines**
+&nbsp;|**Processes**|**Threads**|**Coroutines**
 :---|:--------|:----------|:-------------
 overhead|Heavy|Normal Heavy|Few, which can be ignored
 occupied resources|File Descriptor / Memory|Stack|Closure
