@@ -414,7 +414,7 @@ function visitWithChildNodes() {
     var name = '';
 
     for (var count = 0; count < len; count++) {
-        name = ch[count].nodeName.
+        name = ch[count].nodeName;
     }
 
     return name;
