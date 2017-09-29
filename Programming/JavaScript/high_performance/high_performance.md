@@ -27,3 +27,7 @@ Even if, Chrome with V8 engine, and other later engines have improved that situa
 ### Testing
 
 - [**Tools**](./tools/tools.md)
+
+### Advanced
+
+- [**Virtual DOM**](./virtual_dom/virtual_dom.md)

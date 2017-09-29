@@ -246,6 +246,8 @@
                             * [Building and Deploying](./Programming/JavaScript/high_performance/building_and_deploying/building_and_deploying.md)
                         * Testing
                             * [Tools](./Programming/JavaScript/high_performance/tools/tools.md)
+                        * Advanced
+                            * [Virtual DOM](./Programming/JavaScript/high_performance/virtual_dom/virtual_dom.md)
                     * [ES6 features](./Programming/JavaScript/es6/es6.md)
                         * [Block Scope](./Programming/JavaScript/es6/block_scope/block_scope.md)
                         * [Arrow Functions](./Programming/JavaScript/es6/arrow_functions/arrow_functions.md)
