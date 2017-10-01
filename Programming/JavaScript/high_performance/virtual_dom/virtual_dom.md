@@ -111,7 +111,7 @@ function getKeyFrom(node) {
  */
 export function patch(parent, element, oldNode, node) {
     if (oldNode == null) {
-        /** if there is no any stored nodes with old data, then create one */
+        /** if there are no stored nodes with old data, then create one */
         element = parent.insertBefore(createElementFrom(node), element)
     } else if (node.tag && node.tag === oldNode.tag) {
         /** if tag name has not changed */
@@ -190,7 +190,7 @@ export function patch(parent, element, oldNode, node) {
             i++
         }
         
-        /** if the virtual DOM node of reusable children is no need by the new element, then remove it */
+        /** if the virtual DOM node of reusable children is not needed by the new element, then remove it */
         for (var i in reusableChildren) {
             var reusableChild = reusableChildren[i]
             var reusableNode = reusableChild[1]
