@@ -77,10 +77,11 @@ console.log(b);         /** => 3        */
 #### Simple example
 
 ```js
-var { m, n } = { p: 42, q: true };
+/** should match the key name */
+var { p, q } = { p: 42, q: true };
 
-console.log(m);         /** => 42       */
-console.log(n);         /** => true     */
+console.log(p);         /** => 42       */
+console.log(q);         /** => true     */
 
 /** use a new variable name */
 var { p: foo, q: bar } = { p: 42, q: true };
