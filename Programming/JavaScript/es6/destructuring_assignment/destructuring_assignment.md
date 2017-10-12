@@ -59,7 +59,7 @@ function f() {
 var [a, b] = f();
 ```
 
-Of course, you can ignroe some return value like this:
+Of course, you can ignore some return value like this:
 
 ```js
 function f() {
