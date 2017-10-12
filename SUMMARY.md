@@ -458,6 +458,7 @@
         * [Patch](./git/patch/patch.md)
         * [Submodule](./git/submodule/submodule.md)
         * [A successful Git branching model](./git/model/model.md)
+        * [Personal Configuration](./configuration/configuration.md)
     * [Video & Image](./vi/vi.md)
         * [OpenCV](./vi/opencv/opencv.md)
 * Designer
