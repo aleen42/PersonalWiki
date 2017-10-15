@@ -194,3 +194,6 @@ Programming/PHP/crash/example/example/Code/CampaignAction.class.php
 
 # GitBook
 _book
+
+# NPM modules
+package-lock.json
