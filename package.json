@@ -1,0 +1,22 @@
+{
+  "name": "personalwiki",
+  "version": "1.0.0",
+  "description": "<a href=\"https://aleen42.github.io/PersonalWiki/\" target=\"_blank\"><img src=\"./cover_read.png\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleen42/PersonalWiki.git"
+  },
+  "author": "aleen42 <aleen42@vip.qq.com> (https://github.com/aleen42)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleen42/PersonalWiki/issues"
+  },
+  "homepage": "https://github.com/aleen42/PersonalWiki#readme",
+  "dependencies": {
+    "gitbook-cli": "2.3.2"
+  }
+}
