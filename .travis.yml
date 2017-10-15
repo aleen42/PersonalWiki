@@ -1,10 +1,15 @@
-language: generic
-
-before_deploy: "echo (before_deploy)test;"
+language: node_js
+git:
+        depth: 999999
+node_js:
+        - "8"
+before_deploy: "node ./node_modules/gitbook-cli/bin/gitbook.js install && node ./node_modules/gitbook-cli/bin/gitbook.js build --log=debug --debug"
 deploy:
         provider: pages
         skip_cleanup: true
         github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
         on:
                 branch: master
-        local_dir: ./gh-pages/
+        local_dir: ./_book/
+        name: aleen42
+        email: aleen42@vip.qq.com
