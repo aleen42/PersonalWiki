@@ -2,7 +2,6 @@
 
 * [**Ffmpeg**](./ffmpeg/ffmpeg.md)
 * [**ImageMagick**](./imagemagick/imagemagick.md)
-* [**Server**](./server/server.md)
 * [**Docker**](./docker/docker.md)
 * [**Redis**](./redis/redis.md)
 * [**Jpush**](./jpush/jpush.md)
