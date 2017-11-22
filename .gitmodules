@@ -1,0 +1,4 @@
+[submodule "gh-pages"]
+	path = gh-pages
+	url = git@github.com:aleen42/PersonalWiki.git
+	branch = gh-pages
