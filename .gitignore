@@ -192,8 +192,5 @@ Programming/PHP/crash/example/example/Code/CampaignAction.class.php
 # IDEA
 .idea
 
-# GitBook
-_book
-
 # NPM modules
 package-lock.json
