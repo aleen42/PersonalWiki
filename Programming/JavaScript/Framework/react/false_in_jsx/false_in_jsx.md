@@ -2,7 +2,7 @@
 
 In React, `false` renders different things in different situation:
 
-as `id="false`:
+as `id="false"`:
 
 {%ace edit=false, lang='jsx', theme='tomorrow'%}
 ReactDOM.render(
@@ -29,4 +29,4 @@ ReactDOM.render(
 );
 {%endace%}
 
-The reason why this one doesn't render as the string `"false"` as a `div` child is to allow the more common use-case: `<div>{x > 1 && 'You have more than one item'}</div>`.
+The reason why this one does not render as the string `"false"` or as a `div` child is to allow the more common use-case: `<div>{x > 1 && 'You have more than one item'}</div>`.
