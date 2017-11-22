@@ -9,7 +9,7 @@
     * [Programming Language](./Programming/ProgrammingMenu.md)
         * [C/C++](./Programming/c/c.md)
             * [cJSON](./Programming/c/CJson/CJson.md)
-            * [conversion between string, char*, const char*](./qa/Programming/c/conversion_of_str/conversion_of_str.md)
+            * [conversion between string, char*, const char*](./Programming/c/conversion_of_str/conversion_of_str.md)
         * [C#](./Programming/CSharp/CSharpMenu.md)
             * [Args](./Programming/CSharp/Args/Args.md)
             * [BitOperation](./Programming/CSharp/BitOperation/BitOperation.md)
@@ -356,13 +356,15 @@
             * [The laws of Elegance](./Thought/elegant/elegant.md)
             * The laws of Simplicity
         * Life
-            * [Recruitment for start-up companies](./recruitment/recruitment.md)
+            * [Recruitment for start-up companies](./Thought/recruitment/recruitment.md)
     * [Database](./Database/Database.md)
         * [Optimistic Lock & Pessimistic Lock](./Database/乐观锁与悲观锁/乐观锁与悲观锁.md)
     * [Network](./Network/Network.md)
         * [Overview](./Network/Overview/Overview.md)
         * [Coding](./Network/Coding/Coding.md)
             * [Socket](./Network/Coding/socket/socket.md)
+                * [UDP Socket Coding](./Network/Coding/socket/UDP/UDP.md)
+            	* [Original Socket Coding](./Network/Coding/socket/original/original.md)
             * [Read](./Network/Coding/read/read.md)
             * [Write](./Network/Coding/write/write.md)
             * [Close](./Network/Coding/close/close.md)
@@ -458,7 +460,7 @@
         * [Patch](./git/patch/patch.md)
         * [Submodule](./git/submodule/submodule.md)
         * [A successful Git branching model](./git/model/model.md)
-        * [Personal Configuration](./configuration/configuration.md)
+        * [Personal Configuration](./git/configuration/configuration.md)
     * [Video & Image](./vi/vi.md)
         * [OpenCV](./vi/opencv/opencv.md)
 * Designer
@@ -614,8 +616,9 @@
 * Books
     * Coder
         * [Antirez's news](./antirez/antirez.md)
-            * [Gates Notes](http://www.gatesnotes.com/books)
-            * [Front-End](./frontend/frontend.md)
+            * [75: Redis new data structure: the HyperLogLog](./antirez/75.md)
+        * [Gates Notes](http://www.gatesnotes.com/books)
+        * [Front-End](./frontend/frontend.md)
     * Designer
         * [Kenya Hara](./kenyahara/kenyahara.md)
 * Translation
@@ -666,14 +669,5 @@
             * [API Format](./summary/format/format.md)
             * [Graduation Thesis](./summary/graduation/graduation.md)
             * [GSM](./summary/gsm/gsm.md)
-                * [Architecture](./summary/architecture/architecture.md)
+                * [Architecture](./summary/gsm/architecture/architecture.md)
                 * [Protocol Stack](./summary/gsm/stack/stack.md)
-            * [Coremail](./summary/coremail/coremail.md)
-                * [Workflow](./summary/coremail/workflow/workflow.md)
-                * [The design of Coremail system](./summary/coremail/coremail_system_design/coremail_system_design.md)
-                * [The structure of providers in Coremail](./summary/coremail/coremail_providers_structure/coremail_providers_structure.md)
-                * [Deployment of Coremail system](./summary/coremail/deployment/deployment.md)
-                * [Secondary Development](./summary/coremail/secondary_development/secondary_development.md)
-                * [Lunkr + Coremail](./summary/coremail/lunkr_coremail/lunkr_coremail.md)
-                * [Shell for replacing files of XT3](./summary/coremail/shell_xt3_replacement/shell_xt3_replacement.md)
-
