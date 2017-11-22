@@ -4,7 +4,8 @@
   "description": "<a href=\"https://aleen42.github.io/PersonalWiki/\" target=\"_blank\"><img src=\"./cover_read.png\"></a>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"no test specified\""
+    "gitbook:install": "node ./node_modules/gitbook-cli/bin/gitbook.js install",
+    "gitbook:build": "node ./node_modules/gitbook-cli/bin/gitbook.js build . gh-pages --log=debug --debug"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,22 @@
   },
   "homepage": "https://github.com/aleen42/PersonalWiki#readme",
   "dependencies": {
-    "gitbook-cli": "2.3.2"
+    "gitbook": "aleen42/gitbook#3.2.0-custom",
+    "gitbook-cli": "aleen42/gitbook-cli#2.3.2-custom",
+    "gitbook-plugin-ace": "0.3.2",
+    "gitbook-plugin-advanced-emoji": "0.2.2",
+    "gitbook-plugin-fontsettings": "2.0.0",
+    "gitbook-plugin-ga": "1.0.1",
+    "gitbook-plugin-github": "2.0.0",
+    "gitbook-plugin-github-edit": "1.0.8",
+    "gitbook-plugin-highlight": "2.0.2",
+    "gitbook-plugin-livereload": "0.0.1",
+    "gitbook-plugin-lunr": "1.2.0",
+    "gitbook-plugin-page-footer": "5.3.2",
+    "gitbook-plugin-page-treeview": "2.9.7",
+    "gitbook-plugin-resources": "1.2.7",
+    "gitbook-plugin-search": "2.2.1",
+    "gitbook-plugin-sharing": "1.0.2",
+    "gitbook-plugin-theme-default": "1.0.5"
   }
 }
