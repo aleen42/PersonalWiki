@@ -296,6 +296,7 @@ pre::-webkit-resizer {
  * book summary
  */
 .book .book-summary {
+    background-color: #000;
     background-image: url(https://raw.githubusercontent.com/aleen42/PersonalWiki/master/pic/summary-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
