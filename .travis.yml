@@ -1,13 +1,14 @@
 language: node_js
 git:
-        submodules: false
         depth: 999999
 node_js:
         - "8"
 before_install:
-        - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-        - git submodule update --init --recursive
-before_deploy: "npm run gitbook:install && npm run gitbook:build"
+        - mkdir gh-pages
+        - git clone https://github.com/aleen42/PersonalWiki.git -b gh-pages gh-pages
+before_deploy:
+        - npm run gitbook:install
+        - npm run gitbook:build
 deploy:
         provider: pages
         skip_cleanup: true
