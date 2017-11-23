@@ -9,6 +9,7 @@ before_install:
 before_deploy:
         - npm run gitbook:install
         - npm run gitbook:build
+        - rm deployed* -f
 deploy:
         provider: pages
         skip_cleanup: true

@@ -90,6 +90,9 @@
             "type": "github",
             "repo": "aleen42/PersonalWiki",
             "branch": "master"
+        },
+        "lunr": {
+            "maxIndexSize": 10000000
         }
     }
 }
