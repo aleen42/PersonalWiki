@@ -11,6 +11,11 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "微软雅黑" !important;
 }
 
+.book-header h1 {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
 a {
     color: #000 !important;
     outline: none !important;
