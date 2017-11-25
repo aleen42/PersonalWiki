@@ -4,12 +4,10 @@ git:
 node_js:
         - "8"
 before_install:
-        - mkdir gh-pages
         - git clone https://github.com/aleen42/PersonalWiki.git -b gh-pages gh-pages
 before_deploy:
         - npm run gitbook:install
         - npm run gitbook:build
-        - rm deployed* -f
 deploy:
         provider: pages
         skip_cleanup: true
