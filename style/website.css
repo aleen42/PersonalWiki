@@ -534,7 +534,7 @@ iframe::-webkit-resizer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     #book-search-input {
         width: 80%;
     }
@@ -577,6 +577,23 @@ iframe::-webkit-resizer {
 
     .book.with-summary .book-body .body-inner {
         position: relative;
+    }
+
+    .book-header h1 {
+        display: block !important;
+        visibility: hidden;
+    }
+
+    .book-header h1 i {
+        visibility: visible;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -20px;
+        margin-top: -20px;
+        padding: 5px;
+        font-size: 40px;
+        color: rgba(0,0,0,0.6);
     }
 }
 
