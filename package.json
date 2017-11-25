@@ -29,7 +29,7 @@
     "gitbook-plugin-highlight": "2.0.2",
     "gitbook-plugin-livereload": "0.0.1",
     "gitbook-plugin-lunr": "aleen42/plugin-lunr#1.2.0-custom",
-    "gitbook-plugin-page-footer": "5.3.3",
+    "gitbook-plugin-page-footer": "5.3.4",
     "gitbook-plugin-page-treeview": "2.9.7",
     "gitbook-plugin-resources": "1.2.7",
     "gitbook-plugin-search": "2.2.1",

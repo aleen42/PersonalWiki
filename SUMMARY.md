@@ -475,6 +475,7 @@
             * [[轉載] 5 Reasons Why Your Startup Needs a Security Consultant](./post/security_consultant/security_consultant.md)
             * [[轉載] Optimizing images for SEO](./post/optimize_image_for_seo/optimize_image_for_seo.md)
             * [[轉載] Code Review Best Practices](./post/code_review_best_practices/code_review_best_practices.md)
+            * [[原創] An automatically deployed GitBook project](./post/auto_deployed_gitbook_projects/auto_deployed_gitbook_projects.md)
         * Front-end
             * [[轉載] 大公司裏怎麼開發和部署前端代碼](./post/frontend_code_in_big_company/frontend_code_in_big_company.md)
             * [[轉載] 前端工程 -- 基礎篇](./post/base_frontend/base_frontend.md)
