@@ -12,7 +12,7 @@
     <img alt="react" src="./react-timeline.png" width="50%"></img>
 </p>
 
-![react](https://cdn.rawgit.com/aleen42/badges/master/src/react.svg) ![react router](https://cdn.rawgit.com/aleen42/badges/master/src/router.svg) ![redux](https://cdn.rawgit.com/aleen42/badges/master/src/redux.svg)
+![react](https://aleen42.github.io/badges/src/react.svg) ![react router](https://aleen42.github.io/badges/src/router.svg) ![redux](https://aleen42.github.io/badges/src/redux.svg)
 
 ### Quick Start
 

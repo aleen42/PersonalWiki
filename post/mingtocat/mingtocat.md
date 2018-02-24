@@ -17,10 +17,10 @@
 <br />
 <br />
 
-![github](https://cdn.rawgit.com/aleen42/badges/master/src/github.svg) ![photoshop](https://cdn.rawgit.com/aleen42/badges/master/src/photoshop.svg) ![illustration](https://cdn.rawgit.com/aleen42/badges/master/src/illustrator.svg)
+![github](https://aleen42.github.io/badges/src/github.svg) ![photoshop](https://aleen42.github.io/badges/src/photoshop.svg) ![illustration](https://aleen42.github.io/badges/src/illustrator.svg)
 
 
-**Mingtocat** is a designed octocat with clothing of emperors in the Ming Dynasty, and what we saw above is one of the informal uniforms. As an open source, Mingtocat is allowed to download in any picture format: [**SVG**](https://rawgit.com/aleen42/mingtocat/master/Mingtocat.svg) | [**PNG**](https://raw.githubusercontent.com/aleen42/mingtocat/master/Mingtocat.png) | [**GIF**](https://raw.githubusercontent.com/aleen42/mingtocat/master/Mingtocat.gif), but **business using must be refused**. What the purpose of designing is to make the history of Chinese clothing known by more people all over the world.
+**Mingtocat** is a designed octocat with clothing of emperors in the Ming Dynasty, and what we saw above is one of the informal uniforms. As an open source, Mingtocat is allowed to download in any picture format: [**SVG**](https://aleen42.github.io/mingtocat/Mingtocat.svg) | [**PNG**](https://aleen42.github.io/mingtocat/Mingtocat.png) | [**GIF**](https://aleen42.github.io/mingtocat/Mingtocat.gif), but **business using must be refused**. What the purpose of designing is to make the history of Chinese clothing known by more people all over the world.
 
 According to some study, the clothing shown above arose during the later stage of the Ming. In this stage, color of the clothing was not only set as yellow, what we normally see. Not only the color, but also the usage of dermatoglyphic pattern (紋樣) has changed into various. This clothing has been designed based on the artifacts drawn in the picture, named "Ru Bi (入跸圖)". The whole clothing has been divided into five parts: the crown, the robe (袍), the inside clothing (中衣), the belt (帶), and the boots.
 
