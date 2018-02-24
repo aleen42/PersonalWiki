@@ -1,10 +1,10 @@
-## Modernizer [Back](./../Framework.md)
+## Modernizr [Back](./../Framework.md)
 
 <p align="center">
     <img src="./logo.png" width="30%" />
 </p>
 
-![modernizr](https://cdn.rawgit.com/aleen42/badges/master/src/modernizr.svg)
+![modernizr](https://aleen42.github.io/badges/src/modernizr.svg)
 
 - [**Modernizr.js**](http://modernizr.com/docs/#s1) is a small JavaScript library that detects the availability of native implementations for next-generation web technologies, i.e. **features** that stem from the **HTML5** and **CSS3**.
 - JQuery通過內置JQuery.browser,可以返回瀏覽器版本. 它通過user agent來獲取瀏覽器的相關信息(JQuery1.9版本前) 

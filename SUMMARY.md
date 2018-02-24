@@ -30,7 +30,7 @@
             * [IO](./Programming/Java/IO/IO.md)
         * [JavaScript](./Programming/JavaScript/JavaScript.md)
             * [JavaScript Framework | Library](./Programming/JavaScript/Framework/Framework.md)
-                * [Modernizer](./Programming/JavaScript/Framework/Modernizer/Modernizer.md)
+                * [Modernizr](./Programming/JavaScript/Framework/Modernizr/Modernizr.md)
                 * [Interact](./Programming/JavaScript/Framework/Interact/Interact.md)
                 * [Classie](./Programming/JavaScript/Framework/Classie/Classie.md)
                 * [Google Closure](./Programming/JavaScript/Framework/goog/goog.md)
