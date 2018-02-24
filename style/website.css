@@ -112,6 +112,8 @@ a.navigation,
 /** book search */
 /** engine 3.0.3 */
 #book-search-input {
+    /** disable temporarily */
+    display: none;
     margin-bottom: 0 !important;
     position: fixed;
     width: 25%;
@@ -309,7 +311,7 @@ pre::-webkit-resizer {
     border: none !important;
     box-shadow: -8px 6px 18px #000 inset;
     left: -25%;
-    margin-top: 51px;
+    margin-top: 0;
     width: 25%;
 }
 
@@ -699,4 +701,9 @@ p.comments-section:first-child + span.mjx-chtml {
 blockquote {
     color: #999 !important;
     border-left: 2px solid #a10000 !important;
+}
+
+/** disable search */
+#book-search-results .search-results {
+    display: none;
 }
