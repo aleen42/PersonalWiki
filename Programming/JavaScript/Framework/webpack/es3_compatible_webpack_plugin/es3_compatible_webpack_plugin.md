@@ -116,7 +116,10 @@ To handle the other illegal expression, we can use the defined node, `AST_Array`
 ```js
 if (node instanceof UglifyJS.AST_Array
     && node.elements.length
-    && source.substring(node.elements[node.elements.length - 1].end.endpos, node.end.endpos).indexOf(',') > -1
+    && source.substring(
+        node.elements[node.elements.length - 1].end.endpos,
+        node.end.endpos
+    ).indexOf(',') > -1
 ) {
     /** trailing commas */
 }
@@ -127,14 +130,23 @@ Oops, we have forgotten that the comma also can be placed in a comment. Therefor
 ```js
 if (node instanceof UglifyJS.AST_Array
     && node.elements.length
-    && source.substring(node.elements[node.elements.length - 1].end.endpos, node.end.endpos).indexOf(',') > -1
+    && source.substring(
+        node.elements[node.elements.length - 1].end.endpos,
+        node.end.endpos
+    ).indexOf(',') > -1
 ) {
     if (!node.end.comments_before.length) {
         /** trailing commas "[1, 2,]"*/
     } else {
-        if (source.substring(node.elements[node.elements.length - 1].end.endpos, node.end.comments_before[0].pos).indexOf(',') > -1) {
+        if (source.substring(
+            node.elements[node.elements.length - 1].end.endpos,
+            node.end.comments_before[0].pos
+        ).indexOf(',') > -1) {
             /** trailing commas "[1, 2, // comments]" */
-        } else if (source.substring(node.end.comments_before[0].endpos, node.end.endpos).indexOf(',') > -1) {
+        } else if (source.substring(
+            node.end.comments_before[0].endpos,
+            node.end.endpos
+        ).indexOf(',') > -1) {
             /**
             * trailing commas
             * "[
