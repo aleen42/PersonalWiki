@@ -16,3 +16,7 @@
 ### APIs
 
 - [**Loader**](./loader/loader.md)
+
+### Advanced
+
+- [**ES3-Compatible Webpack Plugin**](./es3_compatible_webpack_plugin/es3_compatible_webpack_plugin.md)

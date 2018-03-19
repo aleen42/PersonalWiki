@@ -119,6 +119,8 @@
                         * [Webpack + Font Awesome](./Programming/JavaScript/Framework/webpack/webpack_and_fa/webpack_and_fa.md)
                     * APIs
                         * [Loader](./Programming/JavaScript/Framework/webpack/loader/loader.md)
+                    * Advanced
+                        * [ES3-Compatible Webpack Plugin](./Programming/JavaScript/Framework/webpack/es3_compatible_webpack_plugin/es3_compatible_webpack_plugin.md)
                 * [Redux](./Programming/JavaScript/Framework/redux/redux.md)
                     * [Introduction](./Programming/JavaScript/Framework/redux/introduction/introduction.md)
                     * Basics
