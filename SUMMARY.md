@@ -1,7 +1,6 @@
 # Summary
 
 * [About](./README.md)
-* [Traffic](./traffic.md)
 * [MIT](./MIT.md)
 * [Hacker](./hacker.md)
 * [Contribution](./contribution.md)
