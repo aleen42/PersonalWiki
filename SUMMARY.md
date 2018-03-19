@@ -261,6 +261,7 @@
                     * [Event Loops](./Programming/JavaScript/events_loop/events_loop.md)
                     * [Unit Tests](./Programming/JavaScript/unit_tests/unit_tests.md)
                     * [Asynchronous Programming](./Programming/JavaScript/async_programming/async_programming.md)
+        * [TypeScript](./Programming/TypeScript/TypeScript.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
