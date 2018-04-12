@@ -243,7 +243,7 @@ As we analyzed how to convert into CPS, there are two main features of CPS:
     
 When it comes to the question whether we should use it, the answer is always that it depends.
     
-**Pros**|**Cons**
+Pros|Cons
 :-------|:-------
 Control of flows|Callback Hell
 Without using `while/for`, `try/catch`, and even `return`|Exposed API, which is hard to maintain
@@ -290,12 +290,14 @@ get('/foo').then((data1, error) => {
 };
 ```
 
-Or how about using Async/Await supported by ES7?
+Or how about using Async/Await supported by ES7? (*Note: `await` statement only works for Promise object*)
 
 ```js
 function get(url) {
-    /** requesting some data */
-    return data;
+    return new Promise((resolve, reject) => {
+        /** request some data */
+        resolve(data, error);
+    });
 }
 
 (async function () {
@@ -310,7 +312,53 @@ function get(url) {
 })();
 ```
 
-Wow, both of them can eliminate the disgusting nested structure.
+Wow, both of them can eliminate the disgusting nested structure. Sometimes, any callback function can be converted into Async/Await style, by wrapping them with `Promise`, even if the function is not used for requesting data. For instance, I have made some callback function like `UI.confirm` before, which actually was an alerted box for asking for users' confirmation, with following snippet:
+
+```js
+UI.confirm = (message, callback) => {
+    return new ConfirmBox({
+        message,
+        onConfirm: callback,
+    });
+};
+```
+
+This can leading us falling in the situation of disgusting nested structure easily, when requiring sequential confirmations:
+
+```js
+UI.confirm('first confirmation', () => {
+    /** calling callback when first confirmation */
+    /** ... */
+    UI.confirm('second confirmation', () => {
+        /** ... callback hell */
+    });
+});
+```
+
+As same as what I metioned above, Async/Await combined with `Promise` can easily resolve this problem:
+
+```js
+UI.confirm = message => {
+    return new Promise((resolve, reject) => {
+        new ConfirmBox({
+            message,
+            onConfirm: resolve.bind(null, true), /** always resolve without rejection */
+        });
+    });
+};
+```
+
+Then, when meeting with sequential confirmations, don't worry, be happy!
+
+```js
+async () => {
+    await UI.confirm('first confirmation');
+    /** calling callback when first confirmation */
+    /** ... */
+    await UI.confirm('second confirmation');
+    /** ... wow */
+};
+```
 
 ### 4. Coroutines
 
@@ -322,7 +370,7 @@ With knowing what they are, why are there such concepts? That's because not all 
 
 To clear the differences among Processes, Threads, and Coroutines, I have imported a table from an project, named ["Learning Asynchronous Programming"](https://github.com/lwr/learning-async).
 
-&nbsp;|**Processes**|**Threads**|**Coroutines**
+&nbsp;|Processes|Threads|Coroutines
 :---|:--------|:----------|:-------------
 overhead|Heavy|Normal Heavy|Few, which can be ignored
 occupied resources|File Descriptor / Memory|Stack|Closure
