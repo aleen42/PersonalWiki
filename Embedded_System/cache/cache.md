@@ -19,6 +19,7 @@
 - 從內到外, 訪問速度越來越慢, 存儲容量越來越大.
 
 ## Address Mapping(地址映射)
+
 - 地址映射指**內存地址**映射到**Cache地址**.
 - 如果Cache有**Cb**塊, 主存有**Mb**塊, 則映射關係共有Cb*Mb種.
 
@@ -86,9 +87,9 @@
 
 <img src="./read_consistent.png">
 
-- 1. 外部master更新內存數據
-- 2. 數據更新到Cache中
-- 3. Core讀到更新的數據
+1. 外部master更新內存數據
+2. 數據更新到Cache中
+3. Core讀到更新的數據
 
 ### 2. 寫一致性問題
 

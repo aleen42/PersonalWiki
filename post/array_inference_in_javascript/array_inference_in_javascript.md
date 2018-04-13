@@ -132,10 +132,11 @@ Object.prototype.toString() 为何能返回这样类型的字符串？
 
 ECMA-262：
 
-> Object.prototype.toString( ) When the toString method is called, the following steps are taken: 
-1. Get the [[Class]] property of this object. 
-2. Compute a string value by concatenating the three strings "[object ", Result (1), and "]". 
-3. Return Result (2)
+> Object.prototype.toString( ) When the toString method is called, the following steps are taken:
+
+> 1. Get the [[Class]] property of this object.
+> 2. Compute a string value by concatenating the three strings "[object ", Result (1), and "]".
+> 3. Return Result (2)
 
 上面的规范定义了 Object.prototype.toString 的行为：首先，取得对象的一个内部属性[[Class]]，然后依据这个属性，返回一个类似于 "[object Array]" 的字符串作为结果（[[]]用来表示语言内部用到的、外部不可直接访问的属性，称为 "内部属性"）。利用这个方法，再配合 call，我们可以取得任何对象的内部属性 [[Class]]，然后把类型检测转化为字符串比较，以达到我们的目的。还是先来看看在 ECMA 标准中 Array 的描述吧：
 

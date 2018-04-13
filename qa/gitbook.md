@@ -15,7 +15,7 @@
 
 #### How to use Gitbook
 
-1. Gitbook has supported GUI editor for Linux, Mac and Windows. For convenience, it's recommended to use it for your writting. [**Here**](https://www.gitbook.com/editor) is the download link.
+Gitbook has supported GUI editor for Linux, Mac and Windows. For convenience, it's recommended to use it for your writting. [**Here**](https://www.gitbook.com/editor) is the download link.
     - you can see the interface as follow:
     - the option **GITBOOK.COM** is to show your remote books on the Gitbook server. In **LOCAL LIBRARY**, you can find out your local projects cloned from the remote server.
 

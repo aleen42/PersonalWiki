@@ -1,4 +1,5 @@
-##ATAM (Architecture Tradeoff Analyse Method, 架構權衡分析法) [Back](./../Architecture.md)
+## ATAM (Architecture Tradeoff Analyse Method, 架構權衡分析法) [Back](./../Architecture.md)
+
 - 評價軟件體系結構初稿是否滿足需求.
 - ATAM更多強調質量屬性的評估, 其主要目標是為了識別風險, 分析設計, 明確權衡點並寫入文檔.
 - 權衡(Tradeoff): 指多個質量屬性之間的取捨, 從而滿足需求.
@@ -16,11 +17,14 @@
 		- 為了達到**性能**要求, 不得不在底層通信組件中使用彙編語言, 但此組件不再具有**移植性**
 
 ### 1. Purpose of ATAM
-1. 引導涉眾發現系統中的權衡點, 風險等信息:
-	- helps stakeholders to **ask the right questions** to discover potentially **problematic** architectural decisions.
-	- discovered **risks** can be made the focus of mitigation(緩解) activities.
-	- **tradeoffs** can be explicitly identified and documented.
-2. 如果能預知風險, 則可在後期加以注意和控制
+
+i. 引導涉眾發現系統中的權衡點, 風險等信息:
+
+- helps stakeholders to **ask the right questions** to discover potentially **problematic** architectural decisions.
+- discovered **risks** can be made the focus of mitigation(緩解) activities.
+- **tradeoffs** can be explicitly identified and documented.
+
+ii. 如果能預知風險, 則可在後期加以注意和控制
 
 ### 2. Benefits
 
@@ -38,11 +42,11 @@
 	- 成立核心的評估小組(包含多方面的角色)
 - Phase1: 技术评估(Technical Evaluation)
 	- 以技術方面的涉眾為基礎, 對體系結構進行技術性評估
-    	1. Present the ATAM: 讓各方瞭解ATAM的基本內容
-    	2. Present business drivers: 讓客戶描述系統的商業目標
-    	3. Present architecture: 讓Architect展示體系結構的概要, 架構師, 項目經理和市場代表一起描述此系統帶來的價值
-    	4. Identify architectural approaches: 確認體系結構中對實現質量需求產生決定作用的部分
-    	5. Generate quality attribute utility tree: 畫出效用樹來理清質量屬性要求.
+    	- Present the ATAM: 讓各方瞭解ATAM的基本內容
+    	- Present business drivers: 讓客戶描述系統的商業目標
+    	- Present architecture: 讓Architect展示體系結構的概要, 架構師, 項目經理和市場代表一起描述此系統帶來的價值
+    	- Identify architectural approaches: 確認體系結構中對實現質量需求產生決定作用的部分
+    	- Generate quality attribute utility tree: 畫出效用樹來理清質量屬性要求.
     		- (H, H): (重要程度, 實現難度)
     			- L: LOW
     			- M: MIDDLE
@@ -58,7 +62,7 @@
     			- Exploratory(探究性) Scenarios: **unanticipated stresses** to the system
     				- Half of the servers go down during normal operation without affecting overall system availability.
 	       <img src="./utility_tree.png">
-	    6. Analyse Architectural Approaches
+	    - Analyse Architectural Approaches
     		- 找到可以滿足最高優先級質量需求的體系結構設計方法
     		- 針對場景(H, H), 詢問與質量屬性密切相關的問題
     		- 確認四要素(風險, 非風險, 關鍵點和權衡點)
@@ -66,12 +70,12 @@
 - Phase 2: 以涉眾(Stakeholders)為中心
 	- 探討出Stakeholder對第一階段結果不同的意見
 	- Recap Phase1
-    	1. Brainstorm and prioritize scenarios
+    	- Brainstorm and prioritize scenarios
     		- 通過頭腦風暴, 對質量屬性進行投票, 並決定每個Scenario的(H, H)標籤
     		- 每人 (0.3 * #Scenarios) 的票
-    	2. Analyse architectural approaches
+    	- Analyse architectural approaches
     		- 分析從上一步所決定的Scenario對體系結構的影響
-    	3. Present results
+    	- Present results
     		- 概括和總結ATAM的所有步驟
 - Phase 3: 為客戶撰寫最終的報告
 

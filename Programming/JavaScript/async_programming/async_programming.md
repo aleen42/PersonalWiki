@@ -73,8 +73,9 @@ add(a, b, function (sum) {
 
 For any code with direct style, we can convert it into corresponding CPS mechanically, like applying a mathematical theory. In the following case, we will implement a task that loads the avatar image from a user. The main process is:
 
-1. loading profile according to the user id and then 
-2. loading avatar images according to the profile
+i. loading profile according to the user id
+
+ii. loading avatar images according to the profile
 
 ```js
 function loadProfile(id) {
@@ -97,35 +98,40 @@ var image = loadAvatarImage(1);
 
 As we can see, this is a common way to do the task, which belongs to the direct style. To convert it into CPS, we should follow these several steps:
 
-1. implement each function again with accepting a callback function as a last argument:
-    ```js
-    function loadProfile(id, callback) {
-        /** calculating ... */
-        callback(profile);
-    }
-    
-    function loadImage(url, callback) {
-        /** calculating ... */
-        callback(image);
-    }
-    ```
-2. changing the process of loading by passing callback functions and pass the final result to the accepted callback function:
-    ```js
-    function loadAvatarImage(id, callback) {
-        loadProfile(id, function (profile) {
-            loadImage(profile.imageUrl, function (image) {
-                callback(image);
-            });
+i. implement each function again with accepting a callback function as a last argument:
+
+```js
+function loadProfile(id, callback) {
+    /** calculating ... */
+    callback(profile);
+}
+
+function loadImage(url, callback) {
+    /** calculating ... */
+    callback(image);
+}
+```
+
+ii. changing the process of loading by passing callback functions and pass the final result to the accepted callback function:
+
+```js
+function loadAvatarImage(id, callback) {
+    loadProfile(id, function (profile) {
+        loadImage(profile.imageUrl, function (image) {
+            callback(image);
         });
-    }
-    ```
-3. call it by passing a callback function to handle the returned result:
-    ```js
-    var image;
-    loadAvatarImage(1, function (img) {
-        image = img;
     });
-    ```
+}
+```
+
+iii. call it by passing a callback function to handle the returned result:
+
+```js
+var image;
+loadAvatarImage(1, function (img) {
+    image = img;
+});
+```
 
 Now then, since we have used callback function to handle the result, we don't need to wait for the assignment anymore, and we can just continue to let the code to do anything else.
 
@@ -147,44 +153,49 @@ for (var i = 0, len = ids.length; i < len; i++) {
 
 In the case of such a loop flow, we can also convert them into CPS by stepping as followed:
 
-1. generate a recursive function for the loop flow:
-    ```js
-    function loopToLoad(i, arr) {
-        if (i < arr.length) {
-            loopToLoad(i + 1, arr);
-        } else {
-            console.log('done');
-        }
-        
-        loadAvatarImage(i, function (img) {
-            images[i] = img;
-        });
-    }
-    ```
-2. creating forEach-like function by extracting `visitor`, and `done`:
-    ```js
-    function forEachLoad(i, arr, visitor, done) {
-        if (i < arr.length) {
-            visitor(arr[i], i, function () {
-                forEachLoad(i + 1, arr, next, done);
-            });
-        } else {
-            done();
-        }
-    }
-    ```
-3. passing two types of callback functions:
-    ```js
-    forEachLoad(0, ids, function (item, index, next) {
-        loadAvatarImage(index, function (img) {
-            images[index] = img;
-        });
-        
-        next();
-    }, function () {
+i. generate a recursive function for the loop flow:
+
+```js
+function loopToLoad(i, arr) {
+    if (i < arr.length) {
+        loopToLoad(i + 1, arr);
+    } else {
         console.log('done');
+    }
+
+    loadAvatarImage(i, function (img) {
+        images[i] = img;
     });
-    ```
+}
+```
+
+ii. creating forEach-like function by extracting `visitor`, and `done`:
+
+```js
+function forEachLoad(i, arr, visitor, done) {
+    if (i < arr.length) {
+        visitor(arr[i], i, function () {
+            forEachLoad(i + 1, arr, next, done);
+        });
+    } else {
+        done();
+    }
+}
+```
+
+iii. passing two types of callback functions:
+
+```js
+forEachLoad(0, ids, function (item, index, next) {
+    loadAvatarImage(index, function (img) {
+        images[index] = img;
+    });
+
+    next();
+}, function () {
+    console.log('done');
+});
+```
 
 Wow, awesome for loops without worrying about the large size of an array!
 
@@ -210,24 +221,27 @@ try {
 
 Convert it into CPS:
 
-1. complete the function again by extracting `success`, and `failure`:
-    ```js
-    function div(dividend, divisor, success, failure) {
-        if (divisor === 0) {
-            failure(Error('Division by zero'));
-        } else {
-            success(dividend / divisor);
-        }
+i. complete the function again by extracting `success`, and `failure`:
+
+```js
+function div(dividend, divisor, success, failure) {
+    if (divisor === 0) {
+        failure(Error('Division by zero'));
+    } else {
+        success(dividend / divisor);
     }
-    ```
-2. passing two callback functions:
-    ```js
-    div(1, 0, function (result) {
-        console.log(result);
-    }, function (e) {
-        console.log(e);
-    });
-    ```
+}
+```
+
+ii. passing two callback functions:
+
+```js
+div(1, 0, function (result) {
+    console.log(result);
+}, function (e) {
+    console.log(e);
+});
+```
 
 #### 2.3 Features
 
