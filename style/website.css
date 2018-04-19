@@ -501,8 +501,11 @@ iframe::-webkit-resizer {
     opacity: 0.4;
 }
 
+.body-body h1::after,
 .book-body h2::after {
-    width: 100%;
+    width: 85%;
+    position: absolute;
+    right: 0;
 }
 
 .book-body h3::after {
@@ -705,4 +708,13 @@ blockquote {
 /** disable search */
 #book-search-results .search-results {
     display: none;
+}
+
+.markdown-section table {
+    display: block !important;
+}
+
+.markdown-section h1,
+.markdown-section h2 {
+    text-align: right;
 }
