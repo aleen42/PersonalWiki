@@ -395,8 +395,8 @@ pending|/|block / wakeup|suspend / resume
 
 ### 5. References
 
-- [1] ["By example: Continuation-passing style in JavaScript"](http://matt.might.net/articles/by-example-continuation-passing-style/)
-- [2] ["解读Promise & Async Functions & Koa@v2"](https://github.com/SamHwang1990/blog/issues/10)
-- [3] ["Learning Asynchronous Programming"](https://github.com/lwr/learning-async)
-- [4] ["Coroutine"](https://en.wikipedia.org/wiki/Coroutine)
-- [5] ["Continuation-passing style"](https://en.wikipedia.org/wiki/Continuation-passing_style)
+- ["By example: Continuation-passing style in JavaScript"](http://matt.might.net/articles/by-example-continuation-passing-style/)
+- ["解读Promise & Async Functions & Koa@v2"](https://github.com/SamHwang1990/blog/issues/10)
+- ["Learning Asynchronous Programming"](https://github.com/lwr/learning-async)
+- ["Coroutine"](https://en.wikipedia.org/wiki/Coroutine)
+- ["Continuation-passing style"](https://en.wikipedia.org/wiki/Continuation-passing_style)
