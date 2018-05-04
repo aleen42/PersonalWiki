@@ -23,6 +23,7 @@ JavaScript|To specify the behavior of web pages.
 * [Lexical Structure](./Lexical/Lexical.md)
 * [Types, Values, and Variables](./Type/Type.md)
 * [Array](./array/array.md)
+* [Object](./object/object.md)
 * [Regular Expressions](./regular/regular.md)
 * [Data Structure](./data_structure/data_structure.md)
 * [Parameters Passing](./parameter/parameter.md)

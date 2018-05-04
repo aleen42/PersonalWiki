@@ -279,7 +279,7 @@ to access like `window.location.href`. Each time a dot is encountered, the JavaS
 
 In some cases, we will use `[]` to access members of an object. Here is a point we should know:
 
-> In most browsers, there is no discernible(明顯的) difference between using `[]` notation and `.` notation.  However, in Safari, `.` notation is consistently faster than using `[]`.
+> In most browsers, there is no discernible(明顯的) difference between using `[]` notation and `.` notation. However, in Safari, `.` notation is consistently faster than using `[]`.
 
 #### 2.4 Caching Object Member Values
 

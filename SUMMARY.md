@@ -203,6 +203,7 @@
                     * [Array](./Programming/JavaScript/array/array.md)
                         * [How to detect whether an object is an array](./Programming/JavaScript/array/array_detection/array_detection.md)
                         * [Methods of an array](./Programming/JavaScript/array/array_methods/array_methods.md)
+                    * [Object](./Programming/JavaScript/object/object.md)
                     * [Regular Expressions](./Programming/JavaScript/regular/regular.md)
                         * [Basic Skills](./Programming/JavaScript/regular/basic_skills/basic_skills.md)
                         * [Programming with Regular Expression](./Programming/JavaScript/regular/programming/programming.md)

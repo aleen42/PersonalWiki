@@ -1,6 +1,6 @@
 ## Array [Back](./../JavaScript.md)
 
-In JavaScript, you can use a object literal or a class name to implicitly or explicitly to create an array object:
+In JavaScript, you can use a literal or a class name to create an array object:
 
 * Object Literal:
 
