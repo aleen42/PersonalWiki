@@ -166,3 +166,24 @@ element.rotateX = '45deg';
 ```
 
 Quite elegant, right?
+
+### 2. Loops
+
+As a common sense, if we want to loop all members of an object in JavaScript, we cannot use some standard methods like `Array.prototype.forEach()`, which has been defined after ECMAScript 5.1 (ECMA-262). Sometimes, `for...in` is an alternative, but what if I want to access like an array? The answer is using `Object.entries()` to convert an object into an array:
+
+```js
+const Objects = {
+    forEach: (obj, fn) => Object.entries(obj).forEach(([index, item]) => fn(item, index)),
+};
+
+Object.prototype.forEach = function (fn) {
+    Objects.forEach(this, fn);
+};
+```
+
+And then, we can easily loop an object like the following snippet:
+
+```js
+Objects.forEach(obj, item => console.log(item));
+obj.forEach(item => console.log(item));
+```
