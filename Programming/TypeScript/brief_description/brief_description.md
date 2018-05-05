@@ -10,7 +10,7 @@ The first step is to install a compiling tool:
 npm i -g typescript
 ```
 
-And then, creating a new file written with TypeScript:
+And then, create a new file written with TypeScript:
 
 ```ts
 /** hello.ts */
@@ -21,7 +21,7 @@ function hello(name) {
 console.log(hello('aleen'));
 ```
 
-Compiling it and run it:
+Compile it and run it:
 
 ```bash
 tsc hello.ts && node hello.js
@@ -31,7 +31,7 @@ tsc hello.ts && node hello.js
 
 #### 2.1 Type Annotations
 
-TypeScript has provided us a new feature like type annotations, and we can try it here. Take the example above as another instance, `hello()` method hopes to accept a string rather than other types when it is called, and if we can use type annotations to strictly define this situation in TypeScript, the compiler should throw an error during compilation rather than auto convert the type of the parameter in JavaScript:
+TypeScript has provided us a new feature like type annotations, and we can try it here. Take the example above as another instance, `hello()` method hopes to accept a string rather than other types when it is called, and if we can use type annotations to strictly define this situation in TypeScript, the compiler should throw an error during compilation rather than automatically convert the type of the parameter in JavaScript:
 
 ```ts
 /** hello.ts */
@@ -92,7 +92,7 @@ class Student {
 }
 ```
 
-In addition, the use of `public` on arguments to the constructor is can be a shorthand that allows us to automatically create properties with the name:
+In addition, the use of `public` on arguments to the constructor is a shorthand that allows us to automatically create properties with the name:
 
 ```ts
 class Student {
