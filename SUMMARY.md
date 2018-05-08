@@ -264,6 +264,7 @@
                     * [Asynchronous Programming](./Programming/JavaScript/async_programming/async_programming.md)
         * [TypeScript](./Programming/TypeScript/TypeScript.md)
             * [Brief Descriptions](./Programming/TypeScript/brief_description/brief_description.md)
+            * [Configuration](./Programming/TypeScript/configuration/configuration.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)

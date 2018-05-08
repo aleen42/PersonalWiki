@@ -7,3 +7,4 @@ As the official said, TypeScript is a **typed** superset of JavaScript, which ca
 ### Tutorials
 
 - [**Brief Descriptions**](./brief_description/brief_description.md)
+- [**Configuration**](./configuration/configuration.md)
