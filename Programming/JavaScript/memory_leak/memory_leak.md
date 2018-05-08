@@ -27,7 +27,7 @@ When a DOM has changed, if its event listener has not be removed, IE will not ha
 </script>
 ```
 
-In such kinds of cases, you can solve by remove the listner:
+In such kinds of cases, you can solve by remove the listener:
 
 ```html
 <div id="myDiv">
@@ -198,7 +198,7 @@ function foo() {
 }
 ```
 
-More worse:
+Worse situation:
 
 ```js
 function foo() {
