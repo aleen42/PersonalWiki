@@ -3,12 +3,9 @@
     "structure": {
         "readme": "README.md"
     },
+    "title": "Aleen",
     "styles": {
-        "website": "style/website.css",
-        "ebook": "style/ebook.css",
-        "pdf": "style/pdf.css",
-        "mobi": "style/mobi.css",
-        "epub": "style/epub.css"
+        "website": "style/website.css"
     },
     "links": {
         "sidebar": {
@@ -25,7 +22,7 @@
         "page-treeview",
         "ace",
         "resources",
-        "custom-favicon"
+        "theme-aleen42"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -91,10 +88,6 @@
             "type": "github",
             "repo": "aleen42/PersonalWiki",
             "branch": "master"
-        },
-        "lunr": {
-            "maxIndexSize": 10000000
-        },
-        "favicon": "favicon.ico"
+        }
     }
 }

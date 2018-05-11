@@ -1,6 +1,6 @@
 # Summary
 
-* [About](./README.md)
+* [PersonalWiki](./README.md)
 * [MIT](./MIT.md)
 * [Hacker](./hacker.md)
 * [Contribution](./contribution.md)
