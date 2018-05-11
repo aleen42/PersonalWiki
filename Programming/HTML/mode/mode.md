@@ -12,7 +12,7 @@ Browser|HTML|CSS|Javascript
 IE|Trident|-|Chakra
 Chrome|Webkit|Webcore|V8
 Safari|Webkit|Webcore|Javascriptcore
-Firefox|Gecko|-|SpiderMonkey
+Firefox|Gecko->Servo|-|SpiderMonkey
 Opera|Presto|-|Carakan
 
 - **Quirks(怪異) Mode**: For viewing pages of old versions.
