@@ -60,7 +60,7 @@ What this effectively means is that you need to keep track of *two* separate com
 
 This gets slightly more complicated when [ruby](https://en.wikipedia.org/wiki/Ruby_character) is involved. In ideographic scripts (usually, Han and Han-based scripts like Kanji or Hanja) it's sometimes useful to have the pronunciation of each character above it in a phonetic script, for the aid of readers without proficiency in that script, and this is known as "ruby" ("furigana" in Japanese). Because these scripts are ideographic, it's not uncommon for learners to know the pronunciation of a word but have no idea how to write it. An example would be 日 本, which is 日本 ("nihon", i.e. "Japan") in Kanji with ruby にほん in the phonetic Hiragana script above it.
 
-As you can probably see, the phonetic ruby text is in a smaller font size (usually 50% of the font size of the main text ^[1](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/#fn:1)^ ). The minimum font-size support *respects* this, and ensures that if the ruby is supposed to be `50%`of the size of the text, the minimum font size for the ruby is `50%` of the original minimum font size. This avoids clamped text from looking like 日 本 (where both get set to the same size), which is pretty ugly.
+As you can probably see, the phonetic ruby text is in a smaller font size (usually 50% of the font size of the main text [<a id="fnref1" href="#fn1">1</a>] ). The minimum font-size support *respects* this, and ensures that if the ruby is supposed to be `50%`of the size of the text, the minimum font size for the ruby is `50%` of the original minimum font size. This avoids clamped text from looking like 日 本 (where both get set to the same size), which is pretty ugly.
 
 ### Text zoom
 
@@ -88,7 +88,7 @@ The style system will first parse the CSS, producing a bunch of rules usually co
 
 It then goes through the tree in top-down order (this is parallelized in Stylo), figuring out which declarations *apply* to each element and in which order -- some declarations have precedence over others. Then it will compute each relevant declaration against the element's style (and parent style, among other bits of info), and store this value in the element's "computed style".
 
-There are a bunch of optimizations that Gecko and Servo do here to avoid duplicated work ^[2](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/#fn:2)^ . There's a bloom filter for quickly checking if deep descendent selectors apply to a subtree. There's a "rule tree" that helps cache effort from determining applicable declarations. Computed styles are reference counted and shared very often (since the default state is to inherit from the parent or from the default style).
+There are a bunch of optimizations that Gecko and Servo do here to avoid duplicated work [<a id="fnref2" href="#fn2">2</a>] . There's a bloom filter for quickly checking if deep descendent selectors apply to a subtree. There's a "rule tree" that helps cache effort from determining applicable declarations. Computed styles are reference counted and shared very often (since the default state is to inherit from the parent or from the default style).
 
 But ultimately, this is the gist of what happens.
 
@@ -149,7 +149,7 @@ Quick, what's the font-size of the inner `div`?
 </div>
 ```
 
-For a normal inherited CSS property ^[3](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/#fn:3)^ , if the parent has a computed value of `16px`, and the child has no additional values specified, the child will inherit a value of `16px`. *Where* the parent got that computed value from doesn't matter.
+For a normal inherited CSS property [<a id="fnref3" href="#fn3">3</a>] , if the parent has a computed value of `16px`, and the child has no additional values specified, the child will inherit a value of `16px`. *Where* the parent got that computed value from doesn't matter.
 
 Here, `font-size` "inherits" a value of `13px`. You can see this below ([codepen](https://codepen.io/aleen42/pen/PeewXx)):
 
@@ -189,7 +189,7 @@ Another way of looking at it is whenever the font family or language changes, yo
 
 Firefox code uses both of these strategies. The original Gecko style system handles this by actually going back to the top of the tree and recalculating the font size as if the language/family were different. I suspect this is inefficient, but the rule tree seems to be involved in making this slightly more efficient
 
-Servo, on the other hand, stores some extra data on the side when computing stuff, data which gets copied over to the child element. It basically stores the equivalent of saying "Yes, this font was computed from a keyword. The keyword was `medium`, and after that we applied a factor of 0.9 to it." ^[4](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/#fn:4)^
+Servo, on the other hand, stores some extra data on the side when computing stuff, data which gets copied over to the child element. It basically stores the equivalent of saying "Yes, this font was computed from a keyword. The keyword was `medium`, and after that we applied a factor of 0.9 to it." [<a id="fnref4" href="#fn4">4</a>]
 
 In both cases, this leads to a bunch of complexities in all the *other* font-size complexities, since they need to be carefully preserved through this.
 
@@ -359,10 +359,9 @@ So there you have it. `font-size` is actually pretty complicated. A lot of the w
 
 *** ** * ** ***
 
-1. Interestingly, in Firefox, this number is 50% for all ruby *except* for when the language is Taiwanese Mandarin (where it is 30%). This is because Taiwan uses a phonetic script called Bopomofo, and each Han glyph can be represented as a maximum of 3 Bopomofo letters. So it is possible to choose a reasonable minimum size such that the ruby never extends the size of the glyph below it. On the other hand, pinyin can be up to six letters, and Hiranaga up to (I think) 5, and the corresponding "no overflow" scaling will be too tiny. So fitting them on top of the glyph is not a consideration and instead we elect to have a larger font size for better readability. Additionally, Bopomofo ruby is often set on the side of the glyph instead of on top, and 30% works better there. (h/t @upsuper for pointing this out)[↩](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/#fnref:1)
-
-2. Other browser engines have other optimizations, I'm just less familiar with them[↩](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/#fnref:2)
-
-3. Some properties are inherited, some are "reset". For example, `font-family` is inherited --- child elements inherit font family from the parent unless otherwise specified. However `transform` is not, if you transform an element that does not further transform the children.[↩](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/#fnref:3)
-
-4. This won't handle `calc`s, which is something I need to fix. Fixing this is trivial, you store an absolute offset in addition to the ratio.[↩](https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/#fnref:4)
+<ol>
+    <li id="fn1">Interestingly, in Firefox, this number is 50% for all ruby *except* for when the language is Taiwanese Mandarin (where it is 30%). This is because Taiwan uses a phonetic script called Bopomofo, and each Han glyph can be represented as a maximum of 3 Bopomofo letters. So it is possible to choose a reasonable minimum size such that the ruby never extends the size of the glyph below it. On the other hand, pinyin can be up to six letters, and Hiranaga up to (I think) 5, and the corresponding "no overflow" scaling will be too tiny. So fitting them on top of the glyph is not a consideration and instead we elect to have a larger font size for better readability. Additionally, Bopomofo ruby is often set on the side of the glyph instead of on top, and 30% works better there. (h/t @upsuper for pointing this out)<a href="#fnref1">↩</a></li>
+    <li id="fn2">Other browser engines have other optimizations, I'm just less familiar with them<a href="#fnref2">↩</a></li>
+    <li id="fn3">Some properties are inherited, some are "reset". For example, <code>font-family</code> is inherited --- child elements inherit font family from the parent unless otherwise specified. However <code>transform</code> is not, if you transform an element that does not further transform the children.<a href="#fnref3">↩</a></li>
+    <li id="fn4">This won't handle <code>calc</code>s, which is something I need to fix. Fixing this is trivial, you store an absolute offset in addition to the ratio.<a href="#fnref4">↩</a></li>
+</ol>
