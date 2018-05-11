@@ -24,7 +24,8 @@
         "page-footer",
         "page-treeview",
         "ace",
-        "resources"
+        "resources",
+        "custom-favicon"
     ],
     "pluginsConfig": {
         "disqus": {
@@ -93,6 +94,7 @@
         },
         "lunr": {
             "maxIndexSize": 10000000
-        }
+        },
+        "favicon": "favicon.ico"
     }
 }
