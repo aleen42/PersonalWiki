@@ -2,11 +2,9 @@
 
 > - Author: [Addy Osmani](https://github.com/alex)
 > - Origin: https://github.com/addyosmani
-> - Time: March, 27th, 2017
+> - Time: March 27th, 2017
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*W4_tAMHlFs6tunMxbXQjFA.png">
-
-# **Preload, Prefetch And Priorities in Chrome**
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_W4_tAMHlFs6tunMxbXQjFA.png">
 
 Today we'll dive into insights from Chrome's networking stack to provide clarity on how web loading primitives (like [**`<link rel="preload">`**](https://w3c.github.io/preload/) & [**`<link rel="prefetch">`**](https://w3c.github.io/resource-hints/)) work behind the scenes so you can be more effective with them.
 
@@ -14,7 +12,7 @@ As covered well in [other articles](https://www.smashingmagazine.com/2016/02/pre
 
 **Prefetch is a hint to the browser that a resource might be needed**, but delegates deciding whether and when loading it is a good idea or not to the browser.
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*PSMeFcC3AXDUmdNf5l19Ug.jpeg">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_PSMeFcC3AXDUmdNf5l19Ug.jpeg">
 
 Preload can decouple the load event from script parse time. If you haven't used it before, read '[Preload: What is it Good For?](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)' by Yoav Weiss
 
@@ -24,25 +22,25 @@ Before we dive into the details, here's a quick summary of some positive impact 
 
 Housing.com saw a [**~10% improvement in Time to Interactive**](https://twitter.com/HousingEngg/status/844169796891508737) when they switched to preloading key late-discovered scripts for their Progressive Web App:
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*fZH0GKzI42x7IgxKfiaddA.png">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_fZH0GKzI42x7IgxKfiaddA.png">
 
 Shopify's switch to [preloading Web Fonts](https://www.bramstein.com/writing/preload-hints-for-web-fonts.html) saw a[**50%**](https://twitter.com/ShopifyEng/status/844245243948163072) **(1.2 second) improvement in time-to-text-paint** on Chrome desktop (cable). This removed their flash-of-invisible text completely.
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1000/0*rDnsYXceRwO-xxSZ.">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./0_rDnsYXceRwO-xxSZ_.png">
 
 Left: with preload, Right: without ([video](https://video.twimg.com/tweet_video/C7dcmxaUwAAUhPX.mp4))
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1000/1*r2RiRVrghz5iDUnhBX8W1Q.png">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_r2RiRVrghz5iDUnhBX8W1Q.png">
 
 Web Font loading using <link rel="preload">
 
 Treebo, one of India's largest hotel chains **shaved** [**1 second**](https://twitter.com/__lakshya/status/844429211867791361) **off both time to First Paint and Time to Interactive** for their desktop experience over 3G, by preloading their header image and key Webpack bundles:
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*SKYdHNpGldFFUPZBDZQgSQ.png">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_SKYdHNpGldFFUPZBDZQgSQ.png">
 
 Similarly, by switching to preloading their key bundles, Flipkart [**shaved**](https://twitter.com/adityapunjani/status/844250835802619905) **a great deal of main thread idle** before route chunks get evaluated on their PWA (trace from a low-end phone over 3G):
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1000/0*QL0ztXPZ1wUXpRKX.">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./0_QL0ztXPZ1wUXpRKX_.png">
 
 Top: without preload, Bottom: with preload
 
@@ -72,7 +70,7 @@ When a resource is **preloaded or prefetched** is travels up from the net stack 
 
 Here's a break-down ([courtesy](https://docs.google.com/document/d/1bCDuq9H1ih9iNjgzyAL0gpwNFiEP4TZS-YLRp_RuMlc/edit#) of Pat Meenan) showing how different resources are prioritized in Blink as of Chrome 46 and beyond:
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1000/1*BTi3YhvCAYiJYRpjNQft9Q.jpeg">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_BTi3YhvCAYiJYRpjNQft9Q.jpeg">
 
 Preload using "as" or fetch using "type" use the priority of the type they are requesting. (e.g. preload as=style will use Highest priority). With no "as" they will behave like an XHR. "Early" is defined as being requested before any non-preloaded images have been requested ("late" is after). Thanks to Paul Irish for updating this table with the DevTools priorities mapping to the Net and Blink priorities.
 
@@ -92,11 +90,11 @@ Preloaded resources without an "as" will otherwise be requested with the same pr
 
 If you're interested in understanding what priority a resource was loaded with, this information is exposed in DevTools via both the Network section of Timeline/Performance:
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*5QsDQsYJ4ts-4Tl0_1dZwQ.png">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_5QsDQsYJ4ts-4Tl0_1dZwQ.png">
 
 and in the Network panel behind the "Priority" column:
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1000/0*26d5UlWhql2NZ0Eg.">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./0_26d5UlWhql2NZ0Eg_.png">
 
 ### What happens when a page tries to preload a resource that has already been cached in the Service Worker cache, the HTTP cache or both?
 
@@ -110,7 +108,7 @@ If the resource is in the HTTP cache (between the SW Cache & the network) then p
 
 Unused preloads trigger a console warning in Chrome, ~3 seconds after *onload:*
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1000/0*Um55iV_tEBO3eXEs.">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./0_Um55iV_tEBO3eXEs_.png">
 
 The reason for this warning is you're probably using preload to try warming the cache for other resources you need to improve performance but if these preloaded resources aren't being used, you're doing extra work for no reason. On mobile, this sums up to wasting a user's data plans, so be mindful of what you're preloading.
 
@@ -120,7 +118,7 @@ Preload and prefetch are blunt tools and it isn't hard to find yourself [double-
 
 **Don't use "prefetch" as a fallback for "preload"**. They're again, used for different purposes and often end up causing [double fetches](https://twitter.com/yoavweiss/status/824957889991303168) while this probably isn't your intention. Use preload if it's supported for warming the cache for current sessions otherwise prefetch for future sessions. Don't use one in place of the other.
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/1000/0*KKong0kz69LOteD3.">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./0_KKong0kz69LOteD3_.png">
 
 **Don't rely on fetch() working with "preload"… just yet.** In Chrome if you try to use preload with the fetch() API you will end up triggering a double download. This doesn't currently occur with XHR and we have an [open bug](https://bugs.chromium.org/p/chromium/issues/detail?id=652228) to try addressing it.
 
@@ -174,7 +172,7 @@ As with other types of links, a preload link can be specified using either an HT
 
 When the Financial Times introduced a Link preload header to their site, they **shaved **[**1 second**](https://twitter.com/wheresrhys/status/843252599902167040) **off the time it took to display the masthead image:**
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*QGUllBDRLMjdy1uawXG8EQ.jpeg">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_QGUllBDRLMjdy1uawXG8EQ.jpeg">
 
 Bottom: with preload, Top: without. **Comparison for Moto G4 over 3G:** Before: [https://www.webpagetest.org/result/170319_Z2_GFR/](https://www.webpagetest.org/result/170319_Z2_GFR/), After: [https://www.webpagetest.org/result/170319_R8_G4Q/](https://www.webpagetest.org/result/170319_R8_G4Q/)
 
@@ -208,15 +206,15 @@ For more examples like this, see *Use Cases* in this great Yoav Weiss [deck](htt
 
 **According to the HTTPArchive,** [**most**](https://twitter.com/addyosmani/status/843254667316465664) **sites using `<link rel="preload">` use it to** [**preload Web Fonts**](https://www.zachleat.com/web/preload/) , **including Teen Vogue and as mentioned earlier, Shopify:**
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*osYEtZ6gZnmstK4fpcJTrg.png">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_osYEtZ6gZnmstK4fpcJTrg.png">
 
 ***While*** [***other***](https://twitter.com/addyosmani/status/843258951110074368) ***popular sites like LifeHacker and JCPenny use it to asynchronously load CSS (via the FilamentGroup's*** [***loadCSS***](https://github.com/filamentgroup/loadCSS)):
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*BxecU2LjN-uGAW_uQgDTdw.png">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_BxecU2LjN-uGAW_uQgDTdw.png">
 
 **And then there are a growing breed of Progressive Web Apps (like Twitter.com mobile, Flipkart and Housing) using it to preload scripts that are needed for the current navigation using patterns like** [**PRPL**](https://developers.google.com/web/fundamentals/performance/prpl-pattern/):
 
-<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/2000/1*rppoHbaTTJQNVZBO4j_NAQ.png">
+<img class="progressiveMedia-noscript js-progressiveMedia-inner" src="./1_rppoHbaTTJQNVZBO4j_NAQ.png">
 
 *The basic idea there is to maintain artifacts at high-granularity (as opposed to monolithic bundles) so any facet of the app can on demand load it's dependencies or preload those that are likely to be needed next to warm up the cache.*
 
