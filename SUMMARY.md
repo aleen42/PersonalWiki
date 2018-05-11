@@ -189,7 +189,6 @@
                                 * [WebVR Boilerplate](./Programming/JavaScript/webgl/three/VR/webvr/webvr.md)
                 * Advanced
                     * [GLSL](./Programming/JavaScript/webgl/glsl/glsl.md)
-            * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
             * Categories
                 * Basics
                     * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
@@ -262,6 +261,8 @@
                     * [Event Loops](./Programming/JavaScript/events_loop/events_loop.md)
                     * [Unit Tests](./Programming/JavaScript/unit_tests/unit_tests.md)
                     * [Asynchronous Programming](./Programming/JavaScript/async_programming/async_programming.md)
+                * Http
+                    * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
         * [TypeScript](./Programming/TypeScript/TypeScript.md)
             * [Brief Descriptions](./Programming/TypeScript/brief_description/brief_description.md)
             * [Configuration](./Programming/TypeScript/configuration/configuration.md)

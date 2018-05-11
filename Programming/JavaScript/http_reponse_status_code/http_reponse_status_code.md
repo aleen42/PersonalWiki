@@ -82,7 +82,7 @@ Indicates that the server require the client to perform a temporary redirect.
 
 The response to the request can be found under another URI using a GET method. When received in response to a POST (or PUT/DELETE), the client should presume that the server has received the data and should issue a redirect with a separate GET message.
 
-#### 304 Not Modified
+#### 304 Not Modified ([Notes](https://github.com/aleen42/PersonalWiki/issues/29))
 
 Indicates that the resource has not been modified since the version specified by the request headers `If-Modified-Since` or `If-None-Match`. In such case, there is no need to retransmit(重發) the resource since the client still has a previously-downloaded copy.
 

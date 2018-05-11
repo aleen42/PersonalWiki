@@ -8,7 +8,6 @@ JavaScript is the programming language of the Web, well-suited to object-oriente
 * [**Easing Function**](./easing/easing.md)
 * [**Web APIs**](./web_api/web_api.md)
 * [**WebGL**](./webgl/webgl.md)
-* [**HTTP Response Status Code**](./http_reponse_status_code/http_reponse_status_code.md)
 
 Languages|Description
 :----:|-----
@@ -42,3 +41,7 @@ JavaScript|To specify the behavior of web pages.
 * [Event Loops](./events_loop/events_loop.md)
 * [Unit Tests](./unit_tests/unit_tests.md)
 * [Asynchronous Programming](./async_programming/async_programming.md)
+
+#### Http
+
+* [HTTP Response Status Code](./http_reponse_status_code/http_reponse_status_code.md)
