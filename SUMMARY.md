@@ -158,7 +158,6 @@
                         * [Directory and File Organization of AngularJS Applications](./Programming/JavaScript/Framework/angular/angular1/directory_and_file/directory_and_file.md)
                         * [Filtering Repeaters](./Programming/JavaScript/Framework/angular/angular1/filtering_repeaters/filtering_repeaters.md)
                         * [Two-way Data Binding](./Programming/JavaScript/Framework/angular/angular1/two_way_data_binding/two_way_data_binding.md)
-            * [Easing Function](./Programming/JavaScript/easing/easing.md)
             * [Web APIs](./Programming/JavaScript/web_api/web_api.md)
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
                 * [Worker](./Programming/JavaScript/web_api/worker/worker.md)
@@ -261,6 +260,7 @@
                     * [Event Loops](./Programming/JavaScript/events_loop/events_loop.md)
                     * [Unit Tests](./Programming/JavaScript/unit_tests/unit_tests.md)
                     * [Asynchronous Programming](./Programming/JavaScript/async_programming/async_programming.md)
+                    * [Easing Function](./Programming/JavaScript/easing/easing.md)
                 * Http
                     * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
         * [TypeScript](./Programming/TypeScript/TypeScript.md)

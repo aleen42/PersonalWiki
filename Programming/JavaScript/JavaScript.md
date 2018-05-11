@@ -5,7 +5,6 @@
 JavaScript is the programming language of the Web, well-suited to object-oriented and functional programming style. Input and output is the responsibility of the "host environment", usually means the web browser. When it comes to the style guide, I have written a book named [**JavaScript Personal Guide**](https://aleen42.gitbooks.io/javascript/content/) to style my code.
 
 * [**JavaScript Framework | Library**](./Framework/Framework.md)
-* [**Easing Function**](./easing/easing.md)
 * [**Web APIs**](./web_api/web_api.md)
 * [**WebGL**](./webgl/webgl.md)
 
@@ -41,6 +40,7 @@ JavaScript|To specify the behavior of web pages.
 * [Event Loops](./events_loop/events_loop.md)
 * [Unit Tests](./unit_tests/unit_tests.md)
 * [Asynchronous Programming](./async_programming/async_programming.md)
+* [Easing Function](./easing/easing.md)
 
 #### Http
 
