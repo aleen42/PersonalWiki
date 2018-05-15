@@ -15,25 +15,23 @@ To avoid blocking user actions, like clicking buttons, selecting text or scrolli
 
 During the process of designing a watermark component, one the most important thing is to define its parameters, mainly used for describing what watermarks should be. As for this component, I have totally define 10 parameters for it:
 
-```js
-/**
- *  -----------------------------------------
- * |   |ox: 300(px)|    |                   |   DEBUG_MODE  : debug canvas drawing calculation
- * |   |___________|      align: left       |   contents    : an array of text contents for drawing watermarks
- * |  /           /     | alpha: 0.2        |   ox          : different value at axis-x between each watermark region
- * |  -----       ----    font-size: 30     |   oy          : different value at axis-y between each watermark region
- * | ||||||\_    ||||||   font-rotate: -45° |   ow (150px)  : the width of each watermark region
- * | ||||||  |   |||||| | line-height: 1.5x |   oh (150px)  : the height of each watermark region
- * | ----- \_|oh -----                      |   font-size   : the font size of watermarks
- * | \    \      \______|                   |   font-rotate : the rotate degree of watermarks
- * | |_ow_|          |      - - - - - - - - |   line-height : line height of each content
- * |       -----     |                      |   alpha       : the opacity of contents
- * |      |||||||    |                      |   align       : the align style of contents
- * |      |||||||    | oy: 300(px)          |
- * |      ------     |                      |
- * |             \___|___                   |
- * -----------------------------------------
- */
+```
+ -----------------------------------------
+|   |ox: 300(px)|    |                   |   DEBUG_MODE  : debug canvas drawing calculation
+|   |___________|      align: left       |   contents    : an array of text contents for drawing watermarks
+|  /           /     | alpha: 0.2        |   ox          : different value at axis-x between each watermark region
+|  -----       ----    font-size: 30     |   oy          : different value at axis-y between each watermark region
+| ||||||\_    ||||||   font-rotate: -45° |   ow (150px)  : the width of each watermark region
+| ||||||  |   |||||| | line-height: 1.5x |   oh (150px)  : the height of each watermark region
+| ----- \_|oh -----                      |   font-size   : the font size of watermarks
+| \    \      \______|                   |   font-rotate : the rotate degree of watermarks
+| |_ow_|          |      - - - - - - - - |   line-height : line height of each content
+|       -----     |                      |   alpha       : the opacity of contents
+|      |||||||    |                      |   align       : the align style of contents
+|      |||||||    | oy: 300(px)          |
+|      ------     |                      |
+|             \___|___                   |
+-----------------------------------------
 ```
 
 - **contents**: a list of contents to construct the content of a watermark. For instance, if we specify `contents` with an array of "xxx" and "xxxxxxx", the watermark finally generated two lines of sentences.
@@ -62,21 +60,19 @@ CanvasRenderingContext2D interfaces has provided a method named `fillText()` for
 
 If we want to render a watermark in the center of an area, which has already been defined with four positional parameters mentioned above, there are a series of calculations to work. Here I just post the formula, and do not dig into why here, and if you have any questions for this equation, you can leave an issue in this project, or directly contact me with e-mails.
 
-```js
-/**
- *               x                 fw: textWidth
- *             x        |  fw  |   fs: fontSize
- *           x         /      /__  fh: fontSize + lineHeight * rows
- *      x  x           xxx
- *    x  x             xxxxxxx __ fh
- *  x--x----------
- *  |x    ow     x
- *  | ---------x               dx = ow/2-fw/2+ow/2*(1-cos)/cos-(oh/2+ow/2)*sin
- *  | |      x|                   = ow/2*(1-sin*cos)/cos-fw/2-oh/2*sin
- *  | | x  x  |  oh
- *  | x  x    |
- *  x -x-------                dy = (oh/2+ow/2)*sin-fh/2+fs*cos
- */
+```
+              x                 fw: textWidth
+            x        |  fw  |   fs: fontSize
+          x         /      /__  fh: fontSize + lineHeight * rows
+     x  x           xxx
+   x  x             xxxxxxx __ fh
+ x--x----------
+ |x    ow     x
+ | ---------x               dx = ow/2-fw/2+ow/2*(1-cos)/cos-(oh/2+ow/2)*sin
+ | |      x|                   = ow/2*(1-sin*cos)/cos-fw/2-oh/2*sin
+ | | x  x  |  oh
+ | x  x    |
+ x -x-------                dy = (oh/2+ow/2)*sin-fh/2+fs*cos
 ```
 
 Another POC:
@@ -94,8 +90,8 @@ According to data researched at October 13rd, 2014, all tested browsers had limi
 
 | &nbsp;               |         Chrome         |        Firefox         |        IE        |    IE Mobile     |
 |:---------------------|:----------------------:|:----------------------:|:----------------:|:----------------:|
-| Maximum height/width |   **32,767** pixels    |   **32,767** pixels    | **8,192** pixels | **4,096** pixels |
-| Maximum area         | **268,435,456** pixels | **472,907,776** pixels |       N/A        |       N/A        |
+| Maximum height/width |   32,767 pixels        |   32,767 pixels        | 8,192 pixels     | 4,096 pixels     |
+| Maximum area         | 268,435,456 pixels     | 472,907,776 pixels     |       N/A        |       N/A        |
 
 According to a [guide](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/CreatingContentforSafarioniPhone/CreatingContentforSafarioniPhone.html#//apple_ref/doc/uid/TP40006482-SW15) under section "Know iOS Resource Limits", we clearly know the following conclusion:
 
