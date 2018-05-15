@@ -1140,10 +1140,10 @@ The article has talked about how to draw in JavaScript in details, no matter SVG
 
 ### 4. Reference
 
-- [1] ["Animated Glowing Line Drawing"](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md), 2016
-- [2] ["Finding Contours of a bitmap image"](./../../Programming/JavaScript/webgl/canvas/finding_contours/finding_contours.md), 2016
-- [3] ["Drawing an SVG file"](./../../Programming/JavaScript/webgl/canvas/drawing_an_svg/drawing_an_svg.md), 2016
-- [4] ["Calibration parameters for drawing an SVG file"](./../../Programming/JavaScript/webgl/SVG/calibration_parameters/calibration_parameters.md), 2016
-- [5] ["Convert all shapes/primitives into path elements of SVG"](./../../Programming/JavaScript/webgl/SVG/convert_shapes_to_path/convert_shapes_to_path.md), 2016
-- [6] ["contour"](https://github.com/JMPerez/contour), 2015
-- [7] ["Canny edge detector"](https://en.wikipedia.org/wiki/Canny_edge_detector), Wikipedia, 2016
+1. ["Animated Glowing Line Drawing"](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md), 2016
+2. ["Finding Contours of a bitmap image"](./../../Programming/JavaScript/webgl/canvas/finding_contours/finding_contours.md), 2016
+3. ["Drawing an SVG file"](./../../Programming/JavaScript/webgl/canvas/drawing_an_svg/drawing_an_svg.md), 2016
+4. ["Calibration parameters for drawing an SVG file"](./../../Programming/JavaScript/webgl/SVG/calibration_parameters/calibration_parameters.md), 2016
+5. ["Convert all shapes/primitives into path elements of SVG"](./../../Programming/JavaScript/webgl/SVG/convert_shapes_to_path/convert_shapes_to_path.md), 2016
+6. ["contour"](https://github.com/JMPerez/contour), 2015
+7. ["Canny edge detector"](https://en.wikipedia.org/wiki/Canny_edge_detector), Wikipedia, 2016
