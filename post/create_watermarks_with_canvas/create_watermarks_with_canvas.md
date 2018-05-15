@@ -1,4 +1,4 @@
-## [轉載] How to create Watermarks with Canvas [Back](../post.md)
+## [原創] How to create Watermarks with Canvas [Back](../post.md)
 
 I have recently implemented a requirement in which we need Canvas to render watermarks in a site, and I hope to use this document to mark down how to do so, and what we should concern. For instance, as watermarks should be placed at the top of any element with a transparent background, how can we avoid its "capturing" users actions, like clicking, selecting, etc. Besides, we should also concern about how to calculate the position of each watermark, with configuring the position of its container. Certainly, the performance of Canvas is another problem, which we need to work around.
 
