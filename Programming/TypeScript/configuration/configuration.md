@@ -7,7 +7,7 @@ TypeScript uses a file called `tsconfig.json` for managing projects' options, wh
     "compilerOptions": {
         "outDir": "./build",
         "allowJs": true,
-        "target": "es5",
+        "target": "es5"
     },
     "include": [
         "./src/**/*"
