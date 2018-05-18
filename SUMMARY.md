@@ -265,7 +265,7 @@
                     * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
         * [TypeScript](./Programming/TypeScript/TypeScript.md)
             * [Brief Descriptions](./Programming/TypeScript/brief_description/brief_description.md)
-            * [Configuration](./Programming/TypeScript/configuration/configuration.md)
+            * [Integrations](./Programming/TypeScript/integrations/integrations.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
