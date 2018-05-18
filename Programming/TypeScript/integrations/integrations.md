@@ -116,3 +116,146 @@ When it comes to declaring custom libraries created by us, we can typically use 
 ```ts
 export = function () { /** ... */ };
 ```
+
+### 4. Loose Scenarios in JavaScript
+
+In JavaScript, we can do a lot of loose things as the language itself does not support type checked, like initiating a method to accept any kinds of arguments without throwing errors. When meeting with following situations, we should take more care about them when migrating from JavaScript.
+
+#### 4.1 Arguments
+
+When checking arguments of a declared methods to work around situations where methods accept too many arguments, TypeScript needs us to explicitly declare how those kind of methods handle argument:
+
+Like following function in JavaScript:
+
+```js
+function func() {
+    if (arguments.length === 2 && !Array.isArray(arguments[1])) {
+        var f = arguments[0];
+        var arr = arguments[1];
+    }
+}
+
+func(function (x) { console.log(x); }, [1, 2, 3]);
+func(function (x) { console.log(x); }, 1, 2, 3);
+```
+
+When migrating to TypeScript, we need to explicitly declare this two situations by using function overloads:
+
+```ts
+function func(f: (x: number) => void, arr: number[]): void;
+function func(f: (x: number) => void, ...arr: number[]): void;
+function func() {
+    if (arguments.length === 2 && !Array.isArray(arguments[1])) {
+        var f = arguments[0];
+        var arr = arguments[1];
+    }
+}
+
+func(console.log, [1, 2, 3]);
+func(console.log, 1, 2, 3);
+```
+
+The above situation has added two overloads for declaring. Both of them check whether the function `func` takes a function as its first parameter (which should take a `number`), and the then the first overload means `func` should take an array of `number` as its second parameter, while the second overload means it can take any number of arguments (reset parameter).
+
+#### 4.2 Objects' Properties
+
+In JavaScript, we can create an object and add properties to it immediately like so:
+
+```js
+var obj = {};
+obj.color = 'red';
+obj.volume = 11;
+```
+
+In TypeScript, it is not allowed as it treats `obj` as an only empty object, which have no properties. So we need to declare what this object should look like before:
+
+```ts
+interface Options { color: string; volume: number }
+
+let obj = {} as Options;
+obj.color = 'red';
+obj.volume = 11;
+```
+
+As alternatives, TypeScript has also allowed us to declare the object as `any`, a _flexible_ type, to handle the situation when we don't exactly know what the object will look like during initialization stage:
+
+```ts
+let obj = {} as any;
+```
+
+It is suggested that considering whether we really need to use this `any` to declare objects, before making a decision, because it also means that we lose most of the error checking, which is exactly the feature of TypeScript.
+
+When comparing `{}` with `Object`, it is better to use `{}`, because object literal is technically a more general type than `Object` in certain esoteric cases.
+
+#### 4.3 Strict Types
+
+As TypeScript gives us more safety and analysis feature, we can start enabling these checks for greater safety.
+
+##### 4.3.1 No Implicit `any`
+
+When TypeScript don't exactly figure out what certain types should be, it will decide to use the type `any` in such a case. Though it is great for migration from JavaScript, it also means that we have lost this support at the same time. What if we want to dig out such pain spots, we can enable the option `noImplicitAny` for helping analysis.
+
+##### 4.3.2 Strict `null` and `undefined` Checks
+
+By default, TypeScrit assumes that `null` and `undefined` are in the domain of every type, which means that any declared type can also be `null` or `undefined`. Same as the `any` mentioned above, it is great for migration, but we must lose something for this. If we want to handle ourselves, just enable the option `strictNullChecks`.
+
+After enabling it, we can experience what TypeScript will check:
+
+```ts
+declare let foo: string[] | null;
+foo.length; /** error - 'foo' is possibly 'null' */
+```
+
+If disabling:
+
+```ts
+declare let foo: string[];
+foo.length; /** no error */
+```
+
+Sometimes, we may have some variables we know better in some logic, which can possibly be a `null` somewhere else. If meeting such a situation, we can probably use the postfix `!` to tell TypeScript that the variable during current logic should be an array of string like the following example:
+
+```ts
+foo!.length; /** no error */
+```
+
+##### 4.3.3 Outside Context
+
+The context described by the variable `this`, will be treated as `any` in TypeScript by default, when you using it outside a `class`.
+
+```ts
+class Point {
+    constructor(public x, public y) {}
+    getDistance(p: Point) {
+        let dx = p.x - this.x;
+        let dy = p.y - this.y;
+        return Math.sqrt(dx ** 2 + dy ** 2);
+    }
+}
+
+// Reopen the interface
+interface Point {
+    distanceFromOrigin(): number;
+}
+
+Point.prototype.distanceFromOrigin = function () {
+    return this.getDistance({ x: 0, y: 0 });
+}
+```
+
+Same problems as we mentioned above, we won't get any error, like `getDistance` has been misspelled by us. With setting `noImplicitThis`, TypeScript will issue an error when `this` has not been specified as an explicit type. The fix is to use a `this` parameter to give an explicit type in the interface:
+
+```ts
+// in the interface
+interface Point {
+    distanceFromOrigin(this: Point): number;
+}
+```
+
+Or in the function itself:
+
+```ts
+Point.prototype.distanceFromOrigin = function (this: Point) {
+    return this.getDistance({ x: 0, y: 0 });
+};
+```
