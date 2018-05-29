@@ -259,3 +259,43 @@ Point.prototype.distanceFromOrigin = function (this: Point) {
     return this.getDistance({ x: 0, y: 0 });
 };
 ```
+
+#### 5. React
+
+React has been known as a framework, which helps developers manage components in a large project. It similar with AngularJS or Vue, and this section only talks about how we integrate with TypeScript when we used React before. JSX is a well-known template language if you have already developed React before. If not, you can visit [my note](../../JavaScript/Framework/react/jsx_syntax/jsx_syntax.md) before. Corresponding with JSX, TypeScript has also extended itself with TSX for supporting JSX. For example, the following snippet has shown us how to define a hello component in TypeScript:
+
+```tsx
+/** hello.tsx */
+import * as React from 'react';
+export interface HelloProps { compiler: string; framework: string; }
+
+export const Hello = (props: HelloProps) => <h1>Hello from {props.compiler} and {props.framework}!</h1>;
+```
+
+With classes declaration, we can also define like this:
+
+```tsx
+/** hello.tsx */
+export class Hello extends React.Component<HelloProps /** props */, {} /** state */> {
+    render(this: Hello) {
+        return <h1>Hello from {this.props.compiler} and {this.props.framework}!</h1>;
+    }
+}
+```
+
+Then, render it inside the main entry `index.tsx`:
+
+```tsx
+/** index.tsx */
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+
+import { Hello } from './hello';
+
+ReactDOM.render(
+    <Hello compiler="TypeScript" framework="React"></Hello>,
+    document.getElementById('content')
+);
+```
+
+_Note: if we import an component defined outside our project like node modules inside the folder `node_modules`, we should use a **relative path** to import rather than only an alias name, as TypeScript won't try looking in that folder._
