@@ -260,7 +260,7 @@ Point.prototype.distanceFromOrigin = function (this: Point) {
 };
 ```
 
-#### 5. React
+### 5. React
 
 React has been known as a framework, which helps developers manage components in a large project. It similar with AngularJS or Vue, and this section only talks about how we integrate with TypeScript when we used React before. JSX is a well-known template language if you have already developed React before. If not, you can visit [my note](../../JavaScript/Framework/react/jsx_syntax/jsx_syntax.md) before. Corresponding with JSX, TypeScript has also extended itself with TSX for supporting JSX. For example, the following snippet has shown us how to define a hello component in TypeScript:
 
