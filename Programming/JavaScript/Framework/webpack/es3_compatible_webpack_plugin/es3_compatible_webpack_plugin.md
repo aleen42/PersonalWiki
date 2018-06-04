@@ -14,7 +14,7 @@ obj.extends();
 ```
 
 ```js
-/** trailing commas in arrays
+/** trailing commas in arrays */
 var arr = [
     'webpack',
     'patch',
