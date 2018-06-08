@@ -104,7 +104,7 @@ snippets.push({
 });
 ```
 
-2.3 Trailing Commas in Arrays
+#### 2.3 Trailing Commas in Arrays
 
 To handle the other illegal expression, we can use the defined node, `AST_Array`.
 
