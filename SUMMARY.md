@@ -89,7 +89,7 @@
                         * [this.props.children undefined](./Programming/JavaScript/Framework/react/undefined_props_children/undefined_props_children.md)
                         * [Use React with other libraris](./Programming/JavaScript/Framework/react/use_react_with_other_libraries/use_react_with_other_libraries.md)
                         * [Dangerously Set innerHTML](./Programming/JavaScript/Framework/react/dangerously_set_innerhtml/dangerously_set_innerhtml.md)
-                    * Webpack
+                    * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                         * [Webpack + React](./Programming/JavaScript/Framework/webpack/webpack_and_react/webpack_and_react.md)
                         * [React Hot Loader](./Programming/JavaScript/Framework/react/react_hot_loader/react_hot_loader.md)
                     * Router
@@ -121,6 +121,7 @@
                         * [Loader](./Programming/JavaScript/Framework/webpack/loader/loader.md)
                     * Advanced
                         * [ES3-Compatible Webpack Plugin](./Programming/JavaScript/Framework/webpack/es3_compatible_webpack_plugin/es3_compatible_webpack_plugin.md)
+                        * [Resolve?](./Programming/JavaScript/Framework/webpack/resolve/resolve.md)
                 * [Redux](./Programming/JavaScript/Framework/redux/redux.md)
                     * [Introduction](./Programming/JavaScript/Framework/redux/introduction/introduction.md)
                     * Basics
