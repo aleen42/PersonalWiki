@@ -1,10 +1,10 @@
 ## Resolve? [Back](../webpack.md)
 
-As the title asks, what we needed to be resolved? In most cases, what we need to resolve in JavaScript is modules' paths. Webpack has provided us a configuration object, named with `resolve`, to support for Module Resolution. For instance, what if we want to require a module named `lodash` in our projects, we can specify this so-called `resolve` object to tell Webpack where to look for such a module, like `node_modules`? More configuration details can be checked at [the official document](https://webpack.js.org/configuration/resolve), and this document mainly aims to describe how we can use such a feature to work more in our project.
+As the title asks, what we need to resolve? In most cases, the answer in JavaScript is modules' paths. Webpack has provided us a configuration object, named with `resolve`, to support for Module Resolution. For instance, what if we want to require a module named `lodash` in our projects, we can specify this so-called `resolve` object to tell Webpack where to look for such a module, like the folder `node_modules`. More configuration details can be checked at [the official document](https://webpack.js.org/configuration/resolve), whil here I mainly aim to describe how we can use such a feature to work more in our projects.
 
 ### Differences since Webpack 2
 
-`resolve` features has been supported since Webpack 1, and as Webpack 2 announced, there are two main differences we may need to focus on. The one is that it has not been able to specify empty string as an extension in `resolve.extensions` since the Version 2.
+`resolve` features have been supported since Webpack 1, and as Webpack 2 released, there are two main differences we may need to focus on. The one is that it has not been able to specify empty string as an extension in `resolve.extensions` since the Version 2.
 
 ```js
 /** Webpack 1 */
@@ -46,7 +46,7 @@ const Dialog = require('../../../../components/dialog');
 const Loading = require('../../../../components/loading');
 ```
 
-With the structure of folders growing deeper and deeper, it is extremely confusing to calculate the number of dotted accessing, without any IDE helpers. What about creating two aliases for `util` and `components`? The script should be much more elegant than before:
+With the structure of folders growing deeper and deeper, it is extremely confusing to calculate the number of dotted accessing without any IDE helpers. How about creating two aliases for `util` and `components`? The script should be much more elegant than before:
 
 ```js
 /** webpack.config.js */
