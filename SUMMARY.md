@@ -468,6 +468,7 @@
         * [Submodule](./git/submodule/submodule.md)
         * [A successful Git branching model](./git/model/model.md)
         * [Personal Configuration](./git/configuration/configuration.md)
+        * [Git Commit Message Convention](./git/commit_message_convention/commit_message_convention.md)
     * [Video & Image](./vi/vi.md)
         * [OpenCV](./vi/opencv/opencv.md)
 * Designer
