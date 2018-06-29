@@ -5,7 +5,7 @@ An extension based on [**kazupon/git-commit-message-convention**](https://github
 All Commit Messages **MUST** be formatted like this:
 
 ```
-<Type>[(<Scope>)]: <Subject> #<Issue> !<MR/PR>
+<Type>[(<Scope>)]: <Subject> [#<Issue>] [!<MR/PR>]
 [<BLANK LINE>]
 [<Message Body>]
 ```
