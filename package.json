@@ -1,8 +1,7 @@
 {
   "name": "personalwiki",
   "version": "1.0.0",
-  "description": "<a href=\"https://aleen42.github.io/PersonalWiki/\" target=\"_blank\"><img src=\"./cover_read.png\"></a>",
-  "main": "index.js",
+  "description": "personal wiki",
   "scripts": {
     "gitbook:install": "node ./node_modules/gitbook-cli/bin/gitbook.js install",
     "gitbook:build": "node ./node_modules/gitbook-cli/bin/gitbook.js build . gh-pages --log=debug --debug"
@@ -34,6 +33,6 @@
     "gitbook-plugin-resources": "1.2.7",
     "gitbook-plugin-search": "2.2.1",
     "gitbook-plugin-sharing": "1.0.2",
-    "gitbook-plugin-theme-aleen42": "1.0.4"
+    "gitbook-plugin-theme-aleen42": "1.0.7"
   }
 }
