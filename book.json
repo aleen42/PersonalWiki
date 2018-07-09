@@ -25,9 +25,6 @@
         "theme-aleen42"
     ],
     "pluginsConfig": {
-        "disqus": {
-            "shortName": "personal"
-        },
         "github": {
             "url": "https://github.com/aleen42/personalwiki"
         },
