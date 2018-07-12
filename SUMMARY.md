@@ -627,7 +627,7 @@
 * Books
     * Coder
         * [Antirez's news](./antirez/antirez.md)
-            * [75: Redis new data structure: the HyperLogLog](./antirez/75.md)
+            * [75: Redis new data structure: the HyperLogLog](./antirez/75/75.md)
         * [Gates Notes](http://www.gatesnotes.com/books)
         * [Front-End](./frontend/frontend.md)
     * Designer
