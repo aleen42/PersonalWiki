@@ -1,5 +1,6 @@
 ## JavaScript Framework | Library [Back](./../JavaScript.md)
-* [**Modernizer**](./Modernizer/Modernizer.md)
+
+* [**Modernizer**](./Modernizr/Modernizr.md)
 * [**Interact**](./Interact/Interact.md)
 * [**Classie**](./Classie/Classie.md)
 * [**Google Closure**](./goog/goog.md)
