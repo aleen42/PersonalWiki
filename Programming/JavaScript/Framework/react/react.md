@@ -1,4 +1,4 @@
-## ReactJS [Back](./../Framework.md)
+## React [Back](./../Framework.md)
 
 <p align="center">
     <img alt="react" src="./react.png" width="50%"></img>

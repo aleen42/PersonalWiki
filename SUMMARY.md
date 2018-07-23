@@ -47,7 +47,7 @@
                     * [Create a static server with node.js](./Programming/JavaScript/Framework/node/static_server/static_server.md)
                     * [Use Node to write a command line tool](./Programming/JavaScript/Framework/node/cmd/cmd.md)
                     * [Differences between spawn and exec of child_process](./Programming/JavaScript/Framework/node/child_process/child_process.md)
-                * [ReactJS](./Programming/JavaScript/Framework/react/react.md)
+                * [React](./Programming/JavaScript/Framework/react/react.md)
                     * Quick Start
                         * [Quick Started](./Programming/JavaScript/Framework/react/quick_started/quick_started.md)
                         * [Tutorials](./Programming/JavaScript/Framework/react/tutorials/tutorials.md)

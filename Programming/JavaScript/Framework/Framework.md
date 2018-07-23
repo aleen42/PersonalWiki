@@ -11,7 +11,7 @@
 * [**Dyanmics**](./dynamics/dynamics.md)
 * [**JQuery**](./jquery/jquery.md)
 * [**node.js**](./node/node.md)
-* [**ReactJS**](./react/react.md)
+* [**React**](./react/react.md)
 * [**Webpack**](./webpack/webpack.md)
 * [**Redux**](./redux/redux.md)
 * [**underscore.js**](./underscore/underscore.md)
@@ -20,4 +20,3 @@
 * [**ReactiveX**](./reactivex/reactivex.md)
 * [**Angular**](./angular/angular.md)
 * Headroom
-
