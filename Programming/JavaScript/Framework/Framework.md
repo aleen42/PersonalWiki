@@ -12,6 +12,7 @@
 * [**JQuery**](./jquery/jquery.md)
 * [**node.js**](./node/node.md)
 * [**React**](./react/react.md)
+* [**Vue**](./vue/vue.md)
 * [**Webpack**](./webpack/webpack.md)
 * [**Redux**](./redux/redux.md)
 * [**underscore.js**](./underscore/underscore.md)
