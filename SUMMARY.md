@@ -52,7 +52,7 @@
                         * [Quick Started](./Programming/JavaScript/Framework/react/quick_started/quick_started.md)
                         * [Tutorials](./Programming/JavaScript/Framework/react/tutorials/tutorials.md)
                         * [Think in React](./Programming/JavaScript/Framework/react/think_in_react/think_in_react.md)
-                    * Guide
+                    * Guides
                         * [Why React?](./Programming/JavaScript/Framework/react/why_react/why_react.md)
                         * [Displaying Data](./Programming/JavaScript/Framework/react/display_data/display_data.md)
                             * [JSX Syntax](./Programming/JavaScript/Framework/react/jsx_syntax/jsx_syntax.md)
