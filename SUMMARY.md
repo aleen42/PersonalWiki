@@ -113,6 +113,8 @@
                         * [Slider](./Programming/JavaScript/Framework/react/slider/slider.md)
                 * [Vue](./Programming/JavaScript/Framework/vue/vue.md)
                     * [Quick Started](./Programming/JavaScript/Framework/vue/quick_started/quick_started.md)
+                    * Guides
+                        * [Vue Instances](./Programming/JavaScript/Framework/vue/vue_instances/vue_instances.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)

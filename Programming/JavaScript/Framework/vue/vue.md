@@ -11,3 +11,7 @@
 ![vue](https://aleen42.github.io/badges/src/vue.svg)
 
 - [**Quick Started**](./quick_started/quick_started.md)
+
+### Guides
+
+- [**Vue Instances**](./vue_instances/vue_instances.md)
