@@ -11,7 +11,7 @@ For example, here we will render different components with React Router to match
 `/inbox`|`App -> Inbox`
 `/inbox/messages/:id`|`App -> Inbox -> Message`
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Link } from 'react-router';
@@ -73,7 +73,7 @@ ReactDOM.render(
     </Router>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 ### Adding an Index
 
@@ -86,7 +86,7 @@ Imagine we'd like to render another component inside of `App` when the URL is `/
 `/inbox`|`App -> Inbox`
 `/inbox/messages/:id`|`App -> Inbox -> Message`
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, IndexRoute, Route, Link } from 'react-router';
@@ -113,7 +113,7 @@ ReactDOM.render(
     </Router>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 ### Decoupling (解耦) the UI from the URL
 
@@ -126,7 +126,7 @@ It would be nice if we could remove the `/inbox` segment from the `/inbox/messag
 `/inbox`|`App -> Inbox`
 `/messages/:id`|`App -> Inbox -> Message`
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, IndexRoute, Route, Link } from 'react-router';
@@ -145,13 +145,13 @@ ReactDOM.render(
     </Router>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 ### Preserving a old version
 
 If we want to preserve the old version `/inbox/message/:id`, we can just use `<Redirect>`
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, IndexRoute, Route, Redirect, Link } from 'react-router';
@@ -172,5 +172,5 @@ ReactDOM.render(
     </Router>,
     document.getElementById('content')
 );
-{%endace%}
+```
 

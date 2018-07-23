@@ -22,7 +22,7 @@ Then, we can name each component with our familiar naming style with this struct
 
 After that, the jsx should be written like the following structure:
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <html>
     <head>
         <!-- heads part -->
@@ -31,9 +31,9 @@ After that, the jsx should be written like the following structure:
         <div id="content"></div>
     </body>
 </html>
-{%endace%}
+```
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var ProductRow = React.createClass({ /** ... */ });
 
 var ProductCategoryRow = React.createClass({ /** ... */ });
@@ -48,11 +48,11 @@ ReactDOM.render(
     <FilterableProductTable></FilterableProductTable>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 ### Step 2: Build a static version in React
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var PRODUCTS = [
     {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
     {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
@@ -139,7 +139,7 @@ ReactDOM.render(
     <FilterableProductTable products={PRODUCTS} />,
     document.getElementById('container')
 );
-{%endace%}
+```
 
 It's best to decouple these processes because building a static version requires a lot of typing and no thinking, and adding interactivity requires a lot of thinking and not a lot of typing.
 
@@ -190,7 +190,7 @@ For each piece of state in your application:
 
 Following this strategy, we can find that both SearchBar and ProductTable need the state. And their common components is FilterableProductTable. Therefore, the state should live in **FilterableProductTable**.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 /** use filterText and isStockOnly to filter data */
 var ProductTable = React.createClass({
     render: function () {
@@ -256,7 +256,7 @@ var FilterableProductTable = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 ### Step5: Add inverse data flow
 
@@ -264,7 +264,7 @@ There should be a method to handle events of changements of both the text and th
 
 Therefore, we should add a handle event method for FilterableProductTable to setState, and pass this method to SearchBar via prop.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 /** call parent method */
 var SearchBar = React.createClass({
     handleChange: function() {
@@ -308,4 +308,4 @@ var FilterableProductTable = React.createClass({
         );
     }
 });
-{%endace%}
+```

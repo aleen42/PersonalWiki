@@ -12,7 +12,7 @@ In React Router, there are 3 types of histories which are come across most often
 
 Just import them separately and pass them into a `<Router>`:
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { browserHistory } from `react-router`;
@@ -21,7 +21,7 @@ ReactDOM.render(
     <Router history={browserHistory} routes={routes}></Router>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 ### `browserHistory`
 

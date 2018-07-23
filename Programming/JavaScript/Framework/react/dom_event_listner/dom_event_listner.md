@@ -6,7 +6,7 @@
 
 Try to resize the window:
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 var Box = React.createClass({
     getInitialState: function () {
         return { windowWidth: window.innerWidth };
@@ -35,7 +35,7 @@ ReactDOM.render(
     <Box />,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 `componentDidMount` is called after the component is mounted and has a DOM representation. This is often a place where you would attach generic DOM events.
 

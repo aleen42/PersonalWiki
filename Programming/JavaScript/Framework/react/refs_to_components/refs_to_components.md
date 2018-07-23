@@ -6,17 +6,17 @@ After building a component, you may want to "reach out" and invoke methods on co
 
 Not to be confused with the `render()` function that you define on your component (and which returns a virtual DOM element), and [ReactDOM.render()](https://facebook.github.io/react/docs/top-level-api.html#reactdom.render) will return a reference to your component's **backing instance(支撐實例)** (or `null` for [stateless components](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions)).
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var myComponent = ReactDOM.render(<MyComponent />, myContainer);
-{%endace%}
+```
 
 Keep in mind that the JSX does not return a component instance! What it return is **ReactElement**: a lightweight representation that tells React what the mounted component should look like.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var myComponentElement = <MyComponent />;   /** Just a ReactEement, but not an instance */
 
 var myComponentInstance = ReactDOM.render(myComponentElement, myContainer);
-{%endace%}
+```
 
 > Note:
 
@@ -26,7 +26,7 @@ var myComponentInstance = ReactDOM.render(myComponentElement, myContainer);
 
 React supports a special attribute that you can attach to any component. The `ref` attribute can be a callback function, and **this callback will be executed immediately after the component is mounted**. The referenced component will be passed in as a parameter, and the callback function may use the component immediately, or save the reference for future use (or both).
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var MyComponent = React.createClass({
     render: function () {
         return (
@@ -40,11 +40,11 @@ var MyComponent = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 or using ES6 Arrow Functions:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 class MyComponent extends React.Component {
     render: function () {
         return (
@@ -58,7 +58,7 @@ class MyComponent extends React.Component {
         }
     }
 }
-{%endace%}
+```
 
 *Notice that: when the referenced component is unmounted and whenever the ref changes, the old ref will be called with `null` as an argument. Also when writing refs with inline function expressions as in the examples here, React sees a different function object each time so on every update, ref will be called with `null` immediately before it's called with the component instance.*
 
@@ -72,19 +72,19 @@ React also supports using a string (instead of a callback) as a ref prop on any 
 
 1. Assign a `ref` attribute to anything returned from `render`:
     
-    {%ace edit=false, lang='jsx', theme='tomorrow' %}
+    ```jsx
 <input ref="myInput" />
-    {%endace%}
+    ```
 2. In some other code, we can access the **backing instance** via `this.refs` as in:
     
-    {%ace edit=false, lang='jsx', theme='tomorrow' %}
+    ```jsx
 var inputInstance = this.refs.myInput;
 var inputValue = inputInstance.value;
-    {%endace%}
+    ```
 
 ### An example
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 
 /** ES6 */
 class MyComponent extends React.Component {
@@ -136,7 +136,7 @@ ReactDOM.render(
 	document.getElementById('content')
 );
 
-{%endace%}
+```
 
 ### Summary
 

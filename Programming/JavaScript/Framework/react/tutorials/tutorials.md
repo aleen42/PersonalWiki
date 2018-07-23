@@ -14,7 +14,7 @@ React is all about modular and composable components. Here we will start to writ
 
 First, we will build up a component for CommentBox with the following jsx:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentBox = React.createClass({
     render: function () {
         return (
@@ -29,11 +29,11 @@ ReactDOM.render(
     <CommentBox />,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 Then, this jsx should be converted into a plain js like:
 
-{%ace edit=false, lang='javascript',  theme='tomorrow' %}
+```js
 var CommentBox = React.createClass({
     render: function () {
         return (
@@ -50,7 +50,7 @@ ReactDOM.render(
     React.createElement(CommentBox, null),
     document.getElementById('content')
 );
-{%endace%}
+```
 
 As we can see, we have just passed a object to `React.createClass`, and the main attribute of this object is a function which named **render**.
 
@@ -60,7 +60,7 @@ As we can see, we have just passed a object to `React.createClass`, and the main
 
 CommentList is a child node of CommentBox, so we should have this following:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentList = React.createClass({
     render: function () {
         return (
@@ -71,11 +71,11 @@ var CommentList = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 For each Comment, we will use `this.props.author` to get attributes `author` of the corresponding elements and `this.props.children` as nested elements:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var Comment = React.createClass({
     render: function () {
         return (
@@ -86,11 +86,11 @@ var Comment = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 Markdown is one of awesome tools in React, and we can use `Remarkable` to convert Markdown into raw HTML.
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var Comment = React.createClass({
     render: function () {
         var md = new Remarkable();
@@ -102,7 +102,7 @@ var Comment = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 But there's a problem! Our rendered comments look like this in the browser: "**`&lt;p&gt;This is &lt;strong&gt;another&lt;/strong&gt; comment&lt;/p&gt;**". We want those tags to actually render as HTML.
 
@@ -110,7 +110,7 @@ That's React protecting you from an [XSS attack](https://en.wikipedia.org/wiki/C
 
 There is a way to do around it:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var Comment = React.createClass({
     /** dangerouslySetInnerHTML must use __html to store what you want to set */
     rawMarkup: function () {
@@ -127,13 +127,13 @@ var Comment = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 ### Data Model
 
 As we can see, Comment elements within the CommentList can be extracted as a data model like following:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentList = React.createClass({
     render: function () {
         var commentNodes = this.props.data.map(function (comment) {
@@ -149,20 +149,20 @@ var CommentList = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 Then, the data can be a array like following:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var data = [
     { id: 1, author: 'aleen', text: 'comments for **aleen**'},
     { id: 2, author: 'alien', text: 'comments for **alien**'}
 ];
-{%endace%}
+```
 
 And of course, we should pass this array through CommentBox:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentBox = React.createClass({
     render: function () {
         return (
@@ -179,13 +179,13 @@ ReactDOM.render(
     <CommentBox data={data}></CommentBox>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 ### Fetch Data from servers
 
 If data is fetched from servers, and we can use `getInitialState` and `componentDidMount`:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentBox = React.createClass({
     /**
      * getInitialState() executes exactly once during the lifecycle of the component
@@ -229,11 +229,11 @@ ReactDOM.render(
     <CommentBox url="/api/comments"></CommentBox>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 With `componentDidMount`, we can automatically update data with other technology. For example we can use `setInterval`.
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentBox = React.createClass({
     /** getInitialState function */
     /** ... */
@@ -266,13 +266,13 @@ ReactDOM.render(
     <CommentBox url="/api/comments", pollInterval={2000}></CommentBox>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 ### CommentForm
 
 CommentForm is the component used for sav comments, and users should provide their name and their text. Therefore:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentForm = React.createClass({
     render: function () {
         return (
@@ -284,13 +284,13 @@ var CommentForm = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 With the traditional DOM, `input` elements are rendered and the browser manages the state (its rendered value). As a result, the state of the actual DOM will differ from that of the component. This is not ideal as the state of the view will differ from that of the component. **In React, components should always represent the state of the view and not only at the point of initialization**.
 
 Hence, we will be using `this.state` to save the user's input as it is entered. We define an initial `state` with two properties `author` and `text` and set them to be empty strings. In our `<input>` elements, we set the `value` prop to reflect the state of the component and attach `onChange` handlers to them. These `<input>` elements with a value set are called **controlled components**. Read more about controlled components on the [Forms article](https://facebook.github.io/react/docs/forms.html#controlled-components).
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentForm = React.createClass({
     getInitialState: function () {
         return {
@@ -317,11 +317,11 @@ var CommentForm = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 Now, we can just handle submit operation:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentForm = React.createClass({
     /** getInitialState */
     /** ... */
@@ -366,11 +366,11 @@ var CommentForm = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 And CommentBox should be:
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 var CommentBox = React.createClass({
     /** loadCommentsFromServer function */
     /** ... */
@@ -412,11 +412,11 @@ var CommentBox = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 ### Whole JavaScript file
 
-{%ace edit=false, lang='jsx',  theme='tomorrow' %}
+```jsx
 /** Comment Component */
 var Comment = React.createClass({
     /** dangerouslySetInnerHTML must use __html to store what you want to set */
@@ -566,4 +566,4 @@ ReactDOM.render(
     <CommentBox url="/api/comments" pollInterval={2000}></CommentBox>,
     document.getElementById('content')
 );
-{%endace%}
+```

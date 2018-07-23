@@ -10,7 +10,7 @@ React provides a `ReactTransitionGroup` add-on component as a low-level API for 
 
 `ReactCSSTransitionGroup` is the interface to ReactTransitions. This is a simple element that wraps all of the components you are interested in animating. Here's an example where we fade list items in and out.
 
-{%ace edit=false, lang='jsx', theme='tomomrrow'%}
+```jsx
 var ReactCSSTransitionGroup = require('react-addons-css-transition-group');
 
 var TodoList = React.createClass({
@@ -49,7 +49,7 @@ var TodoList = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 > **Note:**
 
@@ -59,7 +59,7 @@ In this component, when a new item is added to `ReactCSSTransitionGroup` it will
 
 Therefore, we can use these classes:
 
-{%ace edit=false, lang='css', theme='tomomrrow'%}
+```css
 .example-enter {
     opacity: 0.01;
 }
@@ -77,7 +77,7 @@ Therefore, we can use these classes:
     opacity: 0.01;
     transition: opacity 300ms ease-in;
 }
-{%endace%}
+```
 
 You may notice that animation durations need to be specified in both the CSS and the render. That's to tell React **when to remove the animation classes from the element** and **when to remove element from the DOM**.
 
@@ -85,7 +85,7 @@ You may notice that animation durations need to be specified in both the CSS and
 
 `ReactCSSTranitionGroup` has provided an optional prop `transitionAppear`, to add an extra transition phase at the intial mount of the component.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var MyComponent = React.createClass({
     render: function () {
         return (
@@ -95,9 +95,9 @@ var MyComponent = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
-{%ace edit=false, lang='css', theme='tomomrrow'%}
+```css
 .example-appear {
     opacity: 0.01;
 }
@@ -106,7 +106,7 @@ var MyComponent = React.createClass({
     opacity: 1;
     transition: opacity 0.5s ease-in;
 }
-{%endace%}
+```
 
 At the initial mount, all children of the `ReactCSSTransitionGroup` will `appear` but not `enter`. However, all children later added to an existing `ReactCSSTransitionGroup` will `enter` but not `appear`.
 
@@ -114,7 +114,7 @@ At the initial mount, all children of the `ReactCSSTransitionGroup` will `appear
 
 It is also possible to use custom class names for each of the steps in your transitions. Instead of passing a string into transitionName you can pass an object containing either the `enter` and `leave` class names, or an object containing the `enter`, `enter-active`, `leave-active`, and `leave` class names. If only the `enter` and `leave` classes are provided, the `enter-active` and `leave-active` classes will be determined by appending '-active' to the end of the class name.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 <ReactCSSTransitionGroup transitionName={ {
         'enter': 'enter',
         'enterActive': 'enterActive',
@@ -124,7 +124,7 @@ It is also possible to use custom class names for each of the steps in your tran
         'appearActive': 'appearActive'
     }
 }></ReatCSSTransitionGroup>
-{%endace%}
+```
 
 #### Disabling Animations
 

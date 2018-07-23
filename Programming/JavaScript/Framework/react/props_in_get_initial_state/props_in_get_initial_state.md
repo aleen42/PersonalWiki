@@ -4,7 +4,7 @@ Using props to generate state in `getInitialState` often leads to duplication of
 
 **Bad example:**
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 var MessageBox = React.createClass({
     getInitialState: function () {
         return { nameWithQualifier: 'Mr.' + this.props.name };
@@ -23,11 +23,11 @@ ReactDOM.render(
     <MessageBox name="aleen42" />,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 **Better:**
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 var MessageBox = React.createClass({
     render: function () {
         return (
@@ -42,11 +42,11 @@ ReactDOM.render(
     <MessageBox name="aleen42" />,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 However, it's **not** an anti-pattern if you make it clear that the prop is only seed data for the component's internally-controlled state:
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 var Counter = React.createClass({
     getInitialState: function () {
         return { count: this.props.initialCount };
@@ -69,4 +69,4 @@ ReactDOM.render(
     <Count initialCount={7} />,
     document.getElementById('content')
 );
-{%endace%}
+```

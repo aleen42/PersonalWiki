@@ -6,7 +6,7 @@ React's design philosophy is that it should be "easy" to make things safe, and d
 
 After fully understanding the security ramifications(後果) and properly sanitizing the data, create a new object containing only the key `__html` and your sanitized data as the value. Here is an example using the JSX syntax:
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 var MyComponent = React.createClass({
     createMarkup: function () {
         return { __html: 'First &middot; Second' };
@@ -23,4 +23,4 @@ ReactDOM.render(
     <MyComponent />,
     document.getElementById('content')
 );
-{%endace%}
+```

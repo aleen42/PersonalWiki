@@ -8,7 +8,7 @@ Reusable Components with well-designed interfaces mean that the next time you ne
 
 *Note that for performance reasons `propTypes` is only checked in development mode.*
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 React.createClass({
     propTypes: {
         /** 
@@ -97,13 +97,13 @@ React.createClass({
         }
     };
 });
-{%endace%}
+```
 
 #### Single Child
 
 In React, with `React.PropTypes.element`, you can specify that only a single child can be passed to a component as children:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var MyComponent = React.createClass({
     propTypes: {
         children: React.PropTypes.element.isRequired
@@ -118,13 +118,13 @@ var MyComponent = React.createClass({
         );
     }
 });
-{%endace%}
+```
 
 ### Default Prop Values
 
 In React, you can also define defualt values for your `prop`:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var ComponentWithDefaultProps = React.createClass({
     getDefaultProps: function () {
         return {
@@ -132,7 +132,7 @@ var ComponentWithDefaultProps = React.createClass({
         };
     }
 });
-{%endace%}
+```
 
 The result of `getDefaultProps()` will be cached and used to ensure that `this.props.value` will have a value if it was not specified by the parent component.
 
@@ -140,7 +140,7 @@ The result of `getDefaultProps()` will be cached and used to ensure that `this.p
 
 Using [JSX spread attributes](./../jsx_spread_attributes/jsx_spread_attributes.md) to directly pass any props from owner componen to the ownee one.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var CheckLink = React.createClass({
     render: function () {
         return (
@@ -156,13 +156,13 @@ ReactDOM.render(
     </CheckList>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 ### Mixins
 
 Sometimes, different components will share some common functionality, which is called [cross-cutting concerns](https://en.wikipedia.org/wiki/Cross-cutting_concern). React proviedes `mixins` to handle this situation:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var SetIntervalMixins = {
     componentWillMount: funciton () {
         this.intervals = [];
@@ -207,13 +207,13 @@ ReactDOM.render(
     <TickTock />,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 React provides [lifecycle methods](https://facebook.github.io/react/docs/working-with-the-browser.html#component-lifecycle) that let you know when a component is about to be created or destroyed. `componentWillMount` will be called when being created, while `componentWillUnmount` will be called when being destroyed.
 
 ### ES6 Classes
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 class HelloMessage extends React.Component {
     render() {
         return (
@@ -221,11 +221,11 @@ class HelloMessage extends React.Component {
         );
     }
 }
-{%endace%}
+```
 
 This API is similar to `React.createClass` with the exception of `getInitialState`. Without providing a `getInitialState` method, you can just set up your state in the constructor within ES6.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 export class Counter extends React.Component {
     constructor(props) {
         super(props);
@@ -249,7 +249,7 @@ export class Counter extends React.Component {
 
 Counter.propTypes = { initialCount: React.PropTypes.number};
 Counter.defaultProps = { initialCount: 0 };
-{%endace%}
+```
 
 Another difference is that `propTypes` and `defaultProps` are defined as properties on the constructor instead of in the class body.
 
@@ -257,10 +257,10 @@ Another difference is that `propTypes` and `defaultProps` are defined as propert
 
 Methods follow the same semantics as regular ES6 classes, meaning that they don't automatically bind `this` to the instance. You'll have to explicitly use `.bind(this)` or arrow functions `=>`:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 <div onClick={this.tick.bind(this)}></div>
 <div onClick={() => this.tick()}></div>
-{%endace%}
+```
 
 *It's recommended that binding in the constructor method, so tht you can only bind once. This is better for performance of your application, especially if you implement [shouldComponentUpdate()](https://facebook.github.io/react/docs/component-specs.html#updating-shouldcomponentupdate) with a [shallow comparison](https://facebook.github.io/react/docs/shallow-compare.html) in the child components.*
 
@@ -272,26 +272,26 @@ Unfortunately ES6 launched without any mixin support. Therefore, there is no sup
 
 Using Function to define a React class:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 function HelloMessage(props) {
     return <div>Hello, {props.name}</div>;
 }
 ReactDOM.render(<HelloMessage name="aleen" />, document.getElementById('content'));
-{%endace%}
+```
 
 Using Arrow Function to define a React class:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var HelloMessage = (props) => <div>Hello, {props.name}</div>;
 ReactDOM.render(<HelloMessage name="aleen" />, document.getElementById('content'));
-{%endace%}
+```
 
 *Notice that: remember to set `propTypes` and `defaultProps`*
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 HelloMessage.propTypes = { name: React.PropTypes.string };
 HelloMessage.defaultProps = { name: 'aleen' };
-{%endace%}
+```
 
 > #### Note:
 

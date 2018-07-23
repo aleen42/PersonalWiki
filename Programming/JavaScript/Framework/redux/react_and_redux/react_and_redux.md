@@ -54,7 +54,7 @@ Technically you could write the container components by hand using `store.subscr
 
 <br />
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 {/** components/Todo.jsx */}
 
 import React, { PropTypes } from 'react';
@@ -79,10 +79,10 @@ Todo.propTypes = {
     completed: PropTypes.bool.isRequired,
     text: PropTypes.string.isRequired
 };
-{%endace%}
+```
 
 <br />
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 {/** components/TodoList.jsx */}
 
 import React, { PropTypes } from 'react';
@@ -115,10 +115,10 @@ TodoList.propTypes = {
 };
 
 export default TodoList;
-{%endace%}
+```
 
 <br />
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 {/** components/Link.jsx */}
 
 import React, { PropTypes } from 'react';
@@ -152,10 +152,10 @@ Link.propTypes = {
 };
 
 export default Link;
-{%endace%}
+```
 
 <br />
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 {/** components/Footer.jsx */}
 
 import React, { PropTypes } from 'react';
@@ -182,11 +182,11 @@ const Footer = () = {
 };
 
 export default Footer;
-{%endace%}
+```
 
 <br />
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 {/** components/App.jsx */}
 
 import React from 'react';
@@ -203,7 +203,7 @@ const App = () = {
         </div>
     );    
 };
-{%endace%}
+```
 
 #### Container Components
 
@@ -215,7 +215,7 @@ For example, `VisibleTodoList` needs to calculate `todos` to pass to the `TodoLi
 
 <br />
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 const getVisibleTodos = (todos, filter) => {
     switch (filter) {
     case 'SHOW_ALL':
@@ -232,7 +232,7 @@ const mapStateToProps = (state) => {
         todos: getVisibleTodos(state.todos, state.visibilityFilter)
     };
 };
-{%endace%}
+```
 
 Besides, container components can dispatch actions by defining a function called `mapDispatchToProps`.
 
@@ -240,7 +240,7 @@ For example, we want the `VisibleTodoList` to inject a prop called `onTodoClick`
 
 <br />
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 const mapDispatchToProps = (dispatch) => {
     return {
         onTodoClick: (id) => {
@@ -248,13 +248,13 @@ const mapDispatchToProps = (dispatch) => {
         }
     };
 };
-{%endace%}
+```
 
 With those two functions we have just defined, we can use `connect()` to create the component `VisibleTodoList`.
 
 <br />
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 {/** containers/VisibleTodoList.jsx */}
 import { connect } from 'react-redux';
 import { toggleTodo } from '../actions.js';
@@ -291,11 +291,11 @@ const VisibleTodoList = connect(
 )(TodoList);
 
 export default VisibleTodoList;
-{%endace%}
+```
 
 <br />
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 {/** containers/FilterLink.jsx */}
 import { connect } from 'react-redux';
 import { setVisibilityFilter } from '../actions.js';
@@ -321,11 +321,11 @@ const FilterLink = connect(
 )(Link);
 
 export default FilterLink;
-{%endace%}
+```
 
 <br />
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 {/** containers/AddTodo.jsx */}
 import React from 'react';
 import { connect } from 'react-redux';
@@ -363,7 +363,7 @@ let AddTodo = ({ dispatch }) => {
 AddTodo = connect()(AddTodo);
 
 export default AddTodo;
-{%endace%}
+```
 
 ### Passing the store
 
@@ -371,7 +371,7 @@ Then we can pass a Redux Store into App component with a prop.
 
 <br />
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 import React from 'react';
 import ReactDom from 'react-dom';
 import { Provider } from 'react-redux';
@@ -387,4 +387,4 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('content');
 );
-{%endace%}
+```

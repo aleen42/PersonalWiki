@@ -6,15 +6,15 @@ The easiest way to start hacking on React is using the following JSFiddle Hello 
 
 -  **React JSFiddle**
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <script src="https://facebook.github.io/react/js/jsfiddle-integration-babel.js"></script>
 
 <div id="container">
     <!-- This element's contents will be replaced with your component. -->
 </div>
-{%endace%}
+```
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var Hello = React.createClass({
     render: function () {
         return <div>Hello {this.props.name}</div>
@@ -25,19 +25,19 @@ ReactDOM.render(
     <Hello name="world" />,
     document.getElementById('container')
 );
-{%endace%}
+```
 
 The XML syntax inside of JavaScript is called **JSX**; check out the [JSX Syntax](./../jsx_syntax/jsx_syntax.md) to learn more about it. In order to translate it to vanilla JavaScript we use `<script type="text/babel">` and include Babel to actually perform the transformation in the browser.
 
 -  React JSFiddle without JSX
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <div id="container">
     <!-- This element's contents will be replaced with your component. -->
 </div>
-{%endace%}
+```
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var Hello = React.createClass({
     displayName: 'Hello',
     render: function () {
@@ -49,13 +49,13 @@ ReactDOM.render(
     React.createElement(Hello, {name: 'world'}),
     document.getElementById('container')
 );
-{%endace%}
+```
 
 ### Usage
 
 #### use browser.min.js to transform jsx
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,13 +75,13 @@ ReactDOM.render(
     </script>
 </body>
 </html>
-{%endace%}
+```
 
 In order to translate it to vanilla JavaScript we use `<script type="text/babel">` and include **Babel** to actually perform the transformation in the browser.
 
 Or we can seperate a file to write jsx:
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,14 +96,14 @@ Or we can seperate a file to write jsx:
     <div id="example"></div>
 </body>
 </html>
-{%endace%}
+```
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 ReactDOM.render(
     <h1>Hello World</h1>,
     document.getElementById('example')
 );
-{%endace%}
+```
 
 *Notice that: some browsers like Chrome can't load this file unless it's through a **HTTP** method.*
 
@@ -111,19 +111,19 @@ ReactDOM.render(
 
 Install the tool first:
 
-{%ace edit=false, lang='sh', theme='tomorrow' %}
+```bash
 $ npm install -g react-tools
-{%endace%}
+```
 
 Transform jsx with the following command, `--watch` is used for keeping watching transformation:
 
-{%ace edit=false, lang='sh', theme='tomorrow' %}
+```bash
 $ jsx --watch src/ build/
-{%endace%}
+```
 
 The comand will see jsx files in the directory `src/` and build a vanilla JavaScript file into the directory `build/`, and then we can just import this vanilla JavaScript file.
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -137,4 +137,4 @@ The comand will see jsx files in the directory `src/` and build a vanilla JavaSc
     <div id="example"></div>
 </body>
 </html>
-{%endace%}
+```

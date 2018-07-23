@@ -20,17 +20,17 @@ Form components allow listening for changes by setting a callback to the `onChan
 
 **A Controlled** `<input>` has a `value` prop. Rendering a controlled `<input>` will reflect the value of the `value` prop.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var InputComponent = React.creteClass({
     render: function () {
         return <input type="text" value="Hello!" />;
     }
 });
-{%endace%}
+```
 
 User input will have no effect on the rendered element because React has declared the value to be `Hello!`. To update the value in response to user input, you could use the `onChange` event:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var InputComponent = React.creteClass({
     getInitialState: function () {
         return { value: 'Hello!' };
@@ -46,7 +46,7 @@ var InputComponent = React.creteClass({
         );
     }
 });
-{%endace%}
+```
 
 *Notice that: A **Controlled** component does not maintain its own internal state; the component renders purely based on props.*
 
@@ -58,13 +58,13 @@ Be aware that, in an attempt to normalize change handling for checkbox and radio
 
 An `<input>` without a `value` property is an *uncontrolled* component:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var InputComponent = React.creteClass({
     render: function () {
         return <input type="text" />;
     }
 });
-{%endace%}
+```
 
 If you want to listen to updates to the value, you can also use `onChange` like handling controlled components.
 
@@ -74,13 +74,13 @@ If you want to listen to updates to the value, you can also use `onChange` like 
 
 If you want to initialize the component with a non-empty value, you can supply a `defaultValue` prop.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var InputComponent = React.creteClass({
     render: function () {
         return <input type="text" defaultValue="Hello!" />;
     }
 });
-{%endace%}
+```
 
 Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultChecked`, and `<select>` supports `defaultValue`.
 
@@ -94,19 +94,19 @@ Likewise, `<input type="checkbox">` and `<input type="radio">` support `defaultC
 
 In HTML, we suppose that we have a `<input>` tag:
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <input type="text" name="title" value="Untitled" />
-{%endace%}
+```
 
 When the user updates the input, the node's `vaule` *property* will change. However, `node.getAtribute('value')` should still return the value used at initialization time, `Untitled`.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 var InputComponent = React.creteClass({
     render: function () {
         return <input type="text" name="title" value="Untitled" />;
     }
 });
-{%endace%}
+```
 
 However, in React, the value should always be `Untitled`, no matter what the user has changed. Therefore, the state of the view has kept in consistent.
 
@@ -114,16 +114,16 @@ However, in React, the value should always be `Untitled`, no matter what the use
 
 In HTML, the value of `<textarea>` is usually set using its children:
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <!-- antipattern: DO NOT DO THIS! -->
 <textarea name="description">This is the description.</textarea>
-{%endace%}
+```
 
 For HTML, this easily allows developers to supply multiline values. However, since React is JavaScript, we do not have string limitations and can use `\n` if we want newlines. In a world where we have `value` and `defaultValue`, it is ambiguous what role children play. For this reason, you should not use children when setting `<textarea>` values:
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <textarea name="description" value="This is a description." />
-{%endace%}
+```
 
 #### Why Select Value?
 
@@ -131,13 +131,13 @@ In HTML, The selected `<option>` in an HTML `<select>` is normally specified thr
 
 However in React, in order to make components easier to manipulate, the following format is adopted instead:
 
-{%ace edit=false, lang='html', theme='tomorrow' %}
+```jsx
 <select value="B">
     <option value="A">Apple</option>
     <option value="B">Banana</option>
     <option value="C">Cranberry</option>
 </select>
-{%endace%}
+```
 
 To make an uncontrolled component, `defaultValue` is used instead.
 

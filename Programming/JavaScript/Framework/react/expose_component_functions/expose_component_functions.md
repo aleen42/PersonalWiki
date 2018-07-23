@@ -4,7 +4,7 @@ There's another (uncommon) way of [communicating between components](./../commun
 
 Say a list of todos, which upon clicking get removed. If there's only one unfinished todo left, animate it:
 
-{%ace edit=false, lang='jsx', theme='tomorrow'%}
+```jsx
 var Todo = React.createClass({
     render: function () {
         return (
@@ -54,6 +54,6 @@ ReactDOM.render(
     <Todos />,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 Alternatively, you could have achieved this by passing the `todo` an `isLastUnfinishedItem` prop, let it check this prop in `componentDidUpdate`, then animate itself; however, this quickly gets messy if you pass around different props to control animations.

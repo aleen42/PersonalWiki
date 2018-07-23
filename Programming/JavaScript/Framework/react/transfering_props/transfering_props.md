@@ -4,21 +4,21 @@ Sometimes in React, we will wrap a component in an abstraction, which will only 
 
 Therefore, we can use [JSX spread attributes](./../jsx_spread_attributes/jsx_spread_attributes.md) to pass props from an owner component to the ownee one:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 <Component {...this.props} more="value" />
-{%endace%}
+```
 
 Ignoring JSX, you can also use any object helpers such as ES6 `Object.assign` or Underscore `_.extend`:
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+```js
 React.createElement(Component, Object.assign{}, this.props, { more: 'value' });
-{%endace%}
+```
 
 ### Manual Transfer
 
 Most of the time you should **explicitly pass** the properties **down**. This ensures that you only expose a subset of the inner API.
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 function FancyCheckBox(props) {
     var fancyClass = props.checked ? 'FancyChecked' : 'FancyUnchecked';
     
@@ -34,7 +34,7 @@ ReactDOM.render(
     </FancyCheckBox>,
     document.getElementById('content')
 );
-{%endace%}
+```
 
 But what about the `name`, `title` or `onMouseOver` prop?
 
@@ -44,13 +44,13 @@ Sometimes, it's fragile(易碎) and tedious(冗長) to pass every property along
 
 As followed, you can list out all the properties that you would like to consume(銷毀), followed by `...other`.
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+```js
 var { checked, ...other } = props;
-{%endace%}
+```
 
 That ensures that you pass down all the props **EXCEPT** the consumed prop `checked`:
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 function FancyCheckBox(props) {
     var { checked, ...other} = props;
     var fancyClass = checked ? 'FancyChecked' : 'FancyUnchecked';
@@ -67,13 +67,13 @@ ReactDOM.render(
     </FancyCheckBox>,
     document.getElementById('content');
 );
-{%endace%}
+```
 
 ### Consuming and Transferring Again
 
 If you want to consume a property but also want to pass it along, you can repass it explicitly. Rather than passing the full `props`, this way is easier to refactor and lint(語法檢查).
 
-{%ace edit=false, lang='jsx', theme='tomorrow' %}
+```jsx
 function FancyCheckbox(props) {
     var { checked, title, ...other } = props;
     var fancyClass = checked ? 'FancyChecked' : 'FancyUnchecked';
@@ -86,7 +86,7 @@ function FancyCheckbox(props) {
         </label>
     );
 }
-{%endace%}
+```
 
 > **NOTE:**
 
@@ -96,13 +96,13 @@ function FancyCheckbox(props) {
 
 Rest properties allow you to **extract the remaining properties** from an object into a new object. It excludes every other property listed in the destructuring pattern.
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+```js
 var { x, y, ...z } = { x: 1, y: 2, a: 1, b: 2 };
 
 console.log(x);     /** => 1              */
 console.log(y);     /** => 2              */
 console.log(z);     /** => { a: 1, b: 2 } */
-{%endace%}
+```
 
 > **NOTE:**
 
@@ -112,7 +112,7 @@ console.log(z);     /** => { a: 1, b: 2 } */
 
 If you don't use JSX, you can use a library to achieve the same pattern. Underscore supports `_.omit` to filter out properties and `_.extend` to copy properties onto a new object.
 
-{%ace edit=false, lang='javascript', theme='tomorrow' %}
+```js
 function FancyCheckBox(props) {
     var checked = props.checked;
     var other = _.omit(props, 'checked');
@@ -122,4 +122,4 @@ function FancyCheckBox(props) {
         React.DOM.div(_.extend({}, other, { className: fancyClass }))
     );
 }
-{%endace%}
+```
