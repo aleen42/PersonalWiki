@@ -15,3 +15,4 @@
 ### Guides
 
 - [**Vue Instances**](./vue_instances/vue_instances.md)
+- [**Template Syntax**](./template_syntax/template_syntax.md)
