@@ -16,3 +16,4 @@
 
 - [**Vue Instances**](./vue_instances/vue_instances.md)
 - [**Template Syntax**](./template_syntax/template_syntax.md)
+- [**Computed Properties and Watchers**](./computed_properties_and_watchers/computed_properties_and_watchers.md)

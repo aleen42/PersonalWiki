@@ -116,6 +116,7 @@
                     * Guides
                         * [Vue Instances](./Programming/JavaScript/Framework/vue/vue_instances/vue_instances.md)
                         * [Template Syntax](./Programming/JavaScript/Framework/vue/template_syntax/template_syntax.md)
+                        * [Computed Properties and Watchers](./Programming/JavaScript/Framework/vue/computed_properties_and_watchers/computed_properties_and_watchers.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
