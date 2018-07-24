@@ -21,3 +21,4 @@
 
 - [**ES3-Compatible Webpack Plugin**](./es3_compatible_webpack_plugin/es3_compatible_webpack_plugin.md)
 - [**Resolve?**](./resolve/resolve.md)
+- [**Bundle Style**](./bundle_style/bundle_style.md)

@@ -127,6 +127,7 @@
                     * Advanced
                         * [ES3-Compatible Webpack Plugin](./Programming/JavaScript/Framework/webpack/es3_compatible_webpack_plugin/es3_compatible_webpack_plugin.md)
                         * [Resolve?](./Programming/JavaScript/Framework/webpack/resolve/resolve.md)
+                        * [Bundle Style](./Programming/JavaScript/Framework/webpack/bundle_style/bundle_style.md)
                 * [Redux](./Programming/JavaScript/Framework/redux/redux.md)
                     * [Introduction](./Programming/JavaScript/Framework/redux/introduction/introduction.md)
                     * Basics
