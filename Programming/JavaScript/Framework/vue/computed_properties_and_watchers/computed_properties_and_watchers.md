@@ -100,7 +100,7 @@ const vm = new Vue({
         firstName: 'PuiMan',
         lastName: 'Cheui',
     },
-    compute: {
+    computed: {
         fullName: function () { return `${this.firstName} ${this.lastName}`; },
     },
 });
@@ -114,7 +114,7 @@ Computed properties are by default getter-only, and means that you can't change 
 vm.fullName = 'Jackie Chan';
 ```
 
-What if I need to modify a compute property? We can set a setter for this:
+What if I need to modify a computed property? We can set a setter for this:
 
 ```js
 const vm = new Vue({
@@ -123,7 +123,7 @@ const vm = new Vue({
         firstName: 'PuiMan',
         lastName: 'Cheui',
     },
-    compute: {
+    computed: {
         fullName: {
             get: function () { return `${this.firstName} ${this.lastName}`; },
             set: function (v) {
