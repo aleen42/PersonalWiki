@@ -118,6 +118,7 @@
                         * [Template Syntax](./Programming/JavaScript/Framework/vue/template_syntax/template_syntax.md)
                         * [Computed Properties and Watchers](./Programming/JavaScript/Framework/vue/computed_properties_and_watchers/computed_properties_and_watchers.md)
                         * [Class and Style Bindings](./Programming/JavaScript/Framework/vue/class_style/class_style.md)
+                        * [Logical Rendering](./Programming/JavaScript/Framework/vue/logical_rendering/logical_rendering.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)
