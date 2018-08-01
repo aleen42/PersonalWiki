@@ -8,13 +8,13 @@ Templates used in Vue is like an extension of HTML, which allows us to declarati
 
 The most basic form of data biding is text interpolation with using double braces:
 
-```vue
+```html
 <span>{{ message }}</span>
 ```
 
 This interpolation will be updated when data has been modified, and if you want it to show with a consistent value during rendering, you can use `v-once` directive to do so:
 
-```vue
+```html
 <span v-once>consistent {{ message }}</span>
 ```
 
@@ -22,7 +22,7 @@ This interpolation will be updated when data has been modified, and if you want 
 
 Double braces interprets data as plain text, rather than HTML. If you want to inject HTML into an element, `v-html` directive is what you need (note: using `v-html` like `dangerouslySetInnerHTML` in React, will result in XSS vulnerabilities):
 
-```vue
+```html
 <span v-html="rawHTML"></span>
 ```
 
@@ -36,13 +36,13 @@ In React, we can pass data through attributes with mustache style like following
 
 It is unfortunate that Vue has not supported such a feature, and if we want to pass through, we may need to use `v-bind:{attribute}` directive to do so:
 
-```vue
+```html
 <component v-bind:id="data.id"></component>
 ```
 
 In addition, boolean attributes may work a little differently:
 
-```vue
+```html
 <button v-bind:disabled="isDisabled"></button>
 ```
 
@@ -52,14 +52,14 @@ In addition, boolean attributes may work a little differently:
 
 Full power of JavaScript expressions are supported inside all data bindings:
 
-```vue
+```html
 {{ 'abc' + message }}
 <div v-bind:id="'list-' + data.id"></div>
 ```
 
 But only when the expression is **REAL** and **SINGLE** (note: `Math` and `Date` are only two available global variable you can access):
 
-```vue
+```html
 <!-- not an expression -->
 {{ const a = 1 }}
 
@@ -82,7 +82,7 @@ Some directives can take an "argument" right following itself with a colon as a 
 
 Modifiers are special postfixes separated by a dot, which indicate that a directive should be bound in some special way, like `.prevent`, which has told the `v-on` directive to call `event.preventDefault()` while triggered:
 
-```vue
+```html
 <form v-on:submit.prevent="onSubmit"></form>
 ```
 
@@ -92,14 +92,14 @@ For more details of other modifiers, we can check [here](https://vuejs.org/v2/gu
 
 Even if the `v-` prefix help identifying Vue specific attributes in templates, sometimes we still feel that it is verbose to use frequently used directives. Therefore, Vue has provided two shorthands for two of the most often used directives, `v-bind` and `v-on`:
 
-```vue
+```html
 <!-- full syntax -->
 <a v-bind:href="url">...</a>
 <!-- shorthands -->
 <a :href="url">...</a>
 ```
 
-```vue
+```html
 <!-- full syntax -->
 <a v-on:click.prevent="handler">...</a>
 <!-- shorthands -->

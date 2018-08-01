@@ -24,7 +24,7 @@ const app = new Vue({
 
 Correspondingly, Vue will handle all data bindings underneath, which sometimes should be a complicated process, as when we set `app.message` with another text, we can feel its data bindings by checking the change of DOM. What if `data.message` can be generated directly as the element's title? Vue has provided us a specific property, named `v-bind:{property}`, for us, which apparently with `v-` as its prefix.
 
-```vue
+```html
 <div id="app" v-bind:title="message">
     hover to check titles
 </div>
@@ -47,7 +47,7 @@ Some logical operations upon templates, like conditional logic or circle logic, 
 
 Take the conditional one as an example, Vue has provided us `v-if`, while `v-for` for circles.
 
-```vue
+```html
 <div id="app">
     <span v-if="visible">Can you see me?</span>
 </div>
@@ -64,7 +64,7 @@ const app = new Vue({
 
 When there is cyclical data like `todo` lists:
 
-```vue
+```html
 <div id="app">
     <p>TODO lists</p>
     <ol>
@@ -90,7 +90,7 @@ const app = new Vue({
 
 The most important thing for Vue is to handle inputs from users, like clicking, typing, etc. `v-on:{event}` directive can be simply used for those cases, like `v-on:click` for listening clicking from users. Certainly, we may also need to create an handler in the Vue instance:
 
-```vue
+```html
 <div id="app">
     <p>{{ message }}</p>
     <button v-on:click="reverse">reverse message</button>
@@ -113,7 +113,7 @@ const app = new Vue({
 
 From the snippet above, we can apparently know that what we need to do inside an Vue instance is to change its state, rather than modifying its DOM directly, as Vue has given you a favor. What if handling users' typing? `v-model` is a great directive for making two-way biding between from input and the instance:
 
-```vue
+```html
 <div id="app">
     <p>{{ message }}</p>
     <input v-model="message" />
@@ -132,7 +132,7 @@ Vue.component('todo-item', {
 
 And then, in the template, we can import this component like this:
 
-```vue
+```html
 <ol>
     <!-- an instance of the todo-item component -->
     <todo-item></todo-item>
@@ -150,7 +150,7 @@ Vue.component('todo-item', {
 
 As shown above, the component accept a `todo` property to access its `content` member so that it can generate different things. While using the component within template, we can pass data through it like this:
 
-```vue
+```html
 <ol>
     <todo-item todo="task1></todo-item>
     <todo-item todo="task2></todo-item>
@@ -160,7 +160,7 @@ As shown above, the component accept a `todo` property to access its `content` m
 
 Oops, circle logic has shown its charm here (note: `key` is required when loop Vue components, which will be explained in a later article):
 
-```vue
+```html
 <ol>
     <todo-item
         v-for="task in tasks"

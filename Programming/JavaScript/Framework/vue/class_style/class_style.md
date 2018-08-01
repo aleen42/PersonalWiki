@@ -8,13 +8,13 @@ As mentioned above, we can bind some data of a Vue instance to the DOM via `v-bi
 
 Like we bind an object to the class of an element through following snippet:
 
-```vue
+```html
 <div v-bind:class="{ active: isActive }"></div>
 ```
 
 It means that the DOM will toggle class `active` according to the value of the data `isActive`. As for enhancements, Vue has allowed us to bind more than one class name through an object:
 
-```vue
+```html
 <div v-bind:class="{ active: isActive, 'f-dn': isHidden }"></div>
 ```
 
@@ -22,7 +22,7 @@ Certainly, the change of values of `isActive` or `isHidden` will also trigger ch
 
 In addition, the bound object should not always be inline, and we can directly bind class to an defined object:
 
-```vue
+```html
 <div id="app" v-bind:class="classObject"></div>
 ```
 
@@ -62,7 +62,7 @@ const vm = new Vue({
 
 We can pass an array to the class to apply a list of classes:
 
-```vue
+```html
 <div id="app" v-bind:class="[activeClass, hiddenClass]"></div>
 ```
 
@@ -84,7 +84,7 @@ And the example above will render:
 
 Certainly, what if we need to render class name conditionally, and we can do it with expressions directly:
 
-```vue
+```html
 <div id="app" v-bind:class="[isActive ? activeClass : '', isHidden ? hiddenClass : '']"></div>
 ```
 
@@ -104,7 +104,7 @@ Uh, it is too redundant, and it is suggested using arrays only when we need to d
 
 Vue has also provided us a mixed way to bind classes:
 
-```vue
+```html
 <div id="app" v-bind:class="[{ active: isActive }, hiddenClass]"></div>
 ```
 
@@ -124,7 +124,7 @@ Vue.component('custom-component', {
 
 And use with specifying classes:
 
-```vue
+```html
 <custom-component class="baz boo"></custom-component>
 ```
 
@@ -136,7 +136,7 @@ And finally render like this:
 
 When specifying bound classes, it is quite familiar:
 
-```vue
+```html
 <custom-component v-bind:class="[activeClass]"></custom-component>
 ```
 
@@ -152,7 +152,7 @@ And finally render like this:
 
 When it comes to inline styles, passing an object for binding is quite similar with setting CSS sheets:
 
-```vue
+```html
 <div id="app" v-bind:style="{ color: '#a10000', fontSize: fontSize + 'px' }"></div>
 ```
 
@@ -171,12 +171,12 @@ For more cleaner code, it is advised passing objects directly.
 
 Arrays are mainly used for applying multiple style objects to the same element:
 
-```vue
+```html
 <div id="app" v-bind:style="[baseStyle, schemaStyle]"></div>
 ```
 
 Since `Vue@2.3.0`, we can also provide an array of multiple values to a style property like this, which is required for compatibility usages:
 
-```vue
+```html
 <div id="app" v-bind:style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }"></div>
 ```

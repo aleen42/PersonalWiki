@@ -4,7 +4,7 @@
 
 Even if single expression is supported in text interpolations, it is not reusable and sometimes we may event need a more complicated logical function to generate message for us. **Computed Properties** are what we need to do so. For instance, if we need to reverse a message in several places, it is quite hard to maintain if we code like this snippet:
 
-```vue
+```html
 <div id="app">
     <span class="original">{{ message }}</span>
     <span class="reverse">{{ message.split('').reverse().join('') }}</span>
@@ -17,7 +17,7 @@ Even if single expression is supported in text interpolations, it is not reusabl
 
 How about using computed properties to implement this?
 
-```vue
+```html
 <div id="app">
     <span class="original">{{ message }}</span>
     <span class="reverse">{{ reverseMessage }}</span>
@@ -50,7 +50,7 @@ console.log(vm.reverseMessage); /** => eyBdooG */
 
 In comparison with computed properties, we can also define the same function as a method instead, and the two approaches are exactly functionally same.
 
-```vue
+```html
 <div id="app">
     <span class="reverse">{{ reverseMessage() }}</span>
 </div>
@@ -72,7 +72,7 @@ However, computed properties are cached base on their dependencies specified ins
 
 When it comes to **watch properties**, it is a powerful feature Vue has provided for developers to observe and react to data changes on a Vue instance. However, it is better to use computed properties rather than an imperative `watch` callback:
 
-```vue
+```html
 <div id="app">{{ fullName }}</div>
 ```
 
@@ -140,7 +140,7 @@ const vm = new Vue({
 
 Watchers are mainly used for watching user interfaces like inputting, and it is useful to perform asynchronous or expensive operations in response to changing data.
 
-```vue
+```html
 <div id="app">
     <input v-model="data" />
     {{ result }}

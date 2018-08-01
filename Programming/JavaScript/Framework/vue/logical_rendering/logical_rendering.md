@@ -8,20 +8,20 @@ As we mentioned inside a forward note, around template syntax of Vue, we can use
 
 In Vue, we can use `v-if` directive to achieve conditional rendering:
 
-```vue
+```html
 <h1 v-if="isTitleShown">Title</h1>
 ```
 
 And in comparison, there is `v-else` directive to achieve a opposite rendering:
 
-```vue
+```html
 <label v-if="ok">Yes</label>
 <label v-else>No</label>
 ```
 
 Since `Vue@2.1.0`, `v-else-if` directive has also been supported for conditional rendering:
 
-```vue
+```html
 <label v-if="ok">Yes</label>
 <label v-else-if="fine">Yes</label>
 <label v-else>No</label>
@@ -31,7 +31,7 @@ But we should remember that `v-else` or `v-else-if` directives should be placed 
 
 Certainly, what if I don't want to register the same condition for a few elements like this:
 
-```vue
+```html
 <h1 v-if="article">Title</h1>
 <p v-if="article">Paragraph 1</p>
 <p v-if="article">Paragraph 2</p>
@@ -39,7 +39,7 @@ Certainly, what if I don't want to register the same condition for a few element
 
 The most common way to work around this is to wrap them with an invisible container like `<div>`. Vue has also provided us an element for grouping, `<template>`.
 
-```vue
+```html
 <template v-if="article">
     <h1>Title</h1>
     <p>Paragraph 1</p>
@@ -49,7 +49,7 @@ The most common way to work around this is to wrap them with an invisible contai
 
 With conditional rendering, Vue tries to render elements as efficiently as possible, and always reuse some elements instead of rendering. For instance, there is a requirement for implementing different entries of login. It is quite efficient to reuse the same input area for different kinds of login forms.
 
-```vue
+```html
 <template v-if="loginType === 'username'">
   <label>Username</label>
   <input name="id" placeholder="Enter your username">
@@ -64,7 +64,7 @@ With upper snippet, if we switch the type of login, specified by `loginType`, Vu
 
 But what if we really need to implement two new DOM for `input` elements? Just adding a `key` attribute with unique values:
 
-```vue
+```html
 <template v-if="loginType === 'username'">
   <label>Username</label>
   <input name="id" placeholder="Enter your username" key="username">
@@ -88,7 +88,7 @@ If we pay more attention to the overloads of unmounting elements from the DOM tr
 
 When there is a list of items to loop for rendering, `v-for` directive is what we need, which requires a special syntax in the form of `item in items`:
 
-```vue
+```html
 <ul id="app">
     <li v-for="item in items">{{ item.name }}</li>
 </ul>
@@ -109,7 +109,7 @@ const vm = new Vue({
 
 Inside `v-for` blocks, we have full accesses to parent scope properties, and `v-for` also supports an optional second argument for the index of current item:
 
-```vue
+```html
 <ul id="app">
     <li v-for="(item, index) in items">{{ parentMessage }}-{{ index }}: {{ item.name }}</li>
 </ul>
@@ -133,7 +133,7 @@ _Note: we can use `item of items`, which is similar to `for...of``` in JavaScrip
 
 In comparison with arrays, we can also use `v-for` directive to iterate through an object:
 
-```vue
+```html
 <ul id="app">
     <li v-for="value in item">{{ value }}</li>
 </ul>
@@ -153,7 +153,7 @@ const vm = new Vue({
 
 And the second optional argument is also supported for accessing keys:
 
-```vue
+```html
 <ul id="app">
     <li v-for="(value, key) in item">{{ key }}: {{ value }}</li>
 </ul>
@@ -161,7 +161,7 @@ And the second optional argument is also supported for accessing keys:
 
 The third optional argument is for accessing corresponding index:
 
-```vue
+```html
 <ul id="app">
     <li v-for="(value, key, index) in item">{{ key }}({{ index }}): {{ value }}</li>
 </ul>
@@ -173,7 +173,7 @@ _Note: when iterating over an object, the order is based on the key enumeration 
 
 Quite similar to React, Vue has also use "in-place patch" strategy to replace DOM rather than to re-render a whole list after data has been modified. To give Vue a hint for tracking elements, we have to specify a unique key for each element of a list:
 
-```vue
+```html
 <ul id="app">
     <li v-for="item in items" :key="item.id">{{ item.name }}</li>
 </ul>
@@ -238,7 +238,7 @@ vm.items = Object.assign({}, vm.items, { name: 'what' });
 
 We can use methods or computed properties inside `v-for` directive to implement filtered or sorted results during cyclical rendering:
 
-```vue
+```html
 <ul id="app">
     <li v-for="item in even(items)">{{ item.name }}</li>
 </ul>
@@ -262,7 +262,7 @@ const vm = new Vue({
 
 How about using computed properties?
 
-```vue
+```html
 <ul id="app">
     <li v-for="item in evenItems">{{ item.name }}</li>
 </ul>
@@ -301,7 +301,7 @@ const vm = new Vue({
 
 Similar to `v-if`, `v-for` directive can also take `<template>` to loop for rendering groups of templates.
 
-```vue
+```html
 <ul id="app">
   <template v-for="item in items">
     <li>item: </li>
@@ -314,7 +314,7 @@ Similar to `v-if`, `v-for` directive can also take `<template>` to loop for rend
 
 `v-for` directive can be used with `v-if` at the same time, where `v-for` has a higher priority.
 
-```vue
+```html
 <ul id="app">
     <li v-for="item in items" v-if="!item.done">{{ item.name }}</li>
 </ul>
@@ -324,7 +324,7 @@ Similar to `v-if`, `v-for` directive can also take `<template>` to loop for rend
 
 Like a normal element, we can directly use `v-for` inside a custom component, but what we should remember is specifying `key` since `Vue@2.2.0`. If we want to pass value to the component it self, `props` is the only way:
 
-```vue
+```html
 <custom-component
     v-for="(item, index) in items"
     v-bind:item="item"
