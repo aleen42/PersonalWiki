@@ -274,8 +274,11 @@
                 * Http
                     * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
         * [TypeScript](./Programming/TypeScript/TypeScript.md)
-            * [Brief Descriptions](./Programming/TypeScript/brief_description/brief_description.md)
-            * [Integrations](./Programming/TypeScript/integrations/integrations.md)
+            * Tutorials
+                * [Brief Descriptions](./Programming/TypeScript/brief_description/brief_description.md)
+                * [Integrations](./Programming/TypeScript/integrations/integrations.md)
+            * Syntax
+                * [Basic Types](./Programming/TypeScript/types/types.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)

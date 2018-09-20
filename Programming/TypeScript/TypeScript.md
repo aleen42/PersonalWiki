@@ -8,3 +8,7 @@ As the official said, TypeScript is a **typed** superset of JavaScript, which ca
 
 - [**Brief Descriptions**](./brief_description/brief_description.md)
 - [**Integrations**](./integrations/integrations.md)
+
+### Syntax
+
+- [**Basic Types**](./types/types.md)
