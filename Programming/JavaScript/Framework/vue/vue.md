@@ -19,3 +19,4 @@
 - [**Computed Properties and Watchers**](./computed_properties_and_watchers/computed_properties_and_watchers.md)
 - [**Class and Style Bindings**](./class_style/class_style.md)
 - [**Logical Rendering**](./logical_rendering/logical_rendering.md)
+- [**Event Handling**](./event_handling/event_handling.md)
