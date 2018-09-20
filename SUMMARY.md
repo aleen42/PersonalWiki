@@ -120,6 +120,7 @@
                         * [Class and Style Bindings](./Programming/JavaScript/Framework/vue/class_style/class_style.md)
                         * [Logical Rendering](./Programming/JavaScript/Framework/vue/logical_rendering/logical_rendering.md)
                         * [Event Handling](./Programming/JavaScript/Framework/vue/event_handling/event_handling.md)
+                        * [Form Input Bindings](./Programming/JavaScript/Framework/vue/form_input_bindings/form_input_bindings.md)
                 * [Webpack](./Programming/JavaScript/Framework/webpack/webpack.md)
                     * Tutorials
                         * [Installation](./Programming/JavaScript/Framework/webpack/installation/installation.md)

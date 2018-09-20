@@ -20,3 +20,4 @@
 - [**Class and Style Bindings**](./class_style/class_style.md)
 - [**Logical Rendering**](./logical_rendering/logical_rendering.md)
 - [**Event Handling**](./event_handling/event_handling.md)
+- [**Form Input Bindings**](./form_input_bindings/form_input_bindings.md)
