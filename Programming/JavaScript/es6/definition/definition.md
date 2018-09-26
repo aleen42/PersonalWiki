@@ -124,6 +124,18 @@ bar();
 foo();
 ```
 
+```js
+let x = 1;
+switch('case2') {
+case 'case1':       /** eslint: no-case-declarations */
+    let x = 2;
+    break;
+case 'case2':
+    console.log(x); /** => ReferenceError: x is not defined */
+    break;
+}
+```
+
 #### Duplicate Definition
 
 Duplicate definition will cause problems when defining variables in the same domian:
