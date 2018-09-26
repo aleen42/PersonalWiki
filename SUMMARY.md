@@ -605,6 +605,7 @@
             * [How to hide input[file] in IE8](./qa/hide_inputfile_ie8.md)
             * [How to build up Android development environment when using Ionic and Cordova to build APP](./qa/android_ionic_cordova.md)
             * [How to define a function with dynamical name](./qa/dynamic_function_name.md)
+            * [How to handle error message and binary response with Axios within a same request](./qa/axios_download_within_same_request.md)
             * [Someting about scrolling](./qa/scroll/scroll.md)
             * [Something about !DOCTYPE](./qa/doctype.md)
             * [Something about iframe](./qa/iframe.md)
