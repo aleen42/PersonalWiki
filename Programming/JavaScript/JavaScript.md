@@ -42,6 +42,7 @@ JavaScript|To specify the behavior of web pages.
 * [Asynchronous Programming](./async_programming/async_programming.md)
 * [Aspect-oriented Programming(AOP)](./aspect_oriented_programming/aspect_oriented_programming.md)
 * [Easing Function](./easing/easing.md)
+* [Currying](./currying/currying.md)
 
 #### Http
 

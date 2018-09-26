@@ -274,6 +274,7 @@
                     * [Asynchronous Programming](./Programming/JavaScript/async_programming/async_programming.md)
                     * [Aspect-oriented Programming(AOP)](./Programming/JavaScript/aspect_oriented_programming/aspect_oriented_programming.md)
                     * [Easing Function](./Programming/JavaScript/easing/easing.md)
+                    * [Currying](./Programming/JavaScript/currying/currying.md)
                 * Http
                     * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
         * [TypeScript](./Programming/TypeScript/TypeScript.md)
