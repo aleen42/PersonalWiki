@@ -12,3 +12,4 @@ As the official said, TypeScript is a **typed** superset of JavaScript, which ca
 ### Syntax
 
 - [**Basic Types**](./types/types.md)
+- [**Variable Declarations**](./variable_declarations/variable_declarations.md)
