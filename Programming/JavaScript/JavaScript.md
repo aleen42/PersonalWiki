@@ -40,6 +40,7 @@ JavaScript|To specify the behavior of web pages.
 * [Event Loops](./events_loop/events_loop.md)
 * [Unit Tests](./unit_tests/unit_tests.md)
 * [Asynchronous Programming](./async_programming/async_programming.md)
+* [Aspect-oriented Programming(AOP)](./aspect_oriented_programming/aspect_oriented_programming.md)
 * [Easing Function](./easing/easing.md)
 
 #### Http

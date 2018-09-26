@@ -272,6 +272,7 @@
                     * [Event Loops](./Programming/JavaScript/events_loop/events_loop.md)
                     * [Unit Tests](./Programming/JavaScript/unit_tests/unit_tests.md)
                     * [Asynchronous Programming](./Programming/JavaScript/async_programming/async_programming.md)
+                    * [Aspect-oriented Programming(AOP)](./Programming/JavaScript/aspect_oriented_programming/aspect_oriented_programming.md)
                     * [Easing Function](./Programming/JavaScript/easing/easing.md)
                 * Http
                     * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
