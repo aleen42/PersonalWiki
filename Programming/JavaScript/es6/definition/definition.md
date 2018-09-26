@@ -141,7 +141,7 @@ case 'case2':
 Duplicate definition will cause problems when defining variables in the same domian:
 
 ```js
-funtion () {
+function () {
     /** Error */
     let a = 10;
     var a = 1;
