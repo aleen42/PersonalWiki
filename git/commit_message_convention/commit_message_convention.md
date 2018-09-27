@@ -39,3 +39,5 @@ All Commit Messages **MUST** be formatted like this:
 - **Issue**: the identification of issues, like GitHub Issue ID or JIRA Issue ID, related to commits.
 - **MR/PR**: the identification of merge or pull requests, related to commits.
 - **Message Body**: a more detailed description after a subject.
+
+Certainly, we can use some helpful tools to lint our commit messages before commits or even to integrate with CI to handle unconventional commit messages. [**husky**](https://github.com/typicode/husky) is one of my choices for registering git hooks so that we can lint messages before committing. In addition, [**commitlint**](https://github.com/marionebl/commitlint) is one of the best tool for checking messages with the format above.
