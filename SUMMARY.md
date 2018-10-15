@@ -487,6 +487,7 @@
         * [A successful Git branching model](./git/model/model.md)
         * [Personal Configuration](./git/configuration/configuration.md)
         * [Git Commit Message Convention](./git/commit_message_convention/commit_message_convention.md)
+        * [Try to shrink sizes of large Git repository](./git/shrink_sizes/shrink_sizes.md)
     * [Video & Image](./vi/vi.md)
         * [OpenCV](./vi/opencv/opencv.md)
 * Designer
