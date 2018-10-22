@@ -285,6 +285,7 @@
                 * [Basic Types](./Programming/TypeScript/types/types.md)
                 * [Variable Declarations](./Programming/TypeScript/variable_declarations/variable_declarations.md)
                 * [Interfaces](./Programming/TypeScript/interfaces/interfaces.md)
+                * [Classes](./Programming/TypeScript/classes/classes.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
