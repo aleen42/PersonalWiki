@@ -12,6 +12,7 @@
 		- null
 		- undefined
 		- strings
+		- symbol (new in ES6)
 		- ...
 
 ```js
