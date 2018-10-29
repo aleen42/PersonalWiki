@@ -335,19 +335,19 @@ At this moment, we have already known how to draw `path` elements in JavaScript,
 
 circle and ellipse elements are similar to each other with both attributes shown in Table 2.1:
 
-**Circles**|**Ellipses**
-:-----:|:------:
-CX|CX
-CY|CY
+| Circles | Ellipses |
+|:-------:|:---------:|
+|   CX    |    CX     |
+|   CY    |    CY     |
 
 <p align="center"><strong>Table 2.1</strong> Attributes both they have</p>
 
 And Table 2.2 has shown the differences between them:
 
-**Circles**|**Ellipses**
-:-----:|:------:
-R|RX
-|RY
+| Circles | Ellipses |
+|:-------:|:--------:|
+|    R    |    RX    |
+| &nbsp;  |    RY    |
 
 <p align="center"><strong>Table 2.2</strong> Different attributes between them</p>
 
