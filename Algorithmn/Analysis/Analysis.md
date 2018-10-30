@@ -1,53 +1,63 @@
 ## How to analyse an algorithm	[Back](./../AlgorithmnMenu.md)
 
-###Overview
-- Main **thoughts** of designing algorithms
+### 1. Overview
 
-	- [**DC**](./DC/DC.md)
-	- [**DP**](./DP/DP.md)
-	- [**Greedy**](./Greedy/Greedy.md)
-	- [**Search**](./Search/Search.md)
-	- [**Random**](./Random/Random.md)
+Main **thoughts** of designing algorithms:
 
-<img src="./thoughts.png">
+- [**DC**](./DC/DC.md)
+- [**DP**](./DP/DP.md)
+- [**Greedy**](./Greedy/Greedy.md)
+- [**Search**](./Search/Search.md)
+- [**Random**](./Random/Random.md)
 
-- Sometimes, the **performance** of an algorithm matters so much, when the size of a problem **n** is so big.
 
+<p align="center">
+<img src="./thoughts.png" width="75%">
+</p>
+
+Sometimes, the **performance** of an algorithm matters so much, when the size of a problem **n** is so big.
+
+<p align="center">
 <img src="./overhead.png" width="75%">
+</p>
 
-- But it's not always true for high performance, when an algorithm depends on what is more important like the following items:
-	- modularity(模塊性)
-	- correctness(正確性)
-	- maintainabillity(可維護性)
-	- functionality(功能性)
-	- robustness(健壯性)
-	- user-friendliness(用戶友好性)
-	- programmer time(編程效率)
-	- simplicity(簡潔度)
-	- extensibility(可擴展性)
-	- reliability(可靠度)
+But it's not always true for high performance, when an algorithm depends on what is more important like the following items:
 
-- **Three** kinds of analysis
-	- Worst-case(考慮該類問題的最優解, 關注最壞情況下的最好情況)
-	- Average-case
-	- Best-case(虛假的)
+- modularity(模塊性)
+- correctness(正確性)
+- maintainability(可維護性)
+- functionality(功能性)
+- robustness(健壯性)
+- user-friendliness(用戶友好性)
+- programmer time(編程效率)
+- simplicity(簡潔度)
+- extensibility(可擴展性)
+- reliability(可靠度)
 
-- **Three** notations of **time**
-	- ***θ***
+There are **three** kinds of analysis:
 
-	<img src="./theta.png"> (drop **low-order** terms, and ignore **leading** constants)
+- Worst-case(考慮該類問題的最優解, 關注最壞情況下的最好情況)
+- Average-case
+- Best-case(虛假的)
 
-	<img src="./example.png">
+There are **three** notations of **time**
 
-	- ***Ω***
+- ***θ*** (drop **low-order** terms, and ignore **leading** constants)
 
-	<img src="./Omega.png">
+<img src="./theta.png">
 
-	- ***O***
+<img src="./example.png">
 
-	<img src="./O.png">
+- ***Ω***
 
-### Recursive Algorithmn
+<img src="./Omega.png">
+
+- ***O***
+
+<img src="./O.png">
+
+### 2. Recursive Algorithm
+
 - Substitution: 猜想 (通常通過畫Recursive Tree來給出猜想) 並證明
 	- guess
 	- verify

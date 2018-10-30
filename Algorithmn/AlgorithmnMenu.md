@@ -1,6 +1,7 @@
 ## Algorithm Menu	[Back](./../README.md)
 
-- an algorithm is actually a **Turning Machine** (圖靈機) 
+> An algorithm is actually a **Turning Machine**.
+
 - [Analysis](./Analysis/Analysis.md)
 - [Sort](./Sort/Sort.md)
 - [Encode](./Encode/Encode.md)
