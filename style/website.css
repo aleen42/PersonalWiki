@@ -48,3 +48,8 @@ p.comments-section:first-child + span.mjx-chtml {
     text-align: center !important;
     margin: 44px 0 !important;
 }
+
+:root {
+    --search-display: none;
+    --navigator-bg: #333 url(https://raw.githubusercontent.com/aleen42/PersonalWiki/master/pic/summary-background.jpg) no-repeat center;
+}
