@@ -17,23 +17,17 @@ The author of Rx has claimed that Rx can not be called as "functional reactive p
 
 When it comes to the topic why to use Rx, the most important reason in my opinion is that it can free us from tangled webs of callbacks, so that code can be more readable. With reading the article, "[2 minute introduction to Rx](2 minute introduction to Rx)", written by André Staltz, we can easily get that Rx is actually a functional tool for operating events in a event stream through an object named **Observables**.
 
-### As a data flow management tool
+### 1. As a data flow management tool
 
 ```js
 /** initialized with initial value of 42 */
 var subject = Rx.BehaviorSubject(42);
 
 var subscription = subject.subscribe({
-    onNext: function (x) {
-        /** handle data */
-        console.log('currentValue: ' + subjct.getValue());
-    },
-    onError: function (err) {
-        console.log('Error: ' + err);
-    },
-    onCompleted: function () {
-        console.log('Completed');
-    }
+    /** handle data */
+    onNext: x => console.log(`currentValue: ${subject.getValue()}`),
+    onError: err => console.log(`Error: ${err}`),
+    onCompleted: console.log.bind(null, 'Completed'),
 });
 
 subject.onNext(56); /** => currentValue: 56 */
@@ -43,31 +37,23 @@ subject.dispose();
 try {
     subject.onNext(88);
 } catch (e) {
-    console.log(e.message);
+    console.log(e.message); /** => Object has been disposed */
 }
-
-/** => Object has been disposed */
 ```
 
-### As a event listner and counter
+### 2. As an event listener and counter
 
 ```js
-var counterDuration = 60; /** => 60 seconds */
-var counterObservable = Rx.Observable
+const counterDuration = 60; /** => 60 seconds */
+const counterObservable = Rx.Observable
     .fromEvent('.btn', 'click')
     .interval(1000) /** => 1000 milliseconds */
     .take(counterDuration)
     .startWith(-1)
-    .map(function (curTime) {
-       return (counterDuration - curTime);
-    });
+    .map(curTime => (counterDuration - curTime));
 
-var counterObserver = counterObservable.subscribe({
-    onNext: functon (timeLeft) {
-        console.log('time left: ' + timeLeft + 's'); 
-    },
-    onCompleted: function () {
-        console.log('timeout');
-    }
+const counterObserver = counterObservable.subscribe({
+    onNext: timeLeft => console.log(`time left: ${timeLeft}s`),
+    onCompleted: () => console.log('timeout'),
 });
 ```
