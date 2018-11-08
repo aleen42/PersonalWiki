@@ -4,7 +4,7 @@ Usually before ECMAScript 2015, a.k.a ES6, JavaScript developers commonly use fu
 
 ### 1. Basic
 
-```ts
+```typescript
 class Person {
     firstName: string;
     lastName: string;
@@ -27,7 +27,7 @@ In such a class, we have declared its constructor and a method named as `fullNam
 
 Inheritance is one of the most important pattern commonly used in object-oriented programming. With inheritance, we can extend any class by using `extends` keyword like the following snippet:
 
-```ts
+```typescript
 class Animal {
     move(distance: number = 0) {
         console.log(`The animal has moved ${distance} miles.`);
@@ -49,7 +49,7 @@ As we can see, `Animal` here is the base class of `Dog`, which has extend a meth
 
 A more complicated situation, where if we define a constructor of the base class?
 
-```ts
+```typescript
 class Animal {
     name: string;
 
@@ -62,7 +62,7 @@ class Animal {
 
 By default, if we do not declare a constructor for classes, which extends this base class, they will automatically inherit from the base class:
 
-```ts
+```typescript
 class Dog {
     /** automatically inherit constructor */
     bark() {
@@ -73,7 +73,7 @@ class Dog {
 
 What if we need to override a new constructor in those classes? We can use `super` keyword to call constructor of their parent class.
 
-```ts
+```typescript
 class Dog {
     constructor(name: string, position: number) {
         super(name); /** same as `this.name = name;` */
@@ -90,7 +90,7 @@ class Dog {
 
 When you have learnt C++, you may know that we can use three keywords (`private`, `protected`, and `public`) to declare whether a member of a class can be accessed within an inherited class or outside the class directly. In TypeScript, we can also use modifiers to do so.
 
-```ts
+```typescript
 class Animal {
     private name: string;
     protected position: number;
@@ -109,7 +109,7 @@ Without declaration explicitly, members are `public` by default, which means we 
 
 When using `private` modifier to specify members of a class, it can only be accessible within the class, and can not be accessed outside it, even in an inherited class.
 
-```ts
+```typescript
 class Animal {
     private name: string;
     constructor(name: string) { this.name = name; }
@@ -132,7 +132,7 @@ console.log(new Animal('bobby').name); /** Error */
 
 The `protected` modifier acts much like the `private` one, except that it can be accessed within inherited classes. Sometimes it is useful while we need to protect constructors of a base class
 
-```ts
+```typescript
 class Animal {
     protected name: string;
     protected constructor(name: string) { this.name = name; }
@@ -156,7 +156,7 @@ const dog = new Dog('dog');
 
 In addition, `readonly` keyword can also used for declaring members for ensuring that it can not be edited once initialized.
 
-```ts
+```typescript
 class Animal {
     readonly name: string;
 }
@@ -183,7 +183,7 @@ Getter or setter are most commonly used for taking control of accessing or modif
 
 Such accessors are quite useful in OOP (Object-oriented Programming), as developers can have some validations before accessing the member of a class. Take the following snippet as an example:
 
-```ts
+```typescript
 class Person {
     public name: string;
 }
@@ -191,7 +191,7 @@ class Person {
 
 The member `name` of the class `Person` has been set as `public` which means that it cannot avoid any unexpected change arisen from outside. In order to add some validation before setting, getter and setter are what we really need.
 
-```ts
+```typescript
 class Person {
     private _name: string;
 
@@ -215,24 +215,25 @@ class Person {
 
 Same as `static` keywords specified in ES6, we can also define some properties or methods of some classes like some util functions in TypeScript:
 
-```ts
+```typescript
 class Email {
     static test(email: string): boolean {
         /** check email */
         /** ... */
+        return true;
     }
 }
 ```
 
 Then with such util classes defined, we can directly call the method `test` without creating an instance of this class:
 
-```ts
+```typescript
 Email.test('aleen42@vip.qq.com');
 ```
 
 Besides, we can also create some *static* members of a class, which are only visible within the class itself, rather than the instance. It simply means that we can access any specified static members of an instance created based on the class, or even through `this` inside the class:
 
-```ts
+```typescript
 class Person {
     static _name = 'person';
     getName(): string { return this._name; /** Error */ }
@@ -248,7 +249,7 @@ console.log(person.name); /** Error */
 
 Abstract classes are commonly used in other languages for describing the structure of a class, and they should be implemented by other classes. As a strong-typed language, TypeScript has also supported for us, but we can only use `extends` keyword to implement abstract classes.
 
-```ts
+```typescript
 abstract class Animal {
     abstract makeSound(): void;
     move(): void {
@@ -259,13 +260,13 @@ abstract class Animal {
 
 As we can show the example above, `abstract` keyword can also be used to define any methods inside such a class, which means that any inherited classes should implement such a method.
 
-```ts
+```typescript
 class Dog extends Animal {} /** Error */
 ```
 
 Except that methods should be implemented by an inherited class, other methods can be overridden as an optional way as mentioned before:
 
-```ts
+```typescript
 class Dog extends Animal {
     makeSound(): void {
         console.log('Woof!');
@@ -283,7 +284,7 @@ class Dog extends Animal {
 
 Once we declare any classes, we can use it to specify the type any variables:
 
-```ts
+```typescript
 class Animal {}
 
 let animal: Animal;
@@ -292,7 +293,7 @@ animal = new Animal();
 
 As class declarations creates a type representing instances of the class, we can also use them in interfaces:
 
-```ts
+```typescript
 class Point {
     x: number;
     y: number;
@@ -307,10 +308,10 @@ const point3d: Point3d = { x: 1, y: 2, z: 3 };
 
 Besides, we also create another value after declaring a class that we call the **constructor function**, which should have all the static members of the class:
 
-```ts
+```typescript
 class Animal {
     static animalName = 'animal';
-    getName: string() {
+    getName(): string {
         return Animal.animalName;
     }
 }

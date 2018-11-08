@@ -12,7 +12,7 @@ npm i -g typescript
 
 And then, create a new file written with TypeScript:
 
-```ts
+```typescript
 /** hello.ts */
 function hello(name) {
     return 'hello, ' + name;
@@ -33,7 +33,7 @@ tsc hello.ts && node hello.js
 
 TypeScript has provided us a new feature like type annotations, and we can try it here. Take the example above as another instance, `hello()` method hopes to accept a string rather than other types when it is called, and if we can use type annotations to strictly define this situation in TypeScript, the compiler should throw an error during compilation rather than automatically convert the type of the parameter in JavaScript:
 
-```ts
+```typescript
 /** hello.ts */
 function hello(name: string) {
     return 'hello, ' + name;
@@ -62,7 +62,7 @@ What if the method hopes to accept an object like following defined:
 
 TypeScript has provided `interfaces` for us to describes objects:
 
-```ts
+```typescript
 /** hello.ts */
 interface Person {
     firstName: string;
@@ -80,7 +80,7 @@ console.log(hello({ firstName: 'PuiMan', lastName: 'Cheui' }));
 
 Furthermore, classes are another language features, which can be used to specify the type of a person like `Student`.
 
-```ts
+```typescript
 class Student {
     fullName: string;
     firstName: string;
@@ -94,7 +94,7 @@ class Student {
 
 In addition, the use of `public` on arguments to the constructor is a shorthand that allows us to automatically create properties with the name:
 
-```ts
+```typescript
 class Student {
     fullName: string;
     constructor(public firstName: string, public lastName: string, public schoolNumber: number) {
@@ -105,7 +105,7 @@ class Student {
 
 Then, integrate it with the `hello()` methods:
 
-```ts
+```typescript
 /** hello.ts */
 /** ... */
 

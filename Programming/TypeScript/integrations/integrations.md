@@ -92,7 +92,7 @@ module.exports = {
 
 After setup some bundling tools like **Webpack**, we can just use files with `.ts` or `.tsx` extension to code with TypeScript. However, the most bunches of errors we will meet always arise when trying to import modules. In JavaScript, we can use some modules style like CommonJS, AMD, or even ES modules to import modules, while in TypeScript, the only available syntax is `import/require`. But what if we don't want to change such a kind of style? What you can do is to convince TypeScript:
 
-```ts
+```typescript
 /** For Node/CommonJS */
 declare function require(path: string): any;
 /** For RequireJS/AMD */
@@ -101,19 +101,19 @@ declare function define(...args: any[]): any;
 
 In official opinions, it is better to use TypeScript syntax for importing modules:
 
-```ts
+```typescript
 import foo = require('./foo');
 ```
 
 By default, JavaScript modules' exporting seems not useful for TypeScript importing, where you may ge an error like "Cannot find module 'foo'". That's because we should declare such a module files to describe it as a library. Fortunately, the community has provided us a project named [`DefinitelyTyped`](https://github.com/DefinitelyTyped/DefinitelyTyped) , where contributors has already declared some frequently used JavaScript libraries for us to use directly. For instance, we can directly require [`@types/lodash`](https://www.npmjs.com/package/@types/lodash) so that we can import it in TypeScript:
 
-```ts
+```typescript
 import _ = require('@types/lodash');
 ```
 
 When it comes to declaring custom libraries created by us, we can typically use `exports` or `module.exports` like CommonJS to declare, which is available in TypeScript. Besides, we can also declare by assigning to `export` like the following snippet:
 
-```ts
+```typescript
 export = function () { /** ... */ };
 ```
 
@@ -141,7 +141,7 @@ func(function (x) { console.log(x); }, 1, 2, 3);
 
 When migrating to TypeScript, we need to explicitly declare this two situations by using function overloads:
 
-```ts
+```typescript
 function func(f: (x: number) => void, arr: number[]): void;
 function func(f: (x: number) => void, ...arr: number[]): void;
 function func() {
@@ -169,7 +169,7 @@ obj.volume = 11;
 
 In TypeScript, it is not allowed as it treats `obj` as an only empty object, which have no properties. So we need to declare what this object should look like before:
 
-```ts
+```typescript
 interface Options { color: string; volume: number }
 
 let obj = {} as Options;
@@ -179,7 +179,7 @@ obj.volume = 11;
 
 As alternatives, TypeScript has also allowed us to declare the object as `any`, a _flexible_ type, to handle the situation when we don't exactly know what the object will look like during initialization stage:
 
-```ts
+```typescript
 let obj = {} as any;
 ```
 
@@ -201,21 +201,21 @@ By default, TypeScrit assumes that `null` and `undefined` are in the domain of e
 
 After enabling it, we can experience what TypeScript will check:
 
-```ts
+```typescript
 declare let foo: string[] | null;
 foo.length; /** error - 'foo' is possibly 'null' */
 ```
 
 If disabling:
 
-```ts
+```typescript
 declare let foo: string[];
 foo.length; /** no error */
 ```
 
 Sometimes, we may have some variables we know better in some logic, which can possibly be a `null` somewhere else. If meeting such a situation, we can probably use the postfix `!` to tell TypeScript that the variable during current logic should be an array of string like the following example:
 
-```ts
+```typescript
 foo!.length; /** no error */
 ```
 
@@ -223,7 +223,7 @@ foo!.length; /** no error */
 
 The context described by the variable `this`, will be treated as `any` in TypeScript by default, when you using it outside a `class`.
 
-```ts
+```typescript
 class Point {
     constructor(public x, public y) {}
     getDistance(p: Point) {
@@ -245,7 +245,7 @@ Point.prototype.distanceFromOrigin = function () {
 
 Same problems as we mentioned above, we won't get any error, like `getDistance` has been misspelled by us. With setting `noImplicitThis`, TypeScript will issue an error when `this` has not been specified as an explicit type. The fix is to use a `this` parameter to give an explicit type in the interface:
 
-```ts
+```typescript
 // in the interface
 interface Point {
     distanceFromOrigin(this: Point): number;
@@ -254,7 +254,7 @@ interface Point {
 
 Or in the function itself:
 
-```ts
+```typescript
 Point.prototype.distanceFromOrigin = function (this: Point) {
     return this.getDistance({ x: 0, y: 0 });
 };
@@ -264,7 +264,7 @@ Point.prototype.distanceFromOrigin = function (this: Point) {
 
 React has been known as a framework, which helps developers manage components in a large project. It similar with AngularJS or Vue, and this section only talks about how we integrate with TypeScript when we used React before. JSX is a well-known template language if you have already developed React before. If not, you can visit [my note](../../JavaScript/Framework/react/jsx_syntax/jsx_syntax.md) before. Corresponding with JSX, TypeScript has also extended itself with TSX for supporting JSX. For example, the following snippet has shown us how to define a hello component in TypeScript:
 
-```tsx
+```typescriptx
 /** hello.tsx */
 import * as React from 'react';
 export interface HelloProps { compiler: string; framework: string; }
@@ -274,7 +274,7 @@ export const Hello = (props: HelloProps) => <h1>Hello from {props.compiler} and 
 
 With classes declaration, we can also define like this:
 
-```tsx
+```typescriptx
 /** hello.tsx */
 export class Hello extends React.Component<HelloProps /** props */, {} /** state */> {
     render(this: Hello) {
@@ -285,7 +285,7 @@ export class Hello extends React.Component<HelloProps /** props */, {} /** state
 
 Then, render it inside the main entry `index.tsx`:
 
-```tsx
+```typescriptx
 /** index.tsx */
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
