@@ -44,6 +44,8 @@
                 * [JQuery](./Programming/JavaScript/Framework/jquery/jquery.md)
                 * [node.js](./Programming/JavaScript/Framework/node/node.md)
                     * [Create and publish a node.js module](./Programming/JavaScript/Framework/node/npm/npm.md)
+                        * Advanced Topics
+                            * [Lock all dependencies?](./Programming/JavaScript/Framework/node/npm/lock_dependencies/lock_dependencies.md)
                     * [Create a static server with node.js](./Programming/JavaScript/Framework/node/static_server/static_server.md)
                     * [Use Node to write a command line tool](./Programming/JavaScript/Framework/node/cmd/cmd.md)
                     * [Differences between spawn and exec of child_process](./Programming/JavaScript/Framework/node/child_process/child_process.md)

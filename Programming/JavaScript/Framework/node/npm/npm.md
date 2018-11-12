@@ -1,6 +1,6 @@
 ## Create and publish a node.js module [Back](./../node.md)
 
-#### What is npm?
+### 1. What is npm?
 
 **npm** is an online registry for open-source node.js projects, modules, resources, etc. Here is the [official website](http://npmjs.org.).
 
@@ -8,7 +8,7 @@
 
 For you ruby devs, npm is akin to [rubygems](http://rubygems.org/).
 
-#### Configure npm
+### 2. Configure npm
 
 To set some information for our own:
 
@@ -18,7 +18,7 @@ npm set init.author.email "aleen42@vip.qq.com"
 npm set init.author.url "http://aleen42.github.io/pc.html"
 ```
 
-#### Create a module
+### 3. Create a module
 
 The primary 2 items that we are concerned with here are `require` and `exports`. You `require` other modules that you wish to use in your code and your module `exports` anything that should be exposed publicly.
 
@@ -39,7 +39,7 @@ Then you can init the module with:
 npm init
 ```
 
-#### Create some tests
+### 4. Create some tests
 
 Here is to create tests with [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/) frameworks with the following commands.
 
@@ -111,7 +111,7 @@ Here is the final files architecture:
 
 > node_modules
 
-#### Write the Readme with convention
+### 5. Write the Readme with convention
 
 ```md
 ## auto-content
@@ -146,7 +146,7 @@ Have an idea? Found a bug? See [how to contribute](https://aleen42.github.io/Per
 [MIT](https://aleen42.github.io/PersonalWiki/MIT.html) © aleen42
 ```
 
-#### Publish the module
+### 6. Publish the module
 
 Note that for whatever reason if you decide not to publish your module on npm, the npm package format provides value in itself in both portability and ease of installation. For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
 
@@ -176,3 +176,7 @@ With that, other developers can install your module by typing:
 ```
 npm install auto-content
 ```
+
+### 7. Advanced Topics
+
+- [**Lock all dependencies?**](./lock_dependencies/lock_dependencies.md)
