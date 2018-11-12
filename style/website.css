@@ -1,0 +1,55 @@
+/** CSS style for website */
+/** codepen demo scroll bar */
+#output pre, #output iframe::-webkit-scrollbar {
+    /** if you want to style your own scroll bar, this pseudo should be written */
+    /** Part 1 */
+    width: 6px;
+    height: 6px;
+}
+
+#output pre, #output iframe::-webkit-scrollbar-button {
+    /** Part 2 */
+    display: none;
+}
+
+#output pre, #output iframe::-webkit-scrollbar-track {
+    /** Part 3 */
+}
+
+#output pre, #output iframe::-webkit-scrollbar-track-piece {
+    /** Part 4 */
+}
+
+#output pre, #output iframe::-webkit-scrollbar-thumb {
+    /** Part 5 */
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+#output pre, #output iframe::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(161, 0, 0, 1);
+}
+
+#output pre, #output iframe::-webkit-scrollbar-thumb:active {
+    background-color: rgba(100, 0, 0, 1);
+}
+
+#output pre, #output iframe::-webkit-scrollbar-corner {
+    /** Part 6 */
+}
+
+#output pre, #output iframe::-webkit-resizer {
+    /** Part 7 */
+}
+
+/** mathjax */
+p.comments-section:first-child + span.mjx-chtml {
+    width: 100% !important;
+    text-align: center !important;
+    margin: 44px 0 !important;
+}
+
+:root {
+    --search-display: none;
+    --navigator-bg: #333 url(https://raw.githubusercontent.com/aleen42/PersonalWiki/master/pic/summary-background.jpg) no-repeat center;
+}
