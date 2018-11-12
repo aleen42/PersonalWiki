@@ -83,7 +83,7 @@
         "resources": {
             "type": "github",
             "repo": "aleen42/PersonalWiki",
-            "branch": "master"
+            "branch": "docs"
         }
     }
 }
