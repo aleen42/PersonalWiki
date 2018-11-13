@@ -16,3 +16,4 @@ As the official said, TypeScript is a **typed** superset of JavaScript, which ca
 - [**Interfaces**](./interfaces/interfaces.md)
 - [**Classes**](./classes/classes.md)
 - [**Functions**](./functions/functions.md)
+- [**Generics**](./generics/generics.md)

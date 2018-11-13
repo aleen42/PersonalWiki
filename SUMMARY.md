@@ -289,6 +289,7 @@
                 * [Interfaces](./Programming/TypeScript/interfaces/interfaces.md)
                 * [Classes](./Programming/TypeScript/classes/classes.md)
                 * [Functions](./Programming/TypeScript/functions/functions.md)
+                * [Generics](./Programming/TypeScript/generics/generics.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
