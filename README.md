@@ -10,7 +10,7 @@ In fact, Einstein claimed never to memorize anything which could be looked up in
 
 ## Start Reading
 
-- Read on [**GitHub Site**](https://aleen42.github.io/PersonalWiki/)
+- Read on [**GitHub Site**](https://github.com/aleen42/personalwiki)
 - Downloads (eBook has not been not supported yet):
     - ~~**PDF**~~
     - ~~**ePub**~~
