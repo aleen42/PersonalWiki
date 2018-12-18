@@ -18,3 +18,7 @@ As the official said, TypeScript is a **typed** superset of JavaScript, which ca
 - [**Functions**](./functions/functions.md)
 - [**Generics**](./generics/generics.md)
 - [**Enums**](./enums/enums.md)
+
+### Advanced
+
+- [**Type Inferences**](./type_inferences/type_inferences.md)
