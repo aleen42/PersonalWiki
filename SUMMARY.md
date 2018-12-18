@@ -290,6 +290,7 @@
                 * [Classes](./Programming/TypeScript/classes/classes.md)
                 * [Functions](./Programming/TypeScript/functions/functions.md)
                 * [Generics](./Programming/TypeScript/generics/generics.md)
+                * [Enums](./Programming/TypeScript/enums/enums.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
