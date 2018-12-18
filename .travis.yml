@@ -6,6 +6,7 @@ node_js:
 before_install:
         - git clone --depth=1 --branch=build https://github.com/aleen42/PersonalWiki.git temp
         - mv -f temp/* ./
+        - mv temp/.bookignore ./
         - git clone --depth=1 --branch=gh-pages https://github.com/aleen42/PersonalWiki.git gh-pages
 before_deploy:
         - npm run gitbook:install
