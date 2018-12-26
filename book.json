@@ -28,7 +28,8 @@
             "url": "https://github.com/aleen42/personalwiki"
         },
         "github-edit": {
-            "repo": "aleen42/personalwiki"
+            "repo": "aleen42/PersonalWiki",
+            "branch": "docs"
         },
         "sharing": {
             "facebook": true,
