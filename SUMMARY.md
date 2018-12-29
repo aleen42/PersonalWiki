@@ -293,6 +293,7 @@
                 * [Enums](./Programming/TypeScript/enums/enums.md)
             * Advanced
                 * [Type Inferences](./Programming/TypeScript/type_inferences/type_inferences.md)
+                * [Type Compatibility](./Programming/TypeScript/type_compatibility/type_compatibility.md)
         * [CSS](./Programming/CSS/CSS.md)
             * [CSS Framework](./Programming/CSS/Framework/Framework.md)
             * [Attribute](./Programming/CSS/Attribute/Attribute.md)
