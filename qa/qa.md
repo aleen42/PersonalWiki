@@ -72,6 +72,7 @@
 - [**Differences between Cookie, localStorage, and sessionStorage**](./difference_between_storage.md)
 - [**What's the difference between tilde(`~`) and caret(`^`) in package.json?**](./tlide_and_caret.md)
 - [**What's new in HTML5**](./what_new_html5.md)
+- [**Remove DOM elements and restore again?**](./remove_restore_dom.md)
 
 ### Back-end
 
