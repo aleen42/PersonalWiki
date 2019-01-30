@@ -23,3 +23,4 @@ As the official said, TypeScript is a **typed** superset of JavaScript, which ca
 
 - [**Type Inferences**](./type_inferences/type_inferences.md)
 - [**Type Compatibility**](./type_compatibility/type_compatibility.md)
+- [**Advanced Types**](./advanced_types/advanced_types.md)
