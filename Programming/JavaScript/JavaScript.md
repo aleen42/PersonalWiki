@@ -25,6 +25,7 @@ JavaScript|To specify the behavior of web pages.
 * [Regular Expressions](./regular/regular.md)
 * [Data Structure](./data_structure/data_structure.md)
 * [Parameters Passing](./parameter/parameter.md)
+* [Symbol](../TypeScript/symbol/symbol.md)
 
 #### Advanced
 
