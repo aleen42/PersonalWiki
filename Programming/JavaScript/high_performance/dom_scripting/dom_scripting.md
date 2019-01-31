@@ -164,7 +164,9 @@ Here is a sample task of creating a table of 1000 rows in two ways:
 
 The result of this task has been shown in the followed table:
 
+<p align="center">
 $$Speed = \frac {t_{DOM} - t_{innerHTML}}{t_{innerHTML}}$$
+</p>
 
 Browsers|IE 6|IE 7|IE 8|Firefox 3|Firefox 3.5|Safari 3.2
 :----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
@@ -293,7 +295,9 @@ function loopArray() {
 
 After calling two functions, we can get the result like that:
 
+<p align="center">
 $$Faster = \frac {t_{collection} - t_{array}}{t_{array}}$$
+</p>
 
 Browsers|IE 6|IE 7|IE 8|Firefox 3|Firefox 3.5|Safari 3.2
 :----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
