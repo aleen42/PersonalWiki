@@ -21,7 +21,8 @@
         "page-footer",
         "page-treeview",
         "resources",
-        "theme-aleen42"
+        "theme-aleen42",
+        "mathjax"
     ],
     "pluginsConfig": {
         "github": {
