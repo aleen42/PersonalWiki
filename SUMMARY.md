@@ -291,6 +291,7 @@
                 * [Functions](./Programming/TypeScript/functions/functions.md)
                 * [Generics](./Programming/TypeScript/generics/generics.md)
                 * [Enums](./Programming/TypeScript/enums/enums.md)
+                * [Symbol](./Programming/TypeScript/symbol/symbol.md)
             * Advanced
                 * [Type Inferences](./Programming/TypeScript/type_inferences/type_inferences.md)
                 * [Type Compatibility](./Programming/TypeScript/type_compatibility/type_compatibility.md)
