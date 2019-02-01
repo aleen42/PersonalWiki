@@ -238,6 +238,7 @@
                         * [Graphs](./Programming/JavaScript/data_structure/graphs/graphs.md)
                     * [Parameters Passing](./Programming/JavaScript/parameter/parameter.md)
                     * [Symbol](./Programming/TypeScript/symbol/symbol.md)
+                    * [Iterators](./Programming/TypeScript/iterators/iterators.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
