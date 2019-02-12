@@ -8,7 +8,6 @@ At first, download the script:
 
 ```bash
 wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
-chmod +x shadowsocks.sh
 ```
 
 Then change mode of this file to give it privilege to run:
@@ -21,6 +20,12 @@ Finally run it:
 
 ```bash
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
+```
+
+If you want to install ShadowsocksR, just download the mirror like the following snippet:
+
+```bash
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 ```
 
 ### 2. Set the password
@@ -54,5 +59,3 @@ To enhance the speed of connection, you can do more with followed steps:
     ```bash
     /etc/init.d/shadowsocks restart
     ```
-
-
