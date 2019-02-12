@@ -40,7 +40,72 @@ wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsoc
   <img alt="set_port" title="mingtocat" src="./shadowsocs2.jpg" width="60%" />
 </p>
 
-### 4. TCP Fast Open
+### 4. Select specific encryption method
+
+According to [the document](https://github.com/shadowsocks/libQtShadowsocks/wiki/Comparison-of-Encryption-Methods'-Speed), there is a comparison of encryption methods' speed, testing with 100MB datagram size.
+
+1. **x86 + Intel Core i7-6500U**
+
+    | Encryption Methods | Time Used (ms) |
+    |-------------------:|:--------------:|
+    |        aes-128-cfb |      639       |
+    |        aes-192-cfb |      693       |
+    |        aes-256-cfb |      764       |
+    |             bf-cfb |      1103      |
+    |   camellia-128-cfb |      1038      |
+    |   camellia-192-cfb |      1261      |
+    |   camellia-256-cfb |      1266      |
+    |          cast5-cfb |      1213      |
+    |           chacha20 |      307       |
+    |            des-cfb |      1613      |
+    |           idea-cfb |      2066      |
+    |            rc2-cfb |      2214      |
+    |            rc4-md5 |      551       |
+    |            salsa20 |      263       |
+    |           seed-cfb |      1521      |
+    |        serpent-cfb |      1444      |
+2. **x86 + AMD Phenom II X4 N930**
+
+    | Encryption Methods | Time Used (ms) |
+    |-------------------:|:--------------:|
+    |        aes-128-cfb |      1860      |
+    |        aes-192-cfb |      1984      |
+    |        aes-256-cfb |      2125      |
+    |             bf-cfb |      2563      |
+    |   camellia-128-cfb |      3812      |
+    |   camellia-192-cfb |      4797      |
+    |   camellia-256-cfb |      4828      |
+    |          cast5-cfb |      2766      |
+    |           chacha20 |      687       |
+    |            des-cfb |      3563      |
+    |           idea-cfb |      4562      |
+    |            rc2-cfb |      5219      |
+    |            rc4-md5 |      2640      |
+    |            salsa20 |      875       |
+    |           seed-cfb |      2657      |
+    |        serpent-cfb |      2875      |
+3. **ARM + Samsung Exynos 4412 Prime**
+
+    | Encryption Methods | Time Used (ms) |
+    |-------------------:|:--------------:|
+    |        aes-128-cfb |      3837      |
+    |        aes-192-cfb |      4089      |
+    |        aes-256-cfb |      4443      |
+    |             bf-cfb |      4320      |
+    |   camellia-128-cfb |      5920      |
+    |   camellia-192-cfb |      7058      |
+    |   camellia-256-cfb |      7057      |
+    |          cast5-cfb |      4730      |
+    |           chacha20 |      1297      |
+    |            des-cfb |      8147      |
+    |           idea-cfb |      6678      |
+    |            rc2-cfb |      8846      |
+    |            rc4-md5 |      3170      |
+    |            salsa20 |      1666      |
+    |           seed-cfb |      6941      |
+    |        serpent-cfb |      4440      |
+
+### 5. TCP Fast Open
 
 To enhance the speed of connection, you can do more with followed steps:
 
