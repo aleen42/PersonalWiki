@@ -129,6 +129,7 @@
                         * [Usage](./Programming/JavaScript/Framework/webpack/usage/usage.md)
                         * [Webpack + React](./Programming/JavaScript/Framework/webpack/webpack_and_react/webpack_and_react.md)
                         * [Webpack + Font Awesome](./Programming/JavaScript/Framework/webpack/webpack_and_fa/webpack_and_fa.md)
+                        * [Tree Shaking](./Programming/JavaScript/Framework/webpack/tree_shaking/tree_shaking.md)
                     * APIs
                         * [Loader](./Programming/JavaScript/Framework/webpack/loader/loader.md)
                     * Advanced
