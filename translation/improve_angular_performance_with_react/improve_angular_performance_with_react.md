@@ -2,7 +2,7 @@
 
 > * 原文链接 : [Improve Angular Performance with React](https://daveceddia.com/improve-angular-performance-with-react/?utm_campaign=0712ngreact)
 > * 原文作者 : [DAVE CEDDIA](https://daveceddia.com/timeline-for-learning-react/)
-> * 译者 : [aleen42](https://github.com/aleen42) 
+> * 译者 : [aleen42](https://github.com/aleen42)
 > * 校对者 : 暂无
 > * 状态 : 待校对
 
@@ -107,7 +107,7 @@ app.directive('fancyDragDropThing', function(reactDirective) {
 - [为你指定的 React 学习路线](./../your_timeline_for_learning_react/your_timeline_for_learning_react.md)
 - [学习原生的 React：轻松地精通基础部分（一本即将发行的书）](https://daveceddia.com/learn-pure-react/)
 
-#### 注解
+**注解**：
 
 <p id="comment-1">[1]：<strong>重新渲染（re-render）</strong> 指的是页面上如有数据变动将会以新的数据重新展示在屏幕上的这一过程。</p>
 
