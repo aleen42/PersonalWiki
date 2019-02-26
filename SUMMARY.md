@@ -240,6 +240,7 @@
                     * [Parameters Passing](./Programming/JavaScript/parameter/parameter.md)
                     * [Symbol](./Programming/TypeScript/symbol/symbol.md)
                     * [Iterators](./Programming/TypeScript/iterators/iterators.md)
+                    * [Modules](./Programming/TypeScript/modules/modules.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
