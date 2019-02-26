@@ -15,7 +15,7 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 
 Fork this project in your account and create a branch with a standard naming convention:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**fix-#1-aleen42**
+**fix-#1-aleen42**
 
 - **#1**: the issue number
 - **aleen42**: the user name of your github

@@ -22,7 +22,7 @@ As a consequence of its simplicity and repetitive nature, branching and merging 
 
 Enough about the tools, let's head onto the development model. The model that I'm going to present here is essentially no more than a set of procedures that every team member has to follow in order to come to a managed software development process.
 
-### Decentralized but centralized 
+### Decentralized but centralized
 
 The repository setup that we use and that works well with this branching model, is that with a central "truth" repo. Note that this repo is only considered to be the central one (since Git is a DVCS, there is no such thing as a central repo at a technical level). We will refer to this repo as **origin**, since this name is familiar to all Git users.
 
@@ -69,15 +69,15 @@ By no means are these branches "special" from a technical perspective. The branc
 
 May branch off from:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**develop**
+**develop**
 
 Must merge back into:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**develop**
+**develop**
 
 Branch naming convention:
 
-&nbsp; &nbsp; &nbsp; &nbsp;anything except **master**, **develop**, **release-***, or **hotfix-***
+anything except **master**, **develop**, **release-***, or **hotfix-***
 
 Feature branches (or sometimes called topic branches) are used to develop new features for the upcoming or a distant future release. When starting development of a feature, the target release in which this feature will be incorporated may well be unknown at that point. The essence of a feature branch is that it exists as long as the feature is in development, but will eventually be merged back into **develop** (to definitely add the new feature to the upcoming release) or discarded (in case of a disappointing experiment).
 
@@ -117,15 +117,15 @@ Yes, it will create a few more (empty) commit objects, but the gain is much bigg
 
 May branch off from:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**develop**
+**develop**
 
 Must merge back into:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**develop** and **master**
+**develop** and **master**
 
 Branch naming convention:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**release-***
+**release-***
 
 Release branches support preparation of a new production release. They allow for last-minute dotting of i's and crossing t's. Furthermore, they allow for minor bug fixes and preparing meta-data for a release (version number, build dates, etc.). By doing all of this work on a release branch, the **develop** branch is cleared to receive features for the next big release.
 
@@ -196,15 +196,15 @@ git branch -d release-1.2
 
 May branch off from:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**master**
+**master**
 
 Must merge back into:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**develop** and **master**
+**develop** and **master**
 
 Branch naming convention:
 
-&nbsp; &nbsp; &nbsp; &nbsp;**hotfix-***
+**hotfix-***
 
 Hotfix branches are very much like release branches in that they are also meant to prepare for a new production release, albeit unplanned. They arise from the necessity to act immediately upon an undesired state of a live production version. When a critical bug in a production version must be resolved immediately, a hotfix branch may be branched off from the corresponding tag on the master branch that marks the production version.
 
