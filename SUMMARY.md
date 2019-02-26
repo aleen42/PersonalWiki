@@ -241,6 +241,7 @@
                     * [Symbol](./Programming/TypeScript/symbol/symbol.md)
                     * [Iterators](./Programming/TypeScript/iterators/iterators.md)
                     * [Modules](./Programming/TypeScript/modules/modules.md)
+                    * [Namespaces](./Programming/TypeScript/namespaces/namespaces.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
