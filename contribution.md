@@ -1,7 +1,7 @@
 ## Contributions
 Whatever comments, bugs, enhancements or policy problems you want to contribute to one of my projects, just **open an issue** for me, and make my life easier.
 
-#### Something to do before opening issues
+### 1. Something to do before opening issues
 
 - First of all, checkout the list and find whether anyone else has opened the same issue with yours. If so, just join and give out your words on those issue.
 
@@ -11,7 +11,7 @@ Whatever comments, bugs, enhancements or policy problems you want to contribute 
 
 - Make a detailed description about your issue, and make me understood what you want to contribute for my projects.
 
-#### Fixing issues
+### 2. Fixing issues
 
 Fork this project in your account and create a branch with a standard naming convention:
 
@@ -22,18 +22,20 @@ Fork this project in your account and create a branch with a standard naming con
 
 **PAY ATTENTION: ** write your code under my [guide style](https://aleen42.gitbooks.io/javascript/content/), and comment what you have written as much as possible.
 
-#### Creating a pull request
+### . Creating a pull request
 
 After fix the issue, just open a pull request and reference the initial issue in the message you commit like **fixes #1**. Write down a understandable description and title to make me know what your pull request have done.
 
 Again to notice that, if it makes sense, add screen shots for your fixes.
 
-#### Waiting for feedback
+### 4. Waiting for feedback
 
 Before accepting your contributions, I'll review what you have done, and keep contact with you after. Maybe sometimes I am too busy to review, so please wait for my feedback. I'll merge your contributions as once I am certain that there is no problems.
 
-#### :laughing::laughing: There is one thing :laughing::laughing:
+### 5. Red-tag
 
-Don't care too much about the number of contributions, and it's just noise all along. Do you see the word **aleen42** in the following image?
+Don't care too much about the number of contributions, and it's just noise all along. Do you see the word **aleen42** in the following image based on [**aleen42/auto-contribution**](https://github.com/aleen42/auto-contribution)?
 
+<p align="center">
 <img src="./contribution.png">
+</p>

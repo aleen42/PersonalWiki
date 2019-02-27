@@ -2,7 +2,7 @@
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Copyright (c) 2013-2016 Aleen &lt;aleen42@vip.qq.com&gt; (http://aleen42.github.io/)
+Copyright (c) 2013-2019 Aleen &lt;[aleen42@vip.qq.com](mailto:aleen42@vip.qq.com)&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
