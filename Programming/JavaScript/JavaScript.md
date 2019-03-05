@@ -48,3 +48,4 @@ JavaScript|To specify the behavior of web pages.
 #### Http
 
 * [**HTTP Response Status Code**](./http_reponse_status_code/http_reponse_status_code.md)
+* [**HTTP Request Methods**](./http_request_methods/http_request_methods.md)
