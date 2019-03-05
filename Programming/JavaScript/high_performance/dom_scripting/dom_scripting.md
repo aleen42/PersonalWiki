@@ -750,7 +750,7 @@ For example, suppose that you have created a table with 500-1000 rows and 5 colu
 
 ### 4. Event Delegation
 
-Another performance problem has arisen when lots of elements have attached one or more event handlers. Most attachments have their attaching phase happened at the `onload` (or `DOMContentReady`) event, **resulting in more processing time for loading** pages. In addition, the bowser need to keep track of each event handler, which **takes up memory**. Actually, a great number of event handlers might never be needed. For instance, users only clicked one button or link, but not all of them.
+Another performance problem has arisen when lots of elements have attached one or more event handlers. Most attachments have their attaching phase happened at the `onload` (or `DOMContentReady`) event, **resulting in more processing time for loading** pages. In addition, browsers need to keep track of each event handler, which **takes up memory**. Actually, a great number of event handlers might never be needed. For instance, users only clicked one button or link, but not all of them.
 
 Therefore, a simple and elegant technique for handling even delegation is to use event bubbling, to give this handler to their parents. It means that, you can attach only one handler on a wrapper element to handle all events that happen to the children.
 
@@ -782,7 +782,7 @@ Considering the following case:
 </html>
 ```
 
-From the snippet code, we can se that a menu has included sort `li` elements, which has an `a` element for its child.
+From the snippet code, we can see that a menu has included sort `li` elements, which has an `a` element for its child.
 
 When the user click the link of `menu #1`, the click event is first received by this `a` element and then bubbles up to `li`, then `ul`, then `div`, and so on, all the way to the top of the document and even the `window`. Suppose that you want to do something before the clicked `a` element starts to reload the page, and you can attach a click event listener in the wrapper, which is the `ul` element here, then inspect this event:
 
