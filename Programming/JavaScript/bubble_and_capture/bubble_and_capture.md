@@ -22,7 +22,7 @@ Capturing is also called "trickling(滴落)", which helps to remember:
 
 *Notice that: capturing is not **supported by IE***
 
-#### Useage
+#### Usage
 
 ```js
 /**
