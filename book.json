@@ -18,6 +18,7 @@
         "sharing",
         "ga",
         "advanced-emoji",
+        "comments-footer",
         "page-footer",
         "page-treeview",
         "resources",
@@ -86,6 +87,11 @@
             "type": "github",
             "repo": "aleen42/PersonalWiki",
             "branch": "docs"
+        },
+        "comments-footer": {
+            "type": "github",
+            "repo": "aleen42/PersonalWiki",
+            "redirect": "https://aleen42.github.io/PersonalWiki/"
         }
     }
 }
