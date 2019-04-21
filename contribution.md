@@ -22,7 +22,7 @@ Fork this project in your account and create a branch with a standard naming con
 
 **PAY ATTENTION: ** write your code under my [guide style](https://aleen42.gitbooks.io/javascript/content/), and comment what you have written as much as possible.
 
-### . Creating a pull request
+### 3. Creating a pull request
 
 After fix the issue, just open a pull request and reference the initial issue in the message you commit like **fixes #1**. Write down a understandable description and title to make me know what your pull request have done.
 
