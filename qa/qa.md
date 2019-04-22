@@ -63,6 +63,7 @@
 - [**How to build up Android development environment when using Ionic and Cordova to build APP**](./android_ionic_cordova.md)
 - [**How to define a function with dynamical name**](./dynamic_function_name.md)
 - [**How to handle error message and binary response with Axios within a same request**](./axios_download_within_same_request.md)
+- [**How to detect changes upon the disabled attribute of input elements?**](./detect_disabled_change.md)
 - [**Someting about scrolling**](./scroll/scroll.md)
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
