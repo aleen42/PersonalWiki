@@ -203,6 +203,8 @@
                                 * [WebVR Boilerplate](./Programming/JavaScript/webgl/three/VR/webvr/webvr.md)
                 * Advanced
                     * [GLSL](./Programming/JavaScript/webgl/glsl/glsl.md)
+            * [JSDoc](./Programming/JavaScript/jsdoc/jsdoc.md)
+                * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
             * Categories
                 * Basics
                     * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
