@@ -238,11 +238,6 @@
                         * [Binary Trees and Binary Search Trees](./Programming/JavaScript/data_structure/bt_bst/bt_bst.md)
                         * [Graphs](./Programming/JavaScript/data_structure/graphs/graphs.md)
                     * [Parameters Passing](./Programming/JavaScript/parameter/parameter.md)
-                    * [Symbol](./Programming/TypeScript/symbol/symbol.md)
-                    * [Iterators](./Programming/TypeScript/iterators/iterators.md)
-                    * [Modules](./Programming/TypeScript/modules/modules.md)
-                    * [Namespaces](./Programming/TypeScript/namespaces/namespaces.md)
-                    * [Namespaces and Modules](./Programming/TypeScript/namespaces_and_modules/namespaces_and_modules.md)
                 * Advanced
                     * [Closures](./Programming/JavaScript/closure/closure.md)
                     * [Event Bubbling and Capturing](./Programming/JavaScript/bubble_and_capture/bubble_and_capture.md)
@@ -299,6 +294,10 @@
                 * [Generics](./Programming/TypeScript/generics/generics.md)
                 * [Enums](./Programming/TypeScript/enums/enums.md)
                 * [Symbol](./Programming/TypeScript/symbol/symbol.md)
+                * [Iterators](./Programming/TypeScript/iterators/iterators.md)
+                * [Modules](./Programming/TypeScript/modules/modules.md)
+                * [Namespaces](./Programming/TypeScript/namespaces/namespaces.md)
+                * [Namespaces and Modules](./Programming/TypeScript/namespaces_and_modules/namespaces_and_modules.md)
             * Advanced
                 * [Type Inferences](./Programming/TypeScript/type_inferences/type_inferences.md)
                 * [Type Compatibility](./Programming/TypeScript/type_compatibility/type_compatibility.md)
