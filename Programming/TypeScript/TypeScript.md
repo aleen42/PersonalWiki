@@ -22,6 +22,7 @@ As the official said, TypeScript is a **typed** superset of JavaScript, which ca
 - [**Iterators**](./iterators/iterators.md)
 - [**Modules**](./modules/modules.md)
 - [**Namespaces**](./namespaces/namespaces.md)
+- [**Namespaces and Modules**](./namespaces_and_modules/namespaces_and_modules.md)
 
 ### Advanced
 
