@@ -4,4 +4,11 @@ JSDoc is an API documentation generator for JavaScript, and it is helpful for co
 
 Here I just want to note about some rules we need to know around using JSDoc.
 
+### Tags
+
+* [**@abstract**](./abstract/abstract.md)
+* [**@access**](./access/access.md)
+
+### Advanced
+
 * [**Namepaths**](./namepaths/namepaths.md)

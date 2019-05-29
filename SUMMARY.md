@@ -204,7 +204,11 @@
                 * Advanced
                     * [GLSL](./Programming/JavaScript/webgl/glsl/glsl.md)
             * [JSDoc](./Programming/JavaScript/jsdoc/jsdoc.md)
-                * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
+                * Tags
+                    * [@abstract](./Programming/JavaScript/jsdoc/abstract/abstract.md)
+                    * [@access](./Programming/JavaScript/jsdoc/access/access.md)
+                * Advanced
+                    * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
             * Categories
                 * Basics
                     * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
