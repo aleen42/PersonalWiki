@@ -42,7 +42,7 @@ ReactDOM.render(
 
 ### Ownership
 
-In React, **an owner is the component that sets the `prop` of other components**. More formally, if a component `X` is created in component `Y`'s `render()` method, it is said that `X` is owned by `Y`. 
+In React, **an owner is the component that sets the `prop` of other components**. More formally, if a component `X` is created in component `Y`'s `render()` method, it is said that `X` is owned by `Y`.
 
 It's important to draw a distinction between the **owner-ownee** relationship and the **parent-child** relationship. The owner-ownee relationship is specific to React, while the parent-child relationship is simply the one you know and love from the DOM.
 
@@ -56,7 +56,7 @@ In React, `Parent` can read its children by accessing the special `this.props.ch
 
 #### Children Reconciliation(孩子協調)
 
-**Reconciliation is the process by which React updates the DOM with each new render pass**. 
+**Reconciliation is the process by which React updates the DOM with each new render pass**.
 
 For example, suppose two render passes generate respective markup:
 
@@ -167,6 +167,6 @@ Whether it's expensive to change data if there are a large number of nodes under
 
 If you want to have control over performance, you can override `shouldComponentUpdate()` to return false when you want React to skip processing of a subtree.
 
-> ### **Note**:
+> **Note**:
 
 > If `shouldComponentUpdate()` returns false when data has actually changed, React can't keep your UI in sync. Be sure you know what you're doing while using it, and only use this function when you have a noticeable performance problem. Don't underestimate(低估) how fast JavaScript is relative to the DOM.

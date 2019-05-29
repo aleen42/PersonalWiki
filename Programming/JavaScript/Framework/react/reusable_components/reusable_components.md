@@ -4,7 +4,7 @@ Reusable Components with well-designed interfaces mean that the next time you ne
 
 ### Prop Validation
 
-`React.PropTypes` exports a range of validators that can be used to make sure the data you receive is valid. When an invalid value is provided for a prop, a warning will be shown in the JavaScript console. 
+`React.PropTypes` exports a range of validators that can be used to make sure the data you receive is valid. When an invalid value is provided for a prop, a warning will be shown in the JavaScript console.
 
 *Note that for performance reasons `propTypes` is only checked in development mode.*
 
@@ -253,7 +253,7 @@ Counter.defaultProps = { initialCount: 0 };
 
 Another difference is that `propTypes` and `defaultProps` are defined as properties on the constructor instead of in the class body.
 
-#### No Autobinding 
+#### No Autobinding
 
 Methods follow the same semantics as regular ES6 classes, meaning that they don't automatically bind `this` to the instance. You'll have to explicitly use `.bind(this)` or arrow functions `=>`:
 
@@ -293,7 +293,7 @@ HelloMessage.propTypes = { name: React.PropTypes.string };
 HelloMessage.defaultProps = { name: 'aleen' };
 ```
 
-> #### Note:
+> Note:
 
 > Because stateless functions don't have a backing instance, you can't attach a ref to a stateless function component. Normally this isn't an issue, since stateless functions do not provide an imperative API. Without an imperative API, there isn't much you could do with an instance anyway. However, if a user wants to find the DOM node of a stateless function component, they must wrap the component in a stateful component (eg. ES6 class component) and attach the ref to the stateful wrapper component.
 

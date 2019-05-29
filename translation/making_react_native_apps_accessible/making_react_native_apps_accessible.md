@@ -1,4 +1,4 @@
-> ## Making React Native apps accessible - 使得React原生應用變得可讀 [**Back**](./../translation.md)
+## Making React Native apps accessible - 使得React原生應用變得可讀 [**Back**](./../translation.md)
 
 > * 原文链接 : [Making React Native apps accessible | Engineering Blog | Facebook Code | Facebook](https://code.facebook.com/posts/435862739941212/making-react-native-apps-accessible/)
 > * 原文作者 : [Chace Liang](https://www.facebook.com/chaceliang)
