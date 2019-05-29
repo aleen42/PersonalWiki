@@ -8,6 +8,7 @@ Here I just want to note about some rules we need to know around using JSDoc.
 
 * [**@abstract**](./abstract/abstract.md)
 * [**@access**](./access/access.md)
+* [**@alias**](./alias/alias.md)
 
 ### Advanced
 

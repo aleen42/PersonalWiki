@@ -207,6 +207,7 @@
                 * Tags
                     * [@abstract](./Programming/JavaScript/jsdoc/abstract/abstract.md)
                     * [@access](./Programming/JavaScript/jsdoc/access/access.md)
+                    * [@alias](./Programming/JavaScript/jsdoc/alias/alias.md)
                 * Advanced
                     * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
             * Categories
