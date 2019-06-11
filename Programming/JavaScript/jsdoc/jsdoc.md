@@ -6,7 +6,7 @@ Here I just want to note about some rules we need to know around using JSDoc.
 
 ### Tags
 
-* [**@abstract**](./abstract/abstract.md)
+* [**@abstract**](./abstract/abstract.md) (synonyms: @virtual)
 * [**@access**](./access/access.md)
 * [**@alias**](./alias/alias.md)
 * [**@async**](./async/async.md)
