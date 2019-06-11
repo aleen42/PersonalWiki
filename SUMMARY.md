@@ -210,6 +210,7 @@
                     * [@alias](./Programming/JavaScript/jsdoc/alias/alias.md)
                     * [@async](./Programming/JavaScript/jsdoc/async/async.md)
                     * [@augments](./Programming/JavaScript/jsdoc/augments/augments.md)
+                    * [@author](./Programming/JavaScript/jsdoc/author/author.md)
                 * Advanced
                     * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
             * Categories

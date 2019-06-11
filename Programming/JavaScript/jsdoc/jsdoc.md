@@ -11,6 +11,7 @@ Here I just want to note about some rules we need to know around using JSDoc.
 * [**@alias**](./alias/alias.md)
 * [**@async**](./async/async.md)
 * [**@augments**](./augments/augments.md) (synonyms: @extends)
+* [**@author**](./author/author.md)
 
 ### Advanced
 
