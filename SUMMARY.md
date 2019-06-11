@@ -211,6 +211,7 @@
                     * [@async](./Programming/JavaScript/jsdoc/async/async.md)
                     * [@augments](./Programming/JavaScript/jsdoc/augments/augments.md)
                     * [@author](./Programming/JavaScript/jsdoc/author/author.md)
+                    * [@borrows](./Programming/JavaScript/jsdoc/borrows/borrows.md)
                 * Advanced
                     * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
             * Categories

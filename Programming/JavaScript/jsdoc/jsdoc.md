@@ -12,6 +12,7 @@ Here I just want to note about some rules we need to know around using JSDoc.
 * [**@async**](./async/async.md)
 * [**@augments**](./augments/augments.md) (synonyms: @extends)
 * [**@author**](./author/author.md)
+* [**@borrows**](./borrows/borrows.md)
 
 ### Advanced
 
