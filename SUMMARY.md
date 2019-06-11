@@ -209,6 +209,7 @@
                     * [@access](./Programming/JavaScript/jsdoc/access/access.md)
                     * [@alias](./Programming/JavaScript/jsdoc/alias/alias.md)
                     * [@async](./Programming/JavaScript/jsdoc/async/async.md)
+                    * [@augments](./Programming/JavaScript/jsdoc/augments/augments.md)
                 * Advanced
                     * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
             * Categories

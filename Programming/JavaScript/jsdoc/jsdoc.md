@@ -10,6 +10,7 @@ Here I just want to note about some rules we need to know around using JSDoc.
 * [**@access**](./access/access.md)
 * [**@alias**](./alias/alias.md)
 * [**@async**](./async/async.md)
+* [**@augments**](./augments/augments.md) (synonyms: @extends)
 
 ### Advanced
 
