@@ -8,6 +8,42 @@ In fact, Einstein claimed never to memorize anything which could be looked up in
 
 [![gitbook](https://aleen42.github.io/badges/src/gitbook_1.svg)](https://aleen42.github.io/PersonalWiki/) [![gitbook](https://aleen42.github.io/badges/src/gitbook_2.svg)](https://aleen42.github.io/PersonalWiki/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://aleen42.github.io/PersonalWiki/MIT.html) [![GitHub issues](https://img.shields.io/github/issues/aleen42/PersonalWiki.svg)](https://github.com/aleen42/PersonalWiki/issues) [![GitHub forks](https://img.shields.io/github/forks/aleen42/PersonalWiki.svg)](https://github.com/aleen42/PersonalWiki/network) [![GitHub stars](https://img.shields.io/github/stars/aleen42/PersonalWiki.svg)](https://github.com/aleen42/PersonalWiki/stargazers) [![Gitter](https://badges.gitter.im/aleen42/PersonalWiki.svg)](https://gitter.im/aleen42/PersonalWiki?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+To show what exactly the wiki is, and what it is mainly about? May be using a mind map should be good way to describe:
+
+```mind:color,height=300,title=The mind map of PersonalWiki
+# PersonalWiki
+## Coder
+### Programming Languages
+#### JavaScript
+##### Framework
+###### Webpack
+###### React
+###### Vue
+###### ...
+##### JSDoc
+##### WebGL
+##### Advanced Developing Skills
+##### ...
+#### TypeScript
+#### HTML
+### Algorithm
+### Project Management
+## Designer
+### UI/UX Design around Front-end region
+### Creative Design Collections
+## Post
+### Posts around Back-end Developing
+### Posts around Front-end Developing
+### Posts around CV
+### Posts around Design
+## Translation
+### Main Translation Works
+## Q&A
+### Some skills of a specific problem or requirement
+### Some answers of common problems
+## Job
+```
+
 ## Start Reading
 
 - Read on [**GitHub Site**](https://github.com/aleen42/personalwiki)
