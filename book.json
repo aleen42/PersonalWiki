@@ -23,7 +23,8 @@
         "page-treeview",
         "resources",
         "theme-aleen42",
-        "mathjax"
+        "mathjax",
+        "mind-maps"
     ],
     "pluginsConfig": {
         "github": {

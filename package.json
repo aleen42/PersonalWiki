@@ -34,6 +34,7 @@
     "gitbook-plugin-sharing": "1.0.2",
     "gitbook-plugin-theme-aleen42": "1.4.8",
     "gitbook-plugin-mathjax": "2.0.0",
-    "gitbook-plugin-comments-footer": "1.2.9"
+    "gitbook-plugin-comments-footer": "1.2.9",
+    "gitbook-plugin-mind-maps": "1.0.4"
   }
 }
