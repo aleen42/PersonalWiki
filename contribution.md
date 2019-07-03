@@ -32,7 +32,7 @@ Again to notice that, if it makes sense, add screen shots for your fixes.
 
 Before accepting your contributions, I'll review what you have done, and keep contact with you after. Maybe sometimes I am too busy to review, so please wait for my feedback. I'll merge your contributions as once I am certain that there is no problems.
 
-### 5. Red-tag
+### 5. RED TAG
 
 Don't care too much about the number of contributions, and it's just noise all along. Do you see the word **aleen42** in the following image based on [**aleen42/auto-contribution**](https://github.com/aleen42/auto-contribution)?
 
