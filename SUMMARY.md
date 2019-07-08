@@ -214,6 +214,8 @@
                     * [@borrows](./Programming/JavaScript/jsdoc/borrows/borrows.md)
                 * Advanced
                     * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
+            * [TC39](./Programming/JavaScript/tc39/tc39.md)
+                * [TC39 process](./Programming/JavaScript/tc39/process/process.md)
             * Categories
                 * Basics
                     * [Lexical Structure](./Programming/JavaScript/Lexical/Lexical.md)
