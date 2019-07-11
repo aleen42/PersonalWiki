@@ -215,6 +215,7 @@
                 * Advanced
                     * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
             * [TC39](./Programming/JavaScript/tc39/tc39.md)
+                * [Stage 4 (Finished)](./Programming/JavaScript/tc39/stage4/stage4.md)
                 * [TC39 process](./Programming/JavaScript/tc39/process/process.md)
             * Categories
                 * Basics
