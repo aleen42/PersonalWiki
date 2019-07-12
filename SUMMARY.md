@@ -294,6 +294,7 @@
                 * Http
                     * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
                     * [HTTP Request Methods](./Programming/JavaScript/http_request_methods/http_request_methods.md)
+                    * [Idempotence (幂等性) between HTTP Request Methods](./Programming/JavaScript/idempotence_of_http_methods/idempotence_of_http_methods.md)
         * [TypeScript](./Programming/TypeScript/TypeScript.md)
             * Tutorials
                 * [Brief Descriptions](./Programming/TypeScript/brief_description/brief_description.md)

@@ -56,3 +56,4 @@ Or if you are advanced in this, you may be interested at [Ecma International, Te
 
 * [**HTTP Response Status Code**](./http_reponse_status_code/http_reponse_status_code.md)
 * [**HTTP Request Methods**](./http_request_methods/http_request_methods.md)
+* [**Idempotence (幂等性) between HTTP Request Methods**](./idempotence_of_http_methods/idempotence_of_http_methods.md)
