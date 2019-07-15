@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/aleen42/PersonalWiki#readme",
   "dependencies": {
-    "gitbook": "aleen42/gitbook#3.2.0-custom",
+    "gitbook": "aleen42/gitbook#3.2.2-no-search",
     "gitbook-cli": "aleen42/gitbook-cli#2.3.2-custom",
     "gitbook-plugin-advanced-emoji": "0.2.2",
     "gitbook-plugin-fontsettings": "2.0.0",
