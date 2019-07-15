@@ -33,6 +33,7 @@ Or if you are advanced in this, you may be interested at [Ecma International, Te
 * [**Data Structure**](./data_structure/data_structure.md)
 * [**Parameters Passing**](./parameter/parameter.md)
 * [**Symbol**](../TypeScript/symbol/symbol.md)
+* [**Generator**](./generator/generator.md)
 
 #### Advanced
 
