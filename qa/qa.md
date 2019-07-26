@@ -10,6 +10,7 @@
 - [**How to specify a ssh key for some git operations on a certain domain**](./specify_ssh_on_git.md)
 - [**How to support Chinese for Git client in Windows**](./git_chinese_windows.md)
 - [**What is Gist**](./gist.md)
+- [**What are the differences between .zip, .rar, .deb, and .tar files**](./zip_rar_tar.md)
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of SVN**](./svncommands.md)
 - [**Some common problems of ssh keys in GitHub**](./github_ssh.md)

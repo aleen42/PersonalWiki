@@ -594,6 +594,7 @@
             * [How to specify a ssh key for some git operations on a certain domain](./qa/specify_ssh_on_git.md)
             * [How to support Chinese for Git client in Windows](./qa/git_chinese_windows.md)
             * [What is Gist](./qa/gist.md)
+            * [What are the differences between .zip, .rar, .deb, and .tar files](./qa/zip_rar_tar.md)
             * [Sublime Text 3 Pluggin](./qa/sublimepluggin.md)
             * [Some commands of SVN](./qa/svncommands.md)
             * [Some common problems of ssh keys in GitHub](./qa/github_ssh.md)
