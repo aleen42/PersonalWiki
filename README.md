@@ -66,6 +66,7 @@ To show what exactly the wiki is, and what it is mainly about? May be using a mi
 * [**Multimedia**](./Multimedia/Multimedia.md)
 * [**Git**](./git/git.md)
 * [**Video & Image**](./vi/vi.md)
+* [**Security Vulnerabilities**](./security_vulnerabilities/security_vulnerabilities.md)
 
 ### Designer
 

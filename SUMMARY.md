@@ -526,6 +526,8 @@
         * [Try to shrink sizes of large Git repository](./git/shrink_sizes/shrink_sizes.md)
     * [Video & Image](./vi/vi.md)
         * [OpenCV](./vi/opencv/opencv.md)
+    * [Security Vulnerabilities](./security_vulnerabilities/security_vulnerabilities.md)
+        * [Injection](./security_vulnerabilities/injection/injection.md)
 * Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
