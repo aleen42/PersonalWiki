@@ -213,6 +213,7 @@
                     * [@author](./Programming/JavaScript/jsdoc/author/author.md)
                     * [@borrows](./Programming/JavaScript/jsdoc/borrows/borrows.md)
                     * [@callback](./Programming/JavaScript/jsdoc/callback/callback.md)
+                    * [@class](./Programming/JavaScript/jsdoc/class/class.md)
                 * Advanced
                     * [Namepaths](./Programming/JavaScript/jsdoc/namepaths/namepaths.md)
             * [TC39](./Programming/JavaScript/tc39/tc39.md)

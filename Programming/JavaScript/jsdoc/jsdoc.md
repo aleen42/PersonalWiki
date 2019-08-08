@@ -14,6 +14,7 @@ Here I just want to note about some rules we need to know around using JSDoc.
 * [**@author**](./author/author.md)
 * [**@borrows**](./borrows/borrows.md)
 * [**@callback**](./callback/callback.md)
+* [**@class**](./class/class.md) (synonyms: @constructor)
 
 ### Advanced
 
