@@ -13,6 +13,7 @@ Here I just want to note about some rules we need to know around using JSDoc.
 * [**@augments**](./augments/augments.md) (synonyms: @extends)
 * [**@author**](./author/author.md)
 * [**@borrows**](./borrows/borrows.md)
+* [**@callback**](./callback/callback.md)
 
 ### Advanced
 
