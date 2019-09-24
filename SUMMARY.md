@@ -530,6 +530,7 @@
         * [Injection](./security_vulnerabilities/injection/injection.md)
         * [Broken Authentication](./security_vulnerabilities/broken_authentication/broken_authentication.md)
         * [Sensitive Data Exposure](./security_vulnerabilities/sensitive_data_exposure/sensitive_data_exposure.md)
+        * [XML External Entities (XXE)](./security_vulnerabilities/xxe/xxe.md)
 * Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
