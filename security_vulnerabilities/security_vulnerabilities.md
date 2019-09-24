@@ -5,7 +5,7 @@ This chapter mainly focuses on vulnerabilities in web applications, and to note 
 In order to bring awareness to what threatens the integrity of websites, I would like to start a series of post on the **OWASP top 10 security risks** firstly:
 
 1. [**Injection**](./injection/injection.md)
-2. **Broken Authentication**
+2. [**Broken Authentication**](./broken_authentication/broken_authentication.md)
 3. **Sensitive data exposure**
 4. **XML External Entities (XXE)**
 5. **Broken Access control**

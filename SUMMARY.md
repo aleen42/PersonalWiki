@@ -528,6 +528,7 @@
         * [OpenCV](./vi/opencv/opencv.md)
     * [Security Vulnerabilities](./security_vulnerabilities/security_vulnerabilities.md)
         * [Injection](./security_vulnerabilities/injection/injection.md)
+        * [Broken Authentication](./security_vulnerabilities/broken_authentication/broken_authentication.md)
 * Designer
     * [Creativity](./Creativity/Creativity.md)
         * Websites
