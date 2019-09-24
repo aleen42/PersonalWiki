@@ -6,7 +6,7 @@ In order to bring awareness to what threatens the integrity of websites, I would
 
 1. [**Injection**](./injection/injection.md)
 2. [**Broken Authentication**](./broken_authentication/broken_authentication.md)
-3. **Sensitive data exposure**
+3. [**Sensitive Data Exposure**](./sensitive_data_exposure/sensitive_data_exposure.md)
 4. **XML External Entities (XXE)**
 5. **Broken Access control**
 6. **Security misconfigurations**
