@@ -1,0 +1,32 @@
+name: Build the book
+on:
+  push:
+    branches:
+    - docs
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+      with:
+        ref: docs
+    - name: Configure
+      run: |
+        git clone --depth=1 --branch=build https://github.com/aleen42/PersonalWiki.git temp
+        mv -f temp/* ./
+        mv temp/.bookignore ./
+        git clone --depth=1 --branch=gh-pages https://github.com/aleen42/PersonalWiki.git gh-pages
+    - name: Build
+      run: |
+        npm install --no-save --no-audit
+        npm run gitbook:install
+        npm run gitbook:build
+    - name: Deploy
+      uses: aleen42/github-pages-deploy-action@master
+      env:
+        ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+        BRANCH: gh-pages
+        FOLDER: gh-pages
