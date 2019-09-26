@@ -36,8 +36,6 @@
                     * [Slow Loop](./Programming/JavaScript/Framework/goog/slow_loop/slow_loop.md)
                     * [Slow Switch](./Programming/JavaScript/Framework/goog/slow_switch/slow_switch.md)
                     * [Six Months in a Leaky Boat](./Programming/JavaScript/Framework/goog/leaky_boat/leaky_boat.md)
-                * [Ajax](./Programming/JavaScript/Framework/AJAX/AJAX.md)
-                * [Strapdown](./Programming/JavaScript/Framework/Strapdown/Strapdown.md)
                 * [GreenSock](./Programming/JavaScript/Framework/GreenSock/GreenSock.md)
                 * [Walkway](./Programming/JavaScript/Framework/walkway/walkway.md)
                 * [Dyanmics](./Programming/JavaScript/Framework/dynamics/dynamics.md)
