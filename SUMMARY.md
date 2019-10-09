@@ -293,10 +293,11 @@
                     * [Aspect-oriented Programming(AOP)](./Programming/JavaScript/aspect_oriented_programming/aspect_oriented_programming.md)
                     * [Easing Function](./Programming/JavaScript/easing/easing.md)
                     * [Currying](./Programming/JavaScript/currying/currying.md)
-                * Http
+                * HTTP
                     * [HTTP Response Status Code](./Programming/JavaScript/http_reponse_status_code/http_reponse_status_code.md)
                     * [HTTP Request Methods](./Programming/JavaScript/http_request_methods/http_request_methods.md)
                     * [Idempotence (幂等性) between HTTP Request Methods](./Programming/JavaScript/idempotence_of_http_methods/idempotence_of_http_methods.md)
+                    * [Different versions of HTTP](./Programming/JavaScript/different_versions_of_http/different_versions_of_http.md)
         * [TypeScript](./Programming/TypeScript/TypeScript.md)
             * Tutorials
                 * [Brief Descriptions](./Programming/TypeScript/brief_description/brief_description.md)
