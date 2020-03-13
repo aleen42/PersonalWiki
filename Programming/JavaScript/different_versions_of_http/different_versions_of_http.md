@@ -71,3 +71,13 @@ The following diagram has shown the structure of SPDY:
 ### SPDY
 #### HTTP
 ```
+
+### 5. HSTS (Http Strict Transport Security)
+
+**HSTS** is a web security policy mechanism that enforce clients to interact with HTTPS connections by sending a response header set with `Strict-Transport-Security` as specified in [MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security).
+
+This feature has the following compatibilities of different browsers:
+
+| Browsers |  Chrome   | Firefox | Safari | IE | Edge |
+|:---------|:---------:|:-------:|:------:|:--:|:----:|
+| Versions | 4.0.211.0 |   17    |  10.9  | 11 |  √   |
