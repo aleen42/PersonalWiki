@@ -22,7 +22,9 @@ The following table is generated as per the classification of JavaScript framewo
 |       |[chromatism](https://github.com/toish/chromatism) (utility functions for colors)|[browserslist](https://github.com/browserslist/browserslist)|[cropper](https://github.com/fengyuanchen/cropper), [Croppie](https://github.com/Foliotek/Croppie) (image cropper)|
 |       |[Clamp.js](https://github.com/josephschmitt/Clamp.js) (overflow ellipses)|[react-dnd](https://github.com/react-dnd/react-dnd) (Drag and Drop for React)|[shake.js](https://github.com/alexgibson/shake.js) (shake event for mobiles)|
 |       |[swiper](https://github.com/nolimits4web/swiper) (swiped banners)|[imagesloaded](https://github.com/desandro/imagesloaded) (check image loading status)|[jquery-locationpicker-plugin](https://github.com/Logicify/jquery-locationpicker-plugin)|
-|Lint (or tools for conventions) |[**ESLint**](./eslint/eslint.md)|[jsdoc](https://github.com/jsdoc/jsdoc)| [husky](https://github.com/typicode/husky), [git-commit-message-convention](https://github.com/kazupon/git-commit-message-convention), [commitlint](https://github.com/conventional-changelog/commitlint) |
+|       |[TinyColor](https://github.com/bgrins/TinyColor) (color manipulation)|[spectrum](https://github.com/bgrins/spectrum) (color picker)||
+|Lint (or tools for conventions) |[**ESLint**](./eslint/eslint.md)|[jsdoc](https://github.com/jsdoc/jsdoc)| [husky](https://github.com/typicode/husky), [git-commit-message-convention](https://github.com/kazupon/git-commit-message-convention), [commitlint](https://github.com/conventional-changelog/commitlint)|
+|                                |[legally](https://github.com/franciscop/legally) (Check Illegal NPM packages)|||
 |Functional|[**jQuery**](./jquery/jquery.md)|[lodash](https://github.com/lodash/lodash)|[**underscore**](./underscore/underscore.md)|
 |          |[**rxjs**](./reactivex/reactivex.md)|[**Classie**](./Classie/Classie.md)|[number-precision](https://github.com/nefe/number-precision)|
 |Browser Compatibility|[**Modernizer**](./Modernizr/Modernizr.md)|[phatomjs](https://github.com/ariya/phantomjs) (simulated browser environment for testing)|[es3ify](https://github.com/sophiebits/es3ify)|
@@ -51,7 +53,7 @@ The following table is generated as per the classification of JavaScript framewo
 |     |[flac.js](https://github.com/audiocogs/flac.js)|[beats-audio-api](https://github.com/JMPerez/beats-audio-api)||
 |Data Visualization|[deck.gl](https://github.com/uber/deck.gl)|[luma.gl](https://github.com/uber/luma.gl)|[streetscape.gl](https://github.com/uber/streetscape.gl)|
 |                  |[echarts](https://github.com/apache/incubator-echarts)|[grafana](https://github.com/grafana/grafana)|[Chart.js](https://github.com/chartjs/Chart.js)|
-|                  |[fusioncharts-jquery-plugin](https://github.com/fusioncharts/fusioncharts-jquery-plugin)|[react-vis](https://github.com/uber/react-vis) (based on React)||
+|                  |[fusioncharts-jquery-plugin](https://github.com/fusioncharts/fusioncharts-jquery-plugin)|[react-vis](https://github.com/uber/react-vis) (based on React)|[tensorboard](https://github.com/tensorflow/tensorboard) (Visualization Toolkit for TensorFlow)|
 |JavaScript Parser|[acorn](https://github.com/acornjs/acorn)|[UglifyJS](https://github.com/mishoo/UglifyJS2)|[jstransform](https://github.com/facebookarchive/jstransform)|
 |Markdown Parser|[marked](https://github.com/markedjs/marked)|[unified](https://github.com/unifiedjs/unified), [remark](https://github.com/remarkjs/remark)|[remarkable](https://github.com/jonschlinkert/remarkable)|
 |               |[markdown-it](https://github.com/markdown-it/markdown-it)|||
@@ -72,7 +74,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                          |[css-loader](https://github.com/webpack-contrib/css-loader)|[webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)|[analyse](https://github.com/webpack/analyse) (analyse building states)|
 |                          |[ES3-compatible-webpack-plugin](https://github.com/aleen42/ES3-compatible-webpack-plugin)|[sass-loader](https://github.com/webpack-contrib/sass-loader)|[html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)|
 |                          |[copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin)|[extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)|[webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)|
-|                          |[react-hot-loader](https://github.com/gaearon/react-hot-loader)|[babel-loader](https://github.com/babel/babel-loader)||
+|                          |[react-hot-loader](https://github.com/gaearon/react-hot-loader)|[babel-loader](https://github.com/babel/babel-loader)|[circular-dependency-plugin](https://github.com/aackerman/circular-dependency-plugin)|
 |Book|[vuepress](https://github.com/vuejs/vuepress)|[docz](https://github.com/doczjs/docz)|[mdx-deck](https://github.com/jxnblk/mdx-deck)|
 |    |[gitbook](https://github.com/GitbookIO/gitbook)|||
 |UI|[YUI](https://github.com/yui/yui3)|[jquery-ui](https://github.com/jquery/jquery-ui)|[element](https://github.com/ElemeFE/element) (based on Vue)|
@@ -82,5 +84,7 @@ The following table is generated as per the classification of JavaScript framewo
 |            |[css-blocks](https://github.com/linkedin/css-blocks)|[prettier](https://github.com/prettier/prettier)|[clean-css](https://github.com/jakubpawlowicz/clean-css)|
 |Template|[nunjucks](https://github.com/mozilla/nunjucks)|[handlebars.js](https://github.com/wycats/handlebars.js)||
 |Test|[mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai)|[jest](https://github.com/facebook/jest)|[jasmine](https://github.com/jasmine/jasmine), [karma](https://github.com/karma-runner/karma)|
+|    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|||
+|Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)||
 
 *Note: **strong links** mean there are corresponding notes for those frameworks or libraries.*
