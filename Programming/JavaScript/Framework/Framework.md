@@ -86,5 +86,7 @@ The following table is generated as per the classification of JavaScript framewo
 |Test|[mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai)|[jest](https://github.com/facebook/jest)|[jasmine](https://github.com/jasmine/jasmine), [karma](https://github.com/karma-runner/karma)|
 |    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|||
 |Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)||
+|Package Management|[npm](https://github.com/npm/npm)|[yarn](https://github.com/yarnpkg/yarn)|[bower](https://github.com/bower/bower)|
+|                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)|||
 
 *Note: **strong links** mean there are corresponding notes for those frameworks or libraries.*
