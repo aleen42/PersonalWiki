@@ -2,18 +2,18 @@
 
 The following table is generated as per the classification of JavaScript frameworks, or libraries which I have met or used.
 
-|Categories||||
+|Categories| | | |
 |--:|:--:|:--:|:--:|
 |MVVM, MVC|[**Vue**](./vue/vue.md)|[**React**](./react/react.md), [**Redux**](./redux/redux.md)|[**Angular**](./angular/angular.md)|
 |          |[**Google Closure**](./goog/goog.md)|[mobx](https://github.com/mobxjs/mobx) (state management)|[nerv](https://github.com/NervJS/nerv)|
-|          |[superfine](https://github.com/jorgebucaran/superfine) (only view layer)|[pjax](https://github.com/MoOx/pjax) (pushState + ajax)||
+|          |[superfine](https://github.com/jorgebucaran/superfine) (only view layer)|[pjax](https://github.com/MoOx/pjax) (pushState + ajax)| |
 | Mobile (cross through platforms) |[framework7](https://github.com/framework7io/framework7)|[ionic](https://github.com/ionic-team/ionic)|[react-native](https://github.com/facebook/react-native)|
-|                                  |[eletron](https://github.com/electron/electron)|||
+|                                  |[eletron](https://github.com/electron/electron)| | |
 |Animation|[**GreenSock**](./GreenSock/GreenSock.md)|[**Walkway**](./walkway/walkway.md)|[**Dynamics**](./dynamics/dynamics.md)|
 |         |[svg.js ](https://github.com/svgdotjs/svg.js)|[rellax](https://github.com/dixonandmoe/rellax) (parallel scrolling)|[anime](https://github.com/juliangarnier/anime)|
 |         |[dynamics.js](https://github.com/michaelvillar/dynamics.js)|[particles.js](https://github.com/VincentGarreau/particles.js) (particle animations)|[contour](https://github.com/JMPerez/contour) (drawing SVG)|
-|         |[sketch.js](https://github.com/soulwire/sketch.js)|||
-|Bundle Tools|[**Webpack**](./webpack/webpack.md)|[parcel](https://github.com/parcel-bundler/parcel)||
+|         |[sketch.js](https://github.com/soulwire/sketch.js)| | |
+|Bundle Tools|[**Webpack**](./webpack/webpack.md)|[parcel](https://github.com/parcel-bundler/parcel)| |
 |Widgets|[**Interact**](./Interact/Interact.md)|[ScrollMagic](https://github.com/janpaepke/ScrollMagic)|[watermarks](https://github.com/aleen42/watermarks)|
 |       |[Sortable](https://github.com/SortableJS/Sortable)|[PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)|[handsontablew](https://github.com/handsontable/handsontable)|
 |       |[split](https://github.com/nathancahill/split)|[clientjs](https://github.com/jackspirou/clientjs) (device information)|[downshift](https://github.com/downshift-js/downshift) (input components based on React)|
@@ -22,13 +22,13 @@ The following table is generated as per the classification of JavaScript framewo
 |       |[chromatism](https://github.com/toish/chromatism) (utility functions for colors)|[browserslist](https://github.com/browserslist/browserslist)|[cropper](https://github.com/fengyuanchen/cropper), [Croppie](https://github.com/Foliotek/Croppie) (image cropper)|
 |       |[Clamp.js](https://github.com/josephschmitt/Clamp.js) (overflow ellipses)|[react-dnd](https://github.com/react-dnd/react-dnd) (Drag and Drop for React)|[shake.js](https://github.com/alexgibson/shake.js) (shake event for mobiles)|
 |       |[swiper](https://github.com/nolimits4web/swiper) (swiped banners)|[imagesloaded](https://github.com/desandro/imagesloaded) (check image loading status)|[jquery-locationpicker-plugin](https://github.com/Logicify/jquery-locationpicker-plugin)|
-|       |[TinyColor](https://github.com/bgrins/TinyColor) (color manipulation)|[spectrum](https://github.com/bgrins/spectrum) (color picker)||
+|       |[TinyColor](https://github.com/bgrins/TinyColor) (color manipulation)|[spectrum](https://github.com/bgrins/spectrum) (color picker)| |
 |Lint (or tools for conventions) |[**ESLint**](./eslint/eslint.md)|[jsdoc](https://github.com/jsdoc/jsdoc)| [husky](https://github.com/typicode/husky), [git-commit-message-convention](https://github.com/kazupon/git-commit-message-convention), [commitlint](https://github.com/conventional-changelog/commitlint)|
-|                                |[legally](https://github.com/franciscop/legally) (Check Illegal NPM packages)|||
+|                                |[legally](https://github.com/franciscop/legally) (Check Illegal NPM packages)| | |
 |Functional|[**jQuery**](./jquery/jquery.md)|[lodash](https://github.com/lodash/lodash)|[**underscore**](./underscore/underscore.md)|
 |          |[**rxjs**](./reactivex/reactivex.md)|[**Classie**](./Classie/Classie.md)|[number-precision](https://github.com/nefe/number-precision)|
 |Browser Compatibility|[**Modernizer**](./Modernizr/Modernizr.md)|[phatomjs](https://github.com/ariya/phantomjs) (simulated browser environment for testing)|[es3ify](https://github.com/sophiebits/es3ify)|
-|                     |[babel](https://github.com/babel/babel)|||
+|                     |[babel](https://github.com/babel/babel)| | |
 |[**Node**](./node/node.md)|[csv-writer](https://github.com/ryu1kn/csv-writer), [csv-parser](https://github.com/mafintosh/csv-parser) (csv)|[iconv-lite](https://github.com/ashtuchkin/iconv-lite) (encoding)|[node-glob](https://github.com/isaacs/node-glob), [glob-stream](https://github.com/gulpjs/glob-stream)|
 |                          |[node-properties](https://github.com/gagle/node-properties)|[node-uuid ](https://github.com/kelektiv/node-uuid)|[node-zip](https://github.com/daraosn/node-zip)|
 |                          |[glslify](https://github.com/glslify/glslify)|[through2](https://github.com/rvagg/through2) (file stream)|[puppeteer](https://github.com/GoogleChrome/puppeteer) (Chrome API)|
@@ -46,26 +46,26 @@ The following table is generated as per the classification of JavaScript framewo
 |                     |[VivGraphJS](https://github.com/anvaka/VivaGraphJS)|[mojs](https://github.com/mojs/mojs)|[Polyvia](https://github.com/Ovilia/Polyvia)|
 |                     |[tesseract.js](https://github.com/naptha/tesseract.js) (text extractor from images)|[webvr-boilerplate](https://github.com/borismus/webvr-boilerplate) (based on three.js)|[konva](https://github.com/konvajs/konva) (Canvas Framework)|
 |                     |[canny-edge-detection](https://github.com/cmisenas/canny-edge-detection)|[sigma.js](https://github.com/jacomyal/sigma.js)|[StackBlur](https://github.com/flozz/StackBlur) (Gaussian Blur)|
-|                     |[smartcrop.js](https://github.com/jwagner/smartcrop.js)|||
+|                     |[smartcrop.js](https://github.com/jwagner/smartcrop.js)| | |
 |Video|[video.js](https://github.com/videojs/video.js)|[flv.js](https://github.com/bilibili/flv.js) (flv player)|[ccapture.js](https://github.com/spite/ccapture.js) (based on Canvas)|
-|     |[jPlayer](https://github.com/jplayer/jPlayer)|||
+|     |[jPlayer](https://github.com/jplayer/jPlayer)| | |
 |Audio|[howler.js](https://github.com/goldfire/howler.js)|[Rythm.js](https://github.com/Okazari/Rythm.js)|[aurora.js](https://github.com/audiocogs/aurora.js) (audio decoding framework)|
-|     |[flac.js](https://github.com/audiocogs/flac.js)|[beats-audio-api](https://github.com/JMPerez/beats-audio-api)||
+|     |[flac.js](https://github.com/audiocogs/flac.js)|[beats-audio-api](https://github.com/JMPerez/beats-audio-api)| |
 |Data Visualization|[deck.gl](https://github.com/uber/deck.gl)|[luma.gl](https://github.com/uber/luma.gl)|[streetscape.gl](https://github.com/uber/streetscape.gl)|
 |                  |[echarts](https://github.com/apache/incubator-echarts)|[grafana](https://github.com/grafana/grafana)|[Chart.js](https://github.com/chartjs/Chart.js)|
 |                  |[fusioncharts-jquery-plugin](https://github.com/fusioncharts/fusioncharts-jquery-plugin)|[react-vis](https://github.com/uber/react-vis) (based on React)|[tensorboard](https://github.com/tensorflow/tensorboard) (Visualization Toolkit for TensorFlow)|
 |JavaScript Parser|[acorn](https://github.com/acornjs/acorn)|[UglifyJS](https://github.com/mishoo/UglifyJS2)|[jstransform](https://github.com/facebookarchive/jstransform)|
 |Markdown Parser|[marked](https://github.com/markedjs/marked)|[unified](https://github.com/unifiedjs/unified), [remark](https://github.com/remarkjs/remark)|[remarkable](https://github.com/jonschlinkert/remarkable)|
-|               |[markdown-it](https://github.com/markdown-it/markdown-it)|||
+|               |[markdown-it](https://github.com/markdown-it/markdown-it)| | |
 |Security|[retire.js](https://github.com/RetireJS/retire.js)|[js-xss](https://github.com/leizongmin/js-xss)|[crypto-js](https://github.com/brix/crypto-js)|
-|        |[aes-js](https://github.com/ricmoo/aes-js)|||
+|        |[aes-js](https://github.com/ricmoo/aes-js)| | |
 |Editor|[simplemde-markdown-editor](https://github.com/sparksuite/simplemde-markdown-editor) (Markdown)|[kindeditor](https://github.com/coremail/kindeditor)|[react-ace](https://github.com/securingsincity/react-ace) (based on React)|
 |      |[ace](https://github.com/ajaxorg/ace)|[monaco-editor](https://github.com/microsoft/monaco-editor) (code)|[react-page](https://github.com/react-page/react-page) (based on React)|
-|      |[slate](https://github.com/ianstormtaylor/slate)|||
+|      |[slate](https://github.com/ianstormtaylor/slate)| | |
 |HTTP / Socket Client|[ky](https://github.com/sindresorhus/ky) (based on window.fetch)|[socket.io-client](https://github.com/socketio/socket.io-client)|[axios](https://github.com/axios/axios)|
 |Parsers|[psd.js](https://github.com/meltingice/psd.js)|[htmlparser2](https://github.com/fb55/htmlparser2) (HTML and XML)|[mailparser](https://github.com/nodemailer/mailparser) (MIME parser)|
-|Data Training|[brain.js](https://github.com/BrainJS/brain.js)|[tfjs](https://github.com/tensorflow/tfjs)||
-|Automated Testing|[rrweb](https://github.com/rrweb-io/rrweb) (record and replay)|||
+|Data Training|[brain.js](https://github.com/BrainJS/brain.js)|[tfjs](https://github.com/tensorflow/tfjs)| |
+|Automated Testing|[rrweb](https://github.com/rrweb-io/rrweb) (record and replay)| | |
 |Shim / Polyfill|[raf](https://github.com/chrisdickinson/raf) (requestAnimationFrame)|[json3](https://github.com/bestiejs/json3)|[core-estimator](https://github.com/oftn-oswg/core-estimator) (navigator.hardwareConcurrency)|
 |               |[core-js](https://github.com/zloirock/core-js)|[ExplorerCanvas](https://github.com/arv/ExplorerCanvas) (simulated Canvas?)|[history.js](https://github.com/browserstate/history.js)|
 |Webpack Loaders / Plugins |[loader-utils](https://github.com/webpack/loader-utils)|[handlebars-loader](https://github.com/pcardune/handlebars-loader)|[css-split-webpack-plugin](https://github.com/metalabdesign/css-split-webpack-plugin)|
@@ -76,17 +76,17 @@ The following table is generated as per the classification of JavaScript framewo
 |                          |[copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin)|[extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)|[webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)|
 |                          |[react-hot-loader](https://github.com/gaearon/react-hot-loader)|[babel-loader](https://github.com/babel/babel-loader)|[circular-dependency-plugin](https://github.com/aackerman/circular-dependency-plugin)|
 |Book|[vuepress](https://github.com/vuejs/vuepress)|[docz](https://github.com/doczjs/docz)|[mdx-deck](https://github.com/jxnblk/mdx-deck)|
-|    |[gitbook](https://github.com/GitbookIO/gitbook)|||
+|    |[gitbook](https://github.com/GitbookIO/gitbook)| | |
 |UI|[YUI](https://github.com/yui/yui3)|[jquery-ui](https://github.com/jquery/jquery-ui)|[element](https://github.com/ElemeFE/element) (based on Vue)|
 |  |[ant-design](https://github.com/ant-design/ant-design) (based on React)|[bootstrap](https://github.com/angular-ui/bootstrap)|[wired-elements](https://github.com/wiredjs/wired-elements)|
-|  |[Font-Awesome](https://github.com/FortAwesome/Font-Awesome) (icon toolkit)|[material-ui](https://github.com/mui-org/material-ui)||
+|  |[Font-Awesome](https://github.com/FortAwesome/Font-Awesome) (icon toolkit)|[material-ui](https://github.com/mui-org/material-ui)| |
 |Optimization|[cssnano](https://github.com/cssnano/cssnano)|[UglifyJS](https://github.com/mishoo/UglifyJS2)|[optimize-js](https://github.com/nolanlawson/optimize-js)|
 |            |[css-blocks](https://github.com/linkedin/css-blocks)|[prettier](https://github.com/prettier/prettier)|[clean-css](https://github.com/jakubpawlowicz/clean-css)|
-|Template|[nunjucks](https://github.com/mozilla/nunjucks)|[handlebars.js](https://github.com/wycats/handlebars.js)||
+|Template|[nunjucks](https://github.com/mozilla/nunjucks)|[handlebars.js](https://github.com/wycats/handlebars.js)| |
 |Test|[mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai)|[jest](https://github.com/facebook/jest)|[jasmine](https://github.com/jasmine/jasmine), [karma](https://github.com/karma-runner/karma)|
-|    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|||
-|Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)||
+|    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)| | |
+|Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)| |
 |Package Management|[npm](https://github.com/npm/npm)|[yarn](https://github.com/yarnpkg/yarn)|[bower](https://github.com/bower/bower)|
-|                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)|||
+|                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)| | |
 
 *Note: **strong links** mean there are corresponding notes for those frameworks or libraries.*
