@@ -107,7 +107,7 @@ This chapter is mainly showing a variety of regular expression constructs and te
 
 - **Discussion**
 
-    Certainly, if you're trying t match any word that does not contain **cat**, you may need to use a slightly different way: **/\\b(?:(?!cat)\\w)+\\b/i**.
+    Certainly, if you're trying to match any word that does not contain **cat**, you may need to use a slightly different way: **/\\b(?:(?!cat)\\w)+\\b/i**.
 
 ### Find any word not followed by a specific word
 
