@@ -354,3 +354,18 @@ console.log(c); /** => {x: 3, y: 4} */
 
 console.log({a: 1, b: 2, ...{x: 3, y: 4}}); /** => {a: 1, b: 2, x: 3, y: 4} */
 ```
+
+### 13. RegExp Lookbehind Assertions
+
+> Author: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg
+
+> Expected Publication Year: 2018
+
+With lookahead assertions (`(?!...)`) supported before in JavaScript, we can easily find a word which is not a specified one as mentioned in [the note](../../regular/words_lines_special/words_lines_special.md#find-all-except-a-specific-word). However, the language does not support lookbehind assertions to do this in a reversed way as [another note](../../regular/words_lines_special/words_lines_special.md#find-any-word-not-preceded-by-a-specific-word) said. Since that proposal, we can also do this easily by using `(?<=...)`.
+
+To clearly know the meaning of assertions in JavaScript regular expressions, I have refereed to the example of MDN:
+
+1. Lookahead assertions (`/x(?=y)/`): Matches "x" only if "x" is followed by "y".
+2. Negative lookahead assertions (`/x(?!y)/`): Matches "x" only if "x" is not followed by "y".
+3. Lookbehind assertions (`/(?<=y)x/`): Matches "x" only if "x" is preceded by "y".
+4. Negative lookbehind assertions (`/(?<!y)x/`): Matches "x" only if "x" is not preceded by "y".
