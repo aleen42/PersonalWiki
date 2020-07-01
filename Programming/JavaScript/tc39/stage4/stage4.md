@@ -423,3 +423,20 @@ For binary options, the following syntax is available like `Alphabetic`, `Math`,
 ```
 
 This syntax may also be used as a shorthand for `General_Category` values, e.g. `\p{Letter}` instead of `\p{General_Category=Letter}`.
+
+### 15. Promise.prototype.finally
+
+> Author: Jordan Harband
+>
+> Expected Publication Year: 2018
+>
+> https://github.com/tc39/proposal-promise-finally
+
+With `Promise.prototype.finally`, we do not need to use `Promise.prototype.then(func, func)` to handle fulfilled or rejected state at the same time anymore.
+
+In addition, `finally` won't change the result of a promise chain:
+
+```js
+Promise.resolve(1).then(() => {}, () => {}); /** => resolve undefined */
+Promise.resolve(1).finally(() => {}); /** => still resolve 1 */
+```
