@@ -9,8 +9,10 @@ Array.prototype.includes = function (searchElement: T, fromIndex?: number): bool
 ```
 
 > Author: Domenic Denicola
-
+>
 > Expected Publication Year: 2016
+>
+> https://github.com/tc39/Array.prototype.includes
 
 Sometimes we may need to detect whether an array has am expected element:
 
@@ -37,8 +39,10 @@ console.log([1, 2, 3].includes(1, 1)); /** => false */
 ### 2. Exponentiation operator
 
 > Author: Rick Waldron
-
+>
 > Expected Publication Year: 2016
+>
+> https://github.com/tc39/proposal-exponentiation-operator
 
 To support exponentiation with `**` notation.
 
@@ -51,8 +55,10 @@ console.log(2 ** (1 / 2)); /** => 1.4142135623730951 */
 ### 3. Object.values / Object.entries
 
 > Author: Jordan Harband
-
+>
 > Expected Publication Year: 2017
+>
+> https://github.com/tc39/proposal-object-values-entries
 
 As for we can get all keys of an JavaScript object through `Object.keys`, why can't we use some supported methods to export all values or even key-value pairs of such an object?
 
@@ -71,8 +77,10 @@ String.prototype.padEnd = function (maxLength: number, fillString?: string): str
 ```
 
 > Author: Jordan Harband
-
+>
 > Expected Publication Year: 2017
+>
+> https://github.com/tc39/proposal-string-pad-start-end
 
 To support padding a string with given minimal length of such a string.
 
@@ -92,8 +100,10 @@ Object.getOwnPropertyDescriptors = function <T>(o: T): {
 ```
 
 > Author: Jordan Harband, Andrea Giammarchi
-
+>
 > Expected Publication Year: 2017
+>
+> https://github.com/tc39/proposal-object-getownpropertydescriptors
 
 Since we can get descriptor from an object with given key, why can't we get all descriptors of an object with nature methods without looping each time?
 
@@ -133,8 +143,10 @@ console.log(mix({a: 1}).with({b: 2}, {c: 3})); /** => {a: 1, b: 2, c: 3} */
 ### 6. Trailing commas in function parameters lists
 
 > Author: Jeff Morrison
-
+>
 > Expected Publication Year: 2017
+>
+> https://github.com/tc39/proposal-trailing-function-commas
 
 Sometimes it is common to toggle function parameters with new lines for prettier format:
 
@@ -177,8 +189,10 @@ function test(
 More detailed for asynchronous programming at [here](../../async_programming/async_programming.md).
 
 > Author: Brian Terlson
-
+>
 > Expected Publication Year: 2017
+>
+> https://github.com/tc39/ecmascript-asyncawait
 
 ```js
 const tasks = [
@@ -200,14 +214,18 @@ const tasks = [
 ### 8. Shared Memory and Atomics
 
 > Author: Lars T Hansen
-
+>
 > Expected Publication Year: 2017
+>
+> https://github.com/tc39/ecmascript_sharedmem
 
 ### 9. Lifting template literal restriction
 
 > Author: Tim Disney
-
+>
 > Expected Publication Year: 2018
+>
+> https://github.com/tc39/proposal-template-literal-revision
 
 When it comes to template literal, there is a way we can handle string template with tagged methods like the following snippet:
 
@@ -244,8 +262,10 @@ tag`\unicode`; /** works fine */
 ### 10. `s` (`dotAll`) flag for regular expressions
 
 > Author: Mathias Bynens
-
+>
 > Expected Publication Year: 2018
+>
+> https://github.com/tc39/proposal-regexp-dotall-flag
 
 In JavaScript regular expressions, the dot notation `.` does not match all like line terminator characters:
 
@@ -290,8 +310,10 @@ console.log(/^.$/m.test(`
 ### 11. Named capturing groups in regular expressions
 
 > Author: Gorkem Yakin, Daniel Ehrenberg
-
+>
 > Expected Publication Year: 2018
+>
+> https://github.com/tc39/proposal-regexp-named-groups
 
 If you are familiar with regular expressions in JavaScript, you should know how to use capturing groups for matching and storing what we need. However, the order of multiple groups is always confusing especially when we have a sufficient complicated expressions. After this proposal, we can name groups without knowing the order any more.
 
@@ -334,8 +356,10 @@ When it comes to references, the `\k<name>` syntax may have compatible problems 
 ### 12. Rest / Spread Properties
 
 > Author: Sebastian Markbåge
-
+>
 > Expected Publication Year: 2018
+>
+> https://github.com/tc39/proposal-object-rest-spread
 
 ECMAScript 2015 (ES6) has introduced **rest** for array destructuring assignment and **spread** for array literals.
 
@@ -358,8 +382,10 @@ console.log({a: 1, b: 2, ...{x: 3, y: 4}}); /** => {a: 1, b: 2, x: 3, y: 4} */
 ### 13. RegExp Lookbehind Assertions
 
 > Author: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg
-
+>
 > Expected Publication Year: 2018
+>
+> https://github.com/tc39/proposal-regexp-lookbehind
 
 With lookahead assertions (`(?!...)`) supported before in JavaScript, we can easily find a word which is not a specified one as mentioned in [the note](../../regular/words_lines_special/words_lines_special.md#find-all-except-a-specific-word). However, the language does not support lookbehind assertions to do this in a reversed way as [another note](../../regular/words_lines_special/words_lines_special.md#find-any-word-not-preceded-by-a-specific-word) said. Since that proposal, we can also do this easily by using `(?<=...)`.
 
@@ -375,6 +401,8 @@ To clearly know the meaning of assertions in JavaScript regular expressions, I h
 > Author: Mathias Bynens
 >
 > Expected Publication Year: 2018
+>
+> https://github.com/tc39/proposal-regexp-unicode-property-escapes
 
 With this proposal, developers can access the set of unicode symbols, that are used exclusively in some specified script, in a regular expression by setting with a Unicode Property `\p{...}` and `\P{...}` with `u` flags:
 
