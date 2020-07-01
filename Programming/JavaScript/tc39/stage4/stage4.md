@@ -369,3 +369,29 @@ To clearly know the meaning of assertions in JavaScript regular expressions, I h
 2. Negative lookahead assertions (`/x(?!y)/`): Matches "x" only if "x" is not followed by "y".
 3. Lookbehind assertions (`/(?<=y)x/`): Matches "x" only if "x" is preceded by "y".
 4. Negative lookbehind assertions (`/(?<!y)x/`): Matches "x" only if "x" is not preceded by "y".
+
+### 14. RegExp Unicode Property Escapes
+
+> Author: Mathias Bynens
+>
+> Expected Publication Year: 2018
+
+With this proposal, developers can access the set of unicode symbols, that are used exclusively in some specified script, in a regular expression by setting with a Unicode Property `\p{...}` and `\P{...}` with `u` flags:
+
+```js
+/\p{UnicodePropertyName=UnicodePropertyValue}/u
+```
+
+The aliases of **UnicodePropertyName** and **UnicodePropertyValue** has been defined in [`PropertyAliases.txt`](http://unicode.org/Public/UNIDATA/PropertyAliases.txt) and [`PropertyValueAliases.txt`](http://unicode.org/Public/UNIDATA/PropertyValueAliases.txt). For example, if we want to match some Greek characters:
+
+```js
+/\p{Script=Greek}/u.test('π'); /** => true */
+```
+
+For binary options, the following syntax is available like `Alphabetic`, `Math`, or `Uppercase`:
+
+```js
+/\p{LoneUnicodePropertyNameOrValue}/u
+```
+
+This syntax may also be used as a shorthand for `General_Category` values, e.g. `\p{Letter}` instead of `\p{General_Category=Letter}`.
