@@ -89,5 +89,6 @@ The following table is generated as per the classification of JavaScript framewo
 |Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)| |
 |Package Management|[npm](https://github.com/npm/npm)|[yarn](https://github.com/yarnpkg/yarn)|[bower](https://github.com/bower/bower)|
 |                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)| | |
+|Performance|[fastdom](https://github.com/wilsonpage/fastdom) (DOM performance enhancement)| | |
 
 *Note: **strong links** mean there are corresponding notes for those frameworks or libraries.*
