@@ -2,10 +2,10 @@
 
 **Generator** is a concept specified in ECMAScript 2015 (ES6) , which stands for a state machine like objects, which have iterable protocol. It means that we can easily use `Generator.prototype.next()` method to access the next state of such a machine.
 
-In JavaScript, if you want to create a generator, you should use `function *` rather than `Generator`, as it is not a constructor.
+In JavaScript, if you want to create a generator, you should use `function*` rather than `Generator`, as it is not a constructor.
 
 ```js
-function * gen() {
+function* gen() {
 	yield 1;
 	yield 2;
 }
@@ -55,7 +55,7 @@ So how can we use generators to describe a state machine? Take the following cas
 And then the generator for this can code like this:
 
 ```js
-function * machine() {
+function* machine() {
 	/** the start of state */
 	let state = 0;
 	let action;
@@ -97,13 +97,13 @@ Quite easy, right? In addition, we will take a look at some usages of `yield`:
 
 1. If we want to concat two generator, or embed one into another, we can use `yield *`:
     ```js
-    function * top(i) {
+    function* top(i) {
 	    yield i + 1;
 	    yield i + 2;
 	    yield i + 3;
     }
     
-    function * decade(i) {
+    function* decade(i) {
 	    yield i;
 	    yield * top(i);
 	    yield i + 10;
@@ -119,7 +119,7 @@ Quite easy, right? In addition, we will take a look at some usages of `yield`:
 
 2. Pass arguments into generators:
     ```js
-    function * log() {
+    function* log() {
         console.log(0);	
         console.log(1, yield);	
     }
@@ -133,7 +133,7 @@ Quite easy, right? In addition, we will take a look at some usages of `yield`:
 
 3. Return statements in a generator:
     ```js
-    function * method() {
+    function* method() {
 	    yield 'a';
 	    return 'close';
 	    yield 'unreachable'; /** the generator will be marked as done once it returns */
