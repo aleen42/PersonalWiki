@@ -440,3 +440,90 @@ In addition, `finally` won't change the result of a promise chain:
 Promise.resolve(1).then(() => {}, () => {}); /** => resolve undefined */
 Promise.resolve(1).finally(() => {}); /** => still resolve 1 */
 ```
+
+### 16. Asynchronous Iteration
+
+> Author: Domenic Denicola
+>
+> Expected Publication Year: 2018
+>
+> https://github.com/tc39/proposal-async-iteration
+
+Since we can use async / await as [the proposal](#7-async--await) said, we also need a feature to support asynchronous iteration so that developers can iterate some promises, especially when the next promise replies on the previous one. The proposal has introduced three types of iterations: the **AsyncIterator** interface, an asynchronous iteration statement (`for-await-of`), and async generator functions.
+
+1. the **AsyncIterator** interface
+
+    An async iterator is much like an iterator, except that its next() method returns a promise for a `{value, done}` pair.
+
+    ```js
+    const {value, done} = syncIterator.next();
+
+    asyncIterator.next().then(({value, done}) => { /** ... */ });
+    ```
+
+    To create a synchronous iterator which can be used by `for...of`:
+
+    ```js
+    const iterator = {
+        [Symbol.iterator]: function* () {
+        	yield 1;
+        	yield 2;
+        	yield 3;
+        },
+    };
+
+    console.log([...iterator]); /** => 1 2 3 */
+    for (const val of iterator) { console.log(val); } /** => 1, 2, 3 */
+    ```
+
+    To create an asynchronous iterator which can be used by `for await...of`:
+
+    ```js
+    const asyncIterator = {
+        [Symbol.asyncIterator]: function* () {
+        	yield 1;
+        	yield 2;
+        	yield 3;
+        },
+    };
+
+    (async () => {
+        for await (const val of asyncIterator) { console.log(val); } /** => 1, 2, 3 */ 
+    })();
+    ```
+
+2. An asynchronous iteration statement (`for await...of`)
+
+    The proposal introduces that we can iterate some async function in sequential like that:
+
+    ```js
+    (async () => {
+        for await (const task of tasks()) { console.log(task); }
+    });
+    ```
+
+    *Note that: statements are only allowed within async function and async generator functions.*
+
+3. Async generator functions
+
+    Async generator functions are similar to generator functions, with the following differences:
+
+    * When called, async generator functions return an object, an *async generator* whose methods (`next`, `throw`, and `return`) return promises for `{ value, done }`, instead of directly returning `{ value, done }`. This automatically makes the returned async generator objects *async iterators*.
+    * `await` expressions and `for`-`await`-`of` statements are allowed.
+    * The behavior of `yield*` is modified to support delegation to async iterables.
+
+    For example:
+
+    ```js
+    async function* readLines(path) {
+	    let file = await fileOpen(path);
+    
+	    try {
+	    	while (!file.EOF) {
+	    		yield await file.readLine();
+	    	}
+	    } finally {
+	    	await file.close();
+	    }
+    } 
+    ```
