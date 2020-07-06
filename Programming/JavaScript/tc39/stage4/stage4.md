@@ -527,3 +527,23 @@ Since we can use async / await as [the proposal](#7-async--await) said, we also 
 	    }
     } 
     ```
+
+### 17. Optional `catch` binding
+
+> Author: Michael Ficarra
+>
+> Expected Publication Year: 2019
+>
+> https://github.com/tc39/proposal-optional-catch-binding
+
+Before this proposal, you cannot omit the parameter and have to define the variable even if you want to ignore it:
+
+```js
+try { /** do something */ } catch (ignore) {}
+```
+
+After this proposal, you can definitely remove this unused pattern:
+
+```js
+try { /** do something */ } catch {}
+```
