@@ -557,3 +557,25 @@ try { /** do something */ } catch {}
 > https://github.com/tc39/proposal-json-superset
 
 A proposal to extend [ECMA-262](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf) syntax into a superset of JSON.
+
+### 19. Symbol.prototype.description
+
+> Author: Michael Ficarra
+>
+> Expected Publication Year: 2019
+>
+> https://github.com/tc39/proposal-Symbol-description
+
+A read-only property to return the optional description of a `Symbol` object:
+
+```js
+console.log(Symbol().description); /** => undefined */
+console.log(Symbol('').description); /** => "" */
+console.log(Symbol('desc').description); /** => "desc" */
+console.log(Symbol('desc').toString()); /** => "Symbol(desc)" */
+
+/** a well-known symbol */
+console.log(Symbol.iterator.description); /** => "Symbol.iterator" */
+/** global symbols */
+console.log(Symbol.for('foo').description); /** => "foo" */
+```
