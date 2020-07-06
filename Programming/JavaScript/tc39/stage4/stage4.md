@@ -547,3 +547,13 @@ After this proposal, you can definitely remove this unused pattern:
 ```js
 try { /** do something */ } catch {}
 ```
+
+### 18. JSON superset
+
+> Author: Richard Gibson
+>
+> Expected Publication Year: 2019
+>
+> https://github.com/tc39/proposal-json-superset
+
+A proposal to extend [ECMA-262](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf) syntax into a superset of JSON.
