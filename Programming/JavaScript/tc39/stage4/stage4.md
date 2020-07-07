@@ -627,3 +627,20 @@ Aims to prevent `JSON.stringify` from returning ill-formed Unicode strings:
 console.log(JSON.stringify('\uD834\uDF06')); /** => "𝌆" */
 console.log(JSON.stringify('\uDF06\uD834')); /** => "\\udf06\\ud834" rather than "��" */
 ```
+
+### 23. `String.prototype.{trimStart, trimEnd, trimLeft, trimRight}`
+
+> Author: Sebastian Markbåge
+>
+> Expected Publication Year: 2019
+>
+> https://github.com/tc39/proposal-string-left-right-trim
+
+A proposal to support trim in one side of a string. `trimLeft` and `trimRight` are just aliases of `trimStart` and `trimEnd`.
+
+```js
+console.log(' foo '.trimLeft()); /** => "foo " */
+console.log(' foo '.trimRight()); /** => " foo" */
+console.log(' bar '.trimStart()); /** => "bar " */
+console.log(' bar '.trimEnd()); /** => " bar" */
+```
