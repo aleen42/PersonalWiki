@@ -644,3 +644,25 @@ console.log(' foo '.trimRight()); /** => " foo" */
 console.log(' bar '.trimStart()); /** => "bar " */
 console.log(' bar '.trimEnd()); /** => " bar" */
 ```
+
+### 24. `Array.prototype.{flat, flatMap}`
+
+> Author: Brian Terlson, Michael Ficarra, Mathias Bynens
+>
+> Expected Publication Year: 2019
+>
+> https://github.com/tc39/proposal-flatMap
+
+With `Array.prototype.flat`, developers can operate an array by concatenating all child arrays into it recursively up to the specified depth. For example:
+
+```js
+console.log([1, [2, [3]], 4].flat()); /** => [1, 2, [3], 4], specify depth as 1 by default */
+console.log([1, [2, [3]], 4].flat(1)); /** => [1, 2, [3], 4] */
+console.log([1, [2, [3]], 4].flat(2)); /** => [1, 2, 3, 4] */
+```
+
+With `Array.prototype.flatMap`, we can flat each child item via 1 depth of an array after map it:
+
+```js
+console.log([{a: 1}, {a : [2, [3]]} , {a:4 }].flatMap(({a}) => a)); /** => [1, 2, [3], 4] */
+```
