@@ -674,3 +674,38 @@ With `Array.prototype.flatMap`, we can flat each child item via 1 depth of an ar
 ```js
 console.log([{a: 1}, {a : [2, [3]]} , {a:4 }].flatMap(({a}) => a)); /** => [1, 2, [3], 4] */
 ```
+
+## ECMAScript 2020
+
+### 25. `String.prototype.matchAll`
+
+> Author: Jordan Harband
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/String.prototype.matchAll
+
+With this proposal, we don't need to use a `RegExp` object to execute matching some patterns within a string anymore. For Example, if we want to match all `test` keyword within a sentence, we may implement the requirement like this before:
+
+```js
+const sentence = 'This is a test case where we can test a case of matching several patterns.';
+const regex = /test/g;
+const matches = [];
+
+let match;
+while (match = regex.exec(sentence)) {
+	matches.push(match);
+}
+
+console.log(matches); /** => [["test", index: 10, input: "xxx", groups: undefined], ["test", index: 33, input: "xxx", groups: undefined]] */
+```
+
+After that, we can use `String.prototype.matchAll` to do so:
+
+```js
+const matches = [...'This is a test case where we can test a case of matching several patterns.'.matchAll(/test/g)];
+
+console.log(matches); /** => [["test", index: 10, input: "xxx", groups: undefined], ["test", index: 33, input: "xxx", groups: undefined]] */
+```
+
+*Notice that: `String.prototype.matchAll` will return an iterator, named as `RegExpStringIterator`.*
