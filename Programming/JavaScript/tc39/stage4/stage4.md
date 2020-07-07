@@ -612,3 +612,18 @@ Aims to do reversal operation of `Object.entries`, like [`_.formPairs`](https://
 console.log(Object.entries({a: 1, b: 2})); /** => [["a", 1], ["b", 2]] */
 console.log(Object.fromEntries([['a', 1], ['b', 2]])); /** => {a: 1, b: 2} */
 ```
+
+### 22. Well-formed `JSON.stringify`
+
+> Author: Richard Gibson
+>
+> Expected Publication Year: 2019
+>
+> https://github.com/tc39/proposal-well-formed-stringify
+
+Aims to prevent `JSON.stringify` from returning ill-formed Unicode strings:
+
+```js
+console.log(JSON.stringify('\uD834\uDF06')); /** => "𝌆" */
+console.log(JSON.stringify('\uDF06\uD834')); /** => "\\udf06\\ud834" rather than "��" */
+```
