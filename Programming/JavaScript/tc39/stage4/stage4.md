@@ -2,6 +2,8 @@
 
 This note refers to [the official collections](https://github.com/tc39/proposals/blob/master/finished-proposals.md).
 
+## ECMAScript 2016
+
 ### 1. `Array.prototype.includes`
 
 ```typescript
@@ -51,6 +53,8 @@ console.log(Math.pow(2, 2)); /** => 4 */
 console.log(2 ** 2); /** => 4 */
 console.log(2 ** (1 / 2)); /** => 1.4142135623730951 */
 ```
+
+## ECMAScript 2017
 
 ### 3. `Object.{values, entries}`
 
@@ -218,6 +222,8 @@ const tasks = [
 > Expected Publication Year: 2017
 >
 > https://github.com/tc39/ecmascript_sharedmem
+
+## ECMAScript 2018
 
 ### 9. Lifting template literal restriction
 
@@ -527,6 +533,8 @@ Since we can use async / await as [the proposal](#7-async--await) said, we also 
 	    }
     } 
     ```
+
+## ECMAScript 2019
 
 ### 17. Optional `catch` binding
 
