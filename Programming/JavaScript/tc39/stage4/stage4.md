@@ -579,3 +579,21 @@ console.log(Symbol.iterator.description); /** => "Symbol.iterator" */
 /** global symbols */
 console.log(Symbol.for('foo').description); /** => "foo" */
 ```
+
+### 20. Function.prototype.toString revision
+
+> Author: Michael Ficarra
+>
+> Expected Publication Year: 2019
+>
+> https://tc39.es/Function-prototype-toString-revision/
+
+A proposal of a revision at `Function.prototype.toString`:
+
+- ensure that the string's parse contains the same function body and parameter list as the original
+- for functions defined using ECMAScript code, `toString` must return source text slice from beginning of first token to end of last token matched by the appropriate grammar production
+- for built-in function objects and [bound function](https://tc39.github.io/ecma262/#sec-bound-function-exotic-objects) exotic objects, `toString` must not return anything other than [NativeFunction](https://tc39.es/Function-prototype-toString-revision/#prod-NativeFunction)
+- for callable objects which were not defined using ECMAScript code, `toString` must return [NativeFunction](https://tc39.es/Function-prototype-toString-revision/#prod-NativeFunction)
+- for functions created dynamically (through the Function and GeneratorFunction constructors), `toString` must synthesise a source text
+- for all other objects, `toString` must throw a TypeError exception
+- implementations must not be required to retain source text for all functions defined using ECMAScript code
