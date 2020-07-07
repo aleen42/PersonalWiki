@@ -2,7 +2,7 @@
 
 This note refers to [the official collections](https://github.com/tc39/proposals/blob/master/finished-proposals.md).
 
-### 1. Array.prototype.includes
+### 1. `Array.prototype.includes`
 
 ```typescript
 Array.prototype.includes = function (searchElement: T, fromIndex?: number): boolean;
@@ -36,7 +36,7 @@ console.log([1, 2, +0].includes(-0)); /** => true */
 console.log([1, 2, 3].includes(1, 1)); /** => false */
 ```
 
-### 2. Exponentiation operator
+### 2. Exponentiation operator (`**`)
 
 > Author: Rick Waldron
 >
@@ -52,7 +52,7 @@ console.log(2 ** 2); /** => 4 */
 console.log(2 ** (1 / 2)); /** => 1.4142135623730951 */
 ```
 
-### 3. Object.values / Object.entries
+### 3. `Object.{values, entries}`
 
 > Author: Jordan Harband
 >
@@ -69,7 +69,7 @@ console.log(Object.values({a: 1, b: 2})); /** => [1, 2] */
 console.log(Object.entries({a: 1, b: 2})); /** => [['a', 1], ['b', 2]] */
 ```
 
-### 4. String.prototype.padStart / String.prototype.padEnd
+### 4. `String.prototype.{padStart, padEnd}`
 
 ```typescript
 String.prototype.padStart = function (maxLength: number, fillString?: string): string;
@@ -91,7 +91,7 @@ console.log('abc'.padEnd(1)); /** => "abc" */
 console.log('abc'.padStart(4, '-').padEnd(5, '-')); /** => "-abc-" */
 ```
 
-### 5. Object.getOwnPropertyDescriptors
+### 5. `Object.getOwnPropertyDescriptors`
 
 ```typescript
 Object.getOwnPropertyDescriptors = function <T>(o: T): {
@@ -379,7 +379,7 @@ console.log(c); /** => {x: 3, y: 4} */
 console.log({a: 1, b: 2, ...{x: 3, y: 4}}); /** => {a: 1, b: 2, x: 3, y: 4} */
 ```
 
-### 13. RegExp Lookbehind Assertions
+### 13. RegExp Lookbehind Assertions (`(?<=)`, `(?<!)`)
 
 > Author: Gorkem Yakin, Nozomu Katō, Daniel Ehrenberg
 >
@@ -424,7 +424,7 @@ For binary options, the following syntax is available like `Alphabetic`, `Math`,
 
 This syntax may also be used as a shorthand for `General_Category` values, e.g. `\p{Letter}` instead of `\p{General_Category=Letter}`.
 
-### 15. Promise.prototype.finally
+### 15. `Promise.prototype.finally`
 
 > Author: Jordan Harband
 >
@@ -548,7 +548,7 @@ After this proposal, you can definitely remove this unused pattern:
 try { /** do something */ } catch {}
 ```
 
-### 18. JSON superset
+### 18. `JSON` superset
 
 > Author: Richard Gibson
 >
@@ -558,7 +558,7 @@ try { /** do something */ } catch {}
 
 A proposal to extend [ECMA-262](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf) syntax into a superset of JSON.
 
-### 19. Symbol.prototype.description
+### 19. `Symbol.prototype.description`
 
 > Author: Michael Ficarra
 >
@@ -580,7 +580,7 @@ console.log(Symbol.iterator.description); /** => "Symbol.iterator" */
 console.log(Symbol.for('foo').description); /** => "foo" */
 ```
 
-### 20. Function.prototype.toString revision
+### 20. `Function.prototype.toString` revision
 
 > Author: Michael Ficarra
 >
@@ -598,7 +598,7 @@ A proposal of a revision at `Function.prototype.toString`:
 - for all other objects, `toString` must throw a TypeError exception
 - implementations must not be required to retain source text for all functions defined using ECMAScript code
 
-### 21. Object.fromEntries
+### 21. `Object.fromEntries`
 
 > Author: Darien Maillet Valentine
 >
