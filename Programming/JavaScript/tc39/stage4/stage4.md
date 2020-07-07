@@ -597,3 +597,18 @@ A proposal of a revision at `Function.prototype.toString`:
 - for functions created dynamically (through the Function and GeneratorFunction constructors), `toString` must synthesise a source text
 - for all other objects, `toString` must throw a TypeError exception
 - implementations must not be required to retain source text for all functions defined using ECMAScript code
+
+### 21. Object.fromEntries
+
+> Author: Darien Maillet Valentine
+>
+> Expected Publication Year: 2019
+>
+> https://github.com/tc39/proposal-object-from-entries
+
+Aims to do reversal operation of `Object.entries`, like [`_.formPairs`](https://lodash.com/docs/4.17.4#fromPairs) in Lodash:
+
+```js
+console.log(Object.entries({a: 1, b: 2})); /** => [["a", 1], ["b", 2]] */
+console.log(Object.fromEntries([['a', 1], ['b', 2]])); /** => {a: 1, b: 2} */
+```
