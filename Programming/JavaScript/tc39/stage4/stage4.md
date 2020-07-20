@@ -709,3 +709,27 @@ console.log(matches); /** => [["test", index: 10, input: "xxx", groups: undefine
 ```
 
 *Notice that: `String.prototype.matchAll` will return an iterator, named as `RegExpStringIterator`.*
+
+### 26. `import()`
+
+> Author: Domenic Denicola
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/proposal-dynamic-import
+
+As we know, `import` cannot be called dynamically like this before:
+
+```js
+if (es3) { /** Syntax Error: statement expected */ 
+	import 'core-js/shim';
+}
+```
+
+Since this proposal, we can use `import` statement like calling a function, which will return a promise:
+
+```js
+if (es3) {
+	import('core-js/shim').then(module => { /** do something with the module */ });
+}
+```
