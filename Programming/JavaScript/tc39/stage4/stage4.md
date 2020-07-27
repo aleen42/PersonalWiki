@@ -733,3 +733,98 @@ if (es3) {
 	import('core-js/shim').then(module => { /** do something with the module */ });
 }
 ```
+
+### 27. BigInt
+
+> Author: Daniel Ehrenberg
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/proposal-bigint
+
+
+`BigInt` is a new primitive which provides a way to represent whole numbers larger than 2<sup>53</sup>, which is the largest number Javascript can reliably represent with the `Number` primitive.
+
+```js
+console.log(Number.MAX_SAFE_INTEGER); /** => 9007199254740991, this is 1 less than 2^53 */
+console.log(Number.MAX_SAFE_INTEGER + 1); /** => 9007199254740992, OK */
+console.log(Number.MAX_SAFE_INTEGER + 2); /** => 9007199254740992, same above */
+console.log(Number.MAX_SAFE_INTEGER + 3); /** => 9007199254740994, OK again? */
+console.log(Number.MAX_SAFE_INTEGER + 4); /** => 9007199254740994, Emmmmm */
+```
+
+There is some syntax you may need to know when using `BigInt`:
+
+```js
+const bigInt = 9007199254740991n;
+const bigInt1 = BigInt(9007199254740991);
+const bigInt2 = BigInt('9007199254740991');
+```
+
+We can apply arithmetic operations as well as power (`**`) and mod (`%`) operations on `BitInt`, but should with `BitInt` as right value at the same time:
+
+```js
+console.log(BigInt(Number.MAX_SAFE_INTEGER) + 1n); /** => 9007199254740992n, OK */
+console.log(BigInt(Number.MAX_SAFE_INTEGER) + 1); /** => Error: Uncaught TypeError: Cannot mix BigInt and other types, use explicit conversions */
+```
+
+When it comes to division (`/`), what you may need to know is that what you get should be rounded as it is an integer to some extent.
+
+```js
+console.log(4n / 2n); /** => 2n */
+console.log(3n / 2n); /** => 1n, but not 1.5n */
+```
+
+When compare `BitInt` with `Number`, it equals when not strictly:
+
+```js
+console.log(1n == 1); /** => true */
+console.log(1n === 1); /** => false */
+
+console.log(1n < 2); /** => true */
+console.log(2n > 2); /** => false */
+console.log(2 > 2); /** => false */
+console.log(2 > 2n); /** => false */
+console.log(2 >= 2n); /** => true */
+```
+
+Also, `0n` is same as `0`, which will be treated as `false` in conditions:
+
+```js
+console.log(0n || 'else'); /** => "else" */
+```
+
+Some situations of converting between `BitInt` and `Number` should be noticed:
+
+1. Initializing:
+
+    ```js
+    BigInt(1.5); /** => RangeError: The number 1.5 is not a safe integer and thus cannot be converted to a BigInt */
+    BigInt('1.5'); /** => SyntaxError: Cannot convert 1.5 to a BigInt */ 
+    ```
+
+2. Operating:
+
+    ```js
+    Math.round(1n); /** => TypeError: Cannot convert a BigInt value to a number */
+    Math.max(1n, 10n); /** => TypeError: Cannot convert a BigInt value to a number */
+
+    1n | 0; /** TypeError: Cannot mix BigInt and other types, use explicit conversions */ 
+    ```
+
+3. Parsing:
+
+    ```js
+    parseFloat(1234n); /** => 1234 */
+    parseInt(10n); /** => 10 */ 
+
+    parseInt(900719925474099267n); /** => 900719925474099300, lose precision */
+    ```
+
+4. Serializing:
+
+    ```js
+    JSON.stringify({a: 10n}); /** => TypeError: Do not know how to serialize a BigInt */ 
+    ```
+
+For more advanced usages, please visit [here](https://github.com/tc39/proposal-bigint/blob/master/ADVANCED.md).
