@@ -828,3 +828,40 @@ Some situations of converting between `BitInt` and `Number` should be noticed:
     ```
 
 For more advanced usages, please visit [here](https://github.com/tc39/proposal-bigint/blob/master/ADVANCED.md).
+
+### 28. `Promise.allSettled()`
+
+> Author: Jason Williams, Robert Pamely, Mathias Bynens
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/proposal-promise-allSettled
+
+In comparison with `Promise.all()`, `Promise.allSettled()` returns a promise that is fulfilled with an array of results, whenever all promises have settled, even if some promises have been rejected. `Promise.all()` will immediately return a promise rejected with the first rejected promise result.
+
+```js
+(async () => {
+	const successful = (await Promise.allSettled([fetch('source1'), fetch('source2')])).filter(/* promise = */({status}) => status === 'fulfilled');
+})();
+```
+
+There is an example to show the exact difference between `Promise.all()` and `Promise.allSettled()`:
+
+```js
+(async () => {
+	const requests = ['source1', 'source2'];
+    
+	try {
+        await Promise.all(requests);
+        console.log('All requests have completed; now I can remove the loading indicator.');
+    } catch {
+        console.log('At least one request has failed, but some of the requests still might not be finished! Oops.');
+    }
+    
+    /** We know all API calls have finished. We use finally but allSettled will never reject. */
+    Promise.allSettled(requests).finally(() => {
+        console.log('All requests are completed: either failed or succeeded, I don’t care');
+        /** remove loading ... */
+    });
+})();
+```
