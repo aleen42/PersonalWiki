@@ -932,3 +932,21 @@ When we simulate that the page changes between two contents, we will find that `
 ```
 
 In my opinion, `globalThis` is a special existence which stands for a higher level of global environments between different frames. Sometimes we may not distinguish it from so-called "global object" easily.
+
+### 30. `for-in` mechanics
+
+> Author: Kevin Gibbons
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/proposal-for-in-order
+
+This proposal aims to create a convention about the order of iterating a JavaScript Object via some APIs:
+
+- [`Object.keys`](https://tc39.es/ecma262/#sec-object.keys)
+- [`Object.values`](https://tc39.es/ecma262/#sec-object.values)
+- [`Object.entries`](https://tc39.es/ecma262/#sec-object.entries)
+- [`JSON.parse`](https://tc39.es/ecma262/#sec-json.parse) via [`InternalizeJSONProperty`](https://tc39.es/ecma262/#sec-internalizejsonproperty)
+- [`JSON.stringify`](https://tc39.es/ecma262/#sec-json.stringify) via [`SerializeJSONObject`](https://tc39.es/ecma262/#sec-serializejsonobject)
+
+Including the `for ... in` statement itself.
