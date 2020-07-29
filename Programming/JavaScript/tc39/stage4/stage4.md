@@ -950,3 +950,25 @@ This proposal aims to create a convention about the order of iterating a JavaScr
 - [`JSON.stringify`](https://tc39.es/ecma262/#sec-json.stringify) via [`SerializeJSONObject`](https://tc39.es/ecma262/#sec-serializejsonobject)
 
 Including the `for ... in` statement itself.
+
+### 31. Optional Chaining
+
+> Author: Gabriel Isenberg, Claude Pache, Dustin Savery
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/proposal-optional-chaining
+
+Before this proposal, when we hope to avoid problems of NPE (Null Pointer Exceptions) in JavaScript, we may code like this:
+
+```js
+const street = user && user.address && user.address.street;
+const done = cb => { /** do something before callback */ cb && cb(); };
+```
+
+After that, we can simplify it:
+
+```js
+const street = user?.address?.street;
+const done = cb => { /** do something before callback */ cb?.(); };
+```
