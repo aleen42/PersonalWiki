@@ -865,3 +865,70 @@ There is an example to show the exact difference between `Promise.all()` and `Pr
     });
 })();
 ```
+
+### 29. `globalThis`
+
+> Author: Jordan Harband
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/proposal-global
+
+In JavaScript, it should be a hot topic to discuss how to access the global object:
+
+- Web: `window (Window)`, `self (WindowProxy)`, `this (WindowProxy)`, or `frames (WindowProxy)`
+- Node: `global` (not available in shell-like V8's `d8`, or JavaScript Core's `jsc`), or `this`
+
+In a global standalone function, we can access the global object via `this`, but not in module function or strict mode within a function (`use strict;`). In such a case, we can also access the global object via `Function('return this')()`, although it can result in performance problem like using `eval`. However, this way is still not available in some [CSP settings](https://github.com/paulmillr/es6-shim/issues/301), like Chrome apps.
+
+Here is a snippet to make a conclusion about what mentioned above:
+
+```js
+function getGlobal() {
+	return typeof window != 'undefined' ? window /** Web */
+	    : (typeof process === 'object' && typeof require === 'function' && typeof global === 'object') ? global /** Node */
+			: this || Function('return this')(); /** module function / strict mode */
+}
+```
+
+So what is the difference between `window` and `globalThis`? As the page changes, `globalThis` maintains the same identity of `window`, while `window` is swapped out.
+
+Take an example in the proposal, where there are two sources of frame, `a.html` and `b.html`.
+
+```html
+<!-- a.html -->
+<script>
+    globalThis.foo = 'a';
+    globalThis.getGlobalThis = () => globalThis;
+</script>
+```
+
+```html
+<!-- a.html -->
+<script>
+    globalThis.getGlobalThis = () => globalThis;
+</script>
+```
+
+When we simulate that the page changes between two contents, we will find that `window.foo` will be lost while `globalThis.foo` not:
+
+```html
+<iframe src="a.html"></iframe>
+<script>
+    const iframe = document.querySelector('iframe');
+    iframe.onload = () => {
+        console.log(frames[0].foo); /** window.foo => 'a' */ 
+        const before = frames[0].getGlobalThis();
+        console.log(before.foo); /** globalThis.foo => 'a' */
+
+        iframe.onload = () => {
+            console.log(frames[0].foo) /** window.foo => undefined */;
+            console.log(before === frames[0].getGlobalThis()); /**  => true */
+            console.log(before.foo); /** globalThis.foo => 'a' */
+        };
+        iframe.src = 'b.html';
+    };
+</script>
+```
+
+In my opinion, `globalThis` is a special existence which stands for a higher level of global environments between different frames. Sometimes we may not distinguish it from so-called "global object" easily.
