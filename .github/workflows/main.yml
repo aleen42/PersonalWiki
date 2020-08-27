@@ -13,6 +13,9 @@ jobs:
     - uses: actions/checkout@master
       with:
         ref: docs
+    - uses: actions/setup-node@v2-beta
+      with:
+        node-version: '13'
     - name: Configure
       run: |
         git clone --depth=1 --branch=build https://github.com/aleen42/PersonalWiki.git temp
@@ -21,6 +24,7 @@ jobs:
         git clone --depth=1 --branch=gh-pages https://github.com/aleen42/PersonalWiki.git gh-pages
     - name: Build
       run: |
+        npm version
         npm install --no-save --no-audit
         npm run gitbook:install
         npm run gitbook:build
