@@ -1001,3 +1001,15 @@ This proposal aims to handle this situation by making fallback condition strictl
 const options = {};
 options.index = index ?? -1; /** fallback to -1 only when index is `null` or `undefined` */
 ```
+
+### 33. `import.meta`
+
+> Author: Domenic Denicola
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/proposal-import-meta
+
+Since ES6, there are ES modules corresponding to CommonJS modules in NodeJS, and in 2018, we can write a module with `.mjs` extension file, and require them with `<script type="module" src="xxx.mjs"></script>`.
+
+However, some meta information of ES modules still miss before this proposal like `__dirname`, `__filename`, `module` in CommonJS modules. With `import.meta` we can get some meta information of current module like using `import.meta.url` for getting the url of current module; `import.meta.scriptElement.dataset` for getting `data-` attribute specified in the script tag.
