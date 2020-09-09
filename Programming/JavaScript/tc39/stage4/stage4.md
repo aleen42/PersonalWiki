@@ -1039,3 +1039,20 @@ console.log('a+b+c'.replaceAll('+', '-')); /** => "a-b-c" */
 console.log('a+b+c'.replaceAll(/\+/, '-')); /** => Uncaught TypeError: String.prototype.replaceAll called with a non-global RegExp argument */
 console.log('a+b+c'.replaceAll(/\+/g, '-')); /** => "a-b-c" */
 ```
+
+### 35. `Promise.any`
+
+> Author: Mathias Bynens, Kevin Gibbons, Sergey Rubanov
+>
+> Expected Publication Year: 2021
+>
+> https://github.com/tc39/proposal-promise-any
+
+The proposal can ben apparently described with a table:
+
+| name                                          | description                                             |
+|:----------------------------------------------|:--------------------------------------------------------|
+| [`Promise.allSettled`](#28-promiseallsettled) | does not short-circuit until all promises are settled   |
+| `Promise.all`                                 | short-circuits when one promise is rejected             |
+| `Promise.race`                                | short-circuits when one promise is settled              |
+| `Promise.any`                                 | short-circuits when one promise is resolved (fulfilled) |
