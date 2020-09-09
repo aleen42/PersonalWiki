@@ -1013,3 +1013,29 @@ options.index = index ?? -1; /** fallback to -1 only when index is `null` or `un
 Since ES6, there are ES modules corresponding to CommonJS modules in NodeJS, and in 2018, we can write a module with `.mjs` extension file, and require them with `<script type="module" src="xxx.mjs"></script>`.
 
 However, some meta information of ES modules still miss before this proposal like `__dirname`, `__filename`, `module` in CommonJS modules. With `import.meta` we can get some meta information of current module like using `import.meta.url` for getting the url of current module; `import.meta.scriptElement.dataset` for getting `data-` attribute specified in the script tag.
+
+## ECMAScript 2021
+
+### 34. `String.prototype.replaceAll`
+
+> Author: Peter Marshall, Jakob Gruber, Mathias Bynens
+>
+> Expected Publication Year: 2021
+>
+> https://github.com/tc39/proposal-string-replaceall
+
+When it comes to how to replace all specified substrings inside a string, we may use regex or splitting and joining before:
+
+```js
+console.log('a+b+c'.replace(/\+/g, '-')); /** => "a-b-c" */
+console.log('a+b+c'.split('+').join('-')); /** => "a-b-c" */
+```
+
+With this proposal:
+
+```js
+console.log('a+b+c'.replaceAll('+', '-')); /** => "a-b-c" */
+
+console.log('a+b+c'.replaceAll(/\+/, '-')); /** => Uncaught TypeError: String.prototype.replaceAll called with a non-global RegExp argument */
+console.log('a+b+c'.replaceAll(/\+/g, '-')); /** => "a-b-c" */
+```
