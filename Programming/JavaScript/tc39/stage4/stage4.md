@@ -972,3 +972,32 @@ After that, we can simplify it:
 const street = user?.address?.street;
 const done = cb => { /** do something before callback */ cb?.(); };
 ```
+
+### 32. Nullish coalescing Operator
+
+> Author: Gabriel Isenberg
+>
+> Expected Publication Year: 2020
+>
+> https://github.com/tc39/proposal-nullish-coalescing
+
+Before this proposal, when we want to assign a variable with a fallback default value, we usually use `||` notation like this:
+
+```js
+const options = {};
+options.yes = yes || true;
+```
+
+However, when it comes to falsy value like zero (`0`), falsy boolean (`false`), or an empty string (`""`), we usually do not expect to fallback as it is a meaningful value sometimes:
+
+```js
+const options = {};
+options.index = index || -1; /** fallback to -1 when index is 0 */
+```
+
+This proposal aims to handle this situation by making fallback condition strictly to only `undefined` or `null`:
+
+```js
+const options = {};
+options.index = index ?? -1; /** fallback to -1 only when index is `null` or `undefined` */
+```
