@@ -22,7 +22,7 @@ The following table is generated as per the classification of JavaScript framewo
 |       |[chromatism](https://github.com/toish/chromatism) (utility functions for colors)|[browserslist](https://github.com/browserslist/browserslist)|[cropper](https://github.com/fengyuanchen/cropper), [Croppie](https://github.com/Foliotek/Croppie) (image cropper)|
 |       |[Clamp.js](https://github.com/josephschmitt/Clamp.js) (overflow ellipses)|[react-dnd](https://github.com/react-dnd/react-dnd) (Drag and Drop for React)|[shake.js](https://github.com/alexgibson/shake.js) (shake event for mobiles)|
 |       |[swiper](https://github.com/nolimits4web/swiper) (swiped banners)|[imagesloaded](https://github.com/desandro/imagesloaded) (check image loading status)|[jquery-locationpicker-plugin](https://github.com/Logicify/jquery-locationpicker-plugin)|
-|       |[TinyColor](https://github.com/bgrins/TinyColor) (color manipulation)|[spectrum](https://github.com/bgrins/spectrum) (color picker)| |
+|       |[TinyColor](https://github.com/bgrins/TinyColor) (color manipulation)|[spectrum](https://github.com/bgrins/spectrum) (color picker)|[luxon](https://github.com/moment/luxon) (a light-weight time library)|
 |Lint (or tools for conventions) |[**ESLint**](./eslint/eslint.md)|[jsdoc](https://github.com/jsdoc/jsdoc)| [husky](https://github.com/typicode/husky), [git-commit-message-convention](https://github.com/kazupon/git-commit-message-convention), [commitlint](https://github.com/conventional-changelog/commitlint)|
 |                                |[legally](https://github.com/franciscop/legally) (Check Illegal NPM packages)| | |
 |Functional|[**jQuery**](./jquery/jquery.md)|[lodash](https://github.com/lodash/lodash)|[**underscore**](./underscore/underscore.md)|
