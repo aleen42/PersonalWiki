@@ -1056,3 +1056,78 @@ The proposal can ben apparently described with a table:
 | `Promise.all`                                 | short-circuits when one promise is rejected             |
 | `Promise.race`                                | short-circuits when one promise is settled              |
 | `Promise.any`                                 | short-circuits when one promise is resolved (fulfilled) |
+
+### 36. WeakRefs
+
+> Author: Dean Tribble, Sathya Gunasekaran
+>
+> Expected Publication Year: 2021
+>
+> https://github.com/tc39/proposal-weakrefs
+
+This proposal has mainly described two new advanced features for us: `WeakRef` and `FinalizationRegistry`.
+
+`WeakRef` mainly aims to help developers referring to large objects without holding them longer in memory. Assume that there is a collection of large images constructed of `ArrayBuffer`:
+
+```js
+const weakCacheOf = fn => {
+    const cache = new Map(); /** Map<WeakRef> */
+    return key => {
+        let cached;
+        const ref = cache.get(key);
+        if (ref && (cached = ref.deref())) return cached; /** WeakRef.deref() will return `undefined` when referenced item has been GC */
+        
+        const item = fn(key);
+        cache.set(key, new WeakRef(item)); /** store weak references to large images */
+        return item;
+    };
+};
+
+const getCachedImage = weakCacheOf(getImage);
+```
+
+`FinalizationRegistry` mainly aims to help developers to know whether an specified object is reclaimed during GC through a callback. For example:
+
+```js
+const registry = new FinalizationRegistry(val => {
+    /**
+    * Callback the second parameter you passed when registering.
+    * It also means that the responding object you registered has been reclaimed.
+    */
+});
+
+registry.register(objectA, 'The Object A');
+registry.register(objectB, 'The Object B');
+```
+
+If you don't want to observe them later, you may need to pass a third value, which is something like registration token:
+
+```js
+registry.register(objectC, 'The Object C', objectC);
+/** ... */
+registry.unregister(objectC);
+```
+
+Combine `WeakRef` with `FinalizationRegistry`, we can simply create a weak cache like this:
+
+```js
+const weakCacheOf = fn => {
+    const cache = new Map()/** Map<WeakRef> */, cleanup = new FinalizationRegistry(key => {
+        const ref = cache.get(key);
+        ref && !ref.deref() && cache.delete(key); /** release the reference key when the item is GC */
+    });
+
+    return key => {
+        let cached;
+        const ref = cache.get(key);
+        if (ref && (cached = ref.deref())) return cached; /** WeakRef.deref() will return `undefined` when referenced item has been GC */
+        
+        const item = fn(key);
+        cache.set(key, new WeakRef(item)); /** store weak references to large images */
+        cleanup.register(item, key);
+        return item;
+    };
+};
+
+const getCachedImage = weakCacheOf(getImage);
+```
