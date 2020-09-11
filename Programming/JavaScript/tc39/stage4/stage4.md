@@ -1131,3 +1131,24 @@ const weakCacheOf = fn => {
 
 const getCachedImage = weakCacheOf(getImage);
 ```
+
+### 37. Logical Assignment Operators
+
+> Author: Justin Ridgewell
+>
+> Expected Publication Year: 2021
+>
+> https://github.com/tc39/proposal-logical-assignment
+
+Combine Logical Operators and Assignment Expressions:
+
+```js
+a &&= b;
+a && (a = b);
+
+a ||= b;
+a || (a = b);
+
+a ??= b;
+a ?? (a = b);
+```
