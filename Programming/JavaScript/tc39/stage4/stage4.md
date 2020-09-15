@@ -1152,3 +1152,24 @@ a || (a = b);
 a ??= b;
 a ?? (a = b);
 ```
+
+### 38. Numeric Separators
+
+> Author: Sam Goto, Rick Waldron
+>
+> Expected Publication Year: 2021
+>
+> https://github.com/tc39/proposal-numeric-separator
+
+Simply, numeric separators help readers to identity the digit of a number. That's like we always use `1,000,000,000` to describe 1 billion rather than `1000000000`.
+
+This proposal has stated that using underscores notation (`_`) to separate for us:
+
+```js
+console.log(1_000_000_000); /** => 1000000000 */
+console.log(0.000_001); /** => 0.000001 */
+console.log(0b1010_0001_1000_0101); /** => 41349 */
+console.log(0xA0_B0_C0); /** => 10531008 */
+console.log(1_000_000_000_000n); /** => 1000000000000n */
+console.log(0o1234_5670); /** => 2739128 */
+```
