@@ -1,26 +1,38 @@
+## webgl.js [Back](../glsl.md)
+
+**webgl.js** is a JavaScript file, which will export some application programming interfaces of WebGL.
+
+```js
+module.exports = {
+    getContext,
+    createShader,
+    createProgram,
+    activeTexture,
+    updateTexture,
+    createTexture,
+    createUniform,
+    setRectangle,
+};
+
 /**
  * [getContext: to get the context object of a canvas object]
  * @param  {[type]} canvas     [description]
  * @param  {[type]} options={} [description]
  * @return {[type]}            [description]
  */
-export function getContext(canvas, options={}) {
-    let contexts = ['webgl', 'experimental-webgl'];
-    let context = null;
+function getContext(canvas, options) {
+    options = Object.assign({}, options);
 
-    contexts.some((ele) => {
+    const context = ['webgl', 'experimental-webgl'].reduce((context, key) => {
+        if (!context) return context;
         try {
-            context = canvas.getContext(ele, options);
-        } catch (e) {
+            return canvas.getContext(key, options);
+        } catch (ignore) {
+            return context;
         }
+    }, null);
 
-        return context !== null;
-    });
-
-    if (context === null) {
-        document.body.classList.add('no-webgl');
-    }
-
+    !context && document.body.classList.add('no-webgl');
     return context;
 }
 
@@ -31,9 +43,9 @@ export function getContext(canvas, options={}) {
  * @param  {[type]} type   [description]
  * @return {[type]}        [description]
  */
-export function createShader(gl, script, type) {
+function createShader(gl, script, type) {
     /** create a WebGLShader object */
-    let shader = gl.createShader(type);
+    const shader = gl.createShader(type);
 
     /** set the source code in a WebGLShader */
     gl.shaderSource(shader, script);
@@ -48,7 +60,7 @@ export function createShader(gl, script, type) {
     if (!compiled) {
         /** failed to compile the script of the shader */
         const lastError = gl.getShaderInfoLog(shader);
-        console.error("Error compiling shader '" + shader + "':" + lastError);
+        console.error(`Error compiling shader '${shader}':${lastError}`);
 
         /** release the WebGLShader created before */
         gl.deleteShader(shader);
@@ -61,13 +73,13 @@ export function createShader(gl, script, type) {
     return shader;
 }
 
-export function createProgram(gl, vertexScript, fragScript) {
+function createProgram(gl, vertexScript, fragScript) {
     /** create the vertex shader and the fragment shader respectively */
-    let vertexShader = createShader(gl, vertexScript, gl.VERTEX_SHADER);
-    let fragShader = createShader(gl, fragScript, gl.FRAGMENT_SHADER);
+    const vertexShader = createShader(gl, vertexScript, gl.VERTEX_SHADER);
+    const fragShader = createShader(gl, fragScript, gl.FRAGMENT_SHADER);
 
     /** create a temporary WebGLProgram and link it after attaching both shaders created above */
-    let program = gl.createProgram();
+    const program = gl.createProgram();
     gl.attachShader(program, vertexShader);
     gl.attachShader(program, fragShader);
 
@@ -79,7 +91,7 @@ export function createProgram(gl, vertexScript, fragScript) {
     if (!linked) {
         /** failed to link */
         const lastError = gl.getProgramInfoLog(program);
-        console.error("Error in program linking: " + lastError);
+        console.error(`Error in program linking: ${lastError}`);
 
         /** release the WebGLProgram created before */
         gl.deleteProgram(program);
@@ -96,11 +108,11 @@ export function createProgram(gl, vertexScript, fragScript) {
 
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
         -1.0, -1.0,
-         1.0, -1.0,
-        -1.0,  1.0,
-        -1.0,  1.0,
-         1.0, -1.0,
-         1.0,  1.0
+        1.0, -1.0,
+        -1.0, 1.0,
+        -1.0, 1.0,
+        1.0, -1.0,
+        1.0, 1.0
     ]), gl.STATIC_DRAW);
 
     /** enable a vertext attribute array at a given position */
@@ -118,18 +130,18 @@ export function createProgram(gl, vertexScript, fragScript) {
     return program;
 }
 
-export function activeTexture(gl, i) {
+function activeTexture(gl, i) {
     /** to select the active texture unit */
     gl.activeTexture(gl['TEXTURE' + i]);
 }
 
-export function updateTexture(gl, source) {
+function updateTexture(gl, source) {
     /** to specify a 2D texture image with a given source */
     gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, source);
 }
 
-export function createTexture(gl, source, i, wrap = null) {
-    if (wrap === null) {
+function createTexture(gl, source, i, wrap) {
+    if (!wrap) {
         wrap = gl.CLAMP_TO_EDGE;
     }
 
@@ -147,18 +159,14 @@ export function createTexture(gl, source, i, wrap = null) {
     return texture;
 }
 
-export function createUniform(gl, program, type, name, ...args) {
+function createUniform(gl, program, type, name) {
     /** return the location of a uniform variable. */
-    let location = gl.getUniformLocation(program, 'u_' + name);
-    gl['uniform' + type](location, ...args);
+    const location = gl.getUniformLocation(program, `u_${name}`);
+    gl[`uniform${type}`].apply(undefined, [location, ...[].slice.call(arguments, 1)]);
 }
 
-export function setRectangle(gl, x, y, width, height) {
-    const x1 = x;
-    const x2 = x + width;
-    const y1 = y;
-    const y2 = y + height;
-
+function setRectangle(gl, x, y, width, height) {
+    const x1 = x, x2 = x + width, y1 = y, y2 = y + height;
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([
         x1, y1,
         x2, y1,
@@ -168,3 +176,4 @@ export function setRectangle(gl, x, y, width, height) {
         x2, y2
     ]), gl.STATIC_DRAW);
 }
+```

@@ -201,6 +201,8 @@
                                 * [WebVR Boilerplate](./Programming/JavaScript/webgl/three/VR/webvr/webvr.md)
                 * Advanced
                     * [GLSL](./Programming/JavaScript/webgl/glsl/glsl.md)
+                        * [webgl.js](./Programming/JavaScript/webgl/glsl/webgl_js/webgl_js.md)
+                        * [gl-obj.js](./Programming/JavaScript/webgl/glsl/gl_obj_js/gl_obj_js.md)
             * [JSDoc](./Programming/JavaScript/jsdoc/jsdoc.md)
                 * Tags
                     * [@abstract](./Programming/JavaScript/jsdoc/abstract/abstract.md)
