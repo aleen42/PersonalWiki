@@ -31,14 +31,14 @@ The following table is generated as per the classification of JavaScript framewo
 |                     |[babel](https://github.com/babel/babel)| | |
 |[**Node**](./node/node.md)|[csv-writer](https://github.com/ryu1kn/csv-writer), [csv-parser](https://github.com/mafintosh/csv-parser) (csv)|[iconv-lite](https://github.com/ashtuchkin/iconv-lite) (encoding)|[node-glob](https://github.com/isaacs/node-glob), [glob-stream](https://github.com/gulpjs/glob-stream)|
 |                          |[node-properties](https://github.com/gagle/node-properties)|[node-uuid ](https://github.com/kelektiv/node-uuid)|[node-zip](https://github.com/daraosn/node-zip)|
-|                          |[glslify](https://github.com/glslify/glslify)|[through2](https://github.com/rvagg/through2) (file stream)|[puppeteer](https://github.com/GoogleChrome/puppeteer) (Chrome API)|
+|                          |[glslify](https://github.com/glslify/glslify)|[through2](https://github.com/rvagg/through2) (file stream)|[fusuma](https://github.com/hiroppy/fusuma) (presentation tool with MDX)|
 |                          |[emailjs-mime-builder](https://github.com/emailjs/emailjs-mime-builder), [emailjs-mime-parser](https://github.com/emailjs/emailjs-mime-parser)|[utf8.js](https://github.com/mathiasbynens/utf8.js) (utf8 encoder/decoder)|[node-sketch](https://github.com/oscarotero/node-sketch)|
 |                          |[node-cache](https://github.com/node-cache/node-cache)|[node-sass](https://github.com/sass/node-sass)|[exceljs](https://github.com/exceljs/exceljs)|
 |                          |[speedracer](https://github.com/speedracer/speedracer) (test performance for Node modules)|[pkg](https://github.com/zeit/pkg) (package executables)|[devtool](https://github.com/Jam3/devtool) (run Node.js programs with Chromium DevTools)|
 |                          |[chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) (Chrome Debugging Protocol interface or Node.s)|[jsdiff](https://github.com/kpdecker/jsdiff) (diff text)|[falcor](https://github.com/Netflix/falcor) (for data fetching)|
 |                          |[lerna](https://github.com/lerna/lerna) (multiple packages management)|[svgexport](https://github.com/shakiba/svgexport) (SVG to PNG/JPEG for Node)|[remove-markdown](https://github.com/stiang/remove-markdown) (strip Markdown stuff from text)|
 |                          |[cli-table](https://github.com/Automattic/cli-table)|[node-apn](https://github.com/node-apn/node-apn)|[node-progress](https://github.com/visionmedia/node-progress) (progress bar for Node)|
-|                          |[sheetjs](https://github.com/SheetJS/sheetjs)|[fusuma](https://github.com/hiroppy/fusuma) (presentation tool with MDX)| |
+|                          |[sheetjs](https://github.com/SheetJS/sheetjs)| | |
 |Syntax Highlight|[pygments.js](https://github.com/pksunkara/pygments.js)|[prism](https://github.com/PrismJS/prism)|[highlight.js](https://github.com/highlightjs/highlight.js)|
 |Graphic (VR, AR etc.)|[**three.js**](./../webgl/three/three.md) (3D)|[viro](https://github.com/viromedia/viro) (AR and VR)|[zdog](https://github.com/metafizzy/zdog)|
 |                     |[d3](https://github.com/d3/d3), [d3-graphiviz](https://github.com/magjac/d3-graphviz)|[aframe](https://github.com/aframevr/aframe)|[tracking.js](https://github.com/eduardolundgren/tracking.js)|
@@ -86,7 +86,7 @@ The following table is generated as per the classification of JavaScript framewo
 |            |[terser](https://github.com/terser/terser) (ES6+)|[babel-minify](https://github.com/babel/minify) (Babel's toolchain)|[optimize-js](https://github.com/nolanlawson/optimize-js)|
 |Template|[nunjucks](https://github.com/mozilla/nunjucks)|[handlebars.js](https://github.com/wycats/handlebars.js)| |
 |Test|[mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai)|[jest](https://github.com/facebook/jest)|[jasmine](https://github.com/jasmine/jasmine), [karma](https://github.com/karma-runner/karma)|
-|    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|[cypress](https://github.com/cypress-io/cypress) (end to end)| |
+|    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|[cypress](https://github.com/cypress-io/cypress) (end to end)|[puppeteer](https://github.com/GoogleChrome/puppeteer) (end to end)|
 |Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)| |
 |Package Management|[npm](https://github.com/npm/npm)|[yarn](https://github.com/yarnpkg/yarn)|[bower](https://github.com/bower/bower)|
 |                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)| | |
