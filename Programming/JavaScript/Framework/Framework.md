@@ -47,7 +47,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                     |[VivGraphJS](https://github.com/anvaka/VivaGraphJS)|[mojs](https://github.com/mojs/mojs)|[Polyvia](https://github.com/Ovilia/Polyvia)|
 |                     |[tesseract.js](https://github.com/naptha/tesseract.js) (text extractor from images)|[webvr-boilerplate](https://github.com/borismus/webvr-boilerplate) (based on three.js)|[konva](https://github.com/konvajs/konva) (Canvas Framework)|
 |                     |[canny-edge-detection](https://github.com/cmisenas/canny-edge-detection)|[sigma.js](https://github.com/jacomyal/sigma.js)|[StackBlur](https://github.com/flozz/StackBlur) (Gaussian Blur)|
-|                     |[smartcrop.js](https://github.com/jwagner/smartcrop.js)| | |
+|                     |[smartcrop.js](https://github.com/jwagner/smartcrop.js)|[isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) (pure js for Git Operation)| |
 |Video|[video.js](https://github.com/videojs/video.js)|[flv.js](https://github.com/bilibili/flv.js) (flv player)|[ccapture.js](https://github.com/spite/ccapture.js) (based on Canvas)|
 |     |[jPlayer](https://github.com/jplayer/jPlayer)| | |
 |Audio|[howler.js](https://github.com/goldfire/howler.js)|[Rythm.js](https://github.com/Okazari/Rythm.js)|[aurora.js](https://github.com/audiocogs/aurora.js) (audio decoding framework)|
