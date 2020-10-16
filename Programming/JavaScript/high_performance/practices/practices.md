@@ -21,7 +21,7 @@ setInterval('sum = num1 + num2', 100);
 
 Whenever you're evaluating JavaScript code from within JavaScript code, you should suffer from a double evaluation penalty. The code is first evaluated as normal, and then, while executing, another evaluation happens to execute the code contained in a string.
 
-Most of time, there is no need to use `eval()` or `Function()`, and it's best to avoid them whenever possible. For the other two function, `setTimeout()` and `setInterval()`, it's recommended to pass in a function as the first argument instead of a string.
+Most of the time, there is no need to use `eval()` or `Function()`, and it's best to avoid them whenever possible. For the other two functions, `setTimeout()` and `setInterval()`, it's recommended to pass in a function as the first argument instead of a string.
 
 > Optimizing JavaScript engines often cache the result of repeated code evaluations using `eval()`. If you are repeatedly evaluating the same code string, you will see greater performance improvements in Safari 4 and all versions of Chrome.
 
@@ -88,13 +88,13 @@ var addHandler = document.body.addEventListener ?
     };
 ```
 
-The trade off between those two methods is whether to load a function in advance or later. If you don't sure whether this method should be called later, it's recommended to adopt a lazy loading.
+The trade-off between those two methods is whether to load a function in advance or later. If you don't sure whether this method should be called later, it's recommended to adopt a lazy loading.
 
 ### 4. Use the Fast Parts
 
 #### 4.1 Bitwise Operators
 
-Bitwise operators are one of the most frequently misunderstood aspects of JavaScript, because developers don't always understand how to use them.
+Bitwise operators are one of the most frequently misunderstood aspects of JavaScript because developers don't always understand how to use them.
 
 To understand bitwise operators clearly, we should know how to transfer a decimal number into a binary one:
 
@@ -197,10 +197,10 @@ Math.tan(x)|The tangent of x
 
 ### 5. Summary
 
-Performance optimization is always existed in our code, therefore sometimes we should take following cases in mind:
+Performance optimization always exists in our code, therefore sometimes we should take the following cases in mind:
 
 - Avoid the double evaluation penalty of using `eval()` and the `Function()` constructor. Also, pass functions into `setTimeout()` and `setInterval()` instead of strings.
 - Use object and array literals to create them.
 - Use lazy loading or conditional advance loading when browser-detection logic is necessary.
-- When performance mathematical operations, consider using bitwise operators.
+- When the performance mathematical operations, consider using bitwise operators.
 - Native methods are always faster.

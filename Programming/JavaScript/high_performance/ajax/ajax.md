@@ -1,6 +1,6 @@
 ## Ajax [Back](./../high_performance.md)
 
-Ajax is a cornerstone of high performance JavaScript.
+Ajax is a cornerstone of high-performance JavaScript.
 
 This chapter mainly discusses the fastest techniques for sending data to and receiving it from the server, as well as the most efficient formats for encoding data.
 
@@ -65,13 +65,13 @@ xhr.onreadystatechange = function () {
 
 However, there are still some drawbacks about using XMLHttpRequest. Because of the high degree of control the XHR offers, browsers place some restrictions on it. You cannot use XHR to request data from a different domain, and older versions of IE do not give you access to `readyState` 3, which prevents streaming.
 
-Then, when using XHR to request data, what is the best choice between GET and POST. For requests that don't change the server state and only pull back data (this is called an **idempotent action (冪等動作)**), use GET, because GET requests are cached to improve performance.
+Then, when using XHR to request data, what is the best choice between GET and POST? For requests that don't change the server state and only pull back data (this is called an **idempotent action (冪等動作)**), use GET, because GET requests are cached to improve performance.
 
 POST should be used to fetch data only when the length of the URL and the parameters are close to or exceed 2,048 characters, as the limitation of IE.
 
 ##### 1.1.2 **Dynamic script tag insertion**
 
-The most power of using this technique is allowing you to fetch data from a crossed domain. Of course, it's just a hack.
+The power of using this technique is allowing you to fetch data from a crossed domain. Of course, it's just a hack.
 
 ```js
 var scriptElement = document.createElement('script');
@@ -79,7 +79,7 @@ script.src = 'http://any-domain.com/javascript/lib.js';
 document.getElementsByTagName('head')[0].appendChild(scriptElement);
 ```
 
-However, this way offers less control than XHR. You can only use GET, and you don't have access to the response headers or to the entire response as a string. Because it's being used as the source for a script tag, it **must** be a executable JavaScript source. Any data, regardless of the format, must be enclosed in a callback function. For example, how to transfer data with JSON format:
+However, this way offers less control than XHR. You can only use GET, and you don't have access to the response headers or to the entire response as a string. Because it's being used as the source for a script tag, it **must** be an executable JavaScript source. Any data, regardless of the format, must be enclosed in a callback function. For example, how to transfer data with JSON format:
 
 ```js
 function jsonCallback(jsonString) {
@@ -107,13 +107,13 @@ Then the file of `lib.js` can be coded like this:
 jsonCallback('{ "status": 1, "colors": [ "#fff", "#000", "#ff0000" ] }');
 ```
 
-Despite these limitations, this technique an be extremely fast, even faster than XHR, because it's not treated as a string that must be further processed.
+Despite these limitations, this technique can be extremely fast, even faster than XHR, because it's not treated as a string that must be further processed.
 
 There is another important problem that you should pay more attention to when using this technique. Any code that you incorporate into your page using dynamic script tag insertion will have complete control over the page, like modifying any content, redirecting users to another site, or even track their actions and send the data to a third party. Therefore, **be careful about importing code from an external source**.
 
 ##### 1.1.3 **Multipart XHR**
 
-The newest of the techniques mentioned here, multipart XHR (MXHR) allows you to pass multiple resources from the server to the client side using only one HTTP request. The basic of this technique is to packaging up the resources with separating by some agreed-upon strings.
+The newest of the techniques mentioned here, multipart XHR (MXHR) allows you to pass multiple resources from the server to the client-side using only one HTTP request. The basis of this technique is to packaging up the resources with separating by some agreed-upon strings.
 
 Let's take an example to explain it. First, a request is made to the server for several image resources:
 
@@ -221,13 +221,13 @@ function getLatestPacket() {
 }
 ```
 
-There are some drawbacks when using this technique, the biggest one of which is that none of the fetched resources are cached in the browser. Another downside is that older versions of IE do not support `readyState` 3 or base64 data setting for images.
+There are some drawbacks when using this technique, the biggest one of which is that none of the fetched resources is cached in the browser. Another downside is that older versions of IE do not support `readyState` 3 or base64 data setting for images.
 
 Despite this downsides, MXHR has also significantly improved overall page performance by reducing HTTP requests, which is one of the most extreme bottlenecks in Ajax.
 
 #### 1.2 Sending Data
 
-There are times when you don't care about retrieving data, and instead only want to send it to the server. In such situation, there are two techniques that are widely used: **XHR** and **beacons**.
+There are times when you don't care about retrieving data, and instead only want to send it to the server. In such a situation, there are two techniques that are widely used: **XHR** and **beacons**.
 
 ##### 1.2.1 **XMLHttpRequest**
 
@@ -240,7 +240,7 @@ xhr.onerror = function () {
 };
 ```
 
-When it comes to performance, it's faster to use GET to send data back to server with using XHR. This is because, for small amounts of data, a GET request is sent to the server in a single packet. A POST, on the other hand, is sent in a minimum of two packets, one for the headers and another for the POST body.
+When it comes to performance, it's faster to use GET to send data back to the server by using XHR. This is because, for small amounts of data, a GET request is sent to the server in a single packet. A POST, on the other hand, is sent in a minimum of two packets, one for the headers and another for the POST body.
 
 ##### 1.2.2 **Beacons**
 
@@ -258,7 +258,7 @@ var params = [
 
 Note that no `img` element has to be created or inserted into the DOM.
 
-Even though you can catch errors from the server side, it is the most efficient way to send information back to the server. To work around this, you can use a smart way like listening for the `Image` object's `load` event, which will tell you if the server successfully received the data. Furthermore, you can also check the width and height of the image that the server returned for a state. For instance, a width of 1 can be represented for "success", while 2 for "try again".
+Even though you can catch errors from the server-side, it is the most efficient way to send information back to the server. To work around this, you can use a smart way like listening for the `Image` object's `load` event, which will tell you if the server successfully received the data. Furthermore, you can also check the width and height of the image that the server returned for a state. For instance, a width of 1 can be represented for "success", while 2 for "try again".
 
 ```js
 var beacon = new Image();
@@ -287,7 +287,7 @@ In this section, each of the data formats will be compared based on the file siz
 
 #### 2.1 XML
 
-When Ajax first becomes popular, XML was the data format of choice, which had many advantages: extreme interoperability (互用性, with excellent support on both the server side and the client side), strict formatting, and easy validation.
+When Ajax first becomes popular, XML was the data format of choice, which had many advantages: extreme interoperability (互用性, with excellent support on both the server-side and the client-side), strict formatting, and easy validation.
 
 However, compared with other formats, XML is extremely verbose. To create a piece of data, you must require a lot of structure. In general, in order to parse XML, not only must you know the particulars of the structure ahead of time, but you must also know exactly how to pull apart of the structure and reassemble it into a JavaScript object.
 
@@ -314,13 +314,13 @@ JSON is a lightweight and easily-to-parse data format written using JavaScript o
 
 ##### 2.2.1 **JSON-P**
 
-When XHR is used, JSON data is returned as a string, which can be evaluated by using `eval()` or `JSON.parse()`. However, when using dynamic script tag insertion, JSON data is treated as just another JavaScript file and executed as native code. In order to accomplish this, the data must be wrapper in a callback function, a.k.a JSON with padding, or JSON-P.
+When XHR is used, JSON data is returned as a string, which can be evaluated by using `eval()` or `JSON.parse()`. However, when using dynamic script tag insertion, JSON data is treated as just another JavaScript file and executed as native code. In order to accomplish this, the data must be wrapped in a callback function, a.k.a JSON with padding or JSON-P.
 
 According to some tests, the fastest JSON format is JSON-P formed using arrays. But what you should take in mind is that do not encode any sensitive data in JSON-P, as it can be called by anyone with using dynamic script tag insertion.
 
 ##### 2.2.2 **Should you use JSON?**
 
-JSON is a cornerstone of high-performance Ajax, especially when it's used with dynamic script insertion. Lower size of structure, with lower parse time.
+JSON is a cornerstone of high-performance Ajax, especially when it's used with dynamic script insertion. Lower size of the structure, with lower parse time.
 
 #### 2.3 HTML
 
@@ -332,7 +332,7 @@ The problem with this technique is that HTML is a verbose data format, which is 
 
 The ideal data format is one that includes just enough structure to allow you to separate individual fields from each other, like using a separator. One of the most important decisions when using this way is what to use as the separators.
 
-In most cases, los-number ASCII characters work well and are easy to represent in most server-side language.
+In most cases, Los-number ASCII characters work well and are easy to represent in most server-side language.
 
 In JavaScript, we can separate such string like this:
 
@@ -344,7 +344,7 @@ var rows = xhr.responseText.split(/\u0001/);
 var rows = xhr.responseText.split('\u0001');
 ```
 
-If you want to receive huge amounts of data in the client side, this will be your best choice.
+If you want to receive huge amounts of data on the client-side, this will be your best choice.
 
 ### 3. Ajax Performance Guidelines
 
@@ -354,8 +354,8 @@ Once you have selected the most appropriate transmission technique and data form
 
 To prevent an unnecessary request, there are two main ways:
 
-- On the server side, set HTTP headers that ensure the response will be cached in the browser.
-- On the client side, store fetched data locally so that it does not have to be requested again.
+- On the server-side, set HTTP headers that ensure the response will be cached in the browser.
+- On the client-side, store fetched data locally so that it does not have to be requested again.
 
 ##### 3.1.1 **Setting HTTP headers**
 
@@ -365,15 +365,15 @@ The `Expires` header tells the browser how long a response can be cached, the va
 Expires:    Mon, 28 Jul 2014 23:30:00 GMT
 ```
 
-The server side can set up such a header to clearly tell the browser to cache responses for a certain time.
+The server-side can set up such a header to clearly tell the browser to cache responses for a certain time.
 
 ##### 3.1.2 **Storing data locally**
 
-Instead o relying on the browser to handle caching, you can also do it in a more manual fashion by strong the responses locally. For example, store them with URL as key into a JavaScript object, so that you can reuse them without requesting again.
+Instead o relying on the browser to handle caching, you can also do it in a more manual fashion by strong the responses locally. For example, store them with URL as a key into a JavaScript object, so that you can reuse them without requesting again.
 
 ### 4. Limitations
 
-All JavaScript libraries have given us access to an Ajax object, which normalizes the differences between browsers and gives us a consistent interface, so that we can focus more on our projects rather than the details of how XHR works in different browsers. However, it also means that we cannot access the full power of XMLHttpRequest.
+All JavaScript libraries have given us access to an Ajax object, which normalizes the differences between browsers and gives us a consistent interface so that we can focus more on our projects rather than the details of how XHR works in different browsers. However, it also means that we cannot access the full power of XMLHttpRequest.
 
 To use XMLHttpRequest object without worrying about the problem of compatibility, here we will encapsulate a function to return a more powerful XMLHttpRequest object, which we can then interact with directly:
 
@@ -405,14 +405,14 @@ High-performance Ajax consists of knowing the specific requirements of your situ
 
 As data formats, we should consider that:
 
-- Plain text and HTML are highly situational, but they can save CPU cycles on the client side.
+- Plain text and HTML are highly situational, but they can save CPU cycles on the client-side.
 - XML is widely available and supported, but it's verbose and slow to parse.
 - JSON is lightweight and quick to parse.
-- If you want to transfer huge amounts of data, it's best to use custom formats, designed by both the client and the server side.
+- If you want to transfer huge amounts of data, it's best to use custom formats, designed by both the client and the server-side.
 
 When requesting data:
 
-- XHR gives you the most control and flexibility, even though it treats data as string, slowing down the parse time.
+- XHR gives you the most control and flexibility, even though it treats data as a string, slowing down the parse time.
 - Dynamic script tag insertion allows for cross-domain request and native execution of JavaScript and JSON, though you cannot control more.
 - Multipart XHR can be used to reduce the number of requests, though it does not cache any received resource.
 
@@ -423,5 +423,5 @@ When sending data:
 
 There're several guidelines for improving Ajax:
 
-- Reduce the number of requests you make, either by concatenating files, or by using MXHR.
+- Reduce the number of requests you make, either by concatenating files or by using MXHR.
 - Using Ajax to improve the loading time of pages.

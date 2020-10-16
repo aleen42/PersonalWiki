@@ -1,12 +1,12 @@
 ## Loading and Execution [Back](./../high_performance.md)
 
-In fact, most browsers use a single process for both user interface (UI) updates and JavaScript execution, so only one can happen at any given moment in time. If we loaded JavaScript between a document, no matter using closed tag or `src` attribute, the browser has to block the user interaction to load and execute the script.
+Most browsers use a single process for both user interface (UI) updates and JavaScript execution, so only one can happen at any given moment in time. If we loaded JavaScript between a document, no matter using the closing tag or `src` attribute, the browser has to block the user interaction to load and execute the script.
 
 ### 1. Script Positioning
 
 Traditionally, `<script>` tags that are used to load external JavaScript files have appeared in the `<head>`, along with `<link>` tags to load external CSS files and other metainformation(元信息s) about the page.
 
-The theory was that it's best to **keep as many style and behavior dependencies together**, loading them first so that the page will come in looking and behaving correctly.
+The theory was that it's best to **keep as many styles and behaviour dependencies together**, loading them first so that the page will come in looking and behaving correctly.
 
 ```html
 <html>
@@ -43,13 +43,13 @@ Because scripts block downloading of all resource types on the page, it's recomm
 
 ### 2. Grouping Scripts
 
-Since each `<script>` tag blocks the page from rendering during initial download, it's helpful **to limit the total number of `<script>` tags** contained in the page. This applies to both inline scripts as well as those in external files. That's **to reduce the delay while the code is executed**.
+Since each `<script>` tag blocks the page from rendering during the initial download, it's helpful **to limit the total number of `<script>` tags** contained in the page. This applies to both inline scripts as well as those in external files. That's **to reduce the delay while the code is executed**.
 
 > **Never putting an inline script after a `<link>` tag**, because Steve Souders has found that an inline script placed after a `<link>` tag referencing an external stylesheet caused the browser to block while waiting for the stylesheet to download.
 
 Therefore, if a large website or web application has several required JavaScript files, you can use a build tool to concatenate these files together into a single file and import it.
 
-Yahoo! User Interface (YUI) has given you a way to pull in any nubmer of JavaScrpit files by using **a combo-handled URL** like: http://yui.yahooapis.com/combo?2.7.0/build/yahoo/yahoo-min.js&2.7.0/build/event/event-min.js
+Yahoo! User Interface (YUI) has given you a way to pull in any number of JavaScript files by using **a combo-handled URL** like http://yui.yahooapis.com/combo?2.7.0/build/yahoo/yahoo-min.js&2.7.0/build/event/event-min.js
 
 ### 3. Nonblocking Scripts
 
@@ -86,7 +86,7 @@ A `<script>` tag with `defer` may be placed anywhere in the document. The JavaSc
 </html>
 ```
 
-Here is an example shown above. In browsers that don't support `defer`, the order of the alerts is "defer", "script", and "load", while in browsers that support `defer`, the order of the alerts is "script", "defer", and "load".
+Here is an example is shown above. In browsers that don't support `defer`, the order of the alerts is "defer", "script", and "load", while in browsers that support `defer`, the order of the alerts is "script", "defer", and "load".
 
 #### 3.2 Dynamic Script Elements
 
@@ -100,7 +100,7 @@ script.src = 'file1.js';
 document.getElementsByTagName('head')[0].appendChild(script);
 ```
 
-> It's generally safer to add new `<script>` nodes to the `<head>` element instead of the `<body>`, especially if this code is executing during page load. That's because, Internet Explorer may experience an "operation aborted" error if all of the `<body>` contents have not yet been loaded.
+> It's generally safer to add new `<script>` nodes to the `<head>` element instead of the `<body>`, especially if this code is executing during page load. That's because Internet Explorer may experience an "operation aborted" error if all of the `<body>` contents have not yet been loaded.
 
 Because there will be problems if the code contains only interfaces to be used by other scripts, we need to track when the code has been fully downloaded and ready for use. In Firefox, Opera, Chrome and Safari 3+, we can use `load` event to check this:
 
@@ -214,7 +214,7 @@ The advantage of this approach is that:
 
 The disadvantage is that:
 
-- Due to same origin policy, only JavaScript files located on the same domain can be loaded (CDN is not allowed)
+- Due to same-origin policy, only JavaScript files located on the same domain can be loaded (CDN is not allowed)
 
 #### 3.4 The LazyLoad library
 

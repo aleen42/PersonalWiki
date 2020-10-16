@@ -6,7 +6,7 @@ Also in this chapter, we will learn about the fastest cross-browser methods for 
 
 ### 1. String Concatenation
 
-String concatenation is a common task for us to build a string, and how to optimize it? For starters, there is more than one way to merge strings
+String concatenation is a common task for us to rebuild a string, and how to optimize it? For starters, there is more than one way to merge strings
 
 | Method | Example     |
 | :------------- | :------------- |
@@ -18,7 +18,7 @@ String concatenation is a common task for us to build a string, and how to optim
 |string.concat()| `str = 'a';`       |
 || `str = str.concat('b', 'c');`|
 
-All of these methods are fast when concatenating a few strings, nevertheless as the length and number of strings that must be merged increases, some methods start to show their strength.
+All of these methods are fast when concatenating a few strings, nevertheless, as the length and number of strings that must be merged increases, some methods start to show their strength.
 
 #### 1.1 `+` and `+=` Operators
 
@@ -57,7 +57,7 @@ Why? That's because the concatenation is based on the `str` itself, and avoid th
 str = 'one' + str + 'two';
 ```
 
-Apart from IE, browsers try to expand the memory allocation for the string on the left of an expression and simply copy the second string to the end of it. So, in that browsers, it's recommended not to copy a long string, while there is a short one.
+Apart from IE, browsers try to expand the memory allocation for the string on the left of expression and simply copy the second string to the end of it. So, in those browsers, it's recommended not to copy a long string, while there is a short one.
 
 ```js
 var s1 = 'one';
@@ -67,13 +67,13 @@ var s3 = 'three';
 var s = s3 + s1;
 ```
 
-These techniques don't apply to IE. They have little, if any, effect in IE8 and can actually make things slower in IE7 and earlier.
+These techniques don't apply to IE. They have little, if any, effect in IE8 and can make things slower in IE7 and earlier.
 
-In IE8's implementation, concatenating strings merely stores references to the existing string parts that compose the new string, and when you actually use the concatenated string, it starts to copy and replace the previous references so that you can use it anytime.
+In IE8's implementation, concatenating strings merely stores references to the existing string parts that compose the new string, and when you use the concatenated string, it starts to copy and replace the previous references so that you can use it anytime.
 
-> IE8'S implementation can throw off synthetic benchmarks, makin concatenation appear faster than it really is, unless you force it to occur.
+> IE8'S implementation can throw off synthetic benchmarks, making concatenation appear faster than it is unless you force it to occur.
 
-IE7 has an earlier use an inferior (較次的) implementation of concatenation, in which each pair of concatenated strings must always be copied to a new memory location. Then, considering `largeStr = largeStr + s1 + s2;`, the variable `largeStr` will be copied twice in this case. Conversely, `largeStr += s1 + s2;` will be faster because IE7 and earlier browsers will firstly concatenate two small string `s1` and `s2`, then copy the `largeStr` only once.
+IE7 has an earlier use an inferior (較次的) implementation of concatenation, in which each pair of concatenated strings must always be copied to a new memory location. Then, considering `largeStr = largeStr + s1 + s2;`, the variable `largeStr` will be copied twice in this case. Conversely, `largeStr += s1 + s2;` will be faster because IE7 and earlier browsers will firstly concatenate two small string`s1` and `s2`, then copy the `largeStr` only once.
 
 When all strings concatenated are compile-time constants, Firefox automatically merges them at compile time:
 
@@ -87,9 +87,9 @@ function folding() {
 console.log(foldingDemo.toString());
 /** =>
  * function folding() {
- * 		var str = 'compiletimefolding';
- * 		str = 'thisworkstoo';
- * 		str = str + 'but' + 'not' + 'this';
+ *        var str = 'compiletimefolding';
+ *        str = 'thisworkstoo';
+ *        str = str + 'but' + 'not' + 'this';
  * }
  */
 ```
@@ -100,7 +100,7 @@ Since we have not often built strings from compile-time constants, it doesn't he
 
 #### 1.2 Array Joining
 
-The `Array.prototype.join` method can be used to merge all elements of an array into a string and accepts a separator string to insert between each element. By passing an empty string, you can perform a simple concatenation of all elements in an array.
+The `Array.prototype.join` method can be used to merge all elements of an array into a string and accepts a separator string to insert between each element. Through passing an empty string, you can perform a simple concatenation of all elements in an array.
 
 In most browsers, using this way to concatenate strings is slower than other methods, but is the only efficient way to concatenate lots of strings in IE7 and earlier. To improve that, we're going to have a simple task:
 
@@ -145,7 +145,7 @@ Apparently, the approach of using array joining has reduced so much time to comp
 
 #### 1.3 `String.prototype.concat`
 
-The `String.prototype.concat` is an convenient method, which accepts any number of arguments and appends each to the string.
+The `String.prototype.concat` is a convenient method, which accepts any number of arguments and appends each to the string.
 
 ```js
 /** append one string */
@@ -158,7 +158,7 @@ str = str.concat(s1, s2, s3);
 str = String.prototype.concat.apply(str, array);
 ```
 
-Everything has two coins, and `concat` has paid for its convenience. `concat` is a little slower than simple `+` and `+=` operations in most cases, and can be very slower in IE, Opera, and Chrome. The reason is same as using `+` and `+=` when building large strings in IE7 and earlier.
+Everything has two coins, and `concat` has paid for its convenience. `concat` is a little slower than simple `+` and `+=` operations in most cases, and can be very slow in IE, Opera, and Chrome. The reason is the same as using `+` and `+=` when building large strings in IE7 and earlier.
 
 ### 2. Regular Expression Optimization
 
@@ -170,18 +170,18 @@ Before focusing on the improvement of performance, it's important to understand 
 
 - Step 1: Compilation
 
-    When you create a regex object (using a regex literal or `RegExp` object), the browser will checks your pattern for errors and then converts it into a native code routine that is used to actually perform matches. (**If you assign the regex to a local variable, you can avoid performing this step more than once**)
+    When you create a regex object (using a regex literal or `RegExp` object), the browser will checks your pattern for errors and then converts it into a native code routine that is used to perform matches. (**If you assign the regex to a local variable, you can avoid performing this step more than once**)
 
 - Step 2: Setting the starting position
 
-    When a regex is firstly put to use, the first step is to determine the position within the target string, where to search (the start of the string or the position specified by the regex's `lastIndex` property).
+    When a regex is first put to use, the first step is to determine the position within the target string, where to search (the start of the string or the position specified by the regex's `lastIndex` property).
 
-    When a regex has succeed or failed to match, the position will be the next one character after where the last attempt started.
+    When a regex has succeeded or failed to match, the position will be the next one character after where the last attempt started.
 
     Optimizations that browser makers build into their regex engines can help avoid a lot of unnecessary work in this step.
 
     - If a regex starts with `^`, IE and Chrome can usually determine that a match cannot be found after the start of a string and avoid foolishly searching subsequent positions.
-    - If all possible matches contain `x` as the third character, recent version of Chrome will determine this, quickly search for the next `x`, and set the starting position two characters back from where it's found.
+    - If all possible matches contain `x` as the third character, a recent version of Chrome will determine this, quickly search for the next `x`, and set the starting position two characters back from where it's found.
     - ...
 
 - Step 3: Matching each regex token
@@ -192,7 +192,7 @@ Before focusing on the improvement of performance, it's important to understand 
 
     If a complete match is found at the current position in the string, the regex declares success.
 
-    If all possible paths through the regex has been attempted but a match was not found, the regex engine goes back to step 2 and try again at the next one character.
+    If all possible paths through the regex have been attempted but a match was not found, the regex engine goes back to step 2 and try again at the next one character.
 
     Only after cycling each character in the string and no matches have been found does the regex declare overall failure.
 
@@ -202,7 +202,7 @@ Backtracking is a fundamental component of regexes' matching process, but it's, 
 
 For each quantifier and alternation, a **decision** must be made about how to proceed. With a qualifier (such as `*`, `+?`, or `{2,}`), the regex must decide when to try matching additional characters. With alternation (via the `|` operator), it must also try one option from those available.
 
-Each time the regex makes such a decision, it remembers the other options to return to later if necessary. If the chosen option can not find a match or anything later in the regex fails, the regex will backtrack to the last decision point where untried options remain and chooses one. This is the process of **backtracking**.
+Each time the regex makes such a decision, it remembers the other options to return to later if necessary. If the chosen option can not find a match or anything later in the regex fails, the regex will backtrack to the last decision point where untried options remain and choose one. This is the process of **backtracking**.
 
 ##### 2.2.1 **Alternation and backtracking**
 
@@ -273,7 +273,7 @@ This regex works fine when matching a suitable HTML string, but it turns ugly wh
 
 Even if the regex has removed the potential for runaway backtracking and allowed to fail at matching incomplete HTML strings in linear time, it still has some problems of efficiency above repeating a lookahead for each matched character.
 
-Some regex flavors, including .NET, Java, and Perl, support a feature called **atomic grouping**. As soon as a regex exit such an atomic group, any backtracking positions within the group are thrown away, which means that we can reduce the times of backtracking. However, in JavaScript, we need to use another way to emulate (模擬) atomic groups by using lookahead and backreferences.
+Some regex flavours, including .NET, Java, and Perl, support a feature called **atomic grouping**. As soon as a regex exit such an atomic group, any backtracking positions within the group are thrown away, which means that we can reduce the times of backtracking. However, in JavaScript, we need to use another way to emulate (模擬) atomic groups by using lookahead and backreferences.
 
 **/(?=(pattern to make atomic))\\1/**
 
@@ -283,17 +283,17 @@ So the resolution should be changed like this:
 
 Now, if there is no trailing `</html>` and the last `[\s\S]*?` expands to the end of the string, the regex immediately fails because there are no backtracking points to return to.
 
-A quantifier is nested when it occurs within a grouping that is itself repeated by a quantifier (e.g., `(x+)*`). Even if it's not actually a performance hazard (危險), it can still easily create a massive number of ways to divide text between the inner and outer quantifiers while attempting to match a string.
+A quantifier is nested when it occurs within a grouping that is itself repeated by a quantifier (e.g., `(x+)*`). Even if it's not a performance hazard (危險), it can still easily create a massive number of ways to divide text between the inner and outer quantifiers while attempting to match a string.
 
 Considering the following regex which is mainly used to match HTML tags:
 
 **/&lt;(?:[&#94;&gt;"']|"[&#94;"]&#42;"|'[&#94;']&#42;')&#42;&gt;/**
 
-In comparison with a naive solution **/&lt;[&#94;&gt;]&#42;&gt;/**, it also accounts for `>` characters occur within attribute values. So far, there's no risk of runaway backtracking, despite the nested `*` quantifier. Look at the first alternative in the non-capturing group: `[^>"']`, and this can match only one character at a time, which seems a little inefficient. So, how about adding `+` quantifier at the end of this alternative? A disaster is going to be happened.
+In comparison with a naive solution **/&lt;[&#94;&gt;]&#42;&gt;/**, it also accounts for `>` characters occur within attribute values. So far, there's no risk of runaway backtracking, despite the nested `*` quantifier. Look at the first alternative in the non-capturing group: `[^>"']`, and this can match only one character at a time, which seems a little inefficient. So, how about adding `+` quantifier at the end of this alternative? A disaster is going to happen.
 
-If the regex matches an opening `<` character, but there is no following `>` that would allows the match attempt to complete successfully, runaway backtracking will happen. As the huge number of ways the new inner quantifier `+` can be combined with the outer quantifier `*`, there're plenty of  ways to attempt before giving up. **Watch out**!
+If the regex matches an opening `<` character, but there is no following `>` that would allow the match attempt to complete successfully, runaway backtracking will happen. As the huge number of ways the new inner quantifier `+` can be combined with the outer quantifier `*`, there're plenty of ways to attempt before giving up. **Watch out**!
 
-> Because a regex's performance can be wildly different depending on the text it's applied to, there's no straightforward way to benchmark regexes against each other. To help catching runaway backtracking early, it's recommended to always test regexes with long strings that contain partial (不完整的) matches.
+> Because a regex's performance can be wildly different depending on the text it's applied to, there's no straightforward way to benchmark regexes against each other. To help to catch runaway backtracking early, it's recommended to always test regexes with long strings that contain partial (不完整的) matches.
 
 #### 2.4 More ways to improve regular expression efficiency
 
@@ -305,11 +305,11 @@ There're some different additional regex efficiency techniques:
 
 - **Start regexes with simple, required tokens**
 
-    Ideally, the leading token in a regex should be fast to test and rule out as many obviously nonmatching positions as possible, such as **anchors** (`^` or `$`), **specific characters** (`x` or `\u263A`), **character classes** (`[a-z]`, or `\d`), and **word boundaries** (`\b`). If possible, avoid starting regexes with groupings or optional tokens, and avoid top-level alternation.
+    Ideally, the leading token in a regex should be fast to test and rule out as many nonmatching positions as possible, such as **anchors** (`^` or `$`), **specific characters** (`x` or `\u263A`), **character classes** (`[a-z]`, or `\d`), and **word boundaries** (`\b`). If possible, avoid starting regexes with groupings or optional tokens, and avoid top-level alternation.
 
 - **Make quantified patterns and their following token mutually exclusive (彼此獨立)**
 
-    When the characters that adjacent tokens or subexpressions are able to match overlap, the number of ways to try will increase. So, make patterns as specific as possible, and do not use `.*?` when you really mean `[^"\r\n]*`.
+    When the characters that adjacent tokens or subexpressions can match overlap, the number of ways to try will increase. So, make patterns as specific as possible, and do not use `.*?` when you mean `[^"\r\n]*`.
 
 - **Reduce the amount and reach of alternation**
 
@@ -352,9 +352,9 @@ red&#124;raw|r(?:ea&#124;aw)
 
 #### 2.5 When not to use regular expressions
 
-When used with care, regexes are very fast. However, they're usually overkill when you are merely searching for literal strings. This is especially true if you know in advance which part of a string you want to test.
+When used with care, regexes are very fast. However, they're usually overkilling when you are merely searching for literal strings. This is especially true if you know in advance which part of a string you want to test.
 
-For instance, in the case when you want to check a literal string whether it's end with a semicolon (**;**). If you use regex like
+For instance, in the case when you want to check a literal string whether it ends with a semicolon (**;**). If you use regex like
 
 ```js
 var isEndUpWithSemicolon = /;$/.test(str);
@@ -403,7 +403,7 @@ if (!String.prototype.trim) {
 }
 ```
 
-There're also several ways to implement trimming, but all of them are invariably slower than using two simple substitutions when working with long string.
+There're also several ways to implement trimming, but all of them are invariably slower than using two simple substitutions when working with a long string.
 
 ```js
 String.prototype.trim = function() {
@@ -411,7 +411,7 @@ String.prototype.trim = function() {
 };
 ```
 
-Alternation options is needed to be tested at each character, making execution slower.
+Alternation options are needed to be tested at each character, making execution slower.
 
 ```js
 String.prototype.trim = function () {
@@ -419,7 +419,7 @@ String.prototype.trim = function () {
 };
 ```
 
-The lazy quantifier `?` inside the capturing group in the snippet above has done a lot things, which tends to make this option slower, especially slower in Opera 9.x and earlier.
+The lazy quantifier `?` inside the capturing group in the snippet above has done a lot of things, which tends to make this option slower, especially slower in Opera 9.x and earlier.
 
 ```js
 String.prototype.trim = function () {
@@ -427,7 +427,7 @@ String.prototype.trim = function () {
 };
 ```
 
-Unless there's more trailing whitespace than other text, this generally ends up being faster than the previous solution that used a lazy quantifier. In fact, it's so much faster that in IE, Safari, Chrome, and Opera 10, it even beats using two substitutions, as those browsers have all contain special optimization for greedy repetition. However, it's considerably slower in Firefox, and Opera 9, so at least for now, using two substitutions still holds up better cross-browser features.
+Unless there's more trailing whitespace than other text, this generally ends up being faster than the previous solution that used a lazy quantifier. In fact, it's so much faster in IE, Safari, Chrome, and Opera 10, it even beats using two substitutions, as those browsers have all contain special optimization for greedy repetition. However, it's considerably slower in Firefox, and Opera 9, so at least for now, using two substitutions still holds up better cross-browser features.
 
 ##### 2.6.2 **Trimming without regular expressions**
 
@@ -451,7 +451,7 @@ String.prototype.trim = function () {
 };
 ```
 
-The `ws` variable in this code includes all whitespace characters as defined by ECMAScript 5. Although it's not affected by the overall length of the string, it has its own weakness: **long leading and trailing whitespace**.
+The `ws` variable in this code includes all whitespace characters as defined by ECMAScript 5. Although it's not affected by the overall length of the string, it has its weakness: **long leading and trailing whitespace**.
 
 To work around this problem, we may use another final approach to combine regex's universal efficiency at trimming leading whitespace with nonregex method's speed at trimming trailing characters:
 
@@ -479,4 +479,4 @@ Intensive string operations and incautiously crafted regexes can be major perfor
 - If you don't need to worry about IE7 and earlier, use simple `+` and `+=` operators instead.
 - Runaway backtracking can cause a regex crashing the browser, which you should pay more attention to.
 - Regexes are not always the best tool in the case especially when you're searching for literal strings.
-- When trimming a string, using two simple regexes offers a good way for you, while looping from the end of the string or combining this with regexes is a good alternative that is less affected by overall string length.
+- When trimming a string, using two simple regexes offers a good way for you while looping from the end of the string or combining this with regexes is a good alternative that is less affected by overall string length.

@@ -21,7 +21,7 @@
 
 昔為漁者之村，今為賈商之城。始於秦，且屬南海郡所轄。漢有“東官”於南頭所設，而晉有寶安立縣之始。其新安之名，乃明萬曆元年（1573年）所賜，寓有“革新鼎安，轉危為安”之意。此乃何地？深圳也，亦名鹏城。
 
-Though it was a region of villages gathering sort of fishers yesterday, it has now become a modern city for business today. Date back to Qin dynasty, a county, named the Sounth China Sea Country, has already had jurisdiction over it. While in Han, ond kind of officeholders was set up at Nantou, which was called "Dung Gun (東官)". After that, the Baoan Country appeared during Jin dynasity right here. Nevertheless, where did the Xin'an Country arise? The answer is in the first year of Ming Wanli (1573). Actually, the name, Xin'an, also has a deep moral: Innovate to promote peace, while making any dangerous thing through. So, what is it exactly? That's Shenzhen, a.k.a the Peng City.
+Though it was a region of villages gathering sort of fishers yesterday, it has now become a modern city for business today. Date back to Qin dynasty, a county, named the South China Sea Country, has already had jurisdiction over it. While in Han, and kind of officeholders was set up at Nantou, which was called "Dung Gun (東官)". After that, the Baoan Country appeared during Jin dynasty right here. Nevertheless, where did the Xin'an Country arise? The answer is in the first year of Ming Wanli (1573). Actually, the name, Xin'an, also has a deep moral: Innovate to promote peace, while making any dangerous thing through. So, what is it exactly? That's Shenzhen, a.k.a the Peng City.
 
 ### Attentions
 
@@ -30,7 +30,7 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 
 <br />
 
-- The last portal in the third task will need you to walk around 300 meters, and if you're really tired with it, you can actually just find any bus to go to the next station of Huahan Science and Technology.
+- The last portal in the third task will need you to walk around 300 meters, and if you're really tired with it, you can actually just find any bus to go to the next station of HuaHan Science and Technology.
 - Due to the high buildings of three info ports, your GPS info will occur phenomenons of non-accuracy.
 
 
@@ -38,11 +38,11 @@ Though it was a region of villages gathering sort of fishers yesterday, it has n
 
 全任務主要在深圳市南山區松坪山, 即科技園北區附近進行. 據非官方統計, 完成該組任務可能歷時約59分鐘36秒.
 
-The whole task is mainly in the region of the Songpingshan, a.k.a the north of the Science and Technology Park, in Nanshan district, Shenzhen city, Guangdong province of China. According to a unofficial statistic, it may takes you around 59 minutes plus 36 seconds to complete.
+The whole task is mainly in the region of the Songpingshan, a.k.a the north of the Science and Technology Park, in Nanshan district, Shenzhen city, Guangdong province of China. According to an unofficial statistic, it may take you around 59 minutes plus 36 seconds to complete.
 
 任務所在地會經過有松坪山公園, 清華信息港, 同方信息港等, 意在讓各位體驗一下各信息港中, 深圳科技企業的辦公樓及附近環境. 除此之外, 任務區域附近還設置有多個拼圖任務可供大家完成. 若有朋友組團聚餐的話, 松坪山附近可推薦有添星碼頭, KFC 等. 具體位置可定位於萬昌百貨:
 
-The mission will go through some places, like the Songpingshan Park, the Qinghua Info Port, the Tongfang info port, and etc. It aims to give any players an experience around different kinds of info ports, the technology companies in Shenzhen, and their environments for work. In addition, there're different kinds of missions to complete nearby the region, in which there're also some places recommended for parties, such as Hong Kong Tianxing Wharf Cantonese Teahouse, KFC, and so on. You can search it exactly by searching WangChang Department Store.
+The mission will go through some places, like the Songpingshan Park, the Qinghua Info Port, the Tongfang info port, etc. It aims to give any players an experience around different kinds of info ports, the technology companies in Shenzhen, and their environments for work. Besides, there're different kinds of missions to complete nearby the region, in which there are also some places recommended for parties, such as Hong Kong Tianxing Wharf Cantonese Teahouse, KFC, and so on. You can search it exactly by searching WangChang Department Store.
 
 ![](./map1.png)
 

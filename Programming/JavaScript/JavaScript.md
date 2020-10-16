@@ -9,15 +9,15 @@ JavaScript is the programming language of the Web, well-suited to object-oriente
 * [**WebGL**](./webgl/webgl.md)
 * [**JSDoc**](./jsdoc/jsdoc.md)
 
-If you are new to Front-end developing, you may need to know exacitly what differences between HTML, CSS, and JavaScript with the following table:
+If you are new to Front-end developing, you may need to know exactly what differences between HTML, CSS, and JavaScript with the following table:
 
 | Languages  |                Description                |
 |:----------:|:------------------------------------------|
 |    HTML    | To specify the content of web pages.      |
 |    CSS     | To specify the presentation of web pages. |
-| JavaScript | To specify the behavior of web pages.     |
+| JavaScript | To specify the behaviour of web pages.    |
 
-Or if you are advanced in this, you may be interested at [Ecma International, Technical Committee 39](https://github.com/tc39), a.k.a Ecma TC39, where we can concerned about the development of JavaScript, like its proposals.
+Or if you are advanced in this, you may be interested at [Ecma International, Technical Committee 39](https://github.com/tc39), a.k.a Ecma TC39, where we can concern about the development of JavaScript, like its proposals.
 
 * [**TC39**](./tc39/tc39.md)
 

@@ -13,7 +13,7 @@ Here is a demo for you, or you can directly click into http://draw.soundtooth.cn
 
 Note that this is a project which belongs to my company, and that's why I'm not going to *open* the source code in the public community.
 
-At the beginning of the project, I was exactly inspired by the animation of drawing glowing line in [this article](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md). If you read it in details, you'll also find that before we draw any graphics, what we need is the data of paths, with which we are able to simulate the drawing. The format of those data should be like this:
+At the beginning of the project, I was exactly inspired by the animation of drawing a glowing line in [this article](./../../Programming/JavaScript/webgl/canvas/line_drawing/line_drawing.md). If you read it in details, you'll also find that before we draw any graphics, what we need is the data of paths, with which we can simulate the drawing. The format of those data should be like this:
 
 ```nginx
 M 161.70443,272.07413
@@ -25,13 +25,13 @@ You may doubt that such data is only legal in an SVG element, named `path`, and 
 
 ### 1. Drawing an SVG file
 
-What is SVG? Scalable Vector Graphics a.k.a SVG is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. In older IE browsers, such kind of files is not supported at all. If you're a designer, or an illustrator who usually used Adobe Illustration as one of your drawing tools, you may be already similar with those kinds of graphics. What the main difference is, an SVG is scalable and lossless, opposed to other formats of pictures.
+What is SVG? Scalable Vector Graphics a.k.a SVG is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. In older IE browsers, such kind of files is not supported at all. If you're a designer or an illustrator who usually used Adobe Illustration as one of your drawing tools, you may be already similar to those kinds of graphics. What the main difference is, an SVG is scalable and lossless opposed to other formats of pictures.
 
 Note that, generally pictures with SVG formats are called as **graphics**, while those with any other formats are called as **images**.
 
 #### 1.1 Extracting data from an SVG file
 
-As mentioned above, before drawing an SVG file, what you need to do is to read data from an SVG file. It's actually the duty of an object, named `FileReader` in JavaScript, of which the initialization code snippet should be look like this:
+As mentioned above, before drawing an SVG file, what you need to do is to read data from an SVG file. It's the duty of an object, named `FileReader` in JavaScript, of which the initialization code snippet should look like this:
 
 ```js
 if (FileReader) {
@@ -40,7 +40,7 @@ if (FileReader) {
 }
 ```
 
-As a Web API, `FileReader` has given you a chance to read local files, in which `readAsText` is one of methods supported for reading contents with text format. As it may trigger the `onload` event set before being called, we can exactly read the content inside an event handler. So, the code of reading contents should be:
+As a Web API, `FileReader` has given you a chance to read local files, in which `readAsText` is one of the methods supported for reading contents with text format. As it may trigger the `onload` event set before being called, we can exactly read the content inside an event handler. So, the code of reading contents should be:
 
 ```js
 fileReader.onload = function (e) {
@@ -51,7 +51,7 @@ fileReader.onload = function (e) {
 fileReader.readAsText(file);
 ```
 
-With reading listener, you may consider whether we're going to upload a file with a button? Oh, that may be just a normal and unattractive way for interactions. Besides this, we can improve this way with dragging and dropping. It means that you can drag any graphics you want and drop it into the box for reading contents. Since Canvas is the first technical choice of my project, I would like to implement this way with setting up an event listener and registered for the `drop` event of a canvas.
+With reading listener, you may consider whether we're going to upload a file with a button? Oh, that may be just a normal and unattractive way for interactions. Besides this, we can improve this way with dragging and dropping. It means that you can drag any graphics you want and drop it into the box for reading contents. Since Canvas is the first technical choice of my project, I would like to implement this way by setting up an event listener and registered for the `drop` event of a canvas.
 
 ```js
 /** Drop Event Handler */
@@ -66,13 +66,13 @@ canvas.addEventListener('drop', function (e) {
 
 #### 1.2 Processing data
 
-Now we know the data is already stored in the variable `contents`, and how can we process it, which is only text for us. At the beginning, I have tried to use regular expressions to extract path nodes:
+Now we know the data is already stored in the variable `contents`, and how can we process it, which is the only text for us. In the beginning, I have tried to use regular expressions to extract path nodes:
 
 ```js
 var paths = contents.match(/<path([\s\S]+?)\/>/g);
 ```
 
-But with this way, it may result in two drawbacks:
+But in this way, it may result in two drawbacks:
 
 - Lose the whole structure of the SVG file.
 - Unable to create a legal DOM element, `SVGPathElement`.
@@ -112,7 +112,7 @@ As you see, `tmpDiv.childNodes[0]` is not an `SVGPathElement`, so we need to cre
 var tempDiv = document.createElement('div');
 tempDiv.innerHTML = contents.trim()
     .split('\n').join('')
-    .split('	').join('');
+    .split('   ').join('');
 
 var SVGNode = tempDiv.childNodes[0];
 ```
@@ -142,15 +142,15 @@ function recursivelyExtract(parentNode) {
 recursivelyExtract(SVGNode);
 ```
 
-It does seem so elegant to use that way, and at least it does for me, especially in the case with other elements to draw, I can just use a `switch` structure to extract different elements, rather than using several regular expressions. Generally, in an SVG file, also can shapes be defined as `circle`, `rect`, `polyline`, or `line`, not only as `path`. Therefore, how can we handle them? Just to convert them all into `path` elements with JavaScript, mentioned later.
+It does seem so elegant to use that way, and at least it does for me, especially in the case with other elements to draw, I can just use a `switch` structure to extract different elements, rather than using several regular expressions. Generally, in an SVG file, also can shape be defined as `circle`, `rect`, `polyline`, or `line`, not only as `path`. Therefore, how can we handle them? Just to convert them all into `path` elements with JavaScript, mentioned later.
 
 There was one problem as I developed the project, which should be paid more attention to. In data of paths, `m` and `M` is completely not the same, and in a compound path, there should be more than one `m` or `M`, so you have to split them out, to avoid drawing lines between two paths. It means that you have to distinguish these two notations after you confirm the path belongs to compound paths:
 
 ```js
 function generatePathNode(d) {
-	var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-	path.setAttribute('d', d);
-	return path;
+   var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+   path.setAttribute('d', d);
+   return path;
 };
 
 var d = children[i].getAttribute('d');
@@ -172,7 +172,7 @@ if (dsLen > 1) {
 
 #### 1.3 Drawing in Canvas
 
-Now that paths has been extracted and stored in a local variable, the next step we should do is to draw them with points:
+Now that paths have been extracted and stored in a local variable, the next step we should do is to draw them with points:
 
 ```js
 var pointsArr = [];
@@ -216,7 +216,7 @@ function optimizeJump() {
     var perfectJump = 1;
 
     /**
-     * a algorithm to calculate the perfect jump value
+     * an algorithm to calculate the perfect jump value
      * ...
      */
     return perfectJump;
@@ -242,7 +242,7 @@ The algorithm is exactly the place we should think more about.
 
 #### 1.4 Calibration parameters
 
-As the requirement gets more and more complicated, we may find that data of paths cannot fit the case at all, when we want to scale and resize, or move graphics in Canvas.
+As the requirement gets more and more complicated, we may find that data of paths cannot fit the case at all, when we want to scale and resize or move graphics in Canvas.
 
 ##### **1.4.1 Why we need calibration parameters?**
 
@@ -256,7 +256,7 @@ Figure 2.1 has shown you a highlight work area, which is called **a panel** by m
 <p align="center"><img width="50%" src="./example.svg" alt="draw in javascript" /></p>
 <p align="center"><strong>Figure 2.2</strong> An SVG file to draw</p>
 
-Such a wonderful logo, full with Chinese styles.
+Such a wonderful logo, full of Chinese styles.
 
 <p align="center"><img width="70%" src="./1.png" alt="draw in javascript" /></p>
 <p align="center"><strong>Figure 2.3</strong> Rendered graphics </p>
@@ -279,12 +279,12 @@ Firstly, when it comes to the position of graphics:
 
 - **oriX**: the original `x` value of the graphic
 - **oriY**: the original `y` value of the graphic
-- **moveX**: difference of the `x` value after moving.
-- **moveY**: difference of the `y` value after moving.
+- **moveX**: the difference of the `x` value after moving.
+- **moveY**: the difference of the `y` value after moving.
 - **viewBoxX**: the `x` value of the attribute `viewBox` in that graphic
 - **viewBoxY**: the `y` value of the attribute `viewBox` in that graphic
 
-And then, the size of graphics:
+And then, the size of the graphics:
 
 - **oriW**: the original width of the graphic
 - **oriH**: the original height of the graphic
@@ -313,7 +313,7 @@ var ratioX = (curW / oriW) * ratioParam;
 var ratioY = (curH / oriH) * ratioParam;
 ```
 
-What we should remember is that the `x` and `y` value of the attribute `viewBox` will also affect graphics with cropping (as shown in Figure 2.4). Therefore, we need to filter them out of original points.
+What we should remember is that the `x` and `y` value of the attribute `viewBox` will also affect graphics with cropping (as shown in Figure 2.4). Therefore, we need to filter them out of the original points.
 
 <p align="center"><img width="70%" src="./2.png" alt="draw in javascript" /></p>
 <p align="center"><strong>Figure 2.4</strong> Cropped graphics</p>
@@ -362,9 +362,9 @@ function convertCE(cx, cy) {
 
         var output = 'M' + (cx - rx).toString() + ',' + cy.toString();
         output += 'a' + rx.toString() + ',' + ry.toString() + ' 0 1,0 ' + (2 * rx).toString() + ',0';
-		output += 'a' + rx.toString() + ',' + ry.toString() + ' 0 1,0'  + (-2 * rx).toString() + ',0';
+      output += 'a' + rx.toString() + ',' + ry.toString() + ' 0 1,0'  + (-2 * rx).toString() + ',0';
 
-		return output;
+      return output;
     }
 
     switch (arguments.length) {
@@ -390,7 +390,7 @@ function convertPoly(points, types) {
 
     var pointsArr = points
         /** clear redundant characters */
-        .split(' 	').join('')
+        .split('   ').join('')
         .trim()
         .split(/\s+|,/);
     var x0 = pointsArr.shift();
@@ -404,7 +404,7 @@ function convertPoly(points, types) {
 
 ##### **1.5.3 Lines**
 
-Generally, `line` elements will have some attributes defined for positioning start and end points of a line: `x1`, `y1`, `x2`, and `y2`.
+Generally, `line` elements will have some attributes defined for positioning the start point and the endpoint of a line: `x1`, `y1`, `x2`, and `y2`.
 
 Easily can we calculate like this:
 
@@ -441,11 +441,11 @@ So far I have already shown you how to convert all shape elements into `path`s. 
 
 ### 2. Drawing non-SVG pictures a.k.a images
 
-Except for SVG files, we are also have an expectation for drawing pictures with formats like PNG, JPG, or GIF. Only composed with pixel data, we cannot directly make use of it. Because of this reason, I have tried to use a normal technology in the region of Computer Vision, and that's Canny Edge Detection. With such detection, we can easily find contours of a bitmap image.
+Except for SVG files, we also expect drawing pictures with formats like PNG, JPG, or GIF. Only composed of pixel data, we cannot directly make use of it. Because of this reason, I have tried to use a normal technology in the region of Computer Vision, and that's Canny Edge Detection. With such detection, we can easily find contours of a bitmap image.
 
 The whole process of finding contours can be simply described as: **Gray Scale** -> **Gaussian Blur** -> **Canny Gradient** -> **Canny Non-maximum Suppression** -> **Canny Hysteresis** -> **Scanning**. As we all know, this is also the process of [*Canny Edge Detection*](https://en.wikipedia.org/wiki/Canny_edge_detector).
 
-Before the process, we're going to define some common functions for using. The first item is `rumImg` function, which mainly used for loading images from a Canvas, and convert all them into a matrix, composed with an array.
+Before the process, we're going to define some common functions for use. The first item is `rumImg` function, which is mainly used for loading images from a Canvas, and converting all them into a matrix, composed with an array.
 
 ```js
 /**
@@ -546,13 +546,13 @@ function setPixel(i, val, imgData) {
 
 #### 2.1 Gray Scale
 
-Now, we are on the journey of finding contours, and all examples given by Codepen can be run by clicking *Run* buttons. Due to its complexity, you have to wait a moment before reults are displayed on the screen.
+Now, we are on the journey of finding contours, and all examples given by Codepen can be run by clicking *Run* buttons. Due to its complexity, you have to wait a moment before results are displayed on the screen.
 
 Gray Scale in Wikipedia is defined as followed:
 
 > In photography and computing, a **grayscale** or **greyscale** digital image is an image in which the value of each pixel is a single sample, that is, it carries only intensity information."
 
-In this section, we will use two methods to implement the process of gray scale:
+In this section, we will use two methods to implement the process of greyscale:
 
 ```js
 /**
@@ -592,7 +592,7 @@ An example has been shown as followed:
 
 #### 2.2 Gaussian Blur
 
-Gaussian Blur is a way used to increase the accuracy of contours finding, and it's also know as the first step of a Canny Edge Detector.
+Gaussian Blur is a way used to increase the accuracy of contours finding, and it's also known as the first step of a Canny Edge Detector.
 
 ```js
 /**
@@ -693,7 +693,7 @@ If you want to check the effect, you can change the sigma and size parameters to
 
 #### 2.3 Canny Gradient
 
-In this step, we are going to find the intensity gradient (G) of the image. Before that, we have to used the value for the first derivative in the horizontal direction (Gx) and the vertical direction (Gy), returned by a edge detector (Roberts, Prewitt, Sobel, etc.). *Sobel Detector* is exactly what we used.
+In this step, we are going to find the intensity gradient (G) of the image. Before that, we have to use the value for the first derivative in the horizontal direction (Gx) and the vertical direction (Gy), returned by an edge detector (Roberts, Prewitt, Sobel, etc.). *Sobel Detector* is exactly what we used.
 
 Before processing gradient, we should export a module, used for operating pixels easily, which is named as Pixel.
 
@@ -716,7 +716,7 @@ Before processing gradient, we should export a module, used for operating pixels
 
     /**
      * This object was created to simplify getting the
-     * coordinates of any of the 8 neighboring pixels
+     * coordinates of any of the 8 neighbouring pixels
      * _______________
      * | NW | N | NE |
      * |____|___|____|
@@ -903,7 +903,7 @@ And the demo should look like this:
 
 #### 2.4 Canny Non-maximum Suppression
 
-Non-Maximum suppression is applied to "thin" the edge. As you can see, after applying gradient calculation, the edge extracted from the gradient value is still quite blurred. With respect to criterion 3, there should only be one accurate response to the edge. Thus non-maximum suppression can help to suppress all the gradient values to 0 except the local maximal, which indicates location with the sharpest change of intensity value.
+Non-Maximum suppression is applied to "thin" the edge. As you can see, after applying the gradient calculation, the edge extracted from the gradient value is still quite blurred. With respect to criterion 3, there should only be one accurate response to the edge. Thus non-maximum suppression can help to suppress all the gradient values to 0 except the local maximal, which indicates a location with the sharpest change of intensity value.
 
 With the calculated `dirMap` and `gradMap` provided by the last step:
 
@@ -952,7 +952,7 @@ After suppression, it seems greater than before:
 
 #### 2.5 Canny Hysteresis
 
-However, there're also so-called "weak" edges needed to be process. Canny Hysteresis is an improved solution for Canny Edge Detection.
+However, there're also so-called "weak" edges needed to be processed. Canny Hysteresis is an improved solution for Canny Edge Detection.
 
 ```js
 function createHistogram(canvas) {
@@ -1052,7 +1052,7 @@ function getEdgeNeighbors(i, imgData, threshold, includedEdges) {
         }
     }
 
-    return neighbors;
+    return neighbours;
 }
 
 function _traverseEdge(current, imgData, threshold, traversed) {
@@ -1126,13 +1126,13 @@ Wow, it looks perfect for me.
 With the image, which only has two kinds of pixels: 0 and 255, we can just scan each of them to generate a path with points. The algorithm can be described as followed:
 
 - Loop for getting pixels, and check whether it's marked as seen and its value is 255.
-- When it matches, find out a direction to generate a path as longest as possible. (Each pixel will be marked as seen, when a path is made of itself, while a path is a true path when its points has been more than a value, **6** ~ **10**.)
+- When it matches, find out a direction to generate a path as longest as possible. (Each pixel will be marked as seen when a path is made of itself, while a path is a true path when its points have been more than a value, **6** ~ **10**.)
 
-After scanning, we will extract out data of paths like SVGs have, and of course you can also draw it as well.
+After scanning, we will extract data of paths like SVGs have, and of course, you can draw it as well.
 
 ### 3. Summary
 
-The article has talked about how to draw in JavaScript in details, no matter SVG files or any images of PNG, JPG, or GIF. The core idea to implement such requirements is to convert them all into data of paths with a specific format. As long as we can extract out such data, of course can we simulate to draw pictures in JavaScript.
+The article has talked about how to draw in JavaScript in details, no matter SVG files or any images of PNG, JPG, or GIF. The core idea to implement such requirements is to convert them all into data of paths with a specific format. As long as we can extract out such data, of course, we can also simulate to draw pictures in JavaScript.
 
 - For `path` elements in SVG files, just draw it directly.
 - When it comes to other elements like `rect`, we can convert them before.

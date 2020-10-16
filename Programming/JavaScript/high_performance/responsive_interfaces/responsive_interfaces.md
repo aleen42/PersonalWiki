@@ -1,6 +1,6 @@
 ## Resposive Interfaces [Back](./../high_performance.md)
 
-In a case when we click something on a web page but nothing happen, it's a worse experience for users. Most users tend to repeat any action that does not result in an obvious change, and so ensuring responsiveness in a web application is an important performance problem.
+In a case when we click something on a web page but nothing happens, it's a worse experience for users. Most users tend to repeat any action that does not result in an obvious change, and so ensuring responsiveness in a web application is an important performance problem.
 
 Most browsers have a single process that is shared between JavaScript execution and user interface updates. What it means is that only one of these operations can be performed at a time, also meaning that the user interface cannot respond to input while JavaScript code is executed and vice versa. In brief, executing code will prevent users from interacting with your web page.
 
@@ -28,11 +28,11 @@ Consider the case where a button click results in a message being displayed on t
 </html>
 ```
 
-Once the button is clicked, it will create and add two new tasks to a queue, waiting for being executed. The first task is to change the appearance of the button to indicate it was clicked, while second one is to execute the JavaScript code. After tasks are completed, the function `handleClick()` will also result in a new task to update UI. What if users tries to interact with the page while a task is being executed? In fact, most browsers stop creating tasks while JavaScript code is being executed.
+Once the button is clicked, it will create and add two new tasks to a queue, waiting for being executed. The first task is to change the appearance of the button to indicate it was clicked, while the second one is to execute the JavaScript code. After tasks are completed, the function `handleClick()` will also result in a new task to update UI. What if users try to interact with the page while a task is being executed? In fact, most browsers stop creating tasks while JavaScript code is being executed.
 
 #### 1.1 Browser Limits
 
-Browsers place limits on the amount of time that JavaScript take to execute, so that it won't block the UI thread forever. There're two such limits: the **call stack size limit** and the **long-running script limit**. As we know before, the call stack size limitation limits executing code recursively at many times. The long-running script limit is sometimes called the long-running script timer or the runaway script timer, which will keep track of how long a script has been running and stop it once it hits the limitation. Besides checking time for executing, browsers will also shutdown a script by checking available memory and CPU resources. Of course, each browser has a slightly different approach to long-running script detection:
+Browsers place limits on the amount of time that JavaScript takes to execute so that it won't block the UI thread forever. There're two such limits: the **call stack size limit** and the **long-running script limit**. As we know before, the call stack size limitation limits executing code recursively at many times. The long-running script limit is sometimes called the long-running script timer or the runaway script timer, which will keep track of how long a script has been running and stop it once it hits the limitation. Besides checking time for executing, browsers will also shut down a script by checking available memory and CPU resources. Of course, each browser has a slightly different approach to long-running script detection:
 
 - Internet Explorer, as of version 4, sets a default limit of 5 million statements; this limit is stored in a Windows registry setting called *HKEY_CURRENT_USER\Software\Microsoft\InternetExplorer\Styles\MaxScriptStatements*.
 - Firefox has a default limit of 10 seconds; this limit is stored in the browser's configuration settings (accessible by typing **about:config** in the address box) as the *dom.max_script_run_time key*.
@@ -42,15 +42,15 @@ Browsers place limits on the amount of time that JavaScript take to execute, so 
 
 #### 1.2 How Long Is Too Long?
 
-To create a good user experience, a script should be executed as fast as possible. Brendan Eich, creator of JavaScript, is quoted as having once said, "[JavaScript] that executes in whole seconds is probably doing something wrong...". So what is an appropriate amount of time to execute a script?
+To create a good user experience, a script should be executed as fast as possible. Brendan Eich, the creator of JavaScript, is quoted as having once said, "[JavaScript] that executes in whole seconds is probably doing something wrong...". So what is an appropriate amount of time to execute a script?
 
 **100 milliseconds**, why?
 
-This number comes from research conducted by Robert Miller in 1968, while a usability expert Jakob Nielson has also claimed that if the interface responses to user input within 100 milliseconds, the user fells that he is "directly manipulating the objects in the user interface".
+This number comes from research conducted by Robert Miller in 1968, while a usability expert Jakob Nielson has also claimed that if the interface responses to user input within 100 milliseconds, the user feels that he is "directly manipulating the objects in the user interface".
 
 ### 2. Yielding with Timers
 
-Despite best efforts, there will be times when a JavaScript tasks cannot be completed in 100 milliseconds or less because of its complexity. In these cases, it is a good choice to stop JavaScript execution and give the UI a chance to update itself before continuing to execute the rest of code. This is why JavaScript timers came out?
+Despite best efforts, there will be times when a JavaScript task cannot be completed in 100 milliseconds or less because of its complexity. In these cases, it is a good choice to stop JavaScript execution and give the UI a chance to update itself before continuing to execute the rest of the code. This is why JavaScript timers came out?
 
 #### 2.1 Timer Basics
 
@@ -101,7 +101,7 @@ Setting timer delays of less than 15 can cause browser locking in IE, so the sma
 
 #### 2.3 Array Processing with Timers
 
-One common cause of long-running scripts is loops that takes too long to execute. If you have already tried all loop optimization techniques, then timers are alternatives that can be used to optimize. The basic approach is to split up the loop's work into a series of timers.
+One common cause of long-running scripts is loops that take too long to execute. If you have already tried all loop optimization techniques, then timers are alternatives that can be used to optimize. The basic approach is to split up the loop's work into a series of timers.
 
 Typical loops follow a simple pattern, such as:
 
@@ -111,7 +111,7 @@ for (var i = 0, len = items.length; i < len; i++) {
 }
 ```
 
-There are two factors determining whether a loop can be done asynchronously using timers:
+Two factors determining whether a loop can be done asynchronously using timers:
 
 - Does the processing have to be done synchronously?
 - Does the data have to be processed sequentially?
@@ -160,7 +160,7 @@ function processArray(items, process, callback) {
 
 #### 2.4 Splitting Up Tasks
 
-If a single function takes too long to execute, check to see whether it can be broken down into a series of smaller functions that complete in smaller amounts of time. This is often as simple as considering a single line of code as an atomic task, even though multiple lines of code typically can be grouped together into a single task.
+If a single function takes too long to execute, check to see whether it can be broken down into a series of smaller functions that complete in smaller amounts of time. This is often as simple as considering a single line of code as an atomic task, even though multiple lines of code typically can be grouped into a single task together.
 
 Some functions are already easily broken down based on the other functions they call. For example:
 
@@ -231,7 +231,7 @@ function saveDocument(id) {
 
 #### 2.5 Timed Code
 
-Sometimes executing one task at a time is inefficient. For example, a single task takes only 1 milliseconds, but there is a delay of 25 milliseconds between tasks. If there're 1000 tasks to be executed, it means that you will have to use 1000 x (25 + 1) = 26,000 milliseconds to complete the entire process. What if we process tasks in batches of 50, then it will only takes (1000 / 50) x (25 + 50) = 1,500 milliseconds to complete them. Apparently, we can use less time to complete the work without impacting user experience at the same time.
+Sometimes executing one task at a time is inefficient. For example, a single task takes only 1 millisecond, but there is a delay of 25 milliseconds between tasks. If there're 1000 tasks to be executed, it means that you will have to use 1000 x (25 + 1) = 26,000 milliseconds to complete the entire process. What if we process tasks in batches of 50, then it will only take (1000 / 50) x (25 + 50) = 1,500 milliseconds to complete them. Apparently, we can use less time to complete the work without impacting user experience at the same time.
 
 If keeping 100 milliseconds in mind as the absolute maximum amount of time for executing code, it's recommended o cut that number in half and never let any code execute for longer than 50 milliseconds continuously.
 
@@ -272,7 +272,7 @@ Each new worker spawns its own thread to execute JavaScript code, which means th
 
 #### 3.1 Worker Environment
 
-Part of the reason that JavaScript and UI updates share the same process is because one can affect the other quite frequently, and so executing these tasks out of order results in a bad user experience. Web workers could result in user interface errors by making changes to the DOM from an outside thread, but each worker has its own global environment that has only a subset of JavaScript features available.
+Part of the reason that JavaScript and UI updates share the same process is because one can affect the other quite frequently, and so executing these tasks out of order results in bad user experience. Web workers could result in user interface errors by making changes to the DOM from an outside thread, but each worker has its own global environment that has only a subset of JavaScript features available.
 
 The environment of a worker is made up of:
 
@@ -293,7 +293,7 @@ var worker = new Worker('./code.js');
 
 #### 3.2 Worker Communication
 
-Communication between different workers can be implemented by using `postMessage()` to post and a event handler `onmessage` to receive.
+Communication between different workers can be implemented by using `postMessage()` to post and an event handler `onmessage` to receive.
 
 ```js
 var worker = new Worker('./code.js');
@@ -326,9 +326,9 @@ If you want to load one or more external file into a worker, `importScripts()` i
 importScripts('file1.js', 'file2.js');
 ```
 
-Since you imported, the context of these two files have been available in the context of this worker.
+Since you imported, the context of these two files has been available in the context of this worker.
 
-Web workers are suitable for any long-running scripts that work on pure data and that have no ties to the browser UI. For example, parsing a large JSON string will be a long-running task, which is difficult to break into small chunks with timers, so a worker is the ideal solution.
+Web workers are suitable for any long-running scripts that work on pure data and that have no ties to the browser UI. For example, parsing a large JSON string will be a long-running task, which is difficult to break into small chunks with timers, so a worker is an ideal solution.
 
 ```js
 var worker = new Worker('jsonparse.js');
@@ -376,10 +376,10 @@ Any time a process takes longer than 100 milliseconds to complete, you should co
 
 ### 4. Summary
 
-JavaScript code executing and the UI updates have shared the same process, which means that they are restricted by each other. In order to keep a good user experience, we should consider approaches to execute code in a proper way:
+JavaScript code executing and the UI updates have shared the same process, which means that they are restricted by each other. To keep a good user experience, we should consider approaches to execute code properly:
 
 - No JavaScript task should take longer than 100 milliseconds to execute.
-- Timers is a alternative to split up long-running scripts into a series of smaller tasks to run.
+- Timers is an alternative to split up long-running scripts into a series of smaller tasks to run.
 - Web workers are a feature in newer browsers that allows us to execute JavaScript code outside the UI thread.
 
 The more complex the web application, the more critical it is to manage the UI thread in a proactive (積極主動的) manner. No JavaScript code is so important that it should adversely affect the user’s experience.

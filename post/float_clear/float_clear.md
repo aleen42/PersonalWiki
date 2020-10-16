@@ -11,9 +11,9 @@ As we all know that, a `div` element is a block element, which will occupy the w
 
 ### Float
 
-Normally, We'll suppose that all those `div` elements have been in a normal standard flow (標準流).
+Normally, We'll suppose that all those `div` elements have been in normal standard flow (標準流).
 
-CSS have provided an attribute named `float` to allow you to design block elements into a same line. If you set `float` to a `div`, you will find that this element will get rid of the original standard flow, and as following example, you will see that `div2` has get rid of the standard flow, and `div3` has been moved uppper following behind `div1`.
+CSS has provided an attribute named `float` to allow you to design block elements into the same line. If you set `float` to a `div`, you will find that this element will get rid of the original standard flow, and as the following example, you will see that `div2` has got rid of the standard flow, and `div3` has been moved upper following behind `div1`.
 
 <p>
 <p data-height="585" data-theme-id="21735" data-slug-hash="wWkJwQ" data-default-tab="css,result" data-user="aleen42" data-embed-version="2" data-pen-title="wWkJwQ" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/wWkJwQ/">wWkJwQ</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
@@ -36,7 +36,7 @@ Assume that if we set `float: right;` to both `div2` and `div3`, see what happen
 
 ### Clear
 
-`clear` attribute means that a element can clear floated elements in the left or right, or both.
+`clear` attribute means that an element can clear floated elements in the left or right or both.
 
 Before adding `clear`, we can see that a `div4`has `div3` floated in the left side, and `div2` floated in the right.
 
@@ -80,4 +80,4 @@ When we have set float elements in a container, the container will not automatic
 
 ### Summary
 
-For front-end developer, the difficulty of layout is to put different types of elements into one line. Both `float` and `clear` have provided you a way to handle it.
+For front-end developer, the difficulty of the layout is to put different types of elements into one line. Both `float` and `clear` have provided you with a way to handle it.

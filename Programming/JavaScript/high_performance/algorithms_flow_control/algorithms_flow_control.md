@@ -16,9 +16,9 @@ for (var i = 0; i < 10; i++) {
 }
 ```
 
-There are four parts to the `for` loop: initialization, pretest condition, post-execute, and the loop body. When a `for` loop is encountered, the initialization code is executed first, followed by the pretest condition. If the pretest condition evaluates to `true`, then the body of loop will be executed, and then the post-execute code is run.
+There are four parts to the `for` loop: initialization, pretest condition, post-execute, and the loop body. When a `for` loop is encountered, the initialization code is executed first, followed by the pretest condition. If the pretest condition evaluates to `true`, then the body of the loop will be executed, and then the post-execute code is run.
 
-> Note that: using `var` statement in the initialization part will create a functional-level variable, which does not belong to a block scope. It means that, after the loop finishes, this variable can still be accessed inside the same function.
+> Note that: using `var` statement in the initialization part will create a functional-level variable, which does not belong to block scope. It means that, after the loop finishes, this variable can still be accessed inside the same function.
 
 The second type is the `while` loop:
 
@@ -51,7 +51,7 @@ for (var prop in obj) {
 
 #### 1.1 Loop Performance
 
-Of the four loop types provided by JavaScript, only one of them is significantly slower than the other: the **`for-in`** loop. A `for-in` loop can end up as much as seven times slower than the other loop types. For this reason, it's recommended to avoid using it unless you intent to iterate over an unknown umber of object properties. If you have known list of properties to iterate over, it's faster to use another type of loop: (Furthurmore, there is also a compatibility problem with using `for-in`, check [the analysis of underscore](./../../Framework/underscore/for_in_compatibility/for_in_compatibility.md))
+Of the four loop types provided by JavaScript, only one of them is significantly slower than the other: the **`for-in`** loop. A `for-in` loop can end up as much as seven times slower than the other loop types. For this reason, it's recommended to avoid using it unless you are intended to iterate over an unknown number of object properties. If you have known list of properties to iterate over, it's faster to use another type of loop: (Furthermore, there is also a compatibility problem with using `for-in`, check [the analysis of underscore](./../../Framework/underscore/for_in_compatibility/for_in_compatibility.md))
 
 ```js
 var props = ['prop1', 'prop2'];
@@ -64,7 +64,7 @@ while (i < props.length) {
 
 > Note that: you should never use `for-in` to iterate over members of an array.
 
-Aside from `for-in` loop, all other loop types have the same performance characteristics. Therefore, type won't be a factor of performance, but there're actually two other factors you may consider:
+Aside from `for-in` loop, all other loop types have the same performance characteristics. Therefore, type won't be a factor of performance, but there are two other factors you may consider:
 
 - Work done per iteration
 - Number of iterations
@@ -92,7 +92,7 @@ do {
 } while (k < items.length);
 ```
 
-Consider the code snippet above, `items.length` will always be accessed per iteration, and it's absolutely an optimizing point for us. Depending on the length of the array, we can save around 25% off the total loop execution time in most browsers (even up to 50% in IE).
+Consider the code snippet above, `items.length` will always be accessed per iteration, and it's an optimizing point for us. Depending on the length of the array, we can save around 25% off the total loop execution time in most browsers (even up to 50% in IE).
 
 ```js
 /** minimize numbers of accessing properties of objects by storing it into a local variable */
@@ -133,13 +133,13 @@ do {
 } while (k--);
 ```
 
-So why it's more faster? The control condition has been changed from two comparisons (is the iterator less than the total and is that equal to `true`) to just a single one (is that value `true`). Cutting down from two comparisons to one speeds up the loops even further. With reversing loop order and minimizing the number of accessing properties, the execution time can be up to 50%-60% faster than the original one.
+So why it's faster? The control condition has been changed from two comparisons (is the iterator less than the total and is that equal to `true`) to just a single one (is that value `true`). Cutting down from two comparisons to one speeds up the loops even further. With reversing loop order and minimizing the number of accessing properties, the execution time can be up to 50%-60% faster than the original one.
 
 > Note that: decreasing the work down per iteration is most effective when the loop has a complexity of O(n). When it's more complex than O(n), it's advisable to decrease the number of iterations.
 
 ##### 1.1.2 **Decreasing the number of iterations**
 
-Even the fastest code in a loop body will add up when iterated thousands of times. Therefore, we also need to decrease the nubmer of iterations, and the most well know approach to do this is a pattern called *Duff's Device*.
+Even the fastest code in a loop body will add up when iterated thousands of times. Therefore, we also need to decrease the number of iterations, and the most well-known approach to do this is a pattern called *Duff's Device*.
 
 A typical implementation should look like this:
 
@@ -171,7 +171,7 @@ A slightly faster version of this algorithm is to remove the `switch` statement 
 
 ```js
 /** credit: Jeff Greenberg */
-var i = itmes.length % 8;
+var i = items.length % 8;
 
 while (i) {
     process(items[i--]);
@@ -191,7 +191,7 @@ while (i) {
 }
 ```
 
-> Note that: if you have a loop at a large mounts of iterations, for instance, 500000, and the execution time with Duff's Device is up to 70% less than a regular loop.
+> Note that: if you have a loop at a large number of iterations, for instance, 500000, and the execution time with Duff's Device is up to 70% less than a regular loop.
 
 #### 1.2 Function-Based Iteration
 
@@ -240,7 +240,7 @@ Similar in nature to loops, conditionals determine how execution flows through J
 
 #### 2.1 `if-else` Versus `switch`
 
-The prevailing theory on using `if-else` or `switch` is based on the number of conditions, for easier readable code. As it turns out, the `switch` statement is faster in most cases when compared to `if-else`, but **significantly faster when the number of conditions is large**. Generally speaking, `if-else` is best used when there are two values or a few different ranges of values, and there're more than two values, the `switch` statement is the most optimal choice.
+The prevailing theory on using `if-else` or `switch` is based on the number of conditions, for easier readable code. As it turns out, the `switch` statement is faster in most cases when compared to `if-else`, but **significantly faster when the number of conditions is large**. Generally speaking, `if-else` is best used when there are two values or a few different ranges of values, and when there are more than two values, the `switch` statement is the most optimal choice.
 
 #### 2.2 Optimizing `if-else`
 
@@ -284,7 +284,7 @@ var results = [result0, result1, result2, result3, result4, result5, result6, re
 return results[value];
 ```
 
-Lookup tables are most useful when there's logical mapping between a single key and a single value, while a `switch` statement is more appropriate when each key requires a unique action or set of actions to take place.
+Lookup tables are most useful when there's a logical mapping between a single key and a single value, while a `switch` statement is more appropriate when each key requires a unique action or set of actions to take place.
 
 Of course, when conditions are not enumerable, lookup tables or `switch` won't be a choice for you.
 
@@ -302,7 +302,7 @@ function factorial(n) {
 }
 ```
 
-The problem with recursive functions is that missing a terminal condition can lead to the long execution time, blocking the user interface. Further, recursive functions are more likely to run into browser call stack size limit.
+The problem with recursive functions is that missing a terminal condition can lead to the long execution time, blocking the user interface. Further, recursive functions are more likely to run into a browser call stack size limit.
 
 #### 3.1 Call Stack Limits
 
@@ -327,7 +327,7 @@ Perhaps the most interesting part of stack overflow errors is that they are actu
 
 - Firefox: `InternalError`
 - Safari and Chrome: `RangeError`
-- Internet Explorer: generic `Error` type, and display a dialog box that looks like an alert.
+- Internet Explorer: generic `Error` type, and display a dialogue box that looks like an alert.
 - Opera: won't throw an error, but stop the JavaScript engine
 
 > Note that: even though the error of exceeding limitation of call stack size can be trapped with a `try-catch` statement, it's not recommended.
@@ -360,11 +360,11 @@ function second() {
 first();
 ```
 
-Compared with the first one, the second pattern is far more difficult to identify bugs in large code bases. For the first one, limitation exceeding problem will occur when the terminal condition is wrong in most cases. However, if it's correct, then the algorithm contains too much recursion to safely be run in the browser. Then, you should change to use iteration, memoization (記憶化), or both.
+Compared with the first one, the second pattern is far more difficult to identify bugs in large codebases. For the first one, limitation exceeding problem will occur when the terminal condition is wrong in most cases. However, if it's correct, then the algorithm contains too much recursion to safely be run in the browser. Then, you should change to use iteration, memoization (記憶化), or both.
 
 #### 3.3 Iteration
 
-Any algorithm that can be implemented using recursion can also be implemented using iteration. Using optimized loops in place of long-running recursive functions can result in  performance improvements due to the lower overhead of loops versus that of executing a function.
+Any algorithm that can be implemented using recursion can also be implemented using iteration. Using optimized loops in place of long-running recursive functions can result in performance improvements due to the lower overhead of loops versus that of executing a function.
 
 As an example, a simple JavaScript implementation of merge sort is as followed:
 
@@ -464,7 +464,7 @@ function memfactorial(n) {
 }
 ```
 
-The memoization process may be slightly different for each recursive function, but generally the same pattern applies. However, generic memoization of this type is less optimal, because the `memoize()` function caches the result of a function call with specific arguments. Recursive calls, therefore, are saved only when the shell function is called multiple times with the same arguments. For this reason, it's better to manually implement memoization in those functions that have significant performance issues, rather than apply a generic memoization solution.
+The memorization process may be slightly different for each recursive function, but generally, the same pattern applies. However, generic memoization of this type is less optimal, because the `memoize()` function caches the result of a function call with specific arguments. Recursive calls, therefore, are saved only when the shell function is called multiple times with the same arguments. For this reason, it's better to manually implement memoization in those functions that have significant performance issues, rather than apply a generic memoization solution.
 
 ```js
 function memoize(fundamental, cache) {
@@ -494,9 +494,9 @@ memfactorial(5);
 Just optimize your code, and notice the limitation of JavaScript. The larger the amount of code being executed, the larger the performance gain realized (被意識到).
 
 - `for`, `while` and `do-while` loops all are similar to each other.
-- Avoid using `for-in` unless you need to iterate over a number of unknown object properties.
+- Avoid using `for-in` unless you need to iterate over several unknown object properties.
 - Decrease the amount of work per iteration and decrease the number of loop iterations to improve loop performance.
 - `switch` is always faster than `if-else`, but not always the best solution.
 - Lookup tables are a faster alternative.
-- Notice that limitation of call stack.
+- Notice that limitation of the call stack.
 - When running into a stack overflow error, change the method to an iterative one, or make use of memoization to avoid work repetition.

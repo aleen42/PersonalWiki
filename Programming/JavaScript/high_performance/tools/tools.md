@@ -1,8 +1,8 @@
 ## Tools [Back](./../high_performance.md)
 
-Having the right software is essential for identifying bottlenecks in both loading and running of scripts.
+Having the right software is essential for identifying bottlenecks in both loading and running scripts.
 
-This chapter mainly focuses on some of free tools available for:
+This chapter mainly focuses on some of the free tools available for:
 
 - **Profiling**
 
@@ -10,4 +10,4 @@ This chapter mainly focuses on some of free tools available for:
 
 - **Network Analysis**
 
-    Examining the loading of images, stylesheets, and scripts and their effect on overall page load and rendering 
+    Examining the loading of images, stylesheets, and scripts and their effect on overall page load and rendering

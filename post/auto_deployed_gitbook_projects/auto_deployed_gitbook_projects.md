@@ -1,27 +1,27 @@
 ## [原創] An automatically deployed GitBook project [Back](./../post.md)
 
-This article mainly discusses how to create a automatically deployed GitBook project on your own, rather than relying on the original building at [gitbook.io](http://gitbook.io/). Before reading this article, you may have to know what is GitBook, and what it can do for you.
+This article mainly discusses how to create an automatically deployed GitBook project on your own, rather than relying on the original building at [gitbook.io](http://gitbook.io/). Before reading this article, you may have to know what is GitBook, and what it can do for you.
 
 ### Why GitBook?
 
-GitBook is the earliest chosen tool to build a project for writing books or project documents for me. Before meeting this toolchain, I have already written this project, [PersonalWiki](https://github.com/aleen42/PersonalWiki), under GitHub to use documentations to record knowledge. With the simple writing language, Markdown, I can easily organize all knowledge into a book with splitting into chapters, according to domains, hobbies, etc. Since GitBook has been created in 2014, it has inspired me to convert my project into a page, where people can read in a more convenient way, especially with summary (the main structure of a GitBook project) to manage all chapters in PersonalWiki.
+GitBook is the earliest chosen tool to build a project for writing books or project documents for me. Before meeting this toolchain, I have already written this project, [PersonalWiki](https://github.com/aleen42/PersonalWiki), under GitHub to use documentation to record knowledge. With the simple writing language, Markdown, I can easily organize all knowledge into a book with splitting into chapters, according to domains, hobbies, etc. Since GitBook has been created in 2014, it has inspired me to convert my project into a page, where people can read more conveniently, especially with summary (the main structure of a GitBook project) to manage all chapters in PersonalWiki.
 
-At that moment, GitBook has also released a desktop editing application to support writing and previewing Markdown files in local. That was absolute an awesome feature during its process of growths.
+At that moment, GitBook has also released a desktop editing application to support writing and previewing Markdown files in local. That was absolutely an awesome feature during its process of growths.
 
 ### Pain Spots
 
 With writing more and more articles in this project, and creating some complicated plugins like [gitbook-treeview](https://github.com/aleen42/gitbook-treeview), or [gitbook-footer](https://github.com/aleen42/gitbook-footer), I have found that the building process of generating GitBook pages has become more and more time-consuming, especially in the case when I have to build all duplicated markdown files each time, most of which has not been modified.
- 
+
  Another painful problem is that gitbook.io has always failed to build books if your one is too large to allocate enough memory.
 
 That's why I try to make my project as an automatically deployed one.
 
-Since I need to automatically deploy my rendered pages in GitHub, I have choosen to use [**Travis CI**](https://github.com/marketplace/travis-ci) to build and deploy when I have committed something. Hard time limitation? Travis CI has introduced a 50 minutes maximum job run time, which is also a hard limitation. With building almost 500 pages in this project, I have used at least 3 hours to run with GitBook client, which means that I have to shorten this time .  
+Since I need to automatically deploy my rendered pages in GitHub, I have chosen to use [**Travis CI**](https://github.com/marketplace/travis-ci) to build and deploy when I have committed something. Hard time limitation? Travis CI has introduced a 50 minutes maximum job run time, which is also a hard limitation. With building almost 500 pages in this project, I have used at least 3 hours to run with GitBook client, which means that I have to shorten this time.
 
-### How To DO?
+### How To Do?
 
-At first, I have to know why the process of building pages costs so much overhead. In usual, marking time is the most efficient way to find out the cause of this problem. During debugging, you may found that the most time of rendering a page has been cost in template parsing. After adding time marker in `gitbook/lib/templating/render.js`:
-  
+At first, I have to know why the process of building pages costs so much overhead. In usual, marking time is the most efficient way to find out the cause of this problem. During debugging, you may found that the most time of rendering a page has cost in template parsing. After adding a time marker in `gitbook/lib/templating/render.js`:
+
 ```js
 var start = new Date();
 return timing.measure(
@@ -42,18 +42,18 @@ return timing.measure(
 );
 ```
 
-The log has apparently shown that this process costs around 10 seconds in average to render one page each time. **TOO LONG**, but **NEEDED**! Why? Because most GitBook projects have used many types of plugins to extend features of its page like searching, sharing, indexing title, and so on. In all these plugins, the hook function like `page`, `page:before`, `page:after` will be called in this process. It means that some complicated plugins will always become the "Culprits" for its long processing.
- 
-Since I have no choice to work around this problem, I may need to reduce overhead of building in another way: Only build specific pages each time.
- 
-A project will always be updated with several files during each commit, and other files should be same with previous one before. Therefore, in order to shorten each building time, I may need to change GitBook.
- 
+The log has apparently shown that this process costs around 10 seconds on average to render one page each time. **TOO LONG**, but **NEEDED**! Why? Because most GitBook projects have used many types of plugins to extend features of its page like searching, sharing, indexing title, and so on. In all these plugins, the hook function like `page`, `page:before`, `page:after` will be called in this process. It means that some complicated plugins will always become the "Culprits" for its long processing.
+
+Since I have no choice to work around this problem, I may need to reduce the overhead of building in another way: Only build specific pages each time.
+
+A project will always be updated with several files during each commit, and other files should be the same as the previous one before. Therefore, to shorten each building time, I may need to change GitBook.
+
 #### Stop Cleaning Up
- 
-GitBook cleans up all files in output folder before building, so the first step is to change it to only clean pages that is not included in the summary within current commit.
- 
+
+GitBook cleans up all files in the output folder before building, so the first step is to change it to only clean pages that are not included in the summary within the current commit.
+
 *Note that: `gitbook` folder should not be considered*
- 
+
 ```js
 /** gitbook/lib/output/generateBook.js */
 function generateBook(generator, book, options) {
@@ -125,11 +125,11 @@ function generateBook(generator, book, options) {
     /** ... */
 }
 ```
- 
+
 #### Copy Needed Assets
 
 GitBook generally copies all files in your project into output folder during generating assets before building. As I do not clean up all files in that folder, and I don't want to update markdown files during this process, I need to change GitBook to copy what I want.
- 
+
 ```js
 /** gitbook/lib/output/generateAssets.js */
 function generateAssets(generator, output) {
@@ -145,11 +145,11 @@ function generateAssets(generator, output) {
     }, output);
 }
 ```
- 
+
 #### Generate Needed Page
 
 Now that should not all pages be generated, I may need to add a condition to tell GitBook tool what it should do when generating pages.
-  
+
 ```js
 /** gitbook/lib/output/generatePages.js */
 function generatePages(generator, output) {
@@ -191,8 +191,8 @@ function generatePages(generator, output) {
 }
 ```
 
-At this moment, GitBook only builds modified pages, and I just need to configure Travis CI to build it up. In order to use custom GitBook to build, I have changed GitBook client tools to accept `local` as a validated version in `book.json`:
- 
+At this moment, GitBook only builds modified pages, and I just need to configure Travis CI to build it up. To use custom GitBook to build, I have changed GitBook client tools to accept `local` as a validated version in `book.json`:
+
 ```json
 {
     "gitbook": "local"
@@ -226,9 +226,9 @@ function resolveVersion(condition) {
     }
 }
 ```
- 
-Then I can just run the command `node gitbook-cli/bin/gitbook.js build` to start to build the book with custom GitBook tools. Remember to clone output folder into local path before running to build, and custom GitBook tools will build only when a new markdown file is added into summary, or an old markdown file is modified.
+
+Then I can just run the command `node gitbook-cli/bin/gitbook.js build` to start to build the book with custom GitBook tools. Remember to clone output folder into the local path before running to build, and custom GitBook tools will build only when a new markdown file is added into a summary, or an old markdown file is modified.
 
 ### Lunr
 
-GitBook has used [**Lunr**](https://github.com/olivernn/lunr.js) as its searching engine to support searching words in a book. Here is the plugin, [plugin-lunr](https://github.com/GitbookIO/plugin-lunr) you can installed within your books. However, with same problems that I only want to build what I want, I have modified this plugin to support. More details can be checked on the Pull Request: https://github.com/GitbookIO/plugin-lunr/pull/5.
+GitBook has used [**Lunr**](https://github.com/olivernn/lunr.js) as its searching engine to support searching words in a book. Here is the plugin, [plugin-lunr](https://github.com/GitbookIO/plugin-lunr) you can install within your books. However, with the same problems that I only want to build what I want, I have modified this plugin to support. More details can be checked on the Pull Request: https://github.com/GitbookIO/plugin-lunr/pull/5.

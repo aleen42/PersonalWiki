@@ -8,11 +8,11 @@ The Document Object Method (DOM) is a language-independent application interface
 
 An excellent analogy is to think of DOM as a piece of land and JavaScript (meaning ECMAScript) as another piece of land, both connected with a toll(收費的) bridge.
 
-Once you access to the DOM, you need to pay for it. **More you work, more you pay**.
+Once you access the DOM, you need to pay for it. **More you work, more you pay**.
 
 ### 2. Dom Access and Modification
 
-Modifying elements is even more expensive than accessing, because browsers have to recalculate changes in the page geometry. A disaster will appear when you do it in loops, and especially in loops over HTML collections. For instance, the following code has accessed the document element twice: once to read the value, and once to write.
+Modifying elements is even more expensive than accessing because browsers have to recalculate changes in the page geometry. A disaster will appear when you do it in loops, and especially in loops over HTML collections. For instance, the following code has accessed the document element twice: once to read the value, and once to write.
 
 ```js
 function innerHTMLLoop() {
@@ -254,7 +254,7 @@ for (var i = 0; i < alldivs.length; i++) {
 }
 ```
 
-As we can see that, looping through an HTML collection may lead to a logic mistakes, and causing performance problem at the same time, because each accessing will lead to a query running on every iteration. Besides, with a sample task, we can demonstrate that loop over an array is significantly faster than looping through an HTML collection of the same size and content.
+As we can see that, looping through an HTML collection may lead to a logical mistake, and causing performance problem at the same time because each accessing will lead to a query running on every iteration. Besides, with a sample task, we can demonstrate that loop over an array is significantly faster than looping through an HTML collection of the same size and content.
 
 Firstly, we will copy an HTML collection to an array using a method:
 
@@ -320,7 +320,7 @@ function loopCacheLengthColection() {
 }
 ```
 
-> When the collection is a relatively small collection, caching the `length` property is good enough for performance, but if not, using a copied array is more faster. So consider using `toArray()` or `Array.from()` to convert an HTML collection into an copied array first, when it's large.
+> When the collection is relatively small, caching the `length` property is good enough for performance, but if not, using a copied array is faster. So consider using `toArray()` or `Array.from()` to convert an HTML collection into an copied array first, when it's large.
 
 What if accessing elements of an HTML collection? **Remember to cache it into a local variable**.
 
@@ -390,7 +390,7 @@ The DOM API has provided multiple methods for accessing specific parts of the ov
 
 ##### 2.4.1 **Crawling (漫步於) the DOM**
 
-When working with surrounding elements, we may recursively iterating over all children. In this case, not only `childNdoes` we can us, but also the `nextSibling`.
+When working with surrounding elements, we may recursively iterate over all children. In this case, not only `childNodes` we can use, but also the `nextSibling`.
 
 Consider using these two approaches to do a nonrecursive visit of an element's childen:
 
@@ -429,7 +429,7 @@ These two approaches are mostly equal except in IE. In IE6, `nextSibling` is **1
 
 ##### 2.4.2 **Element Nodes**
 
-DOM properties such as `childNodes`, `firstChild` and `nextSibling` don't distinguish between element nodes and other node types, such as comments or text nodes, which are often just spaces between two tags. Due to this reason, when walking the DOM, you may have to check the type of node, in order to filter out non-element nodes. However, actually this checking is unnecessary DOM work, because most mordern browsers have offered APIs for you, and they are certainly better to be used. (**In IE6, it should be 24 times faster, while 124 times faster in IE7**, but older IE versions are only supported for `children` to access.)
+DOM properties such as `childNodes`, `firstChild` and `nextSibling` don't distinguish between element nodes and other node types, such as comments or text nodes, which are often just spaces between two tags. Due to this reason, when walking the DOM, you may have to check the type of node, to filter out non-element nodes. However, this checking is actually unnecessary DOM work because most modern browsers have offered APIs for you, and they are certainly better to be used. (**In IE6, it should be 24 times faster, while 124 times faster in IE7**, but older IE versions are only supported for `children` to access.)
 
 Property|Use as replacement for
 :-------|:---------------------
@@ -442,7 +442,7 @@ previousElementSibling|previousSibling
 
 ##### 2.4.3 **The Selector API**
 
-Using `getElementById()` or `getElementsByTagName()` or both to identify an element in DOM will be an inefficient way for us. On the other hand, CSS selectors are a convenient way for us because of our familiarity with CSS. For this reason, recent browser versions has provided a method called `querySelectorAll()` as a native browser DOM method. Actually, by using this method, it's faster to identify elements than using JavaScript and DOM to iterate.
+Using `getElementById()` or `getElementsByTagName()` or both to identify an element in DOM will be an inefficient way for us. On the other hand, CSS selectors are a convenient way for us because of our familiarity with CSS. For this reason, recent browser versions have provided a method called `querySelectorAll()` as a native browser DOM method. Actually, by using this method, it's faster to identify elements than using JavaScript and DOM to iterate.
 
 ```js
 var elements = document.querySelectorAll('#menu a');
@@ -490,7 +490,7 @@ Browsers|Chrome 2|Chrome 3|Opera 10
 :------:|:-----:|:-----:|:------:
 Faster|3.65x|3.45x|4.88x
 
-Familiar with `querySelectorAll`, `querySelector` is another convenient method for us to use, while it only return the first node matched.
+Familiar with `querySelectorAll`, `querySelector` is another convenient method for us to use, while it only returns the first node matched.
 
 ### 3. Repaints and Reflows
 
@@ -504,11 +504,11 @@ Once the browser has downloaded all the components of a page, HTML, markup, Java
 
     A representation of how the page should be displayed
 
-Hidden DOM elements don't have a corresponding node in the render tree, and nodes in the render tree are called *frames* or *boxes* in accordance with (與 ...  相符) the CSS model that treats page elements as boxes with `margin`, `border`, `padding`, and position. With the DOM and the render tress constructed, the browser can display (or called 'paint') the elements on the page.
+Hidden DOM elements don't have a corresponding node in the render tree, and nodes in the render tree are called *frames* or *boxes* in accordance with (與 ...  相符) the CSS model that treats page elements as boxes with `margin`, `border`, `padding`, and position. With the DOM and the render trees constructed, the browser can display (or called 'paint') the elements on the page.
 
-When a DOM change affects the geometry of an element (width or height), such as a change in the thickness of the border or adding more text to a paragraph, resulting in an additional line, the browser needs to recalculate the geometry of the element. With the calculated result, the browser will invalidate the part of the render tree that was affected by the change and reconstructs the render tree. This process is know as **Reflow (重排，亦称頁面回流)**. With the reflow completed, the browser will redraw the affected parts of the screen in a process called **Repaint (重繪)**.
+When a DOM change affects the geometry of an element (width or height), such as a change in the thickness of the border or adding more text to a paragraph, resulting in an additional line, the browser needs to recalculate the geometry of the element. With the calculated result, the browser will invalidate the part of the render tree that was affected by the change and reconstructs the render tree. This process is known as **Reflow (重排，亦称頁面回流)**. With the reflow completed, the browser will redraw the affected parts of the screen in a process called **Repaint (重繪)**.
 
-So before repaints, are that reflows necessary? The answer is no. Not all DOM changes affect the geometry. For instance, changing the background color of an element won't change its width or height. In that case, there is a repaint only (no reflow).
+So before repaints, are that reflows necessary? The answer is no. Not all DOM changes affect geometry. For instance, changing the background colour of an element won't change its width or height. In that case, there is a repaint only (no-reflow).
 
 As both repaint and reflow are expensive operations, which will make the UI of a web application less responsive, it's important to reduce their occurrences whenever possible.
 
@@ -516,12 +516,12 @@ A reflow will happen when:
 
 - Visible DOM elements are added or removed
 - Elements change position
-- Elements change size (changing in margin, padding, border thickness, width, height, etc.)
+- Elements change size (changing in the margin, padding, border thickness, width, height, etc.)
 - Contents change (text changes or image is replaced with one of a different size.)
 - Page renders initially
 - Browsers window is resized
 
-What you should notice is that **some changes may cause a reflow of the whole page**: for example, when a scroll bar appears.
+What you should notice is that **some changes may cause reflow of the whole page**: for example, when a scroll bar appears.
 
 #### 3.1 Queuing and Flushing Render Tree Changes
 
@@ -532,7 +532,7 @@ Most browsers will optimize the reflow process by queuing changes and performing
 - `clientTop`, `clientLeft`, `clientWidth`, `clientHeight`
 - `getComputedStyle()` (`currentStyle` in IE)
 
-The browser has to execute the pending changes in the rendering queue, and reflow in order to return correct layout information. For this reason, it's best not to use any properties shown below during the process of changing styles. Otherwise, it will result in some redundant reflow.
+The browser has to execute the pending changes in the rendering queue, and reflow to return correct layout information. For this reason, it's best not to use any properties shown below during the process of changing styles. Otherwise, it will result in some redundant reflow.
 
 Considering the following example:
 
@@ -550,7 +550,7 @@ if (document.body.currentStyle) {
 }
 
 /**
- * Each time we retrieve an property, which is unrelated to the changing of color
+ * Each time we retrieve a property, which is unrelated to the changing of colour
  * Yet the browser has to flush the render queue and reflow, due to your retrieving
  */
 bodyStyle.color = 'red';
@@ -572,7 +572,7 @@ tmp = computed.backgroundColor;
 tmp = computed.backgroundAttachment;
 ```
 
-But sometimes, we do need to request those layout information. What we should do is to assign it into a local variables and work with it.
+But sometimes, we do need to request those layout information. What we should do is to assign it into a local variable and work with it.
 
 ```js
 /** inefficient */
@@ -652,7 +652,7 @@ What if there are many changes applied to a DOM element, you can reduce reflows 
 
 This process will cause two reflows - one at step 1 and one at step 3.
 
-When it comes to how, there are three basic ways to do it:
+When it comes to how to do so? There are three basic ways:
 
 - Hide the elements, apply changes, and show it again.
 - Use a document fragment to build a subtree outside of the live DOM and then copy it to the document.
@@ -736,9 +736,9 @@ However, when considering the expensive cost of reflows, we will optimize this w
 
 #### 3.3 Avoid Reflows for Animations
 
-Reflows sometimes affect only a small part of the render tree, but they can also affect a larger portion or even the whole tree. So, what a terrible disaster will appear, when an animation at the top of the page pushes down almost the whole pages. To avoid using this kind of animations, the followed steps are helpful for you:
+Reflows sometimes affect only a small part of the render tree, but they can also affect a larger portion or even the whole tree. So, what a terrible disaster will appear when an animation at the top of the page pushes down almost the whole pages. To avoid using this kind of animations, the followed steps are helpful for you:
 
-1. Using absolute positioning to take elements out of flow of the page.
+1. Using absolute positioning to take elements out of the flow of the page.
 2. Animate the element. (Even if it expands, there will only be a reflow of a small part of the page.)
 3. When the animation is done, restore the positioning, thereby pushing down the rest of the document only once.
 
@@ -750,17 +750,17 @@ For example, suppose that you have created a table with 500-1000 rows and 5 colu
 
 ### 4. Event Delegation
 
-Another performance problem has arisen when lots of elements have attached one or more event handlers. Most attachments have their attaching phase happened at the `onload` (or `DOMContentReady`) event, **resulting in more processing time for loading** pages. In addition, browsers need to keep track of each event handler, which **takes up memory**. Actually, a great number of event handlers might never be needed. For instance, users only clicked one button or link, but not all of them.
+Another performance problem has arisen when lots of elements have attached one or more event handlers. Most attachments have their attaching phase happened at the `onload` (or `DOMContentReady`) event, **resulting in more processing time for loading** pages. Besides, browsers need to keep track of each event handler, which **takes up memory**. A great number of event handlers might never be needed. For instance, users only clicked one button or link, but not all of them.
 
-Therefore, a simple and elegant technique for handling even delegation is to use event bubbling, to give this handler to their parents. It means that, you can attach only one handler on a wrapper element to handle all events that happen to the children.
+Therefore, a simple and elegant technique for handling even delegation is to use event bubbling, to give this handler to their parents. It means you can attach only one handler on a wrapper element to handle all events that happen to the children.
 
-According to the DOM standard, each event has three phase:
+According to the DOM standard, each event has three phases:
 
 - Capturing
 - At target
 - Bubbling
 
-Even though capturing is not supported by IE, bubbling is good enough for the purpose of delegation.
+Even though capturing is not supported by IE, bubbling is good enough for delegation.
 
 Considering the following case:
 
@@ -820,7 +820,7 @@ As you saw, the event delegation technique is quite simple, and what you should 
 To reduce the performance cost related to DOM scripting, keep the following in mind:
 
 - Minimize DOM access, and try to work as much as possible in JavaScript.
-- Use local variable to store DOM references which you will use repeatedly.
+- Use a local variable to store DOM references which you will use repeatedly.
 - Cache HTML collections `length` into a local variable when it's small, or convert it into an array when it's large.
 - Use faster APIs when available, such as `firstElementChild` or `querySelectorAll()`.
 - Reduce cases of reflows and reprints.

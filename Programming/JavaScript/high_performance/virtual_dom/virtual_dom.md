@@ -4,9 +4,9 @@
 
 **Virtual DOM** is a new concept brought to me when I was learning React, which is one of the famous modern Front-end framework, built by Facebook. Before learning that concept, I have known that browsers will create two internal data structures when it has completed downloading all resources needed for accessing a site. One is **a DOM tree** (Document Object Model), and the other is **a render tree**. Both of them are constructed as a tree, with almost different duties. (To learn more about them, we can read the session of my note, "[Repaints and Reflows](./../dom_scripting/dom_scripting.md#3-repaints-and-reflows)")
 
-In React, Virtual DOM is an algorithm, which can compare two different DOM trees fast, and calculate the difference between them. With the result, it can easily change contents of a site without accessing all nodes in the DOM tree, which means that even though you are accessing a large complicated site, the application itself still can refresh certain part of the page easily. 
+In React, Virtual DOM is an algorithm, which can compare two different DOM trees fast, and calculate the difference between them. With the result, it can easily change contents of a site without accessing all nodes in the DOM tree, which means that even though you are accessing a large complicated site, the application itself still can refresh certain part of the page easily.
 
-To take it simple, we can conclude the Virtual DOM algorithm in three following steps:
+To make it simple, we can conclude the Virtual DOM algorithm in the three following steps:
 
 1. Create a structure with JavaScript objects to represent the DOM tree, when data has been changed.
 2. Make a comparison between the new structure created in step one, and the old structure before data changed.
@@ -14,7 +14,7 @@ To take it simple, we can conclude the Virtual DOM algorithm in three following 
 
 ### 2. Learning about implementation
 
-Recently I have met a project, named [**Picodom**](https://github.com/picodom/picodom). It has implemented the Virtual DOM algorithm within only around two hundred lines of code. Under the `src` folder, you can find that there are total three JavaScript files, among them two are significant.
+Recently I have met a project, named [**Picodom**](https://github.com/picodom/picodom). It has implemented the Virtual DOM algorithm within only around two hundred lines of code. Under the `src` folder, you can find that there are totally three JavaScript files, among them two are significant.
 
 - `h.js`: Used for implementing the creating process of the structure, described at step 1. (Virtual DOM Structure)
 - `patch.js`: Used for implementing the comparison between two different Virtual DOM structures, described at step 2.
@@ -26,7 +26,7 @@ In Picodom, nodes of the Virtual DOM structure is described as an object with tw
 - **tag**: the name of the tag
 - **data**: the data within the node
 
-With knowing that, we can easily grasped that why Picodom implemented such an object with the following function:
+With knowing that, we can easily grasp why Picodom implemented such an object with the following function:
 
 ```js
 /**
@@ -80,7 +80,7 @@ export function h(tag, data) {
 ```
 
 #### 2.2 Comparison of data changes and applying patches
- 
+
 The most core thing of a Virtual DOM algorithm is its implementation of step 2 and step 3. In Picodom, we can learn how to implement such a process by checking the method, `patch()`.
 
 ```js
@@ -208,7 +208,7 @@ export function patch(parent, element, oldNode, node) {
 }
 ```
 
-As we can see, `patch()` has been implemented as a recursive way to access all children defined under the Virtual DOM node. To see how it runs clear, I would like to use the following case as an example. Assume that there is a list with three list items: 
+As we can see, `patch()` has been implemented as a recursive way to access all children defined under the Virtual DOM node. To see how it runs clear, I would like to use the following case as an example. Assume that there is a list with three list items:
 
 ```html
 <ul>
@@ -245,7 +245,7 @@ With calling the snippet above, it will create a tree like this:
 }
 ```
 
-Assume that there are three changes happened on the unordered list:
+Assume that there are three changes that happened on the unordered list:
 
 1. The first list item has changed its content with "new text".
 2. The second list item has changed its anchor child with setting its href as "javascript: void(0);"
@@ -454,8 +454,8 @@ function patch(parent, element, oldNode, node) {
 }
 ```
 
-As we can see, by calling `patch()` recursively, the algorithm has easily found out the differences of the first list item. By replacing it, the list item has been updated with new content: "new text". Awesome, right? In fact, it's not a hard work to understand such a recursive way by assuming a specific occasion. According to the theory of computer science, the algorithm has been designed as a process in which each calling of `patch()` has made a deep access to the tree, constructed with Virtual DOM Nodes. To put it simple, it is just a **DFS** (Depth-First-Search) way to access all nodes of a tree.  
+As we can see, by calling `patch()` recursively, the algorithm has easily found out the differences of the first list item. By replacing it, the list item has been updated with new content: "new text". Awesome, right? In fact, it's not a hard job to understand such a recursive way by assuming a specific occasion. According to the theory of computer science, the algorithm has been designed as a process in which each calling of `patch()` has made deep access to the tree, constructed with Virtual DOM Nodes. To put it simply, it is just a **DFS** (Depth-First-Search) way to access all nodes of a tree.
 
 ### 3. Summary
 
-By accessing each node of the tree, programs can calculate all differences and apply them to update old data with new one. This process is always called a **patch**, like what the method is defined. Sometimes you may think that it is a complicated way to implement a process in which DOM can just be updated only after it is changed, but what if you construct all nodes into a tree, it should be a easier way.
+By accessing each node of the tree, programs can calculate all differences and apply them to update old data with the new one. This process is always called a **patch**, like what the method is defined. Sometimes you may think that it is a complicated way to implement a process in which DOM can just be updated only after it is changed, but what if you construct all nodes into a tree, it should be an easier way.

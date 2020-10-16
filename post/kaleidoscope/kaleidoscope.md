@@ -3,7 +3,7 @@
 <p align="center"><img src="./preview.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 1</strong> A simple preview of kaleidoscopes</p>
 
-In Chinese, we will name kaleidoscopes as "萬花筒", which is a toy showing colorful shapes of thousands of flowers. Today, inspired by the project, [spring loaders](https://github.com/claudiocalautti/spring-loaders), I have tried myself to create a similar component with CSS and SVG, rather than Canvas. As the Figure 1 shown, that's my **kaleidoscope**.
+In Chinese, we will name kaleidoscopes as "萬花筒", which is a toy showing colourful shapes of thousands of flowers. Today, inspired by the project, [spring loaders](https://github.com/claudiocalautti/spring-loaders), I have tried myself to create a similar component with CSS and SVG, rather than Canvas. As Figure 1 shown, that's my **kaleidoscope**.
 
 ### 1. Introduction
 
@@ -11,7 +11,7 @@ Without reading the article, I have just created it through several processes. H
 
 #### 1.1 How to create?
 
-At the start, I have utilized the feature of `div`, which is an HTML elements with a shape of rectangles. With setting a same value for the property `width` and `height` of these elements, I can easily generate a square like the first item from the left side in the Figure 1.
+At the start, I have utilized the feature of `div`, which is an HTML element with a shape of rectangles. With setting the same value for the property `width` and `height` of these elements, I can easily generate a square like the first item from the left side in Figure 1.
 
 Then, to simulate such rotating animation, I would like to use `transform` and `transform-origin` property to implement it, rather than use Canvas, as Canvas is something complicated, which has been always confusing me.
 
@@ -122,27 +122,27 @@ var dir = 1;
 
 /** append mutinested squares */
 for (var i = 0; i < num; i++) {
-	var div = document.createElement('div');
-	div.className = 'rect rect' + (i + 1);
-	document.querySelector('.rect' + i).appendChild(div);
+   var div = document.createElement('div');
+   div.className = 'rect rect' + (i + 1);
+   document.querySelector('.rect' + i).appendChild(div);
 }
 
 /** start to animiate */
 setInterval(function () {
-	theta += stepT * dir;
+   theta += stepT * dir;
 
-	if (Math.abs(theta) > 90) {
-		dir *= -1;
-		theta = (Math.abs(theta) - 90) * dir;
-	}
+   if (Math.abs(theta) > 90) {
+      dir *= -1;
+      theta = (Math.abs(theta) - 90) * dir;
+   }
 
     /** calculate the scaleRatio */
-	const tan = parseFloat(Math.tan(Math.abs(theta) * Math.PI / 180).toFixed(2));
-	const scaleRatio = Math.sqrt(1 + tan * tan) / (1 + tan);
+   const tan = parseFloat(Math.tan(Math.abs(theta) * Math.PI / 180).toFixed(2));
+   const scaleRatio = Math.sqrt(1 + tan * tan) / (1 + tan);
 
-	for (var i = 0; i < num; i++) {
-		document.querySelector('.rect' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + theta + 'deg)';
-	}
+   for (var i = 0; i < num; i++) {
+      document.querySelector('.rect' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + theta + 'deg)';
+   }
 }, dur);
 ```
 
@@ -150,7 +150,7 @@ setInterval(function () {
 
 From the preceding section, we can see that we have just implemented for squares, but I wonder how to use it in other regular polygons like equilateral triangles or even pentagons. Before discussing the problem, we should create such regular polygons at first.
 
-Certainly, we can easily generate squares by setting the width and the height with a same value, but what if generating other regular polygons? **SVG** is my choice.
+Certainly, we can easily generate squares by setting the width and the height with the same value, but what if generating other regular polygons? **SVG** is my choice.
 
 <p align="center"><img src="./figure4.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 4</strong> A triangle</p>
@@ -163,12 +163,12 @@ In SVG, we can easily create a polygon by using `polygon` tags, with setting the
 </svg>
 ```
 
-Utilizing this feature, what we should do to generate regular polygons is just to solve positions of each vertex.
+Utilizing this feature, what we should do to generate regular polygons is just to solve the positions of each vertex.
 
 <p align="center"><img src="./figure5.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 5</strong> An equilateral triangles within a specific circle</p>
 
-In addition, can such polygons be generated within a circle with a specific radius (Figure 5)? Apparently, the answer is yes.
+Besides, can such polygons be generated within a circle with a specific radius (Figure 5)? Apparently, the answer is yes.
 
 <p align="center"><img src="./figure6.png" alt="kaleidoscope" /></p>
 <p align="center"><strong>Figure 6</strong> The specific cordinates</p>
@@ -188,37 +188,37 @@ After that, just create regular polygons with ***θ***:
 ```js
 function createPolygon(obj, sides, startDeg) {
     /** the degree of the start position */
-	startDeg = startDeg || 0;
-	
-	/** generate group to embed other group */
-	var group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-	
-	/** the polygon you want to create */
-	var polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+   startDeg = startDeg || 0;
+   
+   /** generate group to embed other group */
+   var group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+   
+   /** the polygon you want to create */
+   var polygon = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
 
     /** an array for storing points of this regular polygon */
-	var pos = [];
-	
-	/** the radius of the given circle */
-	const radius = document.querySelector('.svg__container').clientWidth / 2;
+   var pos = [];
+   
+   /** the radius of the given circle */
+   const radius = document.querySelector('.svg__container').clientWidth / 2;
 
-	for (var i = 0; i < sides; i++) {
-		const deg = 360 / sides * i + startDeg;
-		const x = radius * (1 - Math.sin(deg * Math.PI / 180));
-		const y = radius * (1 - Math.cos(deg * Math.PI / 180));
+   for (var i = 0; i < sides; i++) {
+      const deg = 360 / sides * i + startDeg;
+      const x = radius * (1 - Math.sin(deg * Math.PI / 180));
+      const y = radius * (1 - Math.cos(deg * Math.PI / 180));
 
-		pos.push(x + ',' + y);
-	}
+      pos.push(x + ',' + y);
+   }
 
-	polygon.setAttribute('points', pos.join(' '));
-	group.appendChild(polygon);
-	obj.appendChild(group);
-	
-	/** set up the origin position of your transformation */
-	group.style.transformOrigin = radius + 'px ' + radius + 'px';
-	
-	/** return the group so that we can create multinested elements recursively */
-	return group;
+   polygon.setAttribute('points', pos.join(' '));
+   group.appendChild(polygon);
+   obj.appendChild(group);
+   
+   /** set up the origin position of your transformation */
+   group.style.transformOrigin = radius + 'px ' + radius + 'px';
+   
+   /** returns the group so that we can create multi nested elements recursively */
+   return group;
 }
 
 /** equilateral triangles */
@@ -230,8 +230,8 @@ const num = 6;
 var parent = document.querySelectorAll('.svg__container')[0];
 
 for (var i = 0; i < num; i++) {
-	parent = createPolygon(parent, sides, 45);
-	parent.setAttribute('class', 'polygon polygon' + (i + 1));
+   parent = createPolygon(parent, sides, 45);
+   parent.setAttribute('class', 'polygon polygon' + (i + 1));
 }
 ```
 
@@ -269,32 +269,31 @@ var dir = 1;
 
 /** append mutinested polygons */
 for (var i = 0; i < num; i++) {
-	parent = createPolygon(parent, sides);
-	parent.setAttribute('class', 'polygon polygon' + (i + 1));
+   parent = createPolygon(parent, sides);
+   parent.setAttribute('class', 'polygon polygon' + (i + 1));
 }
 
 /** start to animate */
 setInterval(function () {
-	theta += stepT * dir;
-	
-	const innerCornerDeg = Math.round(360 / sides);
-	
-	if (Math.abs(theta) > innerCornerDeg) {
-		dir *= -1;
-		theta = (Math.abs(theta) - innerCornerDeg) * dir;
-	}
+   theta += stepT * dir;
+   
+   const innerCornerDeg = Math.round(360 / sides);
+   
+   if (Math.abs(theta) > innerCornerDeg) {
+      dir *= -1;
+      theta = (Math.abs(theta) - innerCornerDeg) * dir;
+   }
 
-	const thetaValue = Math.abs(theta) * Math.PI / 180;
-	const scaleRatio = Math.sin((180 - innerCornerDeg) * Math.PI / 180) / (Math.sin(thetaValue) + Math.sin(innerCornerDeg * Math.PI / 180 - thetaValue));
+   const thetaValue = Math.abs(theta) * Math.PI / 180;
+   const scaleRatio = Math.sin((180 - innerCornerDeg) * Math.PI / 180) / (Math.sin(thetaValue) + Math.sin(innerCornerDeg * Math.PI / 180 - thetaValue));
 
-	for (var i = 1; i < num; i++) {
-		document.querySelector('.polygon' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + theta + 'deg)';
-	}
+   for (var i = 1; i < num; i++) {
+      document.querySelector('.polygon' + (i + 1)).style.transform = 'scale(' + scaleRatio + ') rotate(' + theta + 'deg)';
+   }
 }, dur);
 ```
 
 If you want to use it in **React** as a component, you can check the POC [**here**](http://codepen.io/aleen42/pen/JbmBjK).
-
 
 ### 2. Demo
 
@@ -302,5 +301,3 @@ If you want to use it in **React** as a component, you can check the POC [**here
 <p data-height="568" data-theme-id="21735" data-slug-hash="mOzbWW" data-default-tab="result" data-user="aleen42" data-embed-version="2" data-pen-title="mOzbWW" class="codepen">See the Pen <a href="http://codepen.io/aleen42/pen/mOzbWW/">mOzbWW</a> by aleen42 (<a href="http://codepen.io/aleen42">@aleen42</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </p>
-
-
