@@ -87,7 +87,7 @@ The following table is generated as per the classification of JavaScript framewo
 |Template|[nunjucks](https://github.com/mozilla/nunjucks)|[handlebars.js](https://github.com/wycats/handlebars.js)| |
 |Test|[mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai)|[jest](https://github.com/facebook/jest)|[jasmine](https://github.com/jasmine/jasmine), [karma](https://github.com/karma-runner/karma)|
 |    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|[cypress](https://github.com/cypress-io/cypress) (end to end)|[puppeteer](https://github.com/GoogleChrome/puppeteer) (end to end)|
-|Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)| |
+|Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)|[phaser](https://github.com/photonstorm/phaser)|
 |Package Management|[npm](https://github.com/npm/npm)|[yarn](https://github.com/yarnpkg/yarn)|[bower](https://github.com/bower/bower)|
 |                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)| | |
 |Performance|[fastdom](https://github.com/wilsonpage/fastdom) (DOM performance enhancement)| | |
