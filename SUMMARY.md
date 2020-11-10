@@ -175,6 +175,7 @@
                 * [WebSocket](./Programming/JavaScript/web_api/websocket/websocket.md)
                 * [Worker](./Programming/JavaScript/web_api/worker/worker.md)
                 * [XMLHttpRequest](./Programming/JavaScript/web_api/xhr/xhr.md)
+            * [WebAssembly](./Programming/JavaScript/wasm/wasm.md)
             * [WebGL](./Programming/JavaScript/webgl/webgl.md)
                 * 2D
                     * [Canvas](./Programming/JavaScript/webgl/canvas/canvas.md)
