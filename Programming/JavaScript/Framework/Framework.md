@@ -36,7 +36,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                          |[chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) (Chrome Debugging Protocol interface or Node.s)|[jsdiff](https://github.com/kpdecker/jsdiff) (diff text)|[falcor](https://github.com/Netflix/falcor) (for data fetching)|
 |                          |[lerna](https://github.com/lerna/lerna) (multiple packages management)|[svgexport](https://github.com/shakiba/svgexport) (SVG to PNG/JPEG for Node)|[remove-markdown](https://github.com/stiang/remove-markdown) (strip Markdown stuff from text)|
 |                          |[cli-table](https://github.com/Automattic/cli-table)|[node-apn](https://github.com/node-apn/node-apn)|[node-progress](https://github.com/visionmedia/node-progress) (progress bar for Node)|
-|                          |[sheetjs](https://github.com/SheetJS/sheetjs)| | |
+|                          |[sheetjs](https://github.com/SheetJS/sheetjs)|[isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) (pure js for Git Operation)| |
 |Syntax Highlight|[pygments.js](https://github.com/pksunkara/pygments.js)|[prism](https://github.com/PrismJS/prism)|[highlight.js](https://github.com/highlightjs/highlight.js)|
 |Graphic (VR, AR etc.)|[**three.js**](./../webgl/three/three.md) (3D)|[viro](https://github.com/viromedia/viro) (AR and VR)|[zdog](https://github.com/metafizzy/zdog)|
 |                     |[d3](https://github.com/d3/d3), [d3-graphiviz](https://github.com/magjac/d3-graphviz)|[aframe](https://github.com/aframevr/aframe)|[tracking.js](https://github.com/eduardolundgren/tracking.js)|
@@ -45,7 +45,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                     |[VivGraphJS](https://github.com/anvaka/VivaGraphJS)|[mojs](https://github.com/mojs/mojs)|[Polyvia](https://github.com/Ovilia/Polyvia)|
 |                     |[tesseract.js](https://github.com/naptha/tesseract.js) (text extractor from images)|[webvr-boilerplate](https://github.com/borismus/webvr-boilerplate) (based on three.js)|[konva](https://github.com/konvajs/konva) (Canvas Framework)|
 |                     |[canny-edge-detection](https://github.com/cmisenas/canny-edge-detection)|[sigma.js](https://github.com/jacomyal/sigma.js)|[StackBlur](https://github.com/flozz/StackBlur) (Gaussian Blur)|
-|                     |[smartcrop.js](https://github.com/jwagner/smartcrop.js)|[isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) (pure js for Git Operation)| |
+|                     |[smartcrop.js](https://github.com/jwagner/smartcrop.js)| | |
 |Touch Handler|[hammer.js](https://github.com/hammerjs/hammer.js)|[touchemulator](https://github.com/hammerjs/touchemulator)|[Touchy.js](https://github.com/jairajs89/Touchy.js)|
 |Color|[TinyColor](https://github.com/bgrins/TinyColor) (color manipulation)|[chromatism](https://github.com/toish/chromatism) (utility functions for colors)|[spectrum](https://github.com/bgrins/spectrum) (color picker)|
 |Time|[moment](https://github.com/moment/moment), [moment-timezone](https://github.com/moment/moment-timezone)|[luxon](https://github.com/moment/luxon) (lightweight)|[spacetime](https://github.com/spencermountain/spacetime) (lightweight)|
