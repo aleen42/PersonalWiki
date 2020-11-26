@@ -46,7 +46,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                     |[VivGraphJS](https://github.com/anvaka/VivaGraphJS)|[mojs](https://github.com/mojs/mojs)|[Polyvia](https://github.com/Ovilia/Polyvia)|
 |                     |[tesseract.js](https://github.com/naptha/tesseract.js) (text extractor from images)|[webvr-boilerplate](https://github.com/borismus/webvr-boilerplate) (based on three.js)|[konva](https://github.com/konvajs/konva) (Canvas Framework)|
 |                     |[canny-edge-detection](https://github.com/cmisenas/canny-edge-detection)|[sigma.js](https://github.com/jacomyal/sigma.js)|[StackBlur](https://github.com/flozz/StackBlur) (Gaussian Blur)|
-|                     |[smartcrop.js](https://github.com/jwagner/smartcrop.js)| | |
+|                     |[smartcrop.js](https://github.com/jwagner/smartcrop.js)|[matter-js](https://github.com/liabru/matter-js) (physical graphic engine)| |
 |Touch Handler|[hammer.js](https://github.com/hammerjs/hammer.js)|[touchemulator](https://github.com/hammerjs/touchemulator)|[Touchy.js](https://github.com/jairajs89/Touchy.js)|
 |Color|[TinyColor](https://github.com/bgrins/TinyColor) (color manipulation)|[chromatism](https://github.com/toish/chromatism) (utility functions for colors)|[spectrum](https://github.com/bgrins/spectrum) (color picker)|
 |Time|[moment](https://github.com/moment/moment), [moment-timezone](https://github.com/moment/moment-timezone)|[luxon](https://github.com/moment/luxon) (lightweight)|[spacetime](https://github.com/spencermountain/spacetime) (lightweight)|
