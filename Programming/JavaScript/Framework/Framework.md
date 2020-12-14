@@ -36,9 +36,9 @@ The following table is generated as per the classification of JavaScript framewo
 |                          |[node-cache](https://github.com/node-cache/node-cache)|[node-sass](https://github.com/sass/node-sass)|[exceljs](https://github.com/exceljs/exceljs)|
 |                          |[speedracer](https://github.com/speedracer/speedracer) (test performance for Node modules)|[pkg](https://github.com/zeit/pkg) (package executables)|[devtool](https://github.com/Jam3/devtool) (run Node.js programs with Chromium DevTools)|
 |                          |[chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) (Chrome Debugging Protocol interface or Node.s)|[jsdiff](https://github.com/kpdecker/jsdiff) (diff text)|[falcor](https://github.com/Netflix/falcor) (for data fetching)|
-|                          |[lerna](https://github.com/lerna/lerna) (multiple packages management)|[svgexport](https://github.com/shakiba/svgexport) (SVG to PNG/JPEG for Node)|[remove-markdown](https://github.com/stiang/remove-markdown) (strip Markdown stuff from text)|
+|                          |[isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) (pure js for Git Operation)|[svgexport](https://github.com/shakiba/svgexport) (SVG to PNG/JPEG for Node)|[remove-markdown](https://github.com/stiang/remove-markdown) (strip Markdown stuff from text)|
 |                          |[cli-table](https://github.com/Automattic/cli-table)|[node-apn](https://github.com/node-apn/node-apn)|[node-progress](https://github.com/visionmedia/node-progress) (progress bar for Node)|
-|                          |[sheetjs](https://github.com/SheetJS/sheetjs)|[isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) (pure js for Git Operation)| |
+|                          |[sheetjs](https://github.com/SheetJS/sheetjs)| | |
 |Syntax Highlight|[pygments.js](https://github.com/pksunkara/pygments.js)|[prism](https://github.com/PrismJS/prism)|[highlight.js](https://github.com/highlightjs/highlight.js)|
 |Graphic (VR, AR etc.)|[**three.js**](./../webgl/three/three.md) (3D)|[viro](https://github.com/viromedia/viro) (AR and VR)|[zdog](https://github.com/metafizzy/zdog)|
 |                     |[d3](https://github.com/d3/d3), [d3-graphiviz](https://github.com/magjac/d3-graphviz)|[aframe](https://github.com/aframevr/aframe)|[tracking.js](https://github.com/eduardolundgren/tracking.js)|
@@ -92,7 +92,7 @@ The following table is generated as per the classification of JavaScript framewo
 |    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|[cypress](https://github.com/cypress-io/cypress) (end to end)|[puppeteer](https://github.com/GoogleChrome/puppeteer) (end to end)|
 |Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)|[phaser](https://github.com/photonstorm/phaser)|
 |Package Management|[npm](https://github.com/npm/npm)|[yarn](https://github.com/yarnpkg/yarn)|[bower](https://github.com/bower/bower)|
-|                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)| | |
+|                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)|[lerna](https://github.com/lerna/lerna) (manage multiple packages in one project)| |
 |Performance|[fastdom](https://github.com/wilsonpage/fastdom) (DOM performance enhancement)| | |
 
 *Note: **strong links** mean there are corresponding notes for those frameworks or libraries.*
