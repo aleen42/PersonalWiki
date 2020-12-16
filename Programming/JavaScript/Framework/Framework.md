@@ -51,6 +51,7 @@ The following table is generated as per the classification of JavaScript framewo
 |Touch Handler|[hammer.js](https://github.com/hammerjs/hammer.js)|[touchemulator](https://github.com/hammerjs/touchemulator)|[Touchy.js](https://github.com/jairajs89/Touchy.js)|
 |Color|[TinyColor](https://github.com/bgrins/TinyColor) (color manipulation)|[chromatism](https://github.com/toish/chromatism) (utility functions for colors)|[spectrum](https://github.com/bgrins/spectrum) (color picker)|
 |Time|[moment](https://github.com/moment/moment), [moment-timezone](https://github.com/moment/moment-timezone)|[luxon](https://github.com/moment/luxon) (lightweight)|[spacetime](https://github.com/spencermountain/spacetime) (lightweight)|
+|    |[moment-duration-format](https://github.com/jsmreese/moment-duration-format) (formatter for moment duration)| | |
 |Video|[video.js](https://github.com/videojs/video.js)|[flv.js](https://github.com/bilibili/flv.js) (flv player)|[ccapture.js](https://github.com/spite/ccapture.js) (based on Canvas)|
 |     |[jPlayer](https://github.com/jplayer/jPlayer)| | |
 |Audio|[howler.js](https://github.com/goldfire/howler.js)|[Rythm.js](https://github.com/Okazari/Rythm.js)|[aurora.js](https://github.com/audiocogs/aurora.js) (audio decoding framework)|
