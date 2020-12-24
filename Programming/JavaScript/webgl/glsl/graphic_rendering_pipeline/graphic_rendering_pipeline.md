@@ -69,3 +69,56 @@ In such a shader, we can perform any type of data transform, such as apply noise
 #### 2.2 Fragment shaders
 
 In such a shader, we can control how to paint each primitive's area by outputting an RGBA colour, which can be calculated from textures, or vertex shader's output data. Like the vertex shader, the fragment shader is also actual a snippet of code, executed in any single pixel of a fragment, but the reality is even worse when doing post-processing shaders such as motion blur (動態模糊), glows (光暈), or screen space ambient occlusion (環境光遮罩), resulting in executing fragment shader in any relational fragment. That's why it is more essential to optimize in fragment shaders than in vertex shaders.
+
+#### 2.3 Geometry shaders
+
+This shader is responsible for rendering primitives parting from the output of the vertex shader. It is executed once per primitive, which is the same as the vertex one. The worst case is when it is used to emit point primitives, while the best one is when emitting triangles (3 times less than the vertex shader).
+
+#### 2.4 Compute shaders
+
+This shader is independent corresponding to vertex, fragment, or geometry shaders, which can affect them. As it does not belong to the pipeline, it can access to all functions (`matrix`, `advanced texture`, etc.) and data types (`vectors`, `matrices`, all texture formats, and `vertex buffers`) that exist in GLSL.
+
+### 3. GPU
+
+GPU is a vectorial and parallel architecture corresponding to CPU, offering high performance at processing fragments, pixels, and vertices, because it can process hundreds of instructions asynchronously via dozens or hundreds of small and very specific cores.
+
+Another advantage of GPU is that all native types are vectorial, which means it can do lots of operations natively.
+
+Assume that there is a structure for a vector of floats:
+
+```glsl
+struct Vector3
+{
+    float x, y, z;
+};
+```
+
+In CPU, it may need more operations when crossing two vectors:
+
+```glsl
+vec3 a;
+vec3 b = {1, 2, 3};
+vec3 c = {1, 1, 1};
+
+// a = cross(b, c);
+a.x = (b.y * c.z) – (b.z * c.y);
+a.y = (b.z * c.x) – (b.x * c.z);
+a.z = (b.x * c.y) – (b.y * c.x);
+```
+
+In GPU, it can directly calculate them in the hardware by calling `cross`:
+
+```glsl
+a = cross(b, c);
+```
+
+Besides, there are many other built-in operations (directly native or based on native operations) for native types: addition, addition, dot products, and inner/outer multiplications, geometric, trigonometric, and exponential functions. GPU is so essential to support high-performance vector-based operations for most shader computations.
+
+In summary, GPU can:
+
+- make shaders executed at the same time
+- make instructions executed in native
+
+### 4. The shader environment
+
+As GLSL relies on OpenGL, we must use it to compile and execute shaders like link, execution, and debug. In addition, resources like textures, vertices, normals, frame buffers, or rendering states can also managed in OpenGL.
