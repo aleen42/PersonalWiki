@@ -207,6 +207,7 @@
                             * [gl-obj.js](./Programming/JavaScript/webgl/glsl/gl_obj_js/gl_obj_js.md)
                         * Basics
                             * [The Graphics Rendering Pipeline](./Programming/JavaScript/webgl/glsl/graphic_rendering_pipeline/graphic_rendering_pipeline.md)
+                            * [GLSL Basics](./Programming/JavaScript/webgl/glsl/glsl_basics/glsl_basics.md)
             * [JSDoc](./Programming/JavaScript/jsdoc/jsdoc.md)
                 * Tags
                     * [@abstract](./Programming/JavaScript/jsdoc/abstract/abstract.md)

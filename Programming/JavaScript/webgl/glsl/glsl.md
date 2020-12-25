@@ -18,3 +18,4 @@ Before using this language, we should set up some utils to use before:
 I hope to learn GLSL via "[**\[O`Reilly\] GLSL Essentials**](https://www.oreilly.com/library/view/glsl-essentials/9781849698009/)", and make some notes here:
 
 - [**The Graphics Rendering Pipeline**](./graphic_rendering_pipeline/graphic_rendering_pipeline.md)
+- [**GLSL Basics**](./glsl_basics/glsl_basics.md)
