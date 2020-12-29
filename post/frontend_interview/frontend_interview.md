@@ -1,4 +1,4 @@
-## [轉載] 前端開發面試題 [Back](./../post.md)
+## \[轉載\] 前端開發面試題 [Back](./../post.md)
 
 > - Author: [markyun · 马云云](https://github.com/markyun)
 > - Origin: https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions
@@ -273,7 +273,7 @@ HTML5？
 
 		通过 visibilityState 的值检测页面当前是否可见，以及打开网页的时间等;
 		在页面被切换到其他后台进程的时候，自动暂停音乐或视频的播放；
-		
+
 
 - 如何在页面上实现一个圆形的可点击区域？
 
@@ -304,7 +304,7 @@ HTML5？
 		Semantic Style Elements -- 语义样式标签
 		strong, em, ins, del, code
 		应该准确使用语义样式标签, 但不能滥用, 如果不能确定时首选使用自然样式标签。
-		
+
 
 ## <a name='css'>CSS</a>
 
@@ -498,7 +498,7 @@ HTML5？
 
 
 - li与li之间有看不见的空白间隔是什么原因引起的？有什么解决办法？
-		
+
 		行框的排列会受到中间空白（回车\空格）等的影响，因为空格也属于字符,这些空白也会被应用样式，占据空间，所以会有间隔，把字符大小设为0，就没有空格了。
 
 
@@ -711,7 +711,7 @@ HTML5？
 			// Func { name="Sean", getInfo=function()}
 
 
-			
+
 
 -  JavaScript有几种类型的值？，你能画一下他们的内存图吗？
 
@@ -722,7 +722,7 @@ HTML5？
 		原始数据类型直接存储在栈(stack)中的简单数据段，占据空间小、大小固定，属于被频繁使用数据，所以放入栈中存储；
 		引用数据类型存储在堆(heap)中的对象,占据空间大、大小不固定,如果存储在栈中，将会影响程序运行的性能；引用数据类型在栈中存储了指针，该指针指向堆中该实体的起始地址。当解释器寻找引用值时，会首先检索其
 		在栈中的地址，取得地址后从堆中获得实体
-		
+
 	![Stated Clearly Image](http://www.w3school.com.cn/i/ct_js_value.gif)
 
 
@@ -875,7 +875,7 @@ HTML5？
 			undefined
 			Q：有张三这个人么？
 			A：没有！
-	
+
 	参考阅读：[undefined与null的区别](http://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html)
 
 
@@ -1104,15 +1104,15 @@ HTML5？
 -  同步和异步的区别?
 
 	同步的概念应该是来自于OS中关于同步的概念:不同进程为协同完成某项工作而在先后次序上调整(通过阻塞,唤醒等方式).同步强调的是顺序性.谁先谁后.异步则不存在这种顺序性.
-	
-	
-	
+
+
+
 	同步：浏览器访问服务器请求，用户看得到页面刷新，重新发请求,等请求完，页面刷新，新内容出现，用户看到新内容,进行下一步操作。
 
 	异步：浏览器访问服务器请求，用户正常操作，浏览器后端进行请求。等请求完，页面不刷新，新内容也会出现，用户看到新内容。
 
-	
-	
+
+
 	（待完善）
 
 -  如何解决跨域问题?
@@ -1178,7 +1178,7 @@ HTML5？
 
 -  谈一谈你对ECMAScript6的了解？
 
--  ECMAScript6 怎么写class么，为什么会出现class这种东西? 
+-  ECMAScript6 怎么写class么，为什么会出现class这种东西?
 
 -  异步加载JS的方式有哪些？
 
@@ -1247,7 +1247,7 @@ HTML5？
 
 -  jquery中如何将数组转化为json字符串，然后再转化回来？
 
--  jQuery 的属性拷贝(extend)的实现原理是什么，如何实现深拷贝？ 
+-  jQuery 的属性拷贝(extend)的实现原理是什么，如何实现深拷贝？
 
 -  jquery.extend 与 jquery.fn.extend的区别？
 
@@ -1368,7 +1368,7 @@ jQuery中没有提供这个功能，所以你需要先编写两个jQuery的扩�
 			return num;
 		}
 
-	
+
 - 检测浏览器版本版本有哪些方式？
 
 		功能检测、userAgent特征检测
@@ -1378,7 +1378,7 @@ jQuery中没有提供这个功能，所以你需要先编写两个jQuery的扩�
 		  (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36"
 
 
-- What is a Polyfill? 
+- What is a Polyfill?
 
 		polyfill 是“在旧版浏览器上复制标准 API 的 JavaScript 补充”,可以动态地加载 JavaScript 代码或库，在不支持这些标准 API 的浏览器中模拟它们。
 		例如，geolocation（地理位置）polyfill 可以在 navigator 对象上添加全局的 geolocation 对象，还能添加 getCurrentPosition 函数以及“坐标”回调对象，
@@ -1394,8 +1394,8 @@ jQuery中没有提供这个功能，所以你需要先编写两个jQuery的扩�
 
 #### <a name='other'>ECMAScript6 相关</a>
 
-- Object.is() 与原来的比较操作符“ ===”、“ ==”的区别？ 
-		
+- Object.is() 与原来的比较操作符“ ===”、“ ==”的区别？
+
 		两等号判等，会在比较时进行类型转换；
 		三等号判等(判断严格)，比较时不进行隐式类型转换,（类型不同则会返回false）； 
 
@@ -1452,7 +1452,7 @@ jQuery中没有提供这个功能，所以你需要先编写两个jQuery的扩�
 		HTTP服务器的文件缓存
 
 - 列举IE与其他浏览器不一样的特性？
-		
+
 
 		1、事件不同之处：
 
@@ -1463,7 +1463,7 @@ jQuery中没有提供这个功能，所以你需要先编写两个jQuery的扩�
 			阻止某个事件的默认行为，IE 中阻止某个事件的默认行为，必须将 returnValue 属性设置为 false，Mozilla 中，需要调用 preventDefault() 方法；
 
 			停止事件冒泡，IE 中阻止事件进一步冒泡，需要设置 cancelBubble 为 true，Mozzilla 中，需要调用 stopPropagation()；
-		
+
 
 - 99%的网站都需要被重构是那本书上写的？
 

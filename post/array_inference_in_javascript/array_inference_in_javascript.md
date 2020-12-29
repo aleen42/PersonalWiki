@@ -1,4 +1,4 @@
-## [轉載] Javascript中判斷數組的正確姿勢 [Back](./../post.md)
+## \[轉載\] Javascript中判斷數組的正確姿勢 [Back](./../post.md)
 
 > - Author: [hanzichi · 韩子迟](https://github.com/hanzichi)
 > - Origin: http://www.cnblogs.com/zichi/p/5103842.html
@@ -140,7 +140,7 @@ ECMA-262：
 
 上面的规范定义了 Object.prototype.toString 的行为：首先，取得对象的一个内部属性[[Class]]，然后依据这个属性，返回一个类似于 "[object Array]" 的字符串作为结果（[[]]用来表示语言内部用到的、外部不可直接访问的属性，称为 "内部属性"）。利用这个方法，再配合 call，我们可以取得任何对象的内部属性 [[Class]]，然后把类型检测转化为字符串比较，以达到我们的目的。还是先来看看在 ECMA 标准中 Array 的描述吧：
 
-> new Array([ item0[, item1 [,…]]]) 
+> new Array([ item0[, item1 [,…]]])
 
 > The [[Class]] property of the newly constructed object is set to “Array”.
 

@@ -1,4 +1,4 @@
-## [原創] An automatically deployed GitBook project [Back](./../post.md)
+## \[原創\] An automatically deployed GitBook project [Back](./../post.md)
 
 This article mainly discusses how to create an automatically deployed GitBook project on your own, rather than relying on the original building at [gitbook.io](http://gitbook.io/). Before reading this article, you may have to know what is GitBook, and what it can do for you.
 

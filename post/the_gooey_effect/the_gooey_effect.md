@@ -1,4 +1,4 @@
-## [轉載] The Gooey Effect [Back](../post.md)
+## \[轉載\] The Gooey Effect [Back](../post.md)
 
 > - Author: [Lucas Bebber](https://github.com/lbebber)
 > - Origin: https://css-tricks.com/gooey-effect/

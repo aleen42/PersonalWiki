@@ -1,4 +1,4 @@
-## [轉載] 99%的人都理解錯了HTTP中GET與POST的區別 [Back](./../post.md)
+## \[轉載\] 99%的人都理解錯了HTTP中GET與POST的區別 [Back](./../post.md)
 
 > - Author: WebTechGarden
 > - Origin: http://mp.weixin.qq.com/s?__biz=MzI3NzIzMzg3Mw==&mid=100000054&idx=1&sn=71f6c214f3833d9ca20b9f7dcd9d33e4#rd
@@ -42,7 +42,7 @@ GET和POST是HTTP请求的两种基本方法，要说它们的区别，接触过
 
 请告诉我真相。。。![](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/post/http_and_get/2.png)
 
-如果我告诉你**GET和POST本质上没有区别**你信吗？ 
+如果我告诉你**GET和POST本质上没有区别**你信吗？
 
 让我们扒下GET和POST的外衣，坦诚相见吧！
 
@@ -52,7 +52,7 @@ GET和POST是什么？HTTP协议中的两种发送请求的方法。
 
 HTTP是什么？HTTP是基于TCP/IP的关于数据如何在万维网中如何通信的协议。
 
-HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样一样的。你要给GET加上request body，给POST带上url参数，技术上是完全行的通的。 
+HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，GET/POST都是TCP链接。GET和POST能做的事情是一样一样的。你要给GET加上request body，给POST带上url参数，技术上是完全行的通的。
 
 那么，“标准答案”里的那些区别是怎么回事？
 
@@ -66,7 +66,7 @@ HTTP的底层是TCP/IP。所以GET和POST的底层也是TCP/IP，也就是说，
 
 在我大万维网世界中，还有另一个重要的角色：运输公司。不同的浏览器（发起http请求）和服务器（接受http请求）就是不同的运输公司。 虽然理论上，你可以在车顶上无限的堆货物（url中无限加参数）。但是运输公司可不傻，装货和卸货也是有很大成本的，他们会限制单次运输量来控制风险，数据量太大对浏览器和服务器都是很大负担。业界不成文的规定是，（大多数）浏览器通常都会限制url长度在2K个字节，而（大多数）服务器最多处理64K大小的url。超过的部分，恕不处理。如果你用GET服务，在request body偷偷藏了数据，不同服务器的处理方式也是不同的，有些服务器会帮你卸货，读出数据，有些服务器直接忽略，所以，虽然GET可以带request body，也不能保证一定能被接收到哦。
 
-好了，现在你知道，**GET和POST本质上就是TCP链接，并无差别。但是由于HTTP的规定和浏览器/服务器的限制，导致他们在应用过程中体现出一些不同**。 
+好了，现在你知道，**GET和POST本质上就是TCP链接，并无差别。但是由于HTTP的规定和浏览器/服务器的限制，导致他们在应用过程中体现出一些不同**。
 
 
 你以为本文就这么结束了？

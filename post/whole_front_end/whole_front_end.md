@@ -1,4 +1,4 @@
-## [轉載] 前端技術體系大局觀 [Back](./../post.md)
+## \[轉載\] 前端技術體系大局觀 [Back](./../post.md)
 
 > - Author: [张鑫](https://www.zhihu.com/people/zhangxin840)
 > - Origin: https://zhuanlan.zhihu.com/p/23185351
@@ -34,7 +34,7 @@
 
 - 样式框架：Bootstrap Material design
 - UI框架：React VUE
-- 第三方功能库：Fetch Modernizr Sentry GA 
+- 第三方功能库：Fetch Modernizr Sentry GA
 - 第三方基础库：jQuery Zetpo Underscore Lodash
 
 ### 业务系统辅助

@@ -1,4 +1,4 @@
-## [轉載] Face Swap using OpenCV ( C++ / Python ) [Back](./../post.md)
+## \[轉載\] Face Swap using OpenCV ( C++ / Python ) [Back](./../post.md)
 
 > - Author: [Satya Mallick](http://www.learnopencv.com/about/)
 > - Origin: http://www.learnopencv.com/face-swap-using-opencv-c-python/
@@ -46,10 +46,10 @@ i. **Face Alignment** : To replace one face with another, we first need place on
 
 **Figure 3. Face Alignment. Left : Detected facial landmarks and convex hull. Middle : Delaunay triangulation of points on convex hull. Right : Face alignment by affine warping triangles.**
 
-- i. **Facial Landmark Detection** 
+- i. **Facial Landmark Detection**
 
-    The geometry of the two faces are very different and so we need  to warp the source face a bit so that it covers the target face, but we also want to make sure we do not warp it beyond recognition.To achieve this we first detect facial landmarks on both images using dlib. However, unlike in Face Morphing, we do not and should not use all the points for face alignment. We simply need the points on the outer boundary of the face as show in the image. 
-    
+    The geometry of the two faces are very different and so we need  to warp the source face a bit so that it covers the target face, but we also want to make sure we do not warp it beyond recognition.To achieve this we first detect facial landmarks on both images using dlib. However, unlike in Face Morphing, we do not and should not use all the points for face alignment. We simply need the points on the outer boundary of the face as show in the image.
+
 - ii. **Find Convex Hull**
 
     In Computer Vision and Math jargon, the boundary of a collection of points or shape is called a "hull". A boundary that does not have any concavities is called a "**Convex Hull**". In Figure 3. the image on the left shows facial landmarks detected using dlib in red and the convex hull of the points is shown in blue. The convex hull of a set of points can be calculated using OpenCV's convexHull function.
@@ -63,9 +63,9 @@ i. **Face Alignment** : To replace one face with another, we first need place on
     # hullIndex is a vector of indices of points 
     # that form the convex hull. 
     ```
-    
+
     - C++:
-    
+
     ```cpp
     // C++
     vector<int> hullIndex;
@@ -75,15 +75,15 @@ i. **Face Alignment** : To replace one face with another, we first need place on
     // hullIndex is a vector of indices of points 
     // that form the convex hull.
     ```
-    
+
 - iii. **Delaunay Triangulation **
 
     The next step in alignment is to do a [Delaunay triangulation](http://www.learnopencv.com/delaunay-triangulation-and-voronoi-diagram-using-opencv-c-python/) of the points on the convex hull. The triangulation is shown in the middle image in Figure 3. This allows us to divide the face into smaller parts. My previous post that explains Delaunay triangulation in detail can be found here
-    
+
 - iv. **Affine warp triangles **
 
     The final steps of face alignment to to consider corresponding triangles between the source face and the target face, and affine warp the source face triangle onto the target face. More details can be found in my post about [Face Morphing](http://www.learnopencv.com/face-morph-using-opencv-cpp-python/). However, as you can see in the right image of Figure 3, aligning the face and slapping one face on top of the other hardly looks unnatural. The seams are visible because of lighting and skin tone differences between the two images. The next step shows how to seamlessly combine the two images.
-    
+
 ii. **Seamless Cloning** : Good technical ideas are like good magic. Good magicians use a combination of physics, psychology and good old sleight of hand to achieve the incredible. Image warping alone looks pretty bad. Combine it with [Seamless Cloning](http://www.learnopencv.com/seamless-cloning-using-opencv-python-cpp/) and the results are magical! I had written a post explaining the details here.
 
 It is a feature in OpenCV 3 that allows you to seamlessly clone parts of the source image ( identified by a mask ) onto a destination image.

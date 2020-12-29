@@ -1,4 +1,4 @@
-## [轉載] 22個優質的 React 開源項目 [Back](./../post.md)
+## \[轉載\] 22個優質的 React 開源項目 [Back](./../post.md)
 
 > - Author: [稀土区](https://xituqu.com/author/1)
 > - Origin: https://xituqu.com/201.html
@@ -19,19 +19,19 @@ React是由facebook的开源的一个JavaScript库，用于构建“可预期的
 
 [React native iOS and Android apps that give attendees a schedule for the F8 conference.](https://github.com/fbsamples/f8app)
 
-Courtesy of [Alex Kotlyarskiy](https://medium.com/u/6b836daf2d29) **[5780 Stars]**
+Courtesy of [Alex Kotlyarskiy](https://medium.com/u/6b836daf2d29) **\[5780 Stars\]**
 
 ![](./1.png)
 
 [Hacker News iOS and Android App: Made with React Native](https://github.com/iSimar/HackerNews-React-Native)
 
-Courtesy of [Simar Singh](https://medium.com/u/65c679c51e1c) **[2004 Stars]**
+Courtesy of [Simar Singh](https://medium.com/u/65c679c51e1c) **\[2004 Stars\]**
 
 ![](./2.png)
 
 [Dribbble app built with React Native](https://github.com/catalinmiron/react-native-dribbble-app)
 
-Courtesy of [Catalin MIRON](https://medium.com/u/4b53d99b3317) **[1073 Stars]**
+Courtesy of [Catalin MIRON](https://medium.com/u/4b53d99b3317) **\[1073 Stars\]**
 
 注：[Dribbble](https://github.com/catalinmiron/react-native-dribbble-app) 是一个面向创作家、艺术工作者、设计师等创意类作品的人群，提供作品在线服务，供网友在线查看已经完成的作品或者正在创作的作品的交流网站。
 
@@ -39,49 +39,49 @@ Courtesy of [Catalin MIRON](https://medium.com/u/4b53d99b3317) **[1073 Stars]**
 
 [Ready-to-use chat interface for iOS and Android React-Native apps.](https://github.com/FaridSafi/react-native-gifted-messenger)
 
-Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[919 Stars]**
+Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **\[919 Stars\]**
 
 ![](./4.png)
 
 [iOS's Stocks App clone: Written in React Native available both iOS and Android.](https://github.com/7kfpun/FinanceReactNative)
 
-Courtesy of [kf](https://medium.com/u/e113f0f1abc9) **[609 Stars]**
+Courtesy of [kf](https://medium.com/u/e113f0f1abc9) **\[609 Stars\]**
 
 ![](./5.png)
 
 [A Zhihu Daily App client implemented using React Native (Android and iOS).](https://github.com/race604/ZhiHuDaily-React-Native)
 
-Courtesy of [Race604](https://medium.com/u/b6daafb44ceb) **[2624 Stars]**
+Courtesy of [Race604](https://medium.com/u/b6daafb44ceb) **\[2624 Stars\]**
 
 ![](./6.png)
 
 [A Camera app for React Native (also supports barcode scanning).](https://github.com/lwansbrough/react-native-camera)
 
-Courtesy of [@CharlieHawker](https://twitter.com/CharlieHawker) **[1140 Stars]**
+Courtesy of [@CharlieHawker](https://twitter.com/CharlieHawker) **\[1140 Stars\]**
 
 ![](./7.png)
 
 [Github client written with react-native.](https://github.com/xiekw2010/react-native-gitfeed)
 
-Courtesy of [David Tse](https://medium.com/u/1138287b92ae) **[1106 Stars]**
+Courtesy of [David Tse](https://medium.com/u/1138287b92ae) **\[1106 Stars\]**
 
 ![](./8.png)
 
 [iOS and Android NBA App built with React Native.](https://github.com/wwayne/react-native-nba-app)
 
-Courtesy of [WangZixiao](https://medium.com/u/f73d39bdfb7d) **[586 Stars]**
+Courtesy of [WangZixiao](https://medium.com/u/f73d39bdfb7d) **\[586 Stars\]**
 
 ![](./9.png)
 
 [React Native Reddit Reader.](https://github.com/akveo/react-native-reddit-reader)
 
-Courtesy of Andrei Hrabouski **[220 Stars]**
+Courtesy of Andrei Hrabouski **\[220 Stars\]**
 
 [![](./1.gif)](https://github.com/akveo/react-native-reddit-reader)
 
 [FB Basketball game clone built in React.JS Native.](https://github.com/faridsafi/react-native-basketball)
 
-Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[111 Stars]**
+Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **\[111 Stars\]**
 
 [![](./2.gif)](https://github.com/faridsafi/react-native-basketball)
 
@@ -89,68 +89,68 @@ Courtesy of [Farid from Safi](https://medium.com/u/fea63d4e28f3) **[111 Stars]**
 
 [A Soundcloud client built with React / Redux.](https://github.com/andrewngu/sound-redux)
 
-Courtesy of [Andrew Nguyen](https://medium.com/u/9c93da259760) **[1335 Stars]**
+Courtesy of [Andrew Nguyen](https://medium.com/u/9c93da259760) **\[1335 Stars\]**
 
 ![](./10.png)
 
 [Calculator built with React (Website), Electorn (Desktop), and React Native (iOS & Android).](https://github.com/benoitvallon/react-native-nw-react-calculator)
 
-Courtesy of [Benoit VALLON](https://medium.com/u/d3f29aae3923) **[2796 Stars]**
+Courtesy of [Benoit VALLON](https://medium.com/u/d3f29aae3923) **\[2796 Stars\]**
 
 ![](./11.png)
 
 [React-color: Color Pickers from Sketch, Photoshop, Chrome & more.](https://github.com/casesandberg/react-color)
 
-Courtesy of [Case Sandberg](https://medium.com/u/fbdb48f94b64) **[1966 Stars]**
+Courtesy of [Case Sandberg](https://medium.com/u/fbdb48f94b64) **\[1966 Stars\]**
 
 ![](./12.png)
 
 [Gatsby: Transform plain text into dynamic blogs and websites using React.js.
 ](https://github.com/gatsbyjs/gatsby)
 
-Courtesy of [kylemathews](https://medium.com/u/d8a8061f22e1) **[2816 Stars]**
+Courtesy of [kylemathews](https://medium.com/u/d8a8061f22e1) **\[2816 Stars\]**
 
 [![](./3.gif)](https://github.com/gatsbyjs/gatsby)
 
 [Sentry is cross-platform crash reporting built with React.](https://github.com/getsentry/sentry/)
 
-Courtesy of [Armin Ronacher](https://medium.com/u/d38a80b1d039) **[9229 Stars]**
+Courtesy of [Armin Ronacher](https://medium.com/u/d38a80b1d039) **\[9229 Stars\]**
 
 ![](./13.png)
 
 [Isomorphic500: A web application featuring photos from 500px, built on express using React and Flux with yahoo/fluxible.](https://github.com/gpbl/isomorphic500)
 
-Courtesy of [gp](https://medium.com/u/9bb1e7ea08d2) **[953 Stars]**
+Courtesy of [gp](https://medium.com/u/9bb1e7ea08d2) **\[953 Stars\]**
 
 ![](./14.png)
 
 [A React & react-router-powered implementation of Hacker News using its Firebase API.](https://github.com/insin/react-hn)
 
-Courtesy of [Arthur Stolyar](https://medium.com/u/577c0e279fd5) **[505 Stars]**
+Courtesy of [Arthur Stolyar](https://medium.com/u/577c0e279fd5) **\[505 Stars\]**
 
 ![](./15.png)
 
 [A playground for in-browser interpreters. Built with React/Redux.](https://github.com/fatiherikli/fil)
 
-Courtesy of [Mican](https://medium.com/u/4c842c8dc89a) **[509 Stars]**
+Courtesy of [Mican](https://medium.com/u/4c842c8dc89a) **\[509 Stars\]**
 
 ![](./16.png)
 
 [Perseus: Khan Academy's new exercise question editor and renderer built with React](https://github.com/khan/perseus)
 
-[591 Stars]
+\[591 Stars\]
 
 ![](./17.png)
 
 [React-based Imgur-like isomorphic demo app.](https://github.com/BinaryMuse/imgsible)
 
-Courtesy of [Brandon Tilley](https://medium.com/u/7f7796c1b7dd) **[39 Stars]**
+Courtesy of [Brandon Tilley](https://medium.com/u/7f7796c1b7dd) **\[39 Stars\]**
 
 ![](./18.png)
 
 [Flatris: Tetris app for Cosmos, built with React.](https://github.com/skidding/flatris)
 
-Courtesy of [Ovidiu Cherecheș](https://medium.com/u/781d032b61cf) **[71 Stars]**
+Courtesy of [Ovidiu Cherecheș](https://medium.com/u/781d032b61cf) **\[71 Stars\]**
 
 ![](./19.png)
 

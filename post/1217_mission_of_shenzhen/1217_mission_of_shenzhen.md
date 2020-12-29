@@ -1,4 +1,4 @@
-## [原創] Memorial Missions for 12.17 Shenzhen [Back](./../post.md)
+## \[原創\] Memorial Missions for 12.17 Shenzhen [Back](./../post.md)
 
 <br />
 <br />

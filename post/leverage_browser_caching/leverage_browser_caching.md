@@ -1,4 +1,4 @@
-## [轉載] Leverage Browser Caching [Back](./../post.md)
+## \[轉載\] Leverage Browser Caching [Back](./../post.md)
 
 > - Author: Google Documents
 > - Origin: https://developers.google.com/speed/docs/insights/LeverageBrowserCaching

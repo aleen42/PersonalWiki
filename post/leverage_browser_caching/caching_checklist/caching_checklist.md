@@ -1,4 +1,4 @@
-## [轉載] Caching checklist [Back](./../leverage_browser_caching.md)
+## \[轉載\] Caching checklist [Back](./../leverage_browser_caching.md)
 
 > - Author: Google Documents - [Ilya Grigorik](http://igvita.com/)
 - Origin: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching#caching-checklist

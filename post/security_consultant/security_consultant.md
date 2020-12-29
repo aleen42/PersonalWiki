@@ -1,4 +1,4 @@
-## [轉載] 5 Reasons Why Your Startup Needs a Security Consultant(安全顧問) [Back](./../post.md)
+## \[轉載\] 5 Reasons Why Your Startup Needs a Security Consultant(安全顧問) [Back](./../post.md)
 
 > - Author: [Bhuwnesh Joshi](https://www.linkedin.com/in/bhuwneshjoshi?trk=pulse-det-athr_prof-art_hdr)
 > - Origin: https://www.linkedin.com/pulse/5-reasons-why-your-startup-needs-security-consultant-bhuwnesh-joshi
@@ -20,7 +20,7 @@ It is obviously true that a startup struggle for funds in its early stage and in
 
 ### 3. Reduces Possible Attacks
 
-As part of the Security Consultant work, all the possible attacks in your startup technical infrastructure including your website, mobile apps or your office IT infrastructure, are overlook by the security consultant and possibly mitigated(緩解) before an incident. 
+As part of the Security Consultant work, all the possible attacks in your startup technical infrastructure including your website, mobile apps or your office IT infrastructure, are overlook by the security consultant and possibly mitigated(緩解) before an incident.
 
 ### 4. Saves Your Resources
 
@@ -32,6 +32,6 @@ There are numerous times a website got hacked and data got stolen, in such incid
 
 Do always remember that :
 
-> Every time some [developer] says, 'Nobody will go to the trouble of doing that,' there's some kid in Finland who will go to the trouble.
+> Every time some \[developer\] says, 'Nobody will go to the trouble of doing that,' there's some kid in Finland who will go to the trouble.
 
 Any feedback or queries are highly welcomed.

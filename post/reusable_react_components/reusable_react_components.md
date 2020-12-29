@@ -1,4 +1,4 @@
-## [原創] How to make React components actually reusable [Back](./../post.md)
+## \[原創\] How to make React components actually reusable [Back](./../post.md)
 
 <p align="center">
     <img class="progressiveMedia-noscript js-progressiveMedia-inner" src="https://cdn-images-1.medium.com/max/800/1*5jIE1tOzVSuz5NPHsfeQ8w.png">

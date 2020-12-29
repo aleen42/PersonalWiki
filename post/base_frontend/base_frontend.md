@@ -1,4 +1,4 @@
-## [轉載] 前端工程 -- 基礎篇 [Back](./../post.md)
+## \[轉載\] 前端工程 -- 基礎篇 [Back](./../post.md)
 
 > - Author: [fouber · 張雲龍](https://github.com/fouber)
 > - Origin: https://github.com/fouber/blog/issues/10
@@ -128,7 +128,7 @@ JS模块|独立的算法和数据单元|浏览器环境检测(detect)，网络�
 CSS模块|独立的功能性样式单元|栅格系统(grid)，字体图标(icon-fonts)，动画样式(animate)，以及组件里的CSS单元
 UI组件|独立的可视/可交互功能单元|页头(header)，页尾(footer)，导航栏(nav)，搜索框(search)
 页面|前端这种GUI软件的界面状态，是UI组件的容器|首页(index)，列表页(list)，用户管理(user)
-应用|整个项目或整个站点被称之为应用，由多个页面组成	
+应用|整个项目或整个站点被称之为应用，由多个页面组成
 
 以上5种开发概念以相对较少的规则组成了前端开发的基本工程结构，基于这些理念，我眼中的前端开发就成了这个样子：
 

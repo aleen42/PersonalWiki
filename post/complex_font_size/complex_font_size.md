@@ -1,4 +1,4 @@
-## [轉載] Font-size: An Unexpectedly Complex CSS Property [Back](./../post.md)
+## \[轉載\] Font-size: An Unexpectedly Complex CSS Property [Back](./../post.md)
 
 > - Author: [Manish Goregaokar](https://github.com/Manishearth)
 > - Origin: https://manishearth.github.io/blog/2017/08/10/font-size-an-unexpectedly-complex-css-property/

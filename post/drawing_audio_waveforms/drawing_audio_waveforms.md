@@ -1,4 +1,4 @@
-## [轉載] Drawing Audio Waveforms [Back](./../post.md)
+## \[轉載\] Drawing Audio Waveforms [Back](./../post.md)
 
 > * Author: [Joe Sullivan](https://twitter.com/itsjoesullivan)
 > * Origin: [http://joesul.li/van/2014/03/drawing-waveforms/](http://joesul.li/van/2014/03/drawing-waveforms/)
