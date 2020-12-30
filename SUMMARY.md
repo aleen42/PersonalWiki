@@ -208,6 +208,7 @@
                         * Basics
                             * [The Graphics Rendering Pipeline](./Programming/JavaScript/webgl/glsl/graphic_rendering_pipeline/graphic_rendering_pipeline.md)
                             * [GLSL Basics](./Programming/JavaScript/webgl/glsl/glsl_basics/glsl_basics.md)
+                            * [Vertex Shaders](./Programming/JavaScript/webgl/glsl/vertex_shaders/vertex_shaders.md)
             * [JSDoc](./Programming/JavaScript/jsdoc/jsdoc.md)
                 * Tags
                     * [@abstract](./Programming/JavaScript/jsdoc/abstract/abstract.md)

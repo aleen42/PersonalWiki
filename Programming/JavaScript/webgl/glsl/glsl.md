@@ -19,3 +19,4 @@ I hope to learn GLSL via "[**\[O`Reilly\] GLSL Essentials**](https://www.oreilly
 
 - [**The Graphics Rendering Pipeline**](./graphic_rendering_pipeline/graphic_rendering_pipeline.md)
 - [**GLSL Basics**](./glsl_basics/glsl_basics.md)
+- [**Vertex Shaders**](./vertex_shaders/vertex_shaders.md)
