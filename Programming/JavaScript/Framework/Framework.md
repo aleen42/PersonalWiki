@@ -82,7 +82,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                          |[copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin)|[extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)|[webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)|
 |                          |[react-hot-loader](https://github.com/gaearon/react-hot-loader)|[babel-loader](https://github.com/babel/babel-loader)|[circular-dependency-plugin](https://github.com/aackerman/circular-dependency-plugin)|
 |Book|[vuepress](https://github.com/vuejs/vuepress)|[docz](https://github.com/doczjs/docz)|[mdx-deck](https://github.com/jxnblk/mdx-deck)|
-|    |[gitbook](https://github.com/GitbookIO/gitbook)|[wiki](https://github.com/Requarks/wiki)| |
+|    |[gitbook](https://github.com/GitbookIO/gitbook)|[wiki](https://github.com/Requarks/wiki)|[eleventy-high-performance-blog](https://github.com/google/eleventy-high-performance-blog) (performance best practices)|
 |UI|[YUI](https://github.com/yui/yui3)|[jquery-ui](https://github.com/jquery/jquery-ui)|[element](https://github.com/ElemeFE/element) (based on Vue)|
 |  |[ant-design](https://github.com/ant-design/ant-design) (based on React)|[bootstrap](https://github.com/angular-ui/bootstrap)|[wired-elements](https://github.com/wiredjs/wired-elements)|
 |  |[Font-Awesome](https://github.com/FortAwesome/Font-Awesome) (icon toolkit)|[material-ui](https://github.com/mui-org/material-ui)|[bumbag-ui](https://github.com/bumbag/bumbag-ui) (based on React)|
