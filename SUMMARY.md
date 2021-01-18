@@ -586,6 +586,7 @@
             * [\[轉載\] Font-size: An Unexpectedly Complex CSS Property](./post/complex_font_size/complex_font_size.md)
             * [\[原創\] Web skills for creating watermarks](./post/create_watermarks_with_canvas/create_watermarks_with_canvas.md)
             * [\[轉載\] The Gooey Effect](./post/the_gooey_effect/the_gooey_effect.md)
+            * [\[轉載\] Moving the mouse: mouseover/out, mouseenter/leave](./post/mouse_event/mouse_event.md)
         * Design
             * [\[原創\] Mingtocat](./post/mingtocat/mingtocat.md)
             * [\[原創\] Memorial Missions for 12.17 Shenzhen](./post/1217_mission_of_shenzhen/1217_mission_of_shenzhen.md)

@@ -42,6 +42,7 @@ Here I want to collect some awesome articles, written by others or me.
 - [**\[轉載\] Font-size: An Unexpectedly Complex CSS Property**](./complex_font_size/complex_font_size.md)
 - [**\[原創\] Web skills for creating watermarks**](./create_watermarks_with_canvas/create_watermarks_with_canvas.md)
 - [**\[轉載\] The Gooey Effect**](./the_gooey_effect/the_gooey_effect.md)
+- [**\[轉載\] Moving the mouse: mouseover/out, mouseenter/leave**](./mouse_event/mouse_event.md)
 
 ### Design
 
