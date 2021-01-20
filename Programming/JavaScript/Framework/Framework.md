@@ -6,7 +6,7 @@ The following table is generated as per the classification of JavaScript framewo
 |--:|:--:|:--:|:--:|
 |MVVM, MVC, MV|[**Vue**](./vue/vue.md)|[**React**](./react/react.md), [**Redux**](./redux/redux.md)|[**Angular**](./angular/angular.md)|
 |             |[**Google Closure**](./goog/goog.md)|[mobx](https://github.com/mobxjs/mobx) (state management)|[nerv](https://github.com/NervJS/nerv)|
-|             |[superfine](https://github.com/jorgebucaran/superfine) (only view layer)|[pjax](https://github.com/MoOx/pjax) (pushState + ajax)| |
+|             |[superfine](https://github.com/jorgebucaran/superfine) (only view layer)|[pjax](https://github.com/MoOx/pjax) (pushState + ajax)|[svelte](https://github.com/sveltejs/svelte)|
 |Through Languages|[alpine](https://github.com/alpinejs/alpine) (js-in-html)|[twin.macro](https://github.com/ben-rogerson/twin.macro) (css-in-js)| |
 | Mobile (cross through platforms) |[framework7](https://github.com/framework7io/framework7)|[ionic](https://github.com/ionic-team/ionic)|[react-native](https://github.com/facebook/react-native)|
 |                                  |[eletron](https://github.com/electron/electron)| | |
