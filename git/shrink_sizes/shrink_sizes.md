@@ -26,3 +26,31 @@ git gc --aggressive --prune=now
 ```
 
 However, it is **SLOW**. Fortunately, [**bfg-repo-cleaner**](https://rtyley.github.io/bfg-repo-cleaner/) has worked great for this situation, which specify claim that it is **10~740x** faster than using `git filter-branch`.
+
+1. Export Function:
+
+    ```sh
+    # ~/.bash_aliases
+    function bfg() {
+      java -jar /mnt/e/bfg-1.13.1.jar $@
+    }
+    export -f bfg
+    ```
+
+2. Call it under the folder:
+
+    ```sh
+    cd repo && bfg --strip-blobs-bigger-than 100M .
+    ```
+
+3. Garbage collecting unused objects:
+
+    ```sh
+    git reflog expire --expire=now --all && git gc --prune=now --aggressive 
+    ```
+
+4. Update remote
+
+    ```sh
+    git push 
+    ```
