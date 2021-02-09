@@ -53,7 +53,7 @@ The following table is generated as per the classification of JavaScript framewo
 |Time|[moment](https://github.com/moment/moment), [moment-timezone](https://github.com/moment/moment-timezone)|[luxon](https://github.com/moment/luxon) (lightweight)|[spacetime](https://github.com/spencermountain/spacetime) (lightweight)|
 |    |[moment-duration-format](https://github.com/jsmreese/moment-duration-format) (formatter for moment duration)|[moment-lunar](https://github.com/Luavis/moment-lunar) (plugin for Chinese lunar calendar)| |
 |Video|[video.js](https://github.com/videojs/video.js)|[flv.js](https://github.com/bilibili/flv.js) (flv player)|[ccapture.js](https://github.com/spite/ccapture.js) (based on Canvas)|
-|     |[jPlayer](https://github.com/jplayer/jPlayer)| | |
+|     |[jPlayer](https://github.com/jplayer/jPlayer)|[Remotion](https://github.com/JonnyBurger/remotion) (create video programmatically)| |
 |Audio|[howler.js](https://github.com/goldfire/howler.js)|[Rythm.js](https://github.com/Okazari/Rythm.js)|[aurora.js](https://github.com/audiocogs/aurora.js) (audio decoding framework)|
 |     |[flac.js](https://github.com/audiocogs/flac.js)|[beats-audio-api](https://github.com/JMPerez/beats-audio-api)| |
 |Data Visualization|[deck.gl](https://github.com/uber/deck.gl)|[luma.gl](https://github.com/uber/luma.gl)|[streetscape.gl](https://github.com/uber/streetscape.gl)|
