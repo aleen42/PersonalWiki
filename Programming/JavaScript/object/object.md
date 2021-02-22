@@ -1,6 +1,6 @@
 ## Object [Back](./../JavaScript.md)
 
-Object is another basic data structure used for describing an object in my real life. Each object in JavaScript can has its attributes, methods, or anything else. Even if an object can be described as a sufficient complicated things, objects can be simplified as a collection of key-value pairs.
+Object is another basic data structure used for describing an object in my real life. Each object in JavaScript has its attributes, methods, or anything else. Even if an object can be described as a sufficient complicated thing, objects can be simplified as a collection of key-value pairs.
 
 ### 1. Initialization
 
@@ -14,13 +14,13 @@ const object = {}; /** literal */
 const object = new Object(); /** class */
 ```
 
-Except that, `Object` has also provided us an method named `create()` to build an object:
+Except that, `Object` has also provided us a method named `create()` to build an object:
 
 ```js
 const object = Object.create();
 ```
 
-When it comes to how to define properties (a.k.a keys) for objects, there are several ways we should know:
+When it comes to how to define properties (aka keys) for objects, there are several ways we should know:
 
 - Setup Duration
 - Dotted/Array-like Assignment
@@ -56,7 +56,7 @@ object.prop = 'value';
 object['its prop'] = 'value';
 ```
 
-The snippet above has shown us how to define properties later with assignment. However, you may be confused what the difference between dotted and array-like is, and when should I use array-like assignment way to do so. Actually, the basic difference between them is that the latter way (array-like assignment) allows us to define properties with illegal characters in comparision with the former way (dotted assignment). For instance, when an define property name has some illegal characters like dot character, '.', JavaScript has considered it as an error in the level of a language:
+The snippet above has shown us how to define properties later with assignment. However, you may be confused what the difference between dotted and array-like is, and when should I use array-like assignment way to do so. Actually, the basic difference between them is that the latter way (array-like assignment) allows us to define properties with illegal characters in comparison with the former way (dotted assignment). For instance, when a defined property name has some illegal characters like dot character, '.', JavaScript has considered it as an error in the level of a language:
 
 ```js
 object.'prop.' = 'value';
@@ -77,14 +77,14 @@ Probably, you may ask why I should code with a more complicated way to define pr
 
 > The `Object.defineProperty()` method defines a new property directly on an object, or modifies an existing property on an object, and returns the object.
 
-And its syntax:
+The following is its syntax:
 
 > Object.defineProperty(*obj*, *prop*, *descriptor*)
 
-Is is the last parameter passed into the method, `descriptor`, which has given us the power to define a different property on an object, in comparison with using dotted/array-like assignment. When it comes to this parameter, we can only pass an object through it, which can be set with following specific properties:
+It is the last parameter passed into the method, `descriptor`, which has given us the power to define a different property on an object, in comparison with using dotted/array-like assignment. When it comes to this parameter, we can only pass an object through it, which can be set with following specific properties:
 
 - **value**: the value of the property you want to define
-- **writable**: a boolean value for specifying whether the property of this object can be modify again (*Note: even if set with `false`, no error will be thrown if you try to modify the property*). The default value is `false`.
+- **writable**: a boolean value for specifying whether the property of this object can be modified again (*Note: even if set with `false`, no error will be thrown if you try to modify the property*). The default value is `false`.
 
 ```js
 const object = {};
@@ -135,7 +135,7 @@ Object.entries(object).forEach(([, item]) => {
 
 `get` and `set` are both the most powerful features, which have been widely used in many cases, like **data bindings**, **DOM setting**. However, they are only supported **OVER** IE8.
 
-To improve how powerful they are, there is an example when animating. Sometimes, we may need to write some scripts for animating DOM elements by settings one of its CSS properties like `transform`. However, this property have to be set with some prefix like `-webkit-`, or even `-moz-` to support some specific browsers. So, when we try to set a new transformation for this element, we need to set it twice:
+To improve how powerful they are, there is an example when animating. Sometimes, we may need to write some scripts for animating DOM elements by settings one of its CSS properties like `transform`. However, this property have to be set with some prefixes like `-webkit-`, or even `-moz-` to support some specific browsers. So, when we try to set a new transformation for this element, we need to set it twice:
 
 ```js
 const element = document.getElementById('element');
@@ -181,9 +181,31 @@ Object.prototype.forEach = function (fn) {
 };
 ```
 
-And then, we can easily loop an object like the following snippet:
+Then, we can easily loop an object like the following snippet:
 
 ```js
 Objects.forEach(obj, item => console.log(item));
 obj.forEach(item => console.log(item));
 ```
+
+### 3. Advanced methods
+
+- [`Object.defineProperty`][0] / [`Object.defineProperties`][1]
+- [`Object.preventExtensions`][2] / [`Object.isExtensible`][3]
+- [`Object.seal`][4] / [`Object.isSealed`][5]
+- [`Object.freeze`][6] / [`Object.isFrozen`][7]
+
+|                          | Add Properties | Remove Properties | Modify Properties |
+|:-------------------------|:--------------:|:-----------------:|:-----------------:|
+| Object.preventExtensions |       ×        |         √         |         √         |
+| Object.seal              |       ×        |         ×         |         √         |
+| Object.freeze            |       ×        |         ×         |         ×         |
+
+[0]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+[1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties
+[2]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions
+[3]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isExtensible
+[4]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal
+[5]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isSealed
+[6]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze
+[7]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen
