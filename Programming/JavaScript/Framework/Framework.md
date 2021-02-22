@@ -38,7 +38,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                          |[chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface) (Chrome Debugging Protocol interface or Node.s)|[jsdiff](https://github.com/kpdecker/jsdiff) (diff text)|[falcor](https://github.com/Netflix/falcor) (for data fetching)|
 |                          |[isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) (pure js for Git Operation)|[svgexport](https://github.com/shakiba/svgexport) (SVG to PNG/JPEG for Node)|[remove-markdown](https://github.com/stiang/remove-markdown) (strip Markdown stuff from text)|
 |                          |[cli-table](https://github.com/Automattic/cli-table)|[node-apn](https://github.com/node-apn/node-apn) (for Apple Push notification)|[node-progress](https://github.com/visionmedia/node-progress) (progress bar for Node)|
-|                          |[sheetjs](https://github.com/SheetJS/sheetjs)| | |
+|                          |[sheetjs](https://github.com/SheetJS/sheetjs)|[pako](https://github.com/nodeca/pako) (zlib port for compression)| |
 |Syntax Highlight|[pygments.js](https://github.com/pksunkara/pygments.js)|[prism](https://github.com/PrismJS/prism)|[highlight.js](https://github.com/highlightjs/highlight.js)|
 |Graphic (VR, AR etc.)|[**three.js**](./../webgl/three/three.md) (3D)|[viro](https://github.com/viromedia/viro) (AR and VR)|[zdog](https://github.com/metafizzy/zdog)|
 |                     |[d3](https://github.com/d3/d3), [d3-graphiviz](https://github.com/magjac/d3-graphviz)|[aframe](https://github.com/aframevr/aframe)|[tracking.js](https://github.com/eduardolundgren/tracking.js)|
