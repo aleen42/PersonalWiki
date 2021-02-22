@@ -35,6 +35,7 @@ Or if you are advanced in this, you may be interested at [Ecma International, Te
 * [**Parameters Passing**](./parameter/parameter.md)
 * [**Symbol**](../TypeScript/symbol/symbol.md)
 * [**Generator**](./generator/generator.md)
+* [**Reflect**](./reflect/reflect.md)
 
 #### Advanced
 
