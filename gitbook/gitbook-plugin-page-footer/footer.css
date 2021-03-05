@@ -1,0 +1,205 @@
+/**
+ * Common Parts
+ */
+
+.footer {
+	margin-top: 50px;
+	padding: 10px 0 80px;
+	font-size: 12px;
+	position: relative
+}
+
+.paragraph {
+	margin: 0 !important;
+	line-height: normal !important;
+}
+
+.super {
+	font-size: 0.8em !important;
+	margin-left: 5px !important;
+}
+
+.box__issues {
+	margin-top: 50px !important;
+	text-align: center !important;
+}
+
+.issue-line {
+	width: 50%;
+	height: 0;
+	display: inline-block;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.issue-header {
+	font-size: 1.4em;
+	height: 1.4em;
+	position: relative;
+	top: -0.7em;
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.issue-label {
+	float: right;
+	padding: 0 3px !important;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.issue-edge {
+	border-top: 1px solid #eee;
+}
+
+.issues {
+	margin: 0 !important;
+	text-align: left;
+}
+
+@media screen and (min-width: 720px) {
+	.issue-edge {
+		width: 60%;
+		margin: 0 0 auto 100px !important;
+	}
+
+	.issues {
+		padding: 10px 60px !important;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.issue-edge {
+		width: 30%;
+		margin: 0 0 auto 20px !important;
+	}
+
+	.issues {
+		padding: 10px !important;
+	}
+}
+
+/**
+ *
+ *
+ *
+ * Normal Style
+ *
+ *
+ *
+ *
+ */
+
+.footer__container--normal {
+	display: flex !important;
+}
+
+.footer__description--normal {
+	margin: 0 10px !important;
+	vertical-align: top !important;
+	flex: 1;
+	position: relative;
+}
+
+.footer__author--normal {
+	font-size: 2em !important;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.footer__quote--normal {
+	word-break: break-all;
+	padding: 10px 0;
+}
+
+.footer__modifyTime--normal {
+	float: right;
+}
+
+.footer__main--normal {
+	float: right;
+	font-size: 12px !important;
+}
+
+.footer__main__paragraph--normal {
+	margin: 3px 0 !important;
+}
+
+/**
+ *
+ *
+ *
+ * Symmetrical Style
+ *
+ *
+ *
+ *
+ */
+
+.footer__container--symmetrical {
+	text-align: center !important;
+}
+
+.footer__description--symmetrical {
+	padding: 0 10px !important;
+	vertical-align: top !important;
+	flex: 1;
+}
+
+.footer__author--symmetrical {
+	font-size: 2em !important;
+	padding-left: 0.8em !important;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.footer__modifyTime--symmetrical {
+	float: right;
+}
+
+@media screen and (min-width: 720px) {
+	/* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
+	.footer__quote--symmetrical {
+		margin-top: 10px !important;
+	}
+	.footer__main--symmetrical {
+		position: absolute;
+		right: 0;
+		font-size: 12px !important;
+		text-align: right;
+		bottom: 0;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	/* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
+	.footer__quote--symmetrical {
+		display: none;
+	}
+	.footer__main--symmetrical {
+		font-size: 12px !important;
+		margin-top: 10px !important;
+		text-align: right;
+	}
+}
+
+.footer__main__paragraph--symmetrical {
+	margin: 3px 0 !important;
+}
+
+/** themes */
+.footer svg > path {
+	fill: #333;
+}
+
+.book.color-theme-1 .footer svg > path {
+	fill: #704214;
+}
+
+.book.color-theme-2 .footer svg > path {
+	fill: #bdcadb;
+}
