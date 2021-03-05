@@ -44,3 +44,7 @@ A series of creative examples implemented with GLSL:
 - [Interactive Hover Effects with Three.js](https://github.com/akella/webgl-mouseover-effects)
 
     <a href="https://tympanus.net/Tutorials/webgl-mouseover-effects/step3.html" target="_blank"><img src="./images/5.jpeg" width="300px" /></a>
+
+- [Raindrop FX](https://github.com/SardineFish/raindrop-fx) (inspired by the "[Rain & Water Effect Experiments](https://github.com/codrops/RainEffect)")
+
+    <a href="https://lab.sardinefish.com/rain/" target="_blank"><img src="./images/6.png" width="300px" /></a>
