@@ -595,6 +595,7 @@
             * [\[轉載\] Discover the Full Story of City's Buildings](./post/discover_city/discover_city.md)
         * Back-end
             * [\[轉載\] 99%的人都理解錯了HTTP中GET與POST的區別](./post/http_and_get/http_and_get.md)
+            * [\[轉載\] Internationalized Domain Names (IDN) in Google Chrome](./post/idn/idn.md)
         * CV (Computer Vision)
             * [\[轉載\] 從圖像到知識: 深度神經網絡實現圖像理解的原理解析](./post/dnn_2_image/dnn_2_image.md)
             * [\[轉載\] OpenCV (C++ vs Python) vs MATLAB for Computer Vision](./post/opencv_vs_matlab/opencv_vs_matlab.md)

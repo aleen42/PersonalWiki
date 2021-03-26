@@ -54,6 +54,7 @@ Here I want to collect some awesome articles, written by others or me.
 ### Back-end
 
 - [**\[轉載\] 99%的人都理解錯了HTTP中GET與POST的區別**](./http_and_get/http_and_get.md)
+- [**\[轉載\] Internationalized Domain Names (IDN) in Google Chrome**](./idn/idn.md)
 
 ### CV (Computer Vision)
 
