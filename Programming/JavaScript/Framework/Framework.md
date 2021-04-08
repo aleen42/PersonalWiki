@@ -72,7 +72,6 @@ The following table is generated as per the classification of JavaScript framewo
 |HTTP / Socket Client|[ky](https://github.com/sindresorhus/ky) (based on window.fetch)|[socket.io-client](https://github.com/socketio/socket.io-client)|[axios](https://github.com/axios/axios)|
 |Parsers|[psd.js](https://github.com/meltingice/psd.js)|[htmlparser2](https://github.com/fb55/htmlparser2) (HTML and XML)|[mailparser](https://github.com/nodemailer/mailparser) (MIME parser)|
 |Data Training|[brain.js](https://github.com/BrainJS/brain.js)|[tfjs](https://github.com/tensorflow/tfjs)| |
-|Automated Testing|[rrweb](https://github.com/rrweb-io/rrweb) (record and replay)| | |
 |Shim / Polyfill|[raf](https://github.com/chrisdickinson/raf) (requestAnimationFrame)|[json3](https://github.com/bestiejs/json3)|[core-estimator](https://github.com/oftn-oswg/core-estimator) (navigator.hardwareConcurrency)|
 |               |[core-js](https://github.com/zloirock/core-js)|[ExplorerCanvas](https://github.com/arv/ExplorerCanvas) (simulated Canvas?)|[history.js](https://github.com/browserstate/history.js)|
 |Webpack Loaders / Plugins |[loader-utils](https://github.com/webpack/loader-utils)|[handlebars-loader](https://github.com/pcardune/handlebars-loader)|[css-split-webpack-plugin](https://github.com/metalabdesign/css-split-webpack-plugin)|
@@ -93,7 +92,7 @@ The following table is generated as per the classification of JavaScript framewo
 |Template|[nunjucks](https://github.com/mozilla/nunjucks)|[handlebars.js](https://github.com/wycats/handlebars.js)|[mustache.js](https://github.com/janl/mustache.js)|
 |Test|[mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai)|[jest](https://github.com/facebook/jest)|[jasmine](https://github.com/jasmine/jasmine), [karma](https://github.com/karma-runner/karma)|
 |    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|[cypress](https://github.com/cypress-io/cypress) (end to end)|[puppeteer](https://github.com/GoogleChrome/puppeteer) (end to end)|
-|    |[lighthouse](https://github.com/GoogleChrome/lighthouse) (UX performance)| | |
+|    |[lighthouse](https://github.com/GoogleChrome/lighthouse) (UX performance)|[rrweb](https://github.com/rrweb-io/rrweb) (record and replay)| |
 |Game Engines|[cocos2d-js](https://github.com/cocos2d/cocos2d-js)|[hex-engine](https://github.com/suchipi/hex-engine)|[phaser](https://github.com/photonstorm/phaser)|
 |Package Management|[npm](https://github.com/npm/npm)|[yarn](https://github.com/yarnpkg/yarn)|[bower](https://github.com/bower/bower)|
 |                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)|[lerna](https://github.com/lerna/lerna) (manage multiple packages in one project)| |
