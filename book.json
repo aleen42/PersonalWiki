@@ -73,7 +73,7 @@
             "utcOffset": "8",
             "format": "yyyy-MM-dd hh:mm:ss",
             "signature": "Aleen",
-            "baseUri": "https://aleen42.github.io/PersonalWiki/",
+            "baseUri": "https://wiki.aleen42.com/",
             "copyrightColor": "#666",
             "description": "update time:"
         },
@@ -91,7 +91,7 @@
         "comments-footer": {
             "type": "github",
             "repo": "aleen42/PersonalWiki",
-            "redirect": "https://aleen42.github.io/PersonalWiki/"
+            "redirect": "https://wiki.aleen42.com/"
         }
     }
 }
