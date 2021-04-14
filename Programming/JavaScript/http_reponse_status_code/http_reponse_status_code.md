@@ -1,6 +1,14 @@
 ## HTTP Response Status Code [Back](./../JavaScript.md)
 
-### 1xx Infomational
+Responses are mainly grouped into five classes:
+
+- Informational responses (`100`–`199`)
+- Successful responses (`200`–`299`)
+- Redirects (`300`–`399`)
+- Client errors (`400`–`499`)
+- Server errors (`500`–`599`)
+
+### 1xx Informational
 
 This class of status code indicates a provisional(臨時的) response, consisting only of the `Status-Line` and optional headers, and is terminated by an empty line. Since HTTP/1.0 did not define any 1xx status codes, servers **must not** send a 1xx response to an HTTP/1.0 client except under experimental conditions.
 
@@ -46,7 +54,7 @@ The server successfully processed the request and is not returning any content.
 
 The server successfully processed the request, but is not returning any content. Unlike a 204 response, this response requires that the requester reset the document view.
 
-#### 206 Partial(部分) Content
+#### 206 Partial Content
 
 The server is delivering only part of the resource (byte serving) due to a range header sent by the client. The range header is used by HTTP clients to enable resuming of interrupted downloads, or split a download into multiple simultaneous streams(同步流).
 
@@ -76,7 +84,7 @@ This and all future requests should be directed to the given URI.
 
 #### 302 Found
 
-Indicates that the server require the client to perform a temporary redirect. 
+Indicates that the server require the client to perform a temporary redirect.
 
 #### 303 See Other
 
@@ -114,7 +122,7 @@ The server cannot or will not process the request due to an apparent client erro
 
 #### 401 Unauthorized
 
-Similar to `403 Fobidden`, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a `WWW-Authenticate` header field containing a challenge applicable to the requested resource.
+Similar to [`403 Forbidden`](#403-forbidden), but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a `WWW-Authenticate` header field containing a challenge applicable to the requested resource.
 
 *Notice: some sites issue 401 when an IP is banned from accessing by the server.*
 
@@ -122,7 +130,7 @@ Similar to `403 Fobidden`, but specifically for use when authentication is requi
 
 Reserved for future use. The original intention was that this code might be used as part of some form of digital cash or micro-payment scheme, but that has not happened, and this code is not usually used.
 
-#### 403 Fobidden
+#### 403 Forbidden
 
 The request was a valid request, but the server is refusing to respond to it. The user might be logged in but does not have the necessary permissions for the resource.
 
@@ -269,4 +277,3 @@ Further extensions to the request are required for the server to fulfill it.
 #### 511 Network Authentication Required
 
 The client needs to authenticate to gain network access. Intended for use by intercepting proxies used to control access to the network (e.g., "captive portals" used to require agreement to Terms of Service before granting full Internet access via a Wi-Fi hotspot).
-
