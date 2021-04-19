@@ -361,6 +361,8 @@
                 * [DOM Structure](./Programming/HTML/DOMstructure/DOMstructure.md)
                 * [Layers of Nodes](./Programming/HTML/node/node.md)
                 * [Access Relative Nodes](./Programming/HTML/access/access.md)
+            * Advanced
+                * [A transition from IFrame sandbox to CSP](./Programming/HTML/sandbox_to_csp/sandbox_to_csp.md)
         * [Ruby](./Programming/ruby/ruby.md)
             * [Installation](./Programming/ruby/installation/installation.md)
             * [Programming](./Programming/ruby/programming/programming.md)

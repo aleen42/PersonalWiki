@@ -24,3 +24,7 @@
 - [**DOM Structure**](./DOMstructure/DOMstructure.md)
 - [**Layers of Nodes**](./node/node.md)
 - [**Access Relative Nodes**](./access/access.md)
+
+### 4. Advanced
+
+- [**A transition from IFrame sandbox to CSP**](./sandbox_to_csp/sandbox_to_csp.md)
