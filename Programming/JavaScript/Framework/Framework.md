@@ -8,8 +8,8 @@ The following table is generated as per the classification of JavaScript framewo
 |             |[**Google Closure**](./goog/goog.md)|[mobx](https://github.com/mobxjs/mobx) (state management)|[nerv](https://github.com/NervJS/nerv)|
 |             |[superfine](https://github.com/jorgebucaran/superfine) (only view layer)|[pjax](https://github.com/MoOx/pjax) (pushState + ajax)|[svelte](https://github.com/sveltejs/svelte)|
 |Through Languages|[alpine](https://github.com/alpinejs/alpine) (js-in-html)|[twin.macro](https://github.com/ben-rogerson/twin.macro) (css-in-js)| |
-| Mobile (cross through platforms) |[framework7](https://github.com/framework7io/framework7)|[ionic](https://github.com/ionic-team/ionic)|[react-native](https://github.com/facebook/react-native)|
-|                                  |[eletron](https://github.com/electron/electron)| | |
+|Mobile (cross through platforms)|[framework7](https://github.com/framework7io/framework7)|[ionic](https://github.com/ionic-team/ionic)|[react-native](https://github.com/facebook/react-native)|
+|                                |[eletron](https://github.com/electron/electron)| | |
 |Animation|[**GreenSock**](./GreenSock/GreenSock.md)|[**Walkway**](./walkway/walkway.md)|[**Dynamics**](./dynamics/dynamics.md)|
 |         |[svg.js ](https://github.com/svgdotjs/svg.js)|[rellax](https://github.com/dixonandmoe/rellax) (parallel scrolling)|[anime](https://github.com/juliangarnier/anime)|
 |         |[dynamics.js](https://github.com/michaelvillar/dynamics.js)|[particles.js](https://github.com/VincentGarreau/particles.js) (particle animations)|[contour](https://github.com/JMPerez/contour) (drawing SVG)|
@@ -40,7 +40,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                          |[cli-table](https://github.com/Automattic/cli-table)|[table](https://github.com/gajus/table)|[node-progress](https://github.com/visionmedia/node-progress) (progress bar for Node)|
 |                          |[sheetjs](https://github.com/SheetJS/sheetjs)|[pako](https://github.com/nodeca/pako) (zlib port for compression)|[node-apn](https://github.com/node-apn/node-apn) (for Apple Push notification)|
 |                          |[EPromises](https://github.com/lwr/EPromises) (Extended Promises)|[Turndown](https://github.com/domchristie/turndown) (HTML to Markdown)|[image-to-ascii](https://github.com/IonicaBizau/image-to-ascii)|
-|                          |[node-canvas](https://github.com/Automattic/node-canvas)| | |
+|                          |[node-canvas](https://github.com/Automattic/node-canvas)|[simple-peer](https://github.com/feross/simple-peer) (WebRTC)| |
 |Servers|[Express](https://github.com/expressjs/express)|[Koa](https://github.com/koajs/koa)|[fastify](https://github.com/fastify/fastify)|
 |Syntax Highlight|[pygments.js](https://github.com/pksunkara/pygments.js)|[prism](https://github.com/PrismJS/prism)|[highlight.js](https://github.com/highlightjs/highlight.js)|
 |Graphic (VR, AR etc.)|[**three.js**](./../webgl/three/three.md) (3D)|[viro](https://github.com/viromedia/viro) (AR and VR)|[zdog](https://github.com/metafizzy/zdog)|
