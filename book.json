@@ -91,7 +91,8 @@
         "comments-footer": {
             "type": "github",
             "repo": "aleen42/PersonalWiki",
-            "redirect": "https://wiki.aleen42.com/"
+            "redirect": "https://wiki.aleen42.com/",
+            "token": "8d3f690f0866e95efa012b8803db61fd15b9057e"
         }
     }
 }
