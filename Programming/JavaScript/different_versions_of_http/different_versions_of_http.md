@@ -39,14 +39,14 @@ HTTP/1.1 has supported persistent connections and pipe lining (流水线) with s
 In short word, **HTTPS** (HTTP over TLS, or HTTP over SSL) is another encrypted protocol for protecting contents during transferring, to avoid exposition among agents, and the encryption layer is so-called **SSL/TLS**.
 
 ```mind:height=100,title=HTTP
-# TCP
-## HTTP
+- TCP
+  - HTTP
 ```
 
 ```mind:height=100,title=HTTPS
-# TCP
-## SSL/TLS
-### HTTP
+- TCP
+  - SSL/TLS
+    - HTTP
 ```
 
 The certification of encryption need to be requested from CA, and it is always paid.
@@ -66,10 +66,10 @@ The default port of HTTP is 80, while which of HTTPS is 443.
 The following diagram has shown the structure of SPDY:
 
 ```mind:height=100,title=SPDY
-# TCP
-## SSL
-### SPDY
-#### HTTP
+- TCP
+  - SSL
+    - SPDY
+      - HTTP
 ```
 
 ### 5. HSTS (Http Strict Transport Security)
