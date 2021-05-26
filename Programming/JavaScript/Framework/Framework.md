@@ -40,7 +40,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                          |[cli-table](https://github.com/Automattic/cli-table)|[table](https://github.com/gajus/table)|[node-progress](https://github.com/visionmedia/node-progress) (progress bar for Node)|
 |                          |[sheetjs](https://github.com/SheetJS/sheetjs)|[pako](https://github.com/nodeca/pako) (zlib port for compression)|[node-apn](https://github.com/node-apn/node-apn) (for Apple Push notification)|
 |                          |[EPromises](https://github.com/lwr/EPromises) (Extended Promises)|[Turndown](https://github.com/domchristie/turndown) (HTML to Markdown)|[image-to-ascii](https://github.com/IonicaBizau/image-to-ascii)|
-|                          |[node-canvas](https://github.com/Automattic/node-canvas)|[simple-peer](https://github.com/feross/simple-peer) (WebRTC)| |
+|                          |[node-canvas](https://github.com/Automattic/node-canvas)|[simple-peer](https://github.com/feross/simple-peer) (WebRTC)|[trianglify](https://github.com/qrohlf/trianglify)|
 |Servers|[Express](https://github.com/expressjs/express)|[Koa](https://github.com/koajs/koa)|[fastify](https://github.com/fastify/fastify)|
 |Syntax Highlight|[pygments.js](https://github.com/pksunkara/pygments.js)|[prism](https://github.com/PrismJS/prism)|[highlight.js](https://github.com/highlightjs/highlight.js)|
 |Graphic (VR, AR etc.)|[**three.js**](./../webgl/three/three.md) (3D)|[viro](https://github.com/viromedia/viro) (AR and VR)|[zdog](https://github.com/metafizzy/zdog)|
