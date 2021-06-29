@@ -535,6 +535,7 @@
         * [Personal Configuration](./git/configuration/configuration.md)
         * [Git Commit Message Convention](./git/commit_message_convention/commit_message_convention.md)
         * [Try to shrink sizes of large Git repository](./git/shrink_sizes/shrink_sizes.md)
+        * [A useful collection of Git commands](./git/git_commands/git_commands.md)
     * [Video & Image](./vi/vi.md)
         * [OpenCV](./vi/opencv/opencv.md)
     * [Security Vulnerabilities](./security_vulnerabilities/security_vulnerabilities.md)
