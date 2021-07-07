@@ -1173,3 +1173,107 @@ console.log(0xA0_B0_C0); /** => 10531008 */
 console.log(1_000_000_000_000n); /** => 1000000000000n */
 console.log(0o1234_5670); /** => 2739128 */
 ```
+
+## ECMAScript 2022
+
+### 39. Class Fields
+
+> Author: Daniel Ehrenberg
+>
+> Expected Publication Year: 2022
+>
+> https://github.com/tc39/proposal-private-methods, https://github.com/tc39/proposal-class-fields, https://github.com/tc39/proposal-static-class-features
+
+The major features of those proposals has respectively stated:
+
+- Public and private instance fields of Classes
+
+    With ES2015, there is no way to define private instance fields:
+
+    ```js
+    class X {
+	    constructor() {
+	    	this.foo = 'public instance';
+	    }
+	    
+	    method() {
+	    	return this.foo;
+	    }
+    }
+    
+    class Y extends X {
+	    constructor() {
+	    	super();
+	    	this.foo = void 0; // extend with undefined
+	    }
+    }
+    
+    console.log((new Y()).method()); // => undefined
+    ```
+
+    With the new proposal, you can define it and public one in a more convenient way:
+
+    ```js
+    class X {
+	    foo = 'public instance';
+        #bar = 'private instance'; // private instance fields
+        
+        method() {
+        	return [this.foo, this.#bar];
+        }
+    }
+    
+    class Y extends X {
+	    foo; // extend with undefined 
+    }
+    
+    console.log((new Y()).method()); // => [undefined, "private instance"]
+    ```
+
+- Private instance methods and accessors (getter/setter)
+
+    ```js
+    class X {
+	    #bar = 'private instance'; // private instance fields
+	    
+	    get #b() { return this.#bar; }
+	    set #b(value) {
+	    	// ...
+	    	this.#bar = value;
+	    }
+	    
+	    #method() {
+	    	return this.#b;
+	    }
+    }
+    
+    class Y extends X {}
+    
+    console.log((new Y()).method); // => undefined
+    ```
+
+- Static class fields and private static methods
+
+    It is quite useful for defining a utility class:
+
+    ```js
+    class HTML {
+        static encode = val => `${val}`
+            .replace(/&/g, '&amp;')
+            .replace(/>/g, '&gt;')
+            .replace(/</g, '&lt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    
+        static decode = val => `${val}`
+            .replace(/&amp;/gi, '&')
+            .replace(/&lt;/gi, '<')
+            .replace(/&gt;/gi, '>')
+            .replace(/(&quot;|&#034;|&#34;)/gi, '"')
+            .replace(/(&#039;|&#39;)/gi, "'")
+            .replace(/&nbsp;/gi, ' ');
+    }
+
+    console.log(HTML.encode('&gt;')); // => "&amp;gt;"
+    console.log(HTML.decode('&gt;')); // => ">" 
+    ```
