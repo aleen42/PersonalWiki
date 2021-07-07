@@ -1277,3 +1277,21 @@ The major features of those proposals has respectively stated:
     console.log(HTML.encode('&gt;')); // => "&amp;gt;"
     console.log(HTML.decode('&gt;')); // => ">" 
     ```
+
+### 40. RegExp Match Indices
+
+> Author: Ron Buckton
+>
+> Expected Publication Year: 2022
+>
+> https://github.com/tc39/proposal-regexp-match-indices
+
+This proposal has provided additional information about the start and end indices of captured substrings relative to the start of the input string, when specifying RegExp with `d` notation.
+
+```js
+const {indices} = /a+(?<Z>z)?/d.exec('xaaaz');
+
+console.log('xaaaz'.slice(...indices[0])); // => "aaaz"
+console.log('xaaaz'.slice(...indices[1])); // => "z"
+console.log('xaaaz'.slice(...indices.groups['Z'])); // => "z"
+```
