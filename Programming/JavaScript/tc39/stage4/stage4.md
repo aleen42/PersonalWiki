@@ -1295,3 +1295,21 @@ console.log('xaaaz'.slice(...indices[0])); // => "aaaz"
 console.log('xaaaz'.slice(...indices[1])); // => "z"
 console.log('xaaaz'.slice(...indices.groups['Z'])); // => "z"
 ```
+
+### 41. Top-level Await
+
+> Author: Myles Borins, Yulia Startsev, Daniel Ehrenberg, Guy Bedford, Ms2ger
+>
+> Expected Publication Year: 2022
+>
+> https://github.com/tc39/proposal-top-level-await
+
+After the proposal, we don't need to wrap top-level `await` calling inside an `async` function anymore:
+
+```js
+(async () => {
+   await Promise.resolve(1);
+})();
+
+await Promise.resolve(1); // => 1
+```
