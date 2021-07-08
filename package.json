@@ -24,7 +24,6 @@
     "gitbook-plugin-ga": "1.0.1",
     "gitbook-plugin-github": "2.0.0",
     "gitbook-plugin-github-edit": "1.1.0",
-    "gitbook-plugin-highlight": "2.0.2",
     "gitbook-plugin-livereload": "0.0.1",
     "gitbook-plugin-lunr": "aleen42/plugin-lunr#1.2.0-custom",
     "gitbook-plugin-page-footer": "5.4.3",
@@ -32,7 +31,7 @@
     "gitbook-plugin-resources": "1.3.1",
     "gitbook-plugin-search": "2.2.1",
     "gitbook-plugin-sharing": "1.0.2",
-    "gitbook-plugin-theme-aleen42": "1.4.9",
+    "gitbook-plugin-theme-aleen42": "aleen42/gitbook-theme",
     "gitbook-plugin-mathjax": "2.0.0",
     "gitbook-plugin-comments-footer": "1.4.9",
     "gitbook-plugin-mind-maps": "1.1.4"
