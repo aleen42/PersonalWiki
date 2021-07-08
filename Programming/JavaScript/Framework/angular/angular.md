@@ -4,7 +4,7 @@
     <img src="./logo.png" />
 </p>
 
-![angular](https://aleen42.github.io/badges/src/angular.svg)
+![angular](https://badges.aleen42.com/src/angular.svg)
 
 All we know that Angular is a large JavaScript framework for building client-side application, and what it can actually help developers to do so? According to the official document, we can easily know that it can:
 

@@ -4,7 +4,7 @@
     <img src="./node.png" />
 </p>
 
-![node](https://aleen42.github.io/badges/src/node.svg)
+![node](https://badges.aleen42.com/src/node.svg)
 
 ### Basic
 

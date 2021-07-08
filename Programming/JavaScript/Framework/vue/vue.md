@@ -8,7 +8,7 @@
 <a href="https://vuejs.org/" target="_blank"><strong>Vue</strong></a> is a javascript progressive framework for building user interfaces.
 </p>
 
-![vue](https://aleen42.github.io/badges/src/vue.svg)
+![vue](https://badges.aleen42.com/src/vue.svg)
 
 - [**Quick Started**](./quick_started/quick_started.md)
 

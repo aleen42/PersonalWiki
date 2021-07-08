@@ -4,7 +4,7 @@
     <img src="./logo.png" />
 </p>
 
-![redux](https://aleen42.github.io/badges/src/redux.svg)
+![redux](https://badges.aleen42.com/src/redux.svg)
 
 **Redux** is a **predictable state container** for JavaScript apps.
 
