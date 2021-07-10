@@ -23,7 +23,8 @@
         "page-treeview",
         "resources",
         "theme-aleen42",
-        "mind-maps"
+        "mind-maps",
+        "color"
     ],
     "pluginsConfig": {
         "github": {
@@ -69,7 +70,7 @@
             "repo": "aleen42/PersonalWiki",
             "issueNum": "20",
             "isShowQRCode": true,
-            "timeColor": "#a10000",
+            "timeColor": "var(--color-book-theme)",
             "utcOffset": "8",
             "format": "yyyy-MM-dd hh:mm:ss",
             "signature": "Aleen",
