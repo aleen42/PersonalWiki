@@ -35,7 +35,3 @@ Before accepting your contributions, I'll review what you have done, and keep co
 ### 5. RED TAG
 
 Don't care too much about the number of contributions, and it's just noise all along. Do you see the word **aleen42** in the following image based on [**aleen42/auto-contribution**](https://github.com/aleen42/auto-contribution)?
-
-<p align="center">
-<img src="./contribution.png">
-</p>
