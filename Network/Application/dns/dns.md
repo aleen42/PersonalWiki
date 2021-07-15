@@ -1,4 +1,5 @@
-## DNS (Domain Name System)	[Back](./../Application.md)
+## DNS (Domain Name System) [Back](../Application.md)
+
 - 作用: IP地址的別名, 便於記憶
 - 結構: 域名層次樹
 
@@ -11,14 +12,15 @@
 ### 域名訪問
 
 - 域名與IP的互相轉換
- 
-####1. 域名到IP的轉換
+
+#### 1. 域名到IP的轉換
 - 對同一個DNS服務器兩次調用所返回的IP地址列表順序有可能不同.
 - 在不同的DNS服務器上查詢, 返回結果不同.
 - 查詢失敗時, 可以通過hstrerror()查找h_errno的信息.
 - 由於查詢是**逐級的**, 建議採用多進程(線程)來縮短時間消耗.
 
-#####method
+##### 方法
+
 ```c
 struct hostent* gethostbyname(const char* name)
 
@@ -33,11 +35,14 @@ struct hostent
 }
 ```
 
-#####parameters
+##### 参数
+
 - name: 域名
 
-####2. IP到域名的轉換
-#####method
+#### 2. IP到域名的轉換
+
+##### 方法
+
 ```c
 struct hostent* gethostbyaddr(const char* addr, size_t len, int family)
 
@@ -52,7 +57,8 @@ struct hostent
 }
 ```
 
-#####parameters
+##### 参数
+
 - addr: 地址
 - len: 地址長度
 - family: 地址的協議簇

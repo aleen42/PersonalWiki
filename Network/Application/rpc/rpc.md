@@ -1,4 +1,4 @@
-## RPC (Remote Procedure Call)	[Back](./../Application.md)
+## RPC (Remote Procedure Call) [Back](../Application.md)
 
 - Call a procedure (subroutine) that is running on another machine.
 - **NFS(Network File System)** is RPC based
@@ -16,4 +16,4 @@
 	- Timeout values
 	- Asynchronous procedure calls
 	- Multi-tasking Servers
-	- Broadcasting 
+	- Broadcasting

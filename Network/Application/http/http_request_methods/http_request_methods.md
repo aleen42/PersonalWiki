@@ -1,4 +1,4 @@
-## HTTP Request Methods [Back](../JavaScript.md)
+## HTTP Request Methods [Back](../http.md)
 
 <table>
     <thead>

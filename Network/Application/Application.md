@@ -1,4 +1,5 @@
 ## Application Layer [Back](./../Network.md)
 
+- [HTTP](./http/http.md) (Hypertext Transfer Protocol)
 - [DNS](./dns/dns.md) (Domain Name System)
-- [RPC](./rpc/rpc.md) (Remote Porcedure Call)
+- [RPC](./rpc/rpc.md) (Remote Procedure Call)

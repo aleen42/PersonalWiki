@@ -1,4 +1,4 @@
-## Idempotence (幂等性) between HTTP Request Methods [Back](../JavaScript.md)
+## Idempotence (幂等性) between HTTP Request Methods [Back](../http.md)
 
 What is idempotence? As the HTTP/1.1 protocol mentioned:
 

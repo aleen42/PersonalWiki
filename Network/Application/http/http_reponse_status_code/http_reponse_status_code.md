@@ -1,4 +1,4 @@
-## HTTP Response Status Code [Back](./../JavaScript.md)
+## HTTP Response Status Code [Back](../http.md)
 
 Responses are mainly grouped into five classes:
 

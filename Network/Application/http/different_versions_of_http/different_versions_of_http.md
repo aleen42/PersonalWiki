@@ -1,4 +1,4 @@
-## Different versions of HTTP [Back](../JavaScript.md)
+## Different versions of HTTP [Back](../http.md)
 
 Since the HTTP (Hypertext Transfer Protocol) released in 1991 with version 0.9, it has been developed into different versions like HTTP/1.0, HTTP/1.1, HTTP/2.0 or even HTTP/3.0 recently. And this note has marked down how it developed, and for what.
 
@@ -20,7 +20,7 @@ In HTTP/1.0, the main headers for caching ([**304**, *Not Modified*](../http_rep
 
 #### 2.2 Connection Enhancement
 
-In HTTP/1.0, most responses are quite huge for client to receive, and the transferring can not resume. For enhancement, HTTP/1.1 has used `Range` header to support receiving parts of responses ([**206**, *Partial Contents*](../http_reponse_status_code/http_reponse_status_code.md#206-partial部分-content)).
+In HTTP/1.0, most responses are quite huge for client to receive, and the transferring can not resume. For enhancement, HTTP/1.1 has used `Range` header to support receiving parts of responses ([**206**, *Partial Contents*](../http_reponse_status_code/http_reponse_status_code.md#206-partial-content)).
 
 #### 2.3 New Status Code
 
