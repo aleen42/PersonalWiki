@@ -3,7 +3,7 @@ on:
   push:
     branches:
     - docs
-
+concurrency: building
 jobs:
   build:
 
