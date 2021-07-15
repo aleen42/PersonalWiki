@@ -1,4 +1,4 @@
-## Building and Deploying [Back](./../high_performance.md)
+## Building and Deploying [Back](../high_performance.md)
 
 While part of the work is done during the design and development cycles, the build and deployment phase is also essential and often overlooked, which will always result in performance problems.
 
@@ -6,12 +6,12 @@ This chapter mainly discusses how to efficiently assemble and deploy a JavaScrip
 
 ### 1. JavaScript Minification
 
-JavaScript minification is the process by which a JavaScript file is stripped of everything that does not affect its execution, such as comments or unnecessary whitespace. With reducing such things in the process, a JavaScript file can be smaller to download faster.
+JavaScript's minification is the process by which a JavaScript file is stripped of everything that does not affect its execution, such as comments or unnecessary whitespace. With reducing such things in the process, a JavaScript file can be smaller to download faster.
 
 Despite comments and unnecessary whitespace, [the YUI Compressor](http://developer.yahoo.com/yui/compressor/), as a higher level of compaction, has also offered some features for reducing sizes of JavaScript files:
 
 - Replace local variable names with shorter one
-- Replace bracket notation with dot notation whenever possible (eg. **foo['bar'] => foo.bar**)
+- Replace bracket notation with dot notation whenever possible (eg. **foo\['bar'] => foo.bar**)
 - Replace quoted literal property names whenever possible (eg. **{ 'foo': 'bar'} => { foo: 'bar' }**)
 - Replace escaped quotes (eg. **'aaa\'bbb' => "aaa'bbb"**)
 - Constant folding (eg. **'foo' + 'bar' => 'foobar'**)
