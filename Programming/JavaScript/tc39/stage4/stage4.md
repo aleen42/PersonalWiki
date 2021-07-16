@@ -64,7 +64,7 @@ console.log(2 ** (1 / 2)); /** => 1.4142135623730951 */
 >
 > https://github.com/tc39/proposal-object-values-entries
 
-As for we can get all keys of an JavaScript object through `Object.keys`, why can't we use some supported methods to export all values or even key-value pairs of such an object?
+As for we can get all keys of a JavaScript object through `Object.keys`, why can't we use some supported methods to export all values or even key-value pairs of such an object?
 
 ```js
 console.log(Object.keys({a: 1, b: 2})); /** => ['a', 'b'] */
@@ -86,7 +86,7 @@ String.prototype.padEnd = function (maxLength: number, fillString?: string): str
 >
 > https://github.com/tc39/proposal-string-pad-start-end
 
-To support padding a string with given minimal length of such a string.
+To support padding a string with a given minimal length of such a string.
 
 ```js
 console.log('abc'.padStart(4)); /** => " abc" */
@@ -109,13 +109,13 @@ Object.getOwnPropertyDescriptors = function <T>(o: T): {
 >
 > https://github.com/tc39/proposal-object-getownpropertydescriptors
 
-Since we can get descriptor from an object with given key, why can't we get all descriptors of an object with nature methods without looping each time?
+Since we can get a descriptor from an object with a given key, why can't we get all descriptors of an object with natural methods without looping each time?
 
 ```js
 const obj = {a: 1};
 
 console.log(Object.keys(obj).reduce((descriptors, key) => Object.assign(descriptors, {
-	[key]: Object.getOwnPropertyDescriptor(obj, key),
+   [key]: Object.getOwnPropertyDescriptor(obj, key),
 }), {}));
 /** => {a: {value: 1, writable: 1, enumerable: true, configurable: true}} */
 console.log(Object.getOwnPropertyDescriptors(obj));
@@ -127,13 +127,13 @@ The following illustrative snippet has shown more usages around such a nature me
 ```js
 /** shallow clone */
 const shallowClone = obj => Object.create(
-	Object.getPrototypeOf(obj),
-	Object.getOwnPropertyDescriptors(obj)
+   Object.getPrototypeOf(obj),
+   Object.getOwnPropertyDescriptors(obj)
 );
 /** shallow merge */
 const shallowMerge = (target, source) => Object.defineProperties(
-	target,
-	Object.getOwnPropertyDescriptors(source)
+   target,
+   Object.getOwnPropertyDescriptors(source)
 );
 
 /** mixin solution */
@@ -156,11 +156,11 @@ Sometimes it is common to toggle function parameters with new lines for prettier
 
 ```js
 function test(
-	param1,
-	param2,
-	param3
+   param1,
+   param2,
+   param3
 ) {
-	/** ... */
+   /** ... */
 }
 ```
 
@@ -169,22 +169,22 @@ With this proposal, you can add trailing commas in the list of parameters like t
 ```js
 /** trailing commas in function parameter lists */
 function test(
-	param1,
-	param2,
-	param3,
+   param1,
+   param2,
+   param3,
 ) {
-	/** ... */
-	/** trailing commas in objects */ 
-	const obj = {
-		a: 1,
-		b: 2,
+   /** ... */
+   /** trailing commas in objects */ 
+   const obj = {
+      a: 1,
+      b: 2,
     };
-	
-	/** trailing commas in arrays */
-	const arr = [
-		1,
-		2,
-	];
+   
+   /** trailing commas in arrays */
+   const arr = [
+      1,
+      2,
+   ];
 }
 ```
 
@@ -200,17 +200,17 @@ More detailed for asynchronous programming at [here](../../async_programming/asy
 
 ```js
 const tasks = [
-	() => new Promise(resolve => setTimeout(resolve.bind(0, 1), 1000)).then(console.log),
-	() => Promise.resolve(2).then(console.log),
+   () => new Promise(resolve => setTimeout(resolve.bind(0, 1), 1000)).then(console.log),
+   () => Promise.resolve(2).then(console.log),
 ];
 
 (async function () {
-	await tasks[0]();
-	await tasks[1]();
+   await tasks[0]();
+   await tasks[1]();
 })(); /** => 1, 2 */
 
 (() => {
-	tasks[0]();
+   tasks[0]();
     tasks[1]();
 })(); /** => 2, 1 */
 ```
@@ -233,12 +233,12 @@ const tasks = [
 >
 > https://github.com/tc39/proposal-template-literal-revision
 
-When it comes to template literal, there is a way we can handle string template with tagged methods like the following snippet:
+When it comes to a template literal, there is a way we can handle string templates with tagged methods like the following snippet:
 
 ```js
 function tag(strings, ...expressions) {
-	console.log(strings);
-	console.log(expressions);
+   console.log(strings);
+   console.log(expressions);
 }
 
 /** => ["That is ", " and ", "", raw: Array(3)] */
@@ -259,7 +259,7 @@ latex`
 `;
 ```
 
-That is because `\u` is the start of a unicode escape in JavaScript, like `\u00FF` or `\u{42}`, resulting in considering `\unicode` as illegal. The similar cases also happen with `\x`, `\0100`. After this proposal, tagged template literals will remove the restriction.
+That is because `\u` is the start of a Unicode escape in JavaScript, like `\u00FF` or `\u{42}`, resulting in considering `\unicode` as illegal. Similar cases also happen with `\x`, `\0100`. After this proposal, tagged template literals will remove the restriction.
 
 ```js
 tag`\unicode`; /** works fine */
@@ -321,7 +321,7 @@ console.log(/^.$/m.test(`
 >
 > https://github.com/tc39/proposal-regexp-named-groups
 
-If you are familiar with regular expressions in JavaScript, you should know how to use capturing groups for matching and storing what we need. However, the order of multiple groups is always confusing especially when we have a sufficient complicated expressions. After this proposal, we can name groups without knowing the order any more.
+If you are familiar with regular expressions in JavaScript, you should know how to use capturing groups for matching and storing what we need. However, the order of multiple groups is always confusing especially when we have a sufficient complicated expression. After this proposal, we can name groups without knowing the order anymore.
 
 ```js
 console.log(/(\d{4})-(\d{2})-(\d{2})/.exec('2019-07-15'));
@@ -343,19 +343,19 @@ Certainly, there are some advanced usages as the proposal specified:
 2. references to capturing groups within replacement:
     ```js
     console.log('2019-07-15'.replace(
-	    /(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})/,
-	    '$<year>/$<month>/$<day>'
+       /(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})/,
+       '$<year>/$<month>/$<day>'
     )); /** => 2019/07/15 */
 
     console.log('2019-07-15'.replace(
         /(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2})/,
         (...args) => {
-        	const {day, month, year} = args[args.length - 1];
-        	return `${year}/${month}/${day}`;
+           const {day, month, year} = args[args.length - 1];
+           return `${year}/${month}/${day}`;
         })); /** => 2019/07/15 */
     ```
 
-So why are matched values stored in a property named `groups`, but not the result itself? Obviously, it is helpful for solving the problem of naming conflicts. If there are no named capturing groups, the value of such a property should be `undefined`.
+So why are matched values stored in a property named `groups`, but not the result itself? It helps solve the problem of naming conflicts. If there are no named capturing groups, the value of such a property should be `undefined`.
 
 When it comes to references, the `\k<name>` syntax may have compatible problems when you want to match a literal string `"k<name>"`. In such a case, the result depends on whether or not the expression has a named group, `name`. If it does has, it should be a reference.
 
@@ -393,14 +393,14 @@ console.log({a: 1, b: 2, ...{x: 3, y: 4}}); /** => {a: 1, b: 2, x: 3, y: 4} */
 >
 > https://github.com/tc39/proposal-regexp-lookbehind
 
-With lookahead assertions (`(?!...)`) supported before in JavaScript, we can easily find a word which is not a specified one as mentioned in [the note](../../regular/words_lines_special/words_lines_special.md#find-all-except-a-specific-word). However, the language does not support lookbehind assertions to do this in a reversed way as [another note](../../regular/words_lines_special/words_lines_special.md#find-any-word-not-preceded-by-a-specific-word) said. Since that proposal, we can also do this easily by using `(?<=...)`.
+With lookahead assertions (`(?!...)`) supported before in JavaScript, we can easily find a word which is not a specified one as mentioned in [the note](../../regular/words_lines_special/words_lines_special.md#find-all-except-a-specific-word). However, the language does not support look behind assertions to do this in a reversed way as [another note](../../regular/words_lines_special/words_lines_special.md#find-any-word-not-preceded-by-a-specific-word) said. Since that proposal, we can also do this easily by using `(?<=...)`.
 
-To clearly know the meaning of assertions in JavaScript regular expressions, I have refereed to the example of MDN:
+To know the meaning of assertions in JavaScript regular expressions, I have referred to the example of MDN:
 
 1. Lookahead assertions (`/x(?=y)/`): Matches "x" only if "x" is followed by "y".
 2. Negative lookahead assertions (`/x(?!y)/`): Matches "x" only if "x" is not followed by "y".
 3. Lookbehind assertions (`/(?<=y)x/`): Matches "x" only if "x" is preceded by "y".
-4. Negative lookbehind assertions (`/(?<!y)x/`): Matches "x" only if "x" is not preceded by "y".
+4. Negative look behind assertions (`/(?<!y)x/`): Matches "x" only if "x" is not preceded by "y".
 
 ### 14. RegExp Unicode Property Escapes
 
@@ -410,7 +410,7 @@ To clearly know the meaning of assertions in JavaScript regular expressions, I h
 >
 > https://github.com/tc39/proposal-regexp-unicode-property-escapes
 
-With this proposal, developers can access the set of unicode symbols, that are used exclusively in some specified script, in a regular expression by setting with a Unicode Property `\p{...}` and `\P{...}` with `u` flags:
+With this proposal, developers can access the set of Unicode symbols, that are used exclusively in some specified script, in a regular expression by setting with a Unicode Property `\p{...}` and `\P{...}` with `u` flags:
 
 ```js
 /\p{UnicodePropertyName=UnicodePropertyValue}/u
@@ -459,7 +459,7 @@ Since we can use async / await as [the proposal](#7-async--await) said, we also 
 
 1. the **AsyncIterator** interface
 
-    An async iterator is much like an iterator, except that its next() method returns a promise for a `{value, done}` pair.
+    An async iterator is much like an iterator, except that the `next()` method returns a promise for a `{value, done}` pair.
 
     ```js
     const {value, done} = syncIterator.next();
@@ -472,9 +472,9 @@ Since we can use async / await as [the proposal](#7-async--await) said, we also 
     ```js
     const iterator = {
         [Symbol.iterator]: function* () {
-        	yield 1;
-        	yield 2;
-        	yield 3;
+           yield 1;
+           yield 2;
+           yield 3;
         },
     };
 
@@ -487,9 +487,9 @@ Since we can use async / await as [the proposal](#7-async--await) said, we also 
     ```js
     const asyncIterator = {
         [Symbol.asyncIterator]: function* () {
-        	yield 1;
-        	yield 2;
-        	yield 3;
+           yield 1;
+           yield 2;
+           yield 3;
         },
     };
 
@@ -516,21 +516,21 @@ Since we can use async / await as [the proposal](#7-async--await) said, we also 
 
     * When called, async generator functions return an object, an *async generator* whose methods (`next`, `throw`, and `return`) return promises for `{ value, done }`, instead of directly returning `{ value, done }`. This automatically makes the returned async generator objects *async iterators*.
     * `await` expressions and `for`-`await`-`of` statements are allowed.
-    * The behavior of `yield*` is modified to support delegation to async iterables.
+    * The behaviour of `yield*` is modified to support delegation to async iterable.
 
     For example:
 
     ```js
     async function* readLines(path) {
-	    let file = await fileOpen(path);
+       let file = await fileOpen(path);
     
-	    try {
-	    	while (!file.EOF) {
-	    		yield await file.readLine();
-	    	}
-	    } finally {
-	    	await file.close();
-	    }
+       try {
+          while (!file.EOF) {
+             yield await file.readLine();
+          }
+       } finally {
+          await file.close();
+       }
     } 
     ```
 
@@ -599,7 +599,7 @@ console.log(Symbol.for('foo').description); /** => "foo" */
 A proposal of a revision at `Function.prototype.toString`:
 
 - ensure that the string's parse contains the same function body and parameter list as the original
-- for functions defined using ECMAScript code, `toString` must return source text slice from beginning of first token to end of last token matched by the appropriate grammar production
+- for functions defined using ECMAScript code, `toString` must return source text slice from beginning of the first token to end of the last token matched by the appropriate grammar production
 - for built-in function objects and [bound function](https://tc39.github.io/ecma262/#sec-bound-function-exotic-objects) exotic objects, `toString` must not return anything other than [NativeFunction](https://tc39.es/Function-prototype-toString-revision/#prod-NativeFunction)
 - for callable objects which were not defined using ECMAScript code, `toString` must return [NativeFunction](https://tc39.es/Function-prototype-toString-revision/#prod-NativeFunction)
 - for functions created dynamically (through the Function and GeneratorFunction constructors), `toString` must synthesise a source text
@@ -685,7 +685,7 @@ console.log([{a: 1}, {a : [2, [3]]} , {a:4 }].flatMap(({a}) => a)); /** => [1, 2
 >
 > https://github.com/tc39/String.prototype.matchAll
 
-With this proposal, we don't need to use a `RegExp` object to execute matching some patterns within a string anymore. For Example, if we want to match all `test` keyword within a sentence, we may implement the requirement like this before:
+With this proposal, we don't need to use a `RegExp` object to execute matching some patterns within a string anymore. For Example, if we want to match all `test` keywords within a sentence, we may implement the requirement like this before:
 
 ```js
 const sentence = 'This is a test case where we can test a case of matching several patterns.';
@@ -694,7 +694,7 @@ const matches = [];
 
 let match;
 while (match = regex.exec(sentence)) {
-	matches.push(match);
+   matches.push(match);
 }
 
 console.log(matches); /** => [["test", index: 10, input: "xxx", groups: undefined], ["test", index: 33, input: "xxx", groups: undefined]] */
@@ -722,7 +722,7 @@ As we know, `import` cannot be called dynamically like this before:
 
 ```js
 if (es3) { /** Syntax Error: statement expected */ 
-	import 'core-js/shim';
+   import 'core-js/shim';
 }
 ```
 
@@ -730,7 +730,7 @@ Since this proposal, we can use `import` statement like calling a function, whic
 
 ```js
 if (es3) {
-	import('core-js/shim').then(module => { /** do something with the module */ });
+   import('core-js/shim').then(module => { /** do something with the module */ });
 }
 ```
 
@@ -841,7 +841,7 @@ In comparison with `Promise.all()`, `Promise.allSettled()` returns a promise tha
 
 ```js
 (async () => {
-	const successful = (await Promise.allSettled([fetch('source1'), fetch('source2')])).filter(/* promise = */({status}) => status === 'fulfilled');
+   const successful = (await Promise.allSettled([fetch('source1'), fetch('source2')])).filter(/* promise = */({status}) => status === 'fulfilled');
 })();
 ```
 
@@ -849,9 +849,9 @@ There is an example to show the exact difference between `Promise.all()` and `Pr
 
 ```js
 (async () => {
-	const requests = ['source1', 'source2'];
+   const requests = ['source1', 'source2'];
     
-	try {
+   try {
         await Promise.all(requests);
         console.log('All requests have completed; now I can remove the loading indicator.');
     } catch {
@@ -879,21 +879,21 @@ In JavaScript, it should be a hot topic to discuss how to access the global obje
 - Web: `window (Window)`, `self (WindowProxy)`, `this (WindowProxy)`, or `frames (WindowProxy)`
 - Node: `global` (not available in shell-like V8's `d8`, or JavaScript Core's `jsc`), or `this`
 
-In a global standalone function, we can access the global object via `this`, but not in module function or strict mode within a function (`use strict;`). In such a case, we can also access the global object via `Function('return this')()`, although it can result in performance problem like using `eval`. However, this way is still not available in some [CSP settings](https://github.com/paulmillr/es6-shim/issues/301), like Chrome apps.
+In a global standalone function, we can access the global object via `this`, but not in module function or strict mode within a function (`use strict;`). In such a case, we can also access the global object via `Function('return this')()`, although it can result in performance problems like using `eval`. However, this way is still not available in some [CSP settings](https://github.com/paulmillr/es6-shim/issues/301), like Chrome apps.
 
 Here is a snippet to make a conclusion about what mentioned above:
 
 ```js
 function getGlobal() {
-	return typeof window != 'undefined' ? window /** Web */
-	    : (typeof process === 'object' && typeof require === 'function' && typeof global === 'object') ? global /** Node */
-			: this || Function('return this')(); /** module function / strict mode */
+   return typeof window != 'undefined' ? window /** Web */
+       : (typeof process === 'object' && typeof require === 'function' && typeof global === 'object') ? global /** Node */
+         : this || Function('return this')(); /** module function / strict mode */
 }
 ```
 
 So what is the difference between `window` and `globalThis`? As the page changes, `globalThis` maintains the same identity of `window`, while `window` is swapped out.
 
-Take an example in the proposal, where there are two sources of frame, `a.html` and `b.html`.
+Take an example in the proposal, where there are two sources of the frame, `a.html` and `b.html`.
 
 ```html
 <!-- a.html -->
@@ -931,7 +931,7 @@ When we simulate that the page changes between two contents, we will find that `
 </script>
 ```
 
-In my opinion, `globalThis` is a special existence which stands for a higher level of global environments between different frames. Sometimes we may not distinguish it from so-called "global object" easily.
+In my opinion, `globalThis` is a special existence that stands for a higher level of global environments between different frames. Sometimes we may not distinguish it from the so-called "global object" easily.
 
 ### 30. `for-in` mechanics
 
@@ -1012,7 +1012,7 @@ options.index = index ?? -1; /** fallback to -1 only when index is `null` or `un
 
 Since ES6, there are ES modules corresponding to CommonJS modules in NodeJS, and in 2018, we can write a module with `.mjs` extension file, and require them with `<script type="module" src="xxx.mjs"></script>`.
 
-However, some meta information of ES modules still miss before this proposal like `__dirname`, `__filename`, `module` in CommonJS modules. With `import.meta` we can get some meta information of current module like using `import.meta.url` for getting the url of current module; `import.meta.scriptElement.dataset` for getting `data-` attribute specified in the script tag.
+However, some meta information of ES modules still misses before this proposal like `__dirname`, `__filename`, `module` in CommonJS modules. With `import.meta` we can get some meta information of current module like using `import.meta.url` for getting the URL of current module; `import.meta.scriptElement.dataset` for getting `data-` attribute specified in the script tag.
 
 ## ECMAScript 2021
 
@@ -1048,7 +1048,7 @@ console.log('a+b+c'.replaceAll(/\+/g, '-')); /** => "a-b-c" */
 >
 > https://github.com/tc39/proposal-promise-any
 
-The proposal can ben apparently described with a table:
+The proposal can be apparently described with a table:
 
 | name                                          | description                                             |
 |:----------------------------------------------|:--------------------------------------------------------|
@@ -1086,7 +1086,7 @@ const weakCacheOf = fn => {
 const getCachedImage = weakCacheOf(getImage);
 ```
 
-`FinalizationRegistry` mainly aims to help developers to know whether an specified object is reclaimed during GC through a callback. For example:
+`FinalizationRegistry` mainly aims to help developers to know whether a specified object is reclaimed during GC through a callback. For example:
 
 ```js
 const registry = new FinalizationRegistry(val => {
@@ -1100,7 +1100,7 @@ registry.register(objectA, 'The Object A');
 registry.register(objectB, 'The Object B');
 ```
 
-If you don't want to observe them later, you may need to pass a third value, which is something like registration token:
+If you don't want to observe them later, you may need to pass a third value, which is something like a registration token:
 
 ```js
 registry.register(objectC, 'The Object C', objectC);
@@ -1161,7 +1161,7 @@ a ?? (a = b);
 >
 > https://github.com/tc39/proposal-numeric-separator
 
-Simply, numeric separators help readers to identity the digit of a number. That's like we always use `1,000,000,000` to describe 1 billion rather than `1000000000`.
+Simply, numeric separators help readers to identify the digit of a number. That's like we always use `1,000,000,000` to describe 1 billion rather than `1000000000`.
 
 This proposal has stated that using underscores notation (`_`) to separate for us:
 
@@ -1184,7 +1184,7 @@ console.log(0o1234_5670); /** => 2739128 */
 >
 > https://github.com/tc39/proposal-private-methods, https://github.com/tc39/proposal-class-fields, https://github.com/tc39/proposal-static-class-features
 
-The major features of those proposals has respectively stated:
+The major features of those proposals have respectively stated:
 
 - Public and private instance fields of Classes
 
@@ -1192,20 +1192,20 @@ The major features of those proposals has respectively stated:
 
     ```js
     class X {
-	    constructor() {
-	    	this.foo = 'public instance';
-	    }
-	    
-	    method() {
-	    	return this.foo;
-	    }
+       constructor() {
+          this.foo = 'public instance';
+       }
+       
+       method() {
+          return this.foo;
+       }
     }
     
     class Y extends X {
-	    constructor() {
-	    	super();
-	    	this.foo = void 0; // extend with undefined
-	    }
+       constructor() {
+          super();
+          this.foo = void 0; // extend with undefined
+       }
     }
     
     console.log((new Y()).method()); // => undefined
@@ -1215,16 +1215,16 @@ The major features of those proposals has respectively stated:
 
     ```js
     class X {
-	    foo = 'public instance';
+       foo = 'public instance';
         #bar = 'private instance'; // private instance fields
         
         method() {
-        	return [this.foo, this.#bar];
+           return [this.foo, this.#bar];
         }
     }
     
     class Y extends X {
-	    foo; // extend with undefined 
+       foo; // extend with undefined 
     }
     
     console.log((new Y()).method()); // => [undefined, "private instance"]
@@ -1234,17 +1234,17 @@ The major features of those proposals has respectively stated:
 
     ```js
     class X {
-	    #bar = 'private instance'; // private instance fields
-	    
-	    get #b() { return this.#bar; }
-	    set #b(value) {
-	    	// ...
-	    	this.#bar = value;
-	    }
-	    
-	    #method() {
-	    	return this.#b;
-	    }
+       #bar = 'private instance'; // private instance fields
+       
+       get #b() { return this.#bar; }
+       set #b(value) {
+          // ...
+          this.#bar = value;
+       }
+       
+       #method() {
+          return this.#b;
+       }
     }
     
     class Y extends X {}
@@ -1286,7 +1286,7 @@ The major features of those proposals has respectively stated:
 >
 > https://github.com/tc39/proposal-regexp-match-indices
 
-This proposal has provided additional information about the start and end indices of captured substrings relative to the start of the input string, when specifying RegExp with `d` notation.
+This proposal has provided additional information about the start and end indices of captured substrings relative to the start of the input string when specifying RegExp with `d` notation.
 
 ```js
 const {indices} = /a+(?<Z>z)?/d.exec('xaaaz');
@@ -1312,4 +1312,55 @@ After the proposal, we don't need to wrap top-level `await` calling inside an `a
 })();
 
 await Promise.resolve(1); // => 1
+```
+
+### 42. Ergonomic brand checks for Private Fields
+
+> Author: Jordan Harband
+>
+> Expected Publication Year: 2022
+>
+> https://github.com/tc39/proposal-private-fields-in-in
+
+To avoid throwing error when using `this.#brand` to detect whether the private field has existed:
+
+```js
+class C {
+    get #brand() {
+        throw new Error('exception');
+    }
+    
+    static isBrandExisted(instance) {
+        try {
+            instance.#brand;
+            return true;
+        } catch {
+            return false;
+        }
+    }
+}
+
+console.log(C.isBrandExisted(new C())); // => false
+```
+
+The proposal has described another way to detect with `in` notation:
+
+```js
+class C {
+    get #brand() {
+        throw new Error('exception');
+    }
+    
+    static isBrandExisted(instance) {
+        return #brand in instance;
+    }
+}
+
+console.log(C.isBrandExisted(new C())); // => true
+```
+
+Remember that it obeys the rule of OOP: Cannot access the private field outside the class' lexical scope.
+
+```js
+console.log(#brand in new C()); // => Uncaught SyntaxError: Private field '#brand' must be declared in an enclosing class
 ```
