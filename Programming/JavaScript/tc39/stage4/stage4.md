@@ -1215,7 +1215,7 @@ The major features of those proposals have respectively stated:
 
     ```js
     class X {
-       foo = 'public instance';
+        foo = 'public instance';
         #bar = 'private instance'; // private instance fields
         
         method() {
