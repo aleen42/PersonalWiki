@@ -10,14 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
       with:
         ref: docs
+        fetch-depth: 0 # all history for building
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '13'
     - name: Configure
       run: |
+        git version
         git clone --depth=1 --branch=build https://github.com/aleen42/PersonalWiki.git temp
         mv -f temp/* ./
         mv temp/.bookignore ./
