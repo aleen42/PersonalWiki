@@ -15,6 +15,7 @@
     "plugins": [
         "github",
         "github-edit",
+        "github-search",
         "sharing",
         "ga",
         "advanced-emoji",
@@ -33,6 +34,10 @@
         "github-edit": {
             "repo": "aleen42/PersonalWiki",
             "branch": "docs"
+        },
+        "github-search": {
+            "repo": "aleen42/PersonalWiki",
+            "token": "8d3f690f0866e95efa012b8803db61fd15b9057e"
         },
         "sharing": {
             "facebook": true,
