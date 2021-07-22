@@ -30,9 +30,11 @@ jobs:
         npm install --no-save --no-audit
         npm run gitbook:install
         npm run gitbook:build
+      env:
+        ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
     - name: Deploy
       uses: aleen42/github-pages-deploy-action@master
       env:
-        ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+        ACCESS_TOKEN: ${{secrets.ACTION_TOKEN}}
         BRANCH: gh-pages
         FOLDER: gh-pages
