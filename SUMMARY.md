@@ -487,6 +487,7 @@
         * [DSP](Embedded_System/dsp/dsp.md)
         * [Autogen](Embedded_System/autogen/autogen.md)
         * [Store Resource](Embedded_System/store/store.md)
+        * [The design of PARWAN](Embedded_System/PARWAN/PARWAN.md)
     * [Software Architecture](Architecture/Architecture.md)
         * [Style](Architecture/Style/Style.md)
             * [Dataflow](Architecture/Style/dataflow/dataflow.md)

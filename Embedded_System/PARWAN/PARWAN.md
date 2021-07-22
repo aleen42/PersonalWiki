@@ -1,39 +1,82 @@
-## PARWAN Picture
+## The design of PARWAN [Back](../Embedded_System.md)
 
-- **TOP** DESIGN[[**Orginal View**](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/PARWAN_DESIGN\(top%20design\).png)]
+### **TOP** DESIGN
 
-<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/PARWAN_DESIGN(top%20design).png" target="_blank" alt="PARWAN_TOP_DESIGN" title="點擊原圖"><img src="./PARWAN_DESIGN(top design).png"></a>
+![PARWAN_TOP_DESIGN](./PARWAN_TOP_DESIGN.png)
 
-- **DOWN** DESIGN[[**Orginal View**](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/PARWAN_DESIGN.png)]
+### **DOWN** DESIGN
 
-<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/PARWAN_DESIGN.png" target="_blank" alt="PARWAN_DOWN_DESIGN" title="點擊原圖"><img src="./PARWAN_DESIGN.png"></a>
+![PARWAN_DOWN_DESIGN](./PARWAN_DOWN_DESIGN.png)
 
-- **7** Components
-	- ALU(Arithmetic Logic Unit)<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/ALU.png" target="_blank" alt="PARWAN_ALU" title="點擊原圖"><img src="./ALU.png"></a>
+### **7** Components
 
-	- AC(Accumulator)<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/AC.png" target="_blank" alt="PARWAN_AC" title="點擊原圖"><img src="./AC.png"></a>
+#### ALU (Arithmetic Logic Unit)
 
-	- SHU(Shifter Unit)<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/SHU.png" target="_blank" alt="PARWAN_SHU" title="點擊原圖"><img src="./SHU.png"></a> 
+![PARWAN_ALU](./ALU.png)
 
-	- SR(Shifter Register)<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/SR.png" target="_blank" alt="PARWAN_SR" title="點擊原圖"><img src="./SR.png"></a> 
+#### AC (Accumulator)
 
-	- IR(Instruction Register)<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/IR.png" target="_blank" alt="PARWAN_IR" title="點擊原圖"><img src="./IR.png"></a> 
+![PARWAN_AC](./AC.png)
 
-	- PC(Program Counter)<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/PC.png" target="_blank" alt="PARWAN_PC" title="點擊原圖"><img src="./PC.png"></a> 
+#### SHU (Shifter Unit)
 
-	- MAR(Memory Address Register)<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/MAR.png" target="_blank" alt="PARWAN_MAR" title="點擊原圖"><img src="./MAR.png"></a> 
+![PARWAN_SHU](./SHU.png)
 
-- **STATE MACHINE** of **Control Section**[[**Orginal View**](https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/Control_Section.png)]
+#### SR (Shifter Register)
 
-<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/Control_Section.png" target="_blank" alt="STATE_MACHINE_OF_CONTROL_SECTION" title="點擊原圖"><img src="./Control_Section.png"></a>
+![PARWAN_SR](./SR.png)
 
-- **9** States
-	- S1<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S1.png" target="_blank" alt="PARWAN_S1" title="點擊原圖"><img src="./S1.png"></a>
-	- S2<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S2.png" target="_blank" alt="PARWAN_S2" title="點擊原圖"><img src="./S2.png"></a>
-	- S3<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S3.png" target="_blank" alt="PARWAN_S3" title="點擊原圖"><img src="./S3.png"></a>
-	- S4<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S4.png" target="_blank" alt="PARWAN_S4" title="點擊原圖"><img src="./S4.png"></a>
-	- S5<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S5.png" target="_blank" alt="PARWAN_S5" title="點擊原圖"><img src="./S5.png"></a>
-	- S6<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S6.png" target="_blank" alt="PARWAN_S6" title="點擊原圖"><img src="./S6.png"></a>
-	- S7<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S7.png" target="_blank" alt="PARWAN_S7" title="點擊原圖"><img src="./S7.png"></a>
-	- S8<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S8.png" target="_blank" alt="PARWAN_S8" title="點擊原圖"><img src="./S8.png"></a>
-	- S9<a href="https://raw.githubusercontent.com/aleen42/PersonalWiki/master/Embedded_System/PARWAN/S9.png" target="_blank" alt="PARWAN_S9" title="點擊原圖"><img src="./S9.png"></a>
+#### IR (Instruction Register)
+
+![PARWAN_IR](./IR.png)
+
+#### PC (Program Counter)
+
+![PARWAN_PC](./PC.png)
+
+#### MAR (Memory Address Register)
+
+![PARWAN_MAR](./MAR.png)
+
+### **STATE MACHINE** of **Control Section**
+
+![STATE_MACHINE_OF_CONTROL_SECTION](./Control_Section.png)
+
+### **9** States
+
+#### State 1
+
+![PARWAN_S1](./S1.png)
+
+#### State 2
+
+![PARWAN_S2](./S2.png)
+
+#### State 3
+
+![PARWAN_S3](./S3.png)
+
+#### State 4
+
+![PARWAN_S4](./S4.png)
+
+#### State 5
+
+![PARWAN_S5](./S5.png)
+
+#### State 6
+
+![PARWAN_S6](./S6.png)
+
+#### State 7
+
+![PARWAN_S7](./S7.png)
+
+#### State 8
+
+![PARWAN_S8](./S8.png)
+
+#### State 9
+
+![PARWAN_S9](./S9.png)
+
