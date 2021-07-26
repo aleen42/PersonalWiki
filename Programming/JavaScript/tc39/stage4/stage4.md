@@ -885,9 +885,9 @@ Here is a snippet to make a conclusion about what mentioned above:
 
 ```js
 function getGlobal() {
-   return typeof window != 'undefined' ? window /** Web */
-       : (typeof process === 'object' && typeof require === 'function' && typeof global === 'object') ? global /** Node */
-         : this || Function('return this')(); /** module function / strict mode */
+    return typeof window != 'undefined' ? window /** Web */
+        : (typeof process === 'object' && typeof require === 'function' && typeof global === 'object') ? global /** Node */
+            : this || Function('return this')(); /** module function / strict mode */
 }
 ```
 
@@ -904,7 +904,7 @@ Take an example in the proposal, where there are two sources of the frame, `a.ht
 ```
 
 ```html
-<!-- a.html -->
+<!-- b.html -->
 <script>
     globalThis.getGlobalThis = () => globalThis;
 </script>
