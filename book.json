@@ -67,20 +67,10 @@
             "embedEmojis": true
         },
         "page-footer": {
-            "isShowIssues": true,
-            "wisdom": "More than a coder, more than a designer",
-            "copyright": "Copyright © aleen42",
-            "style": "symmetrical",
             "repo": "aleen42/PersonalWiki",
             "issueNum": "20",
-            "isShowQRCode": true,
             "timeColor": "var(--color-book-theme)",
-            "utcOffset": "8",
-            "format": "yyyy-MM-dd hh:mm:ss",
-            "signature": "Aleen",
-            "baseUri": "https://wiki.aleen42.com/",
-            "copyrightColor": "#666",
-            "description": "update time:"
+            "baseUri": "https://wiki.aleen42.com/"
         },
         "page-treeview": {
             "copyright": "Copyright © aleen42",
