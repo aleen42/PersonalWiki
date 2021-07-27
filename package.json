@@ -35,6 +35,7 @@
     "gitbook-plugin-theme-aleen42": "aleen42/gitbook-theme",
     "gitbook-plugin-mathjax": "2.0.0",
     "gitbook-plugin-comments-footer": "1.5.7",
+    "gitbook-plugin-math": "1.0.2",
     "gitbook-plugin-mind-maps": "1.1.7",
     "gitbook-plugin-color": "1.0.1"
   }
