@@ -103,5 +103,6 @@ The following table is generated as per the classification of JavaScript framewo
 |                  |[verdaccio](https://github.com/verdaccio/verdaccio) (private npm proxy)|[lerna](https://github.com/lerna/lerna) (manage multiple packages in one project)| |
 |Performance|[fastdom](https://github.com/wilsonpage/fastdom) (DOM performance enhancement)| | |
 |Encryption/Decryption|[js-jsbn](https://github.com/Coremail/jsbn) (RSA)|[sm-crypto](https://github.com/JuneAndGreen/sm-crypto) (SM2/SM3/SM4)| |
+|Rendering|[markmap](https://github.com/aleen42/markmap) (mind maps)|[vexflow](https://github.com/0xfe/vexflow) (stave)|[KaTeX](https://github.com/KaTeX/KaTeX) (math expressions)|
 
 *Note: **strong links** mean there are corresponding notes for those frameworks or libraries.*
