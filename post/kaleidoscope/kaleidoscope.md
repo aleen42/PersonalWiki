@@ -13,7 +13,7 @@ Without reading the article, I have just created it through several processes. H
 
 At the start, I have utilized the feature of `div`, which is an HTML element with a shape of rectangles. By setting the same value for the property `width` and `height` of these elements, I can easily generate a square like the first item from the left side in Figure 1.
 
-Then, to simulate such rotating animation, I would like to use `transform` and `transform-origin` property to implement it, rather than use Canvas, as Canvas is something complicated, which has been always confusing me.
+Then, to simulate such rotating animation, I would like to use the `transform` and `transform-origin` property to implement it, rather than use Canvas, as Canvas is something complicated, which has always been confusing me.
 
 ```css
 .item {
@@ -127,7 +127,7 @@ As we can see, the value of `scale` can be calculated with `sita` as the variabl
     </g>
   </svg>
 </p>
-<p align="center"><strong>Figure 3</strong> Multinested squares</p>
+<p align="center"><strong>Figure 3</strong> Multi-nested squares</p>
 
 Besides, we should also solve the case when a square is embedded with another square, while another square is embedded with another square (Figure 3). To work around this complicated problem of calculation, I have used relative motions instead. For example, I will create this three squares like this:
 
@@ -162,7 +162,7 @@ const stepT = 0.5;
 /** the time (ms) to update the sita value */
 const dur = 10;
 
-/** the number of mutinested squares */
+/** the number of multi-nested squares */
 const num = 6;
 
 /** the current value of theta */
@@ -171,14 +171,14 @@ var theta = 0;
 /** direction to change */
 var dir = 1;
 
-/** append mutinested squares */
+/** append multi-nested squares */
 for (var i = 0; i < num; i++) {
    var div = document.createElement('div');
    div.className = 'rect rect' + (i + 1);
    document.querySelector('.rect' + i).appendChild(div);
 }
 
-/** start to animiate */
+/** start to animate */
 setInterval(function () {
    theta += stepT * dir;
 
@@ -327,7 +327,7 @@ Besides, can such polygons be generated within a circle with a specific radius (
     </g>
   </svg>
 </p>
-<p align="center"><strong>Figure 6</strong> The specific cordinates</p>
+<p align="center"><strong>Figure 6</strong> The specific coordinates</p>
 
 Before calculating, to make it more clear, I have drawn Figure 6 which has shown coordinates for us, and in which the relationship between ***θ*** and ***(x,y)*** is what we should solve later.
 
@@ -398,7 +398,7 @@ for (var i = 0; i < num; i++) {
 
 #### 1.3 How to make it reusable?
 
-Now that we can generate any side of regular polygons (the number of sides should be more than 3), it's time to solve the problem mentioned above? To make it reusable.
+Now we can generate any side of regular polygons (the number of sides should be more than 3), it's time to solve the problem mentioned above? To make it reusable.
 
 <p align="center">
   <svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="400px" height="300px" viewBox="0 0 400 300" enable-background="new 0 0 400 300" xml:space="preserve">
@@ -421,7 +421,7 @@ Now that we can generate any side of regular polygons (the number of sides shoul
     </g>
   </svg>
 </p>
-<p align="center"><strong>Figure 7</strong> The case of equilaterial triangles</p>
+<p align="center"><strong>Figure 7</strong> The case of equilateral triangles</p>
 
 Firstly, we should solve the case in which the number of sides is 3 (Figure 7). Based on the Law of Sine, it's easily to get the following equation:
 
@@ -435,7 +435,7 @@ Then solve it:
 a = \frac {\sin \frac \pi 3} {\sin \theta + \sin (\frac {2 \pi} 3 - \theta)}
 ```
 
-What if the number of sides is 4, 5, 6, and etc.? You may find that all of them should obey the following rule, where ***n*** stands for the number of sides:
+What if the number of sides is 4, 5, 6, etc.? You may find that all of them should obey the following rule, where ***n*** stands for the number of sides:
 
 ```math
 a = \frac {\sin \frac {(n - 2) \pi} n} {\sin \theta + \sin (\frac {2 \pi} n - \theta)}\text{ }\text{ }\text{ }\text{ }\text{ }(n \geqslant 3)
@@ -454,7 +454,7 @@ const num = 7;
 var theta = 0;
 var dir = 1;
 
-/** append mutinested polygons */
+/** append multi-nested polygons */
 for (var i = 0; i < num; i++) {
    parent = createPolygon(parent, sides);
    parent.setAttribute('class', 'polygon polygon' + (i + 1));

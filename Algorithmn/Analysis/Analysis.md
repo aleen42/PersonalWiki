@@ -11,17 +11,21 @@ Main **thoughts** of designing algorithms:
 - [**Random**](./Random/Random.md)
 
 
-<p align="center">
-<img src="./thoughts.png" width="75%">
-</p>
+```math:fontSize=16
+\begin{darray}{cc}
+    DC(Device\ and\ Conquer)\implies DP(Dynamic\ Programming) \implies & Greedy \\
+    & \Darr  \\
+    & Search \\
+    & \Darr  \\
+    & Random \\
+\end{darray}
+```
 
 Sometimes, the **performance** of an algorithm matters so much, when the size of a problem **n** is so big.
 
-<p align="center">
-<img src="./overhead.png" width="75%">
-</p>
+<p align="center"><img src="./overhead.png" width="650px" /></p>
 
-But it's not always true for high performance, when an algorithm depends on what is more important like the following items:
+It is not always true for high performance, when an algorithm depends on what is more important like the following items:
 
 - modularity(模塊性)
 - correctness(正確性)
@@ -44,17 +48,31 @@ There are **three** notations of **time**
 
 - ***θ*** (drop **low-order** terms, and ignore **leading** constants)
 
-<img src="./theta.png">
+```math:fontSize=16
+T(n)=\theta(g(n))\Longleftrightarrow c_1g(n)\le T(n)\le c_2g(n)
+```
 
-<img src="./example.png">
+```math:fontSize=16
+\begin{split}
+T(n) &= 3n^3 + 90n^2 - 5n + 6046 \\
+     &= 3n^3 + 90n^2 - 5n + \theta(1) \\
+     &= 3n^3 + 90n^2 - \theta(n) \\
+     &= 3n^3 + \theta(n^2) \\
+     &= \theta(n^3)
+\end{split}
+```
 
 - ***Ω***
 
-<img src="./Omega.png">
+```math:fontSize=16
+T(n)=\Omega(g(n))\Longleftrightarrow T(n)\ge c_1g(n)
+```
 
 - ***O***
 
-<img src="./O.png">
+```math:fontSize=16
+T(n)=O(g(n))\Longleftrightarrow T(n)\le c_2g(n)
+```
 
 ### 2. Recursive Algorithm
 
@@ -62,22 +80,79 @@ There are **three** notations of **time**
 	- guess
 	- verify
 
-		<img src="./example1.png">
-		=====
-		<img src="./example2.png">
+        ```math:fontSize=16
+        \begin{split}
+        eg1.\ T(n) = T(⌈n / 2⌉) + 1 &\Longrightarrow T(n) = O(lgn) \\
+        to\ verify\ T(n) &\le clgn \\
+        assume\ that\ T(⌈n / 2⌉) &\le clg(⌈n / 2⌉) \\
+        then\ T(n) &\le clg(⌈n / 2⌉) + 1 \\
+        &\lt clg(n / 2 + 1) + 1 \\
+        &= clg(n + 2) - clg2 + 1 \\
+        &= clg(n + 2) - c + 1 \\
+        cause\ there\ is\ a\ low\ ordered\ term\ 2 \\
+        then\ to\ verify\ T(n) &\le clg(n - b) \\
+        assume\ that\ T(⌈n / 2⌉) &\le clg(⌈n / 2⌉ - b) \\
+        then\ T(n) &\le clg(⌈n / 2⌉ - b) + 1 \\
+        &\lt clg(n/2 + 1 - b) + 1 \\
+        &= clg(n + 2 - 2b) - clg2 + 1 \\
+        &= clg(n + 2 - 2b) - c + 1 \\
+        &\le clg(n - b) \\
+        then \begin{cases}
+          n + 2 - 2b \le n - b \\
+          -c + 1 \le 0
+        \end{cases} &\Longrightarrow \begin{cases}
+          b \ge 2 \\
+          c \le 1
+        \end{cases} \\
+        then\ T(n) \le clg(n - b）&\le clgn \\
+        then\ T(n) &= O(lgn) 
+        \end{split}    
+        ```
+
+		```math:fontSize=16
+        \begin{split}
+        eg2.\ T(n) = 3T(⌊n / 2⌋) + n &\Longrightarrow T(n) = O(n ^ {lg3}) \\
+        to\ verify\ T(n) &\le cn ^ {lg3} \\
+        assume\ that\ T(⌊n / 2⌋) &\le c(⌊n / 2⌋) ^ {lg3} \\
+        then\ T(n) &\le 3c(⌊n / 2⌋) ^ {lg3} + n \\
+        &\le 3c(n / 2) ^ {lg3} + n \\
+        &= cn ^ {lg3} + n \\
+        cause\ there\ is\ a\ low\ ordered\ term\ n \\
+        then\ to\ verify\ T(n) &\le c(n ^ {lg3} - n) \\
+        assume\ that\ T(⌊n / 2⌋) &\le c(⌊n / 2⌋) ^ {lg3} - c(⌊n / 2⌋) \\
+        then\ T(n) &\le 3c(⌊n / 2⌋) ^ {lg3} - 3c(⌊n / 2⌋) + n \\
+        &\le 3c(n / 2) ^ {lg3} - 3c(n / 2) + n \\
+        &= cn ^ {lg3} - \frac 3 2 cn + n \\
+        &\le cn ^ {lg3} - cn \\
+        then\ - \frac 3 2 cn + n \le -cn &\Longrightarrow c \ge 2 \\
+        then\ T(n) \le cn ^ {lg3} - cn &\le cn ^ {lg3} \\  
+        then\ T(n) &= O(n ^ {lg3})
+        \end{split}
+        ```
+
 	- solve
 - Recursive Tree: 通過畫出遞歸樹來求解開銷
 
 <img src="./recursive_tree.png" width="80%">
 
-<img src="./recursive_expression.png">
+```math:fontSize=16
+T(n) = f(n) + af(n / b) + a ^ 2 f(n / b ^ 2) + ... + a ^ {log_bn-1} f(n / b ^ {log_bn - 1}) + O(n ^ {log_ba})
+```
 
 - Master:
 
-	<img src="./master.png">
-	
-	- <img src="./master1.png">
+    ```math:fontSize=16
+    T(n) = aT(n / b) + f(n)  
+    ```
 
-	- <img src="./master2.png">
+    ```math:fontSize=16
+    T(n) = \theta(n ^ {log_ba}),\ if\ f(n) = O(n ^ {log_ba - \varepsilon}),\ \varepsilon > 0
+    ```
 
-	- <img src="./master3.png">
+    ```math:fontSize=16
+    T(n) = \theta(n ^ {log_ba}lg ^ {k + 1}n),\ if\ f(n) = O(n ^ {log_ba}lg ^ k n)
+    ```
+
+    ```math:fontSize=16
+    T(n) = \theta(f(n)),\ if\ f(n) = O(n ^ {log_ba + \varepsilon}),\ \varepsilon > 0\ and\ af(n / b) \le cf(n),\ c \lt 1
+    ```
