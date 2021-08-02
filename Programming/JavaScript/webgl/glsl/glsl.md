@@ -48,3 +48,7 @@ A series of creative examples implemented with GLSL:
 - [Raindrop FX](https://github.com/SardineFish/raindrop-fx) (inspired by the "[Rain & Water Effect Experiments](https://github.com/codrops/RainEffect)")
 
     <a href="https://lab.sardinefish.com/rain/" target="_blank"><img src="./images/6.png" width="300px" /></a>
+
+- [Rock the Stage with a Smooth WebGL Shader Transformation on Scroll](https://github.com/Faboolea/shaders-on-scroll)
+
+    <a href="https://tympanus.net/Tutorials/ShadersOnScroll/" target="_blank"><img src="./images/7.jpg" width="300px" /></a>
