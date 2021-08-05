@@ -625,6 +625,7 @@
             * [Sublime Text 3 Pluggin](qa/sublimepluggin.md)
             * [Some commands of SVN](qa/svncommands.md)
             * [Some common problems of ssh keys in GitHub](qa/github_ssh.md)
+            * [Charsets of files](qa/charset_of_files.md)
         * Linux
             * [How to see logs of crontab in Ubuntu](qa/crontablog.md)
             * [How to solve the problem of dpkg sub-process throwing a error in Ubuntu](qa/dpkg.md)
@@ -681,6 +682,7 @@
             * [What's the difference between tilde(~) and caret(^) in package.json?](qa/tlide_and_caret.md)
             * [What's new in HTML5](qa/what_new_html5.md)
             * [Remove DOM elements and restore again?](qa/remove_restore_dom.md)
+            * [Base64 encode or decode in Javascript](qa/base64_js.md)
         * Back-end
             * [How to solve the lib problem when using xampp to shell_exec c++ files](qa/xamppcpp.md)
             * [How to add dns for a server](qa/adddns.md)

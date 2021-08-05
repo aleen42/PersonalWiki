@@ -14,6 +14,7 @@
 - [**Sublime Text 3 Pluggin**](./sublimepluggin.md)
 - [**Some commands of SVN**](./svncommands.md)
 - [**Some common problems of ssh keys in GitHub**](./github_ssh.md)
+- [**Charsets of files**](./charset_of_files.md)
 
 ### Linux
 
@@ -60,7 +61,7 @@
 - [**How to calculate the size of an iFrame**](./iframe_size.md)
 - [**How to detect IE version with JavaScript**](./detect_ie.md)
 - [**How to calculate the width of a scrollbar in browsers**](./scrollbar_width.md)
-- [**How to hide input[file] in IE8**](./hide_inputfile_ie8.md)
+- [**How to hide input\[file\] in IE8**](./hide_inputfile_ie8.md)
 - [**How to build up Android development environment when using Ionic and Cordova to build APP**](./android_ionic_cordova.md)
 - [**How to define a function with dynamical name**](./dynamic_function_name.md)
 - [**How to handle error message and binary response with Axios within a same request**](./axios_download_within_same_request.md)
@@ -75,6 +76,7 @@
 - [**What's the difference between tilde(`~`) and caret(`^`) in package.json?**](./tlide_and_caret.md)
 - [**What's new in HTML5**](./what_new_html5.md)
 - [**Remove DOM elements and restore again?**](./remove_restore_dom.md)
+- [**Base64 encode or decode in Javascript**](./base64_js.md)
 
 ### Back-end
 
