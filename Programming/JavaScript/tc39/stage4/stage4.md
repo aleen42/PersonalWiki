@@ -1406,3 +1406,68 @@ It has described `Object.hasOwn` for you:
 ```js
 Object.hasOwn(obj, 'foo');
 ```
+
+### 45. Class Static Blocks
+
+> Author: Ron Buckton
+>
+> Expected Publication Year: 2022
+>
+> https://github.com/tc39/proposal-class-static-block
+
+The proposal has described a static block statement for us where we can do more complicated initialization of static fields.
+
+1. To evaluate static fields with predefined one inside the class definition:
+
+    ```js
+    // Before the proposal
+    class C {
+        static x = ['foo', 'bar'];
+        static y;
+        static z;
+    }
+    
+    C.y = C.x[0];
+    C.z = C.x[1];
+    ```
+
+    ```js
+    // After the proposal
+    class C {
+        static x = ['foo', 'bar'];
+        static {
+            this.y = this.x[0];
+            this.z = this.x[1];
+        }
+    }
+    ```
+
+2. Access scopes inside the class definition:
+
+    ```js
+    // Before the proposal
+    let getX;
+    class C {
+        #x;
+        constructor(x) { this.#x = {data: x}; }
+        static getX = instance => instance.#x;
+    }
+    
+    getX = C.getX;
+    console.log(getX(new C('instance'))); // => {data: "instance"}
+    ```
+
+    ```js
+    // After the proposal
+    let getX;
+    class C {
+        #x;
+        static getX;
+        constructor(x) { this.#x = {data: x}; }
+        static {
+            getX = this.getX = instance => instance.#x;
+        }
+    }
+    
+    console.log(getX(new C('instance'))); // => {data: "instance"}
+    ```
