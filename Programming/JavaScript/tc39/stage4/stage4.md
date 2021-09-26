@@ -1364,3 +1364,24 @@ Remember that it obeys the rule of OOP: Cannot access the private field outside 
 ```js
 console.log(#brand in new C()); // => Uncaught SyntaxError: Private field '#brand' must be declared in an enclosing class
 ```
+
+
+### 43. `.at()`
+
+> Author: Shu-yu Guo, Tab Atkins
+>
+> Expected Publication Year: 2022
+>
+> https://github.com/tc39/proposal-relative-indexing-method
+
+A proposal to add the`.at()` method to all the basic indexable classes (`Array`, `String`, `TypedArray`), so that we can access negative indexes meaning the position from the last:
+
+```js
+console.log([1, 2, 3].at(0)); // => 1
+console.log(new Int8Array([1, 2, 3]).at(0)); // => 1
+console.log('123'.at(0)); // => "1"
+
+console.log([1, 2, 3].at(-1)); // => 3
+console.log(new Int8Array([1, 2, 3]).at(-1)); // => 3
+console.log('123'.at(-1)); // => "3"
+```
