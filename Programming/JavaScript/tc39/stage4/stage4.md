@@ -1385,3 +1385,24 @@ console.log([1, 2, 3].at(-1)); // => 3
 console.log(new Int8Array([1, 2, 3]).at(-1)); // => 3
 console.log('123'.at(-1)); // => "3"
 ```
+
+### 44. `Object.hasOwn`
+
+> Author: Jamie Kyle
+>
+> Expected Publication Year: 2022
+>
+> https://github.com/tc39/proposal-accessible-object-hasownproperty
+
+With this proposal, you won't need to implement a separated method for checking owned properties of an object like this:
+
+```js
+const hasOwn = Object.prototype.hasOwnProperty
+hasOwn.call(obj, 'foo');
+```
+
+It has described `Object.hasOwn` for you:
+
+```js
+Object.hasOwn(obj, 'foo');
+```
