@@ -16,7 +16,7 @@ Array.prototype.includes = function (searchElement: T, fromIndex?: number): bool
 >
 > https://github.com/tc39/Array.prototype.includes
 
-Sometimes we may need to detect whether an array has am expected element:
+Sometimes we may need to detect whether an array has an expected element:
 
 ```js
 /** without it before */
@@ -27,7 +27,7 @@ console.log([1, 2, 3].includes(1)); /** => true */
 
 And why not use `has` instead? The author said that `has` is used for conceptual "keys", while `includes` is used for conceptual "values". This proposal is just an extension like what `String.prototype.includes` to `String.prototype.indexOf`.
 
-In addition, there is some illustrative examples for this proposal:
+In addition, there are some illustrative examples for this proposal:
 
 ```js
 console.log([1, 2, NaN].includes(NaN)); /** => true */
@@ -152,7 +152,7 @@ console.log(mix({a: 1}).with({b: 2}, {c: 3})); /** => {a: 1, b: 2, c: 3} */
 >
 > https://github.com/tc39/proposal-trailing-function-commas
 
-Sometimes it is common to toggle function parameters with new lines for prettier format:
+Sometimes it is common to toggle function parameters with new lines for a prettier format:
 
 ```js
 function test(
@@ -282,7 +282,7 @@ console.log(/./.test('\u2028')); /** => false - LINE SEPARATOR */
 console.log(/./.test('\u2029')); /** => false - PARAGRAPH SEPARATOR */
 ```
 
-However, there are more line terminator characters are outside the specification, which make developers confusing:
+However, there are more line terminator characters that are outside the specification, which make developers confusing:
 
 ```js
 console.log(/./.test('\u000b')); /** => true - VERTICAL TAB (\v) */
@@ -500,7 +500,7 @@ Since we can use async / await as [the proposal](#7-async--await) said, we also 
 
 2. An asynchronous iteration statement (`for await...of`)
 
-    The proposal introduces that we can iterate some async function in sequential like that:
+    The proposal introduces that we can iterate some async functions in sequential like that:
 
     ```js
     (async () => {
@@ -550,7 +550,7 @@ Before this proposal, you cannot omit the parameter and have to define the varia
 try { /** do something */ } catch (ignore) {}
 ```
 
-After this proposal, you can definitely remove this unused pattern:
+After this proposal, you can remove this unused pattern:
 
 ```js
 try { /** do something */ } catch {}
@@ -761,7 +761,7 @@ const bigInt1 = BigInt(9007199254740991);
 const bigInt2 = BigInt('9007199254740991');
 ```
 
-We can apply arithmetic operations as well as power (`**`) and mod (`%`) operations on `BitInt`, but should with `BitInt` as right value at the same time:
+We can apply arithmetic operations as well as power (`**`) and mod (`%`) operations on `BitInt`, but should with `BitInt` as the right value at the same time:
 
 ```js
 console.log(BigInt(Number.MAX_SAFE_INTEGER) + 1n); /** => 9007199254740992n, OK */
@@ -788,7 +788,7 @@ console.log(2 > 2n); /** => false */
 console.log(2 >= 2n); /** => true */
 ```
 
-Also, `0n` is same as `0`, which will be treated as `false` in conditions:
+Also, `0n` is the same as `0`, which will be treated as `false` in conditions:
 
 ```js
 console.log(0n || 'else'); /** => "else" */
@@ -881,7 +881,7 @@ In JavaScript, it should be a hot topic to discuss how to access the global obje
 
 In a global standalone function, we can access the global object via `this`, but not in module function or strict mode within a function (`use strict;`). In such a case, we can also access the global object via `Function('return this')()`, although it can result in performance problems like using `eval`. However, this way is still not available in some [CSP settings](https://github.com/paulmillr/es6-shim/issues/301), like Chrome apps.
 
-Here is a snippet to make a conclusion about what mentioned above:
+Here is a snippet to conclude what was mentioned above:
 
 ```js
 function getGlobal() {
@@ -910,7 +910,7 @@ Take an example in the proposal, where there are two sources of the frame, `a.ht
 </script>
 ```
 
-When we simulate that the page changes between two contents, we will find that `window.foo` will be lost while `globalThis.foo` not:
+When we simulate that the page changes between two contents, we will find that `window.foo` will be lost while `globalThis.foo` is not:
 
 ```html
 <iframe src="a.html"></iframe>
@@ -1048,7 +1048,7 @@ console.log('a+b+c'.replaceAll(/\+/g, '-')); /** => "a-b-c" */
 >
 > https://github.com/tc39/proposal-promise-any
 
-The proposal can be apparently described with a table:
+The proposal can be described with a table:
 
 | name                                          | description                                             |
 |:----------------------------------------------|:--------------------------------------------------------|
@@ -1211,7 +1211,7 @@ The major features of those proposals have respectively stated:
     console.log((new Y()).method()); // => undefined
     ```
 
-    With the new proposal, you can define it and public one in a more convenient way:
+    With the new proposal, you can define it and a public one in a more convenient way:
 
     ```js
     class X {
