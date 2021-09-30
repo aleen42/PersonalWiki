@@ -73,7 +73,7 @@ The following table is generated as per the classification of JavaScript framewo
 |        |[aes-js](https://github.com/ricmoo/aes-js)| | |
 |Editor|[simplemde-markdown-editor](https://github.com/sparksuite/simplemde-markdown-editor) (Markdown)|[kindeditor](https://github.com/coremail/kindeditor)|[react-ace](https://github.com/securingsincity/react-ace) (based on React)|
 |      |[ace](https://github.com/ajaxorg/ace)|[monaco-editor](https://github.com/microsoft/monaco-editor) (code)|[react-page](https://github.com/react-page/react-page) (based on React)|
-|      |[slate](https://github.com/ianstormtaylor/slate)| | |
+|      |[slate](https://github.com/ianstormtaylor/slate)|[ckeditor5](https://github.com/ckeditor/ckeditor5)| |
 |HTTP / Socket Client|[ky](https://github.com/sindresorhus/ky) (based on window.fetch)|[socket.io-client](https://github.com/socketio/socket.io-client)|[axios](https://github.com/axios/axios)|
 |                    |[request](https://github.com/request/request)| | |
 |Parsers|[psd.js](https://github.com/meltingice/psd.js)|[htmlparser2](https://github.com/fb55/htmlparser2) (HTML and XML)|[mailparser](https://github.com/nodemailer/mailparser) (MIME parser)|
