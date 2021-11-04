@@ -79,11 +79,11 @@ The component was exactly designed as centre alignment, which can be optimized i
    x  x             xxxxxxx __ fh
  x--x----------
  |x    ow     x
- | ---------x               dx = ow/2-fw/2+ow/2*(1-cos)/cos-(oh/2+ow/2)*sin
- | |      x|                   = ow/2*(1-sin*cos)/cos-fw/2-oh/2*sin
+ | ---------x               dx = ow * cos / 2 - oh * sin / 2 - fw / 2
+ | |      x|                   
  | | x  x  |  oh
  | x  x    |
- x -x-------                dy = (oh/2+ow/2)*sin-fh/2+fs*cos
+ x -x-------                dy = fs + oh * cos / 2 + ow * sin / 2 - fh / 2
 ```
 
 Another POC:
