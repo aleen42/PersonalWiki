@@ -67,6 +67,7 @@ The following table is generated as per the classification of JavaScript framewo
 |                  |[GoJS](https://github.com/NorthwoodsSoftware/GoJS)| | |
 |JavaScript Parser|[acorn](https://github.com/acornjs/acorn)|[UglifyJS](https://github.com/mishoo/UglifyJS2)|[jstransform](https://github.com/facebookarchive/jstransform)|
 |                 |[tenko](https://github.com/pvdz/tenko) (support ES6 - ES2020)|[seafox](https://github.com/KFlash/seafox) (up to ES2021)|[escaya](https://github.com/escaya/escaya) (up to ES2021)|
+|                 |[esprima](https://github.com/jquery/esprima)|[espree](https://github.com/eslint/espree)| |
 |Markdown Parser|[marked](https://github.com/markedjs/marked)|[unified](https://github.com/unifiedjs/unified), [remark](https://github.com/remarkjs/remark)|[remarkable](https://github.com/jonschlinkert/remarkable)|
 |               |[markdown-it](https://github.com/markdown-it/markdown-it)| | |
 |Security|[retire.js](https://github.com/RetireJS/retire.js)|[js-xss](https://github.com/leizongmin/js-xss)|[crypto-js](https://github.com/brix/crypto-js)|
