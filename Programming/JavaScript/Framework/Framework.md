@@ -96,6 +96,7 @@ The following table is generated as per the classification of JavaScript framewo
 |Optimization|[cssnano](https://github.com/cssnano/cssnano)|[uglify-js@2](https://github.com/mishoo/UglifyJS-old)|[uglify-js@3](https://github.com/mishoo/UglifyJS) ([uglify-es](https://github.com/mishoo/UglifyJS/tree/harmony) not maintained)|
 |            |[css-blocks](https://github.com/linkedin/css-blocks)|[prettier](https://github.com/prettier/prettier)|[clean-css](https://github.com/jakubpawlowicz/clean-css)|
 |            |[terser](https://github.com/terser/terser) (ES6+)|[babel-minify](https://github.com/babel/minify) (Babel's toolchain)|[optimize-js](https://github.com/nolanlawson/optimize-js)|
+|            |[javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)| | |
 |Template|[nunjucks](https://github.com/mozilla/nunjucks)|[handlebars.js](https://github.com/wycats/handlebars.js)|[mustache.js](https://github.com/janl/mustache.js)|
 |Test|[mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai)|[jest](https://github.com/facebook/jest)|[jasmine](https://github.com/jasmine/jasmine), [karma](https://github.com/karma-runner/karma)|
 |    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|[cypress](https://github.com/cypress-io/cypress) (end to end)|[puppeteer](https://github.com/GoogleChrome/puppeteer) (end to end)|
