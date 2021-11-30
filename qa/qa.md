@@ -91,6 +91,7 @@
 - [**How to get real IP of clients with PHP**](./get_real_ip_with_php.md)
 - [**How to pass a callback function as a parameter in PHP**](./callback_in_php.md)
 - [**How to json_encode Chinese in PHP**](./json_encode_chinese_php.md)
+- [**How to check connecting status**](./check_connecting_status.md)
 - [**What is ETag**](./etag.md)
 - [**What is Cassandra**](./cassandra.md)
 - [**Differences between URL, URI and URN**](./url_uri.md)

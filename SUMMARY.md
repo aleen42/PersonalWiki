@@ -695,6 +695,7 @@
             * [How to get real IP of clients with PHP](qa/get_real_ip_with_php.md)
             * [How to pass a callback function as a parameter in PHP](qa/callback_in_php.md)
             * [How to json_encode Chinese in PHP](qa/json_encode_chinese_php.md)
+            * [How to check connecting status](qa/check_connecting_status.md)
             * [What is ETag](qa/etag.md)
             * [What is Cassandra](qa/cassandra.md)
             * [Differences between URL, URI and URN](qa/url_uri.md)
