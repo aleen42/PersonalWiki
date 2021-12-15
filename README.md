@@ -61,7 +61,7 @@ To show what exactly the wiki is, and what it is mainly about? May be using a mi
 * [**Network**](./Network/Network.md)
 * [**OS**](./OS/OS.md)
 * [**Embedded System**](./Embedded_System/Embedded_System.md)
-* [**Software Architecture**](./Architecture/Architecture.md)
+* [**Software Architecture**](architecture/architecture.md)
 * [**Project Management**](./projectManagement/projectManagement.md)
 * [**Multimedia**](./Multimedia/Multimedia.md)
 * [**Git**](./git/git.md)

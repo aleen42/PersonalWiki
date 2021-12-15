@@ -1,4 +1,5 @@
-##Modeling and Documenting (建模和文檔編寫) [Back](./../Architecture.md)
+## Modeling and Documenting (建模和文檔編寫) [Back](../architecture.md)
+
 - 基於體系結構開發(Architecture-based development)過程中, 將利用**體系結構**作為業務的基礎.
 - The rise of software architecture has resulted from two trends:
 	- Recognition of the importance of **Quality Attributes**.
@@ -9,11 +10,11 @@
 - **Analyse**: decomposing a whole into parts
 - **Design**: deciding how the parts work together
 
-##Architecture-based development proccess
+## Architecture-based development proccess
 
 <img src="./Documenting_proccess.png">
 
-##Documenting
+## Documenting
 
 - **7** principles:
 	1. Write from the point of view of the reader: 根據用戶的角度來寫文檔

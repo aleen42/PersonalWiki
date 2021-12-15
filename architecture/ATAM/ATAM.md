@@ -1,4 +1,4 @@
-## ATAM (Architecture Tradeoff Analyse Method, 架構權衡分析法) [Back](./../Architecture.md)
+## ATAM (Architecture Tradeoff Analyse Method, 架構權衡分析法) [Back](../architecture.md)
 
 - 評價軟件體系結構初稿是否滿足需求.
 - ATAM更多強調質量屬性的評估, 其主要目標是為了識別風險, 分析設計, 明確權衡點並寫入文檔.
