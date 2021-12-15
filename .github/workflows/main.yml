@@ -30,6 +30,7 @@ jobs:
         npm install --no-save --no-audit
         npm run gitbook:install
         npm run gitbook:build
+        node ./config.js
       env:
         ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
     - name: Deploy
