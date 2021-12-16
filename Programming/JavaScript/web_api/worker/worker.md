@@ -16,7 +16,7 @@ For slightly more controlled error handling and backwards compatibility, it is a
 /** detect worker feature */
 if (window.Worker) {
     /**
-     * Worker APIs is availabel
+     * Worker APIs is available
      * ...
      */
 }
@@ -31,7 +31,7 @@ var myWorker = new Worker('worker.js');
 
 #### 3. Sending messages to and from a dedicated worker
 
-Use `postMessage` to send messages to worker
+Use `postMessage` to send messages to the worker
 
 ```js
 first.onchange = function () {
@@ -45,7 +45,7 @@ second.onchange = function () {
 };
 ```
 
-In the worker, we should define a `onmessage` function to capture messages from the main thread, then handle it before sending back:
+In the worker, we should define an `onmessage` function to capture messages from the main thread, then handle it before sending back:
 
 ```js
 onmessage = function (e) {
@@ -124,7 +124,7 @@ squareNumber.onchanged = function () {
 };
 ```
 
-Then, on the worker thread, you have to create a event listner named `connect` to listen to the port:
+Then, on the worker thread, you have to create an event listener named `connect` to listen to the port:
 
 ```js
 self.addEventListener('connect', function (e) {
@@ -140,7 +140,7 @@ self.addEventListener('connect', function (e) {
 });
 ```
 
-Finnally, back in the main thread, we deal with message through `onmessage`:
+Finally, back in the main thread, we deal with the message through `onmessage`:
 
 ```js
 myWorker.port.onmessage = function (e) {
@@ -151,11 +151,11 @@ myWorker.port.onmessage = function (e) {
 
 ### About thread safety
 
-**Worker** API will really create a OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem, because you have no chances to access DOM or any non-threadsafe component.
+**Worker** API will really create an OS thread, which will cause some security problems within concurrency, while **Web Worker** will strictly control this problem because you have no chances to access DOM or any non-threadsafe component.
 
 ### More details about transferring data
 
-Data passed between the main page and workers is **copied**, not shared. Objects are serialized as they're handed to the worker, and subsequently, de-serialized on the other end. The page and worker **do not share the same instance**, so the end result is that **a duplicate** is created on each end. 
+Data passed between the main page and workers is **copied**, not shared. Objects are serialized as they're handed to the worker, and subsequently, de-serialized on the other end. The page and worker **do not share the same instance**, so the end result is that **a duplicate** is created on each end.
 
 ```js
 function transferData(message) {
