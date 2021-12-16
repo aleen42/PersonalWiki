@@ -1471,3 +1471,24 @@ The proposal has described a static block statement for us where we can do more 
     
     console.log(getX(new C('instance'))); // => {data: "instance"}
     ```
+
+### 46. Error Cause
+
+> Author: Chengzhong Wu
+>
+> Expected Publication Year: 2022
+>
+> https://github.com/tc39/proposal-error-cause
+
+This proposal aims to provide an optional parameter for the `Error()` constructor with a `cause` property to help chain errors, so that we can trace them according to the stack.
+
+```js
+try {
+    await fetch('//error').catch(err => {
+        throw new Error('Caused by', {cause: err});
+    });
+} catch (e) {
+    console.log(`${e}\n\t${e.cause}`); // => Error: Caused by
+                                       // =>     TypeError: Failed to fetch  
+}
+```
