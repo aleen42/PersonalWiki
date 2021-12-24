@@ -24,7 +24,7 @@
     "gitbook-plugin-ga": "1.0.1",
     "gitbook-plugin-github": "2.0.0",
     "gitbook-plugin-github-edit": "1.1.0",
-    "gitbook-plugin-github-search": "1.0.7",
+    "gitbook-plugin-github-search": "1.0.8",
     "gitbook-plugin-livereload": "0.0.1",
     "gitbook-plugin-lunr": "aleen42/plugin-lunr#1.2.0-custom",
     "gitbook-plugin-page-footer": "5.4.9",
