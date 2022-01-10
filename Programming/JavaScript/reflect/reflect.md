@@ -1,6 +1,6 @@
 ## Reflect [Back](../JavaScript.md)
 
-**Reflect** is a global built-in projects provided since ES6 for interceptable operations in JavaScript. It provides static methods as the same as those of **proxy handlers**. Like **Math**, it is not a function object, so it is not constructable.
+**Reflect** is a global built-in project provided since ES6 for interceptable operations in JavaScript. It provides static methods as the same as those of **proxy handlers**. Like **Math**, it is not a function object, so it is not constructible.
 
 ```js
 const obj = { a: 1, b: 2 };
@@ -23,7 +23,7 @@ Reflect.deleteProperty(obj, 'c'); // => true, equivalent to `delete obj.c`
 Reflect.has(obj, 'c'); // => false
 ```
 
-Except operating objects, we can also do it with functions:
+Except for operating objects, we can also do it with functions:
 
 ```js
 function test(a, b, c) { console.log(a, b, c); }
