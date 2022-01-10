@@ -36,6 +36,7 @@ Or if you are advanced in this, you may be interested at [Ecma International, Te
 * [**Symbol**](../TypeScript/symbol/symbol.md)
 * [**Generator**](./generator/generator.md)
 * [**Reflect**](./reflect/reflect.md)
+* [**Atomics**](./atomics/atomics.md)
 
 #### Advanced
 
