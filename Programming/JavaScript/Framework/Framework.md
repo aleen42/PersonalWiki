@@ -71,7 +71,7 @@ The following table is generated as per the classification of JavaScript framewo
 |Markdown Parser|[marked](https://github.com/markedjs/marked)|[unified](https://github.com/unifiedjs/unified), [remark](https://github.com/remarkjs/remark)|[remarkable](https://github.com/jonschlinkert/remarkable)|
 |               |[markdown-it](https://github.com/markdown-it/markdown-it)| | |
 |Security|[retire.js](https://github.com/RetireJS/retire.js)|[js-xss](https://github.com/leizongmin/js-xss)|[crypto-js](https://github.com/brix/crypto-js)|
-|        |[aes-js](https://github.com/ricmoo/aes-js)| | |
+|        |[aes-js](https://github.com/ricmoo/aes-js)|[DOMPurify](https://github.com/cure53/DOMPurify)| |
 |Editor|[simplemde-markdown-editor](https://github.com/sparksuite/simplemde-markdown-editor) (Markdown)|[kindeditor](https://github.com/coremail/kindeditor)|[react-ace](https://github.com/securingsincity/react-ace) (based on React)|
 |      |[ace](https://github.com/ajaxorg/ace)|[monaco-editor](https://github.com/microsoft/monaco-editor) (code)|[react-page](https://github.com/react-page/react-page) (based on React)|
 |      |[slate](https://github.com/ianstormtaylor/slate)|[ckeditor5](https://github.com/ckeditor/ckeditor5)| |
