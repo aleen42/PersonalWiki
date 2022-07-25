@@ -677,6 +677,7 @@
             * [How to define a function with dynamical name](qa/dynamic_function_name.md)
             * [How to handle error message and binary response with Axios within a same request](qa/axios_download_within_same_request.md)
             * [How to detect changes upon the disabled attribute of input elements?](qa/detect_disabled_change.md)
+            * [How to avoid XSS when trying to modify HTML content via DOM](qa/avoid_xss_when_trying_to_modify_content_via_dom.md)
             * [Something about scrolling](qa/scroll/scroll.md)
             * [Something about !DOCTYPE](qa/doctype.md)
             * [Something about iframe](qa/iframe.md)
