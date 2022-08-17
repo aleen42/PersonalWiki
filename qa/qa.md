@@ -67,6 +67,7 @@
 - [**How to handle error message and binary response with Axios within a same request**](./axios_download_within_same_request.md)
 - [**How to detect changes upon the disabled attribute of input elements?**](./detect_disabled_change.md)
 - [**How to avoid XSS when trying to modify HTML content via DOM**](avoid_xss_when_trying_to_modify_content_via_dom.md)
+- [**How does JavaScript emulate `private` members?**](./how_does_js_emulate_private_members.md)
 - [**Something about scrolling**](./scroll/scroll.md)
 - [**Something about &lt;!DOCTYPE&gt;**](./doctype.md)
 - [**Something about &lt;iframe&gt;**](./iframe.md)
