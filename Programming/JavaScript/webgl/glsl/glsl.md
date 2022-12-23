@@ -25,30 +25,37 @@ I hope to learn GLSL via "[**\[O`Reilly\] GLSL Essentials**](https://www.oreilly
 
 A series of creative examples implemented with GLSL:
 
-- [Procedural Clouds Extending Three.js' Sprite](https://github.com/dghez/THREEJS_Procedural-clouds)
-
-    <a href="http://tympanus.net/Tutorials/ProceduralClouds/" target="_blank"><img src="./images/1.jpeg" width="300px" /></a>
-
-- [Image Unroll Effects with Three.js](https://github.com/akella/UnrollingImages)
-
-    <a href="https://tympanus.net/Development/UnrollingImages/" target="_blank"><img src="./images/2.jpeg" width="300px" /></a>
-
-- [Animated Heat Distortion Effects with WebGL](https://github.com/lbebber/HeatDistortionEffect)
-
-    <a href="http://tympanus.net/Tutorials/HeatDistortionEffect/" target="_blank"><img src="./images/3.jpg" width="300px" /></a>
-
-- [Rain & Water Effect Experiments](https://github.com/codrops/RainEffect)
-
-    <a href="http://tympanus.net/Development/RainEffect/" target="_blank"><img src="./images/4.jpg" width="300px" /></a>
-
-- [Interactive Hover Effects with Three.js](https://github.com/akella/webgl-mouseover-effects)
-
-    <a href="https://tympanus.net/Tutorials/webgl-mouseover-effects/step3.html" target="_blank"><img src="./images/5.jpeg" width="300px" /></a>
-
-- [Raindrop FX](https://github.com/SardineFish/raindrop-fx) (inspired by the "[Rain & Water Effect Experiments](https://github.com/codrops/RainEffect)")
-
-    <a href="https://lab.sardinefish.com/rain/" target="_blank"><img src="./images/6.png" width="300px" /></a>
-
-- [Rock the Stage with a Smooth WebGL Shader Transformation on Scroll](https://github.com/Faboolea/shaders-on-scroll)
-
-    <a href="https://tympanus.net/Tutorials/ShadersOnScroll/" target="_blank"><img src="./images/7.jpg" width="300px" /></a>
+<table>
+  <tbody>
+     <tr>
+       <td><a href="https://github.com/dghez/THREEJS_Procedural-clouds" target="_blank"><b>Procedural Clouds Extending Three.js' Sprite</b></a></td>
+       <td><a href="https://github.com/akella/UnrollingImages" target="_blank"><b>Image Unroll Effects with Three.js</b></a></td>
+     </tr>
+     <tr>
+       <td><a href="http://tympanus.net/Tutorials/ProceduralClouds/" target="_blank"><img src="./images/1.jpeg" width="500px" /></a></td>
+       <td><a href="https://tympanus.net/Development/UnrollingImages/" target="_blank"><img src="./images/2.jpeg" width="500px" /></a></td>
+     </tr>
+     <tr>
+       <td><a href="https://github.com/lbebber/HeatDistortionEffect" target="_blank"><b>Animated Heat Distortion Effects with WebGL</b></a></td>
+       <td><a href="https://github.com/codrops/RainEffect" target="_blank"><b>Rain & Water Effect Experiments</b></a></td>
+     </tr>
+     <tr>
+       <td><a href="http://tympanus.net/Tutorials/HeatDistortionEffect/" target="_blank"><img src="./images/3.jpg" width="500px" /></a></td>
+       <td><a href="http://tympanus.net/Development/RainEffect/" target="_blank"><img src="./images/4.jpg" width="500px" /></a></td>
+     </tr>
+     <tr>
+       <td><a href="https://github.com/akella/webgl-mouseover-effects" target="_blank"><b>Interactive Hover Effects with Three.js</b></a></td>
+       <td><a href="https://github.com/SardineFish/raindrop-fx" target="_blank"><b>Raindrop FX</b></a> (inspired by the "<a href="https://github.com/codrops/RainEffect" target="_blank">Rain & Water Effect Experiments</a>")</td>
+     </tr>
+     <tr>
+       <td><a href="https://tympanus.net/Tutorials/webgl-mouseover-effects/step3.html" target="_blank"><img src="./images/5.jpeg" width="500px" /></a></td>
+       <td><a href="https://lab.sardinefish.com/rain/" target="_blank"><img src="./images/6.png" width="500px" /></a></td>
+     </tr>
+     <tr>
+       <td><a href="https://github.com/Faboolea/shaders-on-scroll" target="_blank"><b>Rock the Stage with a Smooth WebGL Shader Transformation on Scroll</b></a></td>
+     </tr>
+     <tr>
+       <td><a href="https://tympanus.net/Tutorials/ShadersOnScroll/" target="_blank"><img src="./images/7.jpg" width="500px" /></a></td>
+     </tr>
+  </tbody>
+</table>
