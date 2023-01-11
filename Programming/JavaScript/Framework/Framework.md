@@ -14,7 +14,8 @@ The following table is generated as per the classification of JavaScript framewo
 |         |[svg.js ](https://github.com/svgdotjs/svg.js)|[rellax](https://github.com/dixonandmoe/rellax) (parallel scrolling)|[anime](https://github.com/juliangarnier/anime)|
 |         |[dynamics.js](https://github.com/michaelvillar/dynamics.js)|[particles.js](https://github.com/VincentGarreau/particles.js) (particle animations)|[contour](https://github.com/JMPerez/contour) (drawing SVG)|
 |         |[sketch.js](https://github.com/soulwire/sketch.js)| | |
-|Bundle Tools|[**Webpack**](./webpack/webpack.md)|[parcel](https://github.com/parcel-bundler/parcel)|[vite](https://github.com/vitejs/vite) (for pure ES module)|
+|Bundle Tools|[**Webpack**](./webpack/webpack.md)|[parcel](https://github.com/parcel-bundler/parcel)|[vite](https://github.com/vitejs/vite)|
+|            |[esbuild](https://github.com/evanw/esbuild) (for pure ES module)|[rollup](https://github.com/rollup/rollup)| |
 |Widgets|[**Interact**](./Interact/Interact.md)|[ScrollMagic](https://github.com/janpaepke/ScrollMagic)|[watermarks](https://github.com/aleen42/watermarks)|
 |       |[Sortable](https://github.com/SortableJS/Sortable)|[PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)|[handsontablew](https://github.com/handsontable/handsontable)|
 |       |[split](https://github.com/nathancahill/split)|[clientjs](https://github.com/jackspirou/clientjs) (device information)|[downshift](https://github.com/downshift-js/downshift) (input components based on React)|
