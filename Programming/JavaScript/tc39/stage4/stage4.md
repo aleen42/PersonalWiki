@@ -1519,3 +1519,20 @@ Without this proposal, we may need to reverse it first:
 [1, 2, {a : 1}, {a : 1, b : 2}].reverse().find(item => item?.a === 1); // => {a: 1, b: 2}
 [1, 2, {a : 1}, {a : 1, b : 2}].reverse().findIndex(item => item?.a === 1); // => 3
 ```
+
+### 48. Hashbang Grammar
+
+> Author: Bradley Farias
+>
+> Expected Publication Year: 2023
+>
+> https://github.com/tc39/proposal-hashbang
+
+With this proposal, the JavaScript engine can unify and standardize the usages of Hashbang (`#!`), and we don't need to strip it before passing:
+
+```js
+#!/usr/bin/env node
+// JavaScript
+'use strit';
+console.log(1);
+```
