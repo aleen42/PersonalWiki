@@ -1565,3 +1565,27 @@ While [well-Known symbols](https://tc39.es/ecma262/multipage#sec-well-known-symb
 const weak = new WeakMap();
 weak.set(Symbol.iterator, {}); // OK
 ```
+
+### 50. Change Array by copy
+
+> Author: 	Ashley Claymore, Robin Ricard
+>
+> Expected Publication Year: 2023
+>
+> https://github.com/tc39/proposal-change-array-by-copy
+
+The proposal provides additional methods on `Array.prototype` and `TypedArray.prototype` to avoid changing on the array by returning a new copy of it with the change, in comparison with some methods which will touch the target like `Array.prototype.reverse()`, `Array.prototype.sort()`, `Array.prototype.splice()`, etc.
+
+```js
+const sequence = [1, 2, 3];
+sequence.toReversed(); // => [3, 2, 1]
+sequence; // => [1, 2, 3]
+
+const outOfOrder = new Uint8Array([3, 1, 2]);
+outOfOrder.toSorted(); // => Uint8Array [1, 2, 3]
+outOfOrder; // => Uint8Array [3, 1, 2]
+
+const correctionNeeded = [1, 1, 3];
+correctionNeeded.with(1, 2); // => [1, 2, 3]
+correctionNeeded; // => [1, 1, 3]
+```
