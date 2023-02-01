@@ -1536,3 +1536,32 @@ With this proposal, the JavaScript engine can unify and standardize the usages o
 'use strit';
 console.log(1);
 ```
+
+### 49. Symbols as WeakMap keys
+
+> Author: Daniel Ehrenberg, Richard Button, Robin Ricard, Leo Balter, Rick Waldron, Caridy Patiño
+>
+> Expected Publication Year: 2023
+>
+> https://github.com/tc39/proposal-symbols-as-weakmap-keys
+
+With this proposal, we add an item into the [`WeakMap`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap) with a key of [`Symbol`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol):
+
+```js
+const weak = new WeakMap();
+weak.set(Symbol('key'), { /* data */ });
+```
+
+Nevertheless, [registered symbols](https://tc39.es/ecma262/multipage#sec-symbol.for) are limited to use according to the [issue 21](https://github.com/tc39/proposal-symbols-as-weakmap-keys/issues/21):
+
+```js
+const weak = new WeakMap();
+weak.set(Symbol.for('a'), {}); // Throws "Uncaught TypeError: Invalid value used as weak map key"
+```
+
+While [well-Known symbols](https://tc39.es/ecma262/multipage#sec-well-known-symbols) are allowed:
+
+```js
+const weak = new WeakMap();
+weak.set(Symbol.iterator, {}); // OK
+```
