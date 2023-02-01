@@ -1492,3 +1492,30 @@ try {
                                        // =>     TypeError: Failed to fetch  
 }
 ```
+
+## ECMAScript 2023
+
+### 47. Array find from last
+
+> Author: Wenlu Wang
+>
+> Expected Publication Year: 2023
+>
+> https://github.com/tc39/proposal-array-find-from-last
+
+This proposal is for introducing two methods: `Array.prototype.findLast` and `Array.prototype.findLastIndex()`, with which we can find the last matched item and its index easily, in comparison with `Array.prototype.find()` and `Array.prototype.findIndex()`:
+
+```js
+[1, 2, {a : 1}, {a : 1, b : 2}].findLast(item => item?.a === 1); // => {a: 1, b: 2}
+[1, 2, {a : 1}, {a : 1, b : 2}].find(item => item?.a === 1); // => {a: 1}
+
+[1, 2, {a : 1}, {a : 1, b : 2}].findLastIndex(item => item?.a === 1); // => 3
+[1, 2, {a : 1}, {a : 1, b : 2}].findIndex(item => item?.a === 1); // => 2
+```
+
+Without this proposal, we may need to reverse it first:
+
+```js
+[1, 2, {a : 1}, {a : 1, b : 2}].reverse().find(item => item?.a === 1); // => {a: 1, b: 2}
+[1, 2, {a : 1}, {a : 1, b : 2}].reverse().findIndex(item => item?.a === 1); // => 3
+```
