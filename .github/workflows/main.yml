@@ -51,8 +51,8 @@ jobs:
       env:
         ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
     - name: Deploy
-      uses: aleen42/github-pages-deploy-action@master
-      env:
-        ACCESS_TOKEN: ${{secrets.ACTION_TOKEN}}
-        BRANCH: gh-pages
-        FOLDER: gh-pages
+      uses: JamesIves/github-pages-deploy-action@v4.2.5
+      with:
+        single-commit: true
+        branch: gh-pages
+        folder: gh-pages
