@@ -462,6 +462,8 @@
                         * [Fetch metadata request headers](Network/Application/http/fetch_metadata_headers/fetch_metadata_headers.md)
                 * [DNS](Network/Application/dns/dns.md)
                 * [RPC](Network/Application/rpc/rpc.md)
+                * Practices
+                    * [Web Communication](Network/Application/web/web.md)
             * [Transport Layer](Network/Transport/Transport.md)
                 * [Out of band(OOB, 帶外數據)](Network/Transport/OOB/OOB.md)
             * Network Layer

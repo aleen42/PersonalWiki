@@ -37,6 +37,7 @@ Or if you are advanced in this, you may be interested at [Ecma International, Te
 * [**Generator**](./generator/generator.md)
 * [**Reflect**](./reflect/reflect.md)
 * [**Atomics**](./atomics/atomics.md)
+* [**Web Communication**](../../Network/Application/web/web.md)
 
 #### Advanced
 
