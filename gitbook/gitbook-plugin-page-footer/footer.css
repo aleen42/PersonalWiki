@@ -1,0 +1,217 @@
+/**
+ * Common Parts
+ */
+
+.footer {
+	margin-top: 50px;
+	padding: 10px 0 80px;
+	font-size: 12px;
+	position: relative
+}
+
+.paragraph {
+	margin: 0 !important;
+	line-height: normal !important;
+}
+
+.super {
+	font-size: 0.8em !important;
+	margin-left: 5px !important;
+}
+
+.box__issues {
+	margin-top: 50px !important;
+	text-align: center !important;
+}
+
+.issue-line {
+	width: 50%;
+	height: 0;
+	display: inline-block;
+	border-bottom: 1px solid var(--color-book-border, rgba(255, 255, 255, 0.2));
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+.issue-header {
+	font-size: 1.4em;
+	height: 1.4em;
+	position: relative;
+	top: -0.7em;
+	display: inline-block;
+	padding: 0 10px;
+	margin: 0 auto;
+	background-color: var(--color-bg-primary, #fff);
+}
+
+.issue-label {
+    float: right;
+    padding: 0 3px !important;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.issue-label {
+    --lightness-threshold: 0.453;
+    --border-threshold: 0.96;
+    --border-alpha: max(0,min(calc(var(--perceived-lightness)*100 - var(--border-threshold)*100),1));
+    background: rgb(var(--label-r),var(--label-g),var(--label-b));
+    border: 1px solid hsla(var(--label-h),calc(var(--label-s)*1%),calc((var(--label-l) - 25)*1%),var(--border-alpha));
+    color: hsl(0,0%,calc(var(--lightness-switch)*100%));
+    --perceived-lightness: calc(var(--label-r) * 0.2126 / 255 + var(--label-g) * 0.7152 / 255 + var(--label-b) * 0.0722 / 255);
+    --lightness-switch: max(0, min(calc(var(--perceived-lightness) * -1000 - var(--lightness-threshold) * -1000), 1));
+}
+
+[data-color-mode=dark] .issue-label {
+    --lightness-threshold: 0.6;
+    --background-alpha: 0.18;
+    --border-alpha: 0.3;
+    --lighten-by: calc((var(--lightness-threshold) * 100 - var(--perceived-lightness) * 100) * var(--lightness-switch));
+    background: rgba(var(--label-r), var(--label-g), var(--label-b), var(--background-alpha));
+    border: 1px solid hsla(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%), var(--border-alpha));
+    color: hsl(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) + var(--lighten-by)) * 1%));
+}
+
+.issue-edge {
+	border-top: 1px solid var(--color-book-border, rgba(255, 255, 255, 0.2));
+}
+
+.issues {
+	margin: 0 !important;
+	text-align: left;
+}
+
+@media screen and (min-width: 720px) {
+	.issue-edge {
+		width: 60%;
+		margin: 0 0 auto 100px !important;
+	}
+
+	.issues {
+		padding: 10px 60px !important;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.issue-edge {
+		width: 30%;
+		margin: 0 0 auto 20px !important;
+	}
+
+	.issues {
+		padding: 10px !important;
+	}
+}
+
+/**
+ *
+ *
+ *
+ * Normal Style
+ *
+ *
+ *
+ *
+ */
+
+.footer__container--normal {
+	display: flex !important;
+}
+
+.footer__description--normal {
+	margin: 0 10px !important;
+	vertical-align: top !important;
+	flex: 1;
+	position: relative;
+}
+
+.footer__author--normal {
+	font-size: 2em !important;
+	border-bottom: 1px solid var(--color-book-border, rgba(255, 255, 255, 0.2));
+	padding-bottom: 10px;
+}
+
+.footer__quote--normal {
+	word-break: break-all;
+	padding: 10px 0;
+}
+
+.footer__modifyTime--normal {
+	float: right;
+}
+
+.footer__main--normal {
+	float: right;
+	font-size: 12px !important;
+}
+
+.footer__main__paragraph--normal {
+	margin: 3px 0 !important;
+}
+
+/**
+ *
+ *
+ *
+ * Symmetrical Style
+ *
+ *
+ *
+ *
+ */
+
+.footer__container--symmetrical {
+	text-align: center !important;
+}
+
+.footer__description--symmetrical {
+	padding: 0 10px !important;
+	vertical-align: top !important;
+	flex: 1;
+}
+
+.footer__author--symmetrical {
+	font-size: 2em !important;
+	padding-left: 0.8em !important;
+	border-bottom: 1px solid var(--color-book-border, rgba(255, 255, 255, 0.2));
+	padding-bottom: 10px;
+}
+
+.footer__modifyTime--symmetrical {
+	float: right;
+}
+
+@media screen and (min-width: 720px) {
+	/* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
+	.footer__quote--symmetrical {
+		margin-top: 10px !important;
+	}
+	.footer__main--symmetrical {
+		position: absolute;
+		right: 0;
+		font-size: 12px !important;
+		text-align: right;
+		bottom: 0;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	/* styles applied when the page/app is viewed on a screen with a width greater than or equal to 720px */
+	.footer__quote--symmetrical {
+		display: none;
+	}
+	.footer__main--symmetrical {
+		font-size: 12px !important;
+		margin-top: 10px !important;
+		text-align: right;
+	}
+}
+
+.footer__main__paragraph--symmetrical {
+	margin: 3px 0 !important;
+}
+
+.footer svg > path {
+	fill: var(--color-text-primary, #24292f);
+}

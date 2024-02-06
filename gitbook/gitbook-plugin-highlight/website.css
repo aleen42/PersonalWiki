@@ -1,0 +1,88 @@
+@import "light.css";
+@import "dark.css";
+.markdown-section pre {
+  background-color: var(--color-bg-tertiary);
+}
+.markdown-section code {
+  background-color: var(--color-markdown-code-bg);
+}
+.markdown-section pre,
+.markdown-section code {
+  color: var(--color-text-primary);
+}
+.markdown-section pre .hljs-comment,
+.markdown-section code .hljs-comment,
+.markdown-section pre .hljs-quote,
+.markdown-section code .hljs-quote {
+  color: var(--color-prettylights-syntax-comment);
+}
+.markdown-section pre .hljs-variable,
+.markdown-section code .hljs-variable,
+.markdown-section pre .hljs-template-variable,
+.markdown-section code .hljs-template-variable,
+.markdown-section pre .hljs-selector-id,
+.markdown-section code .hljs-selector-id,
+.markdown-section pre .hljs-selector-class,
+.markdown-section code .hljs-selector-class,
+.markdown-section pre .hljs-regexp,
+.markdown-section code .hljs-regexp,
+.markdown-section pre .hljs-deletion,
+.markdown-section code .hljs-deletion,
+.markdown-section pre .hljs-keyword,
+.markdown-section code .hljs-keyword,
+.markdown-section pre .hljs-selector-tag,
+.markdown-section code .hljs-selector-tag {
+  color: var(--color-prettylights-syntax-keyword);
+}
+.markdown-section pre .hljs-name,
+.markdown-section code .hljs-name {
+  color: var(--color-prettylights-syntax-entity-tag);
+}
+.markdown-section pre .hljs-attr,
+.markdown-section code .hljs-attr,
+.markdown-section pre .hljs-attribute,
+.markdown-section code .hljs-attribute,
+.markdown-section pre .hljs-literal,
+.markdown-section code .hljs-literal,
+.markdown-section pre .hljs-number,
+.markdown-section code .hljs-number,
+.markdown-section pre .hljs-property,
+.markdown-section code .hljs-property {
+  color: var(--color-prettylights-syntax-constant);
+}
+.markdown-section pre .hljs-string,
+.markdown-section code .hljs-string,
+.markdown-section pre .hljs-symbol,
+.markdown-section code .hljs-symbol,
+.markdown-section pre .hljs-bullet,
+.markdown-section code .hljs-bullet,
+.markdown-section pre .hljs-addition,
+.markdown-section code .hljs-addition {
+  color: var(--color-prettylights-syntax-string);
+}
+.markdown-section pre .hljs-title,
+.markdown-section code .hljs-title,
+.markdown-section pre .hljs-section,
+.markdown-section code .hljs-section,
+.markdown-section pre .hljs-built_in,
+.markdown-section code .hljs-built_in {
+  color: var(--color-prettylights-syntax-entity);
+}
+.markdown-section pre .hljs-title.class_,
+.markdown-section code .hljs-title.class_ {
+  color: var(--color-prettylights-syntax-variable);
+}
+.markdown-section pre .hljs,
+.markdown-section code .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+}
+.markdown-section pre .hljs-emphasis,
+.markdown-section code .hljs-emphasis {
+  font-style: italic;
+}
+.markdown-section pre .hljs-strong,
+.markdown-section code .hljs-strong {
+  font-weight: bold;
+}
