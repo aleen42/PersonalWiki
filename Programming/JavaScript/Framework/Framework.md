@@ -100,6 +100,10 @@ The following table is generated as per the classification of JavaScript framewo
 |            |[terser](https://github.com/terser/terser) (ES6+)|[babel-minify](https://github.com/babel/minify) (Babel's toolchain)|[optimize-js](https://github.com/nolanlawson/optimize-js)|
 |            |[javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator)| | |
 |Template|[nunjucks](https://github.com/mozilla/nunjucks)|[handlebars.js](https://github.com/wycats/handlebars.js)|[mustache.js](https://github.com/janl/mustache.js)|
+|        |[ember.js](https://github.com/emberjs/ember.js)|[squirrelly](https://github.com/squirrellyjs/squirrelly)|[Pug](https://github.com/pugjs/pug)|
+|        |[ejs](https://github.com/mde/ejs)|[Nunjucks](https://github.com/mozilla/nunjucks)|[backbonejs](https://github.com/jashkenas/backbone)|
+|        |[marko](https://github.com/marko-js/marko)|[moustache.js](https://github.com/janl/mustache.js)|[doT](https://github.com/olado/doT)|
+|        |[hogan.js](https://github.com/twitter/hogan.js)|[Template7](https://github.com/nolimits4web/template7) (Mobile-first template engine)| |
 |Test|[mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai)|[jest](https://github.com/facebook/jest)|[jasmine](https://github.com/jasmine/jasmine), [karma](https://github.com/karma-runner/karma)|
 |    |[dom-testing-library](https://github.com/testing-library/dom-testing-library)|[cypress](https://github.com/cypress-io/cypress) (end to end)|[puppeteer](https://github.com/GoogleChrome/puppeteer) (end to end)|
 |    |[lighthouse](https://github.com/GoogleChrome/lighthouse) (UX performance)|[rrweb](https://github.com/rrweb-io/rrweb) (record and replay)|[playwright](https://github.com/microsoft/playwright)|
