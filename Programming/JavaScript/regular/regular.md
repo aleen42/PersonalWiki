@@ -18,6 +18,7 @@ Before learning, here is a list of tools for working with Regular Expressions:
 - [**RegexPal** (Online)](http://regexpal.com)
 - [**RegexMagic**](http://www.regexmagic.com/RegexMagicCookbook.exe)
 - [**regex.larsolavtorvik.com** (Online)](http://regex.larsolavtorvik.com/)
+- [**Cyrilex** (Online)](https://extendsclass.com/regex-tester.html)
 - ...
 
 Now, we start to talk about Regular Expressions in JavaScript with a category:
